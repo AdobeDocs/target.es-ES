@@ -4,10 +4,10 @@ description: Explore una lista de preguntas frecuentes y respuestas acerca del A
 title: ¿Dónde puedo encontrar respuestas a preguntas sobre [!DNL Target] ¿Reportando?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ Algunos visitantes accedieron a la métrica de conversión, que se configuró co
 
 Las actividades XT siempre deben tener una experiencia de control. Si utiliza una actividad XT de manera similar a una actividad de [!UICONTROL prueba A/B], que es algo bastante común, los datos de experiencia de control le serán útiles. Puede ignorar los datos de experiencia de control si no los considera útiles en sus informes.
 
-## ¿Por qué el número de visitas es menor en [!DNL Target] que en otras soluciones de [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## ¿Por qué el número de visitas es menor en [!DNL Target] que en otros [!DNL Adobe Experience Cloud] soluciones? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Números de métricas que recoge, por ejemplo, visitas [!DNL Target] son siempre inferiores a los números notificados en otros [!DNL Experience Cloud] soluciones de por varios motivos:
 
@@ -87,7 +87,7 @@ Si el contenido de una actividad se entregó correctamente a los usuarios, pero 
 
 Para cambiar el entorno en el informe de una actividad:
 
-1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
+1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes]**.
 1. Haga clic en el icono del engranaje para definir la configuración del informe.
 
    ![Cuadro de diálogo Configuración A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -104,7 +104,7 @@ Para obtener más información sobre los entornos, consulte [Hosts](/help/main/a
 
 Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, asegúrese de utilizar una experiencia con tráfico como experiencia de control.
 
-1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes.]**
+1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes]**.
 1. Haga clic en el icono del engranaje para definir la configuración del informe.
 
 1. Desde el **[!UICONTROL Control]** , seleccione una experiencia que reciba tráfico.

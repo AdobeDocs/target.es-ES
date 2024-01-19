@@ -5,10 +5,10 @@ title: ¿Cómo baso la recomendación en una clave de recomendación?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 37%
+source-wordcount: '4013'
+ht-degree: 34%
 
 ---
 
@@ -34,7 +34,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en diferentes
 
 ## Basado en el carro {#cart-based}
 
-El [!UICONTROL Basado en el carro] el tipo de algoritmo permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan mediante [Parámetro de mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+El [!UICONTROL Basado en el carro] el tipo de algoritmo permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan mediante [Parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar a &quot;[!UICONTROL Recomendado para usted]&quot; algoritmo basado en el usuario y al &quot;[!UICONTROL Los ususarios que vieron esto, compraron aquello.]&quot; y &quot;[!UICONTROL Los ususarios que compraron estos, compraron aquellos]&quot; algoritmos basados en elementos.
 
@@ -44,11 +44,11 @@ La lógica de recomendación basada en el carro de compras es similar a &quot;[!
 
 * **[!UICONTROL Sesión única]**: en función de lo que hicieron otros visitantes en una sola sesión.
 
-   Observar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; los unos a los otros en función de un uso, una ocasión o un evento. Por ejemplo, un visitante está comprando una impresora y también podría necesitar tinta y papel. O bien, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
+  Observar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; los unos a los otros en función de un uso, una ocasión o un evento. Por ejemplo, un visitante está comprando una impresora y también podría necesitar tinta y papel. O bien, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
 
 * **[!UICONTROL Entre sesiones]**: en función de lo que hicieron otros visitantes en varias sesiones.
 
-   Observar el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos se &quot;acompañan&quot; mutuamente en función de las preferencias o los gustos de los visitantes. Por ejemplo, a un visitante le gusta Star Wars y puede que también le guste Indiana Jones, aunque el visitante no quiera necesariamente ver ambas películas en la misma sesión. O bien, a un visitante le gusta el juego de mesa &quot;Codenames&quot; y también le puede gustar el juego de mesa &quot;Avalon&quot;, incluso si el visitante no puede jugar ambos juegos simultáneamente. 
+  Observar el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos se &quot;acompañan&quot; mutuamente en función de las preferencias o los gustos de los visitantes. Por ejemplo, a un visitante le gusta Star Wars y puede que también le guste Indiana Jones, aunque el visitante no quiera necesariamente ver ambas películas en la misma sesión. O bien, a un visitante le gusta el juego de mesa &quot;Codenames&quot; y también le puede gustar el juego de mesa &quot;Avalon&quot;, incluso si el visitante no puede jugar ambos juegos simultáneamente. 
 
 [!DNL Target] realiza recomendaciones para cada visitante basadas en los elementos de su carro de compras actual, independientemente de si observa el comportamiento del visitante en una sola sesión o en varias.
 
@@ -258,10 +258,10 @@ El algoritmo de artículos vistos recientemente devuelve el resultado específic
 >
 >No puede usar el [!UICONTROL Artículos vistos recientemente] criterios para recomendaciones de copia de seguridad.
 
-Los elementos/medios vistos recientemente se pueden filtrar para que solo se muestren los elementos con un atributo en particular.
+[!UICONTROL Artículos vistos recientemente]/Media se puede filtrar para que solo se muestren los elementos con un atributo en particular.
 
 * Los criterios visualizados recientemente se pueden configurar, como otros criterios en las recomendaciones.
-* Puede usar [colecciones](/help/main/c-recommendations/c-products/collections.md), [exclusiones](/help/main/c-recommendations/c-products/exclusions.md) e [inclusiones](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluyendo las reglas especiales para Precio e Inventario) de la misma forma que cualquier otro criterio.
+* Puede utilizar [colecciones](/help/main/c-recommendations/c-products/collections.md), [exclusiones](/help/main/c-recommendations/c-products/exclusions.md), y [inclusiones](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluidas las reglas especiales para Precio e Inventario) de la misma manera que cualquier otro criterio.
 
 Los posibles casos de uso incluyen, una compañía multinacional con varios negocios puede tener un visitante que vea elementos en varias propiedades digitales. En este caso, se pueden limitar los elementos vistos recientemente para que solo se muestren en relación con la propiedad respectiva en la que se visualizaron. Esto evita que los elementos vistos recientemente se muestren en el sitio de otra propiedad digital.
 
@@ -308,7 +308,7 @@ Esta funcionalidad significa que puede utilizar [!DNL Target] para agregar una p
 Con la adición de reglas de inclusión en Criterios personalizados, convierte las recomendaciones estáticas en recomendaciones dinámicas basadas en los intereses de los visitantes.
 
 * Los criterios personalizados se pueden configurar, como otros criterios en las recomendaciones.
-* Puede usar [colecciones](/help/main/c-recommendations/c-products/collections.md), [exclusiones](/help/main/c-recommendations/c-products/exclusions.md) e [inclusiones](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluyendo las reglas especiales para Precio e Inventario) de la misma forma que cualquier otro criterio.
+* Puede utilizar [colecciones](/help/main/c-recommendations/c-products/collections.md), [exclusiones](/help/main/c-recommendations/c-products/exclusions.md), y [inclusiones](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluidas las reglas especiales para Precio e Inventario) de la misma manera que cualquier otro criterio.
 
 Los posibles casos de uso incluyen:
 
@@ -361,7 +361,7 @@ Utilice el [!UICONTROL Último artículo comprado] clave de recomendaciones del 
 Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película que agregó un visitante recientemente a su cola.
 
 1. Seleccione su atributo de perfil personalizado de la **[!UICONTROL Clave de recomendación]** lista desplegable (por ejemplo, &quot;Última visualización agregada a la lista de observación&quot;).
-1. A continuación, seleccione la lógica **[!UICONTROL de recomendación]** (por ejemplo, &quot;Personas que vieron esto, Vieron aquello&quot;).
+1. A continuación, seleccione su **[!UICONTROL Lógica de recomendación]** (por ejemplo, &quot;Las personas que vieron esto, vieron aquello&quot;).
 
    ![Crear nuevo cuadro de diálogo de criterios](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
@@ -369,7 +369,7 @@ Si el atributo de perfil personalizado no coincide directamente con un ID de ent
 
 1. Seleccione su atributo de perfil personalizado de la **[!UICONTROL Clave de recomendación]** lista desplegable (por ejemplo, &quot;Marca favorita&quot;).
 
-1. A continuación, seleccione **[!UICONTROL la lógica]** de recomendación que desee utilizar con esta clave (por ejemplo, &quot;Principales vendedores&quot;).
+1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** que desee utilizar con esta clave (por ejemplo, &quot;Principales vendedores&quot;).
 
    Se muestra [!UICONTROL la] opción Agrupar por valor único de.
 

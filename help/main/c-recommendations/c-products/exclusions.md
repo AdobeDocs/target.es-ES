@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear exclusiones en Adobe [!DNL T
 title: ¿Cómo utilizo las exclusiones en las actividades de Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 44%
+source-wordcount: '619'
+ht-degree: 34%
 
 ---
 
@@ -33,19 +33,19 @@ A continuación, mostramos algunos ejemplos de uso de exclusiones:
 
 ## Creación de una exclusión
 
-1. Haga clic en **[!UICONTROL Recomendaciones]** > **[!UICONTROL Exclusiones]** para visualizar la lista de exclusiones existentes.
+1. Clic **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusiones]** para mostrar la lista de exclusiones existentes.
 
    ![imagen exclusions_list](assets/exclusions_list.png)
 
-   El “Número de elementos” registrado para cada exclusión en la vista de la lista [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es).{target=_blank}
+   El “Número de elementos” registrado para cada exclusión en la vista de la lista [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para cambiar el grupo de hosts predeterminado.
 
-1. Haga clic en **[!UICONTROL Crear exclusión]**.
+1. Clic **[!UICONTROL Crear exclusión]**.
 
-1. (Condicional) Elija un entorno del filtro **[!UICONTROL Entorno]** mientras crea (o actualiza) una exclusión para obtener una vista previa del contenido de la exclusión en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
+1. (Condicional) Elija un entorno de la **[!UICONTROL Entorno]** filtre al crear (o actualizar) una exclusión para previsualizar el contenido de la exclusión en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
 
    ![Crear exclusión](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Escriba un **[!UICONTROL Nombre]** de exclusión e introduzca una descripción opcional.
+1. Escriba una exclusión **[!UICONTROL Nombre]** e introduzca una descripción opcional.
 
 1. Utilice el generador de reglas para crear las exclusiones.
 

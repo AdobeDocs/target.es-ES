@@ -2,19 +2,19 @@
 keywords: colección;Segmentación
 description: Aprenda a utilizar las colecciones en Adobe [!DNL Target] Recommendations. Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación.
 title: ¿Cómo utilizo las colecciones en las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 52%
 
 ---
 
 # Colecciones
 
-Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación. Una colección se define especificando las condiciones que deben cumplir los elementos para formar parte de ella.
+Una colección es un conjunto de productos o artículos que cumplen los requisitos para ser mostrados como recomendación. Una colección se define especificando las condiciones que deben cumplir los elementos para formar parte de ella.
 
 Normalmente, una colección es un conjunto de artículos similares o relacionados, como una única colección de productos. Sin embargo, puede agrupar cualquier artículo en una categoría que tenga sentido para su negocio, como los productos de un determinado rango de precios o color o los artículos que pueden ser interesantes en una determinada área geográfica.
 
@@ -34,11 +34,11 @@ Al crear o editar una actividad de [!DNL Recommendations], el nombre de la colec
 >
 >Las colecciones no se aplican al utilizar la clave de recomendación [!UICONTROL Artículos vistos recientemente].
 
-## Creación de una colección {#task_1256DFF6842141FCAADD9E1428EF7F08}
+## Crear una colección {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 Cree una colección para organizar los productos o el contenido que desea mostrar en las recomendaciones.
 
-1. Haga clic en **[!UICONTROL Recomendaciones]** > **[!UICONTROL Colecciones]** para visualizar la lista de colecciones existentes.
+1. Clic **[!UICONTROL Recommendations]** > **[!UICONTROL Colecciones]** para mostrar la lista de colecciones existentes.
 
    ![Lista de colecciones](assets/collections_list.png)
 
@@ -46,17 +46,17 @@ Cree una colección para organizar los productos o el contenido que desea mostra
 
    ![Iconos de desplazamiento: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es).{target=_blank}
+   El “Número de elementos” registrado para cada colección en la vista de la lista [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el [grupo de hosts](/help/main/administrating-target/hosts.md) (entorno) configurado como predeterminado en Recommendations. Consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para cambiar el grupo de hosts predeterminado.
 
-1. Haga clic en **[!UICONTROL Crear colección]**.
+1. Clic **[!UICONTROL Crear colección]**.
 
-1. (Condicional) Elija un entorno del filtro **[!UICONTROL Entorno]** mientras crea (o actualiza) una colección para obtener una vista previa del contenido de dicha colección en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
+1. (Condicional) Elija un entorno de la **[!UICONTROL Entorno]** filtre mientras crea (o actualiza) una colección para obtener una vista previa del contenido de la colección en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
 
    ![Crear una colección](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Introduzca un **[!UICONTROL Nombre]** para la colección.
+1. Escriba un **[!UICONTROL Nombre]** para la colección.
 
-   También puede escribir una **[!UICONTROL Descripción opcional]**.
+   También puede escribir una **[!UICONTROL Descripción]** opcional.
 
 1. Defina las reglas que se usarán para compilar la colección.
 

@@ -2,14 +2,14 @@
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
 description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos del Adobe [!DNL Target] catálogo Recommendations.
 title: ¿Cómo utilizo los atributos de entidad personalizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 88%
+source-wordcount: '1454'
+ht-degree: 82%
 
 ---
 
@@ -63,15 +63,15 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 
 ## Implementación de atributos de varios valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`y la API de envío para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ([]) se tratan como si no tuvieran valores.
+Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`y la API de envío para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Matrices vacías ( [] ) se tratan como si no tuvieran valores.
 
 Las comillas dobles se deben escapar. Por ejemplo, `"[""test"", ""value""]"` es una matriz JSON válida que se pueden usar en CSV.
 
 Puede incluir hasta 500 valores en un atributo multivalor.
 
-### Usar targetPageParams
+### Uso de targetPageParams
 
-En el siguiente ejemplo vemos cómo se utiliza  `targetPageParams`
+El siguiente ejemplo muestra cómo utilizar `targetPageParams`
 
 ```javascript
 function targetPageParams() { 
@@ -88,7 +88,7 @@ function targetPageParams() {
 }
 ```
 
-### Usar CSV
+### Uso del CSV
 
 Puede administrar los archivos CSV sin procesar mediante un editor de texto o usar un programa de hojas de cálculo.
 
@@ -107,7 +107,7 @@ Al convertir al formato .csv, el programa de hojas de cálculo encierra entre co
 
 Tenga cuidado al editar directamente un archivo CSV de catálogo sin procesar.
 
-### Usar API
+### Uso de API
 
 Puede pasar atributos de varios valores utilizando la API de entrega en un parámetro de mbox como un valor de cadena que contiene una matriz JSON de escape.
 
@@ -127,19 +127,18 @@ Puede pasar atributos de varios valores utilizando la API de entrega en un pará
   }
 ```
 
-Consulte la [documentación de la API Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para obtener información sobre
-el uso de las API Entrega y Guardar entidades.
+Consulte la [Documentación de API de Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Al aplicar operadores a atributos personalizados de varios valores en reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión, el resultado es *true* si al menos un valor de la lista cumple el criterio de la operación (booleano *OR*).
 
-En el ejemplo siguiente, la regla es  `message contains abc`.
+En el ejemplo siguiente, la regla es `message contains abc`.
 
 * Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor contiene `abc`.
 * Caso 2: `entity.genre = ["abcde","de","ef"]`. El resultado es true porque un valor contiene `abc`.
 
-En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es  `notEquals`, el resultado será *false* si algún valor coincide.
+En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es `notEquals`, el resultado será *false* si algún valor coincide.
 
 Consulte las secciones siguientes para ver el comportamiento del operador en las reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión.
 
@@ -204,7 +203,7 @@ Ejemplo: `genre ends with abc`
 
 El valor de atributo se convierte en el doble. Los atributos que no se pueden convertir se pasan por alto al ejecutar la regla.
 
-Tras el procesamiento, los valores mayores o iguales que el valor de entrada dan el resultado true.
+Después del procesamiento, cualquier valor de atributo mayor o igual que el valor de entrada da el resultado true.
 
 Ejemplo: `price greater than or equal to 100`
 
@@ -215,7 +214,7 @@ Ejemplo: `price greater than or equal to 100`
 
 El valor de atributo se convierte en el doble. Los atributos que no se pueden convertir se pasan por alto al ejecutar la regla.
 
-Tras el procesamiento, los valores menores o iguales que el valor de entrada dan el resultado true.
+Después del procesamiento, cualquier valor de atributo menor o igual que el valor de entrada da el resultado true.
 
 Ejemplo: `price less than or equal to 100`
 

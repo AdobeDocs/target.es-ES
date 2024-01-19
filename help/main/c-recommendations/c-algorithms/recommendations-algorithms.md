@@ -2,14 +2,14 @@
 keywords: algoritmos de recomendaciones;formación sobre modelos;servicio de modelos;entrega de contenido;basado en elementos;basado en usuarios;basado en popularidad;basado en el carro de compras;criterios personalizados
 description: Obtenga información acerca de los algoritmos utilizados en [!DNL Target Recommendations], incluidos la formación y el servicio de modelos.
 title: ¿Dónde puedo obtener información acerca de la ciencia detrás de los algoritmos Recommendations de Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2842'
-ht-degree: 1%
+source-wordcount: '2832'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ El flujo lógico de la implementación del algoritmo real se muestra en el sigui
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: Datos de comportamiento en forma de vistas y compras de visitantes recopilados al [implementación de Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Datos de entrada**: Datos de comportamiento en forma de vistas y compras de visitantes recopilados al [implementación de Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -89,7 +89,7 @@ Aunque el modelo sirve y entrega de contenido aspectos de [!DNL Target]Los algor
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: Como se ha descrito anteriormente, este algoritmo se basa exclusivamente en los datos del catálogo (introducidos en [!DNL Target] mediante una [Fuente de catálogo, API de entidades o desde actualizaciones en la página](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+* **Datos de entrada**: Como se ha descrito anteriormente, este algoritmo se basa exclusivamente en los datos del catálogo (introducidos en [!DNL Target] mediante una [Fuente de catálogo, API de entidades o desde actualizaciones en la página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -98,15 +98,15 @@ Los detalles de estos pasos son los siguientes:
    * **Creación de n-gramas**: Después de los pasos anteriores, cada palabra se trata como un token. El proceso de combinar secuencias contiguas de tokens en un único token se denomina creación de n-gramas. [!DNL Target]Los algoritmos de consideran hasta 2 gramos.
    * **cálculo de tf-idf**: El siguiente paso implica la creación de vectores tf-idf para reflejar la importancia relativa de los tokens en la descripción del elemento. Para cada token/término t de un elemento i, en un ID de catálogo con |D| elementos, el término frecuencia TF(t, i) se calcula primero (el número de veces que el término aparece en el elemento i), así como la frecuencia del documento DF(t, D). En esencia, el número de elementos donde existe el token. La medida tf-idf es entonces
 
-      ![Fórmula que muestra la medida tf-idf](assets/formula2.png)
+     ![Fórmula que muestra la medida tf-idf](assets/formula2.png)
 
-      [!DNL Target] utiliza Apache Spark *tf-idf* implementación de funcionalidades, que bajo el capó vincula cada token con un espacio de 218 tokens. En este paso, también se aplica la ampliación y el enterramiento de atributos especificados por el cliente ajustando las frecuencias de los términos en cada vector en función de la configuración especificada en la variable [criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+     [!DNL Target] utiliza Apache Spark *tf-idf* implementación de funcionalidades, que bajo el capó vincula cada token con un espacio de 218 tokens. En este paso, también se aplica la ampliación y el enterramiento de atributos especificados por el cliente ajustando las frecuencias de los términos en cada vector en función de la configuración especificada en la variable [criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Cálculo de similitud de elemento**: el cálculo de similitud del elemento final se realiza mediante una similitud de coseno aproximada. Para dos elementos, *A* y *B*, con los vectores tA y tB, la similitud del coseno se define como:
 
-      ![Fórmula que muestra el cálculo de similitud de artículos](assets/formula3.png)
+     ![Fórmula que muestra el cálculo de similitud de artículos](assets/formula3.png)
 
-      Para evitar una complejidad significativa al calcular similitudes entre todos los elementos N x N, la variable *tf-idf* el vector se trunca para contener sólo sus 500 entradas más grandes y, a continuación, calcular las similitudes de coseno entre los elementos utilizando esta representación vectorial truncada. Este enfoque resulta más robusto para cálculos de similitud de vectores dispersos, en comparación con otras técnicas aproximadas de vecino más cercano (ANN), como el hashing sensible a la localidad.
+     Para evitar una complejidad significativa al calcular similitudes entre todos los elementos N x N, la variable *tf-idf* el vector se trunca para contener sólo sus 500 entradas más grandes y, a continuación, calcular las similitudes de coseno entre los elementos utilizando esta representación vectorial truncada. Este enfoque resulta más robusto para cálculos de similitud de vectores dispersos, en comparación con otras técnicas aproximadas de vecino más cercano (ANN), como el hashing sensible a la localidad.
 
    * **Servicio de modelo**: Este proceso es idéntico a las técnicas de filtrado colaborativo elemento-elemento descritas en la sección anterior.
 
@@ -127,7 +127,7 @@ La lógica del aprendizaje del modelo y los pasos de puntuación se muestran en 
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: Es idéntico a los métodos de filtrado colaborativo (CF) entre elementos. [!UICONTROL Ambos Recomendados Para Usted] y los algoritmos basados en el carro de compras utilizan datos de comportamiento en forma de vistas y compras de usuarios recopilados al [implementación de Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Datos de entrada**: Es idéntico a los métodos de filtrado colaborativo (CF) entre elementos. [!UICONTROL Ambos Recomendados Para Usted] y los algoritmos basados en el carro de compras utilizan datos de comportamiento en forma de vistas y compras de usuarios recopilados al [implementación de Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -135,14 +135,13 @@ Los detalles de estos pasos son los siguientes:
    * **División de prueba del tren**: realice una división cronológica de los usos de cada usuario, asignando el primer 80 % de sus usos a los datos de formación, y el 20 % restante a los datos de prueba.
    * **Formación del modelo de similitud de elementos**: el cálculo de similitud de elementos principales difiere para [!UICONTROL Recomendado para usted] y los algoritmos basados en el carro de compras en la forma en que se construyen los vectores de elementos candidatos. Para [!UICONTROL Recomendado para usted]Sin embargo, los vectores de elementos tienen usuarios NU de dimensión, donde cada entrada representa la suma de clasificaciones implícitas para ese usuario del elemento: las compras de un elemento tienen un peso del doble que las vistas del elemento. Para las recomendaciones basadas en el carro de compras, los vectores de elementos tienen entradas binarias; si solo se debe considerar el comportamiento dentro de la sesión, hay una nueva entrada para cada sesión. De lo contrario, hay una entrada en este vector de elemento para cada visitante.
 
-   El paso de formación calcula varios tipos de similitudes vectoriales: Similitud LLR ([discutido aquí](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similitud de coseno (definida anteriormente) y una similitud de L2 normalizada, definida como:
+  El paso de formación calcula varios tipos de similitudes vectoriales: Similitud LLR ([discutido aquí](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similitud de coseno (definida anteriormente) y una similitud de L2 normalizada, definida como:
 
-   ![Fórmula que muestra cálculo de formación](assets/formula4.png)
+  ![Fórmula que muestra cálculo de formación](assets/formula4.png)
 
    * **Evaluación del modelo de similitud de elementos**: la evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y haciendo predicciones sobre el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de los elementos de cada usuario en el conjunto de datos de prueba y, a continuación, realizando 100 recomendaciones para subconjuntos de elementos ordenados en un intento de predecir vistas y compras posteriores. Una métrica de recuperación de información, la [Precisión media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) se utiliza para evaluar la calidad de estas recomendaciones. Esta métrica tiene en cuenta el orden de las recomendaciones y favorece los elementos relevantes que están más arriba en la lista de recomendaciones, lo que es una propiedad importante para los sistemas de clasificación.
    * **Selección de modelo**: después de la evaluación sin conexión, se selecciona el modelo que tiene la precisión media media más alta y se calculan todas las recomendaciones de elementos individuales para él.
    * **Filtrado sin conexión**: la etapa final del aprendizaje del modelo es la aplicación de cualquier filtro dinámico aplicable. Después de este paso, las recomendaciones precalculadas se almacenan en la caché global para que estén disponibles para su servicio.
-
 
 * **Servicio de modelo**: A diferencia de los algoritmos anteriores en los que las recomendaciones de servicio implican la especificación de una sola clave para la recuperación, seguida de la aplicación de reglas empresariales, la variable [!UICONTROL Recomendado para usted] y los algoritmos basados en el carro de compras emplean un proceso de tiempo de ejecución más complejo.
 

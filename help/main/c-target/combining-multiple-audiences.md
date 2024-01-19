@@ -4,10 +4,10 @@ description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experi
 title: ¿Puedo combinar varias audiencias para crear una nueva audiencia?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 65%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,7 @@ Combinar varias audiencias (incluidas [!DNL Adobe Experience Cloud], [!DNL Adobe
 
 >[!NOTE]
 >
->El [!DNL Adobe Experience Platform] fuente disponible para todos [!DNL Target] clientes que utilizan [SDK web de Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o en combinación con audiencias existentes, como se explica en este tema.
+>El [!DNL Adobe Experience Platform] fuente disponible para todos [!DNL Target] clientes que utilizan [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Audiencias disponibles en el [!DNL Adobe Experience Platform] se puede usar tal cual o en combinación con audiencias existentes, como se explica en este tema.
 >
 >Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -49,7 +49,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
 1. (Condicional) Edite la nueva audiencia combinada si lo desea.
 
-   En el cuadro de diálogo [!UICONTROL Editar audiencia], puede arrastrar otros componentes básicos de audiencia desde el lado izquierdo y soltarlos en la nueva audiencia combinada. También puede añadir reglas de exclusión y excluir audiencias.
+   El [!UICONTROL Editar audiencia] El cuadro de diálogo de permite arrastrar y soltar bloques de creación de audiencias adicionales del lado izquierdo en la nueva audiencia combinada. También puede añadir reglas de exclusión y excluir audiencias.
 
    1. Utilice la funcionalidad de arrastrar y soltar para agregar audiencias dentro de una sección existente como un bloque de creación de nivel 2.
 
@@ -79,11 +79,11 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
 1. Asigne un nombre descriptivo a la audiencia combinada y haga clic en **[!UICONTROL Listo]**.
 
-## Crear una audiencia combinada para usarla en la segmentación de métrica {#section_A42E795AFCBD4575809C5942039910F0}
+## Crear una audiencia combinada para usarla en la segmentación de métricas {#section_A42E795AFCBD4575809C5942039910F0}
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en la segmentación de métrica. Por ejemplo, para crear una segmentación según la conversión empleando una audiencia combinada:
 
-1. Al editar o crear una [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]**, seleccione **[!UICONTROL Conversión]** para la métrica de éxito y, luego, seleccione **[!UICONTROL Mbox visto]** como la acción.
+1. Al editar o crear un [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en el **[!UICONTROL Objetivos y configuración]** página, seleccione **[!UICONTROL Conversión]** para la métrica de éxito, seleccione **[!UICONTROL Visualizó un mbox]** como la acción.
 1. Elija el mbox que quiera en el campo **[!UICONTROL Buscar mbox]**.
 
    ![imagen combine_multiple_audiences4](assets/combine_multiple_audiences4.png)
@@ -99,7 +99,7 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en los informes.
 
-1. Al editar o crear una  [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]** haga clic en el icono **[!UICONTROL Añadir audiencia]** de [!UICONTROL Audiencias para los informes] para mostrar la página [!UICONTROL Elegir audiencia].
+1. Al editar o crear un [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en el **[!UICONTROL Objetivos y configuración]** , haga clic en **[!UICONTROL Añadir audiencia]** icono debajo de [!UICONTROL Audiencias para informes] para mostrar el [!UICONTROL Elegir audiencia] página.
 
    ![imagen combine_multiple_audiences6](assets/combine_multiple_audiences6.png)
 

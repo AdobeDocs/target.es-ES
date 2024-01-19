@@ -4,9 +4,9 @@ description: Eche un vistazo general a Adobe Target. Obtenga información sobre 
 title: ¿Dónde puedo encontrar una introducción general de Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2524'
 ht-degree: 84%
 
 ---
@@ -52,8 +52,8 @@ Es posible que muchos de ustedes deseen utilizar [!DNL Target] para probar y per
 
 | Tipo de implementación | Detalles |
 | --- | --- |
-| Lado del cliente | Con esta implementación de [!DNL Target], [!DNL Target] envía las experiencias asociadas a una actividad directamente al explorador del cliente. El explorador decide qué experiencia mostrar y lo hace. En el lado del cliente, puede utilizar un editor WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) o una interfaz no visual, **[!UICONTROL Compositor de experiencas basado en la forma]** para crear experiencias de prueba y personalización. [Más información](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
-| Lado del servidor | En este tipo de implementación de [!DNL Target], un dispositivo cliente realiza una solicitud de una experiencia a través del servidor, el servidor envía esa solicitud a [!DNL Target], [!DNL Target] devuelve la respuesta al servidor y este toma la decisión sobre la experiencia que debe ofrecerse al dispositivo cliente para que se procese. La experiencia no necesita mostrarse en un explorador; puede mostrarse en un correo electrónico o quiosco, a través de un asistente de voz o a través de otro dispositivo no visual o no basado en un explorador. Dado que su servidor se encuentra entre el cliente y [!DNL Target], este tipo de implementación también es ideal si necesita mayor control y seguridad o si tiene procesos backend complejos que desee ejecutar en el servidor. [Más información](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank}. |
+| Lado del cliente | Con esta implementación de [!DNL Target], [!DNL Target] envía las experiencias asociadas a una actividad directamente al explorador del cliente. El explorador decide qué experiencia mostrar y lo hace. En el lado del cliente, puede utilizar un editor WYSIWYG, **[!UICONTROL Visual Experience Composer]** (VEC) o una interfaz no visual, **[!UICONTROL Compositor de experiencas basado en la forma]** para crear experiencias de prueba y personalización. [Más información](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| Lado del servidor | En este tipo de implementación de [!DNL Target], un dispositivo cliente realiza una solicitud de una experiencia a través del servidor, el servidor envía esa solicitud a [!DNL Target], [!DNL Target] devuelve la respuesta al servidor y este toma la decisión sobre la experiencia que debe ofrecerse al dispositivo cliente para que se procese. La experiencia no necesita mostrarse en un explorador; puede mostrarse en un correo electrónico o quiosco, a través de un asistente de voz o a través de otro dispositivo no visual o no basado en un explorador. Dado que su servidor se encuentra entre el cliente y [!DNL Target], este tipo de implementación también es ideal si necesita mayor control y seguridad o si tiene procesos backend complejos que desee ejecutar en el servidor. [Más información](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
 | Implementación híbrida | En esta implementación, elige el método de implementación que mejor se adapte a un caso de uso determinado. Por ejemplo, puede utilizar una implementación del lado del cliente para probar una oferta en un banner a pantalla completa en la página de inicio, pero también utilizar una implementación del lado del servidor para determinar los resultados de búsqueda interna que se mostrarán en el explorador del cliente, la experiencia que se mostrará en el salpicadero de un coche inteligente o la respuesta de voz que ofrezca un asistente de voz. |
 
 ## Elementos de actividad

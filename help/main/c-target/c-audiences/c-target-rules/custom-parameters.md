@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo pasar parámetros personalizados a
 title: ¿Puedo segmentar visitantes en función de parámetros personalizados?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 43%
+source-wordcount: '491'
+ht-degree: 37%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 43%
 
 Los parámetros personalizados son parámetros de mbox en [!DNL Adobe Target]. Si pasa algún parámetro de mbox a mboxes, o usa el `targetPageParams` función, esos parámetros aparecen aquí para su uso en audiencias.
 
-Para obtener más información, consulte [Pase de parámetros a un mbox global](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=es){target=_blank}.
+Para obtener más información, consulte [Pase de parámetros a un mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParameter` ya no le pide que especifique un valor para `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
+1. En el [!DNL Target] interfaz, haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastrar y soltar **[!UICONTROL Personalizado]** en el Generador de audiencias.
 
@@ -60,7 +60,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
 1. (Opcional) Configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
-La [tarjeta emergente de detalles de definición](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) de la audiencia muestra el nombre del parámetro en la sección Reglas. **** No hay ninguna referencia al mbox utilizado para el filtrado.
+El de la audiencia [tarjeta emergente de detalles de definición](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) muestra el nombre del parámetro en la **[!UICONTROL Reglas]** sección. No hay ninguna referencia al mbox utilizado para el filtrado.
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según las opciones de dispositivos móviles?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 39%
+source-wordcount: '687'
+ht-degree: 34%
 
 ---
 
@@ -27,7 +27,7 @@ Para resolver este problema, [!DNL Target] recopila datos adicionales para detec
 
 | Parámetro | Tipo | Descripción |
 |--- |--- |--- |
-| devicePixelRatio | Cadena | Proporción entre píxeles físicos y píxeles independientes del dispositivo (dips) en el navegador. Por ejemplo, &quot;1,5&quot; o &quot;2&quot; |
+| devicePixelRatio | Cadena | Proporción entre píxeles físicos y píxeles independientes del dispositivo (dips) en el explorador. Por ejemplo, &quot;1,5&quot; o &quot;2&quot; |
 | screenOrientation | Cadena | El dispositivo y el motor JavaScript del navegador admiten la orientación del dispositivo. Puede ser horizontal o vertical. |
 | webGLRenderer | Cadena | Procesador del controlador de gráficos del navegador. |
 
@@ -39,7 +39,7 @@ Puede elegirse más de una propiedad de dispositivo móvil. Las selecciones múl
 
 Los clientes que utilicen una integración personalizada (sin usar at.js o el SDK móvil) pueden recopilar estos parámetros ellos mismos y pasarlos como parámetros de mbox.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
+1. En el [!DNL Target] interfaz, haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastrar y soltar **[!UICONTROL Móvil]** en el panel de audience builder.
 1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
