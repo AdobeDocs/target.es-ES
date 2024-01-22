@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '986'
+ht-degree: 55%
 
 ---
 
@@ -25,6 +25,10 @@ Se pueden segmentar los siguientes navegadores:
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias. Para ver la configuración de la solución, consulte [Obsolescencia de iPad y iPhone a partir del atributo de audiencia del explorador (30 de abril de 2024)](#deprecation) más abajo.
 
 Hay dos formar de segmentar según el navegador:
 
@@ -126,3 +130,90 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Definir categorías de audiencias
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## Eliminación del atributo de público del explorador de iPad e iPhone (30 de abril de 2024) {#deprecation}
+
+[!DNL Adobe Target] le permite [segmentar en cualquiera de los atributos de categoría](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluidos los usuarios que usan un explorador específico u opciones del explorador cuando visitan la página.
+
+A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias.
+
+Si tiene públicos destinados a iPads o iPhone que utilizan el atributo de [!UICONTROL Explorador], debe cambiar esta configuración antes del 30 de abril de 2024 para garantizar que estos públicos sigan funcionando según lo previsto.
+
+Se pueden utilizar los siguientes ajustes a partir de ahora:
+
+* **Para coincidencias de explorador[!DNL Apple]**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL matches] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* **Para las coincidencias de navegador y tableta**: [!UICONTROL Móvil] > [!UICONTROL es tableta] > [!UICONTROL true]
+
+  ![móvil es tableta](/help/main/r-release-notes/assets/is-tablet.png)
+
+* **Para coincidencias de explorador con iPad**: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPad] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es tableta] es [!DNL true]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* **Para coincidencias de explorador con iPhone**: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing del dispositivo] [!UICONTROL matches] [!DNL iPhone] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!DNL true]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+Existen muchas otras configuraciones posibles que se pueden utilizar, por ejemplo, cuando se niegan condiciones. Algunos ejemplos de condiciones negadas podrían tener el siguiente aspecto:
+
+* **Para el navegador no coincide con iPhone**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide con] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!UICONTROL false]
+
+  ![No es un teléfono móvil](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* **Para el navegador no coincide con iPad**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide con] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es tableta] es [!UICONTROL false].
+
+  ![No es tableta](/help/main/r-release-notes/assets/tablet-false.png)
+
+Si utiliza `user.browserType` en los segmentos de JavaScript, los cambios deben incluir lo siguiente:
+
+>[!NOTE]
+>
+>Las siguientes adiciones están programadas para su publicación el 24 de enero de 2024. Estas adiciones hacen posibles los siguientes cambios:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
+
+
+* **BrowserType es iPhone**:
+
+  Reemplazar:
+
+  `user.browserType=="iphone"`
+
+  Con:
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isMobilePhone`
+
+* **BrowserType no es iPhone**:
+
+  Reemplazar:
+
+  `user.browserType!="iphone"`
+
+  Con:
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isMobilePhone`
+
+* **BrowserType es iPad**:
+
+  Reemplazar:
+
+  `user.browserType=="ipad"`
+
+  Con:
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isTablet`
+
+* **BrowserType no es iPad**:
+
+  Reemplazar:
+
+  `user.browserType!="ipad"`
+
+  Con:
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isTablet`
