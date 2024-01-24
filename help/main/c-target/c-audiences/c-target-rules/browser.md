@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones 
 
 Si tiene públicos destinados a iPads o iPhone que utilizan el atributo de [!UICONTROL Explorador], debe cambiar esta configuración antes del 30 de abril de 2024 para garantizar que estos públicos sigan funcionando según lo previsto.
 
+### Audiencias creadas con [!DNL Target] IU
+
 Se pueden utilizar los siguientes ajustes a partir de ahora:
 
 * **Para coincidencias de explorador[!DNL Apple]**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL matches] [!DNL Apple]
@@ -167,16 +169,19 @@ Existen muchas otras configuraciones posibles que se pueden utilizar, por ejempl
 
   ![No es tableta](/help/main/r-release-notes/assets/tablet-false.png)
 
-Si utiliza `user.browserType` en los segmentos de JavaScript, los cambios deben incluir lo siguiente:
+### Audiencias creadas con scripts de perfil
+
+Si utiliza `user.browserType` en segmentos de JavaScript como se explica en [Glosario de perfiles y variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), los cambios deben incluir lo siguiente:
 
 >[!NOTE]
 >
->Las siguientes adiciones están programadas para su publicación el 24 de enero de 2024. Estas adiciones hacen posibles los siguientes cambios:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>Los siguientes perfiles están programados para su lanzamiento en los próximos días, a partir del 24 de enero de 2024. El [notas de la versión actual](/help/main/r-release-notes/release-notes.md) se actualizará cuando estos perfiles estén disponibles.
 
+Estos perfiles permiten realizar los siguientes cambios:
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType es iPhone**:
 
