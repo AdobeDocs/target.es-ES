@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 53%
+source-wordcount: '1057'
+ht-degree: 37%
 
 ---
 
@@ -17,22 +17,22 @@ Puede segmentar usuarios que usen un navegador específico y opciones del navega
 
 Se pueden segmentar los siguientes navegadores:
 
-* Chrome
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias. Para ver la configuración de la solución, consulte [Obsolescencia de iPad y iPhone a partir del atributo de audiencia del explorador (30 de abril de 2024)](#deprecation) más abajo.
+>A partir del 30 de abril de 2024, [!DNL iPad] y [!DNL iPhone] se eliminará de la lista disponible [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias. Para ver la configuración de la solución, consulte [Obsolescencia de iPad y iPhone a partir del atributo de audiencia del explorador (30 de abril de 2024)](#deprecation) más abajo.
 
 Hay dos formar de segmentar según el navegador:
 
-* **Audiencia prediseñada:** utilice la audiencia prediseñada si quiere segmentar solo los visitantes que usan un navegador concreto para visitar el sitio. Si, por ejemplo, ofrece una extensión de Chrome, se dirigiría solo a los usuarios de este navegador.
+* **Audiencia prediseñada:** utilice la audiencia prediseñada si quiere segmentar solo los visitantes que usan un navegador concreto para visitar el sitio. Por ejemplo, si ofrece un [!DNL Chrome] extensión, solo debe segmentar [!DNL Chrome] usuarios.
 
    1. Al configurar la actividad, seleccione el explorador en la lista desplegable.
 
@@ -57,7 +57,7 @@ Hay dos formar de segmentar según el navegador:
    1. (Opcional) Configure reglas adicionales para la audiencia.
    1. Haga clic en **[!UICONTROL Finalizado]**.
 
-  El siguiente ejemplo muestra una audiencia que incluye a los usuarios de Microsoft Edge en las versiones 91 o 92:
+  El siguiente ejemplo muestra una audiencia que incluye [!DNL Microsoft Edge] usuarios en las versiones 91 o 92:
 
   ![Target Edge 91 o 92](assets/target_edge.png)
 
@@ -71,8 +71,8 @@ Dirija la actividad a un navegador o exclúyalo.
 
 Seleccione **[!UICONTROL Tipo]** y, a continuación, elija igual a o no es igual a.
 
-* Igual a: dirija la actividad a los navegadores seleccionados.
-* No es igual a: excluya los navegadores seleccionados.
+* [!UICONTROL Igual a]: Oriente los exploradores seleccionados.
+* [!UICONTROL No es igual a]: excluir los exploradores seleccionados.
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
@@ -86,8 +86,8 @@ La inclusión o exclusión de idiomas de navegador puede proporcionar una segmen
 
 Seleccione **[!UICONTROL Idioma]** y, a continuación, elija igual a o no es igual a.
 
-* Igual: dirija el artículo a los idiomas de navegador seleccionados.
-* No es igual a: excluya los idiomas de navegador seleccionados.
+* [!UICONTROL Igual a]: establezca como objetivo los idiomas de explorador seleccionados.
+* [!UICONTROL No es igual a]: excluir los idiomas del explorador seleccionados.
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
@@ -107,16 +107,16 @@ Los siguientes idiomas de navegador se pueden incluir o excluir de la segmentaci
 
 Dirija la actividad a ciertas versiones del navegador o exclúyalas.
 
-Si, por ejemplo, su página no se muestra correctamente en la versión 11 o anteriores de Internet Explorer, puede crear una audiencia que las excluya. En ese caso, debe configurar una regla en la que el tipo de navegador sea igual a Internet Explorer y agregar una segunda regla en la que la versión sea menor o igual a 11.
+Por ejemplo, si la página no aparece correctamente en [!DNL Internet Explorer] versión 11 o anterior, puede crear una audiencia que excluya esas versiones. En ese caso, debe configurar una regla en la que el tipo de explorador sea igual a [!DNL Internet Explorer] y agregue una segunda regla en la que la versión sea menor o igual que 11.
 
 Seleccione **[!UICONTROL Versión]** y, a continuación, elija un operador:
 
-* Es igual a
-* No es igual a
-* Es mayor que
+* [!UICONTROL Es igual a]
+* [!UICONTROL No es igual a]
+* [!UICONTROL Es mayor que]
 * Es mayor que o igual a
-* Es menor que
-* Es menor que o igual a
+* [!UICONTROL Es menor que]
+* [!UICONTROL Es menor que o igual a]
 
 Escriba el número de versión. En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Por ejemplo, si especifica la versión 10, también se incluyen los visitantes de la versión 10.1.
 
@@ -137,7 +137,9 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias.
 
-Si tiene públicos destinados a iPads o iPhone que utilizan el atributo de [!UICONTROL Explorador], debe cambiar esta configuración antes del 30 de abril de 2024 para garantizar que estos públicos sigan funcionando según lo previsto.
+Las audiencias integradas, como &quot;Explorador: iPad&quot; y &quot;Explorador: iPhone&quot;, se moverán automáticamente a la nueva definición de audiencia. Cualquier script de perfil que utilice &quot;user.browserType&quot; *no* se actualizarán automáticamente: si no los actualiza manualmente, es posible que la calificación del usuario no se produzca según lo esperado.
+
+Si tiene audiencias dirigidas a iPads o iPhone que utilizan [!UICONTROL Explorador] debe cambiar esta configuración antes del 30 de abril de 2024 para garantizar que estas audiencias siguen funcionando según lo esperado.
 
 ### Audiencias creadas con [!DNL Target] IU
 
@@ -171,17 +173,17 @@ Existen muchas otras configuraciones posibles que se pueden utilizar, por ejempl
 
 ### Audiencias creadas con scripts de perfil
 
-Si utiliza `user.browserType` en segmentos de JavaScript como se explica en [Glosario de perfiles y variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), los cambios deben incluir lo siguiente:
+Si utiliza `user.browserType` en audiencias que utilizan scripts de perfil, como se explica en [Glosario de perfiles y variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), los cambios deben incluir lo siguiente:
 
 >[!NOTE]
 >
 >Los siguientes perfiles están programados para su lanzamiento en los próximos días, a partir del 24 de enero de 2024. El [notas de la versión actual](/help/main/r-release-notes/release-notes.md) se actualizará cuando estos perfiles estén disponibles.
-
-Estos perfiles permiten realizar los siguientes cambios:
->>
-* `profile.mobile.isTablet`
->>
-* `profile.mobile.isMobilePhone`
+>
+>Estos perfiles permiten realizar los siguientes cambios:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
 
 * **BrowserType es iPhone**:
 
