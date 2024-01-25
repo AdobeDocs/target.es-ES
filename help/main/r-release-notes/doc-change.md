@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 96%
+source-wordcount: '1258'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | --- | --- | --- |
 | 24 de enero | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.4 de at.js. |
 |  | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Se ha anunciado que los dos nuevos perfiles aún no están disponibles. Estas notas se actualizarán cuando estos perfiles estén disponibles. |
+|  | [Preguntas más frecuentes de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Se han añadido preguntas frecuentes sobre at.js en un entorno de aplicación iónica. Esta implementación no se ha probado ni recomendado. |
 | 22 de enero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se ha añadido información importante acerca de la desaprobación de iPad y iPhone de la [!UICONTROL Explorador] Atributo de audiencia que requiere cambios por su parte antes del 30 de abril de 2024. |
 |  | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Se ha agregado una sección nueva: <ul><li>Eliminación del atributo de público del explorador de iPad e iPhone (30 de abril de 2024)</li></ul> |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 24.1.1 de [!DNL Target Standard/Premium]. |
