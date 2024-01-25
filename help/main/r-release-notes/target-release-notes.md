@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -39,11 +39,11 @@ Esta versión está programada para los siguientes días:
 
 Esta versión incluye las siguientes mejoras y correcciones:
 
-* [!UICONTROL Analytics for Target] Las actividades de (A4T) con métricas de objetivo de ingresos no mostraban &quot;Ingresos&quot; como nombre de columna y la métrica de ingresos no se mostraba en formato ($) en los informes. Se trata de un problema estético que se ha corregido. (TGT-46995)
+* Las actividades de [!UICONTROL Analytics for Target] (A4T) con métricas de metas de ingresos no mostraban “Ingresos” como nombre de columna y la métrica de ingresos no se mostraba en formato ($) en la creación de informes. Se trataba de un problema estético que se ha corregido. (TGT-46995)
 * Se ha corregido un problema que hacía que los intervalos de fecha de los informes no funcionaran correctamente. (TGT-47396)
 * Se ha corregido un problema que provocaba que se mostrara un estado incorrecto en la página [!UICONTROL Todas las actividades] después de que los clientes activaran o desactivaran una actividad mediante el icono de [!UICONTROL Más acciones]. (TGT-47367)
-* Se ha corregido un problema que provocaba que [!UICONTROL Atributos importantes] informe que no se mostrará para un solo cliente. (TGT-47272)
-* Se ha corregido un problema que provocaba que se mostrara un mensaje &quot;Carga útil no válida&quot; cuando un solo cliente intentaba habilitar &quot;Requerir autenticación&quot;. (TGT-47195)
+* Se ha corregido un problema que provocaba que el informe [!UICONTROL Atributos importantes] no se mostrara para un único cliente. (TGT-47272)
+* Se ha corregido un problema que provocaba que se mostrara un mensaje “Carga útil no válida” cuando un único cliente intentaba habilitar “Requerir autenticación”. (TGT-47195)
 * Se han actualizado varias cadenas localizadas en la IU de [!DNL Target].
 
 ## Notas de la versión adicionales y detalles de la versión
