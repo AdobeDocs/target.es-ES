@@ -4,10 +4,10 @@ description: Vea una lista de varios perfiles, variables y parámetros que son �
 title: Qué perfiles, variables y parámetros se utilizan en [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 74%
+source-wordcount: '653'
+ht-degree: 70%
 
 ---
 
@@ -48,6 +48,8 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | profile.browserTime | La hora local del navegador del visitante. Para la hora del sistema, cree un nuevo objeto de fecha en la secuencia de comandos del perfil |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
+| profile.mobile.isTablet | El dispositivo del visitante es una tableta.<P>Este perfil reemplaza al heredado obsoleto [El explorador es la categoría de audiencia de iPad](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isMobilePhone | El dispositivo del visitante es un teléfono móvil.<P>Este perfil reemplaza al heredado obsoleto [El explorador es la categoría de audiencia de iPhone](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
 | parameter= | Término genérico para los valores adicionales que se transmiten con un mbox, normalmente con el formato de pares de nombre-valor. No es persistente a menos que así se defina con `profile.parameter` o `user.parameter`. |
 
 ## Variables URL {#section_8F25958273164EBAA6DC659302993FD3}
