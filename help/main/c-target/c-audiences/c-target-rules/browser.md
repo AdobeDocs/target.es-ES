@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -135,13 +135,13 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 [!DNL Adobe Target] le permite [segmentar en cualquiera de los atributos de categoría](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluidos los usuarios que usan un explorador específico u opciones del explorador cuando visitan la página.
 
-A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba lista desplegable al crear categorías para audiencias.
+A partir del 30 de abril de 2024, iPad y iPhone se eliminarán de las versiones de disponibles [!UICONTROL Explorador] escriba en la lista desplegable de [!DNL Target] Interfaz de usuario al crear categorías para audiencias.
 
-Las audiencias integradas, como &quot;Explorador: iPad&quot; y &quot;Explorador: iPhone&quot;, se moverán automáticamente a la nueva definición de audiencia. Cualquier script de perfil que utilice &quot;user.browserType&quot; *no* se actualizarán automáticamente: si no los actualiza manualmente, es posible que la calificación del usuario no se produzca según lo esperado.
+Audiencias integradas creadas con [!DNL Target] Las interfaces de usuario, como &quot;Explorador: iPad&quot; y &quot;Explorador: iPhone&quot;, se moverán automáticamente a la nueva definición de audiencia. Sin embargo, en adelante, debe utilizar los ajustes de [se describe a continuación](#ui).
 
-Si tiene audiencias dirigidas a iPads o iPhone que utilizan [!UICONTROL Explorador] debe cambiar esta configuración antes del 30 de abril de 2024 para garantizar que estas audiencias siguen funcionando según lo esperado.
+Si utiliza `user.browserType` en cualquier script de perfil para comprobar si es un iPhone o iPad (por ejemplo, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), los scripts de perfil deben cambiarse como [se indica a continuación](#profile-scripts) antes del 30 de abril de 2024 para garantizar que estas audiencias sigan funcionando según lo esperado.
 
-### Audiencias creadas con [!DNL Target] IU
+### Audiencias creadas con [!DNL Target] IU {#ui}
 
 Se pueden utilizar los siguientes ajustes a partir de ahora:
 
@@ -171,7 +171,7 @@ Existen muchas otras configuraciones posibles que se pueden utilizar, por ejempl
 
   ![No es tableta](/help/main/r-release-notes/assets/tablet-false.png)
 
-### Audiencias creadas con scripts de perfil
+### Audiencias creadas con scripts de perfil {#profile-scripts}
 
 Si utiliza `user.browserType` en audiencias que utilizan scripts de perfil, como se explica en [Glosario de perfiles y variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), los cambios deben incluir lo siguiente:
 
