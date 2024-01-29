@@ -5,9 +5,9 @@ title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Para configurar atributos de perfil:
 
    | Tipo de parámetro | Descripción |
    |--- |--- |
-   | mbox | Se pasan directamente a través del código de la página cuando el mbox se crea. Consulte [Pasar parámetros a un mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Nota**: [!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método de API Profile Update. Para obtener más información, consulte [Actualización de perfil en la documentación de la API de  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Se pasan directamente a través del código de la página cuando el mBox se crea. Consulte [Pasar parámetros a un mBox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=es){target=_blank}.<br>**Nota**: [!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método de API Profile Update. Para obtener más información, consulte [Actualización de perfil en la documentación de la API de  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
    | Perfil | Definido directamente con un fragmento de código de JavaScript. Estos extractos pueden almacenar totales acumulados (como, por ejemplo, el importe total que un usuario ha gastado) y se ejecutan en cada solicitud de mbox. Consulte Atributos de script de perfil a continuación. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 **¿Es posible utilizar scripts de perfil para capturar información de una página que reside en una capa de datos?**
 
-Los scripts de perfil no pueden leer la página directamente porque se ejecutan en el lado del servidor. Los datos deben pasarse a través de una solicitud de mbox o a través de otros [métodos de obtención de datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Una vez que los datos están en [!DNL Target], los scripts de perfil pueden leer los datos como un parámetro de mbox o un parámetro de perfil.
+Los scripts de perfil no pueden leer la página directamente porque se ejecutan en el lado del servidor. Se deben pasar los datos mediante una solicitud de mBox u otros [métodos de obtención de datos para Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}. Una vez que los datos están en [!DNL Target], los scripts de perfil pueden leer los datos como un parámetro de mbox o un parámetro de perfil.
 
 ## Referencia de JavaScript para parámetros de perfil de secuencia de comandos
 
