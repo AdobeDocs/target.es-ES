@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 37%
+source-wordcount: '1098'
+ht-degree: 35%
 
 ---
 
@@ -141,6 +141,8 @@ Audiencias integradas creadas con [!DNL Target] Las interfaces de usuario, como 
 
 Si utiliza `user.browserType` en cualquier script de perfil para comprobar si es un iPhone o iPad (por ejemplo, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), los scripts de perfil deben cambiarse como [se indica a continuación](#profile-scripts) antes del 30 de abril de 2024 para garantizar que estas audiencias sigan funcionando según lo esperado.
 
+Las audiencias de JavaScript que usan scripts de perfil son audiencias heredadas que quedaron obsoletas con el [!DNL Target Classic] IU. Estas audiencias se pueden modificar únicamente mediante API. Los clientes deben actualizar estas audiencias solo si utilizan audiencias heredadas en actividades de en el nuevo [!DNL Target Standard/Premium] IU.
+
 ### Audiencias creadas con [!DNL Target] IU {#ui}
 
 Se pueden utilizar los siguientes ajustes a partir de ahora:
@@ -173,11 +175,11 @@ Existen muchas otras configuraciones posibles que se pueden utilizar, por ejempl
 
 ### Audiencias creadas con scripts de perfil {#profile-scripts}
 
-Si utiliza `user.browserType` en audiencias que utilizan scripts de perfil, como se explica en [Glosario de perfiles y variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), los cambios deben incluir lo siguiente:
+Si utiliza `user.browserType` en heredado [!DNL Target Classic] audiencias que utilizan scripts de perfil, como se explica en [Glosario de perfiles y variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), los cambios deben incluir lo siguiente:
 
 >[!NOTE]
 >
->Los siguientes perfiles están programados para su lanzamiento en los próximos días, a partir del 24 de enero de 2024. El [notas de la versión actual](/help/main/r-release-notes/release-notes.md) se actualizará cuando estos perfiles estén disponibles.
+>Los siguientes perfiles están programados para su lanzamiento en las próximas semanas, a partir del 24 de enero de 2024. El [notas de la versión actual](/help/main/r-release-notes/release-notes.md) se actualizará cuando estos perfiles estén disponibles.
 >
 >Estos perfiles permiten realizar los siguientes cambios:
 >
