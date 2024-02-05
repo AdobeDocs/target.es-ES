@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 100%
+source-wordcount: '2476'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,26 @@ ht-degree: 100%
 
 Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
 
-## Serie de seminarios web sobre madurez de la personalización de Adobe Target 2024
+## Comunidad de Adobe Target;pausa para café
+
+* **Parte 1 de la serie Personalization Maturity (Preguntas de seguimiento del seminario web)**
+* **jueves, 07 de febrero de 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Información de registro](https://shorturl.at/gknVY){target=_blank}**
+
++++Detalles
+
+Unirse [!DNL Adobe Target] expertos Brent Kostak, Ryan Roberts y Drew Burns, ya que proporcionan respuestas en tiempo real a las preguntas de los clientes relacionadas con el contenido cubierto durante [Parte 1 de la [!DNL Adobe Target] Serie de seminarios web sobre el &quot;Arte de lo posible&quot;](#maturity-series),&quot; donde nuestros expertos trataron los siguientes temas:
+
+* Cómo cada [!DNL Target] desempeña un papel estratégico en la ejecución de la personalización a escala
+* Casos de uso principales que los clientes están configurando para que las capacidades de IA se realicen a escala
+* Cómo controla el aprendizaje automático para activar la personalización con tecnología de IA para sus objetivos específicos
+
+Si se perdió el seminario web original, [escuchar la grabación](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Serie de seminarios web sobre madurez de la personalización de Adobe Target 2024 {#maturity-series}
 
 Esta serie de seminarios web en directo resaltará las [!DNL Adobe Target] funcionalidades, casos de uso y sugerencias principales para desbloquear la personalización basada en IA a medida que los clientes amplían su recorrido de experimentación y personalización con [!DNL Adobe Experience Platform].
 
@@ -34,6 +53,8 @@ Por qué debería asistir:
    * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
      El núcleo de la madurez de la personalización es la inteligencia artificial y el aprendizaje automático. [!DNL Adobe Target] aprovecha estas tecnologías para comprender el comportamiento del usuario, predecir las preferencias y adaptar el contenido de forma dinámica. Al aprovechar el poder de la IA y el ML, descubra cómo las marcas se están moviendo más allá de las pruebas A/B estáticas y la personalización basada en reglas para ofrecer experiencias dinámicas y relevantes para el contexto.
+
+     [Escucha la grabación.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Recomendaciones de alto rendimiento**
    * **Martes, 13 de febrero de 2024**
