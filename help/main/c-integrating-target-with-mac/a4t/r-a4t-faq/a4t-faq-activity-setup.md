@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas acerca de la configuración de act
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la configuración de actividades de con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 16%
+source-wordcount: '630'
+ht-degree: 10%
 
 ---
 
@@ -15,9 +15,19 @@ ht-degree: 16%
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre la configuración y el uso de las actividades de [!DNL Analytics] como fuente de informes para [!DNL Target] (A4T).
 
-## ¿Qué tipos de actividades son compatibles con Analytics como fuente de informes (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## Qué tipos de actividades son compatibles [!DNL Analytics] como fuente de informes (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++Respuesta Para obtener una lista completa, consulte &quot;Tipos de actividades compatibles&quot; en [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## ¿Puedo utilizar el mismo nombre de actividad para dos actividades de espacios de trabajo independientes al utilizar la creación de informes de A4T?
+
++++Respuesta
+
+No utilice el mismo nombre de actividad para dos actividades independientes [workspaces](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) que utilizan informes de A4T.
+
+Aunque esto se admite al usar [!DNL Target] como fuente de informes, no se admite el uso del mismo nombre de actividad para dos actividades al utilizar [!UICONTROL Analytics for Target] como fuente de informes.
 
 +++
 
@@ -32,7 +42,7 @@ Para obtener más información, consulte &quot;Al configurar las métricas de ob
 ## Acabo de crear una actividad. ¿Por qué no entran datos? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++Responder Cuando se crea una actividad, [!DNL Target] envía un archivo de clasificación a [!DNL Analytics]. Aunque [!DNL Analytics] está capturando y procesando los datos, no lo muestra en los informes hasta que se actualiza el archivo de clasificación. Este proceso puede tardar entre 24 y 72 horas en completarse. Si después de 72 horas no ve sus datos, [Contactar con Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, si sabe que inicia una actividad, puede crearla con unos días de antelación y las clasificaciones se envían cuando se guarda la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos tardan entre 45 y 90 minutos en procesarse en [!DNL Analytics].
++++Responder Cuando se crea una actividad, [!DNL Target] envía un archivo de clasificación a [!DNL Analytics]. Aunque [!DNL Analytics] está capturando y procesando los datos, no lo muestra en los informes hasta que se actualiza el archivo de clasificación. Este proceso puede tardar entre 24 y 72 horas en completarse. Si después de 72 horas no ve sus datos, [Contactar con Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, si sabe que inicia una actividad, puede crearla con unos días de antelación y las clasificaciones se envían cuando se guarda la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos se procesan en 45-90 minutos [!DNL Analytics].
 
 +++
 

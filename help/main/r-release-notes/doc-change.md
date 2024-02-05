@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 94%
+source-wordcount: '1328'
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,14 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 5 de febrero | [Creación de una actividad que use Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Se ha agregado texto para especificar que no puede usar el mismo nombre de actividad para dos actividades desde espacios de trabajo independientes al usar [!UICONTROL Analytics for Target] (A4T) como fuente de informes. |
+|  | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Se ha agregado texto para especificar que no puede usar el mismo nombre de actividad para dos actividades desde espacios de trabajo independientes al usar [!UICONTROL Analytics for Target] (A4T) como fuente de informes. |
 | 24 de enero | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.4 de at.js. |
-|  | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Se ha anunciado que los dos nuevos perfiles aún no están disponibles. Estas notas se actualizarán cuando estos perfiles estén disponibles. |
-|  | [Preguntas más frecuentes de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Se han añadido preguntas frecuentes sobre at.js en un entorno de aplicación iónica. Esta implementación no se ha probado ni recomendado. |
-| 22 de enero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se ha añadido información importante acerca de la desaprobación de iPad y iPhone de la [!UICONTROL Explorador] Atributo de audiencia que requiere cambios por su parte antes del 30 de abril de 2024. |
-|  | [Navegador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Se ha agregado una sección nueva: <ul><li>Eliminación del atributo de público del explorador de iPad e iPhone (30 de abril de 2024)</li></ul> |
-|  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión 24.1.1 de [!DNL Target Standard/Premium]. |
+|  | [Explorador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Se anunció que los dos nuevos perfiles todavía no están disponibles. Las notas se actualizarán cuando los perfiles estén disponibles. |
+|  | [Preguntas más frecuentes de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=es){target=_blank} | Se han añadido preguntas frecuentes sobre at.js en un entorno de aplicación Ionic. Esta implementación no está probada ni recomendada. |
+| 22 de enero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se ha añadido información importante sobre la eliminación de iPad e iPhone del atributo de público del [!UICONTROL Explorador] que requiere cambios por su parte antes del 30 de abril de 2024. |
+|  | [Explorador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Se ha añadido una sección nueva: <ul><li>Eliminación del atributo de público del explorador de iPad e iPhone (30 de abril de 2024)</li></ul> |
+|  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 24.1.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Estándar/Premium 23.11.1 (13 y 14 de noviembre de 2023)
 
