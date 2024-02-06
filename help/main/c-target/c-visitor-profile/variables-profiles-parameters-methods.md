@@ -4,10 +4,10 @@ description: Vea una lista de varios perfiles, variables y parámetros que son �
 title: Qué perfiles, variables y parámetros se utilizan en [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 69%
+source-wordcount: '677'
+ht-degree: 67%
 
 ---
 
@@ -28,6 +28,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | El agente de usuario |
+| user.browserType | Devuelve el tipo de explorador, por ejemplo, safari, chrome, etc. |
 | user.header | Todos los perfiles `user.header` están integrados en los datos de encabezado de las peticiones de mbox |
 | user.header(&#39;x-forwarded-for&#39;) | La dirección IP pública de la conexión de red en que se encuentra el visitante.<br>Se puede obtener de varias formas, por ejemplo [whatismyip.com](https://www.whatismyip.com/). La dirección IP no es la dirección NAT (dirección interna), que empieza por 10., 192.168. o 172.<br>Nota: user.header(&#39;x-cluster-client-ip&#39;) ha quedado obsoleto. |
 | user.header(&#39;host&#39;) | Nombre de host del visitante |

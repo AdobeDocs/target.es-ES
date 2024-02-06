@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear audiencias en [!DNL Adobe Ta
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 35%
+source-wordcount: '1089'
+ht-degree: 36%
 
 ---
 
@@ -141,7 +141,7 @@ Audiencias integradas creadas con [!DNL Target] Las interfaces de usuario, como 
 
 Si utiliza `user.browserType` en cualquier script de perfil para comprobar si es un iPhone o iPad (por ejemplo, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), los scripts de perfil deben cambiarse como [se indica a continuación](#profile-scripts) antes del 30 de abril de 2024 para garantizar que estas audiencias sigan funcionando según lo esperado.
 
-Las audiencias de JavaScript que usan scripts de perfil son audiencias heredadas que quedaron obsoletas con el [!DNL Target Classic] IU. Estas audiencias se pueden modificar únicamente mediante API. Los clientes deben actualizar estas audiencias solo si utilizan audiencias heredadas en actividades de en el nuevo [!DNL Target Standard/Premium] IU.
+Las audiencias de JavaScript son audiencias heredadas que utilizan expresiones de Target que quedaron obsoletas con el [!DNL Target Classic] IU. Estas audiencias se pueden modificar únicamente mediante API. Los clientes deben actualizar estas audiencias solo si siguen utilizando audiencias heredadas en las actividades de.
 
 ### Audiencias creadas con [!DNL Target] IU {#ui}
 
@@ -175,7 +175,7 @@ Existen muchas otras configuraciones posibles que se pueden utilizar, por ejempl
 
 ### Audiencias creadas con scripts de perfil {#profile-scripts}
 
-Si utiliza `user.browserType` en heredado [!DNL Target Classic] audiencias que utilizan scripts de perfil, como se explica en [Glosario de perfiles y variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), los cambios deben incluir lo siguiente:
+Si utiliza `user.browserType` en heredado [!DNL Target Classic] o en los scripts de perfil, los cambios deben incluir lo siguiente:
 
 >[!NOTE]
 >
