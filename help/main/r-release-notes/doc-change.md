@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -20,8 +20,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
 | 8 de febrero | [Precarga](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Se ha añadido una nueva sección: &quot;Recuperar previamente mboxes con métricas de clickTrack al usar Analytics for Target (A4T)&quot; |
-| 5 de febrero | [Creación de una actividad que use Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Se ha agregado texto para especificar que no puede usar el mismo nombre de actividad para dos actividades desde espacios de trabajo independientes al usar [!UICONTROL Analytics for Target] (A4T) como fuente de informes. |
-|  | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Se ha agregado texto para especificar que no puede usar el mismo nombre de actividad para dos actividades desde espacios de trabajo independientes al usar [!UICONTROL Analytics for Target] (A4T) como fuente de informes. |
+| 5 de febrero | [Creación de una actividad que use Analytics como fuente de creación de informes](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Se ha añadido texto para especificar que no puede usar el mismo nombre de actividad para dos actividades de espacios de trabajo independientes al usar [!UICONTROL Analytics for Target] (A4T) como fuente de creación de informes. |
+|  | [Configuración de actividades: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Se ha añadido texto para especificar que no puede usar el mismo nombre de actividad para dos actividades de espacios de trabajo independientes al usar [!UICONTROL Analytics for Target] (A4T) como fuente de creación de informes. |
 |  | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de la pausa para café de la comunidad de Adobe Target programada para el 7 de febrero de 2024. |
 | 24 de enero | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Se han añadido las notas de la versión 2.11.4 de at.js. |
 |  | [Explorador](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Se anunció que los dos nuevos perfiles todavía no están disponibles. Las notas se actualizarán cuando los perfiles estén disponibles. |
