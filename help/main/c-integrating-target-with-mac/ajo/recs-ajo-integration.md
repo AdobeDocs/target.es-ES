@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
+source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Estos son solo algunos casos de uso posibles para la integración de [!DNL Targe
 
   Después de un período especificado, una acción personalizada en [!DNL Adobe Journey Optimizer] realiza una llamada a [!DNL Target Recommendations] para determinar qué artículos vio cada visitante, utilizando el [!DNL Adobe Experience Cloud Identifier] (EDID), el del visitante [!DNL Target] perfil y una [basado en el usuario](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritmo. [!DNL Adobe Journey Optimizer] a continuación, envía a cada miembro de la audiencia cualificada un correo electrónico personalizado con imágenes y vínculos a los artículos vistos de cada visitante para que el visitante regrese y realice una compra.
 
-  En este escenario, la variable [!UICONTROL ID de visitante de Experience Cloud] (ECID) y el contenido de los [!DNL Target] Este perfil se utiliza para generar la recomendación en función del algoritmo visualizado recientemente.
+  En este escenario, la variable [!UICONTROL ID de visitante de Experience Cloud] (ECID) y el contenido de la [!DNL Target] Este perfil se utiliza para generar la recomendación en función del algoritmo visualizado recientemente.
 
-  Supongamos, por ejemplo, que un visitante visita un sitio web de venta minorista y visualiza varios relojes. El de este visitante [!DNL Target] el perfil se actualiza con una lista de los relojes visualizados. Uso del ECID y del del visitante [!DNL Target] perfil, [!DNL Target] envía la recomendación a [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] a continuación, envía un correo electrónico que contiene imágenes y vínculos a los relojes que este visitante vio mediante el algoritmo vistos recientemente. Otro visitante recibiría un correo electrónico personalizado con imágenes y vínculos a los artículos que vio el visitante. Cada mensaje de correo electrónico está personalizado.
+  Supongamos, por ejemplo, que un visitante visita un sitio web de venta minorista y visualiza varios relojes. El de este visitante [!DNL Target] el perfil se actualiza con una lista de los relojes visualizados. Uso del ECID y del del visitante [!DNL Target] perfil, [!DNL Target] envía la recomendación a [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] a continuación, envía un correo electrónico que contiene imágenes y vínculos a los relojes que vio este visitante mediante el algoritmo visto recientemente. Otro visitante recibe un correo electrónico personalizado con imágenes y vínculos a los artículos que vio el visitante. Cada mensaje de correo electrónico está personalizado para cada visitante.
 
 * **[!DNL Adobe Journey Optimizer]envía un correo electrónico masivo a los visitantes cualificados después de la visita al sitio para sugerir artículos populares**: este caso de uso se basa en un visitante que visita un sitio web, pero no visualiza ningún elemento en particular. El correo electrónico se envía por lotes a todas las personas aptas para una audiencia concreta, por ejemplo:
 
