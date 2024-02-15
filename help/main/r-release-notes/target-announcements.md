@@ -5,9 +5,9 @@ title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y ev
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Por qué debería asistir:
 
      El núcleo de la madurez de la personalización es la inteligencia artificial y el aprendizaje automático. [!DNL Adobe Target] aprovecha estas tecnologías para comprender el comportamiento del usuario, predecir las preferencias y adaptar el contenido de forma dinámica. Al aprovechar el poder de la IA y el ML, descubra cómo las marcas se están moviendo más allá de las pruebas A/B estáticas y la personalización basada en reglas para ofrecer experiencias dinámicas y relevantes para el contexto.
 
-     [Escucha la grabación.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+     [Escuche la grabación.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Recomendaciones de alto rendimiento**
    * **Martes, 13 de febrero de 2024**
