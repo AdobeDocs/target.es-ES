@@ -5,10 +5,10 @@ title: ¿Qué direcciones IP utilizan los servidores de procesamiento de fuentes
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 49%
+source-wordcount: '175'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ Lista de direcciones IP utilizadas en [!DNL Adobe Target] [!DNL Recommendations]
 
 >[!IMPORTANT]
 >
->23 de febrero de 2023: La [!DNL Target] El equipo de está actualizando actualmente las direcciones de puerta de enlace NAT para la descarga [!DNL Recommendations] fuentes. Si implementa la inclusión en la lista de permitidos de IP, asegúrese de realizar la lista de permitidos de los siguientes hosts nuevos de AWS. Se ha programado la retirada de los hosts existentes en el futuro. Los nueve hosts ya están en funcionamiento.
+>El [!DNL Target] El equipo de está actualizando actualmente las direcciones de puerta de enlace NAT para la descarga [!DNL Recommendations] fuentes. Si implementa la inclusión en la lista de permitidos de IP, asegúrese de realizar la lista de permitidos de los siguientes hosts nuevos de AWS. Los hosts existentes están programados para su retirada el 30 de junio de 2024. Para garantizar una transición sin problemas, realice la lista de permitidos de las nueve direcciones. No es urgente eliminar las direcciones existentes.
 
 Las actividades de [!DNL Target] [!UICONTROL Recommendations] utilizan los siguientes hosts de AWS al acceder a los servidores FTP de los clientes:
 
