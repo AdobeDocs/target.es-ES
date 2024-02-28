@@ -4,10 +4,10 @@ description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Targe
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 93%
+source-wordcount: '2358'
+ht-degree: 98%
 
 ---
 
@@ -15,26 +15,26 @@ ht-degree: 93%
 
 Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
 
-## Comunidad de Adobe Target; pausa para café
+<!-- ## Adobe Target Community Q&A Coffee Break
 
-* **Preguntas posteriores al seminario web de Recommendations de alto rendimiento (parte 2 de la serie Personalization Maturity)**
-* **jueves, 28 de febrero de 2024**
-* **8:00 - 9:00 horas (PST -8 GMT)**
-* **[Información de registro](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
+* **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
+* **Wednesday, February 28, 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
-+++Detalles
++++Details
 
-Unirse [!DNL Adobe Target] Los expertos Cristinel Anastasoaie, Brent Kostak y Timothy Furlow (experto de Target Recommendations y director sénior de Personalización y Optimización de Lenovo) responden en tiempo real a las preguntas de los clientes relacionadas con el contenido cubierto durante [Parte 2 de la [!DNL Adobe Target] Serie de seminarios web sobre el Recommendations de alto rendimiento](#maturity-series),&quot; donde nuestros expertos trataron los siguientes temas:
+Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timothy Furlow (Target Recommendations expert & Senior Manager of Personalization & Optimization at Lenovo) as they provide answers in real-time to customers' questions related to content covered during [Part 2 of the [!DNL Adobe Target] Webinar Series on the "High Performance Recommendations](#maturity-series)," where our experts covered the following topics:
 
-* Funciones más avanzadas que desbloquean recomendaciones más precisas y adaptables a medida que el cliente desarrolla una relación con su marca.
-* Cómo un usuario no técnico o un experto en marketing tienen control total sobre la configuración y administración de los algoritmos.
-* Cómo utilizar la IA y las funciones personalizadas con recomendaciones para desbloquear casos de uso que tienen un impacto inmenso en la reducción de clics y el aumento de ingresos.
+ * More advanced features that unlock more precision, adaptive recommendations as the customer develops a relationship with your brand.
+* How a non-technical user or marketer is in full control of configuring and managing the algorithms.
+* How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-Si se ha perdido el seminario web original, [escuche la grabación](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Asegúrese de registrarse para la Parte 3 de la Serie de seminarios web que se celebrará el 3/12/24 y que cubre &quot;[Desbloquear Recommendations con tecnología de IA](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}.&quot;
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
-+++
++++ -->
 
 ## Serie de seminarios web sobre madurez de la personalización de Adobe Target 2024 {#maturity-series}
 

@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 94%
+source-wordcount: '1471'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 28 de febrero | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se ha añadido información acerca de [!DNL Target] Standard/Premium 24.3.1 (del 4 al 6 de marzo de 2024). |
 | 26 de febrero | [[!DNL Adobe Target] Anuncios y eventos](/help/main/r-release-notes/target-announcements.md) | Se ha añadido información acerca de las próximas [!UICONTROL Comunidad de Adobe Target] Coffee Break (28 de febrero de 2024). |
 | 23 de febrero | [Direcciones IP utilizadas por [!DNL Recommendations] servidores de procesamiento de fuentes](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Se ha añadido la siguiente nota importante y las nuevas direcciones IP que debe lista de permitidos.<P>**Importante**: La [!DNL Target] El equipo de está actualizando actualmente las direcciones de puerta de enlace NAT para la descarga [!DNL Recommendations] fuentes. Si implementa la inclusión en la lista de permitidos de IP, asegúrese de realizar la lista de permitidos de los siguientes hosts nuevos de AWS. Los hosts existentes están programados para su retirada el 30 de junio de 2024. Para garantizar una transición sin problemas, realice la lista de permitidos de las nueve direcciones. No es urgente eliminar las direcciones existentes. |
 | 8 de febrero | [Recuperación previa](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=es){target=_blank} | Se ha añadido una nueva sección: “Recuperación previa de mboxes con métricas de clickTrack cuando se utiliza Analytics para Target (A4T)” |
