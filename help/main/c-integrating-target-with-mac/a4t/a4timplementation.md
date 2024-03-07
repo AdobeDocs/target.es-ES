@@ -4,14 +4,14 @@ description: Siga los pasos necesarios para implementar Analytics para [!DNL Tar
 title: ¿Cómo puedo implementar Analytics para? [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: ddfb06a17a24200b2aa4f01d370cc0e92ff5f180
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 26%
+source-wordcount: '1055'
+ht-degree: 17%
 
 ---
 
-# Implementación de Analytics for [!DNL Target]
+# Analytics para [!DNL Target] implementación
 
 Se requieren varios pasos al implementar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T). El proceso varía en función de si implementa A4T con la variable [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) o con at.js.
 
@@ -21,7 +21,7 @@ En las secciones siguientes se describen los pasos necesarios para implementar e
 
 ### Paso 1: Solicitar aprovisionamiento para [!DNL Analytics] y [!DNL Target]
 
-Antes de implementar A4T, debe estar aprovisionado para [!DNL Analytics] y [!DNL Target]. [Rellene este formulario para solicitar el aprovisionamiento](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
+Antes de implementar A4T, debe estar aprovisionado para [!DNL Analytics] y [!DNL Target]. [Utilice este formulario para solicitar el aprovisionamiento](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### Paso 2: Configurar los permisos de usuario
 
@@ -29,7 +29,7 @@ Deben cumplirse los requisitos de cuenta de usuario para poder crear una activid
 
 ### Paso 3: Crear una configuración de Edge
 
-Creación de una configuración de Edge con [!DNL Adobe Experience Platform] uso de la herramienta de configuración edge. Configure las variables [[!DNL Analytics] and [!DNL Target] ajustes de configuración de edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Creación de una configuración de Edge con [!DNL Adobe Experience Platform] uso de la herramienta de configuración edge. Configure las variables [Creación y configuración de flujos de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
 
 ### Paso 4: Instalación y configuración del SDK web de Platform
 
@@ -37,10 +37,10 @@ Para empezar a enviar [!DNL Target] experiencias y para aplicar [!DNL Analytics]
 
 ### Paso 5: Habilitar las opciones para usar A4T
 
-En el [!DNL Target] IU, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Compositor de experiencias visuales]** y, a continuación, elija **[!UICONTROL Seleccionar por actividad]** o **[!UICONTROL Adobe Analytics]**.
+En el [!DNL Target] IU, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** y, a continuación, elija **[!UICONTROL Select per activity]** o **[!UICONTROL Adobe Analytics]**.
 
-* **[!UICONTROL La opción Seleccionar por actividad permite elegir entre y a la hora de crear cada actividad.]**[!DNL Target][!DNL Analytics]
-* **[!UICONTROL La opción Adobe establece Analytics como fuente de informes para todas las actividades que cree.]**[!DNL Analytics]
+* **[!UICONTROL Select per activity]** permite elegir entre [!DNL Target] y [!DNL Analytics] al crear cada actividad.
+* **[!UICONTROL Adobe Analytics]** conjuntos [!DNL Analytics] como fuente de informes para todas las actividades que cree.
 
 ## ![Distintivo de at.js](/help/main/assets/atjs.png) Pasos de implementación para una implementación de at.js{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -48,7 +48,7 @@ Las secciones siguientes describen los pasos necesarios para implementar esta in
 
 ### Paso 1: Solicitar el aprovisionamiento para Analytics y Target
 
-Después de la implementación [!DNL Analytics] como fuente de informes para [!DNL Target], debe estar aprovisionado para [!DNL Analytics] y [!DNL Target]. [Rellene este formulario para solicitar el aprovisionamiento](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
+Después de la implementación [!DNL Analytics] como fuente de informes para [!DNL Target], debe estar aprovisionado para [!DNL Analytics] y [!DNL Target]. [Utilice este formulario para solicitar el aprovisionamiento](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### Paso 2: Configurar los permisos de usuario
 
@@ -56,7 +56,7 @@ Deben cumplirse los requisitos de cuenta de usuario para poder crear un [!DNL An
 
 ### Paso 3: Implementar el servicio ID de visitante de Experience Cloud
 
-El servicio de ID de visitante permite identificar a usuarios en todas las soluciones de [!DNL Adobe Experience Cloud]. Implemente o migre a la versión requerida del ID de visitante de Experience Cloud. Para obtener más información, consulte “Requisitos de implementación” en [Antes de la implementación](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
+El servicio de ID de visitante permite identificar a los usuarios en [!DNL Adobe Experience Cloud] soluciones. Implemente o migre a la versión requerida del ID de visitante de Experience Cloud. Para obtener más información, consulte “Requisitos de implementación” en [Antes de la implementación](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Consulte [Implementación del servicio de ID de Experience Cloud para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) en el *Servicio de ID de visitante de Experience Cloud* documentación.
 
@@ -66,7 +66,7 @@ Implemente o migre a la versión requerida de appMeasurement.js. Para obtener m�
 
 Para nuevas implementaciones, consulte [Información general sobre la implementación de JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) en el *Guía de implementación de Analytics*.
 
-Para ver una migración, consulte [Migrar a AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) en el *Guía de implementación de Analytics*.
+Para ver una migración, consulte [Migración a AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) en el *Guía de implementación de Analytics*.
 
 ### Paso 5: Descargar y actualizar at.js
 
@@ -178,7 +178,7 @@ La carga útil se puede reenviar a [!DNL Analytics] a través de [API de inserci
 
 ### Paso 8: Validar la implementación {#step8}
 
-Cargue sus páginas después de haber actualizado las bibliotecas de JavaScript para confirmar que los valores del parámetro `mboxMCSDID`[!DNL Target] en las llamadas de coinciden con el valor del parámetro `sdid`[!DNL Analytics] en la llamada de vista de página de 
+Cargue las páginas después de actualizar las bibliotecas JavaScript para confirmar que la variable `mboxMCSDID` valores de parámetro en [!DNL Target] las llamadas coinciden con `sdid` valor de parámetro en [!DNL Analytics] llamada de vista de página.
 
 SPA Es especialmente importante confirmar que estos valores coinciden en Aplicaciones de una sola página () en las que el orden de las llamadas no siempre es predecible.
 
@@ -192,9 +192,9 @@ Adobe recomienda eliminar la integración anterior para simplificar la implement
 
 ### Paso 10: Habilitar las opciones para usar Analytics como fuente de informes para Target
 
-Entrada [!DNL Target], haga clic en **[!UICONTROL Administración > Informes]** y elija **[!UICONTROL Seleccionar por actividad]** o **[!UICONTROL Adobe Analytics]** para activar las opciones.
+Entrada [!DNL Target], haga clic en **[!UICONTROL Administration > Reporting]** y elija **[!UICONTROL Select per activity]** o **[!UICONTROL Adobe Analytics]** para activar las opciones.
 
-* **[!UICONTROL La opción Seleccionar por actividad permite elegir entre y a la hora de crear cada actividad.]**[!DNL Target][!DNL Analytics]
-* **[!UICONTROL La opción Adobe establece Analytics como fuente de informes para todas las actividades que cree.]**[!DNL Analytics]
+* **[!UICONTROL Select per activity]** permite elegir entre [!DNL Target] y [!DNL Analytics] al crear cada actividad.
+* **[!UICONTROL Adobe Analytics]** conjuntos [!DNL Analytics] como fuente de informes para todas las actividades que cree.
 
 
