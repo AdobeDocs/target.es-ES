@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
+source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1518'
 ht-degree: 79%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 14 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para [!DNL Adobe Experience Platform Visual Editing Helper] para [!DNL Google Chrome]. |
 | Marzo de 13 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Se ha añadido información que debe tenerse en cuenta para volver a guardar las audiencias basadas en el tiempo de verano (DST). |
 | 6 de marzo | [Explorador](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Se ha actualizado la información en la siguiente sección: Actualizaciones de [!DNL iPad] y [!DNL iPhone] in [!UICONTROL Browser] atributos de audiencia (30 de abril de 2024)&quot;. |
 |  | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se ha actualizado toda la sección: Actualizaciones para `Browser:iPad` y `Browser:iPhone` in [!UICONTROL Browser] atributos de audiencia (30 de abril de 2024)&quot;. |
