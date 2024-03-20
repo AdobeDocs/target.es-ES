@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo previsualizar el Adobe [!DNL Targe
 title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ Se descargará un archivo CSV. Ábralo para ver los artículos recomendados:
 
 De izquierda a derecha se muestra una lista de los artículos recomendados, en este caso los más vistos. Las recomendaciones están separadas por entorno, en este caso solo el entorno Producción tiene recomendaciones.
 
-Si un asterisco (*) es el primer valor de una fila, indica elementos de copia de seguridad. Los elementos de copia de seguridad se muestran si no todas las ranuras de un diseño se pueden rellenar con los elementos recomendados del algoritmo (criterios). Para un algoritmo de popularidad como el más vendido, solo puede haber cero o una fila sin copia de seguridad para cada entorno en el archivo CSV porque estos tipos de algoritmo no tienen una &quot;clave&quot;, por ejemplo: &quot;mostrar al cliente los productos más populares independientemente de lo que esté viendo o comprando&quot;. Por lo tanto, a diferencia de otros algoritmos basados en claves, como vista-vista, el primer valor de la fila NO es la clave, sino el primer elemento de la lista de elementos recomendados.
+Si un asterisco (*) es el primer valor de una fila, indica [elementos de copia de seguridad](/help/main/c-recommendations/c-algorithms/backup-recs.md). Los elementos de copia de seguridad se muestran si no todas las ranuras de un diseño se pueden rellenar con los elementos recomendados del algoritmo (criterios).
 
 Para otros tipos de algoritmo basados en un valor clave, como [!UICONTROL People Who Viewed This, Viewed That], los valores clave (es decir, los elementos &quot;Este&quot;) se enumeran en la columna situada más a la izquierda y los elementos recomendados (es decir, los elementos &quot;Ese&quot;) se enumeran de izquierda a derecha en las columnas Recommendations_X.
 

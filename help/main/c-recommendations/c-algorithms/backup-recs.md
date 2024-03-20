@@ -2,25 +2,25 @@
 keywords: recomendación;copia de seguridad;copia;seguridad
 description: Aprenda a utilizar las recomendaciones de copia de seguridad en el Adobe [!DNL Target] Recommendations. Las recomendaciones que no tienen elementos recomendados suficientes muestran los resultados del algoritmo de copia de seguridad.
 title: ¿Cómo utilizo una recomendación de copia de seguridad en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '527'
+ht-degree: 77%
 
 ---
 
 # Usar una recomendación de copia de seguridad
 
-Si utiliza la función de copia de seguridad de recomendaciones en Adobe Target, las recomendaciones que no tengan suficientes artículos recomendados no mostrarán el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
+Si utiliza la función de recomendación de copia de seguridad en [!DNL Adobe Target]Sin embargo, cualquier recomendación que no tenga suficientes artículos recomendados no mostrará el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
 
 Si no utiliza una recomendación de copia de seguridad, y si una recomendación no contiene suficientes artículos para llenar la presentación, el sistema mostrará al usuario contenido predeterminado.
 
 >[!NOTE]
 >
->Se incluye información adicional en la [Sección Contenido de Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) tema, incluida una matriz que explica los resultados que observará al utilizar el [!UICONTROL Representación de diseño parcial] y [!UICONTROL Mostrar copia de seguridad de Recommendations] opciones juntas o por separado.
+>Se incluye información adicional en la [Sección Contenido de Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) tema, incluida una matriz que explica los resultados que observará al utilizar el [!UICONTROL Partial Design Rendering] y [!UICONTROL Show Backup Recommendations] opciones juntas o por separado.
 
 La función de recomendación de copia de seguridad siempre utiliza los artículos más vistos del sitio para llenar los espacios restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
 
@@ -49,4 +49,4 @@ Los duplicados se eliminan de los lotes de recomendaciones.
 
 Por lo general, el uso de recomendaciones de copia de seguridad forma parte de un análisis hecho con el equipo de implementación durante su configuración inicial. Si desea cambiar la configuración de las recomendaciones de copia de seguridad después de la implementación, póngase en contacto con el administrador de su cuenta.
 
-Si se habilita el procesamiento parcial de diseño (consulte   [La configuración de Content ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) no está activada y no se muestra la plantilla, por tanto se mostrará la recomendación de copia de seguridad o el contenido predeterminado en su lugar.
+Si se habilita el procesamiento parcial de diseño (consulte [Configuración de contenido](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) no está habilitada y no se muestra la plantilla, por lo que se muestra la recomendación de copia de seguridad o el contenido predeterminado en su lugar.
