@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 79%
+source-wordcount: '1573'
+ht-degree: 77%
 
 ---
 
@@ -19,6 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 22 de marzo | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Se han eliminado las referencias a los nodos perimetrales 31 a 38 porque estos nodos ya no existen. Asegúrese de que la lista de permitidos esté actualizada. |
+|  | [Impacto en Target (at.js) de la desaprobación de cookies de terceros](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nueva publicación de blog que describe lo que significa para su usuario la desaprobación planificada de cookies de terceros por parte de Google [!DNL Adobe Target] Implementación de at.js. |
 | 14 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión para [!DNL Adobe Experience Platform Visual Editing Helper] para [!DNL Google Chrome]. |
 | Marzo de 13 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Se ha añadido información que debe tenerse en cuenta para volver a guardar las audiencias basadas en el tiempo de verano (DST). |
 | 6 de marzo | [Explorador](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Se ha actualizado la información en la siguiente sección: Actualizaciones de [!DNL iPad] y [!DNL iPhone] in [!UICONTROL Browser] atributos de audiencia (30 de abril de 2024)&quot;. |
