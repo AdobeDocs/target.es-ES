@@ -4,7 +4,7 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
+source-git-commit: 0b690563d9719b3374f5a6be16a75990e629ab2b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -76,3 +76,4 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 | Ayuda sobre soluciones de Adobe [!DNL Target] | Recursos de [!DNL Adobe Experience Cloud] |
 |--- |--- |
 | <ul><li>[Aprendizaje y asistencia de Adobe Target](https://helpx.adobe.com/es/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=es)</li><li>[Documentación de API de Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=es){target=_blank}</li></ul> | <ul><li>[Foro de la comunidad de Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es)</li><li>[Notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)</li><li>[Inicio de la ayuda de Experience Cloud](https://helpx.adobe.com/es/support/experience-cloud.html)</li><li>[Documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=es)</li><li>[Formación y tutoriales de Adobe](https://helpx.adobe.com/es/learning.html?promoid=KAUDK)</li></ul> |  |
+
