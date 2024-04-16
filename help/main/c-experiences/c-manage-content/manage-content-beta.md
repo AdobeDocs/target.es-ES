@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
+source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 6%
+source-wordcount: '994'
+ht-degree: 17%
 
 ---
 
@@ -68,6 +68,10 @@ Haga clic en **[!UICONTROL Quick Info]** junto a cada nombre de oferta para ver 
 
 ### Más acciones
 
+Las acciones disponibles para Ofertas de código y para Ofertas de imágenes difieren ligeramente. Las secciones siguientes contienen más información:
+
+#### [!UICONTROL Code Offer] opciones
+
 Haga clic en **[!UICONTROL More actions]** (los puntos suspensivos horizontales) junto al nombre de cada oferta para abrir un menú que le permita realizar acciones rápidas en una actividad. Las siguientes acciones están disponibles (según los permisos y el estado de la oferta): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete], y [!UICONTROL Move].
 
 ![Opción Más acciones en la biblioteca de ofertas de Target](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
@@ -80,6 +84,8 @@ Haga clic en **[!UICONTROL More actions]** (los puntos suspensivos horizontales)
 En función de sus permisos, es posible que no vea iconos para todas las opciones. Por ejemplo, un usuario con [!UICONTROL Observer] permisos no tiene derechos para utilizar el [!UICONTROL Copy] opción.
 
 Para obtener información detallada sobre las tareas que se pueden realizar en ofertas y carpetas, consulte [Trabajar con contenido en la biblioteca de recursos](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+#### [!UICONTROL Image Offer] opciones
 
 Para realizar tareas adicionales, pase el ratón sobre la oferta de imagen o la carpeta que desee en la [!UICONTROL Image Offers] y, a continuación, haciendo clic en el icono deseado.
 
@@ -100,68 +106,64 @@ Para obtener información detallada sobre las tareas que se pueden realizar en o
 >
 >Las ofertas de imágenes no forman parte de [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modelo.
 
-<!--
+## Visualización de definiciones de oferta {#section_6B059DD121434E6292CAB393507D010E}
 
-## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
+Puede ver los detalles de la definición de la oferta en una tarjeta emergente de la [!UICONTROL Offers] sin abrir la oferta.
 
-You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
+Por ejemplo, para acceder a la siguiente definición de oferta de una oferta de HTML, pase el ratón sobre una oferta de la [!UICONTROL Content] y, a continuación, haciendo clic en el icono de información:
 
-For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
+![imagen offer-card-html](assets/offer-card-html.png)
 
-![offer-card-html image](assets/offer-card-html.png)
+Está disponible la siguiente información:
 
-The following information is available:
+* Nombre
+* Fuente
+* Tipo
+* ID de oferta
+* Ruta de oferta
+* Última modificación
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer path 
-* Last Modified
+Haga clic en [!UICONTROL Offer Usage] para ver las actividades que hacen referencia a una oferta de código en la tarjeta emergente de definición de cada oferta. Esta funcionalidad no se aplica a ofertas de imagen. De esta forma, puede evitar que otras actividades se vean influidas mientras edita las ofertas. La información incluye [!UICONTROL Live Activities] y [!UICONTROL Inactive Activities].
 
-Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
+![imagen offer-card-usage](assets/offer-card-usage.png)
 
-![offer-card-usage image](assets/offer-card-usage.png)
+La siguiente es la tarjeta de definición de una oferta de redireccionamiento:
 
-The following offer definition card for a Redirect offer:
+![imagen de redireccionamiento de tarjeta de oferta](assets/offer-card-redirect.png)
 
-![offer-card-redirect image](assets/offer-card-redirect.png)
+Está disponible la siguiente información:
 
-The following information is available:
+* Nombre
+* Fuente
+* Tipo
+* ID de oferta
+* Ruta de oferta
+* Última modificación
+* URL de redireccionamiento
+* Incluir todos los parámetros de URL (activado o desactivado)
+* Transferir ID de sesión de mbox (activado o desactivado)
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL 
-* Include all URL parameters (On or Off) 
-* Pass mbox session ID (On or Off)
+La siguiente es la tarjeta de definición de una oferta remota:
 
-The following offer definition card for a Remote offer:
+![imagen offer-card-remote](assets/offer-card-remote.png)
 
-![offer-card-remote image](assets/offer-card-remote.png)
+Está disponible la siguiente información:
 
-The following information is available:
+* Nombre
+* Fuente
+* Tipo
+* ID de oferta
+* Ruta de oferta
+* Última modificación
+* Tipo de URL de redireccionamiento
+* URL absoluta o relativa
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL Type 
-* Absolute or Relative URL
+## Vídeo de formación: El repositorio de contenido ![Distintivo Información general](/help/main/assets/overview.png)
 
-## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
+Este vídeo incluye información sobre la administración de ofertas.
 
-This video includes information about managing offers.
-
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
-* Custom HTML Offers 
-* Custom HTML Offer in the Visual Experience Composer
+* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) y la biblioteca de contenido de Target
+* Ofertas HTML personalizadas
+* Oferta HTML personalizada en el Compositor de experiencias visuales
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
-
--->
