@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 92%
+source-wordcount: '1232'
+ht-degree: 91%
 
 ---
 
@@ -249,6 +249,7 @@ ht-degree: 92%
       + [Información general sobre ofertas](c-experiences/c-manage-content/manage-content.md)
       + [Resumen de ofertas beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [Crear una carpeta de ofertas](c-experiences/c-manage-content/create-content-folder.md)
+      + [Crear carpeta de ofertas beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
       + [Carga de contenido](c-experiences/c-manage-content/assets-upload.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
