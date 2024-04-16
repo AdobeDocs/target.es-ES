@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Cree carpetas en la [!DNL Adobe Target] [!UICONTROL Offer] biblioteca para alber
 
 El proceso de creación de carpetas para ofertas de código y ofertas de imagen difiere ligeramente. Las secciones siguientes contienen más información.
 
-## Carpetas de ofertas de código
+## [!UICONTROL Code Offer] carpetas
 
 1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ El proceso de creación de carpetas para ofertas de código y ofertas de imagen 
 
 Para obtener información sobre las tareas que se pueden realizar en ofertas y carpetas, consulte [Trabajar con contenido en la biblioteca de recursos](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Carpetas de oferta de imagen
+## [!UICONTROL Image Offer] carpetas
 
 1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
