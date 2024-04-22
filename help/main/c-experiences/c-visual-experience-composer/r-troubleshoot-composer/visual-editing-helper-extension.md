@@ -4,10 +4,10 @@ description: Descubra por qué algunos sitios web podrían no abrirse de forma f
 title: ¿Cómo utilizo el [!UICONTROL Visual Editing Helper] ¿Extensión?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 67%
+source-wordcount: '672'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ El [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] extensión d
 
 >[!IMPORTANT]
 >
->Esta nueva extensión sustituye a la [extensión de explorador de VEC Helper de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) anterior. Consulte la nota importante que aparece en la parte superior de ese artículo.
+>Esta nueva extensión sustituye a la [extensión de explorador de VEC Helper de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) anterior. Consulte la nota importante que aparece al principio de ese artículo. Debido a las mejoras de seguridad de Manifest v3, [!DNL Adobe] requiere la descarga de esta nueva extensión para seguir creando visualmente sus sitios web en [!DNL Target].
 
 ## Razones por las que algunos sitios web podrían no abrirse de forma fiable en el VEC
 
