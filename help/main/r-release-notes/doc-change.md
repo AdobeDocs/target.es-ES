@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 76%
+source-wordcount: '1688'
+ht-degree: 73%
 
 ---
 
@@ -19,6 +19,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| Abril de 23 | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información que explica el plan de Google para comenzar a deshabilitar las extensiones creadas con Manifiesto V2. [!DNL Adobe] recomienda que los clientes cambien al nuevo [!UICONTROL Visual Editing Helper] extensión lo antes posible. |
+| Abril de 23 | [[!UICONTROL Visual Experience Composer] extensión del ayudante](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la nota importante en la parte superior de la página que explica el plan de Google para comenzar a deshabilitar las extensiones creadas con Manifiesto V2, que incluye la extensión documentada en este artículo. [!DNL Adobe] recomienda que los clientes cambien al nuevo [!UICONTROL Visual Editing Helper] extensión lo antes posible. |
 | 9 de abril | [Resolución de problemas relacionados con [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Se ha actualizado la sección siguiente:<ul><li>Mi página no se muestra en el VEC (solo VEC)  </li></ul>Se ha añadido esta nueva sección:<ul><li>Problemas causados por conflictos de CSS en [!UICONTROL Visual Experience Composer]</li></ul> |
 |  | [Informes de Perspectivas de personalización](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Se ha actualizado la sección Consideraciones. |
 | 22 de marzo | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Se han eliminado las referencias a los nodos perimetrales 31 a 38 porque estos nodos ya no existen. Asegúrese de que la lista de permitidos esté actualizada. |

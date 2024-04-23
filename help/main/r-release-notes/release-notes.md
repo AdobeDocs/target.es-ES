@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 60%
+source-wordcount: '604'
+ht-degree: 55%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 60%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!UICONTROL Visual Experience Composer] extensión del ayudante (23 de abril de 2024)
+
+El legado [!DNL Target] La extensión de ayuda del Compositor de experiencias visuales se ha creado con Manifest V2. [!DNL Google] anunció que ya no permitirá extensiones creadas con Manifest V2 a partir de junio de 2024. Para obtener más información, consulte [[!UICONTROL Visual Experience Composer] extensión del ayudante](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] recomienda que los clientes cambien al más reciente [Extensión de Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) tan pronto como sea posible.
 
 ## Actualizaciones para `Browser:iPad` y `Browser:iPhone` in [!UICONTROL Browser] atributos de audiencia (30 de abril de 2024)
 
