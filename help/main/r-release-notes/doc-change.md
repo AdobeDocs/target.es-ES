@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
+source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 73%
+source-wordcount: '1711'
+ht-degree: 72%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 30 de abril | [Resolución de problemas relacionados con [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Se ha actualizado la lista de direcciones IP del servidor de Adobe utilizado para el proxy EEC de la lista de permitidos. |
 | Abril de 23 | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información que explica el plan de Google para comenzar a deshabilitar las extensiones creadas con Manifiesto V2. [!DNL Adobe] recomienda que los clientes cambien al nuevo [!UICONTROL Visual Editing Helper] extensión lo antes posible. |
 | Abril de 23 | [[!UICONTROL Visual Experience Composer] extensión del ayudante](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la nota importante en la parte superior de la página que explica el plan de Google para comenzar a deshabilitar las extensiones creadas con Manifiesto V2, que incluye la extensión documentada en este artículo. [!DNL Adobe] recomienda que los clientes cambien al nuevo [!UICONTROL Visual Editing Helper] extensión lo antes posible. |
 | 9 de abril | [Resolución de problemas relacionados con [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Se ha actualizado la sección siguiente:<ul><li>Mi página no se muestra en el VEC (solo VEC)  </li></ul>Se ha añadido esta nueva sección:<ul><li>Problemas causados por conflictos de CSS en [!UICONTROL Visual Experience Composer]</li></ul> |
