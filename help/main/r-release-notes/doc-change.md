@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 83c6f67b141a3dbaf58df3b6b3b1172930939537
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1723'
 ht-degree: 72%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 8 de Mayo | [[!DNL Target] creación de informes en [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nuevo artículo: Se ha añadido información sobre [!DNL Target] integración con [!DNL Adobe Customer Journey Analytics]. |
 | 30 de abril | [Resolución de problemas relacionados con [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Se ha actualizado la lista de direcciones IP del servidor de Adobe utilizado para el proxy EEC de la lista de permitidos. |
 | Abril de 23 | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha añadido información que explica el plan de Google para comenzar a deshabilitar las extensiones creadas con Manifiesto V2. [!DNL Adobe] recomienda que los clientes cambien al nuevo [!UICONTROL Visual Editing Helper] extensión lo antes posible. |
 | Abril de 23 | [[!UICONTROL Visual Experience Composer] extensión del ayudante](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Se ha actualizado la nota importante en la parte superior de la página que explica el plan de Google para comenzar a deshabilitar las extensiones creadas con Manifiesto V2, que incluye la extensión documentada en este artículo. [!DNL Adobe] recomienda que los clientes cambien al nuevo [!UICONTROL Visual Editing Helper] extensión lo antes posible. |
