@@ -4,10 +4,10 @@ description: Uso [!DNL Target] creación de informes en [!DNL Adobe Customer Jou
 title: Qué es [!DNL Target] creación de informes en [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 57%
+source-wordcount: '1031'
+ht-degree: 56%
 
 ---
 
@@ -68,6 +68,10 @@ Se admiten los siguientes tipos de actividades al usar la biblioteca JavaScript 
 ## Creación de una actividad que use [!DNL Customer Journey Analytics] como fuente de creación de informes
 
 La creación de una actividad de [!DNL Target] que use [!DNL Customer Journey Analytics] como la fuente de creación de informes es similar a la configuración de una actividad de [!DNL Target] habitual.
+
+>[!TIP]
+>
+>También puede especificar que [!DNL Target] usa informes en [!DNL Customer Journey Analytics] para todas las actividades creadas en su cuenta (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). Para obtener más información, consulte *Solución de Reporting Cloud* in [Configuración de informes en [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. Desde el **[!UICONTROL Activities]** , haga clic en **[!UICONTROL Create Activity]**, luego seleccione el tipo de actividad (según el [gráfico de actividades compatibles anterior](#supported-activities)) y comience a configurar la actividad.
 1. Cuando llegue a la **[!UICONTROL Goals & Settings]** del flujo de trabajo de creación de actividades en tres partes, seleccione **[!DNL Customer Journey Analytics]** como fuente de informes.

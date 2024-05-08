@@ -1,22 +1,22 @@
 ---
 keywords: informe;informes;informes;solución de experience cloud;huso horario;zona horaria;moneda;excluir direcciones IP;alza estimada de ingresos;ingresos;alza de ingresos;prioridades específicas;específicas
-description: Uso [!DNL Target] Para Adobe Analytics como fuente de informes, especifique el formato predeterminado de zona horaria y moneda, agregue direcciones IP que excluir de los informes, etc.
-title: ¿Cómo configuro la creación de informes en Target?
+description: Uso [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] como fuente de informes, especifique el formato predeterminado de zona horaria y moneda, añada direcciones IP que excluir de los informes, etc.
+title: ¿Cómo configuro los informes en? [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 32%
+source-wordcount: '761'
+ht-degree: 22%
 
 ---
 
-# Configuración de informes en Target
+# Configuración de informes en [!DNL Target]
 
 Configure las opciones generales para usar en [!DNL Adobe Target] informes que se aplican a todo el [!DNL Target] cuenta.
 
-Para acceder a [!UICONTROL Informes] , haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Informes].**
+Para acceder a [!UICONTROL Reporting] , haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 Puede especificar la siguiente configuración en esta página:
 
@@ -29,7 +29,7 @@ Puede especificar la siguiente configuración en esta página:
 
 >[!NOTE]
 >
->Tenga en cuenta que la zona horaria, la moneda y las direcciones IP que deben excluirse se aplican a las actividades que utilizan [!DNL Target] informes. Esta configuración no se aplica a las actividades que utilizan [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) como fuente de informes.
+>Tenga en cuenta que la zona horaria, la moneda y las direcciones IP que deben excluirse se aplican a las actividades que utilizan [!DNL Target] informes. Esta configuración no se aplica a las actividades que utilizan [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) o [!DNL Customer Journey Analytics] como fuente de informes.
 
 ![Página Informes](/help/main/administrating-target/assets/reporting.png)
 
@@ -37,14 +37,30 @@ Puede especificar la siguiente configuración en esta página:
 
 Establezca opciones que determinen los datos que se usan para los resultados y los informes.
 
-Seleccione la fuente de informes para sus actividades: [!DNL Target] o [!DNL Adobe Analytics]. Si lo desea, también puede elegir la fuente de informes por actividad.
+Seleccione la fuente de informes para sus actividades: [!DNL Target], [!DNL Adobe Analytics], o [!DNL Adobe Customer Journey Analytics]. También puede elegir la fuente de informes por actividad como parte del flujo de trabajo guiado de tres partes al crear la actividad.
 
 Tenga en cuenta la siguiente información al elegir su fuente de informes:
 
-* Si la fuente de informes está configurada en **[!DNL Target]**, no se le permite activar una actividad que use como fuente de informes. [!DNL Analytics] Debe cambiar la fuente de informes a [!DNL Target] en su actividad o cambie la fuente de informes a **[!UICONTROL Seleccionar por actividad]** in **[!UICONTROL Administration] > [!UICONTROL Informes]**.
-* Si la fuente de informes está configurada como **[!DNL Analytics]** en este caso, no se le permite activar una actividad que utilice [!DNL Target] como fuente de informes (la fuente de informes se especifica como **[!UICONTROL Objetivo por actividad])**. Debe cambiar la fuente de informes a [!DNL Analytics] en su actividad o cambie el motor de informes a **[!UICONTROL Seleccionar por actividad]** in **[!UICONTROL Administration] > [!UICONTROL Informes]**.
-* Si la fuente de informes está configurada como **[!UICONTROL Seleccionar por actividad]** aquí puede crear, activar y desactivar actividades que son compatibles con la fuente de informes seleccionada. Para ver una matriz de actividades compatibles, consulte [Tipos de actividades compatibles](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics como fuente de informes para Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) La creación, activación y desactivación de actividades están permitidas independientemente de la fuente de informes seleccionada. Las actividades de Automated Personalization no son compatibles cuando elige [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Incluso si especifica [!DNL Analytics] como fuente de informes, [!DNL Target] se utiliza como fuente de informes para las actividades de Automated Personalization. Para obtener más información, consulte [Tipos de actividades compatibles](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics como fuente de informes para Adobe Target (A4t)*.
+* **[!DNL Adobe Target]**: si la fuente de informes está configurada en **[!DNL Target]** en este caso, no se le permite crear ni activar una actividad que utilice [!DNL Analytics] o [!DNL Customer Journey Analytics] como fuente de informes. Debe cambiar la fuente de informes a **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Analytics]**: si la fuente de informes está configurada en **[!DNL Analytics]** en este caso, no se le permite crear ni activar una actividad que utilice [!DNL Target] o [!DNL Customer Journey Analytics] como fuente de informes. Debe cambiar la fuente de informes a **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Customer Journey Analytics]**: si la fuente de informes está configurada en **[!DNL Customer Journey Analytics]** en este caso, no se le permite crear ni activar una actividad que utilice [!DNL Target] o [!DNL Analytics] como fuente de informes. Debe cambiar la fuente de informes a **[!UICONTROL Select per activity]**.
+* **Seleccionar por actividad**: si la fuente de informes está configurada en **[!UICONTROL Select per activity]** aquí puede crear y activar actividades que sean compatibles con la fuente de informes seleccionada.
+
+Al determinar la fuente de informes, tenga en cuenta la siguiente información:
+
+* **[!DNL Analytics]**: para obtener una matriz de actividades compatibles con [!DNL Analytics] como fuente de informes (A4T), consulte [Tipos de actividades compatibles](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics como fuente de informes para Adobe Target (A4t)*.
+
+  [!UICONTROL Automated Personalization] (AP) La creación y activación de actividades están permitidas independientemente de la fuente de informes seleccionada. [!UICONTROL Automated Personalization] Las actividades de no son compatibles cuando elige [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+
+  Incluso si especifica [!DNL Analytics] como fuente de informes, [!DNL Target] se usa como fuente de informes para [!DNL Automated Personalization] actividades.
+
+* **[!DNL Customer Journey Analytics]**: para obtener una matriz de actividades compatibles con [!DNL Target] creación de informes en [!DNL Customer Journey Analytics], consulte [Tipos de actividades compatibles](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]creación de informes en[!DNL Adobe Customer Journey Analytics]*.
+
+  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate], y [!UICONTROL Auto-Target] la creación y activación de actividades están permitidas independientemente de la fuente de informes seleccionada. Estas actividades no son compatibles cuando elige [Adobe Customer Journey Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+
+  Incluso si especifica [!DNL Customer Journey Analytics] como fuente de informes, [!DNL Target] se usa como fuente de informes para [!DNL Automated Personalization] actividades.
+
+  Si especifica [!DNL Customer Journey Analytics] como fuente de informes para [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target] actividades, [!DNL Target] o [!DNL Analytics] puede utilizarse como fuente de informes.
 
 ## Zona horaria para informes
 
