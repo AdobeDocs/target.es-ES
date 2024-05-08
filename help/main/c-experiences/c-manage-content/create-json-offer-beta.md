@@ -3,11 +3,12 @@ keywords: oferta json;crear oferta json
 description: Obtenga información sobre cómo crear ofertas JSON en para utilizarlas en [!UICONTROL Form-Based Experience Composer].
 title: ¿Cómo creo ofertas JSON?
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 29%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -32,15 +33,17 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
 1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Pestaña Ofertas > Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Pestaña Ofertas > Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Clic **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Clic **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![imagen offer-json](assets/offer-json.png)
+   ![imagen offer-json](assets/offer-json-new.png)
 
 1. Escriba el nombre de una oferta.
+1. (Condicional) Si tiene un [[!DNL Target] Cuenta Premium](/help/main/c-intro/intro.md#premium), elija el que desee [workspace](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Condicional) Elija los atributos de perfil que desee.
 1. Escriba o pegue su código JSON en **[!UICONTROL Code]** cuadro.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
 ## Ejemplo de JSON {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-Las acciones pasadas a llamada de retorno de éxito son una matriz de objeto. Si tenemos una sola oferta JSON con este contenido:
+Las acciones pasadas a llamada de retorno de éxito son una matriz de objeto. Suponiendo que tenga una sola oferta JSON, que tenga este contenido:
 
 ```json
 { 
@@ -139,6 +142,6 @@ Para obtener más información, consulte [Uso compartido de atributos de perfil 
 
 ## Filtrado de ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Puede filtrar la variable [!UICONTROL Offers] por tipo de oferta JSON haciendo clic en el icono **[!UICONTROL Type]** lista desplegable y, a continuación, seleccionando la variable **[!UICONTROL JSON]** casilla de verificación
+Puede filtrar la variable [!UICONTROL Offers] por tipo de oferta JSON haciendo clic en el icono **[!UICONTROL Show filters]** y, a continuación, seleccionando la opción **[!UICONTROL JSON]** casilla de verificación
 
-![imagen offer-json-filter](assets/offer-json-filter.png)
+![imagen offer-json-filter](assets/offer-json-filter-new.png)
