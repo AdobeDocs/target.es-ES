@@ -3,14 +3,11 @@ keywords: customer recorrido analytics;customer recorrido analytics for target;f
 description: Uso [!DNL Target] creación de informes en [!DNL Adobe Customer Journey Analytics] para crear actividades basadas en [!DNL Customer Journey Analytics] métricas de conversión y segmentos de audiencia y usar [!DNL Customer Journey Analytics] para examinar los resultados.
 title: Qué es [!DNL Target] creación de informes en [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
-hide: true
-hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 8475365099315f3f8f2a47bfca9dd9f245b16720
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 58%
+source-wordcount: '1005'
+ht-degree: 57%
 
 ---
 
