@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 90%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 90%
    + [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](c-experiences/spa-visual-experience-composer.md)
    + Ofertas {#offers}
       + [Información general sobre ofertas](c-experiences/c-manage-content/manage-content.md)
-      + [Resumen de ofertas beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [Resumen de ofertas beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Crear una carpeta de ofertas](c-experiences/c-manage-content/create-content-folder.md)
-      + [Crear carpeta de ofertas beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [Crear carpeta de ofertas beta](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Cargar contenido](c-experiences/c-manage-content/assets-upload.md)
-      + [Cargar o eliminar ofertas de imagen](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [Cargar o eliminar ofertas de imagen en versión beta](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect.md)
-      + [Crear ofertas de redireccionamiento](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [Crear ofertas de redireccionamiento beta](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Crear ofertas remotas](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Crear ofertas remotas beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [Crear ofertas remotas beta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [Creación de ofertas JSON](c-experiences/c-manage-content/create-json-offer.md)
-      + [Creación de ofertas JSON beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [Creación de ofertas JSON beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
-      + [Trabajar con contenido en la biblioteca beta](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [Trabajar con contenido en la biblioteca beta](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [Búsqueda de contenido](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transmisión dinámica de datos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Fragmentos de contenido y experiencia de](c-experiences/c-manage-content/aem-experience-fragments.md)
