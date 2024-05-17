@@ -4,10 +4,10 @@ description: Aprenda a solucionar problemas que a veces se producen en el Adobe 
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 25%
+source-wordcount: '439'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,15 @@ Esto se puede resolver mediante la inclusión en la lista de permitidos de las s
 
 Solicite a su equipo de TI que realice la lista de permitidos de las siguientes direcciones IP:
 
+* 34 254 77 200
+* 54.73.207.147
+* 54 229 152 123
+* 3 224 194 242
+* 54 90 51 39
+* 34 228 136 112
+* 54 150 116 11
+* 18.178.142.8
+* 54 199 107 77
 * 99 80 139 221
 * 54.78.56.224
 * 54 247 179 246
@@ -66,7 +75,7 @@ Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegad
 
    ![imagen firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Si encuentra que el sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, póngase en contacto con [Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para la configuración con su versión TLS y el dominio.
+1. Si encuentra que el sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de Target. Para remediar la situación por ahora (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con [Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para la configuración con su versión TLS y el dominio.
 
 ## Veo errores de tiempo de espera o “acceso denegado” al cargar sitios con el proxy habilitado. (Solo EEC)   {#section_60CBB9022DC449F593606C0E6252302D}
 
