@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 71%
+source-wordcount: '1783'
+ht-degree: 70%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 | --- | --- | --- |
+| 3 de junio | [Prioridad](/help/main/c-activities/priority.md) | Se ha actualizado todo el tema, incluida la indicación de que el contenido de varias [!UICONTROL Form-Based Experience Composer] Las actividades de y VEC pueden ofrecer. Anteriormente, solo se podía entregar una actividad del flujo de trabajo basado en formularios. Ya no hay límite en el número de actividades basadas en formularios que se pueden entregar. |
 | 17 de mayo | [Resolución de problemas relacionados con [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Se han añadido direcciones IP adicionales que puede lista de permitidos al utilizar el [!UICONTROL Enhanced Experience Composer]. |
 | 8 de Mayo | [[!DNL Target] creación de informes en [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nuevo artículo: Se ha añadido información sobre [!DNL Target] integración con [!DNL Adobe Customer Journey Analytics]. |
 | 30 de abril | [Resolución de problemas relacionados con [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Se ha actualizado la lista de direcciones IP del servidor de Adobe utilizado para el proxy EEC de la lista de permitidos. |
