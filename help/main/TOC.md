@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
+source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1260'
 ht-degree: 89%
 
 ---
@@ -273,7 +273,7 @@ ht-degree: 89%
       + [Descarga de datos en un archivo CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Metodología estadística {#statistical-methodology}
       + [Cálculos estadísticos en Pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Informes de personalización {#personalization-reports}
+   + Informes de Personalization {#personalization-reports}
       + [Informe Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Informes resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
    + Informe Perspectivas de personalización {#insights}
@@ -298,6 +298,7 @@ ht-degree: 89%
       + [Búsqueda en el catálogo](c-recommendations/c-products/catalog-search.md)
       + [Búsqueda en catálogo beta](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Colecciones](c-recommendations/c-products/collections.md)
+      + [Colecciones beta](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Exclusiones](c-recommendations/c-products/exclusions.md)
    + Criterios {#criteria}
       + [Información general sobre criterios](c-recommendations/c-algorithms/algorithms.md)
