@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 29%
@@ -83,7 +83,7 @@ Haga clic en **elipsis** junto a la colección que desee en la lista y, a contin
 
 ![Iconos de desplazamiento: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
-Puede copiar una colección existente para crear una colección duplicada que luego puede modificar. Esto permite crear una exclusión similar con menos esfuerzo.
+Puede copiar una colección existente para crear una colección duplicada que luego puede modificar. Esto permite crear una colección similar con menos esfuerzo.
 
 Tenga en cuenta que las colecciones están disponibles en toda la cuenta. Asegúrese de tenerlo en cuenta antes de eliminar una colección. Las colecciones eliminadas no se pueden recuperar.
 
