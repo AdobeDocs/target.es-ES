@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 88%
+source-wordcount: '1291'
+ht-degree: 87%
 
 ---
 
@@ -315,6 +315,7 @@ ht-degree: 88%
       + [Cargar criterios personalizados beta](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Reglas de inclusión dinámicas y estáticas {#dynamic-static}
          + [Uso de reglas de inclusión dinámicas y estáticas](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Uso de reglas de inclusión dinámicas y estáticas beta](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Coincidencia de atributos de entidad](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Coincidencia de atributos de perfil](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [Coincidencia de parámetros](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
