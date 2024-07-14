@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 89%
+source-wordcount: '1284'
+ht-degree: 88%
 
 ---
 
@@ -90,13 +90,13 @@ ht-degree: 89%
          + [Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integración heredada de SiteCatalyst con Test&amp;Target: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integración de Target con Adobe Customer Journey Analytics {#cja}
+   + Integrar Target con Adobe Customer Journey Analytics {#cja}
       + [Informes de Target en Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Integración de Target con Adobe Journey Optimizer (AJO) {#ajo}
+   + Integrar Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrar [!DNL Adobe Target Recommendations] y [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integración de Target con Adobe Experience Manager AEM () {#aem}
+   + Integrar Target con Adobe Experience Manager AEM () {#aem}
       + [AEM Información general sobre la integración de Target con](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragmentos de experiencias y fragmentos de contenido {#fragments}
          + [AEM Resumen de fragmentos de contenido y fragmentos de experiencias](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
@@ -280,7 +280,7 @@ ht-degree: 89%
       + [Información general sobre los informes de Perspectivas de personalización](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Informe Segmentos automatizados](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Informe Atributos importantes](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Informes de prueba multivariable {#multivariate-test-reports}
+   + Informes de pruebas multivariable {#multivariate-test-reports}
       + [Informe Rendimiento de las experiencias (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [Informe Contribución de ubicación (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Creación de informes en Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
@@ -303,11 +303,16 @@ ht-degree: 89%
       + [Exclusiones beta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Criterios {#criteria}
       + [Información general sobre criterios](c-recommendations/c-algorithms/algorithms.md)
+      + [Resumen de criterios beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [Crear criterios](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [Crear criterios beta](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Crear secuencias de criterios](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [Crear secuencias de criterios beta](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [Basar la recomendación en una clave de recomendación](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Basar la recomendación en una clave de recomendación beta](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [La ciencia detrás de los algoritmos de recomendaciones de Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Cargar criterios personalizados](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [Cargar criterios personalizados beta](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Reglas de inclusión dinámicas y estáticas {#dynamic-static}
          + [Uso de reglas de inclusión dinámicas y estáticas](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Coincidencia de atributos de entidad](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
