@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
+source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 87%
+source-wordcount: '1305'
+ht-degree: 86%
 
 ---
 
@@ -317,9 +317,13 @@ ht-degree: 87%
          + [Uso de reglas de inclusión dinámicas y estáticas](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Uso de reglas de inclusión dinámicas y estáticas beta](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Coincidencia de atributos de entidad](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Coincidencia de atributos de entidad beta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [Coincidencia de atributos de perfil](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Coincidencia de atributos de perfil beta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [Coincidencia de parámetros](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Coincidencia de parámetros beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [Filtro estático](/help/main/c-recommendations/c-algorithms/static-value.md)
+         + [Filtro estático beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Usar una recomendación de copia de seguridad](c-recommendations/c-algorithms/backup-recs.md)
       + [Trabajo con atributos de varios valores](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Uso de Adobe Analytics con Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
