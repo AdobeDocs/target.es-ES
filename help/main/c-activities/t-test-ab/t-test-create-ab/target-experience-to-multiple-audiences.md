@@ -1,19 +1,19 @@
 ---
 keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
-description: Aprenda a dirigir versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] Actividades A/B.
+description: Aprenda a segmentar versiones de la misma experiencia a distintas audiencias en  [!DNL Adobe Target] actividades A/B.
 title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 56%
+source-wordcount: '590'
+ht-degree: 53%
 
 ---
 
 # Varias audiencias de una experiencia en una prueba A/B
 
-Puede segmentar versiones de la misma experiencia para distintas audiencias en [!DNL Adobe Target] Actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Compositor de experiencias visuales] (VEC) o en el Compositor de experiencias basadas en formularios.
+Puede segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Visual Experience Composer] (VEC) o en el Compositor de experiencias basadas en formularios.
 
 Los visitantes pueden cambiar entre audiencias de experiencia a medida que cambia su perfil. Los visitantes no están atascados en la misma experiencia durante toda la actividad.
 
@@ -33,11 +33,11 @@ En este caso, lo que necesita son versiones específicas de la experiencia, para
 
    Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes.
 
-1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Audiencias]** > **[!UICONTROL Varias audiencias]**.
+1. Seleccione la experiencia y haga clic en **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![Opción Varias audiencias](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Haga clic en **[!UICONTROL Añadir audiencia]** y seleccione la primera audiencia a la que se quiere dirigir. Haga lo mismo por cada audiencia.
+1. Haga clic en **[!UICONTROL Add Audience]** y seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada audiencia.
 
    ![imagen exp-versions](assets/exp-versions.png)
 
@@ -51,4 +51,4 @@ En este caso, lo que necesita son versiones específicas de la experiencia, para
 
 * Elija audiencias que se excluyan mutuamente. Si la actividad se creó en el VEC y un visitante coincide con más de una audiencia, se devuelve el contenido de cada audiencia y el contenido de la audiencia se muestra por última vez en la página.
 * Las audiencias de participación en la actividad definidas en el diagrama se combinan con las audiencias de experiencia mediante la condición AND. Para participar en la actividad, un visitante debe cumplir los requisitos de la audiencia de la actividad y los requisitos de una de las audiencias de la experiencia.
-* Añada las mismas audiencias como segmentos para los informes. Esto le ayuda a ver los resultados de las pruebas en el nivel superior de experiencia, A frente a B, y en el nivel inferior de experiencia, A frente a B solo para &quot;idioma del explorador ja_JP&quot;. Esto solo funciona para [!DNL Target]informes basados en, no [!DNL Analytics]Informes basados en.
+* Añada las mismas audiencias como segmentos para los informes. Esto le ayuda a ver los resultados de las pruebas en el nivel superior de experiencia, A frente a B, y en el nivel inferior de experiencia, A frente a B solo para &quot;idioma del explorador ja_JP&quot;. Esto solo funciona para informes basados en [!DNL Target], no para informes basados en [!DNL Analytics].

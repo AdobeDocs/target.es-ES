@@ -2,17 +2,17 @@
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
 description: Aprenda a integrar el correo electrónico con la API de entrega de Adobe [!DNL Target Recommendations], including using the [!DNL Target] , las plantillas de rawbox y las plantillas de solo descarga.
 title: ¿Cómo puedo integrar Recommendations con el correo electrónico?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1734'
 ht-degree: 96%
 
 ---
 
-# Integración de [!DNL Recommendations] con el correo electrónico
+# Integrar [!DNL Recommendations] con el correo electrónico
 
 [!DNL Adobe Target] admite la personalización en tiempo de envío de recomendaciones en correos electrónicos.
 
@@ -78,7 +78,7 @@ El elemento `clientcode` es su código de cliente de [!DNL Target]
 >
 >Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil.
 
-Consulte la [documentación de la API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html) para obtener más información.{target=_blank}
+Consulte [Documentación de la API de envío](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=es){target=_blank} para obtener más información.
 
 ## Método 2: usar una plantilla de correo electrónico de rawbox {#rawbox}
 
@@ -103,7 +103,7 @@ El sistema de correo electrónico que utilice debe ser capaz de gestionar las si
 
 * En este caso, el servidor de [!DNL Target] devolverá el siguiente contenido:
 
-   `//ERROR: application server timeout`
+  `//ERROR: application server timeout`
 
 * La aplicación del correo electrónico debe buscar ese texto y poder gestionar el error. El proveedor de correo electrónico tiene varias opciones para solventar este problema:
 

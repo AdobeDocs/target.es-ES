@@ -1,19 +1,19 @@
 ---
 keywords: prueba multivariable;mvt;planificación de mvt;planificar prueba multivariable
-description: Obtenga información sobre cómo planificar una [!UICONTROL Prueba multivariable] in [!DNL Adobe Target] para poder crear una prueba de éxito.
-title: ¿Cómo planifico una [!UICONTROL Prueba multivariable]?
+description: Aprenda a planificar un(a) [!UICONTROL Multivariate Test] en  [!DNL Adobe Target] para que pueda crear una prueba con resultados satisfactorios.
+title: ¿Cómo planifico un [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 65%
+source-wordcount: '286'
+ht-degree: 64%
 
 ---
 
-# Planificar una [!UICONTROL Prueba multivariable]
+# Planificar un [!UICONTROL Multivariate Test]
 
-[!UICONTROL Pruebas multivariable] Actividades de (MVT) en [!DNL Adobe Target] es necesario realizar alguna planificación para poder crear una prueba de éxito.
+Las actividades de [!UICONTROL Multivariate Tests] (MVT) en [!DNL Adobe Target] requieren cierta planificación para poder crear una prueba con resultados satisfactorios.
 
 La prueba multivariable requiere tráfico suficiente para generar resultados útiles. Antes de configurar la prueba, debe conocer la cantidad de tráfico que normalmente recibe, incluido el número de impresiones y conversiones. Tener esta información ayuda a reducir la probabilidad de diseñar una prueba con requisitos que superen el tráfico del sitio.
 
@@ -27,7 +27,7 @@ Por último, antes de crear la prueba, debe crear el contenido que desea probar.
 
 ## Vídeo de formación: Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se muestra cómo planificar y crear una prueba multivariable con el [!DNL Target] flujo de trabajo guiado de tres pasos.
+En este vídeo se muestra cómo planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target].
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable

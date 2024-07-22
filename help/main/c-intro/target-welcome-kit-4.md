@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # Capítulo 4: Sugerencias sobre el uso de Target
 
-Basado en nuestro trabajo con muchos [!DNL Target] usuarios, hemos observado maneras de obtener más valor de su [!DNL Target] solución. Las distintas sugerencias que se incluyen en este capítulo ofrecen un resumen de estos recursos. Pese a que es posible que no esté listo para usar todas estas ideas de inmediato, manténgase al tanto de esta lista. Cuanto más experiencia adquiera con la solución y cuanto más madure su programa, más útiles le resultarán estas sugerencias para realizar más tareas con [!DNL Target].
+En base a nuestro trabajo con muchos usuarios de [!DNL Target], hemos observado maneras de obtener más valor de su solución de [!DNL Target]. Las distintas sugerencias que se incluyen en este capítulo ofrecen un resumen de estos recursos. Pese a que es posible que no esté listo para usar todas estas ideas de inmediato, manténgase al tanto de esta lista. Cuanto más experiencia adquiera con la solución y cuanto más madure su programa, más útiles le resultarán estas sugerencias para lograr más resultados con [!DNL Target].
 
 ## Sugerencia 1: Intensifique la personalización ofreciendo datos adicionales en el perfil del visitante.
 
@@ -25,7 +25,7 @@ Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/targ
 
 **Datos útiles**: Como [!DNL Target] es una plataforma abierta y agnóstica que funciona con diferentes tecnologías, puede agregar datos de sistemas CRM o comprados de muchas maneras diferentes. Esto significa que puede elegir el método que mejor funcione para su organización.
 
-Consulte [Métodos para obtener los datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} para obtener más información.
+Consulte [Métodos para obtener datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank} para obtener más información.
 
 ## Sugerencia 2: Intensifique la personalización mediante la fusión de audiencias de [!DNL Target] con otras audiencias de Adobe Experience Cloud.
 
@@ -33,11 +33,11 @@ La fusión de audiencias que residen en diferentes soluciones de [!DNL Adobe Exp
 
 Consulte [Combinación de varias audiencias](/help/main/c-target/combining-multiple-audiences.md) para obtener instrucciones paso a paso.
 
-**Datos útiles**: Las audiencias de [!DNL Adobe Audience Manager] están disponibles en [!DNL Target] automáticamente. Sin embargo, el uso compartido de audiencias de [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla &quot;Convertir en audiencia Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. Entonces desde [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
+**Datos útiles**: Las audiencias de [!DNL Adobe Audience Manager] están disponibles en [!DNL Target] automáticamente. Sin embargo, el uso compartido de audiencias de [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla &quot;Convertir en audiencia Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, desde [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
 
 ## Sugerencia 3: Exporte datos de [!DNL Target] para usarlos con herramientas de terceros.
 
-Con los tokens de respuesta, los administradores pueden obtener fácilmente datos de [!DNL Target] y usarlos en herramientas de terceros. Esto puede resultar útil cuando desea agregar los datos a los datos recopilados en una herramienta de encuesta. Por ejemplo, si una encuesta muestra una muestra de población que obtuvo una puntuación de experiencia de &quot;9&quot; y otra que obtuvo una puntuación de experiencia de &quot;4&quot;, puede utilizar los datos para ver quién vio la experiencia A y quién la experiencia B. También puede utilizar tokens de respuesta para exportar [!DNL Target] a su almacén de datos interno. Simplemente haga clic en &quot;Administración&quot; y, a continuación, active el conmutador situado junto al token de respuesta deseado en la posición ON. A continuación, cree una actividad. Los datos están listos para transferirlos al proveedor de terceros. Puede verificar que [!DNL Target] está exportando los datos con las herramientas de depuración.
+Con los tokens de respuesta, los administradores pueden obtener fácilmente datos de [!DNL Target] y usarlos en herramientas de terceros. Esto puede resultar útil cuando desea agregar los datos a los datos recopilados en una herramienta de encuesta. Por ejemplo, si una encuesta muestra una muestra de población que obtuvo una puntuación de experiencia de &quot;9&quot; y otra que obtuvo una puntuación de experiencia de &quot;4&quot;, puede utilizar los datos para ver quién vio la experiencia A y quién la experiencia B. También puede usar tokens de respuesta para exportar datos de [!DNL Target] a su almacén de datos interno. Simplemente haga clic en &quot;Administración&quot; y, a continuación, active el conmutador situado junto al token de respuesta deseado en la posición ON. A continuación, cree una actividad. Los datos están listos para transferirlos al proveedor de terceros. Puede verificar que [!DNL Target] está exportando los datos con las herramientas de depuración.
 
 Consulte [Tokens de respuesta](/help/main/administrating-target/response-tokens.md) para obtener instrucciones paso a paso.
 
@@ -63,7 +63,7 @@ Facilite el trabajo con los datos de su organización a la vez que mantiene la s
 
 Consulte [Permisos de usuarios empresariales](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) para obtener más información.
 
-**Sugerencia útil**: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado anteriormente a su organización (como puede ser el caso de un empleado de una agencia de terceros), al introducir su dirección de correo electrónico y contraseña, se enviará una invitación por correo electrónico para unirse al espacio de trabajo de un equipo al déclencheur.
+**Sugerencia útil**: Al agregar usuarios, si el nombre de un miembro del equipo no se ha agregado previamente a su organización (como puede ser el caso de un empleado de una agencia de terceros), al escribir su dirección de correo electrónico y contraseña, se almacenará en déclencheur una invitación por correo electrónico para unirse al espacio de trabajo de un equipo.
 
 ¿Es usuario de Target Standard? Puede [asignar tres niveles de acceso](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) a los usuarios con funciones de solo lectura, editor y aprobador.
 
@@ -73,7 +73,7 @@ Puede ver el rendimiento de una oferta, como, por ejemplo, el envío gratuito, d
 
 Consulte [Actividad multipágina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) para obtener instrucciones paso a paso.
 
-**Sugerencia útil**: Cambiar la dirección URL después de especificar un intervalo de páginas restablecerá la experiencia. Esto significa que las variaciones especificadas dejarán de mostrarse. Si necesita cambiar la dirección URL, recuerde que debe redefinir la experiencia.
+**Sugerencia útil**: Si cambia la dirección URL después de especificar un intervalo de páginas, se restablecerá la experiencia. Esto significa que las variaciones especificadas dejarán de mostrarse. Si necesita cambiar la dirección URL, recuerde que debe redefinir la experiencia.
 
 ## Sugerencia 7: Pruebe una oferta con distintas audiencias para descubrir si las audiencias tienen preferencias diferentes.
 
@@ -109,7 +109,7 @@ Muchos especialistas en marketing inician programas de optimización de segmenta
 * ¿Cuál es la tasa de conversión de la página?
 * ¿Cuánto tiempo espera que se ejecute la prueba antes de que pueda darla por completa con seguridad?
 
-**Sugerencia útil**: utilice el [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para determinar el tamaño de muestra necesario para que la prueba se realice correctamente.
+**Sugerencia útil**: Use la [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para determinar el tamaño de muestra necesario para que la prueba se realice correctamente.
 
 ## Sugerencia 12: Diseñe pruebas más sencillas para asegurarse de que puede crearlas e implementarlas.
 

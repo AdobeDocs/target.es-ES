@@ -1,19 +1,19 @@
 ---
 keywords: Script de perfil;atributos de script de perfil;actividades mutuamente exclusivas
-description: Aprenda a utilizar atributos de perfil para configurar pruebas en Adobe [!DNL Target] que comparan varias actividades, pero no permiten que los mismos visitantes participen en cada actividad.
+description: Aprenda a utilizar los atributos de perfil para configurar pruebas en el Adobe  [!DNL Target] que comparan varias actividades pero no permiten que los mismos visitantes participen en cada actividad.
 title: ¿Puedo usar scripts de perfil para probar actividades mutuamente exclusivas?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 74%
+source-wordcount: '708'
+ht-degree: 72%
 
 ---
 
 # Uso de scripts de perfil para probar actividades mutuamente exclusivas
 
-Puede utilizar atributos de perfil en [!DNL Adobe Target] para configurar pruebas que comparen dos o más actividades pero que no permitan que los mismos visitantes participen en cada actividad.
+Puede usar atributos de perfil en [!DNL Adobe Target] para configurar pruebas que comparen dos o más actividades pero que no permitan que los mismos visitantes participen en cada actividad.
 
 La prueba de actividades mutuamente exclusivas evita que un visitante de una campaña afecte a los resultados de la prueba para el resto de actividades. Cuando un visitante participa en diversas actividades, puede resultar difícil determinar si se ha producido un alza positiva o negativa de la experiencia del visitante con una actividad o si interacciones entre varias actividades han afectado a los resultados de una o más actividades.
 
@@ -43,9 +43,9 @@ if (!user.get('twogroups')) {
 
 * `var ran_number=Math.floor(Math.random() *100)` declara una nueva variable denominada ran_number, configura su valor en un decimal aleatorio entre 0 y 1 y, a continuación, lo multiplica por 100 y lo redondea a la baja para crear un rango de 100 (0-100) que resulta útil para especificar el porcentaje de visitantes que ven la actividad.
 
-* `if (ran_number <= 49)` comienza una rutina que determina el grupo al que pertenece el visitante. Si el número devuelto está entre 0 y 49, el visitante se asigna a GrupoA. Si el número devuelto está entre 50 y 100, el visitante se asigna a GrupoB. El grupo determina qué actividad ve el visitante.
+* `if (ran_number <= 49)` comienza una rutina que determina el grupo al que pertenece el visitante. Si el número devuelto está entre 0 y 49, el visitante se asigna a GrupoA. Si el número es 50-100, el visitante se asigna al grupo B. El grupo determina qué actividad ve el visitante.
 
-Después de crear el atributo de perfil, configure la primera actividad para dirigirse a la población deseada mediante el requisito de que el parámetro de perfil de usuario sea. `user.twogroups` coincide con el valor especificado para GroupA.
+Después de crear el atributo de perfil, configure la primera actividad para que se dirija a la población deseada; para ello, es necesario que el parámetro de perfil de usuario `user.twogroups` coincida con el valor especificado para GrupoA.
 
 >[!NOTE]
 >

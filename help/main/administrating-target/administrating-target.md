@@ -7,16 +7,16 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 11%
 
 ---
 
-# Administrar [!DNL Target] Información general
+# Información general sobre la administración de [!DNL Target]
 
-Información para ayudarle a administrar [!DNL Adobe Target], incluidos los ajustes de configuración del Compositor de experiencias visuales (VEC), sistema de informes, configuración de Scene7, implementación, hosts, entornos, tokens de respuesta y usuarios.
+Información para ayudarle a administrar [!DNL Adobe Target], incluidos los ajustes de configuración del Compositor de experiencias visuales (VEC), informes, configuración de Scene7, implementación, hosts, entornos, tokens de respuesta y usuarios.
 
-Para acceder a [!UICONTROL Administration] elementos de menú, haga clic en **[!UICONTROL Administration]** en la barra de menú superior, haga clic en la pestaña que desee en la parte izquierda:
+Para obtener acceso a los elementos de menú [!UICONTROL Administration], haga clic en **[!UICONTROL Administration]** en la barra de menú superior y, a continuación, haga clic en la ficha que desee en el lado izquierdo:
 
 * [Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Creación de informes](/help/main/administrating-target/reporting.md)
@@ -28,4 +28,4 @@ Para acceder a [!UICONTROL Administration] elementos de menú, haga clic en **[!
 * [Tokens de respuesta](/help/main/administrating-target/response-tokens.md)
 * [Usuarios](/help/main/administrating-target/c-user-management/user-management.md)
 
-![Menú Administración de Adobe Target](/help/main/administrating-target/assets/administration.png)
+![Menú de administración de Adobe Target](/help/main/administrating-target/assets/administration.png)

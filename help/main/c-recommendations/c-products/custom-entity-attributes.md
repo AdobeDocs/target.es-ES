@@ -1,6 +1,6 @@
 ---
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
-description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos del Adobe [!DNL Target] catálogo Recommendations.
+description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos del catálogo de Adobe [!DNL Target] Recommendations.
 title: ¿Cómo utilizo los atributos de entidad personalizados?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Atributos de entidad personalizados
 
-Uso de atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los artículos del catálogo.
+Use atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los elementos del catálogo.
 
 ## Límites {#limits}
 
@@ -63,7 +63,7 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 
 ## Implementación de atributos de varios valores {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams`y la API de envío para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Matrices vacías ( [] ) se tratan como si no tuvieran valores.
+Los atributos de entidad personalizados de varios valores se admiten al usar fuentes (CSV), `targetPageParams` y la API de entrega para cargar productos. Los valores nuevos reemplazan a los actuales, no se adjuntan. Las matrices vacías ( []) se tratan como si no tuvieran valores.
 
 Las comillas dobles se deben escapar. Por ejemplo, `"[""test"", ""value""]"` es una matriz JSON válida que se pueden usar en CSV.
 
@@ -71,7 +71,7 @@ Puede incluir hasta 500 valores en un atributo multivalor.
 
 ### Uso de targetPageParams
 
-El siguiente ejemplo muestra cómo utilizar `targetPageParams`
+El siguiente ejemplo muestra cómo usar `targetPageParams`
 
 ```javascript
 function targetPageParams() { 
@@ -127,7 +127,7 @@ Puede pasar atributos de varios valores utilizando la API de entrega en un pará
   }
 ```
 
-Consulte la [Documentación de API de Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
+Consulte la [documentación de la API de Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 

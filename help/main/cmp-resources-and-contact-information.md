@@ -6,8 +6,8 @@ feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 97%
+source-wordcount: '1138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Las sesiones de Target grabadas actualmente incluyen:
 |--- |--- |
 | [Sugerencias e información general sobre at.js](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 de junio de 2019 | Aprenderá:<ul><li>Ventajas de utilizar at.js</li><li>Configuración de at.js</li><li>Control de parpadeo</li><li>Depurar at.js</li><li>Problemas conocidos</li><li>Preguntas más frecuentes</li></ul>Para obtener más información, consulte [Funcionamiento de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Espacios de trabajo de Target Premium](https://helpx.adobe.com/es/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 de septiembre de 2018 | Aprenderá:<ul><li>Creación de un espacio de trabajo (perfil de producto)</li><li>Creación de propiedades</li><li>Adición de usuarios</li><li>Actualización de la implementación</li></ul>Para obtener más información, consulte [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
-| [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/es/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte  [Experiencias](/help/main/c-experiences/experiences.md). |
+| [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/es/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte [Experiencias](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: integración Analytics/Target (A4T)](https://helpx.adobe.com/es/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js: Ventajas y prácticas recomendadas de implementación](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js (obsoleto)</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul> |
 
@@ -64,7 +64,7 @@ Customer Care está preparado para ayudarle a solucionar los problemas que pueda
 
 Si tiene problemas o quiere realizar alguna pregunta sobre el uso de Target tiene varias opciones.
 
-Si tiene alguna duda, puede preguntar a los expertos de Adobe Target en la [Comunidad de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es){target=_blank}.
+Si tiene alguna pregunta, puede preguntar a los expertos de Adobe Target en la [Comunidad de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es){target=_blank}.
 
 Si tiene problemas técnicos o quiere registrar un error, contacte con atención al cliente. Para contactar con atención al cliente por teléfono, llame al +1 800 497 0335. Puede encontrar información sobre números de teléfono gratuitos para llamadas desde fuera de Estados Unidos en la página [Números de teléfono regionales de servicio de atención al cliente de Adobe Digital Marketing](https://helpx.adobe.com/es/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Cuando se le pida que seleccione una opción para su producto, presione 3 para contactar con el equipo de Target.
 
@@ -75,7 +75,7 @@ Para agilizar la evaluación de su problema, se recomienda que disponga de la si
 | Información | Detalles |
 | --- | --- |
 | Resumen | Resumen breve del problema en general |
-| Información de la cuenta | Nombre de la empresa<br>Número de administrador<br>Nombre de campaña<br>Tipo de campaña<br>Grupo de informes/ID del grupo de informes (si se trata de una integración de Target con SiteCatalyst) |
+| Información de la cuenta | Nombre de empresa<br>Número de administrador<br>Nombre de campaña<br>Tipo de campaña<br>ID del grupo de informes/grupo de informes (si se trata de una integración de Target con SiteCatalyst) |
 | Pasos a reproducir | Proporcione la mayor cantidad de información, incluidas las direcciones URL para reproducir el resultado esperado.<br>Proporcione información suficiente como para que una persona que no esté familiarizada con Target pueda seguir las indicaciones y reproducir el problema. |
 | Prioridad | P1 (más importante) a P4 (menos importante). |
 | Impacto comercial | ¿De qué manera afecta a su empresa? Por ejemplo, ¿causa el problema una pérdida de ingresos o hace que el producto no pueda utilizarse, y existe una solución alternativa? |
@@ -115,7 +115,7 @@ Según la configuración de su solución, es posible que algunas de las opciones
 
 ### Comentarios  {#section_8154D6D712054220A90D85FA8E92933E}
 
-Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Puede agregar sugerencias e ideas de mejora a la [Comunidad de Experience League de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es). Haga clic en la pestaña [!UICONTROL Ideas].
+Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Puede agregar sugerencias e ideas de mejora a la [Comunidad de Experience League de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es). Haga clic en la ficha [!UICONTROL Ideas].
 
 ### Información legal {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

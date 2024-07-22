@@ -7,14 +7,14 @@ role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
 # Configuración de Dynamic Media Classic (anteriormente Scene7)
 
-[!DNL Adobe Target] se puede integrar en [!DNL Adobe Dynamic Media Classic] (antes [!DNL Scene7]) para ofrecer la administración de activos digitales (DAM) en la [!UICONTROL biblioteca de contenido].
+[!DNL Adobe Target] se puede integrar con [!DNL Adobe Dynamic Media Classic] (anteriormente [!DNL Scene7]) para proporcionar la administración de activos digitales (DAM) en [!UICONTROL Content Library].
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Si ya tiene una cuenta de [!DNL Dynamic Media], puede proporcionar sus credencia
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-Si esta configuración no está establecida, no estará disponible la opción [!UICONTROL de Intercambiar oferta de imagen] dentro del flujo de trabajo de creación de actividades. Después de definir esta configuración, la opción de intercambiar/cambiar las ofertas de imágenes está disponible tanto en el  [Compositor de experiencias visuales (VEC) como en el Compositor de experiencias basadas en formularios](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). De este modo, puede aprovechar las ofertas de imágenes con imágenes que se han cargado desde [!DNL Adobe Experience Cloud] para usarlas en las actividades de [!DNL Target].
+Si esta opción no está configurada, la opción [!UICONTROL Swap Image offer] del flujo de trabajo de creación de actividades no estará disponible. Una vez configurado este ajuste, la opción de intercambiar/cambiar ofertas de imágenes estará disponible tanto en el [Compositor de experiencias visuales (VEC) como en el Compositor de experiencias basadas en formularios](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). De este modo, puede aprovechar las ofertas de imágenes con imágenes que se han cargado desde [!DNL Adobe Experience Cloud] para usarlas en las actividades de [!DNL Target].
 
 Si desea hacer referencia a una URL de imagen pública directamente en una oferta o un código personalizado durante la creación de la actividad, debe implementar la imagen en sus propios servidores web y usar su propia URL en el código. No hay forma de obtener la URL publicada de una imagen cargada en [!DNL Experience Cloud] para consumirla directamente o fuera de los flujos de trabajo de segmentación con [!DNL Target]. Esta funcionalidad no está permitida según el contrato.
 
@@ -50,4 +50,4 @@ Para integrar con [!DNL Dynamic Media Classic] ([!DNL Scene7]), debe especificar
 
    **Contraseña:** la contraseña usada para iniciar sesión en [!DNL Dynamic Media Classic] ([!DNL Scene7]).
 
-1. Haga clic en **[!UICONTROL Enviar]**.
+1. Haga clic en **[!UICONTROL Submit]**.

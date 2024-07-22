@@ -6,30 +6,30 @@ feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 93%
+source-wordcount: '2402'
+ht-degree: 91%
 
 ---
 
 # Prácticas recomendadas y limitaciones del Compositor de experiencias visuales
 
-Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También existen otras sugerencias y limitaciones que debe tener en cuenta al usar el Compositor de experiencias visuales (VEC) en [!DNL Adobe Target].
+Estas prácticas recomendadas pueden contribuir a que las experiencias funcionen correctamente. También hay otras sugerencias y limitaciones que debe tener en cuenta al usar el Compositor de experiencias visuales (VEC) en [!DNL Adobe Target].
 
 Aplicando estas prácticas recomendadas se reduce la probabilidad de encontrar problemas inesperados en las experiencias que diseñe.
 
 ## Prácticas recomendadas   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Coloque la referencia de at.js en la parte superior de la `<head>` de la página.**
+**Coloque la referencia de at.js en la parte superior de la sección `<head>` de su página.**
 
 Si también utiliza el servicio de API de visitante, coloque el script de la API de visitante encima de at.js.
 
 **Puede habilitar el Compositor de experiencias mejorado en la cuenta (se habilitará en todas las actividades de la cuenta) o en cada actividad por separado.**
 
-Para habilitar el Compositor de experiencias mejorado en una cuenta, haga clic en [!UICONTROL Administración > Compositor de experiencias visuales]A continuación, coloque el interruptor en la posición ON.
+Para habilitar el Compositor de experiencias mejorado en toda la cuenta, haga clic en [!UICONTROL Administration > Visual Experience Composer] y coloque el conmutador en la posición Activado.
 
-Para habilitar el Compositor de experiencias mejorado en una actividad al crearla en el Compositor de experiencias visuales, haga clic en [!UICONTROL Configurar > Dirección URL] y coloque el conmutador en la posición Activado.
+Para habilitar el Compositor de experiencias mejorado en una actividad al crearla en el Compositor de experiencias visuales, haga clic en [!UICONTROL Configure > URL] y coloque el conmutador en la posición Activado.
 
-**Puede crear listas de permitidos de determinadas direcciones IP si el Compositor de experiencias visuales mejorado no se carga en las páginas seguras del sitio.**
+**Si el Compositor de experiencias visuales mejorado no se carga en las páginas seguras del sitio, puede realizar una lista de permitidos de ciertas direcciones IP.**
 
 Los problemas al cargar el Compositor de experiencias visuales mejorado se pueden resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor de Adobe y se usan para el proxy del Compositor de experiencias mejoradas. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan estas direcciones IP incluidas en la lista de permitidos.
 
@@ -217,7 +217,7 @@ El div exterior no debe seleccionarse en una experiencia porque el mbox codifica
 
 Si usa el Compositor de experiencias mejorado en un sitio que no está activo, como un entorno de ensayo, podría ver errores de acceso denegado y tiempos de espera si el sitio bloquea los RIP.
 
-**Al añadir varias páginas, el carril de la experiencia y el carril de la página se abren a la vez. Esto provoca una reducción en el ancho del Compositor de experiencias visuales para que se pueda mostrar el sitio en las optimizaciones. En consecuencia, los sitios ajustables pueden empezar a aparecer de forma distinta a la esperada en el espacio reducido.**
+**Al añadir varias páginas, el carril de la experiencia y el carril de la página se abren a la vez. Esto provoca una reducción en el ancho del Compositor de experiencias visuales para que se pueda mostrar el sitio en las optimizaciones. Como resultado, es posible que los sitios redistribuibles empiecen a aparecer de forma distinta a la esperada en el espacio reducido.**
 
 La solución es contraer el carril de la experiencia y el de la página haciendo clic en los iconos de los corchetes angulares izquierdos de la parte superior.
 
@@ -229,7 +229,7 @@ Un elemento no se puede mover fuera de un contenedor que va seguido de una propi
 
 **Solo las ofertas de intercambio están disponibles en mboxes.**
 
-Las acciones como editar clase o reorganizar no están permitidas dentro de un mbox.
+No se permiten acciones como Editar clase y Reorganizar dentro de un mbox.
 
 **No debe reorganizar y mover el mismo elemento.**
 

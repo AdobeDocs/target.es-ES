@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1350'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,6 @@ La función de vista previa de ventanilla móvil está diseñada para sitios ada
 > * Use ventanillas móviles si su sitio se adapta y si en la página móvil se usan los mismos elementos que en su página de escritorio, con otra configuración. Si tiene un sitio móvil independiente con otra estructura como, por ejemplo, `m.mysite.com`, utilice una [actividad multipágina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
 >
 >* Las ventanillas móviles no están disponibles si quedan superpuestas por una superposición de oferta de redireccionamiento.
-
 
 Una ventanilla móvil está definida por el tamaño del rectángulo que se rellena con una página web en la pantalla. La ventanilla es el tamaño de la ventana del explorador, menos las barras de desplazamiento y las barras de herramientas. Los navegadores usan “píxeles de CSS”. Para muchos dispositivos, como los que tienen pantallas de retina, la ventanilla móvil es menor que la resolución anunciada para el dispositivo.
 
@@ -98,14 +97,14 @@ Aunque su sitio no sea adaptable, puede usar el Compositor web móvil para ver u
 
 Configure las ventanillas móviles que quiera que estén disponibles cuando cree sus experiencias.
 
-1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]**.
-1. En la sección **[!UICONTROL Configuración de las ventanillas móviles]**, haga clic en **[!UICONTROL Agregar]**.
+1. Haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. En la sección **[!UICONTROL Mobile viewports configuration]**, haga clic en **[!UICONTROL Add]**.
 
    ![Agregar ventanilla](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    O
 
-   Para cambiar la configuración de una ventanilla móvil existente, selecciónela y, a continuación, haga clic en el icono [!UICONTROL Editar] (el lápiz).
+   Para cambiar la configuración de una ventanilla móvil existente, selecciónela y, a continuación, haga clic en el icono [!UICONTROL Edit] (lápiz).
 
 1. Escriba un nombre para la ventanilla móvil.
 
@@ -127,7 +126,7 @@ Configure las ventanillas móviles que quiera que estén disponibles cuando cree
 
    Si usa el [Compositor de experiencias mejorado](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) y elige un sistema operativo, [!DNL Target] imita ese dispositivo cuando visualiza la página. Si, por ejemplo, existe un aspecto diferente para Android y para iOS en su sitio adaptable, [!DNL Target] imita ese comportamiento.
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -138,11 +137,11 @@ Configure las ventanillas móviles que quiera que estén disponibles cuando cree
 Agregue ventanillas móviles a las actividades de [!DNL Target] para crear experiencias adaptables para las pantallas móviles.
 
 1. Cree la variable [actividad deseada](/help/main/c-activities/activities.md).
-1. En el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono de engranaje de **[!UICONTROL Configuración]** y, a continuación, seleccione **[!UICONTROL Agregar ventanillas móviles]**.
+1. En [!UICONTROL Visual Experience Composer] (VEC), haga clic en el icono de engranaje de **[!UICONTROL Settings]** y, a continuación, seleccione **[!UICONTROL Add Mobile Viewports]**.
 
    ![Opción Agregar ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Haga clic en el icono de **[!UICONTROL Dispositivos]** y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
+1. Haga clic en el icono **[!UICONTROL Devices]** y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
 
    ![Habilitar ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -164,7 +163,7 @@ Agregue ventanillas móviles a las actividades de [!DNL Target] para crear exper
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Compositor de experiencias visuales (2 de 2) (7:29)  ![Distintivo Información general](/help/main/assets/overview.png)
+### Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo de información general](/help/main/assets/overview.png)
 
 El siguiente vídeo de demostración incluye información sobre cómo usar el Compositor de experiencias visuales para trabajar con ventanillas móviles:
 

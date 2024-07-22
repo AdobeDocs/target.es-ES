@@ -1,19 +1,19 @@
 ---
 keywords: probar plantillas;plantilla;misma experiencia en páginas similares;prueba de plantilla
-description: Aprenda a utilizar el Adobe [!DNL Target] Compositor de experiencias visuales (VEC) para incluir la misma experiencia en varias páginas de estructura similar o que contengan los mismos elementos de plantilla.
+description: Aprenda a utilizar el  [!DNL Target] Compositor de experiencias visuales (VEC) de Adobe para incluir la misma experiencia en varias páginas que tienen una estructura similar o que contienen los mismos elementos de .
 title: ¿Puedo incluir la misma experiencia en páginas similares?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 46%
+source-wordcount: '597'
+ht-degree: 33%
 
 ---
 
 # Incluir la misma experiencia en páginas similares
 
-Uso de una plantilla de página en [!DNL Adobe Target] para proporcionar estructura a las páginas o, si las páginas contienen elementos similares, para probar variaciones en elementos de página de estructura similar o en todo el dominio.
+Use una plantilla de página en [!DNL Adobe Target] para dar estructura a las páginas, o si las páginas contienen elementos similares, para probar variaciones en elementos de página de estructura similar o en todo el dominio.
 
 Para funcionar correctamente, esta función debe utilizarse en páginas que tengan una estructura similar o que contengan elementos de plantilla que estén estructurados igual en todas las páginas.
 
@@ -32,15 +32,15 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar las páginas en las que aparecerá la experiencia, en el [!UICONTROL Compositor de experiencias visuales] (VEC) haga clic en el icono de engranaje y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
+1. Para especificar las páginas donde aparecerá la experiencia, en el [!UICONTROL Visual Experience Composer] (VEC), haga clic en el icono con forma de engranaje y, a continuación, seleccione **[!UICONTROL Page Delivery]**.
 
    ![Icono de engranaje > Entrega de página](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Haga clic en **[!UICONTROL Agregar plantilla de regla]** y, a continuación, especifique los criterios para las páginas en las que quiera agregar la experiencia.
+1. Haga clic en **[!UICONTROL Add Template Rule]** y, a continuación, especifique los criterios para las páginas en las que quiera agregar la experiencia.
 
 1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
 
-   * Dirección URL (Para obtener más información sobre cómo Target evalúa las direcciones URL, consulte [Preguntas frecuentes sobre objetivos y audiencias](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL (para obtener más información sobre cómo Target evalúa las URL, consulte [Preguntas frecuentes sobre objetivos y audiencias](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
    * Dominio
    * Ruta
    * Fragmento almohadilla (#) (se dirige a la parte de una dirección URL que sigue al símbolo #).
@@ -60,7 +60,7 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 
 1. Escriba las cadenas que establecen dónde se agregará la experiencia, como el dominio o las cadenas contenidas en el nombre de la página.
 
-   Por ejemplo, si selecciona **[!UICONTROL Dominio]** y **[!UICONTROL Es (con distinción de mayúsculas y minúsculas)]**, escriba el dominio en el que desea que se agregue la experiencia a todas las páginas.
+   Por ejemplo, si selecciona **[!UICONTROL Domain]** y **[!UICONTROL Is (case sensitive)]**, escriba el dominio en el que desea que se agregue la experiencia a todas las páginas.
 
    Puede incluir varios elementos.
 
@@ -68,13 +68,13 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
    >
    >Cuando varios elementos utilizan la lógica OR, lo que significa que cualquier elemento de la lista hace que la condición sea verdadera.
 
-1. Si lo desea, escriba otros criterios adicionales haciendo clic en **[!UICONTROL Agregar regla de plantilla]** y repitiendo el procedimiento de los pasos anteriores.
+1. Si lo desea, escriba otros criterios adicionales haciendo clic en **[!UICONTROL Add Template Rule]** y repitiendo el procedimiento de los pasos anteriores.
 
-   Cuando hay varios criterios se unen entre sí con la lógica AND. [!DNL Target] agrega la experiencia a todas las páginas que cumplan todos los criterios especificados.
+   Cuando hay varios criterios se unen entre sí con la lógica AND. [!DNL Target] agrega la experiencia a todas las páginas que cumplan los criterios especificados.
 
 >[!IMPORTANT]
 >
-> [!DNL Target] no puede comprobar las páginas para garantizar que se muestran correctamente, por lo que siempre que se utiliza esta función es recomendable probar las páginas afectadas antes de hacerlas públicas.
+> [!DNL Target] no puede comprobar las páginas para asegurarse de que se muestran según lo esperado, por lo que siempre que se utiliza esta característica es recomendable probar las páginas afectadas antes de hacerlas públicas.
 
 ## Casos de uso
 
@@ -90,11 +90,11 @@ Puede considerar la posibilidad de utilizar reglas de plantilla para procesar la
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar el dominio donde aparecerá la experiencia, vaya al Compositor de experiencias visuales, haga clic en el icono con forma de engranaje y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
+1. Para especificar el dominio donde aparecerá la experiencia, vaya al Compositor de experiencias visuales, haga clic en el icono con forma de engranaje y, a continuación, seleccione **[!UICONTROL Page Delivery]**.
 
-1. Clic **[!UICONTROL Agregar regla de plantilla]** > **[!UICONTROL Dominio]**.
+1. Haga clic en **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
 
-1. Desde el **[!UICONTROL Elegir evaluador]** menú desplegable, seleccione **[!UICONTROL Contains]**, luego especifique el dominio.
+1. En la lista desplegable **[!UICONTROL Choose evaluator]**, seleccione **[!UICONTROL Contains]** y luego especifique el dominio.
 
    ![El dominio contiene](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 

@@ -1,13 +1,13 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de parámetros
-description: Aprenda a filtrar dinámicamente en el Adobe [!DNL Target] Recommendations comparando elementos (entidades) con un valor de la solicitud (API o mbox).
+description: Aprenda a filtrar dinámicamente en Adobe [!DNL Target] Recommendations comparando elementos (entidades) con un valor de la solicitud (API o mbox).
 title: ¿Cómo filtro por coincidencia de parámetros en las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,19 +28,18 @@ Por ejemplo, recomendar solo contenido que coincida con el parámetro de página
 >
 >* Cree una nueva actividad y añádale sus criterios.
 >* Use criterios que no contengan el filtro “Coincidencia de parámetros”.
->* Elimine el filtro &quot;Coincidencia de parámetros&quot; de sus criterios.
-
+>* Elimine el filtro “Coincidencia de parámetros” de sus criterios.
 
 ## Ejemplos de coincidencia de parámetros
 
-[!UICONTROL Coincidencia de parámetros] le permite recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones del dispositivo o ubicación geográfica, como en el siguiente ejemplo:
+[!UICONTROL Parameter Matching] le permite recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones de dispositivo o ubicación geográfica, como en el siguiente ejemplo:
 
-[!DNL Recommendations] puede coincidir con los valores de parámetro enviados en la [!DNL Target] llamada. En este caso, [!DNL Target] detecta que un visitante está utilizando un dispositivo móvil, en función de los parámetros de altura y anchura de pantalla enviados en la [!DNL Target] llama a y solo recomendará elementos que sean dispositivos móviles.
+[!DNL Recommendations] puede coincidir con los valores de parámetro enviados en la llamada a [!DNL Target]. En este caso, [!DNL Target] detecta que un visitante está usando un dispositivo móvil, basándose en los parámetros de altura y anchura de pantalla enviados en la llamada de [!DNL Target], y solo recomendará los elementos que sean dispositivos móviles.
 
 Consideremos el siguiente ejemplo de llamada de Target:
 
-![Llamada de Target](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+![Llamada de destino](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
 En la página que está viendo un visitante, verá productos de dispositivos móviles.
 
-![Productos para dispositivos móviles](/help/main/c-recommendations/c-algorithms/assets/phones.png)
+![Productos de dispositivos móviles](/help/main/c-recommendations/c-algorithms/assets/phones.png)

@@ -1,21 +1,21 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Aprenda a utilizar la opción Redirigir a URL en Adobe [!DNL Target] cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
+description: Aprenda a utilizar la opción Redireccionar a dirección URL del Adobe  [!DNL Target]  cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
 title: ¿Puedo redirigir una página a una dirección URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 82%
+source-wordcount: '475'
+ht-degree: 68%
 
 ---
 
 # Redireccionar a una dirección URL
 
-Utilice el [!UICONTROL Redirigir a URL] opción en [!DNL Adobe Target] cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
+Utilice la opción [!UICONTROL Redirect to URL] en [!DNL Adobe Target] cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
 
-Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En ese caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redireccione a la página B. En el menú Acción de experiencia, que aparece al hacer clic en la etiqueta de carta para la experiencia, elija **[!UICONTROL Redireccionar a dirección URL]** y especifique la dirección URL de la página B. La oferta se configura para redireccionar al visitante hacia una página diferente.
+Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En este caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redirija a la página B. En el menú Acción de experiencia, que aparece al hacer clic en la etiqueta de carta para la experiencia, elija **[!UICONTROL Redirect to URL]** y especifique la dirección URL de la página B. La oferta está configurada para redirigir al visitante a una página diferente.
 
 La oferta de redireccionamiento ejecuta código JavaScript para redirigir el navegador. Utiliza el `window.location.replace();`método de modo que la página desde la cual se redirige al visitante no se almacene en el historial del explorador. Esto permite que el visitante siga usando el botón de retorno del navegador.
 
@@ -31,7 +31,7 @@ Las ofertas de redireccionamiento tienen ciertas limitaciones:
 Para crear una oferta de redireccionamiento:
 
 1. Cree una experiencia.
-1. Pase el ratón sobre una experiencia y haga clic en el icono Redirigir a URL (![imagen icon_redirect_url](assets/icon_redirect_url.png)).
+1. Pase el ratón sobre una experiencia y luego haga clic en el icono Redirigir a URL (![icon_redirect_url_image](assets/icon_redirect_url.png)).
 
    ![imagen exp_actions](assets/exp_actions.png)
 

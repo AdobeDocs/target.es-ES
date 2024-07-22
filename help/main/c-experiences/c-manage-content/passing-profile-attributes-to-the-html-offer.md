@@ -1,19 +1,19 @@
 ---
 keywords: datos dinámicos;activos;datos;ofertas;ofertas personalizadas;ofertas personales;reemplazo del token
-description: Aprenda a pasar datos dinámicos a [!DNL Adobe Target] Ofertas.
+description: Aprenda a pasar datos dinámicos a  [!DNL Adobe Target] Ofertas.
 title: ¿Cómo paso datos dinámicos a las ofertas?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # Transmisión dinámica de datos en ofertas
 
-Puede mostrar dinámicamente la información del visitante almacenada en el [!DNL Adobe Target] perfil. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
+Puede mostrar dinámicamente la información del visitante almacenada en el perfil [!DNL Adobe Target]. Del mismo modo, la información de la actividad (como el nombre de la actividad o el de la experiencia) también se puede utilizar para crear una sola oferta que devuelva contenido personalizado de forma dinámica en función de los intereses, el comportamiento anterior y el perfil general del visitante.
 
 ## Casos comerciales
 
@@ -47,7 +47,7 @@ Los siguientes valores se pueden “sustituir con testigos”:
 
 Información de registro en la consola con fines de depuración, como `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Para [!DNL Recommendations] diseños, consulte ejemplos adicionales en [Información general de diseño](/help/main/c-recommendations/c-design-overview/design-overview.md).
+Para diseños de [!DNL Recommendations], vea ejemplos adicionales en [Información general de diseño](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementación
 
@@ -59,7 +59,7 @@ Para los parámetros de perfil creados en un script de perfil, utilice la sintax
 
 `${user.parameter}`
 
-Cuando se utilizan atributos dinámicos en una [!DNL Recommendations] diseño, debe insertar una barra invertida ( \ ) antes del signo de dólar ( $ ) para que el valor dinámico se represente correctamente:
+Cuando utilice atributos dinámicos en un diseño [!DNL Recommendations], debe insertar una barra invertida ( \ ) antes del signo de dólar ( $ ) para que el valor dinámico se represente correctamente:
 
 `\${user.endpoint.lastViewedEntity}`
 

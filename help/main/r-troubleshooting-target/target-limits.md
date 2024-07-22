@@ -1,14 +1,14 @@
 ---
 keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;límite;máximo;restricción;carácter;práctica recomendada;id de pedido;total del pedido;id de terceros de mbox;categoría;id de categoría;solución de problemas
-description: Vea una lista de límites de caracteres y otros límites que afectan a las actividades y otros elementos de [!DNL Adobe Target].
-title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro tipo en? [!DNL Adobe Target]?
+description: Vea una lista de límites de caracteres y otros límites que afectan a las actividades y otros elementos de  [!DNL Adobe Target].
+title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro tipo en  [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 80%
+source-wordcount: '1693'
+ht-degree: 76%
 
 ---
 
@@ -78,19 +78,19 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
       * at.js:
          * Contenido predeterminado mostrado
 
-* **Límite**: 50 mboxes por [!DNL Target] solicitud mbox de lote de entrega de contenido.
+* **Límite**: 50 mboxes por [!DNL Target] solicitud de mbox de lote de entrega de contenido.
 
-  Más de 50 mboxes por [!DNL Target] la solicitud mbox de lote de entrega de contenido genera un código de error de respuesta `HTTP 400` con mensaje de error `size must be between 0 and 50`.
+  Si se superan los 50 mboxes por [!DNL Target], la solicitud de mbox de lote de entrega de contenido generará un código de error de respuesta `HTTP 400` con el mensaje de error `size must be between 0 and 50`.
 
   Las solicitudes mbox por lotes se procesan secuencialmente, lo que aumenta el tiempo de respuesta general con cada iteración. Cuantos más mboxes haya en la solicitud de lote, más latencia de respuesta se puede esperar y, por lo tanto, más tiempo de espera se puede esperar. Si el procesamiento de experiencias está bloqueado en estas solicitudes por lotes de alta latencia, la latencia podría provocar una experiencia del usuario degradada a medida que los usuarios esperan a que se procesen las experiencias.
 
 * **Límite**: tamaño del cuerpo del POST HTTP de 60 MB para [!DNL Target] solicitudes de entrega de contenido.
 
-  Más de 60 MB en el tamaño del cuerpo del POST HTTP de un [!DNL Target] la solicitud de entrega de contenido genera un código de error de respuesta `HTTP 413 Request Entity Too Large`.
+  Si se superan los 60 MB en el tamaño del cuerpo del POST HTTP de una solicitud de entrega de contenido de [!DNL Target], se generará un código de error de respuesta `HTTP 413 Request Entity Too Large`.
 
-* **Límite recomendado**: 50 notificaciones por [!DNL Target] solicitud de lote de envío.
+* **Límite recomendado**: 50 notificaciones por [!DNL Target] solicitud de lote de entrega.
 
-  Más de 50 notificaciones por [!DNL Target] es probable que la solicitud de lote de envíos aumente la latencia de respuesta y los tiempos de espera.
+  Si se superan las 50 notificaciones por cada [!DNL Target] solicitud de lote de envíos, probablemente se produzca un aumento de la latencia de respuesta y los tiempos de espera.
 
   Las solicitudes de notificación por lotes se procesan secuencialmente, lo que aumenta el tiempo de respuesta general con cada iteración. Cuantas más notificaciones haya en la solicitud de lote, mayor será la latencia de respuesta esperada y, por lo tanto, el potencial de tiempos de espera. Algunos clientes pueden aceptar cierta latencia adicional en las solicitudes de notificación por lotes, pero tenga en cuenta que los tiempos de espera y los reintentos posteriores podrían causar una latencia aún mayor.
 
@@ -116,7 +116,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 * El número máximo de entidades a las que se puede hacer referencia en un diseño, tanto codificadas como mediante bucles, es de 99.
 * El límite recomendado para un mejor rendimiento es mantener el catálogo con menos de un millón de elementos por entorno y menos de diez millones de elementos en todos los entornos.
-* El límite máximo es de diez millones de elementos por entorno y 100 millones de elementos en todos los entornos. Si tiene entre un millón y diez millones de elementos por entorno, el rendimiento de la IU de [!UICONTROL Búsqueda en catálogo] se ve afectado. [!DNL Target Recommendations], sin embargo, sigue produciendo y formulando recomendaciones.
+* El límite máximo es de diez millones de elementos por entorno y 100 millones de elementos en todos los entornos. Si tiene entre un millón y diez millones de elementos por entorno, el rendimiento de la interfaz de usuario de [!UICONTROL Catalog Search] se verá afectado. [!DNL Target Recommendations], sin embargo, sigue produciendo y formulando recomendaciones.
 
 ### Atributos personalizados de entidad
 
@@ -155,7 +155,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 ### Experiencias por actividad
 
-* **Límite**: 2000 experiencias al día [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Prueba A/B], [!UICONTROL Prueba multivariable] (MVT) y [!UICONTROL Segmentación automática] actividad.
+* **Límite**: 2000 experiencias por actividad de [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) y [!UICONTROL Auto-Target].
 
   30 000 experiencias por actividad de Automated Personalization (AP).
 
@@ -169,7 +169,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 * **Límite**: 256 caracteres.
 
-  Los valores con más de 256 caracteres se truncan al utilizar at.js 1.*x*. Recibirá un mensaje de error al enviar valores con más de 256 caracteres al utilizar at.js 2.*x* o el [!DNL Adobe Experience Platform Web SDK]. Los valores no se truncan automáticamente.
+  Los valores con más de 256 caracteres se truncan al utilizar at.js 1.*x*. Recibirá un mensaje de error al enviar valores con más de 256 caracteres al utilizar at.js 2.*x* o [!DNL Adobe Experience Platform Web SDK]. Los valores no se truncan automáticamente.
 
 ### Nombres de perfiles In-mbox
 
@@ -179,13 +179,13 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
 * **Límite**: 250 caracteres.
 
-  Para [!DNL Delivery API] (at.js 2.*x*), Batch mbox V2 y [!DNL Adobe Experience Platform Web SDK] Integraciones de (alloy.js), nombres de mbox *lata* contener caracteres alfanuméricos (A-Z, a-z, 0-9) y cualquiera de los siguientes caracteres:
+  Para [!DNL Delivery API] (at.js 2.*x*), integraciones de mbox por lotes V2 y [!DNL Adobe Experience Platform Web SDK] (alloy.js), los nombres de mbox *can* contienen caracteres alfanuméricos (A-Z, a-z, 0-9) y cualquiera de los siguientes caracteres:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Para at.js 1.*x* integraciones, nombres de mbox *no puede* contener cualquiera de los siguientes caracteres:
+  Para at.js 1.Integraciones *x*, los nombres de mbox *no pueden* contener ninguno de los siguientes caracteres:
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -297,7 +297,7 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 
 * **Límite recomendado**: 2000 caracteres.
 
-  Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado larga, producirá un error antes de llegar a [!DNL Adobe Target].
+  Depende del tamaño de la cadena codificada, que puede ser mucho mayor que la cadena sin procesar. Si la cadena es demasiado grande, se produce un error antes de que llegue a [!DNL Adobe Target].
 
 ## Perfiles de scripts de comandos
 

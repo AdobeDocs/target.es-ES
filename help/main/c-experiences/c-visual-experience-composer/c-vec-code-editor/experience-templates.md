@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
 # Plantillas de experiencia
 
-Información acerca de [!DNL Adobe Target] Plantillas de experiencia para su uso en código personalizado. [!DNL Target]Las plantillas de experiencia de son muestras precodificadas con entradas configurables que se utilizan para ejecutar casos de uso habituales para expertos en marketing.
+Información sobre [!DNL Adobe Target] plantillas de experiencia para usar en código personalizado. [!DNL Target] plantillas de experiencia son muestras precodificadas con entradas configurables que se utilizarán para ejecutar casos de uso habituales para expertos en marketing.
 
 Estas plantillas de experiencia se proporcionan gratuitamente a los desarrolladores y expertos en marketing como punto de partida para la ejecución de casos de uso comunes, ya sea mediante el VEC o el Compositor de experiencias basadas en formularios.
 
@@ -53,7 +53,7 @@ La [plantilla de experiencia Lightbox con cuenta atrás](https://github.com/Adob
 
 La [plantilla de experiencia Lightbox con intento de salida](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) es una ventana emergente de superposición de lightbox que se activa en el intento de salida (moviendo el ratón hacia la parte superior derecha de la pantalla) y que puede implementarse en cualquier propiedad web donde desee una última oportunidad para captar la atención.
 
-![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
+![imagen exp-template-lightbox-exit](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
@@ -65,4 +65,4 @@ La [plantilla de experiencia Lightbox](https://github.com/Adobe-Marketing-Cloud/
 
 La [plantilla de experiencia Cinta](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) es una cinta con una anchura del 100 % que se inserta en la parte superior de la página web y que normalmente se utiliza para indicar una venta flash, envío gratuito, evento de seguridad o meteorológico u otro anuncio importante.
 
-![exp-template-ribbon image](assets/exp-template-ribbon.png)
+![imagen exp-template-ribbon](assets/exp-template-ribbon.png)

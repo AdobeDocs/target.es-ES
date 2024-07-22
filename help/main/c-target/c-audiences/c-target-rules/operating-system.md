@@ -6,26 +6,26 @@ feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 46%
+source-wordcount: '131'
+ht-degree: 35%
 
 ---
 
 # Sistema operativo
 
-Puede segmentar visitantes mediante [!DNL Adobe Target] que utilizan un sistema operativo determinado.
+Puede segmentar visitantes mediante [!DNL Adobe Target] que usen un sistema operativo determinado.
 
-1. En la interfaz de [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
+1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
-1. Arrastrar y soltar **[!UICONTROL Sistema operativo]** en el panel de audience builder.
-1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
+1. Arrastre y suelte **[!UICONTROL Operating System]** en el panel del generador de audiencias.
+1. Haga clic en **[!UICONTROL Select]** y luego seleccione una de las siguientes opciones:
 
    * Linux
    * Macintosh
    * Windows
 
 1. (Opcional) Configure reglas adicionales para la audiencia.
-1. Haga clic en **[!UICONTROL Finalizado]**.
+1. Haga clic en **[!UICONTROL Done]**.
 
 La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan un sistema operativo Macintosh.
 

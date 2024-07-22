@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 98%
+source-wordcount: '2721'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Consulte el [Foro de la comunidad de Target](/help/main/cmp-resources-and-contac
 
 **¿Qué navegadores admite Target?**
 
-Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html) admitidos para obtener más información. {target=_blank} Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
+Lea nuestra matriz de [exploradores admitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
 
 ## Actividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Puede hacerlo fácilmente [introduciendo directamente el paso deseado de su elec
 
 **¿Puedo permanecer en un paso en particular, seguir modificando la actividad (ofrecer texto o código personalizado, por ejemplo) y luego realizar un control de calidad en otra pestaña?**
 
-Esto también es posible. Simplemente [use la opción Guardar disponible para realizar cambios incrementales sin abandonar el paso](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Esto también es posible. Simplemente [use la opción Guardar disponible para realizar cambios incrementales sin salir del paso](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **¿Cómo puedo obtener una vista previa y un control de calidad de una actividad que acabo de crear?**
 
@@ -168,7 +168,7 @@ Revise las [reglas de plantilla](/help/main/c-experiences/c-visual-experience-co
 
 Esto se debe a que el sitio tiene contenido mixto: es un sitio que recupera recursos HTTP y HTTPS. Solicite que su equipo de TI se mueva completamente a HTTPS.
 
-Hasta que esto suceda, siga las instrucciones en  [Habilitar contenido mixto en el explorador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para que el explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
+Hasta que esto suceda, siga las instrucciones de [Habilitar contenido mixto en su explorador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que su explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
 
 **¿Puedo probar el Compositor de experiencias visuales (VEC) en mi sitio aunque la biblioteca Target at.js aún no se haya desplegado?**
 
@@ -180,7 +180,7 @@ Pruebe la [información de solución de problemas](/help/main/c-experiences/c-vi
 
 También tenemos un [método basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que puede desbloquearlo.
 
-Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que deba comunicarse con su departamento de TI para  [incluya también en la lista de permitidos los servidores](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) proxy de Adobe.
+Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que también tenga que comunicarse con su departamento de TI para [los servidores proxy de lista de permitidos Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Tengo un sitio adaptable. Al crear una actividad, ¿cómo puedo estar seguro de que estoy considerando dispositivos clave?**
 
@@ -283,11 +283,11 @@ Use [Exportar informes a CSV y descargar detalles de pedidos a las opciones de C
 
 **¿Puedo cambiar la experiencia de control para evaluar informes o cambiar la metodología de conteo de Visitantes a Visitas?**
 
-Haga estos cambios usando los  [ajustes en la página de informes](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lea más sobre estos ajustes para comprender cómo varían los cálculos.
+Realice estos cambios con el engranaje [Configuración en la página de informes](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lea más sobre estos ajustes para comprender cómo varían los cálculos.
 
 **¿Cómo debo interpretar los informes?**
 
-Hemos intentado hacer informes lo más intuitivos posible con características como  [las barras de intervalo de confianza, los límites de ascenso, la significancia/confianza y múltiples selecciones de métricas, vistas de tablas y gráficos, promedios de carrera y más](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análisis de informes potentes pero fáciles. Obviamente, puede comprobar Analytics si utiliza [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para un análisis más amplio de las audiencias.
+Hemos intentado hacer informes lo más intuitivos posible con características como [barras de intervalo de confianza, límites de alza, relevancia/confianza y múltiples selecciones de métricas, vistas de tablas y gráficos, promedios de carrera y más](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) para permitir análisis de informes potentes pero fáciles. Obviamente, puede comprobar Analytics si utiliza [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) para un análisis más amplio de las audiencias.
 
 ## Tokens de respuesta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -309,4 +309,4 @@ Lamentamos que tenga problemas. Consulte [Solución de problemas de Target](/hel
 
 **¿Dónde puedo obtener más información sobre las API de Target?**
 
-Tenemos documentación exhaustiva sobre las API. Consulte [API de entrega, SDK de NodeJS y documentación de la API de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+Tenemos documentación exhaustiva sobre las API. Consulte [API de envío, SDK de NodeJS y documentación de API de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank}.

@@ -6,26 +6,26 @@ feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 83%
 
 ---
 
 # Actualizaciones del estado del sistema y notificaciones dinámicas
 
-Utilice la página de [!UICONTROL Estado del sistema de Adobe] y las notificaciones proactivas para mantenerse al día del estado de los productos de [!DNL Adobe] y las soluciones de [!DNL Adobe Experience Cloud]. Las notificaciones proactivas le avisan sobre eventos de interrupción y eventos de mantenimiento.
+Utilice la página [!UICONTROL Adobe System Status] y las notificaciones dinámicas para mantenerse al día del estado de los productos [!DNL Adobe] y las soluciones [!DNL Adobe Experience Cloud]. Las notificaciones proactivas le avisan sobre eventos de interrupción y eventos de mantenimiento.
 
 ## Actualizaciones de estado del sistema
 
-Utilice la página de [!UICONTROL Estado del sistema de Adobe] para ver el estado de [!DNL Target] y de los demás productos de [!DNL Adobe] y soluciones de [!DNL Adobe Experience Cloud]. Esta página permite determinar si los problemas que pueden tener lugar se deben a las actualizaciones del sistema o a las labores de mantenimiento periódicas.
+Utilice la página [!UICONTROL Adobe System Status] para ver el estado de [!DNL Target] y otros [!DNL Adobe] productos y [!DNL Adobe Experience Cloud] soluciones. Esta página permite determinar si los problemas que pueden tener lugar se deben a las actualizaciones del sistema o a las labores de mantenimiento periódicas.
 
 >[!NOTE]
 >
 >En el lanzamiento mensual de [!DNL Target], se muestra una notificación interna del producto, pero a veces se lanzan actualizaciones secundarias que se enumeran en esta página.
 
-1. Acceda al [[!UICONTROL Estado del sistema]](https://status.adobe.com/es){target=_blank}.
+1. Obtener acceso a [[!UICONTROL System Status]](https://status.adobe.com/es){target=_blank}.
 
-1. Para ver el estado de las soluciones de [!DNL Experience Cloud], incluida [!DNL Target], haga clic en la pestaña [!UICONTROL Experience Cloud].
+1. Para ver el estado de [!DNL Experience Cloud] soluciones, entre ellas [!DNL Target], haga clic en la ficha [!UICONTROL Experience Cloud].
 
    ![imagen system_status](assets/system_status.png)
 
@@ -33,7 +33,7 @@ Utilice la página de [!UICONTROL Estado del sistema de Adobe] para ver el estad
 
    En la ilustración anterior, [!DNL Adobe Advertising], [!DNL Adobe Analytics] y [!DNL Adobe Audience Manager] y otras soluciones completaron las actualizaciones de mantenimiento recientemente. El resto de los productos y soluciones funcionaban normalmente. Siempre es recomendable consultar esta página si experimenta problemas al utilizar [!DNL Target].
 
-1. (Opcional) Filtre la lista por productos, regiones o intervalos de fechas. Haga clic en los vínculos [!UICONTROL Principal], [!UICONTROL Menor], [!UICONTROL Potencial] o [!UICONTROL Mantenimiento] para filtrar más los resultados.
+1. (Opcional) Filtre la lista por productos, regiones o intervalos de fechas. Haga clic en los vínculos [!UICONTROL Major], [!UICONTROL Minor], [!UICONTROL Potential] o [!UICONTROL Maintenance] para filtrar aún más los resultados.
 
 ## Notificaciones dinámicas
 

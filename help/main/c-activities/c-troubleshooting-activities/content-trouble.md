@@ -6,8 +6,8 @@ feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 87%
 
 ---
 
@@ -27,20 +27,20 @@ Dado que mboxTrace y mboxDebug pueden exponer los datos de la campaña y los dat
 
 Debe tener uno de los siguientes permisos de usuario para generar un token de autenticación:
 
-* Al menos el permiso de [!UICONTROL Editor] (o [!UICONTROL Aprobador])
+* Al menos [!UICONTROL Editor] permiso (o [!UICONTROL Approver])
 
-   Para obtener más información para los clientes de [!DNL Target Standard], consulte [Especificar funciones y permisos](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *Usuarios*. Para obtener más información para los clientes de [!DNL Target Premium], consulte [Configuración de permisos de Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Para obtener más información para los clientes de [!DNL Target Standard], consulte [Especificar funciones y permisos](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) en *Usuarios*. Para obtener más información para los clientes de [!DNL Target Premium], consulte [Configuración de permisos de Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Función de administrador en el nivel de espacio de trabajo/perfil de producto
 
-   Los espacios de trabajo solo están disponibles para los clientes de [!DNL Target Premium]. Para obtener más información, consulte [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Los espacios de trabajo solo están disponibles para los clientes de [!DNL Target Premium]. Para obtener más información, consulte [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Derechos de administrador (permiso Sysadmin) en el nivel de producto [!DNL Adobe Target]
 
 Para obtener el token de autorización:
 
-1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
-1. En la sección Herramientas de depurador, haga clic en **[!UICONTROL Generar nuevo token de autenticación]**.
+1. Haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. En la sección Herramientas de depuración, haga clic en **[!UICONTROL Generate New Authentication Token]**.
 
    ![Generar nuevo token de autenticación](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -83,7 +83,7 @@ Entre esta información se incluyen los ID de objetivo y los segmentos con coinc
 * Exclusiones e inclusiones aplicadas
 * Reglas de recopilación
 
-No tiene que incluir  `=console`, `=json` ni `=window` en el parámetro de consulta. Cuando termine con los detalles de mboxTrace, agregue `=disable` y pulse **[!UICONTROL Intro]** para volver al modo de visualización normal.
+No es necesario incluir `=console`, `=json` o `=window` en el parámetro de consulta. Cuando termine con los detalles de mboxTrace, agregue `=disable` y presione **[!UICONTROL Enter]** para volver al modo de visualización normal.
 
 mboxTrace no afecta a la apariencia ni al funcionamiento normal de su sitio. Los visitantes ven su diseño habitual de Recommendations.
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla 
 
 Para obtener más información, consulte los vídeos de formación siguientes:
 
-Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Para obtener información más detallada, consulte [Depurar at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Los principales vendedores no aparecen en Recommendations.  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target ya no admite IE8.
 
 ## La cookie de Target no se puede establecer {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Si su sitio tiene un subdominio, como [!DNL us.domain.com], pero necesita establecer la cookie de Target en [!DNL domain.com] (en lugar de [!DNL us.domain.com]), tiene que anular el valor de configuración `cookieDomain`. Para obtener más información, consulte [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Si su sitio tiene un subdominio, como [!DNL us.domain.com], pero necesita establecer la cookie de Target en [!DNL domain.com] (en lugar de [!DNL us.domain.com]), tiene que anular el valor de configuración `cookieDomain`. Para obtener más información, consulte [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=es){target=_blank}.
 
 ## El contenido de Target parpadea o no se muestra si un elemento también es parte de una personalización de Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -153,11 +153,11 @@ at.js no activa solicitudes de Target si utiliza un doctype no válido. at.js re
 
 ## Asegúrese de que las actividades de [!DNL Target] gestionan correctamente las direcciones URL con parámetros de cadena de consulta. {#query-strings}
 
-La [!UICONTROL URL de actividad] determina la página que clasifica a los visitantes para la actividad y presenta las experiencias de actividad a los usuarios. Cuando se le solicita durante la creación de la actividad escribir la dirección URL completa no siempre garantiza que el contenido se envíe en esa página del sitio, especialmente con las direcciones URL que contienen parámetros de cadena de consulta.
+[!UICONTROL Activity URL] determina la página que califica a los visitantes para la actividad y presenta las experiencias de actividad a los usuarios. Cuando se le solicita durante la creación de la actividad escribir la dirección URL completa no siempre garantiza que el contenido se envíe en esa página del sitio, especialmente con las direcciones URL que contienen parámetros de cadena de consulta.
 
-De manera predeterminada, el [!UICONTROL Compositor de experiencias visuales] (VEC) abre la página que se ha especificado en [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). También puede especificar una página diferente durante la creación de la actividad.
+De manera predeterminada, [!UICONTROL Visual Experience Composer] (VEC) abre la página que se ha especificado en [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). También puede especificar una página diferente durante la creación de la actividad.
 
-Para mostrar una página diferente después de que se abra el VEC, haga clic en **[!UICONTROL el icono de engranaje de Configurar]** > seleccione **[!UICONTROL Entrega de páginas]** > y especifique la URL en el campo [!UICONTROL URL de actividad].
+Para mostrar una página diferente después de que se abra el VEC, haga clic en **[!UICONTROL Configure gear icon]** > seleccione **[!UICONTROL Page Delivery]** > y luego especifique la URL deseada en el campo [!UICONTROL Activity URL].
 
 ![Configuración de la IU de entrega de páginas](assets/configure-page-delivery.png)
 
@@ -183,13 +183,13 @@ En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20O
 
 ### Opción 3: en lugar de segmentar la dirección URL completa, aproveche una parte específica.
 
-En este caso, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y las reglas de plantilla adicionales especifican una [!UICONTROL Consulta] con [!UICONTROL tipo] > [!UICONTROL es (con distinción de mayúsculas y minúsculas)] > type=Summers%20Offers, separadas por un operador OR:
+En este escenario, la dirección URL es `https://shopping.mycart.com?type=Summers%20Offers` y las reglas de plantilla adicionales especifican un [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers, separados por un operador OR:
 
 ![Regla de plantilla que aprovecha una parte específica de la URL](assets/option3.png)
 
-## Escape de comillas dobles en [!DNL Target] el valor del atributo de perfil no funciona como se esperaba. {#escape}
+## El escape de comillas dobles en el valor de atributo de perfil [!DNL Target] no funciona como se esperaba. {#escape}
 
-Cuando envía valores que contienen comillas dobles en una [!DNL Target] atributo de perfil, debe omitirlo dos veces como se muestra a continuación.
+Cuando envía valores que contienen comillas dobles en un atributo de perfil [!DNL Target], debe especificarlos con doble escape como se muestra a continuación.
 
 ```
 adobe.target.trackEvent({
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Agregar la extensión  ![Distintivo de tutorial](/help/main/assets/tutorial.png)
+### Agregar la extensión ![distintivo de tutorial](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

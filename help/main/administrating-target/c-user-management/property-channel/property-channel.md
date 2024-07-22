@@ -15,35 +15,35 @@ ht-degree: 48%
 
 # Permisos de usuario de Enterprise
 
-Los permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de usuario de nivel Enterprise a [!DNL Adobe Target]. Añadir usuarios a [!DNL Target], asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], o [!UICONTROL Publisher].
+Los permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de usuarios de nivel Enterprise a [!DNL Adobe Target]. Agregue usuarios a [!DNL Target], asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios los roles de [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] o [!UICONTROL Publisher].
 
 ## Determine si tiene acceso a los permisos de usuario de Enterprise
 
 >[!NOTE]
 >
->[!UICONTROL Properties and Permissions] La funcionalidad está disponible como parte de [!DNL Target] Solución Premium. No están disponibles en [!DNL Target] Estándar sin una licencia de [!DNL Target] Premium.
+>La funcionalidad [!UICONTROL Properties and Permissions] está disponible como parte de la solución [!DNL Target] Premium. No están disponibles en [!DNL Target] Estándar sin una licencia de [!DNL Target] Premium.
 >
->Su [!DNL Target] la implementación puede utilizar cualquier versión de at.js o [!DNL Adobe Experience Platform Web SDK].
+>Su implementación de [!DNL Target] puede utilizar cualquier versión de at.js o [!DNL Adobe Experience Platform Web SDK].
 
-Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el icono [!UICONTROL Administration] en la parte superior del [!DNL Target] IU.
+Puede comprobar si su organización dispone de una licencia Standard o Premium haciendo clic en el vínculo [!UICONTROL Administration] en la parte superior de la interfaz de usuario de [!DNL Target].
 
-* **[!DNL Target Standard]Clientes**: Si ve el [!UICONTROL Users] pestaña ([!UICONTROL Administration > Users]) (y no el [!UICONTROL Properties] ), su organización dispone de un [!DNL Target Standard] licencia. [!DNL Target Standard] Los clientes de deben seguir las instrucciones de [Usuarios](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]clientes**: Si ve la ficha [!UICONTROL Users] ([!UICONTROL Administration > Users]) (y no la ficha [!UICONTROL Properties]), su organización dispone de una licencia de [!DNL Target Standard]. Los clientes de [!DNL Target Standard] deben seguir las instrucciones de [Usuarios](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clientes**: Si ve el [!UICONTROL Properties] pestaña ([!UICONTROL Administration > Properties]) y el [!UICONTROL Users] pestaña, su organización tiene un [!DNL Target Premium] licencia. Los clientes de [!DNL Target Premium] deben seguir las instrucciones de este artículo y de [Configurar los permisos de Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]clientes**: Si ve la ficha [!UICONTROL Properties] ([!UICONTROL Administration > Properties]) y la ficha [!UICONTROL Users], su organización dispone de una licencia de [!DNL Target Premium]. Los clientes de [!DNL Target Premium] deben seguir las instrucciones de este artículo y de [Configurar los permisos de Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Antes de empezar a usar los permisos de Enterprise
 
 >[!IMPORTANT]
 >
->Asegúrese de leer el [Advertencias](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) antes de continuar con los permisos de enterprise.
+>Asegúrese de leer la sección [Advertencias](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) a continuación antes de continuar con los permisos de Enterprise.
 
 ## Términos y definiciones utilizados en esta sección {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-En esta sección se utilizan los siguientes términos, que pueden ser nuevos para los usuarios que usan la funcionalidad Propiedades y Permisos en [!DNL Target] Premium.
+En esta sección se usan los siguientes términos, que pueden ser nuevos para los usuarios que desean usar la funcionalidad Propiedades y Permisos en [!DNL Target] Premium.
 
 ### Propiedad
 
-Las propiedades son similares a las propiedades dentro de [!DNL Adobe Experience Platform] en el sentido de que utilizan un único fragmento de código para diferenciarlos.
+Las propiedades son similares a las propiedades de [!DNL Adobe Experience Platform], ya que utilizan un único fragmento de código para diferenciarlas.
 
 Una propiedad web es una biblioteca de reglas y un código incrustado. Una propiedad web puede ser cualquier conjunto de uno o varios dominios y subdominios.
 
@@ -55,29 +55,29 @@ Las propiedades pertenecen a canales específicos (web, móvil, correo electrón
 
 Un espacio de trabajo permite que una organización asigne un conjunto de usuarios específico a un conjunto de propiedades concretas. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en [!DNL Adobe Analytics].
 
-Nota: Los espacios de trabajo se conocen como [!UICONTROL Product Profiles] en el [!DNL Adobe Admin Console for Enterprise].
+Nota: Los espacios de trabajo se conocen como [!UICONTROL Product Profiles] en [!DNL Adobe Admin Console for Enterprise].
 
 Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses. Si forma parte de una organización de varias marcas, puede contar con un espacio de trabajo independiente para cada una.
 
 Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso tener diferentes roles en cada uno de ellos.
 
-Los usuarios pueden tener diferentes vistas de [!DNL Adobe Target] moviéndose entre espacios de trabajo, de forma similar a como [!DNL Analytics] Los usuarios de tienen diferentes vistas de [!DNL Analytics] entre grupos de informes.
+Los usuarios pueden tener diferentes vistas de [!DNL Adobe Target] si se mueven entre espacios de trabajo, de manera similar a como los usuarios de [!DNL Analytics] tienen diferentes vistas de [!DNL Analytics] si se mueven entre grupos de informes.
 
 Los espacios de trabajo pueden incluir audiencias, ofertas de código y actividades completamente diferentes.
 
-Todas las audiencias y actividades creadas antes de la migración al modelo de permisos de Enterprise se agrupan en el &quot;espacio de trabajo predeterminado&quot; que se trata a continuación.
+Todas las audiencias y actividades creadas antes de la migración al modelo de permisos de Enterprise se agrupan en la sección &quot;Workspace predeterminado&quot; que se trata a continuación.
 
-Todas las actividades creadas mediante [!DNL Adobe Experience Manager] AEM (), [!DNL Adobe Mobile Services], y [!DNL Adobe Target Classic] forman parte de &quot;Espacio de trabajo predeterminado&quot;.
+AEM Todas las actividades creadas a través de [!DNL Adobe Experience Manager] (), [!DNL Adobe Mobile Services] y [!DNL Adobe Target Classic] forman parte de la &quot;Workspace predeterminada&quot;.
 
 ### Workspace predeterminado
 
-Todos los espacios de trabajo existentes (perfiles de producto) en [!DNL Admin Console] se combinan en un único espacio de trabajo denominado &quot;espacio de trabajo predeterminado&quot; durante la migración de su organización al nuevo modelo de permisos de Enterprise.
+Todos los espacios de trabajo existentes (perfiles de producto) dentro de [!DNL Admin Console] se combinan en uno solo denominado &quot;Workspace predeterminado&quot; durante la migración de su organización al nuevo modelo de permisos de Enterprise.
 
 >[!IMPORTANT]
 >
 >No elimine el espacio de trabajo predeterminado.
 
-Todos los roles de usuario y acceso a todos [!DNL Target] La funcionalidad sigue siendo la misma que antes de la migración al nuevo modelo de permisos de Enterprise.
+Todos los roles de usuario y el acceso a todas las funcionalidades de [!DNL Target] siguen siendo los mismos que antes de la migración al nuevo modelo de permisos de Enterprise.
 
 ### Grupos de usuarios
 
@@ -85,34 +85,34 @@ Puede crear grupos de usuarios, como desarrolladores, analistas, especialistas e
 
 ### Funciones y permisos {#roles-permissions}
 
-Las funciones y los permisos determinan los niveles de acceso que tienen los usuarios para crear y administrar actividades en su [!DNL Target] implementación. Entrada [!DNL Target], las funciones son las siguientes:
+Las funciones y los permisos determinan los niveles de acceso que tienen los usuarios para crear y administrar actividades en su implementación de [!DNL Target]. En [!DNL Target], los roles incluyen lo siguiente:
 
 | Función | Descripción |
 |--- |--- |
 | [!UICONTROL Approver] | Puede crear, editar y activar o detener actividades. |
 | [!UICONTROL Editor] | Puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
 | [!UICONTROL Observer] | Puede ver actividades, pero no puede crearlas o editarlas. |
-| [!UICONTROL Publisher] | Similar a la [!UICONTROL Observer] función (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, la variable [!UICONTROL Publisher] tiene el permiso adicional de activar actividades. |
+| [!UICONTROL Publisher] | Similar al rol [!UICONTROL Observer] (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, el rol [!UICONTROL Publisher] tiene el permiso adicional de activar actividades. |
 
 ### Canal
 
-El canal se refiere al tipo de contenido de donde su [!DNL Target] Las actividades de se entregan: páginas web, aplicaciones móviles, mensajes de correo electrónico, etc.
+El canal se refiere al tipo de contenido desde donde se entregan sus actividades [!DNL Target]: páginas web, aplicaciones móviles, mensajes de correo electrónico, etc.
 
 Al crear una actividad, esta se crea en el espacio de trabajo seleccionado. Verá las opciones de selección de canales en el primer cuadro de diálogo que le permite elegir el canal deseado para la actividad: web, aplicación móvil, correo electrónico o API/otro.
 
 ## Resumen de permisos {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-La siguiente información explica la forma en que se aplicaban los permisos anteriormente en [!DNL Target] y cómo se aplican utilizando la variable [!UICONTROL Properties] y [!UICONTROL Permissions] funcionalidad.
+La siguiente información explica cómo se aplicaban los permisos anteriormente en [!DNL Target] y cómo se aplican usando la funcionalidad [!UICONTROL Properties] y [!UICONTROL Permissions].
 
-El nuevo [!UICONTROL Permissions] funcionalidad permite crear diferentes proyectos (llamados &quot;perfiles de producto&quot; en la [!DNL Adobe Admin Console for Enterprise]). Los proyectos le permiten asignar a un único usuario diferentes permisos que dictan sus derechos de acceso a cada proyecto. Estos proyectos independientes pueden compararse con el modo en el que funcionan los grupos de informes en [!DNL Adobe Analytics]. Cada proyecto tiene usuarios específicos con funciones específicas que se aplican a un conjunto de propiedades. El resultado es que los clientes pueden restringir el acceso de visualización, edición y aprobación a sus usuarios en función de la región, el entorno (dev/stage/prod), el canal u otros criterios personalizados, como se muestra a continuación:
+La nueva funcionalidad [!UICONTROL Permissions] le permite crear diferentes proyectos (llamados &quot;perfiles de producto&quot; en [!DNL Adobe Admin Console for Enterprise]). Los proyectos le permiten asignar a un único usuario diferentes permisos que dictan sus derechos de acceso a cada proyecto. Estos proyectos independientes pueden compararse con el modo en el que funcionan los grupos de informes en [!DNL Adobe Analytics]. Cada proyecto tiene usuarios específicos con funciones específicas que se aplican a un conjunto de propiedades. El resultado es que los clientes pueden restringir el acceso de visualización, edición y aprobación a sus usuarios en función de la región, el entorno (dev/stage/prod), el canal u otros criterios personalizados, como se muestra a continuación:
 
 ![imagen de permisos](assets/permissions.png)
 
 Por ejemplo, un usuario determinado puede tener el acceso de aprobación en los sitios web de América, pero solo el acceso de visualización en la aplicación móvil europea. Ese mismo usuario puede no tener acceso ni siquiera a la visualización de las actividades ofrecidas en propiedades web y móviles en la región Asia-Pacífico.
 
-El [!DNL Target] [!UICONTROL Permissions] tiene las siguientes funciones de permiso (Observador, Editor, Aprobador y Observador). La función de observador no aparece en las ilustraciones de este artículo.
+El modelo [!DNL Target] [!UICONTROL Permissions] tiene las siguientes funciones de permiso (Observador, Editor, Aprobador y Observador). La función de observador no aparece en las ilustraciones de este artículo.
 
-![imagen permissions_1](assets/permissions_1.png)
+![permisos_1 imagen](assets/permissions_1.png)
 
 Cada función tiene diferentes niveles de permisos:
 
@@ -127,13 +127,13 @@ Es importante tener en cuenta que la función de cada usuario se aplica a cada p
 
 ![imagen permissions_2](assets/permissions_2.png)
 
-El nuevo [!DNL Target] [!UICONTROL Permissions] El modelo de tiene las mismas funciones de permiso (Observador, Editor y Aprobador); sin embargo, puede asignar las funciones de permiso de un usuario por separado para páginas, propiedades o sitios individuales, como se muestra a continuación:
+El nuevo modelo [!DNL Target] [!UICONTROL Permissions] tiene las mismas funciones de permiso (Observador, Editor y Aprobador); sin embargo, puede asignar las funciones de permiso de un usuario por separado para páginas, propiedades o sitios individuales, como se muestra a continuación:
 
 ![imagen permissions_3](assets/permissions_3.png)
 
 En este ejemplo, Jan tiene permisos de aprobador en la página principal y el sitio de EE. UU. y permisos de observador en el sitio de Francia.
 
-Además, Jan no puede ver páginas, propiedades ni sitios en [!DNL Target] que no tiene permiso para ver, como se muestra a continuación:
+Además, Jan no puede ver páginas, propiedades ni sitios en [!DNL Target] para los que no tiene permiso, como se muestra a continuación:
 
 ![imagen permissions_4](assets/permissions_4.png)
 
@@ -190,18 +190,18 @@ Usando los personajes de las ilustraciones anteriores, tras una reorganización 
 
 La nueva funcionalidad Permisos puede verse en diferentes sitios de la interfaz de usuario de [!DNL Target].
 
-* **Lista desplegable Espacio de trabajo (Perfil de producto):** La lista desplegable Espacio de trabajo se muestra en la parte superior de la [!UICONTROL Activities], [!UICONTROL Audiences], y [!UICONTROL Offers] páginas. Seleccione el espacio de trabajo deseado para filtrar la lista y mostrar únicamente los elementos de dicho espacio de trabajo.
+* **Lista desplegable de Workspace (Perfil de producto):** La lista desplegable de Workspace se muestra en la parte superior de las páginas [!UICONTROL Activities], [!UICONTROL Audiences] y [!UICONTROL Offers]. Seleccione el espacio de trabajo deseado para filtrar la lista y mostrar únicamente los elementos de dicho espacio de trabajo.
 
-  ![imagen desplegable workspace_drop-down](assets/workspace_drop-down.png)
+  ![imagen desplegable_workspace_drop-down](assets/workspace_drop-down.png)
 
-* **Creación de actividades:** Al crear una actividad, esta se crea en el espacio de trabajo seleccionado. Verá las opciones de selección de canales en el primer cuadro de diálogo que le permite elegir el canal deseado para la actividad: web, aplicación móvil, correo electrónico o API/otro.
+* **Creación de actividades:** Al crear una actividad, esta se crea en el área de trabajo seleccionada actualmente. Verá las opciones de selección de canales en el primer cuadro de diálogo que le permite elegir el canal deseado para la actividad: web, aplicación móvil, correo electrónico o API/otro.
 
   ![imagen channel_options](assets/channel_options.png)
 
-* **Creación de audiencias:** Al crear una audiencia, esta se crea en el espacio de trabajo seleccionado.
-* **Lista de audiencias:** Puede mover audiencias entre espacios de trabajo mediante las opciones [!UICONTROL More Actions] > [!DNL Move] opción en la [!UICONTROL Audiences] página.
-* **Creación de ofertas:** Al crear una oferta, esta se crea en el espacio de trabajo seleccionado actualmente.
-* **Página Propiedades (Administración > Propiedades):** Puede usar el complemento [!UICONTROL Search] para buscar en el [!UICONTROL Property] lista.
+* **Creación de audiencias:** Al crear una audiencia, esta se crea en el área de trabajo seleccionada actualmente.
+* **Lista de audiencias:** Puede mover audiencias entre espacios de trabajo mediante la opción [!UICONTROL More Actions] > [!DNL Move] en la página [!UICONTROL Audiences].
+* **Creación de oferta:** Al crear una oferta, esta se crea en el área de trabajo seleccionada actualmente.
+* **Página Propiedades (Administración > Propiedades):** Puede usar el cuadro [!UICONTROL Search] para buscar en la lista [!UICONTROL Property].
 
   ![imagen properties_list](assets/properties_list.png)
 
@@ -213,11 +213,11 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
 * Al utilizar la vista Todos mis espacios de trabajo:
 
    * Puede ver las actividades, audiencias y ofertas de todos los espacios de trabajo para los que tenga el rol adecuado y permiso de acceso.
-   * Al seleccionar la variable [!UICONTROL All My Workspaces] Vista, se añade una nueva columna a la página Actividades, Audiencias y Ofertas. En esta columna se muestra el espacio de trabajo del elemento y los permisos de usuario asociados a dicho elemento (Observador, Editor o Aprobador).
+   * Al seleccionar la vista [!UICONTROL All My Workspaces], se agrega una nueva columna a la página Actividades, Audiencias y Ofertas. En esta columna se muestra el espacio de trabajo del elemento y los permisos de usuario asociados a dicho elemento (Observador, Editor o Aprobador).
    * Al crear una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se creará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
    * Al copiar una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se copiará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
 
-* Cualquier configuración en lo siguiente: [!UICONTROL Administration] Las páginas pueden ser controladas por cualquier [!UICONTROL Approver] en cualquier espacio de trabajo:
+* Cualquier configuración en las siguientes páginas de [!UICONTROL Administration] puede ser controlada por cualquier [!UICONTROL Approver] en cualquier espacio de trabajo:
 
    * Compositor de experiencias visuales
    * Creación de informes
@@ -233,8 +233,8 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
 * Si visualiza las audiencias desde la página [!DNL Audiences], la página carga más lento de lo esperado. Si interactúa con la barra de búsqueda de cualquier forma, las audiencias se muestran más rápido. Este problema se conoce y se solucionará en una actualización próxima. Este problema no afecta a la selección de audiencias durante el flujo de trabajo de creación de actividades.
 * Los siguientes recursos son parte del nuevo modelo de permisos de Enterprise:
 
-   * Actividades, audiencias y ofertas de código creadas en [!DNL Target Standard/Premium] están disponibles para su uso una vez que el cliente haya activado los permisos. (Nota: los clientes deben tener derecho a [!DNL Target Premium].)
-   * Las propiedades se pueden añadir a las actividades existentes en el espacio de trabajo predeterminado; sin embargo, este método está sujeto a cambios.
+   * Las actividades, audiencias y ofertas de código creadas en [!DNL Target Standard/Premium] están disponibles para su uso una vez que el cliente haya habilitado los permisos. (Nota: los clientes deben tener derecho a [!DNL Target Premium].)
+   * Las propiedades se pueden añadir a las actividades existentes en la Workspace predeterminada; sin embargo, este método está sujeto a cambios.
    * Solo los nuevos recursos (como actividades, ofertas de código y audiencias) creados en Target Premium (una vez habilitados los permisos de Enterprise) se pueden restringir mediante permisos.
    * Los recursos externos solo están disponibles para los usuarios en el espacio de trabajo predeterminado. El rol de un usuario en el espacio de trabajo predeterminado se aplica globalmente (a todas las solicitudes y recursos de Target).
 
@@ -243,11 +243,11 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
    * Ofertas de imágenes
    * Todos los recursos de Recommendations, incluidos la Biblioteca de criterios, Biblioteca de diseños, Catálogo, Configuración de Recommendations.
    * Los recursos existentes (como actividades, ofertas de código y audiencias) creados en Target Premium antes de habilitar los permisos de Enterprise se pueden copiar, pero no se pueden mover a otros espacios de trabajo.
-   * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte del espacio de trabajo predeterminado: Target Classic, Adobe Experience Manager AEM (), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, audiencias, ofertas de código y ofertas de imagen).
-   * Ofertas de imágenes (recursos almacenados en ) `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` actualmente no se puede controlar mediante el modelo de permisos de Enterprise.
-   * clickTracking y las redirecciones funcionan cuando el vínculo de destino o la página de destino son parte de una propiedad incluida en la actividad. Además, es posible que clickTracking no funcione al utilizar `targetPageParams()` función. La función recomendada es `targetPageParamsAll()`.
+   * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte de la Workspace predeterminada: Target Classic, Adobe Experience Manager AEM (), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, audiencias, ofertas de código y ofertas de imagen).
+   * Actualmente, las ofertas de imagen (recursos almacenados en `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) no se pueden controlar mediante el modelo de permisos de Enterprise.
+   * clickTracking y las redirecciones funcionan cuando el vínculo de destino o la página de destino son parte de una propiedad incluida en la actividad. Además, es posible que clickTracking no funcione al utilizar la función `targetPageParams()`. La función recomendada es `targetPageParamsAll()`.
 
-  [!DNL Target] actualmente requiere un `at_property` para estar presente en cualquier página donde se produzca el seguimiento. Si el token (1) no está presente, (2) no se detecta a la hora de configurar la actividad (en el VEC) o (3) no se pasa a la llamada de Target de rastreo de clics a través de `targetPageParamsAll()` función, la métrica no se incrementa y aparece como &quot;0&quot;.
+  [!DNL Target] requiere actualmente un token `at_property` en cualquier página donde se realice un seguimiento. Si el token (1) no está presente, (2) no se detecta a la hora de configurar la actividad (en el VEC) o (3) no se pasa a la llamada de Target de rastreo de clics a través de la función `targetPageParamsAll()`, la métrica no se incrementa y aparece como &quot;0&quot;.
 
   Lo mismo se aplica a las actividades que usan redirecciones. La página de destino debe tener un token `at_property` y se debe reconocer cuando se configura en el VEC.
 
@@ -261,7 +261,7 @@ Las preguntas más frecuentes sobre permisos de Enterprise incluyen las siguient
 
 ### ¿Qué sucede si un usuario tiene varias funciones y permisos? {#multiple-roles}
 
-Si un usuario tiene varias funciones y varios permisos, se aplica la función con los permisos de contratante. Por ejemplo, si un usuario tiene [!UICONTROL Observer] y [!UICONTROL Approver] funciones, las funciones [!UICONTROL Approver] se ha aplicado la función.
+Si un usuario tiene varias funciones y varios permisos, se aplica la función con los permisos de contratante. Por ejemplo, si un usuario tiene los roles [!UICONTROL Observer] y [!UICONTROL Approver], se aplica el rol [!UICONTROL Approver].
 
 ### ¿Puedo trasladar una actividad de un espacio de trabajo a otro?
 
@@ -271,13 +271,13 @@ Las actividades creadas antes de la migración se siguen ejecutando del mismo mo
 
 ### ¿Puedo trasladar una audiencia de un espacio de trabajo a otro? {#move-audience}
 
-Sí, las audiencias se pueden mover de un espacio de trabajo a otro mediante la función [!UICONTROL More Actions] opción en la [!UICONTROL Audiences] página.
+Sí, puede mover audiencias entre espacios de trabajo mediante la opción [!UICONTROL More Actions] en la página [!UICONTROL Audiences].
 
-1. Haga clic en **[!UICONTROL More Actions]** (las tres elipses) y haga clic en **[!UICONTROL Move]**.
+1. Haga clic en el botón **[!UICONTROL More Actions]** (los tres puntos suspensivos) y luego haga clic en **[!UICONTROL Move]**.
 
    ![Más acciones > Mover](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
-1. Seleccione el espacio de trabajo deseado del **[!UICONTROL Workspace]** y haga clic en. **[!UICONTROL Move]**.
+1. Seleccione el área de trabajo que desee en la lista desplegable **[!UICONTROL Workspace]** y luego haga clic en **[!UICONTROL Move]**.
 
    ![Seleccione la audiencia que desee para pasar al nuevo espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
 
@@ -287,7 +287,7 @@ Sí, las audiencias se pueden mover de un espacio de trabajo a otro mediante la 
 
 ### ¿Por qué aparece un mensaje de error que indica que no hay ninguna propiedad asociada con esta actividad, aunque haya una propiedad asignada?
 
-Si ha implementado [!DNL Target] con etiquetas en [!DNL Adobe Experience Platform] y obtenga un mensaje de error que indique que no hay ninguna propiedad asociada con la actividad, pase el `at_property` con el parámetro `targetPageParams` función.
+Si ha implementado [!DNL Target] con etiquetas en [!DNL Adobe Experience Platform] y ha obtenido un mensaje de error que indica que no hay ninguna propiedad asociada con la actividad, pase el parámetro `at_property` con la función `targetPageParams`.
 
 ### ¿Se registran conversiones de rastreo de clics si una página redirigida y la dirección URL de actividad pertenecen a propiedades diferentes?
 
@@ -307,7 +307,7 @@ Si la página de redirección y la dirección URL de la actividad pertenecen a l
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Vídeo de formación: Vídeo de formación sobre permisos de Enterprise ![Distintivo Información general](/help/main/assets/overview.png)
+### Vídeo de formación: Permisos de Enterprise Vídeo de formación ![Distintivo de información general](/help/main/assets/overview.png)
 
 Objetivos de aprendizaje:
 
@@ -317,7 +317,7 @@ Objetivos de aprendizaje:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Horario de oficina: [!DNL Target] Espacios de trabajo Premium
+### Horario de oficina: [!DNL Target] espacios de trabajo Premium
 
 Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 
@@ -328,6 +328,6 @@ Este vídeo es una grabación de “Horario de oficina”, una iniciativa dirigi
 
 >[!NOTE]
 >
->El [!DNL Target] [!UICONTROL Administration] IU del menú (anteriormente [!UICONTROL Setup]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas funciones y mejorar la experiencia del usuario en todo el producto. La información del siguiente vídeo es correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
+>La interfaz de usuario del menú [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas características y mejorar la experiencia del usuario en todo el producto. La información del siguiente vídeo es correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

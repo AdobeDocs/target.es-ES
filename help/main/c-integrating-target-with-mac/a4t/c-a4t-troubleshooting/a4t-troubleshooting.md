@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 88%
 
 ---
 
@@ -21,15 +21,15 @@ Existen varias razones por las que los datos se muestran como “sin especificar
 
 * La clasificación no se ha procesado del todo en [!DNL Target].
 
-   Los informes suelen tardar entre 24 y 72 horas en clasificarse después del primer guardado.
+  Los informes suelen tardar entre 24 y 72 horas en clasificarse después del primer guardado.
 
 * El grupo de informes no contiene datos, pero [!DNL Target] ha intentado clasificar las visitas. [!DNL Target] no puede clasificar los datos hasta que no se efectúa la primera visita.
 
-   Compruebe que el grupo de informes ha recibido al menos una visita.
+  Compruebe que el grupo de informes ha recibido al menos una visita.
 
 * La llamada de clasificación realizada de [!DNL Target] a [!DNL Analytics] ha fallado.
 
-   [Póngase en contacto con el servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para solicitar ayuda.
+  [Póngase en contacto con el servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para solicitar ayuda.
 
 Si desglosa la fila “sin especificar” por la dimensión “Analytics for Target” y consiste en ID de actividad, significa que todo se clasifica correctamente. Si los ID de actividad se enumeran allí, sirve como indicación para un problema de clasificación.
 
@@ -41,13 +41,13 @@ Si desglosa la fila “sin especificar” por la dimensión “Analytics for Tar
 
 ## Los informes de actividad de A4T incluyen una fila con muchos eventos “sin especificar”. {#added_unspecified_events}
 
-Puede haber una fila de eventos “[!UICONTROL Sin especificar]” que se muestra en el informe, según la métrica con la que se usen para mostrar los datos.
+Puede haber una fila de eventos &quot;[!UICONTROL Unspecified]&quot; que se muestra en el informe, según la métrica con la que se usen para mostrar los datos.
 
-Normalmente, esta fila se muestra si elige una métrica común en el informe que no sea específico de [!DNL Target] (por ejemplo, [!UICONTROL Vistas de páginas], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos], etc.). En este caso, la fila [!UICONTROL “Sin especificar”] incluye todas las [!UICONTROL Vistas de páginas], [!UICONTROL Visitas] y [!UICONTROL Visitantes únicos] que no están asociados a actividades de [!DNL Target].
+Normalmente, esta fila se muestra si elige una métrica común en el informe que no sea específico de [!DNL Target] (por ejemplo, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], etc.). En este caso, la fila [!UICONTROL "Unspecified"] incluye todas las [!UICONTROL Page Views], [!UICONTROL Visits] y [!UICONTROL Unique Visitors] que no están asociadas a las actividades [!DNL Target].
 
 Esa fila no tendrá ninguna información asociada con [!DNL Target] (por ejemplo, no tendrá visitantes, visitas ni impresiones). Para obtener más información, consulte [“Sin especificar”, “Ninguno”, “Otro” y “Desconocido” en la creación de informes](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=es) en las *Notas técnicas de Analytics*.
 
-Si elige una métrica específica de [!DNL Target] en el informe, no aparecerá la fila [!UICONTROL “Sin especificar”]. La única manera de evitar que esto ocurra en el informe es establecer una llamada de [!DNL Target] en cada solicitud enviada desde esa página, lo que no es común ni necesario.
+Si elige una métrica específica de [!DNL Target] en el informe, no se mostrará esa fila [!UICONTROL "Unspecified"]. La única manera de evitar que esto ocurra en el informe es establecer una llamada de [!DNL Target] en cada solicitud enviada desde esa página, lo que no es común ni necesario.
 
 ## El alza estimada en la métrica de ingresos no muestra datos correctos. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -55,11 +55,11 @@ Los detalles de alza y confianza no están disponibles en Analytics. Sin embargo
 
 ## Las actividades no aparecen en los informes de Analytics.   {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte [Usar un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para comprobar si el servidor de seguimiento de Analytics está correctamente configurado.
+Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte [Uso de un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para asegurarse de que el servidor de seguimiento de Analytics esté configurado correctamente.
 
 >[!NOTE]
 >
->No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+>No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Tracking Server] en la página [!UICONTROL Goals & Settings].
 
 ## Mis segmentos de Analytics no aparecen en Target.   {#section_DEE87F1557834F448E99381D3D02EEEF}
 

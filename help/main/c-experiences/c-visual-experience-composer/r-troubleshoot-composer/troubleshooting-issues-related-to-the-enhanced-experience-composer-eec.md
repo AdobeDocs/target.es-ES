@@ -1,6 +1,6 @@
 ---
 keywords: Segmentación;eec;compositor de experiencias visuales;resolución de problemas del compositor de experiencias mejorado;resolución de problemas
-description: Aprenda a solucionar problemas que a veces se producen en el Adobe [!DNL Target] Compositor de experiencias mejorado (EEC) bajo ciertas condiciones.
+description: Aprenda a solucionar problemas que a veces ocurren en el Compositor de experiencias mejorado (EEC) de Adobe [!DNL Target] en ciertas condiciones.
 title: ¿Cómo puedo solucionar problemas relacionados con el Compositor de experiencias mejorado?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
@@ -13,7 +13,7 @@ ht-degree: 23%
 
 # Resolución de problemas relacionados con [!UICONTROL Enhanced Experience Composer]
 
-Los problemas de visualización a veces ocurren en [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (CEE) en determinadas condiciones.
+Los problemas de visualización a veces ocurren en [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) bajo ciertas condiciones.
 
 ## El EEC no carga una URL de control de calidad interna que no es accesible desde una IP pública. {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -44,38 +44,38 @@ Puede ver el siguiente mensaje de error en [!DNL Target]:
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![Imagen EEC_error](assets/EEC_error.png)
+![imagen EEC_error](assets/EEC_error.png)
 
 Lo que sigue son motivos por los que podría ver este mensaje de error y remedios para la situación:
 
-* **Problema:** El dominio del sitio web (ISP) está bloqueando el [!UICONTROL Enhanced Experience Composer].
+* **Problema:** El dominio del sitio web (ISP) está bloqueando [!UICONTROL Enhanced Experience Composer].
 
-  **Solución:** Lista de permitidos las direcciones IP enumeradas anteriormente.
+  **Remedy:** Lista de permitidos las direcciones IP enumeradas anteriormente.
 
-* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente utiliza la configuración predeterminada de 1.2. Antes de la [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admite TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-  **Solución:** Consulte la siguiente pregunta (La [!UICONTROL Enhanced Visual Experience Composer] no se carga en páginas seguras de mi sitio que utilizan TLS 1.2).
+  **Solución:** Consulte la siguiente pregunta ([!UICONTROL Enhanced Visual Experience Composer] no se cargará en páginas seguras de mi sitio que usen TLS 1.2).
 
 ## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC)   {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Podría ver el mensaje de error descrito anteriormente en &quot;La [!UICONTROL Enhanced Visual Experience Composer] no se carga en páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente utiliza la configuración predeterminada de 1.2. Antes de la [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admite TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Enhanced Visual Experience Composer] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos pero el sitio web no admite TLS versión 1.2. [!DNL Target] usa actualmente la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
 1. Abra el sitio web afectado en Firefox.
-1. Haga clic en **[!UICONTROL Show Site Information]** en la barra de direcciones del navegador.
+1. Haga clic en el icono **[!UICONTROL Show Site Information]** en la barra de direcciones del explorador.
 
    ![imagen firefox_more_info](assets/firefox_more_info.png)
 
-1. Clic **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
+1. Haga clic en **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
-   ![imagen firefox_more_info_2](assets/firefox_more_info_2.png)
+   ![imagen de firefox_more_info_2](assets/firefox_more_info_2.png)
 
 1. Examine la información de versión TLS en Detalles técnicos:
 
-   ![imagen firefox_more_info_3](assets/firefox_more_info_3.png)
+   ![imagen de firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Si encuentra que el sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de Target. Para remediar la situación por ahora (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con [Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para la configuración con su versión TLS y el dominio.
+1. Si descubre que su sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} para obtener información sobre la directiva de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
 
 ## Veo errores de tiempo de espera o “acceso denegado” al cargar sitios con el proxy habilitado. (Solo EEC)   {#section_60CBB9022DC449F593606C0E6252302D}
 

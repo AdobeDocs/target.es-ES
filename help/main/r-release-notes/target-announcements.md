@@ -6,7 +6,7 @@ feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2350'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,7 @@ Por qué debería asistir:
 
 * **Descubra los casos de uso principales**: Transforme las visiones en realidad con un modelo para la optimización inteligente, y la maduración de[!DNL Adobe Target] clientes, más allá de la experimentación basada en reglas y las pruebas A/B.
 * **Maximice las funcionalidades únicas**: adapte las experiencias para que tengan éxito con recomendaciones de alto rendimiento para maximizar el retorno de la inversión, los ingresos y la conversión.
-* **Estrategias de personalización avanzadas**: profundización en las técnicas avanzadas de IA/ML para escalar el impacto empresarial, interesar a nuevos segmentos/audiencias y ajustar los modelos de personalización para las experiencias optimizadas.
+* **Estrategias avanzadas de Personalization**: profundización en las técnicas avanzadas de IA/ML para escalar el impacto en la empresa, interesar a nuevos segmentos y audiencias y ajustar los modelos de personalización para las experiencias optimizadas.
 
 * **[Regístrese aquí](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -133,7 +133,7 @@ Nos complace compartir algunas noticias “muy grandes” e innovadoras en térm
 
   En esta sesión, descubra cómo puede aumentar el alza de las conversiones aprovechando las nuevas funciones de [!DNL Adobe Target] conforme hablamos de lo siguiente:
 
-   * Controles de modelos mejorados dentro de actividades de [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática]
+   * Controles de modelo mejorados en [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] actividades
    * Desbloquear la capacidad de evaluar atributos de perfil y segmentos de alto valor de la [!DNL Real-Time Customer Data Platform] de [!DNL Adobe]
    * Cómo las marcas pueden ofrecer velocidades y decisiones más rápidas mediante el ajuste de sus algoritmos con tecnología de IA
    * Casos de uso únicos para ofrecer personalización de 1 a 1
@@ -156,7 +156,7 @@ Las experiencias móviles están impulsando la innovación de forma que los equi
 
   Mapa del curso:
 
-   * [!UICONTROL Prueba A/B], [!UICONTROL Prueba multivariada] (MVT), (XT) y pruebas y personalización automatizadas
+   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing] (MVT), (XT) y pruebas y personalización automatizadas
    * Flujos de trabajo paso a paso para la configuración de actividades
    * Recuperación previa de experiencias por lotes, lo que permite una personalización siempre activa para móviles
    * Métricas del ciclo vital para pruebas y direccionamiento en las experiencias de los clientes

@@ -5,9 +5,9 @@ title: ¿Qué es  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
-workflow-type: ht
-source-wordcount: '1144'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ Estos son los tres beneficios principales de utilizar los datos de [!DNL Analyti
 
 Si usa [!DNL Analytics] como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en [!DNL Analytics].
 
-Todas las métricas de [!DNL Analytics], incluidas las calculadas, están disponibles en [!DNL Target] y en el informe [!UICONTROL Actividades de Target] en [!DNL Analytics], con una excepción. Las métricas calculadas para [!UICONTROL Alza y confianza] no son compatibles. Del mismo modo, cualquier segmento disponible en [!DNL Analytics] puede aplicarse a ambas soluciones. Puede aplicar la métrica o la audiencia al informe en [!DNL Target] después de haber iniciado la prueba, o incluso después de que se haya completado la prueba.
+Todas las métricas de [!DNL Analytics], incluidas las métricas calculadas, están disponibles en [!DNL Target] y el informe [!UICONTROL Target Activities] en [!DNL Analytics], con una excepción. No se admiten las métricas calculadas para [!UICONTROL Lift & Confidence]. Del mismo modo, cualquier segmento disponible en [!DNL Analytics] puede aplicarse a ambas soluciones. Puede aplicar la métrica o la audiencia al informe en [!DNL Target] después de haber iniciado la prueba, o incluso después de que se haya completado la prueba.
 
 Se incluyen todas las métricas, incluida cualquier métrica de cliente o calculada que esté integrada en [!DNL Analytics].
 
@@ -39,7 +39,7 @@ Tenga en cuenta los siguientes puntos cuando vaya a utilizar A4T:
 * La fuente de informes se establece por actividad. [!DNL Target] continuará recopilando datos para usarlos en los informes y los datos de [!DNL Target] seguirán estando disponibles si prefiere que las actividades se basen en datos recopilados por [!DNL Target].
 * Debe usar una de las dos fuentes de informes. No puede recopilar datos de una única actividad desde ambas fuentes.
 * Al utilizar A4T, todas las métricas de éxito disponibles para sus actividades serán métricas de [!DNL Analytics]. Sin embargo, su métrica de objetivos se puede basar en una llamada de mbox si usa at.js. Por ejemplo, puede utilizar las funcionalidades de seguimiento de clics integradas en A4T en lugar de tener que implementar el código de seguimiento de clics de [!DNL Analytics].
-* Cuando revise los informes de una actividad de A4T en la interfaz de usuario de [!DNL Target], estará viendo datos de [!DNL Analytics]. Por ejemplo, si usa la métrica [!UICONTROL Visitantes] en [!DNL Target], estará usando la métrica [!UICONTROL Visitantes] de [!DNL Analytics], no la métrica [!UICONTROL Visitantes] de [!DNL Target], que ahora se llama [!UICONTROL Participantes]. Esta diferencia es especialmente importante para métricas de tráfico básicas ([!UICONTROL Visitantes], [!UICONTROL Visitas], [!UICONTROL Vistas de página]) y métricas de conversión.
+* Cuando revise los informes de una actividad de A4T en la interfaz de usuario de [!DNL Target], estará viendo datos de [!DNL Analytics]. Por ejemplo, si usa la métrica [!UICONTROL Visitor] en [!DNL Target], está usando la métrica [!DNL Analytics] [!UICONTROL Visitor], no la métrica [!DNL Target] [!UICONTROL Visitors], que ahora se llama [!UICONTROL Entrants]. Esta diferencia es especialmente importante para las métricas de tráfico básicas ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) y las métricas de conversión.
 * Las actividades de [!DNL Target] existentes seguirán utilizando la recopilación de datos de [!DNL Target] y no se verán afectadas por la habilitación de A4T.
 * Solo se permite una métrica basada en mbox al utilizar A4T.
 * Una llamada de servidor a servidor desde [!DNL Target] hacia [!DNL Analytics] envía la información de actividad y de experiencia a [!DNL Analytics]. Esta integración no genera llamadas al servidor adicionales para [!DNL Target] o [!DNL Analytics].
@@ -60,7 +60,7 @@ Las secciones siguientes contienen información sobre tipos de actividades compa
 | [Actividad A/B con asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sí | Consulte [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | [Actividad A/B con segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Sí | Ahora, la compatibilidad de A4T con actividades de Segmentación automática es compatible para ambos [!DNL Platform Web SDK] y at.js. |
 | [Segmentación de experiencias (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Sí |  |
-| [Prueba multivariable (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sí | Requiere una métrica de objetivos basada en mbox para obtener el informe de [!UICONTROL contribución de elementos]. En este momento, el informe de [!UICONTROL contribución de elementos] no admite métricas de [!DNL Analytics]. |
+| [Prueba multivariable (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Sí | Requiere una métrica de objetivos basada en mbox para obtener el informe [!UICONTROL Element Contribution]. En este momento, el informe [!UICONTROL Element Contribution] no admite métricas de [!DNL Analytics]. |
 | [Actividad de Automated Personalization (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |  |
 | [Actividad de Recommendations](/help/main/c-recommendations/recommendations.md) | Sí |  |
 | [Cualquier actividad que utilice una oferta de redireccionamiento](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Sí |
@@ -69,27 +69,27 @@ Dado que, de momento, no todos los tipos de actividades son compatibles con A4T,
 
 ## Ejemplos de informes de A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Para ver los informes de A4T en [!DNL Target], haga clic en **[!UICONTROL Actividades]**, haga clic en la actividad deseada en la lista que usa [!DNL Analytics] como fuente de informes y, a continuación, haga clic en la pestaña **[!UICONTROL Informes]**.
+Para ver los informes de A4T en [!DNL Target], haga clic en **[!UICONTROL Activities]**, haga clic en la actividad deseada en la lista que usa [!DNL Analytics] como fuente de informes y, a continuación, haga clic en la ficha **[!UICONTROL Reports]**.
 
 >[!NOTE]
 >
->Puede usar la lista desplegable de [!UICONTROL Fuente de informes] situada en la parte superior de la página [!UICONTROL Actividades] para mostrar solo las actividades que utilizan A4T.
+>Puede usar la lista desplegable [!UICONTROL Reporting Source] en la parte superior de la página [!UICONTROL Activities] para mostrar solo las actividades que utilizan A4T.
 
-Para cambiar entre la [!UICONTROL Visualización de tabla] y la [!UICONTROL Visualización de gráfico] del informe, haga clic en el icono correspondiente en la parte superior derecha del informe.
+Para cambiar entre [!UICONTROL Table View] y [!UICONTROL Graph View] del informe, haga clic en el icono correspondiente en la parte superior derecha del informe.
 
-En la ilustración siguiente, se ve la [!UICONTROL Visualización de gráfico] de un informe de A4T. La lista desplegable [!UICONTROL Métrica de informes] muestra las métricas de metas de [!DNL Analytics] disponibles:
+La siguiente ilustración muestra el [!UICONTROL Graph View] de un informe de A4T. La lista desplegable [!UICONTROL Report Metric] muestra las métricas de objetivo de [!DNL Analytics] disponibles:
 
 ![imagen a4t_report_graph1](assets/a4t_report_graph1.png)
 
-En la ilustración siguiente, se ve la [!UICONTROL Visualización de gráfico] de un informe de A4T. La lista desplegable [!UICONTROL Audiencia] muestra las audiencias de [!DNL Analytics] disponibles:
+La siguiente ilustración muestra el [!UICONTROL Graph View] de un informe de A4T. La lista desplegable [!UICONTROL Audience] muestra las audiencias de [!DNL Analytics] disponibles:
 
 ![imagen a4t_report_graph2](assets/a4t_report_graph2.png)
 
-En la ilustración siguiente, se muestra la [!UICONTROL Visualización de tabla] de un informe de A4T:
+La siguiente ilustración muestra el [!UICONTROL Table View] de un informe de A4T:
 
 ![imagen a4t_report_table](assets/a4t_report_table.png)
 
-Para ver el informe en [!DNL Analytics] en lugar de en [!DNL Target], haga clic en **[!UICONTROL Ver en Analytics]** en la parte superior del informe.
+Para ver el informe en [!DNL Analytics] en lugar de en [!DNL Target], haga clic en **[!UICONTROL View in Analytics]** en la parte superior del informe.
 
 ## Tutorial Analytics &amp; Target: Best Practices for Analysis (en inglés) {#section_3438E6E77A464424B717A4FD333B84B2}
 

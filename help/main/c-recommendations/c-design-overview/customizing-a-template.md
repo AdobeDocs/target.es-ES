@@ -2,13 +2,13 @@
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
 description: Aprenda a utilizar el lenguaje de diseño de código abierto Velocity para personalizar los diseños de recomendaciones en Adobe  [!DNL Target]  Recommendations.
 title: ¿Cómo puedo personalizar un diseño con Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 76%
+source-wordcount: '1064'
+ht-degree: 72%
 
 ---
 
@@ -22,7 +22,7 @@ Puede encontrar información sobre Velocity en [https://velocity.apache.org](htt
 
 La sintaxis, la lógica, etc. de Velocity se pueden usar en el diseño de recomendaciones. Esto significa que puede crear bucles *for*, instrucciones *if* y otro código usando Velocity en lugar de JavaScript.
 
-Atributos de entidad enviados a [!DNL Recommendations] en el `productPage` mbox o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. Se puede enviar cualquier tipo de atributo, pero [!DNL Target] no pasa atributos de tipo &quot;varios valores&quot; como una matriz sobre la que una plantilla puede iterar (por ejemplo, `entityN.categoriesList`).
+Los atributos de entidad enviados a [!DNL Recommendations] en el mbox `productPage` o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. Se puede enviar cualquier tipo de atributo; sin embargo, [!DNL Target] no pasa atributos del tipo &quot;varios valores&quot; como una matriz sobre la que una plantilla puede iterar (por ejemplo, `entityN.categoriesList`).
 
 A estos valores se hace referencia con la siguiente sintaxis:
 
@@ -30,7 +30,7 @@ A estos valores se hace referencia con la siguiente sintaxis:
 $entityN.variable
 ```
 
-Los nombres de atributos de entidad deben seguir la notación abreviada de Velocity, que consiste en una inicial *$* seguido de un identificador de lenguaje de plantilla de velocidad (VTL). El identificador VTL debe comenzar por un carácter alfabético (a-z o A-Z).
+Los nombres de atributos de entidad deben seguir la notación abreviada de Velocity, que consta de un carácter *$* inicial, seguido de un identificador de lenguaje de plantilla de Velocity (VTL). El identificador VTL debe comenzar por un carácter alfabético (a-z o A-Z).
 
 Los nombres de atributos de entidad de Velocity están restringidos a los siguientes tipos de caracteres:
 
@@ -60,9 +60,9 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Para obtener más información sobre las variables (atributos) de Velocity, consulte [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Para obtener más información acerca de las variables (atributos) de Velocity, vea [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Si utiliza un script de perfil en su diseño, el símbolo $ que precede al nombre del script debe señalarse con un `\` (barra invertida). Por ejemplo:
+Si usa un script de perfil en su diseño, el símbolo $ que precede al nombre del script debe señalarse con un `\` (barra invertida). Por ejemplo:
 
 `\${user.script_name}`
 
@@ -125,14 +125,14 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >Si desea agregar texto después del valor de un atributo antes de una etiqueta que indique que el nombre del atributo ha finalizado, puede hacerlo usando una anotación formal para incluir el nombre del atributo. Por ejemplo: `${entity1.thumbnailUrl}.gif`.
 
-También puede utilizar `algorithm.name` y `algorithm.dayCount` como atributos de entidad en los diseños, de modo que se pueda utilizar un diseño para probar varios criterios y el nombre del criterio se pueda mostrar dinámicamente en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar estos atributos para mostrar el `dayCount` (número de días de datos utilizados en los criterios, como &quot;principales vendedores en los últimos 2 días&quot;, etc.
+También puede usar `algorithm.name` y `algorithm.dayCount` como atributos de entidad en los diseños, de modo que se pueda usar un diseño para probar varios criterios y el nombre del criterio se pueda mostrar dinámicamente en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar estos atributos para mostrar `dayCount` (número de días de datos utilizados en el criterio), como &quot;productos más vendidos en los últimos 2 días&quot;, etc.
 
 ## Trabajo con números en plantillas de Velocity
 
 De forma predeterminada, las plantillas de Velocity tratan todos los atributos de entidad como valores de cadena. Puede que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
 
 1. Declare una variable ficticia e inicialícela con un valor doble o entero arbitrario.
-1. Asegúrese de que el atributo de entidad que desea utilizar no esté en blanco (requerido para [!DNL Target Recommendations]&#39; analizador de plantillas para validar y guardar la plantilla).
+1. Asegúrese de que el atributo de entidad que desea utilizar no esté en blanco (requerido para que el analizador de plantillas de [!DNL Target Recommendations] valide y guarde la plantilla).
 1. Pase el atributo de entidad al método `parseInt` o `parseDouble` en la variable ficticia que ha creado en el paso 1 para convertir la cadena en un valor entero o doble.
 1. Realice la operación o comparación matemática con el nuevo valor numérico.
 
@@ -210,7 +210,7 @@ El resultado es un diseño como el siguiente, en el que se muestra el artículo 
 
 ![imagen rec_key](assets/rec_key.png)
 
-Al crear su actividad de [!DNL Recommendations], si el artículo clave se toma del perfil del visitante (por ejemplo, “último artículo comprado”), [!DNL Target] muestra un producto aleatorio en el [!UICONTROL Compositor de experiencias visuales] (VEC). Se debe a que no hay un perfil disponible mientras diseña la actividad. Cuando los visitantes vean la página, verán el artículo clave previsto.
+Al crear su actividad [!DNL Recommendations], si el elemento clave se toma del perfil del visitante como, por ejemplo, &quot;último elemento comprado&quot;, [!DNL Target] muestra un producto aleatorio en [!UICONTROL Visual Experience Composer] (VEC). Se debe a que no hay un perfil disponible mientras diseña la actividad. Cuando los visitantes vean la página, verán el artículo clave previsto.
 
 ## Realización de reemplazos en un valor de cadena {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,7 +240,7 @@ El siguiente código es un ejemplo condicional completo de un precio de venta:
 
 ## Personalización del tamaño de la plantilla y comprobación de valores en blanco {#default}
 
-Si utiliza un script de Velocity para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de “1 a muchos” para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que usar las recomendaciones de copia de seguridad no tendría sentido y en los que la [!UICONTROL Representación parcial de plantillas] está habilitada.
+Si utiliza un script de Velocity para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de “1 a muchos” para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que la copia de seguridad de recomendaciones no tendría sentido y en los que [!UICONTROL Partial Template Rendering] está habilitado.
 
 El siguiente fragmento HTML sustituye la parte HTML existente en el diseño predeterminado de 4 x 2 (la CSS no se incluye aquí, en aras de la brevedad):
 

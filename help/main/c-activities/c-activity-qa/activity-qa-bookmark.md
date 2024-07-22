@@ -1,19 +1,19 @@
 ---
 keywords: control de calidad;vista previa;bookmarklet;vínculos de vista previa
-description: Aprenda a utilizar el Adobe [!DNL Target] bookmarklet de control de calidad para forzar [!DNL Target] para liberarlo del modo de control de calidad.
+description: Aprenda a usar el bookmarklet Adobe [!DNL Target] QA para forzar [!DNL Target] a liberarlo del modo de control de calidad.
 title: ¿Cómo utilizo el bookmarklet de control de calidad de la actividad?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 13%
 
 ---
 
 # Bookmarklet de control de calidad de la actividad
 
-Información para ayudarle a utilizar [!DNL Target] bookmarklet de control de calidad para forzar [!DNL Target] para liberarlo del modo de control de calidad.
+Información para ayudarlo a usar el bookmarklet de control de calidad [!DNL Target] a fin de obligar a [!DNL Target] a liberarlo del modo de control de calidad.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ Información para ayudarle a utilizar [!DNL Target] bookmarklet de control de ca
 
 ## bookmarklet de control de calidad de la actividad para at.js 1.*x*  
 
-Como el modo de [control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión de debe caducar o tiene que indicar a que lo libere del modo de control de calidad antes de poder ver su sitio como lo vería un visitante. [!DNL Target][!DNL Target] Usar el control de calidad [!DNL Target] bookmarklet para forzar su salida del modo de control de calidad.
+Como el [modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión [!DNL Target] debe caducar o tiene que indicar a [!DNL Target] que lo libere del modo de control de calidad antes de poder ver el sitio como lo vería un visitante. Use el bookmarklet QA [!DNL Target] para sacarse del modo de control de calidad.
 
-Para usar la variable [!DNL Target] bookmarklet QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores del explorador:
+Para usar el bookmarklet QA [!DNL Target], cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores del explorador:
 
 ```javascript
 javascript:(
@@ -42,7 +42,7 @@ javascript:(
 )();
 ```
 
-También puede forzar la salida manual del modo de control de calidad cargando una página en su sitio con el `at_preview_token` parámetro con un valor vacío.
+También puede forzar la salida manual del modo de control de calidad cargando una página en su sitio con el parámetro `at_preview_token` con un valor vacío.
 
 Por ejemplo:
 
@@ -50,9 +50,9 @@ Por ejemplo:
 
 ## bookmarklet de control de calidad de la actividad para at.js 2.*x*  
 
-A diferencia de at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo de control de calidad solo es adhesivo para el dominio de origen (mediante una cookie de origen configurada por at.js). Por lo tanto, en at.js 2.*x* Sin embargo, la sesión en modo de control de calidad solo se administra en el lado del cliente y no se envían cookies en modo de control de calidad a Target.
+A diferencia de at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo de control de calidad solo es adhesivo para el dominio de origen (mediante una cookie de origen establecida por at.js). Por lo tanto, en at.js 2.*x*, la sesión en modo de control de calidad solo se administra en el lado del cliente y no se envían cookies en modo de control de calidad a Target.
 
-Para usar la variable [!DNL Target] bookmarklet QA, cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores del explorador:
+Para usar el bookmarklet QA [!DNL Target], cree un bookmarklet que contenga el siguiente código JavaScript y agréguelo a la barra de herramientas de Marcadores del explorador:
 
 ```javascript
 javascript:(

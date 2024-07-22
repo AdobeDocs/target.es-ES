@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 100%
+source-wordcount: '1320'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,6 @@ Información que le ayudará a minimizar los efectos de los recuentos inflados d
 >* Servicio ID de visitante de Experience Cloud: visitorAPI.js versión 2.3.0 o posterior.
 >* Adobe Analytics: appMeasurement.js versión 2.1.
 >* Adobe Target: versión 0.9.6 de at.js o posterior (excepto la versión 1.1.0 si se utilizan ofertas de redireccionamiento con A4T).
-
 
 ## Cambios  {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -56,7 +55,7 @@ Revise los siguientes pasos con el fin de reducir la recopilación de datos parc
 | ![Paso 1](assets/step1_icon.png) | Asegúrese de que el grupo de informes seleccionado en [!DNL Target] es igual que en las páginas donde se presenta la actividad. |
 | ![Paso 2](assets/step2_icon.png) | Asegúrese de que las bibliotecas visitorAPI.js, appMeasurement.js y at.js estén en versiones compatibles con A4T. Para obtener más información sobre los requisitos de implementación, consulte [Antes de realizar la implementación](/help/main/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Paso 3](assets/step3_icon.png) | Compruebe que se define el SDID en todas las llamadas de [!DNL Target] y [!DNL Analytics] que salen de la página y que coinciden.<br/>Use un analizador de redes o una herramienta de depuración con el fin de garantizar que el parámetro `mboxMCSDID` de las llamadas de [!DNL Target] coincide con el parámetro SDID de la llamada de [!DNL Analytics]. |
-| ![Paso 4](assets/step4_icon.png) | Confirme que las bibliotecas de implementación se cargan en el orden correcto en sus sitios. Para obtener más información, consulte    [Implementación de Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| ![Paso 4](assets/step4_icon.png) | Confirme que las bibliotecas de implementación se cargan en el orden correcto en sus sitios. Para obtener más información, consulte [Implementación de Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Ver la cantidad de datos parciales guardada  {#section_89B663E2824A4805AB934153508A0F4B}
 

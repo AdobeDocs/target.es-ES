@@ -1,7 +1,7 @@
 ---
 keywords: contenido;actualizar contenido;activos;cargar contenido;cargar recurso;eliminar contenido
 description: Obtenga información sobre cómo cargar o eliminar imágenes utilizadas como ofertas de imágenes.
-title: ¿Cómo puedo cargar o eliminar contenido en? [!UICONTROL Offers] ¿Biblioteca?
+title: ¿Cómo puedo cargar o eliminar contenido en la biblioteca [!UICONTROL Offers]?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 hide: true
@@ -16,35 +16,35 @@ ht-degree: 13%
 
 # Cargar o eliminar ofertas de imagen
 
-Puede cargar imágenes en el [!UICONTROL Image Offers] página en [!DNL Adobe Target] para usar como ofertas de imagen en actividades de. También puede eliminar ofertas de imágenes cuando ya no las necesite en las actividades.
+Puede cargar imágenes a la página [!UICONTROL Image Offers] en [!DNL Adobe Target] para usarlas como ofertas de imágenes en las actividades. También puede eliminar ofertas de imágenes cuando ya no las necesite en las actividades.
 
 >[!NOTE]
 >
->Este artículo contiene información sobre las actualizaciones de [!DNL Target] interfaz de usuario que actualmente forma parte de un programa beta. El [!DNL Adobe Target] A menudo, el equipo de habilita nuevas funciones para clientes seleccionados con fines de prueba y comentarios. Una vez completado el periodo de prueba, estas funciones se habilitarán para todos los clientes en el futuro [!DNL Target Standard/Premium] Versiones de y anunciadas en las notas de la versión.
+>Este artículo contiene información sobre las actualizaciones realizadas en la interfaz de usuario [!DNL Target] que actualmente forma parte de un programa de Beta. El equipo [!DNL Adobe Target] a menudo habilita nuevas características para clientes seleccionados con fines de prueba y comentarios. Una vez completado el período de prueba, estas características se habilitarán para todos los clientes en futuras versiones de [!DNL Target Standard/Premium] y se anunciarán en las notas de la versión.
 
 ## Añadir ofertas de imágenes a la lista
 
-1. Clic **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+1. Haga clic en **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
    ![Ofertas > Ofertas de imágenes](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
-1. Clic **[!UICONTROL Create]** > **[!UICONTROL Files]**.
-1. Busque y seleccione el elemento que desee añadir y, a continuación, haga clic en **[!UICONTROL Open]**.
+1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Files]**.
+1. Busque y seleccione el elemento que desea agregar y, a continuación, haga clic en **[!UICONTROL Open]**.
 1. Si es necesario, edite el nombre de archivo del elemento y haga clic en **[!UICONTROL Upload]**.
 
 ## Eliminar ofertas o carpetas de imagen
 
-Para alternar entre [!UICONTROL Card View] y [!UICONTROL List View], haga clic en [!UICONTROL Card View] ( ![Icono de vista de tarjeta](/help/main/c-experiences/c-manage-content/assets/icon-tile.png) ) o el icono [!UICONTROL List View] ( ![Icono de vista de lista](/help/main/c-experiences/c-manage-content/assets/icon-list-view.png) ) icono en la esquina superior derecha de la biblioteca de contenido.
+Para alternar entre [!UICONTROL Card View] y [!UICONTROL List View], haga clic en el icono [!UICONTROL Card View] ( ![icono de vista de tarjeta](/help/main/c-experiences/c-manage-content/assets/icon-tile.png) ) o en el icono [!UICONTROL List View] ( ![icono de vista de lista](/help/main/c-experiences/c-manage-content/assets/icon-list-view.png) ) en la esquina superior derecha de la biblioteca de contenido.
 
-Desde el [!UICONTROL Card View], pase el ratón sobre la oferta de imagen o la carpeta que quiera y haga clic en **[!UICONTROL Select]** (la marca de verificación) y haga clic en **[!UICONTROL Delete]**.
+En [!UICONTROL Card View], pase el ratón sobre la carpeta u oferta de imágenes que quiera, haga clic en el icono **[!UICONTROL Select]** (la marca de verificación) y luego haga clic en **[!UICONTROL Delete]**.
 
 ![Eliminar oferta de la vista de tarjeta](/help/main/c-experiences/c-manage-content/assets/delete-card-view.png)
 
-Desde el [!UICONTROL List View], haga clic en la imagen en miniatura en la parte izquierda de la lista para seleccionar la oferta de imagen o la carpeta que desee y, a continuación, haga clic en **[!UICONTROL Delete]**, como se muestra a continuación:
+En [!UICONTROL List View], haga clic en la imagen en miniatura que aparece en la parte izquierda de la lista para seleccionar la carpeta u oferta de imágenes que desee y, a continuación, haga clic en **[!UICONTROL Delete]**, como se muestra a continuación:
 
 ![Eliminar el elemento seleccionado](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
 
-## Vídeo de formación: El repositorio de contenido ![Distintivo Información general](/help/main/assets/overview.png)
+## Vídeo de formación: El repositorio de contenido ![Distintivo de información general](/help/main/assets/overview.png)
 
 Este vídeo incluye información sobre la administración de contenido.
 

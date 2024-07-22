@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3471'
-ht-degree: 90%
+source-wordcount: '3448'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Adobe Target] [!DNL Recommendations].
 
-## ¿Por qué [!UICONTROL la búsqueda en el catálogo] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
+## ¿Por qué [!UICONTROL Catalog Search] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
 
 Cuando se realiza una búsqueda en el catálogo de un atributo personalizado con un valor numérico, los resultados tratan al atributo personalizado como un tipo de cadena en lugar de un valor numérico.
 
@@ -54,7 +54,7 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 >
 >Un archivo de fuente se considera importado cuando su estado cambia de “Importación de elementos” a “Preparación de las actualizaciones del índice de búsqueda”. Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario Búsqueda en el catálogo. La Búsqueda en el catálogo está actualizada cuando el estado de la fuente cambia a Actualizaciones completadas. Incluso si la búsqueda en el catálogo aún no está actualizada, su sitio reflejará las actualizaciones en los periodos de tiempo enumerados arriba. El tiempo de actualización del índice de Búsqueda en el catálogo más reciente se muestra en la página Búsqueda en el catálogo.
 
-## ¿Cuánto tiempo se tarda en reflejar en mi sitio un cambio en la configuración de mi actividad de [!UICONTROL Recommendations], oferta, promociones o configuración de criterios?
+## ¿Cuánto tiempo se tarda en reflejar en mi sitio un cambio en la configuración de mi actividad [!UICONTROL Recommendations], oferta, promociones o configuración de criterios?
 
 * Un cambio en la configuración de la promoción puede tardar hasta cinco horas en reflejarse en el sitio.
 * Es posible que un cambio en la configuración de otros criterios no se refleje hasta que se ejecute el siguiente algoritmo:
@@ -63,12 +63,12 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
    * Otra configuración de criterios (por ejemplo, &quot;eliminación de una regla de inclusión dinámica&quot;, cambio de ventana retrospectiva, etc.) no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
    * Los cambios activan las ejecuciones de algoritmos, pero pueden tardar hasta 24 horas en completarse. Los algoritmos también se ejecutan de forma programada cada 12 a 24 horas.
 
-## ¿Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones? *que* ¿el usuario recibe?
+## ¿Cuánto tiempo tarda el comportamiento de un usuario en reflejarse (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones *que recibe* usuario?
 
 * El producto/contenido que se está viendo/comprando influye en las recomendaciones que el usuario recibe en la misma vista de página/solicitud de contenido de [!DNL Target].
-* El comportamiento histórico del usuario, como &quot;último producto visualizado&quot;, &quot;producto más visualizado&quot; y el historial general de visualización/compra se actualiza con esa solicitud, lo que influye en las recomendaciones que el usuario recibe en la siguiente vista de página/[!DNL Target] solicitud de contenido. Por ejemplo, los algoritmos de &quot;Artículos vistos recientemente&quot; y &quot;Recomendados para ti&quot; se actualizan con cada vista/compra de producto y se reflejan en la solicitud de contenido posterior.
+* El comportamiento histórico del usuario, como &quot;último producto visualizado&quot;, &quot;producto más visualizado&quot; y el historial general de visualización/compra se actualiza con esa solicitud, lo que influye en las recomendaciones que el usuario recibe en la siguiente solicitud de contenido de vista de página/[!DNL Target]. Por ejemplo, los algoritmos de &quot;Artículos vistos recientemente&quot; y &quot;Recomendados para ti&quot; se actualizan con cada vista/compra de producto y se reflejan en la solicitud de contenido posterior.
 
-## ¿Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones? *otro* ¿reciben los usuarios?
+## ¿Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones que reciben *otros* usuarios?
 
 El comportamiento de los usuarios en conjunto se incorpora al procesamiento de algoritmos sin conexión, con cada algoritmo ejecutado cada 12 a 24 horas.
 
@@ -95,25 +95,25 @@ Si la ubicación en la que aplica los criterios no contiene el Id. de categoría
 
 Si utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
 
-[!DNL Target] tiene un [Filtrar criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} configuración para controlar el filtrado inteligente del selector de algoritmo.
+[!DNL Target] tiene una configuración de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para controlar el filtrado inteligente del selector de algoritmo.
 
 >[!NOTE]
 >
->Este ajuste se aplica únicamente a las actividades creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
+>Esta configuración solo se aplica a las actividades creadas en [!UICONTROL Visual Experience Composer] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
 
-Para acceder al ajuste [!UICONTROL Filtrar los criterios no compatibles], haga clic en [!UICONTROL Recomendaciones] > [!UICONTROL Configuración]:
+Para obtener acceso a la configuración de [!UICONTROL Filter Incompatible Criteria], haga clic en [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
 ![imagen recs_settings_filter](assets/recs_settings_filter.png)
 
-Si el ajuste [!UICONTROL Filtrar los criterios no compatibles] no está habilitado, [!DNL Target] no filtra los algoritmos en el selector de algoritmos y muestra todos ellos.
+Si la configuración [!UICONTROL Filter Incompatible Criteria] NO está habilitada, [!DNL Target] no filtra los algoritmos en el Selector de algoritmos y se muestran todos ellos.
 
-Si el ajuste de la configuración [!UICONTROL Filtrar los criterios no compatibles] está habilitado, en las actividades VEC, [!DNL Target] lee entityId y el ID de la categoría de la ubicación seleccionada y, a continuación, se muestran los algoritmos basados en `currentItem|currentCategory` (si los valores respectivos están presentes en esa ubicación). Como resultado, de forma predeterminada solo se muestran en el selector de algoritmos aquellos compatibles con la ubicación seleccionada.
+Si la configuración [!UICONTROL Filter Incompatible Criteria] está habilitada, en las actividades VEC [!DNL Target] lee entityId y el Id. de categoría de la ubicación seleccionada y, a continuación, muestra los algoritmos basados en `currentItem|currentCategory` (si los valores respectivos están presentes en esa ubicación). Como resultado, de forma predeterminada solo se muestran en el selector de algoritmos aquellos compatibles con la ubicación seleccionada.
 
-Aunque el ajuste [!UICONTROL Filtrar los criterios no compatibles] esté habilitado, puede ver los algoritmos no compatibles anulando la selección de la casilla [!UICONTROL Compatibles] al seleccionar los criterios.
+Si la configuración [!UICONTROL Filter Incompatible Criteria] está habilitada, aún puede ver los algoritmos no compatibles si anula la selección de la casilla de verificación [!UICONTROL Compatible] al seleccionar los criterios.
 
 ![imagen compatible_checkbox](assets/compatible_checkbox.png)
 
-La siguiente lista contiene casos especiales en los que [!DNL Target] no muestra la casilla [!UICONTROL Compatible]:
+La siguiente lista contiene casos especiales en los que [!DNL Target] no muestra la casilla de verificación [!UICONTROL Compatible]:
 
 * Tanto entityId como el Id. de categoría están presentes en la ubicación, por lo que no se filtra ningún resultado.
 * Utiliza la versión 55 o anterior de [!DNL mbox.js].
@@ -129,7 +129,7 @@ Tenga en cuenta la siguiente información si ve que una colección que era disti
 
   ![imagen product_catalog](assets/product_catalog.png)
 
-* ¿Está actualizado el índice? Ir a o [!DNL /target/products.html#productSearch] y compruebe cuántas horas hace que se actualizó el índice (por ejemplo, &quot;Indexado hace 3 horas&quot;). Puede actualizar el índice si lo desea.
+* ¿Está actualizado el índice? Vaya a [!DNL /target/products.html#productSearch] y compruebe cuántas horas hace que se actualizó el índice (por ejemplo, &quot;Indexado hace 3 horas&quot;). Puede actualizar el índice si lo desea.
 * ¿Ha cambiado algo en la fuente o en la capa de datos que resulte en que sus entidades ya no cumplan las reglas de la colección? Compruebe que las mayúsculas y minúsculas concuerden.
 * ¿Se ejecutó correctamente la fuente? ¿Ha cambiado alguien el directorio FTP, la contraseña, etc.?
 * [!DNL Target] intenta que las actualizaciones del envío (en la página/aplicación del cliente) se produzcan lo más rápido posible. No obstante, [!DNL Target] también debe proporcionar determinada representación en la IU para el experto en marketing. [!DNL Target] no retrasa las actualizaciones de entrega hasta que las actualizaciones de la IU se sincronizan con ellas. Puede utilizar [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para comprobar el contenido del sistema en el momento de recibirse una solicitud.
@@ -244,7 +244,7 @@ Si el visitante no tiene dos sesiones activas a la vez, los artículos vistos re
 
 ## ¿Puedo usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?
 
-Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. Puede utilizar el algoritmo heredado en [!DNL Target Premium]; sin embargo, el algoritmo puede crear problemas de sincronización al desactivar o eliminar la actividad en la IU de [!DNL Target Premium]. Para obtener más información sobre las diferencias entre las dos soluciones, consulte [[!DNL Recommendations Classic] frente [!DNL Recommendations] actividades en [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. Puede utilizar el algoritmo heredado en [!DNL Target Premium]; sin embargo, el algoritmo puede crear problemas de sincronización al desactivar o eliminar la actividad en la IU de [!DNL Target Premium]. Para obtener más información sobre las diferencias entre las dos soluciones, vea [[!DNL Recommendations Classic] frente a [!DNL Recommendations] actividades en [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## ¿Cómo puedo recomendar solo nuevos artículos o vídeos? {#recommend-new-articles}
 
@@ -276,9 +276,9 @@ Algunos clientes de medios y publicaciones desean asegurarse de que los artícul
 >
 >Este ejemplo también se puede realizar utilizando la coincidencia de parámetros y pasando el valor `priorDate60` como parámetro de mbox.
 
-### ¿Cuáles son algunos problemas conocidos al utilizar? [!DNL Recommendations] actividades?
+### ¿Cuáles son algunos problemas conocidos al usar [!DNL Recommendations] actividades?
 
-Los siguientes son problemas conocidos de las actividades de [!UICONTROL Recommendations]:
+Los siguientes son problemas conocidos de las actividades [!UICONTROL Recommendations]:
 
 * Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
 * Las entidades caducadas expiran correctamente después de 60 días de no recibir ninguna actualización a través de la fuente o la API; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después del vencimiento. Las entidades eliminadas a través de fuentes o API tampoco se eliminan actualmente del índice de búsqueda en el catálogo. (IRI-857)

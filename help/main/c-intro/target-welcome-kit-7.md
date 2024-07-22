@@ -6,14 +6,14 @@ feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 78%
+source-wordcount: '1724'
+ht-degree: 76%
 
 ---
 
 # Capítulo 7: Creación y ejecución de la primera actividad de [!DNL Target]
 
-Por lo tanto, está listo para empezar con su primera actividad en [!DNL Target]? Excelente. Vamos a diseñar una actividad para su sitio web, sitio móvil o aplicación móvil que no sea excesivamente compleja, pero que pueda proporcionar un retorno de la inversión rápido y que le entusiasme con el potencial de utilizar [!DNL Target] para probar y personalizar. En función de su organización y de su enfoque, puede considerar la posibilidad de seguir una de las tres rutas diferentes con esta primera actividad.
+¿Está listo para comenzar con su primera actividad en [!DNL Target]? Excelente. Vamos a diseñar una actividad para tu sitio web, sitio móvil o aplicación móvil que no sea excesivamente compleja, pero que pueda proporcionar un retorno de la inversión rápido y que te entusiasme con el potencial de usar [!DNL Target] para probar y personalizar. En función de su organización y de su enfoque, puede considerar la posibilidad de seguir una de las tres rutas diferentes con esta primera actividad.
 
 La clave de su primera actividad, sin embargo, es establecer una línea de base de la métrica empresarial que está intentando mejorar: ingresos, clics, envíos de formularios, registros completados, etc. En una prueba A/B, a menudo puede utilizar la experiencia u oferta actual como un control y medir el impacto de una variante de esa experiencia u oferta frente a ella. Sin embargo, con la mayoría de las actividades de personalización, lo ideal sería determinar el rendimiento de la experiencia actual antes de lanzar una versión personalizada de ella. Esto le permitirá medir el impacto de la personalización.
 
@@ -44,14 +44,14 @@ Estas son solo algunas formas de concebir esas ideas de actividades que son fác
 * **Use lo que conoce.** Tal vez ya conoce bien a sus clientes y tiene una idea precisa de lo que les interesa. Utilícelo para desarrollar experiencias personalizadas.
 * **Utilice su solución de análisis.** Busque los lugares en el sitio donde los clientes abandonaron un flujo de compra o salieron de una página. Revise las páginas y formule una hipótesis sobre lo que podría estar causando la salida antes de realizar la acción deseada.
 * **Use sus poderes de observación.** Examine algunas páginas clave de su sitio web y siga su instinto para identificar los aspectos que deben mejorarse. Tal vez una página de detalles del producto que está demasiado abarrotada y llena de palabras, por lo que debe simplificarla. Tal vez el botón de compra es difícil de encontrar, así que muévalo a un lugar más visible.
-* **Observe a sus competidores.** Una rápida revisión de los sitios web de sus competidores puede revelar diseños, ofertas, textos y otros elementos que usted cree que son muy efectivos para obtener resultados comerciales. Considere la posibilidad de probar esos enfoques en su sitio.
+* **Observe a sus competidores.** Una rápida revisión de los sitios web de sus competidores podría revelar diseños, ofertas, textos y otros elementos que usted cree que son muy eficaces para obtener resultados comerciales. Considere la posibilidad de probar esos enfoques en su sitio.
 * **Aproveche los comentarios de los clientes.** Es posible que sus clientes le hayan aportado ideas para mejorar su experiencia a través de una encuesta en línea o en las llamadas del servicio de atención al cliente. Identifique los puntos problemáticos que hayan sido mencionados por varios clientes e idee una experiencia que pueda eliminarlos.
 
 Cuando se le ocurra una idea que probar, tenga en cuenta que debería poder explicar, idealmente con datos, por qué cree que la idea de prueba que propone puede mejorar la experiencia del cliente y las métricas que importan a la empresa.
 
 ## Planificación de la actividad con el planificador de actividades
 
-Hemos incluido el [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) como PDF independiente que puede guardar y utilizar una y otra vez. Haga clic en el vínculo para ver el archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
+Hemos incluido [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) como PDF independiente que puedes guardar y usar una y otra vez. Haga clic en el vínculo para ver el archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
 
 Para ejecutar una actividad efectiva, debe rellenar cada área del planificador. Utilice esta herramienta para que usted y otros piensen en ideas para las actividades de prueba y personalización.
 
@@ -91,7 +91,7 @@ Si su actividad requiere el asistente de un diseñador, un desarrollador web o u
 
 Se necesita añadir un determinado número de visitantes a la población de prueba para extraer una conclusión estadísticamente relevante de la prueba. Piense en ello: si solo dos personas participan en su prueba, ¿va a confiar en los resultados?
 
-[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. El [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) le ayuda a determinar el tiempo necesario para ejecutar una prueba en función de la confianza que necesite en sus resultados. Haga clic en el enlace [!UICONTROL Más información] de este cuadro para abrir y utilizar la calculadora.
+[!DNL Target] se basa en principios estadísticos para determinar que los resultados de una prueba son estadísticamente válidos. La [!DNL Adobe Target] [calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) le ayuda a determinar el tiempo necesario para ejecutar una prueba en función de la confianza que necesite en sus resultados. Haga clic en el vínculo [!UICONTROL Learn More] de este cuadro para abrir y utilizar la calculadora.
 
 ### ¿Qué importancia tiene esta actividad?
 
@@ -107,4 +107,4 @@ Los resultados de la actividad a menudo proporcionan información sobre las acci
 
 ## Abra [!DNL Target], y cree e inicie su actividad
 
-Ha rellenado su planificador de actividades. Ahora es el momento de entrar en la solución y crear su actividad. [!DNL Target] facilita la modificación de la página web en el [!UICONTROL Compositor de experiencias visuales].
+Ha rellenado su planificador de actividades. Ahora es el momento de entrar en la solución y crear su actividad. [!DNL Target] facilita la modificación de la página web en [!UICONTROL Visual Experience Composer].

@@ -5,8 +5,8 @@ title: ¿Cómo evito errores comunes de pruebas A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 271d5bd8730830dd58be33f88793f2bef2b8d211
-workflow-type: ht
-source-wordcount: '3853'
+workflow-type: tm+mt
+source-wordcount: '3933'
 ht-degree: 100%
 
 ---

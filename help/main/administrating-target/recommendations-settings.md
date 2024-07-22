@@ -1,6 +1,6 @@
 ---
 keywords: recommendations;implementar recomendaciones;código de cliente;token de autenticación;sector vertical;modo incompatible de filtro;grupo de hosts predeterminado;base de miniaturas;generar token de autenticación;token de autenticación;
-description: Obtenga información sobre cómo configurar las opciones de para [!DNL Adobe Target Recommendations].
+description: Obtenga información sobre cómo configurar la configuración de  [!DNL Adobe Target Recommendations].
 title: ¿Cómo configuro los ajustes de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Administration & Configuration
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 ---
 
-# Configure las opciones de [!DNL Recommendations]
+# Configurar opciones de [!DNL Recommendations]
 
-Obtenga información sobre cómo configurar las opciones de [!DNL Adobe Target Recommendations].
+Obtenga información sobre cómo establecer la configuración de [!DNL Adobe Target Recommendations].
 
-Para acceder a [!DNL Recommendations] opciones de configuración, abrir [!DNL Target] en el [!DNL Adobe Experience Cloud], luego haga clic en [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Para obtener acceso a las opciones de configuración de [!DNL Recommendations], abra [!DNL Target] en [!DNL Adobe Experience Cloud] y, a continuación, haga clic en [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
 Puede configurar las siguientes opciones:
 
 * Especifique el código de cliente
-* Generar un token de autorización para [!DNL Target] API
+* Generar un token de autorización para las API [!DNL Target]
 * Especifique el sector o la vertical
 * Filtrar criterios incompatibles
 * Especifique el grupo de hosts predeterminado
 * Especifique la URL base de miniatura
 * Configuración de claves de atributo personalizadas
 
-Para obtener información detallada, consulte [Planificar e implementar Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} en el **[!DNL Adobe Target]Guía para desarrolladores**.
+Para obtener información detallada, consulte [Planificar e implementar Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} en la **[!DNL Adobe Target]Guía para desarrolladores**.

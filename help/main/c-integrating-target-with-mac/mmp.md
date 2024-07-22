@@ -6,24 +6,24 @@ feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 12%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
 # Audiencias de Experience Cloud
 
-[!DNL Adobe Experience Cloud Audiences] proporciona la capacidad para [!DNL Adobe Experience Cloud] soluciones de para comunicar y compartir información sobre los visitantes de un sitio web de modo que cada solución pueda utilizar los mismos datos.
+[!DNL Adobe Experience Cloud Audiences] permite que las soluciones de [!DNL Adobe Experience Cloud] se comuniquen y compartan información sobre los visitantes del sitio web para que cada solución pueda usar los mismos datos.
 
-Para obtener información detallada, consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en el *Guía del usuario de servicios principales*.
+Para obtener información detallada, consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en la *Guía del usuario de servicios principales*.
 
-## Vídeo: Integración [!DNL Target] con [!DNL Experience Cloud Audiences] (10:48)
+## Vídeo: Integrar [!DNL Target] con [!DNL Experience Cloud Audiences] (10:48)
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
-* Describir la creación y el uso de audiencias con [!DNL Analytics] y [!DNL Audience Manager]
-* Describir cómo importar audiencias de otros [!DNL Adobe] soluciones
-* Explore la [!DNL Adobe Experience Cloud] Panel de administración de (AEC)
-* Enumeración de los requisitos para [!DNL Experience Cloud] ID (ECID)
+* Describir la creación y el uso de la audiencia con [!DNL Analytics] y [!DNL Audience Manager]
+* Describir cómo importar audiencias de otras soluciones de [!DNL Adobe]
+* Explorar el panel de administración de [!DNL Adobe Experience Cloud] (AEC)
+* Enumerar los requisitos para el identificador de [!DNL Experience Cloud] (ECID)
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152)

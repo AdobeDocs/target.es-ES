@@ -2,17 +2,17 @@
 keywords: Recommendations;criterios de Recommendations;algoritmos de Recommendations;actividad de Recommendations;criterios;direccionamiento en Recommendations;recommendations
 description: Conozca las actividades de Recommendations en Adobe  [!DNL Target]  que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 title: ¿Qué es Recommendations de  [!DNL Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '922'
+ht-degree: 97%
 
 ---
 
-# Recomendaciones
+# Recommendations
 
 Las actividades de [!DNL Adobe Target Recommendations] muestran automáticamente productos, servicios o contenido que podría interesar a sus visitantes en función de la actividad anterior del usuario, sus preferencias u otros criterios. [!DNL Target Recommendations] le ayuda a dirigir a los visitantes hacia artículos relevantes que es posible que no conozcan de otra manera. [!DNL Recommendations] le permite proporcionar a los visitantes contenido relevante en el momento y en el lugar adecuados.
 

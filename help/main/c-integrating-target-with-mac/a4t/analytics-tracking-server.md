@@ -1,78 +1,78 @@
 ---
 keywords: servidor de seguimiento de analytics;A4T;depurador de Adobe Experience Cloud;depurador de Adobe Experience Platform;fuente de informes;herramientas para desarrolladores
-description: Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para actividades que utilizan Analytics para [!DNL Target] (A4T) si utiliza una versión anterior de at.js.
+description: Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para actividades que usan Analytics for [!DNL Target] (A4T) si usa una versión anterior de at.js.
 title: ¿Cómo se utiliza un servidor de seguimiento de Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 22%
+source-wordcount: '638'
+ht-degree: 14%
 
 ---
 
-# Utilice un [!DNL Analytics] servidor de seguimiento
+# Usar un servidor de seguimiento [!DNL Analytics]
 
-Si utiliza una versión anterior de at.js, debe especificar una [!DNL Analytics] servidor de seguimiento para actividades que utilizan [!DNL Adobe Analytics] para [!DNL Adobe Target] (A4T).
+Si utiliza una versión anterior de at.js, debe especificar un servidor de seguimiento [!DNL Analytics] para las actividades que usan [!DNL Adobe Analytics] para [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
+>No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Tracking Server] en la página [!UICONTROL Goals & Settings].
 >
->El [!DNL Target] el equipo admite at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que dispone de una versión compatible. Para obtener más información, consulte [detalles de la versión de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>El equipo [!DNL Target] es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que dispone de una versión compatible. Para obtener más información, consulte [detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
 
-Para garantizar que los datos de [!DNL Target] va a la ubicación correcta en [!DNL Analytics], A4T requiere un [!DNL Analytics] Servidor de seguimiento para enviar en todas las llamadas a Modstats desde [!DNL Target]. Para implementaciones que utilizan varios servidores de seguimiento, utilice la variable [!DNL Adobe Experience Platform Debugger] o las herramientas para desarrolladores del explorador para determinar el servidor de seguimiento correcto para su actividad.
+Para asegurarse de que los datos de [!DNL Target] vayan a la ubicación correcta en [!DNL Analytics], A4T requiere que se envíe un servidor de seguimiento [!DNL Analytics] en todas las llamadas a Modstats desde [!DNL Target]. Para implementaciones que usan varios servidores de seguimiento, use [!DNL Adobe Experience Platform Debugger] o las herramientas para desarrolladores del explorador para determinar el servidor de seguimiento correcto para su actividad.
 
-## Obtenga la [!DNL Analytics] servidor de seguimiento con [!DNL Adobe Experience Platform Debugger]
+## Obtener el servidor de seguimiento [!DNL Analytics] mediante [!DNL Adobe Experience Platform Debugger]
 
 El depurador debe verse en una página en la que se publique la actividad para garantizar que se selecciona el servidor de seguimiento correcto. También se puede especificar un servidor de seguimiento predeterminado en cada cuenta. Póngase en contacto con el Servicio de atención al cliente para especificar o modificar el servidor predeterminado.
 
-1. En la página en la que esté creando la actividad, abra el [!DNL Adobe Experience Platform Debugger].
+1. En la página en la que esté creando su actividad, abra [!DNL Adobe Experience Platform Debugger].
 
-   Si no ha instalado el depurador, consulte [Información general de Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
+   Si no ha instalado el depurador, consulte [Descripción general del Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
-1. Clic **[!UICONTROL Analytics]** en el menú de navegación izquierdo.
+1. Haga clic en **[!UICONTROL Analytics]** en el menú de navegación de la izquierda.
 
    ![Imagen Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
-   El [!DNL Analytics] El servidor de seguimiento de se encuentra en [!UICONTROL Hostname] de Debugger.
+   El servidor de seguimiento [!DNL Analytics] se encuentra en la sección [!UICONTROL Hostname] de Debugger.
 
-   * **Servidor de seguimiento propio**: Si el nombre de host de la solicitud coincide con el dominio en el que se encuentra, se trata de un servidor de seguimiento de origen. Por ejemplo, si está en `adobe.com`, `adobe.com` es el servidor de seguimiento propio.
-   * **Servidor de seguimiento de terceros**: Un servidor de seguimiento de terceros suele ser `[company].sc.omtrdc.net` donde la compañía es el nombre de su compañía, pero siempre termina en `sc.omtrdc.net`.
-   * **Implementaciones CNAME**: `sstats.adobe.com` es un ejemplo de un servidor de seguimiento CNAME de origen para una solicitud https (segura). `stats.adobe.com` es un ejemplo de una solicitud de origen CNAME para una página http (no segura).
+   * **Servidor de seguimiento propio**: Si el nombre de host de la solicitud coincide con el dominio en el que se encuentra, se trata de un servidor de seguimiento propio. Por ejemplo, si está en `adobe.com`, `adobe.com` es el servidor de seguimiento propio.
+   * **Servidor de seguimiento de terceros**: Un servidor de seguimiento de terceros suele ser `[company].sc.omtrdc.net`, donde la empresa es el nombre de la empresa, pero siempre termina en `sc.omtrdc.net`.
+   * **Implementaciones CNAME**: `sstats.adobe.com` es un ejemplo de un servidor de seguimiento propio CNAME para una solicitud https (segura). `stats.adobe.com` es un ejemplo de una solicitud de origen CNAME para una página http (no segura).
 
 1. Copie todo el contenido del campo.
 
-1. En la sección **[!UICONTROL Configuración de informes]** de la pantalla **[!UICONTROL Objetivos y configuración]****[!UICONTROL de la actividad, pegue la información sobre el servidor de seguimiento en el campo Servidor de seguimiento.]**
+1. En la sección **[!UICONTROL Reporting Settings]** de la pantalla **[!UICONTROL Goal & Settings]** de su actividad, pegue la información del servidor de seguimiento en el campo **[!UICONTROL Tracking Server]**.
 
    >[!NOTE]
    >
-   >Seleccionar [!UICONTROL Analytics como fuente de informes] para su actividad de [!UICONTROL Servidor de seguimiento] campo que debe estar disponible.
+   >Seleccione [!UICONTROL Analytics as the Reporting Source] para que la actividad del campo [!UICONTROL Tracking Server] esté disponible.
 
-## Obtenga la [!DNL Analytics] servidor de seguimiento con las herramientas para desarrolladores del explorador
+## Obtenga el servidor de seguimiento [!DNL Analytics] con las herramientas para desarrolladores del explorador
 
 Las herramientas para desarrolladores deben verse en una página a la que se envíe la actividad para garantizar que selecciona el servidor de seguimiento correcto. También se puede especificar un servidor de seguimiento predeterminado en cada cuenta. Póngase en contacto con el Servicio de atención al cliente para especificar o modificar el servidor predeterminado.
 
 1. En la página en la que esté creando la actividad, abra las herramientas para desarrolladores del explorador (en Google Chrome, haga clic en las tres elipses verticales en la esquina superior derecha > Más herramientas > Herramientas para desarrolladores).
 
-   ![Herramientas para desarrolladores Chrome](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![herramientas para desarrolladores de Chrome](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Haga clic en **[!UICONTROL Red]** pestaña.
+1. Haga clic en la ficha **[!UICONTROL Network]**.
 
-1. Filtrar por `/ss,` para mostrar el [!DNL Analytics] solicitudes.
+1. Filtre para `/ss,` con el fin de mostrar las [!DNL Analytics] solicitudes.
 
-   ![Herramientas para desarrolladores Chrome con búsqueda /ss](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
+   ![Herramientas para desarrolladores de Chrome con /ss search](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    El servidor de seguimiento es el nombre de host de la solicitud.
 
-   * **Servidor de seguimiento propio**: Si el nombre de host de la solicitud coincide con el dominio en el que se encuentra, se trata de un servidor de seguimiento de origen. Por ejemplo, si está en `adobe.com`, `adobe.com` es el servidor de seguimiento propio.
-   * **Servidor de seguimiento de terceros**: Un servidor de seguimiento de terceros suele ser `[company].sc.omtrdc.net` donde la compañía es el nombre de su compañía, pero siempre termina en `sc.omtrdc.net`.
-   * **Implementaciones CNAME**: `sstats.adobe.com` es un ejemplo de un servidor de seguimiento CNAME de origen para una solicitud https (segura). `stats.adobe.com` es un ejemplo de una solicitud de origen CNAME para una página http (no segura).
+   * **Servidor de seguimiento propio**: Si el nombre de host de la solicitud coincide con el dominio en el que se encuentra, se trata de un servidor de seguimiento propio. Por ejemplo, si está en `adobe.com`, `adobe.com` es el servidor de seguimiento propio.
+   * **Servidor de seguimiento de terceros**: Un servidor de seguimiento de terceros suele ser `[company].sc.omtrdc.net`, donde la empresa es el nombre de la empresa, pero siempre termina en `sc.omtrdc.net`.
+   * **Implementaciones CNAME**: `sstats.adobe.com` es un ejemplo de un servidor de seguimiento propio CNAME para una solicitud https (segura). `stats.adobe.com` es un ejemplo de una solicitud de origen CNAME para una página http (no segura).
 
 1. Copie todo el contenido del campo.
 
-1. En la sección **[!UICONTROL Configuración de informes]** de la pantalla **[!UICONTROL Objetivos y configuración]****[!UICONTROL de la actividad, pegue la información sobre el servidor de seguimiento en el campo Servidor de seguimiento.]**
+1. En la sección **[!UICONTROL Reporting Settings]** de la pantalla **[!UICONTROL Goal & Settings]** de su actividad, pegue la información del servidor de seguimiento en el campo **[!UICONTROL Tracking Server]**.
 
    >[!NOTE]
    >
-   >Seleccionar [!UICONTROL Analytics como fuente de informes] para su actividad de [!UICONTROL Servidor de seguimiento] campo que debe estar disponible.
+   >Seleccione [!UICONTROL Analytics as the Reporting Source] para que la actividad del campo [!UICONTROL Tracking Server] esté disponible.

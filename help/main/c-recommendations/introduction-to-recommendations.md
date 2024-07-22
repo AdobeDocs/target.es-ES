@@ -105,7 +105,7 @@ A continuación, debe agregar etiquetas o aprovechar la implementación existent
 
 Compruebe que [!DNL Target] tenga en cuenta los artículos que los usuarios están viendo y comprando. Si la compra no es relevante para su contexto, es posible que desee rastrear un tipo diferente de evento de conversión, por ejemplo, descargar un PDF, completar una encuesta, suscribirse a una newsletter, ver un vídeo, etc.
 
-Si ya está utilizando [!DNL Target] para ejecutar actividades A/B en su sitio, es posible que ya haya completado este paso. O si ya utiliza [!DNL Adobe Analytics] para informar sobre las visitas del sitio y el comportamiento de conversión, puede utilizar [!DNL Analytics] como fuente de datos de comportamiento. Si no es así, es más fácil configurarlo con un administrador de etiquetas como las etiquetas en [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. También es posible enviar interacciones sin conexión o dentro de la aplicación a [!DNL Target] mediante API en tiempo real.
+Si ya está utilizando [!DNL Target] para ejecutar actividades A/B en su sitio, es posible que ya haya completado este paso. O si ya utiliza [!DNL Adobe Analytics] para informar sobre las visitas del sitio y el comportamiento de conversión, puede utilizar [!DNL Analytics] como fuente de datos de comportamiento. Si no es así, es más fácil configurarlo con un administrador de etiquetas como las etiquetas en [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=es){target=_blank}. También es posible enviar interacciones sin conexión o dentro de la aplicación a [!DNL Target] mediante una API en tiempo real.
 
 ### Obtener recomendaciones con el contexto correcto
 
@@ -129,7 +129,7 @@ Una actividad de [!DNL Recommendations] consta de los siguientes componentes:
 
 ![Ilustración que muestra los elementos que constituyen una actividad de recomendaciones: Audiencias, criterios y diseños](/help/main/c-recommendations/assets/intro-12.png)
 
-De serie, [!DNL Target] incluye 14 audiencias, 42 criterios y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos. Hemos tenido anteriores [seminarios web sobre creación de audiencias](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Esta sección se centra en definir los criterios que definen qué artículos se recomendarán.
+De serie, [!DNL Target] incluye 14 audiencias, 42 criterios y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos. [seminarios web sobre la creación de audiencias](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) en [!DNL Target] que hemos tenido anteriormente. Esta sección se centra en definir los criterios que definen qué artículos se recomendarán.
 
 Target usa el concepto de la tarjeta de criterios. Una tarjeta de criterios es como una fórmula para personalizar.
 
