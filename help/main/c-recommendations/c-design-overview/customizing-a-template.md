@@ -1,26 +1,26 @@
 ---
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
-description: Aprenda a utilizar el lenguaje de diseño de código abierto Velocity para personalizar los diseños de recomendaciones en Adobe  [!DNL Target]  Recommendations.
+description: Aprenda a utilizar el lenguaje de diseño de código abierto  [!DNL Velocity] para personalizar diseños de recomendaciones en [!DNL Target] Recommendations.
 title: ¿Cómo puedo personalizar un diseño con Velocity?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 72%
+source-wordcount: '1049'
+ht-degree: 61%
 
 ---
 
-# Personalización de un diseño mediante Velocity
+# Personalizar un diseño mediante [!DNL Velocity]
 
-Utilice el lenguaje de diseño Velocity de código abierto para personalizar los diseños de recomendación en [!DNL Adobe Target Recommendations].
+Usar el lenguaje de diseño [!DNL Velocity] de código abierto para personalizar diseños de recomendación en [!DNL Adobe Target Recommendations].
 
-## Descripción general de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Resumen de [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Puede encontrar información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org).
+Encontrará información sobre [!DNL Velocity] en [https://velocity.apache.org](https://velocity.apache.org).
 
-La sintaxis, la lógica, etc. de Velocity se pueden usar en el diseño de recomendaciones. Esto significa que puede crear bucles *for*, instrucciones *if* y otro código usando Velocity en lugar de JavaScript.
+Se puede usar toda la lógica, sintaxis, etc. de [!DNL Velocity] para un diseño de recomendación. Esto significa que puede crear bucles *for*, instrucciones *if* y otro código mediante [!DNL Velocity] en lugar de JavaScript.
 
 Los atributos de entidad enviados a [!DNL Recommendations] en el mbox `productPage` o la carga CSV se pueden mostrar en un diseño, con la excepción de los atributos &quot;multivalor&quot;. Se puede enviar cualquier tipo de atributo; sin embargo, [!DNL Target] no pasa atributos del tipo &quot;varios valores&quot; como una matriz sobre la que una plantilla puede iterar (por ejemplo, `entityN.categoriesList`).
 
@@ -30,7 +30,7 @@ A estos valores se hace referencia con la siguiente sintaxis:
 $entityN.variable
 ```
 
-Los nombres de atributos de entidad deben seguir la notación abreviada de Velocity, que consta de un carácter *$* inicial, seguido de un identificador de lenguaje de plantilla de Velocity (VTL). El identificador VTL debe comenzar por un carácter alfabético (a-z o A-Z).
+Los nombres de atributos de entidad deben seguir la notación abreviada [!DNL Velocity], que consta de un carácter *$* inicial, seguido de un identificador de lenguaje de plantilla (VTL) [!DNL Velocity]. El identificador VTL debe comenzar por un carácter alfabético (a-z o A-Z).
 
 Los nombres de atributos de entidad de Velocity están restringidos a los siguientes tipos de caracteres:
 
@@ -39,7 +39,7 @@ Los nombres de atributos de entidad de Velocity están restringidos a los siguie
 * Guion ( - )
 * Guion bajo ( _ )
 
-Los atributos siguientes están disponibles como matrices de Velocity. Como tales, es posible iterarlas o referenciarlas mediante índice.
+Los atributos siguientes están disponibles como [!DNL Velocity] matrices. Como tales, es posible iterarlas o referenciarlas mediante índice.
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Para obtener más información acerca de las variables (atributos) de Velocity, vea [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Para obtener más información acerca de las variables (atributos) de [!DNL Velocity], vea [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Si usa un script de perfil en su diseño, el símbolo $ que precede al nombre del script debe señalarse con un `\` (barra invertida). Por ejemplo:
 
@@ -127,9 +127,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 También puede usar `algorithm.name` y `algorithm.dayCount` como atributos de entidad en los diseños, de modo que se pueda usar un diseño para probar varios criterios y el nombre del criterio se pueda mostrar dinámicamente en el diseño. Esto indica al visitante que está viendo productos de mayor venta o productos que otras personas han comprado en combinación con otros productos. Incluso puede utilizar estos atributos para mostrar `dayCount` (número de días de datos utilizados en el criterio), como &quot;productos más vendidos en los últimos 2 días&quot;, etc.
 
-## Trabajo con números en plantillas de Velocity
+## Trabajar con números en [!DNL Velocity] plantillas
 
-De forma predeterminada, las plantillas de Velocity tratan todos los atributos de entidad como valores de cadena. Puede que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
+De manera predeterminada, las plantillas [!DNL Velocity] tratan todos los atributos de entidad como valores de cadena. Puede que desee tratar un atributo de entidad como un valor numérico para realizar una operación matemática o compararlo con otro valor numérico. Para tratar un atributo de entidad como un valor numérico, siga estos pasos:
 
 1. Declare una variable ficticia e inicialícela con un valor doble o entero arbitrario.
 1. Asegúrese de que el atributo de entidad que desea utilizar no esté en blanco (requerido para que el analizador de plantillas de [!DNL Target Recommendations] valide y guarde la plantilla).
@@ -240,7 +240,7 @@ El siguiente código es un ejemplo condicional completo de un precio de venta:
 
 ## Personalización del tamaño de la plantilla y comprobación de valores en blanco {#default}
 
-Si utiliza un script de Velocity para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de “1 a muchos” para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que la copia de seguridad de recomendaciones no tendría sentido y en los que [!UICONTROL Partial Template Rendering] está habilitado.
+Si utiliza un script [!DNL Velocity] para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de &quot;1 a muchos&quot; para evitar la creación de elementos de HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que la copia de seguridad de recomendaciones no tendría sentido y en los que [!UICONTROL Partial Template Rendering] está habilitado.
 
 El siguiente fragmento HTML sustituye la parte HTML existente en el diseño predeterminado de 4 x 2 (la CSS no se incluye aquí, en aras de la brevedad):
 

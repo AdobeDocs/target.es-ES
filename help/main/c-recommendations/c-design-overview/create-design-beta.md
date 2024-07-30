@@ -1,14 +1,15 @@
 ---
 keywords: diseño de recomendaciones;crear diseño;copiar diseño
-description: Aprenda a crear un diseño de Adobe [!DNL Target] Recommendations con un diseño predeterminado o creando uno personalizado para que se ajuste mejor al diseño de la página.
+description: Aprenda a crear un diseño  [!DNL Target Recommendations] usando un diseño predeterminado o creando uno personalizado para que se ajuste mejor al diseño de la página.
 title: ¿Cómo se crea un diseño en Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
-exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
+hide: true
+hidefromtoc: true
 source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 21%
+source-wordcount: '972'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +34,7 @@ Esta ilustración muestra un diseño personalizado:
 
 ![Diseño personalizado](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-Puede crear un diseño durante el proceso de creación de actividades desde el Compositor de experiencias visuales (VEC) o desde la biblioteca de diseño fuera de la creación de actividades. En las secciones siguientes se da por hecho que está creando diseños a partir de la biblioteca, pero los pasos son similares.
+Puede crear un diseño durante el proceso de creación de actividades desde el [!UICONTROL Visual Experience Composer] (VEC) o desde la biblioteca de diseño fuera de la creación de actividades. En las secciones siguientes se da por hecho que está creando diseños a partir de la biblioteca, pero los pasos son similares.
 
 ## Creación de diseños
 
@@ -43,15 +44,12 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear uno per
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** para mostrar la biblioteca [!UICONTROL Designs].
 
-   ![Biblioteca de diseños](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Pase el ratón sobre la tarjeta del diseño que quiera crear y luego haga clic en el icono **[!UICONTROL Copy]**.
 
-   ![Imagen Card_CopyDesign](assets/Card_CopyDesign.png)
+   ![Imagen Card_CopyDesign](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
 
    Se muestra el cuadro de diálogo [!UICONTROL Create Design].
-
-   ![imagen createDesign](assets/createDesign.png)
 
 1. En el panel **[!UICONTROL Information]**, agregue **[!UICONTROL Content Name]** y una imagen de vista previa opcional para que se muestre en la tarjeta de diseño.
 
@@ -59,7 +57,7 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear uno per
 
 1. (Condicional) Edite el diseño **[!UICONTROL Code]** como desee.
 
-   Los diseños de Recommendations utilizan el lenguaje de diseño de código abierto [!DNL Velocity]. Encontrará información sobre [!DNL Velocity] en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño con [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Encontrará información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño con Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    Un diseño puede ser HTML o no HTML. De manera predeterminada, los diseños de HTML se encapsulan con una etiqueta `<div>` para permitir el rastreo de clics en un entorno web. Los diseños que no son de HTML son para entornos que no son de web donde el rastreo de clics no es posible. Deslice el conmutador [!UICONTROL HTML Design] a la posición &quot;desactivado&quot; para utilizar código que no sea de HTML.
 
@@ -91,17 +89,15 @@ Recuerde que no puede editar ni copiar un diseño predeterminado; sólo puede co
 
 Pase el ratón sobre el diseño que quiera en la biblioteca [!UICONTROL Design] y luego haga clic en el icono correspondiente: editar, copiar o eliminar.
 
-![Iconos de desplazamiento para un diseño](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
-
 Puede copiar un diseño existente para crear un diseño duplicado que luego pueda modificar. Este proceso permite crear un diseño similar con menos esfuerzo.
 
-Tenga en cuenta que los diseños están disponibles en toda la cuenta. Considere el uso en otras cuentas antes de eliminar un diseño. Los diseños eliminados no se pueden recuperar.
+Tenga en cuenta que los diseños están disponibles en toda la cuenta. Asegúrese de tener en cuenta el uso en todas las cuentas antes de eliminar un diseño. Los diseños eliminados no se pueden recuperar.
 
 ## Ejemplo de JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al configurar una actividad a través del editor basado en formularios.
+El siguiente ejemplo muestra cómo se pueden devolver respuestas JSON al configurar una actividad a través de [editor basado en formularios](/help/main/c-experiences/form-experience-composer.md).
 
-1. Cree un diseño desde la biblioteca de diseños o desde el flujo de trabajo basado en formularios. Si intenta crear un diseño dentro del flujo de trabajo [!UICONTROL Visual Experience Composer] (VEC), no podrá crear nada más que un diseño de HTML, que está dentro de un `<div>` para fines de rastreo de clics.
+1. Cree un diseño desde [!UICONTROL Design library] o desde el flujo de trabajo basado en formularios. Si intenta crear un diseño dentro del flujo de trabajo [!UICONTROL Visual Experience Composer] (VEC), no podrá crear nada más que un diseño de HTML, que está dentro de un `<div>` para fines de seguimiento de clics.
 
 1. Compruebe que la opción “Diseño HTML” esté desactivada:
 
@@ -174,13 +170,13 @@ Cuando se haya ejecutado el algoritmo y tenga los resultados, su respuesta tendr
 
 ## Trucos y consejos adicionales sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
 
-También puede enviar una sencilla lista de elementos delimitada por comas configurando un diseño con la sintaxis siguiente:
+También puede enviar una lista de elementos simple delimitada por comas configurando un diseño con la siguiente sintaxis:
 
 ```
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Alternativamente, también puede enviar información adicional en la respuesta. El siguiente archivo de código es un ejemplo más complejo que devuelve mucho más que los identificadores de la entidad con sus espacios asociados (solicitud). Este ejemplo de diseño también devuelve detalles de la actividad, detalles del perfil de Target (según corresponda) y otros `entity.attributes` asociados con los elementos devueltos.
+Alternativamente, también puede enviar información adicional en la respuesta. El siguiente archivo de código es un ejemplo más complejo que devuelve mucho más que los identificadores de la entidad con sus espacios asociados (solicitud). Este ejemplo de diseño también devuelve detalles de la actividad, [!UICONTROL Target Profile] detalles (según corresponda) y otros `entity.attributes` asociados con los elementos devueltos.
 
 ```javascript
     {   
