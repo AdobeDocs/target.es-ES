@@ -5,7 +5,7 @@ title: ¿Cómo se crea una actividad de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 55%
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 Use el Compositor de experiencias visuales (VEC) de Target para crear una actividad de Recommendations directamente en una página con Target habilitado y modificar partes de la página en Target.
 
-1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+1. Haga clic en **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
 1. Seleccione **[!UICONTROL Visual (Default)]**, si es necesario.
 
