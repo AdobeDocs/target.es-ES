@@ -1,13 +1,13 @@
 ---
 keywords: datos dinámicos;activos;datos;ofertas;ofertas personalizadas;ofertas personales;reemplazo del token
-description: Aprenda a pasar datos dinámicos a  [!DNL Adobe Target] Ofertas.
+description: Aprenda a pasar datos dinámicos a Ofertas en  [!DNL Adobe Target].
 title: ¿Cómo paso datos dinámicos a las ofertas?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 63%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -69,7 +69,7 @@ También se pueden especificar valores predeterminados para los valores que dese
 
 `${user.testAttribute default="All Items!"}`
 
-Si `testAttribute` no existe o está en blanco, “All Items!” está escrito. Si un valor de atributo vacío es válido y desea escribirlo en lugar de mostrar el valor predeterminado, puede usar:
+Cuando `testAttribute` no existe o está en blanco, &quot;¡Todos los elementos!&quot; está escrito. Si un valor de atributo vacío es válido y desea escribirlo en lugar de mostrar el valor predeterminado, puede usar:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
