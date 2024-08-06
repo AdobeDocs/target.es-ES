@@ -1,29 +1,27 @@
 ---
 keywords: biblioteca de contenido;recursos;anotar;copiar;eliminar recurso;descargar recurso;editar contenido;compartir tarjeta;ver propiedades de contenido
-description: Obtenga información sobre cómo administrar ofertas de código e imagen en la biblioteca  [!DNL Target] [!UICONTROL Offers].
-title: ¿Cómo puedo trabajar con contenido en la biblioteca [!UICONTROL Offers]?
+description: Descubra el proceso de organización y optimización de las ofertas de código e imagen en la biblioteca  [!DNL Target] [!UICONTROL Offers].
+title: Administración de contenido principal en la biblioteca [!UICONTROL Offers]
 feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: 5d836037-3f51-4c63-8717-65de72e5c793
-source-git-commit: 6622453ec334dbd955d405bbd16478b8666f8c27
+source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 33%
+source-wordcount: '696'
+ht-degree: 20%
 
 ---
 
 # Trabajar con contenido en la biblioteca de recursos
 
-Información sobre las tareas que puede realizar en un recurso de la biblioteca de contenido de [!DNL Adobe Target], incluidas las tareas de anotación, copia, eliminación, descarga, edición, uso compartido y visualización de propiedades.
+Información sobre las tareas que puede realizar en un recurso de [!UICONTROL Content Library] en [!DNL Adobe Target]. Las tareas incluyen anotar, copiar, eliminar, descargar, editar, compartir y ver propiedades.
 
 1. Haga clic en **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** o **[!UICONTROL Image Offers]**.
 
-   ![Fichas de ofertas de código y ofertas de imagen](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
+   Para obtener más información sobre cómo buscar en [!UICONTROL Offer library] y crear [!UICONTROL Smart Collections], consulte [Filtrar y buscar contenido](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-   Para obtener más información sobre la búsqueda en la biblioteca de ofertas y la creación de colecciones inteligentes, consulte [Filtro y búsqueda de contenido](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
-
-1. (Opcional) Cambie entre [!UICONTROL Card View] y [!UICONTROL List View], haga clic en el icono [!UICONTROL Card View] o en el icono [!UICONTROL List View] en la esquina superior derecha de la biblioteca de contenido. También puede usar [!UICONTROL View Settings] para seguir configurando las columnas al ver [!UICONTROL List View].
+1. (Condicional) Para las ofertas de imágenes, alterne entre [!UICONTROL Card View] y [!UICONTROL List View], haga clic en el icono [!UICONTROL Card View] o en el icono [!UICONTROL List View] en la esquina superior derecha de la biblioteca de contenido. También puede usar [!UICONTROL View Settings] para configurar las columnas cuando visualice [!UICONTROL List View].
 
    La siguiente ilustración muestra las opciones disponibles al ver [!UICONTROL List View]:
 
@@ -31,19 +29,19 @@ Información sobre las tareas que puede realizar en un recurso de la biblioteca 
 
 1. Realice la acción deseada, tal como se explica en las siguientes secciones:
 
-## Opciones de Ofertas de código
+## [!UICONTROL Code Offers] opciones
 
 Al ver la página [!UICONTROL Code Offers], puede realizar las siguientes acciones en un elemento pasando el puntero sobre una oferta o carpeta y seleccionado el icono correspondiente.
 
-![Pase el ratón sobre los iconos de la pestaña Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
+![Pase el ratón sobre los iconos de la pestaña Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons-new.png)
 
-* **Información**: vea la información de la oferta.
+* **Información**: haga clic en el icono [!UICONTROL Information] para ver la información de la oferta, incluidos [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified] (fecha, hora y nombre del modificador). Haga clic en [!UICONTROL Full Details] para ver información adicional, incluidos los atributos de oferta y el uso de la actividad (nombre de la actividad, estado, espacio de trabajo y fecha y hora de modificación).
 * **Editar**: edite la carpeta u oferta.
 * **Copiar**: copie la oferta. Copiar y luego editar la oferta permite crear fácilmente una oferta nueva similar.
-* **Mover**: haga clic en el icono Mover, navegue hasta la ubicación a la que desee mover la oferta o carpeta y, a continuación, haga clic en el icono **[!UICONTROL Drop]**. Por ejemplo, puede mover una o más carpetas a otra carpeta para crear subcarpetas. Haga clic en [!UICONTROL Clear Selection] para anular la selección de ofertas o carpetas que haya seleccionado.
 * **Eliminar**: elimine la oferta o la carpeta. Ver [Consideraciones al eliminar elementos](#delete).
+* **Mover**: haga clic en el icono [!UICONTROL Move], navegue hasta la ubicación a la que desee mover la oferta o carpeta y, a continuación, haga clic en **[!UICONTROL Move]**. Por ejemplo, puede mover una o más carpetas a otra carpeta para crear subcarpetas.
 
-## Opciones de Ofertas de imágenes
+## [!UICONTROL Image Offers] opciones
 
 Al ver la página [!UICONTROL Image Offers], puede realizar las siguientes acciones en un elemento pasando el puntero sobre una oferta o carpeta y seleccionado el icono correspondiente.
 
@@ -72,24 +70,15 @@ La siguiente ilustración muestra los iconos de desplazamiento al ver [!UICONTRO
    * Mover  
 
 * **Descargar**: Descargue la oferta de imagen para la carpeta y su contenido.
-* **Ver propiedades**: vea las propiedades del elemento. Asegúrese de hacer clic en la ficha [!UICONTROL Basic] y en la ficha [!UICONTROL Advanced] para ver toda la información disponible. Haga clic en el icono con forma de lápiz en la página de propiedades para editar las propiedades y agregar más información. Puede agregar información de metadatos, estado de publicación y datos de licencias.
+* **Ver propiedades**: vea las propiedades del elemento. Asegúrese de hacer clic en la ficha [!UICONTROL Basic] y en la ficha [!UICONTROL Advanced] para ver toda la información disponible. Puede editar las propiedades y agregar más información. Puede agregar información de metadatos, estado de publicación y datos de licencias.
 * **Más acciones**: mostrar opciones adicionales en [!UICONTROL Card View].
 * **Editar**: edite la carpeta u oferta.
 * **Anotar**: agregue una nota al recurso. Haga clic en el recurso y, a continuación, seleccione el área donde quiera realizar una anotación y escriba la nota.
 * **Copiar**: copie la oferta. Copiar y luego editar la oferta permite crear fácilmente una oferta nueva similar.
+* **Mover**: haga clic en el icono [!UICONTROL Move], navegue hasta la ubicación a la que desee mover la oferta o carpeta y, a continuación, haga clic en **[!UICONTROL Move]**. Por ejemplo, puede mover una o más carpetas a otra carpeta para crear subcarpetas.
 
 ## Consideraciones al eliminar elementos {#delete}
 
-* Puede eliminar una carpeta entera que contenga cualquier número de recursos y subcarpetas. Esta función está disponible en la interfaz de usuario de Target también en la interfaz de usuario de Recursos de Adobe Experience Cloud.
+* Puede eliminar una carpeta entera que contenga cualquier número de recursos y subcarpetas. Esta característica también está disponible en la interfaz de usuario de [!DNL Target] en la interfaz de usuario de [!DNL Adobe Experience Cloud Assets].
 * Si elimina una carpeta con un gran número de imágenes, el proceso que se ejecuta detrás de las escenas puede tardar cierto tiempo (varios minutos) antes de que la interfaz de usuario se actualice para mostrar el estado final. La cantidad de tiempo necesaria es una función del número de imágenes, no del tamaño de estas. Diez minutos para 2000 imágenes sería una buena estimación. Puede continuar con otros trabajos y comprobar el estado final después de varios minutos para verificar la eliminación.
-* Las carpetas que no estén vacías en la biblioteca de ofertas de imágenes se pueden eliminar. Si no se hace referencia a todas las imágenes de la carpeta en ninguna actividad, se eliminará toda la carpeta y su contenido. Si se hace referencia a algunas imágenes dentro de la carpeta en cualquier actividad, se eliminan todas las imágenes sin referencia, pero se conservan las imágenes y carpetas que contienen esas imágenes.
-
-## Vídeo de formación: El repositorio de contenido ![Distintivo de información general](/help/main/assets/overview.png)
-
-Este vídeo incluye información sobre la administración de contenido. (4:56)
-
-* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) y la biblioteca de contenido de Target
-* Ofertas HTML personalizadas
-* Oferta HTML personalizada en el Compositor de experiencias visuales
-
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+* Las carpetas que no estén vacías en [!UICONTROL Image Offer library] se pueden eliminar. Si no se hace referencia a todas las imágenes de la carpeta en ninguna actividad, se eliminará toda la carpeta y su contenido. Si se hace referencia a algunas imágenes dentro de la carpeta en cualquier actividad, se eliminan todas las imágenes sin referencia, pero se conservan las imágenes y carpetas que contienen esas imágenes.

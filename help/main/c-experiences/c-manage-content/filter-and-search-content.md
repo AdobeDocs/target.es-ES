@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo buscar ofertas de código e imagen
 title: ¿Cómo puedo buscar contenido en la biblioteca de ofertas?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 8%
@@ -51,7 +51,7 @@ Busque recursos por palabras clave en la biblioteca [!UICONTROL Offers] de [!DNL
    * Estado de caducidad: Caducado.
    * Clasificación promedio: de 1 a 5.
    * Orientación: Horizontal, Vertical o Cuadrada.
-   * Estilo: Color o Blanco y negro.
+   * Estilo: Color o blanco y negro.
    * Puntuación de uso: mínimo a máximo
    * Puntuación de impresión: de mínima a máxima
    * Puntuación de clic: 1 a 5.
