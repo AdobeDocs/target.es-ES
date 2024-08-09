@@ -6,22 +6,24 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '447'
+ht-degree: 71%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] y [!UICONTROL Recommendations] actualizan el programa de Beta con la interfaz de usuario
 
-Use estos vínculos en este artículo para obtener acceso a la documentación actualizada como parte del programa Beta para la actualización de la interfaz de usuario de [!DNL Adobe Target] para [!UICONTROL Activities], [!UICONTROL Offers] y [!UICONTROL Recommendations].
+Use estos vínculos para obtener acceso a la documentación actualizada como parte del programa Beta para la actualización de la interfaz de usuario de [!DNL Adobe Target] para [!UICONTROL Activities], [!UICONTROL Offers] y [!UICONTROL Recommendations].
 
 >[!NOTE]
 >
->La información de estos artículos se actualiza con frecuencia durante el programa de Beta.
+>El equipo [!DNL Adobe Target] a menudo habilita nuevas características para clientes seleccionados con fines de prueba y comentarios. Una vez completado el período de prueba, estas características se habilitarán para todos los clientes en futuras versiones de [!DNL Target] y se anunciarán en las notas de la versión.
+>
+>La información de estos artículos se actualiza con frecuencia durante el programa Beta sin previo aviso.
 
-+++ Actividades (haga clic para expandir)
++++Actividades (haga clic para expandir)
 
 + [Información general sobre las actividades](c-activities/activities.md){target=_blank}
 + [Tipos de actividades de Target](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ Use estos vínculos en este artículo para obtener acceso a la documentación ac
 
 +++
 
-+++ Ofertas (haga clic para ampliar)
++++Ofertas (haga clic para ampliar)
 
 + [Información general sobre ofertas](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [Crear una carpeta de ofertas](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
