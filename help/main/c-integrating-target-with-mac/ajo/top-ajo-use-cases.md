@@ -1,19 +1,19 @@
 ---
-keywords: optimización;personalización;adobe recorrido optimizer;ajo;casos de uso;escenarios
+keywords: optimización;personalización;adobe recorrido optimizer;ajo;casos de uso;escenarios;web;basado en código
 description: Descubra cómo implementar de forma eficaz los casos de uso de optimización más impactantes en  [!DNL Adobe Journey Optimizer].
-title: 'Optimización de dominio: casos de uso principales en  [!DNL Adobe Journey Optimizer]'
+title: 'Principales casos de uso de optimización en  [!DNL Adobe Journey Optimizer] : canales web y basados en código'
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: b41785c4dfd0270bb234f54fc1bf88ed2343e905
+source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 8%
+source-wordcount: '154'
+ht-degree: 7%
 
 ---
 
-# Optimización de dominio: casos de uso principales en [!DNL Adobe Journey Optimizer]
+# Principales casos de uso de optimización en [!DNL Adobe Journey Optimizer]: canales web y basados en código
 
 Descubra cómo implementar de forma eficaz los casos de uso de optimización más impactantes en [!DNL Adobe Journey Optimizer].
 
@@ -27,5 +27,7 @@ Para realizar los siguientes casos de uso, necesita lo siguiente:
 ## Casos de uso
 
 Los siguientes casos de uso muestran cómo realizar tareas habituales desde [!DNL Target] dentro de [!DNL Adobe Journey Optimizer], lo que permite ver las diferencias y similitudes en la ejecución.
+
+Estos casos de uso pertenecen a canales web y basados en código.
 
 * [Cambios de contenido mediante pruebas A/B en  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
