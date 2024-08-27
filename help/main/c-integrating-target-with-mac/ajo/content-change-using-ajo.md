@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,13 @@ ht-degree: 1%
 
 Este caso de uso le ayuda a desbloquear los secretos para aplicar cambios efectivos en el contenido de las pruebas A/B en [!DNL Adobe Journey Optimizer].
 
-Este caso de uso se ha diseñado para mostrar cómo realizar una tarea familiar en [!DNL Adobe Target], pruebas A/B con una [actividad de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md), pero con [!DNL Journey Optimizer].
+Este caso de uso se ha diseñado para mostrar cómo realizar tareas familiares en [!DNL Adobe Target], pruebas A/B con una [actividad de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md), pero con [!DNL Journey Optimizer].
 
-## Escenario
+## Posibles escenarios
 
-Una compañía de ropa aumentó las conversiones probando varias imágenes y personalizando las páginas de aterrizaje de la campaña con los nombres de los usuarios a partir de sus atributos de perfil.
+* Una compañía de ropa aumentó las conversiones probando varias imágenes y personalizando las páginas de aterrizaje de la campaña con los nombres de los usuarios a partir de sus atributos de perfil.
+
+* Al probar varias descripciones de productos e imágenes en una página de aterrizaje de campaña, una empresa de comercio electrónico descubrió que sus miembros con lealtad al oro tenían tasas de conversión más altas, lo que provocó un aumento de las ventas.
 
 ## Ventajas y valor
 
@@ -29,13 +31,13 @@ Una compañía de ropa aumentó las conversiones probando varias imágenes y per
 * **Decisiones basadas en datos**: Aproveche los datos para tomar decisiones informadas en su estrategia de contenido, lo que garantiza el máximo impacto.
 * **Experiencia del usuario personalizada**: Adapte el contenido para satisfacer las preferencias y necesidades únicas de todos los segmentos de audiencia.
 
-## Instrucciones paso a paso
+## Pasos
 
 >[!NOTE]
 >
->Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Editar contenido web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} en la *documentación de Journey Optimizer*.
+>Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Editar contenido web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} en la *documentación de Journey Optimizer*. El vídeo de la parte inferior de la página es especialmente útil.
 
-Siga estos pasos para optimizar una página web probando varias imágenes y personalizando los mensajes con los nombres de los usuarios:
+Realice los siguientes pasos para optimizar una página web probando varias imágenes y personalizando los mensajes con los nombres de los usuarios mediante un script de perfil:
 
 1. En [!DNL Adobe Journey Optimizer], haga clic en **Campañas** en el carril izquierdo para mostrar la página [!UICONTROL Campaigns].
 
@@ -51,7 +53,7 @@ Siga estos pasos para optimizar una página web probando varias imágenes y pers
 
 1. (Condicional) En la sección **[!UICONTROL Audience]**, haga clic en **[!UICONTROL Select Audience]** y elija la audiencia que desee.
 
-   Para este caso de uso, elegimos activar la campaña para todos los visitantes (opción predeterminada).
+   Para este caso de uso, elegimos activar la campaña para [!UICONTROL All Visitors] (el valor predeterminado).
 
 1. En la sección **[!UICONTROL Action]**, elija **[!UICONTROL Web]** en la lista desplegable **[!UICONTROL Action]** y, a continuación, seleccione o cree una nueva configuración web.
 
@@ -111,6 +113,6 @@ Para obtener más información, consulte [Introducción a la nueva interfaz de i
 >[!MORELIKETHIS]
 >
 >[Editar contenido web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} en la *documentación de Journey Optimizer*
->[Vídeo explicativo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank} en la *documentación de Journey Optimizer*
+>[Vídeo explicativo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} en la *documentación de Journey Optimizer*
 >[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutorials de Journey Optimizer*
 
