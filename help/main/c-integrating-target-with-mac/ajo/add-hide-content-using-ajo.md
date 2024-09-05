@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ Siga estos pasos para agregar componentes u ocultarlos en la página web:
 
    ![Página de aterrizaje de yoga en el sitio web de LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Para agregar un botón de llamada a la acción, haga clic en **[!UICONTROL Edit Web Page]** en el carril derecho.
+1. Para agregar y ocultar un elemento, haga clic en **[!UICONTROL Edit Web Page]** en el carril derecho.
 
-1. Haga clic en
+1. Haga clic en el elemento que desee ocultar y, a continuación, haga clic en el botón [!UICONTROL Hide] en el carril derecho.
+
+   El carril derecho muestra la opción que puede realizar en el elemento seleccionado. Estas opciones varían en función del elemento seleccionado.
+
+   ![Botón Ocultar elemento](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Haga clic en la flecha hacia atrás de la esquina superior izquierda para volver al diseñador web.
 
