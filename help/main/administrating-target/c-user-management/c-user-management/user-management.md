@@ -5,10 +5,10 @@ title: ¿Cómo se agregan usuarios y se administran permisos para una cuenta  [!
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ Puede crear grupos de usuarios, como Desarrolladores, Analistas, Especialistas e
 Solo los administradores del sistema pueden establecer roles de usuario en [!DNL Target]. Por ejemplo, un usuario aprobador de [!UICONTROL Standard] no puede cambiar un observador a un aprobador si no dispone también de [!DNL Experience Cloud] derechos de administrador.
 
 Los usuarios administradores del sistema deben agregar usuarios al sistema. Los usuarios no se agregan automáticamente. Reciben una invitación por correo electrónico desde [!DNL Experience Cloud] y deben confirmar su dirección de correo electrónico para que se registre su cuenta.
+
+>[!NOTE]
+>
+>Para ver actividades en [!DNL Target], los usuarios deben estar asignados directamente a un área de trabajo con al menos el rol [!UICONTROL Observer]. La asignación a través de grupos de usuarios por sí sola es insuficiente. En general, se recomienda otorgar a los usuarios acceso al espacio de trabajo predeterminado.
 
 1. [En el Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Products]** y, a continuación, seleccione el nombre del producto deseado.
 

@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 23%
+source-wordcount: '384'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
+| 11 de septiembre | [Usuarios](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Se ha añadido la nota siguiente en Especificar funciones y permisos:<P> Para ver actividades en [!DNL Target], los usuarios deben estar asignados directamente a un área de trabajo con al menos el rol [!UICONTROL Observer]. La asignación a través de grupos de usuarios por sí sola es insuficiente. En general, se recomienda otorgar a los usuarios acceso al espacio de trabajo predeterminado. |
 | 1 de agosto | [Preguntas más frecuentes de Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Se ha agregado la siguiente pregunta frecuente: &quot;¿Puedo administrar [!DNL Target] ofertas visuales creadas en la interfaz de usuario mediante las API [!DNL Target]? &quot; |
 | 10 de julio | [Configuración de proxy (Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | Se ha añadido una nueva sección: Decisiones en el dispositivo |
 | 3 de junio | [Prioridad](/help/main/c-activities/priority.md) | Se ha actualizado todo el tema, incluida la indicación de que el contenido de varias actividades [!UICONTROL Form-Based Experience Composer] y VEC puede entregarse. Anteriormente, solo se podía entregar una actividad del flujo de trabajo basado en formularios. Ya no hay límite en el número de actividades basadas en formularios que se pueden entregar. |
