@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ El proceso de creación de carpetas para ofertas de código y ofertas de imagen 
 
    ![Ficha Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Haga clic en **[!UICONTROL Create Folder].
 
 1. Proporcione un nombre descriptivo para la carpeta.
 
@@ -44,9 +44,8 @@ Para obtener información sobre las tareas que puede realizar en ofertas y carpe
 
 1. Haga clic en **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Ficha Ofertas de imágenes](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
 1. Especifique un **[!UICONTROL Title]** descriptivo para la carpeta.
 
    Por ejemplo, puede incluir el tipo de contenido que contiene.
@@ -54,9 +53,9 @@ Para obtener información sobre las tareas que puede realizar en ofertas y carpe
    El nombre no puede contener los siguientes caracteres: Signo de porcentaje `%`, Barra diagonal `/`, Barra invertida `\`, Dos puntos `:`, Asterisco `*`, Signo de interrogación `?`, Comillas dobles `"`, Corchete `[`, Corchete `]`, Signo más: `+`, Barra vertical: `|`, Punto: `.`, Signo de número: `#`, Llave: `{`, Llave `}`, Acento circunflejo invertido `^` o Punto y Punto y coma `;`. Puede usar un guión (`- `) en lugar de estos caracteres.
 
 1. (Opcional) Especifique un **[!UICONTROL Name]** descriptivo.
-1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Private]** para especificar que la carpeta es privada y que solo usted puede verla y ver su contenido.
+1. (Opcional) Seleccione **[!UICONTROL Private]** para especificar que la carpeta es privada y que solo usted pueda verla y ver su contenido.
 
-1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Reorder-able in List View]** para especificar que usted y otros usuarios puedan reordenar la posición de la carpeta en [!UICONTROL List View].
+1. (Opcional) Seleccione **[!UICONTROL Reorder-able in List View]** para especificar que usted y otros usuarios pueden reordenar la posición de la carpeta en [!UICONTROL List View].
 
 1. Haga clic en **[!UICONTROL Create]**.
 

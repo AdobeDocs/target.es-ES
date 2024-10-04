@@ -1,16 +1,16 @@
 ---
 keywords: contenido;activos;administrar contenido;ofertas;administrar recursos;activar modo de selección;modo de selección
-description: Descubra cómo administrar de forma eficaz las ofertas de código e imagen mediante la biblioteca [!UICONTROL Offers]. Conozca las prácticas recomendadas y las sugerencias para optimizar el flujo de trabajo y mejorar sus proyectos.
+description: Descubra cómo administrar de forma eficaz las ofertas de código e imagen mediante la biblioteca [!UICONTROL Offers].
 title: ¿Cómo administro las ofertas de código e imagen?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 8%
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 
