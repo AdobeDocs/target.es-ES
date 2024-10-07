@@ -4,10 +4,10 @@ description: Encuentre respuestas a preguntas que se plantean a menudo sobre la 
 title: ¿Desea encontrar respuestas a preguntas sobre la visualización de informes con A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 25%
+source-wordcount: '2539'
+ht-degree: 24%
 
 ---
 
@@ -33,12 +33,10 @@ Un segmento también se puede superponer directamente en la tabla de forma libre
 
 +++
 
-## ¿Puedo aplicar el modelo de Attribution IQ &quot;Mismo contacto&quot; en [!DNL Analysis Workspace]?
+## ¿Qué modelo de Attribution IQ se usa en [!DNL Analysis Workspace]?
 
 +++Respuesta
-Cuando use [!DNL Target] impresiones y conversiones de actividad en [!DNL Analysis Workspace], aplique el modelo de Attribution IQ &quot;Mismo contacto&quot; a las métricas para garantizar un recuento preciso. Para aplicar un [modelo de atribución no predeterminado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=es), haga clic con el botón derecho en la métrica para **modificar Configuración de columna > habilitar Utilizar modelo de atribución no predeterminado > seleccione Mismo modelo de contacto**. Si no se aplica este modelo, las métricas se sobrevaloran.
-
-Todos los paquetes actuales de [!DNL Adobe Analytics] pueden agregar este modelo con [!UICONTROL Attribution IQ]. Si no tiene acceso a [!UICONTROL Attribution IQ], confíe en los datos de A4T en [!UICONTROL Reports & Analytics].
+Al usar [!DNL Target] impresiones y conversiones de actividad en [!DNL Analysis Workspace], el modelo de Attribution IQ &quot;Mismo contacto&quot; es el modelo predeterminado aplicado a las métricas para garantizar un recuento preciso. Este modelo funciona bien en el 99% de los casos. Sin embargo, puede anular esta atribución estándar en Attribution IQ.
 
 +++
 
