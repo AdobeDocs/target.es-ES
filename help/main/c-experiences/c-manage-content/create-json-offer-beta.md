@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '421'
 ht-degree: 25%
 
 ---
@@ -33,13 +33,7 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 ## Crear una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Haga clic en **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-
-   ![Ofertas > pestaña Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. Haga clic en **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
-
-   ![imagen offer-json](assets/offer-json-new.png)
-
 1. Escriba el nombre de una oferta.
 1. (Condicional) Si tiene una [[!DNL Target] cuenta Premium](/help/main/c-intro/intro.md#premium), elija el [espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace) que desee.
 1. (Condicional) Elija los atributos de perfil que desee.
@@ -143,6 +137,4 @@ Para obtener más información, consulte [Compartir atributos de perfil de CDP e
 
 ## Filtrado de ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Puede filtrar la biblioteca [!UICONTROL Offers] por el tipo de oferta JSON haciendo clic en el icono **[!UICONTROL Show filters]** y, a continuación, marcando la casilla de verificación **[!UICONTROL JSON]**.
-
-![imagen offer-json-filter](assets/offer-json-filter-new.png)
+Puede filtrar la biblioteca [!UICONTROL Offers] por el tipo de oferta JSON haciendo clic en el icono **[!UICONTROL Show filters]** ( ![Mostrar icono de filtros](/help/main/assets/icons/Filter.svg) ) y, a continuación, seleccionando la casilla de verificación **[!UICONTROL JSON Offers]**.

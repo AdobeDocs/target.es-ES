@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 83%
+source-wordcount: '1374'
+ht-degree: 82%
 
 ---
 
@@ -266,7 +266,8 @@ ht-degree: 83%
       + [Creación de ofertas JSON beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Trabajar con contenido en la biblioteca beta](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
-      + [Búsqueda de contenido](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Búsqueda y filtrado de contenido](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Búsqueda y filtrado del contenido beta](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [Transmisión dinámica de datos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Fragmentos de contenido y experiencia de](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Informes {#reports}

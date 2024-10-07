@@ -1,22 +1,22 @@
 ---
 keywords: oferta remota;contenido en caché;contenido dinámico;tipo de url
-description: Aprenda a utilizar ofertas remotas en  [!DNL Target]  para alojar contenido externo (contenido en un CMS u otro sistema).
+description: Descubra cómo aprovechar ofertas remotas en  [!DNL Target]  para alojar contenido externo de un CMS u otros sistemas.
 title: ¿Cómo Puedo Crear Ofertas Remotas?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: dedef7763a1d69f80c569a0e7edaadfb310b1a15
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 21%
+source-wordcount: '1064'
+ht-degree: 19%
 
 ---
 
 # Crear ofertas remotas
 
-Utilice las ofertas remotas para alojar contenido fuera de [!DNL Adobe Target] al que [!DNL Target] haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido (CMS) o en otro, por motivos de comodidad o de seguridad.
+Use ofertas remotas para hospedar contenido fuera de [!DNL Adobe Target], lo que permite que [!DNL Target] haga referencia a este contenido y lo envíe a los sitios web de los usuarios. Este contenido puede residir en un sistema de administración de contenido (CMS) u otro sistema por motivos de facilidad de uso o seguridad.
 
 >[!NOTE]
 >
@@ -51,21 +51,17 @@ Prácticas recomendadas para el uso de ofertas remotas en las actividades:
 
 1. Haga clic en **[!UICONTROL Offers]** y luego seleccione la ficha **[!UICONTROL Code Offers]**.
 
-   ![Ofertas > Ofertas de código](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. Haga clic en **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
-   ![Cuadro de diálogo Crear oferta remota](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui_new.png)
+1. En el cuadro de diálogo [!UICONTROL Create Remote Offer], proporcione un nombre descriptivo para la oferta.
 
-1. Escriba un nombre descriptivo para la oferta.
-
-   Un nombre descriptivo le ayuda a usted y a otros a encontrar rápidamente la oferta en la biblioteca [!UICONTROL Assets].
+   Un nombre descriptivo le ayuda a usted y a otros a encontrar rápidamente la oferta en la biblioteca [!UICONTROL Offers].
 
 1. (Condicional) Si tiene una [cuenta de Target Premium](/help/main/c-intro/intro.md#premium), seleccione el [espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) que desee.
 
 1. Especifique el tipo de URL de redireccionamiento.
 
-   Consulte [Tipo de URL de redireccionamiento: en caché o dinámica](#url-type) a continuación para obtener más información.
+   Consulte [Tipo de URL de redireccionamiento: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic]](#url-type) a continuación para obtener más información.
 
 1. Especifique la dirección URL remota absoluta para la oferta remota.
 
@@ -75,15 +71,9 @@ Prácticas recomendadas para el uso de ofertas remotas en las actividades:
 
 1. Al crear una actividad con [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione la ubicación para mostrar la sección **[!UICONTROL Content]**.
 
-   ![Sección de contenido en el Compositor de experiencias basadas en formularios](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. Haga clic en la lista desplegable **[!UICONTROL Default Content]** y luego haga clic en **[!UICONTROL Change Remote Offer]**.
 
-   ![Cambiar opción de oferta remota](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
 1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
-
-   ![Cuadro de diálogo Crear oferta remota](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Escriba un nombre descriptivo para la oferta.
 
@@ -91,27 +81,27 @@ Prácticas recomendadas para el uso de ofertas remotas en las actividades:
 
 1. Especifique el tipo de URL de redireccionamiento.
 
-   Consulte [Tipo de URL de redireccionamiento: en caché o dinámica](#url-type) a continuación para obtener más información.
+   Consulte [Tipo de URL de redireccionamiento: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic]](#url-type) a continuación para obtener más información.
 
 1. Especifique la dirección URL remota para la oferta remota.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Tipo de URL de redireccionamiento: en caché o dinámico {#url-type}
+## Tipo de dirección URL de redireccionamiento: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic] {#url-type}
 
 La siguiente información le ayuda a comprender las diferencias entre las dos opciones:
 
-### URL en caché
+### URL [!UICONTROL Onsite Cached]
 
 El contenido de una oferta remota en caché se suministra desde [!DNL Target].
 
 Cada dos horas, [!DNL Target] busca el contenido en la dirección URL remota y luego almacena el contenido dentro de [!DNL Target]. Cuando los visitantes cargan un sitio con una experiencia que incluye una oferta remota, [!DNL Target] ofrece la oferta.
 
-Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien que inició sesión en [!DNL Target] no puede cambiar el contenido. Para cambiar el contenido, alguien tendría que registrar , u otro sistema, y cambiar el contenido allí.
+Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien que inició sesión en [!DNL Target] no puede cambiar el contenido. Para cambiar el contenido, la persona tendría que iniciar sesión en el sistema de gestión de contenido o en otro tipo de sistema y cambiarlo desde allí.
 
 En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa.
 
-### URL dinámica
+### URL [!UICONTROL Onsite Dynamic]
 
 Una oferta remota dinámica se suministra desde el sistema de administración de contenido o desde otro, no desde [!DNL Target].
 
@@ -132,8 +122,6 @@ Debe aplicar ofertas remotas usando [!UICONTROL Form-Based Experience Composer].
 1. Especifique la ubicación deseada y añada los refinamientos de audiencia que sean necesarios.
 
 1. Haga clic en la lista desplegable de la sección **[!UICONTROL Content]** y, a continuación, haga clic en **[!UICONTROL Change Remote Offer]**.
-
-   ![Cambiar opción de oferta remota](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. Seleccione la oferta remota que desee en el cuadro de diálogo [!UICONTROL Select Remote Offer] y haga clic en **[!UICONTROL Done]**.
 
@@ -159,9 +147,9 @@ La oferta se ejecuta después de que procese la página. Un iFrame invisible rec
 
 ## Matriz de selección de ofertas remotas {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-La matriz de selección de ofertas remotas le ayuda a decidir qué tipo de oferta remota elegir: [!UICONTROL Cached] o [!UICONTROL Dynamic].
+La matriz de selección de ofertas remotas le ayuda a decidir qué tipo de oferta remota elegir: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic].
 
-| Función | En caché | Dinámica |
+| Función | Almacenamiento en caché in situ | Dinámico in situ |
 |--- |--- |--- |
 | Se actualiza cada vez que un visitante hace una solicitud | No | Sí |
 | Actualizaciones de contenido | En caché cada dos horas | Se actualiza de forma inmediata en cada solicitud |
