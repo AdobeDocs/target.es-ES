@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 80%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 80%
    + Asignación automática {#auto-allocate}
       + [Información general sobre la asignación automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Creación de una actividad de asignación automática](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Creación de una actividad de asignación automática](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Interpretación de informes de asignación automática](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Interpretación de los informes de asignación automática beta](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [La asignación automática puede proporcionar resultados de prueba con mayor rapidez, así como mayores ingresos que las pruebas manuales](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Segmentación automática {#auto-target}
       + [Información general sobre la segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Información general sobre la segmentación automática beta](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Creación de una actividad de segmentación automática](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [Creación de una actividad de segmentación automática beta](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Preguntas frecuentes y solución de problemas sobre la segmentación automática](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Informes y segmentación automática](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
