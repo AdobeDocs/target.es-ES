@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 23%
+source-wordcount: '420'
+ht-degree: 26%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
+| 14 de octubre | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han añadido notas de la versión 24.10.2 de [!DNL Target Standard/Premium]. |
 | 30 de septiembre | [Límites](/help/main/r-troubleshooting-target/target-limits.md) | Se ha actualizado el número de ofertas permitidas. |
 | 29 de septiembre | [Detalles de las versiones de at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Se ha añadido información acerca de la versión 2.11.6 de at.js. |
 | 11 de septiembre | [Usuarios](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Se ha añadido la nota siguiente en Especificar funciones y permisos:<P> Para ver actividades en [!DNL Target], los usuarios deben estar asignados directamente a un área de trabajo con al menos el rol [!UICONTROL Observer]. La asignación a través de grupos de usuarios por sí sola es insuficiente. En general, se recomienda otorgar a los usuarios acceso al espacio de trabajo predeterminado. |

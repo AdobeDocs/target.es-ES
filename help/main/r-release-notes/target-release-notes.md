@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 78%
+source-wordcount: '231'
+ht-degree: 79%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: jueves, 08 de mayo de 2024**
+**Última actualización: martes, 14 de octubre de 2024**
 
 >[!NOTE]
 >
@@ -23,17 +23,12 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## Informes de [!DNL Target] en [!DNL Adobe Customer Journey Analytics] (8 de mayo de 2024)
+## [!DNL Target Standard/Premium] 24.10.2 (16 de octubre de 2024)
 
-La integración entre [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} y [!DNL Target] proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización.
+Esta versión incluye las siguientes correcciones:
 
-Las principales ventajas de utilizar [!DNL Customer Journey Analytics] como fuente de creación de informes para [!DNL Target] son:
-
-* Los especialistas en marketing pueden aplicar de forma dinámica métricas de éxito de [!DNL Customer Journey Analytics] a informes de actividad de [!DNL Target] en cualquier momento. No es necesario especificarlo todo antes de ejecutar la actividad.
-* Los especialistas en marketing pueden aprovechar las características de [!DNL Customer Journey Analytics], como el [Panel de experimentación](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, para analizar más a fondo la personalización de su sitio web.
-* Los especialistas en marketing pueden tener una única fuente de informes para [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} y [!DNL Target]. Ambos productos de personalización se pueden conectar a [!DNL Customer Journey Analytics] para obtener una vista más integral de la personalización web.
-
-Para obtener más información, consulte Informes de [Target en Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+* Se ha corregido un problema que impedía que las actividades [!UICONTROL Recommendations] se cargaran en los modos [!UICONTROL Compose] y [!UICONTROL Browse]. (TGT-50709)
+* Se ha corregido un problema con la nueva extensión [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) que provocaba un redireccionamiento del [!UICONTROL Visual Experience Composer] (VEC) al [!UICONTROL Activities Library] después de hacer clic en Cancelar. Antes de esta corrección, los clientes necesitaban actualizar [!UICONTROL Activities Library] antes de poder crear nuevas actividades. (TGT-49980)
 
 ## Notas de la versión adicionales y detalles de la versión
 
