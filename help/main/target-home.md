@@ -1,13 +1,13 @@
 ---
-keywords: Target;inicio;temas populares;Adobe Target;Target Standard;Target Premium;documentación de Target;documentación de Adobe Target
+keywords: Target;inicio;temas populares;adobe target;target standard;target premium;documentación de target;documentación de adobe target;guía para profesionales;guía para usuarios
 title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 96%
 
 ---
 
