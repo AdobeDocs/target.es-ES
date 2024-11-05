@@ -7,20 +7,20 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 7%
 
 ---
 
 # Creación de carpetas de ofertas
 
-Cree carpetas en la biblioteca [!DNL Adobe Target] [!UICONTROL Offer] para albergar ofertas de código, ofertas de imágenes y otras carpetas para crear una estructura de subcarpetas.
+Cree carpetas en la biblioteca [!DNL Adobe Target] [!UICONTROL Offer] para albergar ofertas de código y ofertas de imagen. También puede crear carpetas para crear una estructura de subcarpetas.
 
 >[!NOTE]
 >
->Este artículo contiene información sobre las actualizaciones realizadas en la interfaz de usuario [!DNL Target] que actualmente forma parte de un programa de Beta. El equipo [!DNL Adobe Target] a menudo habilita nuevas características para clientes seleccionados con fines de prueba y comentarios. Una vez completado el período de prueba, estas características se habilitarán para todos los clientes en futuras versiones de [!DNL Target Standard/Premium] y se anunciarán en las notas de la versión.
+>Este artículo contiene información sobre las actualizaciones realizadas en la interfaz de usuario [!DNL Target] que actualmente forma parte de un programa de Beta. El equipo [!DNL Adobe Target] a menudo habilita nuevas características para clientes seleccionados con fines de prueba y comentarios. Una vez completado el período de prueba, estas características se habilitarán para todos los clientes en futuras versiones de [!DNL Target] y se anunciarán en [notas de la versión](/help/main/r-release-notes/release-notes.md).
 
 El proceso de creación de carpetas para ofertas de código y ofertas de imagen difiere ligeramente. Las secciones siguientes contienen más información.
 
@@ -28,9 +28,7 @@ El proceso de creación de carpetas para ofertas de código y ofertas de imagen 
 
 1. Haga clic en **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Ficha Ofertas de código](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. Haga clic en **[!UICONTROL Create Folder].
+1. Haga clic en **[!UICONTROL Create Folder]**.
 
 1. Proporcione un nombre descriptivo para la carpeta.
 
@@ -54,7 +52,6 @@ Para obtener información sobre las tareas que puede realizar en ofertas y carpe
 
 1. (Opcional) Especifique un **[!UICONTROL Name]** descriptivo.
 1. (Opcional) Seleccione **[!UICONTROL Private]** para especificar que la carpeta es privada y que solo usted pueda verla y ver su contenido.
-
 1. (Opcional) Seleccione **[!UICONTROL Reorder-able in List View]** para especificar que usted y otros usuarios pueden reordenar la posición de la carpeta en [!UICONTROL List View].
 
 1. Haga clic en **[!UICONTROL Create]**.
