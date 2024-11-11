@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 1%
 
 Este caso de uso le ayuda a desbloquear los secretos para aplicar cambios efectivos en el contenido de las pruebas A/B en [!DNL Adobe Journey Optimizer].
 
-Este caso de uso muestra cómo realizar tareas familiares, como pruebas A/B con una [actividad de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md), utilizando [!DNL Journey Optimizer] en lugar de [!DNL Adobe Target].
-
-Este caso de uso se ha diseñado para mostrar cómo realizar tareas familiares que podría haber realizado con [!DNL Adobe Target], pruebas A/B con una [actividad de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md), pero con [!DNL Journey Optimizer].
+Este caso de uso muestra cómo realizar tareas familiares, como pruebas A/B con una [actividad de prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) en [!DNL Adobe Target], utilizando [!DNL Journey Optimizer] en lugar de [!DNL Adobe Target].
 
 ## Ventajas y valor
 
@@ -31,7 +30,7 @@ Este caso de uso se ha diseñado para mostrar cómo realizar tareas familiares q
 
 * Una compañía de ropa aumentó las conversiones probando varias imágenes y personalizando las páginas de aterrizaje de la campaña con los nombres de los usuarios en el texto de la llamada a la acción.
 
-* Una empresa de comercio electrónico descubrió que sus miembros más fieles al oro tenían tasas de conversión más altas probando varias descripciones de productos e imágenes en una página de aterrizaje de campaña, lo que provocó un aumento de las ventas.
+* Una empresa de comercio electrónico descubrió que sus miembros con lealtad Gold tenían tasas de conversión más altas probando varias descripciones de productos e imágenes en una página de aterrizaje de campaña, lo que provocó un aumento de las ventas.
 
 ## Pasos
 
@@ -41,17 +40,13 @@ Este caso de uso se ha diseñado para mostrar cómo realizar tareas familiares q
 >
 >El vídeo de la parte inferior de la página es especialmente útil.
 
-Realice los siguientes pasos para optimizar una página web probando varias imágenes y personalizando los mensajes con los nombres de los usuarios mediante un script de perfil:
+Para optimizar una página web probando varias imágenes y personalizando mensajes con los nombres de los usuarios mediante un script de perfil:
 
-1. En [!DNL Adobe Journey Optimizer], haga clic en **Campañas** en el carril izquierdo para mostrar la página [!UICONTROL Campaigns].
-
-   ![Página de aterrizaje de Adobe Journey Optimizer con la pestaña Campañas resaltada.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. En [!DNL Journey Optimizer], haga clic en **Campañas** en el carril izquierdo para mostrar la página [!UICONTROL Campaigns].
 
 1. Haga clic en **[!UICONTROL Create Campaign]** en la esquina superior derecha de la página [!UICONTROL Campaigns].
 
 1. Seleccione **[!UICONTROL Scheduled - Marketing]** (el valor predeterminado) y luego haga clic en **Crear** para mostrar la página de detalles de [!UICONTROL Campaign].
-
-   ![Página de detalles de la campaña en Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. En la sección **[!UICONTROL Properties]**, proporcione un nombre descriptivo y una descripción opcional para la campaña.
 
@@ -85,7 +80,7 @@ Realice los siguientes pasos para optimizar una página web probando varias imá
 
 1. En la página de detalles de [!UICONTROL Campaign], en **[!UICONTROL Action]**, haga clic en **[!UICONTROL Edit Content]**.
 
-1. Haga clic en Web en Tratamiento B
+1. Haga clic en Web en Tratamiento B.
 
    En este caso de uso, mantenga [!UICONTROL Treatment A] sin cambios para usar la experiencia original como la primera experiencia en la prueba A/B.
 
@@ -133,4 +128,3 @@ Para obtener más información, consulte [Introducción a la nueva interfaz de i
 >[Editar contenido web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} en la *documentación de Journey Optimizer*
 >[Vídeo explicativo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} en la *documentación de Journey Optimizer*
 >[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutorials de Journey Optimizer*
-
