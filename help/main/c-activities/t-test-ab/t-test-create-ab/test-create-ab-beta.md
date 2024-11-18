@@ -1,11 +1,12 @@
 ---
 keywords: Crear A/B;prueba A/B;actividad A/B;nueva actividad a/b;crear a/b
-description: Domine [!UICONTROL Visual Experience Composer] (VEC) para crear actividades de prueba A/B directamente en una página habilitada para  [!DNL Target].
+description: Use [!UICONTROL Visual Experience Composer] (VEC) para crear actividades de prueba A/B directamente en una página habilitada para  [!DNL Target].
 title: ¿Cómo se crea una prueba A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 17%
@@ -101,8 +102,8 @@ Para crear una actividad [!UICONTROL A/B Test] manual:
 
       Si necesita crear una audiencia nueva que no esté ya en [!UICONTROL Audience Library], haga clic en **Crear audiencia**. Durante el [flujo de trabajo create-audience](/help/main/c-target/c-audiences/audiences.md), puede elegir entre las siguientes opciones:
 
-      * Cree una audiencia bajo demanda que se guarde en [!UICONTROL Audience Library] y que pueda reutilizarse en otras actividades
-      * Crear una [audiencia específica de actividad](/help/main/c-target/creating-activity-only-audience.md) que no se guardó en [!UICONTROL Audience Library] y que solo se puede usar en la actividad actual
+      * **[!UICONTROL Audience Library]**: cree una audiencia bajo demanda que se guarde en [!UICONTROL Audience Library] y que pueda reutilizarse en otras actividades.
+      * **[!UICONTROL This activity only]**: cree una [audiencia específica de actividad](/help/main/c-target/creating-activity-only-audience.md) que no se haya guardado en [!UICONTROL Audience Library] y que solo se pueda usar en la actividad actual.
 
    1. Haga clic en **[!UICONTROL Visitor Percentage]** en el cuadro derecho y, a continuación, elija el porcentaje de visitantes correspondiente que desea que participen de la actividad.
 

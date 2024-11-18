@@ -5,10 +5,11 @@ title: ¿Cómo selecciono una audiencia en una actividad  [!DNL Target] A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ Para obtener más información acerca de todas las opciones del diagrama de fluj
 
 1. (Condicional) Haga clic en **Combinar audiencias** para [crear una audiencia que combine varias audiencias](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Condicional) Para crear una audiencia nueva que no esté ya en [!UICONTROL Audience Library], haga clic en **Crear audiencia**. Durante el [flujo de trabajo create-audience](/help/main/c-target/c-audiences/audiences.md), puede elegir entre las siguientes opciones:
+1. (Condicional) Para crear una audiencia nueva que no esté ya en [!UICONTROL Audience Library], haga clic en **Crear audiencia**, defina la audiencia y haga clic en **[!UICONTROL Done]**.
 
-   * Cree una audiencia bajo demanda que se guarde en [!UICONTROL Audience Library] y que pueda reutilizarse en otras actividades
-   * Crear una [audiencia específica de actividad](/help/main/c-target/creating-activity-only-audience.md) que no se guardó en [!UICONTROL Audience Library] y que solo se puede usar en la actividad actual
+   Durante el [flujo de trabajo create-audience](/help/main/c-target/c-audiences/audiences.md), puede elegir entre las siguientes opciones:
+
+   * **[!UICONTROL Audience Library]**: cree una audiencia bajo demanda que se guarde en [!UICONTROL Audience Library] y que pueda reutilizarse en otras actividades.
+   * **[!UICONTROL This activity only]**: cree una [audiencia específica de actividad](/help/main/c-target/creating-activity-only-audience.md) que no se haya guardado en [!UICONTROL Audience Library] y que solo se pueda usar en la actividad actual.
 
 1. Haga clic en **[!UICONTROL Visitor Percentage]** en el panel derecho y, a continuación, especifique el porcentaje de visitantes correspondiente que desea incluir en la actividad.
 
@@ -51,7 +54,7 @@ Para obtener más información acerca de todas las opciones del diagrama de fluj
 
 >[!NOTE]
 >
->Las audiencias se importan automáticamente en segundo plano cuando abre la lista de audiencias y las audiencias importadas tienen más de diez minutos de antigüedad.
+>Las audiencias se importan automáticamente en segundo plano cuando abre la lista [!UICONTROL Audience] y las audiencias importadas tienen más de 10 minutos de antigüedad.
 
 ## Ver la información de una audiencia
 
@@ -64,4 +67,3 @@ Para obtener más información acerca de todas las opciones del diagrama de fluj
 Puede editar o copiar una audiencia haciendo clic en el icono [!UICONTROL More Actions] ( ![icono Más acciones](/help/main/assets/icons/More.svg) ) junto a la audiencia deseada en el cuadro de diálogo [!UICONTROL Add Audience] y luego haciendo clic en [!UICONTROL Edit] o [!UICONTROL Copy].
 
 Copiar una audiencia es útil si quiere crear una audiencia similar a otra ya existente. Puede realizar una copia de la audiencia, realizar ediciones y guardarla como una audiencia nueva.
-

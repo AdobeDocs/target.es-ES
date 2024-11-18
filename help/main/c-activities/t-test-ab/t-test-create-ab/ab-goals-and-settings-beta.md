@@ -5,7 +5,8 @@ title: ¿Cómo se especifican los objetivos y la configuración en una actividad
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 30%
@@ -16,7 +17,7 @@ ht-degree: 30%
 
 En la página [!UICONTROL Goals & Settings] de [!DNL Adobe Target] se especifica información sobre los objetivos de la actividad.
 
-La configuración disponible depende de si usa Target o [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) como fuente de informes.
+La configuración disponible depende de si usa Target o [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -54,7 +55,7 @@ Las opciones disponibles son las siguientes:
 | Configuración | Descripción |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | Utilice esta opción para contar a alguien como alguien que alcanza la métrica de éxito si anteriormente ha alcanzado una métrica de éxito diferente. Por ejemplo, una conversión de actividad podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión. Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente. Defina ambas (o varias) métricas de éxito antes de poder hacer una dependiente de la otra. La opción [!UICONTROL Add Dependency] permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza). Para agregar una dependencia:<ul><li>Después de agregar métricas adicionales, haga clic en [!UICONTROL Advanced Settings].</li><li>Haga clic en la opción [!UICONTROL Add Dependency]:</li><li>Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en [!UICONTROL Reached] para alternar el valor entre [!UICONTROL Reached] y [!UICONTROL  Not Reached].</li><li>Puede editar o eliminar dependencias después de añadirlas.</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | Existen tres opciones para lo que ocurre después de que un visitante alcance la métrica de objetivo:<ul><li>Seleccione [!UICONTROL Increment Count & Keep User in Activity] para especificar cómo se incrementa el recuento.</li><li>Seleccione [!UICONTROL Increment Count, Release User & Allow Reentry] para especificar la experiencia que el usuario verá si vuelve a entrar a la actividad.</li><li>Seleccione [!UICONTROL Increment Count, Release User & Bar from Reentry] para especificar lo que el usuario verá en lugar del contenido de la actividad.</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | Existen tres opciones para lo que ocurre después de que un visitante alcance la métrica de objetivo:<ul><li>Seleccione **[!UICONTROL Increment Count & Keep User in Activity]** para especificar cómo se incrementa el recuento.</li><li>Seleccione **[!UICONTROL Increment Count, Release User & Allow Reentry]** para especificar la experiencia que el usuario verá si vuelve a entrar a la actividad.</li><li>Seleccione **[!UICONTROL Increment Count, Release User & Bar from Reentry]** para especificar lo que el usuario verá en lugar del contenido de la actividad.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Hay tres opciones para el aumento del recuento:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 Para obtener más información sobre la configuración avanzada, consulte [Métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).

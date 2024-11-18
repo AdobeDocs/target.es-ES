@@ -5,9 +5,10 @@ title: ¿Qué es la URL de actividad en una actividad A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 De manera predeterminada, [!UICONTROL Visual Experience Composer] abre la página especificada en la [configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
 
-1. Para mostrar una página diferente después de que se abra [!UICONTROL Visual Experience Composer], en la página **[!UICONTROL Experiences]**, haga clic en **[!UICONTROL Configure]** en la parte superior de la página y, a continuación, seleccione **[!UICONTROL Page Delivery]**.
+1. (Condicional) Para mostrar una página diferente después de que se abra [!UICONTROL Visual Experience Composer], en la página **[!UICONTROL Experiences]**, haga clic en **[!UICONTROL Configure]** en la parte superior de la página y seleccione **[!UICONTROL Page Delivery]**.
 
 1. Especifique la dirección URL en el campo **[!UICONTROL URL]**.
 
@@ -40,6 +41,7 @@ De manera predeterminada, [!UICONTROL Visual Experience Composer] abre la págin
    * Fragmento hash (#)
    * Consulta
    * Parámetro de mbox
+   * Personalizado
 
    Se pueden unir reglas adicionales a la dirección URL de la actividad con AND u OR. Todas las reglas que agregue se evalúan entre sí con Y.
 

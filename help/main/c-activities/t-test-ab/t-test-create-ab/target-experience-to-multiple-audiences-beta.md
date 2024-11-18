@@ -5,9 +5,10 @@ title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 52%
 
 ---
@@ -36,7 +37,7 @@ En este caso, lo que necesita son versiones específicas de la experiencia, para
 
 1. Seleccione la experiencia y haga clic en **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-1. Haga clic en el icono **[!UICONTROL Add Audience]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en el panel Audiencias de experiencia y, a continuación, seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada audiencia.
+1. Haga clic en el icono **[!UICONTROL Add Audience]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en el panel [!UICONTROL Experience Audiences] y, a continuación, seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada audiencia.
 
    Si la audiencia todavía no existe, haga clic en [Crear audiencia](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrela.
 
