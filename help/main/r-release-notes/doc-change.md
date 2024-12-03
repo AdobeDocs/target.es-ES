@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 21%
+source-wordcount: '543'
+ht-degree: 22%
 
 ---
 
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
+| 3 de diciembre | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se agregaron notas de revisión para la próxima actualización de la interfaz de usuario de [!UICONTROL Offers Library]. |
 | 20 de noviembre | [Inclusión en la lista de permitidos de los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Se ha actualizado la lista de direcciones IP de Edge de Target a lista de permitidos. |
 | 19 de noviembre | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha agregado la siguiente nota importante a la sección Optimización del ámbito [!DNL Adobe Experience Platform Web SDK] `__view__` (22 de octubre de 2024):<ul><li>IMPORTANTE: Si no puede completar la revisión de la implementación y resolver cualquier problema antes del 3 de febrero de 2025, puede solicitar una extensión única de seis meses. Asegúrese de que su solicitud se haya enviado antes del 31 de enero de 2025. El Adobe revisará y decidirá sobre su solicitud.</li><ul> |
 | 22 de octubre | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha añadido la siguiente información importante:<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` optimización del ámbito</li></ul> |

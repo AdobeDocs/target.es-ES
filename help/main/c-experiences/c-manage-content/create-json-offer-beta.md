@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 4b57712b838906611702db521b51af84077501e6
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 25%
 
 ---
@@ -46,17 +46,7 @@ Las ofertas JSON solo son compatibles con las actividades creadas con [Composito
 
 Vea el siguiente ejemplo:
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![Cuadro de diálogo Crear oferta JSON](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 Las acciones pasadas a llamada de retorno de éxito son una matriz de objeto. Suponiendo que tenga una sola oferta JSON, que tenga este contenido:
 
