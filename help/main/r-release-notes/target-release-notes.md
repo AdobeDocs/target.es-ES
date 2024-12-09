@@ -4,7 +4,7 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 22%
@@ -25,11 +25,11 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 
 ## Actualización de la interfaz de usuario de [!UICONTROL Offers Library] (9 de enero de 2024)
 
-Para mejorar la experiencia de usuario de [!DNL Adobe Target] usuarios, esta versión actualiza la interfaz de usuario de [!UICONTROL Offers Library]. Con el último sistema de diseño de [!DNL Adobe Spectrum], esta actualización estandariza los patrones de diseño incoherentes e introduce nuevas mejoras, entre las que se incluyen:
+Para mejorar la experiencia de usuario de [!DNL Adobe Target] usuarios, esta versión actualiza la interfaz de usuario de [!UICONTROL Offers Library]. Con el último sistema de diseño de [!DNL Adobe Spectrum], esta actualización estandariza los patrones de diseño incoherentes e introduce nuevas mejoras, entre las que se incluyen las siguientes:
 
-* **Administración de ofertas en lotes**: seleccione y elimine varias ofertas simultáneamente.
+* **Administración de ofertas en lotes**: Seleccione y elimine varias ofertas simultáneamente.
 
-* **Actualizaciones del editor de código**: editores JSON y de HTML actualizados con resaltado de sintaxis y numeración de líneas.
+* **[!UICONTROL Code Editor]actualizaciones**: editores JSON y de HTML actualizados con resaltado de sintaxis y numeración de líneas.
 
 * **Tarjetas de oferta mejoradas**: Información rápida y tarjetas de detalles mejoradas para facilitar el acceso a la información.
 
