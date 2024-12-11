@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: fe6e5130-53a0-4254-8299-b52086c20004
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1767'
 ht-degree: 28%
 
 ---
@@ -43,7 +44,7 @@ El flujo de trabajo de la actividad [!UICONTROL Automated Personalization] (AP) 
 
    Se abre la página con la dirección URL especificada en el VEC.
 
-1. Haga clic en **[!UICONTROL Untitled Activity]** en la parte superior del VEC y, a continuación, especifique un nombre para la actividad en el espacio proporcionado.
+1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Cambiar nombre del icono](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Save]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 
