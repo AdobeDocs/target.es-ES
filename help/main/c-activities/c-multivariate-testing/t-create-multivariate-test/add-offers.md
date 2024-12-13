@@ -4,7 +4,7 @@ description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en 
 title: ¿Cómo se crean combinaciones en una [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 56%
@@ -64,3 +64,4 @@ Cada oferta de texto/HTML se convierte en una experiencia independiente en esa u
 * Debe contar con un mínimo de tres elementos que probar. Si tiene menos, ejecute una serie de pruebas A/B.
 * Las alternativas de cada elemento deben ser significativamente diferentes entre sí.
 * Aunque no es necesario, es aconsejable que cada elemento tenga el mismo número de alternativas.
+
