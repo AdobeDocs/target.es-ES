@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: d0eddda6-3ff5-4f80-aa16-87a6a9990170
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 9%
 
 ---
@@ -25,7 +26,7 @@ Recuerde que [!DNL Target] proporciona experiencias de forma aleatoria hasta que
 
 ## Uso del estimador de tráfico
 
-1. Desde la página [!UICONTROL Experiences] de [!UICONTROL Visual Experience Composer] en una actividad [!UICONTROL Automated Personalization], haga clic en el icono **[!UICONTROL Traffic]** ( ![icono Estimador de tráfico](/help/main/assets/icons/Gauge2.svg) ) en la esquina superior izquierda de la página Experiencias.
+1. Desde la página [!UICONTROL Experiences] de [!UICONTROL Visual Experience Composer] en una actividad [!UICONTROL Automated Personalization], haga clic en el icono **[!UICONTROL Traffic]** ( ![icono Estimador de tráfico](/help/main/assets/icons/Gauge2.svg) ) en la esquina superior izquierda de la página [!UICONTROL Experiences].
 
    Se abre [!UICONTROL Traffic Estimator].
 

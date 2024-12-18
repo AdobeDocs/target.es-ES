@@ -7,9 +7,9 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1769'
 ht-degree: 28%
 
 ---
@@ -74,9 +74,7 @@ El flujo de trabajo de la actividad [!UICONTROL Automated Personalization] (AP) 
 
    Puede seleccionar varias imágenes a la vez desde el administrador de recursos. Esto permite ver rápidamente la página con cada una de las imágenes configuradas para la actividad. También puede editar fácilmente los elementos de texto en sus ofertas. Cuando edite un elemento, aparecen barras en ese elemento para indicar que lo ha cambiado.
 
-1. Haga clic en **[!UICONTROL Manage Content]** para configurar las combinaciones disponibles.
-
-   ![Opción Administrar contenido](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. Haga clic en el icono **[!UICONTROL Manage Content]** ( ![icono Administrar contenido](/help/main/assets/icons/Experience.svg) ) para configurar las combinaciones disponibles.
 
    Aparece un cuadro de diálogo con tres opciones en la parte superior de la pantalla: [!UICONTROL Experiences], [!UICONTROL Offers] y [!UICONTROL Exclusion Groups].
 
