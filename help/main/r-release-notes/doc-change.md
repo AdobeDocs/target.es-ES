@@ -4,9 +4,9 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '624'
 ht-degree: 21%
 
 ---
@@ -19,6 +19,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
+| 7 de enero | [Notas de la versión (actual) de Target](/help/main/r-release-notes/release-notes.md) | Se agregaron notas de la versión para la actualización de la interfaz de usuario [!UICONTROL Offers Library] (programada para el 9 de enero de 2025). Todos los artículos de Ofertas se actualizaron para reflejar los cambios en la interfaz de usuario. |
 | Diciembre de 9 | [[!UICONTROL Visual Experience Composer] prácticas recomendadas y limitaciones](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | Se ha añadido la siguiente limitación:<ul><li>No puede seleccionar el elemento [!UICONTROL Button] para reorganizar.<P>[!UICONTROL Button] elementos no pueden seleccionarse directamente para su reorganización. Para habilitar la reorganización, coloque los botones dentro de un contenedor más grande.</li></ul> |
 |  | [adobe.target.triggerView (viewName, options): at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | Se ha añadido la sección siguiente:<ul><li>Ejemplo: Compatibilidad óptima para `triggerView()` con la extensión Ayuda de edición visual de Adobe</li></ul> |
 | 3 de diciembre | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se agregaron notas de revisión para la próxima actualización de la interfaz de usuario de [!UICONTROL Offers Library]. |

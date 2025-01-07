@@ -4,9 +4,9 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 21%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: jueves, 11 de diciembre de 2024**
+**Última actualización: miércoles, 07 de enero de 2025**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 
 Para mejorar la experiencia de usuario de [!DNL Adobe Target] usuarios, esta versión actualiza la interfaz de usuario de [!UICONTROL Offers Library]. Con el último sistema de diseño de [!DNL Adobe Spectrum], esta actualización estandariza los patrones de diseño incoherentes e introduce nuevas mejoras, entre las que se incluyen las siguientes:
 
-* **Administración de ofertas en lotes**: Seleccione y elimine varias ofertas simultáneamente.
+* **Administración de ofertas en lotes**: Seleccione y elimine o mueva varias ofertas simultáneamente.
 
 * **[!UICONTROL Code Editor]actualizaciones**: editores JSON y de HTML actualizados con resaltado de sintaxis y numeración de líneas.
 
@@ -36,6 +36,8 @@ Para mejorar la experiencia de usuario de [!DNL Adobe Target] usuarios, esta ver
 * **Filtros y búsquedas persistentes**: agrega opciones de filtro y búsqueda persistentes en la sesión.
 
 A partir del 9 de enero de 2025, todos los clientes de [!DNL Target] tendrán acceso a la nueva interfaz de usuario, con la opción de volver a la versión actual si es necesario.
+
+Para obtener más información, consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) y los subartículos de esta sección.
 
 Este breve vídeo resalta los cambios que se han producido en esta versión:
 
