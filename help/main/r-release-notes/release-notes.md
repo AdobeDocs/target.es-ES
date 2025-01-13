@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 32%
+source-wordcount: '856'
+ht-degree: 31%
 
 ---
 
@@ -31,7 +31,7 @@ Para mejorar la experiencia de usuario de [!DNL Adobe Target] usuarios, esta ver
 
 * **Filtros y búsquedas persistentes**: agrega opciones de filtro y búsqueda persistentes en la sesión.
 
-Para obtener más información, consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) y los subartículos de esta sección.
+Para obtener más información, consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) y los subartículos de esta sección. Todos los artículos de Ofertas de esta sección se han actualizado para reflejar estos cambios en la interfaz de usuario.
 
 Este breve vídeo resalta los cambios que se han producido en esta versión:
 
