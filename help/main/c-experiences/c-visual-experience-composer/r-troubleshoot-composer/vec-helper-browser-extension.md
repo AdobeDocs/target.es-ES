@@ -4,10 +4,10 @@ description: Descubra por qué algunos sitios web podrían no abrirse de forma f
 title: ¿Cómo utilizo la extensión [!UICONTROL Visual Experience Composer] (VEC) Helper?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 49%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
@@ -22,8 +22,6 @@ El explorador VEC Helper es una extensión [!DNL Chrome]. Esta extensión no es 
 >* La extensión VEC Helper heredada [!DNL Target] documentada en este artículo se creó con Manifest V2. [!DNL Google] anunció que ya no permitirá extensiones creadas con Manifest V2 a partir de junio de 2024. Para obtener más información, consulte el [Anuncio de la cronología de compatibilidad con Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] en el sitio de *Chrome para desarrolladores*.
 >
 >* A partir de junio de 2024, [!DNL Google] empezará a deshabilitar las extensiones creadas con Manifest V2, incluida la extensión documentada en este tema. [!DNL Adobe] recomienda que los clientes cambien a la nueva extensión [Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) lo antes posible.
->
->* Los clientes que usen tiendas web privadas de Chrome deben seguir usando esta versión de la extensión hasta que la compatibilidad con este caso de uso se implemente en la [nueva extensión [!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) para finales de enero de 2025.
 
 ## Razones por las que algunos sitios web podrían no abrirse de forma fiable en el VEC
 
