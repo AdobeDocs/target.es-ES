@@ -7,9 +7,10 @@ feature: Automated Personalization
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
+exl-id: 2897c4d1-116d-483c-8fc0-64857b9cbdaf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 19%
 
 ---
@@ -31,7 +32,7 @@ En esta situación, el Visitante 1 ve la Oferta 1 (porque este visitante cumple 
 
 ## Configure las reglas de segmentación
 
-1. Cree una [actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) que contenga las ofertas que quiera segmentar.
+1. Cree o edite una [actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) que contenga las ofertas que quiera segmentar.
 1. Después de configurar las ofertas para la actividad en [!UICONTROL Visual Experience Composer], haga clic en el icono **[!UICONTROL Manage Content]** ( ![icono Administrar contenido](/help/main/assets/icons/Experience.svg) ).
 
    Se muestra el cuadro de diálogo [!UICONTROL Manage Content].
