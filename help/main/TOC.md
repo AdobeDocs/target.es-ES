@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 80%
+source-wordcount: '1436'
+ht-degree: 79%
 
 ---
 
@@ -166,7 +166,9 @@ ht-degree: 80%
       + [Gestión de exclusiones](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Administración de exclusiones beta](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Grupos de informes de ofertas en Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Grupos de informes de ofertas en Automated Personalization beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Seleccione el control de la actividad de Automated Personalization o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Seleccione el control de la actividad beta de Automated Personalization o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Preguntas frecuentes de Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Resolución de problemas de Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Segmentación de experiencias {#experience-targeting}
