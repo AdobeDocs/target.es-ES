@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 58%
+source-wordcount: '372'
+ht-degree: 56%
 
 ---
 
@@ -49,7 +49,12 @@ Use estos vínculos para obtener acceso a la documentación actualizada como par
    * [Previsualizar experiencias en actividades de Automated Personalization en el Compositor de experiencias visuales (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Ofertas de Automated Personalization de Target](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
    * [Grupos de informes de ofertas en Automated Personalization beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
-   * [Seleccione el control de su actividad beta de Automated Personalization o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control-beta.md)
+   * [Seleccione el control de la actividad beta de Automated Personalization o de Segmentación automática](c-activities/t-automated-personalization/experience-as-control-beta.md)
+* Segmentación de experiencias (XT) {#xt}
+   * [Creación de una actividad beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
+   * [URL de actividad beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
+   * [Creación de una experiencia beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
+   * [Cambiar experiencias en la segmentación de experiencias beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 +++
 
 <!-- 

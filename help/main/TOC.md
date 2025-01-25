@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 79%
+source-wordcount: '1449'
+ht-degree: 78%
 
 ---
 
@@ -175,9 +175,13 @@ ht-degree: 79%
       + [Información general sobre segmentación de experiencias](c-activities/t-experience-target/experience-target.md)
       + Crear una actividad de segmentación de experiencias {#create-targeting}
          + [Cree una actividad](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Creación de una actividad beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [Dirección URL de actividad](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [URL de actividad beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Cree una experiencia](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Creación de una experiencia beta](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Cambiar experiencias en segmentación de experiencias](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Cambiar experiencias en segmentación de experiencias-beta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Configuración y objetivos](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Definir métricas](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Prueba multivariable {#multivariate-test}
