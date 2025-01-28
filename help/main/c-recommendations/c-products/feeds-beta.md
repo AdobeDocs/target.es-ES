@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 38%
 
 ---
@@ -37,8 +37,6 @@ Las descripciones de los elementos se pueden pasar a [!DNL Target] mediante fuen
 
 La lista [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) proporciona información sobre cualquier fuente que haya creado.
 
-![Página Fuentes](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 La página [!UICONTROL Feeds] contiene las siguientes columnas:
 
 * **Nombre**: El nombre de la fuente especificada durante la creación. Para editar el nombre de una fuente, debe editar la propia fuente. Al guardar la fuente con el nuevo nombre, se actualiza.
@@ -48,11 +46,11 @@ La página [!UICONTROL Feeds] contiene las siguientes columnas:
 * **Programación**: Muestra la programación de actualización de la fuente: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] o [!UICONTROL Never].
 * **Última actualización**: muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que actualizó la fuente.
 
-Haga clic en el icono [!UICONTROL Customize Table] ( ![Personalizar icono de tabla](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) ) para seleccionar o anular la selección de las columnas que desee mostrar.
+Haga clic en el icono [!UICONTROL Customize Table] ( ![Personalizar icono de tabla](/help/main/assets/icons/ColumnSetting.svg) ) para seleccionar o anular la selección de las columnas que desee mostrar.
 
-Haga clic en el icono [!UICONTROL Information] para mostrar una tarjeta con la última fecha de carga y la dirección URL de la fuente.
+Haga clic en el icono [!UICONTROL Information] ( ![icono de información](/help/main/assets/icons/InfoOutline.svg) ) para mostrar una tarjeta que muestre la última fecha de carga y la dirección URL de la fuente.
 
-Haga clic en el icono de los tres puntos para tener acceso a las siguientes acciones: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] y [!UICONTROL Delete].
+Haga clic en el icono [!UICONTROL More Actions] ( ![icono de más acciones](/help/main/assets/icons/MoreSmallList.svg) ) para obtener acceso a las siguientes acciones: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] y [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. Desde la interfaz [!DNL Target], haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
-   ![Cuadro de diálogo Crear fuente](assets/CreateFeed.png)
-
 1. Elija un nombre descriptivo para la fuente.
 1. Seleccione un(a) **[!UICONTROL Source Type]**.
 
@@ -261,8 +257,6 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. Haga clic en la flecha **[!UICONTROL Next]** para mostrar las opciones de [!UICONTROL Schedule].
 
-   ![Resultado del paso](assets/CreateFeedSchedule.png)
-
 1. Seleccione una opción de actualización:
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
    Esta opción está basada en la zona horaria establecida en el navegador. Si quiere usar una hora de otra zona horaria, tiene que calcularla según su propia zona horaria.
 
 1. Haga clic en la flecha **[!UICONTROL Next]** para mostrar las opciones de [!UICONTROL Mapping] y, a continuación, especifique cómo desea asignar los datos a las definiciones de [!DNL Target].
-
-   ![Resultado del paso](assets/CreatFeedMapping.png)
 
 1. (Opcional) Si quiere que la fuente pertenezca a un entorno (grupo de hosts), seleccione el grupo de hosts.
 

@@ -5,10 +5,10 @@ title: ¿Cómo puedo utilizar Recommendations como oferta en otros tipos de acti
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 59%
+source-wordcount: '507'
+ht-degree: 60%
 
 ---
 
@@ -33,11 +33,9 @@ Para empezar, cree una actividad [!UICONTROL A/B Test] o [!UICONTROL Experience 
    >
    >En las pruebas A/B, recuerde que puede elegir la opción [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) para insertar automáticamente el tráfico a las recomendaciones de mejor rendimiento o a la opción de [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) para asignar visitantes a experiencias de recomendaciones adaptadas según su perfil.
 
-1. Al crear una [experiencia](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), haga clic en el elemento al que desee agregar una recomendación como oferta, seleccione la acción **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** o **[!UICONTROL Replace With]** y, a continuación, seleccione [!UICONTROL Recommendation].
+1. Al crear una [experiencia](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md), haga clic en el elemento al que desee agregar una recomendación como oferta, haga clic en **[!UICONTROL Replace Content]** y, a continuación, seleccione **[!UICONTROL Recommendation]**.
 
-   La siguiente ilustración muestra la opción [!UICONTROL Insert After > Recommendation].
-
-   ![Inserción de recomendación como oferta](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![Inserción de recomendación como oferta](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
 1. Seleccione entre las siguientes opciones para ver los criterios de recomendaciones populares por tipo de página:
 

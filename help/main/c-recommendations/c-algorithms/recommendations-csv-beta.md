@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -45,15 +46,13 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
 
 1. En la sección **[!UICONTROL Upload CSV]**, seleccione el **[!UICONTROL Location]** de su archivo CSV.
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Download the CSV template]** para obtener un archivo CSV con el formato correcto.
 
-   Tiene dos opciones de ubicación:
+Tiene dos opciones de ubicación:
 
-   * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
-
-     ![Opción de FTP para cargar el archivo CSV](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
-
-   * **URL:** Para cargar el archivo CSV desde una dirección URL, seleccione **[!UICONTROL URL]** y después escriba una dirección URL de fuente.
+    * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
+    
+    * **URL:** Para cargar el archivo CSV desde una dirección URL, seleccione **[!UICONTROL URL]** y, a continuación, escriba una dirección URL de fuente.
 
 1. Haga clic en **[!UICONTROL Create]**.
 

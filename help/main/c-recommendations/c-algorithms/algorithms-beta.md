@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '496'
 ht-degree: 6%
 
 ---
@@ -34,8 +35,6 @@ Otras opciones de criterios cambian según el sector que seleccione. Puede estab
 ## Tipo de algoritmo {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 El tipo de algoritmo que seleccione determina los algoritmos disponibles.
-
-![Página de criterios](assets/criteria-page-new.png)
 
 En la tabla siguiente se explican los distintos tipos de algoritmos y los algoritmos que los acompañan.
 
@@ -75,11 +74,9 @@ Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la 
 
 Para ver los detalles de los criterios, haga clic en los criterios deseados en la columna [!UICONTROL Name].
 
-![Mantener el puntero encima de la tarjeta de criterios](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+Las secciones **[!UICONTROL Attributes]** y Detalles le permiten ver información general sobre los criterios seleccionados, incluidos sus datos de [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] y la información de la última modificación (fecha y quién modificó el algoritmo).
 
-La ficha **[!UICONTROL Algorithm Info]** le permite ver información general sobre los criterios seleccionados, incluidos sus datos de [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] y la información de la última modificación (fecha y quién modificó el algoritmo).
-
-La sección **[!UICONTROL Algorithm Usage]** le permite ver una lista de actividades que hacen referencia a los criterios seleccionados.
+La sección **[!UICONTROL Usage]** le permite ver una lista de actividades que hacen referencia a los criterios seleccionados.
 
 >[!NOTE]
 >

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b25516a9b348fa845e9336f4dccfc2d8fb3344b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 47%
 
 ---
 
@@ -94,7 +94,6 @@ Use estos vínculos para obtener acceso a la documentación actualizada como par
       * [Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md){target="_blank"}
       * [Crear secuencias de criterios](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md){target="_blank"}
       * [Basar la recomendación en una clave de recomendación](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md){target="_blank"}
-      * [La ciencia detrás de los algoritmos de recomendaciones de Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md){target="_blank"}
       * [Cargar criterios personalizados](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md){target="_blank"}
       * Reglas de inclusión dinámicas y estáticas {#dynamic-static}{target="_blank"}
          * [Usar reglas de inclusión dinámicas y estáticas](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
@@ -112,11 +111,11 @@ Use estos vínculos para obtener acceso a la documentación actualizada como par
       * [Preguntas más frecuentes sobre diseño](c-recommendations/c-design-overview/template-faq.md){target="_blank"}
       * [Personalización de un diseño mediante Velocity](c-recommendations/c-design-overview/customizing-a-template.md){target="_blank"}
    * Actividad {#recommendations-activity}
-      * [Crear una actividad de Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
+      * [Crear una actividad beta de Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md){target="_blank"}
       * [Seleccionar criterios](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
+      * [Seleccionar criterios beta](/help/main/c-recommendations/t-create-recs-activity/algo-select-rec-beta.md){target="_blank"}
       * [Agregar promociones](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [Configuración de actividades de Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [Vista previa e inicio de su actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
    * [Recomendaciones como oferta](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * Preguntas más frecuentes {#recommendations-faq}
       * [Preguntas más frecuentes de Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}

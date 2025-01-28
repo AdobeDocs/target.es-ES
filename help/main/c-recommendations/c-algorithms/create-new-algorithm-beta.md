@@ -6,7 +6,8 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8b0e0414603761b1c67b13d74ffa96d745c99e3
+exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -89,6 +90,43 @@ Las opciones de configuración del algoritmo restante varían según el algoritm
 
 Para obtener más información acerca de cómo elegir un(a) [!UICONTROL Recommendation Key], vea [Basar la recomendación en una clave de recomendación](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] reglas determinan qué sucede si el número de artículos recomendados no cumple con su [diseño de recomendaciones](/help/main/c-recommendations/c-design-overview/design-overview.md). Es posible que [!DNL Recommendations] criterios devuelvan menos recomendaciones de las que exige el diseño. Por ejemplo, si el diseño tiene espacios para cuatro artículos, pero los criterios hacen que solo se recomienden dos artículos, puede dejar vacíos los espacios restantes, puede utilizar recomendaciones de copia de seguridad para rellenar los espacios adicionales o puede elegir no mostrar recomendaciones.
+
+1. (Opcional) Deslice el conmutador **[!UICONTROL Partial Design Rendering]** a la posición &quot;Activado&quot;.
+
+   Se rellenarán tantas ranuras como sea posible, pero la plantilla de diseño puede incluir espacio en blanco para las ranuras restantes. Si esta opción está deshabilitada y no hay suficiente contenido para rellenar todas las ranuras disponibles, las recomendaciones no se proporcionan y se muestra el contenido predeterminado en su lugar.
+
+   Active esta opción si desea que las recomendaciones se proporcionen con espacios en blanco. Utilice recomendaciones de copia de seguridad si desea que las ranuras de recomendación se llenen de contenido basado en sus criterios con ranuras vacías llenas de contenido similar o popular de su sitio, como se explica en el siguiente paso.
+
+1. (Opcional) Deslice el conmutador **[!UICONTROL Show Backup Content]** a la posición &quot;Activado&quot;.
+
+   Rellene las ranuras vacías restantes del diseño con una selección aleatoria de los productos más vistos de todo el sitio.
+
+   El uso de recomendaciones de copia de seguridad garantiza que el diseño de recomendaciones llene todas las ranuras disponibles. Supongamos que tiene un diseño de 4 x 1, como se muestra a continuación:
+
+   ![4 x 1 diseño](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Supongamos que sus criterios hacen que solo se recomienden dos artículos. Si habilita la opción [!UICONTROL Partial Design Rendering], las dos primeras ranuras se llenarán, pero las dos ranuras restantes permanecerán vacías. Sin embargo, si habilita la opción [!UICONTROL Show Backup Recommendations], las dos primeras ranuras se rellenan según los criterios especificados y las dos ranuras restantes se rellenan según las recomendaciones de copia de seguridad.
+
+   La matriz siguiente muestra el resultado que observará al utilizar las opciones [!UICONTROL Partial Design Rendering] y [!UICONTROL Backup Content]:
+
+   | Procesamiento de diseño parcial | Contenido de copia | Resultado |
+   |--- |--- |--- |
+   | Deshabilitado | Deshabilitado | Si se devuelven menos recomendaciones que las que llama el diseño, el diseño de recomendaciones se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
+   | Habilitado | Deshabilitado | Se procesa el diseño, pero puede incluir espacio en blanco si se devuelven menos recomendaciones que las que llama el diseño. |
+   | Habilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, se procesa parcialmente el diseño.<br>Si el criterio no devuelve ninguna recomendación, y las reglas de inclusión restringen las recomendaciones de copia de seguridad a cero, el diseño se reemplaza por el Contenido predeterminado. |
+   | Deshabilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, el diseño se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
+
+   Para obtener más información, vea [Usar una recomendación de copia de seguridad](/help/main/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Condicional) Si seleccionó **[!UICONTROL Show Backup Content]** en el paso anterior, puede habilitar **[!UICONTROL Apply inclusion rules to backup recommendations]**.
+
+   Las reglas de inclusión determinan qué artículos se incluyen en las recomendaciones. Las opciones disponibles dependen del sector.
+
+   Para obtener más información, consulte [Especificar reglas de inclusión](#inclusion) a continuación.
+
 ## [!UICONTROL Data Source] {#data-source}
 
 1. Seleccione el(la) **[!UICONTROL Behavioral Data Source]** deseado(a): [!UICONTROL Adobe Target] o [!UICONTROL Analytics].
@@ -128,43 +166,6 @@ Para obtener más información acerca de cómo elegir un(a) [!UICONTROL Recommen
    | Dos semanas | El algoritmo se ejecuta cada 24 a 48 horas | <ul><li>[!UICONTROL Popularity-Based] algoritmos</li><li>[!UICONTROL Item-Based] algoritmos</li><li>Todos los algoritmos de [!UICONTROL User-Based]</li><li>[!UICONTROL Cart-Based] algoritmos</li></ul> |
    | Un mes (30 días) | El algoritmo se ejecuta cada 24 a 48 horas | <ul><li>[!UICONTROL Popularity-Based] algoritmos</li><li>[!UICONTROL Item-Based] algoritmos</li><li>[!UICONTROL User-Based] algoritmos</li><li>[!UICONTROL Cart-Based] algoritmos</li></ul> |
    | Dos meses (61 días) | El algoritmo se ejecuta cada 24 a 48 horas | <ul><li>[!UICONTROL Popularity-Based] algoritmos</li><li>[!UICONTROL Item-Based] algoritmos</li><li>[!UICONTROL User-Based] algoritmos</li><li>[!UICONTROL Cart-Based] algoritmos</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content] reglas determinan qué sucede si el número de artículos recomendados no cumple con su [diseño de recomendaciones](/help/main/c-recommendations/c-design-overview/design-overview.md). Es posible que [!DNL Recommendations] criterios devuelvan menos recomendaciones de las que exige el diseño. Por ejemplo, si el diseño tiene espacios para cuatro artículos, pero los criterios hacen que solo se recomienden dos artículos, puede dejar vacíos los espacios restantes, puede utilizar recomendaciones de copia de seguridad para rellenar los espacios adicionales o puede elegir no mostrar recomendaciones.
-
-1. (Opcional) Deslice el conmutador **[!UICONTROL Partial Design Rendering]** a la posición &quot;Activado&quot;.
-
-   Se rellenarán tantas ranuras como sea posible, pero la plantilla de diseño puede incluir espacio en blanco para las ranuras restantes. Si esta opción está deshabilitada y no hay suficiente contenido para rellenar todas las ranuras disponibles, las recomendaciones no se proporcionan y se muestra el contenido predeterminado en su lugar.
-
-   Active esta opción si desea que las recomendaciones se proporcionen con espacios en blanco. Utilice recomendaciones de copia de seguridad si desea que las ranuras de recomendación se llenen de contenido basado en sus criterios con ranuras vacías llenas de contenido similar o popular de su sitio, como se explica en el siguiente paso.
-
-1. (Opcional) Deslice el conmutador **[!UICONTROL Show Backup Content]** a la posición &quot;Activado&quot;.
-
-   Rellene las ranuras vacías restantes del diseño con una selección aleatoria de los productos más vistos de todo el sitio.
-
-   El uso de recomendaciones de copia de seguridad garantiza que el diseño de recomendaciones llene todas las ranuras disponibles. Supongamos que tiene un diseño de 4 x 1, como se muestra a continuación:
-
-   ![4 x 1 diseño](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Supongamos que sus criterios hacen que solo se recomienden dos artículos. Si habilita la opción [!UICONTROL Partial Design Rendering], las dos primeras ranuras se llenarán, pero las dos ranuras restantes permanecerán vacías. Sin embargo, si habilita la opción [!UICONTROL Show Backup Recommendations], las dos primeras ranuras se rellenan según los criterios especificados y las dos ranuras restantes se rellenan según las recomendaciones de copia de seguridad.
-
-   La matriz siguiente muestra el resultado que observará al utilizar las opciones [!UICONTROL Partial Design Rendering] y [!UICONTROL Backup Content]:
-
-   | Procesamiento de diseño parcial | Contenido de copia | Resultado |
-   |--- |--- |--- |
-   | Deshabilitado | Deshabilitado | Si se devuelven menos recomendaciones que las que llama el diseño, el diseño de recomendaciones se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
-   | Habilitado | Deshabilitado | Se procesa el diseño, pero puede incluir espacio en blanco si se devuelven menos recomendaciones que las que llama el diseño. |
-   | Habilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, se procesa parcialmente el diseño.<br>Si el criterio no devuelve ninguna recomendación, y las reglas de inclusión restringen las recomendaciones de copia de seguridad a cero, el diseño se reemplaza por el Contenido predeterminado. |
-   | Deshabilitado | Habilitado | Las recomendaciones de copia de seguridad llenarán “ranuras” de diseño disponible, procesando completamente el diseño.<br>Si la aplicación de reglas de inclusión a las recomendaciones de copia de seguridad restringe el número de recomendaciones de copia de seguridad correspondiente al punto de que no se pueda llenar el diseño, el diseño se reemplaza por el contenido predeterminado y no se muestran recomendaciones. |
-
-   Para obtener más información, vea [Usar una recomendación de copia de seguridad](/help/main/c-recommendations/c-algorithms/backup-recs.md).
-
-1. (Condicional) Si seleccionó **[!UICONTROL Show Backup Content]** en el paso anterior, puede habilitar **[!UICONTROL Apply inclusion rules to backup recommendations]**.
-
-   Las reglas de inclusión determinan qué artículos se incluyen en las recomendaciones. Las opciones disponibles dependen del sector.
-
-   Para obtener más información, consulte [Especificar reglas de inclusión](#inclusion) a continuación.
 
 ## Similitud de contenido {#similarity}
 
