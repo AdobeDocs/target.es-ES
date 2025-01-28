@@ -8,9 +8,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Puede configurar las siguientes opciones:
 * Especifique la URL base de miniatura
 * Configuración de claves de atributo personalizadas
 
-Para obtener información detallada, consulte [Planificar e implementar Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} en la **[!DNL Adobe Target]Guía para desarrolladores**.
+Para obtener información detallada, consulte [Planificar e implementar Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} en la **[!DNL Adobe Target]Guía para desarrolladores**.

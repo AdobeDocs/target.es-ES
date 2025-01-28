@@ -6,10 +6,10 @@ feature: A/B Tests
 hide: true
 hidefromtoc: true
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
-source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,9 +47,9 @@ De manera predeterminada, [!UICONTROL Visual Experience Composer] abre la págin
 
 1. Haga clic en **[!UICONTROL Save]** cuando haya finalizado.
 
-<!-- If you entered a URL for a site that does not include the [!DNL Target]s JavaScript code, you cannot select page elements.
+   Si escribe una dirección URL de un sitio que no incluye el código JavaScript de [!DNL Target], no podrá seleccionar elementos de página.
 
-By default, the [!UICONTROL Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL Visual Experience Composer].-->
+   De manera predeterminada, [!UICONTROL Visual Experience Composer] no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Render using JavaScript]** si desea poder modificar esos elementos mediante [!UICONTROL Visual Experience Composer].—>
 
 >[!NOTE]
 >
