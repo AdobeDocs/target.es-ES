@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 48%
 
 ---
@@ -192,18 +192,12 @@ La nueva funcionalidad Permisos puede verse en diferentes sitios de la interfaz 
 
 * **Lista desplegable de Workspace (Perfil de producto):** La lista desplegable de Workspace se muestra en la parte superior de las páginas [!UICONTROL Activities], [!UICONTROL Audiences] y [!UICONTROL Offers]. Seleccione el espacio de trabajo deseado para filtrar la lista y mostrar únicamente los elementos de dicho espacio de trabajo.
 
-  ![imagen desplegable_workspace_drop-down](assets/workspace_drop-down.png)
-
 * **Creación de actividades:** Al crear una actividad, esta se crea en el área de trabajo seleccionada actualmente. Verá las opciones de selección de canales en el primer cuadro de diálogo que le permite elegir el canal deseado para la actividad: web, aplicación móvil, correo electrónico o API/otro.
-
-  ![imagen channel_options](assets/channel_options.png)
 
 * **Creación de audiencias:** Al crear una audiencia, esta se crea en el área de trabajo seleccionada actualmente.
 * **Lista de audiencias:** Puede mover audiencias entre espacios de trabajo mediante la opción [!UICONTROL More Actions] > [!DNL Move] en la página [!UICONTROL Audiences].
 * **Creación de oferta:** Al crear una oferta, esta se crea en el área de trabajo seleccionada actualmente.
 * **Página Propiedades (Administración > Propiedades):** Puede usar el cuadro [!UICONTROL Search] para buscar en la lista [!UICONTROL Property].
-
-  ![imagen properties_list](assets/properties_list.png)
 
 ## Advertencias  {#section_9714311B1CD9497A86F4910F8AE635E2}
 

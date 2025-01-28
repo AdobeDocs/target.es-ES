@@ -5,9 +5,9 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1622'
 ht-degree: 22%
 
 ---
@@ -24,23 +24,21 @@ Una diferencia clave entre los complementos y los tokens de respuesta es que los
 >
 >Los tokens de respuesta están disponibles con la versión 1.1 o posterior de at.js.
 
-| SDK de Target | Acciones sugeridas |
+| Target SDK | Acciones sugeridas |
 |--- |--- |
-| [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank} | Compruebe que está utilizando la versión 2.6.0 o posterior del SDK web de Platform. Para obtener información sobre cómo descargar la versión más reciente del SDK web de Platform, consulte [Instalar el SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} en la guía de *descripción general del SDK web de Platform*. Para obtener información sobre la nueva funcionalidad en cada versión del SDK web de Platform, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=es) en la guía de *Información general del SDK web de Platform*. |
+| [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank} | Compruebe que está utilizando la versión 2.6.0 o posterior de Platform Web SDK. Para obtener información sobre cómo descargar la versión más reciente de Platform Web SDK, consulte [Instalar SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} en la guía *Información general de Platform Web SDK*. Para obtener información sobre la nueva funcionalidad en cada versión de Platform Web SDK, consulte [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=es) en la guía de *Información general de Platform Web SDK*. |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Compruebe que está utilizando la versión 1.1 o posterior de at.js. Para obtener información sobre cómo descargar la versión más reciente de at.js, consulte [Descargar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Para obtener información sobre la nueva funcionalidad en cada versión de at.js, consulte [Detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.<br>Se recomienda a los clientes que usen at.js utilizar tokens de respuesta y abandonar los complementos. Algunos complementos que dependen de métodos internos y que existían en mbox.js (ahora obsoletos), pero no en at.js, se entregan pero fallan. |
 
 ## Uso de tokens de respuesta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Compruebe que está utilizando la versión 2.6.0 (o posterior) del SDK web de Platform o la versión 1.1 (o posterior) de at.js.
+1. Asegúrese de utilizar la versión 2.6.0 (o posterior) de Platform Web SDK o la versión 1.1 (o posterior) de at.js.
 
    Para obtener más información:
 
-   * **SDK web de Platform**: consulte [Instalar el SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en la guía de *descripción general del SDK web de Platform*.
+   * **Platform Web SDK**: consulte [Instalar SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en la guía de *Información general de Platform Web SDK*.
    * **at.js**: Ver [Descargar at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. En [!DNL Target], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
-
-   ![response_tokens-new image](assets/response_tokens-new.png)
 
 1. Active los tokens de respuesta deseados, como `activity.id` y `offer.id`.
 
@@ -72,15 +70,13 @@ Una diferencia clave entre los complementos y los tokens de respuesta es que los
 
    Haga clic en **[!UICONTROL Add Response Token]**, proporcione el nombre del token y luego haga clic en **[!UICONTROL Activate]**.
 
-   ![imagen response_token_create](assets/response_token_create.png)
-
 1. Cree una actividad.
 
 ## Escuchar respuestas y leer tokens de respuesta
 
 El proceso que usa para escuchar [!DNL Target] respuestas y leer tokens de respuesta varía en función de si tiene una implementación de [!DNL Platform Web SDK] o at.js.
 
-### ![Insignia del SDK web de Adobe Experience Platform](/help/main/assets/platform.png) [!DNL Platform Web SDK] que usa la clase de objeto Handle {#platform-web-sdk}
+### ![distintivo de Adobe Experience Platform Web SDK](/help/main/assets/platform.png) [!DNL Platform Web SDK] que usa la clase de objeto Handle {#platform-web-sdk}
 
 Utilice la clase de objeto Handle, que tiene un objeto de metadatos y un objeto de datos para detectar [!DNL Target] respuestas y leer los tokens de respuesta.
 
@@ -220,9 +216,9 @@ Como se ha mencionado anteriormente, los tokens de respuesta operan con la infor
 
 En las secciones siguientes se describe cómo enviar datos de [!DNL Target] a los Google Analytics 4. Los datos enviados por tokens de respuesta también se pueden enviar a otras integraciones de terceros.
 
-### ![distintivo de AEP](/help/main/assets/platform.png): se envían datos a los Google Analytics a través del SDK web de Platform
+### ![distintivo de AEP](/help/main/assets/platform.png): se envían datos a los Google Analytics a través de Platform Web SDK
 
-Se pueden enviar datos a los Google Analytics a través de la versión 2.6.0 (o posterior) del SDK web de Platform agregando el siguiente código en la página del HTML.
+Es posible enviar datos a los Google Analytics a través de Platform Web SDK versión 2.6.0 (o posterior) añadiendo el siguiente código en la página del HTML.
 
 >[!NOTE]
 >

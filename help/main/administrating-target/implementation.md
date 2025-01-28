@@ -1,13 +1,13 @@
 ---
 keywords: implementar;implementación
-description: Aprenda a implementar el Adobe  [!DNL Target]  en su sitio. Establezca la configuración global, el método de implementación (SDK web de AEP o at.js) y más.
+description: Aprenda a implementar el Adobe  [!DNL Target]  en su sitio. Establezca la configuración global, el método de implementación (AEP Web SDK o at.js) y más.
 title: ¿Cómo se implementa [!DNL Target] en mi sitio?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 10%
 
 ---
@@ -25,5 +25,3 @@ Para obtener más información, vea los distintos temas en [Implementar Target](
 1. Para tener acceso a la página [!UICONTROL Implementation], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
 1. Para obtener información aplicable a la configuración de esta página, consulte [Implementar Target sin un administrador de etiquetas](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
-
-![Página de implementación](/help/main/administrating-target/assets/implementation.png)

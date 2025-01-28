@@ -5,9 +5,9 @@ title: ¿Qué son los hosts y cómo los utilizo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 17%
 
 ---
@@ -23,8 +23,6 @@ Un host es cualquier dominio desde el que se realiza una solicitud [!DNL Target]
 De manera predeterminada, [!DNL Target] no limita un host que puede realizar [!DNL Target] solicitudes y recibir [!DNL Target] respuestas. Cuando los nuevos hosts realizan solicitudes, funcionan automáticamente. Este proceso también permite realizar pruebas en dominios diferentes que no conoce o no puede anticipar. Si desea anular este comportamiento predeterminado, puede configurar una lista de permitidos o lista de bloqueados para limitar qué hosts funcionan con [!DNL Target].
 
 Para administrar los hosts, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
-
-![imagen hosts_list](assets/hosts_list.png)
 
 ## Reconocer hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
@@ -97,7 +95,7 @@ También puede crear una lista de bloqueados de que especifique los hosts (domin
 
 >[!NOTE]
 >
->La lista [!UICONTROL Authorized Hosts] se usa tanto para los hosts [!DNL Target] como para los hosts de redirección predeterminados. Agregue todos los dominios existentes aprobados para usar el SDK de JavaScript [!DNL Adobe Target] (at.js) *Y* todos los dominios utilizados en las URL de redireccionamiento predeterminadas de ubox. Añada nuevos dominios similares a la lista de permitidos en el futuro.
+>La lista [!UICONTROL Authorized Hosts] se usa tanto para los hosts [!DNL Target] como para los hosts de redirección predeterminados. Agregue todos los dominios existentes aprobados para utilizar [!DNL Adobe Target] JavaScript SDK (at.js) *Y* todos los dominios utilizados en las URL de redireccionamiento predeterminadas de ubox. Añada nuevos dominios similares a la lista de permitidos en el futuro.
 
 ## Eliminación de un host {#section_F56355BA4BC54B078A1A8179BC954632}
 

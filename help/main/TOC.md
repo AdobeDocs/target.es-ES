@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 77%
+source-wordcount: '1485'
+ht-degree: 76%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 77%
    + [Preguntas más frecuentes sobre la optimización y personalización de Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Administración de Target {#administer}
    + [Información general sobre la administración de Target](administrating-target/administrating-target.md)
+   + [Información general sobre la administración de Target beta](administrating-target/administrating-target-beta.md)
    + [Primeros pasos del administrador](administrating-target/start-target.md)
    + [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Creación de informes {#reporting}

@@ -5,9 +5,9 @@ title: ¿Cómo se agregan usuarios y se administran permisos para una cuenta  [!
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 63%
 
 ---
@@ -41,8 +41,6 @@ Los usuarios administradores se han identificado en la lista [!UICONTROL Users].
 Puede ver una lista de los usuarios actuales en la IU de [!DNL Target], incluidas sus funciones por espacio de trabajo y sus direcciones de correo electrónico.
 
 Para ver la página [!UICONTROL Users], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
-
-![Lista de usuarios desde Target](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ Los usuarios administradores del sistema deben agregar usuarios al sistema. Los 
 
 1. [En el Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), haga clic en **[!UICONTROL Products]** y, a continuación, seleccione el nombre del producto deseado.
 
-   ![Pestaña Productos](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. Haga clic en el espacio de trabajo deseado (por ejemplo, Espacio de trabajo predeterminado).
-
-   ![Espacio de trabajo predeterminado](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    La ficha [!UICONTROL Users] muestra todos los usuarios de ese espacio de trabajo.
 
-   ![usuarios de configuración](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. Seleccione la función de permisos deseada ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] o [!UICONTROL Publisher]) utilizando la lista desplegable de cada usuario en la columna [!UICONTROL Product Role].
-
-   ![Lista desplegable Función del producto](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Función | Descripción |
    |--- |--- |

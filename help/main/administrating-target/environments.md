@@ -5,10 +5,10 @@ title: ¿Qué son los entornos y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -23,8 +23,6 @@ Un entorno, el entorno predeterminado, tiene el nombre previo [!UICONTROL Produc
 Cuando se recibe una solicitud [!DNL Target] de nuevos sitios web o dominios, estos nuevos dominios siempre aparecen en el entorno [!UICONTROL Production]. No se puede cambiar la configuración del entorno [!UICONTROL Production], por lo que se garantiza que los sitios nuevos o desconocidos solo verán el contenido que esté activo y listo. La administración de hosts también permite garantizar la calidad de las nuevas actividades y el contenido en los entornos de prueba, ensayo y desarrollo antes de activar las actividades.
 
 Para administrar entornos, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
-
-![Lista de entornos](/help/main/administrating-target/assets/environments.png)
 
 ## Añadir un entorno {#section_32097D0993724DF3A202D164D3F18674}
 

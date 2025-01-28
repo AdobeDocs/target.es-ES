@@ -5,10 +5,10 @@ title: ¿Cómo configuro el Compositor de experiencias visuales (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 48%
+source-wordcount: '682'
+ht-degree: 49%
 
 ---
 
@@ -22,11 +22,9 @@ Para obtener acceso a la página de configuración de [!UICONTROL Visual Experie
 >
 >Tenga en cuenta que la configuración de esta página se aplica a toda la cuenta de [!DNL Target].
 
-![Página de configuración del Compositor de experiencias visuales](/help/main/administrating-target/assets/vec.png)
-
 ## Ajustes generales
 
-Puede especificar la configuración general del Compositor de experiencias visuales.
+Puede especificar la configuración general de [!UICONTROL Visual Experience Composer].
 
 ![Sección de configuración general](/help/main/administrating-target/assets/general-settings.png)
 
