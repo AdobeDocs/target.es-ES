@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo obtener una vista previa de su act
 title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 16%
+source-wordcount: '1316'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +21,7 @@ Después de crear una actividad, [!DNL Recommendations] ejecuta un algoritmo par
 
 Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general [!UICONTROL Activity], donde se muestra el estado de los criterios. La siguiente ilustración muestra el estado en el diagrama de actividad en la página [!UICONTROL Overview] de una actividad [!DNL Recommendations]:
 
-![Página de información general sobre la actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-La siguiente ilustración muestra el estado en la página [!UICONTROL Overview] de una actividad [!UICONTROL A/B Test] o XT:
-
-![Página de información general sobre pruebas A/B](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Página de información general sobre la actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Los resultados de estado incluyen los siguientes, como se muestra a continuación:
 
@@ -45,7 +41,7 @@ La fuente de datos de comportamiento tiene el impacto mayor sobre el tiempo de p
 
 Si se seleccionan mboxes como fuente de datos de comportamiento, una vez creada, los criterios se ejecutan inmediatamente. Dependiendo de la cantidad de datos de comportamiento utilizados y del tamaño del catálogo, el algoritmo puede tardar hasta 12 horas en ejecutarse. Realizar cambios en la configuración de criterios suele resultar en una nueva ejecución del algoritmo. Según el cambio realizado, es posible que las recomendaciones calculadas anteriormente no estén disponibles hasta que se complete una nueva ejecución; o para cambios más grandes, solo el contenido predeterminado o de copia de seguridad estará disponible hasta que se complete una nueva ejecución. Si no se modifica un algoritmo, [!DNL Target] se vuelve a ejecutar automáticamente cada 12 a 48 horas, según el intervalo de datos seleccionado.
 
-### Adobe Analytics.
+### [!DNL Adobe Analytics]
 
 Si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comportamiento, una vez creados, el tiempo de disponibilidad de los criterios depende de si el grupo de informes seleccionado y la ventana de vista al pasado se han utilizado para otros criterios.
 
@@ -59,9 +55,7 @@ Si los criterios utilizan [!DNL Adobe Analytics] como fuente de datos de comport
 
 ## Uso de vínculos de control de calidad para previsualizar Recommendations
 
-Una vez que el algoritmo tenga los resultados listos, puede obtener una vista previa de esos resultados mediante la funcionalidad [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) de [!DNL Adobe Target]. Los vínculos de control de calidad están disponibles en la sección [!UICONTROL Activity QA] de la página Información general de actividad:
-
-![Vínculo de control de calidad de la actividad](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+Una vez que el algoritmo tenga los resultados listos, puede obtener una vista previa de esos resultados mediante la funcionalidad [QA link](/help/main/c-activities/c-activity-qa/activity-qa.md) de [!DNL Adobe Target]. Los vínculos de control de calidad están disponibles en la sección [!UICONTROL Activity Location] de la página de información general de [!UICONTROL Activity]:
 
 >[!NOTE]
 >
@@ -103,19 +97,13 @@ Para otros tipos de algoritmo basados en un valor de clave, como [!UICONTROL Peo
 
 ## Activación de la actividad de Recommendations
 
-En la ficha [!UICONTROL Activity Overview], haga clic en la flecha desplegable situada junto al estado y seleccione **[!UICONTROL Activate]**.
+En la ficha [!UICONTROL Activity Overview], haga clic en la flecha desplegable Estado y seleccione **[!UICONTROL Activate]**.
 
-![Activar opción](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+Si su actividad [!UICONTROL Recommendations] se encuentra en el estado [!UICONTROL Inactive], la lista desplegable tiene la etiqueta [!UICONTROL Inactive].
 
-Tenga en cuenta que el estado se convierte en [!UICONTROL Activating]:
+Después de unos segundos o un par de minutos, el estado cambia a [!UICONTROL Live].
 
-![Activando](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-Después de unos segundos o un par de minutos, el estado cambia a [!UICONTROL Live]:
-
-![Activo](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
-
-Tenga en cuenta que también puede desactivar o archivar la actividad mediante la misma lista desplegable.
+También puede desactivar o archivar la actividad mediante la misma lista desplegable.
 
 ## Evitar interrupciones al cambiar la configuración de Recommendations
 
