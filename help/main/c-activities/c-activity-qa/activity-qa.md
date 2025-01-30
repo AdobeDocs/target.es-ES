@@ -4,9 +4,9 @@ description: Aprenda a usar las URL de control de calidad de Adobe [!DNL Target]
 title: ¿Cómo realizo actividades de control de calidad?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 27%
 
 ---
@@ -31,11 +31,7 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 
 1. En la página [!UICONTROL Overview] de una actividad, haga clic en **[!UICONTROL Activity QA]**.
 
-   ![Vínculo de control de calidad de la actividad](assets/qa_link.png)
-
 1. Configure los siguientes ajustes:
-
-   ![Opciones de configuración de vínculo de control de calidad](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]:** A veces desea confirmar que la coincidencia de audiencias funcione. Otras veces, se desea comprobar el aspecto de la actividad. Si esta opción está activada, los analistas deben cumplir los requisitos de segmentación para poder ver las experiencias. En el caso de actividades de Segmentación de experiencias (XT), se proporciona una única URL de actividad. La experiencia que se ve la determina el cumplimiento de alguna de las reglas de segmentación.
 
@@ -121,7 +117,7 @@ Si el sitio tiene implementado [[!UICONTROL Platform Web SDK]](https://experienc
 
 En la tabla siguiente se enumeran los distintos tipos de actividades y se indica si se admite el modo [!UICONTROL Activity QA] para cada biblioteca:
 
-| Tipo de actividad | at.js 1.x | at.js 2.x | SDK web de Platform |
+| Tipo de actividad | at.js 1.x | at.js 2.x | Platform Web SDK |
 | --- | --- | --- | --- |
 | [!UICONTROL A/B Test] | Sí | Sí | Sí |
 | [!UICONTROL Auto-Allocate] | Sí | Sí | Sí |

@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1496'
 ht-degree: 76%
 
 ---
@@ -212,6 +212,7 @@ ht-degree: 76%
    + [Configuración de actividades](c-activities/activity-settings.md)
    + Métricas de éxito {#success-metrics}
       + [Métricas de éxito](c-activities/r-success-metrics/success-metrics.md)
+      + [Métricas de éxito beta](c-activities/r-success-metrics/success-metrics-beta.md)
       + [Rastreo de clics](c-activities/r-success-metrics/click-tracking.md)
       + [Puntuación de captación](c-activities/r-success-metrics/capture-score.md)
    + [Registro de cambios de actividades](c-activities/change-log.md)
