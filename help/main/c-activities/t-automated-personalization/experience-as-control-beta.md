@@ -7,10 +7,11 @@ feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+exl-id: baf939d8-1f6d-4586-8323-69f818a5ef1a
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 39%
 
 ---
 
@@ -31,8 +32,15 @@ Hay dos opciones disponibles para el control en las actividades [!UICONTROL Auto
 ## Especificar una experiencia determinada como control
 
 1. Al crear o editar una actividad [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) o [[!UICONTROL Auto-Target] actividad](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure las experiencias como desee.
-1. En la página [!UICONTROL Targeting] (paso 2 del flujo de trabajo guiado de tres partes), seleccione la experiencia que desee como control.
-1. Especifique la asignación de tráfico que desee para la experiencia de control y las demás experiencias.
+1. En la página [!UICONTROL Targeting] (paso 2 del flujo de trabajo guiado de tres partes), haga clic en la experiencia de control para mostrar las opciones [!UICONTROL Control] en el panel derecho.
+
+   ![Panel de control](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. En la lista desplegable [!UICONTROL Control], seleccione [!UICONTROL Random Experience] o la experiencia que desee utilizar para el control.
+
+1. Haga clic en el control [!UICONTROL Traffic Allocation] y, a continuación, especifique la asignación de tráfico que desee para la experiencia de control y las demás experiencias.
+
+   ![Carril de asignación de tráfico](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Para un control de experiencia específico, se recomienda el 10% y el 30%.
 
