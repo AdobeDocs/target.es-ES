@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 76%
+source-wordcount: '1519'
+ht-degree: 74%
 
 ---
 
@@ -261,8 +261,11 @@ ht-degree: 76%
    + [Información general sobre experiencias y ofertas](c-experiences/experiences.md)
    + Compositor de experiencias visuales (VEC) {#vec}
       + [Información general sobre el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+      + [Introducción al Compositor de experiencias visuales beta](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Opciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Opciones beta del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [Incluir la misma experiencia en páginas similares](c-experiences/c-visual-experience-composer/temtest.md)
+      + [Incluir la misma experiencia en páginas beta similares](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [Actividad de varias páginas](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Conflictos de actividades](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Modificaciones {#modifications}
@@ -281,6 +284,7 @@ ht-degree: 76%
          + [Extensión de Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Extensión del Helper del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redireccionar a una dirección URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
+      + [Redirigir a una dirección URL beta](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Creación de carruseles que funcionen en el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Compositor de experiencias basadas en formularios](c-experiences/form-experience-composer.md)
    + [Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](c-experiences/spa-visual-experience-composer.md)

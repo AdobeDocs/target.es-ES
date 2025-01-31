@@ -1,0 +1,96 @@
+---
+keywords: compositor de experiencias visuales;vec;wysiwyg
+description: Aprenda los conceptos básicos del uso del Compositor de experiencias visuales (VEC) en Adobe Target. El VEC es un editor de WYSIWYG que permite crear fácilmente experiencias personalizadas.
+title: ¿Cómo utilizo el Compositor de experiencias visuales (VEC)?
+feature: Visual Experience Composer (VEC)
+hide: true
+hidefromtoc: true
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 59%
+
+---
+
+# Compositor de experiencias visuales (VEC)
+
+Información acerca del uso de [!UICONTROL Visual Experience Composer] (VEC) en [!DNL Adobe Target].
+
+El VEC es una interfaz de usuario de WYSIWYG que le permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de [!DNL Target] arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página web (u oferta) o de una página web móvil.
+
+El VEC es una de las características principales de [!DNL Adobe Target]. El VEC permite que los expertos en marketing y los diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
+
+En la ficha Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, puede escribir la dirección URL predeterminada [!UICONTROL Visual Experience Composer].
+
+![VEC resaltado](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
+
+Esta dirección URL determina la página de inicio al abrir el VEC. Si no establece un valor predeterminado, comenzará con una página en blanco cuando abra el editor y deberá indicar una dirección URL entonces.
+
+>[!NOTE]
+>
+>Algunos exploradores, como [!DNL Firefox], pueden bloquear una página y evitar que se muestre en el VEC si esta contiene contenido mixto (por ejemplo, una página no segura en un sitio seguro). Si la página no se muestra, haga clic en el icono situado junto a la dirección URL en la barra de direcciones del explorador y seleccione **[!UICONTROL Disable protection on this page]**. Este problema no afecta a la visualización de las páginas de los visitantes del sitio.
+
+El contenido de dentro de un iframe en la página no se puede modificar en el VEC. Para editar contenido dentro de un iframe, asegúrese de que el documento del iframe esté habilitado para [!DNL Target] y luego cargue la dirección URL del iframe en el VEC.
+
+Puede usar las fichas del marco [!UICONTROL Experiences] para ver la página tal como se mostraría a distintas audiencias o con diferentes experiencias. Puede proporcionar un nombre para cada experiencia. Por ejemplo, si está probando la ubicación del vínculo a la página de inicio en la barra de navegación, sería interesante poner a la experiencia en la que aparece primero el vínculo a la página de inicio un nombre como “Vínculo a Inicio”, para que sea más fácil identificar las experiencias de la lista.
+
+>[!NOTE]
+>
+>Los cambios en la estructura de una página que afecten a las ubicaciones empleadas en una actividad creada en esa página podrían producir errores al editar la experiencia. Si se ha cambiado una ubicación fuera del VEC, es posible que [!DNL Target] no encuentre la ubicación donde se cambió el contenido.
+
+A medida que mueve el ratón por la página, un cuadro contextual sigue al cursor, destacando los elementos en la página.
+
+<!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
+
+Haga clic en un elemento resaltado para acceder al menú de opciones disponibles para dicho tipo de elemento. Por ejemplo, puede hacer clic en una imagen y seleccionar **[!UICONTROL Change Image]** para cambiar la imagen a otra imagen. O bien, haga clic en un botón y cambie el color del texto.
+
+También puede hacer clic en **[!UICONTROL Browse]** y luego navegar a una página que esté disponible desde la página principal, como una página de envío o un carro de compras, y probar los cambios en esa página. También puede acceder a los elementos de la página que están disponibles cuando mueve el cursor por encima, como los menús flotantes y los minicarros. Cuando termine de navegar por la página, haga clic en **[!UICONTROL Design]** para editar la experiencia. Por ejemplo, puede interesarle cambiar el diseño de una lista desplegable de carro de compras o un carrusel de imágenes.
+
+>[!NOTE]
+>
+>Si un estado de movimiento del cursor por encima depende de JavaScript, asegúrese de que **[!UICONTROL Disable JavaScript]** no esté seleccionado. JavaScript debe estar habilitado para poder editar los elementos JavaScript.
+
+Para obtener información sobre las opciones disponibles en el VEC, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+
+Puede realizar algunas modificaciones en una página mientras se carga la página (o después de que la página no se haya cargado), o puede cancelar la carga de la página en el VEC. Para obtener más información, consulte:
+
+* [Edición de una página mientras se carga o después de que la página no se haya cargado](#loading)
+* [Cancelación de la carga de una página dentro del VEC](#cancel-loading)
+
+## Edición de una página mientras se carga o después de que la página no se haya cargado {#loading}
+
+Puede realizar muchas acciones antes de que la página se cargue en VEC o incluso si la página no se carga completamente (por ejemplo, si el código personalizado ya no funciona).
+
+Algunas razones por las cuales es posible que desee acceder o editar una página mientras ésta se carga dentro del VEC o después de que no se cargue:
+
+* Desea realizar una modificación sencilla de una página, como agregar un código personalizado o cambiar el nombre de una experiencia
+* Desea copiar código personalizado existente de una página que ya no es accesible
+* Sabe que una página no se cargará dentro del VEC pero de todas maneras desea realizar ediciones simples
+
+Mientras la página se carga (o después de que dé error al cargar), el panel [!UICONTROL Experiences], el panel [!UICONTROL Modifications] y la configuración en la parte superior de la experiencia (Superposiciones, Modificaciones, Configurar, etc.) están accesibles.
+
+## Cancelación de la carga de una página dentro del VEC {#cancel-loading}
+
+Puede cancelar la carga de una página dentro del VEC para desbloquear la edición de la actividad sin esperar a que se cargue la página. Esta función ahorra tiempo y le ayuda a realizar ediciones sencillas o a insertar código personalizado de forma más eficaz sin esperar a que la página cargue dentro del VEC.
+
+Algunas de las razones por las que es posible que desee cancelar la carga de páginas dentro del VEC son:
+
+* Desea realizar pequeñas ediciones en las modificaciones existentes
+* Desea eliminar una o más modificaciones existentes
+* Desea insertar o editar código personalizado
+* Introdujo la dirección URL incorrecta para la página
+* Desea habilitar o deshabilitar JavaScript antes de cargar la página en el VEC
+* Desea agregar más reglas de prueba de plantilla a los criterios de Entrega de página
+* Desea anular la opción del Compositor de experiencias mejorado (EEC) global al cargar una página a través del EEC o solo iframe podría depender o variar de una página a otra
+
+Después de cancelar la carga de páginas en el VEC, puede cambiar entre experiencias en la actividad sin esperar a que se cargue la página. Para volver a ver la página dentro del VEC, debe hacer clic en el botón **[!UICONTROL Reload]**.
+
+>[!IMPORTANT]
+>
+>Tenga en cuenta que cuando se crea un código personalizado o se realizan modificaciones, al elegir cancelar la carga dentro del VEC, debe asegurarse de que la codificación o los cambios se realicen correctamente. Asegúrese de realizar un control de calidad adecuado para garantizar que el código personalizado y cualquier otra modificación se entregue según lo esperado.
+
+Para cancelar la carga de una página dentro del VEC, haga clic en el botón **[!UICONTROL Cancel Loading]** mientras se carga la página. La página no se cargará en el VEC para esta actividad durante la sesión de edición actual.
+
+Para continuar administrando experiencias en la actividad actual o agregar nuevas modificaciones, debe hacer clic en el botón **[!UICONTROL Reload]**.

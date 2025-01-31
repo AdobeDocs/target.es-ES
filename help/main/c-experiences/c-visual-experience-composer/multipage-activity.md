@@ -4,10 +4,10 @@ description: Aprenda a crear una actividad de varias páginas en el Adobe  [!DNL
 title: ¿Cómo se crea una actividad de varias páginas?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 68%
+source-wordcount: '341'
+ht-degree: 54%
 
 ---
 
@@ -27,21 +27,13 @@ Puede especificar reglas de plantilla para cada página en la prueba de varias p
 
 Para agregar páginas a una prueba:
 
-1. Haga clic en el icono de engranaje **[!UICONTROL Configure]**.
+1. Haga clic en el icono **[!UICONTROL Configure]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ).
 1. Haga clic en **[!UICONTROL Add Additional Pages]**.
 
-   Aparece una barra de navegación en el lado izquierdo de la pantalla.
+   Aparece el panel [!UICONTROL Pages] a la izquierda de la pantalla.
 
-   ![imagen multipage_nav](assets/multipage_nav.png)
+1. Especifique las páginas y establezca la página predeterminada.
 
-1. Use esa barra de navegación para especificar las páginas y establecer la página predeterminada.
+   Haga clic en **[!UICONTROL Add Page]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) para agregar una página adicional, especifique el nombre de página y la dirección URL y, a continuación, haga clic en **[!UICONTROL Save]**.
 
-   Haga clic en **[!UICONTROL Add Page]** para agregar una página adicional.
-
-   Haga clic en el icono de tres elipses verticales para mostrar un menú de acción:
-
-   ![imagen multipage_menu](assets/multipage_menu.png)
-
-   Utilice este menú para cambiar el nombre de las páginas, realizar una prueba de redirección desde la actividad de varias páginas o eliminar la página.
-
-1. Use el Compositor de experiencias visuales para diseñar la manera en que se muestra la oferta en cada página.
+1. Use [!UICONTROL Visual Experience Composer] para diseñar el aspecto de la oferta en cada página.
