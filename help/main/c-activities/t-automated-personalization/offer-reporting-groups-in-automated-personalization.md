@@ -5,9 +5,9 @@ title: ¿Puedo usar los grupos de informes de ofertas en [!UICONTROL Automated P
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 15%
 
 ---
@@ -33,26 +33,17 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
 ## Configuración de grupos de informes
 
-1. En la página **[!UICONTROL Experiences]** de una actividad AP, haga clic en el icono **[!UICONTROL Manage Content]**.
-
-   ![Icono Administrar contenido](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. En la página **[!UICONTROL Experiences]** de una actividad AP, haga clic en el icono **[!UICONTROL Manage Content]** ( ![icono Administrar contenido](/help/main/assets/icons/Experience.svg) )
 1. Haga clic en la ficha **[!UICONTROL Offers]** en la parte superior del cuadro de diálogo [!UICONTROL Manage Content].
-1. (Condicional) Agregue experiencias específicas a un grupo de informes pasando el puntero sobre la oferta deseada y haciendo clic en el icono de la carpeta **[!UICONTROL Reporting Group]**.
+1. (Condicional) Agregue experiencias específicas a un grupo de informes haciendo clic en el icono [!UICONTROL More Actions] ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) de la oferta deseada y, a continuación, haciendo clic en **[!UICONTROL Reporting Group]**.
 
-   ![Icono del grupo de informes](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando las casillas de las experiencias relevantes y luego haciendo clic en **[!UICONTROL Reporting Group]** en la parte inferior del cuadro de diálogo.
 
-1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando las casillas de verificación de las experiencias relevantes y haciendo clic en el icono de la carpeta **[!UICONTROL Reporting Group]** en la esquina superior derecha del cuadro de diálogo.
-
-   ![Icono del grupo de informes](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. Para asignar la oferta seleccionada a un grupo de informes existente, seleccione **[!UICONTROL Existing]**, elija el grupo de informes deseado en la lista desplegable y luego haga clic en **[!UICONTROL Apply]**.
+1. Para asignar la oferta seleccionada a un grupo de informes existente, seleccione **[!UICONTROL Existing]**, elija el grupo de informes deseado en la lista desplegable y luego haga clic en **[!UICONTROL Confirm]**.
 
    O
 
-   Para crear un grupo de informes al que asignar la oferta seleccionada, seleccione **[!UICONTROL New]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Apply]**.
-
-   ![Nuevo icono para crear un nuevo grupo de informes](/help/main/c-reports/assets/ap_reporting_groups.png)
+   Para crear un grupo de informes al que asignar la oferta seleccionada, seleccione **[!UICONTROL New]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Confirm]**.
 
 Puede usar la lista [!UICONTROL Location] para filtrar ofertas por ubicación. Utilice la lista [!UICONTROL Report Group] para filtrar ofertas por grupos de informes. También puede usar la lista [!UICONTROL Report Group] para filtrar [!UICONTROL Unassigned Offers] y asignar un grupo de informes a una oferta que no esté actualmente asignada a ningún grupo de informes.
 
@@ -81,5 +72,3 @@ Para obtener información sobre cómo dirigir una oferta a audiencias específic
    ![Grupos de ofertas: Control y segmentado](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 Para obtener información sobre el uso de [!UICONTROL Automated Personalization] informes (incluido el informe [!UICONTROL Offer Level]), consulte [Informes de resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
-
-

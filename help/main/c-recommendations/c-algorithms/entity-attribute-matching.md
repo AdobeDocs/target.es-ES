@@ -1,20 +1,20 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de atributos de entidad
-description: Aprenda a filtrar dinámicamente en el Adobe  [!DNL Target] Recommendations comparando un grupo de elementos potenciales con un elemento específico con el que el usuario ha interactuado.
+description: Aprenda a filtrar dinámicamente en  [!DNL Target Recommendations]  comparando un grupo de elementos potenciales con un elemento específico con el que el usuario ha interactuado.
 title: ¿Cómo filtro por coincidencia de atributos de entidad en las actividades de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
 # Coincidencia de atributos de entidad
 
-Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que el usuario haya interactuado.
+Filtre dinámicamente en [!DNL Adobe Target Recommendations] comparando un grupo de posibles elementos de recomendaciones con un elemento específico con el que el usuario haya interactuado.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando u
 
 Por ejemplo, recomendar solo elementos que coincidan con la marca del elemento actual, como en el siguiente ejemplo:
 
-Si el mbox de una página de aterrizaje de marca devuelve `entity.brand=brandA`, solo se devolverán los productos de la marca A y se mostrarán en esa página. Del mismo modo, en la página de aterrizaje de la marca B, solo se devuelven los productos de la marca B. Con este tipo de regla de inclusión dinámica, el usuario solo debe especificar una regla de recomendación que devuelva los resultados de marca relevantes en todas las páginas de marca, en lugar de especificar una colección o un filtro estático para que coincida con cada nombre de marca.
+Si el mbox de una página de aterrizaje de marca devuelve `entity.brand=brandA`, solo se devolverán los productos de la marca A y se mostrarán en esa página. Del mismo modo, en la página de aterrizaje de la marca B, solo se devuelven los productos de la marca B. Con este tipo de regla de inclusión dinámica, el usuario debe especificar solo una regla de recomendación que devuelva los resultados de marca relevantes en todas las páginas de marca, en lugar de especificar una colección o un filtro estático para que coincida con cada nombre de marca.
 
-Tenga en cuenta que debe entregar `entity.brand` en el mbox en esas páginas de aterrizaje para que esto funcione.
+Tenga en cuenta que debe entregar `entity.brand` en el mbox en esas páginas de aterrizaje para que este proceso funcione.
 
 ## Ejemplos de coincidencia de atributos de entidad
 
@@ -58,7 +58,7 @@ Si ve una página de producto de la Marca B, el valor `entity.brand` se restable
 
 Supongamos que es un minorista de ropa y desea animar a los usuarios a considerar artículos de mayor precio y, por lo tanto, más rentables. Puede usar los operadores &quot;es igual que&quot; y &quot;está entre&quot; para promocionar artículos más caros que pertenecen a la misma categoría y a la misma marca. Por ejemplo, un minorista de zapatos puede promocionar zapatos de running más caros en un esfuerzo por mejorar la venta de un visitante que mira zapatillas de running, como en el siguiente ejemplo:
 
-![Ampliación de ventas](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
+![Ampliación de ventas](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -75,7 +75,8 @@ value - is between - 100% and 1000% of - current item's - value
 
 Puede combinar filtros dinámicos y estáticos para promocionar productos de etiqueta privada. Por ejemplo, una empresa de suministros de oficina puede promocionar cartuchos de tóner de la marca de la casa de la empresa para impulsar una venta más rentable para un visitante que mira el tóner, y promocionar bolígrafos de la marca de la casa de la empresa para impulsar una venta más rentable para un visitante que mira los bolígrafos, como en el siguiente ejemplo:
 
-![Marca de la casa](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![Marca de la casa](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
+)
 
 ```
 Entity Attribute Matching

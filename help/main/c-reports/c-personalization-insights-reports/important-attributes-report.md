@@ -5,9 +5,9 @@ title: ¿Qué es el informe Atributos importantes?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1773'
 ht-degree: 56%
 
 ---
@@ -36,25 +36,20 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
 1. Haga clic en **[!UICONTROL Activities]** y luego en la actividad [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) que quiera de la lista.
 
-   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] y [!UICONTROL Activity Source].
+   Si tiene muchas actividades, haga clic en el icono Filtro ( ![Icono de filtro](/help/main/assets/icons/Filter.svg) ) para filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] y [!UICONTROL Activity Source].
 
 1. Haga clic en **[!UICONTROL Reports]**.
 
-   Se muestra el informe [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de [!UICONTROL Personalization Insights]: [!UICONTROL Automated Segments] y [!UICONTROL Important Attributes].
+   Se muestra el informe [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de [!UICONTROL Personalization Insights]: **[!UICONTROL Automated Segments]** ( ![informe Segmentos automatizados](/help/main/assets/icons/AutomatedSegment.svg) ) y **[!UICONTROL Important Attributes]** ( ![icono Atributos importantes](/help/main/assets/icons/ViewList.svg) ).
 
-   ![Informe de resumen de la actividad de Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
    Observe que [!UICONTROL Auto-Target] tiene un icono de gráfico adicional para la vista gráfica del informe [!UICONTROL Summary].
-
-   ![Informe de resumen de la actividad de segmentación automática](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
    >El informe [!UICONTROL Important Attributes] no estará disponible hasta al menos 15 días después de que haya activado su actividad. Durante este período inicial, no podrá acceder a este informe ni hacer clic en el icono [!UICONTROL Important Attributes]. Transcurridos 15 días, y suponiendo que haya tráfico personalizado suficiente en su actividad, el informe [!UICONTROL Important Attributes] estará disponible.
 
-1. Transcurridos 15 días desde la activación de la actividad, haga clic en el icono **[!UICONTROL Important Attributes]**.
-
-   ![Icono de Atributos importantes en un informe de Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
+1. Transcurridos 15 días a partir de la activación de la actividad, haga clic en el icono **[!UICONTROL Important Attributes]** ( ![icono de Atributos importantes](/help/main/assets/icons/ViewList.svg) )icono.
 
 1. Seleccione el intervalo de fechas deseado.
 
@@ -62,17 +57,11 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
    Estos intervalos de fechas fijos permiten que [!UICONTROL Personalization Insights] use un intervalo de datos lo suficientemente grande como para reducir la probabilidad de que obtenga información de un patrón de corta duración en su actividad. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observe que “Inicio” aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
-   ![Calendario en un informe de Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Choose Duration].
-
-   ![Elija la lista desplegable Duración en un informe](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Preset Date Range].
 
 1. Revise los datos del informe [!UICONTROL Important Attributes].
 
-   ![Informe de atributos importantes en Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
-
-1. (Opcional) [Descargue el informe en formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para su análisis con Excel y otras herramientas.
+1. (Opcional) Haga clic en el icono Descargar ( ![Icono de descarga](/help/main/assets/icons/Download.svg) ) para [descargar el informe en formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para su análisis en Excel y otras herramientas.
 
    >[!NOTE]
    >

@@ -1,31 +1,29 @@
 ---
 keywords: AB;A/B;AB...n;comparar experiencias;Segmentación;comparar contenido;Segmentación automática;Asignación automática
-description: 'Obtenga información acerca de los distintos tipos de actividades de prueba A/B en Adobe [!DNL Target] : manual, asignación automática y segmentación automática. Elija el que sea adecuado para usted.'
-title: ¿Qué tipo de actividades A/B hay disponibles en Target?
+description: Explore las actividades de prueba A/B en  [!DNL Target] - [!UICONTROL Manual], [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target].
+title: Descubra las actividades de prueba A/B disponibles en  [!DNL Target].
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
+source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 25%
+source-wordcount: '670'
+ht-degree: 21%
 
 ---
 
 # Información general sobre las pruebas A/B
 
-Una actividad manual [!UICONTROL A/B Test] compara dos o más versiones del contenido de su sitio web para ver cuál mejora más las conversiones durante un período de prueba previamente establecido.
-
->[!NOTE]
->
->Además de la actividad manual (predeterminada) [!UICONTROL A/B Test] (que se describe en esta sección), [!DNL Target] proporciona dos tipos adicionales de actividades [!UICONTROL A/B Test]: [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target]. Consulte [Tipos de actividades de pruebas A/B](#types) más abajo para obtener más información.
-
 Una actividad manual [!UICONTROL A/B Test] (a veces denominada prueba A/B...N) compara dos o más versiones del contenido del sitio web para ver qué versión mejora las conversiones, las ventas u otras métricas que identifique. Utilice una prueba A/B para comparar los cambios en las páginas con respecto al diseño de página predeterminado, para determinar qué experiencias generan los mejores resultados.
+
+>[!TIP]
+>
+>Además de la actividad [!UICONTROL Manual] (predeterminada) [!UICONTROL A/B Test] (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades [!UICONTROL A/B Test]: [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target]. Consulte [Tipos de actividades de pruebas A/B](#types) más abajo para obtener más información.
 
 Las pruebas A/B manuales son útiles cuando tiene una hipótesis clara de formas de mejorar el rendimiento de la página en función de métricas de éxito o de una entrega de contenido alternativo.
 
-Las pruebas A/B manuales son adecuadas para cambios grandes que pueden implicar nuevos diseños o tratamientos drásticamente diferentes de los elementos. Si el diseño de la prueba no se desglosa fácilmente en elementos de página individuales, debe ejecutar una prueba A/B antes que una [prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+Las pruebas A/B manuales son adecuadas para cambios grandes que pueden implicar nuevos diseños o tratamientos drásticamente diferentes de los elementos. Si el diseño de la prueba no se desglosa fácilmente en elementos de página individuales, debe ejecutar una prueba A/B antes de ejecutar una [prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
 
-Al configurar la prueba A/B, puede determinar el porcentaje de visitantes que ven cada experiencia. Por ejemplo, podría dividir el tráfico uniformemente entre el control y una segunda experiencia; o bien, podría probar una experiencia nueva y más arriesgada al mostrársela a solo el 5 % de su audiencia.
+Al configurar la prueba A/B, puede determinar el porcentaje de visitantes que ven cada experiencia. Por ejemplo, puede dividir el tráfico de forma uniforme entre el control y una segunda experiencia, o puede probar una experiencia nueva y más arriesgada mostrándola solo al 5 % de la audiencia.
 
 >[!NOTE]
 >
@@ -35,7 +33,7 @@ Cuando el número de experiencias diferentes es superior a cinco y abarca dos o 
 
 ## Tipos de actividades de prueba A/B {#types}
 
-Además de la actividad [!UICONTROL A/B Test] manual (que se describe en esta sección), [!DNL Target] proporciona dos tipos adicionales de actividades de prueba A/B: [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target].
+Además de la actividad manual [!UICONTROL A/B Test], [!DNL Target] proporciona dos tipos adicionales de actividades [!UICONTROL A/B Testing]: [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target].
 
 | Tipo de actividad | Descripción |
 | --- | --- |
@@ -45,25 +43,18 @@ Además de la actividad [!UICONTROL A/B Test] manual (que se describe en esta se
 
 Para obtener más información sobre cuál de estas [!UICONTROL A/B Test] actividades es la adecuada para usted, consulte el [PDF interactivo de la Guía de actividades de Adobe Target](/help/main/c-activities/target-activities-guide.md).
 
-Los pasos para crear los tres tipos de actividades [!UICONTROL A/B Test] son similares. Para crear una actividad [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], comience por [crear una actividad de prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), pero cuando llegue a la página [!UICONTROL Targeting], elija el método de asignación de tráfico que desee, como se muestra a continuación:
+Los pasos para crear los tres tipos de actividades [!UICONTROL A/B Test] son similares. Para crear una actividad [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target]:
 
-* [!UICONTROL Auto-allocate to best experience]
-* [!UICONTROL Auto-target for personalized experience]
+1. Comience por [crear una actividad de prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
+1. Cuando llegue a la página [!UICONTROL Targeting], haga clic en el control [!UICONTROL Traffic Allocation] y, a continuación, elija el método de asignación de tráfico que desee en el panel derecho, como se muestra a continuación:
 
-![Configuración del método de asignación de tráfico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method.png)
+   * [!UICONTROL Auto-Allocate to best experience]
+   * [!UICONTROL Auto-Target for personalized experience]
+
+   ![Configuración del método de asignación de tráfico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
 ## Incluir recomendaciones dentro de actividades A/B
 
 Puede incluir recomendaciones dentro de las actividades [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target] (y las actividades [!UICONTROL Experience Targeting] (XT)). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-Esta funcionalidad requiere que tenga una [licencia de Target Premium](/help/main/c-intro/intro.md#premium)
-
-## Vídeo de aprendizaje: Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
-
-En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
-
-* Describe los tipos de actividades incluidas en [!DNL Adobe Target]
-* Seleccionar el tipo de actividad adecuado para lograr los objetivos
-* Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
-
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium).

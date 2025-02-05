@@ -4,10 +4,10 @@ description: Aprenda a excluir los valores extremos para que no afecten a los in
 title: ¿Cómo se excluyen los valores extremos en los informes?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -29,10 +29,8 @@ Cuando se marca un valor como extremo, su valor se reemplaza por el valor de ped
 
 **Para excluir valores extremos de los informes:**
 
-1. Abra una actividad que incluya tipos de métrica de ingresos o participación y haga clic en la ficha **[!UICONTROL Reports]**.
-1. Haga clic en el icono de engranaje para mostrar el cuadro de diálogo **[!UICONTROL Settings]**.
-
-   ![Resultado del paso](assets/exclude_extreme_values.png)
+1. Abra una actividad que incluya [!UICONTROL Revenue] o [!UICONTROL Engagement] tipos de métrica y luego haga clic en la ficha **[!UICONTROL Reports]**.
+1. Haga clic en el icono Configuración de informes ( ![icono Configuración de informes](/help/main/assets/icons/Setting.svg) ) para mostrar el cuadro de diálogo **[!UICONTROL Settings]**.
 
 1. Deslice el botón de alternancia **[!UICONTROL Exclude Extreme Values]** a la posición &quot;activado&quot; u &quot;desactivado&quot;, según desee.
 1. Haga clic en **[!UICONTROL Save]**.

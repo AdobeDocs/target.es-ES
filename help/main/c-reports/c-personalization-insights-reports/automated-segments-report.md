@@ -5,10 +5,10 @@ title: ¿Qué es el informe Segmentos automatizados?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 60%
+source-wordcount: '2066'
+ht-degree: 59%
 
 ---
 
@@ -18,7 +18,7 @@ Información sobre el informe [!UICONTROL Automated Segments], uno de los dos in
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente al utilizar los informes de Personalization Insights:
+>Tenga en cuenta lo siguiente al usar [!UICONTROL Personalization Insights] informes:
 >
 >* Las actividades de AP y AT están disponibles como parte de la solución [!DNL Target Premium]. No se incluyen en [!DNL Target Standard] sin una licencia [!DNL Target Premium].
 >
@@ -36,13 +36,11 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
 1. Haga clic en **[!UICONTROL Activities]** y luego en la actividad [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) que quiera de la lista.
 
-   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] y [!UICONTROL Activity Source].
+   Si tiene muchas actividades, haga clic en el icono Filtro ( ![Icono de filtro](/help/main/assets/icons/Filter.svg) ) para filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] y [!UICONTROL Activity Source].
 
 1. Haga clic en **[!UICONTROL Reports]**.
 
-   Se muestra el informe [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de Perspectivas de personalización: Segmentos automatizados y Atributos importantes. La segmentación automática tiene un icono de gráfico adicional para la vista gráfica del informe [!UICONTROL Summary].
-
-   ![Informe de perspectivas de Personalization en Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
+   Se muestra el informe [Resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md), que proporciona información sobre el rendimiento de sus actividades, representadas por el primer icono de pantalla. Los dos iconos adicionales representan los dos informes de [!UICONTROL Personalization Insights]: **[!UICONTROL Automated Segments]** ( ![informe Segmentos automatizados](/help/main/assets/icons/AutomatedSegment.svg) ) y **[!UICONTROL Important Attributes]** ( ![icono Atributos importantes](/help/main/assets/icons/ViewList.svg) ). La segmentación automática tiene un icono de gráfico adicional para la vista gráfica del informe [!UICONTROL Summary].
 
    >[!IMPORTANT]
    >
@@ -50,23 +48,15 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
 1. Transcurridos 15 días desde la activación de la actividad, puede hacer clic en el icono **[!UICONTROL Automated Segments]**.
 
-   ![Icono Segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements.png)
-
 1. Seleccione el intervalo de fechas deseado.
 
    A diferencia del informe [!UICONTROL Summary] (informes de rendimiento), [!UICONTROL Personalization Insights], incluido [!UICONTROL Automated Segments], está disponible solamente para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Personalization Insights] use un intervalo de datos lo suficientemente grande como para reducir la probabilidad de que obtenga información de un patrón de corta duración en su actividad. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Verá que &quot;Inicio&quot; está atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
-   ![Calendario en el informe de Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Choose Duration].
-
-   ![Lista desplegable Duración en Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Preset Date Range].
 
 1. Revise los datos del informe [!UICONTROL Automated Segments].
 
-   ![Informe Segmentos automatizados](/help/main/c-reports/assets/automated_segments_report.png)
-
-1. (Opcional) [Descargue el informe en formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para su análisis con Excel y otras herramientas.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Download]** ( ![Icono de descarga](/help/main/assets/icons/Download.svg) ) para [descargar el informe en formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) para su análisis en Excel y otras herramientas.
 
    >[!NOTE]
    >

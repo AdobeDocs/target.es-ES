@@ -5,16 +5,16 @@ title: ¿Cómo Filtro Por Valores Estáticos En Las Actividades De Recommendatio
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 45%
 
 ---
 
-# Filtro estático
+# [!UICONTROL Static Filter]
 
-Escriba manualmente uno o más valores estáticos para filtrar mediante reglas de inclusión en [!DNL Adobe Target] [!DNL Recommendations].
+Escriba manualmente uno o más valores estáticos para filtrar mediante reglas de inclusión en [!DNL Adobe Target Recommendations].
 
 Por ejemplo, recomendar solo contenido con una clasificación de Asociación de imágenes en movimiento (MPA) de &quot;G&quot; o &quot;PG&quot;.
 
@@ -26,6 +26,4 @@ Puede crear tantas reglas de inclusión como necesite. Las reglas de inclusión 
 
 ## Recomendar contenido con clasificación G o PG
 
-Para crear una regla de inclusión con valores estáticos para recomendar contenido con una clasificación MPA de solo &quot;G&quot; o &quot;PG&quot; (excluir contenido &quot;R&quot; y &quot;NC17&quot;), puede crear las siguientes reglas de filtrado &quot;clasificación de película es igual a clasificación g&quot; y &quot;clasificación de película es igual a clasificación pg&quot;, como se muestra a continuación.
-
-![ejemplo de clasificación de películas](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+Para crear una regla de inclusión con valores estáticos para recomendar contenido con una clasificación MPA de solo &quot;G&quot; o &quot;PG&quot; (excluir contenido &quot;R&quot; y &quot;NC17&quot;), puede crear las siguientes reglas de filtrado: &quot;clasificación de película es igual a cualquiera de clasificación g&quot; y &quot;clasificación de película es igual a cualquiera de clasificación pg&quot;.

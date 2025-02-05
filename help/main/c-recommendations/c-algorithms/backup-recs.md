@@ -1,14 +1,14 @@
 ---
 keywords: recomendación;copia de seguridad;copia;seguridad
-description: Aprenda a utilizar las recomendaciones de copia de seguridad en el Adobe  [!DNL Target] Recommendations. Las recomendaciones que no tienen elementos recomendados suficientes muestran los resultados del algoritmo de copia de seguridad.
-title: ¿Cómo utilizo una recomendación de copia de seguridad en Recommendations?
+description: Aprenda a utilizar las recomendaciones de copia de seguridad en el Adobe  [!DNL Target Recommendations].
+title: ¿Cómo se usa una recomendación de copia de seguridad en  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 77%
+source-wordcount: '508'
+ht-degree: 70%
 
 ---
 
@@ -22,11 +22,11 @@ Si no utiliza una recomendación de copia de seguridad, y si una recomendación 
 >
 >Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluida una matriz que explica los resultados que observará al usar las opciones [!UICONTROL Partial Design Rendering] y [!UICONTROL Show Backup Recommendations] juntas o por separado.
 
-La función de recomendación de copia de seguridad siempre utiliza los artículos más vistos del sitio para llenar los espacios restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
+La función de recomendación de copia de seguridad siempre utiliza los elementos más vistos del sitio para rellenar las ranuras restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
 
 Las recomendaciones de copia de seguridad se eligen al azar entre los 500 productos más vistos del sitio. El período de tiempo de los datos para las recomendaciones de copia de seguridad es de una semana.
 
-Los 500 resultados más vistos se ordenan secuencialmente y luego se dividen en grupos de 20. Los segmentos se publican en orden, pero los resultados dentro de cada segmento se asignan aleatoriamente y se devuelven a la página. Si los usuarios actualizan la página, se les presentan resultados nuevos y aleatorios. Si el conjunto de resultados de la unión de la recopilación y las reglas de filtrado es menor que 20, se seleccionará aleatoriamente de la colección.
+Los 500 resultados más vistos se ordenan secuencialmente y luego se dividen en grupos de 20. Los segmentos se publican en orden, pero los resultados dentro de cada segmento se asignan aleatoriamente y se devuelven a la página. Si los usuarios actualizan la página, se les presentan resultados nuevos y aleatorios. Si el conjunto de resultados de la unión de la colección y las reglas de filtrado es menor que 20, selecciona aleatoriamente de la colección.
 
 Este proceso de agrupamiento significa que las recomendaciones de respaldo se muestran en el siguiente orden:
 

@@ -4,30 +4,28 @@ description: Aprenda a descargar datos de actividades de Adobe [!DNL Target] en 
 title: ¿Cómo se descargan datos de informes en un archivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 37%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
 # Descarga de datos en un archivo CSV
 
-Descargue datos en formato .csv para poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos.
+Descargue datos en formato .csv para poder importarlos rápidamente a [!DNL Excel], [!DNL Access] u otros programas de análisis de datos.
 
 Para descargar datos en un archivo CSV:
 
 1. Haga clic en **[!UICONTROL Activities]** y luego en una actividad de la lista.
 
-   Si tiene muchas actividades, puede filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] y [!UICONTROL Activity Source].
+   Si tiene muchas actividades, haga clic en el icono Filtro ( ![Icono de filtro](/help/main/assets/icons/Filter.svg) ) para filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] y [!UICONTROL Activity Source].
 
 1. Haga clic en la ficha **[!UICONTROL Reports]**.
-1. Haga clic en el icono **[!UICONTROL Download]** y, a continuación, seleccione un tipo de informe que quiera descargar para analizarlo en Excel y otras herramientas.
+1. Haga clic en el icono **[!UICONTROL Download]** ( ![Icono de descarga](/help/main/assets/icons/Download.svg) ) y, a continuación, seleccione un tipo de informe que quiera descargar para analizarlo en Excel y otras herramientas.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![Opciones de descarga](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 

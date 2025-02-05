@@ -1,13 +1,13 @@
 ---
 keywords: A/B;métricas de actividad;métricas;definir métricas;métrica de objetivo;métrica de éxito;configuración de actividades;conversión;ingresos;participación
-description: Aprenda a especificar métricas en una actividad  [!DNL Adobe Target] A/B para determinar si una visita es satisfactoria, como [!UICONTROL Conversion], [!UICONTROL Revenue] y [!UICONTROL Engagement].
+description: Descubra cómo establecer métricas en una actividad A/B para determinar el éxito de la visita, incluidas [!UICONTROL Conversion], [!UICONTROL Revenue] y [!UICONTROL Engagement].
 title: ¿Cómo configuro las métricas de objetivo en una actividad A/B?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '284'
+ht-degree: 58%
 
 ---
 
@@ -17,9 +17,7 @@ Utilice métricas en una actividad A/B de [!DNL Adobe Target] para determinar si
 
 Para obtener información detallada sobre las métricas de éxito, consulte [Métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. En la sección **[!UICONTROL Reporting Settings]** de la página **[!UICONTROL Goals & Settings]**, seleccione una [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
-
-   ![Seleccionar métrica de éxito](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
+1. En la sección **[!UICONTROL Reporting Settings]** de la página **[!UICONTROL Goals & Settings]**, seleccione una [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
    La opción [!UICONTROL Select Metrics] enumera las métricas de éxito que puede elegir para su actividad. Las métricas de éxito se dividen en las categorías siguientes:
 
@@ -53,13 +51,3 @@ Al asignar un nombre a una métrica o cambiarla por otro, no se permiten los sig
 | + | Más |
 | - | Menos |
 | @ | Arroba |
-
-## Vídeo de formación: Métricas de actividad (7:43) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
-
-Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
-
-* Qué son las métricas de “objetivo”
-* Qué son y cómo compilar las métricas de conversión, ingresos y participación
-* Compilar una métrica para el rastreo de clics
-
->[!VIDEO](https://video.tv.adobe.com/v/17380)

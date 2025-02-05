@@ -4,10 +4,10 @@ description: Aprenda a especificar la dirección URL de la actividad que determi
 title: ¿Qué es la URL de actividad en una actividad [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 34%
+source-wordcount: '269'
+ht-degree: 31%
 
 ---
 
@@ -15,38 +15,36 @@ ht-degree: 34%
 
 La dirección URL de actividad determina la página que se usa en [!UICONTROL Multivariate Test] (MVT) y que se abre cuando se diseña la prueba en [!DNL Adobe Target].
 
-Cuando se le pida durante la [creación de la actividad](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), indique la dirección URL de la actividad. Escriba la dirección URL completa (incluido `https://`) y haga clic en **[!UICONTROL Next]**.
+1. Cuando se le pida durante la [creación de la actividad](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), indique la dirección URL de la actividad. Escriba la dirección URL completa (incluido `https://`) y haga clic en **[!UICONTROL Create]**.
 
->[!NOTE]
->
->[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `https://www.adobe.com`] y [!DNL `http://www.adobe.com`] coinciden.
+   >[!NOTE]
+   >
+   >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `https://www.adobe.com`] y [!DNL `http://www.adobe.com`] coinciden.
 
-De manera predeterminada, [!UICONTROL Visual Experience Composer] (VEC) abre la página que se ha especificado en [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
+   De manera predeterminada, [!UICONTROL Visual Experience Composer] (VEC) abre la página que se ha especificado en [Configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
 
-Para mostrar una página diferente después de que se abra el VEC, haga clic en el icono **[!UICONTROL Configure]**, luego seleccione **[!UICONTROL Page Delivery]** y especifique la dirección URL.
+1. (Condicional) Para mostrar una página diferente después de que se abra el VEC, haga clic en el icono **[!UICONTROL Configure]**, luego seleccione **[!UICONTROL Page Delivery]** y especifique la dirección URL.
 
-![Cuadro de diálogo Entrega de páginas](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
+1. (Condicional) Haga clic en **[!UICONTROL Add Rule]** para agregar más páginas o secciones a la actividad.
 
-Haga clic en **[!UICONTROL Add Template Rule]** para agregar más páginas o secciones a la actividad.
+   Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
-Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
+   * [!UICONTROL  URL]
+   * [!UICONTROL Domain]
+   * [!UICONTROL Path]
+   * [!UICONTROL Hash (#) Fragment]
+   * [!UICONTROL Query]
+   * [!UICONTROL Custom]
 
-* Dirección URL
-* Dominio
-* Ruta
-* Fragmento hash (#)
-* Consulta
-* Parámetro
+   Se pueden unir reglas adicionales a la dirección URL de la actividad con AND u OR. Todas las reglas que agregue se evalúan entre sí con AND.
 
-Se pueden unir reglas adicionales a la dirección URL de la actividad con AND u OR. Todas las reglas que agregue se evalúan entre sí con AND.
-
-Haga clic en **[!UICONTROL Save]** cuando haya finalizado.
+   Haga clic en **[!UICONTROL Save]** cuando haya finalizado.
 
 >[!NOTE]
 >
 >Si escribe una dirección URL de un sitio que no incluye el código JavaScript [!DNL Target], no podrá seleccionar elementos de página.
-
-De manera predeterminada, el VEC no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Render using JavaScript]** si desea poder modificar esos elementos usando [!UICONTROL Visual Experience Composer].
+>
+>De manera predeterminada, el VEC no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Render using JavaScript]** si desea poder modificar esos elementos usando [!UICONTROL Visual Experience Composer].
 
 >[!NOTE]
 >

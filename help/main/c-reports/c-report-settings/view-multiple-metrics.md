@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo seleccionar varias métricas para 
 title: ¿Cómo puedo ver varias métricas en un informe?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -27,8 +27,6 @@ Tenga en cuenta la siguiente información cuando trabaje con varias métricas en
 1. Para mostrar un informe, haga clic en **[!UICONTROL Activities]**, haga clic en la actividad que quiera en la lista y luego haga clic en la ficha **[!UICONTROL Reports]**.
 1. Haga clic en la lista desplegable **[!UICONTROL Report Metric]** para mostrar las listas [!UICONTROL Shown Metrics] y [!UICONTROL Hidden Metrics].
 
-   ![imagen multiple_metrics](assets/multiple_metrics.png)
-
    Puede usar el cuadro [!UICONTROL Search] para buscar rápidamente las métricas disponibles y agregarlas a la lista [!UICONTROL Shown Metrics].
 
    Tenga en cuenta que puede seleccionar varias métricas de los modos [!UICONTROL Table View] y [!UICONTROL Graph View] del informe.
@@ -46,10 +44,6 @@ Tenga en cuenta la siguiente información cuando trabaje con varias métricas en
 1. Haga clic en **[!UICONTROL Save]** cuando termine.
 1. (Condicional) Mientras ve el informe en [!UICONTROL Table View], coloque el puntero del mouse (ratón) sobre el encabezado de columna de cualquier métrica para mostrar una flecha azul. Haga clic en la flecha para expandir la tabla y mostrar [!UICONTROL Lift] y [!UICONTROL Confidence] para esa métrica.
 
-   ![imagen multiple_metrics_table](assets/multiple_metrics_table.png)
-
    Solo puede expandir una métrica/coluna a la vez. Vuelva a hacer clic en la flecha para contraer las columnas.
 
-1. (Condicional) Mientras ve el informe en la vista de gráfico, puede seleccionar métricas individuales para mostrarlas en la lista desplegable:
-
-   ![imagen multiple_metrics_graph](assets/multiple_metrics_graph.png)
+1. (Condicional) Mientras ve el informe en [!UICONTROL Graph View], puede seleccionar métricas individuales para mostrar en la lista desplegable.

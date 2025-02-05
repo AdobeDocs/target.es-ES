@@ -4,10 +4,10 @@ description: Aprenda a utilizar la opción Redireccionar a dirección URL del Ad
 title: ¿Puedo redirigir una página a una dirección URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '472'
+ht-degree: 66%
 
 ---
 
@@ -31,16 +31,13 @@ Las ofertas de redireccionamiento tienen ciertas limitaciones:
 Para crear una oferta de redireccionamiento:
 
 1. Cree una experiencia.
-1. Pase el ratón sobre una experiencia y luego haga clic en el icono Redirigir a URL (![icon_redirect_url_image](assets/icon_redirect_url.png)).
-
-   ![imagen exp_actions](assets/exp_actions.png)
-
-1. Escriba la dirección URL.
+1. Desde el fotograma [!UICONTROL Experiences], haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) para obtener la experiencia deseada.
+1. Haga clic en **[!UICONTROL Redirect to URL]**.
+1. En el cuadro de diálogo Redirigir a dirección URL, escriba la dirección URL.
 1. Si lo desea, seleccione la opción para incluir los parámetros de consulta actuales.
 
    Si se selecciona esta opción, cualquier carácter después de ? en la dirección URL del visitante se adjuntará a la dirección URL de redirección cuando se redireccione.
 
-   Esta opción está seleccionada de manera predeterminada.
 1. (Opcional) Crear reglas adicionales.
 
    Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:

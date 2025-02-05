@@ -4,10 +4,10 @@ description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en 
 title: ¿Cómo creo una actividad de [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '389'
+ht-degree: 33%
 
 ---
 
@@ -25,15 +25,13 @@ Para obtener más información sobre [!UICONTROL Experience Targeting], un caso 
 
 1. En la lista [!UICONTROL Activities], haga clic en **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
 
-   ![Crear actividad > Segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
    >Nota: los tipos de actividades disponibles dependen de su cuenta de [!DNL Target]. Algunos tipos de actividades podrían no aparecer en su lista. Por ejemplo, [!UICONTROL Automated Personalization] es una [característica de Target Premium](/help/main/c-intro/intro.md#premium).
    >
    >Para obtener más información sobre los distintos tipos de actividades disponibles en [!DNL Target] y sus diferencias, consulte [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md) para ayudarle a decidir qué tipo de actividad encaja con sus necesidades.
 
-1. Seleccione **[!UICONTROL Visual (Default)]**, si es necesario.
+1. Seleccione **[!UICONTROL Visual]**, si es necesario.
 
    Si prefiere usar el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione [!UICONTROL Form].
 
@@ -53,11 +51,7 @@ Para obtener más información sobre [!UICONTROL Experience Targeting], un caso 
 
    Se abre el VEC y muestra la página especificada en la dirección URL.
 
-   ![Actividad de segmentación de experiencias dentro del VEC](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. Escriba un nombre para la actividad en el espacio proporcionado.
-
-   ![Campo Nombre](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Cambiar nombre del icono](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Save]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 

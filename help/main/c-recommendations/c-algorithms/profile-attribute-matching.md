@@ -1,20 +1,20 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de atributos de perfil
-description: Aprenda a filtrar dinámicamente en Adobe [!DNL Target] Recommendations comparando elementos (entidades) con un valor del perfil del usuario.
+description: Aprenda a filtrar dinámicamente en  [!DNL Target Recommendations] comparando elementos (entidades) con un valor del perfil del usuario.
 title: ¿Cómo filtro por coincidencia de atributos de perfil en las actividades de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 7%
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
 # Coincidencia de atributos de perfil
 
-Filtre dinámicamente en [!DNL Adobe Target] [!DNL Recommendations] comparando elementos (entidades) con un valor del perfil del usuario.
+Filtre dinámicamente en [!DNL Adobe Target Recommendations] comparando elementos (entidades) con un valor del perfil del usuario.
 
 Use [!UICONTROL Profile Attribute Matching] cuando quiera mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
 
@@ -25,17 +25,17 @@ Use [!UICONTROL Profile Attribute Matching] cuando quiera mostrar recomendacione
 Los siguientes escenarios muestran cómo se puede usar [!UICONTROL Profile Attribute Matching]:
 
 * Una empresa que vende gafas almacena el color de marco favorito de un visitante como &quot;nogal&quot;. Para ese visitante específico, las recomendaciones están configuradas para devolver solo marcos de gafas que coincidan con &quot;nogal&quot; en color.
-* Se puede definir un parámetro de perfil para el tamaño de la ropa (por ejemplo, pequeña, Medium o grande) de un visitante que navega por el sitio web de la compañía. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva productos específicos solo del tamaño de ropa preferido del usuario.
+* Se puede definir un parámetro de perfil para el tamaño de la ropa (por ejemplo, pequeña, Medium o grande) de un visitante que navega por el sitio web de la empresa. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva productos específicos solo del tamaño de ropa preferido del usuario.
 
 ## Ejemplos de coincidencia de atributos de perfil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching] le permite recomendar únicamente los elementos que coinciden con un atributo del perfil del visitante, como en los ejemplos siguientes.
+[!UICONTROL Profile Attribute Matching] le permite recomendar únicamente los elementos que coincidan con un atributo del perfil del visitante, como en los ejemplos siguientes.
 
 ### Recomendar artículos de la marca favorita del usuario
 
-Por ejemplo, puede usar la opción [!UICONTROL Profile Attribute Matching] para crear una regla que recomiende sólo elementos cuya marca sea igual al valor o al texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
+Por ejemplo, puede usar la opción [!UICONTROL Profile Attribute Matching] para crear una regla que recomiende sólo elementos cuya marca sea igual al valor o al texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca en particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
 
-![Marca favorita](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
+![Marca favorita](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
 ```
 Profile Attribute Matching
@@ -46,9 +46,9 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 Supongamos que está tratando de hacer coincidir los trabajos con los buscadores de empleo. Desea recomendar solo trabajos que se encuentren en la misma ciudad que el buscador de empleo.
 
-Puede utilizar reglas de inclusión para hacer coincidir la ubicación de un solicitante de empleo desde su perfil de visitante a una oferta de empleo, como en el siguiente ejemplo:
+Puede utilizar reglas de inclusión para hacer coincidir la ubicación de un buscador de empleo desde el perfil del visitante a una lista de trabajos, como en el siguiente ejemplo:
 
-![Ciudad del usuario](/help/main/c-recommendations/c-algorithms/assets/city.png)
+![Ciudad del usuario](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
 ```
 Profile Attribute Matching

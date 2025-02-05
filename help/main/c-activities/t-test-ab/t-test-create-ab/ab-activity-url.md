@@ -1,19 +1,21 @@
 ---
 keywords: url de actividad;url;url diferente
-description: Obtenga información sobre cómo especificar la dirección URL de actividad que determina la página que se usa en la prueba y que se abre cuando se diseña la prueba con  [!DNL Adobe Target].
+description: Descubra cómo establecer [!UICONTROL Activity URL] para definir páginas de prueba y garantizar un diseño de prueba preciso.
 title: ¿Qué es la URL de actividad en una actividad A/B?
 feature: A/B Tests
-exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
-source-git-commit: 6bca763d24649349dbc7cdf6e5f2dbc4ac0a480d
+hide: true
+hidefromtoc: true
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 44%
+source-wordcount: '279'
+ht-degree: 32%
 
 ---
 
 # Dirección URL de actividad
 
-La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando esta se diseña con Adobe Target.
+La dirección URL de actividad determina la página que se usa en la prueba y que se abre cuando esta se diseña con [!DNL Adobe Target].
 
 Cuando se le pida durante la creación de la actividad, indique la dirección URL de la actividad. Escriba la dirección URL completa (incluido `https://`) y haga clic en **[!UICONTROL Create]**.
 
@@ -25,13 +27,11 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 De manera predeterminada, [!UICONTROL Visual Experience Composer] abre la página especificada en la [configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
 
-1. Para mostrar una página diferente después de que se abra [!UICONTROL Visual Experience Composer], en la página **[!UICONTROL Experiences]**, haga clic en el icono de engranaje **[!UICONTROL Configure]** y, a continuación, seleccione **[!UICONTROL Page Delivery]**.
+1. (Condicional) Para mostrar una página diferente después de que se abra [!UICONTROL Visual Experience Composer], en la página **[!UICONTROL Experiences]**, haga clic en **[!UICONTROL Configure]** en la parte superior de la página y seleccione **[!UICONTROL Page Delivery]**.
 
 1. Especifique la dirección URL en el campo **[!UICONTROL URL]**.
 
-   ![Cuadro de diálogo Entrega de páginas](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
-
-1. (Condicional) Haga clic en **[!UICONTROL Add Template Rule]** para agregar más páginas o secciones a la actividad.
+1. (Condicional) Haga clic en **[!UICONTROL Add Rule]** para agregar más páginas o secciones a la actividad.
 
    Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
@@ -41,14 +41,15 @@ De manera predeterminada, [!UICONTROL Visual Experience Composer] abre la págin
    * Fragmento hash (#)
    * Consulta
    * Parámetro de mbox
+   * Personalizado
 
-   Se pueden unir reglas adicionales a la dirección URL de la actividad con Y u O. Todas las reglas que agregue se evalúan entre sí con Y.
+   Se pueden unir reglas adicionales a la dirección URL de la actividad con AND u OR. Todas las reglas que agregue se evalúan entre sí con Y.
 
 1. Haga clic en **[!UICONTROL Save]** cuando haya finalizado.
 
-Si introduce una dirección URL de un sitio que no incluye el código estándar [!DNL Target] de JavaScript, no podrá seleccionar elementos de la página.
+   Si escribe una dirección URL de un sitio que no incluye el código JavaScript de [!DNL Target], no podrá seleccionar elementos de página.
 
-De manera predeterminada, [!UICONTROL Visual Experience Composer] no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Render using JavaScript]** si desea poder modificar esos elementos usando [!UICONTROL Visual Experience Composer].
+   De manera predeterminada, [!UICONTROL Visual Experience Composer] no permite realizar cambios en elementos que contengan JavaScript, como banners giratorios. Puede desactivar **[!UICONTROL Render using JavaScript]** si desea poder modificar esos elementos mediante [!UICONTROL Visual Experience Composer].—>
 
 >[!NOTE]
 >

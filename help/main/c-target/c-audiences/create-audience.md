@@ -4,16 +4,16 @@ description: Obtenga información sobre cómo crear audiencias personalizadas y 
 title: ¿Cómo Se Generan Audiencias?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 58%
+ht-degree: 51%
 
 ---
 
 # Generar audiencias en [!DNL Target]
 
-Puede crear audiencias personalizadas y guardarlas en la biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usarlas en sus actividades. También puede copiar una audiencia existente y editarla para crear una similar y combinar varias audiencias.
+Cree audiencias personalizadas y guárdelas en la biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usarlas en sus actividades. También puede copiar una audiencia existente y editarla para crear una similar y combinar varias audiencias.
 
 ## Información general de audiencia
 
@@ -25,13 +25,13 @@ Cuando se combinan reglas o parámetros con O, cualquier miembro potencial de la
 
 Puede combinar ambos operadores booleanos para crear reglas complejas; sin embargo, los operadores del mismo nivel de regla deben coincidir. La interfaz de usuario se aplica automáticamente al operador correcto.
 
-Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Firefox en un equipo Windows:
+Por ejemplo, la siguiente regla segmenta a los visitantes que usan [!DNL Chrome] *o* [!DNL Firefox] en un equipo [!DNL Windows]:
 
 ![Crear audiencia](assets/audience_create.png)
 
 >[!NOTE]
 >
->Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con los navegadores Chrome *y* Firefox simultáneamente.
+>Tenga cuidado de evitar crear reglas que excluyen todos los miembros potenciales de la audiencia. Por ejemplo, no es posible visitar una página con [!DNL Chrome] *y* [!DNL Firefox] simultáneamente.
 
 ## Creación de audiencias
 
@@ -43,7 +43,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    O
 
-   Para copiar una audiencia existente, en la lista [!UICONTROL Audiences], haga clic en el icono **[!UICONTROL More Actions]** (el icono de los tres puntos) y luego haga clic en **[!UICONTROL Duplicate]**. Luego puede editar la audiencia para crear otra parecida.
+   Para copiar una audiencia existente, en la lista [!UICONTROL Audiences], haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ) de la audiencia que desee copiar y, a continuación, haga clic en **[!UICONTROL Duplicate]**. Luego puede editar la audiencia para crear otra parecida.
 
 1. Escriba un nombre descriptivo y único para la audiencia, así como una descripción opcional.
 
@@ -55,7 +55,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Arrastre y suelte los atributos deseados de la lista **[!UICONTROL Attributes]** a la derecha del panel generador de audiencias.
+1. Arrastre y suelte los atributos deseados de la lista **[!UICONTROL Attributes]** de la izquierda al panel generador de audiencias.
 
    ![Arrastrar y soltar atributos](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan Chrome *o* Fi
 
 1. Defina los parámetros de la regla.
 
-   Por ejemplo, la siguiente audiencia identifica visitantes de Utah que usan el sistema operativo Macintosh.
+   Por ejemplo, la siguiente audiencia identifica visitantes de Utah que usan el sistema operativo [!DNL Macintosh].
 
    ![Audiencia de Utah/Macintosh](assets/adience-builder.png)
 

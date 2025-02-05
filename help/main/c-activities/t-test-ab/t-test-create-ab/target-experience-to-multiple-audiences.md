@@ -1,13 +1,13 @@
 ---
 keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
-description: Aprenda a segmentar versiones de la misma experiencia a distintas audiencias en  [!DNL Adobe Target] actividades A/B.
+description: Descubra cómo dirigirse a diferentes segmentos de audiencia con versiones de la misma experiencia en actividades A/B.
 title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '593'
+ht-degree: 52%
 
 ---
 
@@ -33,13 +33,9 @@ En este caso, lo que necesita son versiones específicas de la experiencia, para
 
    Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes.
 
-1. Seleccione la experiencia y haga clic en **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Seleccione la experiencia y haga clic en **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Opción Varias audiencias](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. Haga clic en **[!UICONTROL Add Audience]** y seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada audiencia.
-
-   ![imagen exp-versions](assets/exp-versions.png)
+1. Haga clic en el icono **[!UICONTROL Add Audience]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en el panel [!UICONTROL Experience Audiences] y, a continuación, seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada audiencia.
 
    Si la audiencia todavía no existe, haga clic en [Crear audiencia](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrela.
 

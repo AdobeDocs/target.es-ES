@@ -5,14 +5,14 @@ title: ¿Cómo filtro por coincidencia de parámetros en las actividades de Reco
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '332'
 ht-degree: 10%
 
 ---
 
-# Coincidencia de parámetros
+# [!UICONTROL Parameter Matching]
 
 Filtre dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).
 
@@ -24,7 +24,7 @@ Por ejemplo, recomendar solo contenido que coincida con el parámetro de página
 
 >[!NOTE]
 >
->Si la actividad se creó antes del 31 de octubre de 2016, el envío fallará si utiliza el filtro Coincidencia de parámetros. Para evitar este problema:
+>Si la actividad se creó antes del 31 de octubre de 2016, el envío falla si utiliza el filtro &quot;Coincidencia de parámetros&quot;. Para evitar este problema:
 >
 >* Cree una nueva actividad y añádale sus criterios.
 >* Use criterios que no contengan el filtro “Coincidencia de parámetros”.
@@ -34,7 +34,7 @@ Por ejemplo, recomendar solo contenido que coincida con el parámetro de página
 
 [!UICONTROL Parameter Matching] le permite recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones de dispositivo o ubicación geográfica, como en el siguiente ejemplo:
 
-[!DNL Recommendations] puede coincidir con los valores de parámetro enviados en la llamada a [!DNL Target]. En este caso, [!DNL Target] detecta que un visitante está usando un dispositivo móvil, basándose en los parámetros de altura y anchura de pantalla enviados en la llamada de [!DNL Target], y solo recomendará los elementos que sean dispositivos móviles.
+[!DNL Recommendations] puede coincidir con los valores de parámetro enviados en la llamada a [!DNL Target]. En este caso, [!DNL Target] detecta que un visitante está usando un dispositivo móvil, basándose en los parámetros de altura y anchura de pantalla enviados en la llamada de [!DNL Target], y recomienda solo los elementos que sean dispositivos móviles.
 
 Consideremos el siguiente ejemplo de llamada de Target:
 

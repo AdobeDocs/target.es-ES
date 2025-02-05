@@ -5,10 +5,10 @@ title: ¿Cómo utilizo los informes de resumen de Automated Personalization?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 12%
+source-wordcount: '641'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +22,9 @@ Hay informes de resumen especializados disponibles para los usuarios de [!UICONT
 
 1. Haga clic en **[!UICONTROL Activities]**, en la actividad [!UICONTROL Automated Personalization] que quiera de la lista y luego en la ficha **[!UICONTROL Reports]**.
 
-   Si tiene muchas actividades, puede filtrar la lista seleccionando [!UICONTROL Automated Personalization] en la lista desplegable [!UICONTROL Type].
+   Si tiene muchas actividades, haga clic en el icono Filtro ( ![Icono de filtro](/help/main/assets/icons/Filter.svg) ) para filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] y [!UICONTROL Activity Source].
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Download]** para descargar la vista de resumen (por ejemplo, comparando el tráfico de Control y Segmentado) desglosada por todas las métricas de éxito disponibles.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Download]** ( ![Icono de descarga](/help/main/assets/icons/Download.svg) ) para descargar la vista de resumen (por ejemplo, comparando el tráfico de control y segmentado) desglosada por todas las métricas de éxito disponibles.
 
 [!UICONTROL Automated Personalization] proporciona los siguientes informes:
 
@@ -37,8 +37,6 @@ Hay informes de resumen especializados disponibles para los usuarios de [!UICONT
 
 El informe [!UICONTROL Activity Level] compara el rendimiento agregado del uso de un algoritmo [!UICONTROL Automated Personalization] con el contenido proporcionado aleatoriamente (control).
 
-![Informe de nivel de actividad](/help/main/c-reports/assets/box_plot_ap.png)
-
 Las reglas estándar de interpretación de resultados para prueba A/B aún se aplican, incluidos alza, confianza, tendencias, duración, etc. Para obtener más información acerca de la interpretación de los resultados, vea [Cálculos estadísticos en pruebas A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Informe de nivel de oferta {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ Las reglas estándar de interpretación de resultados para prueba A/B aún se ap
 El informe [!UICONTROL Offer Level] de la experiencia de bosque aleatorio compara el rendimiento de cada oferta aplicada mediante algoritmos con la misma oferta servida aleatoriamente (Control). Por lo tanto, las ofertas no deben compararse entre sí en esta vista.
 
 Haga clic en el algoritmo de experiencia (bosque aleatorio o control) para ver el informe [!UICONTROL Offer Level].
-
-![Informe de nivel de oferta en Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -59,15 +55,11 @@ Las ofertas se pueden mostrar en [grupos de informes](/help/main/c-activities/t-
 
 Haga clic en el icono [!UICONTROL Automated Segments]. Este informe muestra cómo los distintos visitantes responden de forma diferente a las ofertas y experiencias de su actividad AP/AT. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de Target respondieron a las ofertas y experiencias de la actividad.
 
-![Icono de segmentos automatizados](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 Para obtener más información, consulte [Informe Segmentos automatizados](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Atributos importantes
 
 Haga clic en el icono [!UICONTROL Important Attributes]. Este informe muestra cómo, en diferentes actividades, distintos atributos son más (o menos) importantes para el modo en que el modelo decide realizar la personalización. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa.
-
-![Icono de atributos importantes](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 Para obtener más información, consulte [Informe sobre atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

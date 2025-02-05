@@ -4,10 +4,10 @@ description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en 
 title: ¿Cómo creo un(a) [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 56%
+source-wordcount: '724'
+ht-degree: 26%
 
 ---
 
@@ -21,8 +21,6 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
 1. Haga clic en **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
 
-   ![Crear una prueba multivariada](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
-
    >[!NOTE]
    >
    >Para obtener más información sobre los distintos tipos de actividades disponibles en [!DNL Target] y sus diferencias, consulte [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md) para ayudarle a decidir qué tipo de actividad encaja con sus necesidades.
@@ -31,7 +29,7 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
 1. (Condicional) Si es cliente de [Target Premium](/help/main/c-intro/intro.md#premium), [elija un espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Especifique la dirección URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) para la página que desea probar y haga clic en **[!UICONTROL Next]**.
+1. [Especifique la dirección URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) para la página que desea probar y haga clic en **[!UICONTROL Create]**.
 
    >[!NOTE]
    >
@@ -41,9 +39,8 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
    Se abre [!UICONTROL Visual Experience Composer].
 
-1. Escriba un nombre para la actividad.
-
-   ![Campo Nombre de la actividad](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
+1. 
+   1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Cambiar nombre del icono](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Save]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 
@@ -71,8 +68,6 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
 1. [Cree las ofertas en cada ubicación](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
-   ![Cuadro de diálogo Editar texto/HTML](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
    Puede añadir los siguientes tipos de oferta:
 
    * HTML
@@ -81,35 +76,45 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
 1. Haga clic en **[!UICONTROL Preview]** para [obtener una vista previa de sus experiencias](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-   ![Previsualizar experiencias](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
+1. Haga clic en el icono **[!UICONTROL Show Experiences]** ( ![icono Mostrar experiencias](/help/main/assets/icons/WebPages.svg) ) para mostrar la lista de todas las experiencias en el cuadro izquierdo.
 
-   Puede ver cada experiencia y excluir aquellas que no quiere incluir en la prueba. Para excluir una o más experiencias, seleccione las casillas que desee y luego haga clic en **[!UICONTROL Exclude]**
+1. Haga clic en una experiencia específica en la lista para verla.
 
-   ![Excluir experiencias](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+1. (Condicional) Para excluir una o más experiencias de la actividad, haga clic en el icono **[!UICONTROL Manage Content]** ( ![icono Administrar experiencias](/help/main/assets/icons/Experience.svg) ) para mostrar el cuadro de diálogo [!UICONTROL Manage Experiences].
+
+1. (Condicional) En el cuadro de diálogo [!UICONTROL Manage Experiences], haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) junto a la experiencia que desea excluir y, a continuación, haga clic en **[!UICONTROL Exclude]**.
+
+   Puede elegir excluir una experiencia que muestre variaciones que entran en conflicto o una experiencia que no esté equilibrada desde el punto de vista estético.
+
+1. (Condicional) Para excluir varias experiencias, seleccione las casillas de verificación de las experiencias que desee y haga clic en **[!UICONTROL Exclude]**.
 
 1. [Utilice el estimador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para probar la viabilidad de su plan de prueba.
 
-   ![Indicador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
-
-   La siguiente ilustración indica que la actividad no tiene tráfico suficiente.
-
-   ![imagen del estimador](assets/estimator.png)
-
-   La siguiente ilustración indica que la actividad no tiene tráfico suficiente.
-
-   ![estimador2 imagen](assets/estimator2.png)
-
 1. Haga clic en **[!UICONTROL Next]** para avanzar a la página [!UICONTROL Targeting].
 
-1. Elija la audiencia y el porcentaje de visitantes correspondiente que desea que participen de la actividad.
+   El paso **Segmentación** le resultará familiar si ha utilizado otros tipos de actividad de [!DNL Target]. Aquí puede seleccionar una audiencia y especificar el porcentaje de visitantes que ven cada experiencia.
 
-   ![Página de segmentación en actividad MVT](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   El diagrama de flujo le guía durante el procedimiento para asignar una audiencia y su porcentaje de tráfico, seleccionar el método de asignación de tráfico y especificar la asignación de tráfico para cada experiencia en la actividad.
+
+1. (Condicional) Haga clic en el control **[!UICONTROL All Visitors]** para seleccionar otra audiencia para la actividad.
+
+   La audiencia [!UICONTROL All Visitors] está establecida como predeterminada. Si selecciona otra audiencia, su nombre se muestra en el control situado más a la izquierda.
+
+   Se muestra el marco derecho, que le permite añadir o eliminar una audiencia y asignar el porcentaje de visitante para la actividad.
+
+   1. Para cambiar la audiencia, haga clic en el icono **[!UICONTROL Replace]** ( ![Reemplazar icono](/help/main/assets/icons/Retweet.svg) ) en el marco derecho.
+   1. En el cuadro de diálogo [!UICONTROL Add Audience], [seleccione la audiencia que desee](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) y luego haga clic en **[!UICONTROL Assign Audience]**.
+
+      Puede hacer clic en **Combinar audiencias** para [crear una audiencia que combine varias audiencias](/help/main/c-target/combining-multiple-audiences.md).
+
+      Si necesita crear una audiencia nueva que no esté ya en [!UICONTROL Audience Library], haga clic en **Crear audiencia**. Durante el [flujo de trabajo create-audience](/help/main/c-target/c-audiences/audiences.md), puede elegir entre las siguientes opciones:
+
+      * **[!UICONTROL Audience Library]**: cree una audiencia bajo demanda que se guarde en [!UICONTROL Audience Library] y que pueda reutilizarse en otras actividades.
+      * **[!UICONTROL This activity only]**: cree una [audiencia específica de actividad](/help/main/c-target/creating-activity-only-audience.md) que no se haya guardado en [!UICONTROL Audience Library] y que solo se pueda usar en la actividad actual.
+
+   1. Haga clic en **[!UICONTROL Visitor Percentage]** en el cuadro derecho y, a continuación, elija el porcentaje de visitantes correspondiente que desea que participen de la actividad.
 
    Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % de la audiencia de California.
-
-   >[!NOTE]
-   >
-   >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas específicas en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. [Revise el resumen de la prueba](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7), realice los cambios que desee y luego haga clic en **[!UICONTROL Next]**.
 

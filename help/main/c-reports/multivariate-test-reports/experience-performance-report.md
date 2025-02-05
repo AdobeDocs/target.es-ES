@@ -4,26 +4,24 @@ description: Aprenda a utilizar el informe Rendimiento de las experiencias para 
 title: ¿Cómo se usa el informe de rendimiento de las experiencias para las pruebas multivariable?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: '326'
+ht-degree: 75%
 
 ---
 
-# Informe Rendimiento de las experiencias (MVT)
+# Informe [!UICONTROL Experience Performance] (MVT)
 
-El informe Rendimiento de las experiencias muestra cómo funciona cada experiencia de la actividad. Este informe incluye información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
+El informe [!UICONTROL Experience Performance] muestra el rendimiento de cada experiencia en la actividad. Este informe incluye información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
 
-Puede seleccionar una o varias experiencias para compararlas. Haga clic en una experiencia y seleccione **[!UICONTROL Preview]** para abrir la experiencia en un navegador web.
-
-![Informe de rendimiento de experiencias en Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
+Puede seleccionar una o varias experiencias para compararlas. Haga clic en una experiencia y seleccione **[!UICONTROL Preview]** para abrir la experiencia en una ficha del explorador.
 
 En la parte superior del informe se muestra la métrica, las fechas de inicio y finalización y la audiencia que se han empleado para elaborar el informe. Puede cambiar cualquiera de estos factores.
 
 >[!NOTE]
 >
->Los selectores de audiencia y de métricas solo están disponibles si Analytics se usa como fuente de informes.
+>Los selectores de audiencia y de métricas solo están disponibles si [!DNL Analytics] se usa como fuente de informes.
 
 A continuación se muestra un gráfico de líneas que compara cada experiencia en determinados intervalos de tiempo. Este gráfico permite observar el rendimiento de cada experiencia y cómo este puede variar según la hora del día.
 

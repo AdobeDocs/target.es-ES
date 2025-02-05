@@ -1,28 +1,28 @@
 ---
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
-description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente de búsqueda de productos de Google y  [!DNL Analytics] clasificaciones de productos.
+description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente  [!DNL Google Product Search] y  [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo se usa [!UICONTROL Feeds] en  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: a0cf6d497fc5b9a04888d0c6597c98bbbb639cbe
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 45%
+source-wordcount: '2417'
+ht-degree: 38%
 
 ---
 
 # Fuentes
 
-Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target] [!DNL Recommendations]. Las entidades se pueden enviar con archivos CSV, el formato de fuente de Búsqueda de productos de Google y [!DNL Adobe Analytics] clasificaciones de productos.
+Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target] [!DNL Recommendations]. Las entidades se pueden enviar mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Adobe Analytics] clasificaciones de productos.
 
 ## Resumen de fuentes {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Las fuentes le permiten pasar [Entidades](/help/main/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página, como margen, COGS, etc.
+Las fuentes le permiten pasar [Entidades](/help/main/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que no está disponible en la página o que no es seguro enviar directamente desde la página. Por ejemplo, margen, Coste de productos vendidos (COGS), etc.
 
-Las fuentes le permiten pasar información detallada del elemento a [!DNL Recommendations], como el ID del producto, la categoría, el nombre, el mensaje y otros atributos.
+Las fuentes también le permiten pasar información detallada del elemento a [!DNL Recommendations], como el ID del producto, la categoría, el nombre, el mensaje y otros atributos.
 
-Puede seleccionar las columnas de su archivo de clasificaciones de productos [!DNL Target] o del archivo de búsqueda de productos Google que desea enviar al servidor [!DNL Recommendations].
+Puede seleccionar las columnas de su archivo de clasificaciones de productos [!DNL Target] o del archivo [!DNL Google Product Search] que desea enviar al servidor [!DNL Recommendations].
 
 Estos datos sobre cada elemento se pueden utilizar para lo siguiente:
 
@@ -31,24 +31,24 @@ Estos datos sobre cada elemento se pueden utilizar para lo siguiente:
 * Ordenar elementos en diferentes colecciones
 * Aplicación de exclusiones a recomendaciones
 
-Las descripciones de los elementos se pueden pasar a [!DNL Target] mediante fuentes o mboxes. Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
+Las descripciones de los elementos se pueden pasar a [!DNL Target] mediante fuentes o mboxes. Si [!DNL Target] recopila datos mediante una fuente de entidades y un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
 La lista [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) proporciona información sobre cualquier fuente que haya creado.
-
-![Página Fuentes](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
 La página [!UICONTROL Feeds] contiene las siguientes columnas:
 
 * **Nombre**: El nombre de la fuente especificada durante la creación. Para editar el nombre de una fuente, debe editar la propia fuente. Al guardar la fuente con el nuevo nombre, se actualiza.
-* **Tipo**: Los tipos incluyen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Fuente de productos de Google](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) y [Clasificaciones de Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Estado**: [Estado actual de la fuente](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Programación**: Muestra la programación de actualización de la fuente: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] o [!UICONTROL Never].
+* **Tipo**: los tipos incluyen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) y [Clasificaciones de Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Elementos**: Muestra el número de elementos de la fuente.
-* **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente. Si la fuente [!UICONTROL Last Updated] indica &quot;sin definir&quot;, la fuente procede de [!DNL Recommendations Classic] y no se puede cambiar desde [!DNL Target Premium Recommendations].
+* **Programación**: Muestra la programación de actualización de la fuente: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] o [!UICONTROL Never].
+* **Última actualización**: muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que actualizó la fuente.
 
-Haga clic en el icono Información para mostrar una tarjeta con la última fecha de carga y la dirección URL de la fuente.
+Haga clic en el icono [!UICONTROL Customize Table] ( ![Personalizar icono de tabla](/help/main/assets/icons/ColumnSetting.svg) ) para seleccionar o anular la selección de las columnas que desee mostrar.
 
-Haga clic en el icono de los tres puntos para tener acceso a las siguientes acciones: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] y [!UICONTROL Delete].
+Haga clic en el icono [!UICONTROL Information] ( ![icono de información](/help/main/assets/icons/InfoOutline.svg) ) para mostrar una tarjeta que muestre la última fecha de carga y la dirección URL de la fuente.
+
+Haga clic en el icono [!UICONTROL More Actions] ( ![icono de más acciones](/help/main/assets/icons/MoreSmallList.svg) ) para obtener acceso a las siguientes acciones: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] y [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -59,13 +59,13 @@ Haga clic en el icono de los tres puntos para tener acceso a las siguientes acci
 
 ## Tipos de Source
 
-Las entidades se pueden enviar con archivos CSV, el formato de fuente de Búsqueda de productos de Google y [!DNL Adobe Analytics] clasificaciones de productos.
+Las entidades se pueden enviar mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Adobe Analytics] clasificaciones de productos.
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
 Puede crear un archivo .csv utilizando el formato de carga CSV propiedad de [!DNL Adobe]. El archivo contiene información de visualización sobre los atributos reservados y personalizados para sus productos. Para cargar atributos específicos de su implementación, reemplace `CustomN` en la fila del encabezado con el nombre del atributo que desea utilizar. En el ejemplo siguiente, `entity.Custom1` ha sido reemplazado por `entity.availability`. A continuación, puede subir de forma masiva el archivo al servidor de [!DNL Recommendations].
 
-El uso del formato .csv tiene las siguientes ventajas sobre el formato de Google Feed:
+El uso del formato .csv tiene las siguientes ventajas con respecto al formato de fuente [!DNL Google]:
 
 * El formato .csv no requiere asignaciones de campos.
 * El formato .csv admite atributos de varios valores (consulte el ejemplo siguiente).
@@ -93,7 +93,7 @@ La sintaxis correcta sería esta:
 
 >[!NOTE]
 >
->No se puede sobrescribir un valor existente con un valor en blanco. Pase otro valor en su lugar para sobrescribirlo. En el caso de un precio de venta, una solución común es pasar un &quot;NULL&quot; real o algún otro mensaje. A continuación, puede escribir una regla de plantilla para excluir los artículos con el valor en cuestión.
+>No se puede sobrescribir un valor existente con un valor en blanco. Pase otro valor en su lugar para sobrescribir el valor existente. En el caso de un precio de venta, una solución común es pasar un &quot;NULL&quot; real o algún otro mensaje. A continuación, puede escribir una regla de plantilla para excluir los artículos con el valor en cuestión.
 
 El producto está disponible en la interfaz de administración de aproximadamente dos horas después de cargar su entidad correctamente.
 
@@ -111,31 +111,31 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-El tipo de fuente de Búsqueda de productos de Google utiliza el formato de Google. Es distinto del formato de carga CSV propiedad de [!DNL Adobe].
+El tipo de fuente [!DNL Google Product Search] usa el formato [!DNL Google]. Es distinto del formato de carga CSV propiedad de [!DNL Adobe].
 
-Si tiene una fuente de productos de Google existente, puede usarla como su archivo de importación.
-
->[!NOTE]
->
->No es obligatorio usar datos de Google. [!DNL Recommendations] utiliza el mismo formato que Google. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. No obstante, debe conservar los nombres de atributo predefinidos de Google al configurar el archivo.
-
-La mayoría de los minoristas cargan productos en Google, por lo que cuando un visitante utiliza la búsqueda de productos de Google, se muestran sus productos. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y pueden usar los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
+Si ya tiene un(a) [!DNL Google Product Feed], puede utilizarlo como archivo de importación.
 
 >[!NOTE]
 >
->El método POST debe estar permitido en el servidor que hospeda el contenido de las fuentes de Google.
+>No es necesario usar los datos de [!DNL Google]. [!DNL Recommendations] usa el mismo formato que [!DNL Google]. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. Sin embargo, debe conservar los nombres de atributo predefinidos de [!DNL Google] al configurar el archivo.
 
-Dado que los usuarios de [!DNL Recommendations] ya han configurado las fuentes .xml o .txt para enviarlas a Google a través de una dirección URL o un FTP, las fuentes de entidades aceptan esos datos de productos y los utilizan para crear el catálogo de Recommendations. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
+La mayoría de los comerciantes cargan productos en [!DNL Google], por lo que cuando un visitante usa la búsqueda de productos de [!DNL Google], se muestran sus productos. [!DNL Recommendations] sigue exactamente la especificación [!DNL Google] para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y pueden usar los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en [[!DNL Google] páginas de compras](https://www.google.com/prdhp).
 
-Si utiliza la búsqueda de productos de Google para cargar la fuente de la entidad, aún debe tener un mbox de página de producto en la página si desea mostrar recomendaciones o rastrear vistas de productos para la entrega de algoritmos basados en vistas.
+>[!NOTE]
+>
+>Se debe permitir el método POST en el servidor que hospeda el contenido de la fuente [!DNL Google].
 
-Las fuentes de Google no admiten valores múltiples para un atributo personalizado.
+Dado que los usuarios de [!DNL Recommendations] ya configuraron las fuentes .xml o .txt para enviarlas a [!DNL Google] a través de una dirección URL o un FTP, las fuentes de entidades aceptan esos datos de productos y los utilizan para generar el catálogo de recomendaciones. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
+
+Si usa [!DNL Google Product Search] para la carga de fuente de entidades, aún debe tener un mbox de página de producto en la página si desea mostrar recomendaciones o rastrear vistas de productos para la entrega de algoritmos basados en vistas.
+
+[!DNL Google] fuentes no admiten varios valores para un atributo personalizado.
 
 La fuente se ejecuta en el momento en que la guarda y activa. Se ejecuta en el momento en que se guarda la fuente y, a continuación, todos los días una hora después.
 
-El siguiente es un código de muestra para un archivo .xml de una fuente de Google Product Search:
+El siguiente es un ejemplo de código para un archivo .xml de fuente [!DNL Google Product Search]:
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -202,7 +202,7 @@ El siguiente es un código de muestra para un archivo .xml de una fuente de Goog
 </feed> 
 ```
 
-El siguiente es un código de muestra para un archivo .tsv de una fuente de Google Product Search:
+El siguiente es un ejemplo de código para un archivo .tsv de fuente [!DNL Google Product Search]:
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >
@@ -227,9 +227,7 @@ La clasificación de producto [!DNL Analytics] es la única clasificación dispo
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
-1. En la interfaz de Target, haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
-
-   ![Cuadro de diálogo Crear fuente](assets/CreateFeed.png)
+1. Desde la interfaz [!DNL Target], haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
 1. Elija un nombre descriptivo para la fuente.
 1. Seleccione un(a) **[!UICONTROL Source Type]**.
@@ -257,8 +255,6 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. Haga clic en la flecha **[!UICONTROL Next]** para mostrar las opciones de [!UICONTROL Schedule].
 
-   ![Resultado del paso](assets/CreateFeedSchedule.png)
-
 1. Seleccione una opción de actualización:
 
    * [!UICONTROL Daily]
@@ -272,15 +268,13 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. Haga clic en la flecha **[!UICONTROL Next]** para mostrar las opciones de [!UICONTROL Mapping] y, a continuación, especifique cómo desea asignar los datos a las definiciones de [!DNL Target].
 
-   ![Resultado del paso](assets/CreatFeedMapping.png)
-
 1. (Opcional) Si quiere que la fuente pertenezca a un entorno (grupo de hosts), seleccione el grupo de hosts.
 
    De manera predeterminada, la fuente pertenece a todos los grupos de hosts. De este modo se garantiza que los elementos de la fuente estén disponibles en cualquier entorno. Para obtener más información, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-Después de crear o editar una fuente, esta se ejecuta inmediatamente. A continuación, la fuente se actualiza según los parámetros que haya establecido. La información tarda un poco en estar disponible. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece en [Estado de fuente](/help/main/c-recommendations/c-products/feeds.md#status) en la lista Fuentes. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
+Después de crear o editar una fuente, esta se ejecuta inmediatamente. A continuación, la fuente se actualiza según los parámetros que haya establecido. La información tarda un poco en estar disponible. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece en [Estado de fuente](/help/main/c-recommendations/c-products/feeds.md#status) en la lista [!UICONTROL Feeds]. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
 
 Mientras la indización está en curso, se muestran los encabezados de la fuente y los productos antes de indizar los valores individuales. Esto le permite buscar y ver productos para poder crear colecciones, exclusiones, diseños y actividades antes de completar la indexación.
 

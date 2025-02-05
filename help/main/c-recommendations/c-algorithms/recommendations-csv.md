@@ -1,14 +1,14 @@
 ---
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
 description: Aprenda a cargar un archivo CSV para personalizar las recomendaciones en el Adobe  [!DNL Target] Recommendations.
-title: ¿Cómo se cargan criterios personalizados en Recommendations?
+title: ¿Cómo se cargan criterios personalizados en  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -26,17 +26,17 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Haga clic en **[!UICONTROL Create Criteria]**.
+1. Haga clic en **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
 1. Rellene la información de la sección [Información básica](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-   1. En la lista desplegable Tipo **[!UICONTROL Select Algorithm]**, seleccione **[!UICONTROL Custom Criteria]**.
+1. En la lista desplegable **[!UICONTROL Select Algorithm Type]**, seleccione **[!UICONTROL Custom Criteria]**.
 
-   1. En la lista desplegable **[!UICONTROL Algorithm]**, seleccione **[!UICONTROL Custom Algorithm]**.
+1. En la lista desplegable **[!UICONTROL Algorithm]**, seleccione **[!UICONTROL Custom Algorithm]**.
 
-      >[!NOTE]
-      >
-      >Los pasos anteriores hacen que la sección [!UICONTROL Upload CSV] se muestre en la parte inferior del cuadro de diálogo [!UICONTROL Create New Criteria].
+   >[!NOTE]
+   >
+   >Los pasos anteriores hacen que la sección [!UICONTROL Upload CSV] se muestre en la parte inferior del cuadro de diálogo [!UICONTROL Create Criteria].
 
 1. (Condicional) Rellene la información de la sección [Contenido de copia de seguridad](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
@@ -44,16 +44,15 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
 
 1. En la sección **[!UICONTROL Upload CSV]**, seleccione el **[!UICONTROL Location]** de su archivo CSV.
 
-   ![Cargar sección CSV](assets/upload-csv.png)
+El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Download the CSV template]** para obtener un archivo CSV con el formato correcto.
 
-   El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Download the CSV template]** para obtener un archivo CSV con el formato correcto.
+Tiene dos opciones de ubicación:
 
-   Tiene dos opciones de ubicación:
+    * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
+    
+    * **URL:** Para cargar el archivo CSV desde una dirección URL, seleccione **[!UICONTROL URL]** y, a continuación, escriba una dirección URL de fuente.
 
-   * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
-   * **URL:** Para cargar el archivo CSV desde una dirección URL, seleccione **[!UICONTROL URL]** y después escriba una dirección URL de fuente.
-
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
 ## Consideraciones
 
@@ -65,7 +64,7 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
 
 * Los criterios personalizados se actualizan una vez cada 24 horas.
 
-  Puede ver el estado de carga y sincronización de los criterios personalizados en la parte inferior de cada tarjeta de criterios, en la página [!UICONTROL Recommendations] > [!UICONTROL Criteria]. También puede ver el estado en el cuadro de diálogo [!UICONTROL Edit] al editar criterios personalizados.
+  Puede ver el estado de carga y sincronización de los criterios personalizados cargados para cada criterio en la página [!UICONTROL Recommendations] > [!UICONTROL Criteria]. También puede ver el estado en el cuadro de diálogo [!UICONTROL Edit] al editar criterios personalizados.
 
 * El flujo para una carga sin errores debe ser [!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful].
 
@@ -74,18 +73,8 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
   | Mensaje de error | Detalles |
   |--- |--- |
   | Error desconocido | Indica un error técnico interno. |
-  | Error de análisis | Probablemente exista un problema con el formato del archivo fuente. Corrija el formato del archivo y vuelva a guardar el algoritmo, que reinicia el proceso de descarga del archivo. |
+  | Error de análisis | Probablemente exista un problema con el formato del archivo fuente. Corrija el formato del archivo y vuelva a guardar el algoritmo, lo que reinicia el proceso de descarga del archivo. |
   | Servidor no encontrado | Proporcione una IP o un nombre de servidor que sea visible en Internet. |
   | Error de credenciales | Proporcione un usuario y una contraseña válidos para una cuenta activa en el servidor. |
   | No se ha encontrado el directorio | Indique un directorio que exista en el servidor. |
   | No se ha encontrado el archivo | Indique el nombre de un archivo que exista en el servidor del directorio indicado. |
-
-## Vídeo de formación: Crear criterios en Recommendations (12:33) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
-
-Este vídeo contiene la siguiente información (los detalles sobre cómo cargar criterios personalizados comienzan a las 11:43):
-
-* Crear criterios
-* Crear secuencias de criterios
-* Cargar criterios personalizados
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

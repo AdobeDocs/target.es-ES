@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo especificar métricas en una activ
 title: ¿Cómo configuro las métricas de objetivo en una actividad [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 59%
@@ -20,7 +20,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte [Mé
 1. Especificar el objetivo de la actividad.
 1. Seleccionar una [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![Lista Definir métricas](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![Lista Definir métricas](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    La página [!UICONTROL Select Metrics] enumera las métricas de éxito que puede elegir para su actividad. Las métricas de éxito se dividen en las categorías siguientes:
 
@@ -41,7 +41,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte [Mé
    Para obtener más información, consulte [Métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Opcional) Añada otras métricas.
-1. Haga clic en **[!UICONTROL Continue]** cuando termine de configurar las métricas.
+1. Haga clic en **[!UICONTROL Save and Close]** cuando termine de configurar las métricas.
 
 Al asignar un nombre a una métrica o cambiarla por otro, no se permiten los siguientes caracteres:
 

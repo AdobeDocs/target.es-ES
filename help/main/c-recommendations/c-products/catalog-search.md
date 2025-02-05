@@ -1,105 +1,76 @@
 ---
-keywords: búsqueda en el catálogo;catálogo;búsqueda;exclusión;colección;filtro
-description: Aprenda a utilizar la búsqueda en el catálogo de Recommendations para localizar productos o contenido, crear colecciones o exclusiones, eliminar elementos del catálogo y mucho más.
-title: ¿Cómo utilizo la búsqueda en el catálogo de Recommendations?
+keywords: búsqueda en el catálogo;catálogo;búsqueda;exclusión;colección;filtro;recomendaciones
+description: Aprenda a usar  [!DNL Recommendations] [!UICONTROL Catalog Search] para localizar productos o contenido, quitar elementos del catálogo y mucho más.
+title: ¿Cómo se usa  [!DNL Recommendations] [!UICONTROL Catalog Search]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '508'
 ht-degree: 22%
 
 ---
 
-# Buscar en el catálogo
+# [!UICONTROL Catalog Search]
 
-La página [!UICONTROL Catalog Search] de [!DNL Adobe Recommendations] le ayuda a localizar los productos o el contenido en su catálogo. La tarea más básica que puede realizar en esta página es buscar un elemento. Además, puede cambiar el entorno, guardar los resultados de búsqueda en colecciones o exclusiones, agregar facetas de filtro, modificar columnas en la tabla, agregar nuevas facetas de búsqueda y mucho más.
+La página [!UICONTROL Catalog Search] de [!DNL Adobe Recommendations] le ayuda a localizar los productos o el contenido en su catálogo. La tarea más básica que puede realizar en esta página es buscar un elemento. Además, puede cambiar el entorno, filtrar facetas, modificar columnas de la tabla, agregar nuevas facetas de búsqueda y más.
 
 Los catálogos hacen referencia a todo el conjunto de productos (entidades). El catálogo puede contener muchas colecciones, una forma de organizar los productos en bloques lógicos.
 
-## Búsqueda en el catálogo de acceso
+## Acceder a [!UICONTROL Catalog Search]
 
-Para tener acceso a la página [!UICONTROL Catalog Search], haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Para tener acceso a la página [!UICONTROL Catalog Search], haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-![Página de búsqueda en el catálogo](/help/main/c-recommendations/c-products/assets/catalog-search.png)
+1. (Opcional) Para aplicar filtros a la búsqueda, haga clic en el icono **[!UICONTROL Show Filters]** ( ![Icono Mostrar filtros](/help/main/assets/icons/Filter.svg) ). Puede filtrar por [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] y [!UICONTROL Value].
 
-## Buscar un elemento
+## Realice una búsqueda sencilla
 
-Puede utilizar una búsqueda simple o una búsqueda avanzada para localizar elementos en su catálogo.
+1. Escriba un término de búsqueda en el campo **[!UICONTROL Search In]**.
 
-### Realice una búsqueda sencilla
-
-1. Escriba un término de búsqueda en el campo **[!UICONTROL Search Products]**.
-
-1. (Opcional) Puede restringir la búsqueda seleccionando una opción de búsqueda en el menú de opciones que se muestra al hacer clic en la flecha hacia abajo del campo de búsqueda.
-
-   ![imagen searchproductsmenu](assets/searchproductsmenu.png)
+1. (Opcional) Puede restringir la búsqueda seleccionando una opción de búsqueda en el menú de opciones que se muestra al hacer clic en la flecha hacia abajo del campo [!UICONTROL Search In].
 
    Las opciones de búsqueda son las siguientes:
 
-   * ALL: busca en todos los demás criterios de búsqueda mediante la lógica OR.
-   * Nombre
-   * Marca
-   * Categoría
    * ID
+   * Nombre
    * Mensaje
 
-1. Ahora puede desplazarse por los elementos de los resultados de búsqueda para ver miniaturas y otra información del producto.
-
-   La siguiente ilustración muestra los resultados de &quot;bicicleta&quot; con la opción Todos.
-
-   ![Buscar en el catálogo la bicicleta](/help/main/c-recommendations/c-products/assets/bike-results.png)
-
-   El número que se muestra junto a “Productos” es el número de productos que coincide con el término de búsqueda, con respecto al total disponible en el entorno especificado.
-
-   Tenga en cuenta que puede utilizar la funcionalidad de búsqueda autocompletada. En la siguiente ilustración, al escribir &quot;bicicleta&quot; se devuelven todos los productos que contienen la palabra &quot;bicicleta&quot;.
-
-   ![Autocompletar búsqueda](/help/main/c-recommendations/c-products/assets/bike-results-2.png)
+1. Desplácese por los elementos de los resultados de búsqueda para ver miniaturas y otra información del producto.
 
    >[!NOTE]
    >
-   >Cuando se realiza una búsqueda en el catálogo de un atributo personalizado con un valor numérico, los resultados tratan al atributo personalizado como un tipo de cadena en lugar de un valor numérico.
+   > Cuando se realiza una búsqueda en el catálogo de un atributo personalizado con un valor numérico, los resultados tratan al atributo personalizado como un tipo de cadena en lugar de un valor numérico.
    >
-   >Actualmente, no hay ninguna funcionalidad disponible que permita cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos cuyo tipo necesitan que cambie de cadena a numérico.
+   >Actualmente no hay ninguna funcionalidad disponible que permita cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos cuyo tipo necesitan que cambie de cadena a numérico.
 
-1. También puede utilizar filtros para encontrar el producto deseado. En el ejemplo siguiente, expandiendo la faceta [!UICONTROL Collections] y seleccionando &quot;Herramientas para bicicletas&quot;, se muestran todas las herramientas para bicicletas del catálogo.
+<!-- ### Perform an advanced search {#advanced-search}
 
-   ![Herramientas para bicicletas](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
+You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/main/c-recommendations/c-products/collections.md) or [exclusion](/help/main/c-recommendations/c-products/exclusions.md).
 
-1. Puede buscar más en la lista de resultados introduciendo un término de búsqueda, por ejemplo &quot;cadena&quot;.
+1. Click the **[!UICONTROL Advanced Search]** link.
 
-   ![Buscar cadena](/help/main/c-recommendations/c-products/assets/bike-results-4.png)
+   ![Advanced Search page](/help/main/c-recommendations/c-products/assets/advances-search.png)
 
-### Realizar una búsqueda avanzada {#advanced-search}
+1. Use the drop-down lists to specify the parameter, operator, and values for your search.
 
-Puede usar [!UICONTROL Advanced Search] para restringir aún más los resultados de búsqueda o para guardar los resultados de búsqueda como [colección](/help/main/c-recommendations/c-products/collections.md) o [exclusión](/help/main/c-recommendations/c-products/exclusions.md).
+1. (Optional) Click **[!UICONTROL Add Rule]** to add an additional search rule.
 
-1. Haga clic en el vínculo **[!UICONTROL Advanced Search]**.
+   Each additional search rule is joined with the AND operator.
 
-   ![Página de búsqueda avanzada](/help/main/c-recommendations/c-products/assets/advances-search.png)
+1. Click **[!UICONTROL Search]**.
 
-1. Utilice las listas desplegables para especificar el parámetro, el operador y los valores para la búsqueda.
+1. (Optional) Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
 
-1. (Opcional) Haga clic en **[!UICONTROL Add Rule]** para agregar una regla de búsqueda adicional.
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-   Cada regla de búsqueda adicional se une con el operador AND.
-
-1. Haga clic en **[!UICONTROL Search]**.
-
-1. (Opcional) Haga clic en **[!UICONTROL Save As]** y luego haga clic en **[!UICONTROL Collection]** o **[!UICONTROL Exclusion]**.
-
-   ![Guardar como opciones](/help/main/c-recommendations/c-products/assets/save-as.png)
-
-   Para obtener más información, consulte [Crear una colección o exclusión basada en la búsqueda avanzada](#save-as) a continuación.
+   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.-->
 
 ## Ver los detalles de un elemento
 
 Puede ver los detalles de un elemento individual, incluidos el ID, el nombre, el mensaje, la categoría, etc., consultando sus detalles.
 
 1. Haga clic en un elemento de los resultados de búsqueda para ver sus detalles.
-
-   ![Detalles del producto](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
 
 ## Eliminar un elemento del catálogo
 
@@ -117,60 +88,52 @@ El índice del catálogo se crea automáticamente al cargar la primera fuente y 
 
 El catálogo se actualiza automáticamente cuando se reciben actualizaciones mediante archivos de fuentes, API o actualizaciones de mbox. Las actualizaciones se suelen completar en una hora. Si las actualizaciones están en curso, se muestra la hora en la que se inició la más reciente. Si no hay actualizaciones en curso, se muestra la hora de inicio y finalización de la más reciente.
 
-## Crear una colección o exclusión basada en la Búsqueda avanzada {#save-as}
+<!-- ## Create a collection or exclusion based on Advanced Search {#save-as}
 
-Puede crear [colecciones](/help/main/c-recommendations/c-products/collections.md) o [exclusiones](/help/main/c-recommendations/c-products/exclusions.md) utilizando [!UICONTROL Advanced Search] en la página [!UICONTROL Catalog Search] ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-1. Realice una [búsqueda avanzada](#advanced-search).
+1. Perform an [advanced search](#advanced-search).
 
-1. Haga clic en **[!UICONTROL Save As]** y luego en **[!UICONTROL Collection]** o **[!UICONTROL Exclusion]**.
+1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
 
-   ![Guardar como opciones](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
-   >La funcionalidad [!UICONTROL Advanced Search] no distingue entre mayúsculas y minúsculas; sin embargo, los productos devueltos en el momento de la entrega se basan en la búsqueda que distingue entre mayúsculas y minúsculas. Esta diferencia puede llevar a confusiones. Asegúrese de tener en cuenta la distinción entre mayúsculas y minúsculas al crear colecciones o exclusiones basadas en resultados que utilicen la funcionalidad [!UICONTROL Advanced Search]. Por ejemplo, si busca “Vacaciones”, obtendrá resultados que contienen “Vacaciones” y “vacaciones”. Si a continuación crea un catálogo con la intención de obtener productos que contengan “vacaciones”, solo se devolverán los productos que contienen “vacaciones”, pero no los productos que contengan “Vacaciones”. Las exclusiones se gestionan de forma similar.
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.-->
 
 ## Cambiar el entorno
 
 Los [entornos](/help/main/administrating-target/environments.md) le permiten organizar sus sitios y entornos de preproducción para facilitar la administración y la generación de informes individuales.
 
-1. Haga clic en el vínculo Entorno.
+1. Haga clic en el icono Mostrar filtros ( ![Icono Mostrar filtros](/help/main/assets/icons/Filter.svg) ).
 
-   ![Vínculo de entorno](/help/main/c-recommendations/c-products/assets/environment.png)
+1. Seleccione el entorno que desee en la lista desplegable **[!UICONTROL Environment]**.
 
-1. Seleccione el entorno que desee.
+<!-- ## Modify the Catalog Search page (filters and columns)
 
-## Modificación de la página Buscar en el catálogo (filtros y columnas)
+You can temporarily modify the available filters and columns on the [!UICONTROL Catalog Search] page for the current session.
 
-Puede modificar temporalmente los filtros y las columnas disponibles en la página [!UICONTROL Catalog Search] para la sesión actual.
+### Modify filters
 
-### Modificación de filtros
+You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 
-Puede agregar facetas de filtro adicionales a la página [!UICONTROL Catalog Search].
+1. In the **[!UICONTROL Filters]** panel, click **[!UICONTROL Modify]**.
 
-1. En el panel **[!UICONTROL Filters]**, haga clic en **[!UICONTROL Modify]**.
+   ![Modify filters link](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
-   ![Modificar vínculo de filtros](/help/main/c-recommendations/c-products/assets/modify-filters.png)
+1. Select the desired search facets (ID, name, message, etc.), then click **[!UICONTROL Save]**.
 
-1. Seleccione las facetas de búsqueda que desee (ID, nombre, mensaje, etc.) y haga clic en **[!UICONTROL Save]**.
+   ![Add filters](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
-   ![Agregar filtros](/help/main/c-recommendations/c-products/assets/add-filters.png)
+Keep in mind that the additional filter facets are available in the current session only.-->
 
-Tenga en cuenta que las facetas de filtro adicionales solo están disponibles en la sesión actual.
+## Modificar columnas
 
-### Modificar columnas
+Puede modificar las columnas activas en la página [!UICONTROL Catalog Search].
 
-Puede modificar temporalmente las columnas activas en la página [!UICONTROL Catalog Search].
+1. Haga clic en el icono **[!UICONTROL Customize Table]** ( ![Personalizar icono de tabla](/help/main/assets/icons/ColumnSetting.svg) ).
 
-1. Haga clic en el vínculo **[!UICONTROL Columns]**.
+1. Seleccione o anule la selección de las columnas que desee mostrar u ocultar.
 
-   ![Opciones de columnas](/help/main/c-recommendations/c-products/assets/columns.png)
-
-1. (Condicional) Para reordenar el orden de las columnas activas, arrastre y suelte las columnas de la sección **[!UICONTROL Active Columns]** en el orden deseado.
-
-1. (Condicional) Arrastre y suelte los elementos de **[!UICONTROL Active Columns]** en **[!UICONTROL Inactive Columns]** (y viceversa) según sus preferencias.
-
-   También puede hacer clic en el icono Eliminar ( x ) junto a la columna que desea mover de la sección activa a inactiva.
-
-Tenga en cuenta que cualquier cambio que realice se aplicará únicamente a la sesión actual.
+Los cambios que realice serán persistentes en todas las sesiones.

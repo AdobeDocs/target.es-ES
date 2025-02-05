@@ -1,14 +1,14 @@
 ---
 keywords: desduplicar;permitir duplicados;excluir ofertas duplicadas;personalización automatizada;no permitir ofertas duplicadas;excluir;contenido predeterminado;grupo de exclusión;
-description: Administrar exclusiones en actividades  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP). Cree grupos de exclusión y excluya ofertas duplicadas, experiencias específicas y contenido predeterminado.
+description: Administrar exclusiones en actividades [!UICONTROL Automated Personalization] (AP).
 title: ¿Cómo administro las exclusiones en las actividades de [!UICONTROL Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '915'
 ht-degree: 41%
 
 ---
@@ -27,9 +27,11 @@ También puede limitar qué audiencias pueden ver ofertas específicas en activi
 
 **Para crear un grupo de exclusión:**
 
-1. Mientras [crea o edita una actividad AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), haga clic en **[!UICONTROL Manage Content]** en la barra de encabezado.
+1. Mientras [crea o edita una actividad AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), haga clic en el icono **[!UICONTROL Manage Content]** ( ![icono Administrar contenido](/help/main/assets/icons/Experience.svg) ).
 
-   ![Enlace de Administrar contenido](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   Se muestra el cuadro de diálogo [!UICONTROL Manage Content].
+
+1. Haga clic en la ficha **[!UICONTROL Experiences]**.
 
 1. En el cuadro de diálogo [!UICONTROL Manage Content], haga clic en **[!UICONTROL Exclusion Groups]**.
 
