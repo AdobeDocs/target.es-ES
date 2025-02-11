@@ -4,7 +4,7 @@ description: Comprenda los cambios introducidos en el Compositor de experiencias
 title: ¿Qué cambios se introducen en el nuevo Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -57,11 +57,11 @@ Haga clic en el icono [!UICONTROL More Options] ( ![icono Más acciones](/help/m
 
 ### [!UICONTROL Properties] panel (nuevo)
 
-El nuevo panel [!UICONTROL Properties] le permite cambiar las propiedades de los elementos seleccionados en la página, ya sean estos elementos elementos HTML u objetos específicos de [!DNL Target], como recomendaciones u ofertas.
+El nuevo panel [!UICONTROL Properties] le permite cambiar las propiedades de los elementos seleccionados en la página, ya sean estos elementos HTML u objetos específicos de [!DNL Target], como recomendaciones u ofertas.
 
 ![Panel de propiedades](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-Haga clic en los iconos de la parte superior del panel para editar el código del HTML o eliminar, duplicar u ocultar elementos. Los cambios aparecerán en el panel [!UICONTROL Modifications].
+Haga clic en los iconos de la parte superior del panel para editar el código HTML o eliminar, duplicar u ocultar elementos. Los cambios aparecerán en el panel [!UICONTROL Modifications].
 
 El panel [!UICONTROL Properties] se puede contraer en el carril derecho. Haga clic en el icono [!UICONTROL Show/Hide Properties] ( ![icono Propiedades](/help/main/assets/icons/Propertie.svg) ) a la derecha del panel para contraer o mostrar el panel [!UICONTROL Properties].
 
