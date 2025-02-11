@@ -4,9 +4,9 @@ description: Comprenda los cambios introducidos en el Compositor de experiencias
 title: ¿Qué cambios se introducen en el nuevo Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 75f44b7ea4c3aff0e33cc2ee54bc39a705deaf2a
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (del 11 de febrero de 2015) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones anteriores y actualizadas del VEC.
 
+>[!IMPORTANT]
+>
+>El(la) [!UICONTROL Visual Editing Composer] actualizado(a) requiere la extensión [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible(a) en Chrome Web Store.
+
 El VEC se muestra cuando crea o edita una actividad existente.
 
 ![Compositor de experiencias visuales (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## Cambios importantes
+## Cambios importantes en el VEC
 
 Las siguientes secciones explican los cambios más importantes en el VEC actualizado en comparación con la versión anterior.
 
@@ -99,4 +103,6 @@ El VEC actualizado también le permite acercar o alejar la vista haciendo clic e
 
 La siguiente ilustración muestra los cambios de interfaz de usuario de alto nivel realizados en el VEC actualizado. La parte superior de la ilustración muestra la IU actualizada del VEC y la parte inferior muestra la IU anterior. Las flechas muestran dónde se han movido varios elementos.
 
-![Comparación de VEC nueva respecto a la IU anterior](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+(Haga clic en la imagen para expandirla al ancho completo del explorador).
+
+![Comparación de VEC nueva respecto a la IU anterior](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
