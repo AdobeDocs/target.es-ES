@@ -4,9 +4,9 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 15%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: sábado, 07 de febrero de 2025**
+**Última actualización: martes, 10 de febrero de 2025**
 
 >[!NOTE]
 >
@@ -41,11 +41,14 @@ A medida que continúa el esfuerzo de modernización de la interfaz de usuario d
 En función del último sistema de diseño de [!DNL Adobe Spectrum], la actualización estandariza los patrones de diseño que antes eran incoherentes, a la vez que agrega nuevas mejoras, como las siguientes:
 
 * [Se ha rediseñado el sistema de informes](/help/main/administrating-target/reporting.md) para obtener mejores datos sobre los resultados de la actividad
-* Se ha actualizado la página [!UICONTROL Audit], obteniendo ahora la información de [!DNL Audit API] para obtener información en tiempo real
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) página, obteniendo ahora la información de [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} para obtener información en tiempo real
 * [Vistas de lista personalizables](/help/main/c-activities/activities.md) para obtener una mejor flexibilidad en las diferentes necesidades del equipo
 * [Pantallas de información y detalles rápidos mejorados](/help/main/c-activities/activities.md) para facilitar el acceso a la información
 * [Opciones de filtro y búsqueda persistentes de sesión](/help/main/c-activities/activities.md)
 * Se ha [reconstruido por completo [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) con compatibilidad para las últimas actualizaciones de seguridad de los proveedores de exploradores y una interfaz de usuario moderna
+
+  Para obtener información sobre las diferencias entre el VEC actualizado y la versión anterior, consulte [Cambios en el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
 * [Se ha actualizado [!DNL Chrome] la extensión](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) que admite Manifiesto V3 para aumentar la seguridad y mejorar la compatibilidad con cookies de origen
 
 ![Actualización de actividades](/help/main/r-release-notes/assets/activities-refresh.png)
