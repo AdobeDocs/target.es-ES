@@ -1,18 +1,18 @@
 ---
 keywords: compositor de experiencias visuales;vec;url predeterminada;compositor de experiencias mejorado;eec;contenido mixto;instantáneas de experiencias;ventanilla móvil;css;selectores css
-description: Aprenda a configurar el Adobe  [!DNL Target] Compositor de experiencias visuales (VEC) especificando su configuración general, la configuración de las ventanillas móviles y los selectores CSS.
+description: Aprenda a configurar el  [!DNL Target] Compositor de experiencias visuales (VEC) de Adobe especificando su configuración general, la configuración de la ventanilla móvil y los selectores CSS.
 title: ¿Cómo configuro el Compositor de experiencias visuales (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '676'
 ht-degree: 49%
 
 ---
 
-# Configuración del Compositor de experiencias visuales
+# Configurar [!UICONTROL Visual Experience Composer]
 
 Configure [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando su configuración general, la configuración de las ventanillas móviles y los selectores CSS.
 

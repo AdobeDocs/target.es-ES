@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be6bc2b1ed05f1e54ac6399a20e1e26dd78b4e2a
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 33%
+source-wordcount: '206'
+ht-degree: 32%
 
 ---
 
@@ -21,7 +21,8 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
-| 12 de febrero | [Exploradores compatibles](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Se agregó información sobre los exploradores que son compatibles con una implementación de Target usando el [!DNL Adobe Experience Platform Web SDK]. |
+| 12 de febrero | [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Se ha actualizado todo el tema para explicar el VEC actualizado introducido en la versión de [!DNL Target Standard/Premium] 25.2.1 (12 de febrero de 2025). |
+|  | [Exploradores compatibles](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Se agregó información sobre los exploradores que son compatibles con una implementación de Target usando el [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Cambios en el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nuevo artículo para explicar las diferencias entre las versiones anteriores y actualizadas del VEC. |
 |  | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión para la actualización de la interfaz de usuario de [!DNL Target Standard/Premium] 25.2.1 (programada para el 12 de febrero de 2025). Muchos artículos se actualizaron para reflejar los cambios en la interfaz de usuario. |
 
