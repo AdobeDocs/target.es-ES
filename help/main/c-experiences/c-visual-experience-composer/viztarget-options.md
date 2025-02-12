@@ -1,10 +1,10 @@
 ---
-keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias visuales;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo;vínculo del compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de ofertas;intercambiar imagen;intercambio de imágenes;quitar elemento;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño elemento;cambiar tamaño elemento;elemento;expandir selección;expandir selección;navegar a este vínculo;vínculo navegar;navegar por vínculo;deshacer;rehacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta;offer decisioning
+keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias visuales;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo del compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de ofertas;intercambiar imagen;intercambio de imágenes;eliminar elemento;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño elemento;cambiar tamaño elemento;elemento;ampliar selección;expandir selección;navegar a este vínculo;navegar vínculo;navegar por vínculo;deshacer;rehacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta
 description: Explore las opciones disponibles en el  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: ¿Cómo utilizo las opciones de [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ Al hacer clic en un elemento de página en el [!DNL Adobe Target] [!UICONTROL Vi
 
 >[!NOTE]
 >
->La versión de [!DNL Target Standard/Premium] 25.2.1 (11 de febrero de 2025) incluyó una versión actualizada del VEC. Para obtener información sobre las diferencias entre el VEC actualizado y la versión anterior, consulte [Cambios del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>La versión de [!DNL Target Standard/Premium] 25.2.1 (12 de febrero de 2025) incluyó una versión actualizada del VEC. Para obtener información sobre las diferencias entre el VEC actualizado y la versión anterior, consulte [Cambios del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 
 Las distintas acciones de [!UICONTROL Visual Experience Composer] (VEC) se agrupan en opciones de menú apropiadas para que su trabajo sea más rápido y eficiente:
@@ -38,7 +38,7 @@ Seleccione componentes del marco Componentes del lado izquierdo para insertar lo
 
 * Básico (divisor, HTML, imagen).
 * Texto (encabezado, párrafo, vínculo).
-* Dinámico ([Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta de HTML).
+* Dinámico ([Recomendación](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta de HTML).
 
 El menú en la parte superior de la imagen le permite hacer lo siguiente:
 
@@ -77,7 +77,7 @@ Seleccione componentes del marco [!UICONTROL Components] del lado izquierdo para
 
 * Básico (divisor, HTML, imagen).
 * Texto (encabezado, párrafo, vínculo).
-* Dinámico ([Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta de HTML).
+* Dinámico ([Recomendación](/help/main/c-recommendations/recommendations-as-an-offer.md), [Fragmento de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), oferta de HTML).
 
 Haga clic en el icono [!UICONTROL Show Modifications] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ) para mostrar las modificaciones a la experiencia.
 
@@ -88,7 +88,7 @@ El menú en la parte superior del elemento de texto permite hacer lo siguiente:
 * Configure los atributos del texto (negrita, cursiva, subrayado o tachado) ( ![Elija el icono Atributos de texto](/help/main/assets/icons/Text.svg) ).
 * Configure la alineación del texto (izquierda, centro, derecha, justificar) ( ![Icono Alineación de texto](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Insertar un vínculo ( ![Icono Insertar vínculo](/help/main/assets/icons/Link.svg) ).
-* Reemplace el contenido con una oferta de HTML, [Fragmento de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Recomendación]/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Reemplace el contenido por una oferta de HTML, [Fragmento de experiencia](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) o [Recomendación]/help/main/c-recommendations/recommendations-as-an-offer.md).
 * Edite el HTML ( ![Insertar icono de HTML](/help/main/assets/icons/Code.svg) ).
 * Agregar personalización ( ![Agregar icono de Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Eliminar la imagen ( ![Icono Eliminar](/help/main/assets/icons/Delete.svg) ).
@@ -119,7 +119,7 @@ Las opciones del marco derecho permiten hacer lo siguiente:
 
 Además del código HTML, puede editar e insertar JavaScript personalizado.
 
-Hay varias opciones disponibles para aplicar formato de texto enriquecido al editar texto y HTML para las actividades [!UICONTROL A/B] y [!UICONTROL Experience Targeting]. Puede seleccionar un tipo de letra, elegir un estilo de letra y cambiar la alineación del texto, entre otras opciones estándar de formato de texto. Al modificar un HTML, puede alternar entre la vista de código y la vista de edición enriquecida del HTML.
+Hay varias opciones disponibles para aplicar formato de texto enriquecido al editar texto y HTML para las actividades [!UICONTROL A/B] y [!UICONTROL Experience Targeting]. Puede seleccionar un tipo de letra, elegir un estilo de letra y cambiar la alineación del texto, entre otras opciones estándar de formato de texto. Al modificar HTML, puede alternar entre la vista de código y la vista de edición enriquecida de HTML.
 
 Se pueden anidar las siguientes etiquetas HTML5:
 
