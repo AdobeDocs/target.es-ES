@@ -4,9 +4,9 @@ description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adob
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ La fusión de audiencias que residen en diferentes soluciones de [!DNL Adobe Exp
 
 Consulte [Combinación de varias audiencias](/help/main/c-target/combining-multiple-audiences.md) para obtener instrucciones paso a paso.
 
-**Datos útiles**: Las audiencias de [!DNL Adobe Audience Manager] están disponibles en [!DNL Target] automáticamente. Sin embargo, el uso compartido de audiencias de [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla &quot;Convertir en audiencia Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, desde [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
+**Datos útiles**: Las audiencias de [!DNL Adobe Audience Manager] están disponibles en [!DNL Target] automáticamente. Sin embargo, el uso compartido de audiencias de [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla &quot;Convertir esto en audiencia de Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, desde [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
 
 ## Sugerencia 3: Exporte datos de [!DNL Target] para usarlos con herramientas de terceros.
 
@@ -79,7 +79,7 @@ Consulte [Actividad multipágina](/help/main/c-experiences/c-visual-experience-c
 
 Con las versiones de Experience, puede ejecutar una prueba con variaciones para tantas audiencias como desee. Por ejemplo, puede crear una publicidad tipo titular que ofrezca envío gratuito (con imágenes y variaciones de moneda para clientes de EE.UU., Reino Unido y EE.AA.UU.) sin tener que ejecutar pruebas para tres audiencias diferentes.
 
-Consulte [Audiencias de experiencias múltiples en pruebas A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) y [Versiones de Experience en Adobe Target](https://helpx.adobe.com/es/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) para obtener instrucciones paso a paso.
+Consulte [Audiencias de experiencias múltiples en una prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) para obtener instrucciones paso a paso.
 
 ## Sugerencia 8: Ahorre tiempo con la replicación de experiencias de actividad en páginas similares.
 

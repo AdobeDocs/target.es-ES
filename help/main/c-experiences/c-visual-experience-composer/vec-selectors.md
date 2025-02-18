@@ -1,12 +1,12 @@
 ---
 keywords: Segmentación de experiencias;prueba de página de destino
-description: Un selector de elementos es una expresión CSS que puede identificar uno o más elementos. Aprenda a utilizar selectores de elementos en el Adobe  [!DNL Target] Compositor de experiencias visuales (VEC).
+description: Un selector de elementos es una expresión CSS que puede identificar uno o más elementos. Aprenda a utilizar selectores de elementos en el  [!DNL Target] Compositor de experiencias visuales (VEC) de Adobe.
 title: ¿Puedo utilizar selectores de elementos en el Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,7 @@ Puede determinar si desea usar ID de elementos o clases de elementos en las pref
 
 Para obtener información sobre cuándo utilizar selectores CSS y cuándo utilizar Ids. únicos, consulte [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Cómo el Adobe [!DNL Target] genera un selector para un elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Cómo Adobe [!DNL Target] genera un selector para un elemento {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target usa un algoritmo simple para crear un selector. A continuación, encontrará una breve explicación de la lógica de generación:
 
@@ -91,8 +91,6 @@ Target usa un algoritmo simple para crear un selector. A continuación, encontra
    ```
 
    Selector: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   Puede obtener más información sobre [nth-of-type en la página web de trucos de CSS](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 En el proceso anterior:
 

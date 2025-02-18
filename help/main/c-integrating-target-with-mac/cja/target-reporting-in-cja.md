@@ -4,9 +4,9 @@ description: Use [!DNL Target] informes en [!DNL Adobe Customer Journey Analytic
 title: ¿Qué está informando [!DNL Target] en [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 54%
 
 ---
@@ -19,7 +19,7 @@ Las principales ventajas de utilizar [!DNL Customer Journey Analytics] como fuen
 
 * Los especialistas en marketing pueden aplicar de forma dinámica métricas de éxito de [!DNL Customer Journey Analytics] a informes de actividad de [!DNL Target] en cualquier momento. No es necesario especificarlo todo antes de ejecutar la actividad.
 * Los especialistas en marketing pueden aprovechar las características de [!DNL Customer Journey Analytics], como el [Panel de experimentación](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, para analizar más a fondo la personalización de su sitio web.
-* Los especialistas en marketing pueden tener una única fuente de informes para [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} y [!DNL Target]. Ambos productos de personalización se pueden conectar a [!DNL Customer Journey Analytics] para obtener una vista más integral de la personalización web.
+* Los especialistas en marketing pueden tener una única fuente de informes para [!DNL Adobe Journey Optimizer] y [!DNL Target]. Ambos productos de personalización se pueden conectar a [!DNL Customer Journey Analytics] para obtener una vista más integral de la personalización web.
 
 ## Consideraciones
 
@@ -53,7 +53,7 @@ Tenga en cuenta la siguiente información antes de utilizar la integración de [
 
 ## Tipos de actividades compatibles {#supported-activities}
 
-Se admiten los siguientes tipos de actividades al usar el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} o la biblioteca de JavaScript [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
+Se admiten los siguientes tipos de actividades al usar la biblioteca de JavaScript [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} o [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
 
 | Tipos de actividades.  | Compatible? |
 |--- |--- |

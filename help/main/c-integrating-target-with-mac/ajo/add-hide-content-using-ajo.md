@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
+exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -37,7 +38,7 @@ Este caso de uso se ha diseñado para mostrar cómo realizar tareas familiares q
 
 >[!NOTE]
 >
->Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Editar contenido web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} en la *documentación de Journey Optimizer*.
+>Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Trabajar con el diseñador web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*.
 >
 >El vídeo de la parte inferior de la página es especialmente útil.
 
@@ -94,6 +95,5 @@ Para obtener más información, consulte [Introducción a la nueva interfaz de i
 
 >[!MORELIKETHIS]
 >
->[Editar contenido web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} en la *documentación de Journey Optimizer*
->[Vídeo explicativo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} en la *documentación de Journey Optimizer*
->[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutorials de Journey Optimizer*
+>[Trabaje con el diseñador web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*
+>[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*

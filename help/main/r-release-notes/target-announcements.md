@@ -3,10 +3,12 @@ keywords: anuncios;generador de habilidades;chat de desarrollador;pausa para caf
 description: Lea los anuncios y regístrese en los eventos de Adobe  [!DNL Target] , incluidos sesiones acerca del Generador de habilidades, charlas con desarrolladores y gestores de productos, seminarios web y mucho más.
 title: ¿Dónde puedo encontrar información sobre  [!DNL Target]  anuncios y eventos?
 feature: Release Notes
+hide: true
+hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2052'
 ht-degree: 98%
 
 ---
@@ -36,7 +38,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 +++ -->
 
-## Serie de seminarios web sobre madurez de la personalización de Adobe Target 2024 {#maturity-series}
+## Grabaciones de seminarios web anteriores y sesiones de formación
+
+Acceder a las grabaciones de eventos anteriores (cuando estén disponibles):
+
+### Serie de seminarios web sobre madurez de la personalización de Adobe Target 2024 {#maturity-series}
 
 Esta serie de seminarios web en directo resaltará las [!DNL Adobe Target] funcionalidades, casos de uso y sugerencias principales para desbloquear la personalización basada en IA a medida que los clientes amplían su recorrido de experimentación y personalización con [!DNL Adobe Experience Platform].
 
@@ -46,37 +52,25 @@ Por qué debería asistir:
 * **Maximice las funcionalidades únicas**: adapte las experiencias para que tengan éxito con recomendaciones de alto rendimiento para maximizar el retorno de la inversión, los ingresos y la conversión.
 * **Estrategias avanzadas de Personalization**: profundización en las técnicas avanzadas de IA/ML para escalar el impacto en la empresa, interesar a nuevos segmentos y audiencias y ajustar los modelos de personalización para las experiencias optimizadas.
 
-* **[Regístrese aquí](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++Fechas y detalles
++++Detalles
 
 * **Arte de lo posible**
-   * **Martes, 16 de enero de 2024**
-   * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
-     El núcleo de la madurez de la personalización es la inteligencia artificial y el aprendizaje automático. [!DNL Adobe Target] aprovecha estas tecnologías para comprender el comportamiento del usuario, predecir las preferencias y adaptar el contenido de forma dinámica. Al aprovechar el poder de la IA y el ML, descubra cómo las marcas se están moviendo más allá de las pruebas A/B estáticas y la personalización basada en reglas para ofrecer experiencias dinámicas y relevantes para el contexto.
+  El núcleo de la madurez de la personalización es la inteligencia artificial y el aprendizaje automático. [!DNL Adobe Target] aprovecha estas tecnologías para comprender el comportamiento del usuario, predecir las preferencias y adaptar el contenido de forma dinámica. Al aprovechar el poder de la IA y el ML, descubra cómo las marcas se están moviendo más allá de las pruebas A/B estáticas y la personalización basada en reglas para ofrecer experiencias dinámicas y relevantes para el contexto.
 
-     [Escuche la grabación.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+  [Escuche la grabación.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Recomendaciones de alto rendimiento**
-   * **Martes, 13 de febrero de 2024**
-   * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
-     Descubra cómo los algoritmos de recomendación pueden cambiar las reglas del juego para las empresas, lo que aumenta la participación y los ingresos. Desde sugerencias de productos personalizadas hasta recomendaciones de contenido, la capacidad de guiar a los usuarios sin problemas a través de su recorrido contribuye directamente a desbloquear un crecimiento comercial significativo.
+  Descubra cómo los algoritmos de recomendación pueden cambiar las reglas del juego para las empresas, lo que aumenta la participación y los ingresos. Desde sugerencias de productos personalizadas hasta recomendaciones de contenido, la capacidad de guiar a los usuarios sin problemas a través de su recorrido contribuye directamente a desbloquear un crecimiento comercial significativo.
 
-     [Escuche la grabación.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [Escuche la grabación.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Desbloquear la personalización con tecnología de IA**
-   * **Martes, 12 de marzo de 2024**
-   * **De 10:00 a 11:00 a. m. (PST, GMT-8)**
 
-     [!DNL Adobe Target] facilita las funcionalidades de personalización impulsadas por IA en todas las etapas del ciclo de vida del cliente para experiencias personalizadas de 1 a 1. Desde la adquisición hasta la retención, descubra cómo las empresas obtienen perspectivas para racionalizar los procesos, minimizar los esfuerzos manuales y ofrecer experiencias contextuales y atractivas a escala de los clientes.
+  [!DNL Adobe Target] facilita las funcionalidades de personalización impulsadas por IA en todas las etapas del ciclo de vida del cliente para experiencias personalizadas de 1 a 1. Desde la adquisición hasta la retención, descubra cómo las empresas obtienen perspectivas para racionalizar los procesos, minimizar los esfuerzos manuales y ofrecer experiencias contextuales y atractivas a escala de los clientes.
 
 +++
-
-## Grabaciones de seminarios web anteriores y sesiones de formación
-
-Acceder a las grabaciones de eventos anteriores (cuando estén disponibles):
 
 ### Estrategias para lograr el máximo impacto en el retorno de la inversión con preparación para la temporada alta
 
@@ -184,18 +178,16 @@ Las experiencias móviles están impulsando la innovación de forma que los equi
 
 La lealtad creciente en un momento de problemas acelerados de la cadena de suministro, fallos de servicio y personal limitado es un desafío al que se enfrentan la mayoría de las marcas de viajes, hotelería y gastronomía. En la era de la IA, cómo escalan las marcas las experiencias sin los recursos necesarios del sector. El progreso digital se ha acelerado de 20 a 25 veces más para satisfacer no solo las expectativas aceleradas de los clientes, sino también para escalar los equipos mediante la automatización.
 
-* **[Regístrese para ver la grabación del seminario web](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
++++Detalles
 
-  +++Detalles
+En 2022, los sistemas han alcanzado un punto crítico en la capacidad de proporcionar inteligencia continua para ofrecer activación de lealtad en tiempo real.
 
-  En 2022, los sistemas han alcanzado un punto crítico en la capacidad de proporcionar inteligencia continua para ofrecer activación de lealtad en tiempo real.
+Temas que analizaremos:
 
-  Temas que analizaremos:
-
-   * Aceleración de la interrupción digital y aumento de la IA
-   * Por qué los pioneros están ganando tanto en crecimiento de facturación como de beneficios
-   * Automatización de la personalización en viajes
-   * Activación de la lealtad en tiempo real en acción
+* Aceleración de la interrupción digital y aumento de la IA
+* Por qué los pioneros están ganando tanto en crecimiento de facturación como de beneficios
+* Automatización de la personalización en viajes
+* Activación de la lealtad en tiempo real en acción
 
 +++
 
@@ -225,35 +217,6 @@ Descubra cómo la inteligencia artificial sigue redefiniendo las expectativas de
    * Superar los desafíos para optimizar la web, la aplicación móvil, el correo electrónico, IoT y cada punto de contacto digital para lograr una mayor conversión y participación
    * Guía paso a paso de los flujos de trabajo de [!DNL Adobe Analytics] y [!DNL Target] para personalización, segmentación y pruebas
    * Casos de uso principales para desbloquear qué atributos predicen el comportamiento del visitante y qué atributos son los más importantes para las visualizaciones clave y el análisis de segmentación
-
-+++
-
-### Citi National Bank: inicio y ampliación de un programa de personalización (9 de junio de 2022)
-
-Conozca las prácticas recomendadas sobre cómo convertirse en un “banco de relaciones” para aumentar la lealtad de la marca. Descubra cómo dirigir a las personas y los procesos para crear y escalar programas de personalización exitosos.
-
-* [Vínculo de grabación](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++Detalles
-
-  Únase a Heather Adkins (vicepresidenta senior de tecnologías de marketing) para conocer las prácticas recomendadas y convertirse en un “banco de relaciones” para aumentar la lealtad de la marca y cómo impulsar a las personas y los procesos a crear y escalar programas de personalización exitosos.
-
-+++
-
-### [!DNL Adobe]: Descubra las oportunidades de optimización de alto impacto (16 de junio de 2022)
-
-Aprenda cómo, a medida que entramos en la nueva normalidad, que es más digital que nunca, es crucial que las organizaciones aprovechen todas las oportunidades para ofrecer experiencias digitales excepcionales. Lo suficientemente bueno ya no es lo suficientemente bueno. Se necesitan experiencias buenas para seguir siendo competitivos.
-
-* [Vínculo de grabación](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++Detalles
-
-  Únase a Kaitlin White (directora de marketing de producto de Adobe), ya que compartimos estrategias probadas y fiables para ayudarle a iniciar su programa de personalización, entre las que se incluyen:
-
-   * Pensamiento incorporado para adquirir nuevos clientes o posibles clientes
-   * Corrección de la fricción del usuario para conseguir una experiencia más intuitiva
-   * Adición a la afinidad del cliente para la personalización
-   * Y muchas más ideas para ayudarlo a descubrir oportunidades de alto impacto en su organización
 
 +++
 
@@ -304,21 +267,6 @@ Vea el kit de herramientas y casos de uso para implementar estrategias de person
    * Impulsar experiencias ganadoras en canales múltiples para desarrollar relaciones auténticas
    * Acelerar el crecimiento del negocio con una mayor participación y adopción de ofertas personalizadas
    * Optimizar las campañas multicanal para mejorar la relación de tiempo-valor y el retorno de la inversión (ROI).
-
-+++
-
-### Personalización en tiempo real con [!DNL Adobe Target]
-
-* **[Regístrese para ver la grabación del seminario web](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-  +++Detalles
-
-  En esta sesión, aprenda cómo [!DNL Adobe Target] reduce la brecha en la combinación de datos entre múltiples fuentes para la personalización en tiempo real, a medida que debatimos sobre:
-
-   * Por qué el rendimiento y la velocidad de la personalización importan para impulsar un crecimiento empresarial más rápido
-   * Cómo los equipos pueden crear estrategias de datos de origen y resolver sus desafíos de fragmentación de datos
-   * Flujos de trabajo integrales para ofrecer experiencias personalizadas en milisegundos
-   * Casos de uso únicos para marcas para atraer clientes y posibles clientes en tiempo real con mensajes, contenido y ofertas relevantes
 
 +++
 

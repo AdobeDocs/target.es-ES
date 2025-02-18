@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;segmentación automática;permisos;qué es Adobe Target;
-description: Conoce los conceptos básicos del Adobe [!DNL Target] Standard y Adobe [!DNL Target] Premium. [!DNL Target] Premium incluye características avanzadas que no están disponibles en el producto estándar.
+description: Conoce los conceptos básicos de Adobe [!DNL Target] Standard y Adobe [!DNL Target] Premium. [!DNL Target] Premium incluye características avanzadas que no están disponibles en el producto estándar.
 landing-page-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 short-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 title: ¿Qué es Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 72%
 
 ---
 
@@ -98,11 +98,11 @@ Los artículos de [!DNL Target] guías que describen las características de Bet
 
 Para obtener más información, consulte la [documentación de Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: Kit de bienvenida de [!DNL Target] de Adobe {#kit}
+## Experience League: Kit de bienvenida de Adobe [!DNL Target] {#kit}
 
 Cree su propio programa de optimización y personalización en [!DNL Adobe Target] con este kit de bienvenida. El kit de bienvenida incluye información, herramientas y recursos clave para ayudarle a prepararse para su primera actividad de [!DNL Target] y lanzarla. El kit incluye ideas para obtener ganancias rápidas a corto plazo, así como estrategias de optimización a largo plazo.
 
-[Kit de bienvenida de Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Kit de bienvenida de Adobe Target](/help/main/c-intro/target-welcome-kit.md)
 
 ## Vídeo de aprendizaje: Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
 
