@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 98%
 
 ---
@@ -207,16 +207,14 @@ El 2022 le ha dado a las empresas un entorno dinámico de rápida evolución par
 
 Descubra cómo la inteligencia artificial sigue redefiniendo las expectativas de los consumidores, ya que los modelos de aprendizaje automático y las perspectivas de datos abren nuevas puertas para que los especialistas en marketing, los desarrolladores y los propietarios de productos interactúen con los consumidores con experiencias personalizadas que importen. Realice un recorrido paso a paso por los flujos de trabajo de [!DNL Adobe Analytics] y [!DNL Adobe Target] de personalización, segmentación y pruebas.
 
-* [Vínculo de grabación](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++Detalles
 
-  +++Detalles
+Únase a Jordan Ison (consultor de soluciones de expertos principales de [!DNL Adobe]) para debatir sobre lo siguiente:
 
-  Únase a Jordan Ison (consultor de soluciones de expertos principales de [!DNL Adobe]) para debatir sobre lo siguiente:
-
-   * Cómo los especialistas en marketing, los desarrolladores y los equipos de productos pueden abrir la “caja negra” de IA para impulsar futuras estrategias de pruebas y personalización
-   * Superar los desafíos para optimizar la web, la aplicación móvil, el correo electrónico, IoT y cada punto de contacto digital para lograr una mayor conversión y participación
-   * Guía paso a paso de los flujos de trabajo de [!DNL Adobe Analytics] y [!DNL Target] para personalización, segmentación y pruebas
-   * Casos de uso principales para desbloquear qué atributos predicen el comportamiento del visitante y qué atributos son los más importantes para las visualizaciones clave y el análisis de segmentación
+* Cómo los especialistas en marketing, los desarrolladores y los equipos de productos pueden abrir la “caja negra” de IA para impulsar futuras estrategias de pruebas y personalización
+* Superar los desafíos para optimizar la web, la aplicación móvil, el correo electrónico, IoT y cada punto de contacto digital para lograr una mayor conversión y participación
+* Guía paso a paso de los flujos de trabajo de [!DNL Adobe Analytics] y [!DNL Target] para personalización, segmentación y pruebas
+* Casos de uso principales para desbloquear qué atributos predicen el comportamiento del visitante y qué atributos son los más importantes para las visualizaciones clave y el análisis de segmentación
 
 +++
 
