@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
+source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 30%
+source-wordcount: '284'
+ht-degree: 33%
 
 ---
 
@@ -16,6 +16,13 @@ ht-degree: 30%
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
 ## Actualizaciones
+
+### [!DNL Target Standard/Premium] 25.3.1 (3 de marzo de 2025)
+
+| Fecha | Tema | Cambios |
+|--- |--- |--- |
+|  | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.1 de [!DNL Target Standard/Premium]. |
+
 
 ### [!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025)
 
