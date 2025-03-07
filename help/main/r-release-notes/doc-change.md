@@ -4,7 +4,7 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 37%
@@ -21,7 +21,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
-| 5 de marzo | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han añadido notas de versión preliminar para [!DNL Target Standard/Premium] versión 25.3.2. |
+| 6 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.2 de [!DNL Target Standard/Premium]. |
 | 3 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.1 de [!DNL Target Standard/Premium]. |
 
 
