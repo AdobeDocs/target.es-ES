@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 47%
+source-wordcount: '643'
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,6 @@ Esta versión de incluye las siguientes correcciones y actualizaciones:
 * Se ha resuelto un problema en el cual las audiencias solo de actividad no eran visibles en el panel [!UICONTROL Audiences], lo que impedía su edición o reutilización. (TGT-51860)
 * Se ha corregido un problema que bloqueaba la creación de actividades de [!DNL Target Standard] mediante la creación de informes de [!UICONTROL Analytics for Target] (A4T). (TGT-51854)
 * Se ha corregido un problema que excluía los contadores de ID locales de la carga útil durante las operaciones de creación y edición por lotes. (TGT-51867)
-* Se mejoraron los informes de accesibilidad al integrar [!DNL Axe Developer Hub], mejorar la cobertura, la creación de informes, la colaboración en equipo, la compatibilidad con pruebas manuales, los estándares de cumplimiento y la experiencia del usuario.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (6 de marzo de 2025)
 

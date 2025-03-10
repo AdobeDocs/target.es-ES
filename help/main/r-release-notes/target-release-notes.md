@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 36%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,6 @@ Esta versión de incluye las siguientes correcciones y actualizaciones:
 * Se ha resuelto un problema en el cual las audiencias solo de actividad no eran visibles en el panel [!UICONTROL Audiences], lo que impedía su edición o reutilización. (TGT-51860)
 * Se ha corregido un problema que bloqueaba la creación de actividades de [!DNL Target Standard] mediante la creación de informes de [!UICONTROL Analytics for Target] (A4T). (TGT-51854)
 * Se ha corregido un problema que excluía los contadores de ID locales de la carga útil durante las operaciones de creación y edición por lotes. (TGT-51867)
-* Se mejoraron los informes de accesibilidad al integrar [!DNL Axe Developer Hub], mejorar la cobertura, la creación de informes, la colaboración en equipo, la compatibilidad con pruebas manuales, los estándares de cumplimiento y la experiencia del usuario.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (6 de marzo de 2025)
 
