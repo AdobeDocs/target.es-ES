@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
+source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 43%
+source-wordcount: '704'
+ht-degree: 45%
 
 ---
 
@@ -23,7 +23,6 @@ Estas notas de la versión proporcionan información sobre funciones, mejoras, c
 
 Esta versión de incluye las siguientes correcciones y actualizaciones:
 
-* Se ha corregido un problema en el [!UICONTROL Visual Experience Composer] (VEC) actualizado en el cual las rutas de exploración no siempre se mostraban en la parte inferior del editor, lo que provocaba dificultades al seleccionar elementos con precisión. (TGT-51844)
 * Se ha resuelto un problema que impedía a los usuarios cambiar ofertas en el panel [!UICONTROL Modifications]. (TGT-51800)
 * Se ha resuelto un problema en el cual las acciones se mostraban incorrectamente en el panel izquierdo para experiencias y audiencias, incluido el modo [!UICONTROL ClickTrack]. (TGT-51895)
 * Se ha resuelto un problema en el cual los selectores de [!UICONTROL ClickTrack] no se aplicaban a la página de audiencia correcta. (TGT-51871)

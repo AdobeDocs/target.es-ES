@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
+source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 33%
+source-wordcount: '593'
+ht-degree: 34%
 
 ---
 
@@ -27,7 +27,6 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 
 Esta versión de incluye las siguientes correcciones y actualizaciones:
 
-* Se ha corregido un problema en el [!UICONTROL Visual Experience Composer] (VEC) actualizado en el cual las rutas de exploración no siempre se mostraban en la parte inferior del editor, lo que provocaba dificultades al seleccionar elementos con precisión. (TGT-51844)
 * Se ha resuelto un problema que impedía a los usuarios cambiar ofertas en el panel [!UICONTROL Modifications]. (TGT-51800)
 * Se ha resuelto un problema en el cual las acciones se mostraban incorrectamente en el panel izquierdo para experiencias y audiencias, incluido el modo [!UICONTROL ClickTrack]. (TGT-51895)
 * Se ha resuelto un problema en el cual los selectores de [!UICONTROL ClickTrack] no se aplicaban a la página de audiencia correcta. (TGT-51871)
