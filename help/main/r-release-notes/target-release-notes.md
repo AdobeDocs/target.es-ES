@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a9c4264672b44da815c721c08c735a2692b2cb33
+source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 34%
+source-wordcount: '726'
+ht-degree: 30%
 
 ---
 
@@ -15,13 +15,25 @@ ht-degree: 34%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: miércoles, 11 de marzo de 2025**
+**Última actualización: sábado, 14 de marzo de 2025**
 
 >[!NOTE]
 >
 >Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.3.6 (14 de marzo de 2025)
+
+Esta versión de incluye las siguientes correcciones y actualizaciones:
+
+* Se ha resuelto el error &quot;Entrada de usuario no válida&quot; en las actividades [!UICONTROL Visual Experience Composer] (VEC) con [!UICONTROL Click Tracking] habilitado cuando el mismo selector [!UICONTROL ClickTrack] se usa varias veces. (TGT-51921)
+* Se ha corregido el error &quot;Entrada de usuario no válida&quot; en las actividades VEC con ubicaciones compartidas (por ejemplo, selector de HEAD) y ofertas idénticas. (TGT-51879)
+* Se ha corregido un problema que provocaba que las modificaciones de experiencia se compartieran entre audiencias. (TGT-51815)
+* Se han resuelto errores de validación al crear actividades debido a conflictos de ID de segmento. Los errores se produjeron cuando [!DNL Target] detectó actividades existentes usando segmentos anónimos. (TGT-51784)
+* Se ha resuelto un problema que impedía que [!DNL Target] guardara actividades con reglas de exclusión en una audiencia. (TGT-51581)
+* Se ha resuelto un problema que impedía a los clientes crear, eliminar o mover carpetas sin acceso al espacio de trabajo predeterminado. (TGT-51499)
+* Se ha resuelto un problema que provocaba que las solicitudes de GET fallaran al recuperar la lista de métricas [!DNL Analytics]. (TGT-51106)
 
 ## [!DNL Target Standard/Premium] 25.3.5 (11 de marzo de 2025)
 
