@@ -4,7 +4,7 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
+source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: miércoles, 18 de marzo de 2025 ([Vea los cambios](r-release-notes/doc-change.md))**
+**Última actualización: jueves, 19 de marzo de 2025 ([Vea los cambios](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
