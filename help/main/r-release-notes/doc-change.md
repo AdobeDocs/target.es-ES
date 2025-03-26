@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 41%
+source-wordcount: '393'
+ht-degree: 43%
 
 ---
 
@@ -21,6 +21,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
+| 26 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.7 de [!DNL Target Standard/Premium]. |
 | 19 de marzo | [Problemas relacionados con [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Se han actualizado las direcciones IP a la lista de permitidos. |
 | 18 de marzo | [Compatibilidad con A4T para [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target] actividades](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Se agregó una nota a la sección *Métricas de objetivo admitidas*. |
 | 14 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.6 de [!DNL Target Standard/Premium]. |

@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 30%
+source-wordcount: '1047'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,30 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.3.7 (26 de marzo de 2025)
+
+Esta versión de incluye las siguientes correcciones y actualizaciones:
+
+* Se ha resuelto un problema que bloqueaba el guardado de actividades de varias páginas si una página se eliminaba después de realizar modificaciones. (TGT-51988)
+* Se ha resuelto un error que se producía al editar una actividad: `default message [Invalid optionLocalIds: xx]]`. (TGT-51985)
+* Se ha resuelto un problema en el cual al agregar nuevas modificaciones a una actividad se eliminaban las existentes. (TGT-51981)
+* Se ha resuelto un problema en el cual reemplazar una audiencia por &quot;[!UICONTROL All visitors]&quot; durante la creación o edición de la actividad provocaba el error &quot;No se permiten audiencias duplicadas&quot;. (TGT-51978)
+* Se ha resuelto un problema que provocaba el error &quot;Entrada de usuario no válida&quot; al guardar una actividad [!UICONTROL A/B Test]. (TGT-51976)
+* Se ha resuelto un problema que impedía que las métricas calculadas se mostraran correctamente en la página [!UICONTROL Goals & Settings]. (TGT-51975)
+* Se ha resuelto un problema que impedía la coincidencia de `companyName` y `reportSuite` en la configuración de [!DNL Analytics] para la métrica `pageviews`. (TGT-51965)
+* Se ha resuelto un problema en el cual al cambiar de experiencia en una actividad de se eliminaban modificaciones. (TGT-51945)
+* Se ha resuelto un problema en el cual al eliminar una audiencia de página también se eliminaban [!UICONTROL ClickTrack] selectores. (TGT-51935)
+* Se ha resuelto un problema que hacía que una actividad no se pudiera editar después de abrir su página [!UICONTROL Overview]. (TGT-51931)
+* Se ha resuelto un problema que provocaba un error de `[Unused optionLocalIds: 0]]` durante la creación de la actividad. (TGT-51920)
+* Se ha resuelto un problema en el cual algunos cambios no se traducían correctamente después de eliminar los cambios de estilo de texto. (TGT-51876)
+* Se ha resuelto un problema que impedía que las audiencias de destino se actualizaran correctamente en [!UICONTROL Form-Based Experience Composer]. (TGT-51845)
+* Se ha resuelto un problema en el cual la dirección URL de [!UICONTROL Visual Experience Composer] no se actualizaba correctamente durante la navegación de la actividad. (TGT-51832)
+* Se ha resuelto un problema que impedía que las ofertas aparecieran en la interfaz de usuario de [!UICONTROL Offers], a pesar de mostrarse correctamente al crear una actividad y agregar ofertas. (TGT-51805)
+* Se ha resuelto un problema en el cual algunas actividades carecían de una pantalla de reserva para mostrar el contenido predeterminado cuando no se podía entregar el contenido personalizado o de destino. (TGT-51638)
+* Se ha resuelto un problema que impedía que las ofertas en directo y ciertas carpetas se mostraran correctamente en la interfaz de usuario de [!UICONTROL Offers]. (TGT-51628)
+* Se ha resuelto un problema que impedía que algunas cadenas de URL y goURL se localizaran correctamente. (TGT-35741)
+* Se ha corregido un problema que impedía que los roles ([!UICONTROL Approver], [!UICONTROL Editor] y [!UICONTROL Observer]) se localizaran correctamente en la interfaz de usuario de [!DNL Target]. (TGT-29925)
 
 ## [!DNL Target Standard/Premium] 25.3.6 (14 de marzo de 2025)
 
