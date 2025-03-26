@@ -5,10 +5,10 @@ title: ¿Cómo utilizo las colecciones en las actividades de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,9 @@ Al crear o editar una actividad [!DNL Recommendations], el nombre de la colecci�
 
 >[!NOTE]
 >
->Las colecciones no se aplican al usar la clave de recomendación [!UICONTROL Recently Viewed Items].
+>* Las reglas de recopilación se aplican a los artículos de recomendación generados después de ejecutar los criterios. Solo afectan a las recomendaciones de entidad (ER) en la salida, no a la clave.
+>
+>* Las colecciones no se aplican al usar la clave de recomendación [!UICONTROL Recently Viewed Items].
 
 ## Crear una colección {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -84,7 +86,7 @@ Tenga en cuenta que las colecciones están disponibles en toda la cuenta. Asegú
 
 1. Cree una colección utilizando uno de los métodos mencionados anteriormente.
 
-1. Haga clic en **[!UICONTROL Activities]** y [cree una nueva actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o edite una actividad existente.
+1. Haga clic en **[!UICONTROL Activities]** y [crear una nueva actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o editar una actividad existente.
 
 1. Después de seleccionar un criterio y un diseño, se muestra la página [!UICONTROL Options] en la que se selecciona la colección deseada.
 
