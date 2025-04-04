@@ -1,13 +1,13 @@
 ---
-keywords: notas de la versión;versiones;actualizaciones;futuras versiones;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar;acceso anticipado
+keywords: Notas; Libera; Actualizaciones; versión futura; Mejoras; nuevas características; Fija; Actualizaciones; Prelanzamiento; Acceso anticipado
 description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ca14a94365e75704622e76ac13aab324fc836e09
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 43%
+source-wordcount: '501'
+ht-degree: 38%
 
 ---
 
@@ -23,25 +23,33 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
+## Actualización de permisos de Target (22 de abril de 2025)
+
+Esta actualización futura mejora el control organizativo sobre [!DNL Target] instancia configuraciones, evitando actualizaciones accidentales que podrían afectar a actividad envío en varios equipos de pruebas y personalización.
+
+A partir del 22 de abril de 2025, solo [!UICONTROL Product] los administradores podrán [!UICONTROL Solutions] actualizar la configuración en las secciones, independientemente de sus roles en [!DNL Target] los [!UICONTROL Administration] espacios de trabajo. Los usuarios que no tengan este permiso tendrán acceso de solo lectura a las [!UICONTROL Administration] secciones.
+
+Para obtener más información, vea [Administración Target](/help/main/administrating-target/start-target.md).
+
 ## [!DNL Target Standard/Premium] 25.4.1 (2 de abril de 2025)
 
-Esta versión de incluye las siguientes correcciones y actualizaciones:
+Esta versión incluye las siguientes correcciones y actualizaciones:
 
-* Se ha corregido un problema que provocaba que las audiencias de experiencia desaparecieran de las actividades de. (TGT-52003)
-* Se ha corregido un problema que provocaba elementos inesperados durante la entrega. (TGT-52011)
-* Se ha corregido un problema que impedía que los clientes vieran la audiencia en el gráfico de segmentación de la página de vista Superior[!UICONTROL r]y durante la edición de la actividad. (TGT-52050)
-* Se ha corregido un problema que impedía que los clientes reordenaran experiencias en orden de prioridad en actividades [!UICONTROL Experience Targeting] (XT). (TGT-52054)
-* Se ha corregido un problema que provocaba un procesamiento incorrecto al deshacer cambios de estilo de texto. (TGT-51876)
-* Se ha corregido un problema que al modificar una oferta de redireccionamiento, [!DNL Target] también quitaba los selectores [!UICONTROL ClickTrack] asociados con esa oferta. (TGT-51936)
-* Se ha corregido un problema que provocaba que [!DNL Target] guardara el selector de forma incorrecta al cancelar [!UICONTROL ClickTrack]. (TGT-51937)
-* Se ha corregido un problema que provocaba un error de nombre no válido después de abrir y cerrar el selector de mbox en la página [!UICONTROL Goals & Settings] sin realizar ningún cambio. (TGT-51983)
-* Se ha corregido un problema que bloqueaba la edición de ofertas ad hoc creadas en la IU heredada de [!DNL Target]. (TGT-51984)
-* Se ha corregido un problema que bloqueaba las actividades de edición que tienen ofertas ad-hoc que contienen código personalizado. (TGT-51995)
-* Se ha corregido un problema que provocaba que las reglas de exclusión se mostraran como reglas de inclusión al editar definiciones de audiencia combinadas. (TGT-51999)
-* Se ha corregido un problema que impedía que el código personalizado se mostrara correctamente durante la edición de experiencias. (TGT-52005)
-* Se ha corregido un problema que hacía que la opción [!UICONTROL Insert Before] no estuviera disponible para insertar contenido antes de la barra de navegación. (TGT-52031)
-* Se ha corregido un problema que impedía resaltar correctamente la experiencia predeterminada en los informes. (TGT-51716)
-* Se ha corregido un problema que activaba un mensaje de `default message [Invalid optionLocalIds: xx]]` al crear una actividad. (TGT-52038)
+* Se ha corregido un problema que provocaba que experiencia audiencias desaparecieran de las actividades. (TGT-52003)
+* Se ha corregido un problema que provocaba elementos inesperados durante envío. (TGT-52011)
+* Se ha corregido un problema que impedía a los clientes ver los audiencia en el gráfico de direccionamiento de Ove[!UICONTROL r]vista Página y durante la edición actividad. (TGT-52050)
+* Se ha corregido un problema que impedía a los clientes reordenar las experiencias en orden de prioridad en [!UICONTROL Experience Targeting] actividades (XT). (TGT-52054)
+* Se ha corregido un problema que provocaba una representación incorrecta al deshacer cambios de estilo de texto. (TGT-51876)
+* Se ha corregido un problema que, al modificar un oferta de redirección, [!DNL Target] también quita cualquier [!UICONTROL ClickTrack] selector asociado a ese oferta. (TGT-51936)
+* Se corrigió un problema que ocasionaba [!DNL Target] guardar incorrectamente el selector al cancelar [!UICONTROL ClickTrack]. (TGT-51937)
+* Se ha corregido un problema que provocaba un error de nombre de no válido después de abrir y cerrar el selector de mbox en la [!UICONTROL Goals & Settings] Página sin realizar ningún cambio. (TGT-51983)
+* Se ha corregido un problema que bloqueaba la edición anuncios las ofertas hoc creadas en el IU heredado [!DNL Target] . (TGT-51984)
+* Se ha corregido un problema que bloqueaba la edición de actividades que tenían ofertas anuncios-hoc que contenían código personalizado. (TGT-51995)
+* Se ha corregido un problema que hacía que las reglas de exclusión se mostraran como reglas de inclusión al editar definiciones de audiencia combinadas. (TGT-51999)
+* Se ha corregido un problema que impedía que el código personalizado se mostrara correctamente durante la edición experiencia. (TGT-52005)
+* Se ha corregido un problema que hacía que la [!UICONTROL Insert Before] opción no estuviera disponible para insertar contenido antes de la barra navegación. (TGT-52031)
+* Se ha corregido un problema que impedía resaltar correctamente la experiencia predeterminada en sistema de informes. (TGT-51716)
+* Se ha corregido un problema que activaba un `default message [Invalid optionLocalIds: xx]]` mensaje al crear una actividad. (TGT-52038)
 
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
