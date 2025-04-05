@@ -5,7 +5,7 @@ title: ¿Cómo configuro los informes en  [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 22%
@@ -15,6 +15,8 @@ ht-degree: 22%
 # Configurar la creación de informes en [!DNL Target]
 
 Configure las opciones generales para usar en los informes de [!DNL Adobe Target] que se aplican a toda la cuenta de [!DNL Target].
+
+{{permissions-update}}
 
 Para obtener acceso a la página de configuración de [!UICONTROL Reporting], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 

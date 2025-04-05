@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Configurar opciones de [!DNL Recommendations]
 
 Obtenga información sobre cómo establecer la configuración de [!DNL Adobe Target Recommendations].
+
+{{permissions-update}}
 
 Para obtener acceso a las opciones de configuración de [!DNL Recommendations], abra [!DNL Target] en [!DNL Adobe Experience Cloud] y, a continuación, haga clic en [!UICONTROL Administration] > [!UICONTROL Recommendations].
 

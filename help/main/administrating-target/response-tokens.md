@@ -5,7 +5,7 @@ title: ¿Qué son los tokens de respuesta y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ Los tokens de respuesta le permiten mostrar automáticamente información espec�
 Los tokens de respuesta le permiten elegir qué variables (en pares de valor clave) usar y luego permitirles enviarse como parte de una respuesta [!DNL Target]. Habilita una variable mediante el modificador y la variable se envía con [!DNL Target] respuestas, que se pueden validar en llamadas de red. Los tokens de respuesta también funcionan en el modo [!UICONTROL Preview].
 
 Una diferencia clave entre los complementos y los tokens de respuesta es que los complementos envían JavaScript a la página que se ejecuta tras la entrega. Sin embargo, los tokens de respuesta envían un objeto que se puede leer y sobre el que se puede actuar utilizando detectores de eventos. El enfoque del token de respuesta es más seguro y facilita el desarrollo y mantenimiento de integraciones de terceros.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -80,11 +82,11 @@ El proceso que usa para escuchar [!DNL Target] respuestas y leer tokens de respu
 
 Utilice la clase de objeto Handle, que tiene un objeto de metadatos y un objeto de datos para detectar [!DNL Target] respuestas y leer los tokens de respuesta.
 
-El siguiente ejemplo de respuesta agrega directamente un controlador de eventos personalizado [!DNL Platform Web SDK] a la página del HTML (en la tabla se explican los objetos utilizados en el código):
+El siguiente ejemplo de respuesta agrega directamente un controlador de eventos personalizado [!DNL Platform Web SDK] a la página HTML (en la tabla se explican los objetos utilizados en el código):
 
 | Objeto | Información |
 | --- | --- |
-| Tipo: Personalization.decision | Si la decisión fue tomada por el proveedor [!DNL Target] o el proveedor Offer decisioning. |
+| Tipo: Personalization.decision | Si la decisión fue tomada por el proveedor [!DNL Target] o Offer Decisioning. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] proporciona los metadatos y valores del token de respuesta a la página. |
 | Meta | Metadatos que se pasan a la página. |
 | Datos | Valores de los metadatos pasados a la página. |
@@ -214,11 +216,11 @@ Como se ha mencionado anteriormente, los tokens de respuesta operan con la infor
 
 ## Envío de datos a Google Analytics
 
-En las secciones siguientes se describe cómo enviar datos de [!DNL Target] a los Google Analytics 4. Los datos enviados por tokens de respuesta también se pueden enviar a otras integraciones de terceros.
+En las secciones siguientes se describe cómo enviar datos de [!DNL Target] a Google Analytics 4. Los datos enviados por tokens de respuesta también se pueden enviar a otras integraciones de terceros.
 
-### ![distintivo de AEP](/help/main/assets/platform.png): se envían datos a los Google Analytics a través de Platform Web SDK
+### ![distintivo de AEP](/help/main/assets/platform.png): se envían datos a Google Analytics a través de Platform Web SDK.
 
-Es posible enviar datos a los Google Analytics a través de Platform Web SDK versión 2.6.0 (o posterior) añadiendo el siguiente código en la página del HTML.
+Se pueden enviar datos a Google Analytics a través de Platform Web SDK versión 2.6.0 (o posterior) agregando el siguiente código en la página de HTML.
 
 >[!NOTE]
 >
@@ -254,7 +256,7 @@ Es posible enviar datos a los Google Analytics a través de Platform Web SDK ver
 </script>
 ```
 
-### ![distintivo de at.js](/help/main/assets/atjs.png): se envían datos a los Google Analytics a través de at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![distintivo de at.js](/help/main/assets/atjs.png): se envían datos a Google Analytics a través de at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguiente código en la página HTML:
 
@@ -310,7 +312,7 @@ Es posible enviar datos a Google Analytics mediante at.js añadiendo el siguient
 
 Las secciones siguientes proporcionan información sobre la depuración de tokens de respuesta:
 
-### ![distintivo de at.js](/help/main/assets/atjs.png) Google Analytics y depuración
+### ![distintivo de at.js](/help/main/assets/atjs.png): Google Analytics y depuración
 
 El siguiente código permite depurar con Google Analytics:
 

@@ -5,7 +5,7 @@ title: ¿Qué son los hosts y cómo los utilizo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 17%
@@ -21,6 +21,8 @@ El objetivo primordial de la administración de hosts reside en garantizar que n
 Un host es cualquier dominio desde el que se realiza una solicitud [!DNL Target]. En un sitio web, normalmente es la propiedad `location.hostname` de la dirección URL que realiza la solicitud [!DNL Target].
 
 De manera predeterminada, [!DNL Target] no limita un host que puede realizar [!DNL Target] solicitudes y recibir [!DNL Target] respuestas. Cuando los nuevos hosts realizan solicitudes, funcionan automáticamente. Este proceso también permite realizar pruebas en dominios diferentes que no conoce o no puede anticipar. Si desea anular este comportamiento predeterminado, puede configurar una lista de permitidos o lista de bloqueados para limitar qué hosts funcionan con [!DNL Target].
+
+{{permissions-update}}
 
 Para administrar los hosts, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 

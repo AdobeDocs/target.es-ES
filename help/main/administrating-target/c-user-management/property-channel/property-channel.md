@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 48%
@@ -16,6 +16,8 @@ ht-degree: 48%
 # Permisos de usuario de Enterprise
 
 Los permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de usuarios de nivel Enterprise a [!DNL Adobe Target]. Agregue usuarios a [!DNL Target], asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios los roles de [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] o [!UICONTROL Publisher].
+
+{{permissions-update}}
 
 ## Determine si tiene acceso a los permisos de usuario de Enterprise
 
@@ -67,7 +69,7 @@ Los espacios de trabajo pueden incluir audiencias, ofertas de código y activida
 
 Todas las audiencias y actividades creadas antes de la migración al modelo de permisos de Enterprise se agrupan en la sección &quot;Workspace predeterminado&quot; que se trata a continuación.
 
-AEM Todas las actividades creadas a través de [!DNL Adobe Experience Manager] (), [!DNL Adobe Mobile Services] y [!DNL Adobe Target Classic] forman parte de la &quot;Workspace predeterminada&quot;.
+Todas las actividades creadas a través de [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] y [!DNL Adobe Target Classic] forman parte de la &quot;Workspace predeterminada&quot;.
 
 ### Workspace predeterminado
 
@@ -81,7 +83,7 @@ Todos los roles de usuario y el acceso a todas las funcionalidades de [!DNL Targ
 
 ### Grupos de usuarios
 
-Puede crear grupos de usuarios, como desarrolladores, analistas, especialistas en marketing y ejecutivos. A continuación, puede asignar privilegios en varios productos de Adobe y espacios de trabajo. Asignar todos los privilegios apropiados en diferentes productos de Adobe a un nuevo miembro del equipo puede ser tan fácil como añadirlos a un grupo de usuarios específico.
+Puede crear grupos de usuarios, como desarrolladores, analistas, especialistas en marketing y ejecutivos. A continuación, puede asignar privilegios en varios productos y espacios de trabajo de Adobe. Asignar todos los privilegios apropiados en diferentes productos de Adobe a un nuevo miembro del equipo puede ser tan fácil como añadirlos a un grupo de usuarios específico.
 
 ### Funciones y permisos {#roles-permissions}
 
@@ -237,7 +239,7 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
    * Ofertas de imágenes
    * Todos los recursos de Recommendations, incluidos la Biblioteca de criterios, Biblioteca de diseños, Catálogo, Configuración de Recommendations.
    * Los recursos existentes (como actividades, ofertas de código y audiencias) creados en Target Premium antes de habilitar los permisos de Enterprise se pueden copiar, pero no se pueden mover a otros espacios de trabajo.
-   * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte de la Workspace predeterminada: Target Classic, Adobe Experience Manager AEM (), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, audiencias, ofertas de código y ofertas de imagen).
+   * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte de la Workspace predeterminada: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, audiencias, ofertas de código y ofertas de imagen).
    * Actualmente, las ofertas de imagen (recursos almacenados en `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) no se pueden controlar mediante el modelo de permisos de Enterprise.
    * clickTracking y las redirecciones funcionan cuando el vínculo de destino o la página de destino son parte de una propiedad incluida en la actividad. Además, es posible que clickTracking no funcione al utilizar la función `targetPageParams()`. La función recomendada es `targetPageParamsAll()`.
 

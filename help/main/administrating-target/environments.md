@@ -1,11 +1,11 @@
 ---
 keywords: entorno;solución de problemas;prácticas recomendadas;ubox;redirecciones;redireccionamiento;lista blanca;lista negra;lista de bloqueados;lista de permitidos
-description: Aprenda a utilizar los entornos del Adobe  [!DNL Target] para organizar sus sitios y entornos de preproducción con el fin de facilitar la administración y la creación de informes separados.
+description: Aprenda a utilizar entornos en Adobe [!DNL Target] para organizar sus sitios y entornos de preproducción para facilitar la administración y la creación de informes separados.
 title: ¿Qué son los entornos y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 47%
@@ -21,6 +21,8 @@ Los hosts se agrupan en entornos para facilitar la administración. Así, se pue
 Un entorno, el entorno predeterminado, tiene el nombre previo [!UICONTROL Production]. El entorno predeterminado no se puede eliminar aunque se le cambie el nombre. [!DNL Target] da por hecho que es desde este entorno desde donde se van a suministrar las actividades y pruebas finales y aprobadas.
 
 Cuando se recibe una solicitud [!DNL Target] de nuevos sitios web o dominios, estos nuevos dominios siempre aparecen en el entorno [!UICONTROL Production]. No se puede cambiar la configuración del entorno [!UICONTROL Production], por lo que se garantiza que los sitios nuevos o desconocidos solo verán el contenido que esté activo y listo. La administración de hosts también permite garantizar la calidad de las nuevas actividades y el contenido en los entornos de prueba, ensayo y desarrollo antes de activar las actividades.
+
+{{permissions-update}}
 
 Para administrar entornos, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 

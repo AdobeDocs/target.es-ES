@@ -7,7 +7,7 @@ title: ¿Cómo Se Implementa  [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 
 Antes de empezar a usar [!DNL Adobe Target], debe implementarlo en el sitio.
 
+{{permissions-update}}
+
 La [Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank} contiene información que necesita saber antes de implementar [!DNL Target].
 
 El portal para desarrolladores incluye información sobre los siguientes tipos de implementación:
@@ -25,7 +27,7 @@ El portal para desarrolladores incluye información sobre los siguientes tipos d
 * **Lado del cliente**: Información acerca de la implementación mediante [!DNL Adobe Experience Platform Web SDK] o [!DNL Target Web SDK] (at.js).
 * **Lado del servidor**: Información sobre la implementación de acerca del uso de los SDK de Node.JS, JAVA, .NET y Python.
 * **Híbrido**: Información acerca de la implementación si usa una combinación de implementaciones del lado del cliente y del lado del servidor.
-* **Recommendations**: Información para ayudarte a implementar [!DNL Recommendations], una oferta de [Target Premium](/help/main/c-intro/intro.md#premium).
+* **Recommendations**: Información para ayudarle a implementar [!DNL Recommendations], una oferta de [Target Premium](/help/main/c-intro/intro.md#premium).
 * **Aplicaciones móviles**: Información que le ayudará a implementar mediante los SDK de [!DNL Adobe Experience Platform Mobile].
 * **Correo electrónico**: Información que le ayudará a implementar [!DNL Target] en los correos electrónicos.
 
