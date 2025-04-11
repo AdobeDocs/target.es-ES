@@ -4,7 +4,7 @@ description: Descubra cómo funciona [!DNL Adobe Target] e incluya información 
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Para obtener más información, consulte [Recommendations](/help/main/c-recommen
 
 La siguiente información le ayuda a comprender la estrategia de recuento utilizada para las llamadas al servidor [!DNL Target], como se muestra en la tabla siguiente:
 
-* **Contar una vez**: Cuenta una vez por llamada API
-* **Contar el número de mboxes**: Cuenta el número de mboxes bajo la matriz en la carga útil de una sola llamada de API
-* **Ignorar**: no se cuenta
-* **Contar el número de vistas (una vez)**: Cuenta el número de vistas bajo la matriz en la carga útil. En una implementación típica, una notificación de vista solo tiene una vista bajo la matriz de notificaciones, lo que equivale a contar una vez en la mayoría de las implementaciones
+* **Contar una vez**: Cuenta una vez por llamada API.
+* **Contar el número de mboxes**: Cuenta el número de mboxes bajo la matriz en la carga útil de una sola llamada de API.
+* **Ignorar**: no se cuenta.
+* **Contar el número de vistas (una vez)**: Cuenta el número de vistas bajo la matriz en la carga útil. En una implementación típica, una notificación de vista solo tiene una vista bajo la matriz de notificaciones, lo que equivale a contar una vez en la mayoría de las implementaciones.
 
 | Punto de conexión | Tipo de recuperación | Opciones | Estrategia de recuento |
 |--- |--- |--- |-- |
