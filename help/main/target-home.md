@@ -1,13 +1,13 @@
 ---
-keywords: Target;inicio;temas populares;adobe target;target standard;target premium;documentación de target;documentación de adobe target;guía para profesionales;guía para usuarios
+keywords: Blanco; hogar; temas populares; Adobe destino; destino estándar; destino prima; documentación destino; documentación de Adobe destino; practicante guía; usuario guía
 title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
+source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: miércoles, 08 de abril de 2025 ([Vea los cambios](r-release-notes/doc-change.md))**
+**Última actualización: sábado, 11 de abril de 2025 ([Vea los cambios](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
