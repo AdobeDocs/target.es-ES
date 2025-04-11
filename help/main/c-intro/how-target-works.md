@@ -4,10 +4,10 @@ description: Descubra cómo funciona [!DNL Adobe Target] e incluya información 
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -100,6 +100,13 @@ Para obtener más información, consulte [Recommendations](/help/main/c-recommen
 ## Cómo [!DNL Target] cuenta el uso de llamadas al servidor {#usage}
 
 [!DNL Target] solo cuenta las llamadas al servidor que proporcionan valor a los clientes. En la tabla siguiente se muestra cómo [!DNL Target] cuenta los extremos, el mbox único, las llamadas de mbox por lotes, las llamadas de ejecución, la recuperación previa y las notificaciones.
+
+La siguiente información le ayuda a comprender la estrategia de recuento utilizada para las llamadas al servidor [!DNL Target], como se muestra en la tabla siguiente:
+
+* **Contar una vez**: Cuenta una vez por llamada API
+* **Contar el número de mboxes**: Cuenta el número de mboxes bajo la matriz en la carga útil de una sola llamada de API
+* **Ignorar**: no se cuenta
+* **Contar el número de vistas (una vez)**: Cuenta el número de vistas bajo la matriz en la carga útil. En una implementación típica, una notificación de vista solo tiene una vista bajo la matriz de notificaciones, lo que equivale a contar una vez en la mayoría de las implementaciones
 
 | Punto de conexión | Tipo de recuperación | Opciones | Estrategia de recuento |
 |--- |--- |--- |-- |
