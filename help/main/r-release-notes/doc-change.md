@@ -4,10 +4,10 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 02447c110372536022df0afb2329c708be675d2a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 37%
+source-wordcount: '647'
+ht-degree: 39%
 
 ---
 
@@ -21,6 +21,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 
 | Fecha | Tema | Cambios |
 |--- |--- |--- |
+| 17 de abril | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.4.4 de [!DNL Target Standard/Premium]. |
 | 11 de abril | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.4.3 de [!DNL Target Standard/Premium]. |
 |  | [Cómo [!DNL Target] funciona](/help/main/c-intro/how-target-works.md#usage) | Se ha agregado una nueva sección: &quot;Cómo [!DNL Target] cuenta el uso de llamadas al servidor&quot;. |
 | 9 de abril | [[!DNL Target] Notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) | Se han actualizado las fechas de las notas de revisión de la versión 25.4.4. |
@@ -43,7 +44,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 | 19 de marzo | [Problemas relacionados con [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Se han actualizado las direcciones IP a la lista de permitidos. |
 | 18 de marzo | [Compatibilidad con A4T para [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target] actividades](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Se agregó una nota a la sección *Métricas de objetivo admitidas*. |
 | 14 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.6 de [!DNL Target Standard/Premium]. |
-| Marzo de 13 | [Exploradores compatibles](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Se han actualizado los exploradores admitidos y se ha añadido la sección Requisitos de edición visual. |
+| Marzo de 13 | [Navegadores admitidos](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Se han actualizado los exploradores admitidos y se ha añadido la sección Requisitos de edición visual. |
 | 11 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.5 de [!DNL Target Standard/Premium]. |
 | 7 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.4 de [!DNL Target Standard/Premium]. |
 | 6 de marzo | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.3.2 de [!DNL Target Standard/Premium]. |
@@ -59,7 +60,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Bookmarklet de control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | Se ha actualizado el bookmarklet Control de calidad de la actividad para at.js 2.x. |
 | 13 de febrero | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se ha cambiado la actualización de la interfaz de usuario de [!DNL Target Standard/Premium] 25.2.1 al 17 de febrero de 2025. |
 | 12 de febrero | [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Se ha actualizado todo el tema para explicar el VEC actualizado introducido en la versión de [!DNL Target Standard/Premium] 25.2.1 (12 de febrero de 2025). |
-|  | [Exploradores compatibles](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Se agregó información sobre los exploradores que son compatibles con una implementación de Target usando el [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Navegadores admitidos](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Se agregó información sobre los exploradores que son compatibles con una implementación de Target usando el [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Cambios en el Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nuevo artículo para explicar las diferencias entre las versiones anteriores y actualizadas del VEC. |
 |  | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión para la actualización de la interfaz de usuario de [!DNL Target Standard/Premium] 25.2.1 (programada para el 17 de febrero de 2025). Muchos artículos se actualizaron para reflejar los cambios en la interfaz de usuario. |
 

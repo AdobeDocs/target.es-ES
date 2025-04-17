@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+source-git-commit: cd25bda52b7a1b916a73ca5e531a7134ba8cef4e
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 50%
+source-wordcount: '416'
+ht-degree: 43%
 
 ---
 
@@ -28,10 +28,15 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 Esta versión de incluye las siguientes correcciones y actualizaciones:
 
 * Se ha añadido un mensaje de error para guiar a los usuarios en la resolución de opciones duplicadas en una actividad. (TGT-51927)
-* Se ha corregido un problema en el cual los selectores de ClickTrack no se eliminaban al eliminar páginas o experiencias con ofertas de redireccionamiento. (TGT-51952)
-* Se ha corregido un problema en el cual [!DNL Target] no podía detectar correctamente un carácter &quot;#&quot; en la dirección URL de la actividad. (TGT-52093)
+* Se corrigió un problema en el cual los selectores de `ClickTrack` no se eliminaban al eliminar páginas o experiencias con ofertas de redireccionamiento. (TGT-51952)
+* Se ha corregido un problema que se producía al permitir selectores vacíos de `ClickTrack`. [!DNL Target] ahora requiere que el campo de selector no esté vacío. (TGT-52107)
+* Se ha corregido un problema que permitía incorrectamente métricas con nombres duplicados. Las métricas ahora requieren nombres únicos. (TGT-52201)
 * Se ha corregido un problema por el cual las definiciones de audiencia no eran visibles al editar la segmentación a nivel de oferta en actividades [!UICONTROL Automated Personalization] (AP). (TGT-52148)
-* Se ha corregido un problema por el cual las refinaciones de audiencia y las audiencias de segmentación de actividad se invertían en la interfaz de usuario. (TGT-52158)
+* Se ha corregido un problema que impedía que los clientes con derechos de [!UICONTROL Editor] guardaran actividades. (TGT-52227)
+* `OptionLocalIDs` ya no se incrementa incorrectamente cuando la opción permanece sin cambios. (TGT-52139)
+* Se ha corregido un problema que provocaba el mensaje &quot;No válido `optionLocalIds`&quot; al intentar crear una actividad. (TGT-52154)
+* Se han corregido las discrepancias entre `OptionLocalIDs` definidas para una actividad y las utilizadas para definir experiencias. (TGT-52215)
+* Se ha corregido un problema que provocaba un error de validación que se producía al intentar crear una actividad A/B. (TGT-51923)
 
 ## Actualización de permisos de Target (22 de abril de 2025)
 
