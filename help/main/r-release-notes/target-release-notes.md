@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 67%
+source-wordcount: '373'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,19 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >Las fechas del lanzamiento, las características y otras informaciones están sujetas a cambios sin previo aviso.
 >
 >Para obtener información acerca de la versión actual, consulte [Notas de la versión de Target](release-notes.md). La información de estas páginas puede ser la misma en función del lanzamiento de las versiones. Los números entre paréntesis son para uso interno de [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.4.5 (24 de abril de 2025)
+
+Esta versión de incluye las siguientes correcciones y actualizaciones:
+
+* Se ha corregido un problema que provocaba que se mostraran varias audiencias de experiencia al editar o guardar una actividad. (TGT-52134)
+* Se ha corregido un problema por el cual las recomendaciones no se mostraban en el sitio web del cliente después de activar la actividad [!DNL Recommendations]. (TGT-52164)
+* `OptionLocalIDs` ya no se incrementa incorrectamente cuando la opción permanece sin cambios. (TGT-52187)
+* Los archivos de informes descargados ahora muestran correctamente los datos presentes en la interfaz de usuario de informes. (TGT-52068)
+* Se ha corregido un problema que impedía que Target reconociera el carácter &quot;#&quot; en la dirección URL de un sitio web. (TGT-52093)
+* Las operaciones por lotes ya no fallan después de agregar reglas de envío de página. (TGT-52097)
+* Se ha corregido un problema que provocaba que [!DNL Target] recortara todos los parámetros de consulta de la dirección URL del sitio web. (TGT-52100)
+* Se ha corregido un problema que provocaba que las refinaciones de audiencia y las audiencias de actividad se invirtieran en la interfaz de usuario actualizada. (TGT-52158)
 
 ## Actualización de permisos de Target (22 de abril de 2025)
 
