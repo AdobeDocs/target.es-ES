@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 31%
+source-wordcount: '707'
+ht-degree: 29%
 
 ---
 
@@ -48,6 +48,14 @@ Esta versión de incluye las siguientes correcciones y actualizaciones:
 * Se ha corregido un problema que impedía que los clientes seleccionaran espacios de trabajo al crear ofertas dentro de una actividad. (TGT-52289)
 * Se ha corregido un problema por el cual las modificaciones de una experiencia se mostraban incorrectamente al cambiar a otra experiencia. (TGT-52184)
 * Se corrigió un problema en el cual la oferta predeterminada se mostraba incorrectamente en la interfaz de usuario de [!DNL Target] al abrir la actividad. (TGT-52198)
+
+## [!DNL Target Standard/Premium] 25.4.5 (25 de abril de 2025)
+
+Esta versión de incluye las siguientes correcciones y actualizaciones:
+
+* Se ha corregido un problema que impedía que [!DNL Target] reconociera el carácter &quot;#&quot; en la dirección URL de un sitio web. (TGT-52093)
+* Se ha corregido un problema que impedía borrar audiencias y editar audiencias combinadas en la IU actualizada para las actividades de [!UICONTROL Automated Personalization] (AP). (TGT-52149)
+* Se ha corregido un problema que provocaba que las refinaciones de audiencia y las audiencias de actividad se invirtieran en la interfaz de usuario actualizada. (TGT-52158)
 
 ## Actualización de permisos de Target (22 de abril de 2025)
 
