@@ -4,10 +4,10 @@ description: Descubra cómo funciona [!DNL Adobe Target] e incluya información 
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -39,7 +39,7 @@ Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las 
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] extensión](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
+* Extensión de [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
 * [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que un visitante solicita una página optimizada para [!DNL Target], se envía una solicitud en tiempo real al sistema de segmentación para determinar el contenido que se va a servir. Esta solicitud se realiza y se completa cada vez que se carga una página, regida por actividades y experiencias controladas por expertos en marketing. El contenido está dirigido a visitantes de sitio individuales, lo que maximiza las tasas de respuesta, las tasas de adquisición y los ingresos. El contenido personalizado ayuda a garantizar que los visitantes respondan, interactúen o realicen compras.
@@ -97,33 +97,36 @@ Las actividades de [!UICONTROL Recommendations] muestran automáticamente produc
 
 Para obtener más información, consulte [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
-## Cómo [!DNL Target] cuenta el uso de llamadas al servidor {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] solo cuenta las llamadas al servidor que proporcionan valor a los clientes. En la tabla siguiente se muestra cómo [!DNL Target] cuenta los extremos, el mbox único, las llamadas de mbox por lotes, las llamadas de ejecución, la recuperación previa y las notificaciones.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-La siguiente información le ayuda a comprender la estrategia de recuento utilizada para las llamadas al servidor [!DNL Target], como se muestra en la tabla siguiente:
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **Contar una vez**: Cuenta una vez por llamada API.
-* **Contar el número de mboxes**: Cuenta el número de mboxes bajo la matriz en la carga útil de una sola llamada de API.
-* **Ignorar**: no se cuenta.
-* **Contar el número de vistas (una vez)**: Cuenta el número de vistas bajo la matriz en la carga útil. En una implementación típica, una notificación de vista solo tiene una vista bajo la matriz de notificaciones, lo que equivale a contar una vez en la mayoría de las implementaciones.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| Punto de conexión | Tipo de recuperación | Opciones | Estrategia de recuento |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | Único | [!UICONTROL execute] | Contar una vez |
-| `rest/v2/batchmbox` | Lote | [!UICONTROL execute] | Contar el número de mboxes |
-|  | Lote | [!UICONTROL prefetch] | Omitir |
-|  | Lote | [!UICONTROL notifications] | Contar el número de mboxes |
-| `/ubox/[raw\|image\|page]` | Único | [!UICONTROL execute] | Contar una vez |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | Único | [!UICONTROL execute] > [!UICONTROL pageLoad] | Contar una vez |
-|  | Único | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | Omitir |
-|  | Único | [!UICONTROL prefetch] > [!UICONTROL views] | Omitir |
-|  | Lote | [!UICONTROL execute] > [!UICONTROL mboxes] | Contar el número de mboxes |
-|  | Lote | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Omitir |
-|  | Lote | [!UICONTROL notifications] > [!UICONTROL views] | Contar el número de vistas (una vez) |
-|  | Lote | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Contar una vez |
-|  | Lote | [!UICONTROL notifications] > tipo ([!UICONTROL conversions]) | Contar una vez |
-|  | Lote | [!UICONTROL notifications] > [!UICONTROL mboxes] | Contar el número de mboxes |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## La red de Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
