@@ -230,9 +230,9 @@ Hay cuatro modos para las actividades [!UICONTROL Auto-Target]: [!UICONTROL Dail
 
 El orden predeterminado de representación del gráfico es el siguiente:
 
-* **[!UICONTROL A/B Test](incluidos [!UICONTROL Auto-Allocate] y [!UICONTROL Automated Personalization])**: orden descendente de creación de la experiencia.
-* **[!UICONTROL Experience Targeting](XT)**: orden de las experiencias en la actividad.
-* **[!UICONTROL Multivariate Test](MVT)**: Alfabético por nombre de experiencia.
+* **[!UICONTROL A/B Test] (incluidos [!UICONTROL Auto-Allocate] y [!UICONTROL Automated Personalization])**: orden descendente de creación de la experiencia.
+* **[!UICONTROL Experience Targeting] (XT)**: orden de las experiencias en la actividad.
+* **[!UICONTROL Multivariate Test] (MVT)**: Alfabético por nombre de experiencia.
 * **[!UICONTROL Recommendations]**: orden descendente de creación de la experiencia.
 
 Cuando trabaje con las opciones [!UICONTROL Counting Methodology], tenga en cuenta las siguientes advertencias:

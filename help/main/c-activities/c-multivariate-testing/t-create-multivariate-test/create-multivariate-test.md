@@ -39,7 +39,7 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
    Se abre [!UICONTROL Visual Experience Composer].
 
-1. 
+1. &#x200B;
    1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Cambiar nombre del icono](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Save]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:

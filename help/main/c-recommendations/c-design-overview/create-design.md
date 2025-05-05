@@ -48,7 +48,7 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear uno per
 
    Se muestra el cuadro de diálogo [!UICONTROL Create Design].
 
-1. Escriba **[!UICONTROL  Name]** y una imagen de vista previa opcional para mostrarla en la tarjeta de diseño.
+1. Escriba **[!UICONTROL &#x200B; Name]** y una imagen de vista previa opcional para mostrarla en la tarjeta de diseño.
 
    Cuando se usa un diseño predeterminado, el nombre del diseño y &quot;Copiar&quot; aparecen en el campo **[!UICONTROL Content Name]**. Puede editar el nombre. También puede seleccionar una imagen para mostrarla en la tarjeta de diseño.
 

@@ -178,7 +178,7 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
+*[!UICONTROL &#x200B; Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -233,7 +233,7 @@ El comportamiento del elemento insertado depende de la estructura de la página,
 
 [!UICONTROL Recommendations] admite [!UICONTROL Insert Before] el contenido de las etiquetas DIV, SECTION y ARTICLE.
 
-**Nota:**[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
+**Nota:**&#x200B;[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
 
 ### Recomendación
 
@@ -241,7 +241,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 ### [!UICONTROL Experience Fragment]
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ## [!UICONTROL Insert After]
 
@@ -265,7 +265,7 @@ El comportamiento del elemento insertado depende de la estructura de la página,
 
 [!UICONTROL Recommendations] admite [!UICONTROL Insert After] el contenido de las etiquetas DIV, SECTION y ARTICLE.
 
-**Nota:**[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
+**Nota:**&#x200B;[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
 
 ### Recomendación
 
@@ -273,7 +273,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 ### [!UICONTROL Experience Fragment]
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ## [!UICONTROL Replace Content]
 
@@ -309,7 +309,7 @@ Recommendations admite Reemplazar con etiquetas DIV, SECTION y ARTICLE.
 
 Seleccione una oferta diferente de [!UICONTROL Content Library].
 
-**Nota:**[!DNL Target] Las ofertas HTML se almacenan en servidores de
+**Nota:**&#x200B;[!DNL Target] Las ofertas HTML se almacenan en servidores de
 
 La oferta de HTML puede alcanzar los 256 KB.
 
@@ -319,7 +319,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 ### [!UICONTROL Experience Fragment]
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager](AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ## [!UICONTROL Layout]
 

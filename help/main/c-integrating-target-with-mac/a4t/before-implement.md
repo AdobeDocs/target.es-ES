@@ -97,7 +97,7 @@ Hay casos en los que es posible que desee tener más control sobre cuándo y có
 
 ## Audiencias compartidas
 
-Al rellenar el Formulario de aprovisionamiento de integraciones de Marketing Cloud [1}{target=_blank}, tenga en cuenta la siguiente información importante acerca de la opción [!UICONTROL Shared Audiences] que aparece en &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y)
+Al rellenar el Formulario de aprovisionamiento de integraciones de Marketing Cloud [1&rbrace;, tenga en cuenta la siguiente información importante acerca de la opción [!UICONTROL Shared Audiences] que aparece en &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}
 
 ![Formulario de solicitud](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
