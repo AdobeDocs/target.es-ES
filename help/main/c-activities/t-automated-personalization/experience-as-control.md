@@ -2,7 +2,7 @@
 keywords: experiencia;control;Automated Personalization;segmentación automática
 description: Obtenga información sobre cómo seleccionar una experiencia para utilizarla como control al crear una actividad [!UICONTROL Automated Personalization] (AP) o [!UICONTROL Auto-Target] en  [!DNL Adobe Target].
 title: ¿Cómo puedo usar una experiencia específica como control en una actividad de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453

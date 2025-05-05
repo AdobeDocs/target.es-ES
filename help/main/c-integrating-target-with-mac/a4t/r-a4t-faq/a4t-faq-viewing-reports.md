@@ -83,7 +83,7 @@ Para obtener más información, consulte [Cómo configurar informes de A4T en An
 +++Respuesta
 [!DNL Reports & Analytics] aplica un modelo de atribución del mismo contacto a las &quot;impresiones de actividad&quot; y a las &quot;conversiones de actividad&quot;, mientras que [!DNL Analysis Workspace] muestra las métricas sin procesar, que pueden aparecer infladas debido a la persistencia de la dimensión [!DNL Target].
 
-Para evaluar las métricas precisas [!UICONTROL Activity Impressions] y [!UICONTROL Activity Conversions] en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan [!UICONTROL Same Touch] modelos de atribución aplicados. Los modelos se pueden aplicar haciendo clic en el engranaje de configuración de columna, habilitando [!UICONTROL Non-default attribution models] y seleccionando [!UICONTROL Same Touch]. Obtenga más información acerca de la atribución en [Información general sobre la inteligencia de atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) en la *Guía de herramientas de Analytics*.
+Para evaluar las métricas precisas [!UICONTROL Activity Impressions] y [!UICONTROL Activity Conversions] en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan [!UICONTROL Same Touch] modelos de atribución aplicados. Los modelos se pueden aplicar haciendo clic en el engranaje de configuración de columna, habilitando [!UICONTROL Non-default attribution models] y seleccionando [!UICONTROL Same Touch]. Obtenga más información acerca de la atribución en [Información general sobre la inteligencia de atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=es) en la *Guía de herramientas de Analytics*.
 
 +++
 
@@ -149,7 +149,7 @@ El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. 
 
 Dado que ambas experiencias se vieron antes de la conversión, ambas reciben &quot;crédito&quot; por el pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para la creación de informes de [!DNL Target], ya que no va a colocar una actividad de [!DNL Target] en otra actividad para ver cuál tiene más éxito, no importa que todas las actividades que vio el usuario obtengan crédito. Está comparando los resultados de dos elementos dentro de la misma actividad. Un usuario no puede ver diferentes experiencias en la misma actividad para que no tenga que preocuparse por la contaminación cruzada del crédito de pedidos.
 
-Para obtener más información, consulte [Variables de conversión (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) en la *Guía de administración de Analytics*.
+Para obtener más información, consulte [Variables de conversión (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=es)) en la *Guía de administración de Analytics*.
 
 +++
 
@@ -221,7 +221,7 @@ Tenga en cuenta lo siguiente al ver los informes de [!DNL Analytics]:
 Para ver impresiones de actividad en [!DNL Analysis Workspace]:
 
 1. En la interfaz de usuario de [!DNL Target], haga clic en **[!UICONTROL View in Analytics]**.
-1. Agregar la columna **[!UICONTROL Activity Impressions]** al informe [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
+1. Agregar la columna **[!UICONTROL Activity Impressions]** al informe [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es){target=_blank}.
 1. En la columna **[!UICONTROL Activity Impressions]**, haga clic en el icono [!UICONTROL Gear].
 1. Haga clic en **[!UICONTROL Use non-default attribution model]**.
 1. Seleccione **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.
