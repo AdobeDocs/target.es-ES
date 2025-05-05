@@ -82,4 +82,4 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)

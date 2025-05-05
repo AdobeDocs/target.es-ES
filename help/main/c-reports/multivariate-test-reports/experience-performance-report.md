@@ -37,4 +37,4 @@ Debajo del gráfico, se muestra una tabla con la cantidad de participantes que v
 
 En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de las experiencias se describe a partir del minuto 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)

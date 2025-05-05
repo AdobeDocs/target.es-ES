@@ -311,7 +311,7 @@ Objetivos de aprendizaje:
 * Los conceptos de propiedad y espacio de trabajo, y cómo operan estos límites y agrupamientos para permitir controlar el nivel de acceso de los usuarios
 * Diferentes ejemplos de propiedades para la consideración de su organización
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421736?captions=spa)
 
 ### Horario de oficina: [!DNL Target] espacios de trabajo Premium
 

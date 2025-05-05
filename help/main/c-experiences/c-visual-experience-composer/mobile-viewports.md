@@ -174,7 +174,7 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30130?captions=spa)
 
 ### Preferencias de cuenta en Adobe Target ![Distintivo Información general](/help/main/assets/overview.png)
 

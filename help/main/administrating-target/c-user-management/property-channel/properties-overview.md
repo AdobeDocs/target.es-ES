@@ -210,7 +210,7 @@ Este vídeo explica cómo se crean espacios de trabajo.
 
 * Explicación de los espacios de trabajo predeterminados
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421730?captions=spa)
 
 ### Cómo crear propiedades en Adobe Target (3:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 

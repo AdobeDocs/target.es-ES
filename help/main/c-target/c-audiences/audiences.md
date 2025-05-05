@@ -121,4 +121,4 @@ Este vídeo contiene información sobre el uso de las audiencias.
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)

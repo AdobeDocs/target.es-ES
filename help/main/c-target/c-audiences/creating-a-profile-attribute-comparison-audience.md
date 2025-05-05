@@ -65,4 +65,4 @@ Para obtener más información, vea [Métodos para obtener datos en Target](http
 
 Vea el siguiente vídeo para obtener más información y ver un caso en el que podría utilizar esta función:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/328109?captions=spa)

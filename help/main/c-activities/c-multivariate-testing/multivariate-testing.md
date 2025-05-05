@@ -98,7 +98,7 @@ En este vídeo de información general se explican los tipos de actividades disp
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
 
 ### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
@@ -107,4 +107,4 @@ En este vídeo se explica cómo comprender, planificar y crear una prueba multiv
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)

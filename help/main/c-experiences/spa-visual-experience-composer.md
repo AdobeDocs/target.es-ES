@@ -437,6 +437,6 @@ Este mensaje aparece cuando agrega la primera acción a una Vista para cada nuev
 
 ## Vídeo de formación: Uso del VEC para SPA en Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/34794?captions=spa)
 
 SPA Consulte [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (VEC) en Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obtener más información.
