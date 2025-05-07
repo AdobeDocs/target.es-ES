@@ -4,30 +4,30 @@ description: Aprenda los conceptos básicos del uso del Compositor de experienci
 title: ¿Cómo utilizo el Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 57%
+source-wordcount: '1132'
+ht-degree: 43%
 
 ---
 
-# Compositor de experiencias visuales (VEC)
+# [!UICONTROL Visual Experience Composer] (VEC)
 
-Información acerca del uso de [!UICONTROL Visual Experience Composer] (VEC) en [!DNL Adobe Target].
+El [!UICONTROL Visual Experience Composer] (VEC) de [!DNL Adobe Target] es un editor de WYSIWYG que permite a los clientes crear y probar experiencias personalizadas directamente en sus sitios web o páginas web móviles sin necesidad de editar el código.
 
 >[!NOTE]
 >
->La versión de [!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025) incluyó una versión actualizada del VEC. Para obtener información sobre las diferencias entre el VEC actualizado y la versión anterior, consulte [Cambios del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>La versión de [!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025) incluyó una versión actualizada del VEC. Para obtener información sobre las diferencias entre el VEC actualizado y la versión anterior, consulte [Cambios del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Para obtener una descripción general de las distintas opciones del VEC actualizado, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-El VEC es una interfaz de usuario de WYSIWYG que le permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de [!DNL Target] arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página web (u oferta) o de una página web móvil.
+El VEC permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de [!DNL Target] arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página web (u oferta) o de una página web móvil.
 
-El VEC es una de las características principales de [!DNL Adobe Target]. El VEC permite que los expertos en marketing y los diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
+El VEC es una de las características principales de [!DNL Target]. El VEC permite que los expertos en marketing y los diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 
-En la ficha Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, puede escribir la dirección URL predeterminada [!UICONTROL Visual Experience Composer].
+En la ficha [!DNL Target] **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, puede escribir la dirección URL predeterminada [!UICONTROL Visual Experience Composer].
+
+Esta dirección URL determina la página de inicio al abrir el VEC. Si no especifica una dirección URL predeterminada, comenzará con una página en blanco cuando abra el editor y, a continuación, podrá especificar una dirección URL.
 
 ![VEC resaltado](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
-
-Esta dirección URL determina la página de inicio al abrir el VEC. Si no establece un valor predeterminado, comenzará con una página en blanco cuando abra el editor y deberá indicar una dirección URL entonces.
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ Esta dirección URL determina la página de inicio al abrir el VEC. Si no establ
 
 El contenido de dentro de un iframe en la página no se puede modificar en el VEC. Para editar contenido dentro de un iframe, asegúrese de que el documento del iframe esté habilitado para [!DNL Target] y luego cargue la dirección URL del iframe en el VEC.
 
-Puede usar las fichas del marco [!UICONTROL Experiences] para ver la página tal como se mostraría a distintas audiencias o con diferentes experiencias. Puede proporcionar un nombre para cada experiencia. Por ejemplo, si está probando la ubicación del vínculo a la página de inicio en la barra de navegación, sería interesante poner a la experiencia en la que aparece primero el vínculo a la página de inicio un nombre como “Vínculo a Inicio”, para que sea más fácil identificar las experiencias de la lista.
+Puede usar las pestañas del carril [!UICONTROL Experiences] para ver la página tal como se mostraría a diferentes audiencias o con diferentes experiencias. Puede proporcionar un nombre para cada experiencia. Por ejemplo, si está probando la ubicación del vínculo a la página de inicio en la barra de navegación, podría asignar un nombre a la experiencia en la que el vínculo a la página de inicio aparece primero. Por ejemplo, &quot;Vínculo a Inicio&quot; para que sea más fácil identificar las experiencias en la lista.
 
 >[!NOTE]
 >
->Los cambios en la estructura de una página que afecten a las ubicaciones empleadas en una actividad creada en esa página podrían producir errores al editar la experiencia. Si se ha cambiado una ubicación fuera del VEC, es posible que [!DNL Target] no encuentre la ubicación donde se cambió el contenido.
+>Los cambios en la estructura de una página que afecten a las ubicaciones utilizadas en una actividad creada en esa página pueden producir problemas al editar la experiencia. Si se ha cambiado una ubicación fuera del VEC, es posible que [!DNL Target] no encuentre la ubicación donde se cambió el contenido.
 
 A medida que mueve el ratón por la página, un cuadro contextual sigue al cursor, destacando los elementos en la página.
 
@@ -72,7 +72,7 @@ Algunas razones por las cuales es posible que desee acceder o editar una página
 * Desea copiar código personalizado existente de una página que ya no es accesible
 * Sabe que una página no se cargará dentro del VEC pero de todas maneras desea realizar ediciones simples
 
-Mientras la página se carga (o después de que dé error al cargar), el panel [!UICONTROL Experiences], el panel [!UICONTROL Modifications] y la configuración en la parte superior de la experiencia (Superposiciones, Modificaciones, Configurar, etc.) están accesibles.
+Mientras la página se carga (o después de que no se haya cargado), las opciones [!UICONTROL Experiences], [!UICONTROL Components] y [!UICONTROL Configure] están accesibles.
 
 ## Cancelación de la carga de una página dentro del VEC {#cancel-loading}
 
@@ -85,10 +85,10 @@ Algunas de las razones por las que es posible que desee cancelar la carga de pá
 * Desea insertar o editar código personalizado
 * Introdujo la dirección URL incorrecta para la página
 * Desea habilitar o deshabilitar JavaScript antes de cargar la página en el VEC
-* Desea agregar más reglas de prueba de plantilla a los criterios de Entrega de página
-* Desea anular la opción del Compositor de experiencias mejorado (EEC) global al cargar una página a través del EEC o solo iframe podría depender o variar de una página a otra
+* Desea agregar más reglas de prueba de plantilla a los criterios de [!UICONTROL Page Delivery]
+* Desea anular la opción global [!UICONTROL Enhanced Experience Composer] (EEC) al cargar una página a través de EEC o solo iframe
 
-Después de cancelar la carga de páginas en el VEC, puede cambiar entre experiencias en la actividad sin esperar a que se cargue la página. Para volver a ver la página dentro del VEC, debe hacer clic en el botón **[!UICONTROL Reload]**.
+Si cancela la carga de páginas en el VEC, puede cambiar entre experiencias en la actividad sin esperar a que se cargue la página. Para volver a ver la página dentro del VEC, debe hacer clic en el botón **[!UICONTROL Reload]**.
 
 >[!IMPORTANT]
 >
