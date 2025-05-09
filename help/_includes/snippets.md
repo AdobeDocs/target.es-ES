@@ -1,8 +1,8 @@
 ---
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 32%
+source-wordcount: '50'
+ht-degree: 42%
 
 ---
 # Fragmentos
@@ -17,6 +17,6 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->A partir del 22 de abril de 2025, solo los administradores de [!UICONTROL Product] y [!UICONTROL Solutions] podrán actualizar la configuración en las secciones de [!UICONTROL Administration], independientemente de sus funciones en [!DNL Target] espacios de trabajo. Los usuarios sin este permiso tendrán acceso de sólo lectura a las secciones [!UICONTROL Administration]. Para obtener más información, consulte [Permisos necesarios para editar [!UICONTROL Administration] configuración](/help/main/administrating-target/start-target.md#admin-permissions).
+>Los usuarios de [!DNL Target] con derechos de [!UICONTROL Product Administrator] y [!UICONTROL System Administrator] pueden editar toda la configuración en las páginas de [!UICONTROL Administration], independientemente de su función en [!DNL Target]. Los usuarios sin estos permisos tienen acceso de solo lectura a esta configuración.
 
 

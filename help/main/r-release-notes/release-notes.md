@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 52%
+source-wordcount: '874'
+ht-degree: 36%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 52%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 25.5.2 (8 de mayo de 2025)
+
+Esta versión de incluye las siguientes correcciones y actualizaciones:
+
+* Los usuarios de [!DNL Target] con derechos de [!UICONTROL Product Administrator] y [!UICONTROL System Administrator] ahora pueden editar toda la configuración en las páginas de [!UICONTROL Administration], independientemente de su rol en [!DNL Target]. Los usuarios sin estos permisos tienen acceso de solo lectura a esta configuración. Esta actualización asegura un control de acceso más estricto sobre [Configuración de administración](/help/main/administrating-target/administrating-target.md). (TGT-48179)
+* Se ha corregido un problema de almacenamiento en caché que impedía guardar la actividad [Preferencias del sitio](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings). (TGT-52213)
+* Se ha corregido un problema en el cual los clientes no podían habilitar la selección por ID y clase en la sección [!UICONTROL Site Preferences] después de cargar el sitio en el VEC. La configuración de [!UICONTROL Site Preferences] se revirtió automáticamente a deshabilitada incluso después de habilitarse. (TGT-52207)
+* Se ha corregido un problema en el cual el [!UICONTROL Visual Experience Composer] (VEC) no mostraba la página correcta cuando las direcciones URL de [entrega de página](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) terminaban con una barra diagonal (/). (TGT-52237)
+* Se ha corregido un problema que impedía eliminar las modificaciones de código personalizado al cambiar experiencias. (TGT-52240)
+* Se ha corregido un problema en el cual las modificaciones de HTML en el VEC superponían elementos de página existentes. (TGT-52265)
+* Se ha corregido un problema que impedía editar código personalizado en el VEC actualizado debido a que el código personalizado existente no era visible en el editor. (TGT-52272)
+* Se ha corregido un problema que provocaba el mensaje de error &quot;No se permiten nombres duplicados&quot; al guardar una actividad de Recommendations. (TGT-52318)
+* Se ha corregido un problema en el VEC actualizado que impedía a los clientes editar elementos de texto o eliminar objetos contenedores. (TGT-52348)
+* Se ha corregido un problema que impedía que [!DNL Customer Journey Analytics] se mostrara correctamente en una página de actividad [!UICONTROL Overview]. (TGT-52359)
+* Se ha corregido un problema que impedía que los grupos de informes persistieran en las actividades [!UICONTROL Automated Personalization] (AP). (TGT-52368)
+* Se ha corregido un problema que impedía guardar actividades que incluían Offer Decisioning. (TGT-52390)
+* Se ha corregido un problema por el cual se seleccionaba la oferta predeterminada, pero se mostraba otro contenido de oferta en las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Multivariate Test] (MVT). (TGT-52372)
+* Se ha corregido la lógica de permisos de GET para comprobar con O entre el acceso completo a la organización y el acceso específico a la organización y al usuario. (TGT-52374)
+* Se ha corregido un problema por el cual los nombres de audiencia no se mostraban después de seleccionar una audiencia para [!UICONTROL Managed Content] y [!UICONTROL Reporting Audiences], aunque [!UICONTROL Show Only Selected] estuviera habilitado. (TGT-52393)
 
 ## [!DNL Target Standard/Premium] 25.5.1 (5 de mayo de 2025)
 
