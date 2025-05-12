@@ -4,9 +4,9 @@ description: Aprenda a utilizar el [!UICONTROL Visual Experience Composer] (VEC)
 title: ¿Cómo creo una actividad de [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '901'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ Para crear una actividad [!UICONTROL Auto-Allocate]:
 
    Se abre [!UICONTROL Visual Experience Composer] y se muestra la página especificada en la dirección URL.
 
-1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Cambiar nombre del icono](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Save]**.
+1. Para asignar un nombre a la actividad, haga clic en el icono **[!UICONTROL Edit]** ( ![Editar icono](/help/main/assets/icons/Edit.svg) ) junto a &quot;[!UICONTROL Untitled Activity]&quot;, especifique un nombre descriptivo para la actividad y haga clic en **[!UICONTROL Save]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 

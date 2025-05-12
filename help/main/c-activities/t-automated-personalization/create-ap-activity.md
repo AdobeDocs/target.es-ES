@@ -2,13 +2,13 @@
 keywords: personalización automatizada;ap
 description: Obtenga información sobre cómo crear una actividad [!UICONTROL Automated Personalization] (AP) usando [!UICONTROL Visual Experience Composer].
 title: ¿Cómo creo una actividad de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '1844'
-ht-degree: 24%
+source-wordcount: '1851'
+ht-degree: 23%
 
 ---
 
@@ -42,7 +42,7 @@ El flujo de trabajo de la actividad [!UICONTROL Automated Personalization] (AP) 
 
    Se abre la página con la dirección URL especificada en el VEC.
 
-1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Cambiar nombre del icono](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Save]**.
+1. Para asignar un nombre a la actividad, haga clic en el icono **[!UICONTROL Edit]** ( ![Editar icono](/help/main/assets/icons/Edit.svg) ) junto a &quot;[!UICONTROL Untitled Activity]&quot;, especifique un nombre descriptivo para la actividad y haga clic en **[!UICONTROL Save]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 

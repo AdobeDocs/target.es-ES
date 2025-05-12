@@ -4,9 +4,9 @@ description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en 
 title: ¿Cómo creo un(a) [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 26%
 
 ---
@@ -39,8 +39,7 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
    Se abre [!UICONTROL Visual Experience Composer].
 
-1. &#x200B;
-   1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Cambiar nombre del icono](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Save]**.
+1. Para asignar un nombre a la actividad, haga clic en el icono **[!UICONTROL Edit]** ( ![Editar icono](/help/main/assets/icons/Edit.svg) ) junto a &quot;[!UICONTROL Untitled Activity]&quot;, especifique un nombre descriptivo para la actividad y haga clic en **[!UICONTROL Save]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
 
@@ -129,4 +128,4 @@ En este vídeo se muestra cómo planificar y crear una prueba multivariable medi
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
