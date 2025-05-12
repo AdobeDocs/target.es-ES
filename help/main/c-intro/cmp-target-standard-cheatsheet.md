@@ -4,10 +4,10 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 94%
+source-wordcount: '2678'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Consulte el [Foro de la comunidad de Target](/help/main/cmp-resources-and-contac
 
 **¿Qué navegadores admite Target?**
 
-Lea nuestra matriz de [exploradores admitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
+Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
 
 ## Actividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Utilice los controles de asignación porcentual disponibles desde el [paso 2 del
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Experiencias {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -180,7 +180,7 @@ Pruebe la [información de solución de problemas](/help/main/c-experiences/c-vi
 
 También tenemos un [método basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que puede desbloquearlo.
 
-Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que también tenga que comunicarse con su departamento de TI para [los servidores proxy de lista de permitidos Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que también deba comunicarse con su departamento de TI para [lista de permitidos de los servidores proxy de Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Tengo un sitio adaptable. Al crear una actividad, ¿cómo puedo estar seguro de que estoy considerando dispositivos clave?**
 
@@ -212,13 +212,7 @@ Una de las formas es utilizar el [Editor de código personalizado](/help/main/c-
 
 Utilice las funciones de composición y exploración para ir a la página que ha elegido y comenzar a crear su experiencia.
 
-![imagen vec2](assets/vec2.png)
-
-**¿Cómo puedo ir a la experiencia que he elegido desde el Paso 2 del flujo de trabajo guiado de tres partes de Target (página de orientación)?**
-
-Haga clic en la miniatura en frente del nombre de la experiencia en el Paso 2 y llegará a la experiencia de su elección.
-
-![imagen thumbnail_experience](assets/thumbnail_experiences.png)
+![Alternadores de diseño y exploración](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **Soy un usuario anterior de Target Classic. ¿Puedo aprovechar mis mboxes para algunos casos de uso?**
 
@@ -258,7 +252,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,4 +303,4 @@ Lamentamos que tenga problemas. Consulte [Solución de problemas de Target](/hel
 
 **¿Dónde puedo obtener más información sobre las API de Target?**
 
-Tenemos documentación exhaustiva sobre las API. Consulte [API de envío, SDK de NodeJS y documentación de API de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank}.
+Tenemos documentación exhaustiva sobre las API. Consulte [API de entrega, SDK de NodeJS y documentación de la API de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank}.
