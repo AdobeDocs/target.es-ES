@@ -20,7 +20,7 @@ Este artículo contiene los primeros pasos que deben realizar los administradore
 
 Un administrador del sistema de [!DNL Adobe Admin Console] debe agregarle como usuario de [!DNL Target] para invitarle a unirse. A continuación, el administrador del sistema debe agregarle a uno o varios grupos específicos de funciones. Ambas tareas se realizan en [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com).
 
-Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) en la ayuda de *Experience Cloud y servicios principales*.
+Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es) en la ayuda de *Experience Cloud y servicios principales*.
 
 Recibirá un correo electrónico de invitación después de que el administrador del sistema haya realizado estos pasos.
 
