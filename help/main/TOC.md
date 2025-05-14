@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 89%
+source-wordcount: '1274'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 # Guía para profesionales de Adobe Target Business {#using}
 
 + [Guía para profesionales de Adobe Target Business](target-home.md)
-+ Notas de la versión de Target {#release-notes}
++ Notas de versión de Target {#release-notes}
    + [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md)
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
    + [Notas de la versión de Target (versión previa)](r-release-notes/target-release-notes.md)
@@ -27,7 +27,9 @@ ht-degree: 89%
    + [Acceder a Target desde Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Conceptos clave de Target](c-intro/target-key-concepts.md)
    + [Información sobre la interfaz de usuario de Target](/help/main/c-intro/understand-the-target-ui.md)
-   + [Uso del asistente de IA](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI Assistant {#ai-assistant}
+      + [Habilitar el asistente de IA](/help/main/c-intro/ai-assistant.md)
+      + [Utilice el asistente de IA para obtener conocimientos del producto](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Kit de bienvenida de Adobe Target {#welcome}
       + [Información general sobre el kit de bienvenida de Target](/help/main/c-intro/target-welcome-kit.md)
       + [Capítulo 1: Introducción](/help/main/c-intro/target-welcome-kit-1.md)
@@ -56,7 +58,7 @@ ht-degree: 89%
    + [Hosts](administrating-target/hosts.md)
    + [Entornos](/help/main/administrating-target/environments.md)
    + [Tokens de respuesta](administrating-target/response-tokens.md)
-   + Administración de usuarios {#manage-users}
+   + Administrar usuarios {#manage-users}
       + [Administración de usuarios](administrating-target/c-user-management/user-management.md)
       + Usuarios {#users}
          + [Información general sobre usuarios](administrating-target/c-user-management/c-user-management/user-management.md)
@@ -69,7 +71,7 @@ ht-degree: 89%
 + Implementación de Target {#implement-target}
    + [Información general sobre la implementación de Target](c-implementing-target/implementing-target.md)
 + Integración de Target con Experience Cloud {#integrate}
-   + Adobe Analytics como fuente de informes para Adobe Target (A4T) {#a4t}
+   + Adobe Analytics como fuente de informes para Target (A4T) {#a4t}
       + [Información general de A4T](c-integrating-target-with-mac/a4t/a4t.md)
       + [Antes de la implementación](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementación de Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -80,7 +82,7 @@ ht-degree: 89%
       + [Informes de A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Resolución de problemas de integración de Analytics y Target (A4T) {#troubleshoot-a4t}
          + [Resolución de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-      + Preguntas más frecuentes sobre A4T {#a4t-faq}
+      + Preguntas más frecuentes sobre A4T  {#a4t-faq}
          + [Aprovisionamiento inicial: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configuración de actividades: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Visualización de informes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -91,9 +93,9 @@ ht-degree: 89%
          + [Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integración heredada de SiteCatalyst con Test&amp;Target: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Integrar Target con Adobe Customer Journey Analytics {#cja}
+   + Integración de Target con Adobe Customer Journey Analytics {#cja}
       + [Informes de Target en Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Integrar Target con Adobe Journey Optimizer (AJO) {#ajo}
+   + Integración de Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrar [!DNL Adobe Target Recommendations] y [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Casos de uso de Adobe Journey Optimizer {#use-cases}
@@ -101,13 +103,13 @@ ht-degree: 89%
          + [Cambios de contenido mediante pruebas A/B en Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + [Agregar u ocultar componentes a la página web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Integrar Target con Adobe Experience Manager AEM () {#aem}
-      + [AEM Información general sobre la integración de Target con](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+   + Integración de Target con Adobe Experience Manager (AEM) {#aem}
+      + [Información general sobre la integración de Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragmentos de experiencias y fragmentos de contenido {#fragments}
-         + [AEM Resumen de fragmentos de contenido y fragmentos de experiencias](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Información general sobre fragmentos de contenido y fragmentos de experiencias AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragmentos de experiencia de AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [AEM Fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [Integración de Target con Adobe Audience Manager AAM ()](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+         + [Fragmentos de contenido de AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+   + [Integración de Target con Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integración con Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integración de Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Actividades {#activities}
@@ -239,7 +241,7 @@ ht-degree: 89%
       + [Selectores de elementos utilizados en el Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/vec-selectors.md)
       + [Ventanillas móviles para las experiencias adaptables](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
-      + Solución de problemas del compositor de experiencias visuales {#troubleshoot-composer}
+      + Resolución de problemas del Compositor de experiencias visuales {#troubleshoot-composer}
          + [Información general sobre la resolución de problemas del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Resolución de problemas del Compositor de experiencias visuales](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
@@ -262,10 +264,10 @@ ht-degree: 89%
       + [Trabajar con contenido en la biblioteca](c-experiences/c-manage-content/assets-working.md)
       + [Búsqueda y filtrado de contenido](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transmisión dinámica de datos en ofertas](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM Fragmentos de contenido y experiencia de](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [Fragmentos de contenido y experiencia de AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Informes {#reports}
    + [Información general sobre informes](c-reports/reports.md)
-   + Configuración del informe {#settings}
+   + Configuración de informes {#settings}
       + [Información general sobre la configuración de informes](c-reports/c-report-settings/report-settings.md)
       + [Ver varias métricas en un informe](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Excluir valores extremos](c-reports/c-report-settings/excluding-extreme-orders.md)
@@ -275,11 +277,11 @@ ht-degree: 89%
    + Informes de Personalization {#personalization-reports}
       + [Informe Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Informes resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Informe Perspectivas de personalización {#insights}
+   + Informe de perspectivas de Personalization {#insights}
       + [Información general sobre los informes de Perspectivas de personalización](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Informe Segmentos automatizados](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Informe Atributos importantes](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + Informes de pruebas multivariable {#multivariate-test-reports}
+   + Informes de prueba multivariable {#multivariate-test-reports}
       + [Informe Rendimiento de las experiencias (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [Informe Contribución de ubicación (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Creación de informes en Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
