@@ -20,7 +20,7 @@ Información sobre las tareas previas necesarias que su organización debe compl
 
 Su organización debe aceptar primero términos legales adicionales para obtener acceso a [!DNL AI Assistant]. A continuación, póngase en contacto con el equipo de su cuenta de Adobe para obtener ayuda sobre estos términos.
 
-Para obtener más información, consulte [Acceso [!DNL AI Assistant] en [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} en la documentación de *[!DNL Experience Platform]*.
+Para obtener más información, consulte [Acceso [!DNL AI Assistant] en [!DNL Experience Platform]](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/access){target=_blank} en la documentación de *[!DNL Experience Platform]*.
 
 ## Habilitar permisos de usuario para [!UICONTROL AI Assistant]
 
