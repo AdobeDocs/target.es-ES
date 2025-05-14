@@ -4,10 +4,10 @@ description: Familiarícese con la interfaz de usuario y encuentre vínculos a i
 title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 31%
+source-wordcount: '1388'
+ht-degree: 28%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 31%
 
 La interfaz de usuario está organizada en un formato lógico y fácil de usar para ayudarle a sacar el máximo partido a [!DNL Adobe Target]. La siguiente descripción general breve le ayudará a familiarizarse con [!DNL Target] y le proporcionará vínculos para obtener información más detallada e instrucciones paso a paso.
 
-El encabezado de la parte superior de la interfaz de usuario de [!DNL Target] contiene fichas y opciones que le ayudarán a navegar por las diferentes capacidades de la solución. También puede cambiar de organización y [!DNL Adobe Experience Cloud] soluciones, obtener ayuda y notificaciones, administrar su perfil de [!DNL Adobe] y cerrar la sesión de [!DNL Target].
+## Encabezado de interfaz de usuario [!DNL Target]
+
+El encabezado de la parte superior de la interfaz de usuario de [!DNL Target] contiene fichas y opciones que le ayudarán a navegar por las diferentes capacidades de la solución. También puede cambiar de organización y de soluciones de [!DNL Adobe Experience Cloud], proporcionar comentarios si forma parte de un programa de Beta, acceder al Asistente de IA, obtener ayuda y notificaciones, administrar su perfil de [!DNL Adobe] y cerrar la sesión de [!DNL Target].
 
 ![Encabezado de Target](/help/main/c-intro/assets/target-header.png)
 
-Las pestañas del lado izquierdo le permiten acceder a las distintas funcionalidades de [!DNL Target], que se describen más adelante. Empecemos por hablar de las opciones del lado derecho antes de saltar a las pestañas.
+Las pestañas del lado izquierdo le permiten acceder a las distintas funcionalidades de [!DNL Target], que se describen más adelante. Empecemos por hablar de las opciones del lado derecho antes de hablar de las pestañas.
 
-## Organizaciones
+### [!UICONTROL Organization]
 
 Una *organización* es la entidad que habilita un administrador a fin de configurar grupos y usuarios, y para controlar el inicio de sesión único en [!DNL Adobe Experience Cloud]. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de [!DNL Experience Cloud]. La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
@@ -29,19 +31,25 @@ Seleccione la organización que desee en la lista desplegable [!UICONTROL Organi
 
 ![Lista desplegable Organización](/help/main/c-intro/assets/organizations.png)
 
-## Aplicaciones
+### [!UICONTROL Beta Feedback]
 
-El conmutador Aplicaciones le permite acceder rápidamente a las soluciones de [!DNL Adobe Experience Cloud] a las que tiene acceso.
+(Condicional) Si forma parte de un programa oficial de Beta [!DNL Target], podría ver el icono [!UICONTROL Beta Feedback].
 
-![Conmutador de aplicaciones](/help/main/c-intro/assets/apps.png)
+![Icono de comentarios de Beta](/help/main/c-intro/assets/beta-feedback.png)
 
-## Ayuda
+Proporcione una descripción para sus comentarios, incluya los archivos o capturas de pantalla correspondientes y cualquier detalle adicional que sea necesario y luego haga clic en **[!UICONTROL Submit]**.
 
-El icono Ayuda le permite acceder a información, vídeos, blogs y mucho más para ayudarle a utilizar [!DNL Target] de forma más eficaz. Puede crear un vale de soporte, encontrar números de teléfono de soporte, hacer preguntas por Twitter o proporcionar comentarios sobre [!DNL Target] para que sepamos cómo está el equipo [!DNL Target].
+### [!DNL AI Assistant] (programado para el lanzamiento el 20 de mayo de 2025)
+
+(Condicional) Si su organización le ha concedido derechos para utilizar el asistente de IA, haga clic en el icono Asistente de IA.
+
+### Ayuda
+
+El icono Ayuda le permite acceder a información, vídeos, blogs y mucho más para ayudarle a utilizar [!DNL Target] de forma más eficaz. Puede crear un vale de soporte, encontrar números de teléfono de soporte, hacer preguntas a través de Twitter o proporcionar comentarios acerca de [!DNL Target] para que sepamos cómo está el equipo de [!DNL Target].
 
 ![Ayuda](/help/main/c-intro/assets/help.png)
 
-## Notificaciones y anuncios {#notifications-announcements}
+### Notificaciones y anuncios {#notifications-announcements}
 
 Los paneles [!UICONTROL Notifications] y [!UICONTROL Announcements] le ayudan a estar al día acerca de todas las cosas de [!DNL Adobe Target]. Las notificaciones dinámicas ayudan a mantenerle al día del estado de las soluciones [!DNL Adobe Experience Cloud] y los eventos [!DNL Target]. Las notificaciones proactivas le avisan sobre eventos de interrupción y eventos de mantenimiento.
 
@@ -55,7 +63,7 @@ El panel contiene fichas para [!UICONTROL Notifications] y [!UICONTROL Announcem
 
 Las secciones siguientes contienen información sobre cada pestaña y cómo configurar las notificaciones y los anuncios:
 
-### Notificaciones {#notifications}
+#### Notificaciones {#notifications}
 
 [!DNL Target] notificaciones de eventos incluyen lo siguiente:
 
@@ -93,7 +101,7 @@ Puede marcar las notificaciones individuales como leídas pasando el puntero sob
 
 También puede configurar un recordatorio para que se le notifique de nuevo pasando el puntero sobre una notificación, haciendo clic en el icono &quot;[!UICONTROL Remind me]&quot; y seleccionando cuándo desea que se le notifique: 5 minutos, 15 minutos, una hora o mañana.
 
-### Anuncios
+#### Anuncios
 
 Las notificaciones proactivas le avisan sobre eventos de interrupción y eventos de mantenimiento.
 
@@ -119,7 +127,6 @@ Para editar las preferencias de notificaciones:
    >
    >&quot;Nuevas versiones&quot; y &quot;Actualizaciones de contenido&quot; son las únicas categorías de notificación aplicables a [!DNL Target]. Las otras categorías se aplican a otras soluciones de Adobe.
 
-
 1. Seleccione las categorías que desea que se consideren de alta prioridad.
 1. Seleccione las notificaciones de las que desea ver alertas en el explorador.
 
@@ -132,7 +139,13 @@ Para editar las preferencias de notificaciones:
    * Resumen diario
    * Resumen semanal
 
-## Perfil
+### Conmutador de aplicaciones
+
+El conmutador Aplicaciones le permite acceder rápidamente a las soluciones de [!DNL Adobe Experience Cloud] a las que tiene acceso.
+
+![Conmutador de aplicaciones](/help/main/c-intro/assets/apps.png)
+
+### Perfil
 
 Haga clic en el avatar de su perfil para editar sus preferencias de [!DNL Adobe Experience Cloud] o para cerrar sesión de [!DNL Target]. También puede acceder o editar su perfil de [!DNL Adobe].
 
@@ -180,7 +193,7 @@ Haga clic en la ficha **[!UICONTROL Recommendations]** para tener acceso a [!DNL
 
 Las actividades de [!UICONTROL Recommendations] muestran automáticamente productos o contenido que podría interesar a sus clientes, en función de la actividad previa del usuario u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no conozcan de otra manera.
 
-Consulte [Recommendations](/help/main/c-recommendations/recommendations.md) para obtener información detallada sobre [!UICONTROL Recommendations] en [!DNL Target] y para obtener más información sobre la interfaz de usuario de [!UICONTROL Recommendations].
+Vea [Recommendations](/help/main/c-recommendations/recommendations.md) para obtener información detallada acerca de [!UICONTROL Recommendations] en [!DNL Target] y para obtener más información acerca de la interfaz de usuario de [!UICONTROL Recommendations].
 
 ## Administración
 
