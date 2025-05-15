@@ -3,11 +3,12 @@ keywords: asistente de inteligencia artificial;asistente de inteligencia artific
 description: Aprenda a obtener  [!DNL Target] conocimientos del producto con [!DNL AI Assistant].
 title: ¿Cómo utilizo  [!DNL AI Assistant] in [!DNL Target]  para obtener conocimientos del producto?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '311'
+ht-degree: 9%
 
 ---
 
@@ -60,10 +61,10 @@ Para acceder a [!DNL AI Assistant]:
 
 Obtenga información acerca de [!DNL Adobe Experience Platform] aplicaciones de [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441027/?learn=on&#x26;enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validar respuestas del asistente de IA
 
 Obtenga información sobre cómo comprobar y validar las respuestas que proporciona [!DNL AI Assistant] en [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441741/?learn=on&#x26;enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
