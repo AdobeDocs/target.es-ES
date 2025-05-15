@@ -1,6 +1,6 @@
 ---
 keywords: asistente de inteligencia artificial;asistente de inteligencia artificial
-description: Obtenga información sobre cómo habilitar [!DNL AI Assistant] en[!DNL  Adobe Target].
+description: Obtenga información sobre cómo habilitar [!DNL AI Assistant] en[!DNL &#x200B; Adobe Target].
 title: ¿Cómo habilito el(la) [!DNL AI Assistant] en [!DNL Target]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 feature: Overview
