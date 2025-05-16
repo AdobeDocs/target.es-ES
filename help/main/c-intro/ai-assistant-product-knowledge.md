@@ -3,12 +3,11 @@ keywords: asistente de inteligencia artificial;asistente de inteligencia artific
 description: Aprenda a obtener  [!DNL Target] conocimientos del producto con [!DNL AI Assistant].
 title: ¿Cómo utilizo  [!DNL AI Assistant] in [!DNL Target]  para obtener conocimientos del producto?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +25,7 @@ Las preguntas de conocimiento del producto incluyen [!DNL Adobe] conceptos relac
 
 Para acceder a [!DNL AI Assistant]:
 
-1. Asegúrese de haber completado las tareas previas en [Habilitar [!DNL Adobe Experience Platform] [!DNL AI Assistant] en [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md).
+1. Asegúrese de haber completado las tareas previas en [Habilitar [!DNL Adobe Experience Platform] [!DNL AI Assistant] en [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md).
 
    * Su organización debe aceptar primero los términos legales. Para obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
    * Los administradores deben concederle permisos suficientes para acceder a [!DNL AI Assistant].
@@ -61,10 +60,10 @@ Para acceder a [!DNL AI Assistant]:
 
 Obtenga información acerca de [!DNL Adobe Experience Platform] aplicaciones de [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441027/?learn=on&#x26;enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validar respuestas del asistente de IA
 
 Obtenga información sobre cómo comprobar y validar las respuestas que proporciona [!DNL AI Assistant] en [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441741/?learn=on&#x26;enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
