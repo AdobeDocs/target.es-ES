@@ -29,7 +29,7 @@ Utilice el asistente de IA en Target para mejorar la eficacia de sus actividades
 
 Para generar texto con [!DNL AI Assistant]:
 
-1. En [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), haga clic en el icono **[!UICONTROL Show Content Assistant]( ![Mostrar icono del Asistente de contenido](/help/main/assets/icons/MagicWand.svg) )** en el carril derecho de la interfaz de usuario de VEC.
+1. En [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), haga clic en el icono **[!UICONTROL Show Content Assistant] ( ![Mostrar icono del Asistente de contenido](/help/main/assets/icons/MagicWand.svg) )** en el carril derecho de la interfaz de usuario de VEC.
 
    ![Mostrar icono del Asistente de contenido](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
