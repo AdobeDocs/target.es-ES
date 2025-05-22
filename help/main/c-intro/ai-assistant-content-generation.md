@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 2%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -47,6 +47,8 @@ Para generar texto con [!DNL AI Assistant]:
 
    Por ejemplo, para una venta de vacaciones de temporada, puede escribir &quot;Escriba un texto atractivo para anunciar una venta de vacaciones de verano de tiempo limitado&quot;.
 
+   Vea [variaciones de ejemplo](#variations) a continuación para ver cómo [!DNL AI Assistant] transforma un mensaje simple en una copia de anuncio cautivadora y de formato más largo para una emocionante aventura en Nueva York.
+
 1. Haga clic en el icono **[!UICONTROL Text Settings]** para especificar el tono y la estrategia de comunicación del texto.
 
    * **Estrategia de comunicación**: elige el estilo de comunicación más adecuado para el texto generado.
@@ -73,8 +75,21 @@ Para generar texto con [!DNL AI Assistant]:
    * Haz clic en el icono de Pulgares hacia abajo ( ![Icono de Pulgares hacia abajo](/help/main/assets/icons/ThumbDown.svg) ) para indicar a [!DNL AI Assistant] que no te gusta la variación.
    * Haga clic en el icono [!UICONTROL Report Results] ( ![icono de resultados del informe](/help/main/assets/icons/Flag.svg) ) para informar de un problema a [!DNL AI Assistant].
 
+## Variaciones de ejemplo {#variations}
+
+Cambiar el texto a pantalla completa es solo el principio. Con [!DNL AI Assistant] en [!DNL Target], no está limitado a ediciones básicas. Tiene la capacidad de crear, refinar y elevar el contenido en toda la experiencia. Ya sea que estés generando variaciones, optimizando la mensajería o generando nuevas copias sobre la marcha, [!DNL AI Assistant] usa el poder de la IA generativa para ayudarte a crear contenido atractivo y de alto impacto en segundos.
+
+El siguiente mensaje y las siguientes variaciones muestran la potencia de [!DNL AI Assistant].
+
+**[!UICONTROL Prompt]**: escribe un anuncio atractivo para un viaje de tres días a Nueva York para visitar los principales destinos.
+**[!UICONTROL Text Settings]**: FORMO, inglés, persuasivo, longitud de Medium.
+* **[!UICONTROL Variation 1]**: ¡Descubre la magia de Nueva York con nuestro exclusivo viaje de tres días! Sumérjase en lugares icónicos como Times Square, Central Park y la Estatua de la Libertad. Únete a muchos otros que ya han experimentado la emoción y la belleza de la ciudad que nunca duerme. No te pierdas recuerdos inolvidables. ¡Reserva tu aventura hoy mismo y sé parte de la emoción! ¡Hay plazas limitadas disponibles!
+* **[!UICONTROL Variation 2]**: ¡Descubre la magia de Nueva York con nuestra exclusiva escapada de tres días! Visite lugares emblemáticos como Times Square y Central Park, y sumérjase en restaurantes y entretenimiento de primera clase. No te pierdas esta aventura inolvidable. Los espacios son limitados, y todo el mundo está fascinado con sus increíbles experiencias. ¡Reserva ahora y sé parte de la emoción que cautiva a los viajeros de todo el mundo!
+* **[!UICONTROL Variation 3]**: ¡Embárcate en una emocionante escapada de tres días a Nueva York, donde te esperan monumentos icónicos! Descubra el ambiente eléctrico de Times Square, disfrute de las delicias culinarias en Manhattan y contemple las impresionantes vistas desde el Empire State Building. Actúa ahora y únete a un sinnúmero de aventureros viviendo su sueño. No te pierdas crear recuerdos inolvidables en la ciudad que nunca duerme. Hay plazas limitadas disponibles. ¡Reserva tu aventura hoy mismo!
+* **[!UICONTROL Variation 4]**: ¡Reserva ahora tu aventura de tres días en Nueva York y experimenta la magia de la ciudad como nunca antes! Desde lugares icónicos hasta joyas ocultas, cada rincón del Big Apple tiene algo emocionante. No te pierdas momentos inolvidables que otros ya están disfrutando. Sé parte del bullicio. Asegure su lugar hoy y cree recuerdos que durarán toda la vida. ¡Deprisa, los espacios se están llenando rápidamente!
+
 ## Vídeos de formación
 
 ### Creación de contenido con el asistente de IA para la generación de contenido
 
->[!VIDEO](https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa">https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
