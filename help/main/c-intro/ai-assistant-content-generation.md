@@ -92,4 +92,4 @@ El siguiente mensaje y las siguientes variaciones muestran la potencia de [!DNL 
 
 ### Creación de contenido con el asistente de IA para la generación de contenido
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa">https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa)
