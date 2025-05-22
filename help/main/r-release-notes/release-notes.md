@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 32%
+source-wordcount: '1372'
+ht-degree: 26%
 
 ---
 
@@ -18,6 +18,32 @@ ht-degree: 32%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 25.5.3 (22 de mayo de 2025)
+
+Esta versión de incluye las siguientes correcciones y actualizaciones:
+
+* Se corrigió un problema en el cual la característica de búsqueda por nombre de la lista [!UICONTROL Activities] no funcionaba correctamente con consultas de varias palabras. (TGT-52529)
+* Se ha corregido un problema que impedía excluir experiencias de [!UICONTROL Automated Personalization] actividades (AP). (TGT-52383)
+* Se corrigió un problema en el cual la opción &quot;[!UICONTROL Contains]&quot; faltaba en [!UICONTROL Filter Rules] al administrar contenido en actividades AP. (TGT-52384)
+* Se ha corregido una incoherencia de la creación de informes en las actividades [!UICONTROL Automated Personalization] (AP), relacionada específicamente con la forma en que se realiza el seguimiento de las ofertas predeterminadas y se crean los informes con los valores `optionLocalId` del sistema interno de [!DNL Target].
+* Se ha corregido un problema en el cual los vínculos de control de calidad no ofrecían la experiencia de actividad deseada. (TGT-52163)
+* Se corrigió un problema en el cual los usuarios con permisos de [!UICONTROL Approver] no podían editar actividades activas correctamente y recibían el mensaje de error &quot;Acceso denegado&quot;. (TGT-52416)
+* Se ha corregido un problema en el cual los refinamientos de audiencia no se mostraban para ciertas actividades en la interfaz de usuario actualizada de [!DNL Target]. (TGT-52057)
+* Se ha corregido un problema que provocaba que las refinaciones de audiencia y las audiencias de actividad se invirtieran en la interfaz de usuario actualizada. (TGT-52158)
+* Se ha corregido un problema en el cual la generación de ofertas ad hoc resultaba en ofertas duplicadas. (TGT-51938)
+* Se ha corregido un problema que bloqueaba las actualizaciones de ofertas y mostraba de forma incorrecta el error &quot;Usuario no válido&quot;. (TGT-52361)
+* Se ha corregido un problema que impedía guardar actividades existentes, lo que activaba un error de &quot;Entrada de usuario no válida&quot;. (TGT-52422)
+* Se ha corregido un problema que bloqueaba la edición de ofertas de HTML existentes, lo que activaba un error de &quot;Entrada de usuario no válida&quot; al guardar, incluso cuando no se realizaban cambios en el código. (TGT-52351)
+* Se ha corregido un problema que impedía que [!DNL Target] reconociera el carácter &quot;#&quot; en la dirección URL de un sitio web. (TGT-52093)
+* Se ha corregido un problema que impedía editar [!DNL Recommendations] actividades para agregar o actualizar promociones, lo que provocaba errores al guardar y promociones duplicadas. (TGT-52343)
+* Se ha corregido un problema que impedía realizar cambios en los criterios o diseños en [!DNL Recommendations] actividades, lo que daba como resultado un error de &quot;JSON no válido: nombre de propiedad no reconocido&quot;. (TGT-52375)
+* Se corrigió un problema en el cual los criterios de secuencia no se mostraban correctamente en el [!UICONTROL Visual Experience Composer] (VEC) para [!DNL Recommendations] actividades. (TGT-52435)
+* Se corrigió un problema en el cual las vistas no se identificaban correctamente en las páginas de SPA al usar [!DNL Adobe Experience Platform Web SDK]. (TGT-52106)
+* Se ha corregido un problema en el cual los detalles de la toma de decisiones en el dispositivo (ODS) no se guardaban correctamente, a pesar de estar incluidos en la carga útil de la operación por lotes. (TGT-52406)
+* Se ha agregado un campo `audienceMetadata` a las actividades, lo que permite leerlo y actualizarlo durante la edición. (TGT-51004)
+* Se ha añadido un mensaje de error para avisar a los usuarios cuando un periodo de tiempo de audiencia no es válido. (TGT52522)
+* Se ha actualizado la estructura de la actividad para admitir audiencias duplicadas de diferentes tipos. (TGT-51200)
 
 ## [!DNL Adobe Target] [!DNL AI Assistant] versión (16 de mayo de 2025)
 
