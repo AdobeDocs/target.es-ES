@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
+source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 26%
+source-wordcount: '1670'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,31 @@ ht-degree: 26%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## Desaprobación de la versión de IU de Target (23 de mayo de 2025) {#toggle}
+
+El despliegue de la nueva interfaz de usuario [!DNL Target] se completará el **27 de mayo de 2025**. En ese momento, todos los clientes tendrán acceso a la última versión de la interfaz de usuario.
+
+A partir del **22 de junio de 2025**, se eliminará la opción de versión de la interfaz de usuario. Todos los usuarios realizarán una transición permanente a la nueva interfaz, sin opción de volver a la versión anterior.
+
+**Información importante acerca de la opción de versión de IU**
+
+Ofrecemos una característica temporal que le permite alternar entre la interfaz de usuario [!DNL Target] actualizada y la versión heredada mediante un botón de alternancia. Esta opción solo está disponible durante la fase final del despliegue de la interfaz de usuario.
+
+![Alternar versión de IU de Target](/help/main/r-release-notes/assets/toggle.png)
+
+Una vez completado el despliegue, se eliminará la opción y todos los usuarios realizarán una transición permanente a la interfaz de usuario actualizada el **22 de junio de 2025**. Adobe recomienda realizar la planificación con antelación, ya que esta función se eliminará pronto.
+
+**Limitaciones del comportamiento de alternancia de IU**
+
+* **Visibilidad de nuevas actividades**: las actividades creadas en la interfaz de usuario actualizada no serán visibles si vuelve a la interfaz de usuario heredada.
+* **Edición de actividades existentes**: los cambios realizados en las actividades existentes (creadas originalmente en la interfaz de usuario heredada) mientras se usa la interfaz de usuario actualizada se publicarán en el sitio web. Sin embargo, estas actualizaciones no estarán visibles en la interfaz de usuario heredada si vuelve; solo aparecerán allí las últimas actualizaciones realizadas desde la interfaz de usuario heredada.
+* **Consistencia de los detalles de la actividad**: los cambios más recientes, independientemente de la interfaz de usuario que utilice, se reflejarán en el sitio web activo. Sin embargo, la IU heredada solo mostrará los cambios más recientes realizados desde esa versión. Esto puede causar confusión si las actividades editadas en la interfaz de usuario actualizada tienen un aspecto diferente al que se ve en la interfaz de usuario heredada.
+
+Para obtener más información sobre la interfaz de usuario actualizada, consulte las siguientes notas de versiones anteriores:
+
+* [Notas de la versión de [!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [Notas de la versión de [!DNL Target Standard/Premium] 25.1.1 (9 de enero de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 de mayo de 2025)
 
