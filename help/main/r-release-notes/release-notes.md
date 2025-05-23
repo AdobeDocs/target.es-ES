@@ -6,9 +6,9 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
+source-git-commit: 0d7ae6e269211b1c0beea346f527d28c8765f8c3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1669'
 ht-degree: 21%
 
 ---
@@ -39,10 +39,12 @@ Una vez completado el despliegue, se eliminará la opción y todos los usuarios 
 * **Edición de actividades existentes**: los cambios realizados en las actividades existentes (creadas originalmente en la interfaz de usuario heredada) mientras se usa la interfaz de usuario actualizada se publicarán en el sitio web. Sin embargo, estas actualizaciones no estarán visibles en la interfaz de usuario heredada si vuelve; solo aparecerán allí las últimas actualizaciones realizadas desde la interfaz de usuario heredada.
 * **Consistencia de los detalles de la actividad**: los cambios más recientes, independientemente de la interfaz de usuario que utilice, se reflejarán en el sitio web activo. Sin embargo, la IU heredada solo mostrará los cambios más recientes realizados desde esa versión. Esto puede causar confusión si las actividades editadas en la interfaz de usuario actualizada tienen un aspecto diferente al que se ve en la interfaz de usuario heredada.
 
-Para obtener más información sobre la interfaz de usuario actualizada, consulte las siguientes notas de versiones anteriores:
+Para obtener más información sobre la interfaz de usuario actualizada, consulte los siguientes recursos:
 
 * [Notas de la versión de [!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
 * [Notas de la versión de [!DNL Target Standard/Premium] 25.1.1 (9 de enero de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [[!UICONTROL Visual Experience Composer] cambios](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+* [[!UICONTROL Visual Experience Composer] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 de mayo de 2025)
 
