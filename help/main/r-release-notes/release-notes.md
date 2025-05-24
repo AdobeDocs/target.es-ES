@@ -6,9 +6,9 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 663fa963e7758558d1342044de989bff3a560bc6
+source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1749'
 ht-degree: 20%
 
 ---
@@ -42,7 +42,13 @@ Una vez completado el despliegue, se eliminará la opción y todos los usuarios 
 Para obtener más información sobre la interfaz de usuario actualizada, consulte los siguientes recursos:
 
 * [Notas de la versión de [!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+
+  Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Activities], [!UICONTROL Recommendations] y [!UICONTROL Visual Experience Composer] (VEC).
+
 * [Notas de la versión de [!DNL Target Standard/Premium] 25.1.1 (9 de enero de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+
+  Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Offers Library].
+
 * [Comprender la  [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md)
 
   Proporciona una breve introducción para ayudarle a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
@@ -53,7 +59,7 @@ Para obtener más información sobre la interfaz de usuario actualizada, consult
 
 * [[!UICONTROL Visual Experience Composer] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
-  Este artículo explica la interfaz de usuario actualizada y sus opciones.
+  Este artículo explica la interfaz de usuario de VEC actualizada y sus opciones.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 de mayo de 2025)
 
