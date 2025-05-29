@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 20%
+source-wordcount: '2119'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 20%
 Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 25.5.4 (29 de mayo de 2025)
+
+Esta versión de incluye las siguientes correcciones y actualizaciones:
+
+* Se ha corregido un problema que impedía añadir o editar direcciones URL en modo de control de calidad. (TGT-51941)
+* Se ha agregado una configuración de tráfico en modo de control de calidad en [!UICONTROL Reports] > [!UICONTROL Report Settings] ( ![icono de Configuración de informes](/help/main/assets/icons/Setting.svg) ) para que se ajuste a la funcionalidad de la IU heredada de [!DNL Target]. (TGT-52228 y TGT-52329)
+* Se ha corregido un problema en el cual la actividad basada en formularios generaba vínculos de control de calidad incorrectos. La dirección URL/ubicación de la actividad incluía un &quot;1&quot; no deseado al final, que ahora se ha eliminado para garantizar una vinculación precisa. (TGT-52355 y TGT-52358)
+* Se ha corregido un problema en el cual la actividad basada en formularios generaba vínculos de control de calidad incorrectos. La dirección URL de actividad incluía un `http://pid-ppc` no deseado al principio de la dirección URL, que ahora se ha eliminado para garantizar una vinculación precisa. (TGT-52557)
+* Se ha corregido un problema en el cual [!DNL Target] generaba vínculos de control de calidad no válidos para actividades basadas en formularios. (TGT-52528 y TGT-52603)
+* Se ha corregido un problema por el cual parecía que se procesaba el guardado de una actividad modificada pero nunca se completó, y no se mostraba ningún mensaje de error en [!DNL Target]. (TGT-52461)
+* Se ha corregido un problema en el cual el [!UICONTROL Visual Experience Composer] (VEC) actualizado no detectaba automáticamente el valor `at_property`. (TGT-52347)
+* Se ha corregido un problema que provocaba que se registraran dos modificaciones cuando solo se esperaba una después de cambiar entre los modos [!UICONTROL Browse] y [!UICONTROL Design] en el VEC mientras se interactuaba con un elemento de formulario. (TGT-52455)
+* Se ha corregido un problema que impedía seleccionar la configuración [!UICONTROL Clicked an Element] en el VEC actualizado debido a un error que indicaba que el selector no era válido, ya se estaba utilizando o no era visible. (TGT-52467)
+* Se corrigió un problema en el cual al agregar una casilla [!UICONTROL Recommendation Offer] en el VEC actualizado, se mostraban cuadros duplicados (fantasma). Al cambiar entre Experiencia A y B se han añadido repetidamente más cuadros fantasma. (TGT-52505 y TGT-52519)
+* Se ha corregido un problema en la interfaz de usuario de [!DNL Target] actualizada en el cual los cambios realizados en una oferta de HTML a través del menú [!UICONTROL Offer] no se reflejaban en la actividad asociada y viceversa. Este comportamiento ahora coincide con la IU heredada, donde las actualizaciones se sincronizan correctamente entre el menú [!UICONTROL Offer] y la actividad. (TGT-52540 y TGT-52541)
+* Se corrigió un problema en el cual las actualizaciones recientes de [!UICONTROL Experience Fragments] en [!UICONTROL Offers Library] no se reflejaban al intentar usarlas en una actividad. (TGT-52659)
+* Se ha corregido un problema de localización en la traducción al chino simplificado de un mensaje de confirmación. A la versión anterior le faltaban comillas alrededor del nombre de la ubicación y utilizaba un lenguaje informal, a diferencia de la guía de estilo del cliente. La traducción actualizada ahora utiliza la puntuación adecuada y un tono formal. (TGT-52364)
 
 ## Desaprobación de la versión de IU de Target (23 de mayo de 2025) {#toggle}
 
