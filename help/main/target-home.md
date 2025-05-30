@@ -4,10 +4,10 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 5d36a47a6cdd4d87345bd83f6060b4245d271d6b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 33%
+source-wordcount: '625'
+ht-degree: 30%
 
 ---
 
@@ -47,10 +47,14 @@ La interfaz de usuario está diseñada para una mayor claridad y eficiencia, lo 
 
 Además de esta guía, también están disponibles las guías de [!DNL Adobe Target] siguientes:
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/es/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/es/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
+
+>[!IMPORTANT]
+>
+>El despliegue de la nueva interfaz de usuario de [!DNL Target] se completó el 27 de mayo de 2025. Ahora todos los clientes tienen acceso a la última versión de la interfaz de usuario. A partir del 22 de junio de 2025, se eliminará la opción de versión de la interfaz de usuario. Todos los usuarios realizarán una transición permanente a la nueva interfaz, sin opción de volver a la versión anterior. Para obtener más información, consulte [Desaprobación de la versión de la IU de Target](/help/main/r-release-notes/release-notes.md#toggle).
 
 Las siguientes secciones dirigen a vínculos útiles en esta guía, organizados según las audiencias a las que se dirigen:
 
