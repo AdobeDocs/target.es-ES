@@ -4,10 +4,10 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: f624da04eb62b40989237c92f5bc88530603bd10
+source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 31%
+source-wordcount: '625'
+ht-degree: 29%
 
 ---
 
@@ -51,12 +51,13 @@ La interfaz de usuario está diseñada para una mayor claridad y eficiencia, lo 
 
 [![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
 
->[!TAB Documentación de destino]
+>[!TAB Recursos de destino]
 
-Además de esta guía, también están disponibles las guías de [!DNL Adobe Target] siguientes:
+**Recursos completos de [!DNL Target]**
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/es/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/es/docs/target-learn/tutorials/overview){target=_blank}
+Documentación de [!DNL Target] en varios formatos: guías paso a paso de la interfaz de usuario, recursos para desarrolladores (incluidos SDK y API), tutoriales, vídeos, seminarios web y foros de la comunidad.
+
+[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/target-documentation.md)
 
 >[!ENDTABS]
 
