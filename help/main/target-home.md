@@ -4,14 +4,14 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
+source-git-commit: f448b619a5b59de6f14909dd2705b2dcf9ab093f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '622'
+ht-degree: 28%
 
 ---
 
-# Guía para profesionales de Adobe Target Business
+# [!DNL Adobe Target] Guía para profesionales de negocios
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
@@ -19,11 +19,11 @@ ht-degree: 29%
 
 >[!BEGINTABS]
 
->[!TAB Importante]
+>[!TAB Información importante]
 
-**Se ha implementado completamente la interfaz de usuario de Target**
+**[!DNL Target]versión de interfaz de usuario conmutar obsolescencia**
 
-Desde el 27 de mayo de 2025, todos los clientes tienen acceso a la nueva interfaz de usuario de [!DNL Target]. A partir del 22 de junio de 2025, se eliminará la opción de IU y todos los usuarios realizarán una transición permanente a la IU actualizada, sin opción de revertir.
+Desde el 27 de mayo de 2025, todos los clientes tienen acceso a la nueva interfaz de usuario de [!DNL Target]. A partir del 22 de junio de 2025, la opción IU se eliminará y todos los usuarios pasarán de forma permanente a la IU actualizada, sin opción de revertir.
 
 [![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
 
