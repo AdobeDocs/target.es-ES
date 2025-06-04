@@ -4,10 +4,10 @@ description: Conozca las prácticas recomendadas para que sus experiencias funci
 title: ¿Cuáles son las prácticas recomendadas y las limitaciones de [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 81%
+source-wordcount: '2534'
+ht-degree: 80%
 
 ---
 
@@ -236,6 +236,14 @@ Los siguientes fragmentos de código son ejemplos de código de eliminación de 
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+Se puede utilizar una comprobación simple para comprobar si una página web está incrustada dentro de [!DNL Target]. A un fragmento de código le debería gustar esto:
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### No se puede mover un elemento fuera de un contenedor seguido de una propiedad CSS.
 
