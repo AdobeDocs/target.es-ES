@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo solucionar problemas en el [!UICON
 title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c0d0154b81fbd3f89a82b31cd18541a7f0ea1a7
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 24%
+source-wordcount: '1009'
+ht-degree: 23%
 
 ---
 
@@ -17,14 +17,18 @@ Los problemas de visualización a veces ocurren en el [!DNL Adobe Target] [!UICO
 
 ## Cuando abro mi sitio web en [!UICONTROL Visual Experience Composer], las bibliotecas de [!DNL Target] no se cargan. (Solo VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
++++Detalles
 [!DNL Target] agrega dos parámetros (`mboxEdit=1` y `mboxDisable=1`) al abrir el sitio web en [!UICONTROL Visual Experience Composer].
 
 Si su sitio web (especialmente las aplicaciones de una sola página) recorta parámetros o los elimina al pasar de una página a otra (sin volver a cargar la página), la funcionalidad [!DNL Target] se rompe y las bibliotecas [!DNL Target] no se cargan.
 
 Para evitar este problema, asegúrese de que no recorta ni elimina estos dos parámetros.
 
++++
+
 ## Mi página no se abre en el EEC. O bien, la carga de la página es lenta. Las actividades o experiencias ser cargan lentamente en el VEC. (Solo VEC)   {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
++++Detalles
 Varios problemas pueden afectar el rendimiento de la página en los [!UICONTROL Target] compositores de experiencias. Algunos problemas comunes son:
 
 * Usted no tiene un mbox en la página.
@@ -44,7 +48,6 @@ Si ni [!UICONTROL Visual Experience Composer] ni [!UICONTROL Enhanced Experience
 >[!NOTE]
 >
 >Además de la siguiente información, puede usar la extensión [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) para [!DNL Google Chrome].
-
 
 >[!NOTE]
 >
@@ -105,8 +108,11 @@ Si ni [!UICONTROL Visual Experience Composer] ni [!UICONTROL Enhanced Experience
 
 Después de configurar una extensión, abra [!DNL Target]. Sus páginas deberían cargarse ahora en [!UICONTROL Visual Experience Composer], incluso si [!UICONTROL Enhanced Experience Composer] está deshabilitado.
 
++++
+
 ## Mi página no se muestra en el VEC (solo VEC)   {#does-not-load}
 
++++Detalles
 * La compatibilidad óptima con el VEC está garantizada por la versión más reciente de la extensión: [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
   Para comprobar si está utilizando la versión más reciente, vaya a [!UICONTROL Extensions] > [!UICONTROL Manage Extensions] y haga clic en [!UICONTROL Details].
@@ -117,7 +123,7 @@ Después de configurar una extensión, abra [!DNL Target]. Sus páginas debería
 
   Asegúrese de que no se hayan agregado cambios no válidos a los encabezados at.js configurados en la sección [!UICONTROL Administration] > [!UICONTROL Implementation].
 
-* Asegúrese de que la página web no bloquee las solicitudes de carga obligatorias cuando estén incrustadas en un iFrame. Esto incluye el uso de directivas CSP de antecesores de marco o código JS personalizado incrustado en el sitio web del cliente, etiquetas meta de HTML o el encabezado x-frame-options.
+* Asegúrese de que la página web no bloquee las solicitudes de carga obligatorias cuando estén incrustadas en un iFrame. Esto incluye el uso de directivas CSP de antecesores de marco o código JS personalizado incrustado en el sitio web del cliente, etiquetas meta HTML o el encabezado x-frame-options.
 
 * Asegúrese de que el Javascript de la página web no interfiera con las bibliotecas de creación. No utilice ni incluya archivos con los siguientes nombres reservados:
 
@@ -137,14 +143,22 @@ Después de configurar una extensión, abra [!DNL Target]. Sus páginas debería
 * Ha escrito una dirección URL no válida.
 * Si el sitio web no se carga en el VEC o se comporta de forma inesperada, una posible corrección es aceptar cookies en el sitio web en el explorador antes de intentar cargar el sitio web en [!DNL Target].
 
-## El VEC parece roto cuando utilizo el modo Examinar. (Solo VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++
 
-Al utilizar el modo Examinar, si accede a una dirección URL que no tiene implementadas [!DNL Target] bibliotecas ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=es){target=_blank} o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}) o que contiene un encabezado de eliminación de fotogramas, el VEC parece roto. Debido a problemas de seguridad del explorador, [!DNL Target] no puede acceder correctamente a la dirección URL a la que navegó o la URL del VEC no se actualiza de manera consistente si se carga la página.
+## El VEC parece roto cuando uso el modo [!UICONTROL Browse]. (Solo VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+
++++Detalles
+Al usar el modo [!UICONTROL Browse], si accede a una dirección URL que no tiene implementadas [!DNL Target] bibliotecas ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=es){target=_blank} o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}) o que contiene un encabezado de eliminación de fotogramas, el VEC parece roto. Debido a problemas de seguridad del explorador, [!DNL Target] no puede acceder correctamente a la dirección URL a la que navegó o la URL del VEC no se actualiza de manera consistente si se carga la página.
 
 Este problema ocurre porque el VEC carga la página web en un `<iframe>`. Los mecanismos de seguridad actuales de los exploradores impiden que la interfaz de usuario de [!DNL Target] acceda a los elementos del marco determinado debido a la directiva del mismo origen. Los exploradores bloquean los scripts que intentan tener acceso a un marco con un origen diferente y que incluye información como `location.href`.
 
-Debe usar la nueva extensión [Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (recomendada) o la [extensión antigua](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) para insertar la biblioteca [!DNL Target] en las páginas a fin de explorarlas de manera óptima.
+Debe usar la nueva extensión [Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) para insertar la biblioteca [!DNL Target] en las páginas a fin de explorarlas de manera óptima.
+
++++
 
 ## Problemas causados por conflictos de CSS en [!UICONTROL Visual Experience Composer]
 
++++Detalles
 Compruebe si hay algún archivo CSS que pueda afectar a la visibilidad al cargar la página web en el editor. Por ejemplo, el uso de la propiedad `overflow: hidden` en el cuerpo de la página podría provocar problemas de desplazamiento o eventos de clic con el déclencheur que podrían interferir con el menú de creación.
+
++++
