@@ -4,7 +4,7 @@ description: Conozca las prácticas recomendadas para que sus experiencias funci
 title: ¿Cuáles son las prácticas recomendadas y las limitaciones de [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 1f2c6bbabf0158672e5f926ffdf9662637cd8416
+source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
 ht-degree: 37%
@@ -312,7 +312,7 @@ Los siguientes fragmentos de código son ejemplos de código de eliminación de 
 
 `top.location.href = self.location.href;`
 
-Se puede utilizar una comprobación simple para comprobar si una página web está incrustada dentro de [!DNL Target]. A un fragmento de código le debería gustar esto:
+Se puede utilizar una comprobación simple para comprobar si una página web está incrustada dentro de [!DNL Target]. Un fragmento de código debería tener este aspecto:
 
 ```
 if(!window.adobeVecExtension) {
