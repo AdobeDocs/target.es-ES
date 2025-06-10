@@ -5,21 +5,31 @@ title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target]
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Preguntas frecuentes sobre Target
+# Preguntas frecuentes sobre la actualización de IU [!DNL Target]
 
-Encuentre respuestas a preguntas comunes acerca de la interfaz de usuario de [!DNL Adobe Target] actualizada, con sugerencias y vínculos útiles para obtener más información.
+Como novedad en 2025, la interfaz de usuario actualizada de [!DNL Adobe Target] presenta una experiencia intuitiva y optimizada diseñada para mejorar la facilidad de uso y la eficacia en todas las funciones. Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, la ubicación de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
 
 ## ¿Dónde puedo encontrar más información sobre la interfaz de usuario de [!DNL Target] actualizada?
 
 +++Detalles
-{{updated-ui}}
+Los siguientes recursos proporcionan información para obtener más información sobre la interfaz de usuario de [!DNL Target] actualizada:
+
+* [[!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Activities], [!UICONTROL Recommendations] y [!UICONTROL Visual Experience Composer] (VEC).
+
+* [[!DNL Target Standard/Premium] 25.1.1 (9 de enero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Offers Library].
+
+* [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md): Proporciona una breve descripción general para ayudarle a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
+
+* [[!UICONTROL Visual Experience Composer] cambios](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2015) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones heredadas y actualizadas del VEC.
+
+* [[!UICONTROL Visual Experience Composer] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Este artículo explica la interfaz de usuario actualizada del VEC y sus opciones.
 
 +++
 
@@ -50,7 +60,7 @@ El conmutador de versión de interfaz de usuario es una característica temporal
 
 El uso de la opción de versión de la IU presenta varias limitaciones, como la visibilidad de las nuevas actividades, la edición de las actividades existentes y la coherencia de los detalles de la actividad.
 
-Para obtener más información sobre el despliegue y la desaprobación de la opción de versión de IU temporal, consulte [Desaprobación de la opción de versión de IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
+Para obtener más información, consulte [Desaprobación de la versión de la IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
 
 ++++
 
@@ -61,7 +71,7 @@ Para obtener más información sobre el despliegue y la desaprobación de la opc
 
 El uso de la opción de versión de la IU presenta varias limitaciones, como la visibilidad de las nuevas actividades, la edición de las actividades existentes y la coherencia de los detalles de la actividad.
 
-Para obtener más información sobre el despliegue y la desaprobación de la opción de versión de IU temporal, consulte [Desaprobación de la opción de versión de IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
+Para obtener más información, consulte [Desaprobación de la versión de la IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
 
 +++
 
