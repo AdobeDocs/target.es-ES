@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: 65ac352a1de7ad532f8c39781054fb09fa62c0fa
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 28%
+source-wordcount: '1125'
+ht-degree: 27%
 
 ---
 
@@ -49,6 +49,10 @@ Esta versión de incluye las siguientes correcciones y actualizaciones:
 El despliegue de la nueva interfaz de usuario [!DNL Target] se completará el **27 de mayo de 2025**. En ese momento, todos los clientes tendrán acceso a la última versión de la interfaz de usuario.
 
 A partir del **22 de junio de 2025**, se eliminará la opción de versión de la interfaz de usuario. Todos los usuarios realizarán una transición permanente a la nueva interfaz, sin opción de volver a la versión anterior.
+
+>[!NOTE]
+>
+>Los clientes con casos especiales que necesiten conservar la opción después del 22 de junio pueden ponerse en contacto con el Servicio de atención al cliente de Adobe para obtener ayuda.
 
 ### Información importante sobre la opción de versión de la IU
 
