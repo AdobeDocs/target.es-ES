@@ -5,7 +5,7 @@ title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target]
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Muti, se necesita ayuda.
 
 +++
 
-### ¿El entorno se restablece al ensayo de forma predeterminada en la nueva interfaz de usuario de Recommendations?
+## ¿El entorno se restablece al ensayo de forma predeterminada en la nueva interfaz de usuario de Recommendations?
 
 +++Detalles
 Muti, se necesita ayuda.
