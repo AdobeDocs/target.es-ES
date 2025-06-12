@@ -4,10 +4,10 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 28%
+source-wordcount: '659'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 6 de junio de 2025 ( [vea los cambios](r-release-notes/doc-change.md) )**
+**Última actualización: 12 de junio de 2025 ( [vea los cambios](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
@@ -29,11 +29,11 @@ Desde el 27 de mayo de 2025, todos los clientes tienen acceso a la nueva interfa
 
 >[!TAB Novedades]
 
-¡La versión 25.6.1 de **[!DNL Target]está activa!**
+**[!DNL Target]preguntas frecuentes sobre la actualización de IU**
 
-Publicada el 6 de junio de 2025, esta actualización incluye nuevas mejoras de la interfaz de usuario y mejoras clave de la documentación. ¡Sumérjase y explore las novedades!
+Publicada el 6 de junio de 2025, esta actualización incluye nuevas mejoras de la interfaz de usuario y mejoras clave de la documentación. Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, la ubicación de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
 
-[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB IU de Target actualizada]
 
