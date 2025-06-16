@@ -5,16 +5,16 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 76%
+source-wordcount: '1734'
+ht-degree: 73%
 
 ---
 
 # Límites
 
-Información sobre los límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Adobe Target].
+Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -84,9 +84,9 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
   Las solicitudes mbox por lotes se procesan secuencialmente, lo que aumenta el tiempo de respuesta general con cada iteración. Cuantos más mboxes haya en la solicitud de lote, más latencia de respuesta se puede esperar y, por lo tanto, más tiempo de espera se puede esperar. Si el procesamiento de experiencias está bloqueado en estas solicitudes por lotes de alta latencia, la latencia podría provocar una experiencia del usuario degradada a medida que los usuarios esperan a que se procesen las experiencias.
 
-* **Límite**: tamaño del cuerpo del POST HTTP de 60 MB para [!DNL Target] solicitudes de entrega de contenido.
+* **Límite**: tamaño del cuerpo de POST HTTP de 60 MB para [!DNL Target] solicitudes de entrega de contenido.
 
-  Si se superan los 60 MB en el tamaño del cuerpo del POST HTTP de una solicitud de entrega de contenido de [!DNL Target], se generará un código de error de respuesta `HTTP 413 Request Entity Too Large`.
+  Si se superan los 60 MB en el tamaño del cuerpo de POST HTTP de una solicitud de entrega de contenido de [!DNL Target], se generará un código de error de respuesta `HTTP 413 Request Entity Too Large`.
 
 * **Límite recomendado**: 50 notificaciones por [!DNL Target] solicitud de lote de entrega.
 
@@ -205,7 +205,7 @@ Información sobre los límites de caracteres y de otro tipo (tamaño de oferta,
 
   Si utiliza la API de envíos por lotes, el límite es de 50 mboxes por solicitud de lote.
 
-  Si utiliza la API de envío por lotes en el SDK de Mobile Services, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud supera estos límites, la API devolverá el mensaje de error siguiente:
+  Si utiliza la API de envío por lotes en Mobile Services SDK, el límite de 50 parámetros de mbox, 50 parámetros de perfil y 50 el resto de tipos de parámetros es una limitación de la propia API. No es posible enviar una solicitud que supere estos valores mediante la API de envío por lotes. Si una solicitud supera estos límites, la API devolverá el mensaje de error siguiente:
 
   &quot;El número de mboxParameters no puede superar los 50.&quot;
 
@@ -294,6 +294,10 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 ## Informes de audiencias o segmentos
 
 * **Límite**: 50 audiencias/segmentos por actividad.
+
+## sessionID
+
+El identificador de sesión puede ser cualquier cadena imprimible, excepto un espacio, un signo de interrogación ( ? ), llaves ( { } ) o una barra diagonal ( / ). Debe tener entre 1 y 128 caracteres de longitud.
 
 ## Cuadro de entrada de perfil de script en la IU de [!DNL Target]
 
