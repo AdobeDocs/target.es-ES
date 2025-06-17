@@ -3,9 +3,9 @@ keywords: interfaz de usuario de target;interfaz de usuario;iu;preguntas más fr
 description: Preguntas y respuestas acerca de la interfaz de usuario  [!DNL Target]t actualizada.
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target] IU actualizada?
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # Preguntas frecuentes sobre la actualización de IU [!DNL Target]
 
 Como novedad en 2025, la interfaz de usuario actualizada de [!DNL Adobe Target] presenta una experiencia intuitiva y optimizada diseñada para mejorar la facilidad de uso y la eficacia en todas las funciones. Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, la ubicación de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
+
+## ¿Se ha actualizado la cronología del cese de la compatibilidad con la versión de la IU de Target?
+
++++Detalles
+Sí. Puede encontrar la nueva cronología e información importante en [Actualizado: [!DNL Target] Desaprobación de la versión de la interfaz de usuario (17 de junio de 2025)](/help/main/r-release-notes/release-notes.md#revised).
+
++++
 
 ## ¿Dónde puedo encontrar más información sobre la interfaz de usuario de [!DNL Target] actualizada?
 
@@ -60,8 +67,7 @@ El uso de la opción de versión de la IU presenta varias limitaciones, como la 
 
 >[!NOTE]
 >
->Los clientes con casos especiales que necesiten conservar la opción después del 22 de junio pueden ponerse en contacto con el Servicio de atención al cliente de Adobe para obtener ayuda.
-
+>Los clientes con casos especiales que necesiten conservar la opción después del 22 de junio pueden ponerse en contacto con el Servicio de atención al cliente de Adobe para obtener ayuda. Consulte [Actualización: [!DNL Target] Desaprobación de la opción de versión de IU (17 de junio de 2025)](/help/main/r-release-notes/release-notes.md#revised) para obtener más información.
 
 Para obtener más información, consulte [Desaprobación de la versión de la IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
 

@@ -4,9 +4,9 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '669'
 ht-degree: 26%
 
 ---
@@ -15,19 +15,25 @@ ht-degree: 26%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 16 de junio de 2025 ( [vea los cambios](r-release-notes/doc-change.md) )**
+**Última actualización: 17 de junio de 2025 ( [vea los cambios](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Información importante]
+>[!TAB Atención!]
 
-**[!DNL Target]versión de interfaz de usuario conmutar obsolescencia**
+**Actualizado: [!DNL Target] obsolescencia de la opción de versión de la interfaz de usuario (17 de junio de 2025)**
 
-Desde el 27 de mayo de 2025, todos los clientes tienen acceso a la nueva interfaz de usuario de [!DNL Target]. A partir del 22 de junio de 2025, la opción IU se eliminará y todos los usuarios pasarán de forma permanente a la IU actualizada, sin opción de revertir.
+El equipo [!DNL Target] ha ajustado la cronología para la desaprobación de la versión de la interfaz de usuario.
 
-[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
+[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
->[!TAB Novedades]
+>[!TAB ¿Qué novedades hay?]
+
+**Se ha actualizado la información sobre la versión de interfaz de usuario alternativa en desuso**
+
+El equipo [!DNL Target] ha ajustado la cronología para la desaprobación de la versión de la interfaz de usuario.
+
+[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
 **Target 25.6.2 está activo!**
 
