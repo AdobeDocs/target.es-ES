@@ -3,7 +3,8 @@ keywords: interfaz de usuario de target;interfaz de usuario;iu;preguntas más fr
 description: Preguntas y respuestas acerca de la interfaz de usuario  [!DNL Target]t actualizada.
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target] IU actualizada?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Como novedad en 2025, la interfaz de usuario actualizada de [!DNL Adobe Target] presenta una experiencia intuitiva y optimizada diseñada para mejorar la facilidad de uso y la eficacia en todas las funciones. Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, la ubicación de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
 
-## ¿Se ha actualizado la cronología del cese de la compatibilidad con la versión de la IU de Target?
+## ¿Se ha actualizado la cronología del cese de la compatibilidad con la versión de la interfaz de usuario de Target?
 
 +++Detalles
 Sí. Puede encontrar la nueva cronología e información importante en [Actualizado: [!DNL Target] Desaprobación de la versión de la interfaz de usuario (17 de junio de 2025)](/help/main/r-release-notes/release-notes.md#revised).
@@ -145,7 +146,3 @@ La integración de [!DNL Adobe Analytics] (AA) o [!DNL Customer Journey Analytic
 * Validar la recopilación de datos y la configuración de atribución
 
 +++
-
-
-
-
