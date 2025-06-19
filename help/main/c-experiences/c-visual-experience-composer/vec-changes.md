@@ -4,9 +4,9 @@ description: Comprenda los cambios introducidos en el Compositor de experiencias
 title: ¿Qué cambios se introducen en el nuevo Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,6 @@ Puede agregar varios componentes a la página web y editarlos según sea necesar
 ![Carril de componentes](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 Para agregar un componente nuevo, arrastre el componente desde el carril [!UICONTROL Components] que desee insertar sobre un elemento de página existente en el lienzo [!UICONTROL Design]. A continuación, elija insertar el componente antes de después del elemento seleccionado.
-
-En comparación con la versión anterior del VEC, no se puede reemplazar un elemento seleccionado con un componente.
 
 ### Carril [!UICONTROL Modifications]
 
