@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: 71f88ad173599b3a582a1d2c261ba8a562cf734a
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 29%
+source-wordcount: '537'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 19 de junio de 2025**
+**Última actualización: 20 de junio de 2025**
 
 >[!NOTE]
 >
@@ -31,15 +31,17 @@ Esta versión de incluye las siguientes correcciones y actualizaciones:
 
 * Se ha agregado la opción [!UICONTROL Rearrange] a la interfaz de usuario [!UICONTROL Visual Experience Composer] (VEC) actualizada para alinearla con la funcionalidad disponible en el VEC heredado. (TGT-46957)
 * Se ha corregido un problema que causaba que, al copiar una actividad de un espacio de trabajo a otro, se produjeran errores como &quot;no debe ser nulo&quot; o &quot;Se ha producido un error&quot;. (TGT-52474)
-* Se corrigió un problema en el cual los informes [!UICONTROL Automated Segments] y [!UICONTROL Important Attributes] no se generaban para ciertas actividades. (TNT-52904)
+* Se corrigió un problema en el cual los informes [!UICONTROL Automated Segments] y [!UICONTROL Important Attributes] no se generaban para ciertas actividades. (TGT-52904)
 * Se ha corregido un problema en el VEC actualizado en el cual la administración de contenido predeterminado en las actividades [!UICONTROL Automated Personalization] (AP) no coincidía con la IU heredada. El sistema ahora agrega automáticamente un(a) `optionGroup` predeterminado denominado &quot;Contenido predeterminado&quot; con `optionGroupLocalId = 0` cuando no se agrega ningún grupo explícitamente. Este grupo incluye la opción predeterminada (por ejemplo, `optionLocalId: 0`). Si se elimina el contenido predeterminado, también se elimina el grupo de opciones correspondiente. (TGT-52651)
-* Se ha corregido un problema en las actividades [!UICONTROL Multivariate Test] (MVT) en el cual se impedía incorrectamente reutilizar un(a) `experienceLocalId` de experiencias eliminadas anteriormente. (TNT-52672)
+* Se ha corregido un problema en las actividades [!UICONTROL Multivariate Test] (MVT) en el cual se impedía incorrectamente reutilizar un(a) `experienceLocalId` de experiencias eliminadas anteriormente. (TGT-52672)
 * Se ha corregido un problema por el cual las direcciones URL de las ubicaciones de actividades no mostraban los parámetros de consulta debido a caracteres no válidos, como barras inclinadas (/). (TNT52845)
 * Se mejoró el mensaje de error de validación para [!DNL A/B Test] actualizaciones de la actividad a través de la API back-end. Cuando hay nombres de ubicación duplicados, el mensaje ahora indica claramente: &quot;No se permiten nombres duplicados&quot; para `locations.selectors`. (TGT-52589)
-* Se ha corregido un error que se producía al actualizar una actividad [!UICONTROL Recommendations] activa debido a una propiedad no reconocida en la carga de la solicitud. El sistema ahora gestiona correctamente el JSON no válido. Error de &quot;nombre de propiedad no reconocido&quot;. (TNT52723)
-* Se ha corregido un error de validación de servidor que provocaba el error &quot;400 Bad Request&quot; al guardar una actividad [!UICONTROL Recommendations]. (TNT-52716)
+* Se ha corregido un error que se producía al actualizar una actividad [!UICONTROL Recommendations] activa debido a una propiedad no reconocida en la carga de la solicitud. El sistema ahora gestiona correctamente el JSON no válido. Error de &quot;nombre de propiedad no reconocido&quot;. (TGT-52723)
+* Se ha corregido un problema que impedía crear un diseño de [!DNL Recommendations]. Al hacer clic en [!UICONTROL Create], se activó el mensaje: &quot;Debe haber al menos 1 variable de entidad utilizada dentro del script&quot;. (TGT-52395 y TGT-52899)
+* Se corrigió un problema en el cual se bloqueaba volver a guardar un diseño de [!DNL Recommendations] sin modificaciones. (TGT-52879)
+* Se ha corregido un error de validación de servidor que provocaba el error &quot;400 Bad Request&quot; al guardar una actividad [!UICONTROL Recommendations]. (TGT-52716)
 * Se ha corregido un problema en [!UICONTROL Form-Based Experience Composer] por el cual al pasar el ratón por encima de un mbox con caracteres especiales en la lista desplegable [!UICONTROL Location], el editor se quedaba en blanco y se activaba un mensaje &quot;No se pudo ejecutar &#39;querySelector&#39; en &#39;Elemento&#39;&quot;. No se pudo recuperar la dirección de URL especificada. (TGT-52717)
-* Se ha mejorado la precisión del estado de la fuente con un nuevo indicador &quot;PARTIALLY_IMPORTED&quot;. Anteriormente, las fuentes se marcaban como &quot;correctas&quot; incluso cuando no se importaban todas las filas de un archivo, lo que resultaba confuso.
+* Se ha mejorado la precisión del estado de la fuente con un nuevo indicador &quot;PARTIALLY_IMPORTED&quot;. Anteriormente, las fuentes se marcaban como &quot;correctas&quot; incluso cuando no se importaban todas las filas de un archivo, lo que resultaba confuso. (TGT-52892)
 * Se corrigió un error en el cual, después de migrar a AP V2, ciertas llamadas de API a `/admin/rest/ui/v1/campaigns` devolvían errores del lado del cliente (HTTP 4xx). (TGT-52721)
 
 ## Notas de la versión adicionales y detalles de la versión
