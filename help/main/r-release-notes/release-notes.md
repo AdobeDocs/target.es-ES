@@ -44,7 +44,7 @@ A partir del 17 de junio de 2025, todas las organizaciones de IMS deberían habe
 
 Debido a problemas identificados recientemente, relacionados principalmente con personalizaciones complejas de clientes, el equipo [!DNL Target] ha ajustado la cronología de desuso:
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convertirá en la experiencia predeterminada para todas las organizaciones de IMS que tengan habilitada la opción de versión de la interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convertirá en la experiencia predeterminada para todas las organizaciones de IMS que tengan habilitada la opción de versión de la interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora verán la IU actualizada al iniciar sesión.
    * La opción de versión de la interfaz de usuario permanecerá disponible hasta finales de julio, lo que permitirá a los usuarios volver si es necesario.
