@@ -4,16 +4,16 @@ description: Descubra cómo  [!DNL Adobe Target]  le permite rastrear clics en c
 title: ¿Qué es el rastreo de clics?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 82%
+source-wordcount: '858'
+ht-degree: 75%
 
 ---
 
 # Rastreo de clics
 
-[!DNL Adobe Target] permite rastrear clics en cualquier elemento como métrica de éxito.
+[!DNL Adobe Target] le permite rastrear clics en cualquier elemento como una métrica de éxito. El rastreo de clics hace referencia al proceso de monitorización y registro de interacciones del usuario, específicamente los clics, en elementos dentro de una página web o experiencia. Esto es una parte clave de la medición de la participación y el rendimiento en pruebas A/B, pruebas multivariable y actividades de personalización.
 
 >[!NOTE]
 >
@@ -30,43 +30,33 @@ ht-degree: 82%
 
    Consulte la sección *Consideraciones*, a continuación, para ver sugerencias sobre la selección de elementos.
 
-1. Haga clic en **[!UICONTROL Save]** en la parte superior de la pantalla para guardar las selecciones.
+1. Haga clic en **[!UICONTROL Done]** en la parte superior de la pantalla para guardar las selecciones.
 
 Cuando el participante de una actividad hace clic en un elemento seleccionado, ese clic se cuenta como una conversión.
 
 ## Panel Elementos seleccionados {#selected-elements}
 
-Para las actividades [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Multivariate Test] (MVT), un panel [!UICONTROL Selected Elements] enumera los elementos seleccionados para el rastreo de clics en el lado derecho.
+Para las actividades [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Multivariate Test] (MVT), un panel [!UICONTROL Selected Elements] enumera los elementos seleccionados para el rastreo de clics en el lado izquierdo.
 
 ![Panel Elementos seleccionados](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Existen varias acciones que se pueden aplicar al situar el cursor sobre un elemento del panel [!UICONTROL Selected Elements]. La siguiente tabla describe cada acción que se puede realizar en un elemento:
+Existen varias acciones que se pueden aplicar al hacer clic en un elemento del panel [!UICONTROL Tracked Components]. La siguiente tabla describe cada acción que se puede realizar en un elemento:
 
 | Acción | Descripción |
 | --- | --- |
-| Información | Muestra el tipo de elemento y la ruta DOM completa al selector. |
-| Editar | Permite editar el selector de CSS. |
-| Eliminar | Elimina el elemento. |
+| [!UICONTROL Tracked actions] | Muestra la acción del elemento. |
+| [!UICONTROL CSS selector] | Permite editar el selector de CSS. |
+| [!DNL Delete] | Elimina el elemento. |
 
 ### Agregar elemento
 
-Si ya conoce la ruta DOM al selector, puede añadirla manualmente si hace clic en el icono de signo + situado en la parte superior del panel.
-
-![Icono Agregar elemento](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### Elemento emergente de Elementos seleccionados
-
-Después de seleccionar varios elementos para el rastreo de clics, puede hacer clic en el vínculo [!UICONTROL Elements Selected] en el paso [!UICONTROL Goals & Settings] de la actividad para ver la lista completa de elementos seleccionados para el rastreo de clics. La lista contiene la ruta DOM completa para el elemento, que le ayudará a validar que el elemento seleccionado se utilizará para el rastreo de clics.
-
-![Vínculo Elementos seleccionados](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+Si ya conoce la ruta DOM al selector, puede agregarla manualmente si hace clic en el icono [!UICONTROL Add Component] en la parte superior del panel.
 
 ## Consideraciones {#considerations}
 
 Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
 * La función de ruta DOM está disponible al configurar el rastreo de clics. Al hacer clic en un elemento de la página, aparece el menú de opciones de VEC. Además, la ruta DOM correspondiente aparece en la parte inferior de la página. Puede utilizar la ruta DOM para ver rápidamente información sobre el elemento seleccionado (tipo, ID y clase) y subir o bajar por la ruta DOM para seleccionar el elemento deseado.
-
-  ![Ilustración de la ruta DOM](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
   Del mismo modo que cuando se crean experiencias en el paso 1 del flujo de trabajo de creación de actividades, el selector de ruta DOM en la parte inferior de la página le permite elegir un elemento. Al seleccionar un elemento desde la ruta DOM, el elemento correspondiente del VEC se muestra como &quot;Seleccionado&quot;. Para anular la selección de un elemento, vuelva a hacer clic en dicho elemento en el selector de rutas DOM o haga clic en el cuadro “Seleccionado” dentro del VEC.
 
