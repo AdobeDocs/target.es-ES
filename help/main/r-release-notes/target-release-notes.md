@@ -4,9 +4,9 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
+source-git-commit: 2f49a957979b4acaac7060f530b26861e1e774c9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '581'
 ht-degree: 27%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 26 de junio de 2025**
+**Última actualización: 27 de junio de 2025**
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ Esta versión de incluye las siguientes correcciones y actualizaciones:
 * Se corrigió un problema en el cual las modificaciones realizadas en experiencias de variante (por ejemplo, la Experiencia B) en una actividad [!UICONTROL A/B Test] no se conservaban. Después de cambiar entre experiencias, los cambios en la variante desaparecerían. Este problema no afectaba a la experiencia de control de Campaign. (TGT-52664)
 * Se ha corregido un problema en el cual algunos clientes no podían crear ni guardar actividades, mientras que otros podían realizar las mismas acciones sin problema. El problema era inconsistente entre cuentas.(TGT-52842)
 * Se ha corregido un problema en el cual en el VEC actualizado, los usuarios no podían mover modificaciones al [!UICONTROL Page Load event], una capacidad que existía en la IU heredada. (TGT-52617)
+* Se ha corregido un problema en la interfaz de usuario actualizada en el cual [!UICONTROL page load] eventos no eran visibles en [!DNL Target] al crear cambios; las actualizaciones solo se aplicaban a las vistas. (TGT-52604)
 * Se ha corregido un problema que impedía que algunas modificaciones de la actividad se mostraran correctamente en el VEC actualizado. (TGT-52818)
 * Se ha corregido una excepción de puntero nulo que se producía al recuperar datos de informes para actividades [!UICONTROL Automated Personalization] (AP). (TGT-52362)
 * Se ha corregido un problema que impedía que los detalles de nivel de oferta aparecieran en el archivo .CSV para actividades [!UICONTROL Automated Personalization] (AP). (TGT-52675)
