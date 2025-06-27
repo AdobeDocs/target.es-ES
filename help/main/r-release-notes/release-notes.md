@@ -6,16 +6,16 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b0de4b039dd2a130d55fac3058fbdb40771d4fc7
+source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
 workflow-type: tm+mt
-source-wordcount: '2731'
-ht-degree: 15%
+source-wordcount: '2725'
+ht-degree: 14%
 
 ---
 
 # [!DNL Target] Notas de la versión (actuales)
 
-Estas notas de la versión proporcionan información sobre funciones, mejoras, correcciones y problemas conocidos para todas las versiones de [!DNL Adobe Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros cambios de la plataforma, cuando corresponda.
+Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, A[!DNL dobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
@@ -64,7 +64,7 @@ A partir del 17 de junio de 2025, todas las organizaciones de IMS deberían habe
 
 Debido a problemas identificados recientemente, relacionados principalmente con personalizaciones complejas de clientes, el equipo [!DNL Target] ha ajustado la cronología de desuso:
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convertirá en la experiencia predeterminada para todas las organizaciones de IMS que tengan habilitada la opción de versión de la interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convertirá en la experiencia predeterminada para todas las organizaciones de IMS que tengan habilitada la opción de versión de la interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora verán la IU actualizada al iniciar sesión.
    * La opción de versión de la interfaz de usuario permanecerá disponible hasta finales de julio, lo que permitirá a los usuarios volver si es necesario.
