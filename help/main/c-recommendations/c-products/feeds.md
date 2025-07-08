@@ -2,13 +2,13 @@
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente  [!DNL Google Product Search] y  [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo se usa [!UICONTROL Feeds] en  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 38%
+source-wordcount: '2613'
+ht-degree: 35%
 
 ---
 
@@ -121,7 +121,7 @@ Si ya tiene un(a) [!DNL Google Product Feed], puede utilizarlo como archivo de i
 >
 >No es necesario usar los datos de [!DNL Google]. [!DNL Recommendations] usa el mismo formato que [!DNL Google]. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. Sin embargo, debe conservar los nombres de atributo predefinidos de [!DNL Google] al configurar el archivo.
 
-La mayoría de los comerciantes cargan productos en [!DNL Google], por lo que cuando un visitante usa la búsqueda de productos de [!DNL Google], se muestran sus productos. [!DNL Recommendations] sigue exactamente la especificación [!DNL Google] para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y pueden usar los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en [[!DNL Google] páginas de compras](https://www.google.com/prdhp).
+La mayoría de los comerciantes cargan productos en [!DNL Google], por lo que cuando un visitante usa la búsqueda de productos de [!DNL Google], se muestran sus productos. [!DNL Recommendations] sigue exactamente la especificación [!DNL Google] para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y pueden usar los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Los resultados se pueden buscar en [[!DNL Google] páginas de compras](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >
@@ -298,6 +298,7 @@ Estos son los posibles estados de una fuente:
 | [!UICONTROL Downloading Feed File] | [!DNL Target] está descargando el archivo de fuente. |
 | [!UICONTROL Importing Items] | [!DNL Target] está importando elementos del archivo de fuente. |
 | Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo y actualice la página que contenga recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones no se reflejen todavía en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Catalog Search] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
+| Error de importación parcial | Anteriormente, cuando no se cargaban todas las filas, la fuente se marcaba como correcta. Por lo tanto, si se crea la impresión de que todas las filas se han cargado mientras la fuente se muestra correctamente,<P>Este es un escenario de por qué podría encontrar una importación parcial de fuentes:<ul><li>Ha cargado un archivo de fuente para el entorno de producción; por ejemplo, 100 filas.</li><li>Se ejecutó la fuente, se cargaron 80 de esas filas y se perdieron 20 debido a un formato incorrecto, a que el campo superaba los caracteres, etc.</li><li>La fuente se marcó como correcta en la interfaz de usuario, lo que da la impresión de que se han cargado las 100 filas.</li><li>Está esperando algunos de esos 20 productos en el envío de una actividad, pero no está ocurriendo.</li><li> En este punto se siente desconcertado porque ha cargado la fuente que contiene los detalles del producto para los productos en cuestión. No lo ve en el backend de cuando consulta a través de la API de entidad, que le indica que no está en el backend de.</li></ul>Para eliminar esta confusión, se mejora el mensaje para indicar exactamente qué ha pasado con la fuente. En lugar de marcarlo como un éxito, ahora se marca como un error de importación parcial. |
 | [!UICONTROL Failed to Index] | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | [!UICONTROL Server Not Found] | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
@@ -345,7 +346,7 @@ Este vídeo contiene la información siguiente:
 * Explicación del objetivo de las fuentes
 * Explicación del valor de las fuentes
 
->[!VIDEO](https://video.tv.adobe.com/v/33945?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crear una fuente (6:44) ![Insignia de tutorial](/help/main/assets/tutorial.png)
 
@@ -354,4 +355,4 @@ Este vídeo contiene la información siguiente:
 * Configuración de una fuente
 * Qué tipo de fuente utilizar
 
->[!VIDEO](https://video.tv.adobe.com/v/33944?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
