@@ -4,9 +4,9 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
+source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 
 ## [!DNL Target Standard/Premium] 25.7.1 (miércoles, 08 de julio de 2025)
 
-Esta versión de incluye las siguientes correcciones y actualizaciones:
+Debido a problemas identificados recientemente, relacionados principalmente con las personalizaciones complejas de los clientes, esta versión incluye las siguientes correcciones y actualizaciones:
 
 * Se ha corregido un problema en el cual los refinamientos de audiencia solo de actividad desaparecían de la interfaz de usuario inmediatamente después de eliminarse de una ubicación, incluso antes de guardar la actividad. Este comportamiento contradecía la funcionalidad esperada y la guía de información del objeto, que indica: &quot;Todas las audiencias no utilizadas de esta biblioteca se eliminarán una vez guardada la actividad&quot;. (TGT-52982)
 * Se corrigió un problema que se producía al intentar asignar una audiencia distinta de [!UICONTROL All Visitors] a una actividad. Al guardar, se muestra el siguiente mensaje de error: &quot;No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste.&quot; (TGT-53008)
