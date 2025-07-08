@@ -4,9 +4,9 @@ description: Preguntas y respuestas acerca de la interfaz de usuario  [!DNL Targ
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target] IU actualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Como novedad en 2025, la interfaz de usuario actualizada de [!DNL Adobe Target] 
 ## ¿Se ha actualizado la cronología del cese de la compatibilidad con la versión de la interfaz de usuario de Target?
 
 +++Detalles
-Sí. Puede encontrar la nueva cronología e información importante en [Actualizado: [!DNL Target] Desaprobación de la versión de la interfaz de usuario (17 de junio de 2025)](/help/main/r-release-notes/release-notes.md#revised).
+Sí. Puede encontrar la nueva cronología e información importante en [actualizaciones urgentes que necesita conocer](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -44,9 +44,7 @@ Los siguientes recursos proporcionan información para obtener más información
 +++Detalles
 La IU actualizada está disponible para todos los clientes de [!DNL Target], [!UICONTROL Standard] y [!UICONTROL Premium]. No se requiere ninguna licencia o SKU actualizada.
 
-El despliegue de la nueva interfaz de usuario de [!DNL Target] se completó el 27 de mayo de 2025. En ese momento, todos los clientes tienen acceso a la última versión de la interfaz de usuario de.
-
-Para obtener más información sobre el despliegue y la desaprobación de la opción de versión de IU temporal, consulte [Desaprobación de la opción de versión de IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
+Para obtener más información sobre el despliegue y la desaprobación de la opción de versión de IU temporal, consulte [Actualizaciones con distinción de tiempo que necesita conocer](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -55,22 +53,18 @@ Para obtener más información sobre el despliegue y la desaprobación de la opc
 +++Detalles
 El equipo [!DNL Target] está abordando activamente los problemas relacionados con el nuevo despliegue de la interfaz de usuario. Las actualizaciones y mejoras en curso se detallan en las notas de la versión.
 
-Para obtener más información sobre el despliegue y la desaprobación de la opción de versión de IU temporal, consulte [Desaprobación de la opción de versión de IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
+Para obtener más información sobre el despliegue y la desaprobación de la opción de versión de IU temporal, consulte [Actualizaciones con distinción de tiempo que necesita conocer](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
 ## ¿Pueden los clientes solicitar que la versión de la interfaz de usuario permanezca en sus cuentas si prefieren permanecer en la interfaz de usuario heredada?
 
 +++Detalles
-El conmutador de versión de interfaz de usuario es una característica temporal que le permite alternar entre la interfaz de usuario [!DNL Target] actualizada y la versión heredada mediante un botón de alternancia. Esta opción solo está disponible durante la fase final del despliegue de la interfaz de usuario. Una vez completado el despliegue, se eliminará la opción y todos los usuarios realizarán una transición permanente a la interfaz de usuario actualizada el 22 de junio de 2025.
+El conmutador de versión de interfaz de usuario es una característica temporal que le permite alternar entre la interfaz de usuario [!DNL Target] actualizada y la versión heredada mediante un botón de alternancia. Esta opción solo está disponible durante la fase final del despliegue de la interfaz de usuario. Una vez completado el despliegue, se eliminará la opción y todos los usuarios realizarán una transición permanente a la interfaz de usuario actualizada.
 
 El uso de la opción de versión de la IU presenta varias limitaciones, como la visibilidad de las nuevas actividades, la edición de las actividades existentes y la coherencia de los detalles de la actividad.
 
->[!NOTE]
->
->Los clientes con casos especiales que necesiten conservar la opción después del 22 de junio pueden ponerse en contacto con el Servicio de atención al cliente de Adobe para obtener ayuda. Consulte [Actualización: [!DNL Target] Desaprobación de la opción de versión de IU (17 de junio de 2025)](/help/main/r-release-notes/release-notes.md#revised) para obtener más información.
-
-Para obtener más información, consulte [Desaprobación de la versión de la IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
+Para obtener más información, consulte [Actualizaciones urgentes que necesita conocer](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 ++++
 
@@ -81,7 +75,7 @@ Para obtener más información, consulte [Desaprobación de la versión de la IU
 
 El uso de la opción de versión de la IU presenta varias limitaciones, como la visibilidad de las nuevas actividades, la edición de las actividades existentes y la coherencia de los detalles de la actividad.
 
-Para obtener más información, consulte [Desaprobación de la versión de la IU de Target (23 de mayo de 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) en *Notas de la versión para versiones anteriores*.
+Para obtener más información, consulte [Actualizaciones urgentes que necesita conocer](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
