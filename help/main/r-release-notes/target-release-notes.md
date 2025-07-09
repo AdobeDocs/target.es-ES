@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dd7ec2fe38ea5bb6d34bdbf44876c291b356fc17
+source-git-commit: f1e01a8ba0eef99d2d6a02bd5c255da32ff64ce2
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 12%
+source-wordcount: '1914'
+ht-degree: 13%
 
 ---
 
@@ -31,28 +31,38 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 **Actividades**
 
++++Ver detalles
 * Se ha corregido un problema en el cual la dirección URL [!UICONTROL Activity QA] incluía un parámetro de consulta innecesario: `at_preview_evaluate_as_true_audience_ids`. (TGT-52907)
 * Se ha corregido un problema por el cual las direcciones URL de vista previa incluían incorrectamente audiencias adicionales más allá de la escrita explícitamente por el usuario. Este comportamiento se ha corregido para garantizar que solo se aplique la audiencia especificada al generar un control de calidad o un vínculo de vista previa. (TGT-52912)
 * Se ha corregido un problema que impedía a los usuarios crear actividades [!UICONTROL Auto-Target] (AT) si [!UICONTROL Auto-Allocate] (AA) se seleccionaba primero durante la configuración de la asignación de tráfico. Este problema provocaba un error de validación del back-end e impedía guardar la actividad. (TGT-53096)
 
++++
+
 **Audiencias**
 
++++Ver detalles
 * Se ha corregido un problema en el cual los usuarios con el rol [!UICONTROL Approver] no podían agregar ni guardar refinamientos de audiencia solo de actividad. Al intentar hacerlo, se produjo un error 403 prohibido, que indica que se requería el privilegio &quot;[editor]&quot;, aunque el usuario tenía permisos suficientes para aprobar y administrar actividades. (TGT-52984)
 * Se ha corregido un problema que se producía cuando se eliminaba una audiencia específica de actividad mediante la opción [!UICONTROL Remove Audience Refinement], de modo que la audiencia ya no aparecía en la lista de audiencias para volver a seleccionarse dentro de la misma actividad. Este comportamiento impedía a los usuarios volver a añadir la misma audiencia a menos que se volviera a crear desde cero. (TGT-52979)
 * Se ha corregido un problema en el cual los refinamientos de audiencia solo de actividad desaparecían de la interfaz de usuario inmediatamente después de eliminarse de una ubicación, incluso antes de guardar la actividad. Este comportamiento contradecía la funcionalidad esperada y la guía de información del objeto, que indica: &quot;Todas las audiencias no utilizadas de esta biblioteca se eliminarán una vez guardada la actividad&quot;. (TGT-52982)
 * Se corrigió un problema que se producía al intentar asignar una audiencia distinta de [!UICONTROL All Visitors] a una actividad. Al guardar, se muestra el siguiente mensaje de error: &quot;No podemos completar su solicitud. Póngase en contacto con [!UICONTROL Adobe Client Care] si el problema persiste.&quot; (TGT-53008)
 * Se ha corregido un problema que bloqueaba el guardado de una actividad después de crear y asignar una nueva audiencia dentro del editor de actividades. El mensaje de error mostrado era: &quot;No podemos completar su solicitud. Póngase en contacto con [!UICONTROL Adobe Client Care] si el problema persiste.&quot; (TGT-52977)
 
-**[!UICONTROL Analytics for Target] (A4T)**
++++
 
+**[!UICONTROL Analytics for Target](A4T)**
+
++++Ver detalles
 * Se corrigió un problema en el cual copiar una actividad existente y cambiar el origen de informes a [!DNL Adobe Analytics] (A4T) resultaría en un error de &quot;entrada de usuario no válida&quot;. El error se activó cuando ciertas acciones de métricas incompatibles con los informes de [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` y `restart_new_experience`, se retuvieron de la actividad original. (TGT-52900)
 * Se ha corregido un problema que impedía que los clientes crearan o guardaran una actividad al seleccionar [!DNL Adobe Analytics] (A4T) como fuente de informes en el paso [!UICONTROL Goals & Settings]. El problema se produjo específicamente al seleccionar una métrica de [!UICONTROL Custom Event] (por ejemplo, &quot;Evento personalizado 16&quot;), dando como resultado el siguiente error: &quot;Entrada de usuario no válida&quot;. (TGT-52910)
 * Se ha corregido un problema que causaba que, al hacer clic en el vínculo &quot;[!UICONTROL View in Analytics]&quot;, se redirigiera a los usuarios a la página principal en lugar del panel [!DNL Analytics] deseado. (TGT-53092 y TGT-53093)
 * Se ha corregido un problema que se producía al clonar una actividad existente y cambiar el origen de los informes de [!DNL Target] a [!DNL Adobe Analytics]. Los usuarios se encontraron con un error &quot;400 - Entrada de usuario no válida&quot; que impedía guardar la actividad. (TGT-52875)
 * Se ha corregido un problema que se producía al ver una actividad [!DNL Recommendations] en la interfaz de usuario [!UICONTROL Overview] actualizada, y que provocaba que la sección [!UICONTROL Goals & Settings] no se cargara cuando se seleccionaba [!DNL Adobe Analytics] (A4T) como origen de informes. Se muestra el siguiente mensaje de error: &quot;Se ha producido un error. No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste. (TGT-52999)
 
++++
+
 **[!UICONTROL Experiences]y[!UICONTROL Offers]**
 
++++Ver detalles
 * Se corrigió un problema en el cual el uso de la característica [!UICONTROL Manage Content] en las actividades [!UICONTROL Automated Personalization] (AP) hacía que la página se bloqueara y permaneciera en blanco. Este problema se produjo después de hacer clic en [!UICONTROL Done] en el administrador de contenido, especialmente en las actividades creadas o editadas en la interfaz de usuario actualizada. (TGT-53047)
 * Se corrigió un problema en el cual la característica [!UICONTROL Manage Content] no validaba correctamente el estado de una ubicación después de quitar todas las opciones de contenido. Esto podría generar un comportamiento incoherente o errores al intentar guardar o continuar con la configuración de la actividad. (TGT-52801)
 * Se ha corregido un problema en el cual los usuarios encontraban un error de &quot;entrada no válida&quot; al añadir una nueva página y eliminar elementos específicos dentro de diferentes experiencias. El error se activó porque se generó un duplicado de `LocalIds` durante la manipulación de elementos, especialmente al cambiar entre experiencias y modificar estructuras de páginas compartidas. (TGT-52720)
@@ -60,17 +70,26 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 * Se ha aclarado el comportamiento con el cliente, donde las modificaciones realizadas mediante una oferta de HTML podrían no aparecer al navegar desde el paso [!UICONTROL Targeting] hacia atrás a [!UICONTROL Experiences]. Para este cliente, el sitio web afectado generaba dinámicamente varios selectores DOM que cambiaban con cada carga de página. Como resultado, el selector utilizado originalmente para la modificación no se puede encontrar cuando se vuelve a abrir el editor, lo que hace que la modificación parezca no estar presente o no ser válida. Esto funciona según lo diseñado. Para garantizar que las modificaciones persistan visualmente en el editor, se recomienda que los clientes utilicen selectores estables y coherentes que no cambien entre las recargas de la página. (TGT-52874)
 * Se ha corregido un problema en el cual al intentar eliminar o desactivar una oferta que formaba parte de una experiencia excluida se activaba un error de &quot;entrada de usuario no válida&quot;. Este problema se producía aunque la oferta no se usaba de forma activa en las experiencias incluidas. (TGT-52917)
 
++++
+
 **Compositor de experiencias basadas en formularios**
 
++++Ver detalles
 * Se ha corregido un problema en las actividades basadas en formularios en el cual duplicar una experiencia y editar el código personalizado en una de las experiencias duplicadas aplicaba involuntariamente esos cambios a todas las experiencias duplicadas. Cada experiencia ahora conserva su propio código personalizado de forma independiente después de la duplicación. (TGT-51600)
+
++++
 
 **Localización**
 
++++Ver detalles
 * Se ha corregido un problema de traducción contextual en la configuración regional coreana (ko-KR) para la cadena &quot;Previsualizar experiencia&quot;. (TGT-52928)
 * Se han corregido incoherencias terminológicas identificadas en la traducción al chino simplificado (zh_CN) de varias cadenas de texto. (TGT-52954 y TGT-52955)
 
++++
+
 **[!DNL Recommendations]**
 
++++Ver detalles
 * Se agregó una nueva fuente [!DNL Recommendations] [estado](/help/main/c-recommendations/c-products/feeds.md#status): [!UICONTROL Partial Import Failed]. (KB-2215)
 * Se corrigió un problema que afectaba el flujo de trabajo de creación de actividad al agregar [!DNL Recommendations] con [!UICONTROL promotions]. Cuando los usuarios seleccionaron &quot;[!UICONTROL Promote by Attribute]&quot; y agregaron una regla de filtrado (por ejemplo, [!UICONTROL Parameter Matching]), el tipo de regla y los valores de operando seleccionados no se retuvieron después de guardar y volver a editar la actividad. Al volver a abrir, el tipo de regla de filtrado cambiaba inesperadamente y faltaban los valores de operando. (TGT-53059)
 * Se ha corregido un problema en la interfaz de usuario de [!DNL Recommendations] por el cual cualquier promoción creada con una sola regla se interpretaba y mostraba de forma incorrecta como un tipo de promoción &quot;Lista de elementos&quot;, independientemente de la lógica de la regla. (TGT-53063)
@@ -81,13 +100,19 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
   Debido a esta discrepancia, los usuarios solo veían el primer valor (recuento importado) en la interfaz de usuario, lo que provocaba confusión. La interfaz de usuario ahora muestra ambos números. (TGT-53073)
 
++++
+
 **Informes**
 
++++Ver detalles
 * Se corrigió un problema en el cual al seleccionar &quot;[!UICONTROL Export order details to CSV]&quot; de la página [!UICONTROL Reports] se descargaba un archivo vacío. Este problema ocurría incluso cuando había datos de pedido válidos en la actividad. (TGT-52225)
 * Se ha corregido un problema que se producía al intentar guardar una actividad después de crear y asignar una nueva audiencia de informes. El mensaje de error devuelto fue: &quot;Acceso denegado. Para realizar esta operación, se requieren todos los privilegios siguientes: [editor].&quot; Este problema se producía a pesar de que el usuario tenía acceso de nivel de aprobador. (TGT-53103)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
++++
 
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Ver detalles
 * Se ha resuelto un problema en el cual la aplicación de una modificación a una vista resultaba en la duplicación de la vista y la actividad devolvía un error de &quot;entrada de usuario no válida&quot;. Esta corrección garantiza que las modificaciones de la vista se apliquen correctamente sin activar errores de duplicación o validación. (TGT-52886)
 * Se ha corregido un problema por el cual las modificaciones de código personalizado se mostraban incorrectamente para la experiencia incorrecta. En concreto, los cambios destinados a una experiencia se mostraron en una experiencia diferente, lo que provocó confusión y posibles errores de configuración en las actividades activas. (TGT-52776)
 * Se ha corregido un problema que impedía editar o guardar modificaciones de código personalizado en la nueva interfaz de usuario de VEC. Específicamente:
@@ -111,6 +136,8 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
    * La creación de varias ofertas de HTML con el mismo nombre (por ejemplo, &quot;Experiencia&quot;) ha activado el error &quot;No se permiten nombres de ofertas duplicados&quot;, pero la interfaz de usuario no indicaba claramente qué ofertas estaban causando el conflicto.
    * Al cambiar el nombre de las ofertas mediante el panel derecho, se actualizó el nombre en la interfaz de usuario, pero el cambio no se reflejó en la pestaña [!UICONTROL Manage Content] ni en la pestaña [!UICONTROL Offers], lo que provocó errores de validación persistentes.
    * En las actividades MVT, aunque el error de nombre duplicado no persistió después de cambiar el nombre, la IU seguía sin reflejar los nombres de ofertas actualizados de forma coherente en las pestañas. (TGT-52933)
+
++++
 
 ## Notas de la versión adicionales y detalles de la versión
 
