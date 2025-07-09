@@ -1,13 +1,13 @@
 ---
 keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;audiencias
-description: Vea las preguntas más frecuentes (FAQ) acerca de la segmentación de experiencias y las audiencias utilizadas en las actividades de Adobe  [!DNL Target] .
+description: Vea las preguntas más frecuentes (FAQ) acerca de la segmentación de experiencias y las audiencias utilizadas en las actividades de Adobe [!DNL Target] .
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de objetivos y audiencias?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 56%
+source-wordcount: '973'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,7 @@ Tenga en cuenta la siguiente URL:
 
 ### Segmentación de URL de audiencia
 
-Para aplicar la segmentación de URL de audiencia, mientras crea una actividad, en la página Experiencias (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono de engranaje, luego en Entrega de página y especifique la dirección URL deseada.
+Para aplicar el direccionamiento de URL de audiencia al crear una actividad, en la página **[!UICONTROL Experiences]** (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono **[!UICONTROL Configure]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ), haga clic en **[!UICONTROL Page Delivery]** y, a continuación, especifique la dirección URL que desee.
 
 ![URL de entrega de página](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ El direccionamiento de URL de audiencia y el direccionamiento de URL agregados m
 
 ### Segmentación de URL {#url-targeting}
 
-Para aplicar el direccionamiento de URL, mientras crea una audiencia, haga clic en [!UICONTROL Add Rule], haga clic en [!UICONTROL Site Pages], seleccione una opción en la primera lista desplegable ([!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page]), seleccione [!UICONTROL URL] en la segunda lista desplegable, especifique un evaluador y después especifique la dirección URL que desee.
+Para aplicar el direccionamiento de URL, al crear una audiencia, haga clic en arrastrar **[!UICONTROL Site Pages]** y suéltelo en el panel [!UICONTROL Create Audiences], haga clic en **[!UICONTROL Site Pages]**, seleccione una opción de la primera lista desplegable ([!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page]), seleccione [!UICONTROL URL] de la segunda lista desplegable, especifique un evaluador y, a continuación, especifique la dirección URL que desee.
 
 ![Páginas del sitio > Página actual > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,11 +80,9 @@ De manera predeterminada, el tráfico se divide a partes iguales entre las exper
 
 El usuario cumple los requisitos para la primera experiencia/audiencia que se muestre en la página [!UICONTROL Target] de la actividad.
 
-Por ejemplo, en la siguiente ilustración, un usuario de California que utiliza un dispositivo Windows cumple los criterios de la Experiencia A (audiencia de Windows) y de Experiencia C (audiencia de California). Este usuario vería la Experiencia A porque aparece en la lista anterior por encima de Experiencia C en la página de Target.
+Por ejemplo, supongamos que la experiencia/audiencia incluye Windows como Experiencia A, iOS como Experiencia B y California como Experiencia C. Un usuario de California que utiliza un dispositivo Windows cumple los requisitos para la Experiencia A (audiencia de Windows) y la Experiencia C (audiencia de California). Este usuario vería la Experiencia A porque aparece en la lista anterior por encima de Experiencia C en la página de Target.
 
-![imagen audiences_order](assets/audiences_order.png)
-
-## ¿Por qué los nombres de las mismas audiencias en [!DNL Target], Adobe Audience Manager AAM () y la Biblioteca de audiencias en los servicios principales son diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## ¿Por qué los nombres de las mismas audiencias en [!DNL Target] , Adobe Audience Manager (AAM) y la biblioteca de audiencias en los servicios principales son diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Los nombres de las audiencias en [!DNL Target] son únicos; sin embargo, en [!DNL AAM] y en la [!DNL Audience Library], varias audiencias pueden tener el mismo nombre (si están en carpetas diferentes). Cuando [!DNL Target] encuentra un nombre de audiencia que coincide con el de una audiencia [!DNL AAM] o [!DNL Audience Library], [!DNL Target] añade &quot;#&lt;number>&quot; al nombre.
 
