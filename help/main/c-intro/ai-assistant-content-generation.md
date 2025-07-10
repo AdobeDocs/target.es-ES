@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 6b4c3b04abe09cc2e440b24c3ff07cb6875ca816
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ Para generar texto atractivo usando [!DNL AI Assistant]:
 
    * **Tono**: el tono del texto debería interesar a la audiencia. Tanto si desea que suene informativo, emocionante, lúdico o persuasivo, [!DNL AI Assistant] puede adaptar el mensaje en consecuencia.
 
-     Las opciones incluyen: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] y [!UICONTROL Conversational].
+     Las opciones incluyen: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] y [!UICONTROL Conversational].
 
-1. Utilice el control deslizante para elegir la longitud del texto ([!UICONTROL Shorter Text] a [!UICONTROL Larger Text]).
+1. Utilice el control deslizante para elegir el tiempo que desea que sea el texto, de más corto a más largo.
 
-1. (Opcional) Haga clic en Brand Assets para cargar o alternar recursos de marca para un contexto de contenido adicional durante la generación.
+1. (Opcional) Haga clic en **[!UICONTROL Brand Assets]** para cargar o alternar los recursos de la marca para el contexto de contenido adicional durante la generación.
 
 1. Haga clic en **[!UICONTROL Generate]** para crear una lista de variaciones de texto.
 
@@ -100,4 +100,4 @@ El siguiente mensaje y las siguientes variaciones muestran la potencia de [!DNL 
 
 ### Creación de contenido con el asistente de IA para la generación de contenido
 
->[!VIDEO](https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa">https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
