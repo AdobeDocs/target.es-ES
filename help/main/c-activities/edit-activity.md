@@ -1,23 +1,23 @@
 ---
 keywords: actividades;actividad;tipos de actividad;editar actividad;editar;borrador
-description: Obtenga información sobre las distintas formas de editar una actividad existente en Adobe Target, incluido el guardado de una actividad en forma de borrador.
+description: Obtenga información sobre las distintas formas de editar una actividad existente, incluido el guardado de una actividad en forma de borrador.
 title: ¿Cómo edito una actividad o guardo como borrador?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
+source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 44%
+source-wordcount: '1010'
+ht-degree: 39%
 
 ---
 
 # Editar una actividad o guardar como borrador
 
-Obtenga información sobre cómo editar actividades existentes en [!DNL Adobe Target], incluido cómo guardar cambios como borradores. Este artículo describe los diferentes métodos disponibles en la interfaz de [!DNL Target] para modificar actividades, ya sea para actualizar experiencias, ajustar reglas de segmentación o configurar objetivos, asegurándose al mismo tiempo de que los cambios se guarden de forma segura antes de la activación.
+Obtenga información sobre cómo editar actividades existentes en [!DNL Adobe Target], incluido cómo guardar cambios como borradores. Este artículo describe los diferentes métodos disponibles en la interfaz [!DNL Target] para modificar actividades. Tanto si desea actualizar experiencias, ajustar reglas de segmentación o configurar objetivos, Target garantiza que los cambios se guarden correctamente antes de la activación.
 
-[!DNL Target] proporciona varios lugares en la interfaz de usuario donde puede editar las actividades existentes. El proceso varía en función del método que elija.
+[!DNL Target] proporciona varios lugares en la interfaz de usuario donde puede editar las actividades existentes. El proceso varía según el método que elija.
 
-## Editar una actividad pasando sobre ella el cursor en la página Actividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Editar una actividad pasando sobre ella el cursor [!UICONTROL More Actions] en la página Actividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. En la página **[!UICONTROL Activities]**, haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) junto a la actividad que desea editar y, a continuación, haga clic en [!UICONTROL **Editar**].
 
@@ -32,7 +32,7 @@ Obtenga información sobre cómo editar actividades existentes en [!DNL Adobe Ta
    * **[!UICONTROL Save & Close]:** Haga clic en **[!UICONTROL Save and Close]** para guardar los cambios y mostrar la página [!UICONTROL Overview] de la actividad.
    * **Guardar:** Haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ), luego seleccione **[!UICONTROL Save]** para guardar los cambios y permanecer en el VEC donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
-## Edite una actividad haciendo clic en su nombre en la página [!UICONTROL Activities] para abrirla {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edite una actividad haciendo clic en su nombre desde la página [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Para evitar tener que pasar por todo el flujo de trabajo, haga clic en la actividad deseada de la página [!UICONTROL Activities] para abrirla, seleccione una opción en la lista desplegable **[!UICONTROL Edit Activity]** y, a continuación, seleccione la opción deseada.
 
@@ -63,7 +63,7 @@ Cuando crea una nueva actividad que aún no se ha guardado, o cuando edita una a
 
 Puede guardar una actividad en modo borrador si se ha comenzado su configuración, pero aún no está lista para ejecutarse.
 
-1. Cree una nueva actividad o edite una actividad existente en forma de borrador.
+1. Cree una nueva actividad o edite una actividad existente que esté en forma de borrador.
 1. Seleccione la opción que desee en el botón dividido:
 
    ![Guardar borrador](/help/main/c-activities/assets/save_draft.png)
@@ -88,7 +88,7 @@ Si tiene Permisos de usuario de Enterprise habilitados en su entorno, puede copi
 
 Tenga en cuenta la siguiente información cuando utilice la funcionalidad de copiar/editar con espacios de trabajo:
 
-* Cuando copie una actividad dentro del mismo espacio de trabajo, el primer paso del flujo de creación de la actividad recién copiada se abre en modo de edición.
+* Cuando copia una actividad en el mismo espacio de trabajo, el primer paso del flujo de creación de la actividad recién copiada se abre en modo de edición.
 * Cuando copia una actividad en un espacio de trabajo diferente, la actividad se copia en el otro espacio de trabajo sin abrirlo en el flujo de creación de actividades. Después de que la actividad se haya copiado correctamente, aparece un mensaje que indica que la actividad se copió con éxito e incluye un vínculo para abrir la nueva actividad.
 
 Si su entorno no tiene habilitada la funcionalidad Permisos de usuario de Enterprise, todas las actividades se abren en el modo de edición antes de copiarse.
