@@ -4,9 +4,9 @@ description: Obtenga información sobre las distintas formas de editar una activ
 title: ¿Cómo edito una actividad o guardo como borrador?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
+source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '925'
 ht-degree: 39%
 
 ---
@@ -92,11 +92,3 @@ Tenga en cuenta la siguiente información cuando utilice la funcionalidad de cop
 * Cuando copia una actividad en un espacio de trabajo diferente, la actividad se copia en el otro espacio de trabajo sin abrirlo en el flujo de creación de actividades. Después de que la actividad se haya copiado correctamente, aparece un mensaje que indica que la actividad se copió con éxito e incluye un vínculo para abrir la nueva actividad.
 
 Si su entorno no tiene habilitada la funcionalidad Permisos de usuario de Enterprise, todas las actividades se abren en el modo de edición antes de copiarse.
-
-## Prácticas recomendadas
-
-* Como práctica recomendada, intente actualizar la actividad mediante el mismo método (IU o API) que se utilizó para crear la actividad originalmente.
-
-  Las actividades creadas con la interfaz de usuario [!DNL Target] deben actualizarse mediante la interfaz de usuario [!DNL Target]. Las actividades creadas mediante API deben actualizarse mediante esta. Si, originalmente, crea una actividad utilizando la API, por ejemplo, pero luego edita la actividad a través de la interfaz de usuario [!DNL Target], no se actualizan todos los cambios. Todos los cambios se almacenan en el servidor y se pueden actualizar realizando otra llamada de API.
-
-
