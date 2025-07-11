@@ -4,61 +4,48 @@ description: Obtenga información sobre las distintas formas de editar una activ
 title: ¿Cómo edito una actividad o guardo como borrador?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 44%
 
 ---
 
 # Editar una actividad o guardar como borrador
 
-Información sobre las distintas formas de editar una actividad existente en [!DNL Adobe Target], incluido el guardado de una actividad en forma de borrador.
+Obtenga información sobre cómo editar actividades existentes en [!DNL Adobe Target], incluido cómo guardar cambios como borradores. Este artículo describe los diferentes métodos disponibles en la interfaz de [!DNL Target] para modificar actividades, ya sea para actualizar experiencias, ajustar reglas de segmentación o configurar objetivos, asegurándose al mismo tiempo de que los cambios se guarden de forma segura antes de la activación.
 
-Target ofrece en su interfaz varios puntos donde se pueden editar las actividades existentes. El proceso varía en función del método que elija.
+[!DNL Target] proporciona varios lugares en la interfaz de usuario donde puede editar las actividades existentes. El proceso varía en función del método que elija.
 
 ## Editar una actividad pasando sobre ella el cursor en la página Actividades {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. En la página **[!UICONTROL Activities]**, pase el ratón sobre la actividad que quiere editar y luego haga clic en el icono **[!UICONTROL Edit]**.
+1. En la página **[!UICONTROL Activities]**, haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) junto a la actividad que desea editar y, a continuación, haga clic en [!UICONTROL **Editar**].
 
-   ![Icono Editar](/help/main/c-activities/assets/hover_edit.png)
-
-   Target abre la actividad en el Compositor de experiencias visuales (VEC), y usted ve la página [!UICONTROL Experiences] (el primer paso en el flujo de trabajo guiado de tres pasos).
+   Target abre la actividad en [!UICONTROL Visual Experience Composer] (VEC) y usted ve la página [!UICONTROL Experiences] (el primer paso en el flujo de trabajo guiado de tres pasos).
 
 1. Edite la actividad según desee con las [Opciones de VEC](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Haga clic en el botón dividido para avanzar al siguiente paso o para guardar la actividad.
+1. Haga clic en **[!UICONTROL Next]** para avanzar al siguiente paso y realice las modificaciones necesarias.
 
-   ![Botón Dividido](/help/main/c-activities/assets/edit_split_button_2.png)
+1. Cuando llegue a la página **Objetivos y configuración**, tiene las siguientes opciones:
 
-   * **Siguiente:** Para editar otra página en el flujo de trabajo de tres pasos, haga clic en **[!UICONTROL Next]** para avanzar al paso deseado. Por ejemplo, en la ilustración anterior, al hacer clic en [!UICONTROL Next] se muestra el paso [!UICONTROL Targeting].
-   * **Guardar y cerrar:** Realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y, a continuación, seleccione **[!UICONTROL Save and Close]** para guardar los cambios y mostrar la página [!UICONTROL Overview] de la actividad.
-   * **Guardar:** Realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Save]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
+   * **[!UICONTROL Save & Close]:** Haga clic en **[!UICONTROL Save and Close]** para guardar los cambios y mostrar la página [!UICONTROL Overview] de la actividad.
+   * **Guardar:** Haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ), luego seleccione **[!UICONTROL Save]** para guardar los cambios y permanecer en el VEC donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
-## Edite una actividad haciendo clic en su nombre en la página Actividades para abrirla {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edite una actividad haciendo clic en su nombre en la página [!UICONTROL Activities] para abrirla {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Para evitar tener que pasar por todo el flujo de trabajo, haga clic en la actividad deseada de la página Actividades para abrirla y, a continuación, seleccione una opción en la lista desplegable **[!UICONTROL Edit Activity]**.
+1. Para evitar tener que pasar por todo el flujo de trabajo, haga clic en la actividad deseada de la página [!UICONTROL Activities] para abrirla, seleccione una opción en la lista desplegable **[!UICONTROL Edit Activity]** y, a continuación, seleccione la opción deseada.
 
-   ![Editar Desplegable de actividad](/help/main/c-activities/assets/edit_activity.png)
+   * **Editar experiencias:** lo lleva directamente a la página [!UICONTROL Experiences] (el primer paso en el flujo de trabajo guiado de tres pasos).
+   * **Editar segmentación**: lo lleva directamente a la página [!UICONTROL Targeting] (el segundo paso en el flujo de trabajo guiado de tres pasos).
+   * **[!UICONTROL Goals & Settings]**: lo lleva directamente a la página [!UICONTROL Goals & Settings] (el tercer paso en el flujo de trabajo guiado de tres pasos).
 
-1. Seleccione la opción que desee:
+1. Realice los cambios que desee y, a continuación, guarde la actividad.
 
-   * **Editar experiencias:** lo lleva directamente a la página [!UICONTROL Experiences] (el primer paso en el flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
+   * **[!UICONTROL Save & Close]:** Haga clic en **[!UICONTROL Save and Close]** para guardar los cambios y mostrar la página [!UICONTROL Overview] de la actividad.
+   * **Guardar:** Haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ), luego seleccione **[!UICONTROL Save]** para guardar los cambios y permanecer en el VEC donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
 
-      * Haga clic en **[!UICONTROL Save & Close]** para guardar los cambios y mostrar la página Información general de la actividad.
-      * Haga clic en **[!UICONTROL Save]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
-
-   * **Editar segmentación:** lo lleva directamente a la página [!UICONTROL Targeting] (el segundo paso en el flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
-
-      * Haga clic en **[!UICONTROL Save & Close]** para guardar los cambios y mostrar la página Información general de la actividad.
-      * Haga clic en **[!UICONTROL Save]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
-
-   * **Editar objetivos y configuración:** lo lleva directamente a la página [!UICONTROL Goals & Settings] (el último paso del flujo de trabajo guiado). Realice los cambios que desee y, a continuación, utilice el botón dividido (explicado anteriormente) para guardar la actividad.
-
-      * Haga clic en **[!UICONTROL Save & Close]** para guardar los cambios y mostrar la página Información general de la actividad.
-      * Haga clic en **[!UICONTROL Save]** para guardar los cambios y permanecer en el paso, donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
-
-## Trabaje con actividades heredadas creadas en Recommendations Classic {#classic}
+## Trabajar con actividades heredadas creadas en [!DNL Recommendations Classic] {#classic}
 
 La lista [!UICONTROL Activities] muestra actividades creadas en varias fuentes, entre ellas [!DNL Recommendations Classic]. Las siguientes acciones están disponibles cuando se trabaja con actividades heredadas creadas en [!DNL Recommendations Classic]:
 
@@ -72,7 +59,7 @@ No puede editar una actividad de [!DNL Recommendations] directamente. Si desea e
 
 ## Guardar una actividad como borrador {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Cuando crea una nueva actividad que aún no se ha guardado, o cuando edita una actividad previamente guardada en forma de borrador, en el botón dividido se muestra la opción Guardar borrador.
+Cuando crea una nueva actividad que aún no se ha guardado, o cuando edita una actividad previamente guardada en forma de borrador, en el botón dividido se muestran las opciones [!UICONTROL Save Draft].
 
 Puede guardar una actividad en modo borrador si se ha comenzado su configuración, pero aún no está lista para ejecutarse.
 
@@ -85,7 +72,7 @@ Puede guardar una actividad en modo borrador si se ha comenzado su configuració
    * **Guardar borrador y cerrar:** Realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y, a continuación, seleccione **[!UICONTROL Save Draft and Close]** para guardar los cambios y mostrar la página [!UICONTROL Overview] de la actividad.
    * **Guardar borrador:** Realice los cambios que desee en el paso actual, haga clic en el desplegable del botón dividido y seleccione **[!UICONTROL Save Draft]** para guardar los cambios y permanecer en el paso.
 
-## Copiar/editar una actividad al usar espacios de trabajo {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Copia/edición de una actividad al utilizar espacios de trabajo {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Un espacio de trabajo permite que una organización asigne un conjunto de usuarios específico a un conjunto de propiedades concretas. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en [!DNL Adobe Analytics].
 
@@ -97,7 +84,7 @@ Si forma parte de una organización multinacional, puede tener un espacio de tra
 
 Para obtener más información acerca de los espacios de trabajo y la funcionalidad Permisos de usuario de Enterprise, consulte [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Si tiene Permisos de usuario de Enterprise habilitados en su entorno, puede copiar actividades en el mismo espacio de trabajo o en otro espacio de trabajo. No puede trasladar actualmente una actividad de un espacio de trabajo a otro. Para copiar una actividad en otro espacio de trabajo, en la página [!UICONTROL Activities], pase el ratón sobre la actividad que quiera copiar, haga clic en el icono [!UICONTROL Copy] y, a continuación, seleccione el espacio de trabajo que desee en la lista desplegable.
+Si tiene Permisos de usuario de Enterprise habilitados en su entorno, puede copiar actividades en el mismo espacio de trabajo o en otro espacio de trabajo. No puede trasladar actualmente una actividad de un espacio de trabajo a otro. Para copiar una actividad en otro área de trabajo, en la página [!UICONTROL Activities], haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) junto a la actividad que desee copiar y, a continuación, haga clic en [!UICONTROL **Copiar**].
 
 Tenga en cuenta la siguiente información cuando utilice la funcionalidad de copiar/editar con espacios de trabajo:
 
