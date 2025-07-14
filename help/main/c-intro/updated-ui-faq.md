@@ -4,9 +4,9 @@ description: Preguntas y respuestas acerca de la interfaz de usuario  [!DNL Targ
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target] IU actualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ Para obtener más información, consulte [Actualizaciones urgentes que necesita 
 El uso de la opción de versión de la IU presenta varias limitaciones, como la visibilidad de las nuevas actividades, la edición de las actividades existentes y la coherencia de los detalles de la actividad.
 
 Para obtener más información, consulte [Actualizaciones urgentes que necesita conocer](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## ¿Siguen estando disponibles los estados [!UICONTROL Save as Draft] y [!UICONTROL Syncing]?
+
++++Detalles
+
+
+Con las últimas actualizaciones de la interfaz de usuario, los estados [!UICONTROL Save as Draft] y [!UICONTROL Syncing] ya no están disponibles. Para obtener más información, vea Estados en [Aplicar filtros a la lista de actividades](/help/main/c-activities/activities.md#filters) en *[!UICONTROL Activities overview]*.
 
 +++
 
