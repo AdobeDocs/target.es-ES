@@ -1,13 +1,13 @@
 ---
-keywords: actividades;actividad;tipos de actividad;editar actividad;editar
+keywords: actividades;actividad;tipos de actividad;editar actividad;editar;copiar
 description: Obtenga información sobre las distintas formas de editar una actividad existente.
 title: ¿Cómo edito una actividad?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -61,7 +61,7 @@ No puede editar una actividad de [!DNL Recommendations] directamente. Si desea e
 
 La función Guardar como borrador ya no está disponible. Para obtener más información, consulte *[!UICONTROL Status]* en [Aplicar filtros a la lista de actividades](/help/main/c-activities/activities.md#filters).
 
-## Copia/edición de una actividad al utilizar espacios de trabajo {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Copiar/editar una actividad al utilizar espacios de trabajo {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Un espacio de trabajo permite que una organización asigne un conjunto de usuarios específico a un conjunto de propiedades concretas. En muchos aspectos, un espacio de trabajo es parecido a un grupo de informes en [!DNL Adobe Analytics].
 
@@ -77,7 +77,24 @@ Si tiene Permisos de usuario de Enterprise habilitados en su entorno, puede copi
 
 Tenga en cuenta la siguiente información cuando utilice la funcionalidad de copiar/editar con espacios de trabajo:
 
-* Cuando copia una actividad en el mismo espacio de trabajo, el primer paso del flujo de creación de la actividad recién copiada se abre en modo de edición.
-* Cuando copia una actividad en un espacio de trabajo diferente, la actividad se copia en el otro espacio de trabajo sin abrirlo en el flujo de creación de actividades. Después de que la actividad se haya copiado correctamente, aparece un mensaje que indica que la actividad se copió con éxito e incluye un vínculo para abrir la nueva actividad.
+* Si copia una actividad en el mismo espacio de trabajo o desde el espacio de trabajo predeterminado a un espacio de trabajo no predeterminado, se abrirá automáticamente el Asistente para actividades. En las copias entre espacios de trabajo, es posible que solo necesite actualizar las propiedades de la actividad.
+* Cuando se copia una actividad de un espacio de trabajo no predeterminado a otro espacio de trabajo (ya sea predeterminado o no predeterminado), se abre el Asistente de actividad y se requiere alguna entrada manual para completar la configuración:
+   * **[!UICONTROL Properties]**: las propiedades pueden diferir entre espacios de trabajo. Esta situación podría generar un déclencheur de advertencia:
 
-Si su entorno no tiene habilitada la funcionalidad Permisos de usuario de Enterprise, todas las actividades se abren en el modo de edición antes de copiarse.
+      * En [!UICONTROL Form-Based Experience Composer], las advertencias se muestran directamente en la interfaz de usuario para una visibilidad inmediata.
+
+        ![Advertencia de espacio de trabajo basado en formularios](/help/main/c-activities/assets/form-based-warning.png)
+
+      * En el VEC, las advertencias se pueden ver al hacer clic en [!UICONTROL Configure] > [!UICONTROL Properties].
+
+        ![advertencia de vec](/help/main/c-activities/assets/vec-warning.png)
+
+        Para resolver este problema, haga clic en [!UICONTROL Add/Remove] de modo que solo se muestren las propiedades disponibles en el área de trabajo de destino para su selección.
+
+   * **Audiencias y ofertas**: todas las audiencias y ofertas del área de trabajo original deben reemplazarse. También puede copiarlos de las páginas [!UICONTROL Audiences] o [!UICONTROL Offers] y luego seleccionar los elementos correspondientes de la lista correspondiente dentro de la actividad.
+
+   * **Cambios manuales requeridos**: todos los cambios manuales requeridos se resumen en el paso final ([!UICONTROL Save & Close]). Una ventana emergente muestra una lista de entidades que requieren actualizaciones, lo que ayuda a garantizar que se realicen todos los ajustes necesarios antes de completar la configuración de la actividad.
+
+     ![Advertencia de validación de Workspace](/help/main/c-activities/assets/work-space-validation.png)
+
+Si su entorno no tiene habilitada la funcionalidad [!UICONTROL Enterprise User Permissions], todas las actividades se abren en el modo de edición antes de copiarse.
