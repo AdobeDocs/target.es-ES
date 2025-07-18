@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
+source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
 workflow-type: tm+mt
-source-wordcount: '2594'
-ht-degree: 13%
+source-wordcount: '3287'
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ El equipo [!DNL Target] ofrece una característica temporal que le permite cambi
 
 ![Alternar versión de IU de Target](/help/main/r-release-notes/assets/toggle.png)
 
-Una vez completado el despliegue, se eliminará la opción y todos los usuarios realizarán una transición permanente a la interfaz de usuario actualizada. [!DNL Adobe] recomienda planificar con anticipación, ya que esta función se eliminará gradualmente en breve.
+Una vez completado el despliegue, se eliminará la opción y todos los usuarios harán la transición de forma permanente a la interfaz de usuario actualizada. [!DNL Adobe] recomienda planificar con anticipación, ya que esta función se eliminará gradualmente en breve.
 
 #### Cronología de desuso
 
@@ -40,7 +40,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 * **17 de junio de 2025**: todas las organizaciones de IMS se han habilitado para la interfaz de usuario [!DNL Target] actualizada, ya sea para usuarios específicos o para toda la organización, para comenzar a probar la nueva experiencia.
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora ven la IU actualizada al iniciar sesión.
    * El conmutador Versión de la interfaz de usuario permanece disponible hasta finales de julio, lo que permite a los usuarios volver si es necesario.
@@ -61,8 +61,8 @@ Póngase en contacto con el servicio de atención al cliente de [Adobe](/help/ma
 La siguiente información describe las limitaciones que debe tener en cuenta al elegir utilizar la opción de versión:
 
 * **Visibilidad de nuevas actividades**: las actividades creadas en la interfaz de usuario actualizada no serán visibles si vuelve a la interfaz de usuario heredada.
-* **Edición de actividades existentes**: los cambios realizados en las actividades existentes (creadas originalmente en la interfaz de usuario heredada) mientras se usa la interfaz de usuario actualizada se publicarán en el sitio web. Sin embargo, estas actualizaciones no estarán visibles en la interfaz de usuario heredada si vuelve; solo aparecerán allí las últimas actualizaciones realizadas desde la interfaz de usuario heredada.
-* **Consistencia de los detalles de la actividad**: los cambios más recientes, independientemente de la interfaz de usuario que utilice, se reflejarán en el sitio web activo. Sin embargo, la IU heredada solo mostrará los cambios más recientes realizados desde esa versión. Esto puede causar confusión si las actividades editadas en la interfaz de usuario actualizada tienen un aspecto diferente al que se ve en la interfaz de usuario heredada.
+* **Edición de actividades existentes**: los cambios realizados en las actividades existentes (creadas originalmente en la interfaz de usuario heredada) al utilizar la interfaz de usuario actualizada se publican en el sitio web. Sin embargo, estas actualizaciones no están visibles en la interfaz de usuario heredada si vuelve; solo aparecen allí las últimas actualizaciones realizadas desde la interfaz de usuario heredada.
+* **Consistencia de los detalles de la actividad**: los cambios más recientes, independientemente de la interfaz de usuario que utilice, se reflejarán en el sitio web activo. Sin embargo, la IU heredada solo muestra los cambios más recientes realizados desde esa versión. Esta situación puede causar confusión si las actividades editadas en la interfaz de usuario actualizada tienen un aspecto diferente al que se ve en la interfaz de usuario heredada.
 
 #### Recursos adicionales para obtener más información sobre la IU actualizada
 
@@ -72,6 +72,91 @@ La siguiente información describe las limitaciones que debe tener en cuenta al 
 * [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md): Proporciona una breve descripción general para ayudarle a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
 * [[!UICONTROL Visual Experience Composer] cambios](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2015) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones heredadas y actualizadas del VEC.
 * [[!UICONTROL Visual Experience Composer] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Este artículo explica la interfaz de usuario actualizada del VEC y sus opciones.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2 (sábado, 18 de julio de 2025)
+
+Debido a problemas identificados recientemente, relacionados principalmente con las personalizaciones complejas de los clientes, esta versión incluye las siguientes correcciones y actualizaciones:
+
+**Actividades**
+
++++Ver detalles
+* Se ha añadido una advertencia de confirmación adicional al cancelar las ediciones de la actividad con cambios no guardados: ¿Seguro que desea guardar esta actividad? Si no guarda, se perderán todos los cambios.&quot; Este mensaje ayuda a evitar la pérdida accidental de datos. (TGT-52865)
+* Se ha restaurado la funcionalidad heredada en el control deslizante [!UICONTROL Priority] de [!UICONTROL Goals & Settings], lo que permite a los clientes introducir un valor numérico directamente, tal como se admite en la interfaz de usuario heredada. (TGT-53185 y TGT-53219)
+
++++
+
+**Audiencias**
+
++++Ver detalles
+* Se ha corregido un problema que impedía guardar o editar actividades que contenían audiencias personalizadas. Los clientes han encontrado el mensaje de error &quot;No podemos completar su solicitud. Póngase en contacto con [!DNL Adobe Client Care] si el problema persiste.&quot; al intentar guardar cambios o incluso guardarlos sin cambios en determinadas actividades. (TGT-53189)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++Ver detalles
+* Se corrigió un problema en el cual los clientes veían informes de actividades específicas en la página [!UICONTROL Goals & Settings], el vínculo [!UICONTROL View in Analytics] señala incorrectamente al entorno de control de calidad en lugar del entorno de producción. (TGT-53163)
+
++++
+
+**[!UICONTROL Experiences]y[!UICONTROL Offers]**
+
++++Ver detalles
+* Se corrigió un problema en el cual invocar `triggerView` mediante código personalizado causaba un bucle infinito. (TGT-52885)
+* Se corrigió un problema que ocasionaba discrepancias entre `LocalIds` definidos para actividades y los `LocalIds` utilizados en definiciones de experiencia. (TGT-52669)
+* Se ha corregido un problema por el cual faltaban nombres de métricas en la página de la actividad [!UICONTROL Overview] que solo mostraban &quot;Oferta&quot; en lugar del nombre de métrica correcto. (TGT-53054)
+
++++
+
+**Compositor de experiencias basadas en formularios**
+
++++Ver detalles
+* Se ha corregido un problema en [!UICONTROL Form-Based Experience Composer] que impedía guardar la actividad y activaba el mensaje de error: &quot;No se pueden leer las propiedades de undefined (leyendo &#39;map&#39;)&quot;. (TGT-53145)
+
++++
+
+**Recommendations**
+
++++Ver detalles
+* Se corrigió un problema en el cual al hacer clic en un producto de [!UICONTROL Catalog Search] se mostraba el error &quot;No se pudieron recuperar los detalles del producto&quot; y se abría un modal sin una opción de cierre. (TGT-53082)
+* Se corrigió un problema en el cual [recommendations como ofertas](/help/main/c-recommendations/recommendations-as-an-offer.md) en actividades [!UICONTROL A/B Test] no se actualizaban correctamente al cambiar colecciones o promociones. (TGT-52884)
+* Se ha corregido un problema en el entorno de producción por el cual al hacer clic en una entidad en la IU actualizada se mostraba el error: &quot;No se pudieron recuperar los detalles del producto. Póngase en contacto con [!DNL Adobe Client Care] si el problema persiste.&quot; (TGT-53071)
+
++++
+
+**Informes**
+
++++Ver detalles
+* Se ha corregido un problema en el cual al guardar detalles de pedidos en un archivo CSV, se producía un archivo vacío. (TGT-52225)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Ver detalles
+* Se ha resuelto un problema en la página [!UICONTROL Goals & Settings] en el cual los selectores utilizados en varias experiencias no se resaltaban de manera consistente como seleccionados. (TGT-53062)
+* Se ha corregido un problema que impedía la edición de la actividad y activaba el mensaje de error: &quot;No se pueden leer las propiedades de undefined (leyendo &#39;mapa&#39;)&quot;. (TGT-53161)
+
++++
+
+**Espacios de trabajo**
+
++++Ver detalles
+* Se ha mejorado la administración de ofertas ad hoc al cambiar de espacio de trabajo.
+   * Al cambiar del espacio de trabajo predeterminado a un espacio de trabajo no predeterminado (o entre espacios de trabajo no predeterminados), las ofertas ad hoc ahora se copian correctamente. Durante la inicialización, el contexto del espacio de trabajo se actualiza y se asigna un nuevo ID a la oferta para garantizar su exclusividad.
+   * No se producen cambios al permanecer en el mismo espacio de trabajo. (TGT-53079)
+* Se ha corregido un problema que impedía que los clientes [copiaran actividades entre diferentes espacios de trabajo](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6). (TGT-52753 y TGT-47094)
+* Se corrigió un problema que se producía al cambiar propiedades entre espacios de trabajo.
+   * Al cambiar entre el espacio de trabajo predeterminado y un espacio de trabajo no predeterminado, si la propiedad actual existe en el espacio de trabajo de destino, se conserva la propiedad.
+   * Si la lista [!UICONTROL Properties] muestra una advertencia (probablemente para indicar que algunas propiedades pueden no ser compatibles) y el cliente hace clic en [!UICONTROL Add] o [!UICONTROL Remove] y, a continuación, hace clic en [!UICONTROL Save], se quitarán todas las propiedades que no estén en el área de trabajo de destino. Si el cliente hace clic en [!UICONTROL Cancel], todas las propiedades permanecerán, aunque no existan en el área de trabajo de destino. (TGT-47094)
+   * Si permanece en el mismo espacio de trabajo o cambia de un espacio de trabajo no predeterminado al predeterminado u otro, todo permanece tal cual. (TGT-53078)
+* Se ha actualizado la lógica de validación de entidad para respetar el contexto original del espacio de trabajo de la actividad. Las entidades como [!UICONTROL Experience Fragments] (XF) ahora se validan en función del espacio de trabajo en el que se creó originalmente la actividad. Por ejemplo, si existe un XF en el espacio de trabajo por defecto y la actividad se copia del espacio de trabajo X al espacio de trabajo Y, la validación seguirá pasando siempre que el XF sea válido en el espacio de trabajo original (por defecto). (TGT-53196)
+* Compatibilidad mejorada para copiar audiencias específicas durante la duplicación de actividades.
+   * Las audiencias específicas, incluidas las métricas, los informes, las páginas y los tipos solo de actividad, ahora se copian automáticamente en los siguientes casos:
+      * Al copiar una actividad del espacio de trabajo predeterminado a un espacio de trabajo no predeterminado.
+      * Al copiar una actividad en el mismo espacio de trabajo. (TGT-53197)
 
 +++
 
@@ -99,7 +184,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual copiar una actividad existente y cambiar el origen de informes a [!DNL Adobe Analytics] (A4T) resultaría en un error de &quot;entrada de usuario no válida&quot;. El error se activó cuando ciertas acciones de métricas incompatibles con los informes de [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` y `restart_new_experience`, se retuvieron de la actividad original. (TGT-52900)
@@ -114,10 +199,10 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++Ver detalles
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* Se corrigió un problema en el cual la característica [!UICONTROL Manage Content] no validaba correctamente el estado de una ubicación después de quitar todas las opciones de contenido. Esto podría generar un comportamiento incoherente o errores al intentar guardar o continuar con la configuración de la actividad. (TGT-52801)
-* Se ha corregido un problema en el cual los usuarios encontraban un error de &quot;entrada no válida&quot; al añadir una nueva página y eliminar elementos específicos dentro de diferentes experiencias. El error se activó porque se generó un duplicado de `LocalIds` durante la manipulación de elementos, especialmente al cambiar entre experiencias y modificar estructuras de páginas compartidas. (TGT-52720)
+* Se corrigió un problema en el cual la característica [!UICONTROL Manage Content] no validaba correctamente el estado de una ubicación después de quitar todas las opciones de contenido. Este problema podría provocar un comportamiento incoherente o errores al intentar guardar o continuar con la configuración de la actividad. (TGT-52801)
+* Se ha corregido un problema en el cual los usuarios encontraban un error de &quot;entrada no válida&quot; al añadir una nueva página y eliminar elementos específicos dentro de diferentes experiencias. El error se desencadena cuando se genera un duplicado de `LocalIds` durante la manipulación de elementos, especialmente al cambiar entre experiencias y modificar estructuras de páginas compartidas. (TGT-52720)
 * Se corrigió un problema en el cual al usar la característica [!UICONTROL Generate Adhoc Offer] aparecían ubicaciones indefinidas en el panel [!UICONTROL Manage Content]. (TGT-53076 y TGT-53070)
-* Se ha aclarado el comportamiento con el cliente, donde las modificaciones realizadas mediante una oferta de HTML podrían no aparecer al navegar desde el paso [!UICONTROL Targeting] hacia atrás a [!UICONTROL Experiences]. Para este cliente, el sitio web afectado generaba dinámicamente varios selectores DOM que cambiaban con cada carga de página. Como resultado, el selector utilizado originalmente para la modificación no se puede encontrar cuando se vuelve a abrir el editor, lo que hace que la modificación parezca no estar presente o no ser válida. Esto funciona según lo diseñado. Para garantizar que las modificaciones persistan visualmente en el editor, se recomienda que los clientes utilicen selectores estables y coherentes que no cambien entre las recargas de la página. (TGT-52874)
+* Se ha aclarado el comportamiento con el cliente, donde las modificaciones realizadas mediante una oferta de HTML podrían no aparecer al navegar desde el paso [!UICONTROL Targeting] hacia atrás a [!UICONTROL Experiences]. Para este cliente, el sitio web afectado generaba dinámicamente varios selectores DOM que cambiaban con cada carga de página. Como resultado, el selector utilizado originalmente para la modificación no se puede encontrar cuando se vuelve a abrir el editor, lo que hace que la modificación parezca no estar presente o no ser válida. Este escenario funciona según lo diseñado. Para garantizar que las modificaciones persistan visualmente en el editor, se recomienda que los clientes utilicen selectores estables y coherentes que no cambien entre las recargas de la página. (TGT-52874)
 * Se ha corregido un problema en el cual al intentar eliminar o desactivar una oferta que formaba parte de una experiencia excluida se activaba un error de &quot;entrada de usuario no válida&quot;. Este problema se producía aunque la oferta no se usaba de forma activa en las experiencias incluidas. (TGT-52917)
 
 +++
@@ -156,7 +241,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en el cual la aplicación de una modificación a una vista resultaba en la duplicación de la vista y la actividad devolvía un error de &quot;entrada de usuario no válida&quot;. Esta corrección garantiza que las modificaciones de la vista se apliquen correctamente sin activar errores de duplicación o validación. (TGT-52886)
@@ -174,7 +259,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 * Se ha corregido un problema por el cual los cambios en el código personalizado no se guardaban correctamente y se reflejaban de forma involuntaria en varias experiencias dentro de la misma actividad. Además, los usuarios encontraban problemas de acceso al abrir o actualizar determinadas actividades, lo que provocaba que aparecieran pantallas en blanco. Estos problemas se han resuelto para garantizar una edición estable de la actividad y un aislamiento preciso de la experiencia. (TGT-52594)
 * Se corrigió un problema en el cual los usuarios no podían navegar a una dirección URL diferente mientras se encontraban en [!UICONTROL Browse Mode]. Esto impedía que los probadores y editores validaran o previsualizaran páginas alternativas dentro de la misma sesión de actividad. (TGT-53052)
 * Se corrigió un problema en el cual varias instancias de [!UICONTROL Visual Experience Composer] (VEC) se abrían simultáneamente durante la creación de la actividad. Este problema se produjo cuando los usuarios deshabilitaron [!UICONTROL Enhanced Experience Composer] (EEC) y quitaron la barra diagonal de la dirección URL del sitio web en el paso [!UICONTROL Page Delivery]. (TGT-52782)
-* Se ha corregido un problema en el cual el menú desplegable de métrica [!UICONTROL Revenue] en el paso [!UICONTROL Goals & Settings] tenía el valor predeterminado incorrecto de [!UICONTROL Revenue per Visit] (RPVISIT), incluso después de que el usuario seleccionara una métrica diferente.  se ha producido un problema al contraer y volver a expandir el panel de configuración de métricas, lo que provocaba que se restableciera el valor seleccionado anteriormente. (TGT-52811 y TGT-52878)
+* Se ha corregido un problema en el cual el menú desplegable de métrica [!UICONTROL Revenue] en el paso [!UICONTROL Goals & Settings] tenía el valor predeterminado incorrecto de [!UICONTROL Revenue per Visit] (RPVISIT), incluso después de que el usuario seleccionara una métrica diferente.  El problema se producía al contraer y volver a expandir el panel de configuración de métricas, lo que provocaba que se restableciera el valor seleccionado anteriormente. (TGT-52811 y TGT-52878)
 * Se han corregido varios problemas en el flujo de trabajo de creación de actividades relacionado con la nomenclatura de ofertas y la traducción de contenido en las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Multivariate Testing] (MVT):
 
   Problemas clave abordados:
