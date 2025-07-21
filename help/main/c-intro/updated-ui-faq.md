@@ -4,10 +4,10 @@ description: Preguntas y respuestas acerca de la interfaz de usuario  [!DNL Targ
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target] IU actualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ Para obtener más información, consulte [Actualizaciones urgentes que necesita 
 
 +++
 
-## ¿Puedo contraer los carriles [!UICONTROL Components] y [!UICONTROL Modifications] para poder ampliar el panel [!UICONTROL Design]? {#collapse}
+## ¿Puedo contraer los carriles [!UICONTROL Components], [!UICONTROL Modifications] y [!UICONTROL Properties] para poder ampliar el panel [!UICONTROL Design]? {#collapse}
 
 +++Detalles
 
-Sí, puede contraer ambos raíles para permitirle expandir el lienzo [!UICONTROL Design] y facilitar la edición. A continuación se muestra cómo:
+Sí, puede contraer estos raíles para permitirle expandir el lienzo [!UICONTROL Design] y facilitar la edición. A continuación se muestra cómo:
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ Para contraer el carril [!UICONTROL Components] y ampliar el lienzo [!UICONTROL 
 **Contraer el carril [!UICONTROL Modifications]**
 
 Para contraer el carril [!UICONTROL Modifications] y ampliar el lienzo [!UICONTROL Design], mientras el carril [!UICONTROL Modifications] está abierto, haga clic en el icono [!UICONTROL Show Modifications] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ).
+
+**Contraer el carril [!UICONTROL Properties]**
+
+Para contraer el carril [!UICONTROL Properties] y ampliar el lienzo [!UICONTROL Design], haga clic en el icono [!UICONTROL Show/Hide Properties] ( ![icono Propiedades](/help/main/assets/icons/Propertie.svg) ) a la derecha del carril para contraer o mostrar el carril [!UICONTROL Properties].
 
 +++
 
