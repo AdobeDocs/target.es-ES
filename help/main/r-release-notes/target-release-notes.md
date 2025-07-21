@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
+source-git-commit: df7e28060a6add53e1aaed928351b4f399b19c17
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 72%
+source-wordcount: '466'
+ht-degree: 34%
 
 ---
 
@@ -25,9 +25,44 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >* Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.7.1 (sábado, 11 de julio de 2025)
+## [!DNL Target Standard/Premium] 25.7.3 (viernes, 24 de julio de 2025)
 
-Vea información sobre esta versión en las [notas de la versión actual](/help/main/r-release-notes/release-notes.md).
+Debido a problemas identificados recientemente, relacionados principalmente con las personalizaciones complejas de los clientes, esta versión incluye las siguientes correcciones y actualizaciones:
+
+**Actividades**
+
++++Ver detalles
+* Se corrigió un problema en el cual el método `buildViews` de la clase de generador establecía incorrectamente `viewMaxLocalId` en el recuento total de vistas, en lugar de en la asignación de `viewLocalId` más alta. (TGT-53207)
+
+**Compositor de experiencias basadas en formularios**
+
++++Ver detalles
+* Se ha corregido un problema en [!UICONTROL Form-Based Experience Composer] que hacía que el editor se bloqueara después de hacer clic en el icono **[!UICONTROL Manage Content]** ( ![icono Administrar contenido](/help/main/assets/icons/Experience.svg) ) al crear o editar una actividad [!UICONTROL Automated Personalization] (AP). (TGT-53047)
+
++++
+
+**Recommendations**
+
++++Ver detalles
+* Se ha corregido un problema que impedía que [!UICONTROL Catalog Search] cargara resultados adicionales al desplazarse hasta la parte inferior de la lista, restaurando un comportamiento coherente con la interfaz de usuario heredada. (TGT-53088)
+* Se ha corregido un problema en el cual la columna [!UICONTROL Number of Products] faltaba en la página [!UICONTROL Collections] en la interfaz de usuario [!DNL Target] actualizada. La columna ahora se muestra correctamente, restaurando la funcionalidad esperada. (TGT-53168)
+* Se corrigió un problema en el cual las reglas de [!UICONTROL Collection] no se filtraban correctamente de acuerdo con las reglas. (TGT-53254)
+* Se ha corregido un problema que bloqueaba la eliminación de elementos del cuadro de diálogo [!UICONTROL Criteria Details]. (TGT-53245)
+* Se ha corregido un problema que impedía abrir o interactuar con productos sin nombre. Este problema se producía al seleccionar entornos que devolvían resultados sin nombre, lo que impedía el acceso a los detalles del producto. (TGT-53007)
+* Se ha corregido un problema que hacía que la página [!UICONTROL Catalog Search] se bloqueara y mostrara una pantalla en blanco al seleccionar ciertos productos. (TGT-53087)
+
++++
+
+**Compositor de experiencias visuales (VEC)**
+
++++Ver detalles
+
+* Se ha corregido un problema en el VEC por el cual la aplicación de una modificación a una vista provocaba duplicación y activaba un error de &quot;entrada de usuario no válida&quot;. (TGT-52886)
+* Se corrigió un problema con la funcionalidad [!UICONTROL Undo] para las opciones [!UICONTROL Insert Before] y [!UICONTROL Insert After] al configurar ofertas de imagen en el VEC.
+
+  Anteriormente, deshacer una acción de [!UICONTROL Insert Before] o [!UICONTROL Insert After] en ofertas de imagen resultaba en un comportamiento incoherente o en un error al revertir correctamente la modificación, especialmente en las actividades creadas en la interfaz de usuario de [!DNL Target] heredada. Este problema se ha resuelto para garantizar que las acciones de deshacer ahora funcionen de forma fiable para estas modificaciones. (TGT-52809)
+
++++
 
 ## Notas de la versión adicionales y detalles de la versión
 
