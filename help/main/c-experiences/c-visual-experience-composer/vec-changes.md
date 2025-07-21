@@ -4,9 +4,9 @@ description: Comprenda los cambios introducidos en el Compositor de experiencias
 title: ¿Qué cambios se introducen en el nuevo Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,23 @@ Puede agregar varios componentes a la página web y editarlos según sea necesar
 
 Para agregar un componente nuevo, arrastre el componente desde el carril [!UICONTROL Components] que desee insertar sobre un elemento de página existente en el lienzo [!UICONTROL Design]. A continuación, elija insertar el componente antes de después del elemento seleccionado.
 
+>[!NOTE]
+>
+>Si ve el carril [!UICONTROL Modifications] en esta área en lugar del carril [!UICONTROL Components], haga clic en el icono **[!UICONTROL Show Components]** ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ). El icono [!UICONTROL Show Components] ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ) y el icono [!UICONTROL Show Modifications] ( ![Mostrar carril de modificaciones](/help/main/assets/icons/History.svg) ) actúan como alternadores para mostrar las opciones adecuadas.
+>
+>Para contraer el carril [!UICONTROL Components] y ampliar el lienzo [!UICONTROL Design], mientras el carril [!UICONTROL Components] está abierto, haga clic en el icono ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ).
+
 ### Carril [!UICONTROL Modifications]
 
 Para abrir el carril [!UICONTROL Modifications], haga clic en el icono [!UICONTROL Show Modifications] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ) en el carril [!UICONTROL Components]. El carril [!UICONTROL Modifications] cambió de posición del lado derecho al lado izquierdo del lienzo de edición.
 
 ![Carril de modificaciones](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>El icono [!UICONTROL Show Components] ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ) y el icono [!UICONTROL Show Modifications] ( ![Mostrar carril de modificaciones](/help/main/assets/icons/History.svg) ) actúan como alternadores para mostrar las opciones adecuadas.
+>
+>Para contraer el carril [!UICONTROL Modifications] y ampliar el lienzo [!UICONTROL Design], mientras el carril [!UICONTROL Modifications] está abierto, haga clic en el icono [!UICONTROL Show Modifications] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ).
 
 El carril [!UICONTROL Modifications] muestra todos los cambios realizados en su página en el VEC y le permite realizar cambios adicionales (como selector de CSS, mbox y código personalizado).
 
