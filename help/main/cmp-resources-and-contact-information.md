@@ -4,10 +4,10 @@ description: Conozca cuáles son los recursos adicionales para ayudarle a conoce
 title: ¿Dónde puedo encontrar recursos e información de contacto para Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
+source-git-commit: 8c60b4c162850142ef3116db29e70a33f93c8e6a
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 94%
+source-wordcount: '1135'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Visite el [Foro de la comunidad de Target](https://experienceleaguecommunities.a
 
 ## Serie de seminarios web sobre fundamentos de Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
-Información de registro y vínculos a sesiones anteriores de la Serie de seminarios web sobre fundamentos de Target, una serie de seminarios web de éxito de los clientes ofrecida por la comunidad.
+Información de registro y vínculos a sesiones anteriores de la Serie de seminarios web sobre fundamentos de Target, una serie de seminarios web sobre éxito del cliente ofrecida por la comunidad.
 
 [Haga clic aquí para ver sesiones anteriores o para obtener más información sobre próximas sesiones e información de registro](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
@@ -44,11 +44,11 @@ Las sesiones de Target grabadas actualmente incluyen:
 
 | Tema / Tiempo de ejecución / Fecha de grabación | Lo que aprenderá |
 |--- |--- |
-| [Sugerencias e información general sobre at.js](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 de junio de 2019 | Aprenderá:<ul><li>Ventajas de utilizar at.js</li><li>Configuración de at.js</li><li>Control de parpadeo</li><li>Depurar at.js</li><li>Problemas conocidos</li><li>Preguntas más frecuentes</li></ul>Para obtener más información, consulte [Funcionamiento de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es){target=_blank}. |
+| [sugerencias y descripción general de at.js](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 de junio de 2019 | Aprenderá:<ul><li>Ventajas de utilizar at.js</li><li>Configuración de at.js</li><li>Control de parpadeo</li><li>Depurar at.js</li><li>Problemas conocidos</li><li>Preguntas más frecuentes</li></ul>Para obtener más información, consulte [Funcionamiento de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Espacios de trabajo de Target Premium](https://helpx.adobe.com/es/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 de septiembre de 2018 | Aprenderá:<ul><li>Creación de un espacio de trabajo (perfil de producto)</li><li>Creación de propiedades</li><li>Adición de usuarios</li><li>Actualización de la implementación</li></ul>Para obtener más información, consulte [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/es/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte [Experiencias](/help/main/c-experiences/experiences.md). |
-| [Adobe Target: integración Analytics/Target (A4T)](https://helpx.adobe.com/es/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js: Ventajas y prácticas recomendadas de implementación](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js (obsoleto)</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul> |
+| [Adobe Target: integración de Analytics/Target (A4T)](https://helpx.adobe.com/es/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
+| [at.js: ventajas y prácticas recomendadas de implementación](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>Abril de 2018 | Aprenderá: <ul><li>Cómo funciona la biblioteca at.js</li><li>Las ventajas de at.js sobre mbox.js (obsoleto)</li><li>Cómo gestiona at.js el parpadeo</li><li>Gestión de errores en at.js</li><li>Metodologías de depuración</li><li>Problemas conocidos y hoja de ruta</li></ul> |
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Si tiene alguna pregunta, puede preguntar a los expertos de Adobe Target en la [
 
 Si tiene problemas técnicos o quiere registrar un error, contacte con atención al cliente. Para contactar con atención al cliente por teléfono, llame al +1 800 497 0335. Puede encontrar información sobre números de teléfono gratuitos para llamadas desde fuera de Estados Unidos en la página [Números de teléfono regionales de servicio de atención al cliente de Adobe Digital Marketing](https://helpx.adobe.com/es/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Cuando se le pida que seleccione una opción para su producto, presione 3 para contactar con el equipo de Target.
 
-Escriba un mensaje de correo electrónico al servicio de atención al cliente a [!DNL customercare@adobe.com].
+Póngase en contacto con [Póngase en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Para agilizar la evaluación de su problema, se recomienda que disponga de la siguiente información básica cuando contacte con nosotros:
 
@@ -101,7 +101,7 @@ Información que le ayudará a comunicarse con Adobe y a comprender los aspectos
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
 * [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/marketing-cloud.html)
-* [Apertura de tickets para obtener ayuda del servicio de Asistencia](https://experienceleague.adobe.com/es?support-solution=Target&amp;lang=es#support)
+* [Apertura de tickets para obtener ayuda del servicio de Asistencia](https://experienceleague.adobe.com/?support-solution=Target&lang=es#support)
 * [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 * [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/es)
 
