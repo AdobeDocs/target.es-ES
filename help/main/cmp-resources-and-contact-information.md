@@ -4,10 +4,10 @@ description: Conozca cuáles son los recursos adicionales para ayudarle a conoce
 title: ¿Dónde puedo encontrar recursos e información de contacto para Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 8c60b4c162850142ef3116db29e70a33f93c8e6a
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 91%
+source-wordcount: '1177'
+ht-degree: 81%
 
 ---
 
@@ -15,24 +15,28 @@ ht-degree: 91%
 
 Información sobre recursos adicionales para ayudarle a conocer las funciones de Target y cómo ponerse en contacto con Adobe si necesita ayuda con Target.
 
-## Foro de la comunidad de Target {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-La Comunidad de Target es su ventanilla única para todo Adobe Target.
+Descubra [!UICONTROL Adobe Target Community]: su centro para obtener información y colaboración.
 
-Gracias a la Comunidad puede:
+[!UICONTROL Adobe Target Community Forum] es tu destino de referencia para todo [!DNL Adobe Targe]t. Tanto si acaba de empezar como si es un profesional experimentado, la comunidad ofrece valiosas oportunidades para lo siguiente:
 
-* Obtener más información sobre lo que Target tiene para ofrecer
-* Conectar con tus compañeros y con los expertos de Adobe
-* Votar o enviar una idea propia para una futura versión de Target
+* **Explorar [!DNL Target] características**: Conozca las prácticas recomendadas y descubra nuevas formas de usar [!DNL Target].
+* **Conéctese y colabore**: Póngase en contacto con compañeros y [!DNL Adobe] expertos para compartir perspectivas y resolver desafíos juntos.
+* **Da forma al futuro**: envía ideas o vota sobre solicitudes de funcionalidades para influir en próximas versiones de [!DNL Target].
+
+Únase a la conversación, aporte su experiencia y obtenga las respuestas que necesite, todo en un solo lugar.
 
 Visite el [Foro de la comunidad de Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es) para empezar.
 
++++
+
 ## Serie de seminarios web sobre fundamentos de Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
-Información de registro y vínculos a sesiones anteriores de la Serie de seminarios web sobre fundamentos de Target, una serie de seminarios web sobre éxito del cliente ofrecida por la comunidad.
++++Ver detalles
+Explore [[Serie de seminarios web sobre fundamentos de Target]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, una iniciativa de éxito del cliente que le ofrece [!UICONTROL Adobe Target Community]. Acceda a los detalles de registro de próximas sesiones y examine las grabaciones de seminarios web anteriores para comprender mejor las características de [!DNL Target], las prácticas recomendadas y los casos de uso reales.
 
-[Haga clic aquí para ver sesiones anteriores o para obtener más información sobre próximas sesiones e información de registro](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
-
++++
 
 ## Horario del servicio de atención al cliente de Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
@@ -44,7 +48,7 @@ Las sesiones de Target grabadas actualmente incluyen:
 
 | Tema / Tiempo de ejecución / Fecha de grabación | Lo que aprenderá |
 |--- |--- |
-| [sugerencias y descripción general de at.js](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 de junio de 2019 | Aprenderá:<ul><li>Ventajas de utilizar at.js</li><li>Configuración de at.js</li><li>Control de parpadeo</li><li>Depurar at.js</li><li>Problemas conocidos</li><li>Preguntas más frecuentes</li></ul>Para obtener más información, consulte [Funcionamiento de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es){target=_blank}. |
+| [sugerencias y descripción general de at.js](https://helpx.adobe.com/es/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26 de junio de 2019 | Aprenderá:<ul><li>Ventajas de utilizar at.js</li><li>Configuración de at.js</li><li>Control de parpadeo</li><li>Depurar at.js</li><li>Problemas conocidos</li><li>Preguntas más frecuentes</li></ul>Para obtener más información, consulte [Funcionamiento de at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Espacios de trabajo de Target Premium](https://helpx.adobe.com/es/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 de septiembre de 2018 | Aprenderá:<ul><li>Creación de un espacio de trabajo (perfil de producto)</li><li>Creación de propiedades</li><li>Adición de usuarios</li><li>Actualización de la implementación</li></ul>Para obtener más información, consulte [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositor de experiencias visuales (VEC)](https://helpx.adobe.com/es/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>diciembre de 2017 | Aprenderá:<ul><li>Cómo funciona el Compositor de experiencias visuales</li><li>Cómo evitar problemas comunes con el Compositor de experiencias visuales</li><li>Soluciones alternativas con el Compositor de experiencias visuales</li></ul>Para obtener más información en esta guía, consulte [Experiencias](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: integración de Analytics/Target (A4T)](https://helpx.adobe.com/es/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Enero de 2018 | Aprenderá:<ul><li>Cómo configurar y validar que la integración está funcionando </li><li>Cómo funciona la integración</li><li>Obtenga información sobre los informes ideales para su uso en Analytics</li><li>Respuestas a preguntas más frecuentes sobre A4T</li></ul>Para obtener más información sobre esta guía, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
@@ -68,7 +72,7 @@ Si tiene alguna pregunta, puede preguntar a los expertos de Adobe Target en la [
 
 Si tiene problemas técnicos o quiere registrar un error, contacte con atención al cliente. Para contactar con atención al cliente por teléfono, llame al +1 800 497 0335. Puede encontrar información sobre números de teléfono gratuitos para llamadas desde fuera de Estados Unidos en la página [Números de teléfono regionales de servicio de atención al cliente de Adobe Digital Marketing](https://helpx.adobe.com/es/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Cuando se le pida que seleccione una opción para su producto, presione 3 para contactar con el equipo de Target.
 
-Póngase en contacto con [Póngase en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/contact.html){target=_blank}.
+Póngase en contacto con [Póngase en contacto con el Servicio de atención al cliente de Adobe](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Para agilizar la evaluación de su problema, se recomienda que disponga de la siguiente información básica cuando contacte con nosotros:
 
@@ -101,7 +105,7 @@ Información que le ayudará a comunicarse con Adobe y a comprender los aspectos
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
 * [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/marketing-cloud.html)
-* [Apertura de tickets para obtener ayuda del servicio de Asistencia](https://experienceleague.adobe.com/es?support-solution=Target&lang=es#support)
+* [Apertura de tickets para obtener ayuda del servicio de Asistencia](https://experienceleague.adobe.com/?support-solution=Target&lang=es#support)
 * [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 * [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/es)
 

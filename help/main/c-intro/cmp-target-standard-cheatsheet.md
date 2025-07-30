@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;preguntas frecuentes;faqs;hoja de referencia
-description: Explore una lista de preguntas más frecuentes acerca del uso de las funciones de Adobe Target, junto con información y vínculos para obtener más información.
+description: Explore una lista de preguntas más frecuentes acerca del uso de las características de  [!DNL Target], junto con información y vínculos para obtener más información.
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 79%
+source-wordcount: '2693'
+ht-degree: 72%
 
 ---
 
 # Preguntas más frecuentes sobre la optimización y personalización de Target
 
-Una lista de preguntas más frecuentes acerca del uso de las características de [!DNL Adobe Target], junto con información y vínculos para obtener más información.
+Explore las respuestas a las preguntas más frecuentes acerca del uso de las características de [!DNL Adobe Target]. Aprenda a optimizar sus experimentos, personalizar experiencias y acceder a recursos útiles con vínculos directos para obtener perspectivas más profundas.
 
 ## Información general {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**¿Dónde puedo encontrar información sobre la interfaz de usuario [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC) actualizados?**
+
++++Ver detalles
+
+La interfaz de usuario está organizada en un formato lógico y fácil de usar para ayudarle a sacar el máximo partido a [!DNL Target]. La siguiente descripción general breve le ayudará a familiarizarse con [!DNL Target] y el VEC, y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
+
+Consulte [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md) para obtener más información.
+
++++
+
 **¿Cómo puedo ver cómo han aprovechado otros clientes [!DNL Target] para obtener mejores resultados?**
 
-[Estas son solo algunas de las historias de éxito de nuestros clientes](https://www.adobe.com/es/marketing-cloud/target/resources.html#x). Vea cómo clientes como usted han aprovechado Target para mejorar la optimización y la personalización para lograr los objetivos comerciales.
++++Ver detalles
+Explore [casos de éxito de clientes](https://www.adobe.com/es/marketing-cloud/target/resources.html#x) en el mundo real para ver cómo las organizaciones utilizan [!DNL Target] para impulsar la optimización, personalizar experiencias y lograr resultados comerciales medibles.
 
-Tenga en cuenta que algunos de estos estudios de casos han aprovechado las capacidades de Adobe Target Premium.
++++
 
 **¿Dónde puedo obtener información sobre las últimas funciones de [!DNL Target]?**
 
-Consulte nuestras [Notas de la versión](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para ver los detalles de la última versión. La información sobre nuestras versiones [anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md) también está disponible en línea.
++++Ver detalles
+Manténgase actualizado con [!DNL Target] versiones.
+
+* **Última versión**: consulte las [[!DNL Target] notas de la versión (actual)](/help/main/r-release-notes/release-notes.md) para obtener detalles sobre nuevas funciones, mejoras y correcciones de errores.
+* **Próximas versiones**: Visite [[!DNL Target] notas de la versión (versión preliminar)](/help/main/r-release-notes/target-release-notes.md) para obtener una vista previa de las próximas versiones.
+* **Versiones anteriores**: examine [Notas de la versión de versiones anteriores](/help/main/r-release-notes/release-notes-for-previous-releases.md) para ver actualizaciones y cambios históricos.
+
++++
 
 **¿Tiene [!DNL Adobe] una comunidad o foro donde pueda encontrar respuestas y más información sobre [!DNL Target]?**
 
-Consulte el [Foro de la comunidad de Target](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), donde ayudamos a los clientes pero, lo más importante, nos gusta que los practicantes de Adobe Target como usted se ayuden entre sí. Después de todo, el éxito de una comunidad y de un foro depende de la participación activa de sus miembros. Conviértase en parte de la comunidad y contribuya y busque respuestas a sus preguntas.
++++Ver detalles
+Conéctese con otros [!DNL Target] practicantes en el [Foro de la comunidad de Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es){target=_blank}. Comparta su experiencia, haga preguntas y colabore con otros usuarios que usan [!DNL Target] para impulsar la personalización y la experimentación. Una comunidad próspera depende de la participación activa. Sus conocimientos y experiencias pueden ayudar a otros a tener éxito. Participe, contribuya y encuentre las respuestas que necesita.
+
++++
 
 **¿Con qué exploradores es compatible [!DNL Target]?**
 
-Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: el soporte de la interfaz Target Standard/Premium Experience Cloud y el soporte del navegador del usuario final en el escritorio/dispositivos.
++++Ver detalles
+Lea nuestra matriz de [exploradores admitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+
++++
 
 ## Actividades {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ Utilice los controles de asignación porcentual disponibles desde el [paso 2 del
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Experiencias {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -194,7 +218,7 @@ Siempre puede usar la opción del [Compositor de experiencia mejorada en el nive
 
 Póngase en contacto con Adobe para [asegurarse de que su cuenta está configurada para Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Una vez aprovisionado, podrá intercambiar una imagen por otra imagen con facilidad.
 
-**Quiero probar entre dos experiencias diferentes, por ejemplo, descuento plano frente a descuento porcentual, pero quiero enfocar adecuadamente las experiencias (mostrar diferentes idiomas locales o monedas diferentes para personas que vienen de diferentes países). ¿Cómo puedo hacer esto?**
+**Quiero probar entre dos experiencias diferentes, por ejemplo, descuento plano frente a descuento porcentual, pero quiero enfocar adecuadamente las experiencias (mostrar diferentes configuraciones locales o monedas diferentes para personas que vienen de diferentes países). ¿Cómo puedo hacer esto?**
 
 Puede conseguirlo fácilmente con nuestra [función Varias versiones de experiencias](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Tenga en cuenta los matices en torno a la entrega en estas pruebas
 
@@ -226,7 +250,7 @@ Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/con
 
 **No quiero probar cambios menores, sino que quiero probar una página completamente nueva y completamente diferente.**
 
-**Quiero dirigir a los usuarios a una página de aterrizaje, por ejemplo, un nuevo lanzamiento.**
+**Quiero dirigir a los usuarios a una página de destino, por ejemplo, un nuevo lanzamiento.**
 
 **¿Cómo puedo hacer esto?**
 
@@ -252,7 +276,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
 
