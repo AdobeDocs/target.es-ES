@@ -4,9 +4,9 @@ description: Obtenga información acerca de los cálculos estadísticos utilizad
 title: ¿Cómo puedo obtener información sobre los cálculos estadísticos utilizados en las actividades de [!UICONTROL A/B Test]?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
+source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -50,6 +50,8 @@ Aquí,
 El intervalo de confianza de la tasa de conversión se define de forma intuitiva como un rango de posibles tasas de conversión que es coherente con los datos subyacentes.
 
 Al ejecutar experimentos, la tasa de conversión de una experiencia determinada es de *estimación* de la tasa de conversión &quot;verdadera&quot;. Para cuantificar la incertidumbre de esta estimación, [!DNL Target] utiliza un intervalo de confianza. [!DNL Target] siempre informa de un intervalo de confianza del 95 %, lo que significa que al final, el 95 % de los intervalos de confianza calculados incluyen la tasa de conversión real de la experiencia.
+
+También se indica un número de &quot;Confianza&quot; junto a la experiencia principal o ganadora actual. Esta cifra solo se registra hasta que [!UICONTROL Confidence] de la experiencia principal alcance al menos el 60 %. Si hay dos experiencias presentes en la actividad, este número representa el nivel de confianza de que la experiencia tiene un mejor rendimiento que la otra experiencia. Si hay más de dos experiencias presentes en la actividad, este número representa el nivel de confianza de que la experiencia tiene un mejor rendimiento que la experiencia de &quot;control&quot; definida. Si la experiencia &quot;Control&quot; es la ganadora, no se informa de ninguna cifra &quot;Confianza&quot;.
 
 Un intervalo de confianza del 95 % de la tasa de conversión *<sub></sub>* se define como el intervalo de valores:
 
@@ -115,7 +117,7 @@ Donde *<sub>v</sub>* y *<sub>v0</sub>* son los medios de ** y *<sub>0</sub>* res
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias **&#x200B; y *12&rbrace;0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para &#x200B;** y *&rbrace;0</sub>* respectivamente.<sub><sub>
+Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias ** y *<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para ** y *<sub>0</sub>* respectivamente.
 
 Para la prueba T de Welch, el grado de libertad se calcula de la siguiente manera:
 
