@@ -4,10 +4,10 @@ description: Obtenga información sobre las distintas formas de editar una activ
 title: ¿Cómo edito una actividad?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '956'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Obtenga información sobre cómo editar actividades existentes en [!DNL Adobe Ta
 
 1. En la página **[!UICONTROL Activities]**, haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) junto a la actividad que desea editar y, a continuación, haga clic en [!UICONTROL **Editar**].
 
-   Target abre la actividad en [!UICONTROL Visual Experience Composer] (VEC) y usted ve la página [!UICONTROL Experiences] (el primer paso en el flujo de trabajo guiado de tres pasos).
+   [!DNL Target] abre la actividad en [!UICONTROL Visual Experience Composer] (VEC) y usted ve la página [!UICONTROL Experiences] (el primer paso en el flujo de trabajo guiado de tres pasos).
 
 1. Edite la actividad según desee con las [Opciones de VEC](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -44,22 +44,6 @@ Obtenga información sobre cómo editar actividades existentes en [!DNL Adobe Ta
 
    * **[!UICONTROL Save & Close]:** Haga clic en **[!UICONTROL Save and Close]** para guardar los cambios y mostrar la página [!UICONTROL Overview] de la actividad.
    * **Guardar:** Haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ), luego seleccione **[!UICONTROL Save]** para guardar los cambios y permanecer en el VEC donde podrá realizar más cambios. Espere a que se acabe de guardar antes de realizar cambios adicionales. Después de guardarse, VEC vuelve a cargarse con los cambios actualizados.
-
-## Trabajar con actividades heredadas creadas en [!DNL Recommendations Classic] {#classic}
-
-La lista [!UICONTROL Activities] muestra actividades creadas en varias fuentes, entre ellas [!DNL Recommendations Classic]. Las siguientes acciones están disponibles cuando se trabaja con actividades heredadas creadas en [!DNL Recommendations Classic]:
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-No puede editar una actividad de [!DNL Recommendations] directamente. Si desea editar la actividad, debe crear una copia de la misma con [!DNL Target Premium] y luego guardar la actividad recién creada. Esta actividad recién creada se puede editar según se necesite.
-
-## Guardar una actividad como borrador {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-La función Guardar como borrador ya no está disponible. Para obtener más información, consulte *[!UICONTROL Status]* en [Aplicar filtros a la lista de actividades](/help/main/c-activities/activities.md#filters).
 
 ## Copiar/editar una actividad al utilizar espacios de trabajo {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ Tenga en cuenta la siguiente información cuando utilice la funcionalidad de cop
 
         Para resolver este problema, haga clic en [!UICONTROL Add/Remove] de modo que solo se muestren las propiedades disponibles en el área de trabajo de destino para su selección.
 
-   * **Audiencias y ofertas**: todas las audiencias y ofertas del área de trabajo original deben reemplazarse. También puede copiarlos de las páginas [!UICONTROL Audiences] o [!UICONTROL Offers] y luego seleccionar los elementos correspondientes de la lista correspondiente dentro de la actividad.
+   * **Audiencias y ofertas**: al copiar una actividad en un área de trabajo nueva, todas las audiencias y ofertas asociadas del área de trabajo original se duplican con el formato: `Entity Name Copy <Date>`.
 
-   * **Cambios manuales requeridos**: todos los cambios manuales requeridos se resumen en el paso final ([!UICONTROL Save & Close]). Una ventana emergente muestra una lista de entidades que requieren actualizaciones, lo que ayuda a garantizar que se realicen todos los ajustes necesarios antes de completar la configuración de la actividad.
+     Detalles del comportamiento:
 
-     ![Advertencia de validación de Workspace](/help/main/c-activities/assets/work-space-validation.png)
+      * Las audiencias y ofertas copiadas no aparecen en las listas [!UICONTROL Audiences] y [!UICONTROL Offers] hasta que se guarda y se vuelve a abrir la actividad.
+      * Estas entidades no se pueden editar inmediatamente después de copiarlas. Es posible que los clientes vean contenido vacío en el VEC para estos elementos durante la sesión de edición inicial.
+      * Los clientes pueden reemplazar audiencias u ofertas copiadas con otras desde el espacio de trabajo de destino si es necesario.
 
-Si su entorno no tiene habilitada la funcionalidad [!UICONTROL Enterprise User Permissions], todas las actividades se abren en el modo de edición antes de copiarse.
+     Este proceso garantiza una duplicación más fluida de las actividades entre espacios de trabajo al tiempo que mantiene la flexibilidad para la personalización.
+
+     Al copiar una actividad, las audiencias combinadas, las audiencias que no son de destino y las ofertas que no se guardan en el espacio de trabajo actual o en el predeterminado deben reemplazarse manualmente.
+
+     Sustituir manualmente estas audiencias combinadas, audiencias no segmentadas y ofertas garantiza que solo se utilicen entidades válidas y accesibles en la actividad copiada y evita errores durante la edición o el envío.
+
+     ![Mensaje de advertencia](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>Si su entorno no tiene habilitada la funcionalidad [!UICONTROL Enterprise User Permissions], todas las actividades se abren en el modo de edición antes de copiarse.
+
+## Guardar una actividad como borrador {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+La característica [!UICONTROL Save as Draft] ya no está disponible. Para obtener más información, consulte *[!UICONTROL Status]* en [Aplicar filtros a la lista de actividades](/help/main/c-activities/activities.md#filters).
+
+## Trabajar con actividades heredadas creadas en [!DNL Recommendations Classic] {#classic}
+
+La lista [!UICONTROL Activities] muestra actividades creadas en varias fuentes, entre ellas [!DNL Recommendations Classic]. Las siguientes acciones están disponibles cuando se trabaja con actividades heredadas creadas en [!DNL Recommendations Classic]:
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+No puede editar una actividad de [!DNL Recommendations] directamente. Si desea editar la actividad, debe crear una copia de la misma con [!DNL Target Premium] y luego guardar la actividad recién creada. Esta actividad recién creada se puede editar según se necesite.
