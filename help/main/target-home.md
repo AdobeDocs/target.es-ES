@@ -4,10 +4,10 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
+source-git-commit: bc5be9a922c5c853c3fb466102cb8fb622e4494e
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 26%
+source-wordcount: '648'
+ht-degree: 27%
 
 ---
 
@@ -29,23 +29,11 @@ El equipo [!DNL Target] ha ajustado la cronología para la desaprobación de la 
 
 >[!TAB ¿Qué novedades hay?]
 
-**Se ha actualizado la información sobre la versión de interfaz de usuario alternativa en desuso**
-
-El equipo [!DNL Target] ha ajustado la cronología para la desaprobación de la versión de la interfaz de usuario.
-
-[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**Target 25.7.3 está activo!**
+**Target 25.7.4 está activo!**
 
 Esta versión se centra en correcciones y mejoras en la interfaz de usuario [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC) actualizados.
 
 [![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**[!DNL Target]preguntas frecuentes sobre la actualización de IU**
-
-Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, la ubicación de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
-
-[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB IU de Target actualizada]
 
@@ -54,6 +42,12 @@ Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz
 La interfaz de usuario está diseñada para una mayor claridad y eficiencia, lo que le ayuda a sacar el máximo partido a [!DNL Target]. Explore recursos para ayudarle a ponerse al día rápidamente, con vínculos directos a artículos detallados e instrucciones paso a paso.
 
 [![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
+
+*[!DNL *Targe]preguntas más frecuentes sobre la actualización de IU t**
+
+Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, la ubicación de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
+
+[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Ayudante de IA]
 
