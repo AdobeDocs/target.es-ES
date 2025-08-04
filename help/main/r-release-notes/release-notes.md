@@ -2,13 +2,13 @@
 keywords: notas de la versión;nuevas funciones;versiones;actualizaciones;actualización;versión;mejora;mejoras;correcciones;correcciones de errores;actualizaciones;actualizaciones actuales
 description: Conozca las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target], incluidos SDK, API y bibliotecas de JavaScript.
 landing-page-description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target].
-short-description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Adobe Target].
+short-description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones incluidas en la versión actual de  [!DNL Target].
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 11%
 
 ---
@@ -40,7 +40,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 * **17 de junio de 2025**: todas las organizaciones de IMS se han habilitado para la interfaz de usuario [!DNL Target] actualizada, ya sea para usuarios específicos o para toda la organización, para comenzar a probar la nueva experiencia.
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora ven la IU actualizada al iniciar sesión.
    * El conmutador Versión de la interfaz de usuario permanece disponible hasta finales de julio, lo que permite a los usuarios volver si es necesario.
@@ -72,6 +72,66 @@ La siguiente información describe las limitaciones que debe tener en cuenta al 
 * [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md): Proporciona una breve descripción general para ayudarle a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
 * [[!UICONTROL Visual Experience Composer] cambios](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2015) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones heredadas y actualizadas del VEC.
 * [[!UICONTROL Visual Experience Composer] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Este artículo explica la interfaz de usuario actualizada del VEC y sus opciones.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.4 (1 de agosto de 2025)
+
+Esta versión resuelve problemas recientes, causados principalmente por las personalizaciones complejas de los clientes, e incluye las siguientes correcciones y mejoras:
+
+**Actividades**
+
++++Ver detalles
+* Se ha corregido un problema en el cual un cliente encontraba el error &quot;Entrada de usuario no válida&quot; al intentar guardar una actividad activa, incluso sin realizar cambios. La respuesta de GraphQL indica un problema de ID local duplicado. (TGT-53329 Y TGT-53373 Y TGT-53195)
+* Se ha corregido un problema que impedía crear una experiencia de redireccionamiento en el VEC actualizado. Se ignoró la dirección URL de redireccionamiento y se mostró la página original en su lugar. (TGT-53306)
+
++++
+
+**Localización**
+
++++Ver detalles
+* Se corrigió un problema de localización en el modal [!UICONTROL Create Criteria], al seleccionar la opción &quot;entre los siguientes valores&quot; en la lista desplegable [!UICONTROL Choose Price Rule], se deslocalizó la cadena &quot;a&quot; en la sección [!UICONTROL Inclusion Rules]. (TGT-49754)
+* Se ha corregido un problema de localización con la cadena &quot;[!UICONTROL All host groups]&quot; en la lista desplegable [!UICONTROL Environment] del Asistente para la creación de fuentes que no está localizada correctamente. (TGT-46737)
+
++++
+
+**QA**
+
++++Ver detalles
+* Se ha corregido un problema en el cual el entorno de control de calidad no podía cargar datos en varias pestañas, lo que inutilizaba la interfaz. (TGT-53377)
+* Se ha corregido un problema que impedía crear una actividad en el entorno de control de calidad. El proceso se redirigió a la página [!UICONTROL Activities] en lugar de completarse correctamente. (TGT-53328)
+
++++
+
+**Recommendations**
+
++++Ver detalles
+* Se corrigió un problema en el cual al pasar el ratón por encima del operando &quot;aprendizaje profundo&quot; mientras se creaba una colección en [!DNL Recommendations], la página se bloqueaba. (TGT-53305)
+* Se corrigió un problema en el cual las sugerencias de filtro en [!UICONTROL Catalog Search] en la interfaz de usuario actualizada eran inexactas. (TGT-52007)
+* Se ha corregido un problema en la interfaz de usuario de [!DNL Recommendations] por el cual el filtro Operandos aparecía al usar los operadores &quot;el valor está presente&quot; o &quot;el valor no está presente&quot;, aunque debería estar oculto. (TGT-53012)
+
++++
+
+**Compositor de experiencias visuales (VEC)**
+
++++Ver detalles
+* Se corrigió un problema en el cual un usuario hacía clic en [!UICONTROL Manage Content] y luego en [!UICONTROL Done] mientras editaba una actividad de Automated Personalization (AP), la página se quedaba en blanco y dejaba de responder. (TGT-53047 y TGT-52993)
+* Se corrigió un problema en el cual al seleccionar la métrica de conversión [!UICONTROL Viewed an mbox] en [!UICONTROL Goals & Settings] la página se bloqueaba. (TGT-53346, TGT-53343 y TGT-53348)
+* Se ha corregido un problema en el cual la característica [!UICONTROL Redirect to URL] no funcionaba como se esperaba; no se produce ninguna redirección incluso con direcciones URL válidas. (TGT-53307)
+
++++
+
+**Espacios de trabajo**
+
++++Ver detalles
+* Se ha corregido un problema que se producía al copiar actividades entre espacios de trabajo y que provocaba entradas duplicadas de &quot;Audience Copy&quot; y conflictos de ID. Las audiencias ahora se copian con ID únicos, contexto de espacio de trabajo y control recursivo para audiencias combinadas (hasta 5 niveles). (TGT-53081)
+* Se ha corregido un problema que se producía cuando el área de trabajo se establecía en &quot;[!UICONTROL All Workspaces]&quot; y al copiar una actividad que ya existe en el área de trabajo predeterminada se producía un error incorrecto:
+
+  &quot;Se debe incluir al menos una propiedad para los espacios de trabajo no predeterminados&quot;.
+
+  Dado que la copia se encuentra dentro del espacio de trabajo predeterminado, no se debe requerir ninguna propiedad. Al intentar agregar una propiedad y guardar, se produce un segundo error:
+
+  &quot;Entrada de usuario no válida&quot;
 
 +++
 
@@ -137,7 +197,6 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 **Compositor de experiencias visuales (VEC)**
 
 +++Ver detalles
-
 * Se ha corregido un problema en el VEC por el cual la aplicación de una modificación a una vista provocaba duplicación y activaba un error de &quot;entrada de usuario no válida&quot;. (TGT-52886)
 * Se corrigió un problema con la funcionalidad [!UICONTROL Undo] para las opciones [!UICONTROL Insert Before] y [!UICONTROL Insert After] al configurar ofertas de imagen en el VEC.
 
@@ -191,7 +250,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual los clientes veían informes de actividades específicas en la página [!UICONTROL Goals & Settings], el vínculo [!UICONTROL View in Analytics] señala incorrectamente al entorno de control de calidad en lugar del entorno de producción. (TGT-53163)
@@ -230,7 +289,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en la página [!UICONTROL Goals & Settings] en el cual los selectores utilizados en varias experiencias no se resaltaban de manera consistente como seleccionados. (TGT-53062)
@@ -281,7 +340,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual copiar una actividad existente y cambiar el origen de informes a [!DNL Adobe Analytics] (A4T) resultaría en un error de &quot;entrada de usuario no válida&quot;. El error se activó cuando ciertas acciones de métricas incompatibles con los informes de [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` y `restart_new_experience`, se retuvieron de la actividad original. (TGT-52900)
@@ -338,7 +397,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en el cual la aplicación de una modificación a una vista resultaba en la duplicación de la vista y la actividad devolvía un error de &quot;entrada de usuario no válida&quot;. Esta corrección garantiza que las modificaciones de la vista se apliquen correctamente sin activar errores de duplicación o validación. (TGT-52886)

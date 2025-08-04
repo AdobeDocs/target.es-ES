@@ -1,13 +1,13 @@
 ---
 keywords: notas de la versión;versiones;actualizaciones;futuras versiones;mejoras;nuevas funciones;correcciones;actualizaciones;versión preliminar;acceso anticipado
-description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
+description: Obtenga información acerca de las nuevas funciones, mejoras y correcciones que incluirá la próxima versión de [!DNL Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 71%
+ht-degree: 69%
 
 ---
 
@@ -25,9 +25,9 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >* Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.7.3 (viernes, 24 de julio de 2025)
+## [!DNL Target Standard/Premium] 25.7.4 (1 de agosto de 2025)
 
-La versión 25.7.3 está activa. Consulte [[!DNL Target] notas de la versión (actual)](/help/main/r-release-notes/release-notes.md) para obtener información detallada.
+La versión 25.7.4 está activa. Consulte [[!DNL Target] notas de la versión (actual)](/help/main/r-release-notes/release-notes.md) para obtener información detallada.
 
 ## Notas de la versión adicionales y detalles de la versión
 
