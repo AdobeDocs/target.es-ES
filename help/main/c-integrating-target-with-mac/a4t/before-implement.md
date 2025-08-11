@@ -4,10 +4,10 @@ description: Conozca los requisitos de implementación de Analytics para  [!DNL 
 title: ¿Qué debo saber antes de implementar A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 656f728ba890f1f5afc0404e22f6acb1a2565fe6
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 23%
+source-wordcount: '957'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ Antes de decidir utilizar esta integración, revise las siguientes secciones y t
 
 >[!NOTE]
 >
->Este artículo se aplica solo a las implementaciones de at.js.
+>Este artículo se aplica solo a las implementaciones de at.js. Para obtener información acerca de la implementación de [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vea el registro de [Adobe Analytics for Target (A4T) en Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Requisitos de implementación {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -31,7 +31,7 @@ Esta integración con A4T requiere que implemente las siguientes versiones de la
 
 >[!NOTE]
 >
->Los siguientes requisitos enumeran las *versiones mínimas* de at.js necesarias para implementar A4T. El equipo [!DNL Target] mantiene solamente dos versiones de [!DNL at.js]: la actual y la penúltima. Actualice [!DNL at.js] cuando sea posible para garantizar que dispone de una versión compatible. Para obtener más información sobre los elementos de cada versión, consulte [Detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
+>Los siguientes requisitos enumeran las *versiones mínimas* de at.js necesarias para implementar A4T. El equipo [!DNL Target] mantiene solamente dos versiones de [!DNL at.js]: la actual y la penúltima. Actualice [!DNL at.js] cuando sea posible para garantizar que dispone de una versión compatible. Para obtener información detallada sobre los cambios en cada versión de at.js, consulte [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
 
 ### Requisitos necesarios si *no* se utilizan ofertas de redireccionamiento con A4T
 
@@ -41,7 +41,7 @@ Esta integración requiere que implemente las siguientes versiones de la bibliot
 * [!DNL Adobe Target]: versión 0.9.1 de at.js
 * Adobe Analytics: appMeasurement.js versión 1.7.0
 
-Para obtener información sobre la implementación de A4T con [!DNL Platform Web SDK], consulte [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}.
+Para obtener información sobre la implementación de A4T con [!DNL Platform Web SDK], consulte [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}.
 
 ### Requisitos necesarios si se utilizan ofertas de redireccionamiento con A4T
 
@@ -59,7 +59,7 @@ Para utilizar ofertas de redireccionamiento con A4T, debe implementar las siguie
 
 Las instrucciones de descarga e implementación se enumeran en [Implementación de Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Para obtener información sobre la implementación de A4T con [!DNL Platform Web SDK], consulte [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}.
+Para obtener información sobre la implementación de A4T con [!DNL Platform Web SDK], consulte [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}.
 
 ## Cosas que hay que saber antes de implementar {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -83,7 +83,7 @@ El aumento de la latencia comienza después de implementar el servicio de ID de 
 
 Todas las llamadas de [!DNL Target] utilizadas por una actividad de A4T para entregar contenido o registrar la métrica de objetivo deben tener una visita de [!DNL Analytics] correspondiente que comparta el ID suplementario para A4T para funcionar correctamente.
 
-Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) como el parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
+Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) como el parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
 
 * Se ha implementado el servicio de ID de visitante.
 
@@ -97,12 +97,12 @@ Hay casos en los que es posible que desee tener más control sobre cuándo y có
 
 ## Audiencias compartidas
 
-Al rellenar el Formulario de aprovisionamiento de integraciones de Marketing Cloud [1&rbrace;, tenga en cuenta la siguiente información importante acerca de la opción [!UICONTROL Shared Audiences] que aparece en &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}
+Al rellenar el [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenga en cuenta la siguiente información importante acerca de la opción [!UICONTROL Shared Audiences] que aparece en &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
 
 ![Formulario de solicitud](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-AAM Cuando solicita [!UICONTROL Shared Audiences], habilita [!UICONTROL Target] y [!UICONTROL Adobe Audience Manager] (en este caso, las audiencias) para compartir información.
+Al solicitar [!UICONTROL Shared Audiences], habilita [!UICONTROL Target] y [!UICONTROL Adobe Audience Manager] (AAM) para compartir información, en este caso audiencias.
 
 >[!IMPORTANT]
 >
->AAM Esta integración entre [!UICONTROL Target] y el conlleva costos adicionales. AAM Se le facturará por cada llamada de [!UICONTROL Target] en el servicio de llamadas de la.
+>Esta integración entre [!UICONTROL Target] y AAM conlleva costos adicionales. Se le factura por cada llamada de [!UICONTROL Target] en AAM.
