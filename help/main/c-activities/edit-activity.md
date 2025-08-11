@@ -4,9 +4,9 @@ description: Obtenga información sobre las distintas formas de editar una activ
 title: ¿Cómo edito una actividad?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 22%
 
 ---
@@ -75,7 +75,7 @@ Tenga en cuenta la siguiente información cuando utilice la funcionalidad de cop
 
         Para resolver este problema, haga clic en [!UICONTROL Add/Remove] de modo que solo se muestren las propiedades disponibles en el área de trabajo de destino para su selección.
 
-   * **Audiencias y ofertas**: al copiar una actividad en un área de trabajo nueva, todas las audiencias y ofertas asociadas del área de trabajo original se duplican con el formato: `Entity Name Copy <Date>`.
+   * **Audiencias y ofertas**: Al copiar una actividad en un área de trabajo nueva, todas las audiencias y ofertas asociadas de [!DNL Target] o ad hoc del área de trabajo original se duplican con el formato: `<Entity Name> Copy <Date>` para audiencias de [!DNL Target] y para ofertas ad hoc `<Entity Name>`.
 
      Detalles del comportamiento:
 
@@ -85,9 +85,9 @@ Tenga en cuenta la siguiente información cuando utilice la funcionalidad de cop
 
      Este proceso garantiza una duplicación más fluida de las actividades entre espacios de trabajo al tiempo que mantiene la flexibilidad para la personalización.
 
-     Al copiar una actividad, las audiencias combinadas, las audiencias que no son de destino y las ofertas que no se guardan en el espacio de trabajo actual o en el predeterminado deben reemplazarse manualmente.
+     Al copiar una actividad, las audiencias que no sean de destino y las ofertas que no se guarden en el espacio de trabajo actual o en el predeterminado deben reemplazarse manualmente.
 
-     Sustituir manualmente estas audiencias combinadas, audiencias no segmentadas y ofertas garantiza que solo se utilicen entidades válidas y accesibles en la actividad copiada y evita errores durante la edición o el envío.
+     Sustituir manualmente estas audiencias y ofertas que no sean de destino garantiza que solo se utilicen entidades válidas y accesibles en la actividad copiada y evita errores durante la edición o el envío.
 
      ![Mensaje de advertencia](/help/main/c-activities/assets/copy.png)
 
