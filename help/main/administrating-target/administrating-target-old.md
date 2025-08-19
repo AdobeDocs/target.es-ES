@@ -1,6 +1,6 @@
 ---
 keywords: configurar;configuración;configurar;configuración;administración
-description: Configure Adobe Target, incluidas las preferencias, la implementación, la administración de usuarios, las propiedades, la configuración de Scene7, la administración de hosts y los tokens de respuesta.
+description: Configure Adobe Target, incluyendo preferencias, implementación, administración de usuarios, propiedades, configuración de Scene7, administración de hosts y tokens de respuesta.
 title: ¿Cómo administro Target?
 feature: Administration & Configuration
 role: Admin

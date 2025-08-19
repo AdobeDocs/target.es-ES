@@ -1,6 +1,6 @@
 ---
 keywords: control de calidad;lado del servidor;vista previa;vínculos de vista previa
-description: Aprenda a utilizar las direcciones URL de control de calidad Adobe [!DNL Target] con entrega del lado del servidor para realizar sencillos controles de calidad de las actividades de extremo a extremo con vínculos de vista previa invariables, segmentar audiencias de manera opcional y crear informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
+description: Aprenda a utilizar las direcciones URL de control de calidad Adobe [!DNL Target] con entrega de servidor para realizar sencillos controles de calidad de las actividades integrales con vínculos de vista previa invariables, segmentación de audiencias opcional y creación de informes de control de calidad que permanecen segmentados a partir de datos de actividades activas.
 title: Use ¿Puedo realizar el control de calidad de la actividad con la entrega del lado del servidor?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc

@@ -7,11 +7,11 @@ exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
 source-wordcount: '1438'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
-# Resumen de [!UICONTROL Multivariate Test]
+# Información general de [!UICONTROL Multivariate Test]
 
 Una actividad [!UICONTROL Multivariate Test] (MVT) en [!DNL Adobe Target] compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica. Una actividad [!UICONTROL Multivariate Test] también ayuda a identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
@@ -55,7 +55,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
 * Utilice una prueba MVT para determinar qué elemento es el más importante y, después, realice una prueba A/B que se centre en ese elemento.
 
-  Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son más útiles para ayudarle a alcanzar sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados. Por ejemplo, puede probar dos imágenes específicas una contra la otra o comparar las palabras o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
+  Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son más útiles para ayudarle a alcanzar sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados. Por ejemplo, puede probar dos imágenes específicas una contra la otra o comparar las palabras o los colores de un call to action. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
 ## Consideraciones   {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -90,21 +90,21 @@ Para obtener más consideraciones y prácticas recomendadas, consulte [Práctica
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
+### Tipos de actividades (9:03) ![distintivo de información general](/help/main/assets/overview.png)
 
-En este vídeo de información general se explican los tipos de actividades disponibles en [!DNL Target]. Las pruebas multivariable se describen a partir del minuto 4:20.
+En este vídeo de información general se explican los tipos de actividades disponibles en [!DNL Target]. Las pruebas multivariable se discuten a partir de 4:20.
 
 * Describe los tipos de actividades incluidas en [!DNL Adobe Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de Target.
+En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL]Target.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

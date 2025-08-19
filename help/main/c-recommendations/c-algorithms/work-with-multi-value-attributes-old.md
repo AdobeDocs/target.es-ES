@@ -1,6 +1,6 @@
 ---
 keywords: varios valores;atributos;recomendaciones;varios valores;varios valores;varios valores
-description: Aprenda a trabajar con un campo multivalor en Adobe [!DNL Target] Recommendations mediante operadores especiales multivalor, por ejemplo, al recomendar películas con varios actores.
+description: Aprenda a trabajar con un campo de varios valores en Adobe [!DNL Target] Recommendations mediante operadores especiales de varios valores, por ejemplo, al recomendar películas con varios actores.
 title: ¿Puedo utilizar atributos de varios valores en Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b

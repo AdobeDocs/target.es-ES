@@ -1,6 +1,6 @@
 ---
 keywords: mvt;prueba multivariable;ofertas;combinaciones
-description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en el Adobe  [!DNL Target] para crear las ofertas que desee incluir en su [!UICONTROL Multivariate Test] (MVT).
+description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en Adobe [!DNL Target] para crear las ofertas que desee incluir en su [!UICONTROL Multivariate Test] (MVT).
 title: ¿Cómo se crean combinaciones en una [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555

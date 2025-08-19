@@ -32,5 +32,5 @@ Las siguientes guías y recursos están disponibles para [!DNL Target]:
 | [Horario del servicio de atención al cliente de Adobe](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. Estas sesiones están diseñadas tanto para informar como para ayudar a los participantes a solucionar problemas, y ofrecen sugerencias y trucos para alcanzar el éxito con las soluciones de [!DNL Adobe Experience Cloud], como [!DNL Target]. |
 | [Serie de seminarios web de fundamentos de Target](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Información de registro y vínculos a sesiones anteriores de la serie de seminarios web sobre fundamentos de [!DNL Target], una serie de seminarios web sobre éxito del cliente que ofrece la comunidad. |
 
-Además de los recursos anteriores, visite la [Comunidad de Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es), donde podrá:
+Además de los recursos anteriores, visite la [Comunidad de Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), donde podrá:
 

@@ -19,7 +19,7 @@ Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas c
 
 * Tenga en cuenta las ubicaciones de la página que tienen probabilidad de generar resultados relevantes.
 
-  Por ejemplo, un banner o una imagen a pantalla completa (hero) tienen más posibilidades de generar conversiones que un cambio en el pie de página. Si incluye ubicaciones con menos influencia en la prueba, solo conseguirá aumentar el tráfico y el tiempo necesario para probar las ubicaciones más destacadas de la página.
+  Por ejemplo, un banner o una imagen principal tienen más posibilidades de generar conversiones que un cambio en el pie de página. Si incluye ubicaciones con menos influencia en la prueba, solo conseguirá aumentar el tráfico y el tiempo necesario para probar las ubicaciones más destacadas de la página.
 * Prepare con antelación las variaciones de la página.
 
   Tenga en cuenta las diferencias de contenido para cada oferta y cree cualquier oferta de imagen, texto y HTML que tenga pensado usar en la prueba MVT.
@@ -65,4 +65,4 @@ Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas c
 
 * Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
-  Después de elegir qué ubicaciones y qué contenido le resultan más útiles para lograr sus objetivos, puede realizar una prueba A/B para refinar aún más los resultados. Por ejemplo, cuando sepa qué ubicaciones son las más importantes, pruebe dos imágenes específicas entre sí o compare las palabras o los colores de una llamada a la acción.
+  Después de elegir qué ubicaciones y qué contenido le resultan más útiles para lograr sus objetivos, puede realizar una prueba A/B para refinar aún más los resultados. Por ejemplo, cuando sepa qué ubicaciones son las más importantes, pruebe dos imágenes específicas entre sí o compare las palabras o los colores de un call to action.

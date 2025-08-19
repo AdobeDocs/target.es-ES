@@ -61,7 +61,7 @@ Tal vez baste solo con cambiar el orden de las opciones que se muestran para ele
 
 ## Idea 8: Promocione la aplicación móvil en su sitio web.
 
-Si su empresa dedica recursos al desarrollo de aplicaciones móvil para iOS, Android u otros dispositivos, no se quede sentado a la espera de que los usuarios se topen con su aplicación en la tienda de aplicaciones. En su lugar, adopte una estrategia sólida para promoverla. Pruebe diferentes enfoques para fomentar la descarga de aplicaciones y su uso. Si su sitio no móvil incluye un vínculo para descargar la aplicación, pruebe la eficacia de una página de aterrizaje intersticial que promueva explícitamente su aplicación cuando los visitantes llegan a la página principal. Configure una prueba de redireccionamiento que filtre la mitad del tráfico móvil a la página del sitio actual y la otra mitad a la página de aterrizaje intersticial.
+Si su empresa dedica recursos al desarrollo de aplicaciones móvil para iOS, Android u otros dispositivos, no se quede sentado a la espera de que los usuarios se topen con su aplicación en la tienda de aplicaciones. En su lugar, adopte una estrategia sólida para promoverla. Pruebe diferentes enfoques para fomentar la descarga de aplicaciones y su uso. Si su sitio no móvil incluye un vínculo para descargar la aplicación, pruebe la eficacia de una página de destino intersticial que promueva explícitamente su aplicación cuando los visitantes llegan a la página principal. Configure una prueba de redireccionamiento que filtre la mitad del tráfico móvil a la página del sitio actual y la otra mitad a la página de destino intersticial.
 
 ## Idea 9: Utilice las innovaciones de las aplicaciones móviles.
 

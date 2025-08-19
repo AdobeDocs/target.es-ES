@@ -2,7 +2,7 @@
 keywords: espacios de trabajo;administrar propiedad;permisos;configuración de producto;perfil de producto;roles;proyecto;observador;editor;aprobador;publicador
 description: Obtenga información sobre cómo crear espacios de trabajo (perfiles de producto) independientes y, a continuación, asignar a los usuarios diferentes funciones y permisos para páginas, propiedades o sitios web individuales.
 title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
@@ -311,7 +311,7 @@ Objetivos de aprendizaje:
 * Los conceptos de propiedad y espacio de trabajo, y cómo operan estos límites y agrupamientos para permitir controlar el nivel de acceso de los usuarios
 * Diferentes ejemplos de propiedades para la consideración de su organización
 
->[!VIDEO](https://video.tv.adobe.com/v/3421736?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### Horario de oficina: [!DNL Target] espacios de trabajo Premium
 

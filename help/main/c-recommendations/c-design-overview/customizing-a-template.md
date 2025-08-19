@@ -2,7 +2,7 @@
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
 description: Aprenda a utilizar el lenguaje de diseño de código abierto  [!DNL Velocity] para personalizar diseños de recomendaciones en [!DNL Target] Recommendations.
 title: ¿Cómo puedo personalizar un diseño con Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 Usar el lenguaje de diseño [!DNL Velocity] de código abierto para personalizar diseños de recomendación en [!DNL Adobe Target Recommendations].
 
-## Resumen de [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Información general de [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Encontrará información sobre [!DNL Velocity] en [https://velocity.apache.org](https://velocity.apache.org).
 
@@ -240,7 +240,7 @@ El siguiente código es un ejemplo condicional completo de un precio de venta:
 
 ## Personalización del tamaño de la plantilla y comprobación de valores en blanco {#default}
 
-Si utiliza un script [!DNL Velocity] para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de &quot;1 a muchos&quot; para evitar la creación de elementos de HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que la copia de seguridad de recomendaciones no tendría sentido y en los que [!UICONTROL Partial Template Rendering] está habilitado.
+Utilizando un script [!DNL Velocity] para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de &quot;1 a muchos&quot; para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que la copia de seguridad de recomendaciones no tendría sentido y en los que [!UICONTROL Partial Template Rendering] está habilitado.
 
 El siguiente fragmento HTML sustituye la parte HTML existente en el diseño predeterminado de 4 x 2 (la CSS no se incluye aquí, en aras de la brevedad):
 

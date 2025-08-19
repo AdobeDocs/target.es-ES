@@ -2,7 +2,7 @@
 keywords: añadir usuario;proyecto;grupo de usuarios;espacio de trabajo;propiedades;propiedad;administrar propiedad;at_property;funciones;permisos
 description: Obtenga información sobre cómo agregar usuarios a Adobe Target, crear espacios de trabajo, grupos de usuarios y propiedades, actualizar la implementación y especificar funciones y permisos.
 title: ¿Cómo configuro los permisos de Enterprise?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
@@ -25,12 +25,12 @@ La siguiente tabla enumera las tareas que debe realizar para crear propiedades y
 
 | Tarea | Realizado en |
 |--- |--- |
-| 1. Agregar usuarios (opcional) | [!DNL Adobe Admin Console for Enterprise] |
-| 2. Crear un espacio de trabajo (perfil de producto) | [!DNL Adobe Admin Console for Enterprise] |
-| 3. Crear grupos de usuarios (Opcional) | [!DNL Adobe Admin Console for Enterprise] |
-| 4. Crear propiedades | IU de [!DNL Target] |
+| &#x200B;1. Agregar usuarios (opcional) | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;2. Crear un espacio de trabajo (perfil de producto) | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;3. Crear grupos de usuarios (Opcional) | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;4. Crear propiedades | IU de [!DNL Target] |
 | 5: Actualice la implementación para incluir el parámetro `at_property` | [!DNL Target] interfaz de usuario, funciones de at.js o etiquetas en [!DNL Adobe Experience Platform] |
-| 6. Especificar roles y permisos | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;6. Especificar roles y permisos | [!DNL Adobe Admin Console for Enterprise] |
 
 Para las tareas realizadas en [!DNL Adobe Admin Console for Enterprise], acceda a la consola siguiendo estos pasos:
 
@@ -77,7 +77,7 @@ Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso 
 
    Puede utilizar estos espacios de trabajo para acceder a los diferentes equipos por región, unidad de negocio, sección del sitio o mediante cualquier otro método a su elección. Los usuarios pueden formar parte de varios espacios de trabajo y pueden tener diferentes funciones en cada uno de ellos.
 
-1. Siga las instrucciones de [Creación y administración de configuraciones de producto](https://helpx.adobe.com/es/enterprise/help/manage-products-and-configurations.html) en la *Guía del usuario de Enterprise*.
+1. Siga las instrucciones de [Creación y administración de configuraciones de producto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) en la *Guía del usuario de Enterprise*.
 
 >[!NOTE]
 >Consulte el siguiente vídeo de formación para obtener más información sobre cómo configurar espacios de trabajo.
@@ -96,7 +96,7 @@ Tendrá que pasar el ID de espacio de trabajo para aprovechar los permisos de En
 Puede crear grupos de usuarios, como Desarrolladores, Analistas, Especialistas en marketing, Ejecutivos, etc., y luego asignar privilegios en varios productos y espacios de trabajo de Adobe. Asignar todos los privilegios apropiados en diferentes productos de Adobe a un nuevo miembro del equipo puede ser tan fácil como añadirlos a un grupo de usuarios específico.
 
 1. En Admin Console, haga clic en la ficha **[!UICONTROL Users]** en la parte superior de la página > **[!UICONTROL User Groups]** para crear grupos de usuarios nuevos o para editar los existentes.
-1. Siga las instrucciones de [Administrar usuarios y grupos de una configuración de producto](https://helpx.adobe.com/es/enterprise/help/manage-products-and-configurations.html) en la *Guía del usuario de Enterprise*.
+1. Siga las instrucciones de [Administrar usuarios y grupos de una configuración de producto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) en la *Guía del usuario de Enterprise*.
 
 ## Paso 4. Creación de propiedades {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -145,7 +145,7 @@ Para usar la funcionalidad de permisos de usuario de [!DNL Target], debe agregar
 
    * **Mediante un &quot;Parámetro personalizado&quot; en las etiquetas de [!DNL Adobe Experience Platform]:**
 
-     Para obtener más información, consulte [Agregar parámetros de mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=es#add-mbox-params) en la documentación de *Información general sobre etiquetas*.
+     Para obtener más información, consulte [Agregar parámetros de mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) en la documentación de *Información general sobre etiquetas*.
 
    * **Mediante la función targetPageParamsAll():** Coloque el siguiente código en las etiquetas `<head>`, encima de la referencia at.js.
 
@@ -159,7 +159,7 @@ Para usar la funcionalidad de permisos de usuario de [!DNL Target], debe agregar
      </script>
      ```
 
-     Para obtener más información sobre cómo hacerlo con at.js, consulte [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=es){target=_blank}.
+     Para obtener más información sobre cómo hacerlo con at.js, consulte [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
 ## Paso 6: Especificar funciones y permisos {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -210,9 +210,9 @@ Este vídeo explica cómo se crean espacios de trabajo.
 
 * Explicación de los espacios de trabajo predeterminados
 
->[!VIDEO](https://video.tv.adobe.com/v/3421730?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### Cómo crear propiedades en Adobe Target (3:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
+### Crear propiedades en Adobe Target (3:05) ![distintivo de tutorial](/help/main/assets/tutorial.png)
 
 * Cómo crear una propiedad en la interfaz de.[!DNL Adobe Target]
 * Cómo se genera un token de propiedad para incluirlo en su implementación de propiedad

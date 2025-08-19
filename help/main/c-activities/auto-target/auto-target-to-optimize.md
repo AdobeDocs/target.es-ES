@@ -2,7 +2,7 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas
 description: Descubra cómo una actividad de [!UICONTROL Auto-Target] proporciona a cada visitante la experiencia más adaptada en función de los perfiles de los clientes y del comportamiento de visitantes similares.
 title: ¿Qué es una actividad de [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -12,7 +12,7 @@ ht-degree: 18%
 
 ---
 
-# Resumen de [!UICONTROL Auto-Target]
+# Información general de [!UICONTROL Auto-Target]
 
 [!UICONTROL Auto-Target] actividades en [!DNL Adobe Target] utilizan aprendizaje automático avanzado para seleccionar entre varias experiencias de alto rendimiento definidas por expertos en marketing para personalizar el contenido y dirigir las conversiones. [!UICONTROL Auto-Target] ofrece a cada visitante la experiencia más adaptada en función del perfil de cada cliente y del comportamiento de los visitantes anteriores con perfiles similares.
 
@@ -24,7 +24,7 @@ ht-degree: 18%
 
 ## Caso de éxito real con segmentación automática {#success}
 
-Un importante minorista de ropa recientemente utilizó una actividad [!UICONTROL Auto-Target] con diez experiencias basadas en categorías de productos (además de un control aleatorio) para ofrecer el contenido adecuado a cada visitante. Se eligió &quot;[!UICONTROL Add to Cart]&quot; como métrica de optimización principal. Las experiencias segmentadas tuvieron un alza media del 29,09 %. Después de crear los modelos [!UICONTROL Auto-Target], la actividad se estableció en experiencias personalizadas al 90 %.
+Un importante retailer de ropa recientemente utilizó una actividad [!UICONTROL Auto-Target] con diez experiencias basadas en categorías de productos (además de un control aleatorio) para ofrecer el contenido adecuado a cada visitante. Se eligió &quot;[!UICONTROL Add to Cart]&quot; como métrica de optimización principal. Las experiencias segmentadas tuvieron un alza media del 29,09 %. Después de crear los modelos [!UICONTROL Auto-Target], la actividad se estableció en experiencias personalizadas al 90 %.
 
 En solo diez días, se lograron más de 1.700.000 dólares en alza.
 

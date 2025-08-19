@@ -7,7 +7,7 @@ exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -73,7 +73,7 @@ Cuando `testAttribute` no existe o está en blanco, &quot;¡Todos los elementos!
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-También puede introducir y extraer valores para mostrar. Si su valor tiene un apóstrofo, por ejemplo, puede aplicar un escape al valor para que no interrumpa el JavaScript en la página. (Las ofertas de se escriben en JavaScript, por lo que un solo apóstrofo se puede confundir con las comillas). Por ejemplo:
+También puede introducir y extraer valores para mostrar. Si su valor tiene un apóstrofo, por ejemplo, puede aplicar un escape al valor para que no interrumpa el JavaScript en la página. (Las ofertas se escriben en JavaScript, por lo que un solo apóstrofo puede confundirse con una cotización). Por ejemplo:
 
 `${user.encodedValue encode="unescape"}`
 

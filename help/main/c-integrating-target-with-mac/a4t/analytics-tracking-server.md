@@ -7,7 +7,7 @@ exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ Si utiliza una versión anterior de at.js, debe especificar un servidor de segui
 >
 >No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Tracking Server] en la página [!UICONTROL Goals & Settings].
 >
->El equipo [!DNL Target] es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que dispone de una versión compatible. Para obtener más información, consulte [detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
+>El equipo [!DNL Target] es compatible con at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que dispone de una versión compatible. Para obtener más información, consulte [Detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
 
 Para asegurarse de que los datos de [!DNL Target] vayan a la ubicación correcta en [!DNL Analytics], A4T requiere que se envíe un servidor de seguimiento [!DNL Analytics] en todas las llamadas a Modstats desde [!DNL Target]. Para implementaciones que usan varios servidores de seguimiento, use [!DNL Adobe Experience Platform Debugger] o las herramientas para desarrolladores del explorador para determinar el servidor de seguimiento correcto para su actividad.
 
@@ -29,7 +29,7 @@ El depurador debe verse en una página en la que se publique la actividad para g
 
 1. En la página en la que esté creando su actividad, abra [!DNL Adobe Experience Platform Debugger].
 
-   Si no ha instalado el depurador, consulte [Descripción general del Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=es).
+   Si no ha instalado el depurador, consulte [Información general de Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Haga clic en **[!UICONTROL Analytics]** en el menú de navegación de la izquierda.
 

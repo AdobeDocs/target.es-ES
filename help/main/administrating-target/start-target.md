@@ -20,7 +20,7 @@ Este artículo contiene los primeros pasos que deben realizar los administradore
 
 Un administrador del sistema de [!DNL Adobe Admin Console] debe agregarle como usuario de [!DNL Target] para invitarle a unirse. A continuación, el administrador del sistema debe agregarle a uno o varios perfiles de producto específicos de funciones (grupos de usuarios). Ambas tareas se realizan en [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Para obtener más información, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/users.html).
+Para obtener más información, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/enterprise/using/users.html).
 
 Recibirá un correo electrónico de invitación después de que el administrador del sistema haya realizado estos pasos.
 

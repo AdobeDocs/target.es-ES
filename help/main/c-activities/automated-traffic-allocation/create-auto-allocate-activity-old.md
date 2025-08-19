@@ -110,11 +110,11 @@ Para crear una actividad [!UICONTROL Auto-Allocate]:
 
 Después de crear la actividad, la ficha [!UICONTROL Overview] muestra información sobre la actividad, incluido un diagrama de la actividad.
 
-## Vídeo de formación: Creación de la prueba A/B (8:36).
+## Vídeo de formación: Creación de pruebas A/B (8:36)
 
 En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de [!DNL Target].
 
 * Crear una actividad [!UICONTROL A/B Test] en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

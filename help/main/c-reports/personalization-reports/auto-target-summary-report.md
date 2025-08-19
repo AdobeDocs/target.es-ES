@@ -2,7 +2,7 @@
 keywords: informes;segmentación automática;segmentación automática;AT;informe
 description: Obtenga información sobre cómo interpretar el informe Resumen de segmentación automática en Adobe Target. Puede cambiar a los informes Segmentos automatizados y Atributos importantes desde este informe.
 title: ¿Cómo utilizo el informe Resumen de segmentación automática?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1

@@ -7,7 +7,7 @@ exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -98,17 +98,17 @@ En este vídeo se describe cómo llevar las pruebas A/B al siguiente nivel con [
 * Describa cómo distribuir contenido específico de una ubicación a audiencias de diferentes áreas geográficas
 * Describe cómo se reordenan las experiencias para asegurar que cada contenido se envíe a la audiencia correcta
 
->[!VIDEO](https://video.tv.adobe.com/v/38303?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-### Tipos de actividad (9:03)
+### Tipos de actividades (9:03)
 
-En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. Se habla sobre [!UICONTROL Experience Targeting] a partir del minuto 5:15.
+En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. [!UICONTROL Experience Targeting] se discute a partir del 5:15.
 
 * Describe los tipos de actividades incluidas en [!DNL Adobe Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Usando [!UICONTROL Visual Experience Composer]
 

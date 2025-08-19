@@ -1,6 +1,6 @@
 ---
 keywords: a4t;A4T;Analytics como fuente de informes para Target
-description: Obtenga información sobre cómo configurar una actividad en el Adobe  [!DNL Target]  que usa Adobe Analytics como fuente de informes (A4T).
+description: Obtenga información sobre cómo configurar una actividad en Adobe [!DNL Target] que usa Adobe Analytics como fuente de informes (A4T).
 title: ¿Cómo creo una actividad que utiliza A4T?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e

@@ -85,7 +85,7 @@ Si se realiza una solicitud [!DNL Target] en un host sin autorización, la llama
 
 >[!IMPORTANT]
 >
->**Prácticas recomendadas de seguridad**: Si usas la funcionalidad ubox de [!DNL Target], esta lista de permitidos también controla la lista de dominios a los que pueden navegar tus [redirectores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=es){target=_blank}. Asegúrese de agregar los dominios a los que desee redirigir al utilizar ubox como parte de la implementación. Si no se especifica la lista de permitidos, [!DNL Adobe] no podrá comprobar las direcciones URL de redireccionamiento ni protegerse de posibles redireccionamientos malintencionados.
+>**Prácticas recomendadas de seguridad**: Si usas la funcionalidad ubox de [!DNL Target], esta lista de permitidos también controla la lista de dominios a los que pueden navegar tus [redirectores](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}. Asegúrese de agregar los dominios a los que desee redirigir al utilizar ubox como parte de la implementación. Si no se especifica la lista de permitidos, [!DNL Adobe] no podrá comprobar las direcciones URL de redireccionamiento ni protegerse de posibles redireccionamientos malintencionados.
 >
 >La lista de permitidos tiene prioridad sobre los entornos. Borre todos los hosts antes de utilizar la función de lista de permitidos y, a continuación, en la lista de hosts solo aparecerán los hosts permitidos por la lista de permitidos. A continuación, puede mover los hosts al entorno que quiera.
 

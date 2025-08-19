@@ -19,7 +19,7 @@ El explorador VEC Helper es una extensión [!DNL Chrome]. Esta extensión no es 
 
 >[!IMPORTANT]
 >
->* La extensión VEC Helper heredada [!DNL Target] documentada en este artículo se creó con Manifest V2. [!DNL Google] anunció que ya no permitirá extensiones creadas con Manifest V2 a partir de junio de 2024. Para obtener más información, consulte el [Anuncio de la cronología de compatibilidad con Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] en el sitio de *Chrome para desarrolladores*.
+>* La extensión VEC Helper heredada [!DNL Target] documentada en este artículo se creó con Manifest V2. [!DNL Google] anunció que ya no permitirá extensiones creadas con Manifest V2 a partir de junio de 2024. Para obtener más información, consulte el [Anuncio de la cronología de compatibilidad con Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} de [!DNL Google] en el sitio *Chrome para desarrolladores*.
 >
 >* A partir de junio de 2024, [!DNL Google] empezará a deshabilitar las extensiones creadas con Manifest V2, incluida la extensión documentada en este tema. [!DNL Adobe] recomienda que los clientes cambien a la nueva extensión [Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) lo antes posible.
 

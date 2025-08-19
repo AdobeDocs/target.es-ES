@@ -17,7 +17,7 @@ Si usa [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (
 
 Puede ver informes de sus actividades en [!DNL Analytics] y [!DNL Target].
 
-Para informar sobre las prácticas recomendadas usando [!DNL Analytics] para [!DNL Target], [visite esta Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Para informar sobre las prácticas recomendadas utilizando [!DNL Analytics] para [!DNL Target], [visite esta página de Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Información general {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -89,7 +89,7 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 1. Haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. En la ficha **[!UICONTROL Data Warehouse Request]**, rellene los campos.
 
-   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=es).
+   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Instrucciones |
    |--- |--- |
@@ -109,5 +109,5 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
-* [Crear una solicitud de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=es)
-* [prácticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=es)
+* [Crear una solicitud de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Prácticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

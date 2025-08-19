@@ -7,7 +7,7 @@ exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -47,7 +47,7 @@ Para obtener más información, consulte [El EEC no cargará una dirección URL 
 ### Utilice ID únicos para los elementos de nivel superior y cualquier otro elemento que pueda ser un buen candidato para pruebas o segmentación. 
 
 +++Detalles
-Todo lo que se encuentre inmediatamente dentro del elemento de cuerpo debe tener un ID único. Si se insertan nuevos elementos en el cuerpo y el código se desplaza, al menos podrá reconocer fácilmente los elementos principales.
+Cualquier cosa que haya dentro del elemento del cuerpo debe tener un ID único. Si se insertan nuevos elementos en el cuerpo y el código se desplaza, al menos podrá reconocer fácilmente los elementos principales.
 
 [!DNL Target] no requiere ID, pero el uso de ID aumenta la fiabilidad de las experiencias creadas con el compositor de experiencias. [!DNL Target] utiliza selectores CSS para modificar el contenido cuando se entrega la experiencia. Cuando edita una experiencia, [!UICONTROL Visual Experience Composer] ancla el selector al antecesor más cercano con un atributo de ID no nulo al elemento de HTML que se está modificando. Por ello, no se recomienda usar ningún mecanismo, ni siquiera las bibliotecas de JavaScript, que defina o modifique los atributos de ID de HTML. Aunque esos identificadores puedan estar disponibles para el compositor de experiencias visuales [!DNL Target] para la creación de actividades, si JavaScript modifica los identificadores, es posible que el identificador que se utilizó cuando se creó la experiencia no esté disponible cuando se ejecuta. Si un ID no está disponible, el selector anclado al ID presenta un error.
 
@@ -74,7 +74,7 @@ Si la propiedad CSS `!important` está presente, las reglas CSS del sitio anulan
 ### Minimice el uso de iFrames.
 
 +++Detalles
-Se recomienda minimizar el uso de iFrames para simplificar la administración de páginas y pruebas. El Compositor de experiencias visuales puede aplicar algunas acciones dentro de un iFrame, pero algunas acciones, como el cambio de tamaño, no funcionan correctamente. Cuando las páginas usan varios iFrames, administrarlas y cambiar su tamaño resulta difícil. Por este motivo, probar páginas en las que se hace un uso intensivo de iFrames puede ser complicado.
+Se recomienda reducir al máximo el uso de iFrames para simplificar la administración de las páginas y las pruebas. El Compositor de experiencias visuales puede aplicar algunas acciones dentro de un iFrame, pero algunas acciones, como el cambio de tamaño, no funcionan correctamente. Cuando las páginas usan varios iFrames, administrarlas y cambiar su tamaño resulta difícil. Por este motivo, probar páginas en las que se hace un uso intensivo de iFrames puede ser complicado.
 
 +++
 
@@ -139,14 +139,14 @@ Puede que los resultados de las etiquetas `<strong>` y `<em>` no sean los previs
 ### Tenga cuidado al quitar campos de formulario.
 
 +++Detalles
-Algunos campos de formulario pueden ser obligatorios para el envío. Si quita esos campos, podría afectar a los envíos.
+Es posible que sea obligatorio enviar algunos campos de formulario. Si quita esos campos, podría afectar a los envíos.
 
 +++
 
 ### No incluya `mboxCreate` dentro de los scripts.
 
 +++Detalles
-Dado que `mboxCreate` usa `document.write`, no se recomienda incluir `mboxCreate` en los scripts. En cambio, use `mboxDefine` y `mboxUpdate` con el mismo fin.
+Como `mboxCreate` usa `document.write`, no se recomienda incluir `mboxCreate` en scripts. En cambio, use `mboxDefine` y `mboxUpdate` con el mismo fin.
 
 +++
 
@@ -177,7 +177,7 @@ Cuando usa [!UICONTROL Enhanced Experience Composer], un servidor proxy manipula
 ### El texto importante del sitio que se pueda usar para la segmentación debería conservarse en el código HTML dentro de un elemento.
 
 +++Detalles
-Por ejemplo, no puede segmentar el texto &quot;Shopping Cart&quot; (Carro de compras) en el VEC (Compositor de experiencias visuales) si su código es como este:
+Por ejemplo, no puede segmentar el texto “Shopping Cart” (Carro de compras) en el VEC (Compositor de experiencias visuales) si su código es como este:
 
 ```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
@@ -251,7 +251,7 @@ Dado que no hay ninguna funcionalidad z-index, el elemento movido no se puede mo
 ### La reorganización de elementos afecta al rastreo de clics.
 
 +++Detalles
-Si se reorganiza un elemento marcado para el rastreo de clics, las rutas de los elementos reorganizados cambian. Como resultado, se realizará el seguimiento de los clics del elemento que hay en la ubicación donde estaba el elemento original antes de ser reorganizado.
+Si se reorganiza un elemento que está marcado para rastreo de clics, cambiarán las rutas de los elementos reorganizados. Como resultado, se realizará el seguimiento de los clics del elemento que hay en la ubicación donde estaba el elemento original antes de ser reorganizado.
 
 Esto ocurre porque tanto el código para entregar el contenido de la actividad como el código para realizar el seguimiento de clics se incluyen en una parte de código que se entrega a la página. Si va a otra página y configura el rastreo de clics, el código de contenido de la actividad y el código de rastreo de clics se entregan a dicha página. Si la página de seguimiento de clics tiene una estructura de página similar a la de la página donde se ejecuta la prueba, el contenido de la prueba también podría aparecer en la página de seguimiento de clics.
 
@@ -267,7 +267,7 @@ Si un mbox contiene una oferta, la inserción de un elemento puede aparecer como
 ### Cuando edite un elemento principal y secundario, empiece por el principal.
 
 +++Detalles
-Si intercambia una acción de imagen por un elemento y luego edita el texto o HTML en su elemento principal, pueden producirse problemas de envío. El mejor flujo de trabajo es editar el elemento principal antes de cambiar la imagen en el secundario.
+Si cambia la acción de una imagen en un elemento y después edita el texto o el código HTML en el elemento principal correspondiente, puede que se encuentre con problemas de entrega. El mejor flujo de trabajo es editar el elemento principal antes de cambiar la imagen en el secundario.
 
 +++
 
@@ -346,7 +346,7 @@ No se permiten acciones como [!UICONTROL Edit Class] y [!UICONTROL Rearrange] de
 ### No debe reorganizar y mover el mismo elemento.
 
 +++Detalles
-Si un elemento se ha movido a otra ubicación y selecciona el contenedor principal e intenta reorganizar los elementos secundarios, el elemento movido no se verá afectado y permanecerá donde está. Es posible que la reorganización no se muestre según lo esperado.
+Si se ha movido un elemento a otra ubicación y selecciona el contenedor principal e intenta reorganizar los elementos secundarios, el elemento movido no se verá afectado y permanecerá donde está. Es posible que la reorganización no se muestre según lo esperado.
 
 +++
 
@@ -369,14 +369,14 @@ Si intercambia una imagen en un elemento mbox y luego intenta cambiar el tamaño
 ### Después de intercambiar una imagen, no se puede seleccionar la acción [!UICONTROL Edit].
 
 +++Detalles
-Después de intercambiar la imagen, no se puede editar la dirección URL de Scene7.
+Después de intercambiar una imagen, no se puede editar la dirección URL Scene7.
 
 +++
 
 ### Los elementos de HTML con un origen externo no se pueden editar.
 
 +++Detalles
-Por ejemplo: Vídeo, etiquetas de audio, incrustar, iFrames, fotogramas.
+Por ejemplo, las etiquetas HTML &lt;audio>, &lt;video>, &lt;embed>, &lt;iFrame> y &lt;frame>.
 
 +++
 
@@ -390,7 +390,7 @@ Por ejemplo, el rastreo de clics no funciona si el elemento contiene JavaScript.
 ### Las páginas deben aceptar parámetros de URL para que funcione el VEC.
 
 +++Detalles
-Algunos sitios eliminan cualquier parámetro de URL de sus páginas. Sin embargo, el VEC requiere esos parámetros.
+Algunos sitios depuran todos los parámetros de direcciones URL para sus páginas. Sin embargo, el VEC requiere esos parámetros.
 
 +++
 
@@ -426,7 +426,7 @@ El script se ejecuta dentro del ámbito de `target.js` después de que se cargue
 ### Al insertar una imagen de la biblioteca [!UICONTROL Content] (Scene7) y editar HTML, se interrumpe la dirección URL de la imagen.
 
 +++Detalles
-Añada un elemento de anclaje dentro del div &quot;customHeaderMessage&quot; con un texto cualquiera, en este ejemplo, &quot;Dummy text&quot;:
+Añada un elemento de anclaje dentro del div “customHeaderMessage” con un texto cualquiera, en este ejemplo, “Dummy text”:
 
 ```html
 <a href="#"> 

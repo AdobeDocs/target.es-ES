@@ -2,13 +2,13 @@
 keywords: colección;Segmentación
 description: Aprenda a utilizar colecciones de productos o elementos en  [!DNL Target Recommendations].
 title: ¿Cómo utilizo las colecciones en las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -46,7 +46,7 @@ Cree una colección para organizar los productos o el contenido que desea mostra
 
    ![Iconos de desplazamiento: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista [!UICONTROL Collections] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [2&rbrace; (entorno) configurado como predeterminado en Recommendations. ](/help/main/administrating-target/hosts.md) Consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para cambiar el grupo de hosts predeterminado.
+   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista [!UICONTROL Collections] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [2} (entorno) configurado como predeterminado en Recommendations. ](/help/main/administrating-target/hosts.md) Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 1. Haga clic en **[!UICONTROL Create Collection]**.
 
@@ -92,7 +92,7 @@ Tenga en cuenta que las colecciones están disponibles en toda la cuenta. Asegú
 
 1. Cree una colección utilizando uno de los métodos mencionados anteriormente.
 
-1. Haga clic en **[!UICONTROL Activities]** y [cree una nueva actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o edite una actividad existente.
+1. Haga clic en **[!UICONTROL Activities]** y [crear una nueva actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o editar una actividad existente.
 
 1. Después de seleccionar un criterio y un diseño, se muestra la página [!UICONTROL Options] en la que se selecciona la colección deseada.
 
@@ -102,11 +102,11 @@ Tenga en cuenta que las colecciones están disponibles en toda la cuenta. Asegú
 
    ![Cambiar opción de colección](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Crear colecciones y exclusiones en Recommendations (7:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
 * Creación de una colección
 * Creación de una exclusión
 
->[!VIDEO](https://video.tv.adobe.com/v/35463?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

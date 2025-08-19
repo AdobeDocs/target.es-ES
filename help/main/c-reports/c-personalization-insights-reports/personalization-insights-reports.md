@@ -2,7 +2,7 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;informes de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes;atributos importantes
 description: 'Aprenda a utilizar los informes especializados para las actividades de Automated Personalization (AP) y Segmentación automática (AT): Segmentos automatizados y Atributos importantes.'
 title: ¿Cómo utilizo los informes de Personalization Insights?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
@@ -94,11 +94,11 @@ Los modelos [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Targe
 
 ## Vídeo de formación: Uso de los informes de Personalization Insights ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328108?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Para obtener más información, consulte [Uso de los informes de Personalization Insights en Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
-## Adobe Blogs
+## Blogs de Adobe
 
 * Parte 1: [Sacar el misterio de la magia del Personalization impulsado por IA](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
 * Parte 2: [Un vistazo detrás de la cortina de IA para Personalization en Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)

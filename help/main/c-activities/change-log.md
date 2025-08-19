@@ -1,6 +1,6 @@
 ---
 keywords: registro de cambios de actividades;registro de cambios
-description: Obtenga acceso al registro de cambios de una actividad en el Adobe  [!DNL Target] para ver un registro de quién modificó las actividades y cuándo se produjeron los cambios.
+description: Obtenga acceso al registro de cambios de una actividad en Adobe [!DNL Target] para ver un registro de quién modificó las actividades y cuándo se produjeron los cambios.
 title: ¿Cómo puedo ver un registro de cambios de actividades?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Registro de cambios de actividades
 
-[!DNL Adobe Target] [!UICONTROL Change Log] registra las acciones de actividad, incluidos los cambios, quién realizó los cambios y cuándo se produjeron. La página [!UICONTROL Change Log] se ha rellenado desde [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} para obtener información en tiempo real.
+[!DNL Adobe Target] [!UICONTROL Change Log] registra las acciones de actividad, incluidos los cambios, quién realizó los cambios y cuándo se produjeron. La página [!UICONTROL Change Log] se ha rellenado desde [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} para obtener información en tiempo real.
 
 Para acceder a la página [!UICONTROL Change Log]:
 

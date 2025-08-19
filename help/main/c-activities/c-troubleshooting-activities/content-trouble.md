@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ mboxDebug resulta especialmente útil para configurar [!DNL Target] en la págin
 
 ## Recuperar el token de autorización para utilizarlo con las herramientas de depuración {#section_BED130298E794D1FA229DB7C3358BA54}
 
-Dado que mboxTrace y mboxDebug pueden exponer los datos de la campaña y los datos del perfil a terceros externos, se requiere un token de autorización. El token de autorización se puede obtener desde la interfaz de usuario de [!DNL Target]. El token es válido durante seis horas.
+Dado que mboxTrace y mboxDebug pueden exponer los datos de la campaña y los datos del perfil a terceros externos, se requiere un token de autorización. El token de autorización se puede recuperar desde la interfaz de usuario de [!DNL Target]. El token es válido durante seis horas.
 
 Debe tener uno de los siguientes permisos de usuario para generar un token de autenticación:
 
@@ -37,7 +37,7 @@ Debe tener uno de los siguientes permisos de usuario para generar un token de au
 
 * Derechos de administrador (permiso Sysadmin) en el nivel de producto [!DNL Adobe Target]
 
-Para obtener el token de autorización:
+Para recuperar el token de autorización:
 
 1. Haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 1. En la sección Herramientas de depuración, haga clic en **[!UICONTROL Generate New Authentication Token]**.
@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla 
 
 Para obtener más información, consulte los vídeos de formación siguientes:
 
-Para obtener información más detallada, consulte [Depurar at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=es){target=_blank}.
+Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Los principales vendedores no aparecen en Recommendations.  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -206,12 +206,12 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 ### Agregar la extensión ![distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33688?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### ![Insignia](/help/main/assets/tutorial.png) del tutorial de depuración básica de Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/33706?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33707?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

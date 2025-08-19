@@ -124,7 +124,7 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30130?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Horario de oficina: Compositor de experiencias visuales ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 

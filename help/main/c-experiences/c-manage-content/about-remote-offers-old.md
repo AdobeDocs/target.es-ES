@@ -1,6 +1,6 @@
 ---
 keywords: oferta remota;matriz de selección de ofertas remotas;contenido en caché;contenido dinámico;tipo de url
-description: Aprenda a utilizar ofertas remotas en el Adobe  [!DNL Target] para alojar contenido externo (contenido en un CMS u otro sistema). Descubra por qué podría querer utilizar ofertas remotas.
+description: Aprenda a utilizar ofertas remotas en Adobe [!DNL Target] para alojar contenido externo (contenido en un CMS u otro sistema). Descubra por qué podría querer utilizar ofertas remotas.
 title: ¿Cómo Puedo Crear Ofertas Remotas?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
@@ -102,7 +102,7 @@ El contenido de una oferta remota en caché se suministra desde [!DNL Target].
 
 Cada dos horas, [!DNL Target] busca el contenido en la dirección URL remota y luego almacena el contenido dentro de [!DNL Target]. Cuando los visitantes cargan un sitio con una experiencia que incluye una oferta remota, la oferta se entrega por [!DNL Target].
 
-Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien que inició sesión en [!DNL Target] no puede cambiar el contenido. Para cambiar el contenido, la persona tendría que iniciar sesión en el sistema de gestión de contenido o en otro tipo sistema y cambiarlo desde ahí.
+Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien que inició sesión en [!DNL Target] no puede cambiar el contenido. Para cambiar el contenido, la persona tendría que iniciar sesión en el sistema de administración de contenido o en otro tipo sistema y cambiarlo desde ahí.
 
 En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa.
 

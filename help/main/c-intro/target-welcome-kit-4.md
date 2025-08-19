@@ -25,7 +25,7 @@ Consulte [Atributos personalizados](https://experienceleague.adobe.com/docs/targ
 
 **Datos útiles**: Como [!DNL Target] es una plataforma abierta y agnóstica que funciona con diferentes tecnologías, puede agregar datos de sistemas CRM o comprados de muchas maneras diferentes. Esto significa que puede elegir el método que mejor funcione para su organización.
 
-Consulte [Métodos para obtener datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank} para obtener más información.
+Consulte [Métodos para obtener los datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank} para obtener más información.
 
 ## Sugerencia 2: Intensifique la personalización mediante la fusión de audiencias de [!DNL Target] con otras audiencias de Adobe Experience Cloud.
 
@@ -135,7 +135,7 @@ Si su hipótesis resultó no ser cierta, piense en formas de mejorar la prueba. 
 
 La comparación del rendimiento de conversión de distintas audiencias de diferentes pruebas en diferentes ubicaciones puede ayudar a enfocar y refinar la estrategia de optimización de una empresa. Utilice comparaciones de prueba para identificar qué audiencias merecen más la pena probar, cuáles deben recibir experiencias segmentadas y qué tipos de experiencias tienen más probabilidades de generar respuestas.
 
-Por ejemplo, un cliente de servicios financieros dirigió una campaña promocional para una tarjeta de crédito que incluía incentivos de eventos deportivos profesionales. Mediante pruebas multivariadas factoriales parciales de sus páginas de aterrizaje, el cliente pudo encontrar el equilibrio óptimo en el envío de mensajes sobre los beneficios de las tarjetas de crédito con incentivos deportivos para dirigirse a distintas audiencias de su base de clientes. Este método permitió a la compañía aprovechar y maximizar la conversión en un periodo clave durante un importante evento deportivo.
+Por ejemplo, un cliente de servicios financieros dirigió una campaña promocional para una tarjeta de crédito que incluía incentivos de eventos deportivos profesionales. Mediante pruebas multivariadas factoriales parciales de sus páginas de destino, el cliente pudo encontrar el equilibrio óptimo en el envío de mensajes sobre los beneficios de las tarjetas de crédito con incentivos deportivos para dirigirse a distintas audiencias de su base de clientes. Este método permitió a la compañía aprovechar y maximizar la conversión en un periodo clave durante un importante evento deportivo.
 
 ## Sugerencia 17: haga que las pruebas sean útiles al iniciarlas únicamente si sabe que podrá tomar acciones basándose en los datos.
 
@@ -145,7 +145,7 @@ No tiene sentido realizar una prueba si no tiene claro cómo va a actuar con los
 
 Las organizaciones de optimización de éxito creen en el concepto de las pruebas y saben que sus opiniones profesionales sobre cuál será la experiencia ganadora de la prueba no siempre son ciertas. Estas organizaciones determinan la experiencia ganadora en función de los datos y suelen publicar la experiencia tras la obtención de los resultados, aunque no esté alineada con las expectativas o parezca ilógica.
 
-Por ejemplo, un cliente de servicios de atención médica de Adobe demostró recientemente el valor que tienen las pruebas mostrando cómo un banner que el equipo había considerado como un éxito asegurado afectó negativamente a la conversión. Si su organización aún no ha adoptado completamente las pruebas, es mejor realizar primero pruebas de ámbito más simple y más pequeñas para que los cambios de los resultados de las pruebas se puedan realizar de forma gradual.
+Por ejemplo, un cliente de servicios de atención médica de Adobe demostró recientemente el valor que tienen las pruebas mostrando cómo un banner principal que el equipo había considerado como un éxito asegurado afectó negativamente a la conversión. Si su organización aún no ha adoptado completamente las pruebas, es mejor realizar primero pruebas de ámbito más simple y más pequeñas para que los cambios de los resultados de las pruebas se puedan realizar de forma gradual.
 
 ## Sugerencia 19: Comunique a todos que ha iniciado una prueba para evitar problemas cuando cambie el sitio.
 

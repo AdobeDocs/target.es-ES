@@ -2,7 +2,7 @@
 keywords: Recommendations;algoritmos de Recommendations;actividad de Recommendations;Recommendations Classic
 description: Revise la información para comprender las diferencias entre las actividades heredadas de Recommendations Classic y las de Recommendations en  [!DNL Target]  Premium.
 title: ¿Cuál es la diferencia entre Recommendations Classic y Recommendations en  [!DNL Target]  Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -12,7 +12,7 @@ ht-degree: 88%
 
 ---
 
-# Comparación entre las actividades de Recommendations Classic y Recommendations en [!DNL Target] Premium
+# Comparación entre Recommendations Classic y actividades de Recommendations en [!DNL Target] Premium
 
 Información para ayudarlo a elegir entre Recommendations Classic y actividades de Recommendations en Target Premium.
 

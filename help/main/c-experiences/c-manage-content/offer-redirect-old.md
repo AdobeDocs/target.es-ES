@@ -1,6 +1,6 @@
 ---
 keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
-description: Aprenda a crear ofertas de redireccionamiento en el Adobe  [!DNL Target]  para que un explorador redirija a una página nueva.
+description: Aprenda a crear ofertas de redireccionamiento en Adobe [!DNL Target] para que un explorador redirija a una página nueva.
 title: ¿Cómo Se Crean Ofertas De Redireccionamiento?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
@@ -31,7 +31,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
 >[!NOTE]
 >
->Si se desea pasar el valor de referente de la página de aterrizaje, se recomienda usar una oferta HTML en lugar de una oferta de redireccionamiento.
+>Si se desea pasar el valor de referente de la página de destino, se recomienda usar una oferta HTML en lugar de una oferta de redireccionamiento.
 
 ## Cree una oferta de redireccionamiento desde la página Ofertas de código
 

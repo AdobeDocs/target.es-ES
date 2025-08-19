@@ -1,6 +1,6 @@
 ---
 keywords: puntuación de captación;puntuación
-description: Obtenga información acerca de la métrica de participación Puntuación de captación del Adobe  [!DNL Target]  que calcula una puntuación acumulada en función del valor asignado a páginas visitadas del sitio.
+description: Obtenga información acerca de la métrica de participación Puntuación de captación en Adobe [!DNL Target] que calcula una puntuación acumulada en función del valor asignado a páginas visitadas del sitio.
 title: ¿Qué es la métrica Puntuación de captación?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
@@ -23,7 +23,7 @@ En este ejemplo, el visitante experimenta en primer lugar la experiencia del gat
 
 La primera página añade 1 a la puntuación, la segunda página 0,25, la tercera 0,10 y la cuarta 0,10 para un total de 1,45. Esto puede interpretarse como puntos o moneda. En una visita independiente, un visitante experimenta la experiencia Dog (Perro) y, aunque el visitante ve menos páginas, la puntuación es 2,10, mayor que la de la otra visita; esto se debe a que el visitante ha visualizado páginas con más valor.
 
-Puede tener en cuenta los costos de adquisición de la cuenta y los ingresos de vínculos afiliados pasando AdBoxes y redirectores, tal como se muestra en el flujo de páginas siguiente. Observe que, en este ejemplo, ambas [!DNL Target] solicitudes de la página de artículo superan una puntuación, y posiblemente representen a un CPM conocido.
+Puede tener en cuenta los costos de adquisición de la cuenta y los ingresos de vínculos afiliados pasando AdBoxes y redirectores, tal como se muestra en el flujo de páginas siguiente. Observe que, en este ejemplo, ambas [!DNL Target] solicitudes de la página de artículo superan una puntuación, posiblemente representando un CPM conocido.
 
 ![imagen example_score2](assets/example_score2.png)
 

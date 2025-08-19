@@ -35,7 +35,7 @@ A continuación, mostramos algunos ejemplos de uso de exclusiones:
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** para mostrar la lista de exclusiones existentes.
 
-   El &quot;Número de elementos&quot; registrado para cada exclusión en la vista de lista [!UICONTROL Exclusions] es el número de productos que coinciden con las reglas para esa exclusión en el grupo de hosts [2&rbrace; (entorno) de Recommendations predeterminado configurado. ](/help/main/administrating-target/hosts.md) Consulte [Planificar e implementar [!DNL Recommendations]](https://experienceleague.adobe.com/es/docs/target-dev/developer/recommendations){target=_blank} en la *Guía para desarrolladores de Adobe Target* para obtener información sobre cómo cambiar el grupo de hosts predeterminado.
+   El &quot;Número de elementos&quot; registrado para cada exclusión en la vista de lista [!UICONTROL Exclusions] es el número de productos que coinciden con las reglas para esa exclusión en el grupo de hosts [configurado como predeterminado en Recommendations](/help/main/administrating-target/hosts.md) (entorno). Consulte [Planificar e implementar [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} en la *Guía para desarrolladores de Adobe Target* para obtener información sobre cómo cambiar el grupo de hosts predeterminado.
 
 1. (Condicional) Haga clic en el icono **[!UICONTROL Show Filters]** ( ![Mostrar icono de filtros](/help/main/assets/icons/Filter.svg) ) y, a continuación, elija el [entorno](/help/main/administrating-target/environments.md) que desee en la lista desplegable **[!UICONTROL Environment]** mientras crea (o actualiza) una exclusión para obtener una vista previa del contenido de la exclusión en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
 
@@ -69,11 +69,11 @@ Puede copiar una exclusión existente para crear una exclusión duplicada que lu
 
 Tenga en cuenta que las exclusiones están disponibles en toda la cuenta. Asegúrese de tener en cuenta esta advertencia antes de eliminar una exclusión. Las exclusiones eliminadas no se pueden recuperar.
 
-## Vídeo de formación: Creación de colecciones y exclusiones en Recommendations (7:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
+## Vídeo de formación: Crear colecciones y exclusiones en Recommendations (7:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo contiene la información siguiente:
 
 * Creación de una colección
 * Creación de una exclusión
 
->[!VIDEO](https://video.tv.adobe.com/v/35463?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

@@ -1,8 +1,8 @@
 ---
 keywords: algoritmos de recomendaciones;formación sobre modelos;servicio de modelos;entrega de contenido;basado en elementos;basado en usuarios;basado en popularidad;basado en el carro de compras;criterios personalizados
 description: Obtenga información acerca de los algoritmos utilizados en  [!DNL Target Recommendations], incluidos la formación y el servicio de modelos.
-title: ¿Dónde puedo obtener información acerca de la ciencia detrás de los algoritmos Recommendations de Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+title: ¿Dónde puedo obtener información acerca de la ciencia detrás de los algoritmos de Recommendations de Target?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -51,7 +51,7 @@ Los algoritmos de recomendación de filtrado colaborativos elemento-elemento se 
 
 Para el algoritmo &quot;las personas que vieron/compraron este artículo también vieron/compraron estos artículos&quot;, el objetivo es calcular una similitud (A,B) entre todos los pares de artículos. Para un elemento A determinado, las recomendaciones principales se ordenan por su similitud s(A,B).
 
-Un ejemplo de esta similitud es la coocurrencia entre artículos: un recuento simple del número de usuarios que compraron ambos artículos. Aunque intuitiva, esta métrica es ingenua, ya que está sesgada hacia la recomendación de artículos populares. Por ejemplo, si en un minorista de comestibles la mayoría de la gente compra pan, el pan tendrá una alta coocurrencia con todos los artículos, pero no es necesariamente una buena recomendación. [!DNL Target] utiliza en su lugar una métrica de similitud más sofisticada conocida como proporción de probabilidad de registro (LLR). Esta cantidad es grande cuando la probabilidad de que dos artículos, A y B, coocurran es muy diferente a la probabilidad de que no ocurran. Para ser más concretos, considere un caso del algoritmo [!UICONTROL People Who Viewed This, Bought That]. La similitud LLR es grande cuando la probabilidad de que B se haya comprado es *no* independientemente de si alguien vio A.
+Un ejemplo de esta similitud es la coocurrencia entre artículos: un recuento simple del número de usuarios que compraron ambos artículos. Aunque intuitiva, esta métrica es ingenua, ya que está sesgada hacia la recomendación de artículos populares. Por ejemplo, si en un retailer de comestibles la mayoría de las personas compran pan, el pan tendrá una alta coocurrencia con todos los artículos, pero no es necesariamente una buena recomendación. [!DNL Target] utiliza en su lugar una métrica de similitud más sofisticada conocida como proporción de probabilidad de registro (LLR). Esta cantidad es grande cuando la probabilidad de que dos artículos, A y B, coocurran es muy diferente a la probabilidad de que no ocurran. Para ser más concretos, considere un caso del algoritmo [!UICONTROL People Who Viewed This, Bought That]. La similitud LLR es grande cuando la probabilidad de que B se haya comprado es *no* independientemente de si alguien vio A.
 
 Por ejemplo, si
 
@@ -65,7 +65,7 @@ El flujo lógico de la implementación del algoritmo real se muestra en el sigui
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: Datos de comportamiento en forma de vistas y compras de visitantes recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Datos de entrada**: Datos de comportamiento en forma de vistas y compras de visitantes recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -73,7 +73,7 @@ Los detalles de estos pasos son los siguientes:
    * **Cálculo de similitud de elementos**: Este es el paso de cálculo central: calcular la similitud de relación de probabilidad de registro entre todos los pares de elementos candidatos y clasificar los pares de elementos por esta puntuación de similitud.
    * **Filtrado sin conexión**: Por último, se aplican los filtros dinámicos que sean aplicables (por ejemplo, exclusiones de categorías dinámicas). Después de este paso, las recomendaciones precalculadas se almacenan en la caché global para que estén disponibles para su servicio.
 
-* **Modelo que sirve**: el contenido de Recommendations se entrega desde la red [global Edge&quot; de [!DNL Target]](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Cuando se realizan solicitudes de mbox a [!DNL Target] y se determina que el contenido de las recomendaciones debe entregarse a la página, la solicitud de la [clave de elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) adecuada para el algoritmo de recomendaciones se analiza desde la solicitud o se busca desde el perfil de usuario y, a continuación, se utiliza para recuperar las recomendaciones calculadas en los pasos anteriores. Se aplican más filtros dinámicos en este momento, antes de que se represente el [diseño](/help/main/c-recommendations/c-design-overview/create-design.md) apropiado.
+* **Modelo que sirve**: el contenido de Recommendations se entrega desde la red [!DNL Target]global Edge&quot; de [](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Cuando se realizan solicitudes de mbox a [!DNL Target] y se determina que el contenido de las recomendaciones debe entregarse a la página, la solicitud de la [clave de elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) adecuada para el algoritmo de recomendaciones se analiza desde la solicitud o se busca desde el perfil de usuario y, a continuación, se utiliza para recuperar las recomendaciones calculadas en los pasos anteriores. Se aplican más filtros dinámicos en este momento, antes de que se represente el [diseño](/help/main/c-recommendations/c-design-overview/create-design.md) apropiado.
 
 ## Similitud de contenido
 
@@ -89,7 +89,7 @@ Aunque los aspectos del servicio de modelos y la entrega de contenido de los alg
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: como se describió anteriormente, este algoritmo se basa exclusivamente en los datos del catálogo (introducidos en [!DNL Target] a través de una fuente de catálogo [la API de entidades o de actualizaciones en la página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+* **Datos de entrada**: como se describió anteriormente, este algoritmo se basa exclusivamente en los datos del catálogo (introducidos en [!DNL Target] a través de una fuente de catálogo [la API de entidades o de actualizaciones en la página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -119,7 +119,7 @@ Los algoritmos incluyen:
 
 Las adiciones más recientes al conjunto de algoritmos de recomendaciones [!DNL Target] son [!UICONTROL Recommended For You] y una serie de algoritmos de recomendaciones basados en el carro de compras. Ambos tipos de algoritmos utilizan técnicas de filtrado colaborativas para formar recomendaciones individuales basadas en elementos. A continuación, en el momento del servicio, se utilizan varios elementos en el historial de exploración del usuario (para [!UICONTROL Recommended For You]) o el carro de compras actual del usuario (para recomendaciones basadas en el carro de compras) para recuperar estas recomendaciones basadas en elementos, que luego se combinan para formar la lista final de recomendaciones. Tenga en cuenta que existen muchos tipos de algoritmos de recomendación personalizados. La elección de un algoritmo de claves múltiples significa que las recomendaciones están disponibles inmediatamente después de que un visitante tenga un historial de navegación y que las recomendaciones se puedan actualizar para responder al comportamiento del visitante más reciente.
 
-Estos algoritmos se basan en las técnicas de filtrado colaborativas básicas descritas en la sección de recomendaciones basadas en elementos, pero también incorporan ajustes de hiperparámetros para determinar la métrica de similitud óptima entre los elementos. El algoritmo realiza una división cronológica de los datos de comportamiento de cada usuario y entrena los modelos de recomendación en los datos anteriores al intentar predecir los elementos que un usuario ve o compra más tarde. A continuación, se elige la métrica de similitud que produce la precisión media óptima de [Mean Average Precision] (https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval).
+Estos algoritmos se basan en las técnicas de filtrado colaborativas básicas descritas en la sección de recomendaciones basadas en elementos, pero también incorporan ajustes de hiperparámetros para determinar la métrica de similitud óptima entre los elementos. El algoritmo realiza una división cronológica de los datos de comportamiento de cada usuario y entrena los modelos de recomendación en los datos anteriores al intentar predecir los elementos que un usuario ve o compra más tarde. A continuación, se elige la métrica de similitud que produce la precisión media óptima de [Mean Average Precision]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval).
 
 La lógica del aprendizaje del modelo y los pasos de puntuación se muestran en el siguiente diagrama:
 
@@ -127,7 +127,7 @@ La lógica del aprendizaje del modelo y los pasos de puntuación se muestran en 
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: esto es idéntico a los métodos de filtrado colaborativo (CF) de elementos. Los algoritmos de [!UICONTROL Both Recommended For You] y basados en el carro de compras usan datos de comportamiento en forma de vistas y compras de usuarios recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Datos de entrada**: esto es idéntico a los métodos de filtrado colaborativo (CF) de elementos. Los algoritmos de [!UICONTROL Both Recommended For You] y basados en el carro de compras usan datos de comportamiento en forma de vistas y compras de usuarios recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -139,7 +139,7 @@ Los detalles de estos pasos son los siguientes:
 
   ![Fórmula que muestra cálculo de formación](assets/formula4.png)
 
-   * **Evaluación del modelo de similitud de elementos**: la evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y realizando predicciones sobre el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de los elementos de cada usuario en el conjunto de datos de prueba y, a continuación, realizando 100 recomendaciones para subconjuntos de elementos ordenados en un intento de predecir vistas y compras posteriores. Para evaluar la calidad de estas recomendaciones se usa una métrica de recuperación de información, la [precisión media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)). Esta métrica tiene en cuenta el orden de las recomendaciones y favorece los elementos relevantes que están más arriba en la lista de recomendaciones, lo que es una propiedad importante para los sistemas de clasificación.
+   * **Evaluación del modelo de similitud de elementos**: la evaluación del modelo se realiza tomando las recomendaciones generadas en el paso anterior y realizando predicciones sobre el conjunto de datos de prueba. La fase de puntuación en línea se imita ordenando cronológicamente los usos de los elementos de cada usuario en el conjunto de datos de prueba y, a continuación, realizando 100 recomendaciones para subconjuntos de elementos ordenados en un intento de predecir vistas y compras posteriores. Para evaluar la calidad de estas recomendaciones se usa una métrica de recuperación de información, la [precisión media]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)). Esta métrica tiene en cuenta el orden de las recomendaciones y favorece los elementos relevantes que están más arriba en la lista de recomendaciones, lo que es una propiedad importante para los sistemas de clasificación.
    * **Selección de modelo**: después de la evaluación sin conexión, se selecciona el modelo que tiene la precisión media promedio más alta y se calculan todas las recomendaciones de elementos individuales para él.
    * **Filtrado sin conexión**: la etapa final del aprendizaje del modelo es la aplicación de cualquier filtro dinámico aplicable. Después de este paso, las recomendaciones precalculadas se almacenan en la caché global para que estén disponibles para su servicio.
 

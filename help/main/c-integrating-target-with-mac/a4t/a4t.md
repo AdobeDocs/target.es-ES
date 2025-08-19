@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 81%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -99,7 +99,7 @@ Abra el tutorial [Analytics &amp; Target: Best Practices for Analysis](https://s
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este tema.
 
-### Analytics for Adobe Target (A4T) (4:32) ![Distintivo Información general](/help/main/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Distintivo de información general](/help/main/assets/overview.png)
 
 Este vídeo explica cómo utilizar [!DNL Analytics] como una fuente de informes en [!DNL Target] para dirigir el análisis de su programa de optimización.
 
@@ -107,9 +107,9 @@ Este vídeo explica cómo utilizar [!DNL Analytics] como una fuente de informes 
 * Explicar cómo funciona A4T
 * Entender los requisitos necesarios antes de utilizar A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/3421724?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Integración Analytics/Adobe Target (A4T) (40:33) ![Distintivo del tutorial](/help/main/assets/tutorial.png)
+### Integración de Analytics/Adobe Target (A4T) (40:33) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo es una grabación de “[Horario de oficina](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, una iniciativa dirigida por el equipo de atención al cliente de Adobe.
 

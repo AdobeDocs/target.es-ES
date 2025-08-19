@@ -1,6 +1,6 @@
 ---
 keywords: compositor de experiencias basadas en formularios;compositor basado en formularios;refinamientos
-description: Aprenda a utilizar el Compositor de experiencias basadas en formularios de Adobe [!DNL Target] para crear experiencias no visuales. Utilice este compositor cuando el VEC no esté disponible o su uso no sea práctico.
+description: Aprenda a utilizar el Compositor de experiencias basadas en formularios de Adobe [!DNL Target] para la creación de experiencias no visuales. Utilice este compositor cuando el VEC no esté disponible o su uso no sea práctico.
 title: ¿Cómo utilizo el Compositor de experiencias basadas en formularios?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
@@ -60,7 +60,7 @@ Si está creando una actividad [!UICONTROL Recommendations], no hay experiencias
 
    **Cambiar oferta de imagen:** elija una imagen guardada en la biblioteca de contenido en Target.
 
-   También puede agregar un vínculo a una imagen (pulsación, destino, aterrizaje, etc.).
+   También puede agregar un vínculo a una imagen (clic, destino, aterrizaje, etc.).
 
    1. Haga clic en [!UICONTROL Change Image Offer].
    1. Seleccione la imagen que desee y haga clic en [!UICONTROL Edit Links].
@@ -104,7 +104,7 @@ Si está creando una actividad [!UICONTROL Recommendations], no hay experiencias
 
    **Agregar decisión de oferta:**
 
-   Agregue una oferta creada en [!DNL Adobe Journey Optimizer] (AJO) a una actividad [!DNL Adobe Target] para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o sitio móvil mediante offer decisioning. Esta opción solo está disponible para las actividades manuales [!UICONTROL A/B Test] y [!UICONTROL Experience Targeting] (XT).
+   Agregue una oferta creada en [!DNL Adobe Journey Optimizer] (AJO) a una actividad [!DNL Adobe Target] para presentar la mejor oferta dinámica y experiencia a los visitantes de su sitio web o sitio móvil mediante Offer Decisioning. Esta opción solo está disponible para las actividades manuales [!UICONTROL A/B Test] y [!UICONTROL Experience Targeting] (XT).
 
    Para obtener más información, consulte [Usar decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

@@ -15,7 +15,7 @@ ht-degree: 25%
 
 Crear ofertas JSON en [!UICONTROL Offer Library] de [!DNL Adobe Target] para usarlas en [!UICONTROL Form-Based Experience Composer].
 
-SPA Las ofertas JSON se pueden utilizar en actividades basadas en formularios para habilitar casos de uso en los que se requiere la toma de decisiones de [!DNL Target] para enviar una oferta en formato JSON para su consumo en integraciones del marco de trabajo o del lado del servidor de la.
+Las ofertas JSON se pueden utilizar en actividades basadas en formularios para habilitar casos de uso en los que se requiere la toma de decisiones de [!DNL Target] para enviar una oferta en formato JSON para su consumo en el marco de la SPA o en integraciones del lado del servidor.
 
 ## Consideraciones de JSON
 
@@ -23,10 +23,10 @@ Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
 * Actualmente, las ofertas JSON solo están disponibles para las actividades [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Experience Targeting] (XT).
 * Las ofertas JSON solo se pueden usar en [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md).
-* Las ofertas JSON se pueden recuperar directamente si usa las [API del servidor y los SDK de Node.js para móviles, Java, .NET y Python](https://experienceleague.adobe.com/es/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
-* En el explorador, las ofertas JSON solo se pueden recuperar a través de at.js 1.2.3 (o versiones posteriores) y utilizando [getOffer()](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} filtrando acciones usando la acción `setJson`.
+* Las ofertas JSON se pueden recuperar directamente si usa las [API del servidor y los SDK de Node.js para móviles, Java, .NET y Python](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
+* En el explorador, las ofertas JSON solo se pueden recuperar a través de at.js 1.2.3 (o versiones posteriores) y utilizando [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} filtrando acciones usando la acción `setJson`.
 * Las ofertas JSON se proporcionan como objetos JSON nativos en vez de como cadenas. Los consumidores de estos objetos ya no son necesarios para gestionar objetos como cadenas y convertirlos en objetos JSON.
-* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta mediante [getOffer()](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.
+* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta mediante [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.
 
 ## Crear una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -119,7 +119,7 @@ adobe.target.getOffer({
 
 ## Ejemplo de oferta JSON con atributos de perfil de CDP en tiempo real
 
-Los atributos de perfil de Real-time CDP se pueden compartir con [!DNL Target] para su uso en ofertas de HTML y JSON.
+Los atributos de perfil de Real-time CDP se pueden compartir con [!DNL Target] para su uso en ofertas HTML y JSON.
 
 Para obtener más información, consulte [Compartir atributos de perfil de CDP en tiempo real con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 

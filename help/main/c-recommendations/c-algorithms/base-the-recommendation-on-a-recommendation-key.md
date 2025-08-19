@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # Basar la recomendación en una clave de recomendación
 
-Recommendations basado en algoritmos utiliza el contexto de comportamiento del visitante para mostrar resultados relevantes en [!DNL Adobe Target] actividades [!DNL Recommendations].
+Las recomendaciones basadas en algoritmos utilizan el contexto de comportamiento del visitante para mostrar resultados relevantes en [!DNL Adobe Target] actividades [!DNL Recommendations].
 
 Cada tipo de algoritmo proporciona diferentes algoritmos adecuados para su tipo, como se muestra en la siguiente tabla:
 
@@ -34,7 +34,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en diferentes
 
 ## Basado en el carro {#cart-based}
 
-El tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan mediante el [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+El tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios &quot;[!UICONTROL Recommended For You]&quot; y a los algoritmos basados en elementos &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; y &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
@@ -62,7 +62,7 @@ Esta lógica devuelve otros productos que vieron las personas después de ver es
 
 Esta lógica le permite crear oportunidades de conversión adicionales mediante la recomendación de artículos que otros visitantes que vieron un artículo también vieron. Por ejemplo: los visitantes que ven bicicletas de carretera en el sitio también pueden ver cascos de bicicleta, kits de ciclismo, cerraduras, etc. Puede crear una recomendación utilizando esta lógica que sugiere que otros productos le ayudan a aumentar los ingresos.
 
-Si selecciona este algoritmo, puede seleccionar las siguientes claves Recommendations:
+Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recommendations:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -77,7 +77,7 @@ Esta lógica devuelve otros productos que compraron otras personas después de v
 
 Esta lógica le permite aumentar las oportunidades de ventas cruzadas mostrando una recomendación en una página de producto, por ejemplo, que muestra artículos que otros visitantes que vieron el artículo compraron. Por ejemplo, si el visitante está viendo una caña de pescar, la recomendación podría mostrar artículos adicionales que otros visitantes compraron, como cajas de aparejos, zancudos y señuelos de pesca. A medida que los visitantes navegan por el sitio, les proporciona recomendaciones de compra adicionales.
 
-Si selecciona este algoritmo, puede seleccionar las siguientes claves Recommendations:
+Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recommendations:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -92,7 +92,7 @@ Esta lógica devuelve otros productos que la gente compró después de comprar e
 
 Esta lógica le permite aumentar las oportunidades de ventas cruzadas mostrando una recomendación en una página de resumen del carro de compras, por ejemplo, que muestra artículos que otros compradores también han comprado. Por ejemplo, si el visitante está comprando un traje, la recomendación podría mostrar artículos adicionales que otros visitantes compraron junto con el traje, como corbatas, zapatos de vestir y gemelos. A medida que los visitantes revisan sus compras, usted les proporciona recomendaciones adicionales.
 
-Si selecciona este algoritmo, puede seleccionar las siguientes claves Recommendations:
+Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recommendations:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -132,7 +132,7 @@ Por ejemplo, ver la categoría A y luego la categoría B en una sesión resulta 
 
 Utilice este algoritmo en páginas generales, como páginas de inicio o de destino y anuncios externos.
 
-Si selecciona el algoritmo Más visitados por categoría, puede seleccionar las siguientes claves Recommendations:
+Si selecciona el algoritmo Más visitados por categoría, puede seleccionar las siguientes claves de Recommendations:
 
 * [!UICONTROL Current Category]
 * [!UICONTROL Favorite Category]
@@ -446,7 +446,7 @@ Recomienda elementos según la certeza de una relación entre artículos. Puede 
 
 Por ejemplo, si establece una afinidad muy fuerte y el diseño incluye cinco artículos, tres de los cuales cumplen la seguridad de umbral de conexión, los dos artículos que no cumplen los requisitos mínimos de seguridad no se muestran en las recomendaciones y son reemplazados por sus artículos de copia de seguridad definidos. Los artículos con la mayor afinidad se muestran primero.
 
-Por ejemplo, un minorista en línea puede recomendar artículos en visitas posteriores en las que un visitante ha mostrado interés durante sesiones anteriores. La actividad de cada sesión del visitante se captura para calcular una afinidad basada en un modelo de actualización y frecuencia. A medida que este visitante regresa a su sitio, la afinidad del sitio se utiliza para mostrar recomendaciones basadas en acciones pasadas en el sitio.
+Por ejemplo, un retailer en línea puede recomendar elementos en visitas posteriores en las que un visitante haya mostrado interés durante sesiones anteriores. La actividad de cada sesión del visitante se captura para calcular una afinidad basada en un modelo de actualización y frecuencia. A medida que este visitante regresa a su sitio, la afinidad del sitio se utiliza para mostrar recomendaciones basadas en acciones pasadas en el sitio.
 
 Es posible que algunos clientes con diferentes colecciones de productos y diversos comportamientos de sitio obtengan mejores resultados si establecen una afinidad de sitio débil.
 

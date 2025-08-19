@@ -2,7 +2,7 @@
 keywords: personalización automatizada;ofertas;target;audiencia;reglas de segmentación;segmentación
 description: Descubra cómo dirigir ofertas individuales a audiencias específicas mediante actividades [!UICONTROL Automated Personalization] (AP).
 title: ¿Cómo Puedo Segmentar [!UICONTROL Automated Personalization] Ofertas?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

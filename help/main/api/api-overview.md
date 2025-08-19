@@ -1,7 +1,7 @@
 ---
 keywords: api;api de administración;api de entrega;api de informes;api de perfil
-description: Encuentre las API de Adobe [!DNL Target] , incluidas las API de administración, envío, informes y perfil.
-title: ¿Dónde puedo encontrar la documentación de  [!DNL Target] API y SDK?
+description: Encuentra las API de Adobe [!DNL Target] e incluyen las API de administración, envío, informes y perfil.
+title: ¿Dónde puedo encontrar la  [!DNL Target] documentación de API y SDK?
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe [!DNL Target] SDK y API
+# SDK y API de Adobe [!DNL Target]
 
 Antes de empezar a usar [!DNL Adobe Target], debe implementarlo en el sitio.
 
@@ -33,4 +33,4 @@ Las API [!DNL Adobe Target] se pueden agrupar según el tipo:
 * API de informes.
 * API de Recommendations.
 
-Para obtener más información, consulte [Información general de la API de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=es){target=_blank} en la [Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank}.
+Para obtener más información, consulte [Información general de la API de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} en la [Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.

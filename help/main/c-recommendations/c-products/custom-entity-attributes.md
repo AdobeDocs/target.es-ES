@@ -1,8 +1,8 @@
 ---
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
-description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional sobre los elementos del catálogo de Adobe [!DNL Target] Recommendations.
+description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional acerca de los elementos de su catálogo de Adobe [!DNL Target] Recommendations.
 title: ¿Cómo utilizo los atributos de entidad personalizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -127,7 +127,7 @@ Puede pasar atributos de varios valores utilizando la API de entrega en un pará
   }
 ```
 
-Consulte la [documentación de la API de Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
+Consulte la [documentación de la API de Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 

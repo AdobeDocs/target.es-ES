@@ -1,7 +1,7 @@
 ---
 keywords: contenido;activos;carpeta;crear carpeta;mover carpeta;copiar carpeta;eliminar carpeta;descargar carpeta
 description: ¿Cómo se crean carpetas en la biblioteca de ofertas?
-title: Obtenga información sobre cómo crear carpetas en la biblioteca de ofertas de Adobe [!DNL Target] para guardar ofertas de código e imagen, así como otras carpetas.
+title: Aprenda a crear carpetas en la biblioteca de ofertas de Adobe [!DNL Target] para guardar ofertas de código e imagen, así como otras carpetas.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a

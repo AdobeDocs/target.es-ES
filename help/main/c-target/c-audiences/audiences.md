@@ -21,7 +21,7 @@ Las audiencias se utilizan siempre que está disponible la determinación de obj
 * [Cree una audiencia específica de actividad](/help/main/c-target/creating-activity-only-audience.md) y asígnele un objetivo
 * [Combinar varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear una audiencia ad hoc
 
-También puede usar datos de audiencia recopilados por [!DNL Adobe Analytics] para personalización y segmentación en tiempo real en [!DNL Target] y otras [!DNL Adobe Experience Cloud] aplicaciones. Consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en la guía de *Componentes de la interfaz central de Experience Cloud*.
+También puede usar datos de audiencia recopilados por [!DNL Adobe Analytics] para personalización y segmentación en tiempo real en [!DNL Target] y otras [!DNL Adobe Experience Cloud] aplicaciones. Consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en la guía de *Componentes de Experience Cloud Central Interface*.
 
 Hay dos tipos de audiencias en [!DNL Target]:
 
@@ -45,7 +45,7 @@ La lista [!UICONTROL Audiences] contiene las audiencias que puede usar en sus ac
 
   >[!NOTE]
   >
-  >El origen de [!DNL Adobe Experience Platform] está disponible para todos los clientes de [!DNL Target] que utilizan el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}. Las audiencias disponibles de [!DNL Adobe Experience Platform] se pueden usar tal cual o [combinadas con audiencias existentes](/help/main/c-target/combining-multiple-audiences.md).
+  >El origen de [!DNL Adobe Experience Platform] está disponible para todos los clientes de [!DNL Target] que usan [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}. Las audiencias disponibles de [!DNL Adobe Experience Platform] se pueden usar tal cual o [combinadas con audiencias existentes](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Los usuarios deben tener [!UICONTROL Approver] o un estado superior en [!DNL Target] para configurar las tarjetas [!DNL Target] [!UICONTROL Destinations] en AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
@@ -121,4 +121,4 @@ Este vídeo contiene información sobre el uso de las audiencias.
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

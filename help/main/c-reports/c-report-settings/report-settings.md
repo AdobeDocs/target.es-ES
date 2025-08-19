@@ -135,7 +135,7 @@ Seleccione el entorno (grupo de hosts) que se utilizará para el informe. Para o
 
 >[!NOTE]
 >
->Si su organización utiliza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=_blank} (AEP) para enviar datos de métricas a [!DNL Target], el entorno de la secuencia de datos de AEP debe coincidir con el entorno en la configuración del informe [!DNL Target].
+>Si su organización utiliza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) para enviar datos de métricas a [!DNL Target], el entorno de la secuencia de datos de AEP debe coincidir con el entorno en la configuración del informe [!DNL Target].
 
 ### Restablecer datos del informe
 
@@ -230,9 +230,9 @@ Hay cuatro modos para las actividades [!UICONTROL Auto-Target]: [!UICONTROL Dail
 
 El orden predeterminado de representación del gráfico es el siguiente:
 
-* **[!UICONTROL A/B Test] (incluidos [!UICONTROL Auto-Allocate] y [!UICONTROL Automated Personalization])**: orden descendente de creación de la experiencia.
-* **[!UICONTROL Experience Targeting] (XT)**: orden de las experiencias en la actividad.
-* **[!UICONTROL Multivariate Test] (MVT)**: Alfabético por nombre de experiencia.
+* **[!UICONTROL A/B Test](incluidos [!UICONTROL Auto-Allocate] y [!UICONTROL Automated Personalization])**: orden descendente de creación de la experiencia.
+* **[!UICONTROL Experience Targeting](XT)**: orden de las experiencias en la actividad.
+* **[!UICONTROL Multivariate Test](MVT)**: Alfabético por nombre de experiencia.
 * **[!UICONTROL Recommendations]**: orden descendente de creación de la experiencia.
 
 Cuando trabaje con las opciones [!UICONTROL Counting Methodology], tenga en cuenta las siguientes advertencias:

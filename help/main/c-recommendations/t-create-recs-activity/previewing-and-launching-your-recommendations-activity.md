@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;oferta;previsualización;inicio;estado;criterios;algoritmo
-description: Obtenga información sobre cómo obtener una vista previa de su actividad de Adobe [!DNL Target] Recommendations para garantizar que los resultados estén disponibles antes de iniciar la actividad.
+description: Obtenga información sobre cómo obtener una vista previa de la actividad de Adobe [!DNL Target] Recommendations para garantizar que los resultados estén disponibles antes de iniciar la actividad.
 title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
@@ -13,15 +13,15 @@ ht-degree: 15%
 
 # Vista previa e inicio de su actividad de Recommendations
 
-Una vez que haya creado su actividad [!UICONTROL Recommendations], [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] (XT) que contiene [ofertas de Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), querrá obtener una vista previa de las recomendaciones para asegurarse de que los resultados estén disponibles antes de iniciar la actividad. [!DNL Target Recommendations] ofrece varias formas de obtener una vista previa de sus recomendaciones.
+Después de crear su actividad [!UICONTROL Recommendations], [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] (XT) que contiene [ofertas de recomendaciones](/help/main/c-recommendations/recommendations-as-an-offer.md), necesitará previsualizar las recomendaciones para asegurarse de que los resultados estén disponibles antes de iniciar la actividad. [!DNL Target Recommendations] ofrece varias formas de obtener una vista previa de sus recomendaciones.
 
-## Comprobación del estado del algoritmo Recommendations
+## Comprobación del estado del algoritmo de Recommendations
 
 Después de crear una actividad, [!DNL Recommendations] ejecuta un algoritmo para generar recomendaciones. Este algoritmo puede tardar unas horas en ejecutarse.
 
-Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general [!UICONTROL Activity], donde se muestra el estado de los criterios. La siguiente ilustración muestra el estado en el diagrama de actividad en la página [!UICONTROL Overview] de una actividad [!DNL Recommendations]:
+Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general [!UICONTROL Activity], donde se muestra el estado de los criterios. La siguiente ilustración muestra el estado en el diagrama de actividad en la página [!DNL Recommendations] de una actividad [!UICONTROL Overview]:
 
-![Página de información general sobre la actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![Página de información general de la actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Los resultados de estado incluyen los siguientes, como se muestra a continuación:
 

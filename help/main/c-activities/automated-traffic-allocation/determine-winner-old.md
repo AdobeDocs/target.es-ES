@@ -1,6 +1,6 @@
 ---
 keywords: asignación de tráfico automatizado;segmentación;ganador;garantía estadística;confianza;determinar ganador;alza;confianza;predeterminado;experiencia predeterminada;asignación automática;asignación automática
-description: Aprenda a interpretar los resultados de una actividad A/B de [!UICONTROL Auto-Allocate] en Adobe [!DNL Target] mediante el examen de indicadores importantes, como el alza y la confianza.
+description: Aprenda a interpretar los resultados de una actividad A/B de [!UICONTROL Auto-Allocate] en Adobe [!DNL Target] examinando los indicadores importantes, incluidos el alza y la confianza.
 title: ¿Cómo Interpreto Los Informes De [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc

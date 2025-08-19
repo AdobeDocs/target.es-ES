@@ -19,7 +19,7 @@ Para mostrar la biblioteca [!UICONTROL Offers], haga clic en la ficha **[!UICONT
 
 ![Página de ofertas](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-AEM La biblioteca [!UICONTROL Offers] contiene ofertas que se han configurado mediante [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (), [!DNL Adobe Mobile Services] (AMS) y API. Las ofertas creadas en [!DNL Target Classic] o en otras soluciones pueden editarse en [!DNL Target Standard/Premium].
+La biblioteca [!UICONTROL Offers] contiene ofertas que se han configurado mediante [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) y API. Las ofertas creadas en [!DNL Target Classic] o en otras soluciones pueden editarse en [!DNL Target Standard/Premium].
 
 La biblioteca [!UICONTROL Offers] proporciona una descripción general de todas las ofertas de código e imagen y le permite realizar diversas acciones:
 
@@ -47,7 +47,7 @@ El icono **[!UICONTROL Show filters]** le permite filtrar ofertas por las siguie
 
 * **[!UICONTROL Source]**: [!DNL Adobe Target], [!DNL Adobe Target Classic] y [!DNL Adobe Experience Manager].
 
-* AEM **Tipo de**: [Fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) y [Fragmentos de experiencias](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). AEM Para obtener más información acerca de los distintos tipos de fragmentos, consulte [Información general sobre fragmentos de contenido y fragmentos de experiencias](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+* **Tipo de AEM**: [Fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) y [Fragmentos de experiencias](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Para obtener más información sobre los distintos tipos de fragmento, consulte [Información general sobre fragmentos de contenido y fragmentos de experiencias de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 Los filtros son persistentes en la sesión.
 

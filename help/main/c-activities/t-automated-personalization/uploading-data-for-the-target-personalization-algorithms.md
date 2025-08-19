@@ -3,7 +3,7 @@ keywords: Automated Personalization;aplicación;cargar datos;datos sin conexión
 description: Obtenga información sobre cómo cargar datos sin conexión al crear modelos de personalización en actividades  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target].
 title: ¿Cómo puedo cargar datos para algoritmos de Personalization?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Los datos sin conexión, como información de CRM o puntuaciones de inclinación de cancelación por parte del cliente, pueden ser muy valiosos al crear modelos de personalización en actividades [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target].
 
-Hay varias formas de introducir datos en los algoritmos de personalización [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target]. Además de los métodos de [Métodos para obtener datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}, también se usan [!DNL Experience Cloud] audiencias compartidas ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) y audiencias de informes de actividad en los algoritmos [!DNL Target].
+Hay varias formas de introducir datos en los algoritmos de personalización [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target]. Además de los métodos de [Métodos para obtener datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}, también se usan [!DNL Experience Cloud] audiencias compartidas ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) y audiencias de informes de actividad en [!DNL Target] algoritmos.
 
 Para obtener información acerca de los datos que los algoritmos de personalización [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] recopilan y usan automáticamente, consulte [Recopilación de datos de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

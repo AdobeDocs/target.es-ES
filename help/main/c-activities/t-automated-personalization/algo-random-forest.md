@@ -2,7 +2,7 @@
 keywords: bosque aleatorio;árbol de decisión;ap;Automated Personalization
 description: Descubra cómo  [!DNL Adobe Target] usa el algoritmo de bosque aleatorio en las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target].
 title: ¿Cómo usa  [!DNL Target] el algoritmo de bosque aleatorio?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -73,7 +73,7 @@ Antes de que los datos pasen por el algoritmo de personalización, se someten a 
 
 Las transformaciones de la característica dependen del tipo de atributo. Principalmente, hay dos tipos de atributos (o “características”, tal como a veces los describen los analistas de datos):
 
-* **Características categóricas:** no se pueden contar, pero se pueden ordenar en distintos grupos. Pueden ser características como país, sexo o código postal.
+* **Características categóricas:** no se pueden contar, pero se pueden ordenar en distintos grupos. Pueden ser características como país, género o código postal.
 * **Características numéricas:** se pueden medir o contar, como la edad, los ingresos, etc.
 
 Para las características categóricas, se mantiene un conjunto de todas las características posibles y la posibilidad de que se use la transformación para reducir el tamaño de los datos. En el caso de las funciones numéricas, el cambio de escala garantiza que las funciones sean comparables en todos los aspectos.

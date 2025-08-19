@@ -2,13 +2,13 @@
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente de búsqueda de productos de Google y  [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo se usa [!UICONTROL Feeds] en  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '2463'
-ht-degree: 45%
+ht-degree: 44%
 
 ---
 
@@ -121,7 +121,7 @@ Si tiene una fuente de productos de Google existente, puede usarla como su archi
 >
 >No es obligatorio usar datos de Google. [!DNL Recommendations] utiliza el mismo formato que Google. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. No obstante, debe conservar los nombres de atributo predefinidos de Google al configurar el archivo.
 
-La mayoría de los minoristas cargan productos en Google, por lo que cuando un visitante utiliza la búsqueda de productos de Google, se muestran sus productos. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y pueden usar los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
+La mayoría de los minoristas cargan productos en Google, por lo que cuando un visitante utiliza la búsqueda de productos de Google, se muestran sus productos. [!DNL Recommendations] sigue exactamente la especificación de Google para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y pueden usar los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Los resultados se pueden buscar en las [páginas de compra de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >
@@ -328,15 +328,15 @@ Veamos los siguientes ejemplos:
 
 **Ejemplo 1:**
 
-* Día uno: procesos diarios de alimentación a las 9:00 a.m. PST.
-* Día dos: son las 15:30 y la fuente no se ha ejecutado desde ayer a las 9:00
+* Día uno: procesos de fuente diarios a las 9:00 a.m. PST.
+* Día dos: son las 3:30 p. m. y la fuente no se ha ejecutado desde ayer a las 9:00 a. m.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace 6 horas y media. 6,5 horas + 24 es un 127 % del plazo de la fuente.
 
 **Ejemplo 2:**
 
-* 1 de enero: procesos mensuales de alimentación a las 9:00 a.m. PST.
-* 3 de febrero: son las 10:00 a.m. y la fuente no ha funcionado durante un mes, un día y una hora atrás.
+* 1 de enero: procesos de fuente mensuales a las 9:00 a. m. PST.
+* 3 de febrero: son las 10:00 a.m. y la fuente no se ha ejecutado desde hace un mes, un día y una hora.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace un día y una hora. Aunque esto es solo [31 + (1/25)]/30 = 1,03 % de la configuración de frecuencia, se ha superado el retraso máximo de un día.
 
@@ -351,7 +351,7 @@ Este vídeo contiene la información siguiente:
 * Explicación del objetivo de las fuentes
 * Explicación del valor de las fuentes
 
->[!VIDEO](https://video.tv.adobe.com/v/33945?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crear una fuente (6:44) ![Insignia de tutorial](/help/main/assets/tutorial.png)
 
@@ -360,4 +360,4 @@ Este vídeo contiene la información siguiente:
 * Configuración de una fuente
 * Qué tipo de fuente utilizar
 
->[!VIDEO](https://video.tv.adobe.com/v/33944?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

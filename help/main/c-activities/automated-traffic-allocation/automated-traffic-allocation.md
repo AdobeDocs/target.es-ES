@@ -11,7 +11,7 @@ ht-degree: 35%
 
 ---
 
-# Resumen de [!UICONTROL Auto-Allocate]
+# Información general de [!UICONTROL Auto-Allocate]
 
 Una actividad [!UICONTROL Auto-Allocate] en [!DNL Adobe Target] identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
@@ -51,7 +51,7 @@ En estas pruebas, la mayoría de los productos, incluido [!DNL Target], usan una
 
 Los siguientes términos pueden resultar útiles al tratar el tema de [!UICONTROL Auto-Allocate]:
 
-**Bandido multibrazo:** Un método de [bandido multibrazo](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} para la optimización equilibra el aprendizaje exploratorio con la explotación de ese aprendizaje.
+**Multi-armed bandit:** un método [multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje.
 
 ## Funcionamiento del algoritmo {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -83,7 +83,7 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 >
 >Si una actividad solo tiene dos experiencias, ambas recibirán el mismo tráfico hasta que [!DNL Target] encuentre una experiencia ganadora con un 75 % de confianza. En ese momento, dos tercios del tráfico se asignan al ganador y un tercio al perdedor. Después, cuando una experiencia alcanza el 95 % de confianza, el 90 % del tráfico se asigna al ganador y el 10 % al perdedor. [!DNL Target] siempre envía tráfico a la experiencia de &quot;pérdida&quot; para evitar falsos positivos al final (es decir, mantener cierta exploración).
 
-Después de activar una actividad [!UICONTROL Auto-Allocate], no se permiten las siguientes operaciones desde la interfaz de usuario de Target:
+Después de activar una actividad [!UICONTROL Auto-Allocate], no se permiten las siguientes operaciones desde la interfaz de usuario de Tar[!DNL]get:
 
 * Cambiar el modo “Asignación del tráfico” a “Manual”
 * Cambiar el tipo de la métrica de objetivo
@@ -239,11 +239,11 @@ Este vídeo incluye información sobre cómo configurar la asignación de tráfi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Creación de pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
+### Creando pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de Target. Se habla sobre [!UICONTROL Auto-Allocate] a partir del minuto 4:45.
+En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de Target. [!UICONTROL Auto-Allocate] se discute a partir del 4:45.
 
 * Crear una actividad A/B en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -45,7 +45,7 @@ Las notificaciones dinámicas son alertas de correo electrónico enviadas a clie
 
 >[!NOTE]
 >
->Debe registrarse para recibir estas alertas. Póngase en contacto con el Administrador de éxito de clientes (CSM) de [!DNL Adobe] o con el ejecutivo de cuentas (AE) de [!DNL Adobe] para iniciar el proceso de registro.
+>Debe registrarse para recibir estas alertas. Póngase en contacto con su [!DNL Adobe] Customer Success Manager (CSM) o con su [!DNL Adobe] Account Executive (AE) para iniciar el proceso de registro.
 
 Las ilustraciones siguientes son ejemplos de alerta de correo electrónico de notificaciones dinámicas:
 

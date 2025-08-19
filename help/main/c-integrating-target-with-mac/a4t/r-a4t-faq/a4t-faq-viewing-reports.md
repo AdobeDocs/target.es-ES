@@ -7,7 +7,7 @@ exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
 source-wordcount: '2539'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -43,7 +43,7 @@ Al usar [!DNL Target] impresiones y conversiones de actividad en [!DNL Analysis 
 ## Cuando se aplica un segmento de visita para una actividad [!DNL Target] específica, ¿por qué se devuelven experiencias no relacionadas? {#activity-segmentation}
 
 +++Respuesta
-La variable [!DNL Target] enviada a [!DNL Analytics] tiene un período de caducidad predeterminado de 90 días. (Nota: el Servicio de atención al cliente puede ajustar este periodo de caducidad si es necesario). A medida que los visitantes navegan por el sitio durante este período de caducidad, forman parte de muchas actividades [!DNL Target], que se acumulan en la dimensión.
+La variable de [!DNL Target] enviada a [!DNL Analytics] caduca, de forma predeterminada, en un plazo de 90 días. (Nota: el Servicio de atención al cliente puede ajustar este periodo de caducidad si es necesario). A medida que los visitantes navegan por el sitio durante este período de caducidad, forman parte de muchas actividades [!DNL Target], que se acumulan en la dimensión.
 
 Cuando segmenta para que una actividad esté presente en una visita, obtiene todas las experiencias que forman parte de esa actividad *además* de cualquier otra experiencia que persista en esa visita.
 
@@ -74,7 +74,7 @@ Tenga en cuenta lo siguiente:
 * Las métricas anteriores entran en déclencheur cuando un usuario cumple los requisitos para una actividad y el contenido se devuelve de [!DNL Target]. Esto no significa necesariamente que el usuario haya visto la oferta. Si una experiencia de actividad está por debajo del pliegue y el usuario no se desplaza hacia abajo en la página significa que [!DNL Target] proporcionó la oferta, pero el usuario no la vio.
 * [!UICONTROL Activity Impressions] (medido por [!DNL Target]) y [!UICONTROL Instances] (medido por [!DNL Analytics]) son iguales, a menos que haya varias llamadas de mbox en la misma página de la misma actividad. Esto hace que se cuenten varios [!UICONTROL Activity Impressions], pero solo un único [!UICONTROL Instance].
 
-Para obtener más información, consulte [Cómo configurar informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es) en *Tutorials de Adobe Target*.
+Para obtener más información, consulte [Cómo configurar informes de A4T en Analysis Workspace para actividades de segmentación automática](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=es) en *Tutoriales de Adobe Target*.
 
 +++
 
@@ -83,7 +83,7 @@ Para obtener más información, consulte [Cómo configurar informes de A4T en An
 +++Respuesta
 [!DNL Reports & Analytics] aplica un modelo de atribución del mismo contacto a las &quot;impresiones de actividad&quot; y a las &quot;conversiones de actividad&quot;, mientras que [!DNL Analysis Workspace] muestra las métricas sin procesar, que pueden aparecer infladas debido a la persistencia de la dimensión [!DNL Target].
 
-Para evaluar las métricas precisas [!UICONTROL Activity Impressions] y [!UICONTROL Activity Conversions] en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan [!UICONTROL Same Touch] modelos de atribución aplicados. Los modelos se pueden aplicar haciendo clic en el engranaje de configuración de columna, habilitando [!UICONTROL Non-default attribution models] y seleccionando [!UICONTROL Same Touch]. Obtenga más información acerca de la atribución en [Información general sobre la inteligencia de atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=es) en la *Guía de herramientas de Analytics*.
+Para evaluar las métricas precisas [!UICONTROL Activity Impressions] y [!UICONTROL Activity Conversions] en [!DNL Analysis Workspace], asegúrese de que ambas métricas tengan [!UICONTROL Same Touch] modelos de atribución aplicados. Los modelos se pueden aplicar haciendo clic en el engranaje de configuración de columna, habilitando [!UICONTROL Non-default attribution models] y seleccionando [!UICONTROL Same Touch]. Obtenga más información acerca de la atribución en [Información general sobre la inteligencia de atributos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) en la *Guía de herramientas de Analytics*.
 
 +++
 
@@ -97,7 +97,7 @@ Para evaluar las métricas precisas [!UICONTROL Activity Impressions] y [!UICONT
 ## ¿Por qué veo &quot;sin especificar&quot; en los informes de [!DNL Analytics]? ¿Qué quiere decir? {#unspecified}
 
 +++Respuesta
-En otros informes, &quot;sin especificar&quot; significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Los datos de la actividad suelen tardar entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se capturan y aparecen cuando se completa la clasificación.
+En otros informes, “sin especificar” significa que los datos no cumplían una regla de clasificación, pero esto no debería suceder nunca en A4T. Si ve “sin especificar”, aún no se ha ejecutado el servicio de clasificación. Los datos de la actividad suelen tardar entre 24 y 72 horas en aparecer en los informes. Aunque las actividades no aparecen en este informe hasta llegado ese momento, todos los datos de visitantes asociados a esas actividades se capturan y aparecen cuando se completa la clasificación.
 
 Tras el periodo de clasificación, los datos aparecen en estos informes aproximadamente una hora después de recabarse del sitio web. Todas las métricas, los segmentos y los valores de los informes proceden del grupo de informes que seleccionó cuando configuró la actividad.
 
@@ -108,7 +108,7 @@ Si la clasificación se realizó para esa actividad y aún ve una fila &quot;Sin
 ## ¿Por qué se envían [!DNL Target] métricas a [!DNL Analytics] incluso después de desactivar la actividad? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 +++Respuesta
-La variable [!DNL Target] enviada a [!DNL Analytics] tiene un período de caducidad predeterminado de 90 días. El Servicio de atención al cliente puede ajustar este periodo de caducidad si es necesario. Esta configuración es global para todas las actividades; sin embargo, no debe ajustarse para un caso.
+La variable de [!DNL Target] enviada a [!DNL Analytics] caduca, de forma predeterminada, en un plazo de 90 días. El Servicio de atención al cliente puede ajustar este periodo de caducidad si es necesario. Esta configuración es global para todas las actividades; sin embargo, no debe ajustarse para un caso.
 
 Puede ver [!DNL Target] variables enviadas a [!DNL Analytics] después del período de caducidad porque esta caduca a los 90 días, pero solo si ese usuario nunca ve otra actividad [!DNL Target] habilitada para A4T. Si un usuario regresa al sitio el día 45 y ve otra actividad, el contador del valor de la eVar de A4T se restablece a 90 días. Esto significa que la primera campaña del día 1 podría perdurar durante un total de 45 + 90 = 135 días. Si el usuario sigue regresando, es posible que llegue al punto en el que ve las métricas enviadas a [!DNL Analytics] en sus informes desde actividades mucho más antiguas. A medida que los usuarios eliminan las cookies y no regresan al sitio, los números de esa actividad disminuyen, pero aún puede verlos.
 
@@ -139,7 +139,7 @@ El usuario vuelve el 1 de marzo y ve una actividad nueva: ABC. Esta vez también
 | XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
-El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. La caducidad de 90 días de ese primer valor de eVar se restablece el 1 de abril, por lo que verá eso en los informes. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
+El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. La caducidad de 90 días de ese primer valor de eVar se restablece el 1 de abril, por lo que podrá verlo en los informes. Se atribuye el origen de la conversión a todas las actividades de Target que el usuario ve, pero el número total de conversiones se desduplica:
 
 | Nombre de la actividad | Instancias (impresiones) | Vistas de páginas | Visitas | Visitantes únicos | Pedidos |
 |--- |--- |--- |--- |--- |--- |
@@ -149,7 +149,7 @@ El usuario regresa el 1 de abril, ve otras cinco páginas y realiza una compra. 
 
 Dado que ambas experiencias se vieron antes de la conversión, ambas reciben &quot;crédito&quot; por el pedido. Sin embargo, en el sistema solo se ha efectuado un pedido y esto se refleja en el total. Para la creación de informes de [!DNL Target], ya que no va a colocar una actividad de [!DNL Target] en otra actividad para ver cuál tiene más éxito, no importa que todas las actividades que vio el usuario obtengan crédito. Está comparando los resultados de dos elementos dentro de la misma actividad. Un usuario no puede ver diferentes experiencias en la misma actividad para que no tenga que preocuparse por la contaminación cruzada del crédito de pedidos.
 
-Para obtener más información, consulte [Variables de conversión (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=es)) en la *Guía de administración de Analytics*.
+Para obtener más información, consulte [Variables de conversión (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) en la *Guía de administración de Analytics*.
 
 +++
 
@@ -221,7 +221,7 @@ Tenga en cuenta lo siguiente al ver los informes de [!DNL Analytics]:
 Para ver impresiones de actividad en [!DNL Analysis Workspace]:
 
 1. En la interfaz de usuario de [!DNL Target], haga clic en **[!UICONTROL View in Analytics]**.
-1. Agregar la columna **[!UICONTROL Activity Impressions]** al informe [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es){target=_blank}.
+1. Agregar la columna **[!UICONTROL Activity Impressions]** al informe [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
 1. En la columna **[!UICONTROL Activity Impressions]**, haga clic en el icono [!UICONTROL Gear].
 1. Haga clic en **[!UICONTROL Use non-default attribution model]**.
 1. Seleccione **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.

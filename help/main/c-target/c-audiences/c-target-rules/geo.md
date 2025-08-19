@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -164,7 +164,7 @@ Debido a la forma en que AOL proporciona su tráfico, [!DNL Target] solo puede d
 ### ¿Cómo se asignan los territorios, como Puerto Rico y Hong Kong, a la estructura de targeting geográfico?
 
 +++Ver detalles
-Puerto Rico, Hong Kong y otros territorios se tratan como valores de &quot;País&quot; independientes.
+Puerto Rico, Hong Kong y otros territorios se tratan como valores de “País” independientes.
 
 +++
 

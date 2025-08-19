@@ -1,6 +1,6 @@
 ---
 keywords: varias páginas;prueba de trayecto;actividad de varias páginas
-description: Aprenda a crear una actividad de varias páginas en el Adobe  [!DNL Target] le permite crear una historia en varias páginas, con un diseño que es específico de cada página.
+description: Aprenda a crear una actividad de varias páginas en Adobe [!DNL Target] le permite crear una historia en varias páginas, con un diseño que es específico de cada página.
 title: ¿Cómo se crea una actividad de varias páginas?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545

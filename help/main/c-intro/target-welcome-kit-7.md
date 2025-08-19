@@ -51,7 +51,7 @@ Cuando se le ocurra una idea que probar, tenga en cuenta que debería poder expl
 
 ## Planificación de la actividad con el planificador de actividades
 
-Hemos incluido [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) como PDF independiente que puedes guardar y usar una y otra vez. Haga clic en el vínculo para ver el archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
+Hemos incluido [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) como un PDF independiente que puedes guardar y usar una y otra vez. Haga clic en el vínculo para ver el archivo PDF. Haga clic con el botón derecho para descargar el archivo PDF.
 
 Para ejecutar una actividad efectiva, debe rellenar cada área del planificador. Utilice esta herramienta para que usted y otros piensen en ideas para las actividades de prueba y personalización.
 

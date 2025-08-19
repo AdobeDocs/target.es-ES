@@ -2,13 +2,13 @@
 keywords: Recommendations;introducción;seminario web;demostración
 description: Conozca las actividades de Recommendations en Adobe  [!DNL Target]  que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 title: ¿Qué son las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '2086'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -183,17 +183,17 @@ De serie, [!DNL Target] incluye un portafolio de algoritmos.
 * **Los algoritmos personalizados** incluyen filtros de colaboración de perfil mejorado, Vistos recientemente y Afinidad del sitio.
 * **Los algoritmos propios** le permiten utilizar sus propios algoritmos personalizados.
 
-### Reglas de negocios en línea
+### Reglas empresariales en línea
 
-El último paso es aplicar reglas de negocio en línea. Aquí es donde puede potenciar los algoritmos con conocimientos de dominio y contexto actual según lo que haga el visitante en su propiedad digital.
+El último paso es aplicar reglas empresariales en línea. Aquí es donde puede potenciar los algoritmos con conocimientos de dominio y contexto actual según lo que haga el visitante en su propiedad digital.
 
-![Ilustración de reglas comerciales en línea](/help/main/c-recommendations/assets/intro-18.png)
+![Ilustración de reglas empresariales en línea](/help/main/c-recommendations/assets/intro-18.png)
 
 Por ejemplo, en el contexto de contenido, es posible que quiera excluir películas que el visitante haya visto anteriormente, recomendar películas por el mismo director o impulsar películas en el mismo género. En el contexto de los comercios minoristas, es posible que quiera excluir productos de los que no tiene existencias, mostrar artículos en un rango de precios de 5 a 500 dólares o aumentar el número de elementos de la misma marca.
 
 ## Demostración
 
-Después de completar las tareas ilustradas en el canal de recomendaciones descrito arriba, se le deja con la recomendación final. Si desea ver una demostración del producto dentro de [!DNL Target], la demostración comienza a las 21:00 en el *Seminario web de funciones básicas de Adobe Target*, y tiene el vínculo a continuación.
+Después de completar las tareas ilustradas en el canal de recomendaciones descrito arriba, se le deja con la recomendación final. Para ver una demostración del producto dentro de [!DNL Target], la demostración comienza a las 21:00 en el *Seminario web de conceptos básicos de Adobe Target*, y tiene el vínculo a continuación.
 
 ## Seminario web de conceptos básicos de Adobe [!DNL Target]: Introducción a Recommendations {#intro-to-recs}
 

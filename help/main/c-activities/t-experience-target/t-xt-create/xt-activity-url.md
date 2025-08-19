@@ -23,7 +23,7 @@ ht-degree: 38%
    >
    >De manera predeterminada, el VEC o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) abre la página que se ha especificado en la [configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
    >
-   >Si especifica una dirección URL para un sitio que no incluye una biblioteca JavaScript [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es){target=_blank}, no podrá seleccionar elementos de página.
+   >Si especifica una dirección URL para un sitio que no incluye una biblioteca JavaScript [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, no podrá seleccionar elementos de página.
 
 1. (Condicional) Para mostrar una página diferente después de que se abra el VEC, haga clic en **[!UICONTROL Configure]**, seleccione **[!UICONTROL Page Delivery]** y, a continuación, especifique la dirección URL en el campo [!UICONTROL URL].
 

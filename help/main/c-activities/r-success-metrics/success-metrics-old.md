@@ -1,6 +1,6 @@
 ---
 keywords: Segmentación;éxito;métrica de conversión;métrica de puntuación de página;métrica de vistas de página;métricas de ingresos;métrica de tiempo en el sitio;valor estimado;configuración avanzada;métricas de éxito;configuración avanzada;dependencia;dependiente;Aumentar recuento y mantener al usuario en la actividad;Aumentar recuento, liberar usuario y permitir la reentrada;Recuento de incrementos, liberar usuario y bloquear su reentrada
-description: Obtenga información acerca de las métricas de éxito en Adobes [!DNL Target]  que le ayudarán a determinar el éxito de una actividad. Las métricas de éxito incluyen Conversión, Ingresos, Vistas de página, Puntuación personalizada y Tiempo en el sitio.
+description: Obtenga información acerca de las métricas de éxito en Adobe [!DNL Target] que le ayudarán a determinar el éxito de una actividad. Las métricas de éxito incluyen Conversión, Ingresos, Vistas de página, Puntuación personalizada y Tiempo en el sitio.
 title: ¿Qué son las métricas de éxito?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24

@@ -1,13 +1,13 @@
 ---
 keywords: biblioteca de contenido;recursos;anotar;copiar;eliminar recurso;descargar recurso;editar contenido;compartir tarjeta;ver propiedades de contenido
-description: Obtenga información sobre cómo administrar ofertas de código e imagen en la biblioteca de ofertas Adobe [!DNL Target] Ofertas. Obtenga información sobre cómo ver los detalles de una oferta y cómo editar, copiar, mover o eliminar ofertas.
+description: Obtenga información sobre cómo administrar ofertas de código e imagen en la biblioteca de ofertas de Adobe [!DNL Target] Ofertas. Obtenga información sobre cómo ver los detalles de una oferta y cómo editar, copiar, mover o eliminar ofertas.
 title: ¿Cómo se trabaja con contenido en la biblioteca de ofertas?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -86,7 +86,7 @@ La siguiente ilustración muestra los iconos de desplazamiento al ver [!UICONTRO
 
 Este vídeo incluye información sobre la administración de contenido. (4:56)
 
-* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=es) y la biblioteca de contenido de Target
+* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) y la biblioteca de contenido de Target
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 

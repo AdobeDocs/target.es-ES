@@ -1,6 +1,6 @@
 ---
 keywords: Audiencias de Experience Cloud;audiencias
-description: Descubra cómo las Audiencias de Adobe Experience Cloud permiten que las soluciones de Experience Cloud se comuniquen y compartan información sobre los visitantes de un sitio web con otras soluciones de Adobe.
+description: Descubra cómo las audiencias de Adobe Experience Cloud permiten que las soluciones de Experience Cloud se comuniquen y compartan información sobre los visitantes de un sitio web con otras soluciones de Adobe.
 title: ¿Cómo utilizo las audiencias de Adobe Experience Cloud en Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
@@ -26,4 +26,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * Explorar el panel de administración de [!DNL Adobe Experience Cloud] (AEC)
 * Enumerar los requisitos para el identificador de [!DNL Experience Cloud] (ECID)
 
->[!VIDEO](https://video.tv.adobe.com/v/3421748?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/35152)

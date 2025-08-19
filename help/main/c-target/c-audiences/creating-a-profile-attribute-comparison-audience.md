@@ -7,7 +7,7 @@ exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Por ejemplo, supongamos que trabaja para una empresa de muebles y ha cargado dos
 
 Podría crear una audiencia definida como que la inclinación a comprar mobiliario de comedor es mayor que la inclinación a comprar mobiliario de salón. [!DNL Target] compararía dinámicamente las puntuaciones de inclinación de los comedores y las salas de estar de un visitante específico para determinar si ese visitante cumple los requisitos para esta audiencia.
 
-Para obtener más información, vea [Métodos para obtener datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
+Para obtener más información, consulte [Métodos para obtener datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
 
 ## Crear una audiencia de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
@@ -65,4 +65,4 @@ Para obtener más información, vea [Métodos para obtener datos en Target](http
 
 Vea el siguiente vídeo para obtener más información y ver un caso en el que podría utilizar esta función:
 
->[!VIDEO](https://video.tv.adobe.com/v/328109?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

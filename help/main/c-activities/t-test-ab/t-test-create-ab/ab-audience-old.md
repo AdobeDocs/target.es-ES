@@ -1,13 +1,13 @@
 ---
 keywords: audiencia;seleccionar audiencia;elegir audiencia;selectores
-description: La audiencia determina qué visitantes del sitio participan en su actividad de Adobe [!DNL Target] e.
+description: La audiencia determina qué visitantes del sitio participan en su actividad de Adobe [!DNL Target] s.
 title: ¿Cómo selecciono una audiencia en una actividad  [!DNL Target] A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 64%
+ht-degree: 62%
 
 ---
 
@@ -58,7 +58,7 @@ La audiencia determina qué visitantes del sitio participan en su actividad [!DN
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Uso de audiencias en Adobe Target (6:21) ![Distintivo de información general](/help/main/assets/overview.png)
+### Uso de audiencias en Adobe Target (6:21) ![distintivo de información general](/help/main/assets/overview.png)
 
 En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
 
@@ -68,7 +68,7 @@ En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Pr
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### Flujo de trabajo de actividad - Segmentación (2:14) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 

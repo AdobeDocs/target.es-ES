@@ -11,7 +11,7 @@ ht-degree: 45%
 
 ---
 
-# Variaciones de datos previstas entre el Adobe [!DNL Target] y Adobe Analytics al utilizar y no utilizar A4T
+# Variaciones de datos previstas entre Adobe [!DNL Target] y Adobe Analytics al utilizar y no utilizar A4T
 
 Información sobre variaciones de datos previstas entre [!DNL Target] y Adobe [!DNL Analytics] al *usar* y *no* usar Analytics como Fuente de informes (A4T). A4T reduce considerablemente la variación de datos.
 
@@ -25,7 +25,7 @@ Estos son algunos escenarios en los que puede experimentar variaciones de datos 
 
   Si se configura una prueba de redirección en Target para dividir el tráfico 50/50 (o 25/25/25/25, etc.), es posible que el comportamiento del usuario no se divida uniformemente. Si ve una división desigual, simplemente significa que un grupo de usuarios falló en la ejecución de una llamada de Analytics en la página de aterrizaje más que los demás grupos. Este error al ejecutar la llamada de Analytics para un grupo provocó que se excluyera la visita de Target para ese usuario, lo que crea uniformidad.
 
-  Adobe espera abordar este problema en el futuro, a medida que los equipos de Adobe trabajen para A4T en Adobe Experience Platform. Los equipos de Adobe están determinando cómo gestionar estos diferentes eventos en diferentes momentos en la página.
+  Adobe espera abordar este problema en el futuro, a medida que los equipos de Adobe trabajen en A4T en Adobe Experience Platform. Los equipos de Adobe están determinando cómo gestionar estos diferentes eventos en diferentes momentos en la página.
 
 ## Variaciones de datos previstas al *no usar* A4T {#expected-not-using-a4t}
 
@@ -35,7 +35,7 @@ Aunque los datos reales pueden variar de forma muy considerable, las tendencias 
 
 [!DNL Analytics] emplea un sistema basado en visitas y transacciones, mientras que usa métricas basadas en visitantes. [!DNL Target] Cada vez que un visitante abre una página, se cuenta como una visita en [!DNL Analytics], pero [!DNL Target] no cuenta la visita hasta que se cumplen las condiciones establecidas en la actividad.
 
-Los informes de [!DNL Target] muestran el rendimiento según el mbox de conversión seleccionado al definir la actividad. Sin embargo, estos datos de mbox de conversión no se envían a [!DNL Analytics], que tiene sus propias variables de conversión definidas según la implementación de etiquetado de [!DNL Analytics]. Cuando se esperan datos idénticos (por ejemplo, si el pedido de un minorista confirma que la página contiene un mbox de conversión y un evento de compra de [!DNL Analytics]), los datos pueden diferir debido a la colocación de estas etiquetas. En general, las tendencias en los informes de los dos productos son similares.
+Los informes de [!DNL Target] muestran el rendimiento según el mbox de conversión seleccionado al definir la actividad. Sin embargo, estos datos de mbox de conversión no se envían a [!DNL Analytics], que tiene sus propias variables de conversión definidas según la implementación de etiquetado de [!DNL Analytics]. Si se esperan datos idénticos (por ejemplo, si el pedido de una retailer confirma que la página contiene un mbox de conversión y un evento de compra de [!DNL Analytics]), los datos pueden diferir debido a la colocación de estas etiquetas. En general, las tendencias en los informes de los dos productos son similares.
 
 Las variaciones de datos previstas pueden estar originadas por variaciones de índole tanto técnica como empresarial.
 

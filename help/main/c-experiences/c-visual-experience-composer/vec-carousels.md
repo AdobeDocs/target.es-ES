@@ -1,6 +1,6 @@
 ---
 keywords: Compositor de experiencias visuales;VEC;carrusel
-description: Aprenda a crear un carrusel que se pueda editar en el Adobe  [!DNL Target] Compositor de experiencias visuales (VEC).
+description: Aprenda a crear un carrusel que se pueda editar en el  [!DNL Target] Compositor de experiencias visuales (VEC) de Adobe.
 title: ¿Cómo se crean carruseles en el Compositor de experiencias visuales?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a

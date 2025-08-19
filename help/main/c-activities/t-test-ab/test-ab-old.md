@@ -7,7 +7,7 @@ exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 25%
+ht-degree: 24%
 
 ---
 
@@ -31,7 +31,7 @@ Al configurar la prueba A/B, puede determinar el porcentaje de visitantes que ve
 >
 >Para obtener información detallada sobre cómo determinar el tamaño de muestra óptimo para una prueba A/B, consulte [Planificación de la prueba A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md).
 
-Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más ubicaciones, es aconsejable realizar una [prueba MVT](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estas áreas son las ubicaciones en las que el experto en marketing debe centrarse. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es la ubicación más importante para lograr sus objetivos. Después de determinar qué ubicaciones y contenido son más útiles para alcanzar sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados. Por ejemplo, para probar dos imágenes específicas una contra la otra o para comparar las palabras o los colores de una llamada a la acción. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
+Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más ubicaciones, es aconsejable realizar una [prueba MVT](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estas áreas son las ubicaciones en las que el experto en marketing debe centrarse. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es la ubicación más importante para lograr sus objetivos. Después de determinar qué ubicaciones y contenido son más útiles para alcanzar sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados. Por ejemplo, para probar dos imágenes específicas entre sí o para comparar las palabras o los colores de un call to action. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
 ## Tipos de actividades de prueba A/B {#types}
 
@@ -43,7 +43,7 @@ Además de la actividad [!UICONTROL A/B Test] manual (que se describe en esta se
 | [!UICONTROL Auto-Allocate] | Identifica un ganador entre dos o más experiencias y luego redirige el tráfico hacia el ganador para aumentar las conversiones mientras la prueba se ejecuta y aprende.<P>Para obtener más información sobre las ventajas de usar una actividad [!UICONTROL Auto-Allocate], consulte [Asignación automática](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) en *Cuánto tiempo se debe ejecutar una prueba A/B* y [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
 | ![Insignia premium](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | Utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing. A continuación, se ofrece a los visitantes la experiencia más adaptada en función de sus perfiles de cliente individuales y de los comportamientos anteriores de visitantes similares.<P>Para obtener más información, consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
-Para obtener más información sobre cuál de estas [!UICONTROL A/B Test] actividades es la adecuada para usted, consulte el [PDF interactivo de la Guía de actividades de Adobe Target](/help/main/c-activities/target-activities-guide.md).
+Para obtener más información sobre cuál de estas [!UICONTROL A/B Test] actividades es la adecuada para usted, consulte la [Guía de actividades de Adobe Target PDF](/help/main/c-activities/target-activities-guide.md).
 
 Los pasos para crear los tres tipos de actividades [!UICONTROL A/B Test] son similares. Para crear una actividad [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], comience por [crear una actividad de prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), pero cuando llegue a la página [!UICONTROL Targeting], elija el método de asignación de tráfico que desee, como se muestra a continuación:
 
@@ -58,7 +58,7 @@ Puede incluir recomendaciones dentro de las actividades [!UICONTROL A/B Test], [
 
 Esta funcionalidad requiere que tengas una [licencia de Target Premium](/help/main/c-intro/intro.md#premium)
 
-## Vídeo de aprendizaje: Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
+## Vídeo de formación: Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
 
 En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium].
 
@@ -66,4 +66,4 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

@@ -1,6 +1,6 @@
 ---
 keywords: Segmentación;fuentes de tráfico;fuentes de tráfico de Target;motor de búsqueda Target;motor de búsqueda;página de destino;página de destino Target;página de destino de referencia
-description: Aprenda a crear audiencias en el Adobe  [!DNL Target]  para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
+description: Aprenda a crear audiencias en Adobe [!DNL Target]  para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 title: ¿Puedo segmentar visitantes según el motor de búsqueda o el sitio de referencia?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
@@ -15,12 +15,12 @@ ht-degree: 53%
 
 Cree audiencias en [!DNL Adobe Target] para segmentar visitantes en función del motor de búsqueda o de la página de aterrizaje que les lleve a su sitio.
 
-Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de aterrizaje de referencia del visitante. La página de aterrizaje de referencia es la página en la que el visitante hace clic para llegar al sitio actual de la sesión. (Por ejemplo, si el visitante hace clic en un anuncio que se encuentra en Google y se le dirige a la página principal de `adobe.com`, entonces la página de aterrizaje de referencia es `google.com`).
+Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la página de destino de referencia del visitante. La página de destino de referencia es la página en la que el visitante hace clic para llegar al sitio actual de la sesión. (Por ejemplo, si el visitante hace clic en un anuncio que se encuentra en Google y se le dirige a la página principal de `adobe.com`, entonces la página de destino de referencia es `google.com`).
 
 Puede combinar varias fuentes de tráfico para crear una regla de segmentación compleja.
 
 1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. &#x200B;
+1. 
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastre y suelte **[!UICONTROL Traffic Sources]** en el panel del generador de audiencias.
 
@@ -41,7 +41,7 @@ Puede combinar varias fuentes de tráfico para crear una regla de segmentación 
 1. (Opcional) Configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Done]**.
 
-Puede segmentar usuarios dirigidos a su sitio por un motor de búsqueda específico o desde una página de aterrizaje concreta.
+Puede segmentar usuarios dirigidos a su sitio por un motor de búsqueda específico o desde una página de destino concreta.
 
 ## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/main/assets/overview.png)
 

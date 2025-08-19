@@ -1,8 +1,8 @@
 ---
 keywords: recomendaciones;actividad de recomendaciones;criterios;algoritmo;clave de recomendación;clave personalizada;sector comercial;minorista;comercio electrónico;generación de posibles clientes;b2b;servicios financieros;medios;publicación
-description: Aprenda a utilizar los criterios en el Adobe  [!DNL Target] [!DNL Recommendations].
+description: Aprenda a utilizar criterios en Adobe [!DNL Target] [!DNL Recommendations].
 title: ¿Cómo se usan los criterios en  [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -74,7 +74,7 @@ Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la 
 
 ## Visualización de información de criterios {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-Para ver los detalles de los criterios de una tarjeta emergente, pase el cursor sobre una tarjeta y haga clic en el icono Información sin necesidad de abrir los criterios.
+Para ver los detalles de los criterios de una tarjeta emergente, pase el puntero por encima de una tarjeta y haga clic en el icono Información sin necesidad de abrir los criterios.
 
 ![Mantener el puntero encima de la tarjeta de criterios](/help/main/c-recommendations/c-algorithms/assets/criteria_hover.png)
 

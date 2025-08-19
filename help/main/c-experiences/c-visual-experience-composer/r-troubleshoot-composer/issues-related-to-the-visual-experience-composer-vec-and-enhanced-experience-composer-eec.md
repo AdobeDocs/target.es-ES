@@ -7,7 +7,7 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -114,7 +114,7 @@ De forma predeterminada, el VEC bloquea los elementos de JavaScript. Puede traba
 ## Al cambiar un elemento de la página, se cambian varios elementos. (VEC y EEC)   {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Detalles
-Si se utiliza el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de esos elementos se cambian todos los elementos con ese ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta práctica es una práctica recomendada estándar de HTML. Para obtener más información, consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta práctica es una práctica recomendada estándar de HTML. Para obtener más información, consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
@@ -132,7 +132,7 @@ Este problema se puede solucionar habilitando [!UICONTROL Enhanced Experience Co
 ## Deseo configurar pruebas en páginas que aún no tengan la implementación de mbox/[!DNL Target] completada. (VEC y EEC)   {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Detalles
-Consulte &quot;No puedo modificar experiencias desde un sitio con eliminación de iframes&quot; (arriba).
+Consulte “No puedo modificar experiencias desde un sitio con eliminación de iFrames” (arriba).
 
 +++
 
@@ -155,6 +155,6 @@ Si ve este problema, haga lo siguiente:
 ## Para las actividades de Personalización automatizada, el intercambio de imágenes aparece dañado en el VEC o EEC. (VEC y EEC)   {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Detalles
-Añadir una oferta de imagen a una ubicación toma la dimensión completa del espacio de imagen original en el VEC o EEC. Cuando se muestra, la imagen no se expande y se muestra tal cual, así que no produce ningún impacto en la publicación.
+Si agrega una oferta de imagen a una ubicación, en el VEC o EEC se ocupa la dimensión completa del espacio de la imagen original. Cuando se muestra, la imagen no se expande y se muestra tal cual, así que no produce ningún impacto en la publicación.
 
 +++

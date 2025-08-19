@@ -7,7 +7,7 @@ exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ En este tema encontrará respuestas a preguntas que se plantean a menudo sobre l
 ## ¿Qué tipos de actividades son compatibles con [!DNL Analytics] como fuente de informes (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++Respuesta
-Para obtener una lista completa, consulte &quot;Tipos de actividades compatibles&quot; en [Adobe Analytics as a Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+Para obtener una lista completa, consulte “Tipos de actividades compatibles” en [Adobe Analytics como Fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 +++
 

@@ -128,4 +128,4 @@ En este vídeo se muestra cómo planificar y crear una prueba multivariable medi
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

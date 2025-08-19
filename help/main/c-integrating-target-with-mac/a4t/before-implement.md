@@ -19,7 +19,7 @@ Antes de decidir utilizar esta integración, revise las siguientes secciones y t
 
 >[!NOTE]
 >
->Este artículo se aplica solo a las implementaciones de at.js. Para obtener información acerca de la implementación de [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vea el registro de [Adobe Analytics for Target (A4T) en Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=es){target=_blank}.
+>Este artículo se aplica solo a las implementaciones de at.js. Para obtener información acerca de la implementación de [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vea el registro de [Adobe Analytics for Target (A4T) en Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Requisitos de implementación {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -83,7 +83,7 @@ El aumento de la latencia comienza después de implementar el servicio de ID de 
 
 Todas las llamadas de [!DNL Target] utilizadas por una actividad de A4T para entregar contenido o registrar la métrica de objetivo deben tener una visita de [!DNL Analytics] correspondiente que comparta el ID suplementario para A4T para funcionar correctamente.
 
-Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) como el parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
+Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) como el parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
 
 * Se ha implementado el servicio de ID de visitante.
 

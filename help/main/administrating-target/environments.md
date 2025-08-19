@@ -7,8 +7,8 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 47%
+source-wordcount: '653'
+ht-degree: 46%
 
 ---
 
@@ -50,7 +50,7 @@ Para establecer el entorno predeterminado en la creación de informes:
 >
 >Los usuarios de [!DNL Recommendations] deben volver a generar la base de datos de comportamiento y la base de datos de producto si los hosts se cambian de grupo de hosts.
 >
->Si especifica un entorno [predeterminado en un [!DNL Adobe Experience Platform] conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es#target){target=_blank}, esta configuración anula la configuración de [!DNL Target].
+>Si especifica un entorno [predeterminado en un [!DNL Adobe Experience Platform] conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, esta configuración anula la configuración de [!DNL Target].
 
 ## Cambiar el nombre de un entorno {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -69,7 +69,7 @@ Puede eliminar un entorno que ya no vaya a necesitar.
 >
 >No puede eliminar el entorno [!UICONTROL Production], pero puede cambiarle el nombre.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."} Recommendations: filtrar colecciones y exclusiones por entorno (grupo de hosts)
 
 Puede obtener una vista previa del contenido de las colecciones y exclusiones de Recommendations para un entorno seleccionado (grupo de hosts).
 

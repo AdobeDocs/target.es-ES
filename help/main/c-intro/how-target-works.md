@@ -6,7 +6,7 @@ feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2214'
 ht-degree: 24%
 
 ---
@@ -35,12 +35,12 @@ Target se integra con los sitios web que utilizan [!DNL Experience Platform Web 
 >
 >La biblioteca mbox.js es una implementación heredada para [!DNL Target] y ya no es compatible a partir del 31 de marzo de 2021. Actualice a [!UICONTROL Experience Platform Web SDK] (preferido) o a la última versión de at.js.
 
-Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
+Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
 * Extensión de [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
-* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que un visitante solicita una página optimizada para [!DNL Target], se envía una solicitud en tiempo real al sistema de segmentación para determinar el contenido que se va a servir. Esta solicitud se realiza y se completa cada vez que se carga una página, regida por actividades y experiencias controladas por expertos en marketing. El contenido está dirigido a visitantes de sitio individuales, lo que maximiza las tasas de respuesta, las tasas de adquisición y los ingresos. El contenido personalizado ayuda a garantizar que los visitantes respondan, interactúen o realicen compras.
 
@@ -134,7 +134,7 @@ Una &quot;Edge&quot; es una arquitectura de servidores distribuidos geográficam
 
 Para mejorar los tiempos de respuesta, Edge [!DNL Target] almacena solo la lógica de la actividad, los perfiles en caché y la información de las ofertas.
 
-Las bases de datos de actividades y contenido, los datos de [!DNL Analytics], las API y las interfaces de usuario de los especialistas en marketing se hospedan en [!DNL Adobe] clústeres centrales. Las actualizaciones se envían a [!DNL Target] Edges, que se sincronizan automáticamente con los clústeres centrales para actualizar de forma continua los datos de actividades en caché. Todo el modelado 1:1 también se almacena en cada Edge, lo que permite que las solicitudes complejas se procesen localmente.
+Las bases de datos de actividades y contenido, los datos de [!DNL Analytics], las API y las interfaces de usuario de los especialistas en marketing se hospedan en [!DNL Adobe] clústeres centrales. Las actualizaciones se envían a [!DNL Target] Edges, que se sincronizan automáticamente con los clústeres centrales para actualizar de forma continua los datos de actividades en caché. Todo el modelado de 1:1 también se almacena en cada Edge, lo que permite que las solicitudes complejas se procesen localmente.
 
 Cada clúster de Edge contiene toda la información necesaria para responder a las solicitudes de contenido de los visitantes y realizar un seguimiento de los datos de análisis. Las solicitudes de los visitantes se dirigen al clúster de Edge más próximo.
 
@@ -172,7 +172,7 @@ El servicio de [!DNL Target Recommendations] está alojado en un centro de datos
 >
 >[!DNL Target] carece actualmente de un clúster de Edge en China, lo que limita el rendimiento del visitante para [!DNL Target] clientes en la región. El cortafuegos y la ausencia de clústeres de Edge pueden afectar a las experiencias del sitio, lo que provoca una lentitud de procesamiento y tiempos de carga de las páginas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la interfaz de usuario de creación de [!DNL Target].
 
-Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -223,7 +223,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
   Considere lo que la prueba ha cambiado. Las actualizaciones menores, como los colores de los botones, no afectan a las clasificaciones orgánicas. Sin embargo, los cambios de texto deben estar codificados.
 
-  Además, considere la accesibilidad de la página que está probando. Si la página no es accesible para los motores de búsqueda y nunca tuvo la intención de clasificarse en la búsqueda orgánica, estas consideraciones no se aplican. Un ejemplo es una página de aterrizaje dedicada para una campaña de correo electrónico.
+  Además, considere la accesibilidad de la página que está probando. Si la página no es accesible para los motores de búsqueda y nunca tuvo la intención de clasificarse en la búsqueda orgánica, estas consideraciones no se aplican. Un ejemplo es una página de destino dedicada para una campaña de correo electrónico.
 
 Desde Google afirman que estas directrices “harán que las pruebas tengan un impacto mínimo o nulo en los resultados de búsqueda del sitio”.
 

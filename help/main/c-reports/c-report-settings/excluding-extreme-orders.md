@@ -1,6 +1,6 @@
 ---
 keywords: Target;informes;configuración de informes;pedidos extremos;valores extremos
-description: Aprenda a excluir los valores extremos para que no afecten a los informes en el Adobe  [!DNL Target] , de modo que algunos pedidos inusuales no afecten a los resultados de la actividad.
+description: Aprenda a excluir los valores extremos de los informes que se ven afectados en Adobe [!DNL Target] para que algunos pedidos inusuales no afecten a los resultados de la actividad.
 title: ¿Cómo se excluyen los valores extremos en los informes?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74

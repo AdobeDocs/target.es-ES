@@ -1,6 +1,6 @@
 ---
 keywords: Target;informes;configuración de informes;entorno;alza;límite de alza;variación;confianza;control
-description: Aprenda a interpretar los informes de Adobe  [!DNL Target] que incluyen puntos de datos y representaciones de visualización para ayudarle a comprender los límites de alza y el nivel de confianza de sus actividades.
+description: Aprenda a interpretar los informes de Adobe [!DNL Target] , que incluyen puntos de datos y representaciones de visualización, para ayudarle a comprender los límites de crecimiento y el nivel de confianza de sus actividades.
 title: ¿Cómo puedo ver el promedio de alza, los límites de alza y el intervalo de confianza?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323

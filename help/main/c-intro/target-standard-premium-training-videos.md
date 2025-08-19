@@ -7,7 +7,7 @@ exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ Hay vídeos disponibles en las siguientes categorías:
 * Implementación y resolución de problemas
 * Casos prácticos de marketing
 
-## Incrustado en la Ayuda del Adobe [!DNL Target] {#section_53C618334E974FB89B3F093DEF789CCB}
+## Incrustado en la Ayuda de Adobe [!DNL Target] {#section_53C618334E974FB89B3F093DEF789CCB}
 
 Los vídeos de capacitación están insertados en apartados relevantes de esta guía. Haga clic en la imagen del vídeo para reproducirlo sin salir de la Ayuda.
 
@@ -35,7 +35,7 @@ Encontrará una colección de vídeos y tutoriales explicativos sobre las capaci
 
 ![Vídeos de Experience League](/help/main/c-intro/assets/experience-league.png)
 
-## Adobe [!DNL Target] Tutorials {#tutorials}
+## Tutoriales de Adobe [!DNL Target]  {#tutorials}
 
 Puede encontrar desde instrucciones en vídeo a conceptos y herramientas de [!DNL Target] disponibles en la página [Tutoriales de Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es).
 

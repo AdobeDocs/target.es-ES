@@ -2,7 +2,7 @@
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
 description: Aprenda a integrar el correo electrónico con la API de entrega de Adobe [!DNL Target Recommendations], including using the [!DNL Target] , las plantillas de rawbox y las plantillas de solo descarga.
 title: ¿Cómo puedo integrar Recommendations con el correo electrónico?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
@@ -78,7 +78,7 @@ El elemento `clientcode` es su código de cliente de [!DNL Target]
 >
 >Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil.
 
-Consulte [Documentación de la API de envío](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=es){target=_blank} para obtener más información.
+Consulte la [documentación de la API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=es){target=_blank} para obtener más información.
 
 ## Método 2: usar una plantilla de correo electrónico de rawbox {#rawbox}
 

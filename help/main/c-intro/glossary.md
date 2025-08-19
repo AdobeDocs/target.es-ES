@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Definición de términos.
 
-## Una {#section_02E8CD217BFC42D288C8A9CBFC215E46}
+## A {#section_02E8CD217BFC42D288C8A9CBFC215E46}
 
 **Prueba A/B**
 
@@ -70,7 +70,7 @@ La Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendiz
 
 Realiza pruebas y un seguimiento de las visitas e los anuncios y otro contenido ajeno al sitio. Los anuncios basados en el comportamiento también se pueden usar para identificar al mismo usuario dentro del sitio y fuera de él, y ofrecer una experiencia coherente en la web.
 
-## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaña**
 
@@ -138,11 +138,11 @@ Permite a las aplicaciones de Internet enriquecidas (RIA) manipular el código H
 
 Utiliza la tecnología de página dinámica para transmitir los valores a la oferta.
 
-## E {#section_55C3D8AF3D31494784C70090D8343244}
+## E  {#section_55C3D8AF3D31494784C70090D8343244}
 
 **participación**
 
-Medición del interés de un visitante en un sitio, según el tiempo que ha permanecido en el mismo, las conversiones y otras métricas de participación.
+Medición del interés de un visitante en un sitio, según el tiempo que ha permanecido en el mismo, los clics, las conversiones y otras métricas de participación.
 
 **compositor de experiencias mejorado**
 
@@ -172,7 +172,7 @@ Oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en un
 
 Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
-## F {#section_45450032955C4DD2B607B85A23C4E21A}
+## F  {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **fuente**
 
@@ -186,7 +186,7 @@ Representación visual de una actividad en Target Standard.
 
 Una interfaz no visual de creación de ofertas y experiencias que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Automated Personalization y actividades de Recommendations cuando Visual Experience Compositor no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
-## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **parámetro de ubicación geográfica**
 
@@ -196,7 +196,7 @@ Le permite segmentar actividades y experiencias en función de la ubicación geo
 
 La conversión o el resultado que indica el éxito de una actividad. La práctica recomendada es no ejecutar nunca una prueba sin tener como objetivo mejorar de una manera específica.
 
-## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **host**
 
@@ -212,17 +212,17 @@ Consulte *Entorno*. Los grupos de hosts se llaman “entornos” en [!DNL Target
 
 Parámetro específico de visitante transmitido a la cookie del visitante desde el mbox. El visitante que regresa es un ejemplo de parámetro de perfil en mbox.
 
-## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
-**actividad de página de aterrizaje**
+**actividad de página de destino**
 
-Una actividad de página de aterrizaje le permite usar la segmentación para mostrar distintos contenidos de páginas de aterrizaje a las distintas visitas. En caso contrario, la página de aterrizaje muestra el mismo contenido a todas las visitas. Una actividad de página de aterrizaje compara versiones diferentes de la página para ayudarle a ver qué versión genera los mejores resultados. En Target Standard, se ha reemplazado por *segmentación de experiencias*.
+Una actividad de página de destino le permite usar la segmentación para mostrar distintos contenidos de páginas de destino a las distintas visitas. En caso contrario, la página de destino muestra el mismo contenido a todas las visitas. Una actividad de página de destino compara versiones diferentes de la página para ayudarle a ver qué versión genera los mejores resultados. En Target Standard, se ha reemplazado por *segmentación de experiencias*.
 
 **ubicación**
 
 Área específica de contenido en una página, a menudo incluida en un solo elemento de DOM. En la metodología de las pruebas MVT, la ubicación a menudo se denomina *factor*. Una prueba multivariable factorial completa compara todas las combinaciones posibles de las ofertas en las ubicaciones.
 
-## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -266,7 +266,7 @@ Como oferta se entiende el contenido que se muestra dentro de un mbox durante la
 
 Permite a los visitantes renunciar al seguimiento y la publicación de contenido.
 
-## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **recuento de páginas**
 
@@ -280,7 +280,7 @@ Vista de páginas significa una sola vista de una aplicación móvil o de explor
 
 La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-## R {#section_86725D549B6F46A6ADEE424F33595705}
+## R  {#section_86725D549B6F46A6ADEE424F33595705}
 
 **fórmula**
 
@@ -306,7 +306,7 @@ Grupo de usuarios con una serie de privilegios determinados.
 
 **oferta remota**
 
-Utilice las ofertas remotas para alojar contenido fuera de [!DNL Target] al que [!DNL Target] haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de gestión de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
+Utilice las ofertas remotas para alojar contenido fuera de [!DNL Target] al que [!DNL Target] haga referencia y que entregue a los sitios web de los usuarios. Este contenido puede encontrarse en un sistema de administración de contenido o de otro tipo por cuestiones de comodidad o de seguridad.
 
 **informes**
 
@@ -334,7 +334,7 @@ Una aplicación de una sola página (SPA) es una aplicación o un sitio web que 
 
 Parámetros usados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva o agregar un artículo a un carro de compras aumenta los ingresos por visitante. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, el pedido o los canales de compra, pero también con la participación del visitante o del cliente.
 
-## T {#section_1841144841AF41169AF1E83B90C18292}
+## T  {#section_1841144841AF41169AF1E83B90C18292}
 
 **prueba**
 
@@ -344,13 +344,13 @@ actividad compara dos o más experiencias con las métricas de éxito que especi
 
 Es un tipo de participación que representa el tiempo invertido en la visita (en segundos) desde el momento en que el visitante ve el primer mbox de visualización de la actividad hasta la carga de la última página de la sesión que tenga un mbox.
 
-## U {#section_6407B81326FF43049D92265746E6C402}
+## U  {#section_6407B81326FF43049D92265746E6C402}
 
 **parámetros de URL.**
 
 Todas las variables de página de referencia y dirección URL de página se pasan automáticamente a un mbox cuando un visitante ve la página con el mbox en cuestión. Estas variables de dirección URL estarán disponibles para usarlas para mostrar la segmentación o los filtros de segmento en los informes.
 
-## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+## V  {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visita**
 
@@ -364,7 +364,7 @@ Cualquier persona que acceda al sitio. Un visitante se evalúa mediante criterio
 
 En Target Standard, una interfaz de usuario WYSIWYG le permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de Target arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página web (u oferta).
 
-## S {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **experiencia ganadora**
 

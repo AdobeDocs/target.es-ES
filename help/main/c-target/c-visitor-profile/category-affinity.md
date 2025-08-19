@@ -108,7 +108,7 @@ Las secciones siguientes contienen información para ayudarle a utilizar una aud
 
    O
 
-   Para copiar una audiencia existente, en la lista Audiencias, pase el ratón sobre la audiencia que quiera y luego haga clic en el icono Copiar. Luego puede editar la audiencia para crear otra parecida.
+   Para copiar una audiencia existente, en la lista Audiencias, pase el puntero por encima de la audiencia que quiera y luego haga clic en el icono Copiar. Luego puede editar la audiencia para crear otra parecida.
 
 1. Escriba un nombre descriptivo para la audiencia.
 1. Haga clic en **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.

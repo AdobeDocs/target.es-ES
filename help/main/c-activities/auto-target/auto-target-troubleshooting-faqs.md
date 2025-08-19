@@ -2,13 +2,13 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas;tráfico
 description: Explore los temas de solución de problemas y las preguntas más frecuentes acerca de [!UICONTROL Auto-Target] actividades.
 title: ¿Cómo puedo solucionar problemas de [!UICONTROL Auto-Target] actividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -37,7 +37,7 @@ Consulte las siguientes preguntas frecuentes y respuestas mientras trabaja con [
 
 ### ¿Se recomienda [!UICONTROL Adobe] usar [!UICONTROL Auto Target] con una división 90 (Control)/10 (Segmentación) hasta que se creen los modelos?
 
-+++Respuesta
++++Respuesta 
 La división óptima de la asignación del tráfico depende de lo que desee lograr.
 
 Si su objetivo es personalizar el mayor tráfico posible, puede mantener una asignación objetivo del 90 % y un control del 10 % durante toda la actividad. Si su objetivo es ejecutar un experimento comparando el rendimiento de los algoritmos personalizados con el control, entonces es mejor una división al 50/50 durante toda la actividad.
@@ -116,7 +116,7 @@ Puede comenzar a observar los resultados de su prueba [!UICONTROL Auto-Target] d
 ### ¿Puedo especificar una experiencia específica para utilizarla como control?
 
 +++Respuesta
-Puede seleccionar una experiencia para utilizarla como control mientras crea una actividad de [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Puede seleccionar una experiencia para utilizarla como control mientras crea una actividad de [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o de [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Esta función le permite dirigir todo el tráfico de control a una experiencia específica, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control a esa experiencia.
 
@@ -127,7 +127,7 @@ Para obtener más información, consulte [Uso de una experiencia específica com
 ### ¿Puedo cambiar la métrica de objetivo a mitad de camino a través de una actividad [!UICONTROL Auto-Target]? {#change-metric}
 
 +++Respuesta
-El Adobe no recomienda cambiar la métrica de objetivo a mitad de una actividad. Aunque es posible cambiar la métrica de objetivo durante una actividad mediante la IU de [!DNL Target], siempre debe iniciar una nueva actividad. El Adobe no garantiza lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
+Adobe no recomienda cambiar la métrica de objetivos a mitad de una actividad. Aunque es posible cambiar la métrica de objetivo durante una actividad mediante la IU de [!DNL Target], siempre debe iniciar una nueva actividad. Adobe no garantiza lo que sucede si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
 
 Esta recomendación se aplica a las actividades [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] y [!UICONTROL Automated Personalization] que usan [!DNL Target] o [!DNL Analytics] (A4T) como origen de informes.
 

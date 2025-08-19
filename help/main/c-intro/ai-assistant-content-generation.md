@@ -59,7 +59,7 @@ Para generar texto atractivo usando [!DNL AI Assistant]:
 
    * **Tono**: el tono del texto debería interesar a la audiencia. Tanto si desea que suene informativo, emocionante, lúdico o persuasivo, [!DNL AI Assistant] puede adaptar el mensaje en consecuencia.
 
-     Las opciones incluyen: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] y [!UICONTROL Conversational].
+     Las opciones incluyen: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] y [!UICONTROL Conversational].
 
 1. Utilice el control deslizante para elegir el tiempo que desea que sea el texto, de más corto a más largo.
 
@@ -100,4 +100,4 @@ El siguiente mensaje y las siguientes variaciones muestran la potencia de [!DNL 
 
 ### Creación de contenido con el asistente de IA para la generación de contenido
 
->[!VIDEO](https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa">https://video.tv.adobe.com/v/3434638/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

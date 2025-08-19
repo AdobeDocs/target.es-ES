@@ -1,8 +1,8 @@
 ---
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
-description: Aprenda a cargar un archivo CSV para personalizar las recomendaciones en el Adobe  [!DNL Target] Recommendations.
-title: ¿Cómo se cargan criterios personalizados en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+description: Aprenda a cargar un archivo CSV para personalizar las recomendaciones en Adobe [!DNL Target] Recommendations.
+title: ¿Cómo puedo cargar criterios personalizados en Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -82,10 +82,10 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
 
 ## Vídeo de formación: Crear criterios en Recommendations (12:33) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo contiene la siguiente información (los detalles sobre cómo cargar criterios personalizados comienzan a las 11:43):
+Este vídeo contiene la siguiente información (detalles sobre cómo cargar criterios personalizados a partir del 11:43):
 
 * Crear criterios
 * Crear secuencias de criterios
 * Cargar criterios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/35326?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

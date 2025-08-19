@@ -2,7 +2,7 @@
 keywords: diseño de recomendaciones;crear diseño;copiar diseño
 description: Aprenda a crear un diseño de Adobe [!DNL Target] Recommendations con un diseño predeterminado o creando uno personalizado para que se ajuste mejor al diseño de la página.
 title: ¿Cómo se crea un diseño en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -61,7 +61,7 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear uno per
 
    Los diseños de Recommendations utilizan el lenguaje de diseño de código abierto [!DNL Velocity]. Encontrará información sobre [!DNL Velocity] en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño con [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Un diseño puede ser HTML o no HTML. De manera predeterminada, los diseños de HTML se encapsulan con una etiqueta `<div>` para permitir el rastreo de clics en un entorno web. Los diseños que no son de HTML son para entornos que no son de web donde el rastreo de clics no es posible. Deslice el conmutador [!UICONTROL HTML Design] a la posición &quot;desactivado&quot; para utilizar código que no sea de HTML.
+   Un diseño puede ser HTML o no HTML. De manera predeterminada, los diseños de HTML se encapsulan con una etiqueta `<div>` para permitir el seguimiento de clics en un entorno web. Los diseños que no son de HTML son para entornos que no son de web en los que no es posible realizar un seguimiento de clics. Deslice el conmutador [!UICONTROL HTML Design] a la posición &quot;desactivado&quot; para utilizar código que no sea de HTML.
 
    >[!NOTE]
    >
@@ -101,7 +101,7 @@ Tenga en cuenta que los diseños están disponibles en toda la cuenta. Considere
 
 El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al configurar una actividad a través del editor basado en formularios.
 
-1. Cree un diseño desde la biblioteca de diseños o desde el flujo de trabajo basado en formularios. Si intenta crear un diseño dentro del flujo de trabajo [!UICONTROL Visual Experience Composer] (VEC), no podrá crear nada más que un diseño de HTML, que está dentro de un `<div>` para fines de rastreo de clics.
+1. Cree un diseño desde la biblioteca de diseños o desde el flujo de trabajo basado en formularios. Si intenta crear un diseño dentro del flujo de trabajo [!UICONTROL Visual Experience Composer] (VEC), solo podrá crear un diseño de HTML, que está dentro de un `<div>` para fines de rastreo de clics.
 
 1. Compruebe que la opción “Diseño HTML” esté desactivada:
 
@@ -164,7 +164,7 @@ El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON al con
    | Parámetro | Valor |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en /help/target/products.html#recsSettings > Token de la API de Recommendations > Código de cliente). |
-   | `[YOUR_MBOX_NAME]` | El nombre que ha seleccionado en la sección &quot;ubicaciones&quot; de Recommendations basado en formularios, en este caso Sample_Recs_Response. |
+   | `[YOUR_MBOX_NAME]` | El nombre que ha seleccionado en la sección &quot;ubicaciones&quot; de Recommendations basadas en formularios, en este caso Sample_Recs_Response. |
    | `[ENTITY_ID` | El `entity.id` de un artículo del catálogo. |
    | `[AT_PROPERTY_TOKEN]` | (Opcional) Añada este parámetro si ha seleccionado una Propiedad (parte de los permisos de empresa) durante la configuración de la actividad. |
 
@@ -320,11 +320,11 @@ Alternativamente, también puede enviar información adicional en la respuesta. 
     }  
 ```
 
-## Vídeo de formación: Creación de diseños personalizados en Recommendations (3:20) ![Distintivo de información general](/help/main/assets/overview.png)
+## Vídeo de formación: Crear diseños personalizados en Recommendations (3:20) ![Distintivo de información general](/help/main/assets/overview.png)
 
 Este vídeo contiene la información siguiente:
 
 * Crear un diseño personalizado
 * Aprenda a hacer referencia a las variables de visualización en sus diseños
 
->[!VIDEO](https://video.tv.adobe.com/v/35325?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

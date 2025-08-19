@@ -1,6 +1,6 @@
 ---
 keywords: audiencia;seleccionar audiencia;elegir audiencia;selectores
-description: Defina los visitantes del sitio que se unirán a su actividad de Adobe  [!DNL Target] según los criterios de audiencia.
+description: Defina los visitantes del sitio que se unirán a su actividad de Adobe [!DNL Target] según los criterios de audiencia.
 title: ¿Cómo selecciono una audiencia en una actividad  [!DNL Target] A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be

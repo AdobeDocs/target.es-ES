@@ -2,13 +2,13 @@
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente  [!DNL Google Product Search] y  [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo se usa [!UICONTROL Feeds] en  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
 source-wordcount: '2613'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ Veamos los siguientes ejemplos:
 
 **Ejemplo 1:**
 
-* Día uno: procesos diarios de alimentación a las 9:00 a.m. PST.
-* Día dos: son las 15:30 y la fuente no se ha ejecutado desde ayer a las 9:00
+* Día uno: procesos de fuente diarios a las 9:00 a.m. PST.
+* Día dos: son las 3:30 p. m. y la fuente no se ha ejecutado desde ayer a las 9:00 a. m.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace 6 horas y media. 6,5 horas + 24 es un 127 % del plazo de la fuente.
 
 **Ejemplo 2:**
 
-* 1 de enero: procesos mensuales de alimentación a las 9:00 a.m. PST.
-* 3 de febrero: son las 10:00 a.m. y la fuente no ha funcionado durante un mes, un día y una hora atrás.
+* 1 de enero: procesos de fuente mensuales a las 9:00 a. m. PST.
+* 3 de febrero: son las 10:00 a.m. y la fuente no se ha ejecutado desde hace un mes, un día y una hora.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace un día y una hora. Aunque esto es solo [31 + (1/25)]/30 = 1,03 % de la configuración de frecuencia, se ha superado el retraso máximo de un día.
 
@@ -346,7 +346,7 @@ Este vídeo contiene la información siguiente:
 * Explicación del objetivo de las fuentes
 * Explicación del valor de las fuentes
 
->[!VIDEO](https://video.tv.adobe.com/v/33945?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crear una fuente (6:44) ![Insignia de tutorial](/help/main/assets/tutorial.png)
 
@@ -355,4 +355,4 @@ Este vídeo contiene la información siguiente:
 * Configuración de una fuente
 * Qué tipo de fuente utilizar
 
->[!VIDEO](https://video.tv.adobe.com/v/33944?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

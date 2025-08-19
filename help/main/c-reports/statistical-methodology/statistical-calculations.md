@@ -117,7 +117,7 @@ Donde *<sub>v</sub>* y *<sub>v0</sub>* son los medios de ** y *<sub>0</sub>* res
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias **&#x200B; y *<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para &#x200B;** y *<sub>0</sub>* respectivamente.
+Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias ** y *<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para ** y *<sub>0</sub>* respectivamente.
 
 Para la prueba T de Welch, el grado de libertad se calcula de la siguiente manera:
 

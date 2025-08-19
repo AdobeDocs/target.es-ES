@@ -1,6 +1,6 @@
 ---
 keywords: Analytics como fuente de informes;a4t;A4T;requisitos
-description: Aprenda a configurar los requisitos de cuenta de usuario necesarios para crear una actividad basada en Adobe Analytics en el Adobe  [!DNL Target] mediante Analytics for [!DNL Target] (A4T).
+description: Aprenda a configurar los requisitos de cuenta de usuario necesarios para crear una actividad basada en Adobe Analytics en Adobe [!DNL Target] con Analytics for [!DNL Target] (A4T).
 title: ¿Qué requisitos de permisos de usuario son necesarios para A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
@@ -22,19 +22,19 @@ Sus cuentas de usuario deben estar configuradas tal como se describe en las secc
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Complete las siguientes tareas en el [!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com):
+Complete las siguientes tareas en [!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com):
 
 ### Vincule las cuentas de las soluciones a su Adobe ID
 
 Las cuentas de usuario de [!DNL Analytics] y de [!DNL Target] deben estar vinculadas a su Adobe ID.
 
-Para obtener más información, consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es).
+Para obtener más información, consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configuración de la pertenencia a grupo de Experience Cloud
 
 Debe ser miembro de uno o más grupos de [!DNL Experience Cloud] que tengan acceso a [!DNL Analytics] y [!DNL Target].
 
-Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics   {#section_8F404FDE9A634534AB0AA4CB3075582B}
 

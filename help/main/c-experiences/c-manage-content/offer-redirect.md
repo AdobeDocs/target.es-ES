@@ -21,7 +21,7 @@ Es posible que tenga dos páginas completamente distintas para probarlas, en lug
 >
 > * Las ofertas de redireccionamiento se pueden crear en la página [!UICONTROL Offers] > [!UICONTROL Code Offers] o en el [Compositor de experiencias basadas en Forms](/help/main/c-experiences/form-experience-composer.md). No puede crear ni aplicar ofertas de redireccionamiento en [!UICONTROL Visual Experience Composer] (VEC). El contenido se inserta en las ubicaciones de solicitud [!DNL Target], por lo que es muy probable que estas ubicaciones no sean apropiadas para una solicitud [!DNL Target] global.
 >
->* AJAX No se pueden usar ofertas de redireccionamiento en mboxes de (`mboxUpdate`).
+>* No puede usar ofertas de redireccionamiento en mboxes de AJAX (`mboxUpdate`).
 >
 >* Para redireccionar ofertas en actividades que utilizan [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), su implementación debe satisfacer ciertos requisitos mínimos. Además, hay información importante que debe conocer. Ver [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
@@ -31,7 +31,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
 >[!NOTE]
 >
->Si desea pasar el valor de referente de la página de aterrizaje, utilice una oferta de HTML en lugar de una oferta de redirección.
+>Si desea pasar el valor de referente de la página de aterrizaje, utilice una oferta de HTML en lugar de una oferta de redireccionamiento.
 
 ## Crear una oferta de redireccionamiento desde la página [!UICONTROL Code Offers]
 

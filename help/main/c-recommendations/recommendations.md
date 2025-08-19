@@ -2,7 +2,7 @@
 keywords: Recommendations;criterios de Recommendations;algoritmos de Recommendations;actividad de Recommendations;criterios;direccionamiento en Recommendations;recommendations
 description: Conozca las actividades de Recommendations en Adobe  [!DNL Target]  que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 title: ¿Qué es Recommendations de  [!DNL Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -64,13 +64,13 @@ Antes de empezar a usar [!DNL Recommendations], es útil familiarizarse con algu
 
 ## Vídeo de aprendizaje: Tipos de actividades ![distintivo de Información general](/help/main/assets/overview.png)
 
-En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium]. Se habla sobre [!DNL Recommendations] a partir del minuto 7:20.
+En este vídeo se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium]. [!DNL Recommendations] se discute a partir del 7:20.
 
 * Describe los tipos de actividades incluidas en [!DNL Adobe Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Seminario web básico de Adobe Target: Introducción a Recommendations ![Distintivo de tutorial](/help/main/assets/tutorial.png) {#intro-to-recs}
 

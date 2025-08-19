@@ -1,5 +1,5 @@
 ---
-keywords: Segmentación;segmentación de experiencias;XT;página de aterrizaje;prueba de página de aterrizaje
+keywords: Segmentación;segmentación de experiencias;XT;página de destino;prueba de página de destino
 description: Aprenda a utilizar las actividades [!UICONTROL Experience Targeting] (XT) en  [!DNL Adobe Target] para entregar contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 title: ¿Qué es una actividad [!UICONTROL Experience Targeting] (XT)?
 feature: Experience Targeting
@@ -23,7 +23,7 @@ Cuando los visitantes ven el sitio, [!UICONTROL Experience Targeting] (XT) eval�
 
 ## Caso: Segmentación de experiencias
 
-Suponga que su sitio web incluye equipos para actividades al aire libre. Los informes de prueba A/B indican que tiene tres experiencias que se relacionan con distintas audiencias. Para aplicar este descubrimiento, quiere mostrar una imagen distinta en la página principal para atraer a estas distintas audiencias, según la ubicación o las aficiones de los visitantes. En este escenario, desea mostrar una imagen de senderismo a visitantes de Nueva Jersey y una imagen de navegación deportiva a visitantes de Hawaii. También tiene una audiencia a la que le gusta el ciclismo. Desea mostrar una tercera imagen que atraiga a su audiencia de ciclismo.
+Suponga que su sitio web incluye equipos para actividades al aire libre. Los informes de prueba A/B indican que tiene tres experiencias que se relacionan con distintas audiencias. Para aplicar este descubrimiento, quiere mostrar una imagen distinta en la página principal para atraer a estas distintas audiencias, según la ubicación o las aficiones de los visitantes. En este escenario, desea mostrar una imagen de senderismo a visitantes de Nueva Jersey y una imagen de navegación deportiva a visitantes de Hawaii. También tiene una audiencia a la que le gusta el ciclismo. Desea mostrar una tercera imagen principal que atraiga a su público de ciclismo.
 
 Una actividad [!UICONTROL Experience Targeting] le permite dirigirse a estas tres audiencias con una imagen distinta que atrae a cada audiencia. El vídeo siguiente, *De Pruebas A/B a la Segmentación de experiencias*, muestra cómo crear experiencias dirigidas a ambos estados y una tercera experiencia dirigida a los aficionados del ciclismo. El vídeo también muestra cómo ordenar las tres experiencias para lograr sus objetivos. Vea el vídeo y, a continuación, continúe con [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
@@ -39,4 +39,4 @@ En este vídeo se describe cómo llevar las pruebas A/B al siguiente nivel con [
 * Describa cómo distribuir contenido específico de una ubicación a audiencias de diferentes áreas geográficas
 * Describe cómo se reordenan las experiencias para asegurar que cada contenido se envíe a la audiencia correcta
 
->[!VIDEO](https://video.tv.adobe.com/v/38303?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)

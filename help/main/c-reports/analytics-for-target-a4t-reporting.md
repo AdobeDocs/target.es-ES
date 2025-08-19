@@ -1,6 +1,6 @@
 ---
 keywords: analytics for target, a4t, analytics como origen de informes
-description: Aprenda a utilizar Analytics for [!DNL Target] (A4T). La integración con A4T le permite acceder a informes de Adobe Analytics robustos para sus actividades de Adobe  [!DNL Target] 1.
+description: Aprenda a utilizar Analytics for [!DNL Target] (A4T). La integración con A4T le permite acceder a informes de Adobe Analytics robustos para sus actividades Adobe [!DNL Target] s.
 title: ¿Cómo se usa la creación de informes de Analytics for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 43d31231-e258-458e-b371-08214fd903b9

@@ -37,7 +37,7 @@ Al usar [!UICONTROL Auto-Allocate], [!DNL Target] muestra un distintivo en la pa
 
 Para obtener más información, vea [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Calculadora de tamaño de muestra del Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculadora de tamaño de muestra de Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Si decide utilizar una actividad [!UICONTROL A/B Test] manual en lugar de [!UICONTROL Auto-Allocate], la calculadora de tamaño de muestra [!DNL Target] le ayudará a determinar el tamaño de muestra necesario para que la prueba se realice correctamente. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. El uso de la calculadora para una actividad [!UICONTROL Auto-Allocate] es opcional porque [!UICONTROL Auto-Allocate] declara un ganador en su lugar. La calculadora le da una estimación aproximada del tamaño de la muestra necesaria. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 

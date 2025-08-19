@@ -2,7 +2,7 @@
 keywords: Recommendations;oferta
 description: Aprenda a utilizar Adobe Recommendations como oferta en pruebas A/B (incluida la Asignación automática y la Segmentación automática) y en actividades de direccionamiento de experiencias (XT).
 title: ¿Cómo puedo utilizar Recommendations como oferta en otros tipos de actividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -47,7 +47,7 @@ Para empezar, cree una actividad [!UICONTROL A/B Test] o [!UICONTROL Experience 
    * Página del carro de compras
    * Página de categoría
    * Página principal
-   * Página de aterrizaje
+   * Página de destino
    * Página de productos
    * Página de resultados de búsqueda
    * Página de agradecimiento.
@@ -55,7 +55,7 @@ Para empezar, cree una actividad [!UICONTROL A/B Test] o [!UICONTROL Experience 
 
 1. Haga clic en **[!UICONTROL Create Criteria]** o seleccione un [criterio](/help/main/c-recommendations/c-algorithms/algorithms.md) existente y, a continuación, haga clic en **[!UICONTROL Next]** para mostrar el cuadro de diálogo [!UICONTROL Select Design].
 
-1. Haga clic en **[!UICONTROL Create Design]** o seleccione un [diseño](/help/main/c-recommendations/c-design-overview/design-overview.md) existente y luego haga clic en **[!UICONTROL &#x200B; Next]**.
+1. Haga clic en **[!UICONTROL Create Design]** o seleccione un [diseño](/help/main/c-recommendations/c-design-overview/design-overview.md) existente y luego haga clic en **[!UICONTROL  Next]**.
 
 1. En el cuadro de diálogo [!UICONTROL Options], especifique lo siguiente:
 

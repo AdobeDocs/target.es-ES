@@ -1,6 +1,6 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Aprenda a utilizar la opción Redireccionar a dirección URL del Adobe  [!DNL Target]  cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
+description: Aprenda a utilizar la opción Redirigir a URL en Adobe [!DNL Target] cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
 title: ¿Puedo redirigir una página a una dirección URL diferente?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
@@ -26,7 +26,7 @@ Las ofertas de redireccionamiento tienen ciertas limitaciones:
 
 >[!NOTE]
 >
->Si se desea pasar el valor de referente de la página de aterrizaje, se recomienda usar una oferta HTML en lugar de una oferta de redireccionamiento.
+>Si se desea pasar el valor de referente de la página de destino, se recomienda usar una oferta HTML en lugar de una oferta de redireccionamiento.
 
 Para crear una oferta de redireccionamiento:
 

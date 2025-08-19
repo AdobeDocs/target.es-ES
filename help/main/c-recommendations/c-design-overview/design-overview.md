@@ -1,7 +1,7 @@
 ---
 keywords: diseño de recomendaciones;plantilla;crear diseño;entrega;resultado
 description: Aprenda a utilizar diseños en Adobe [!DNL Target] Recommendations para definir cómo aparecerán las recomendaciones en una página (1X4, 1X6, 2X2, etc.).
-title: ¿Cómo se utilizan los diseños en Recommendations?
+title: ¿Cómo utilizo diseños en Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0

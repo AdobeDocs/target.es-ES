@@ -1,13 +1,13 @@
 ---
-keywords: periodo de tiempo;fecha de inicio;fecha de fin;fechas de inicio/fin;intervalo de tiempo;programación de Target;partición por semana;partición por día;partición
+keywords: periodo de tiempo;fecha de inicio;fecha de finalización;fechas de inicio/finalización;intervalo de tiempo;programación de Target;partición por semana;partición por día;partición
 description: Aprenda a utilizar las fechas y horas de inicio y finalización para aproximarse a los usuarios que visitan el sitio durante un lapso de tiempo específico.
 title: ¿Puedo segmentar visitantes que visitan mi sitio en momentos específicos?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 35%
+source-wordcount: '431'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ Por ejemplo, con la [función de audiencias combinadas ad hoc](/help/main/c-targ
    >
    >Tenga en cuenta lo siguiente:
    >
-   >* La zona horaria de las fechas de inicio/fin aparece como GMT +/-NN:NN, donde NN:NN es la diferencia con respecto a la zona GMT. Refleja la zona horaria de la cuenta, no la del visitante. Por ejemplo, la zona horaria de California sería GMT -08:00.
+   >* La zona horaria de las fechas de inicio/fin aparece como GMT +/- NN:NN, donde NN:NN es la diferencia con respecto a la zona GMT. Refleja la zona horaria de la cuenta, no la del visitante. Por ejemplo, la zona horaria de California sería GMT -08:00.
    >
    >* Las audiencias de hora [!DNL Target] no tienen en cuenta los cambios del horario de verano (DST). Debe volver a guardar las audiencias manualmente para tener en cuenta los cambios de DST.
 

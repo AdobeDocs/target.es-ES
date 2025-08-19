@@ -1,8 +1,8 @@
 ---
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
-description: Aprenda a cargar un archivo CSV para personalizar las recomendaciones en el Adobe  [!DNL Target] Recommendations.
+description: Aprenda a cargar un archivo CSV para personalizar las recomendaciones en Adobe [!DNL Target] Recommendations.
 title: ¿Cómo se cargan criterios personalizados en  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

@@ -1,13 +1,13 @@
 ---
 keywords: mvt;prueba multivariable;informe de contribución de ubicación
-description: Aprenda a utilizar el informe Contribución de ubicación para las actividades de Adobe  [!DNL Target] [!UICONTROL Experience Targeting] que muestran el rendimiento de cada elemento y cada oferta.
+description: Aprenda a utilizar el informe Contribución de ubicación para actividades de Adobe [!DNL Target] [!UICONTROL Experience Targeting] que muestran el rendimiento de cada elemento y cada oferta.
 title: ¿Cómo utilizo el informe [!UICONTROL Location Contribution] para actividades [!UICONTROL Multivariate Test]?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -35,6 +35,6 @@ La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de c
 
 ## Vídeo de formación: Crear una prueba MVT
 
-En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. El informe Contribución de ubicación se describe a partir del minuto 8:45.
+En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. El informe Contribución de ubicación se describe a partir del 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

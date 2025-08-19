@@ -1,6 +1,6 @@
 ---
 keywords: probar plantillas;plantilla;misma experiencia en páginas similares;prueba de plantilla
-description: Aprenda a utilizar el  [!DNL Target] Compositor de experiencias visuales (VEC) de Adobe para incluir la misma experiencia en varias páginas que tienen una estructura similar o que contienen los mismos elementos de .
+description: Aprenda a utilizar el  [!DNL Target] Compositor de experiencias visuales (VEC) de Adobe para incluir la misma experiencia en varias páginas que tienen una estructura similar o que contienen los mismos elementos de plantilla.
 title: ¿Puedo incluir la misma experiencia en páginas similares?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a

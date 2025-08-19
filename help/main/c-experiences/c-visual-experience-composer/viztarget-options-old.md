@@ -1,5 +1,5 @@
 ---
-keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias visuales;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo;vínculo del compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de ofertas;intercambiar imagen;intercambio de imágenes;quitar elemento;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño elemento;cambiar tamaño elemento;elemento;expandir selección;expandir selección;navegar a este vínculo;vínculo navegar;navegar por vínculo;deshacer;rehacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta;offer decisioning
+keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias visuales;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo del compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de ofertas;intercambiar imagen;intercambio de imágenes;eliminar elemento;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño elemento;cambiar tamaño elemento;elemento;ampliar selección;expandir selección;navegar a este vínculo;navegar vínculo;navegar por vínculo;deshacer;rehacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta
 description: Explore las opciones disponibles en el  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: ¿Cómo utilizo las opciones de [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
@@ -7,7 +7,7 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
 source-wordcount: '2667'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -178,7 +178,7 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ Las opciones disponibles son las siguientes:
 
 ### [!UICONTROL Offer Decision]
 
-Agregue una [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=es){target=_blank} para presentar la mejor oferta y experiencia a sus clientes con offer decisioning.
+Agregue una [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes mediante Offer Decisioning.
 
 **Nota:** Esta opción solo está disponible al editar o crear [actividades manuales [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Esta opción no está disponible para otros tipos de actividades.
 
@@ -233,7 +233,7 @@ El comportamiento del elemento insertado depende de la estructura de la página,
 
 [!UICONTROL Recommendations] admite [!UICONTROL Insert Before] el contenido de las etiquetas DIV, SECTION y ARTICLE.
 
-**Nota:**&#x200B;[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
+**Nota:**[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
 
 ### Recomendación
 
@@ -241,7 +241,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 ### [!UICONTROL Experience Fragment]
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager]&#x200B;(AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ## [!UICONTROL Insert After]
 
@@ -249,7 +249,7 @@ Las opciones disponibles son las siguientes:
 
 ### [!UICONTROL Offer Decision]
 
-Agregue una [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=es){target=_blank} para presentar la mejor oferta y experiencia a sus clientes con offer decisioning.
+Agregue una [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes mediante Offer Decisioning.
 
 **Nota:** Esta opción solo está disponible al editar o crear [actividades manuales [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Esta opción no está disponible para otros tipos de actividades.
 
@@ -265,7 +265,7 @@ El comportamiento del elemento insertado depende de la estructura de la página,
 
 [!UICONTROL Recommendations] admite [!UICONTROL Insert After] el contenido de las etiquetas DIV, SECTION y ARTICLE.
 
-**Nota:**&#x200B;[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
+**Nota:**[!DNL Adobe Scene7 Publishing System] Para insertar una imagen es necesario que esté activado y así tener acceso a la biblioteca de imágenes.
 
 ### Recomendación
 
@@ -273,7 +273,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 ### [!UICONTROL Experience Fragment]
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager]&#x200B;(AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ## [!UICONTROL Replace Content]
 
@@ -281,7 +281,7 @@ Las opciones disponibles son las siguientes:
 
 ### [!UICONTROL Offer Decision]
 
-Agregue una [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=es){target=_blank} para presentar la mejor oferta y experiencia a sus clientes con offer decisioning.
+Agregue una [oferta creada en [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} para presentar la mejor oferta y experiencia a sus clientes mediante Offer Decisioning.
 
 **Nota:** Esta opción solo está disponible al editar o crear [actividades manuales [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Esta opción no está disponible para otros tipos de actividades.
 
@@ -309,9 +309,9 @@ Recommendations admite Reemplazar con etiquetas DIV, SECTION y ARTICLE.
 
 Seleccione una oferta diferente de [!UICONTROL Content Library].
 
-**Nota:**&#x200B;[!DNL Target] Las ofertas HTML se almacenan en servidores de
+**Nota:**[!DNL Target] Las ofertas HTML se almacenan en servidores de
 
-La oferta de HTML puede alcanzar los 256 KB.
+Una oferta de HTML puede ocupar hasta 256 kB.
 
 ### Recomendación
 
@@ -319,7 +319,7 @@ Incluya recomendaciones dentro de la prueba A/B (incluidas las actividades de as
 
 ### [!UICONTROL Experience Fragment]
 
-Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager] (AEM) [!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Insertar fragmentos de experiencia creados en [!DNL Adobe Experience Manager]&#x200B;(AEM)[!DNL Target] en actividades para ayudar en la optimización o personalización. Para obtener más información, consulte [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 ## [!UICONTROL Layout]
 
@@ -371,7 +371,7 @@ Deshace los cambios realizados en las actividades durante una sesión de edició
 
 ## Consideraciones {#considerations}
 
-* Si una oferta contiene contenido de HTML, consulte &quot;Cómo at.js procesa ofertas con contenido de HTML&quot; en [Cómo funciona at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es){target=_blank} para obtener más información.
+* Si una oferta contiene contenido HTML, consulte “Cómo at.js procesa ofertas con contenido HTML” en [Cómo funciona at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} para obtener más información.
 
 ## Compatibilidad con elementos personalizados {#custom}
 
@@ -407,7 +407,7 @@ Al hacer clic en un elemento de la página, aparece el menú de opciones de VEC.
 
 Puede utilizar la ruta DOM para ver rápidamente información sobre el elemento seleccionado (tipo, ID y clase) y subir o bajar por la ruta DOM para seleccionar el elemento deseado.
 
-Al pasar el ratón por encima de la ruta DOM, un cuadro azul resalta el elemento correspondiente del VEC. Al hacer clic en el elemento, un cuadro naranja resalta el elemento y se muestra el menú de opciones de VEC, como se explica más arriba.
+Al pasar el puntero por encima de la ruta DOM, un cuadro azul resalta el elemento correspondiente del VEC. Al hacer clic en el elemento, un cuadro naranja resalta el elemento y se muestra el menú de opciones de VEC, como se explica más arriba.
 
 Puede navegar fácilmente a cualquier elemento principal, del mismo nivel o secundario dentro del VEC utilizando la ruta DOM.
 

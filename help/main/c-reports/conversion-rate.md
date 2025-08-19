@@ -1,6 +1,6 @@
 ---
 keywords: Segmentación
-description: Aprenda cómo el Adobe  [!DNL Target] muestra y calcula la tasa de conversión, el alza, la confianza y el intervalo de confianza para cada experiencia.
+description: Aprenda cómo Adobe [!DNL Target] muestra y calcula la tasa de conversión, el alza, la confianza y el intervalo de confianza para cada experiencia.
 title: ¿Cómo puedo ver la tasa de conversión, el alza y el nivel de confianza?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
@@ -108,7 +108,7 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 1. Haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. En la ficha **[!UICONTROL Data Warehouse Request]**, rellene los campos.
 
-   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=es).
+   Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Instrucciones |
    |--- |--- |
@@ -128,8 +128,8 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 
-* [Crear una solicitud de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=es)
-* [prácticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=es)
+* [Crear una solicitud de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Prácticas recomendadas de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodología de contabilización {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -176,7 +176,7 @@ Las pruebas A/B son experimentos para comparar el valor medio de algunas métric
 
 ### En más detalle
 
-Al ejecutar pruebas A/B en línea, cada usuario o visitante se asigna aleatoriamente a una sola variante. Posteriormente, realizamos mediciones de las métricas comerciales de interés (por ejemplo, conversiones, pedidos, ingresos, etc.) para los visitantes de cada variante. La prueba estadística que utilizamos prueba entonces la hipótesis de que la métrica comercial media (por ejemplo, tasa de conversión, pedidos por usuario, ingresos por usuario, etc.) es igual para el control y una variante alternativa determinada.
+Al ejecutar pruebas A/B en línea, cada usuario o visitante se asigna aleatoriamente a una sola variante. Posteriormente, realizamos mediciones de las métricas comerciales de interés (p. ej. conversiones, pedidos, ingresos, etc.) para los visitantes en cada variante. La prueba estadística que utilizamos prueba entonces la hipótesis de que la métrica empresarial media (por ejemplo, tasa de conversión, pedidos por usuario, ingresos por usuario, etc.) es igual para el control y una variante alternativa determinada.
 
 Aunque la métrica empresarial en sí podría distribuirse según una distribución arbitraria, la distribución de la media de esta métrica (dentro de cada variante) debería converger a una distribución normal a través del [Teorema de límite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Tenga en cuenta que, aunque no hay garantías de la rapidez con la que esta distribución de muestreo de la media convergirá a la normalidad, esta condición se suele lograr dada la escala de visitantes en las pruebas en línea.
 

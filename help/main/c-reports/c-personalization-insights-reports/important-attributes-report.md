@@ -2,13 +2,13 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;segmentación;automática;informe de segmentación automática;informe;personalización;perspectivas;faq;preguntas frecuentes;atributos importantes
 description: Aprenda a utilizar el informe [!UICONTROL Important Attributes] que muestra los principales atributos que influyeron en el modelo de personalización y su importancia relativa.
 title: ¿Qué es el informe Atributos importantes?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '1773'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
@@ -73,7 +73,7 @@ La tabla siguiente explica cómo se interpreta el informe y describe sus element
 
 | Elemento | Detalles |
 |--- |--- |
-| Gráfico de barras | El gráfico de barras multicolor en la parte superior de la pantalla le permite visualizar estas puntuaciones de importancia relativa. Los valores se representan con el color de punto que se indica en la tabla junto a cada atributo. También puede pasar el cursor sobre un color específico del gráfico de barras para ver a qué atributo representa.  Las puntuaciones de importancia de los 100 principales atributos suman el 100 %. Para obtener más información sobre cómo agregar más atributos que los modelos de personalización de Target puedan usar, consulte [Carga de datos para los algoritmos de Personalization de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Gráfico de barras | El gráfico de barras multicolor en la parte superior de la pantalla le permite visualizar estas puntuaciones de importancia relativa. Los valores se representan con el color de punto que se indica en la tabla junto a cada atributo. También puede pasar el puntero por encima de un color específico del gráfico de barras para ver a qué atributo representa.  Las puntuaciones de importancia de los 100 principales atributos suman el 100 %. Para obtener más información sobre cómo agregar más atributos que los modelos de personalización de Target puedan usar, consulte [Carga de datos para los algoritmos de Personalization de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Gráfico de Clasificación de atributos de modelo | Clasificación de atributos de modelo incluye los 10 atributos que fueron más importantes para que el modelo de personalización de Target determinara qué contenido se asignaba a cada visitante. La puntuación de importancia muestra, en relación con los 100 principales atributos, el peso que tuvo un atributo específico en los modelos de personalización de Target para la actividad. |
 
 ## PF sobre Atributos importantes {#section_740910A52FA646B4AC9452F98C2F5719}
@@ -92,13 +92,13 @@ Existen varias razones por las que los informes de [!UICONTROL Personalization I
 
 Un atributo es información sobre un visitante o sobre su visita específica que los algoritmos de personalización utilizan para aprender a personalizar el tráfico. Por ejemplo, un atributo podría ser el tipo de navegador, la ubicación, la hora del día de la visita, etcétera.
 
-Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
+Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
 
 ### Veo uno o más atributos que no quiero que el modelo use para el aprendizaje. ¿Puedo quitarlos del modelo de aprendizaje? {#models-api}
 
 La [!UICONTROL Models API], también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de atributos (también denominados características) utilizados en los modelos de aprendizaje automático para las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target] (AT). Si desea excluir uno o más atributos de la utilización por parte de los modelos para actividades AP o AT, puede utilizar la API de modelos para añadir esos atributos a la &quot;lista de bloqueados&quot;.
 
-Para obtener información detallada, consulte [Resumen de la API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=es){target=_blank} en la *Guía para desarrolladores de Adobe Target*. Para usar la API para bloquear atributos, consulte [API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=es){target=_blank}.
+Para obtener información detallada, consulte [Resumen de API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} en la *Guía para desarrolladores de Adobe Target*. Para usar la API para bloquear atributos, consulte [API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### ¿La información de los informes [!UICONTROL Automated Segments] y [!UICONTROL Important Attributes] es la misma que la de la descarga CSV?
 
@@ -110,7 +110,7 @@ Los informes de Personalization Insights (tanto [!UICONTROL Automated Segments] 
 
 ### ¿Cómo se crea [!UICONTROL Personalization Insights]?
 
-[!UICONTROL Personalization Insights] se ha creado mediante una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el artículo publicado por el equipo de investigación del Adobe en el [sitio web de arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] se ha creado usando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el artículo publicado por el equipo de investigación de Adobe en el [sitio web de arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### ¿Están disponibles [!UICONTROL Personalization Insights] para los objetivos de modelado basados en los ingresos o para el objetivo principal?
 

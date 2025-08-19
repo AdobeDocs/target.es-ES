@@ -7,7 +7,7 @@ exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 46%
+ht-degree: 61%
 
 ---
 
@@ -40,9 +40,9 @@ Si hay problemas de aprovisionamiento, compruebe si A4T se está aprovisionando 
 ## ¿Por qué no se cargan los grupos de informes?   {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 +++Respuesta
-Compruebe lo siguiente si se produce alguno de estos problemas:
+Si se encuentra con uno de estos problemas, haga lo siguiente:
 
-* Asegúrese de que las cuentas de Analytics y Target estén vinculadas en el Experience Cloud.
+* Asegúrese de que las cuentas de Analytics y Target estén vinculadas en Experience Cloud.
 * Algunos clientes utilizan varios inicios de sesión de empresa de Analytics en la misma empresa de Experience Cloud. Si utiliza varios inicios de sesión, asegúrese de que la última empresa de Analytics en la que inició sesión sea la que esté vinculada a la cuenta de Target para la integración.
 * Si lleva varias horas con la sesión iniciada en Experience Cloud, en ocasiones la sesión de Analytics puede caducar. Cierre sesión y vuelva a iniciarla para intentarlo de nuevo.
 
@@ -51,20 +51,20 @@ Compruebe lo siguiente si se produce alguno de estos problemas:
 ## ¿Por qué no veo las opciones de Analytics en Target?   {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++Respuesta
-Consulte ¿Por qué no se cargan los grupos de informes? Arriba. La causa raíz de este problema es la misma.
+Consulte “¿Por qué no se cargan los grupos de informes?” Arriba. La causa raíz de este problema es la misma.
 
 +++
 
 ## ¿Por qué no veo los informes de A4T en Analytics?   {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++Respuesta
-Consulte ¿Por qué no se cargan los grupos de informes? (arriba). La causa raíz de este problema es la misma.
+Consulte “¿Por qué no se cargan los grupos de informes?” (arriba). La causa raíz de este problema es la misma.
 
 +++
 
 ## ¿Por qué mis informes de [!DNL Target] están vacíos? {#section_3837104757464CB488C5A83014A669A1}
 
 +++Respuesta
-Consulte ¿Por qué no se cargan los grupos de informes? (arriba). La causa raíz de este problema es la misma.
+Consulte “¿Por qué no se cargan los grupos de informes?” (arriba). La causa raíz de este problema es la misma.
 
 +++

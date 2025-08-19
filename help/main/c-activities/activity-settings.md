@@ -1,13 +1,13 @@
 ---
 keywords: Objetivo y configuración;objetivo;prioridad;duración
-description: Aprenda a usar la Configuración de actividades en Adobe [!DNL Target] para administrar el objetivo, la prioridad y la duración de las actividades.
+description: Aprenda a utilizar la configuración de actividades en Adobe [!DNL Target] para administrar el objetivo, la prioridad y la duración de las actividades.
 title: ¿Cómo Se Especifica La Configuración De La Actividad?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -41,7 +41,7 @@ Use [!UICONTROL Activity Settings] en [!DNL Adobe Target] para administrar el ob
 
 1. Establezca la duración de la actividad.
 
-   Puede activar y desactivar manualmente la actividad o especificar una fecha y una hora para la entrega de la actividad. El control de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
+   Puede activar y desactivar manualmente la actividad o especificar una fecha y una hora para la entrega de la actividad. El control de tiempo utiliza un reloj de 24 horas, siendo 00:00 la medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
    >[!NOTE]
    >

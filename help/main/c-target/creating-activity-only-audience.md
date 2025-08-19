@@ -1,6 +1,6 @@
 ---
 keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;solo actividad;específica
-description: Aprenda a crear audiencias solo de actividad en el Adobe  [!DNL Target]  que se utilicen una sola vez.
+description: Aprenda a crear audiencias solo de actividad en Adobe [!DNL Target] que se puedan usar una sola vez.
 title: ¿Puedo crear una audiencia para usarla una sola vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75

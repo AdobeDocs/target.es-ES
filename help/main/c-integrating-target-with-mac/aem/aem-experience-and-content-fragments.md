@@ -1,7 +1,7 @@
 ---
 keywords: aem;experience manager;adobe experience manager;integrar;integración;fragmentos de experiencia;fragmentos de contenido
 description: Aprenda a utilizar fragmentos de experiencia y contenido de [!DNL Adobe Experience Manager] en actividades de [!DNL Adobe Target] .
-title: AEM ¿Cómo utilizo  [!DNL Adobe Experience Manager] () [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments]?
+title: ¿Cómo utilizo  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments]?
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
@@ -11,9 +11,9 @@ ht-degree: 40%
 
 ---
 
-# AEM Resumen de [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] de la
+# Información general de AEM [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments]
 
-AEM Utilice [!UICONTROL Experience Fragments] (XF) y [!UICONTROL Content Fragments] (CF) creados en [!DNL Adobe Experience Manager] () en [!DNL Target] actividades para ayudar en la optimización y personalización.
+Use [!UICONTROL Experience Fragments] (XF) y [!UICONTROL Content Fragments] (CF) creados en [!DNL Adobe Experience Manager] (AEM) en [!DNL Target] actividades para ayudar en la optimización y personalización.
 
 Al usar [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] creados en [!DNL AEM] en [!DNL Target], las actividades le permiten combinar la facilidad de uso y la potencia de [!DNL AEM] con potentes capacidades de inteligencia artificial (IA) y aprendizaje automático (ML) en [!DNL Target] para probar y personalizar experiencias a escala.
 
@@ -25,7 +25,7 @@ Al usar [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] cread
 
 ## Consideraciones
 
-AEM Tenga en cuenta lo siguiente cuando trabaje con los [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] en [!DNL Target]:
+Tenga en cuenta lo siguiente al trabajar con AEM [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] en [!DNL Target]:
 * Estas funciones requieren que sea cliente de [!DNL Adobe Experience Manager] (AEM). Asegúrese de cumplir los requisitos para cada tipo de fragmento: [Fragmento de experiencia](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) o [Fragmento de contenido](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 * [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] están disponibles para los siguientes tipos de actividades:
 
@@ -47,4 +47,4 @@ AEM Tenga en cuenta lo siguiente cuando trabaje con los [!UICONTROL Experience F
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] pueden parecer similares en la superficie, pero cada tipo de fragmento desempeña funciones clave en casos de uso diferentes.
 
-Para obtener más información sobre cómo [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] son similares, diferentes y cuándo y cómo usar cada uno, consulte [Comprender [!UICONTROL Content Fragments] y [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=es){target=_blank} en la [guía de tutoriales y vídeos de AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=es){target=_blank}.
+Para obtener más información sobre cómo [!UICONTROL Experience Fragments] y [!UICONTROL Content Fragments] son similares, diferentes y cuándo y cómo usar cada uno, consulte [Comprender [!UICONTROL Content Fragments] y [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=es){target=_blank} en la guía de tutoriales y vídeos de [AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=es){target=_blank}.

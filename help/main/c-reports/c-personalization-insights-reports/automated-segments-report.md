@@ -2,13 +2,13 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes
 description: Descubra cómo los distintos segmentos definidos por los modelos de personalización de Adobe [!DNL Target] responden a las ofertas y experiencias de la actividad mediante el informe Segmentos automatizados.
 title: ¿Qué es el informe Segmentos automatizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -96,13 +96,13 @@ Existen varias razones por las que los informes de [!UICONTROL Personalization I
 
 * No han transcurrido 15 días desde que activó la actividad. Los informes Segmentos automatizados y Atributos importantes no estarán disponibles al menos hasta 15 días después de haberse iniciado la actividad. Durante este periodo inicial no podrá acceder a estos informes ni hacer clic en los iconos de Segmentos automatizados o Atributos importantes.
 * La actividad no tuvo suficiente tráfico durante el periodo de tiempo especificado. Transcurridos 15 días, y suponiendo que haya tráfico personalizado suficiente en la actividad para crear los modelos de personalización, estarán disponibles los informes Segmentos automatizados y Atributos importantes.
-* Su actividad tiene un objetivo de optimización de ingresos. Actualmente, [!UICONTROL Personalization Insights] solo está disponible para las actividades de objetivos de optimización de conversión. En una versión futura, Adobe añadirá compatibilidad para las actividades objetivo de optimización de ingresos.
+* Su actividad tiene un objetivo de optimización de ingresos. Actualmente, [!UICONTROL Personalization Insights] solo está disponible para las actividades de objetivos de optimización de conversión. Adobe añadirá compatibilidad para las actividades de objetivos de optimización de ingresos en una versión futura.
 
 ¿**Qué es un atributo?**
 
 Un atributo es información sobre un visitante o sobre su visita específica que los algoritmos de personalización utilizan para aprender a personalizar el tráfico. Por ejemplo, un atributo podría ser el tipo de navegador, la ubicación, la hora del día de la visita, etcétera.
 
-Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
+Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
 
 **¿Qué es un segmento automatizado?**
 
@@ -138,7 +138,7 @@ Los informes de Personalization Insights (tanto [!UICONTROL Automated Segments] 
 
 **¿Cómo se crea [!UICONTROL Personalization Insights]?**
 
-[!UICONTROL Personalization Insights] se ha creado mediante una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el artículo publicado por el equipo de investigación del Adobe en el [sitio web de arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] se ha creado usando una técnica de Adobe con patente en trámite llamada MAGIX (Model Agnostic Globally Interpretable Explanations). Puede obtener más información sobre MAGIX en el artículo publicado por el equipo de investigación de Adobe en el [sitio web de arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **¿Por qué los datos totales de tráfico de visitantes en el informe [!UICONTROL Automated Segments] no coinciden con mi informe de resumen/rendimiento de AP o AT?**
 
@@ -150,7 +150,7 @@ No, existe superposición entre los segmentos automatizados.
 
 **¿Está [!UICONTROL Personalization Insights] disponible para los objetivos de modelado basados en los ingresos o para la meta principal?**
 
-En este momento, [!UICONTROL Personalization Insights] solo está disponible para las actividades de objetivos de optimización de conversión. En una versión futura, Adobe añadirá compatibilidad para las actividades objetivo de optimización de ingresos.
+En este momento, [!UICONTROL Personalization Insights] solo está disponible para las actividades de objetivos de optimización de conversión. Adobe añadirá compatibilidad para las actividades de objetivos de optimización de ingresos en una versión futura.
 
 **¿De qué maneras puedo aprovechar la información de Perspectivas de personalización?**
 
