@@ -37,4 +37,4 @@ La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de c
 
 En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. El informe Contribución de ubicación se describe a partir del 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)

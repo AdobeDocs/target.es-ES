@@ -178,4 +178,4 @@ En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)

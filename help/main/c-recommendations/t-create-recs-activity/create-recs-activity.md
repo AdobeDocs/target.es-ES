@@ -174,4 +174,4 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
 ## Vídeo de formación: Crear una actividad de Recommendations (7:15) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33946?captions=spa)

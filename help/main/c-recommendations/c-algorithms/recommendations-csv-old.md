@@ -88,4 +88,4 @@ Este vídeo contiene la siguiente información (detalles sobre cómo cargar crit
 * Crear secuencias de criterios
 * Cargar criterios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35326?quality=12&captions=spa)

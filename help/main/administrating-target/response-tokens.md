@@ -426,4 +426,4 @@ En el siguiente vídeo se explica cómo utilizar tokens de respuesta y eventos p
 >
 >El vídeo menciona `option.name` y `option.id`, que han sido reemplazados con `offer.name` y `offer.id`, respectivamente.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/33709?captions=spa)

@@ -320,4 +320,4 @@ Este vídeo contiene la información siguiente:
 * Crear un diseño personalizado
 * Aprenda a hacer referencia a las variables de visualización en sus diseños
 
->[!VIDEO](https://video.tv.adobe.com/v/27687)
+>[!VIDEO](https://video.tv.adobe.com/v/35325?captions=spa)

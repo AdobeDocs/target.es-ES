@@ -112,7 +112,7 @@ En este vídeo se describe cómo llevar las pruebas A/B al siguiente nivel con [
 * Describa cómo distribuir contenido específico de una ubicación a audiencias de diferentes áreas geográficas
 * Describe cómo se reordenan las experiencias para asegurar que cada contenido se envíe a la audiencia correcta
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38303?captions=spa)
 
 ### Tipos de actividades (9:03)
 
@@ -122,7 +122,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
 
 ### Usando [!UICONTROL Visual Experience Composer]
 

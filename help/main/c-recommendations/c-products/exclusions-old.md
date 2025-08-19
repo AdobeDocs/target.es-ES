@@ -82,4 +82,4 @@ Este vídeo contiene la información siguiente:
 * Creación de una colección
 * Creación de una exclusión
 
->[!VIDEO](https://video.tv.adobe.com/v/27689)
+>[!VIDEO](https://video.tv.adobe.com/v/35463?captions=spa)

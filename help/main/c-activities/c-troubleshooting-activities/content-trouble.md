@@ -206,12 +206,12 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 ### Agregar la extensión ![distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33688?captions=spa)
 
 ### ![Insignia](/help/main/assets/tutorial.png) del tutorial de depuración básica de Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33706?captions=spa)
 
 ### Mbox Trace ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33707?captions=spa)
