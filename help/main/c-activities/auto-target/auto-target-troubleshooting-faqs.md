@@ -2,7 +2,7 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas;tráfico
 description: Explore los temas de solución de problemas y las preguntas más frecuentes acerca de [!UICONTROL Auto-Target] actividades.
 title: ¿Cómo puedo solucionar problemas de [!UICONTROL Auto-Target] actividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e

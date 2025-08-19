@@ -50,7 +50,7 @@ Para establecer el entorno predeterminado en la creación de informes:
 >
 >Los usuarios de [!DNL Recommendations] deben volver a generar la base de datos de comportamiento y la base de datos de producto si los hosts se cambian de grupo de hosts.
 >
->Si especifica un entorno [predeterminado en un [!DNL Adobe Experience Platform] conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, esta configuración anula la configuración de [!DNL Target].
+>Si especifica un entorno [predeterminado en un [!DNL Adobe Experience Platform] conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es#target){target=_blank}, esta configuración anula la configuración de [!DNL Target].
 
 ## Cambiar el nombre de un entorno {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

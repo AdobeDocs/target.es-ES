@@ -2,7 +2,7 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;informes;informes;informe de resumen de segmentación automática;informe de resumen;segmentos automatizados;atributos importantes
 description: Obtenga información sobre cómo interpretar [!UICONTROL Auto-Target] informes de actividad en  [!DNL Target].
 title: ¿Cómo interpreto un informe de [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

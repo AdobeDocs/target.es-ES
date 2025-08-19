@@ -2,7 +2,7 @@
 keywords: colección;Segmentación
 description: Aprenda a utilizar colecciones de productos o elementos en  [!DNL Target Recommendations].
 title: ¿Cómo utilizo las colecciones en las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -46,7 +46,7 @@ Cree una colección para organizar los productos o el contenido que desea mostra
 
    ![Iconos de desplazamiento: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista [!UICONTROL Collections] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [2&rbrace; (entorno) configurado como predeterminado en Recommendations. ](/help/main/administrating-target/hosts.md) Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista [!UICONTROL Collections] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [2&rbrace; (entorno) configurado como predeterminado en Recommendations. ](/help/main/administrating-target/hosts.md) Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
 
 1. Haga clic en **[!UICONTROL Create Collection]**.
 

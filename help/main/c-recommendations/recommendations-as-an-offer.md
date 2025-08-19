@@ -2,7 +2,7 @@
 keywords: Recommendations;oferta
 description: Aprenda a utilizar Adobe Recommendations como oferta en pruebas A/B (incluida la Asignación automática y la Segmentación automática) y en actividades de direccionamiento de experiencias (XT).
 title: ¿Cómo puedo utilizar Recommendations como oferta en otros tipos de actividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12

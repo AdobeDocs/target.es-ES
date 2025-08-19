@@ -2,7 +2,7 @@
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente de búsqueda de productos de Google y  [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo se usa [!UICONTROL Feeds] en  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >

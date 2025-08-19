@@ -3,7 +3,7 @@ keywords: Automated Personalization;aplicación;cargar datos;datos sin conexión
 description: Obtenga información sobre cómo cargar datos sin conexión al crear modelos de personalización en actividades  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target].
 title: ¿Cómo puedo cargar datos para algoritmos de Personalization?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt

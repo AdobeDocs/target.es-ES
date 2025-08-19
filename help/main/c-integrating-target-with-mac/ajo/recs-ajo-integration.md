@@ -3,7 +3,7 @@ keywords: ajo;adobe recorrido optimizer;integración de target de adobe recorrid
 description: Integrar [!DNL Adobe Target Recommendations] con [!DNL Adobe Journey Optimizer].
 title: ¿Cómo uso  [!DNL Target Recommendations] en recorridos de clientes que usan [!DNL Adobe Journey Optimizer]?
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
@@ -29,7 +29,7 @@ Para usar la integración de [!DNL Target Recommendations] y [!DNL Adobe Journey
 
   Esta característica no está disponible con una licencia de [!DNL Target Standard] o al implementar [!DNL Target] con at.js u otros SDK de [!DNL Target].
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## Ejemplos de uso
 

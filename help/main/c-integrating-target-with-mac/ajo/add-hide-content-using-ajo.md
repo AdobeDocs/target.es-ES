@@ -38,7 +38,7 @@ Este caso de uso se ha diseñado para mostrar cómo realizar tareas familiares q
 
 >[!NOTE]
 >
->Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Trabajar con el diseñador web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*.
+>Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Trabajar con el diseñador web](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*.
 >
 >El vídeo de la parte inferior de la página es especialmente útil.
 
@@ -64,7 +64,7 @@ Siga estos pasos para agregar componentes u ocultarlos en la página web:
 
    Una configuración web, o superficie de canal, es una configuración definida por un administrador del sistema. La configuración web contiene todos los parámetros técnicos para enviar el mensaje, como el parámetro de encabezado, subdominio, aplicaciones móviles, etc.
 
-   Para obtener más información, consulte [Configurar superficies de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} en la *documentación de Journey Optimizer*.
+   Para obtener más información, consulte [Configurar superficies de canal](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} en la *documentación de Journey Optimizer*.
 
 1. En la sección **[!UICONTROL Action]**, haga clic en **[!UICONTROL Edit Content]** para abrir el sitio web en el diseñador web [!DNL Journey Optimizer].
 
@@ -91,9 +91,9 @@ Haga clic en el botón [!UICONTROL Reports] y luego haga clic en el período de 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Para obtener más información, consulte [Introducción a la nueva interfaz de informes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} en la *documentación de Journey Optimizer*.
+Para obtener más información, consulte [Introducción a la nueva interfaz de informes](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} en la *documentación de Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Trabaje con el diseñador web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*
->&#x200B;>[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*
+>[Trabaje con el diseñador web](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*
+>&#x200B;>[Crear una campaña](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*

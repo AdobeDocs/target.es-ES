@@ -135,7 +135,7 @@ Seleccione el entorno (grupo de hosts) que se utilizará para el informe. Para o
 
 >[!NOTE]
 >
->Si su organización utiliza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) para enviar datos de métricas a [!DNL Target], el entorno de la secuencia de datos de AEP debe coincidir con el entorno en la configuración del informe [!DNL Target].
+>Si su organización utiliza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=_blank} (AEP) para enviar datos de métricas a [!DNL Target], el entorno de la secuencia de datos de AEP debe coincidir con el entorno en la configuración del informe [!DNL Target].
 
 ### Restablecer datos del informe
 

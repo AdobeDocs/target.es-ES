@@ -2,7 +2,7 @@
 keywords: Automated Personalization;aplicación;previsualización;excluir experiencia
 description: Obtenga información sobre cómo obtener una vista previa de cada experiencia en una actividad de [!UICONTROL Automated Personalization] (AP) en  [!DNL Adobe Target] usando el [!UICONTROL Visual Experience Composer] (VEC).
 title: ¿Cómo puedo obtener una vista previa de [!UICONTROL Automated Personalization] experiencias en el VEC?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

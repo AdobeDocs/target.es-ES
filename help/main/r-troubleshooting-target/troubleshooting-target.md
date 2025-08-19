@@ -96,7 +96,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 
 ## Mbox global
 
-* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=es)
 
 ## Hosts/Entornos
 
@@ -108,23 +108,23 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ### Implementación general
 
-* [Navegadores admitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Uso de instancias basadas en la nube con Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Navegadores admitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es)
+* [Uso de instancias basadas en la nube con Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=es)
 
 ### Mboxes globales
 
-* [Preguntas frecuentes sobre mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Preguntas frecuentes sobre mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=es)
 
 ### at.js
 
 * [Preguntas frecuentes sobre at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=es)
-* [Depurar at.js mediante Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [Depurar at.js mediante Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=es)
 * [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es)
 * Vídeo “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. 
 
 ## Aplicaciones móviles
 
-* [Preguntas frecuentes sobre Target para aplicaciones móviles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Preguntas frecuentes sobre Target para aplicaciones móviles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=es)
 
 ## Creación de informes
 
@@ -133,7 +133,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ## Optimización del motor de búsqueda (SEO)
 
-* [Pruebas sencillas para la optimización del motor de búsqueda (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Pruebas sencillas para la optimización del motor de búsqueda (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es)
 
 ## Seguridad
 
