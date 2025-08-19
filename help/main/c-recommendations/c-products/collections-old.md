@@ -46,7 +46,7 @@ Cree una colección para organizar los productos o el contenido que desea mostra
 
    ![Iconos de desplazamiento: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista [!UICONTROL Collections] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [2} (entorno) configurado como predeterminado en Recommendations. ](/help/main/administrating-target/hosts.md) Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista [!UICONTROL Collections] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [2&rbrace; (entorno) configurado como predeterminado en Recommendations. ](/help/main/administrating-target/hosts.md) Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 1. Haga clic en **[!UICONTROL Create Collection]**.
 

@@ -29,7 +29,7 @@ La dirección URL de actividad determina la página que se usa en [!UICONTROL Mu
 
    Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

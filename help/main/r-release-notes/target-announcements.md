@@ -160,7 +160,7 @@ Las experiencias móviles están impulsando la innovación de forma que los equi
 
 ### Chef&#39;s Collection: Fórmulas para la personalización (30 de agosto de 2022)
 
-Únase al equipo de [!DNL Adobe Target] [!DNL], que ofrece algunas ideas nuevas sobre cómo sacar el máximo partido a Target. Basado en nuestro libro electrónico más reciente, “Chef’s Collection: Ideas para la personalización”.
+Únase al equipo de [!DNL Adobe Target] , que ofrece algunas ideas nuevas sobre cómo sacar el máximo partido a Target. Basado en nuestro libro electrónico más reciente, “Chef’s Collection: Ideas para la personalización”.
 
 * [Vínculo de grabación](https://video.tv.adobe.com/v/346970/){target=_blank}
 

@@ -198,7 +198,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual los clientes veían informes de actividades específicas en la página [!UICONTROL Goals & Settings], el vínculo [!UICONTROL View in Analytics] señala incorrectamente al entorno de control de calidad en lugar del entorno de producción. (TGT-53163)
@@ -237,7 +237,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en la página [!UICONTROL Goals & Settings] en el cual los selectores utilizados en varias experiencias no se resaltaban de manera consistente como seleccionados. (TGT-53062)
@@ -288,7 +288,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual copiar una actividad existente y cambiar el origen de informes a [!DNL Adobe Analytics] (A4T) resultaría en un error de &quot;entrada de usuario no válida&quot;. El error se activó cuando ciertas acciones de métricas incompatibles con los informes de [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` y `restart_new_experience`, se retuvieron de la actividad original. (TGT-52900)
@@ -335,7 +335,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 * Anteriormente, la interfaz de usuario de Recommendations solo mostraba el número de entidades importadas correctamente desde una fuente. Sin embargo, el formato de mensaje back-end incluye tanto el número de entidades importadas como el número total de entidades con el formato: `# of entities imported / # of total entities`. Debido a esta discrepancia, los usuarios solo veían el primer valor (recuento importado) en la interfaz de usuario, lo que provocaba confusión. La interfaz de usuario ahora muestra ambos números. (TGT-53073)
 * Se ha corregido un problema en el cual los clientes no podían guardar una regla de filtrado al configurar una promoción &quot;[!UICONTROL Promote by attribute]&quot; en una actividad A/B basada en formularios con recomendaciones. Después de guardar y volver a abrir la actividad, faltaba la regla de filtrado y la actividad no se pudo guardar correctamente. (TGT-53057)
 
-  +++
++++
 
 **Informes**
 
@@ -345,7 +345,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en el cual la aplicación de una modificación a una vista resultaba en la duplicación de la vista y la actividad devolvía un error de &quot;entrada de usuario no válida&quot;. Esta corrección garantiza que las modificaciones de la vista se apliquen correctamente sin activar errores de duplicación o validación. (TGT-52886)
@@ -372,7 +372,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
    * Al cambiar el nombre de las ofertas mediante el panel derecho, se actualizó el nombre en la interfaz de usuario, pero el cambio no se reflejó en la pestaña [!UICONTROL Manage Content] ni en la pestaña [!UICONTROL Offers], lo que provocó errores de validación persistentes.
    * En las actividades MVT, aunque el error de nombre duplicado no persistió después de cambiar el nombre, la IU seguía sin reflejar los nombres de ofertas actualizados de forma coherente en las pestañas. (TGT-52933)
 
-  +++
++++
 
 ### [!DNL Target Standard/Premium] 25.6.4 (sábado, 27 de junio de 2025)
 
@@ -3976,7 +3976,7 @@ La versión Adobe Target Standard/Premium 16.5.1 (19 de mayo de 2016) incluye la
    <td colname="col1" class="premium"> Descarga de CSV de recomendaciones </td> 
    <td colname="col2"> <p>Ahora, las descargas de CSV tienen una línea para todos los entornos, incluidos los que no disponen de recomendaciones de entidad (por ejemplo: 
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 

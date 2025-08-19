@@ -102,7 +102,7 @@ En este vídeo de información general se explican los tipos de actividades disp
 
 ### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL]Target.
+En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de Target.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable

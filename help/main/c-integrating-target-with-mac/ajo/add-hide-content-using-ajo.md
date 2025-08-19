@@ -96,4 +96,4 @@ Para obtener más información, consulte [Introducción a la nueva interfaz de i
 >[!MORELIKETHIS]
 >
 >[Trabaje con el diseñador web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*
->>[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*
+>&#x200B;>[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*

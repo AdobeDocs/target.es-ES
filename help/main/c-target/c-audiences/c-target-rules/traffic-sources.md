@@ -20,7 +20,7 @@ Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la pá
 Puede combinar varias fuentes de tráfico para crear una regla de segmentación compleja.
 
 1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. 
+1. &#x200B;
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastre y suelte **[!UICONTROL Traffic Sources]** en el panel del generador de audiencias.
 
