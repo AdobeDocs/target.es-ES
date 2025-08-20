@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b80ca92a445bbdab6202a28c03130d24920dfd0
+source-git-commit: 7fcff4220f5954614867815fb4a67444dfd595ee
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 16%
+source-wordcount: '1036'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 Este artículo contiene información previa al lanzamiento para las versiones de [!DNL Adobe Target], incluidos los SDK, las API y las bibliotecas de JavaScript.
 
-**Última actualización: 19 de agosto de 2025**
+**Última actualización: 20 de agosto de 2025**
 
 >[!NOTE]
 >
@@ -42,13 +42,16 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++Ver detalles
 * **Se ha corregido un problema en la interfaz de usuario de Recs por el que la descarga de CSV con criterios personalizados arrojaba el error 404**. Se ha corregido un problema por el que los clientes no podían descargar CSV con criterios personalizados en el proceso de creación de actividades. (TGT-51966)
-* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL &#x200B; Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. (TGT-52778)
+* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL  Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. (TGT-52778)
 * **Se ha corregido un problema por el cual editar una recomendación en una experiencia duplicada afectaba a la experiencia original**: Los clientes notificaron que modificar una recomendación en una experiencia duplicada alteraba involuntariamente la experiencia original. En concreto, después de duplicar la Experiencia B en el proceso de creación de actividades y editar su diseño o criterios, los mismos cambios se reflejaron en la Experiencia B original, a pesar de ser entidades independientes. (TGT-53369)
 * **Se ha corregido un problema por el cual los cambios realizados en una experiencia duplicada afectaban involuntariamente a la experiencia original de una actividad:** Los clientes notificaron que, al duplicar una experiencia dentro de una actividad y asignar una nueva audiencia, cualquier cambio realizado en el diseño o los criterios de la experiencia duplicada también se reflejaba en la experiencia original. Esto ocurría aunque no se realizaban ediciones directamente en la versión original, lo que afectaba a la capacidad de crear variaciones independientes dentro de la misma actividad. (TGT-53361)
 * **Se ha corregido un problema que hacía que [!UICONTROL Recommendation Catalog] no mostrara de forma intermitente todos los datos de atributos del producto**: en la interfaz de usuario de [!DNL Recommendations] actualizada, los clientes experimentaban un problema por el que algunos atributos del producto, como el mensaje, no se mostraban de forma coherente en los resultados de búsqueda del catálogo a pesar de que los datos existían en la fuente. Este problema requería que los clientes reconfiguraran manualmente la visibilidad de la columna para recuperar los valores que faltaban. (TGT-52769)
+* **Se ha corregido un problema que impedía deshabilitar [!UICONTROL Front Promotion] en una actividad activa**: no se guardaron los intentos de deshabilitar [!UICONTROL Front Promotion] en una actividad activa. Después de seleccionar [!UICONTROL Change Promotion] y deshabilitarlo, la promoción permaneció activa al volver a editar la actividad, lo que impidió que se actualizaran las configuraciones de recomendación. La configuración de la promoción ahora se guarda correctamente, lo que permite a los clientes deshabilitar o modificar las promociones en actividades activas según lo esperado. (TGT-53231)
+* **Se ha corregido un problema que causaba que, al habilitar [!DNL Recommendations] [!UICONTROL Promotion] sin datos, se generara un mensaje de error no claro**: al habilitar [!UICONTROL Front] o [!UICONTROL Back Promotion] en una actividad [!DNL Recommendations] sin especificar los valores necesarios, se generaba un mensaje genérico de &quot;error de entrada no válido&quot;. El problema subyacente era un campo de configuración que faltaba, pero el mensaje de error no indicaba claramente la causa, lo que dificultaba la resolución de problemas. El proceso de creación de actividades ahora proporciona un mensaje de error claro y procesable cuando faltan campos obligatorios, como `collectionId` o reglas, lo que ayuda a los clientes a identificar y resolver problemas de configuración rápidamente. (TGT-52616)
+
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
 * **Se ha corregido un problema en el proceso de creación de actividades que bloqueaba la progresión al paso [!UICONTROL Targeting] en las actividades AP**: se ha corregido un problema en el proceso de creación de actividades por el que los clientes no podían continuar al paso [!UICONTROL Targeting] en las actividades [!UICONTROL Automated Personalization] (AP) a menos que se agregaran dos ubicaciones. Este comportamiento difería de la experiencia anterior, en la que una sola ubicación con varias ofertas era suficiente. El requisito se ha corregido, lo que permite a los clientes seguir utilizando configuraciones de una sola ubicación como parte de sus flujos de trabajo de AP. (TGT-53426)
