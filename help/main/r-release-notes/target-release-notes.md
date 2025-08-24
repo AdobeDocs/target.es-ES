@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 66%
+source-wordcount: '231'
+ht-degree: 55%
 
 ---
 
@@ -25,9 +25,16 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 >
 >* Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.8.3 (21 de agosto de 2025)
+## [!DNL Target Standard/Premium] 25.8.4 (28 de agosto de 2025)
 
-Esta versión ya está activa. Vea [[!DNL Target] notas de la versión (actual)](/help/main/r-release-notes/release-notes.md) para obtener más detalles.
+Esta versión incluye las siguientes actualizaciones y correcciones:
+
+**Compositor de experiencias visuales (VEC)**
+
++++Ver detalles
+* **Se ha corregido un problema que consistía en que el cambio de nombre de una ubicación en una actividad [!UICONTROL Automated Personalization] (AP) o [!UICONTROL Multivariate Test] (MVT) no persistiera después de ir al paso [!UICONTROL Targeting] y regresar.** Los clientes ahora pueden editar y guardar correctamente los nombres de las ubicaciones, y los cambios permanecerán visibles a lo largo del proceso de creación de actividades. (TGT-52367)
+
++++
 
 ## Notas de la versión adicionales y detalles de la versión
 
