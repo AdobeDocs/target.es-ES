@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 55%
+source-wordcount: '282'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,14 @@ Este artículo contiene información previa al lanzamiento para las versiones de
 
 Esta versión incluye las siguientes actualizaciones y correcciones:
 
-**Compositor de experiencias visuales (VEC)**
+**[!DNL Recommendations]**
+
++++Ver detalles
+**Se ha actualizado la interfaz de usuario de modo que el filtrado de búsqueda avanzada en [!UICONTROL Product Catalog Search] no distingue entre mayúsculas y minúsculas**: La interfaz de usuario de [!UICONTROL Advanced Search] de la página [!UICONTROL Product Catalog Search] anteriormente realizaba la coincidencia exacta de mayúsculas y minúsculas en los valores devueltos, aunque tanto las consultas del servidor como las de GraphQL no distinguían entre mayúsculas y minúsculas. Esta incoherencia causaba confusión y reducía la precisión de la búsqueda. El filtrado de [!UICONTROL Advanced Search] ahora no distingue entre mayúsculas y minúsculas, se alinea con el comportamiento del back-end y mejora la facilidad de uso.
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++Ver detalles
 * **Se ha corregido un problema que consistía en que el cambio de nombre de una ubicación en una actividad [!UICONTROL Automated Personalization] (AP) o [!UICONTROL Multivariate Test] (MVT) no persistiera después de ir al paso [!UICONTROL Targeting] y regresar.** Los clientes ahora pueden editar y guardar correctamente los nombres de las ubicaciones, y los cambios permanecerán visibles a lo largo del proceso de creación de actividades. (TGT-52367)
