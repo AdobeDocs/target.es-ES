@@ -4,9 +4,9 @@ description: Encuentre respuestas a preguntas acerca del uso de ofertas de redir
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de ofertas de redireccionamiento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 50%
 
 ---
@@ -19,6 +19,27 @@ En este tema encontrará respuestas a preguntas que se plantean a menudo sobre e
 
 +++Respuesta
 Sí, si su implementación utiliza [!DNL at.js]. Sin embargo, la implementación debe cumplir los requisitos mínimos enumerados a continuación para utilizar [ofertas de redireccionamiento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) en actividades que usen Analytics como fuente de informes.
+
++++
+
+## ![Insignia de Adobe Experience Platform Web SDK](/help/main/assets/platform.png) ¿Admite [!DNL Adobe Experience Platform Web SDK] ofertas de redireccionamiento para A4T? {#platform}
+
++++Respuesta
+Las siguientes preguntas frecuentes proporcionan más información sobre el uso de A4T y redirigen ofertas con [!DNL Platform Web SDK].
+
++++
+
+### ¿Admite Analytics for Target (A4T) ofertas de redireccionamiento?
+
++++Respuesta
+Sí, A4T a través de Platform Web SDK admite [ofertas de redireccionamiento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+
++++
+
+### ¿Son compatibles [!UICONTROL Visual Experience Composer] (VEC) y [!UICONTROL Form-Based Experience Composer]?
+
++++Respuesta
+Sí, el [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) son compatibles si usa ofertas de redireccionamiento integradas.
 
 +++
 
@@ -142,24 +163,6 @@ Con [!DNL at.js] versión 0.9.6 (o posterior) y [!DNL AppMeasurement.js] 2.1 (o 
 
 +++Respuesta
 No, debe utilizar una oferta de redireccionamiento integrada para las actividades que empleen [!DNL Analytics] como fuente de informes (A4T). Desde la perspectiva de [!DNL Target], las ofertas HTML son opacas: [!DNL Target] no tiene forma de saber si un fragmento particular de HTML contiene código JavaScript que crea una instancia de redireccionamiento.
-
-+++
-
-## ![Insignia de Adobe Experience Platform Web SDK](/help/main/assets/platform.png) ¿Admite [!DNL Adobe Experience Platform Web SDK] ofertas de redireccionamiento para A4T? {#platform}
-
-Las siguientes preguntas frecuentes proporcionan más información sobre el uso de A4T y redirigen ofertas con [!DNL Platform Web SDK].
-
-### ¿Admite Analytics for Target (A4T) ofertas de redireccionamiento?
-
-+++Respuesta
-Sí, A4T a través de Platform Web SDK admite [ofertas de redireccionamiento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
-
-+++
-
-### ¿Son compatibles [!UICONTROL Visual Experience Composer] (VEC) y [!UICONTROL Form-Based Experience Composer]?
-
-+++Respuesta
-Sí, el [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) son compatibles si usa ofertas de redireccionamiento integradas.
 
 +++
 
