@@ -170,7 +170,7 @@ Para obtener más información, vea la siguiente publicación de blog: [AEM 6.5:
 
 El siguiente vídeo muestra cómo configurar y utilizar [!UICONTROL Experience Fragments]:
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38084?captions=spa)
 
 >[!NOTE]
 >
