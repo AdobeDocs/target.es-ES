@@ -25,7 +25,7 @@ Puede determinar si desea usar ID de elementos o clases de elementos en las pref
 
 >[!NOTE]
 >
->Las clases de elementos están disponibles como selectores en las actividades [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] y [!UICONTROL  Multivariate Test].
+>Las clases de elementos están disponibles como selectores en las actividades [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] y [!UICONTROL &#x200B; Multivariate Test].
 
 Para obtener información sobre cuándo utilizar selectores CSS y cuándo utilizar Ids. únicos, consulte [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
