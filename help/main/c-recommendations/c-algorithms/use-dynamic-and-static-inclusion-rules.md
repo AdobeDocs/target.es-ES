@@ -2,13 +2,13 @@
 keywords: reglas de inclusión;criterios de inclusión;Recommendations;creación de nuevos criterios;promoción;promociones;filtrado dinámico;dinámico;valores en blanco;ignorar regla de filtrado;filtro estático;filtrar por valor;coincidencia de atributos de entidad;coincidencia de atributos de perfil;coincidencia de parámetros;filtrado por valor;filtro estático
 description: Aprenda a crear reglas de inclusión en  [!DNL Target] Recommendations para criterios y promociones.
 title: ¿Cómo utilizo reglas de inclusión dinámicas y estáticas en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1846'
 ht-degree: 16%
 
 ---
@@ -76,6 +76,10 @@ La siguiente opción está disponible para filtrar por valor:
 Los criterios y promociones dinámicos son mucho más potentes que los criterios y promociones estáticos y arrojan mejores resultados y participación.
 
 Los siguientes ejemplos proporcionan ideas generales sobre cómo puede utilizar las promociones y exclusiones dinámicas en sus esfuerzos de marketing:
+
+>[!NOTE]
+>
+>&quot;List&quot; requiere que tanto las entidades como los atributos de perfil se almacenen como matrices. Una lista separada por comas no funciona.
 
 | Operador | Ejemplos |
 | --- | --- |

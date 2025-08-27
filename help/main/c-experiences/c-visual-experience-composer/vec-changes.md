@@ -4,7 +4,7 @@ description: Comprenda los cambios introducidos en el Compositor de experiencias
 title: ¿Qué cambios se introducen en el nuevo Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -129,7 +129,7 @@ La siguiente ilustración muestra los cambios de interfaz de usuario de alto niv
 
 * [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md): Proporciona una breve descripción general para ayudarle a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
 
-* [[!UICONTROL Visual Experience Composer] cambios](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2015) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones heredadas y actualizadas del VEC.
+* [[!UICONTROL Visual Experience Composer] cambios](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2025) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones heredadas y actualizadas del VEC.
 
 * [[!UICONTROL Visual Experience Composer] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Este artículo explica la interfaz de usuario actualizada del VEC y sus opciones.
 

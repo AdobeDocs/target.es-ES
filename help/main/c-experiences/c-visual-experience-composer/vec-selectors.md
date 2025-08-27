@@ -4,34 +4,36 @@ description: Un selector de elementos es una expresión CSS que puede identifica
 title: ¿Puedo utilizar selectores de elementos en el Compositor de experiencias visuales (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 85%
+source-wordcount: '427'
+ht-degree: 31%
 
 ---
 
 # Selectores de elementos utilizados en el Compositor de experiencias visuales
 
-Un selector de elementos es una expresión CSS que puede identificar un elemento o más.
+Un selector de elementos es una expresión CSS que puede identificar uno o más elementos.
 
-Puede encontrar información básica sobre selectores CSS en el documento [Selectores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) en Mozilla Developer Network (MDN).
+Puede encontrar información básica sobre selectores CSS en el documento [Selectores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) en *[!DNL Mozilla Developer Network]* (MDN).
 
 Puede determinar si desea usar ID de elementos o clases de elementos en las preferencias de la cuenta. Haga clic en **[!UICONTROL Administration > Visual Experience Composer]** y luego elija los selectores CSS que prefiera.
 
-![imagen css_selectors](assets/css_selectors.png)
+* **Usar ID de elemento**: deshabilite esta opción si el mismo ID se usa para varios elementos o si los ID de elemento pueden cambiar durante la carga de la página.
+* **Usar clases de elementos**: Deshabilite esta opción si las clases de elementos de una página pueden cambiar.
+* **Use selectores preferidos**: actívelo si desea usar selectores únicos en el VEC para identificar áreas clave del sitio web.
 
 >[!NOTE]
 >
->Las clases de elementos están disponibles como selectores en las actividades de Prueba A/B, Personalización automatizada y Prueba multivariable.
+>Las clases de elementos están disponibles como selectores en las actividades [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] y [!UICONTROL  Multivariate Test].
 
 Para obtener información sobre cuándo utilizar selectores CSS y cuándo utilizar Ids. únicos, consulte [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Cómo Adobe [!DNL Target] genera un selector para un elemento {#section_D89D954BCBFB486CA081BE183776A475}
+## Cómo [!DNL Target] genera un selector para un elemento {#section_D89D954BCBFB486CA081BE183776A475}
 
-Target usa un algoritmo simple para crear un selector. A continuación, encontrará una breve explicación de la lógica de generación:
+[!DNL Target] utiliza un algoritmo simple para crear un selector. Aquí hay una explicación muy breve de la lógica de generación:
 
-1. Si un elemento tiene un Id., por ejemplo `id="container"`, el selector para el elemento es `#container`.
+1. Si un elemento tiene un identificador, por ejemplo `id="container"`, el selector para el elemento es `#container`.
 
    Por ejemplo:
 
@@ -48,9 +50,9 @@ Target usa un algoritmo simple para crear un selector. A continuación, encontra
    </div>
    ```
 
-1. Si un elemento contiene un atributo de clase, Target intenta aprovechar la primera clase de las clases presentes en el elemento.
+1. Si un elemento contiene un atributo class, [!DNL Target] intenta aprovechar la primera clase de cualquier clase presente en el elemento.
 
-   Target intenta analizar el elemento principal hasta encontrar el elemento `<HTML>` o un elemento con un Id. Siempre que un elemento contenga un id. y el selector se calcule en su elemento secundario, el id. de este elemento contribuirá al selector.
+   [!DNL Target] intenta analizar el elemento principal hasta encontrar el elemento `<HTML>` o un elemento con un ID. Siempre que un elemento contenga un ID y el selector se calcule en su hijo descendiente, el ID de este elemento contribuye al selector.
 
    Por ejemplo:
 
@@ -73,7 +75,7 @@ Target usa un algoritmo simple para crear un selector. A continuación, encontra
 
    `eq` indica al índice que existe un elemento que tiene &quot;tagName=UL&quot; y la primera clase es `navigation`. Por lo tanto, `index` es 0. Consulte el artículo [Selectores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) de MDN para obtener más información.
 
-1. Si un elemento no contiene una clase, Target usa `tagName` para el elemento y atraviesa el elemento principal hasta encontrar el elemento `<HTML>` o un elemento con una ID.
+1. Si un elemento no contiene una clase, [!DNL Target] usa `tagName` para el elemento y atraviesa el elemento principal hasta encontrar el elemento `<HTML>` o un elemento con un identificador.
 
    Por ejemplo:
 
@@ -95,5 +97,5 @@ Target usa un algoritmo simple para crear un selector. A continuación, encontra
 En el proceso anterior:
 
 * Puede usar cualquier selector CSS siempre y cuando identifique de manera unívoca a un elemento en DOM.
-* El enfoque de arriba es el que Target usa. Target no lo obliga a usar este enfoque. Puede agregar cualquier selector siempre que el punto 1 sea verdadero.
-* Puede usar cualquier atributo en el selector. Este documento solo usa el nombre de la clase como ejemplo.
+* El enfoque anterior es el que usa [!DNL Target]. [!DNL Target] no le exige que utilice este método. Puede agregar cualquier selector siempre que el punto 1 sea verdadero.
+* Puede usar cualquier atributo en el selector. Este documento sólo utiliza un nombre de clase como ejemplo.

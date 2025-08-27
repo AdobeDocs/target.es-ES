@@ -4,7 +4,7 @@ description: Aprenda a usar  [!DNL Adobe Experience Manager] [!UICONTROL Experie
 title: ¿Cómo Uso  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]?
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 31%
@@ -58,8 +58,8 @@ Para usar [!DNL AEM] [!UICONTROL Experience Fragments] en [!DNL Target], debe re
 
 Para obtener más información, consulte:
 
-* **AEM as a Cloud Service**: [Integración con Adobe Target](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} en la guía de *Experience Manager as a Cloud Service*.
-* **Adobe Developer**: [Integración con Adobe Target mediante Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=es){target=_blank} en la *Guía del usuario de administración*.
+* **AEM as a Cloud Service**: [Integración con Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} en la guía de *Experience Manager as a Cloud Service*.
+* **Adobe Developer**: [Integración con Adobe Target mediante Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} en la *Guía del usuario de administración*.
 * **[!DNL AEM]6.5**: [participar en Adobe Analytics y Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=es){target=_blank} en la documentación de *Adobe Experience Manager 6.5*.
 * **[!DNL AEM]6.4**: [participar en Adobe Analytics y Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=es){target=_blank} en la documentación de *Adobe Experience Manager 6.4*.
 
@@ -84,7 +84,7 @@ Para obtener más información, consulte:
 
 Según su versión de [!DNL AEM], consulte los siguientes vínculos para obtener instrucciones paso a paso:
 
-* **AEM as a Cloud Service**: [Exportando [!UICONTROL Experience Fragments] a Adobe Target](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} en la guía de *Experience Manager as a Cloud Service*.
+* **AEM as a Cloud Service**: [Exportando [!UICONTROL Experience Fragments] a Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} en la guía de *Experience Manager as a Cloud Service*.
 * **[!DNL AEM]6.5**: [exportación de un fragmento de experiencia a Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=es){target=_blank} en la documentación de *Adobe Experience Manager 6.5*.
 * **[!DNL AEM]6.4**: [exportación de un fragmento de experiencia a Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=es){target=_blank} en la documentación de *Adobe Experience Manager 6.4*.
 
@@ -164,13 +164,13 @@ Al usar ofertas [!UICONTROL Experience Fragment] con [!DNL Target] en una págin
 
 A veces, páginas completas de HTML envuelven a [!UICONTROL Experience Fragment] y causan problemas. Asegúrese de que [!UICONTROL Experience Fragment] sea una parte pequeña de HTML y no una página de HTML completa con HTML, HEAD, BODY, etc.
 
-Para obtener más información, vea la siguiente publicación de blog: [AEM 6.5: Quitar clientlibs de [!UICONTROL Experience Fragments] exportados a Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+Para obtener más información, vea la siguiente publicación de blog: [AEM 6.5: Quitar clientlibs de [!UICONTROL Experience Fragments] exportados a Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}.
 
 ## Vídeo de formación: Uso de AEM [!UICONTROL Experience Fragments] con [!DNL Adobe Target]
 
 El siguiente vídeo muestra cómo configurar y utilizar [!UICONTROL Experience Fragments]:
 
->[!VIDEO](https://video.tv.adobe.com/v/38084?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >
