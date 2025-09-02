@@ -6,9 +6,9 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '5850'
+source-wordcount: '7159'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 * **17 de junio de 2025**: todas las organizaciones de IMS se han habilitado para la interfaz de usuario [!DNL Target] actualizada, ya sea para usuarios específicos o para toda la organización, para comenzar a probar la nueva experiencia.
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora ven la IU actualizada al iniciar sesión.
    * El conmutador Versión de la interfaz de usuario permanece disponible hasta finales de julio, lo que permite a los usuarios volver si es necesario.
@@ -75,6 +75,57 @@ La siguiente información describe las limitaciones que debe tener en cuenta al 
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.4 (1 de septiembre de 2025)
+
+Esta versión incluye las siguientes actualizaciones y correcciones:
+
+**[!UICONTROL Activities]**
+
++++Ver detalles
+* **Los clientes no pudieron copiar los nombres de actividad o documento de[!UICONTROL Activity Overview]**: anteriormente, los clientes no podían copiar el nombre de una actividad o la oferta o documento asociado directamente desde [!UICONTROL Activity overview] en el proceso actualizado de creación de actividad. Esta limitación afectaba a la facilidad de uso, especialmente en pantallas más pequeñas. Los clientes ahora pueden copiar fácilmente los nombres de actividades y documentos sin soluciones alternativas. (TGT-51850)
+* **Ingesta proactiva de datos de clientes [!DNL Target] depurados durante la creación de la actividad**: se ha mejorado el proceso de creación de actividades al habilitar la recopilación proactiva de informes, contenido y capturas de pantalla de [!DNL Target] clientes. Esta mejora aborda las lagunas de datos identificadas en los casos de uso existentes y ayuda a garantizar perspectivas más precisas durante la configuración de la actividad y el experimento. (TGT-52415)
+* **Las actividades AP no recuperaron datos listos para modelos en la sección [!UICONTROL Reports]**: Los clientes que veían actividades de Automated Personalization (AP) en la sección [!UICONTROL Reports] no podían ver indicadores listos para modelos en el grupo de informes y nivel de oferta. Este problema se producía porque los datos listos para el modelo no se recuperaban correctamente del servidor. La funcionalidad se ha restaurado y los datos listos para el modelo ahora aparecen según lo esperado. (TGT-53600 y TGT-53601)
+* **Las actividades programadas para el futuro mostraron incorrectamente un estado &quot;[!UICONTROL Live]&quot; en la descripción general de [!UICONTROL Activity]**: Los clientes observaron que las actividades programadas para iniciarse en el futuro se marcaron incorrectamente como &quot;[!UICONTROL Live]&quot; en la descripción general de [!UICONTROL Activity]. Esta discordancia de estado se resolvió y las actividades programadas ahora se muestran correctamente como &quot;[!UICONTROL Scheduled]&quot; sin que sea necesario actualizar la página. (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Ver detalles
+* **La lista de productos no estaba visible en el cuadro de diálogo [!UICONTROL View Collection]:** Anteriormente, los clientes no podían ver la lista de productos al ver una colección en la ficha [!UICONTROL Recommendations]. El cuadro de diálogo [!UICONTROL View Collection] ahora muestra correctamente los productos asociados, mejorando la transparencia y la facilidad de uso en la interfaz de usuario de [!UICONTROL Recommendations] actualizada. (TGT-50531)
+* **Se ha corregido un problema que causaba el filtrado con distinción de mayúsculas y minúsculas en [!UICONTROL Product Catalog Search] búsqueda avanzada**: El filtrado de búsqueda avanzada en la página [!UICONTROL Product Catalog Search] ahora ignora correctamente la distinción de mayúsculas y minúsculas, alineándose con el comportamiento de los servicios back-end y GraphQL. Esta actualización garantiza resultados de sugerencias coherentes y precisos para los clientes, independientemente del formato de texto. (TGT-53585)
+* **La búsqueda avanzada en la interfaz de usuario [!UICONTROL Product Catalog Search] actualizada no proporcionó sugerencias**: Los clientes que usaban la característica de búsqueda avanzada en la interfaz de usuario [!UICONTROL Product Catalog Search] actualizada debían escribir los valores exactos con la ortografía correcta, ya que no se mostraba ninguna sugerencia. Este problema dificultaba la localización eficiente de los productos. Las sugerencias ahora aparecen según lo esperado durante la entrada de búsqueda avanzada. (TGT-52008)
+* **Algunos aprobadores no pudieron ver los productos de[!UICONTROL Product Catalog Search]**: los clientes con permisos de [!UICONTROL Approver] no pudieron ver ningún producto de [!UICONTROL Product Catalog Search], a pesar de que otros usuarios con funciones idénticas tuvieron acceso. Este problema se debía a una incoherencia de los permisos que afectaba a la visibilidad del catálogo. Ahora todos los aprobadores pueden ver los productos en la sección [!UICONTROL Recommendations] según lo esperado. (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++Ver detalles
+* **No se han podido cargar los informes para la audiencia de escritorio debido a un error de nombre de audiencia no válido**: los clientes han encontrado un error de GraphQL al intentar ver los informes de la audiencia única en el proceso de creación de actividad. El sistema devolvió un mensaje &quot;Nombre de audiencia no válido: XXXXX&quot; que impedía el acceso a los datos de los informes. Ahora, los informes se cargan correctamente para la audiencia de escritorio. (TGT-53371)
+* **El cambio de audiencias en la página de informes produjo errores en la interfaz de usuario de Target**: los clientes encontraron errores al seleccionar ciertas audiencias en la sección [!UICONTROL Reports]. Este problema se debía a la gestión de audiencias no válidas en las llamadas GraphQL back-end, lo que daba como resultado errores inesperados y datos faltantes. El problema se ha resuelto y las audiencias de escritorio ahora se cargan sin errores, incluso cuando no hay datos disponibles. (TGT-53370)
+* **[!UICONTROL Graph view]en la sección [!UICONTROL Reports] no mostraba valores de[!DNL Analytics]**: los clientes que acceden a [!UICONTROL Graph view] en la sección Reports encontraron datos que faltan, y todos los valores aparecen como cero. Este problema se debió a una recuperación de datos incorrecta de [!UICONTROL Analytics]. [!UICONTROL Graph view] ahora muestra los valores precisos según lo esperado. (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Ver detalles
+* **Error al hacer clic en &quot;Aceptar cookies&quot; usando el [!UICONTROL Enhanced Experience Composer] (EEC) debido a la falta de una función**: Los clientes notificaron que al intentar aceptar cookies a través del EEC se produjo un error en la consola: `handleclickAcceptAllButton is not defined`. La funcionalidad de aceptación de cookies ahora funciona según lo esperado, lo que garantiza una experiencia más fluida durante la creación de actividades en la interfaz de usuario actualizada. (TGT-52794)
+* **La nueva IU de EEC no pudo cargar ciertas páginas que anteriormente eran compatibles con la IU heredada**: Los clientes informaron que el nuevo EEC no podía cargar algunas páginas, a las que se podía acceder desde la IU heredada a pesar del código de eliminación de iframes presente en el sitio. El proceso actualizado de creación de actividades ahora admite la carga de estas páginas, lo que restaura la compatibilidad con los flujos de trabajo de creación de actividades. (TGT-53061)
+* **El VEC mostraba una pantalla en blanco al editar experiencias**: Los clientes de un determinado inquilino informaron de que la pantalla del VEC se quedaba en blanco al intentar editar experiencias en el VEC actualizado. Este problema afectaba tanto a las actividades recién creadas como a las más antiguas, lo que impedía la continuidad del flujo de trabajo. El VEC ahora se carga correctamente, lo que permite a los clientes editar experiencias sin interrupción. (TGT-53547)
+* **El VEC se bloqueó y mostró una pantalla en blanco al cargar ciertas actividades**: Los clientes de un determinado inquilino informaron que el VEC no pudo cargar actividades específicas. El editor de experiencias permaneció atascado en &quot;Aplicación de modificaciones iniciales&quot; antes de bloquearse y mostrar una pantalla en blanco. Los errores de consola indicaron un error al leer las propiedades no definidas. El editor ahora carga las actividades afectadas sin errores en el VEC actualizado. (TGT-53548)
+* **Borrar todos los valores de fecha usando Retroceso provocó que la página se bloqueara**: Los clientes que programan actividades en la sección [!UICONTROL Goals & Settings] experimentaron un bloqueo al usar Retroceso para borrar todos los valores de los campos &quot;[!UICONTROL Specified Date & Time]&quot;. Este problema se debía a un error de referencia nulo en la lógica de control de fechas. La página ahora administra correctamente las entradas de fecha vacías sin bloqueos. (TGT-53624)
+* **No apareció ningún producto en [!UICONTROL Product Catalog Search] debido a una carga útil no válida**: Los clientes que accedieron a la sección [!UICONTROL Recommendations] en [!UICONTROL Product Catalog Search] encontraron resultados vacíos causados por una carga útil de GraphQL no válida. Este error de servidor impedía que los datos del producto se cargaran correctamente. Los productos ahora se muestran según lo esperado en la IU actualizada. (TGT-53630)
+* Se guardaron **[!DNL Scene7]imágenes con una resolución menor en el VEC actualizado**: Los clientes que editaban experiencias en el VEC actualizado observaron que se guardaron [!UICONTROL Scene7] URL de imagen sin parámetros de resolución, lo que resultó en imágenes de baja calidad entregadas (400×400 en lugar del 800×800 deseado). Las direcciones URL con imágenes ahora conservan los parámetros correctos para garantizar una resolución adecuada. (TGT-52631)
+* **Las actividades en vivo aún no se pudieron editar en el VEC**: Los clientes pudieron acceder a las opciones de edición para actividades en vivo en el VEC actualizado, lo que podría conducir a cambios no deseados. Este problema se ha resuelto deshabilitando la funcionalidad de edición para las actividades activas. Los botones de edición ahora están ocultos en la lista de actividades y en la descripción general para los editores, mientras que los aprobadores y otras funciones no se ven afectados. (TGT-53055)
+* **Retiró del mercado la sección de actividades [!UICONTROL Failed] y [!UICONTROL Draft] del VEC actualizado**: Las opciones de actividades [!UICONTROL Failed] y [!UICONTROL Draft] se han eliminado del VEC actualizado. La nueva IU ya no admite estados de borrador y las campañas que dan error no se almacenan en el servidor. Estas opciones ya no son relevantes. Los filtros relacionados y los campos de back-end (por ejemplo, `uiSyncFailed`, `errorMessage`) también se han eliminado para optimizar la administración de la actividad. (TGT-53150)
+* **No se puede iniciar sesión en el VEC para una actividad**: Los clientes que intentaban iniciar sesión en su sitio a través del VEC fueron redirigidos repetidamente a la página de inicio de sesión, lo que impidió el acceso a la edición de la actividad. Este problema no se podía reproducir internamente y podría haber estado relacionado con la gestión de sesiones en el sitio. El flujo de inicio de sesión se ha estabilizado y los clientes ahora pueden acceder al VEC sin errores de redirección. (TGT-53524)
+* **Al presionar el botón Atrás dos veces en el modo [!UICONTROL Browse], el VEC se bloqueó**: Los clientes que navegaban a través del modo [!UICONTROL Browse] en el VEC experimentaron bloqueos al presionar el botón Atrás del explorador dos veces. Este problema provocaba que el editor se bloqueara y requiriera una actualización de la página. El editor ahora gestiona la navegación trasera de forma fiable sin bloqueos. (GT-53568)
+* **No se pudieron editar las actividades debido a asignaciones de ubicación no definidas**: los clientes encontraron un error al intentar editar las actividades, debido a identificadores de ubicación no definidos en la lógica `LocationMapping.behaviorTargetedActivity`. Este problema provocaba un error 400 y bloqueaba las actualizaciones de la actividad. Ahora, las actividades se pueden editar sin errores de validación relacionados con la ubicación. (TGT-53607)
+* **Al guardar actividades, se produjo un error de entrada de usuario no válido**: Los clientes encontraron un error de entrada de usuario no válido al intentar guardar actividades después de realizar modificaciones menores en el VEC actualizado. El error se debía a asignaciones de ubicación no coincidentes en la lógica de validación del servidor. Ahora, las actividades se pueden guardar correctamente sin activar errores relacionados con la ubicación. (TGT-53603)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.3 (21 de agosto de 2025)
 
 Esta versión incluye las siguientes actualizaciones y correcciones:
@@ -88,7 +139,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Ver detalles
 * **Se ha corregido un problema por el cual los clientes no podían escribir nombres de grupos de informes durante el proceso de creación de actividades**: Los clientes que usaban [!DNL Adobe Analytics] como fuente de informes durante el proceso de creación de actividades no podían escribir en la lista desplegable [!UICONTROL Report Suite] para buscar grupos de informes específicos. Esto afectaba a los flujos de trabajo de las organizaciones con un gran número de grupos de informes, donde el desplazamiento manual retrasaba considerablemente la configuración. La lista desplegable no se ordenaba alfabéticamente y no respondía de forma coherente a la entrada escrita, lo que dificultaba la localización de grupos de informes como &quot;Office + Tienda - Web - Producción&quot;. Este problema se ha resuelto y los clientes ahora pueden buscar de forma eficaz escribiendo los nombres de los grupos de informes. (TGT-53345)
@@ -122,7 +173,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++Ver detalles
 * **Se ha corregido un problema en la interfaz de usuario de [!DNL Recommendations] por el que la descarga de CSV con criterios personalizados arrojaba el error 404**: se ha corregido un problema por el que los clientes no podían descargar el CSV con criterios personalizados en el proceso de creación de actividades. El vínculo de descarga ahora funciona correctamente, lo que permite a los clientes exportar criterios personalizados según lo esperado. (TGT-51966)
-* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL &#x200B; Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
+* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL  Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
 * **Se ha corregido un problema por el cual editar una recomendación en una experiencia duplicada afectaba a la experiencia original**: Los clientes notificaron que modificar una recomendación en una experiencia duplicada alteraba involuntariamente la experiencia original. En concreto, después de duplicar la Experiencia B en el proceso de creación de actividades y editar su diseño o criterios, los mismos cambios se reflejaron en la Experiencia B original, a pesar de ser entidades independientes. Las experiencias duplicadas ahora mantienen configuraciones independientes, lo que garantiza que las ediciones realizadas en una experiencia no afecten a la original. (TGT-53369)
 * **Se ha corregido un problema por el cual los cambios realizados en una experiencia duplicada afectaban involuntariamente a la experiencia original de una actividad**: Los clientes notificaron que, al duplicar una experiencia dentro de una actividad y asignar una nueva audiencia, cualquier cambio realizado en el diseño o los criterios de la experiencia duplicada también se reflejaba en la experiencia original. Este problema se producía aunque no se realizaban ediciones directamente en la versión original, lo que afectaba a la capacidad de crear variaciones independientes dentro de la misma actividad. El proceso de creación de actividades ahora aísla correctamente las experiencias duplicadas, asegurándose de que las ediciones realizadas en una experiencia no afecten a la experiencia original. (TGT-53361)
 * **Se ha corregido un problema en el cual [!UICONTROL Recommendation Catalog] no mostraba de forma intermitente los datos completos de atributos de productos**: en la interfaz de usuario de [!DNL Recommendations] actualizada, los clientes experimentaron un problema en el cual algunos atributos de productos, como el mensaje, no se mostraban de forma coherente en los resultados de [!UICONTROL Catalog Search], aunque los datos existían en la fuente. Este problema requería que los clientes reconfiguraran manualmente la visibilidad de la columna para recuperar los valores que faltaban. [!UICONTROL Catalog Search] ahora muestra de forma fiable todos los atributos configurados, lo que elimina la necesidad de restablecer manualmente las columnas. (TGT-52769)
@@ -153,7 +204,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
 * **Se ha corregido un problema en el proceso de creación de actividades que bloqueaba la progresión al paso [!UICONTROL Targeting] en las actividades AP**: se ha corregido un problema en el proceso de creación de actividades por el que los clientes no podían continuar al paso [!UICONTROL Targeting] en las actividades [!UICONTROL Automated Personalization] (AP) a menos que se agregaran dos ubicaciones. Este comportamiento difería de la experiencia anterior, en la que una sola ubicación con varias ofertas era suficiente. El requisito se ha corregido, lo que permite a los clientes seguir utilizando configuraciones de una sola ubicación como parte de sus flujos de trabajo de AP. (TGT-53426)
