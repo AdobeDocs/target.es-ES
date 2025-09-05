@@ -55,7 +55,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 * **[!UICONTROL Graph view]en la sección [!UICONTROL Reports] no mostraba valores de[!DNL Analytics]**: los clientes que acceden a [!UICONTROL Graph view] en la sección Reports encontraron datos que faltan, y todos los valores aparecen como cero. Este problema se debió a una recuperación de datos incorrecta de [!UICONTROL Analytics]. [!UICONTROL Graph view] ahora muestra los valores precisos según lo esperado. (TGT-52792)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * **Error al hacer clic en &quot;Aceptar cookies&quot; usando el [!UICONTROL Enhanced Experience Composer] (EEC) debido a la falta de una función**: Los clientes notificaron que al intentar aceptar cookies a través del EEC se produjo un error en la consola: `handleclickAcceptAllButton is not defined`. La funcionalidad de aceptación de cookies ahora funciona según lo esperado, lo que garantiza una experiencia más fluida durante la creación de actividades en la interfaz de usuario actualizada. (TGT-52794)
@@ -87,7 +87,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * **Se ha corregido un problema por el cual los clientes no podían escribir nombres de grupos de informes durante el proceso de creación de actividades**: Los clientes que usaban [!DNL Adobe Analytics] como fuente de informes durante el proceso de creación de actividades no podían escribir en la lista desplegable [!UICONTROL Report Suite] para buscar grupos de informes específicos. Esto afectaba a los flujos de trabajo de las organizaciones con un gran número de grupos de informes, donde el desplazamiento manual retrasaba considerablemente la configuración. La lista desplegable no se ordenaba alfabéticamente y no respondía de forma coherente a la entrada escrita, lo que dificultaba la localización de grupos de informes como &quot;Office + Tienda - Web - Producción&quot;. Este problema se ha resuelto y los clientes ahora pueden buscar de forma eficaz escribiendo los nombres de los grupos de informes. (TGT-53345)
@@ -121,7 +121,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++Ver detalles
 * **Se ha corregido un problema en la interfaz de usuario de [!DNL Recommendations] por el que la descarga de CSV con criterios personalizados arrojaba el error 404**: se ha corregido un problema por el que los clientes no podían descargar el CSV con criterios personalizados en el proceso de creación de actividades. El vínculo de descarga ahora funciona correctamente, lo que permite a los clientes exportar criterios personalizados según lo esperado. (TGT-51966)
-* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL  Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
+* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL &#x200B; Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
 * **Se ha corregido un problema por el cual editar una recomendación en una experiencia duplicada afectaba a la experiencia original**: Los clientes notificaron que modificar una recomendación en una experiencia duplicada alteraba involuntariamente la experiencia original. En concreto, después de duplicar la Experiencia B en el proceso de creación de actividades y editar su diseño o criterios, los mismos cambios se reflejaron en la Experiencia B original, a pesar de ser entidades independientes. Las experiencias duplicadas ahora mantienen configuraciones independientes, lo que garantiza que las ediciones realizadas en una experiencia no afecten a la original. (TGT-53369)
 * **Se ha corregido un problema por el cual los cambios realizados en una experiencia duplicada afectaban involuntariamente a la experiencia original de una actividad**: Los clientes notificaron que, al duplicar una experiencia dentro de una actividad y asignar una nueva audiencia, cualquier cambio realizado en el diseño o los criterios de la experiencia duplicada también se reflejaba en la experiencia original. Este problema se producía aunque no se realizaban ediciones directamente en la versión original, lo que afectaba a la capacidad de crear variaciones independientes dentro de la misma actividad. El proceso de creación de actividades ahora aísla correctamente las experiencias duplicadas, asegurándose de que las ediciones realizadas en una experiencia no afecten a la experiencia original. (TGT-53361)
 * **Se ha corregido un problema en el cual [!UICONTROL Recommendation Catalog] no mostraba de forma intermitente los datos completos de atributos de productos**: en la interfaz de usuario de [!DNL Recommendations] actualizada, los clientes experimentaron un problema en el cual algunos atributos de productos, como el mensaje, no se mostraban de forma coherente en los resultados de [!UICONTROL Catalog Search], aunque los datos existían en la fuente. Este problema requería que los clientes reconfiguraran manualmente la visibilidad de la columna para recuperar los valores que faltaban. [!UICONTROL Catalog Search] ahora muestra de forma fiable todos los atributos configurados, lo que elimina la necesidad de restablecer manualmente las columnas. (TGT-52769)
@@ -152,7 +152,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * **Se ha corregido un problema en el proceso de creación de actividades que bloqueaba la progresión al paso [!UICONTROL Targeting] en las actividades AP**: se ha corregido un problema en el proceso de creación de actividades por el que los clientes no podían continuar al paso [!UICONTROL Targeting] en las actividades [!UICONTROL Automated Personalization] (AP) a menos que se agregaran dos ubicaciones. Este comportamiento difería de la experiencia anterior, en la que una sola ubicación con varias ofertas era suficiente. El requisito se ha corregido, lo que permite a los clientes seguir utilizando configuraciones de una sola ubicación como parte de sus flujos de trabajo de AP. (TGT-53426)
@@ -475,7 +475,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual los clientes veían informes de actividades específicas en la página [!UICONTROL Goals & Settings], el vínculo [!UICONTROL View in Analytics] señala incorrectamente al entorno de control de calidad en lugar del entorno de producción. (TGT-53163)
@@ -514,7 +514,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en la página [!UICONTROL Goals & Settings] en el cual los selectores utilizados en varias experiencias no se resaltaban de manera consistente como seleccionados. (TGT-53062)
@@ -565,7 +565,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual copiar una actividad existente y cambiar el origen de informes a [!DNL Adobe Analytics] (A4T) resultaría en un error de &quot;entrada de usuario no válida&quot;. El error se activó cuando ciertas acciones de métricas incompatibles con los informes de [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` y `restart_new_experience`, se retuvieron de la actividad original. (TGT-52900)
@@ -612,7 +612,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 * Anteriormente, la interfaz de usuario de Recommendations solo mostraba el número de entidades importadas correctamente desde una fuente. Sin embargo, el formato de mensaje back-end incluye tanto el número de entidades importadas como el número total de entidades con el formato: `# of entities imported / # of total entities`. Debido a esta discrepancia, los usuarios solo veían el primer valor (recuento importado) en la interfaz de usuario, lo que provocaba confusión. La interfaz de usuario ahora muestra ambos números. (TGT-53073)
 * Se ha corregido un problema en el cual los clientes no podían guardar una regla de filtrado al configurar una promoción &quot;[!UICONTROL Promote by attribute]&quot; en una actividad A/B basada en formularios con recomendaciones. Después de guardar y volver a abrir la actividad, faltaba la regla de filtrado y la actividad no se pudo guardar correctamente. (TGT-53057)
 
-  +++
++++
 
 **Informes**
 
@@ -622,7 +622,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en el cual la aplicación de una modificación a una vista resultaba en la duplicación de la vista y la actividad devolvía un error de &quot;entrada de usuario no válida&quot;. Esta corrección garantiza que las modificaciones de la vista se apliquen correctamente sin activar errores de duplicación o validación. (TGT-52886)
@@ -649,7 +649,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
    * Al cambiar el nombre de las ofertas mediante el panel derecho, se actualizó el nombre en la interfaz de usuario, pero el cambio no se reflejó en la pestaña [!UICONTROL Manage Content] ni en la pestaña [!UICONTROL Offers], lo que provocó errores de validación persistentes.
    * En las actividades MVT, aunque el error de nombre duplicado no persistió después de cambiar el nombre, la IU seguía sin reflejar los nombres de ofertas actualizados de forma coherente en las pestañas. (TGT-52933)
 
-  +++
++++
 
 ### [!DNL Target Standard/Premium] 25.6.4 (sábado, 27 de junio de 2025)
 
@@ -4253,7 +4253,7 @@ La versión Adobe Target Standard/Premium 16.5.1 (19 de mayo de 2016) incluye la
    <td colname="col1" class="premium"> Descarga de CSV de recomendaciones </td> 
    <td colname="col2"> <p>Ahora, las descargas de CSV tienen una línea para todos los entornos, incluidos los que no disponen de recomendaciones de entidad (por ejemplo: 
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 
