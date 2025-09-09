@@ -4,10 +4,10 @@ description: Aprenda a descargar datos de actividades de Adobe [!DNL Target] en 
 title: ¿Cómo se descargan datos de informes en un archivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 34%
+source-wordcount: '732'
+ht-degree: 30%
 
 ---
 
@@ -26,6 +26,20 @@ Para descargar datos en un archivo CSV:
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
+
+## Formato de descarga CSV para algoritmos de popularidad y basados en claves {#format}
+
+El archivo de descarga CSV refleja de forma coherente los resultados generados tras la ejecución de criterios de back-end.
+
+**Para algoritmos de popularidad (no basados en claves), el archivo incluye:**
+
+* Una fila de recomendaciones de copia de seguridad con el prefijo *
+* Una fila independiente que enumera recomendaciones basadas en la configuración del algoritmo
+
+**Para algoritmos basados en claves, el archivo incluye:**
+
+* Una fila de copia de seguridad similar a los algoritmos de popularidad
+* Varias filas en formato de clave-valor, donde la primera entrada es el ID de producto de la clave, seguido de ID de producto separados por comas que representan candidatos de recomendación
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
