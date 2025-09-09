@@ -4,9 +4,9 @@ description: Aprenda a descargar datos de actividades de Adobe [!DNL Target] en 
 title: ¿Cómo se descargan datos de informes en un archivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
+source-git-commit: be02c0405133e4fc4e7f668a2b72a61b94070740
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '734'
 ht-degree: 30%
 
 ---
@@ -70,19 +70,19 @@ El informe [!UICONTROL Order Details] muestra información sobre sus pedidos, in
 >* Los datos de informe de pedido incluyen cuatro semanas de datos para el entorno (grupo de hosts) predeterminado y dos semanas para todos los demás.
 >* Las métricas de ingresos establecidas en &quot;[!UICONTROL Increment count and keep the user in the activity]&quot; registran los detalles de pedido únicamente para el primer pedido realizado por el mismo visitante. Todos los pedidos subsiguientes aumentan el recuento de conversiones, pero no agregan ingresos a RPV/AOV/Sales y no se incluyen en el informe [!UICONTROL Order Details].
 
-## Formato de descarga CSV para algoritmos de popularidad y basados en claves {#format}
+## Formato de descarga CSV para algoritmos basados en popularidad y en claves {#format}
 
 El archivo de descarga CSV refleja de forma coherente los resultados generados tras la ejecución de criterios de back-end.
 
-**Para algoritmos de popularidad (no basados en claves), el archivo incluye:**
+* **Para los algoritmos basados en popularidad (no basados en claves), el archivo incluye:**
 
-* Una fila de recomendaciones de copia de seguridad con el prefijo *
-* Una fila independiente que enumera recomendaciones basadas en la configuración del algoritmo
+   * Una fila de recomendaciones de copia de seguridad con el prefijo * (un asterisco)
+   * Una fila independiente que enumera recomendaciones basadas en la configuración del algoritmo
 
-**Para algoritmos basados en claves, el archivo incluye:**
+* **Para algoritmos basados en claves, el archivo incluye:**
 
-* Una fila de copia de seguridad similar a los algoritmos de popularidad
-* Varias filas en formato de clave-valor, donde la primera entrada es el ID de producto de la clave, seguido de ID de producto separados por comas que representan candidatos de recomendación
+   * Una fila de copia de seguridad similar a los algoritmos basados en popularidad
+   * Varias filas en formato de clave-valor, donde la primera entrada es el ID de producto de la clave, seguido de ID de producto separados por comas que representan candidatos de recomendación
 
 ## Prácticas recomendadas  
 
