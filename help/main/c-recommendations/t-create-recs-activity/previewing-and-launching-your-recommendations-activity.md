@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo obtener una vista previa de la act
 title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ Para otros tipos de algoritmo basados en un valor de clave, como [!UICONTROL Peo
 >[!NOTE]
 >
 >Las descargas de resultados no están disponibles para las actividades que contienen un algoritmo [!UICONTROL User-Based Recommendations]. Las descargas de resultados no están disponibles para los criterios que usan la lógica de recomendación [!UICONTROL Recently-Viewed Items].
+
+### Formato de descarga CSV para algoritmos basados en popularidad y en claves {#format}
+
+El archivo de descarga CSV refleja de forma coherente los resultados generados tras la ejecución de criterios de back-end.
+
+* **Para los algoritmos basados en popularidad (no basados en claves), el archivo incluye:**
+
+   * Una fila de recomendaciones de copia de seguridad con el prefijo * (un asterisco)
+   * Una fila independiente que enumera recomendaciones basadas en la configuración del algoritmo
+
+* **Para algoritmos basados en claves, el archivo incluye:**
+
+   * Una fila de copia de seguridad similar a los algoritmos basados en popularidad
+   * Varias filas en formato de clave-valor, donde la primera entrada es el ID de producto de la clave, seguido de ID de producto separados por comas que representan candidatos de recomendación
 
 ## Activación de la actividad de Recommendations
 
