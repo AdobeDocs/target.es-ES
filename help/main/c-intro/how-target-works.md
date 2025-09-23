@@ -28,19 +28,19 @@ Los puntos clave incluyen:
 
 Target se integra con los sitios web que utilizan [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La biblioteca mbox.js es una implementación heredada para [!DNL Target] y ya no es compatible a partir del 31 de marzo de 2021. Actualice a [!UICONTROL Experience Platform Web SDK] (preferido) o a la última versión de at.js.
 
-Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
+Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
 * Extensión de [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
-* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que un visitante solicita una página optimizada para [!DNL Target], se envía una solicitud en tiempo real al sistema de segmentación para determinar el contenido que se va a servir. Esta solicitud se realiza y se completa cada vez que se carga una página, regida por actividades y experiencias controladas por expertos en marketing. El contenido está dirigido a visitantes de sitio individuales, lo que maximiza las tasas de respuesta, las tasas de adquisición y los ingresos. El contenido personalizado ayuda a garantizar que los visitantes respondan, interactúen o realicen compras.
 
@@ -172,7 +172,7 @@ El servicio de [!DNL Target Recommendations] está alojado en un centro de datos
 >
 >[!DNL Target] carece actualmente de un clúster de Edge en China, lo que limita el rendimiento del visitante para [!DNL Target] clientes en la región. El cortafuegos y la ausencia de clústeres de Edge pueden afectar a las experiencias del sitio, lo que provoca una lentitud de procesamiento y tiempos de carga de las páginas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la interfaz de usuario de creación de [!DNL Target].
 
-Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
