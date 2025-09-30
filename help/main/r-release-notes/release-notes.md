@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 8%
+source-wordcount: '5412'
+ht-degree: 7%
 
 ---
 
@@ -40,7 +40,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 * **17 de junio de 2025**: todas las organizaciones de IMS se han habilitado para la interfaz de usuario [!DNL Target] actualizada, ya sea para usuarios específicos o para toda la organización, para comenzar a probar la nueva experiencia.
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora ven la IU actualizada al iniciar sesión.
    * El conmutador Versión de la interfaz de usuario permanece disponible hasta finales de julio, lo que permite a los usuarios volver si es necesario.
@@ -75,6 +75,64 @@ La siguiente información describe las limitaciones que debe tener en cuenta al 
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3 (30 de septiembre de 2025)
+
+Esta versión incluye las siguientes mejoras y correcciones.
+
++++[!UICONTROL Audiences]
+
+* **Las reglas de exclusión de audiencia se mostraban incorrectamente como inclusión en la interfaz de usuario de [!DNL Target].** audiencias configuradas con reglas de exclusión aparecieron como incluidas al editar la segmentación dentro de una actividad. Aunque la lógica de exclusión se aplicó correctamente durante la ejecución, la interfaz de usuario no reflejó la regla con precisión, omitiendo la etiqueta &quot;excluyendo&quot;. La interfaz de usuario [!DNL Target] ahora muestra correctamente las reglas de exclusión en la configuración de audiencia y en los flujos de trabajo de segmentación, lo que garantiza la claridad y coherencia en la configuración de la campaña. (TGT-53808)
+* **La sección [!UICONTROL Targeting] no indica que se haya establecido una regla de audiencia para excluir.Las audiencias de** configuradas con lógica de exclusión se mostraban incorrectamente como inclusión en la sección [!UICONTROL Targeting] de la interfaz de usuario de la creación de actividades. Aunque el servidor aplicó correctamente la regla de exclusión, la interfaz de usuario no la representó visualmente, omitiendo la etiqueta &quot;Excluir&quot; y causando confusión durante la configuración de la campaña. La sección [!UICONTROL Targeting] ahora muestra claramente las reglas de exclusión, lo que garantiza la coherencia entre la configuración de la audiencia y la visualización de la segmentación. (TGT-53809)
+
++++
+
++++Localización
+
+* **Se ha corregido una incoherencia terminológica en la traducción al chino simplificado de &quot;Vista de detalles completa&quot;.**
+Anteriormente, el término &quot;Detalles&quot; se traducía incorrectamente como &quot;详情&quot; en la configuración regional del chino simplificado (zh_CN), lo que infringía las directrices terminológicas establecidas. Esto se ha corregido a &quot;详细信息&quot; para garantizar la coherencia con la base terminológica. (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **Los cuadros de recomendación eran difíciles de localizar y seleccionar en el VEC.** Después de agregar una oferta de recomendaciones en (VEC), al hacer clic en la modificación en el panel izquierdo, no se resaltó ni se desplazó al cuadro de recomendaciones correspondiente de la página. Esto dificultaba la localización y edición de la oferta, especialmente cuando se ocultaba bajo selectores o se diseñaba mínimamente. Al hacer clic en una modificación de recomendación, ahora se resalta y se desplaza correctamente al elemento asociado, lo que mejora la facilidad de uso y la eficacia de la edición en el proceso actualizado de creación de actividades. (TGT-52571)
+* **Los selectores de recomendación se reescribieron incorrectamente después de guardar una actividad.** Al agregar una recomendación a un elemento del VEC, el selector era inicialmente correcto, pero después de guardar y volver a abrir la actividad, se cambió a un selector genérico. Los intentos de restaurar manualmente el selector original dieron como resultado errores de validación. Los selectores de recomendación ahora persisten con precisión después de guardar, lo que garantiza un direccionamiento y una editabilidad fiables en el proceso de creación de actividades actualizado. (TGT-53709)
+* **No se pudo editar el contenido de criterios al modificar una actividad existente.** Al editar una actividad, la sección de contenido [!UICONTROL Criteria] parecía deshabilitada, con botones atenuados y sin respuesta. Este problema se resolvió asegurándose de que las configuraciones de [!UICONTROL Criteria] se puedan editar completamente durante las actualizaciones de la actividad. Los clientes ahora pueden modificar el contenido de [!UICONTROL Criteria] sin necesidad de cambiar de selección ni utilizar soluciones alternativas, lo que mejora la flexibilidad y la facilidad de uso en el proceso actualizado de creación de actividades. (TGT-53812)
+* **No se pudieron editar los criterios dentro de una actividad.** Las opciones [!UICONTROL Edit Criteria] y [!UICONTROL Remove Criteria] se deshabilitaron al acceder a criterios desde una actividad. Sin embargo, los mismos criterios se pudieron editar correctamente mediante la ficha [!UICONTROL Recommendations]. Ahora, los criterios se pueden editar completamente tanto desde el flujo de trabajo de edición de actividades como desde la pestaña [!UICONTROL Recommendations], lo que garantiza una experiencia de edición uniforme y eficaz. (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **La generación de ofertas ad hoc en actividades de A[!UICONTROL utomated Personalization] ha causado incoherencias en los informes.** Al usar la característica Generar ofertas ad-hoc en actividades [!UICONTROL Automated Personalization] (AP) se generaron informes inexactos. Específicamente, los ID de oferta se reutilizaban en todas las ubicaciones, lo que provocaba que los datos de los informes se atribuyeran erróneamente o se sobrescribieran. Las ofertas específicas ahora se generan con identificadores distintos por ubicación, lo que garantiza un seguimiento y unos informes precisos en todas las experiencias configuradas. (TGT-53757)
+* **No se pudieron cargar los informes de actividad debido a un error de JavaScript.** clientes encontraron el mensaje &quot;Se produjo un error&quot; al acceder a la ficha [!UICONTROL Reports] para determinadas actividades. El error se debe a una excepción de JavaScript: no se pueden leer las propiedades de undefined (reading &#39;indexOf&#39;), desencadenadas durante la llamada de GraphQL `getAnalyticsReportSummary`. Ahora los informes se cargan correctamente y se ha mejorado el control de errores para evitar errores similares en el flujo de trabajo actualizado de creación de actividades. (TGT-53797)
+* **Los informes se bloquearon después de interactuar con la barra de desplazamiento.** Al hacer clic en la barra de desplazamiento de la ficha [!UICONTROL Reports], la página se bloqueó y se produjo un error de JavaScript:
+  Los informes de `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` ahora se cargan y se desplazan correctamente sin provocar errores ni bloqueos. (TGT-53828)
+* **Los informes no mostraron la métrica principal.**: la métrica principal, configurada como métrica de conversión mediante un mbox, no aparecía en los informes de actividad. La búsqueda por nombre de métrica o de mbox no arrojó resultados, lo que impidió ver los datos clave de rendimiento. Las métricas principales ahora aparecen correctamente en la pestaña [!UICONTROL Reports], lo que garantiza un seguimiento y un análisis precisos del rendimiento de la campaña. (TGT-53773)
+* **La ficha [!UICONTROL Reports] de la interfaz de usuario actualizada se bloqueó al interactuar con la barra de desplazamiento horizontal.** La vista [!UICONTROL Reports] se bloqueó intermitentemente con el error &quot;Se produjo un error&quot; al usar la barra de desplazamiento horizontal para acceder a las métricas fuera de la vista. La barra de desplazamiento ahora funciona de forma fiable, lo que permite a los clientes ver y analizar todas las métricas sin necesidad de soluciones alternativas, como reducir o utilizar la función de desplazamiento con desplazamiento. (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **Al hacer clic en las rutas de exploración en el VEC, no se mostraba de manera consistente el menú de edición.**
+Al seleccionar elementos de HTML a través de las rutas de exploración del (VEC), el menú de edición no aparecía o desaparecía rápidamente de forma intermitente, lo que hacía que la selección de elementos no fuera fiable. El menú de edición ahora se muestra de forma coherente al navegar mediante rutas de exploración, lo que mejora el flujo de trabajo de selección de elementos en el proceso actualizado de creación de actividades. (TGT-52873)
+* **El menú contextual no aparece intermitentemente en el VEC.** El menú contextual en la interfaz de usuario actualizada del VEC no aparecía de manera consistente al hacer clic en elementos, lo que dificultaba el acceso a las opciones de edición. El menú contextual ahora se muestra de forma fiable tras la selección de elementos, lo que mejora el flujo de trabajo de edición y la facilidad de uso general en el proceso de creación de actividades actualizado. (TGT-53015)
+* **No se ha podido mostrar el menú contextual de ciertos elementos del VEC.** El menú contextual no se mostraba al seleccionar elementos específicos en el VEC actualizado, lo que dificultaba la aplicación de modificaciones. El menú contextual ahora se muestra de forma coherente para todos los elementos admitidos, lo que mejora la fiabilidad y facilidad de uso de la experiencia de edición en el flujo de trabajo de creación de actividades actualizado. (TGT-53248)
+* **El menú contextual desapareció en el primer clic al usar rutas de exploración en el VEC.** Al seleccionar un elemento principal a través de las rutas de exploración del VEC, el menú contextual aparecía brevemente y luego desaparecía, lo que dificultaba el acceso a las opciones de edición. El menú contextual ahora permanece visible y funcional al navegar por los elementos a través de las rutas, lo que mejora la fiabilidad del flujo de trabajo de selección de elementos en el proceso actualizado de creación de actividades. (TGT-53424)
+* **El menú contextual no aparecía para los elementos de nivel superior del VEC.** La selección de elementos de nivel superior, como las etiquetas `<div>` o `<main>`, a través de las rutas de exploración del VEC no almacenó en déclencheur el menú contextual, lo que impidió realizar más acciones de edición. El menú contextual ahora aparece de forma coherente para todos los elementos admitidos, incluidos los contenedores de nivel superior, lo que mejora la flexibilidad y facilidad de uso del flujo de trabajo de creación de actividades. (TGT-53770)
+* **Los elementos de una página específica no se podían editar en el VEC.** Algunos elementos de la página no se pudieron seleccionar o editar en el VEC actualizado. Este problema se aisló en esa página y no afectó a otras páginas dentro de la misma cuenta. Todos los elementos de la página ahora se pueden seleccionar y editar según lo esperado, lo que restaura la funcionalidad completa en el flujo de trabajo de creación de actividades. (TGT-53353)
+* **Se ha mejorado el flujo de trabajo al ver elementos secundarios durante la selección de elementos en el VEC.** Para mejorar la facilidad de uso y la precisión durante la creación de la actividad, el VEC ahora muestra elementos secundarios al pasar el ratón por encima o seleccionar un elemento HTML principal. Esta mejora permite a los clientes comprender mejor la estructura de la página y realizar modificaciones más precisas, lo que optimiza el flujo de trabajo de edición en la IU actualizada. (TGT-53416)
+* **No se pudieron editar los elementos de las actividades existentes mediante la barra de modificación.** Al editar las actividades creadas anteriormente, la barra de modificación no se pudo activar para ciertos elementos de la página, lo que impidió realizar actualizaciones. Este problema se observaba principalmente en las actividades modificadas y era difícil de reproducir en las recién creadas. La barra de modificación ahora muestra y permite editar de forma coherente todos los elementos admitidos, lo que mejora la fiabilidad y la facilidad de uso en el flujo de trabajo actualizado de creación de actividades. (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **Al clonar una actividad en un área de trabajo diferente, se produjo el error &quot;Entrada de usuario no válida&quot;.** Al intentar clonar una actividad de un espacio de trabajo a otro, se produjo un error: &quot;InvalidProperty.Json - Unknown property name &#39;content&#39;&quot;.&quot; Este problema se debía a una administración incorrecta de los metadatos de la actividad durante el proceso de clonación. Ahora, las actividades se pueden clonar correctamente en todos los espacios de trabajo sin activar errores de validación, lo que garantiza flujos de trabajo de implementación de actividades más suaves. (TGT-53731 y TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2 (22 de septiembre de 2025)
 
 En esta versión se incluyen las siguientes correcciones y mejoras:
@@ -83,14 +141,14 @@ En esta versión se incluyen las siguientes correcciones y mejoras:
 
 +++Ver detalles
 * **Se ha corregido un problema por el cual las actividades no se podían copiar debido a ID de audiencia no válidos.** clientes que intentaban copiar actividades en el proceso de creación de actividades actualizado encontraron un error causado por ID de audiencia no válidos (por ejemplo, -1752722444307). Este problema de validación de back-end impedía la duplicación de actividades dentro del mismo espacio de trabajo. Este problema se ha resuelto y las actividades ahora se pueden copiar correctamente sin errores relacionados con la audiencia. (TGT-53717)
-* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Manage Content].** clientes encontraron errores de entrada de usuario no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL &#x200B; Manage Content] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
+* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Manage Content].** clientes encontraron errores de entrada de usuario no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL  Manage Content] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
 
 +++
 
 **Documentación**
 
 +++Ver detalles
-* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/es/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
+* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ Se ha actualizado la lógica de validación de [!DNL Target] conexiones de desti
 * El mismo ID de flujo de datos solo se puede utilizar para conexiones diferentes si están configuradas en entornos limitados diferentes.
 * Esta regla se aplica a todas las selecciones de flujos de datos, incluso cuando se selecciona &quot;Ninguno&quot;.
 
-Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
+Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 de septiembre de 2025)
 
