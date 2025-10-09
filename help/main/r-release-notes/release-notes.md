@@ -6,7 +6,7 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -95,14 +95,14 @@ En esta versión se incluyen las siguientes correcciones y mejoras:
 
 +++Ver detalles
 * **Se ha corregido un problema por el cual las actividades no se podían copiar debido a ID de audiencia no válidos.** clientes que intentaban copiar actividades en el proceso de creación de actividades actualizado encontraron un error causado por ID de audiencia no válidos (por ejemplo, -1752722444307). Este problema de validación de back-end impedía la duplicación de actividades dentro del mismo espacio de trabajo. Este problema se ha resuelto y las actividades ahora se pueden copiar correctamente sin errores relacionados con la audiencia. (TGT-53717)
-* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Manage Content].** clientes encontraron errores de entrada de usuario no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL &#x200B; Manage Content] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
+* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Manage Content].** clientes encontraron errores de entrada de usuario no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL  Manage Content] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
 
 +++
 
 **Documentación**
 
 +++Ver detalles
-* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/es/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
+* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
 
 +++
 
@@ -123,7 +123,7 @@ En esta versión se incluyen las siguientes correcciones y mejoras:
 **[!DNL Recommendations]**
 
 +++Ver detalles
-* **Rastreo de clics restaurado para [!UICONTROL Recommendations] actividades creadas en la interfaz de usuario actualizada.** Se ha resuelto un problema en el cual [!UICONTROL Recommendations] actividades creadas en la IU actualizada no registraban el rastreo de clics, lo que arrojaba cero conversiones notificadas. Las actividades creadas en la IU heredada rastreaban correctamente los clics y notificaban las conversiones según lo esperado. Esta corrección garantiza que las actividades de Recommendations creadas en la interfaz de usuario actualizada ahora incluyan los atributos de seguimiento correctos, restaurando la creación de informes de conversión y la alineación con las métricas de A4T. (TGT-53287)
+* **Rastreo de clics restaurado para [!UICONTROL Recommendations] actividades creadas en la interfaz de usuario actualizada.** ha resuelto un problema en el cual [!UICONTROL Recommendations] actividades creadas en la interfaz de usuario actualizada no registraban el rastreo de clics, lo que arrojaba cero conversiones notificadas. Las actividades creadas en la IU heredada rastreaban correctamente los clics y notificaban las conversiones según lo esperado. Esta corrección garantiza que las actividades de Recommendations creadas en la interfaz de usuario actualizada ahora incluyan los atributos de seguimiento correctos, restaurando la creación de informes de conversión y la alineación con las métricas de A4T. (TGT-53287)
 * **Rastreo de clics restaurado para actividades de Recommendations.** ha resuelto un problema en el cual [!UICONTROL Recommendations] actividades creadas en la interfaz de usuario actualizada no registraban el rastreo de clics, lo que arrojaba cero conversiones notificadas. La interfaz de usuario heredada aplicó correctamente un identificador de seguimiento (`at-track-click`) al contenido de [!UICONTROL Recommendations], mientras que la interfaz de usuario actualizada insertó por error un marcador de posición (`__recsClickTrackIdPlaceholder__`), lo que impide el seguimiento del servidor. Esta corrección garantiza que el contenido de [!DNL Recommendations] ahora incluya el ID de seguimiento correcto, con lo que se restauran los informes de conversión y la alineación con las métricas de A4T. (TGT-53496)
 * **Se ha resuelto el bloqueo del editor de colecciones en la IU actualizada.** Se ha corregido un problema en la IU actualizada de [!UICONTROL Visual Experience Composer] (VEC) por el cual al abrir una colección desde el panel Editor, la página se bloqueaba con un TypeError: No se pueden leer las propiedades de undefined (leer &quot;customLocale&quot;). Este error se produjo en varios tipos de actividades, incluidas [!UICONTROL Recommendations] y pruebas A/B. (TGT-53703)
 * **Opción para eliminar la colección seleccionada restaurada en el VEC.** Se ha corregido un problema en el VEC en el cual los usuarios solo podían reemplazar una colección seleccionada en una actividad [!UICONTROL Recommendations], pero no podían eliminarla por completo. Esta limitación bloqueaba los casos de uso que requerían una eliminación limpia de la colección sin sustitución. Esta corrección introduce una opción clara para eliminar la colección seleccionada, lo que permite una mayor flexibilidad en la configuración de la actividad y su alineación con el comportamiento de la IU heredada. (TGT-53652)
@@ -178,7 +178,7 @@ Se ha actualizado la lógica de validación de [!DNL Target] conexiones de desti
 * El mismo ID de flujo de datos solo se puede utilizar para conexiones diferentes si están configuradas en entornos limitados diferentes.
 * Esta regla se aplica a todas las selecciones de flujos de datos, incluso cuando se selecciona &quot;Ninguno&quot;.
 
-Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
+Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 de septiembre de 2025)
 
