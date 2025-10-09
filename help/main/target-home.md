@@ -4,7 +4,7 @@ title: Guía para profesionales de Adobe Target Business
 description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web y móviles, aplicaciones y otros canales digitales.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: fb04a75209ea6a9e20bd1f2eb83d0849374449fb
+source-git-commit: c8cb970f7f60d29c05630e2f0f0c819ac5e4f4b4
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 27%
@@ -25,7 +25,7 @@ ht-degree: 27%
 
 El equipo [!DNL Target] ha ajustado la cronología para la desaprobación de la versión de la interfaz de usuario.
 
-[![Icono Más información](/help/main/c-intro/updated-ui-faq.md)]
+[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Novedades]
 
