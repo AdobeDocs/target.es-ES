@@ -2,13 +2,13 @@
 keywords: Recommendations;introducción;seminario web;demostración
 description: Conozca las actividades de Recommendations en Adobe  [!DNL Target]  que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 title: ¿Qué son las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 86%
 
 ---
 
@@ -39,11 +39,11 @@ Los especialistas en marketing utilizan [!DNL Adobe Target] para impulsar experi
 * **Publicación**: Los editores web utilizan [!DNL Target Recommendations] para recomendar artículos a los visitantes del sitio y aumentar la participación.
 * **Tutoriales de vídeo**: [!DNL Adobe Creative Cloud] Utiliza [!DNL Target] para recomendar tutoriales de vídeo a usuarios de Photoshop en la aplicación Photoshop.
 * **Juegos**: Las empresas de juegos utilizan [!DNL Target] para recomendar juegos y contenido a los usuarios de sus consolas.
-* **Ventas B2B**: [Las empresas B2B utilizan Target para recomendar vídeos, documentos técnicos y anuncios de blogs a posibles clientes B2B; proporcionar descargas y ayudar a los clientes existentes](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **Ventas B2B**: Las empresas B2B utilizan Target para recomendar vídeos, documentos técnicos y anuncios de blogs a posibles clientes B2B; proporcionar descargas y ayudar a los clientes existentes.
 
 * **Viajes**: [Un vendedor de viajes alemán usa Target para recomendar hoteles (entre otras cosas) a los viajeros](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Comercio minorista**: [Un minorista líder B2B usa Target para recomendar categorías y productos principales para los visitantes de retorno en el explorador y en su aplicación móvil](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Comercio minorista**: un retailer líder B2B usa [!DNL Target] para recomendar categorías y productos principales para los visitantes de retorno en el explorador y en su aplicación móvil.
 
 Estas son solo algunas de las formas en que los clientes utilizan Target para ofrecer recomendaciones personalizadas.
 
@@ -123,15 +123,15 @@ Además del comportamiento del usuario en suma, debe pasar [!DNL Target] en el c
 
 Una actividad de [!DNL Recommendations] consta de los siguientes componentes:
 
-* **Audiencia**: ¿Quién debe ver estas recomendaciones?
+* **Público**: ¿Quién debe ver estas recomendaciones?
 * **Criterios**: ¿Qué artículos se deben recomendar?
 * **Diseño**: ¿Cómo se deben mostrar los artículos recomendados?
 
-![Ilustración que muestra los elementos que constituyen una actividad de recomendaciones: Audiencias, criterios y diseños](/help/main/c-recommendations/assets/intro-12.png)
+![Ilustración que muestra los elementos que constituyen una actividad de recomendaciones: Públicos, criterios y diseños](/help/main/c-recommendations/assets/intro-12.png)
 
-De serie, [!DNL Target] incluye 14 audiencias, 42 criterios y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos. [seminarios web sobre la creación de audiencias](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) en [!DNL Target] que hemos tenido anteriormente. Esta sección se centra en definir los criterios que definen qué artículos se recomendarán.
+De serie, [!DNL Target] incluye 14 públicos, 42 criterios y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos.
 
-Target usa el concepto de la tarjeta de criterios. Una tarjeta de criterios es como una fórmula para personalizar.
+[!DNL Target] utiliza el concepto de la tarjeta de criterios. Una tarjeta de criterios es como una fórmula para personalizar.
 
 ![Ilustración de la tarjeta de criterios](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ Por ejemplo, en el contexto de contenido, es posible que quiera excluir películ
 ## Demostración
 
 Después de completar las tareas ilustradas en el canal de recomendaciones descrito arriba, se le deja con la recomendación final. Para ver una demostración del producto dentro de [!DNL Target], la demostración comienza a las 21:00 en el *Seminario web de conceptos básicos de Adobe Target*, y tiene el vínculo a continuación.
-
-## Seminario web de conceptos básicos de Adobe [!DNL Target]: Introducción a Recommendations {#intro-to-recs}
-
-[Introducción a Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
