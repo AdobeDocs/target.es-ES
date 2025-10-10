@@ -2,7 +2,7 @@
 keywords: Recommendations;introducción;seminario web;demostración
 description: Conozca las actividades de Recommendations en Adobe  [!DNL Target]  que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario o de otros algoritmos.
 title: ¿Qué son las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
