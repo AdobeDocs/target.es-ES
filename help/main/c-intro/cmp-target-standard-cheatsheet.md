@@ -232,7 +232,7 @@ Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de 
 +++ Ver detalles
 Eche un vistazo a los siguientes aspectos del producto:
 
-* [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
 * [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
 

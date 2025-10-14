@@ -47,7 +47,7 @@ Si ni [!UICONTROL Visual Experience Composer] ni [!UICONTROL Enhanced Experience
 
 >[!NOTE]
 >
->Además de la siguiente información, puede usar la extensión [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) para [!DNL Google Chrome].
+>Además de la siguiente información, puede usar la extensión [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) para [!DNL Google Chrome].
 
 >[!NOTE]
 >

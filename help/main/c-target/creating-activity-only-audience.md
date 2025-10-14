@@ -52,4 +52,4 @@ Tenga en cuenta lo siguiente al trabajar con audiencias solo de actividad:
   Puede utilizar las siguientes alternativas para utilizar reglas de exclusión:
 
    * [Cree y use una audiencia de biblioteca](/help/main/c-target/c-audiences/create-audience.md) en lugar de una audiencia solo de actividad.
-   * [Combine varias ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) audiencias de biblioteca (hasta 20) en una audiencia solo de actividad. Al combinar audiencias, se pueden utilizar reglas de inclusión y exclusión en audiencias de biblioteca individuales incluso cuando la audiencia combinada se guarda como una audiencia solo de actividad.
+   * [Combine varias &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) audiencias de biblioteca (hasta 20) en una audiencia solo de actividad. Al combinar audiencias, se pueden utilizar reglas de inclusión y exclusión en audiencias de biblioteca individuales incluso cuando la audiencia combinada se guarda como una audiencia solo de actividad.
