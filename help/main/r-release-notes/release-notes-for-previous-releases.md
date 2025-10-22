@@ -89,7 +89,7 @@ En esta versión se incluyen las siguientes correcciones y mejoras:
 
 +++Ver detalles
 * **Se ha corregido un problema por el cual las actividades no se podían copiar debido a ID de audiencia no válidos.** clientes que intentaban copiar actividades en el proceso de creación de actividades actualizado encontraron un error causado por ID de audiencia no válidos (por ejemplo, -1752722444307). Este problema de validación de back-end impedía la duplicación de actividades dentro del mismo espacio de trabajo. Este problema se ha resuelto y las actividades ahora se pueden copiar correctamente sin errores relacionados con la audiencia. (TGT-53717)
-* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Manage Content].** clientes encontraron errores de entrada de usuario no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL  Manage Content] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
+* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Manage Content].** clientes encontraron errores de entrada de usuario no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL &#x200B; Manage Content] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
 
 +++
 
@@ -261,7 +261,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 * **[!UICONTROL Graph view]en la sección [!UICONTROL Reports] no mostraba valores de[!DNL Analytics]**: los clientes que acceden a [!UICONTROL Graph view] en la sección Reports encontraron datos que faltan, y todos los valores aparecen como cero. Este problema se debió a una recuperación de datos incorrecta de [!UICONTROL Analytics]. [!UICONTROL Graph view] ahora muestra los valores precisos según lo esperado. (TGT-52792)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * **Error al hacer clic en &quot;Aceptar cookies&quot; usando el [!UICONTROL Enhanced Experience Composer] (EEC) debido a la falta de una función**: Los clientes notificaron que al intentar aceptar cookies a través del EEC se produjo un error en la consola: `handleclickAcceptAllButton is not defined`. La funcionalidad de aceptación de cookies ahora funciona según lo esperado, lo que garantiza una experiencia más fluida durante la creación de actividades en la interfaz de usuario actualizada. (TGT-52794)
@@ -293,7 +293,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * **Se ha corregido un problema por el cual los clientes no podían escribir nombres de grupos de informes durante el proceso de creación de actividades**: Los clientes que usaban [!DNL Adobe Analytics] como fuente de informes durante el proceso de creación de actividades no podían escribir en la lista desplegable [!UICONTROL Report Suite] para buscar grupos de informes específicos. Esto afectaba a los flujos de trabajo de las organizaciones con un gran número de grupos de informes, donde el desplazamiento manual retrasaba considerablemente la configuración. La lista desplegable no se ordenaba alfabéticamente y no respondía de forma coherente a la entrada escrita, lo que dificultaba la localización de grupos de informes como &quot;Office + Tienda - Web - Producción&quot;. Este problema se ha resuelto y los clientes ahora pueden buscar de forma eficaz escribiendo los nombres de los grupos de informes. (TGT-53345)
@@ -327,7 +327,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++Ver detalles
 * **Se ha corregido un problema en la interfaz de usuario de [!DNL Recommendations] por el que la descarga de CSV con criterios personalizados arrojaba el error 404**: se ha corregido un problema por el que los clientes no podían descargar el CSV con criterios personalizados en el proceso de creación de actividades. El vínculo de descarga ahora funciona correctamente, lo que permite a los clientes exportar criterios personalizados según lo esperado. (TGT-51966)
-* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL  Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
+* **Se corrigió una carga incoherente de imágenes en[!UICONTROL Catalog Search]**: se corrigió un problema por el que las miniaturas y las imágenes de [!UICONTROL &#x200B; Catalog Search] no se cargaban de manera consistente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
 * **Se ha corregido un problema por el cual editar una recomendación en una experiencia duplicada afectaba a la experiencia original**: Los clientes notificaron que modificar una recomendación en una experiencia duplicada alteraba involuntariamente la experiencia original. En concreto, después de duplicar la Experiencia B en el proceso de creación de actividades y editar su diseño o criterios, los mismos cambios se reflejaron en la Experiencia B original, a pesar de ser entidades independientes. Las experiencias duplicadas ahora mantienen configuraciones independientes, lo que garantiza que las ediciones realizadas en una experiencia no afecten a la original. (TGT-53369)
 * **Se ha corregido un problema por el cual los cambios realizados en una experiencia duplicada afectaban involuntariamente a la experiencia original de una actividad**: Los clientes notificaron que, al duplicar una experiencia dentro de una actividad y asignar una nueva audiencia, cualquier cambio realizado en el diseño o los criterios de la experiencia duplicada también se reflejaba en la experiencia original. Este problema se producía aunque no se realizaban ediciones directamente en la versión original, lo que afectaba a la capacidad de crear variaciones independientes dentro de la misma actividad. El proceso de creación de actividades ahora aísla correctamente las experiencias duplicadas, asegurándose de que las ediciones realizadas en una experiencia no afecten a la experiencia original. (TGT-53361)
 * **Se ha corregido un problema en el cual [!UICONTROL Recommendation Catalog] no mostraba de forma intermitente los datos completos de atributos de productos**: en la interfaz de usuario de [!DNL Recommendations] actualizada, los clientes experimentaron un problema en el cual algunos atributos de productos, como el mensaje, no se mostraban de forma coherente en los resultados de [!UICONTROL Catalog Search], aunque los datos existían en la fuente. Este problema requería que los clientes reconfiguraran manualmente la visibilidad de la columna para recuperar los valores que faltaban. [!UICONTROL Catalog Search] ahora muestra de forma fiable todos los atributos configurados, lo que elimina la necesidad de restablecer manualmente las columnas. (TGT-52769)
@@ -358,7 +358,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * **Se ha corregido un problema en el proceso de creación de actividades que bloqueaba la progresión al paso [!UICONTROL Targeting] en las actividades AP**: se ha corregido un problema en el proceso de creación de actividades por el que los clientes no podían continuar al paso [!UICONTROL Targeting] en las actividades [!UICONTROL Automated Personalization] (AP) a menos que se agregaran dos ubicaciones. Este comportamiento difería de la experiencia anterior, en la que una sola ubicación con varias ofertas era suficiente. El requisito se ha corregido, lo que permite a los clientes seguir utilizando configuraciones de una sola ubicación como parte de sus flujos de trabajo de AP. (TGT-53426)
@@ -681,7 +681,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual los clientes veían informes de actividades específicas en la página [!UICONTROL Goals & Settings], el vínculo [!UICONTROL View in Analytics] señala incorrectamente al entorno de control de calidad en lugar del entorno de producción. (TGT-53163)
@@ -720,7 +720,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en la página [!UICONTROL Goals & Settings] en el cual los selectores utilizados en varias experiencias no se resaltaban de manera consistente como seleccionados. (TGT-53062)
@@ -771,7 +771,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Ver detalles
 * Se corrigió un problema en el cual copiar una actividad existente y cambiar el origen de informes a [!DNL Adobe Analytics] (A4T) resultaría en un error de &quot;entrada de usuario no válida&quot;. El error se activó cuando ciertas acciones de métricas incompatibles con los informes de [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` y `restart_new_experience`, se retuvieron de la actividad original. (TGT-52900)
@@ -818,7 +818,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 * Anteriormente, la interfaz de usuario de Recommendations solo mostraba el número de entidades importadas correctamente desde una fuente. Sin embargo, el formato de mensaje back-end incluye tanto el número de entidades importadas como el número total de entidades con el formato: `# of entities imported / # of total entities`. Debido a esta discrepancia, los usuarios solo veían el primer valor (recuento importado) en la interfaz de usuario, lo que provocaba confusión. La interfaz de usuario ahora muestra ambos números. (TGT-53073)
 * Se ha corregido un problema en el cual los clientes no podían guardar una regla de filtrado al configurar una promoción &quot;[!UICONTROL Promote by attribute]&quot; en una actividad A/B basada en formularios con recomendaciones. Después de guardar y volver a abrir la actividad, faltaba la regla de filtrado y la actividad no se pudo guardar correctamente. (TGT-53057)
 
-  +++
++++
 
 **Informes**
 
@@ -828,7 +828,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 * Se ha resuelto un problema en el cual la aplicación de una modificación a una vista resultaba en la duplicación de la vista y la actividad devolvía un error de &quot;entrada de usuario no válida&quot;. Esta corrección garantiza que las modificaciones de la vista se apliquen correctamente sin activar errores de duplicación o validación. (TGT-52886)
@@ -855,7 +855,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
    * Al cambiar el nombre de las ofertas mediante el panel derecho, se actualizó el nombre en la interfaz de usuario, pero el cambio no se reflejó en la pestaña [!UICONTROL Manage Content] ni en la pestaña [!UICONTROL Offers], lo que provocó errores de validación persistentes.
    * En las actividades MVT, aunque el error de nombre duplicado no persistió después de cambiar el nombre, la IU seguía sin reflejar los nombres de ofertas actualizados de forma coherente en las pestañas. (TGT-52933)
 
-  +++
++++
 
 ### [!DNL Target Standard/Premium] 25.6.4 (sábado, 27 de junio de 2025)
 
@@ -1401,7 +1401,7 @@ Para obtener más información, consulte Informes de [Target en Adobe Customer J
 
 ### Extensión del ayudante de [!UICONTROL Visual Experience Composer] (23 de abril de 2024)
 
-La extensión de ayuda heredada del Compositor de experiencias visuales [!DNL Target] se creó con Manifiesto V2. [!DNL Google] anunció que ya no permitirá extensiones creadas con Manifest V2 a partir de junio de 2024. Para obtener más información, vea [[!UICONTROL Visual Experience Composer] extensión de ayudante ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+La extensión de ayuda heredada del Compositor de experiencias visuales [!DNL Target] se creó con Manifiesto V2. [!DNL Google] anunció que ya no permitirá extensiones creadas con Manifest V2 a partir de junio de 2024. Para obtener más información, vea [[!UICONTROL Visual Experience Composer] extensión de ayudante &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 [!DNL Adobe] recomienda que los clientes cambien a la nueva extensión [Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) lo antes posible.
 
@@ -2058,7 +2058,7 @@ Esta versión de [!DNL Platform Web SDK] incluye compatibilidad con lo siguiente
 
 | Función | Detalles |
 | --- | --- |
-| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Compatibilidad de redireccionamiento con [!UICONTROL Analytics for Target] (A4T) | El SDK web de Platform ahora admite redirecciones [!DNL Target] al utilizar [A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Para obtener más información, consulte [Implementación de Analytics para  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### Versión 2.5.0 de at.js (13 de mayo de 2021)
 
@@ -2486,7 +2486,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Función/Mejora | Descripción |
 | --- | --- |
-| ![Distintivo Premium ](/help/main/assets/premium.png)<br>Recommendations en las actividades de prueba A/B y segmentación de experiencias (XT) | El estado de oferta de recomendaciones (algoritmo) aparece en la página Información general de las actividades de prueba A/B y XT que contienen ofertas de Recommendations. Los estados incluyen: Resultados preparados, Resultados no preparados y Error de fuente. (TGT-33649)<br>Ver [Recommendations como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
+| ![Distintivo Premium &#x200B;](/help/main/assets/premium.png)<br>Recommendations en las actividades de prueba A/B y segmentación de experiencias (XT) | El estado de oferta de recomendaciones (algoritmo) aparece en la página Información general de las actividades de prueba A/B y XT que contienen ofertas de Recommendations. Los estados incluyen: Resultados preparados, Resultados no preparados y Error de fuente. (TGT-33649)<br>Ver [Recommendations como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
 | Compatibilidad de seguimiento entre dominios para at.js 2.0+ a través de la biblioteca de Experience Cloud ID (ECID) | Anteriormente, el seguimiento entre dominios no era compatible con at.js 2.*x*. Con esta versión, los clientes que utilizan at.js 2.0 o una versión superior pueden utilizar el seguimiento entre dominios a través de la biblioteca ECID. La biblioteca ECID debe instalarse en la página junto con at.js 2.0 o una versión superior para que funcione el seguimiento entre dominios. Se debe utilizar la [biblioteca de Experience Cloud ID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=es).<br>Consulte [Compatibilidad con seguimiento entre dominios en at.js 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}. |
 | Compatibilidad de Target con ITP 2.1 y ITP 2.2 de Apple mediante la biblioteca 4.3 de Experience Cloud ID (ECID) | Actualmente, los clientes de Target pueden mitigar ITP 2.1 y ITP 2.2 de Apple mediante el uso del programa de certificación CNAME de Adobe.<br>Con esta versión, Target introduce una integración perfecta con la biblioteca ECID 4.3, que aprovecha una cookie del lado del servidor para mitigar ITP 2.1 e ITP 2.2. Es muy recomendable que los clientes de Target implementen la [biblioteca ECID 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=es) junto con la biblioteca JavaScript de Target para mitigar cualquier versión futura de ITP. La biblioteca ECID ofrecerá más mejoras que proporcionen una solución sólida para las cambiantes políticas de cookies ingresadas por los exploradores.<br>Consulte [Prevención inteligente del seguimiento de Apple (ITP) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
@@ -2646,7 +2646,7 @@ Esta versión incorpora las siguientes funciones, cambios y mejoras:
 | Compositor de experiencias visuales para aplicaciones de una sola página | El Compositor de experiencias visuales (VEC) para aplicaciones de una sola página (SPA) permite que los expertos en marketing creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que depender de un desarrollo continuo. El VEC puede usarse para crear actividades en los marcos más populares, como React y Angular. (TGT -27916)<br>Para obtener más información, consulte [Compositor de experiencias visuales de la aplicación de una sola página (SPA)](/help/main/c-experiences/spa-visual-experience-composer.md) e [Integración de aplicaciones de una sola página](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=es){target=_blank}.<br>Además del artículo anterior, existen muchos temas relacionados con las SPA y at.js que tratan sobre esta función y su implementación. Para obtener más información, consulte [Cambios de la documentación](/help/main/r-release-notes/doc-change.md). |
 | Compositor de experiencias visuales | El Compositor de experiencias visuales (VEC) incluye las siguientes mejoras para que su funcionamiento sea más rápido y eficiente:<ul><li>Ahora puede utilizar las opciones Insertar antes e Insertar después del VEC al insertar [fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). Consulte las [opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>La extensión [!DNL Adobe Target] de explorador del VEC Helper para Google Chrome permite cargar sitios web de forma fiable dentro del VEC para crear y realizar controles de calidad de experiencias rápidamente. Consulte [Extensión de ayuda del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
 | ![Insignia Premium](/help/main/assets/premium.png)<br>Recommendations en [!UICONTROL A/B Test] y [!UICONTROL Experience Targeting] actividades | Ahora puede incluir recomendaciones dentro de las actividades [!UICONTROL A/B Test] (incluidas [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target]) y [!UICONTROL Experience Targeting] (XT). Esto revela capacidades completamente nuevas, como:<ul><li>Recomendaciones de prueba y segmentación y contenido que no sea de recomendación dentro de la misma actividad.</li><li>Experimentar fácilmente con la colocación de recomendaciones en la página, incluido el orden de varias recomendaciones.</li><li>Insertar automáticamente tráfico a la experiencia de recomendaciones de mejor rendimiento usando [!UICONTROL Auto-Allocate].</li><li>Asignar de forma dinámica a los visitantes a experiencias de recomendaciones adaptadas según su perfil mediante [!UICONTROL Auto-Target].</li></ul>Para empezar, cree una actividad [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] con el VEC y use la acción [!UICONTROL Insert Before], [!UICONTROL Insert After] o [!UICONTROL Replace With] para agregar recomendaciones a una experiencia. (RECS-6166)<br>Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
-| ![Distintivo Premium ](/help/main/assets/premium.png)<br> Compatibilidad con los permisos de Enterprise en las API de Target | Las [API de administrador de Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ahora aprovechan al máximo las mismas capacidades de permisos de Enterprise que se encuentran en la interfaz de usuario de Target. A partir del **21 de febrero de 2019**, los administradores de sistemas podrán acceder mediante programación a los datos del informe, así como crear y administrar actividades, ofertas y públicos dentro de cualquier espacio de trabajo. Anteriormente, estas acciones estaban limitadas únicamente al espacio de trabajo predeterminado. La compatibilidad con las actividades de Personalización automatizada (AP) se publicará en una versión futura. |
+| ![Distintivo Premium &#x200B;](/help/main/assets/premium.png)<br> Compatibilidad con los permisos de Enterprise en las API de Target | Las [API de administrador de Adobe Target](https://developers.adobetarget.com/api/#admin-apis) ahora aprovechan al máximo las mismas capacidades de permisos de Enterprise que se encuentran en la interfaz de usuario de Target. A partir del **21 de febrero de 2019**, los administradores de sistemas podrán acceder mediante programación a los datos del informe, así como crear y administrar actividades, ofertas y públicos dentro de cualquier espacio de trabajo. Anteriormente, estas acciones estaban limitadas únicamente al espacio de trabajo predeterminado. La compatibilidad con las actividades de Personalización automatizada (AP) se publicará en una versión futura. |
 
 **Mejoras, correcciones y cambios**
 
@@ -4459,7 +4459,7 @@ La versión Adobe Target Standard/Premium 16.5.1 (19 de mayo de 2016) incluye la
    <td colname="col1" class="premium"> Descarga de CSV de recomendaciones </td> 
    <td colname="col2"> <p>Ahora, las descargas de CSV tienen una línea para todos los entornos, incluidos los que no disponen de recomendaciones de entidad (por ejemplo: 
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 
