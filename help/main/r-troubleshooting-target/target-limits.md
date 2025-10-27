@@ -5,7 +5,7 @@ title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro ti
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: 720f70a97c5c9457f134085696dd79196c7869bc
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 73%
@@ -20,7 +20,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 >
 >Los límites listados a continuación deben considerarse límites “duros” a menos que se especifique como “recomendado”.
 >
->Cuando se aproximan o se exceden los límites designados como “recomendados”, el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchas audiencias, objetivos y experiencias en la misma actividad.
+>Cuando se aproximan o se exceden los límites designados como “recomendados”, el rendimiento puede ralentizarse. Si la interfaz tarda tiempo en cargarse también puede ser debido a una actividad muy compleja, como por ejemplo muchos públicos, objetivos y experiencias en la misma actividad.
 >
 >Las actividades muy complejas se deben revisar con [!DNL Adobe] Consulting y deben probarse en un entorno limitado antes de su lanzamiento en producción.
 
@@ -42,19 +42,19 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
 
   Si realiza más de 50 llamadas de API por minuto, [!DNL Target] devuelve el mensaje de error Estado HTTP 503.
 
-## Audiencias
+## Públicos
 
-### Nombres de audiencia
+### Nombres de público
 
 * **Límite**: 255 caracteres.
 
-### Audiencias, reutilizables por cuenta
+### Públicos, reutilizables por cuenta
 
-* **Límite recomendado**: 20,000 audiencias.
+* **Límite recomendado**: 20,000 públicos.
 
-### Número de audiencias por mbox, métrica o experiencia
+### Número de públicos por mbox, métrica o experiencia
 
-* **Límite**: 50 audiencias
+* **Límite**: 50 públicos
 
 ## Parámetro categoryId
 
@@ -220,7 +220,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
    * Parámetros de perfil: 50
    * Longitud máxima del nombre del parámetro de perfil 128
    * El valor del parámetro del perfil no puede ser nulo
-   * Longitud máxima del valor del parámetro del perfil 5000
+   * Longitud máxima del valor del parámetro del perfil 256
 
   **Extremo de API de envíos**:
 
@@ -231,7 +231,7 @@ Límites de caracteres y otros límites (tamaño de oferta, audiencias, perfiles
    * Parámetros de perfil: 50
    * Longitud máxima del nombre del parámetro de perfil 128
    * El valor del parámetro del perfil no puede ser nulo
-   * Longitud máxima del valor del parámetro del perfil 5000
+   * Longitud máxima del valor del parámetro del perfil 256
 
 ### Direcciones URL de peticiones de mbox
 
@@ -291,9 +291,9 @@ A continuación se describen los límites de tamaño que se aplican a las oferta
 
 * **Límite recomendado**: 5000 propiedades.
 
-## Informes de audiencias o segmentos
+## Informes de públicos o segmentos
 
-* **Límite**: 50 audiencias/segmentos por actividad.
+* **Límite**: 50 públicos/segmentos por actividad.
 
 ## sessionID
 
