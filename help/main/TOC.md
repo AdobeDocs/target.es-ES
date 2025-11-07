@@ -3,10 +3,10 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 84%
 + Notas de versión de Target {#release-notes}
    + [Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md)
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
-   + [Notas de la versión de Target (versión previa)](r-release-notes/target-release-notes.md)
+   + [Notas de la versión de Target (versión preliminar)](r-release-notes/target-release-notes.md)
    + [Información general sobre la documentación de Target](/help/main/r-release-notes/target-documentation.md)
    + [Actualizaciones del estado del sistema y notificaciones dinámicas](r-release-notes/system-status-updates.md)
    + [Cambios de la documentación](r-release-notes/doc-change.md)
@@ -29,7 +29,7 @@ ht-degree: 84%
    + [Información sobre la interfaz de usuario de Target](/help/main/c-intro/understand-the-target-ui.md)
    + [Preguntas frecuentes sobre actualización de IU de Target](/help/main/c-intro/updated-ui-faq.md)
    + Adobe Target AI Assistant {#assistant-ai}
-      + [Información general del asistente de IA](/help/main/c-intro/ai-assistant.md)
+      + [Información general del Asistente de IA](/help/main/c-intro/ai-assistant.md)
       + [Habilitar el asistente de IA](/help/main/c-intro/enabling-ai-assistant.md)
       + [Utilice el asistente de IA para obtener conocimientos del producto](/help/main/c-intro/ai-assistant-product-knowledge.md)
       + [Uso del asistente de IA para generar contenido](/help/main/c-intro/ai-assistant-content-generation.md)
@@ -93,14 +93,14 @@ ht-degree: 84%
          + [Alza y confianza: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [Definiciones de métricas: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [Clasificaciones: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-         + [Uso compartido de métricas, audiencias e informes: preguntas más frecuentes sobre A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+         + [Uso compartido de métricas, públicos e informes: preguntas más frecuentes sobre A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Integración heredada de SiteCatalyst con Test&amp;Target: Preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Variaciones de datos previstas entre Target y Analytics al utilizar y no utilizar A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + Integración de Target con Adobe Customer Journey Analytics {#cja}
       + [Informes de Target en Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integración de Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrar [!DNL Adobe Target Recommendations] y [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Integrar [!DNL Adobe Target Recommendations] y [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Casos de uso de Adobe Journey Optimizer {#use-cases}
          + [Principales casos de uso de optimización en Adobe Journey Optimizer: canales web y basados en código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Cambios de contenido mediante pruebas A/B en Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -127,11 +127,11 @@ ht-degree: 84%
          + [Crear una prueba A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Dirección URL de actividad](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Añadir experiencia](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [Seleccionar la audiencia](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [Seleccionar el público](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Configuración y objetivos](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Uso de datos de Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Definir métricas](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Varias audiencias de una experiencia en una prueba A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Varios públicos de una experiencia en una prueba A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Asignación automática {#auto-allocate}
       + [Información general sobre la asignación automática](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Creación de una actividad de asignación automática](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
@@ -195,13 +195,13 @@ ht-degree: 84%
       + [Información general sobre el control de calidad de la actividad](c-activities/c-activity-qa/activity-qa.md)
       + [Bookmarklet de control de calidad de la actividad](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Usar el control de calidad de la actividad con entrega de servidor](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-+ Audiencias {#audiences}
-   + [Información general de las audiencias](c-target/target.md)
-   + Crear audiencias {#create-audiences}
-      + [Información general sobre la creación de audiencias](c-target/c-audiences/audiences.md)
-      + [Crear audiencias en Target](c-target/c-audiences/create-audience.md)
-      + Categorías para audiencias {#categories-audiences}
-         + [Información general sobre las categorías para las audiencias](c-target/c-audiences/c-target-rules/target-rules.md)
++ Públicos {#audiences}
+   + [Información general de los públicos](c-target/target.md)
+   + Crear públicos {#create-audiences}
+      + [Información general sobre la creación de públicos](c-target/c-audiences/audiences.md)
+      + [Crear públicos en Target](c-target/c-audiences/create-audience.md)
+      + Categorías para públicos {#categories-audiences}
+         + [Información general sobre las categorías para los públicos](c-target/c-audiences/c-target-rules/target-rules.md)
          + [Explorador](c-target/c-audiences/c-target-rules/browser.md)
          + [Parámetros personalizados](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [Geografía](c-target/c-audiences/c-target-rules/geo.md)
@@ -213,11 +213,11 @@ ht-degree: 84%
          + [Periodo de tiempo](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Informe de](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Perfil del visitante](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [Crear una audiencia de comparación de atributos de perfil](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
-   + [Combinación de varias audiencias](c-target/combining-multiple-audiences.md)
-   + [Crear una audiencia solo de actividad](c-target/creating-activity-only-audience.md)
-   + [Filtros de audiencia para la creación de informes](c-target/managing-audience-filters.md)
-   + [Aplicación de una audiencia de informes a una métrica de éxito](c-target/apply-reporting-audience-success-metric.md)
+      + [Crear un público de comparación de atributos de perfil](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+   + [Combinación de varios públicos](c-target/combining-multiple-audiences.md)
+   + [Crear un público solo de actividad](c-target/creating-activity-only-audience.md)
+   + [Filtros de público para la creación de informes](c-target/managing-audience-filters.md)
+   + [Aplicación de un público de informes a una métrica de éxito](c-target/apply-reporting-audience-success-metric.md)
    + Perfiles de los visitantes {#visitor-profiles}
       + [Información general sobre los perfiles de visitante](c-target/c-visitor-profile/visitor-profile.md)
       + [Duración del perfil del visitante](c-target/c-visitor-profile/visitor-profile-lifetime.md)
@@ -227,8 +227,8 @@ ht-degree: 84%
       + [Atributos del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Sincronización de perfiles en tiempo real para mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glosario de perfiles y variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
-   + Preguntas más frecuentes sobre audiencias y segmentación {#faq-audiences}
-      + [Preguntas más frecuentes sobre audiencias y segmentación](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+   + Preguntas más frecuentes sobre públicos y segmentación {#faq-audiences}
+      + [Preguntas más frecuentes sobre públicos y segmentación](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Experiencias y ofertas {#experiences}
    + [Información general sobre experiencias y ofertas](c-experiences/experiences.md)
    + Compositor de experiencias visuales (VEC) {#vec}
@@ -339,4 +339,4 @@ ht-degree: 84%
    + [Límites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Información general sobre la API de Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e información de contacto &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e información de contacto ](cmp-resources-and-contact-information.md)

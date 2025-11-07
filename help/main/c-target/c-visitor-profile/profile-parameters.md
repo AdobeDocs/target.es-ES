@@ -4,10 +4,10 @@ description: Obtenga información sobre los atributos específicos del visitante
 title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ O
 
 Para copiar un script de perfil existente, en la lista [!UICONTROL Profile Scripts], haga clic en el icono de puntos suspensivos del script deseado y, a continuación, haga clic en **[!UICONTROL Duplicate]**.
 
-Luego puede editar la audiencia para crear otra parecida.
+Luego puede editar el público para crear otra parecida.
 
 Los scripts ejecutan “catchers” de atributos de perfil en cada solicitud de ubicación. Cuando se recibe una solicitud de ubicación, [!DNL Target] determina qué actividad debe ejecutarse y muestra el contenido que es apropiado para esa actividad y esa experiencia. [!DNL Target] también rastrea el éxito de la actividad y ejecuta cualquier script de perfil relevante. Este proceso le permite rastrear información sobre la visita como, por ejemplo, la ubicación del visitante, la hora del día, la cantidad de veces que el visitante ha estado en el sitio, si había realizado compras con anterioridad, etc. A continuación, esta información se agrega al perfil del visitante con el objetivo de rastrear mejor su actividad en el sitio.
 
@@ -77,7 +77,7 @@ Tenga en cuenta lo siguiente:
 
 * Los parámetros y valores distinguen entre mayúsculas y minúsculas. Haga que las mayúsculas y minúsculas de los parámetros y valores que va a recibir durante la actividad o prueba sean las mismas.
 * Consulte la sección “Referencia JavaScript para parámetros de perfil de secuencia de comandos” para obtener más sintaxis de JavaScript.
-* El parámetro permanece en el perfil después de deshabilitar el script. Los usuarios cuyos perfiles ya contienen un parámetro que se utiliza en la audiencia de una actividad podrán participar en esa actividad.
+* El parámetro permanece en el perfil después de deshabilitar el script. Los usuarios cuyos perfiles ya contienen un parámetro que se utiliza en el público de una actividad podrán participar en esa actividad.
 * Los scripts de perfil no se pueden eliminar mientras se utilizan en una actividad.
 * No se recomienda crear scripts de perfil dependientes que utilicen el resultado de un script de perfil en otro script de perfil. No se garantiza el orden de ejecución de scripts del perfil.
 
@@ -271,8 +271,8 @@ Todos los operadores de JavaScript estándar están presentes y pueden utilizars
 | `<=` | Igual que `<`, excepto si las variables son iguales, que entonces se evaluará como true. |
 | `>=` | Igual que `>`, excepto si las variables son iguales, que entonces se evaluará como true. |
 | `&&` | Lógicamente, “AND” une las expresiones a la izquierda y a la derecha, y es solo verdadero si ambos lados lo son (falso en caso contrario). |
-| `||` | Lógicamente, “OR” es una disyuntiva entre las expresiones a la izquierda y a la derecha, y es solo verdadero si uno de los lados lo es (falso en caso contrario). |
-| `//` | Comprueba si la fuente contiene todos los elementos que el booleano de destino contiene (origen de matriz, destino de matriz).<br>`//` extrae la subcadena de destino (correspondiente a regexp) y la descodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La función también es compatible con el uso de valores de cadena constantes, agrupación (`condition1 || condition2) && condition3` y expresiones regulares `/[^a-z]$/.test(landing.referring.url)`). |
+| `\|\|` | Lógicamente, “OR” es una disyuntiva entre las expresiones a la izquierda y a la derecha, y es solo verdadero si uno de los lados lo es (falso en caso contrario). |
+| `//` | Comprueba si la fuente contiene todos los elementos que el booleano de destino contiene (origen de matriz, destino de matriz).<br>`//` extrae la subcadena de destino (correspondiente a regexp) y la descodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La característica también admite el uso de valores de cadena constantes, agrupación (`condition1 \|\| condition2) && condition3`) y expresiones regulares (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Vídeo de formación: Scripts de perfil ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 

@@ -4,7 +4,7 @@ description: Encuentre respuestas a preguntas acerca del uso de ofertas de redir
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de ofertas de redireccionamiento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 50%
@@ -110,7 +110,7 @@ Los siguientes parámetros de cadena de consulta se asocian con las ofertas de r
 
 | Parámetro | Descripción |
 |--- |--- |
-| `adobe_mc_sdid` | El parámetro `adobe_mc_sdid` pasa los valores Supplemental Data Id (SDID) y Experience Cloud Org Id de la página predeterminada a la nueva página. Estos ID permiten a A4T &quot;unir&quot; la solicitud de Target en la página predeterminada con la solicitud de Analytics en la nueva página.<br>El formato esperado para pasar sdid en la dirección URL (para aplicaciones híbridas o de una aplicación al sitio web o un sitio web a otro) es `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | El parámetro `adobe_mc_sdid` pasa los valores Supplemental Data Id (SDID) y Experience Cloud Org Id de la página predeterminada a la nueva página. Estos ID permiten a A4T &quot;unir&quot; la solicitud de Target en la página predeterminada con la solicitud de Analytics en la nueva página.<br>El formato esperado para pasar sdid en la dirección URL (para aplicaciones híbridas o de una aplicación al sitio web o un sitio web a otro) es `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | El parámetro `adobe_mc_ref` pasa la dirección URL de referencia de la página predeterminada a la nueva página. Cuando se utiliza con AppMeasurement.js versión 2.1 (o posterior), Analytics utiliza este valor de parámetro como dirección URL de referencia en la nueva página. |
 
 Estos parámetros se agregan automáticamente a las direcciones URL de redireccionamiento al utilizar las ofertas de redireccionamiento integradas en el Compositor de experiencias visuales y el Compositor de experiencias basado en formularios cuando se implementa en la página el servicio Visitor Id. Si está utilizando código personalizado de redireccionamiento en VEC o el Compositor de experiencias basado en formularios, debe asegurarse de pasar estos parámetros junto al código personalizado.
