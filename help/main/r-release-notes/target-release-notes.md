@@ -4,7 +4,7 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d36cfb576e8b0897a3e53473b819ec9b59405f3d
+source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 66%
