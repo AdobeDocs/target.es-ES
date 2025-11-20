@@ -2,13 +2,13 @@
 keywords: crear recomendaciones;actividad de recomendaciones;nuevas recomendaciones;información general de recomendaciones
 description: Aprenda a utilizar el  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una  [!DNL Recommendations] actividad.
 title: ¿Cómo se crea una actividad  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 52%
+source-wordcount: '1201'
+ht-degree: 51%
 
 ---
 
@@ -42,6 +42,10 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
 1. Haga clic en un elemento de la página. Si hay recomendaciones disponibles donde se encuentra ese elemento, haga clic en **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** o **[!UICONTROL Insert Recommendations After]**.
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Recommendations] actividades solo admiten una modificación/recomendación a la vez. Para varias recomendaciones, puede crear varias actividades [!DNL Recommendations] o usar pruebas A/B o XT.
+
    Los visitantes del sitio verán el contenido recomendado solo si cumplen los requisitos para la recomendación. Los visitantes que no cumplan los requisitos para la recomendación verán el contenido predeterminado.
 
    ![Opciones de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
@@ -73,7 +77,7 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
    >[!NOTE]
    >
-   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desactive la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre la opción [!UICONTROL Compatible], según la configuración de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Para obtener más información, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desactive la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre la opción [!UICONTROL Compatible], según la configuración de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Para obtener más información, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Cuadro de diálogo Seleccionar criterios](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -121,7 +125,7 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
    ![Diagrama de flujo de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
-   El diagrama de flujo le guía durante el procedimiento para seleccionar una audiencia para la actividad, la configuración de experiencias y la especificación de las métricas de éxito..
+   El diagrama de flujo le guía durante el procedimiento para seleccionar un público para la actividad, la configuración de experiencias y la especificación de las métricas de éxito..
 
    Desde el diagrama de flujo, puede hacer lo siguiente:
 
@@ -129,7 +133,7 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
      >[!NOTE]
      >
-     >Además de seleccionar una audiencia existente, puede [crear audiencias de una actividad](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) o [combinar varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear audiencias específicas en vez de crear una nueva.
+     >Además de seleccionar un público existente, puede [crear públicos de una actividad](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) o [combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) para crear públicos específicos en vez de crear uno nuevo.
 
      De manera predeterminada, todos los usuarios ven las recomendaciones. Sin embargo, puede segmentar la recomendación a una audiencia en concreto.
 
@@ -174,4 +178,4 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
 ## Vídeo de formación: Crear una actividad de Recommendations (7:15) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33946?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
