@@ -1,12 +1,12 @@
 ---
 user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
-user-guide-description: Aprenda a adaptar y personalizar la experiencia de sus clientes para que pueda maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
+user-guide-description: Descubra cómo personalizar las experiencias de los clientes en sitios web, aplicaciones y canales sociales para aumentar los ingresos.
 feature-set: Target
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 83%
 
 ---
 
@@ -333,10 +333,10 @@ ht-degree: 85%
       + [Integrar Recommendations con el correo electrónico](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [Direcciones IP que usan los servidores de procesamiento de fuentes de Recommendations](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Comparación entre Recommendations Classic y actividades de Recommendations en Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Documentación de Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [Documentación de Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Resolución de problemas de Target {#troubleshoot}
    + [Resolución de problemas de Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Límites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Información general sobre la API de Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e información de contacto &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e información de contacto ](cmp-resources-and-contact-information.md)
