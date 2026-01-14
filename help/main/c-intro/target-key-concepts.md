@@ -4,10 +4,10 @@ description: Conozca los fundamentos de Adobe Target. Este artículo le presenta
 title: ¿Cómo usar Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 99%
+source-wordcount: '1524'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Una actividad determina las experiencias que puede recibir un visitante del siti
 
 Por ejemplo, podría diseñar una actividad que pruebe dos páginas de aterrizaje diferentes: una que destaque información sobre calzado de verano para señora y otra que destaque ropa de verano más general. La actividad determina las condiciones que controlan cuándo aparece cada una de estas páginas de aterrizaje y las métricas que determinan qué página tiene mayor éxito. La actividad está configurada para comenzar y finalizar cuando se cumplen unas condiciones específicas. Estas condiciones pueden incluir el inicio y el final de la actividad entre fechas específicas o el inicio cuando se apruebe la actividad y el final cuando se desactive.
 
-Planifique con cuidado al diseñar una actividad. Determine cuándo se inicia la actividad y cuánto dura. A continuación, enumere las ofertas y asigne una audiencia segmentada a cada una de ellas.
+Planifique con cuidado al diseñar una actividad. Determine cuándo se inicia la actividad y cuánto dura. A continuación, enumere las ofertas y asigne un público destinatario a cada una de ellas.
 
 Target incluye varios tipos de actividades. En la tabla siguiente se proporciona una descripción general de cada tipo de actividad con vínculos para ayudarle a obtener más información. Para ayudarle a elegir el mejor tipo de actividad según sus necesidades, hemos creado también la [Guía de actividades de Adobe Target](/help/main/c-activities/target-activities-guide.md).
 
@@ -31,10 +31,10 @@ Target incluye varios tipos de actividades. En la tabla siguiente se proporciona
 | [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de asignación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Auto Target utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing. Las actividades de Auto Target ofrecen a todos los visitantes una experiencia más adaptada en función de su perfil de cliente y del comportamiento de las visitas anteriores de perfiles similares, todo ello con el fin de personalizar el contenido e impulsar las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Uso de datos de Analytics](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puede configurar una actividad para que use [!DNL Adobe Analytics] como fuente de informes. Para este tipo de actividad es necesario que vincule su cuenta de [!DNL Adobe Experience Cloud] con [!DNL Analytics] y [!DNL Target]. |
-| [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing (MVT o prueba multivariada) compara combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica e identifica qué elemento tiene mayor impacto en el éxito de la actividad. |
-| [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación de experiencias](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing (MVT o prueba multivariada) compara combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento para un público específico e identifica qué elemento tiene mayor impacto en el éxito de la actividad. |
+| [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a un público específico en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación de experiencias](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | La Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones. |
-| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![&#x200B; Target Premium](/help/main/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo “Otras personas que han visto esto también vieron aquello”.<br>**Nota:** Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de asignación automática y segmentación automática) y actividades de segmentación de experiencias (XT). Consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![ Target Premium](/help/main/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo “Otras personas que han visto esto también vieron aquello”.<br>**Nota:** Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de asignación automática y segmentación automática) y actividades de segmentación de experiencias (XT). Consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Ubicaciones {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -45,7 +45,7 @@ Las ubicaciones son esenciales para las actividades y las experiencias. Puede de
 * Mostrar e intercambiar contenido para los visitantes.
 * Registrar el comportamiento de los visitantes.
 
-En [!DNL Target Standard], una ubicación puede ser cualquier elemento de una página siempre que la página contenga una sola línea de código que active [!DNL Target] en la sección `<head>` de cada página que desee rastrear. Esta línea de código llama a las bibliotecas de JavaScript necesarias para recopilar información y ofrecer experiencias segmentadas para los visitantes de su sitio.
+En [!DNL Target Standard], una ubicación puede ser cualquier elemento de una página siempre que la página contenga una sola línea de código que habilite [!DNL Target] en la sección `<head>` de cada página que desee rastrear. Esta línea de código llama a las bibliotecas de JavaScript necesarias para recopilar información y ofrecer experiencias segmentadas para los visitantes de su sitio.
 
 Las ubicaciones se combinan con audiencias para proporcionar un número casi inagotable de opciones de segmentación de información a sus clientes. Por ejemplo, si un visitante nunca ha estado antes en el sitio, puede mostrar un cupón de descuento para nuevos clientes. Del mismo modo, puede cambiarse la página para que muestre ofertas que estén más optimizadas para clientes que vuelven a visitar el sitio.
 
@@ -61,7 +61,7 @@ Una experiencia está compuesta por ofertas, recursos de imagen y cualquier otro
 
 Una experiencia también puede ser un diseño de página distinto. Por ejemplo, es posible que una experiencia tenga un conjunto de vínculos en la parte superior de la página, mientras que otra experiencia tenga vínculos diferentes o los mismos vínculos ordenados de manera distinta. Puede interesarle probar si una imagen proporciona más alza que otra, o si hay más probabilidades de que los visitantes hagan clic en un anuncio cerca de la parte superior de la página o en otra ubicación distinta.
 
-[!DNL Target] optimiza las experiencias de cada uno de los visitantes en los puntos de contacto digitales y prueba las distintas experiencias para determinar cuál tendrá más éxito. Si planifica meticulosamente la segmentación de las experiencias, tendrá la garantía de que los visitantes del sitio verán las ofertas más relevantes en las ubicaciones adecuadas de la página, lo que mejorará las probabilidades de que la visita tenga el resultado que desea.
+[!DNL Target] optimiza las experiencias de cada uno de los visitantes en los puntos de contacto digital y prueba las distintas experiencias para determinar cuál tendrá más éxito. Si planifica meticulosamente la segmentación de las experiencias, tendrá la garantía de que los visitantes del sitio verán las ofertas más relevantes en las ubicaciones adecuadas de la página, lo que mejorará las probabilidades de que la visita tenga el resultado que desea.
 
 ## Ofertas   {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
@@ -81,25 +81,25 @@ Por ejemplo, una página web con dos ofertas podría mostrar cualquiera de las d
 
 Una *experiencia* determina el contenido que se muestra cuando se cumplen unas condiciones determinadas.
 
-## Audiencias {#section_3F32DA46BDF947878DD79DBB97040D01}
+## Públicos {#section_3F32DA46BDF947878DD79DBB97040D01}
 
 Optimice el contenido segmentado de su sitio para los participantes de la actividad que cumplan determinados criterios.
 
 Las audiencias definen el segmento de su actividad y se emplean siempre que la segmentación esté disponible.
 
-Las audiencias de [!DNL Target] conforman un conjunto definido de criterios de visitantes. Se pueden segmentar las ofertas para determinadas audiencias (o segmentos). Solo los visitantes que pertenezcan a esa audiencia verán la experiencia que esté segmentada para ellos.
+Los públicos de [!DNL Target] conforman un conjunto definido de criterios de visitantes. Se pueden segmentar las ofertas para determinadas audiencias (o segmentos). Solo los visitantes que pertenezcan a esa audiencia verán la experiencia que esté segmentada para ellos.
 
 Por ejemplo, puede segmentar una actividad para una audiencia formada por visitantes que usan un determinado navegador o sistema operativo.
 
 O puede segmentar la actividad para los visitantes que procedan de una zona geográfica concreta o para los usuarios que accedan a la página desde un determinado motor de búsqueda.
 
-Las audiencias se pueden guardar para reutilizarlas en varias actividades o pueden crearse para una actividad específica.
+Los públicos se pueden guardar para reutilizarlos en varias actividades o pueden crearse para una actividad específica.
 
 | Tipo de audiencia | Descripción |
 |--- |--- |
-| Audiencias reutilizables | Pueden seleccionarse audiencias reutilizables para cualquier actividad. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
+| Públicos reutilizables | Pueden seleccionarse públicos reutilizables para cualquier actividad. Si cambia una de estas audiencias, se cambia para todas las actividades que la usen. |
 | Segmentos personalizados | Los segmentos personalizados (también conocidos como segmentos específicos de campaña) son lo que se utilizan en una campaña de Target Classic. Se crean como parte de la campaña y no se pueden reutilizar en otras campañas. |
-| Audiencias compartidas | Las audiencias se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. Consulte [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) para ver algunos ejemplos. |
+| Audiencias compartidas | Los públicos se pueden compartir entre las distintas soluciones de [!DNL Adobe Experience Cloud]. Consulte [Públicos](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) para ver algunos ejemplos. |
 
 Si desea obtener información sobre el modo en que el perfil del visitante realiza el seguimiento de la información sobre los visitantes de su página, consulte.[Perfiles de visitantes](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -115,16 +115,16 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Uso de audiencias en Adobe Target (6:21) ![distintivo de información general](/help/main/assets/overview.png)
 
-En este vídeo se describe cómo usar las audiencias en [!DNL Target Standard/Premium].
+En este vídeo se describe cómo usar los públicos en [!DNL Target Standard/Premium].
 
-* Explicar el término “audiencia”
+* Explicar el término “público”
 * Explicar las dos formas de usar audiencias para la optimización
 * Buscar audiencias en la lista de audiencias
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

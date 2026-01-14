@@ -2,13 +2,13 @@
 keywords: espacios de trabajo;administrar propiedad;permisos;configuración de producto;perfil de producto;roles;proyecto;observador;editor;aprobador;publicador
 description: Obtenga información sobre cómo crear espacios de trabajo (perfiles de producto) independientes y, a continuación, asignar a los usuarios diferentes funciones y permisos para páginas, propiedades o sitios web individuales.
 title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3166'
 ht-degree: 48%
 
 ---
@@ -139,7 +139,7 @@ Además, Jan no puede ver páginas, propiedades ni sitios en [!DNL Target] para 
 
 ![imagen permissions_4](assets/permissions_4.png)
 
-En este ejemplo, Jan no ve las páginas de productos, el sitio de Rusia ni el sitio de ofertas de empleo.
+En este ejemplo, Jan no ve las páginas de producto, el sitio de Rusia ni el sitio de ofertas de empleo.
 
 ## Casos de uso {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
@@ -164,7 +164,7 @@ Usando los personajes de las ilustraciones anteriores, tras una reorganización,
 
   Como no tiene ninguna función que le exija ver el sitio de Rusia, el sitio de Francia ni el sitio de ofertas de empleo, no ve las actividades relacionadas con estos sitios.
 
-* **Diana:** Diana trabaja como analista en la organización y se le han concedido permisos de observación en la página principal y el sitio de EE. UU., las páginas de productos, el sitio de Rusia y el sitio de Francia. Con estos permisos tiene acceso de solo lectura a las actividades. Diana puede ver actividades, pero no puede crearlas o editarlas.
+* **Diana:** Diana trabaja como analista en la organización y se le han concedido permisos de observación en la página principal y el sitio de EE. UU., las páginas de producto, el sitio de Rusia y el sitio de Francia. Con estos permisos tiene acceso de solo lectura a las actividades. Diana puede ver actividades, pero no puede crearlas o editarlas.
 
   Como no tiene ninguna función que le exija ver el sitio de ofertas de empleo, no ve las actividades relacionadas con este sitio.
 
@@ -210,8 +210,8 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
 
    * Puede ver las actividades, audiencias y ofertas de todos los espacios de trabajo para los que tenga el rol adecuado y permiso de acceso.
    * Al seleccionar la vista [!UICONTROL All My Workspaces], se agrega una nueva columna a la página Actividades, Audiencias y Ofertas. En esta columna se muestra el espacio de trabajo del elemento y los permisos de usuario asociados a dicho elemento (Observador, Editor o Aprobador).
-   * Al crear una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se creará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
-   * Al copiar una actividad, audiencia u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se copiará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
+   * Al crear una actividad, público u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se creará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
+   * Al copiar una actividad, público u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se copiará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
 
 * Cualquier configuración en las siguientes páginas de [!UICONTROL Administration] puede ser controlada por cualquier [!UICONTROL Approver] en cualquier espacio de trabajo:
 
@@ -226,7 +226,7 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
    * Usuarios
 
 * Los usuarios no pueden mover recursos de un espacio de trabajo (perfil de producto) a otro. Sin embargo, sí se permite la copia.
-* Si visualiza las audiencias desde la página [!DNL Audiences], la página carga más lento de lo esperado. Si interactúa con la barra de búsqueda de cualquier forma, las audiencias se muestran más rápido. Este problema se conoce y se solucionará en una actualización próxima. Este problema no afecta a la selección de audiencias durante el flujo de trabajo de creación de actividades.
+* Si visualiza los públicos desde la página [!DNL Audiences], la página carga más lento de lo esperado. Si interactúa con la barra de búsqueda de cualquier forma, las audiencias se muestran más rápido. Este problema se conoce y se solucionará en una actualización próxima. Este problema no afecta a la selección de audiencias durante el flujo de trabajo de creación de actividades.
 * Los siguientes recursos son parte del nuevo modelo de permisos de Enterprise:
 
    * Las actividades, audiencias y ofertas de código creadas en [!DNL Target Standard/Premium] están disponibles para su uso una vez que el cliente haya habilitado los permisos. (Nota: los clientes deben tener derecho a [!DNL Target Premium].)
@@ -239,7 +239,7 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
    * Ofertas de imágenes
    * Todos los recursos de Recommendations, incluidos la Biblioteca de criterios, Biblioteca de diseños, Catálogo, Configuración de Recommendations.
    * Los recursos existentes (como actividades, ofertas de código y audiencias) creados en Target Premium antes de habilitar los permisos de Enterprise se pueden copiar, pero no se pueden mover a otros espacios de trabajo.
-   * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte de la Workspace predeterminada: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, audiencias, ofertas de código y ofertas de imagen).
+   * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte de la Workspace predeterminada: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, públicos, ofertas de código y ofertas de imagen).
    * Actualmente, las ofertas de imagen (recursos almacenados en `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) no se pueden controlar mediante el modelo de permisos de Enterprise.
    * clickTracking y las redirecciones funcionan cuando el vínculo de destino o la página de destino son parte de una propiedad incluida en la actividad. Además, es posible que clickTracking no funcione al utilizar la función `targetPageParams()`. La función recomendada es `targetPageParamsAll()`.
 
@@ -265,7 +265,7 @@ Por desgracia, las actividades no se pueden trasladar de un espacio de trabajo a
 
 Las actividades creadas antes de la migración se siguen ejecutando del mismo modo en el espacio de trabajo predeterminado, a menos que se editen y se les asignen propiedades. Las actividades bajo una propiedad de honor de espacio de trabajo específica asignada a ese espacio de trabajo y, por lo tanto, el comportamiento podría no ser el mismo que antes de la migración.
 
-### ¿Puedo trasladar una audiencia de un espacio de trabajo a otro? {#move-audience}
+### ¿Puedo trasladar un público de un espacio de trabajo a otro? {#move-audience}
 
 Sí, puede mover audiencias entre espacios de trabajo mediante la opción [!UICONTROL More Actions] en la página [!UICONTROL Audiences].
 
@@ -311,7 +311,7 @@ Objetivos de aprendizaje:
 * Los conceptos de propiedad y espacio de trabajo, y cómo operan estos límites y agrupamientos para permitir controlar el nivel de acceso de los usuarios
 * Diferentes ejemplos de propiedades para la consideración de su organización
 
->[!VIDEO](https://video.tv.adobe.com/v/3421736?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### Horario de oficina: [!DNL Target] espacios de trabajo Premium
 
