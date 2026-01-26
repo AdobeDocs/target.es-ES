@@ -4,10 +4,10 @@ description: Descubra por qué algunos sitios web podrían no abrirse de forma f
 title: ¿Cómo utilizo la extensión [!UICONTROL Visual Editing Helper]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '765'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,17 @@ La extensión de explorador [!DNL Adobe Experience Cloud] [!UICONTROL Visual Edi
 >[!IMPORTANT]
 >
 >* Esta nueva extensión sustituye a la [extensión de explorador de VEC Helper de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) anterior. Consulte la nota importante que aparece al principio de ese artículo. Debido a las mejoras de seguridad en Manifest v3, [!DNL Adobe] requiere la descarga de esta nueva extensión para continuar creando de forma visual sus sitios web en [!DNL Target].
+
+## Cambios en la extensión [!UICONTROL Visual Editing Helper] (17 de enero de 2026)
+
+### **Se ha corregido un problema al agregar la nueva característica experimental de limpieza de cookies de inicio en el VEC Helper.**
+
+* Se ha corregido un problema al añadir una nueva función experimental de limpieza de cookies de inicio en el VEC Helper.
+* Esta mejora mejora mejora el rendimiento y la fiabilidad al limpiar las cookies no particionadas una vez por pestaña cuando comienza la creación en lugar de continuamente.
+* La función realiza un seguimiento del historial de pestañas para evitar limpiezas redundantes y borra el historial de cierre de pestañas para que la limpieza se comporte correctamente cuando se vuelva a abrir una pestaña.
+* Se han añadido pruebas unitarias completas para garantizar un comportamiento coherente.
+
+![Nuevas opciones de VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## Razones por las que algunos sitios web podrían no abrirse de forma fiable en el VEC
 
