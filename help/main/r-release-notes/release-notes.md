@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 14%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -29,14 +29,6 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.1.2 (sábado, 30 de enero de 2026)
-
-**Panel de información de Adobe Target**
-
-Adobe Target ahora incluye un nuevo panel de perspectivas que proporciona una vista de alto nivel de cómo su organización utiliza Target para la experimentación y personalización. En el tablero aparecen métricas clave como actividades activas, actividades activas y modificadas, actividades completadas, actividades publicadas y actividades de prueba A/B. Utilice el selector de intervalo de tiempo para explorar las tendencias en diferentes periodos, incluida una vista de resumen para 2025. Este tablero permanece disponible como una forma continua de rastrear la adopción y la actividad a lo largo del tiempo.
-
-Ver [Panel de información de Adobe Target](/help/main/c-activities/insights-dashboard.md)
-
 ## [!DNL Target Standard/Premium] 26.1.1 (lunes, 18 de enero de 2026)
 
 **Actividades**
@@ -55,7 +47,6 @@ Ver [Panel de información de Adobe Target](/help/main/c-activities/insights-das
 **Propiedades**
 
 +++Ver detalles
-
 * **La edición de actividad no debe agregar la propiedad detectada automáticamente si ya se ha eliminado.** Esta corrección soluciona un problema que causaba que al editar una actividad se reintrodujera automáticamente una propiedad detectada automáticamente que el usuario había eliminado anteriormente. Al volver a abrir una actividad para editarla, el sistema restauró incorrectamente la propiedad eliminada, lo que produjo un comportamiento incoherente y confusión en [!UICONTROL Properties List]. La actualización garantiza que, una vez eliminada una propiedad detectada automáticamente, permanece eliminada durante todas las ediciones posteriores y no vuelve a aparecer a menos que el usuario la vuelva a añadir explícitamente. (TGT-54182)
 * **No agregue las propiedades detectadas automáticamente si ya se han quitado.** Esta corrección garantiza que una vez que un usuario elimine manualmente una propiedad detectada automáticamente de una actividad, el sistema ya no la vuelva a introducir durante la navegación posterior dentro del editor de actividades. Anteriormente, si un usuario anulaba la selección de una propiedad detectada automáticamente, se movía al paso [!UICONTROL Targeting] y luego se devolvía a [!UICONTROL Experiences], el editor rellenaba la propiedad eliminada en función de la lista detectada automáticamente almacenada en el segmento de estado Editor de actividades. La lógica actualizada ahora compara las propiedades detectadas automáticamente con las propiedades actuales en el segmento ~ActivityState~ e impide volver a agregar cualquier propiedad detectada automáticamente que el usuario ya haya quitado. Esto da como resultado un comportamiento coherente en todos los pasos y respeta la intención del usuario. (TGT-54181)
 * **Agregar texto detectado automáticamente a la lista de propiedades.** Esta mejora actualiza [!UICONTROL Properties List] para etiquetar claramente cualquier propiedad que el sistema haya detectado automáticamente. Cuando una propiedad detectada automáticamente también está presente en el elemento visible para el usuario [!UICONTROL Properties List], ahora muestra el texto &quot;(Detección automática)&quot; junto a su nombre, usando el valor almacenado en el estado ~ActivityEditorSlice~. Esto refleja el comportamiento de la interfaz de usuario heredada y ayuda a los usuarios a distinguir fácilmente entre las propiedades seleccionadas manualmente y las identificadas automáticamente. (TGT-54120)
@@ -66,7 +57,6 @@ Ver [Panel de información de Adobe Target](/help/main/c-activities/insights-das
 **Recommendations**
 
 +++Ver detalles
-
 * La lista desplegable **[!UICONTROL Environment]muestra solo 100 resultados.** Esta corrección corrige una limitación en la que los clientes con más de 100 entornos solo podían ver las primeras 100 entradas en la lista desplegable [!UICONTROL Environment] en [!UICONTROL Recommendations]. La consulta de GraphQL subyacente (~getEnvironmentsV2~) se paginó con un tamaño de página codificado de 100, lo que hizo que la interfaz de usuario mostrara solo una lista parcial incluso cuando había páginas adicionales disponibles. Para los clientes que tienen más de 100 entornos, este problema provocaba la falta de opciones y una experiencia de selección incompleta. La actualización aumenta el límite para que todos los entornos se devuelvan y se muestren, lo que garantiza una visibilidad completa independientemente del recuento de entornos. (TGT-53903)
 
 +++
@@ -87,10 +77,9 @@ Ver [Panel de información de Adobe Target](/help/main/c-activities/insights-das
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
-
 * El nombre **[!UICONTROL Experience Fragment]se truncó en la nueva interfaz de usuario del VEC** (TGT-54312)
 * **No se puede usar [!UICONTROL Advanced Settings] para la métrica [!UICONTROL Revenue].** Esta corrección resuelve un problema en el que los usuarios encontraron un error 403 &quot;Acceso denegado&quot; al configurar [!UICONTROL Advanced Settings] para la métrica [!UICONTROL Revenue] en [!UICONTROL Goals & Settings]. El problema se producía al agregar una condición de dependencia vinculada al objetivo principal; el backend requería incorrectamente el privilegio de editor incluso para usuarios que ya tenían permisos suficientes para crear y editar actividades. Como resultado, se ha producido un error al guardar la actividad a pesar de una configuración válida. La actualización corrige la comprobación de permisos para que los usuarios con acceso adecuado puedan agregar correctamente dependencias de métrica de ingresos sin activar un error de recurso prohibido. (TGT-54092)
 * **Se ha corregido un problema que hacía que el botón Agregar no se aplicara a las imágenes seleccionadas.** Se ha corregido un problema que impedía que los clientes agregaran ciertas imágenes al seleccionar o actualizar una imagen en el proceso de creación de actividades. Cuando los clientes buscaron recursos específicos, por ejemplo, las imágenes devueltas al buscar &quot;ipp&quot;, al hacer clic en el botón [!UICONTROL Add] no se aplicó la imagen seleccionada y no se creó ninguna modificación. La selección de otras imágenes, como `Homepage-banner-1-moz.jpg`, continuó funcionando según lo esperado. Esta actualización garantiza que todas las imágenes válidas se puedan aplicar de forma coherente en la IU actualizada. (TGT-53610)
