@@ -4,7 +4,7 @@ description: Preguntas y respuestas acerca de la interfaz de usuario  [!DNL Targ
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la  [!DNL Target] IU actualizada?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 * **17 de junio de 2025**: todas las organizaciones de IMS se han habilitado para la interfaz de usuario [!DNL Target] actualizada, ya sea para usuarios específicos o para toda la organización, para comenzar a probar la nueva experiencia.
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
    * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora ven la IU actualizada al iniciar sesión.
    * El conmutador Versión de la interfaz de usuario permanece disponible hasta finales de julio, lo que permite a los usuarios volver si es necesario.
@@ -107,7 +107,7 @@ El uso de la opción de versión de la IU presenta varias limitaciones, como la 
 
 Para obtener más información, consulte [Actualizaciones urgentes que necesita conocer](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
-++++
++++
 
 ## ¿Puede [!DNL Adobe] retrasar nuestra migración a la interfaz de usuario actualizada hasta que se complete el despliegue completo?
 
