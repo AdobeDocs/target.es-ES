@@ -4,7 +4,7 @@ description: Aprenda a utilizar el VEC de SPA en Adobe [!DNL Target] para crear 
 title: ¿Cómo utilizo el Compositor de experiencias visuales de la aplicación de una sola página (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -256,9 +256,9 @@ Por último, como se mencionó anteriormente, las vistas pueden definirse a nive
 
 ## Inmersión en at.js y las SPA
 
-**¿Cómo puedo recuperar vistas para los datos de audiencia más recientes mediante acciones después de la carga inicial de la página en mi SPA?**
+**¿Cómo puedo recuperar vistas para los datos de público más recientes mediante acciones después de la carga inicial de la página en mi SPA?**
 
-El flujo de trabajo típico de at.js 2.x es cuando se carga su sitio, cuando todas las vistas y acciones se almacenan en caché para que las acciones subsiguientes del usuario en el sitio no almacenen en déclencheur las llamadas al servidor para recuperar ofertas. Si desea recuperar vistas según los datos de perfil más actualizados que puedan haberse actualizado, según las acciones de usuario subsiguientes, puede llamar a `getOffers()` y `applyOffers()` con los datos de perfil o usuario de audiencia más recientes.
+El flujo de trabajo típico de at.js 2.x es cuando se carga su sitio, cuando todas las vistas y acciones se almacenan en caché para que las acciones subsiguientes del usuario en el sitio no almacenen en déclencheur las llamadas al servidor para recuperar ofertas. Si desea recuperar vistas según los datos de perfil más actualizados que puedan haberse actualizado, según las acciones de usuario subsiguientes, puede llamar a `getOffers()` y `applyOffers()` con los datos de perfil o usuario de público más recientes.
 
 Por ejemplo, imaginemos que es una compañía de telecomunicaciones y tiene una SPA que utiliza at.js 2.x. Como empresa, desea lograr los siguientes objetivos:
 
@@ -309,7 +309,7 @@ adobe.target.getOffers({
 
 Pase la respuesta de `getOffers()` a `applyOffers()` y ahora todas las vistas y acciones asociadas con &quot;loggedIn = true&quot; actualizarán la caché at.js.
 
-En otras palabras, at.js 2.x es compatible con una manera de recuperar vistas, acciones y ofertas con los datos de audiencia más actuales bajo demanda.
+En otras palabras, at.js 2.x es compatible con una manera de recuperar vistas, acciones y ofertas con los datos de público más actuales bajo demanda.
 
 **¿at.js 2.x es compatible con A4T para aplicaciones de una sola página?**
 
