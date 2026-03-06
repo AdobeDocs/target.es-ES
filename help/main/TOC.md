@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Guía para profesionales de Adobe Target Business](target-home.md)
 + Notas de versión de Target {#release-notes}
-   + {hide-from-toc}[Anuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md)
+   + [hide-from-tocAnuncios y eventos de Target](/help/main/r-release-notes/target-announcements.md)
    + [Notas de la versión de Target (actual)](r-release-notes/release-notes.md)
    + [Notas de la versión de Target (versión preliminar)](r-release-notes/target-release-notes.md)
    + [Información general sobre la documentación de Target](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 83%
       + [Información general del Asistente de IA](/help/main/c-intro/ai-assistant.md)
       + [Habilitar el asistente de IA](/help/main/c-intro/enabling-ai-assistant.md)
       + [Utilice el asistente de IA para obtener conocimientos del producto](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + {hide-from-toc}[Usar el Asistente de IA para generar contenido](/help/main/c-intro/ai-assistant-content-generation.md)
+      + [hide-from-tocUsar el Asistente de IA para generar contenido](/help/main/c-intro/ai-assistant-content-generation.md)
    + Kit de bienvenida de Adobe Target {#welcome}
       + [Información general sobre el kit de bienvenida de Target](/help/main/c-intro/target-welcome-kit.md)
       + [Capítulo 1: Introducción](/help/main/c-intro/target-welcome-kit-1.md)
@@ -100,11 +100,11 @@ ht-degree: 83%
       + [Informes de Target en Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integración de Target con Adobe Journey Optimizer (AJO) {#ajo}
       + [Uso de decisiones de oferta](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + {hide-from-toc}[Integrar [!DNL Adobe Target Recommendations] y [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + [hide-from-tocIntegrar [!DNL Adobe Target Recommendations] y [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Casos de uso de Adobe Journey Optimizer {#use-cases}
-         + {hide-from-toc}[Casos de uso de optimización principales en Adobe Journey Optimizer: canales web y basados en código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + {hide-from-toc}[Cambios de contenido mediante pruebas A/B en Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-         + {hide-from-toc}[Agregar u ocultar componentes a su página web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+         + [hide-from-tocCasos de uso de optimización principales en Adobe Journey Optimizer: canales web y basados en código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [hide-from-tocCambios de contenido mediante pruebas A/B en Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + [hide-from-tocAgregar u ocultar componentes a su página web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integración de Target con Adobe Experience Manager (AEM) {#aem}
       + [Información general sobre la integración de Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -327,7 +327,7 @@ ht-degree: 83%
       + [Crear una actividad de Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Agregar promociones](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Configuración de actividades de Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + {hide-from-toc}[Vista previa e inicio de su actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [hide-from-tocVista previa e inicio de su actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recomendaciones como oferta](c-recommendations/recommendations-as-an-offer.md)
    + Preguntas más frecuentes {#recommendations-faq}
       + [Preguntas más frecuentes de Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
@@ -340,4 +340,4 @@ ht-degree: 83%
    + [Límites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Información general sobre la API de Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e información de contacto ](cmp-resources-and-contact-information.md)
++ [Recursos e información de contacto &#x200B;](cmp-resources-and-contact-information.md)
