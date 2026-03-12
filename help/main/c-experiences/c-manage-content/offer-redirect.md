@@ -4,10 +4,10 @@ description: Aprenda a crear ofertas de redireccionamiento para guiar fácilment
 title: ¿Cómo Se Crean Ofertas De Redireccionamiento?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: e42173fb4fe48e1ba74daaa8bae37da5799f9dc7
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 25%
+source-wordcount: '1080'
+ht-degree: 23%
 
 ---
 
@@ -47,7 +47,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
    >[!NOTE]
    >
-   >Las ofertas de redireccionamiento generan un bucle infinito si la URL de redireccionamiento también califica al usuario para la misma actividad. Asegúrese de que el usuario no vuelva a ser calificado para la actividad después de ser redirigido.
+   >Las ofertas de redireccionamiento generan un bucle infinito si la URL de redireccionamiento también califica al usuario para la misma actividad. Para evitarlo, agregue un parámetro de consulta a la dirección URL de redireccionamiento (por ejemplo, `?redirect=true`). A continuación, en la audiencia de actividad o en la regla de plantilla, compruebe que este parámetro de consulta no esté presente. Esto garantiza que el usuario no vuelva a ser calificado para la actividad después de ser redirigido.
 
 1. Seleccione las opciones que quiera para personalizar la oferta de redireccionamiento:
 
@@ -78,7 +78,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
    >[!NOTE]
    >
-   >Las ofertas de redireccionamiento generan un bucle infinito si la URL de redireccionamiento también califica al usuario para la misma actividad. Asegúrese de que el usuario no vuelva a ser calificado para la actividad después de ser redirigido.
+   >Las ofertas de redireccionamiento generan un bucle infinito si la URL de redireccionamiento también califica al usuario para la misma actividad. Para evitarlo, agregue un parámetro de consulta a la dirección URL de redireccionamiento (por ejemplo, `?redirect=true`). A continuación, en la audiencia de actividad o en la regla de plantilla, compruebe que este parámetro de consulta no esté presente. Esto garantiza que el usuario no vuelva a ser calificado para la actividad después de ser redirigido.
 
 1. Seleccione las opciones que quiera para personalizar la oferta de redireccionamiento:
 
