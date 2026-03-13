@@ -4,10 +4,10 @@ description: Obtenga información acerca de las nuevas funciones, mejoras y corr
 title: ¿Qué nuevas funciones y mejoras se incluirán en la próxima versión de  [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cb53635de421da438c4c0d4b0b368235abe29f00
+source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 71%
+source-wordcount: '170'
+ht-degree: 77%
 
 ---
 
@@ -25,9 +25,6 @@ Este artículo contiene información de versión preliminar para las versiones d
 >
 >* Los números entre paréntesis son para uso interno de [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.11.2 (14 de noviembre de 2025)
-
-Esta versión ya está activa. Vea [[!DNL Target] notas de la versión (actual)](/help/main/r-release-notes/release-notes.md) para obtener más detalles.
 
 ## Notas de la versión adicionales y detalles de la versión
 
@@ -36,9 +33,8 @@ Esta versión ya está activa. Vea [[!DNL Target] notas de la versión (actual)]
 | [Notas de la versión: SDK web de Adobe Target Platform Experience](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=es) | Detalles acerca de los cambios realizados en cada versión del SDK web de Platform. |
 | [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank} | Detalles sobre los cambios realizados en cada versión de la biblioteca JavaScript de at.js. [!DNL Adobe Target]. |
 
-## Información de versión preliminar {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
+## Información de versión preliminar
 
 Para recibir notificaciones avanzadas sobre futuras mejoras de productos en [!DNL Target] y otras soluciones de [!DNL Adobe Experience Cloud], regístrese en [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
-

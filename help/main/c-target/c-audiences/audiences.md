@@ -1,17 +1,17 @@
 ---
-keywords: audiencia;reglas de audiencia;crear audiencia;creación de audiencia;segmentación de audiencia;informe de audiencia;audiencia de informe;segmento;parámetros de perfil personalizados;definición de audiencia;lista de audiencias
+keywords: público;reglas de público;crear público;creación de público;segmentación del público;informe de público;público de informe;segmento;parámetros de perfil personalizados;definición de público;lista de públicos
 description: Aprenda a utilizar las audiencias en  [!DNL Adobe Target].
 title: ¿Cómo se utiliza la lista de audiencias?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 22%
 
 ---
 
-# Crear audiencias
+# Crear públicos
 
 Las audiencias de [!DNL Adobe Target] determinan quién ve el contenido y las experiencias en una actividad segmentada.
 
@@ -28,7 +28,7 @@ Hay dos tipos de audiencias en [!DNL Target]:
 * **Audiencias de destino:** Se usa para entregar contenido diferente a distintos tipos de visitantes.
 * **Audiencias de informes:** Se usa para determinar cómo responden los distintos tipos de visitantes al mismo contenido y así poder analizar los resultados de las pruebas.
 
-  En [!DNL Target], las audiencias de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si usa [Adobe Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), debe configurar las audiencias de informes en [!DNL Analytics].
+  En [!DNL Target], los públicos de informes solo se pueden configurar si se usa [!DNL Target] como fuente de informes. Si usa [Adobe Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), debe configurar las audiencias de informes en [!DNL Analytics].
 
 ## Usar la lista [!UICONTROL Audiences] {#use-list}
 
@@ -66,7 +66,7 @@ Utilice el botón [!UICONTROL Filters] para filtrar la lista [!UICONTROL Audienc
 
 Utilice la casilla [!UICONTROL Search audiences] para buscar en la lista [!UICONTROL Audiences]. Puede buscar cualquier parte del nombre de una audiencia, o bien encerrar entre comillas una cadena específica.
 
-Puede ordenar la lista [!UICONTROL Audiences] por nombre de audiencia o por la fecha de la última modificación. Para ordenar por nombre o fecha, haga clic en el encabezado de columna y, a continuación, seleccione si quiere mostrar las audiencias en orden ascendente o descendente.
+Puede ordenar la lista [!UICONTROL Audiences] por nombre de audiencia o por la fecha de la última modificación. Para ordenar por nombre o fecha, haga clic en el encabezado de columna y, a continuación, seleccione si quiere mostrar los públicos en orden ascendente o descendente.
 
 ## Ver definiciones de audiencia {#section_11B9C4A777E14D36BA1E925021945780}
 
@@ -74,11 +74,11 @@ Puede ver los detalles de definición de audiencia en una tarjeta emergente en v
 
 Por ejemplo, para acceder a la siguiente definición de audiencia, haga clic en el icono [!UICONTROL View Details] de la audiencia que desee:
 
-![Actividades > Definición de audiencia](assets/audience_definition_list.png)
+![Actividades > Definición de público](assets/audience_definition_list.png)
 
 Para acceder a la siguiente definición de audiencia, haga clic en el icono [!UICONTROL View Details] de la página [!UICONTROL Overview] de una actividad:
 
-![Actividades > Definición de audiencia](assets/view-details-activity-overview.png)
+![Actividades > Definición de público](assets/view-details-activity-overview.png)
 
 La tarjeta de definición de audiencia muestra el tipo, la fuente y los atributos de la audiencia. Haga clic en **[!UICONTROL View full details]** para ver otras actividades que hacen referencia a esa audiencia, si corresponde. Si está viendo una tarjeta de definición de audiencia desde la página [!UICONTROL Overview] de una actividad, haga clic en **[!UICONTROL Audience Usage]**.
 
@@ -88,7 +88,8 @@ Si una audiencia está [combinada con otra audiencia](/help/main/c-target/combin
 
 ![imagen audience_definition_list_usage](assets/audience_definition_list_usage.png)
 
-<!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
+<!--
+The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
 ![Usage tab on Audience Definition card](assets/audience_definition_mc.png)
 
@@ -103,9 +104,10 @@ The following details are available for these imported audience types:
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
-* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
+-->
 
-## Uso de audiencias de [!DNL Adobe Experience Platform] {#aep}
+## Uso de públicos de [!DNL Adobe Experience Platform] {#aep}
 
 Usar audiencias creadas en [!DNL Adobe Experience Platform] proporciona datos de clientes más completos que conducen a una personalización más impactante.
 
@@ -115,10 +117,10 @@ Para obtener más información, consulte [Usar audiencias de [!DNL Adobe Experie
 
 Este vídeo contiene información sobre el uso de las audiencias.
 
-* Explicar el término “audiencia”
+* Explicar el término “público”
 * Explicar las dos formas de usar audiencias para la optimización
 * Buscar audiencias en la lista de audiencias
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
