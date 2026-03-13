@@ -2,11 +2,11 @@
 keywords: desduplicar;permitir duplicados;excluir ofertas duplicadas;personalización automatizada;impedir ofertas duplicadas;excluir;contenido predeterminado;
 description: Administrar exclusiones en actividades [!UICONTROL Automated Personalization] (AP).
 title: ¿Cómo administro las exclusiones en las actividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
+source-git-commit: 482d3aa3345eb8e6ad4db4d10f9bcf883d6aba82
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 21%
@@ -27,7 +27,7 @@ Por ejemplo, puede tener una actividad con seis ubicaciones en una página con 1
 
 ## Excluir experiencias específicas {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Excluya experiencias específicas si desea excluir determinadas combinaciones de ofertas de la actividad de AP.
+Exclude specific experiences if you want to exclude certain offer combinations from your AP activity.
 
 Es posible que haya ciertas combinaciones que no funcionen juntas o que esté limitando el número de experiencias probadas para reducir los requisitos de tráfico de la actividad.
 
@@ -47,7 +47,7 @@ Es posible que haya ciertas combinaciones que no funcionen juntas o que esté li
 
 ## Excluir contenido predeterminado {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-En ocasiones, es posible que no desee incluir el contenido predeterminado como parte de su actividad de AP. Puede utilizar este método para tener una sola oferta (diferente de su contenido predeterminado) en una ubicación como parte de su actividad de.
+Sometimes, you might not want to include your default content as part of your AP activity. You can use this method to have only one offer (different from your default content) in a location as part of your activity.
 
 Excluir el contenido predeterminado es una excelente manera de cambiar la apariencia del resto de la página para adaptarla a las ofertas que está probando con su actividad de AP. Por ejemplo, suponga que desea hacer coincidir la paleta de colores de las ofertas que está probando, puede cambiar el color de fondo de su página y excluir el color de fondo predeterminado.
 
@@ -60,7 +60,8 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
 1. Haga clic en el icono **[!UICONTROL More Actions]** ( ![icono de más acciones](/help/main/assets/icons/Setting.svg) ) y, a continuación, haga clic en el botón de alternancia **Excluir oferta predeterminada/Incluir oferta predeterminada**/ para excluir o incluir la oferta predeterminada.
 
-   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
+   <!--
+   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
    For Text/HTML content: 
 
@@ -72,9 +73,11 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
    For background color: 
 
-   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   -->
 
-<!-- 1. Click **[!UICONTROL Save]**.
+<!--
+1. Click **[!UICONTROL Save]**.
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
@@ -99,4 +102,5 @@ Excluir el contenido predeterminado es una excelente manera de cambiar la aparie
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)
+-->
