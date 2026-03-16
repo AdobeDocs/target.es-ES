@@ -4,7 +4,7 @@ description: Explore las opciones disponibles en el  [!DNL Adobe Target] [!UICON
 title: ¿Cómo utilizo las opciones de [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 8%
@@ -273,7 +273,9 @@ Si no ve la ruta DOM, haga clic en el icono [!UICONTROL Show DOM] ( ![Mostrar ic
 
 Puede utilizar la ruta DOM para ver rápidamente información sobre el elemento seleccionado (tipo, ID y clase) y subir o bajar por la ruta DOM para seleccionar el elemento deseado.
 
-<!--When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.-->
+<!--
+When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.
+-->
 
 Puede navegar fácilmente a cualquier elemento principal, del mismo nivel o secundario dentro del VEC utilizando la ruta DOM.
 
@@ -293,7 +295,8 @@ La función de ruta DOM también está disponible al configurar el [rastreo de c
 
 * [[!DNL Target] Preguntas frecuentes sobre la actualización de la interfaz de usuario](/help/main/c-intro/updated-ui-faq.md): estas preguntas frecuentes tratan sobre las nuevas preguntas comunes acerca de la interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la desaprobación de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
 
-<!--## [!UICONTROL Edit]
+<!--
+## [!UICONTROL Edit]
 
 The following options are available:
 
@@ -667,4 +670,5 @@ The following actions are not available on custom elements:
 The following action is not available inside custom elements:
 
 * [!UICONTROL Layout]
-  * [!UICONTROL Rearrange]-->
+  * [!UICONTROL Rearrange]
+-->

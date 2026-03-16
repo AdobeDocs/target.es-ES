@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -17,7 +17,8 @@ ht-degree: 97%
 
 Anuncios e información sobre próximos [!DNL Adobe Target] eventos, incluidas [!DNL Target] Sesiones de coffee break, [!DNL Target] serie de seminarios web, [!DNL Target] Sesiones de generador de habilidades, charlas de desarrollador y mucho más. Los vínculos de las grabaciones anteriores se incluyen si están disponibles.
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=es){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## Grabaciones de seminarios web anteriores y sesiones de formación
 
@@ -82,7 +84,7 @@ Ofrezca experiencias atractivas a los clientes para mejorar las tasas de convers
 
 Los temas incluyen los siguientes:
 
-* Creación eficaz de paneles y métricas clave de informes
+* Creación eficaz de paneles de control y métricas clave de informes
 * Examinar el impacto de cada canal de marketing
 * Inmersión en el comportamiento de los clientes y las tendencias de compra
 * Identificar las experiencias deficientes de los clientes y mejorarlas mediante pruebas

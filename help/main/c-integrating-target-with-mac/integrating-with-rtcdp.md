@@ -4,7 +4,7 @@ description: Aprenda a utilizar la integración de  [!DNL Target]/[!DNL Real-Tim
 title: ¿Cómo puedo integrar  [!DNL Target]  con  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
+source-git-commit: 7e6947a37586c1840216d4137969f399f38a429d
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 71%
@@ -46,7 +46,7 @@ Las secciones siguientes muestran qué tipo de caso de uso de personalización (
 
 | Soluciones | Caso de uso habilitado |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (cualquier SKU) y [!DNL Target]</li></ul> | <ul><li>Personalización de próxima sesión</li><ul><li>Para todas las páginas con [!UICONTROL at.js]</li></ul><li>Personalización de la misma página</li><ul><li>Para todas las páginas con [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] (cualquier SKU) y [!DNL Target]</li></ul> | <ul><li>Personalización de próxima sesión<ul><li>Para todas las páginas con [!UICONTROL at.js]</li></ul></li><li>Personalización de la misma página<ul><li>Para todas las páginas con [!DNL Platform Web SDK]</li></ul></li></ul> |
 | <ul><li>[!DNL RTCDP] (cualquier SKU), [!DNL AAM] y [!DNL Target]</li></ul> | <ul><li>Personalización de próxima sesión</li><ul><li>Para todas las páginas con [!UICONTROL at.js]</li><li>[!DNL AAM] segmentos</li><li>Segmentos de terceros a través de [!DNL AAM]</li></ul> |
 
 ## Tiempo de evaluación de segmentos
@@ -61,11 +61,11 @@ La tabla siguiente muestra el tiempo de evaluación de segmentos para eventos qu
 | Eventos de carga por lotes | No | No | Sí |
 | Eventos de datos sin conexión (flujo) | No | Sí | Sí |
 
-## Uso de audiencias de [!DNL Adobe Experience Platform] {#aep}
+## Uso de públicos de [!DNL Adobe Experience Platform] {#aep}
 
-Usar [audiencias](/help/main/c-target/c-audiences/audiences.md) creadas en [!DNL Adobe Experience Platform] proporciona datos de clientes más completos que conducen a una personalización más impactante. [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es){target=_blank} (RTCDP), creado en [!DNL Adobe Experience Platform], ayuda a las empresas a reunir datos conocidos y anónimos de varios orígenes empresariales. Este proceso le permite crear perfiles de cliente que se pueden utilizar para ofrecer experiencias de cliente personalizadas en todos los canales y dispositivos en tiempo real.
+Usar [públicos](/help/main/c-target/c-audiences/audiences.md) creados en [!DNL Adobe Experience Platform] proporciona datos de clientes más completos que conducen a una personalización más impactante. [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es){target=_blank} (RTCDP), creado en [!DNL Adobe Experience Platform], ayuda a las empresas a reunir datos conocidos y anónimos de varios orígenes empresariales. Este proceso le permite crear perfiles de cliente que se pueden utilizar para ofrecer experiencias de cliente personalizadas en todos los canales y dispositivos en tiempo real.
 
-Conectando [!DNL Target] a [!DNL Real-Time Customer Data Platform], los clientes pueden enriquecer su personalización web. Esta integración le permite desbloquear nuevos segmentos que podrían haber sido previamente inaccesibles para [!DNL Target], con el fin de permitir la personalización en milisegundos en tiempo real en la primera página de la visita web de un cliente. Usar audiencias y atributos de perfil creados en [!DNL Adobe Experience Platform] permite ampliar los puntos de datos disponibles para conseguir una mejor personalización.
+Conectando [!DNL Target] a [!DNL Real-Time Customer Data Platform], los clientes pueden enriquecer su personalización web. Esta integración le permite desbloquear nuevos segmentos que podrían haber sido previamente inaccesibles para [!DNL Target], con el fin de permitir la personalización en milisegundos en tiempo real en la primera página de la visita web de un cliente. Usar públicos y atributos de perfil creados en [!DNL Adobe Experience Platform] permite ampliar los puntos de datos disponibles para conseguir una mejor personalización.
 
 Esta integración desbloquea los casos de uso clave con Real-Time CDP:
 
@@ -128,25 +128,25 @@ Para obtener más información, consulte [Personalización de próxima visita co
 
 Obtenga información sobre cómo configurar el destino de [!DNL Adobe Target] en [!DNL Real-Time Customer Data Platform] para empezar a enviar segmentos y atributos de perfil desde [!DNL Real-Time CDP] hasta [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3449796/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3449796/?captions=spa&learn=on)
 
 ### Vídeo: Activar segmentos y atributos de perfil
 
 Obtenga información sobre cómo activar segmentos y atributos de perfil de [!DNL Adobe Real-Time Customer Data Platform] hasta [!DNL Adobe Target] para mostrar contenido personalizado en tiempo real en sus sitios web, aplicaciones móviles y otras propiedades digitales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447358/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3447358/?captions=spa&learn=on)
 
 ### Vídeo: Usar segmentos de [!DNL Real-Time CDP] en [!DNL Target]
 
 Aprenda a utilizar segmentos de [!DNL Real-Time Customer Data Platform] en [!DNL Adobe Target] para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446830/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3446830/?captions=spa&learn=on)
 
 ### Vídeo: Uso de atributos de perfil de [!DNL Real-Time CDP] en [!DNL Adobe Target]
 
 Aprenda a utilizar los atributos de perfil de [!DNL Adobe Real-Time Customer Data Platform] en [!DNL Adobe Target] para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451896/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3451896/?captions=spa&learn=on)
 
 ### Blog y vídeo de [!DNL Adobe Target]: personalización mejorada de la misma página
 

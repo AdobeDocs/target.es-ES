@@ -5,10 +5,10 @@ title: ¿Qué es Recommendations de  [!DNL Target] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Antes de empezar a usar [!DNL Recommendations], es útil familiarizarse con algu
 
 | Término | Definición |
 | --- | --- |
-| Actividad | Las actividades de [!DNL Target] le permiten personalizar el contenido para audiencias específicas y probar los diseños de página. [!DNL Recommendations] es solo uno de los muchos tipos de actividades disponibles en [!DNL Target]. Para obtener más información, consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md). |
+| Actividad | Las actividades de [!DNL Target] le permiten personalizar el contenido para públicos específicos y probar los diseños de página. [!DNL Recommendations] es solo uno de los muchos tipos de actividades disponibles en [!DNL Target]. Para obtener más información, consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md). |
 | Entidades | Las entidades se refieren a los elementos que desea recomendar. Las entidades pueden ser productos, contenido (p. ej., artículos, presentaciones de diapositivas, imágenes, películas y programas de TV), ofertas de empleo, restaurantes, etcétera. Para obtener más información, consulte [Entidades](/help/main/c-recommendations/c-products/products.md). |
 | Fuentes | Las fuentes se utilizan para obtener entidades importadas en [!DNL Recommendations]. Las entidades se pueden enviar con archivos CSV, el formato de fuente de Google Product Search y las clasificaciones de productos de Adobe Analytics. Para obtener más información, consulte [Fuentes](/help/main/c-recommendations/c-products/feeds.md). |
 | Catálogo | Los catálogos hacen referencia a todo el conjunto de productos (entidades). El catálogo puede contener muchas colecciones, una forma de organizar los productos en bloques lógicos. |
@@ -59,7 +59,7 @@ Antes de empezar a usar [!DNL Recommendations], es útil familiarizarse con algu
 | Criterios | Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.<br>Algunos ejemplos de criterios son: <ul><li>Los usuarios que compraron esto, compraron aquello.</li><li>Los usuarios que vieron esto, vieron aquello.</li><li>Elementos con atributos similares.</li><li>Último artículo comprado</li><li>Categoría favorita</li></ul>  Para obtener más información, consulte [Criterios](/help/main/c-recommendations/c-algorithms/algorithms.md). |
 | Diseños | Los diseños definen el aspecto de las recomendaciones en una actividad de [!DNL Recommendations], como una fila, columna, tabla o cuadrícula. La ilustración de la parte superior de este artículo muestra un diseño de 4 x 1. Para obtener más información, consulte [Crear un diseño](/help/main/c-recommendations/c-design-overview/create-design.md). |
 | Ubicaciones | Las ubicaciones hacen referencia a un área de contenido específica de una página web, una aplicación móvil o un correo electrónico en la que ejecuta una actividad con fines de personalización y optimización. |
-| Audiencias | Las audiencias son grupos de participantes con características similares en una actividad a los se les mostrará una actividad segmentada. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Para obtener más información, consulte [Audiencias](/help/main/c-target/target.md). |
+| Públicos | Los públicos son grupos de participantes con características similares en una actividad a los se les mostrará una actividad segmentada. Un público es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Público le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Para obtener más información, consulte [Públicos](/help/main/c-target/target.md). |
 | Recomendaciones como oferta | Una funcionalidad que le permite incluir recomendaciones dentro de la prueba A/B (incluidas Asignación automática y Segmentación automática) y las actividades de direccionamiento de experiencias (XT). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Vídeo de aprendizaje: Tipos de actividades ![distintivo de Información general](/help/main/assets/overview.png)
@@ -72,8 +72,10 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
 
-## Seminario web básico de Adobe Target: Introducción a Recommendations ![Distintivo de tutorial](/help/main/assets/tutorial.png) {#intro-to-recs}
+<!--
+## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-El seminario web *Introducción a Recommendations* incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario de [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad de [!DNL Recommendations].
+The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. Find out how this [!DNL Target] activity automatically displays products or content that might interest your customers by optimizing real-time suggestions based on previous visits. Further, dive into the [!DNL Target] UI for a step-by-step overview of how to build a [!DNL Recommendations] activity.
 
-[Introducción a Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduction to Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+-->
