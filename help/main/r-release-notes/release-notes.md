@@ -56,7 +56,7 @@ Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sob
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 
