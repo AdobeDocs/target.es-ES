@@ -2,7 +2,7 @@
 keywords: desduplicar;permitir duplicados;excluir ofertas duplicadas;personalización automatizada;impedir ofertas duplicadas;excluir;contenido predeterminado;
 description: Administrar exclusiones en actividades [!UICONTROL Automated Personalization] (AP).
 title: ¿Cómo administro las exclusiones en las actividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -27,7 +27,7 @@ Por ejemplo, puede tener una actividad con seis ubicaciones en una página con 1
 
 ## Excluir experiencias específicas {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Exclude specific experiences if you want to exclude certain offer combinations from your AP activity.
+Excluya experiencias específicas si desea excluir determinadas combinaciones de ofertas de la actividad de AP.
 
 Es posible que haya ciertas combinaciones que no funcionen juntas o que esté limitando el número de experiencias probadas para reducir los requisitos de tráfico de la actividad.
 
@@ -47,7 +47,7 @@ Es posible que haya ciertas combinaciones que no funcionen juntas o que esté li
 
 ## Excluir contenido predeterminado {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Sometimes, you might not want to include your default content as part of your AP activity. You can use this method to have only one offer (different from your default content) in a location as part of your activity.
+En ocasiones, es posible que no desee incluir el contenido predeterminado como parte de su actividad de AP. Puede utilizar este método para tener una sola oferta (diferente de su contenido predeterminado) en una ubicación como parte de su actividad de.
 
 Excluir el contenido predeterminado es una excelente manera de cambiar la apariencia del resto de la página para adaptarla a las ofertas que está probando con su actividad de AP. Por ejemplo, suponga que desea hacer coincidir la paleta de colores de las ofertas que está probando, puede cambiar el color de fondo de su página y excluir el color de fondo predeterminado.
 
