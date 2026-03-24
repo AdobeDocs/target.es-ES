@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '64670'
+source-wordcount: '64864'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,32 @@ Las notas de la versión se enumeran en orden descendente por mes y año de publ
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2026
+
+## [!DNL Target Standard/Premium] 26.3.2 (10 de marzo de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **Los cambios de oferta directa en la experiencia no se han guardado.** Esta corrección resuelve un problema en el cual las modificaciones realizadas en las ofertas directas dentro de una experiencia de actividad no se guardaban. Anteriormente, cuando los usuarios abrían una oferta directa, realizaban cambios y la guardaban, estos aparecían reflejados inicialmente, pero se perdían al volver a abrir la oferta. La corrección garantiza que los cambios en las ofertas directas se guarden correctamente y se mantengan cuando se vuelva a abrir la oferta. (TGT-54653)
+
++++
+
+**Implementación**
+
++++Ver detalles
+
+* **Agregar la opción de administración de parpadeo en la pantalla Implementación.** Se ha agregado una nueva opción a la pantalla [!UICONTROL Implementation] para controlar la habilitación de la configuración de administración de parpadeo. Esta opción permite a los administradores configurar la administración de parpadeo directamente desde la pantalla Implementación. (TGT-52247)
+
++++
+
+**Información general**
+
++++Ver detalles
+
+* **Mostrar el nombre completo de la audiencia y la experiencia en la página de Información general.** Esta mejora actualiza la página [!UICONTROL Overview] para mostrar el nombre completo de las audiencias y experiencias. Anteriormente, los nombres largos se truncaban y no eran totalmente visibles, lo que requería que los usuarios hicieran triple clic para seleccionar todo el texto y ver el nombre completo. La actualización garantiza que los nombres completos de audiencia y experiencia sean visibles, lo que facilita a los usuarios la identificación y revisión de las configuraciones de actividad. (TGT-53323)
+
++++
 
 ### [!DNL Target Standard/Premium] 26.3.1 (3 de marzo de 2026)
 

@@ -6,10 +6,11 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+hold: true
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 53%
 
 ---
 
@@ -29,32 +30,17 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.2 (10 de marzo de 2026)
+## [!DNL Target Standard/Premium] 26.3.4 (19 de marzo de 2026)
 
-**Actividades**
-
-+++Ver detalles
-
-* **Los cambios de oferta directa en la experiencia no se han guardado.** Esta corrección resuelve un problema en el cual las modificaciones realizadas en las ofertas directas dentro de una experiencia de actividad no se guardaban. Anteriormente, cuando los usuarios abrían una oferta directa, realizaban cambios y la guardaban, estos aparecían reflejados inicialmente, pero se perdían al volver a abrir la oferta. La corrección garantiza que los cambios en las ofertas directas se guarden correctamente y se mantengan cuando se vuelva a abrir la oferta. (TGT-54653)
-
-+++
-
-**Implementación**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Ver detalles
 
-* **Agregar la opción de administración de parpadeo en la pantalla Implementación.** Se ha agregado una nueva opción a la pantalla [!UICONTROL Implementation] para controlar la habilitación de la configuración de administración de parpadeo. Esta opción permite a los administradores configurar la administración de parpadeo directamente desde la pantalla Implementación. (TGT-52247)
+* **Selección del modo de diseño/exploración visible en el editor web del Compositor de experiencias visuales.** Esta corrección resuelve un problema en el cual el cambio entre los modos Diseño, Examinar y Vista previa funcionaba correctamente, pero el modo activo no se indicaba claramente en la interfaz. El modo seleccionado ahora está resaltado visiblemente para que pueda ver en qué modo se encuentra. (TGT-54790)
+
+* **URL de red privada en el Compositor de experiencias visuales (Chrome).** Chrome puede bloquear páginas en una red privada a menos que se permita el acceso a la red local. El **[!UICONTROL Visual Experience Composer]** ahora solicita ese permiso en la trama que utiliza Experience Cloud, de modo que Chrome puede mostrar una solicitud de permiso en lugar de generar un error de forma silenciosa. Después de permitir el acceso, las direcciones URL internas pueden cargarse en el VEC cuando su entorno lo admite. (TGT-54346)
 
 +++
-
-**Información general**
-
-+++Ver detalles
-
-* **Mostrar el nombre completo de la audiencia y la experiencia en la página de Información general.** Esta mejora actualiza la página [!UICONTROL Overview] para mostrar el nombre completo de las audiencias y experiencias. Anteriormente, los nombres largos se truncaban y no eran totalmente visibles, lo que requería que los usuarios hicieran triple clic para seleccionar todo el texto y ver el nombre completo. La actualización garantiza que los nombres completos de audiencia y experiencia sean visibles, lo que facilita a los usuarios la identificación y revisión de las configuraciones de actividad. (TGT-53323)
-
-+++
-
 
 ## Notas de la versión adicionales y detalles de la versión
 
