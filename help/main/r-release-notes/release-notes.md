@@ -6,11 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 62%
 
 ---
 
@@ -30,15 +29,14 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.4 (19 de marzo de 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7 (26 de marzo de 2026)
+
+**Públicos**
 
 +++Ver detalles
 
-* **Selección del modo de diseño/exploración visible en el editor web del Compositor de experiencias visuales.** Esta corrección resuelve un problema en el cual el cambio entre los modos Diseño, Examinar y Vista previa funcionaba correctamente, pero el modo activo no se indicaba claramente en la interfaz. El modo seleccionado ahora está resaltado visiblemente para que pueda ver en qué modo se encuentra. (TGT-54790)
-
-* **URL de red privada en el Compositor de experiencias visuales (Chrome).** Chrome puede bloquear páginas en una red privada a menos que se permita el acceso a la red local. El **[!UICONTROL Visual Experience Composer]** ahora solicita ese permiso en la trama que utiliza Experience Cloud, de modo que Chrome puede mostrar una solicitud de permiso en lugar de generar un error de forma silenciosa. Después de permitir el acceso, las direcciones URL internas pueden cargarse en el VEC cuando su entorno lo admite. (TGT-54346)
+* **Precisión de etiqueta de origen de audiencia en la interfaz de audiencias.** Se ha corregido un problema por el cual las audiencias que venían del destino Adobe Target v2 en Adobe Experience Platform podían aparecer con **Adobe Experience Cloud** como origen en lugar de **Adobe Experience Platform**. Esta actualización mejora la coherencia de las etiquetas de origen al filtrar y revisar las audiencias. (TGT-54802)
 
 +++
 
