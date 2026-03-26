@@ -4,7 +4,7 @@ description: Aprenda a utilizar el VEC de SPA en Adobe [!DNL Target] para crear 
 title: ¿Cómo utilizo el Compositor de experiencias visuales de la aplicación de una sola página (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -440,3 +440,4 @@ Este mensaje aparece cuando agrega la primera acción a una Vista para cada nuev
 >[!VIDEO](https://video.tv.adobe.com/v/34794?captions=spa)
 
 Consulte [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC) en Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obtener más información.
+
