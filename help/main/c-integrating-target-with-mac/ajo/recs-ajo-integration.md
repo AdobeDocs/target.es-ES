@@ -8,7 +8,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Esta integración le ayuda a lograr más conversiones y a ver el impacto de los 
 
 Para usar la integración de [!DNL Target Recommendations] y [!DNL Adobe Journey Optimizer], necesita lo siguiente:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) se implementó mediante [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) se implementó mediante [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
   Esta característica no está disponible con una licencia de [!DNL Target Standard] o al implementar [!DNL Target] con at.js u otros SDK de [!DNL Target].
 

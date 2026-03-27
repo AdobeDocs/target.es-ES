@@ -4,7 +4,7 @@ description: Use [!DNL Target] informes en [!DNL Adobe Customer Journey Analytic
 title: ¿Qué está informando [!DNL Target] en [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 40%
@@ -39,7 +39,7 @@ Tenga en cuenta la siguiente información antes de utilizar la integración de [
 * Debe usar una de las dos fuentes de creación de informes. No puede recopilar datos de una única actividad a varias fuentes de creación de informes.
 * Cuando establezca [!DNL Customer Journey Analytics] como fuente de creación de informes, se le pedirá que especifique la zona protegida para su creación de informes. Durante la configuración, solo verá las zonas protegidas a las que tiene acceso.
 * Las actividades existentes de [!DNL Target] seguirán utilizando la recopilación de datos de [!DNL Target] y no se verán afectadas por la habilitación de esta integración.
-* Para usar esta integración, el método de implementación preferido es tener [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/experience-platform){target=_blank} y [!DNL Target] implementados a través de [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* Para usar esta integración, el método de implementación preferido es tener [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/experience-platform){target=_blank} y [!DNL Target] implementados a través de [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
   Si actualmente no tiene implementado [!DNL Adobe Experience Platform Web SDK], también puede crear una [[!DNL Adobe Analytics] conexión de origen](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) para llevar los datos a [!DNL Adobe Experience Platform]. Si planea usar este método, debe seleccionar un grupo de informes [!DNL Analytics] junto con la zona protegida [!DNL Adobe Experience Platform] que usa con [!DNL Customer Journey Analytics].
 
@@ -53,7 +53,7 @@ Tenga en cuenta la siguiente información antes de utilizar la integración de [
 
 ## Tipos de actividades compatibles {#supported-activities}
 
-Se admiten los siguientes tipos de actividades al usar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} o la biblioteca de JavaScript [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
+Se admiten los siguientes tipos de actividades al usar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} o la biblioteca de JavaScript [at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
 
 | Tipos de actividades.  | Compatible? |
 |--- |--- |
