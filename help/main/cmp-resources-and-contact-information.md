@@ -87,7 +87,7 @@ Para problemas de entrega de contenido, consulte [Solución de problemas de entr
 
 ### En caso de una interrupción del servicio  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la [página Estado del sistema de Experience Cloud](https://status.adobe.com/es) ([!DNL https://status.adobe.com]). En esta página se registran todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las Soluciones de Experience Cloud, incluida Target, además de las últimas actualizaciones del equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada anteriormente, cuando contacte con atención al cliente:
+Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la [página Estado del sistema de Experience Cloud](https://status.adobe.com/es) ([!DNL https://status.adobe.com/es-es]). En esta página se registran todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las Soluciones de Experience Cloud, incluida Target, además de las últimas actualizaciones del equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada anteriormente, cuando contacte con atención al cliente:
 
 * Hora en que se inició la interrupción del servicio
 * Explicación de lo que ocurre
