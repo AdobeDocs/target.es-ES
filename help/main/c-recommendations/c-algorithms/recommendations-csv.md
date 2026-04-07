@@ -2,10 +2,10 @@
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
 description: Aprenda a cargar un archivo CSV para personalizar las recomendaciones en Adobe [!DNL Target] Recommendations.
 title: ¿Cómo se cargan criterios personalizados en  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 9ab594394fab977b6bf83b5c6f5e3cb91b71fe80
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 33%
@@ -44,13 +44,13 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
 
 1. En la sección **[!UICONTROL Upload CSV]**, seleccione el **[!UICONTROL Location]** de su archivo CSV.
 
-El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Download the CSV template]** para obtener un archivo CSV con el formato correcto.
+   El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Download the CSV template]** para obtener un archivo CSV con el formato correcto.
 
-Tiene dos opciones de ubicación:
+   Tiene dos opciones de ubicación:
 
-    * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
-    
-    * **URL:** Para cargar el archivo CSV desde una dirección URL, seleccione **[!UICONTROL URL]** y, a continuación, escriba una dirección URL de fuente.
+   * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
+
+   * **URL:** Para cargar el archivo CSV desde una dirección URL, seleccione **[!UICONTROL URL]** y después escriba una dirección URL de fuente.
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -60,7 +60,7 @@ Tiene dos opciones de ubicación:
 
 * Las actualizaciones de criterios personalizados son “acumulativas” de forma predeterminada. Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga de CSV seguirán estando disponibles para su envío y caducarán en 31 días desde la última vez que se carguen como parte del archivo CSV.
 
-  Póngase en contacto con el servicio de atención al cliente si desea activar la configuración que descarta los resultados existentes que no están incluidos en la siguiente carga CSV. Si esta configuración está habilitada, solo están disponibles para su envío las claves presentes en el archivo CSV personalizado. Esta configuración se aplica a todos los criterios personalizados.
+  Póngase en contacto con el servicio de atención al cliente si desea habilitar la configuración que descarta los resultados existentes que no están incluidos en la siguiente carga CSV. Si esta configuración está habilitada, solo están disponibles para su envío las claves presentes en el archivo CSV personalizado. Esta configuración se aplica a todos los criterios personalizados.
 
 * Los criterios personalizados se actualizan una vez cada 24 horas.
 
