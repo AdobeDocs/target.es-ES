@@ -6,10 +6,11 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
+hold: true
+source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 62%
+source-wordcount: '749'
+ht-degree: 35%
 
 ---
 
@@ -29,6 +30,58 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
+
+## [!DNL Target Standard/Premium] 26.4.1 (viernes, 02 de abril de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **Atributos de audiencia visibles en la vista Actividades.** Se ha corregido un problema por el cual los detalles de regla de audiencia vistos desde un **[!UICONTROL Activity]** no mostraban ciertos atributos que aparecían al abrir la misma audiencia desde la sección **[!UICONTROL Audiences]**. (TGT-54742)
+
+* **Código personalizado se conserva cuando se aplica a vistas adicionales.** Se ha corregido un problema por el cual el código personalizado aplicado a un(a) **[!UICONTROL View]** se podía eliminar al agregar o guardar código personalizado para otro(a) **[!UICONTROL View]** en el mismo(a) **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Exportar CSV en páginas de lista de Actividades y Audiencias.** agregó una acción **[!UICONTROL Export CSV]** para que pueda exportar listas de actividades desde la interfaz de usuario, incluso cuando se aplican filtros, sin depender únicamente de las API para las exportaciones de rutina. (TGT-51466)
+
+* **Modificaciones de experiencias marcadas cuando no se encuentran selectores.** modificaciones de experiencia ahora ejecutan una comprobación de existencia de selectores; cuando no se encuentra un selector en la página, la modificación se marca como no válida. (TGT-54815)
+
+* **[!UICONTROL Automated personalization]actividades.** Se han corregido problemas de carga de actividades e interfaces que evitaban que los usuarios crearan, editaran o administraran de forma fiable actividades de Automated Personalization, lo que bloqueaba la configuración de campañas y los casos de uso de personalización retrasada. (TGT-54421)
+
++++
+
+**Públicos**
+
++++Ver detalles
+
+* **Nombre y descripción de audiencia visibles al crear audiencias a partir de una actividad.** Se ha corregido un problema por el cual los campos de audiencia **[!UICONTROL Name]** y **[!UICONTROL Description]** no se destacaban claramente al crear o editar una audiencia a partir del flujo de actividad, en comparación con la creación de la audiencia directamente debajo de **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Datos**
+
++++Ver detalles
+
+* **[!UICONTROL Live Activities]cuentan con Insights.** Se ha corregido un problema en el cual la métrica **[!UICONTROL Live Activities]** del panel de información podía notificar un total mayor que el número de actividades que aparecían como activas en **[!UICONTROL All Activities]**. (TGT-54788)
+
++++
+
+**Recommendations**
+
++++Ver detalles
+
+* **Listas de ID largas en [!UICONTROL Global Exclusions].** Se corrigió un problema en el cual al pegar o escribir una larga lista de identificadores en **[!UICONTROL Global Exclusions]** se podía truncar en la interfaz actualizada en comparación con la heredada, lo que provocaba una lista de exclusión incompleta. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Ver detalles
+
+* **Indicador de estado del Compositor de experiencias mejorado (EEC) en [!UICONTROL Visual Experience Composer].** El indicador EEC indica si Enhanced Experience Composer está habilitado. Su presentación se ha revisado para que ya no parezca una opción interactiva, ya que solo sirve como visualización de estado no interactiva. (TGT-54828)
+
+* **Carril izquierdo contraíble en [!UICONTROL Visual Experience Composer].**: el carril izquierdo ahora se puede contraer mientras se abre una actividad para su edición. Esto mejora el acceso a **[!UICONTROL Components]** y **[!UICONTROL Properties]** para actividades que incluyen varias audiencias y páginas, incluso en pantallas más pequeñas. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (26 de marzo de 2026)
 
