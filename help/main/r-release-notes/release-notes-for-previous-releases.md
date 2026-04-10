@@ -4,10 +4,10 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
+source-git-commit: ee66ca185cc1d2c4659134d038add2e75026ad0d
 workflow-type: tm+mt
-source-wordcount: '65169'
-ht-degree: 52%
+source-wordcount: '65505'
+ht-degree: 51%
 
 ---
 
@@ -22,6 +22,56 @@ Las notas de la versión se enumeran en orden descendente por mes y año de publ
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2026
+
+## [!DNL Target Standard/Premium] 26.4.1 (viernes, 02 de abril de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **Atributos de audiencia visibles en la vista Actividades.** Se ha corregido un problema por el cual los detalles de regla de audiencia vistos desde un **[!UICONTROL Activity]** no mostraban ciertos atributos que aparecían al abrir la misma audiencia desde la sección **[!UICONTROL Audiences]**. (TGT-54742)
+
+* **Exportar CSV en la página de lista de actividades.** agregó una acción **[!UICONTROL Export CSV]** para que pueda exportar listas de actividades desde la interfaz de usuario, incluso cuando se aplican filtros, sin depender únicamente de las API para las exportaciones de rutina. (TGT-51466)
+
+* **Modificaciones de experiencias marcadas cuando no se encuentran selectores.** modificaciones de experiencia ahora ejecutan una comprobación de existencia de selectores; cuando no se encuentra un selector en la página, la modificación se marca como no válida. (TGT-54815)
+
+* **[!UICONTROL Automated personalization]actividades.** Se han corregido problemas de carga de actividades e interfaces que evitaban que los usuarios crearan, editaran o administraran de forma fiable actividades de Automated Personalization, lo que bloqueaba la configuración de campañas y los casos de uso de personalización retrasada. (TGT-54421)
+
++++
+
+**Públicos**
+
++++Ver detalles
+
+* **Nombre y descripción de audiencia visibles al crear audiencias a partir de una actividad.** Se ha corregido un problema por el cual los campos de audiencia **[!UICONTROL Name]** y **[!UICONTROL Description]** no se destacaban claramente al crear o editar una audiencia a partir del flujo de actividad, en comparación con la creación de la audiencia directamente debajo de **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Datos**
+
++++Ver detalles
+
+* **[!UICONTROL Live Activities]cuentan con Insights.** Se ha corregido un problema en el cual la métrica **[!UICONTROL Live Activities]** del panel de información podía notificar un total mayor que el número de actividades que aparecían como activas en **[!UICONTROL All Activities]**. (TGT-54788)
+
++++
+
+**Recommendations**
+
++++Ver detalles
+
+* **Listas de ID largas en [!UICONTROL Global Exclusions].** Se corrigió un problema en el cual al pegar o escribir una larga lista de identificadores en **[!UICONTROL Global Exclusions]** se podía truncar en la interfaz actualizada en comparación con la heredada, lo que provocaba una lista de exclusión incompleta. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalles
+
+* **Indicador de estado del Compositor de experiencias mejorado (EEC) en [!UICONTROL Visual Experience Composer].** El indicador EEC indica si Enhanced Experience Composer está habilitado. Su presentación se ha revisado para que ya no parezca una opción interactiva, ya que solo sirve como visualización de estado no interactiva. (TGT-54828)
+
+* **Carril izquierdo contraíble en [!UICONTROL Visual Experience Composer].**: el carril izquierdo ahora se puede contraer mientras se abre una actividad para su edición. Esto mejora el acceso a **[!UICONTROL Components]** y **[!UICONTROL Properties]** para actividades que incluyen varias audiencias y páginas, incluso en pantallas más pequeñas. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (26 de marzo de 2026)
 
