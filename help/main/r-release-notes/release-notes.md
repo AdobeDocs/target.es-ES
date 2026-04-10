@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ada5803424b4930d91dda735901390fe5073932f
+source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 39%
+source-wordcount: '441'
+ht-degree: 56%
 
 ---
 
@@ -29,71 +29,36 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
-<!--
-## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
-
-**Activities**
-
-+++See details
-
-* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
-
-* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
-
-+++
-
--->
-
-## [!DNL Target Standard/Premium] 26.4.1 (viernes, 02 de abril de 2026)
+## [!DNL Target Standard/Premium] 26.4.3 (viernes, 09 de abril de 2026)
 
 **Actividades**
 
 +++Ver detalles
 
-* **Atributos de audiencia visibles en la vista Actividades.** Se ha corregido un problema por el cual los detalles de regla de audiencia vistos desde un **[!UICONTROL Activity]** no mostraban ciertos atributos que aparecían al abrir la misma audiencia desde la sección **[!UICONTROL Audiences]**. (TGT-54742)
+* Faltan **ubicaciones en algunas actividades.** Se corrigió un problema en el cual **[!UICONTROL Location]** faltaba en algunas actividades. (TGT-54951)
 
-* **Exportar CSV en páginas de lista de Actividades y Audiencias.** agregó una acción **[!UICONTROL Export CSV]** para que pueda exportar listas de actividades desde la interfaz de usuario, incluso cuando se aplican filtros, sin depender únicamente de las API para las exportaciones de rutina. (TGT-51466)
-
-* **Modificaciones de experiencias marcadas cuando no se encuentran selectores.** modificaciones de experiencia ahora ejecutan una comprobación de existencia de selectores; cuando no se encuentra un selector en la página, la modificación se marca como no válida. (TGT-54815)
-
-* **[!UICONTROL Automated personalization]actividades.** Se han corregido problemas de carga de actividades e interfaces que evitaban que los usuarios crearan, editaran o administraran de forma fiable actividades de Automated Personalization, lo que bloqueaba la configuración de campañas y los casos de uso de personalización retrasada. (TGT-54421)
+* **Orden de columna de métricas de informes.** La interfaz actualizada [!DNL Target] permite reordenar las métricas de informes sin borrar la selección completa y volver a agregar las métricas en secuencia. Anteriormente, los usuarios tenían que deseleccionar todas las métricas y seleccionarlas de nuevo en el orden deseado, lo que resultaba lento cuando se habilitaban muchas métricas y cuando se ajustaba la ubicación de las columnas para limitar el desplazamiento horizontal. (TGT-53044)
 
 +++
 
-**Públicos**
-
-+++Ver detalles
-
-* **Nombre y descripción de audiencia visibles al crear audiencias a partir de una actividad.** Se ha corregido un problema por el cual los campos de audiencia **[!UICONTROL Name]** y **[!UICONTROL Description]** no se destacaban claramente al crear o editar una audiencia a partir del flujo de actividad, en comparación con la creación de la audiencia directamente debajo de **[!UICONTROL Audiences]**. (TGT-54837)
-
-+++
-
-**Datos**
-
-+++Ver detalles
-
-* **[!UICONTROL Live Activities]cuentan con Insights.** Se ha corregido un problema en el cual la métrica **[!UICONTROL Live Activities]** del panel de información podía notificar un total mayor que el número de actividades que aparecían como activas en **[!UICONTROL All Activities]**. (TGT-54788)
-
-+++
-
-**Recommendations**
-
-+++Ver detalles
-
-* **Listas de ID largas en [!UICONTROL Global Exclusions].** Se corrigió un problema en el cual al pegar o escribir una larga lista de identificadores en **[!UICONTROL Global Exclusions]** se podía truncar en la interfaz actualizada en comparación con la heredada, lo que provocaba una lista de exclusión incompleta. (TGT-54422)
-
-+++
-
+<!--
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
-+++Ver detalles
++++See details
 
-* **Indicador de estado del Compositor de experiencias mejorado (EEC) en [!UICONTROL Visual Experience Composer].** El indicador EEC indica si Enhanced Experience Composer está habilitado. Su presentación se ha revisado para que ya no parezca una opción interactiva, ya que solo sirve como visualización de estado no interactiva. (TGT-54828)
-
-* **Carril izquierdo contraíble en [!UICONTROL Visual Experience Composer].**: el carril izquierdo ahora se puede contraer mientras se abre una actividad para su edición. Esto mejora el acceso a **[!UICONTROL Components]** y **[!UICONTROL Properties]** para actividades que incluyen varias audiencias y páginas, incluso en pantallas más pequeñas. (TGT-54269)
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
 
 +++
+-->
 
+## [!DNL Target Standard/Premium] 26.4.2 (miércoles, 07 de abril de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **Código personalizado se conserva cuando se aplica a vistas adicionales.** Se ha corregido un problema por el cual el código personalizado aplicado a un(a) **[!UICONTROL View]** se podía eliminar al agregar o guardar código personalizado para otro(a) **[!UICONTROL View]** en el mismo(a) **[!UICONTROL Activity]**. (TGT-53933)
++++
 
 ## Notas de la versión adicionales y detalles de la versión
 
