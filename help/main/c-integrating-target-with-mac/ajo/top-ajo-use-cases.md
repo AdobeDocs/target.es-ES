@@ -22,7 +22,7 @@ Aprenda a implementar los casos de uso de optimización principales en [!DNL Ado
 
 Para realizar los siguientes casos de uso, necesita lo siguiente:
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Estos casos de uso no requieren una licencia de [!DNL Adobe Target]. Estos casos de uso muestran cómo realizar tareas familiares en [!DNL Target] con [!DNL Journey Optimizer], lo que le permite explorar y lograr los mismos resultados con [!DNL Journey Optimizer].
 
 ## Casos de uso
