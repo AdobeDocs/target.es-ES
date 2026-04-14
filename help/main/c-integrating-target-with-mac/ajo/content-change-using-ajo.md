@@ -7,7 +7,7 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 1%
@@ -126,4 +126,4 @@ Para obtener más información, consulte [Introducción a la nueva interfaz de i
 >[!MORELIKETHIS]
 >
 >[Trabaje con el diseñador web](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*
->&#x200B;>[Crear una campaña](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*
+>[Crear una campaña](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*
