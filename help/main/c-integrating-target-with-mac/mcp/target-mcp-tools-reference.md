@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 15%
@@ -36,7 +36,7 @@ Esta página es una referencia completa para todas las herramientas públicas ex
 
 ## Herramientas de actividad {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 Enumerar [!DNL Adobe Target] actividades con filtrado y ordenación del lado del servidor.
 
@@ -67,7 +67,9 @@ Recupera una lista paginada de actividades. La API de administración de [!DNL T
 
 **Mensaje de ejemplo:** &quot;Enumerar todas las pruebas A/B activas ordenadas por las últimas modificadas&quot;.
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 Obtenga información detallada sobre una actividad A/B.
 
@@ -81,7 +83,9 @@ Recupera la configuración completa de una prueba A/B específica, incluidas exp
 
 **Mensaje de ejemplo:** &quot;Obtener detalles de la actividad A/B 12345.&quot;
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 Obtenga información detallada sobre una actividad de segmentación de experiencias (XT).
 
@@ -95,7 +99,9 @@ Recupera la configuración completa de una actividad XT específica, incluidas l
 
 **Mensaje de ejemplo:** &quot;Obtenga detalles para la actividad de segmentación de experiencias 12345&quot;.
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 Obtenga información detallada sobre una actividad de Automated Personalization (AP).
 
@@ -107,7 +113,9 @@ Obtenga información detallada sobre una actividad de Automated Personalization 
 
 **Mensaje de ejemplo:** &quot;Obtener detalles de la 12345 de actividad de Auto-Personalization&quot;.
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 Cree una nueva actividad de prueba A/B.
 
@@ -130,7 +138,9 @@ Crea una nueva prueba A/B con la configuración especificada que incluye experie
 
 **Mensaje de ejemplo:** &quot;Cree una prueba A/B llamada &#39;Homepage Hero Test&#39; con dos experiencias probando distintas imágenes a pantalla completa en el mbox homepage-hero&quot;.
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 Cree una nueva actividad de segmentación de experiencias (XT).
 
@@ -152,7 +162,9 @@ Crea una actividad XT que ofrece diferentes experiencias a diferentes audiencias
 
 **Mensaje de ejemplo:** &quot;Cree una actividad de segmentación de experiencias denominada &#39;Geo Personalization&#39; que muestre contenido diferente a visitantes de diferentes regiones.&quot;
 
-### update_ab_activity
++++
+
++++update_ab_activity
 
 Actualice una actividad A/B existente.
 
@@ -167,7 +179,9 @@ Utiliza un patrón de lectura-modificación-escritura: recupera el estado actual
 
 **Mensaje de ejemplo:** &quot;Actualice la actividad 12345 para cambiar la asignación de tráfico a 70/30.&quot;
 
-### update_xt_activity
++++
+
++++update_xt_activity
 
 Actualice una actividad de segmentación de experiencias existente.
 
@@ -182,7 +196,9 @@ Utiliza un patrón de lectura, modificación y escritura.
 
 **Mensaje de ejemplo:** &quot;Actualice la actividad XT 12345 para agregar una nueva experiencia para los visitantes móviles&quot;.
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 Actualice una actividad de Automated Personalization existente.
 
@@ -197,7 +213,9 @@ Utiliza un patrón de lectura, modificación y escritura.
 
 **Mensaje de ejemplo:** &quot;Actualice la actividad de Auto-Personalization 12345 para cambiar el objetivo de optimización&quot;.
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 Actualizar las fechas de inicio y finalización de la actividad.
 
@@ -214,7 +232,9 @@ Actualiza la programación de una actividad sin modificar otros ajustes.
 
 **Mensaje de ejemplo:** &quot;Actualice la programación de la actividad A/B 12345 para que se ejecute del 1 al 31 de mayo&quot;.
 
-### update_activity_state
++++
+
++++update_activity_state
 
 Cambiar estado de actividad (activar, desactivar o pausar).
 
@@ -227,7 +247,9 @@ Cambiar estado de actividad (activar, desactivar o pausar).
 
 **Mensaje de ejemplo:** &quot;Activar 12345 de actividad&quot; o &quot;Pausar la prueba principal&quot;.
 
-### update_activity_name
++++
+
++++update_activity_name
 
 Cambie el nombre de una actividad.
 
@@ -242,7 +264,9 @@ Actualiza solo el nombre sin modificar la configuración completa.
 
 **Mensaje de ejemplo:** &quot;Cambie el nombre de la actividad 12345 a &#39;Prueba Hero de campaña de verano&#39;&quot;.
 
-### update_activity_priority
++++
+
++++update_activity_priority
 
 Cambiar la prioridad de actividad.
 
@@ -257,7 +281,9 @@ Las actividades de prioridad más alta tienen prioridad cuando varias actividade
 
 **Mensaje de ejemplo:** &quot;Establezca la prioridad de la actividad 12345 en 100&quot;.
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 Añadir una nueva experiencia o variante a una actividad.
 
@@ -278,7 +304,9 @@ Gestiona toda la coordinación estructural, incluida la creación de opciones, l
 
 **Mensaje de ejemplo:** &quot;Agregue una nueva variante denominada &#39;Tema de vacaciones&#39; a la actividad A/B 12345 mediante 67890 de oferta.&quot;
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 Actualizar la asignación del tráfico entre las variantes.
 
@@ -294,7 +322,9 @@ Los porcentajes deben sumar exactamente 100.
 
 **Mensaje de ejemplo:** &quot;Cambie la división de tráfico para la actividad 12345 a 70% Control y 30% Variante A&quot;.
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 Cambie la oferta por una variante específica.
 
@@ -313,7 +343,9 @@ Funciona tanto para actividades basadas en formularios (usando `offer_id`) como 
 
 **Mensaje de ejemplo:** &quot;Actualice la experiencia &#39;Variante A&#39; en la actividad 12345 para usar 99999 de oferta.&quot;
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 Eliminar una experiencia o variante de una actividad.
 
@@ -329,9 +361,11 @@ Elimina la experiencia, limpia las opciones huérfanas y reequilibra el tráfico
 
 **Mensaje de ejemplo:** &quot;Quitar la experiencia &#39;Variante de prueba&#39; del 12345 de actividad A/B.&quot;
 
++++
+
 ## Herramientas de oferta {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 Enumerar todas las ofertas de su inquilino [!DNL Target].
 
@@ -348,7 +382,9 @@ Recupera una lista paginada de ofertas de contenido con filtrado opcional.
 
 **Mensaje de ejemplo:** &quot;Enumerar todas las ofertas JSON&quot;.
 
-### get_target_offer
++++
+
++++get_target_offer
 
 Obtenga información detallada sobre una oferta específica.
 
@@ -360,7 +396,9 @@ Obtenga información detallada sobre una oferta específica.
 
 **Mensaje de ejemplo:** &quot;Obtener detalles para la 67890 de ofertas&quot;.
 
-### create_target_offer
++++
+
++++create_target_offer
 
 Cree una nueva oferta de contenido de HTML.
 
@@ -374,7 +412,9 @@ Cree una nueva oferta de contenido de HTML.
 
 **Mensaje de ejemplo:** &quot;Cree una oferta de HTML llamada &#39;Banner de venta de verano&#39; con un banner promocional&quot;.
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 Cree una nueva oferta JSON para ofrecer datos estructurados.
 
@@ -388,7 +428,9 @@ Cree una nueva oferta JSON para ofrecer datos estructurados.
 
 **Mensaje de ejemplo:** &quot;Cree una oferta JSON llamada &#39;Configuración de indicadores de características&#39; con la configuración de alternancia de características.&quot;
 
-### update_target_offer
++++
+
++++update_target_offer
 
 Actualizar una oferta existente.
 
@@ -402,9 +444,11 @@ Actualizar una oferta existente.
 
 **Mensaje de ejemplo:** &quot;Actualizar 67890 de oferta con contenido promocional nuevo&quot;.
 
++++
+
 ## Herramientas de audiencia {#tools-audiences}
 
-### list_target_audiences
++++list_target_audiences
 
 Enumerar todas las audiencias de su inquilino de [!DNL Target].
 
@@ -417,7 +461,9 @@ Enumerar todas las audiencias de su inquilino de [!DNL Target].
 
 **Mensaje de ejemplo:** &quot;Enumerar todas las audiencias&quot;.
 
-### create_target_audience
++++
+
++++create_target_audience
 
 Cree una nueva audiencia con reglas de segmentación.
 
@@ -432,9 +478,11 @@ Cree una nueva audiencia con reglas de segmentación.
 
 **Mensaje de ejemplo:** &quot;Cree una audiencia denominada &#39;Visitantes móviles de California&#39; dirigida a usuarios móviles en CA.&quot;
 
++++
+
 ## Herramientas de Mbox {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 Enumerar todos los mboxes de su inquilino [!DNL Target].
 
@@ -449,7 +497,9 @@ Enumerar todos los mboxes de su inquilino [!DNL Target].
 
 **Mensaje de ejemplo:** &quot;Enumerar todos los mboxes que contienen &#39;homepage&#39;.&quot;
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 Obtenga información detallada sobre un mbox específico.
 
@@ -461,7 +511,9 @@ Obtenga información detallada sobre un mbox específico.
 
 **Mensaje de ejemplo:** &quot;Obtener detalles para mbox &#39;homepage-hero&#39;&quot;.
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 Enumera todos los atributos de perfil de mbox disponibles para el direccionamiento.
 
@@ -471,9 +523,11 @@ No se requieren parámetros.
 
 **Mensaje de ejemplo:** &quot;¿Qué atributos de perfil están disponibles para el direccionamiento?&quot;
 
++++
+
 ## Herramientas de propiedad {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 Enumerar todas las propiedades del inquilino [!DNL Target].
 
@@ -485,9 +539,11 @@ No se requieren parámetros.
 
 **Mensaje de ejemplo:** &quot;Enumerar todas las propiedades de Target&quot;.
 
++++
+
 ## Herramientas de informes {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 Obtenga un informe de rendimiento para una actividad A/B.
 
@@ -502,7 +558,9 @@ Recupera las tasas de conversión, el alza y los niveles de confianza.
 
 **Mensaje de ejemplo:** &quot;Mostrarme el informe de rendimiento para 12345 de prueba A/B durante los últimos 30 días&quot;.
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 Obtenga un informe de pedidos/ingresos de una actividad A/B.
 
@@ -515,7 +573,9 @@ Obtenga un informe de pedidos/ingresos de una actividad A/B.
 
 **Mensaje de ejemplo:** &quot;Obtener el informe de pedidos de la actividad 12345&quot;.
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 Obtenga un informe de rendimiento para una actividad de segmentación de experiencias.
 
@@ -528,7 +588,9 @@ Obtenga un informe de rendimiento para una actividad de segmentación de experie
 
 **Mensaje de ejemplo:** &quot;Mostrar rendimiento para mi 54321 de actividad de segmentación de experiencias&quot;.
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 Obtenga un informe de pedidos/ingresos de una actividad de segmentación de experiencias.
 
@@ -541,7 +603,9 @@ Obtenga un informe de pedidos/ingresos de una actividad de segmentación de expe
 
 **Mensaje de ejemplo:** &quot;Obtener datos de pedidos para 54321 de actividad XT&quot;.
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 Busque una actividad por su nombre y obtenga su informe de rendimiento.
 
@@ -556,9 +620,11 @@ Resulta útil cuando conoce el nombre de la actividad pero no su ID.
 
 **Mensaje de ejemplo:** &quot;Obtener el informe de rendimiento para mi actividad &#39;Prueba Hero de página principal&#39;&quot;.&quot;
 
++++
+
 ## Herramientas de previsualización {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 Generar URL de vista previa de control de calidad del explorador para una actividad [!DNL Target].
 
@@ -574,9 +640,11 @@ Crea vínculos de vista previa en los que se puede hacer clic y que fuerzan a qu
 
 **Mensaje de ejemplo:** &quot;Genere direcciones URL de vista previa para 12345 de actividad para poder probar cada experiencia en mi explorador&quot;.
 
++++
+
 ## Herramientas de token de respuesta {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 Enumerar todos los tokens de respuesta del inquilino [!DNL Target].
 
@@ -588,7 +656,9 @@ No se requieren parámetros.
 
 **Mensaje de ejemplo:** &quot;Enumerar todos los tokens de respuesta&quot;.
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 Cree un nuevo token de respuesta personalizado para recopilar datos adicionales en [!DNL Target] respuestas.
 
@@ -601,9 +671,11 @@ Cree un nuevo token de respuesta personalizado para recopilar datos adicionales 
 
 **Mensaje de ejemplo:** &quot;Cree un token de respuesta personalizado denominado &#39;campaign_id&#39; de tipo ACTIVITY.&quot;
 
++++
+
 ## Herramientas de revisión {#tools-revisions}
 
-### get_target_updates
++++get_target_updates
 
 Obtenga el registro de auditoría para un tipo de recurso.
 
@@ -620,7 +692,9 @@ Recupera los cambios realizados en [!DNL Target] recursos con filtrado opcional 
 
 **Mensaje de ejemplo:** &quot;Mostrarme el registro de auditoría para los cambios de la actividad&quot;.
 
-### get_target_entity_updates
++++
+
++++get_target_entity_updates
 
 Obtener todas las revisiones de una entidad específica por ID.
 
@@ -633,9 +707,11 @@ Obtener todas las revisiones de una entidad específica por ID.
 
 **Mensaje de ejemplo:** &quot;Mostrarme todos los cambios realizados en el 12345 de la actividad.&quot;
 
++++
+
 ## Herramientas de plantilla {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 Enumere los recursos y plantillas de MCP disponibles para crear actividades y ofertas.
 
@@ -644,6 +720,8 @@ No se requieren parámetros.
 **Devuelve:** objeto JSON que enumera las plantillas y los recursos disponibles.
 
 **Mensaje de ejemplo:** &quot;¿Qué plantillas están disponibles para crear actividades?&quot;
+
++++
 
 ## Resumen de herramientas {#tools-summary}
 
