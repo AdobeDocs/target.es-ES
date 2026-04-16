@@ -9,14 +9,24 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 214a359b7ab0f6f03355241353e8c3fb6d8bb479
+source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '2267'
 ht-degree: 1%
 
 ---
 
 # Trabajar con clientes de MCP {#target-mcp}
+
+>[!BEGINSHADEBOX]
+
+Tabla de contenido:
+
+* **[Trabajar con clientes MCP](target-mcp.md)**
+* [Referencia de herramientas del servidor MCP](target-mcp-tools-reference.md)
+* [Autoalojar el servidor MCP](target-mcp-self-hosted.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -174,6 +184,73 @@ Los siguientes ejemplos muestran cómo interactuar con el servidor MCP [!DNL Ado
 | **Auditoría de implementación** | &quot;¿Qué versión de at.js está configurada y qué tokens de respuesta están activos actualmente?&quot; |
 | **Auditoría de cambios** | &quot;Mostrarme todos los cambios realizados en los 98765 de actividad en los últimos 30 días y quién los ha realizado&quot;. |
 
+## Tutoriales de casos de uso {#mcp-use-case-walkthroughs}
+
+Los siguientes tutoriales muestran cómo completar tareas comunes utilizando las peticiones de datos en lenguaje natural con el servidor MCP [!DNL Adobe Target].
+
++++Creación de una prueba A/B
+
+**Mensaje:**
+> &quot;Cree una prueba A/B llamada &#39;Prueba de imagen a pantalla completa de página principal&#39; con dos experiencias: &#39;Control&#39; que muestre la imagen a pantalla completa actual y &#39;Variante&#39; que muestre una nueva imagen a pantalla completa con tema de verano. Oriente el mbox de la página principal&quot;.
+
+El asistente de IA utiliza la herramienta `create_ab_activity` para crear la actividad con la configuración descrita. La herramienta devuelve el nuevo ID de actividad y una confirmación de las experiencias creadas.
+
++++
+
++++Comprobación del rendimiento de la actividad
+
+**Mensaje:**
+> &quot;Mostrarme las métricas de rendimiento de mi actividad &#39;Optimización de flujo de cierre de compra&#39; durante los últimos 30 días&quot;.
+
+El asistente de IA usa `get_ab_performance_report` o `get_xt_performance_report` (según el tipo de actividad) para recuperar las tasas de conversión, los recuentos de visitantes y otras métricas de la ventana de tiempo especificada.
+
++++
+
++++Administración de ofertas
+
+**Mensaje:**
+> &quot;Cree una oferta de HTML llamada &#39;Banner de venta de verano&#39; con un banner promocional que diga &#39;20% de descuento en todos los artículos de verano&#39;&quot;.
+
+El asistente de IA utiliza la herramienta `create_target_offer` para crear la oferta con el contenido de HTML especificado y devuelve una confirmación con el nuevo ID de oferta.
+
++++
+
++++Creación de una audiencia
+
+**Mensaje:**
+> &quot;Cree una audiencia denominada &#39;Visitantes móviles de California&#39; que esté dirigida a usuarios de dispositivos móviles ubicados en California&quot;.
+
+El asistente de IA utiliza la herramienta `create_target_audience` con las reglas de segmentación adecuadas derivadas de la descripción.
+
++++
+
++++Generación de vínculos de vista previa de control de calidad
+
+**Mensaje:**
+> &quot;Genere URL de vista previa para los 12345 de la actividad para poder probar cada experiencia&quot;.
+
+El asistente de IA utiliza la herramienta `preview_activity` para generar direcciones URL en las que se puede hacer clic y que omiten la segmentación de audiencia, lo que le permite ver cada experiencia directamente en el explorador.
+
++++
+
++++Creación de una actividad de segmentación de experiencias
+
+**Mensaje:**
+> &quot;Cree una actividad de segmentación de experiencias llamada &#39;Geo Personalization&#39; que muestre diferentes banners a los visitantes de diferentes regiones.&quot;
+
+El asistente de IA usa `create_xt_activity` para generar la actividad con asignación de experiencias basada en audiencias según las regiones que describa.
+
++++
+
++++Programación de una actividad
+
+**Mensaje:**
+> &quot;Actualice la programación de la actividad 12345 para que comience el 1 de mayo y finalice el 31 de mayo&quot;.
+
+El asistente de IA utiliza la herramienta `update_activity_schedule` para aplicar las nuevas fechas de inicio y finalización a la actividad.
+
++++
+
 ## Requisitos previos   {#mcp-prerequisites}
 
 Antes de conectar el servidor MCP [!DNL Adobe Target] a su cliente MCP, asegúrese de lo siguiente:
@@ -322,3 +399,11 @@ Como mínimo, la función **Observer** concede acceso a todas las herramientas d
 
 El servidor MCP define las operaciones a la organización asociada con sus credenciales de Adobe IMS autenticadas. Si tiene acceso a varias propiedades dentro de esa organización, puede consultar por propiedad utilizando la herramienta `list_target_properties` y filtrar las solicitudes posteriores en consecuencia.
 +++
+
+## Recursos relacionados {#mcp-related}
+
+* [Referencia de herramientas del servidor MCP](target-mcp-tools-reference.md)
+* [Autohospedar el servidor  [!DNL Adobe Target] MCP](target-mcp-self-hosted.md)
+* [Documentación de protocolo de contexto de modelo](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] Referencia de API de administración](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Documentación del cursor](https://docs.cursor.com/){target="_blank"}
