@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
+source-git-commit: a0fbca3156a7d2a1c582ce591112a18b4a122a64
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 1%
@@ -191,7 +191,7 @@ Los siguientes tutoriales muestran cómo completar tareas comunes utilizando las
 +++Creación de una prueba A/B
 
 **Mensaje:**
-> &quot;Cree una prueba A/B llamada &#39;Prueba de imagen a pantalla completa de página principal&#39; con dos experiencias: &#39;Control&#39; que muestre la imagen a pantalla completa actual y &#39;Variante&#39; que muestre una nueva imagen a pantalla completa con tema de verano. Oriente el mbox de la página principal&quot;.
+&quot;Cree una prueba A/B llamada &#39;Prueba de imagen a pantalla completa de página principal&#39; con dos experiencias: &#39;Control&#39; que muestre la imagen a pantalla completa actual y &#39;Variante&#39; que muestre una nueva imagen a pantalla completa con tema de verano. Oriente el mbox de la página principal&quot;.
 
 El asistente de IA utiliza la herramienta `create_ab_activity` para crear la actividad con la configuración descrita. La herramienta devuelve el nuevo ID de actividad y una confirmación de las experiencias creadas.
 
@@ -200,7 +200,7 @@ El asistente de IA utiliza la herramienta `create_ab_activity` para crear la act
 +++Comprobación del rendimiento de la actividad
 
 **Mensaje:**
-> &quot;Mostrarme las métricas de rendimiento de mi actividad &#39;Optimización de flujo de cierre de compra&#39; durante los últimos 30 días&quot;.
+&quot;Mostrarme las métricas de rendimiento de mi actividad &#39;Optimización de flujo de cierre de compra&#39; durante los últimos 30 días&quot;.
 
 El asistente de IA usa `get_ab_performance_report` o `get_xt_performance_report` (según el tipo de actividad) para recuperar las tasas de conversión, los recuentos de visitantes y otras métricas de la ventana de tiempo especificada.
 
@@ -209,7 +209,7 @@ El asistente de IA usa `get_ab_performance_report` o `get_xt_performance_report`
 +++Administración de ofertas
 
 **Mensaje:**
-> &quot;Cree una oferta de HTML llamada &#39;Banner de venta de verano&#39; con un banner promocional que diga &#39;20% de descuento en todos los artículos de verano&#39;&quot;.
+&quot;Cree una oferta de HTML llamada &#39;Banner de venta de verano&#39; con un banner promocional que diga &#39;20% de descuento en todos los artículos de verano&#39;&quot;.
 
 El asistente de IA utiliza la herramienta `create_target_offer` para crear la oferta con el contenido de HTML especificado y devuelve una confirmación con el nuevo ID de oferta.
 
@@ -218,7 +218,7 @@ El asistente de IA utiliza la herramienta `create_target_offer` para crear la of
 +++Creación de una audiencia
 
 **Mensaje:**
-> &quot;Cree una audiencia denominada &#39;Visitantes móviles de California&#39; que esté dirigida a usuarios de dispositivos móviles ubicados en California&quot;.
+&quot;Cree una audiencia denominada &#39;Visitantes móviles de California&#39; que esté dirigida a usuarios de dispositivos móviles ubicados en California&quot;.
 
 El asistente de IA utiliza la herramienta `create_target_audience` con las reglas de segmentación adecuadas derivadas de la descripción.
 
@@ -227,7 +227,7 @@ El asistente de IA utiliza la herramienta `create_target_audience` con las regla
 +++Generación de vínculos de vista previa de control de calidad
 
 **Mensaje:**
-> &quot;Genere URL de vista previa para los 12345 de la actividad para poder probar cada experiencia&quot;.
+&quot;Genere URL de vista previa para los 12345 de la actividad para poder probar cada experiencia&quot;.
 
 El asistente de IA utiliza la herramienta `preview_activity` para generar direcciones URL en las que se puede hacer clic y que omiten la segmentación de audiencia, lo que le permite ver cada experiencia directamente en el explorador.
 
@@ -236,7 +236,7 @@ El asistente de IA utiliza la herramienta `preview_activity` para generar direcc
 +++Creación de una actividad de segmentación de experiencias
 
 **Mensaje:**
-> &quot;Cree una actividad de segmentación de experiencias llamada &#39;Geo Personalization&#39; que muestre diferentes banners a los visitantes de diferentes regiones.&quot;
+&quot;Cree una actividad de segmentación de experiencias llamada &#39;Geo Personalization&#39; que muestre diferentes banners a los visitantes de diferentes regiones.&quot;
 
 El asistente de IA usa `create_xt_activity` para generar la actividad con asignación de experiencias basada en audiencias según las regiones que describa.
 
@@ -245,7 +245,7 @@ El asistente de IA usa `create_xt_activity` para generar la actividad con asigna
 +++Programación de una actividad
 
 **Mensaje:**
-> &quot;Actualice la programación de la actividad 12345 para que comience el 1 de mayo y finalice el 31 de mayo&quot;.
+&quot;Actualice la programación de la actividad 12345 para que comience el 1 de mayo y finalice el 31 de mayo&quot;.
 
 El asistente de IA utiliza la herramienta `update_activity_schedule` para aplicar las nuevas fechas de inicio y finalización a la actividad.
 
