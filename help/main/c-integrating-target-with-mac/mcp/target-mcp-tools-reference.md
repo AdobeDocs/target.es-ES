@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 Tabla de contenido:
 
-* [Trabajar con clientes de MCP](target-mcp.md)
+* [Información general](target-mcp.md)
+* [Introducción](target-mcp-get-started.md)
+* [Casos de uso y tutoriales](target-mcp-use-cases.md)
 * **[Referencia de herramientas del servidor MCP](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-Esta página es una referencia completa para todas las herramientas públicas expuestas por el servidor MCP [!DNL Adobe Target]. Para cada herramienta encontrará una descripción, detalles de parámetros, un valor devuelto y un ejemplo de petición de datos en lenguaje natural. Para obtener instrucciones de configuración y casos de uso, vea [Trabajar con clientes MCP](target-mcp.md).
-
->[!NOTE]
->
->Las herramientas de lectura están disponibles para todos los usuarios conectados con la función **Observer** o superior; las herramientas de escritura requieren la función **Editor** o **Aprobador**.
+Esta página es una referencia completa para todas las herramientas públicas expuestas por el servidor MCP [!DNL Adobe Target]. Para cada herramienta encontrará una descripción, detalles de parámetros, un valor devuelto y un ejemplo de petición de datos en lenguaje natural. Para obtener instrucciones de configuración y casos de uso, consulte [Introducción](target-mcp-get-started.md) y [Casos de uso y tutoriales](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ Esta página es una referencia completa para todas las herramientas públicas ex
 >La conexión de clientes o servidores MCP a los productos de Adobe es una configuración elegida por el cliente, y los clientes son responsables de evaluar la seguridad y la idoneidad de cualquier integración MCP. Adobe no se responsabiliza de los problemas que se deriven de una configuración incorrecta, un uso incorrecto del MCP, vulnerabilidades en implementaciones de terceros o acciones no deseadas realizadas a través de flujos de trabajo habilitados para MCP.
 >
 >Para reducir el riesgo, Adobe recomienda probar las integraciones en un entorno de zona protegida antes de usarlas de forma productiva y revisar y validar cuidadosamente todas las acciones y respuestas iniciadas por MCP antes de confirmarlas o depender de ellas.
+
+## Requisitos previos   {#tools-prerequisites}
+
+La función [!DNL Adobe Target] determina qué herramientas están disponibles para usted:
+
+* Función **Observer** o superior: acceso a todas las herramientas de lectura
+* Función **Editor**: acceso para leer y escribir (crear) herramientas
+* Función **Aprobador**: acceso para leer, escribir y activar/desactivar herramientas
+
+Para obtener instrucciones de configuración completas, consulte [Introducción](target-mcp-get-started.md).
 
 ## Herramientas de actividad {#tools-activities}
 

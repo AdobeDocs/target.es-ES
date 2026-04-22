@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Descubra cómo personalizar las experiencias de los clientes en sitios web, aplicaciones y canales sociales para aumentar los ingresos.
 feature-set: Target
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1290'
 ht-degree: 83%
 
 ---
@@ -106,9 +106,11 @@ ht-degree: 83%
          + {hide-from-toc}[Cambios de contenido mediante pruebas A/B en Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[Agregar u ocultar componentes a su página web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Trabajar con clientes de MCP {#mcp}
-      + {hide-from-toc}[Trabajar con clientes MCP](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[Referencia de herramientas del servidor MCP de Adobe Target](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
+   + Servidor MCP de Adobe Target {#mcp}
+      + {hide-from-toc}[Información general](c-integrating-target-with-mac/mcp/target-mcp.md)
+      + {hide-from-toc}[Introducción](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+      + {hide-from-toc}[Casos de uso y tutoriales](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+      + {hide-from-toc}[Referencia de herramientas del servidor MCP](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Integración de Target con Adobe Experience Manager (AEM) {#aem}
       + [Información general sobre la integración de Target con AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragmentos de experiencias y fragmentos de contenido {#fragments}
@@ -343,4 +345,4 @@ ht-degree: 83%
    + [Límites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Información general sobre la API de Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e información de contacto &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e información de contacto ](cmp-resources-and-contact-information.md)
