@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
+source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 49%
 
 ---
 
@@ -29,19 +29,52 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.4.3 (viernes, 09 de abril de 2026)
+## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
 
 **Actividades**
 
 +++Ver detalles
 
-* Faltan **ubicaciones en algunas actividades.** Se corrigió un problema en el cual **[!UICONTROL Location]** faltaba en algunas actividades. (TGT-54951)
+* **Error con el filtro de audiencia en los informes.** Se corrigió un problema en el cual al cambiar el filtro de audiencia dentro de **[!UICONTROL Goals & Settings]** se producía un error en la sección de informes de la interfaz de usuario de [!DNL Target]. (TGT-55006)
 
-* **Orden de columna de métricas de informes.** La interfaz actualizada [!DNL Target] permite reordenar las métricas de informes sin borrar la selección completa y volver a agregar las métricas en secuencia. Anteriormente, los usuarios tenían que deseleccionar todas las métricas y seleccionarlas de nuevo en el orden deseado, lo que resultaba lento cuando se habilitaban muchas métricas y cuando se ajustaba la ubicación de las columnas para limitar el desplazamiento horizontal. (TGT-53044)
+* **Ordenar actividades por prioridad.** Se agregó la ordenación por prioridad en la lista de actividades mediante el encabezado de columna **[!UICONTROL Priority]**, con un orden ascendente y descendente coherente con otras columnas que se pueden ordenar. (TGT-54948)
+
+* **No se conservan las propiedades de actividad adicionales después de guardar.** Se corrigió un problema en el cual ciertas **[!UICONTROL Properties]** selecciones no persistían después de guardar y volver a abrir una actividad. (TGT-53889)
+
++++
+
+**Localización**
+
++++Ver detalles
+
+* **Etiquetas japonesas para [!UICONTROL Page Delivery] operadores de reglas.** Se han corregido cadenas ilegibles o dañadas para las etiquetas de operador de reglas de entrega de páginas en la IU japonesa. (TGT-53097)
+
++++
+
+**API**
+
++++Ver detalles
+
+* **Informando sobre compatibilidad con la API [!DNL GraphQL] para `segmentId`.** Se agregó `segmentId` a la API de informes [!DNL GraphQL]. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalles
+
+* **Modificaciones mostradas en la experiencia incorrecta en el editor.** Se ha corregido un problema en el cual una eliminación u otra modificación podría aparecer en la experiencia incorrecta después de cambiar entre experiencias en [!UICONTROL Visual Experience Composer]. (TGT-54955)
+
+* **Modificaciones eliminadas al eliminar insertar HTML.** Se ha corregido un problema en el cual al eliminar el bloque **[!UICONTROL HTML]** adicional agregado con **[!UICONTROL Insert before]** o **[!UICONTROL Insert after]** también se eliminaba una modificación vinculada que no tenía selector CSS. (TGT-54530)
 
 +++
 
 <!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -50,15 +83,6 @@ Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sob
 
 +++
 -->
-
-## [!DNL Target Standard/Premium] 26.4.2 (miércoles, 07 de abril de 2026)
-
-**Actividades**
-
-+++Ver detalles
-
-* **Código personalizado se conserva cuando se aplica a vistas adicionales.** Se ha corregido un problema por el cual el código personalizado aplicado a un(a) **[!UICONTROL View]** se podía eliminar al agregar o guardar código personalizado para otro(a) **[!UICONTROL View]** en el mismo(a) **[!UICONTROL Activity]**. (TGT-53933)
-+++
 
 ## Notas de la versión adicionales y detalles de la versión
 
