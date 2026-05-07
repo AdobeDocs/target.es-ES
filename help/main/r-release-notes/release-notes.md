@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
+source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 49%
+source-wordcount: '582'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,16 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 ### [!DNL Target] versión de interfaz de usuario conmutar obsolescencia
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
+
+## [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
+
+**Integraciones**
+
++++Ver detalles
+
+* Administración de **[!DNL Adobe Target]en Experimentation Accelerator.** Se agregó compatibilidad para asignar [!DNL Target] espacios de trabajo a zonas protegidas de Experimentation Accelerator, de modo que los equipos puedan ver los experimentos de [!DNL Adobe Target] en Experimentation Accelerator en un solo lugar. [Más información](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
 
@@ -59,7 +69,7 @@ Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sob
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
 
