@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Experimentation Accelerator ayuda a los administradores a administrar cómo se organizan y muestran las actividades de [!DNL Adobe Target] Workspace en la aplicación. Al asignar cada espacio de trabajo de [!DNL Target] a la zona protegida de Experimentation Accelerator adecuada, los equipos pueden ver los experimentos de [!DNL Adobe Target] y [!DNL Adobe Journey Optimizer] en un solo lugar.
 
-➡️ [Más información acerca de Adobe Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [Más información acerca de Adobe Experimentation Accelerator](https://experienceleague.adobe.com/es/docs/experimentation-accelerator/using/overview)
 
 ## Antes de empezar
 
