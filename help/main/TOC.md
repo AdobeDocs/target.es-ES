@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Descubra cómo personalizar las experiencias de los clientes en sitios web, aplicaciones y canales sociales para aumentar los ingresos.
 feature-set: Target
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1317'
 ht-degree: 83%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 83%
       + [Informes de A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Resolución de problemas de integración de Analytics y Target (A4T) {#troubleshoot-a4t}
          + [Resolución de problemas de A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-      + Preguntas más frecuentes sobre A4T  {#a4t-faq}
+      + Preguntas más frecuentes sobre A4T {#a4t-faq}
          + [Aprovisionamiento inicial: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Configuración de actividades: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Visualización de informes: preguntas más frecuentes sobre A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -105,6 +105,7 @@ ht-degree: 83%
          + {hide-from-toc}[Casos de uso de optimización principales en Adobe Journey Optimizer: canales web y basados en código](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc}[Cambios de contenido mediante pruebas A/B en Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[Agregar u ocultar componentes a su página web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+   + [Integración de Target con Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Servidor MCP de Adobe Target {#mcp}
       + {hide-from-toc}[Información general](c-integrating-target-with-mac/mcp/target-mcp.md)
