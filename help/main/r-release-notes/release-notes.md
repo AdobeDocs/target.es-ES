@@ -6,10 +6,10 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
+source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 46%
+source-wordcount: '531'
+ht-degree: 51%
 
 ---
 
@@ -39,33 +39,27 @@ Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sob
 
 +++
 
-## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
-
 **Actividades**
 
 +++Ver detalles
 
-* **Error con el filtro de audiencia en los informes.** Se corrigió un problema en el cual al cambiar el filtro de audiencia dentro de **[!UICONTROL Goals & Settings]** se producía un error en la sección de informes de la interfaz de usuario de [!DNL Target]. (TGT-55006)
-
-* **Ordenar actividades por prioridad.** Se agregó la ordenación por prioridad en la lista de actividades mediante el encabezado de columna **[!UICONTROL Priority]**, con un orden ascendente y descendente coherente con otras columnas que se pueden ordenar. (TGT-54948)
-
-* **No se conservan las propiedades de actividad adicionales después de guardar.** Se corrigió un problema en el cual ciertas **[!UICONTROL Properties]** selecciones no persistían después de guardar y volver a abrir una actividad. (TGT-53889)
+* **[!UICONTROL Graph View]no está sincronizado con la tabla y la descarga.** Se ha corregido un problema en el cual los informes de actividad podían mostrar métricas que faltaban o cero en **[!UICONTROL Graph View]** para algunos intervalos de fechas a pesar de que **[!UICONTROL Table View]** y el informe descargado seguían mostrando los valores correctos. (TGT-54998)
 
 +++
 
-**Localización**
+**[!UICONTROL Audiences]**
 
 +++Ver detalles
 
-* **Etiquetas japonesas para [!UICONTROL Page Delivery] operadores de reglas.** Se han corregido cadenas ilegibles o dañadas para las etiquetas de operador de reglas de entrega de páginas en la IU japonesa. (TGT-53097)
+* **La lista de uso de audiencia no se ha procesado completamente.** Se ha corregido un problema en el cual la sección **[!UICONTROL Usage]** de los detalles de audiencia podía mostrar solo un subconjunto de actividades asignadas incluso cuando se asociaban actividades adicionales a esa audiencia. (TGT-55094)
 
 +++
 
-**API**
+**[!UICONTROL Administration]**
 
 +++Ver detalles
 
-* **Informando sobre compatibilidad con la API [!DNL GraphQL] para `segmentId`.** Se agregó `segmentId` a la API de informes [!DNL GraphQL]. (TGT-55021)
+* **Confirmación más clara para la ofuscación de IP del último octeto.** Cuando cambia **[!UICONTROL Obfuscate Visitor IP addresses]** a **[!UICONTROL Last octet]** en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, el cuadro de diálogo de confirmación ahora explica que [!DNL Target] oculta el último octeto de la dirección IP del visitante. (TGT-44821)
 
 +++
 
@@ -73,11 +67,10 @@ Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sob
 
 +++Ver detalles
 
-* **Modificaciones mostradas en la experiencia incorrecta en el editor.** Se ha corregido un problema en el cual una eliminación u otra modificación podría aparecer en la experiencia incorrecta después de cambiar entre experiencias en [!UICONTROL Visual Experience Composer]. (TGT-54955)
-
-* **Modificaciones eliminadas al eliminar insertar HTML.** Se ha corregido un problema en el cual al eliminar el bloque **[!UICONTROL HTML]** adicional agregado con **[!UICONTROL Insert before]** o **[!UICONTROL Insert after]** también se eliminaba una modificación vinculada que no tenía selector CSS. (TGT-54530)
+* **Página en blanco o incompleta con el Compositor de experiencias mejorado (EEC).** Se ha corregido un problema en el cual [!UICONTROL Visual Experience Composer] no podía cargar el sitio en el editor cuando **[!UICONTROL Enhanced Experience Composer]** estaba habilitado. (TGT-54576)
 
 +++
+
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
