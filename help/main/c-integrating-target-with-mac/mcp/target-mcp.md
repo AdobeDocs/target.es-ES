@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 ---
 
 # Servidor MCP [!DNL Adobe Target] {#target-mcp}
-
 
 La integración de MCP [!DNL Adobe Target] le permite inspeccionar, analizar y administrar pruebas A/B, actividades de personalización y criterios de Recommendations directamente desde su asistente de IA. Convierta las API de lectura y escritura de [!DNL Target] en flujos de trabajo en lenguaje sencillo: audite el portafolio de experimentos, revise los informes de rendimiento, administre audiencias y ofertas y realice acciones controladas sin navegar por la interfaz de usuario ni escribir llamadas a la API.
 
