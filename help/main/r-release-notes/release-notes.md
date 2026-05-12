@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +36,7 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 Servidor MCP **[!DNL Adobe Target] (Beta público)**
 
-[!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP. Con esta integración, los perfiles técnicos y de marketing pueden inspeccionar las pruebas A/B, analizar los informes de rendimiento, administrar audiencias y ofertas y realizar acciones controladas, todo ello utilizando indicadores en lenguaje natural en lugar de navegar por varias pantallas de interfaz de usuario o escribir consultas en la API de REST [!DNL Adobe Target]. Esta funcionalidad está disponible actualmente en **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**.
+[!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP. Con esta integración, los perfiles técnicos y de marketing pueden inspeccionar las pruebas A/B, analizar los informes de rendimiento y explorar audiencias y ofertas, todo ello utilizando indicaciones en lenguaje natural en lugar de navegar por varias pantallas de la interfaz de usuario o escribir consultas en la API de REST [!DNL Adobe Target]. Esta funcionalidad está disponible actualmente en **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**.
 
 Esta capacidad está disponible para todos los clientes en Public Beta.
 
