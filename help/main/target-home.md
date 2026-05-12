@@ -5,9 +5,16 @@ description: Aprenda a utilizar Adobe  [!DNL Target]  para personalizar la exper
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 703
@@ -25,7 +32,7 @@ ht-degree: 33%
 
 >[!TAB Novedades]
 
-Servidor MCP **[!DNL Adobe Target](Beta público)**
+Servidor MCP **[!DNL Adobe Target] (Beta público)**
 
 [!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra las operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP, incluidas Claude, Cursor y ChatGPT.
 
