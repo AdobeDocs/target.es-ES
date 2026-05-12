@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 # Servidor MCP [!DNL Adobe Target]: casos de uso y tutoriales {#target-mcp-use-cases}
 
-
 >[!AVAILABILITY]
 >
 >El servidor MCP [!DNL Adobe Target] está disponible para todos los clientes en **Public Beta**. Actualmente es compatible con **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**.
-
 
 Esta página muestra lo que puede lograr con el servidor MCP [!DNL Adobe Target] mediante peticiones de datos en lenguaje natural, desde búsquedas rápidas hasta tareas de administración de actividades de varios pasos.
 
