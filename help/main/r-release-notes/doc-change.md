@@ -4,10 +4,28 @@ description: Manténgase al tanto de los cambios y las adiciones más importante
 title: ¿Dónde puedo ver las actualizaciones de la documentación de  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 38%
+source-wordcount: 2503
+ht-degree: 31%
 
 ---
 
@@ -16,6 +34,19 @@ ht-degree: 38%
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
 ## Actualizaciones
+
+### [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
+
+| Fecha | Tema | Cambios |
+|--- |--- |--- |
+| Mayo de 12 | [[!DNL Adobe Target] Guía para profesionales de negocios](/help/main/target-home.md) | Se ha actualizado la página principal para que incluya el anuncio [!DNL Adobe Target] del servidor MCP (Beta público) y se han eliminado los anuncios obsoletos de 2025. |
+|  | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se agregaron notas de la versión para la actualización de características del servidor MCP [!DNL Adobe Target] (Beta público). |
+|  | [[!DNL Adobe Target] Descripción general del servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md) | Nuevo artículo. Descubra qué es el servidor MCP [!DNL Adobe Target], sus funciones clave y cómo se conecta a su asistente de IA. |
+|  | [Introducción al  [!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | Nuevo artículo. Aprenda a conectar el servidor MCP [!DNL Adobe Target] a su asistente de IA, incluidos los requisitos previos, la configuración del cliente y la solución de problemas. |
+|  | [[!DNL Adobe Target] Servidor MCP: casos de uso y tutoriales](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | Nuevo artículo. Explore casos de uso comunes y tutoriales de mensajes paso a paso para el servidor MCP [!DNL Adobe Target]. |
+|  | [[!DNL Adobe Target] Referencia de herramientas del servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | Nuevo artículo. Referencia de parámetro completa para todas las herramientas de solo lectura expuestas por el servidor MCP [!DNL Adobe Target]. |
+|  | [Autohospedar el [!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | Nuevo artículo. Aprenda a ejecutar su propia instancia del servidor MCP [!DNL Adobe Target] mediante Python, Docker o un entorno de desarrollo local. |
+| Mayo de 7 | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han agregado notas de la versión para la versión 26.5.1 de [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 26.1.1 (lunes, 18 de enero de 2026)
 

@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 42%
@@ -30,16 +30,6 @@ ht-degree: 42%
 Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
-
-## Actualizaciones con distinción de tiempo que debe conocer {#time-sensitive}
-
-[!BADGE Importante]{type=Informative}
-
-Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Target] y su implementación, [!DNL Adobe] proporciona notas de la versión detalladas y documentación a través de [!UICONTROL Experience League]. Estos son algunos aspectos destacados relevantes para su implementación:
-
-### [!DNL Target] versión de interfaz de usuario conmutar obsolescencia
-
-Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
 
 ## Últimas actualizaciones: 12 de mayo de 2026
@@ -110,6 +100,16 @@ Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c
 
 +++
 -->
+
+## Actualizaciones con distinción de tiempo que debe conocer {#time-sensitive}
+
+[!BADGE Importante]{type=Informative}
+
+Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Target] y su implementación, [!DNL Adobe] proporciona notas de la versión detalladas y documentación a través de [!UICONTROL Experience League]. Estos son algunos aspectos destacados relevantes para su implementación:
+
+### [!DNL Target] versión de interfaz de usuario conmutar obsolescencia
+
+Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
 
 ## Notas de la versión adicionales y detalles de la versión
 
