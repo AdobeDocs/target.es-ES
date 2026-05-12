@@ -8,27 +8,22 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 1%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
 # Servidor MCP [!DNL Adobe Target]: casos de uso y tutoriales {#target-mcp-use-cases}
 
->[!BEGINSHADEBOX]
 
-Tabla de contenido:
+>[!AVAILABILITY]
+>
+>El servidor MCP [!DNL Adobe Target] está disponible para todos los clientes en **Public Beta**. Actualmente es compatible con **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**.
 
-* [Información general](target-mcp.md)
-* [Introducción](target-mcp-get-started.md)
-* **[Casos de uso y tutoriales](target-mcp-use-cases.md)**
-* [Referencia de herramientas del servidor MCP](target-mcp-tools-reference.md)
 
->[!ENDSHADEBOX]
-
+Esta página muestra lo que puede lograr con el servidor MCP [!DNL Adobe Target] mediante peticiones de datos en lenguaje natural, desde búsquedas rápidas hasta tareas de administración de actividades de varios pasos.
 
 >[!IMPORTANT]
 >
@@ -37,8 +32,6 @@ Tabla de contenido:
 >La conexión de clientes o servidores MCP a los productos de Adobe es una configuración elegida por el cliente, y los clientes son responsables de evaluar la seguridad y la idoneidad de cualquier integración MCP. Adobe no se responsabiliza de los problemas que se deriven de una configuración incorrecta, un uso incorrecto del MCP, vulnerabilidades en implementaciones de terceros o acciones no deseadas realizadas a través de flujos de trabajo habilitados para MCP.
 >
 >Para reducir el riesgo, Adobe recomienda probar las integraciones en un entorno de zona protegida antes de usarlas de forma productiva y revisar y validar cuidadosamente todas las acciones y respuestas iniciadas por MCP antes de confirmarlas o depender de ellas.
-
-Esta página muestra lo que puede lograr con el servidor MCP [!DNL Adobe Target] mediante peticiones de datos en lenguaje natural, desde búsquedas rápidas hasta tareas de administración de actividades de varios pasos.
 
 ## Casos de uso {#mcp-use-cases}
 
@@ -130,5 +123,5 @@ El asistente de IA utiliza la herramienta `update_activity_schedule` para aplica
 * [Información general](target-mcp.md)
 * [Introducción](target-mcp-get-started.md)
 * [Referencia de herramientas del servidor MCP](target-mcp-tools-reference.md)
-* [Documentación de protocolo de contexto de modelo](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] Referencia de API de administración](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Documentación del protocolo de contexto de modelo](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [Referencia de la API de administración [!DNL Adobe Target]](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}

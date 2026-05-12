@@ -6,10 +6,15 @@ short-description: Obtenga información acerca de las nuevas funciones, mejoras 
 title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
+TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 51%
+source-wordcount: 633
+ht-degree: 42%
 
 ---
 
@@ -28,6 +33,18 @@ Para actualizaciones con distinción de tiempo relacionadas con [!DNL Adobe Targ
 ### [!DNL Target] versión de interfaz de usuario conmutar obsolescencia
 
 Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sobre la actualización de la IU](/help/main/c-intro/updated-ui-faq.md).
+
+
+## Últimas actualizaciones: 12 de mayo de 2026
+
+Servidor MCP **[!DNL Adobe Target](Beta público)**
+
+[!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP. Con esta integración, los perfiles técnicos y de marketing pueden inspeccionar las pruebas A/B, analizar los informes de rendimiento, administrar audiencias y ofertas y realizar acciones controladas, todo ello utilizando indicadores en lenguaje natural en lugar de navegar por varias pantallas de interfaz de usuario o escribir consultas en la API de REST [!DNL Adobe Target]. Esta funcionalidad está disponible actualmente en **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**.
+
+Esta capacidad está disponible para todos los clientes en Public Beta.
+
+Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
+
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
 
@@ -63,7 +80,7 @@ Para obtener más información, consulte [[!DNL Target] Preguntas frecuentes sob
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Ver detalles
 
