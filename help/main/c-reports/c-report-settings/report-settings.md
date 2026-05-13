@@ -5,9 +5,15 @@ title: ¿Cómo configuro la configuración de los informes?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -234,9 +240,9 @@ Hay cuatro modos para las actividades [!UICONTROL Auto-Target]: [!UICONTROL Dail
 
 El orden predeterminado de representación del gráfico es el siguiente:
 
-* **[!UICONTROL A/B Test](incluidos [!UICONTROL Auto-Allocate] y [!UICONTROL Automated Personalization])**: orden descendente de creación de la experiencia.
-* **[!UICONTROL Experience Targeting](XT)**: orden de las experiencias en la actividad.
-* **[!UICONTROL Multivariate Test](MVT)**: Alfabético por nombre de experiencia.
+* **[!UICONTROL A/B Test] (incluidos [!UICONTROL Auto-Allocate] y [!UICONTROL Automated Personalization])**: orden descendente de creación de la experiencia.
+* **[!UICONTROL Experience Targeting] (XT)**: orden de las experiencias en la actividad.
+* **[!UICONTROL Multivariate Test] (MVT)**: Alfabético por nombre de experiencia.
 * **[!UICONTROL Recommendations]**: orden descendente de creación de la experiencia.
 
 Cuando trabaje con las opciones [!UICONTROL Counting Methodology], tenga en cuenta las siguientes advertencias:

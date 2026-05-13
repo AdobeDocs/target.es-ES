@@ -7,9 +7,17 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2850
@@ -139,7 +147,7 @@ Los detalles de estos pasos son los siguientes:
    * **Dividir prueba de entrenamiento**: realice una división cronológica de los usos para cada usuario, asignando el primer 80% de sus usos a los datos de entrenamiento, y el 20% restante a los datos de prueba.
    * **Aprendizaje del modelo de similitud de elementos**: el cálculo de similitud de elementos principal difiere para [!UICONTROL Recommended For You] y los algoritmos basados en el carro de compras en la forma en que se construyen los vectores de elementos candidatos. Para [!UICONTROL Recommended For You], los vectores de elementos tienen usuarios de dimensión, donde cada entrada representa la suma de las clasificaciones implícitas para ese usuario del elemento; las compras de un elemento tienen un peso del doble que las vistas del elemento. Para las recomendaciones basadas en el carro de compras, los vectores de elementos tienen entradas binarias; si solo se debe considerar el comportamiento dentro de la sesión, hay una nueva entrada para cada sesión. De lo contrario, hay una entrada en este vector de elemento para cada visitante.
 
-  El paso de aprendizaje calcula varios tipos de similitudes vectoriales: similitud de LLR ([aquí ](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similitud de coseno (definida anteriormente) y una similitud de L2 normalizada, definida como:
+  El paso de aprendizaje calcula varios tipos de similitudes vectoriales: similitud de LLR ([aquí &#x200B;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similitud de coseno (definida anteriormente) y una similitud de L2 normalizada, definida como:
 
   ![Fórmula que muestra cálculo de formación](assets/formula4.png)
 

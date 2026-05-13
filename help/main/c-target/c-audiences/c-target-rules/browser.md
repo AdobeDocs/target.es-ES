@@ -5,9 +5,12 @@ title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 TQID: https://experienceleague.adobe.com/D7cLw1OVT61u8SgkjpzEvWylcX1uz14Ia4rf8jAJyXs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1024
@@ -147,7 +150,7 @@ A partir de [!DNL Target] Standard/Premium 24.3.1 (del 4 al 6 de marzo de 2024),
 
 Las audiencias integradas creadas con la interfaz de usuario de [!DNL Target], como `Browser:iPad` y `Browser:iPhone`, se moverán automáticamente a la nueva definición de audiencia y no requiere ninguna acción por parte de los clientes. Sin embargo, en adelante, debería usar la configuración [que se describe a continuación](#ui).
 
-Si usa `user.browserType` en cualquier script de perfil para comprobar si es un [!DNL iPhone] o [!DNL iPad] (por ejemplo, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), esos scripts de perfil deben cambiarse como se indica a continuación [6} antes del 30 de abril de 2024 para garantizar que estas audiencias sigan funcionando según lo esperado.](#profile-scripts)
+Si usa `user.browserType` en cualquier script de perfil para comprobar si es un [!DNL iPhone] o [!DNL iPad] (por ejemplo, `user.browserType == 'iphone'` o `user.browserType != 'ipad'`), esos scripts de perfil deben cambiarse como se indica a continuación [6&rbrace; antes del 30 de abril de 2024 para garantizar que estas audiencias sigan funcionando según lo esperado.](#profile-scripts)
 
 Las audiencias de JavaScript son audiencias heredadas que utilizan expresiones [!DNL Target] que quedaron obsoletas con la interfaz de usuario [!DNL Target Classic]. Estas audiencias se pueden modificar únicamente mediante API. Los clientes deben actualizar estas audiencias solo si siguen utilizando audiencias heredadas en las actividades de.
 
