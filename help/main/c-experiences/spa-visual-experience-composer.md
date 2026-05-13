@@ -4,10 +4,15 @@ description: Aprenda a utilizar el VEC de SPA en Adobe [!DNL Target] para crear 
 title: ¿Cómo utilizo el Compositor de experiencias visuales de la aplicación de una sola página (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/SilMhoqEp7o5GvyO2vzBt83e8EmiULUvo14Y-E-PcJA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 64%
+source-wordcount: 3904
+ht-degree: 56%
 
 ---
 
@@ -25,17 +30,17 @@ El VEC de Adobe Target para SPA aprovecha un nuevo concepto llamado Vistas: un g
 
 Para explicar más sobre las vistas, vamos a navegar por este hipotético sitio de comercio electrónico en línea, implementado en React, y a explorar algunas de las vistas de ejemplo. Haga clic en los vínculos siguientes para abrir el sitio en una nueva pestaña del explorador.
 
-**Vínculo: [Sitio principal](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/)**
+**Vínculo: [Sitio principal](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![página de inicio](/help/main/c-experiences/assets/home.png)
 
 Si vamos a la página de inicio, podemos ver inmediatamente una imagen principal promocional de Pascua, así como los productos más recientes que venden en el sitio. En este caso, una vista puede definirse como toda la página de inicio. Es práctico tenerlo en cuenta porque se ampliará en la sección Implementación de vistas de Adobe Target, que se describe a continuación.
 
-**Vínculo: [Sitio Del Producto](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products)**
+**Vínculo: [Sitio Del Producto](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![sitio del producto](/help/main/c-experiences/assets/product-site.png)
 
-Como el producto nos interesa, decidimos hacer clic en el vínculo Productos. De manera similar a la página de inicio, se puede definir todo el sitio del producto como una vista. Podemos asignar el nombre “productos” a esta vista al igual que el nombre de la ruta en `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products`.
+Como el producto nos interesa, decidimos hacer clic en el vínculo Productos. De manera similar a la página de inicio, se puede definir todo el sitio del producto como una vista. Podemos asignar el nombre “productos” a esta vista al igual que el nombre de la ruta en `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
 
 ![sitio del producto 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +50,7 @@ Al principio de esta sección, definimos Vistas como el sitio completo o incluso
 
 Decidimos hacer clic en el botón Cargar más para explorar más productos en el sitio. En este caso, la dirección URL del sitio web no cambia. Sin embargo, aquí, una vista puede representar solamente la segunda fila de productos que se muestra arriba. El nombre de la vista puede ser “PRODUCTS-PAGE-2”.
 
-**Vínculo: [Cierre de compra](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/checkout)**
+**Vínculo: [Cierre de compra](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![página de salida](/help/main/c-experiences/assets/checkout.png)
 
@@ -67,7 +72,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    Descargue at.js 2.x a través de la IU de Adobe Target ubicada en [!UICONTROL Administration > Implementation]. at.js 2.x también se puede implementar mediante etiquetas en [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=es){target=_blank}. Sin embargo, las extensiones de Adobe Target no están actualizadas actualmente y no son compatibles.
 
-1. Implemente la función más reciente de at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=es){target=_blank} en sus sitios.
+1. Implemente la función más reciente de at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} en sus sitios.
 
    Después de definir las vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función `triggerView()` de at.js 2.x con las vistas pasadas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
 
@@ -75,13 +80,13 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
 
    | Parámetro | Tipo | ¿Requerido? | Información general | Descripción |
    | --- | --- | --- | --- | --- |
-   | Nombre de vista | Cadena | Sí | &#x200B;1. No hay espacios al final.<br>2. No puede estar vacío.<br>3. El nombre de la vista debe ser único para todas las páginas.<br>4. **Advertencia**: el nombre de la vista no debe comenzar ni finalizar con “`/`”. Esto se debe a que el cliente generalmente extraería el nombre de la vista de la ruta de la URL. Para nosotros, “home” y “`/home`” son diferentes.<br>5. **Advertencia**: la misma vista no debe activarse varias veces con la opción `{page: true}`. | Pase cualquier nombre como tipo de cadena que desee que represente la vista. Este nombre de vista se muestra en el panel [!UICONTROL Modifications] del VEC para que los especialistas en marketing creen acciones y ejecuten sus actividades A/B y XT. |
+   | Nombre de vista | Cadena | Sí | &#x200B;1. No hay espacios al final.<br>2. No puede estar vacío.<br>3. El nombre de vista debe ser único para todas las páginas.<br>4. **Advertencia**: el nombre de la vista no debe comenzar ni finalizar con “`/`”. Esto se debe a que el cliente generalmente extraería el nombre de la vista de la ruta de la URL. Para nosotros, &quot;home&quot; y &quot;`/home`&quot; son diferentes.<br>5. **Advertencia**: la misma vista no debe activarse varias veces con la opción `{page: true}`. | Pase cualquier nombre como tipo de cadena que desee que represente la vista. Este nombre de vista se muestra en el panel [!UICONTROL Modifications] del VEC para que los especialistas en marketing creen acciones y ejecuten sus actividades A/B y XT. |
    | opciones | Objeto | No |  |  |
-   | opciones > página | Booleano | No |  | **VERDADERO**: el valor predeterminado de la página es verdadero. Cuando `page=true`, las notificaciones se enviarán a los servidores de Edge para incrementar el recuento de impresiones.<br>**FALSO**: Cuando se `page=false`, las notificaciones no se enviarán para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
+   | opciones > página | Booleano | No |  | **VERDADERO**: el valor predeterminado de la página es verdadero. Cuando `page=true`, las notificaciones se enviarán a los servidores de Edge para incrementar el recuento de impresiones.<br>**FALSO**: Cuando se seleccione `page=false`, las notificaciones no se enviarán para incrementar el recuento de impresiones. Debe utilizarse cuando desee volver a procesar un componente en una página con una oferta. |
 
    Veamos algunos ejemplos de casos de uso sobre la invocación de la función `triggerView()` en React para el SPA de comercio electrónico hipotético:
 
-   **Vínculo: [Sitio principal](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/)**
+   **Vínculo: [Sitio principal](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +117,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Vínculo: [Sitio De Productos](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products)**
+   **Vínculo: [Sitio De Productos](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
    Ahora, veamos un ejemplo que es un poco más complicado. Digamos que como especialistas en marketing queremos personalizar la segunda fila de los productos cambiando el color de la etiqueta Precio a rojo después de que un usuario haga clic en el botón Cargar más.
 
@@ -141,7 +146,7 @@ Ahora que hemos cubierto lo que son las vistas de Adobe Target, podemos aprovech
    }
    ```
 
-   **Vínculo: [Cierre de compra](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/checkout)**
+   **Vínculo: [Cierre de compra](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![Reacción de finalización de compra](/help/main/c-experiences/assets/react6.png)
 
@@ -206,8 +211,8 @@ La siguiente tabla describe cada acción:
 | --- | --- |
 | Información | Muestra los detalles de esta acción. |
 | Editar | Permite editar las propiedades de esta acción directamente. |
-| Clonar | Clona la acción a una o varias vistas del panel [!UICONTROL Modifications] o a una o varias vistas a las que ha llegado a través del VEC. La acción no tiene que existir necesariamente en el panel [!UICONTROL Modifications].<br>**Nota**: Después de realizar una operación de clonación, debe navegar a la vista en el VEC a través de [!UICONTROL Browse] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error. |
-| Mover | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya se encuentre en el panel Modificaciones.<br>[!UICONTROL Page Load Event]: cualquier acción que corresponda al evento de carga de página se aplica en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de movimiento, debe navegar a la vista en el VEC a través de Examinar para ver si el movimiento era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error |
+| Clonar | Clona la acción a una o varias vistas del panel [!UICONTROL Modifications] o a una o varias vistas a las que ha llegado a través del VEC. La acción no tiene que existir necesariamente en el panel [!UICONTROL Modifications].<br>**Nota**: Después de realizar una operación de clonado, debe navegar a la vista en el VEC a través de [!UICONTROL Browse] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error. |
+| Mover | Mueve la acción a un evento de carga de página o a cualquier otra vista que ya exista en el panel Modificaciones.<br>[!UICONTROL Page Load Event] : cualquier acción que corresponda al evento de carga de página se aplica en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de movimiento, debe navegar a la vista en el VEC a través de Examinar para ver si el movimiento era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error |
 | Eliminar | Elimina la acción. |
 
 >[!NOTE]
@@ -260,7 +265,7 @@ Por último, como se mencionó anteriormente, las vistas pueden definirse a nive
 
 El flujo de trabajo típico de at.js 2.x es cuando se carga su sitio, cuando todas las vistas y acciones se almacenan en caché para que las acciones subsiguientes del usuario en el sitio no almacenen en déclencheur las llamadas al servidor para recuperar ofertas. Si desea recuperar vistas según los datos de perfil más actualizados que puedan haberse actualizado, según las acciones de usuario subsiguientes, puede llamar a `getOffers()` y `applyOffers()` con los datos de perfil o usuario de público más recientes.
 
-Por ejemplo, imaginemos que es una compañía de telecomunicaciones y tiene una SPA que utiliza at.js 2.x. Como empresa, desea lograr los siguientes objetivos:
+Por ejemplo, imaginemos que es una empresa de telecomunicaciones y tiene una SPA que utiliza at.js 2.x. Como empresa, desea lograr los siguientes objetivos:
 
 * Para un usuario anónimo o con sesión cerrada: mostrar la última promoción de la compañía, como una oferta de &quot;Primer mes gratis&quot; en `http://www.telecom.com/home`.
 * Para un usuario que ha iniciado sesión: mostrar una oferta promocional de actualización para usuarios cuyos contratos están surgiendo, como &quot;Tiene derecho a un teléfono gratis&quot; en `http://www.telecom.com/loggedIn/home`.
@@ -317,7 +322,7 @@ Sí, at.js 2.x es compatible con A4T para SPA a través de la función `triggerV
 
 ![Flujo de destino](/help/main/c-experiences/assets/atjs-spa-flow.png)
 
-| Paso   | Descripción |
+| Paso | Descripción |
 | --- | --- |
 | 1 | `triggerView()` es llamado en la SPA para procesar una vista y aplicar acciones para modificar elementos visuales asociados a la vista. |
 | 2 | El contenido dirigido para la vista se lee desde la caché. |
@@ -354,7 +359,7 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sí |
 | [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Sí |
-| [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es){target=_blank} | Sí |
+| [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sí |
 | [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sí |
 
 ## Funciones compatibles {#supported-features}
@@ -377,7 +382,7 @@ Para acceder a las opciones [!UICONTROL Page Delivery] desde el flujo de trabajo
 
 ![Cuadro de diálogo Opciones de Entrega de páginas](/help/main/c-experiences/assets/page-delivery.png)
 
-Por ejemplo, según se define en la configuración de [!UICONTROL Page Delivery] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/es/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
+Por ejemplo, según se define en la configuración de [!UICONTROL Page Delivery] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
 
 Sin embargo, como los SPA funcionan de forma diferente, la configuración de [!UICONTROL Page Delivery] debe estar plantearse de tal manera que todas las acciones deban aplicarse a las vistas tal como se define en la actividad del VEC de SPA.
 
@@ -389,35 +394,35 @@ Analice este ejemplo de uso:
 
 Se han realizado los cambios siguientes:
 
-* Se ha cambiado el color de fondo en la vista Inicio, que se encuentra en la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/).
-* Se ha cambiado el color del botón en la vista Productos, que se encuentra en la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products).
+* Se ha cambiado el color de fondo en la vista Inicio, que se encuentra en la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* Se ha cambiado el color del botón en la vista Productos, que se encuentra en la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-Con el ejemplo anterior en mente, lo que sucedería cuando establecemos la configuración de [!UICONTROL Page Delivery] para que solo incluya: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/) en un SPA con at.js 2.*x*?
+Con el ejemplo anterior en mente, ¿qué sucedería cuando establecemos la configuración de [!UICONTROL Page Delivery] para que solo incluya: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) en un SPA con at.js 2.*x*?
 
 ![Cuadro de diálogo Entrega de páginas](/help/main/c-experiences/assets/spa-page-delivery.png)
 
-La siguiente ilustración muestra el flujo de Target: carga de página en at.js 2.*x*:
+La siguiente ilustración muestra el flujo de Target: solicitud de carga de página en at.js 2.*x*:
 
 ![Flujo de Target: Solicitud de carga de página de at.js 2.0](/help/main/c-experiences/assets/page-load-request.png)
 
 **Recorrido del usuario número 1**
 
-* Un usuario navega directamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/).
-* at.js 2.*x* realiza una consulta a Edge para ver si hay alguna actividad que se deba ejecutar para la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/).
+* Un usuario navega directamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* at.js 2.*x* realiza una consulta a Edge para ver si hay alguna actividad que se deba ejecutar para la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * En el paso 6, Target Edge devuelve las acciones para la vista Inicio y Productos para que se almacenen en la caché del explorador.
 
-**Resultado**: El usuario ve el color de fondo verde en la vista Inicio. Cuando el usuario navega a continuación a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products), se ve el color de fondo azul del botón porque la acción se almacena en la caché del explorador en la vista Productos.
+**Resultado**: El usuario ve el color de fondo verde en la vista Inicio. Cuando el usuario navega a continuación a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), se ve el color de fondo azul del botón porque la acción se almacena en la caché del explorador en la vista Productos.
 
-Nota: El usuario que navega a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products) no almacenó en déclencheur una carga de página.
+Nota: El usuario que navega a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) no almacenó en déclencheur una carga de página.
 
 **Recorrido del usuario número 2**
 
-* Un usuario navega directamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products).
-* at.js 2.*x* realiza una consulta a Edge para ver si hay alguna actividad que se deba ejecutar para la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products).
-* No hay actividades calificadas para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products).
-* Debido a que no hay actividades cualificadas, no hay acciones ni vistas que almacenar en caché para at.js 2.*x* para activarse.
+* Un usuario navega directamente a [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* at.js 2.*x* realiza una consulta a Edge para ver si hay alguna actividad que se deba ejecutar para la dirección URL: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* No hay actividades calificadas para [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Como no hay actividades calificadas, no hay acciones ni vistas que almacenar en caché para at.js 2.*x* en el déclencheur.
 
-**Resultado**: Aunque haya definido `triggerView()` para la vista Productos y haya realizado una acción en la vista Productos a través del VEC de SPA, no verá la acción esperada, ya que no creó ninguna regla que incluya [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=es#/products) en la configuración de Entrega de páginas.
+**Resultado**: Aunque haya definido `triggerView()` para la vista Productos y haya realizado una acción en la vista Productos a través del VEC de SPA, no verá la acción esperada, ya que no creó ninguna regla que incluya [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) en la configuración de Entrega de páginas.
 
 ### Práctica recomendada
 
@@ -437,7 +442,7 @@ Este mensaje aparece cuando agrega la primera acción a una Vista para cada nuev
 
 ## Vídeo de formación: Uso del VEC para SPA en Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/34794?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 Consulte [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC) en Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obtener más información.
 

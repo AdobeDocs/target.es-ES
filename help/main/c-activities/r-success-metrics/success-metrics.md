@@ -4,9 +4,13 @@ description: Obtenga información sobre las métricas de éxito que le ayudan a 
 title: ¿Qué son las métricas de éxito?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
+TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: 1374
 ht-degree: 22%
 
 ---
@@ -37,7 +41,7 @@ Las siguientes métricas de éxito se pueden configurar en la sección [!UICONTR
 | [!UICONTROL Revenue] | Basado en la conversión | Ingresos generados por la visita. Solo puede elegir una métrica de ingresos:<ul><li>Visualizó un mbox</li></ul>Para obtener más información sobre los cambios en la interfaz de usuario [!DNL Target] actualizada en lo que respecta a las métricas de éxito de ingresos, consulte [Cambios actualizados [!DNL Target] de la interfaz de usuario](#changes) más abajo. |
 | [!UICONTROL Engagement] | Basado en la participación | Participación generada por la visita. Puede elegir entre las siguientes métricas de participación:<UL><li>Vistas de página: cada visita única se cuenta como una conversión.</li><li>[!UICONTROL Custom Scoring]: puntuación acumulada basada en el valor asignado a páginas visitadas del sitio, desde el momento en que el visitante ve por primera vez la primera solicitud de visualización de la actividad [!DNL Target].</li>[!DNL Time on Site]: tiempo empleado en la visita (en segundos) desde el momento en que el visitante ve la primera solicitud de visualización de la actividad [!DNL Target] hasta la carga de la última página con una solicitud de la sesión.</UL> |
 
-En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita para incrementar el recuento. La métrica asociada comienza a aumentar tras la reclasificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no ve los resultados inmediatamente durante la prueba; sin embargo, todos los resultados de esa sesión están disponibles unos minutos después de la finalización de la sesión.
+En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita para incrementar el recuento. La métrica asociada comienza a aumentar tras la recalificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no ve los resultados inmediatamente durante la prueba; sin embargo, todos los resultados de esa sesión están disponibles unos minutos después de la finalización de la sesión.
 
 ## Métricas de éxito personalizadas
 
@@ -51,7 +55,7 @@ Las métricas de éxito que elija para su actividad están disponibles en la con
 
 Algunas métricas, como [!UICONTROL Custom Scoring] y [!UICONTROL Revenue Per Visitor], requieren una implementación personalizada que pase información, como totales e ID de pedidos.
 
-## Configuración avanzada   {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
+## Configuración avanzada {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Use la configuración avanzada para administrar la forma de medir la métrica de éxito. Las opciones incluyen añadir dependencias, elegir si se debe mantener al usuario en la actividad o eliminarlo, y si se debe contar la métrica una vez por participante o en cada impresión.
 
@@ -101,7 +105,7 @@ Use la configuración avanzada para determinar qué sucede después de que un us
 
 Elija el comportamiento deseado:
 
-* Una vez por participante 
+* Una vez por participante
 * En cada impresión (excluidas las actualizaciones de páginas)
 * En cada impresión
 

@@ -4,9 +4,13 @@ description: Aprenda a descargar datos de actividades de Adobe [!DNL Target] en 
 title: ¿Cómo se descargan datos de informes en un archivo CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
+TQID: https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: 653
 ht-degree: 34%
 
 ---
@@ -70,13 +74,13 @@ El informe [!UICONTROL Order Details] muestra información sobre sus pedidos, in
 >* Los datos de informe de pedido incluyen cuatro semanas de datos para el entorno (grupo de hosts) predeterminado y dos semanas para todos los demás.
 >* Las métricas de ingresos establecidas en &quot;[!UICONTROL Increment count and keep the user in the activity]&quot; registran los detalles de pedido únicamente para el primer pedido realizado por el mismo visitante. Todos los pedidos subsiguientes aumentan el recuento de conversiones, pero no agregan ingresos a RPV/AOV/Sales y no se incluyen en el informe [!UICONTROL Order Details].
 
-## Prácticas recomendadas  
+## Prácticas recomendadas
 
 * Para registrar un registro de pedido, se debe pasar el parámetro `orderTotal`.
 * Los valores pasados a través del parámetro de mbox `ProductPurchasedId` se enumeran en el informe [!UICONTROL Order Details].
 * La práctica recomendada es incluir un `orderID` y un `orderTotal`. Esto permite ignorar automáticamente los pedidos duplicados.
 
-## Advertencias  {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Advertencias {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 La siguiente información se aplica a la opción [!UICONTROL Download]:
 

@@ -2,14 +2,17 @@
 keywords: atributos de entidad de varios valores;atributos de entidad personalizados;JSON válido;valor de atributo de entidad;matriz de JSON;varios valores;valores múltiples
 description: Aprenda a utilizar atributos de entidad personalizados de uno o varios valores para definir información adicional acerca de los elementos de su catálogo de Adobe [!DNL Target] Recommendations.
 title: ¿Cómo utilizo los atributos de entidad personalizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 82%
+source-wordcount: 1504
+ht-degree: 81%
 
 ---
 
@@ -127,7 +130,7 @@ Puede pasar atributos de varios valores utilizando la API de entrega en un pará
   }
 ```
 
-Consulte la [documentación de la API de Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
+Consulte la [documentación de la API de Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para obtener información sobre el uso de las API Entrega y Guardar entidades.
 
 ## Uso de operadores con atributos de varios valores {#section_83C2288A805242D9A02EBC4F07DEE945}
 

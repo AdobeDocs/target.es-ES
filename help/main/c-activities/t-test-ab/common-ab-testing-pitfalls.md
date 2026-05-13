@@ -4,9 +4,12 @@ description: Aprenda a evitar los inconvenientes y errores más comunes que las 
 title: ¿Cómo evito errores comunes de pruebas A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 271d5bd8730830dd58be33f88793f2bef2b8d211
+TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3933'
+source-wordcount: 3983
 ht-degree: 100%
 
 ---
@@ -55,7 +58,7 @@ Sin embargo, existen dos situaciones en las que hay que prestar especial atenci�
 
 * **Realización de pruebas con varias ofertas:** a menudo, los especialistas en marketing prueban más de dos ofertas (o experiencias) para compararlas. Por este motivo, a veces las soluciones de pruebas A/B se llaman pruebas “A/B/n”, donde “n” es el número de ofertas que se prueban simultáneamente.
 
-  Cabe destacar que *cada una* de las ofertas sometidas a prueba tiene una tasa de falsos positivos equivalente al nivel de relevancia, como hemos explicado arriba. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %. 
+  Cabe destacar que *cada una* de las ofertas sometidas a prueba tiene una tasa de falsos positivos equivalente al nivel de relevancia, como hemos explicado arriba. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %.
 
   Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Por medio de esta corrección, el nivel de relevancia se divide entre el número de comparaciones para obtener el nivel de relevancia necesario para lograr un nivel de confianza del 95 %.
 
@@ -95,7 +98,7 @@ En una prueba unidireccional, probamos si la oferta B es mejor que la oferta A. 
 
 Las pruebas unidireccionales se pueden ver cómo llevar a juicio una oferta con un juez que ya tiene el veredicto. En una prueba unidireccional, decidimos de antemano la oferta ganadora y lo que queremos es demostrarlo. Las ofertas no tienen igualdad de oportunidades para erigirse en ganadoras. Este tipo de prueba solo debería usarse en las infrecuentes situaciones en que queramos saber si una oferta es mejor que la otra y no al revés. Para evitar el inconveniente de las pruebas unidireccionales, debemos recurrir a una solución de pruebas A/B que siempre utilice pruebas bidireccionales, como [!DNL Adobe Target].
 
-## Escollo 5: Supervisar las pruebas {#section_EA42F8D5967B439284D863C46706A1BA}
+## Escollo 5: Monitorizar las pruebas {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Habitualmente, los especialistas en marketing supervisan las pruebas A/B hasta que se obtiene un resultado relevante. Al fin y al cabo, ¿para qué hacer pruebas cuando se ha alcanzado una relevancia estadística?
 
@@ -103,7 +106,7 @@ Lamentablemente, no es tan sencillo. No queremos complicar las cosas, pero lo ci
 
 Esto puede resultar confuso. Parece que decimos que solo por mirar los resultados a mitad de la prueba, estos pierden su relevancia estadística, pero no es exactamente así. En el ejemplo siguiente vemos por qué.
 
-Imagine que simulamos 10 000 eventos de conversión de dos ofertas y que las dos tienen una tasa de conversión del 10 %. Como las tasas de conversión son iguales, no se debería detectar ninguna diferencia en el alza de conversión al comparar las dos pruebas. Con un intervalo de confianza del 95 %, la prueba genera la tasa de falsos positivos esperada del 5 % cuando se evalúa después de recopilar las 10 000 observaciones. De modo que, si ejecutamos 100 de estas pruebas, obtendremos de media cinco falsos positivos (en realidad, todos los positivos son falsos en este ejemplo, ya que no hay diferencia en la tasa de conversión de ambas ofertas). Sin embargo, si evaluamos la prueba diez veces durante el proceso (cada 1000 observaciones), resulta que la tasa de falsos positivos sube al 16 %. Al supervisar la prueba, el riesgo de falsos positivos es más del triple ¿Cómo puede ser?
+Imagine que simulamos 10 000 eventos de conversión de dos ofertas y que las dos tienen una tasa de conversión del 10 %. Como las tasas de conversión son iguales, no se debería detectar ninguna diferencia en el alza de conversión al comparar las dos pruebas. Con un intervalo de confianza del 95 %, la prueba genera la tasa de falsos positivos esperada del 5 % cuando se evalúa después de recopilar las 10 000 observaciones. De modo que, si ejecutamos 100 de estas pruebas, obtendremos de media cinco falsos positivos (en realidad, todos los positivos son falsos en este ejemplo, ya que no hay diferencia en la tasa de conversión de ambas ofertas). Sin embargo, si evaluamos la prueba diez veces durante el proceso (cada 1000 observaciones), resulta que la tasa de falsos positivos sube al 16 %. Al monitorizar la prueba, el riesgo de falsos positivos es más del triple ¿Cómo puede ser?
 
 Para entender por qué sucede esto, hay que tener en cuenta las distintas acciones adoptadas cuando se detecta un resultado relevante y cuando no se detecta. Cuando se detecta un resultado estadísticamente relevante, la prueba se detiene y se declara un ganador. No obstante, si el resultado no tiene relevancia estadística, permitiremos que la prueba continúe. Esta situación favorece enormemente un resultado positivo y, por tanto, distorsiona el nivel de relevancia estadística de la prueba.
 
@@ -119,7 +122,7 @@ En la ilustración siguiente vemos cinco ofertas que tienen la misma tasa de con
 
 Este fenómeno se conoce como &quot;regresión a la media&quot; y puede llevar a decepciones cuando una oferta que mostró un buen rendimiento durante los días iniciales de una prueba no es capaz de mantener el mismo rendimiento al final. También puede suponer la pérdida de ingresos cuando una buena oferta no se implementa debido a un mal rendimiento en los primeros días de una prueba solo por casualidad.
 
-Al igual que sucede con la supervisión de la prueba, la mejor forma de evitar estos problemas consiste en determinar un número adecuado de visitantes antes de ejecutar la prueba y, una vez iniciada, dejar que siga su curso hasta que este número de visitantes se haya expuesto a las ofertas.
+Al igual que sucede con la monitorización de la prueba, la mejor forma de evitar estos problemas consiste en determinar un número adecuado de visitantes antes de ejecutar la prueba y, una vez iniciada, dejar que siga su curso hasta que este número de visitantes se haya expuesto a las ofertas.
 
 ## Escollo 7: Modificar la asignación de tráfico durante el periodo de prueba {#allocation}
 

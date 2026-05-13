@@ -7,10 +7,14 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/IqNBAHefm8J-DEo2fU-Nj19AhcZg-FUPLccs2eC9yPQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 1%
+source-wordcount: 906
+ht-degree: 2%
 
 ---
 
@@ -36,7 +40,7 @@ Este caso de uso muestra cómo realizar tareas familiares, como pruebas A/B con 
 
 >[!NOTE]
 >
->Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Trabajar con el diseñador web](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*.
+>Las instrucciones de esta sección resaltan los pasos necesarios para cambiar una imagen y utilizar atributos de perfil para personalizar los mensajes de texto. Para obtener más información sobre las opciones disponibles en el diseñador web de [!DNL Journey Optimizer], consulte [Trabajar con el diseñador web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*.
 >
 >El vídeo de la parte inferior de la página es especialmente útil.
 
@@ -58,7 +62,7 @@ Para optimizar una página web probando varias imágenes y personalizando mensaj
 
    Una configuración web, o superficie de canal, es una configuración definida por un administrador del sistema. La configuración web contiene todos los parámetros técnicos para enviar el mensaje, como el parámetro de encabezado, subdominio, aplicaciones móviles, etc.
 
-   Para obtener más información, consulte [Configurar superficies de canal](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} en la *documentación de Journey Optimizer*.
+   Para obtener más información, consulte [Configurar superficies de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} en la *documentación de Journey Optimizer*.
 
 1. En la sección **[!UICONTROL Action]**, haga clic en **[!UICONTROL Edit Content]** para abrir el sitio web en el diseñador web [!DNL Journey Optimizer].
 
@@ -68,7 +72,7 @@ Para optimizar una página web probando varias imágenes y personalizando mensaj
 
 1. Para crear un experimento con el fin de determinar qué contenido funciona mejor, haga clic en **[!UICONTROL Create Experiment]**.
 
-   Los experimentos de contenido permiten variar el contenido, el asunto o el remitente del mensaje para definir varios tratamientos y determinar la mejor combinación para las audiencias. Para obtener más información, consulte [Crear un experimento de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} en la *documentación de Journey Optimizer*.
+   Los experimentos de contenido permiten variar el contenido, el asunto o el remitente del mensaje para definir varios tratamientos y determinar la mejor combinación para las audiencias. Para obtener más información, consulte [Crear un experimento de contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} en la *documentación de Journey Optimizer*.
 
 1. Seleccione una métrica de éxito y haga clic en Acción.
 
@@ -100,13 +104,13 @@ Para optimizar una página web probando varias imágenes y personalizando mensaj
 
    ![Botón Agregar Personalization.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   Para obtener más información sobre los atributos de perfil, consulte [Introducción al editor de personalización](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} en la *documentación de Journey Optimizer*.
+   Para obtener más información sobre los atributos de perfil, consulte [Introducción al editor de personalización](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} en la *documentación de Journey Optimizer*.
 
 1. Busque y haga clic en el signo más para agregar el atributo de perfil &quot;nombre&quot;, ajuste el texto como desee y haga clic en **[!UICONTROL Save]**.
 
    ![Agregar atributo de perfil para el nombre](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
-   Para obtener más información, consulte [Introducción al editor de personalización](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} en la *documentación de Journey Optimizer*.
+   Para obtener más información, consulte [Introducción al editor de personalización](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} en la *documentación de Journey Optimizer*.
 
 1. Haga clic en la flecha hacia atrás de la esquina superior izquierda para volver al diseñador web.
 
@@ -121,9 +125,9 @@ Haga clic en el botón [!UICONTROL Reports] y luego haga clic en el período de 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Para obtener más información, consulte [Introducción a la nueva interfaz de informes](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} en la *documentación de Journey Optimizer*.
+Para obtener más información, consulte [Introducción a la nueva interfaz de informes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} en la *documentación de Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Trabaje con el diseñador web](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*
->[Crear una campaña](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*
+>[Trabaje con el diseñador web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} en la *documentación de Journey Optimizer*
+>[Crear una campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} en *Tutoriales de Journey Optimizer*

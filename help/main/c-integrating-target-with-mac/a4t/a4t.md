@@ -4,10 +4,15 @@ description: Use  [!DNL Analytics]  for  [!DNL Target]  (A4T) para crear activid
 title: ¿Qué es  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 80%
+source-wordcount: 1088
+ht-degree: 79%
 
 ---
 
@@ -48,7 +53,7 @@ Tenga en cuenta los siguientes puntos cuando vaya a utilizar A4T:
 
 ## Implementación de A4T
 
-Para obtener información sobre la implementación de A4T con at.js y [!DNL Adobe Experience Platform Web SDK], consulte [&#x200B; Implementación de Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Para obtener información sobre la implementación de A4T con at.js y [!DNL Adobe Experience Platform Web SDK], consulte [ Implementación de Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Tipos de actividades compatibles {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -107,7 +112,7 @@ Este vídeo explica cómo utilizar [!DNL Analytics] como una fuente de informes 
 * Explicar cómo funciona A4T
 * Entender los requisitos necesarios antes de utilizar A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/3421724?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Integración de Analytics/Adobe Target (A4T) (40:33) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
@@ -122,7 +127,7 @@ Este vídeo es una grabación de “[Horario de oficina](/help/main/cmp-resource
 
 >[!MORELIKETHIS]
 >
->* [Implementación de Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Contiene información de implementación para at.js y el SDK web de Platform.
+>* [Implementación de Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Contiene información de implementación para at.js y el SDK web de Platform.
 >* [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [¿Qué es el SDK web de Adobe Experience Platform?](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es): Contiene información general sobre el SDK web de Platform.
 >* [Información general de Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=es): Contiene información específica de [!DNL Target] y [!DNL Platform Web SDK].

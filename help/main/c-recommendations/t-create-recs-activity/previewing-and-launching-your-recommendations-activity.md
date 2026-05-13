@@ -4,9 +4,12 @@ description: Obtenga información sobre cómo obtener una vista previa de la act
 title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
+TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: 1424
 ht-degree: 15%
 
 ---
@@ -19,7 +22,7 @@ Después de crear su actividad [!UICONTROL Recommendations], [!UICONTROL A/B Tes
 
 Después de crear una actividad, [!DNL Recommendations] ejecuta un algoritmo para generar recomendaciones. Este algoritmo puede tardar unas horas en ejecutarse.
 
-Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general [!UICONTROL Activity], donde se muestra el estado de los criterios. La siguiente ilustración muestra el estado en el diagrama de actividad en la página [!DNL Recommendations] de una actividad [!UICONTROL Overview]:
+Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general [!UICONTROL Activity], donde se muestra el estado de los criterios. La siguiente ilustración muestra el estado en el diagrama de actividad en la página [!UICONTROL Overview] de una actividad [!DNL Recommendations]:
 
 ![Página de información general de la actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 

@@ -2,13 +2,19 @@
 keywords: espacios de trabajo;administrar propiedad;permisos;configuración de producto;perfil de producto;roles;proyecto;observador;editor;aprobador;publicador
 description: Obtenga información sobre cómo crear espacios de trabajo (perfiles de producto) independientes y, a continuación, asignar a los usuarios diferentes funciones y permisos para páginas, propiedades o sitios web individuales.
 title: ¿Qué son los permisos de usuario de Enterprise y cómo se utilizan?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: e22d67ea-317b-44f8-abd1-52e07f636ca8id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: 3199
 ht-degree: 48%
 
 ---
@@ -92,7 +98,7 @@ Las funciones y los permisos determinan los niveles de acceso que tienen los usu
 | Función | Descripción |
 |--- |--- |
 | [!UICONTROL Approver] | Puede crear, editar y activar o detener actividades. |
-| [!UICONTROL Editor] | Puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
+| [!UICONTROL Editor] | puede crear y editar actividades antes de que estén activas, pero no puede aprobar el lanzamiento de una actividad. |
 | [!UICONTROL Observer] | Puede ver actividades, pero no puede crearlas o editarlas. |
 | [!UICONTROL Publisher] | Similar al rol [!UICONTROL Observer] (puede ver actividades, pero no puede crearlas o editarlas). Sin embargo, el rol [!UICONTROL Publisher] tiene el permiso adicional de activar actividades. |
 
@@ -147,7 +153,7 @@ En los siguientes casos de uso, trataremos de explicar cómo lograr los objetivo
 
 ### Organización multinacional
 
-Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses. 
+Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses.
 Usando los personajes de las ilustraciones anteriores, tras una reorganización, podría configurar los espacios de trabajo y permisos de este modo:
 
 * **Jan:** Jan es la jefa de optimización del Centro de excelencia para las páginas web, las propiedades y los sitios estadounidenses de la organización. Es muy probable que tenga derechos de administración del sistema en Adobe Experience Cloud.
@@ -201,7 +207,7 @@ La nueva funcionalidad Permisos puede verse en diferentes sitios de la interfaz 
 * **Creación de oferta:** Al crear una oferta, esta se crea en el área de trabajo seleccionada actualmente.
 * **Página Propiedades (Administración > Propiedades):** Puede usar el cuadro [!UICONTROL Search] para buscar en la lista [!UICONTROL Property].
 
-## Advertencias  {#section_9714311B1CD9497A86F4910F8AE635E2}
+## Advertencias {#section_9714311B1CD9497A86F4910F8AE635E2}
 
 Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en [!DNL Target] Premium:
 
@@ -311,7 +317,7 @@ Objetivos de aprendizaje:
 * Los conceptos de propiedad y espacio de trabajo, y cómo operan estos límites y agrupamientos para permitir controlar el nivel de acceso de los usuarios
 * Diferentes ejemplos de propiedades para la consideración de su organización
 
->[!VIDEO](https://video.tv.adobe.com/v/3421736?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### Horario de oficina: [!DNL Target] espacios de trabajo Premium
 

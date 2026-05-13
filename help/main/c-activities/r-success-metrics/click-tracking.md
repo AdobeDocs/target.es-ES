@@ -4,9 +4,13 @@ description: Descubra cómo  [!DNL Adobe Target]  le permite rastrear clics en c
 title: ¿Qué es el rastreo de clics?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
+TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: 866
 ht-degree: 75%
 
 ---
@@ -98,7 +102,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 
 * Las métricas de seguimiento de clics no están vinculadas a ninguna experiencia específica de una actividad.
 
-* Utilice audiencias si es necesario restringir el ámbito de las métricas de rastreo de clics.
+* Utilice públicos si es necesario restringir el ámbito de las métricas de rastreo de clics.
 
 * Varias actividades pueden definir una métrica de rastreo de clics para el mismo selector. Si es así, cuando un visitante cumple los requisitos para una de esas actividades y hace clic en ese selector, la métrica de rastreo de clics aumenta para todas las actividades asociadas para las que el visitante cumple los requisitos.
 

@@ -5,10 +5,14 @@ title: ¿Puedo segmentar visitantes según la ubicación?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 42%
+source-wordcount: 1059
+ht-degree: 40%
 
 ---
 
@@ -155,9 +159,9 @@ Debido a la forma en que AOL proporciona su tráfico, [!DNL Target] solo puede d
 
   >[!NOTE]
   >
-  >`mboxOverride.browserIp` se admite en at.js 1.Solamente *x*. Esta funcionalidad no es compatible con at.js 2.*x*.
+  >`mboxOverride.browserIp` solo es compatible con at.js 1.*x*. Esta funcionalidad no se admite en at.js 2.*x*.
 
-* **at.js 2.*x***: Para anular su dirección IP con at.js 2.*x*, instale una extensión/complemento del explorador (como X-Forwarded-For Header para Chrome o Firefox). Esta extensión le permite pasar el encabezado x-forwarded-for en las solicitudes de página.
+* **at.js 2.*x***: para anular la dirección IP con at.js 2.*x*, instale una extensión/complemento para explorador (como X-Forwarded-For Header para Chrome o Firefox). Esta extensión le permite pasar el encabezado x-forwarded-for en las solicitudes de página.
 
 +++
 
@@ -179,7 +183,7 @@ No, [!DNL Target] utiliza datos geográficos solo durante la sesión, por lo que
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
-* Crear audiencias
+* Crear públicos
 * Definir categorías de audiencias
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

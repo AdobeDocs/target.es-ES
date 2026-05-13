@@ -4,9 +4,13 @@ description: Aprenda cómo [!DNL Adobe Target] determina qué actividad (o activ
 title: ¿Cómo  [!DNL Target] asigna prioridad a diferentes actividades?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
+TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 927
 ht-degree: 36%
 
 ---
@@ -23,7 +27,7 @@ Si su empresa utiliza el VEC de forma exclusiva, se puede devolver contenido de 
 1. [!DNL Target] extrae todas las actividades que se ejecutan en esa dirección URL.
 1. [!DNL Target] intenta relacionar al visitante con las actividades.
 
-   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
 
 1. Se devuelve a la página el contenido de todas las actividades y experiencias con las que el visitante se ve relacionado.
 1. Si el contenido de cada actividad hace referencia a [selectores CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) diferentes, se mostrará todo el contenido.
@@ -49,7 +53,7 @@ La actividad que se ofrece queda determinada según el siguiente flujo de decisi
 1. [!DNL Target] extrae todas las actividades que se ejecutan en esa solicitud [!DNL Target].
 1. [!DNL Target] intenta relacionar al visitante con las actividades.
 
-   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa prueba hasta que realice la conversión. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa prueba hasta que realice la conversión. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
 
 1. Si una actividad basada en formularios es la prioridad más alta, ese contenido de actividad se devuelve junto con todo el contenido de actividad coincidente de las actividades VEC.
 1. Si una actividad de VEC es la prioridad más alta, se devuelve el contenido de todas las actividades de VEC coincidentes, pero no se devuelve ningún contenido de actividad basado en formularios.
@@ -70,7 +74,7 @@ Si su empresa utiliza [!DNL Target] solicitudes distintas de la solicitud global
 1. [!DNL Target] extrae todas las actividades que se ejecutan en esa solicitud [!DNL Target].
 1. [!DNL Target] intenta hacer coincidir al visitante en la actividad de mayor prioridad.
 
-   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
 
 1. Si varias actividades comparten un nivel de prioridad, existen dos desempates:
 

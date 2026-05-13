@@ -1,19 +1,23 @@
 ---
-keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;audiencias
+keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;públicos
 description: Vea las preguntas más frecuentes (FAQ) acerca de la segmentación de experiencias y las audiencias utilizadas en las actividades de Adobe [!DNL Target] .
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de objetivos y audiencias?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
+TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 53%
+source-wordcount: 982
+ht-degree: 52%
 
 ---
 
-# Preguntas más frecuentes sobre audiencias y segmentación
+# Preguntas más frecuentes sobre públicos y segmentación
 
-Lista de preguntas más frecuentes sobre audiencias y segmentación de experiencias.
+Lista de preguntas más frecuentes sobre públicos y segmentación de experiencias.
 
 ## ¿Cómo evalúa [!DNL Target] las direcciones URL en el direccionamiento? {#url}
 
@@ -72,11 +76,11 @@ Las audiencias prediseñadas de la categoría Biblioteca de objetivos son audien
 
 Se recomienda utilizar las audiencias más nuevas porque han mejorado su rendimiento. Es posible que algunos clientes que utilicen audiencias prediseñadas heredadas, de modo que no se han eliminado de la interfaz de Target.
 
-## ¿Cómo sé de qué manera se dividirá el tráfico entre las audiencias?   {#section_067EEFB956E7465CBF77EC86834470AB}
+## ¿Cómo sé de qué manera se dividirá el tráfico entre los públicos? {#section_067EEFB956E7465CBF77EC86834470AB}
 
 De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar objetivos de porcentaje para cada experiencia. En este caso, se genera un número aleatorio que se utiliza para elegir la experiencia que se mostrará. Es posible que los porcentajes resultantes no coincidan exactamente con los objetivos especificados, pero con más tráfico resulta necesario dividir las experiencias para aproximarse a los objetivos.
 
-## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varias audiencias aptas?   {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varios públicos aptos? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 El usuario cumple los requisitos para la primera experiencia/audiencia que se muestre en la página [!UICONTROL Target] de la actividad.
 
@@ -84,13 +88,13 @@ Por ejemplo, supongamos que la experiencia/audiencia incluye Windows como Experi
 
 ## ¿Por qué los nombres de las mismas audiencias en [!DNL Target] , Adobe Audience Manager (AAM) y la biblioteca de audiencias en los servicios principales son diferentes? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Los nombres de las audiencias en [!DNL Target] son únicos; sin embargo, en [!DNL AAM] y en la [!DNL Audience Library], varias audiencias pueden tener el mismo nombre (si están en carpetas diferentes). Cuando [!DNL Target] encuentra un nombre de audiencia que coincide con el de una audiencia [!DNL AAM] o [!DNL Audience Library], [!DNL Target] añade &quot;#&lt;number>&quot; al nombre.
+Los nombres de los públicos en [!DNL Target] son únicos; sin embargo, en [!DNL AAM] y en la [!DNL Audience Library], varios públicos pueden tener el mismo nombre (si están en carpetas diferentes). Cuando [!DNL Target] encuentra un nombre de público que coincide con el de un público [!DNL AAM] o [!DNL Audience Library], [!DNL Target] añade &quot;#&lt;number>&quot; al nombre.
 
-Por ejemplo, es posible que vea las siguientes audiencias: “Usuarios en PC” (en [!DNL AAM]) y “Usuarios en PC #1” (en [!DNL Target]).
+Por ejemplo, es posible que vea las siguientes públicos: “Usuarios en PC” (en [!DNL AAM]) y “Usuarios en PC #1” (en [!DNL Target]).
 
 ## ¿Por qué no puedo cambiar el nombre de un audiencia? {#section_54E420556F534D20836E261E253D8B97}
 
-Algunas audiencias de Target están predefinidas, como “Nuevos visitantes” y “Visitantes que repiten”. Los usuarios no pueden cambiar el nombre de estas audiencias predefinidas.
+Algunos públicos destinatarios están predefinidos, como “Nuevos visitantes” y “Visitantes que repiten”. Los usuarios no pueden cambiar el nombre de estas audiencias predefinidas.
 
 ## ¿Por qué no se muestran todos los parámetros de perfil en la interfaz de usuario de [!DNL Target]? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
@@ -102,7 +106,7 @@ Las actividades de personalización automatizada se evalúan una vez por sesión
 
 ## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la interfaz de usuario de [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-A diferencia de las ofertas y los scripts de perfil, los cambios realizados por API en las audiencias creadas mediante Target Standard no se sincronizan con la interfaz de usuario de Target.
+A diferencia de las ofertas y los scripts de perfil, los cambios realizados por API en los públicos creados mediante Target Standard no se sincronizan con la interfaz de usuario de Target.
 
 ## Las cadenas que representan números (números de coma flotante también son compatibles) se comparan como números.{#strings-that-represent-numbers}
 

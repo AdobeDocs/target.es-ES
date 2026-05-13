@@ -4,10 +4,15 @@ description: Descubra cómo funciona [!DNL Adobe Target] e incluya información 
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 85edad5c3adb3a7b01ee6d1eaf2c30c7596d5f92
+TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 24%
+source-wordcount: 2363
+ht-degree: 25%
 
 ---
 
@@ -28,19 +33,19 @@ Los puntos clave incluyen:
 
 Target se integra con los sitios web que utilizan [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La biblioteca mbox.js es una implementación heredada para [!DNL Target] y ya no es compatible a partir del 31 de marzo de 2021. Actualice a [!UICONTROL Experience Platform Web SDK] (preferido) o a la última versión de at.js.
 
-Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
+Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
-* Extensión de [[!DNL Adobe Experience Platform Web SDK] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
-* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Extensión [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
+* [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que un visitante solicita una página optimizada para [!DNL Target], se envía una solicitud en tiempo real al sistema de segmentación para determinar el contenido que se va a servir. Esta solicitud se realiza y se completa cada vez que se carga una página, regida por actividades y experiencias controladas por expertos en marketing. El contenido está dirigido a visitantes de sitio individuales, lo que maximiza las tasas de respuesta, las tasas de adquisición y los ingresos. El contenido personalizado ayuda a garantizar que los visitantes respondan, interactúen o realicen compras.
 
@@ -172,7 +177,7 @@ El servicio de [!DNL Target Recommendations] está alojado en un centro de datos
 >
 >[!DNL Target] carece actualmente de un clúster de Edge en China, lo que limita el rendimiento del visitante para [!DNL Target] clientes en la región. El cortafuegos y la ausencia de clústeres de Edge pueden afectar a las experiencias del sitio, lo que provoca una lentitud de procesamiento y tiempos de carga de las páginas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la interfaz de usuario de creación de [!DNL Target].
 
-Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -198,7 +203,7 @@ No se realiza ningún cambio en la página si el explorador del visitante no se 
 Para obtener más información, consulte los siguientes recursos de Google:
 
 * [Pruebas en sitios web y Búsqueda de Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos y encubrimiento](https://support.google.com/analytics/answer/12979939?hl)
+* [Experimentos y encubrimientos](https://support.google.com/analytics/answer/12979939?hl)
 
 
 Las directrices se publicaron en una entrada del [blog Google Webmaster Central](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Aunque la publicación data de 2012, sigue siendo la declaración más reciente de [!DNL Google] sobre el tema y las directrices siguen siendo pertinentes.

@@ -4,10 +4,14 @@ description: Obtenga información sobre los atributos específicos del visitante
 title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 91%
+source-wordcount: 2481
+ht-degree: 90%
 
 ---
 
@@ -180,7 +184,8 @@ Los scripts de perfil no pueden leer la página directamente porque se ejecutan 
 
 ## Referencia de JavaScript para parámetros de perfil de secuencia de comandos
 
-Se requiere de conocimiento básico de Javascript para utilizar de forma eficaz los parámetros de perfil de script. Esta sección sirve como referencia rápida para aumentar su productividad con esta funcionalidad en solo unos minutos.
+Se requiere de conocimiento básico de Javascript para utilizar de forma eficaz el perfil de script
+parámetros. Esta sección sirve como referencia rápida para aumentar su productividad con esta funcionalidad en solo unos minutos.
 
 Los parámetros de perfil de secuencia de comandos se encuentran en la pestaña mboxes/perfiles. Puede escribir programas Javascript que devuelvan cualquier tipo de Javascript (cadena, número entero, matriz, etc.).
 
@@ -252,7 +257,7 @@ Los parámetros de perfil de script pueden hacer referencia a los siguientes obj
 | `mbox.name` | El nombre del mbox activo. |
 | `mbox.param('<par_name>')` | Un parámetro de mbox por el nombre dado en el mbox activo. |
 | `profile.get('<par_name>')` | El parámetro de perfil de usuario creado por el cliente por el nombre `<par_name>`. Por ejemplo, si el usuario configura un parámetro de perfil denominado “gender”, el valor se puede extraer usando “profile.gender”. Devuelve el valor de “`profile.<par_name>`” configurado para el visitante actual; devuelve nulo si no se ha establecido ninguno. Tenga en cuenta que `profile.get(<par_name>)` se califica como una llamada a una función. |
-| `user.get('<par_name>')` | Devuelve el valor de “`user.<par_name>`” configurado para el visitante actual; devuelve nulo si no se ha establecido ninguno.  |
+| `user.get('<par_name>')` | Devuelve el valor de “`user.<par_name>`” configurado para el visitante actual; devuelve nulo si no se ha establecido ninguno. |
 | `user.categoryAffinity` | Devuelve el nombre de la mejor categoría. |
 | `user.categoryAffinities` | Devuelve una matriz con las mejores categorías. |
 | `user.isFirstSession` | Devuelve verdadero si es la primera sesión del visitante. |
@@ -272,7 +277,7 @@ Todos los operadores de JavaScript estándar están presentes y pueden utilizars
 | `>=` | Igual que `>`, excepto si las variables son iguales, que entonces se evaluará como true. |
 | `&&` | Lógicamente, “AND” une las expresiones a la izquierda y a la derecha, y es solo verdadero si ambos lados lo son (falso en caso contrario). |
 | `\|\|` | Lógicamente, “OR” es una disyuntiva entre las expresiones a la izquierda y a la derecha, y es solo verdadero si uno de los lados lo es (falso en caso contrario). |
-| `//` | Comprueba si la fuente contiene todos los elementos que el booleano de destino contiene (origen de matriz, destino de matriz).<br>`//` extrae la subcadena de destino (correspondiente a regexp) y la descodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La característica también admite el uso de valores de cadena constantes, agrupación (`condition1 \|\| condition2) && condition3`) y expresiones regulares (`/[^a-z]$/.test(landing.referring.url)`). |
+| `//` | Comprueba si el origen contiene todos los elementos que el booleano de destino contiene (origen de matriz, destino de matriz).<br>`//` extrae la subcadena del destino (correspondiente a regexp) y la descodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La característica también admite el uso de valores de cadena constantes, agrupación (`condition1 \|\| condition2) && condition3`) y expresiones regulares (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Vídeo de formación: Scripts de perfil ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 

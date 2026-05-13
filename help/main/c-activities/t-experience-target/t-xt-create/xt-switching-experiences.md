@@ -1,13 +1,17 @@
 ---
-keywords: prioridad;crear experiencia;prioridad;experiencia;audiencia;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
+keywords: prioridad;crear experiencia;prioridad;experiencia;público;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
 description: Descubra cómo los visitantes pueden cambiar entre experiencias en una actividad  [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) a medida que evolucionan sus perfiles.
 title: ¿Pueden los visitantes cambiar de experiencia en una actividad de [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 43%
+source-wordcount: 723
+ht-degree: 41%
 
 ---
 
@@ -26,7 +30,7 @@ La siguiente lista presenta solo algunos casos en los que los perfiles de los vi
 
 Para usar estas capacidades en [!DNL Target], es importante entender la siguiente información cuando trabaje con actividades [!UICONTROL Experience Targeting]:
 
-* **La prioridad la controla el orden de las experiencias, de arriba abajo.** Si un visitante cumple los requisitos de más de dos audiencias, ese visitante recibe contenido de la experiencia de mayor prioridad.
+* **La prioridad está controlada por el orden de las experiencias, de arriba a abajo.** Si un visitante cumple los requisitos de más de dos audiencias, recibirá contenido de la experiencia de prioridad más alta.
 * **Los visitantes cambian de experiencia en una actividad [!UICONTROL Experience Targeting] si empiezan a cumplir los requisitos para recibir una experiencia de prioridad más alta.**
 
   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Alemania, este visitante cambia a la Experiencia B (visitantes alemanes).
@@ -46,13 +50,13 @@ Para usar estas capacidades en [!DNL Target], es importante entender la siguient
 
   ![Prioridad de EE. UU. > Todos los visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-refresh.png)
 
-  Si no desea que ocurra esto, puede crear una audiencia nueva que esté definida de forma explícita como audiencia contraria a la de destino, como se muestra en el siguiente ejemplo:
+  Si no desea que ocurra esto, puede crear un público nuevo que esté definido de forma explícita como público contrario al destinatario, como se muestra en el siguiente ejemplo:
 
   ![Prioridad de EE. UU. > No EE. UU.](/help/main/c-activities/t-experience-target/t-xt-create/assets/not-us.png)
 
 * **Con una actividad de [!UICONTROL Experience Targeting] de una sola experiencia, los visitantes permanecerán en una experiencia aunque dejen de cumplir los requisitos para la audiencia que les asigne dicha experiencia.**
 
-  Si no desea que ocurra esto, podría crear otra experiencia dirigida a la audiencia contraria (por ejemplo, “No Estados Unidos” en oposición a “Estados Unidos”)..
+  Si no desea que ocurra esto, podría crear otra experiencia dirigida al público contrario (por ejemplo, “No Estados Unidos” en oposición a “Estados Unidos”)..
 
   Como otra opción, puede crear una actividad [!UICONTROL A/B Test] dirigida a la audiencia deseada con una asignación del tráfico del 100 %, como se muestra a continuación:
 

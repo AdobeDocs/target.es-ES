@@ -2,13 +2,16 @@
 keywords: reglas de inclusión;criterios de inclusión;Recommendations;creación de nuevos criterios;promoción;promociones;filtrado dinámico;dinámico;valores en blanco;ignorar regla de filtrado;filtro estático;filtrar por valor;coincidencia de atributos de entidad;coincidencia de atributos de perfil;coincidencia de parámetros;filtrado por valor;filtro estático
 description: Aprenda a crear reglas de inclusión en  [!DNL Target] Recommendations para criterios y promociones.
 title: ¿Cómo utilizo reglas de inclusión dinámicas y estáticas en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: 1861
 ht-degree: 16%
 
 ---
@@ -116,7 +119,7 @@ Para seleccionar la acción que desee, pase el ratón sobre el icono del engrana
 | [!UICONTROL No promocionar ningún elemento<P>(Solo promociones)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] y [!UICONTROL Parameter Matching] | Esta acción es la predeterminada para [!UICONTROL Entity Attribute Matching].<P>Esta acción es el modo en que [!DNL Target] gestiona los valores vacíos antes de la adición de esta opción: no se muestran resultados para este criterio. |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] y [!UICONTROL Parameter Matching] | Si un valor está en blanco, puede optar por usar un valor estático. |
 
-## Advertencias  {#caveats}
+## Advertencias {#caveats}
 
 >[!IMPORTANT]
 >

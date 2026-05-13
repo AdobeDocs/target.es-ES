@@ -7,10 +7,14 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/-BmxtsKOxfRUkORIz2P-sWTDLCg323cu7FSbdt6SAa4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: 198
+ht-degree: 9%
 
 ---
 
@@ -18,11 +22,11 @@ ht-degree: 6%
 
 Aprenda a implementar los casos de uso de optimización principales en [!DNL Adobe Journey Optimizer] para lograr el máximo impacto en los canales web y basados en código. Descubra estrategias procesables y prácticas recomendadas para mejorar sus esfuerzos de marketing digital.
 
-## Requisitos previos  
+## Requisitos previos
 
 Para realizar los siguientes casos de uso, necesita lo siguiente:
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Estos casos de uso no requieren una licencia de [!DNL Adobe Target]. Estos casos de uso muestran cómo realizar tareas familiares en [!DNL Target] con [!DNL Journey Optimizer], lo que le permite explorar y lograr los mismos resultados con [!DNL Journey Optimizer].
 
 ## Casos de uso

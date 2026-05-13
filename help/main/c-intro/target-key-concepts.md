@@ -4,10 +4,15 @@ description: Conozca los fundamentos de Adobe Target. Este artículo le presenta
 title: ¿Cómo usar Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2id: b6f5758b-84f7-4943-8b05-1297a046943cid: c2923fce-066f-4e68-bc28-ac56b57ccb5cid: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817id: db15a02f-03cd-46fe-a53e-02064cdeadfaid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 97%
+source-wordcount: 1538
+ht-degree: 84%
 
 ---
 
@@ -27,14 +32,14 @@ Target incluye varios tipos de actividades. En la tabla siguiente se proporciona
 
 | Tipo de actividad | Descripción |
 |--- |--- |
-| [Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Una prueba A/B compara dos o más versiones del contenido de su sitio web para comprobar cuál mejora más las conversiones durante un periodo previamente establecido.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de prueba A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de asignación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Auto Target utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing. Las actividades de Auto Target ofrecen a todos los visitantes una experiencia más adaptada en función de su perfil de cliente y del comportamiento de las visitas anteriores de perfiles similares, todo ello con el fin de personalizar el contenido e impulsar las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Las pruebas A/B comparan dos o más versiones del contenido del sitio web para ver cuál mejora más las conversiones durante un período de prueba previamente establecido.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de pruebas A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Asignación automática identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de asignación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Auto Target utiliza aprendizaje automático avanzado para identificar varias experiencias de alto nivel de rendimiento definidas por expertos en marketing. Las actividades de segmentación automática ofrecen a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares, todo ello con el fin de personalizar el contenido y dirigir las conversiones.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación automática](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Uso de datos de Analytics](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puede configurar una actividad para que use [!DNL Adobe Analytics] como fuente de informes. Para este tipo de actividad es necesario que vincule su cuenta de [!DNL Adobe Experience Cloud] con [!DNL Analytics] y [!DNL Target]. |
 | [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing (MVT o prueba multivariada) compara combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento para un público específico e identifica qué elemento tiene mayor impacto en el éxito de la actividad. |
-| [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a un público específico en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de las actividades de segmentación de experiencias](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) | Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.<br>**Nota:** Ahora puede incluir [recomendaciones dentro de actividades de segmentación de experiencias](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | La Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante en función de su perfil de cliente, con el fin de personalizar el contenido y dirigir las conversiones. |
-| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![&#x200B; Target Premium](/help/main/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo “Otras personas que han visto esto también vieron aquello”.<br>**Nota:** Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de asignación automática y segmentación automática) y actividades de segmentación de experiencias (XT). Consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![ Target Premium](/help/main/assets/premium.png) | Una recomendación determina el modo en que se sugiere un producto a un usuario del sitio web según las actividades que este realice en el sitio.<br>Por ejemplo, puede que quiera animar a los usuarios que compran una mochila a que consideren la opción de comprar botas y bastones de senderismo. Podría crear una recomendación que muestre artículos que a menudo se compran juntos, empleando el algoritmo “Otras personas que compraron esto también compraron aquello”. O puede que quiera animar a los visitantes a pasar más tiempo en su sitio multimedia mediante la recomendación de un vídeo similar al que están viendo, empleando el algoritmo &quot;Otras personas que vieron esto vieron aquello&quot;.<br>**Nota:** Ahora puede incluir recomendaciones dentro de la prueba A/B (incluidas las actividades de Asignación automática y Segmentación automática) y las actividades de Segmentación de experiencias (XT). Consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Ubicaciones {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -63,7 +68,7 @@ Una experiencia también puede ser un diseño de página distinto. Por ejemplo, 
 
 [!DNL Target] optimiza las experiencias de cada uno de los visitantes en los puntos de contacto digital y prueba las distintas experiencias para determinar cuál tendrá más éxito. Si planifica meticulosamente la segmentación de las experiencias, tendrá la garantía de que los visitantes del sitio verán las ofertas más relevantes en las ubicaciones adecuadas de la página, lo que mejorará las probabilidades de que la visita tenga el resultado que desea.
 
-## Ofertas   {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
+## Ofertas {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
 Una oferta es el contenido que se muestra en las páginas web durante las campañas o las actividades.
 
@@ -115,7 +120,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Uso de audiencias en Adobe Target (6:21) ![distintivo de información general](/help/main/assets/overview.png)
 
@@ -127,4 +132,4 @@ En este vídeo se describe cómo usar los públicos en [!DNL Target Standard/Pre
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

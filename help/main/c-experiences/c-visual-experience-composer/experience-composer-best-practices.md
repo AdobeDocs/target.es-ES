@@ -4,10 +4,15 @@ description: Conozca las prácticas recomendadas para que sus experiencias funci
 title: ¿Cuáles son las prácticas recomendadas y las limitaciones de [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
+TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 50%
+source-wordcount: 2462
+ht-degree: 49%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 50%
 
 Para garantizar que sus experiencias funcionen según lo previsto, siga las prácticas recomendadas al usar el [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Tenga en cuenta las sugerencias y limitaciones clave para maximizar el rendimiento y evitar problemas comunes.
 
-## Prácticas recomendadas   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Prácticas recomendadas {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
 Las siguientes son las prácticas recomendadas al utilizar el VEC:
 
@@ -44,7 +49,7 @@ Para obtener más información, consulte [El EEC no cargará una dirección URL 
 
 +++
 
-### Utilice ID únicos para los elementos de nivel superior y cualquier otro elemento que pueda ser un buen candidato para pruebas o segmentación. 
+### Utilice ID únicos para los elementos de nivel superior y cualquier otro elemento que pueda ser un buen candidato para pruebas o segmentación.
 
 +++Detalles
 Cualquier cosa que haya dentro del elemento del cuerpo debe tener un ID único. Si se insertan nuevos elementos en el cuerpo y el código se desplaza, al menos podrá reconocer fácilmente los elementos principales.
@@ -237,7 +242,7 @@ Desactive las técnicas de eliminación de iframes en el sitio web y compruebe s
 
 +++
 
-## Advertencias  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## Advertencias {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 Tenga en cuenta las siguientes advertencias al usar [!UICONTROL Visual Experience Composer] para diseñar la actividad.
 
@@ -295,7 +300,7 @@ Si usa [!UICONTROL Enhanced Experienced Composer] en un sitio que no está activ
 
 +++
 
-## Limitaciones   {#section_F33C2EA27F2E417AA036BC199DD6C721}
+## Limitaciones {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 Tenga en cuenta las siguientes limitaciones al trabajar con el VEC:
 

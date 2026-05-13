@@ -3,10 +3,15 @@ description: ¿Qué significan los distintos términos que se usan en Adobe  [!D
 title: ¿Dónde puedo encontrar los términos y definiciones que se usan en Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/3NVue96KdaSn9GJq8xVn-3wijCZofXzQzV4NYn8uDPQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b6f5758b-84f7-4943-8b05-1297a046943cid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2bid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 98%
+source-wordcount: 2514
+ht-degree: 97%
 
 ---
 
@@ -48,9 +53,9 @@ Es útil para probar el marketing de sitios que no tienen mbox, como las empresa
 
 La biblioteca [!DNL at.js] es una nueva biblioteca de implementación para [!DNL Adobe Target] que está diseñada tanto para implementaciones web típicas como para aplicaciones de una sola página. La biblioteca de [!DNL at.js] sustituye a [!DNL mbox.js] con las implementaciones de [!DNL Target].
 
-**audiencia**
+**público**
 
-Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.  Un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Audiencia le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, Target determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
+Grupo de participantes con características similares en una actividad a los se les mostrará una actividad segmentada.  Un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Público le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de un público destinatario, Target determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
 
 **Asignación automática**
 
@@ -70,7 +75,7 @@ La Automated Personalization (AP) combina ofertas o mensajes, y utiliza aprendiz
 
 Realiza pruebas y un seguimiento de las visitas e los anuncios y otro contenido ajeno al sitio. Los anuncios basados en el comportamiento también se pueden usar para identificar al mismo usuario dentro del sitio y fuera de él, y ofrecer una experiencia coherente en la web.
 
-## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaña**
 
@@ -138,7 +143,7 @@ Permite a las aplicaciones de Internet enriquecidas (RIA) manipular el código H
 
 Utiliza la tecnología de página dinámica para transmitir los valores a la oferta.
 
-## E  {#section_55C3D8AF3D31494784C70090D8343244}
+## E {#section_55C3D8AF3D31494784C70090D8343244}
 
 **participación**
 
@@ -166,13 +171,13 @@ Los hosts se agrupan en entornos para facilitar la administración. Los grupos d
 
 **experiencia**
 
-Oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un ayudante de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
+Oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
 **segmentación de experiencias**
 
-Segmentación de experiencias (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
+Segmentación de experiencias (XT) ofrece contenido a un público específico en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
-## F  {#section_45450032955C4DD2B607B85A23C4E21A}
+## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **fuente**
 
@@ -186,7 +191,7 @@ Representación visual de una actividad en Target Standard.
 
 Una interfaz no visual de creación de ofertas y experiencias que resulta útil para crear experiencias para utilizarlas en pruebas A/B, Segmentación de experiencias, Automated Personalization y actividades de Recommendations cuando Visual Experience Compositor no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor basado en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
 
-## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **parámetro de ubicación geográfica**
 
@@ -196,7 +201,7 @@ Le permite segmentar actividades y experiencias en función de la ubicación geo
 
 La conversión o el resultado que indica el éxito de una actividad. La práctica recomendada es no ejecutar nunca una prueba sin tener como objetivo mejorar de una manera específica.
 
-## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **host**
 
@@ -212,7 +217,7 @@ Consulte *Entorno*. Los grupos de hosts se llaman “entornos” en [!DNL Target
 
 Parámetro específico de visitante transmitido a la cookie del visitante desde el mbox. El visitante que regresa es un ejemplo de parámetro de perfil en mbox.
 
-## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **actividad de página de destino**
 
@@ -222,7 +227,7 @@ Una actividad de página de destino le permite usar la segmentación para mostra
 
 Área específica de contenido en una página, a menudo incluida en un solo elemento de DOM. En la metodología de las pruebas MVT, la ubicación a menudo se denomina *factor*. Una prueba multivariable factorial completa compara todas las combinaciones posibles de las ofertas en las ubicaciones.
 
-## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -238,7 +243,7 @@ Se transmite en la página, no en la dirección URL. Los parámetros sirven para
 
 **prueba multivariable**
 
-Multivariate Testing (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad
+Multivariate Testing (MVT) compara combinaciones de ofertas de elementos en una página para determinar qué combinación ofrece el mejor rendimiento para un público específico, además de identificar qué elemento tiene el mayor impacto en el éxito de la actividad
 
 ## N
 
@@ -250,7 +255,7 @@ Los visitantes se incluyen en el segmento Nuevos visitantes si se cumple una de 
 * Es la primera vez que el visitante visita el sitio desde que se borraron las cookies.
 * Es la primera vez que el visitante visita el sitio desde que finalizó la [vida útil del perfil del visitante](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md).
 
-Para obtener más información, consulte [¿Cómo se cuentan las métricas de nuevos visitantes y visitantes que regresan?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Compare esta definición con la del concepto Visitante que regresa, que se describe a continuación.
+Para obtener más información, vea [¿Cómo se cuentan las métricas de nuevos visitantes y visitantes que regresan?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) en Informes de preguntas y respuestas. Compárese con Visitante que regresa a continuación.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -266,7 +271,7 @@ Como oferta se entiende el contenido que se muestra dentro de un mbox durante la
 
 Permite a los visitantes renunciar al seguimiento y la publicación de contenido.
 
-## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **recuento de páginas**
 
@@ -280,7 +285,7 @@ Vista de páginas significa una sola vista de una aplicación móvil o de explor
 
 La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-## R  {#section_86725D549B6F46A6ADEE424F33595705}
+## R {#section_86725D549B6F46A6ADEE424F33595705}
 
 **fórmula**
 
@@ -334,7 +339,7 @@ Una aplicación de una sola página (SPA) es una aplicación o un sitio web que 
 
 Parámetros usados para medir el éxito de una actividad. Las métricas de éxito incluyen medidas comerciales clave que permiten determinar el éxito de una experiencia u oferta determinada en una actividad de Target. Por ejemplo, puede determinar si una oferta nueva o agregar un artículo a un carro de compras aumenta los ingresos por visitante. Las métricas de éxito pueden resultar útiles para detectar problemas con el registro, el pedido o los canales de compra, pero también con la participación del visitante o del cliente.
 
-## T  {#section_1841144841AF41169AF1E83B90C18292}
+## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **prueba**
 
@@ -344,13 +349,13 @@ actividad compara dos o más experiencias con las métricas de éxito que especi
 
 Es un tipo de participación que representa el tiempo invertido en la visita (en segundos) desde el momento en que el visitante ve el primer mbox de visualización de la actividad hasta la carga de la última página de la sesión que tenga un mbox.
 
-## U  {#section_6407B81326FF43049D92265746E6C402}
+## U {#section_6407B81326FF43049D92265746E6C402}
 
 **parámetros de URL.**
 
 Todas las variables de página de referencia y dirección URL de página se pasan automáticamente a un mbox cuando un visitante ve la página con el mbox en cuestión. Estas variables de dirección URL estarán disponibles para usarlas para mostrar la segmentación o los filtros de segmento en los informes.
 
-## V  {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visita**
 
@@ -364,7 +369,7 @@ Cualquier persona que acceda al sitio. Un visitante se evalúa mediante criterio
 
 En Target Standard, una interfaz de usuario WYSIWYG le permite crear y probar fácilmente experiencias y ofertas personalizadas en el contexto del sitio. Puede crear experiencias y ofertas para actividades de Target arrastrando y soltando, intercambiando y modificando el diseño y el contenido de una página web (u oferta).
 
-## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **experiencia ganadora**
 

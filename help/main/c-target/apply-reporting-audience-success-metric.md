@@ -1,17 +1,21 @@
 ---
-keywords: Segmentación;audiencia;informe;métrica de éxito
+keywords: Segmentación;público;informe;métrica de éxito
 description: Aprenda a elegir una métrica de éxito en  [!DNL Adobe Target]  que permita al usuario entrar en la audiencia de informes.
 title: ¿Puedo aplicar una audiencia de informes a una métrica de éxito?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: bcbb6dec9d6add07c109b07bf125c1356ad2a8b9
+TQID: https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 396
 ht-degree: 36%
 
 ---
 
-# Aplicación de una audiencia de informes a una métrica de éxito
+# Aplicación de un público de informes a una métrica de éxito
 
 Elija una métrica de éxito que permita al usuario entrar en la audiencia de informes en [!DNL Adobe Target].
 

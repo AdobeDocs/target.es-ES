@@ -4,10 +4,15 @@ description: Aprenda a utilizar la integración de  [!DNL Target]/[!DNL Real-Tim
 title: ¿Cómo puedo integrar  [!DNL Target]  con  [!DNL Real-Time Customer Data Platform]?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 7e6947a37586c1840216d4137969f399f38a429d
+TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 71%
+source-wordcount: 1125
+ht-degree: 74%
 
 ---
 
@@ -128,25 +133,25 @@ Para obtener más información, consulte [Personalización de próxima visita co
 
 Obtenga información sobre cómo configurar el destino de [!DNL Adobe Target] en [!DNL Real-Time Customer Data Platform] para empezar a enviar segmentos y atributos de perfil desde [!DNL Real-Time CDP] hasta [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3449796/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### Vídeo: Activar segmentos y atributos de perfil
 
 Obtenga información sobre cómo activar segmentos y atributos de perfil de [!DNL Adobe Real-Time Customer Data Platform] hasta [!DNL Adobe Target] para mostrar contenido personalizado en tiempo real en sus sitios web, aplicaciones móviles y otras propiedades digitales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447358/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### Vídeo: Usar segmentos de [!DNL Real-Time CDP] en [!DNL Target]
 
 Aprenda a utilizar segmentos de [!DNL Real-Time Customer Data Platform] en [!DNL Adobe Target] para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446830/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### Vídeo: Uso de atributos de perfil de [!DNL Real-Time CDP] en [!DNL Adobe Target]
 
 Aprenda a utilizar los atributos de perfil de [!DNL Adobe Real-Time Customer Data Platform] en [!DNL Adobe Target] para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451896/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### Blog y vídeo de [!DNL Adobe Target]: personalización mejorada de la misma página
 

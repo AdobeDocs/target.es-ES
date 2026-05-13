@@ -2,12 +2,17 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas
 description: Descubra cómo una actividad de [!UICONTROL Auto-Target] proporciona a cada visitante la experiencia más adaptada en función de los perfiles de los clientes y del comportamiento de visitantes similares.
 title: ¿Qué es una actividad de [!UICONTROL Auto-Target]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: 1882
 ht-degree: 18%
 
 ---
@@ -56,7 +61,7 @@ Hay algunas consideraciones importantes que se deben tener en cuenta al usar [!U
 
 * Utilice un mínimo de dos experiencias.
 
-## Terminología   {#section_A309B7E0B258467789A5CACDC1D923F3}
+## Terminología {#section_A309B7E0B258467789A5CACDC1D923F3}
 
 Los siguientes términos pueden resultar útiles al tratar el tema de [!UICONTROL Auto-Target]:
 
@@ -64,7 +69,7 @@ Los siguientes términos pueden resultar útiles al tratar el tema de [!UICONTRO
 |---|---|
 | [Bandido multibrazo](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Un método multi-armed bandit en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje. |
 | [Bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | El bosque aleatorio es una solución pionera de aprendizaje automático. En términos de ciencia de datos, se trata de una clasificación de conjunto, o método de regresión, que funciona mediante la construcción de muchos árboles de decisión basados en los atributos del visitante y la visita. En [!DNL Target], el bosque aleatorio se usa para determinar qué experiencia se espera que tenga la mayor probabilidad de conversión (o los mayores ingresos por visita) para cada visitante específico. |
-| [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (sin personalizar), al mismo tiempo que se minimiza el &quot;coste&quot; de encontrar esa experiencia. El muestreo Thompson siempre elige un ganador, incluso si no hay diferencia estadística entre dos experiencias. |
+| [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (sin personalizar), al mismo tiempo que se minimiza el &quot;coste&quot; de encontrar esa experiencia. El muestreo Thompson siempre selecciona un ganador, aunque no haya diferencias estadísticas entre las dos experiencias. |
 
 ## Cómo funciona [!UICONTROL Auto-Target] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -76,7 +81,7 @@ Obtenga más información acerca de los datos y algoritmos subyacentes de [!UICO
 | [Cargando datos para los algoritmos Personalization de [!DNL Target]](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Hay varias formas de introducir datos para los modelos [!UICONTROL Auto-Target] y [!UICONTROL Automated Personalization]. |
 | [Recopilación de datos para los algoritmos Personalization de [!DNL Target]](/help/main/c-activities/t-automated-personalization/ap-data.md) | Los algoritmos de personalización de [!DNL Target] recopilan automáticamente varios datos. |
 
-## Determinación de la asignación de tráfico.  {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Determinación de la asignación de tráfico. {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Dependiendo del objetivo de su actividad, puede elegir una asignación de tráfico diferente entre control y experiencias personalizadas. Lo mejor es determinar este objetivo antes de realizar su actividad en vivo.
 

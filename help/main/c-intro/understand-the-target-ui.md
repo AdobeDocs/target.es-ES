@@ -4,9 +4,13 @@ description: Familiarícese con la interfaz de usuario y encuentre vínculos a i
 title: ¿Cómo se utiliza la IU de  [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3f7c81654d4f7982acf166b314cc332822cc87a6
+TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: 1373
 ht-degree: 23%
 
 ---
@@ -61,7 +65,7 @@ Haga clic en el icono [!UICONTROL Notifications] ( ![icono de notificaciones](/h
 
 El panel contiene fichas para [!UICONTROL Requests], [!UICONTROL Notifications] y [!UICONTROL Announcements].
 
-![&#x200B; Notificaciones &#x200B;](assets/notifications.png)
+![ Notificaciones ](assets/notifications.png)
 
 Las secciones siguientes contienen información sobre cada pestaña y cómo configurar las notificaciones y los anuncios:
 
@@ -113,7 +117,7 @@ También puede configurar un recordatorio para que se le notifique de nuevo pasa
 
 Las notificaciones proactivas le avisan sobre eventos de interrupción y eventos de mantenimiento.
 
-Encontrará información más detallada en la página [Estado de Adobe](https://status.adobe.com/es).
+Encontrará información más detallada en la página [Adobe Status](https://status.adobe.com/es).
 
 ### Configuración de notificaciones y anuncios
 
@@ -165,11 +169,11 @@ La lista **[!UICONTROL Activities]** es la vista predeterminada al abrir [!DNL T
 
 Consulte [Actividades](/help/main/c-activities/activities.md) para obtener información detallada acerca de los tipos de actividades disponibles en [!DNL Target] y para obtener más información acerca de la interfaz de usuario de la lista [!UICONTROL Activity].
 
-## Audiencias
+## Públicos
 
 Haga clic en la ficha **[!UICONTROL Audiences]** para mostrar la lista [!UICONTROL Audiences], donde puede crear audiencias y administrar las existentes.
 
-Una audiencia es un grupo de participantes con características similares en una actividad a los se les dirige una actividad. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La característica [!UICONTROL Audience] le permite segmentar contenido y experiencias diferentes para optimizar el marketing digital mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de una audiencia objetivo, [!DNL Target] determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
+Una audiencia es un grupo de participantes con características similares en una actividad a los se les dirige una actividad. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La característica [!UICONTROL Audience] le permite segmentar contenido y experiencias diferentes para optimizar el marketing digital mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Si un visitante se identifica como parte de un público destinatario, [!DNL Target] determina qué experiencia se mostrará según los criterios definidos durante la creación de la actividad.
 
 Consulte [Crear audiencias](/help/main/c-target/c-audiences/create-audience.md) para obtener información detallada acerca de los tipos de audiencia en [!DNL Target] y para obtener más información acerca de la interfaz de usuario de la lista [!UICONTROL Audience].
 
@@ -177,7 +181,7 @@ Consulte [Crear audiencias](/help/main/c-target/c-audiences/create-audience.md) 
 
 Haga clic en la ficha **[!UICONTROL Offers]** para mostrar la lista [!UICONTROL Offers], donde puede crear experiencias y ofertas y administrar las experiencias y ofertas existentes.
 
-Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un ayudante de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
+Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
 Consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) para obtener información detallada acerca de los tipos de ofertas en [!DNL Target] y para obtener más información acerca de la interfaz de usuario de la lista [!UICONTROL Offer].
 

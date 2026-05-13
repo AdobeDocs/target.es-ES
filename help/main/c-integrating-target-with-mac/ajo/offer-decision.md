@@ -4,10 +4,15 @@ description: Aprenda a agregar una decisión de oferta creada en  [!DNL Adobe Jo
 title: ¿Cómo Se Utilizan Las Decisiones De Oferta?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
+TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
+source-wordcount: 951
+ht-degree: 4%
 
 ---
 
@@ -19,11 +24,11 @@ Agregar decisiones de oferta creadas en [!DNL Adobe Journey Optimizer] a [!DNL T
 
 Para obtener más información acerca de [!DNL Adobe Journey Optimizer] y las decisiones de oferta, consulte los siguientes temas en la documentación de *[!DNL Journey Optimizer]*:
 
-* [Introducción a Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=es)
+* [Introducción a Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Acerca de la administración de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=es)
+* [Acerca de Administración de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=es)
 
-## Requisitos previos  
+## Requisitos previos
 
 Para usar decisiones de oferta en [!DNL Target], necesita lo siguiente:
 
@@ -72,7 +77,7 @@ En [!DNL Adobe Journey Optimizer], puede crear una oferta de imagen a pantalla c
 
 1. En el carril **[!UICONTROL Add Offer Decision]** del lado derecho del VEC, seleccione la zona protegida deseada y, a continuación, haga clic en Seleccionar decisión de oferta.placement.
 
-   Una [zona protegida](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=es){target=_blank} en [!DNL Adobe Experience Platform] le permite particionar la instancia en entornos virtuales. Por ejemplo, puede tener un entorno de producción y un entorno de ensayo. Una [ubicación](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=es){target=_blank} en [!DNL Adobe Journey Optimizer] ayuda a garantizar que el contenido de la oferta correcta se muestre en la ubicación correcta.
+   Una [zona protegida](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} en [!DNL Adobe Experience Platform] le permite particionar la instancia en entornos virtuales. Por ejemplo, puede tener un entorno de producción y un entorno de ensayo. Una [ubicación](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} en [!DNL Adobe Journey Optimizer] ayuda a garantizar que el contenido de la oferta correcta se muestre en la ubicación correcta.
 
    ![Listas desplegables de zona protegida y ubicaciones en el cuadro de diálogo Agregar decisión de oferta](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 

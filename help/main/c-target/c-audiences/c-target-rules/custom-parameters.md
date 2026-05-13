@@ -4,10 +4,14 @@ description: Aprenda a pasar parámetros personalizados a  [!DNL Adobe Target] p
 title: ¿Puedo segmentar visitantes en función de parámetros personalizados?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/IiMsTLXIYWfd8vXInIfyQtFZ4RDNTe28bPfvqFgi77U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 38%
+source-wordcount: 497
+ht-degree: 40%
 
 ---
 
@@ -17,7 +21,7 @@ Los parámetros personalizados son parámetros de mbox en [!DNL Adobe Target]. S
 
 Para obtener más información, consulte [Pasar parámetros a un mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=es){target=_blank}.
 
-Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParameter` ya no le pide que especifique un valor para `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
+Al crear un público personalizado basado en un parámetro de mbox, `mboxParameter` ya no le pide que especifique un valor para `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
 
 1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
@@ -54,7 +58,7 @@ Al crear una audiencia personalizada basada en un parámetro de mbox, `mboxParam
    * Empiece por
    * Finaliza con
 
-   ![Audiencia de parámetros personalizados](assets/custom.png)
+   ![Público de parámetros personalizados](assets/custom.png)
 
 1. Introduzca cada valor en una línea nueva
 1. (Opcional) Configure reglas adicionales para la audiencia.
@@ -68,14 +72,14 @@ La tarjeta emergente [detalles de definición](/help/main/c-target/c-audiences/a
 
 ## Consideraciones {#considerations}
 
-* Las audiencias y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o la audiencia orientada a ese parámetro no será calificada para el mbox regional.
+* Los públicos y actividades se evalúan para un mbox específico. Por ejemplo, si el mbox global pasa un determinado parámetro pero el mbox regional no, la actividad o la audiencia orientada a ese parámetro no será calificada para el mbox regional.
 * La segmentación no se evalúa en parámetros de mbox internos como mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId y mboxVersion.
 
 ## Vídeo de formación: Creación de audiencias ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
-* Crear audiencias
+* Crear públicos
 * Definir categorías de audiencias
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

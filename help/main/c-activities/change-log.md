@@ -4,10 +4,13 @@ description: Obtenga acceso al registro de cambios de una actividad en Adobe [!D
 title: ¿Cómo puedo ver un registro de cambios de actividades?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: f227e09052db168f99dc28f652c4f0ed5d220601
+TQID: https://experienceleague.adobe.com/YmadzVwbj4Hy1bk3Q7a0hp9oZ7-lSgl12ImQaEsiDwU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: 180
+ht-degree: 12%
 
 ---
 
@@ -20,14 +23,14 @@ Para acceder a la página [!UICONTROL Change Log]:
 1. Haga clic en **[!UICONTROL Activities]** > haga clic en la actividad que desee en la lista.
 1. Haga clic en **[!UICONTROL Change Log]** en el carril izquierdo.
 
-La acción realizada, la fecha en que se realizó la acción y el usuario que realizó la acción se enumeran cada vez que se crea, actualiza, activa o desactiva una actividad. También se enumeran los cambios en los objetivos personalizados y las ofertas utilizadas en la actividad.
+La acción realizada, la fecha en que se realizó la acción y el usuario que realizó la acción se enumeran cada vez que se crea, actualiza, activa o desactiva una actividad. Asimismo, también se enumeran los cambios en los objetivos personalizados y en las ofertas utilizadas en la actividad.
 
 Actualice la página para ver los cambios de estado. También puede enumerar las acciones realizadas en orden ascendente o descendente haciendo clic en el encabezado de columna [!UICONTROL Date].
 
 ## API de registro de auditoría de Target
 
-* [Revisiones: obtener el registro de auditoría por el nombre del último autor y una marca de tiempo modificada después](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
-* [Enumerar el registro de cambios de la actividad](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+* [Revisiones: obtenga el registro de auditoría por el último nombre del autor y una marca de tiempo posterior a la modificación](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [Enumerar registro de cambios de actividad](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
 
 
 

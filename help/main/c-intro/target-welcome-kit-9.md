@@ -4,10 +4,15 @@ description: Ha creado su primera actividad en Adobe Target. ¿Cuál es el sigui
 title: ¿Dónde puedo encontrar recursos adicionales para utilizar Target de forma más eficaz?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 78%
+source-wordcount: 698
+ht-degree: 79%
 
 ---
 
@@ -42,6 +47,6 @@ Hemos compilado una lista organizada de información valiosa para ayudarle a obt
 
 * **Página principal de Adobe Target**: Página de inicio de [!DNL Adobe Target], donde podrá obtener información sobre nuestras capacidades y sobre nuestras historias de éxito más recientes. Consulte [Adobe Target](https://www.adobe.com/es/marketing/target.html).
 * **El blog**: Manténgase al día con información sobre las noticias más recientes, sugerencias e historias de éxito a través del [blog de Target](https://blog.adobe.com/en/topics/target).
-* **Experience League**: descubra las guías, los eventos y el aprendizaje que necesita para poner en marcha su empresa de experiencias, conectarse a la comunidad de Target y encontrar las respuestas que busca. Consulte la [Página principal de Adobe Experience League](https://experienceleague.adobe.com/es?lang=es#home).
+* **Experience League**: descubra las guías, los eventos y el aprendizaje que necesita para poner en marcha su empresa de experiencias, conectarse a la comunidad de Target y encontrar las respuestas que busca. Consulte la [Página principal de Adobe Experience League](https://experienceleague.adobe.com/?lang=es#home).
 * **Certificación de Adobe Target**: Obtenga el estado certificado por Adobe con nuevos exámenes de Adobe Target. Programe un examen aquí o cursos de aprendizaje. Consulte [Aprendizaje y certificación](/help/main/c-intro/training-and-certification.md).
 * **Notas de la versión de Adobe Target**: Información sobre funciones, mejoras y correcciones de cada versión de [!DNL Target Standard] y [!DNL Target Premium]. Además, también se incluyen notas de la versión de la API de Target, el SDK, la biblioteca JavaScript (at.js) y otros cambios de plataforma, cuando corresponda. Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md).

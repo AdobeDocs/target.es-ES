@@ -4,10 +4,13 @@ description: Obtenga información acerca de la métrica de participación Puntua
 title: ¿Qué es la métrica Puntuación de captación?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 48%
+source-wordcount: 777
+ht-degree: 44%
 
 ---
 
@@ -21,7 +24,7 @@ En el siguiente ejemplo se muestra cómo se calcula la participación de puntuac
 
 En este ejemplo, el visitante experimenta en primer lugar la experiencia del gato. Supongamos que una solicitud [!DNL Target] global pasa una puntuación de página basada en el valor de la página. Si el especialista en marketing ha capturado una participación de recuento de páginas en una métrica de éxito asociada con `**any Target request**`, la puntuación de visitas se acumula para cualquier solicitud que se visualice después de la solicitud de visualización alrededor de la imagen del gato.
 
-La primera página añade 1 a la puntuación, la segunda página 0,25, la tercera 0,10 y la cuarta 0,10 para un total de 1,45. Esto puede interpretarse como puntos o moneda. En una visita independiente, un visitante experimenta la experiencia Dog (Perro) y, aunque el visitante ve menos páginas, la puntuación es 2,10, mayor que la de la otra visita; esto se debe a que el visitante ha visualizado páginas con más valor.
+La primera página agrega 1 a la puntuación, la segunda página 0,25, la tercera 0,10 y la cuarta 0,10, con un total de 1,45. Esto puede interpretarse como moneda o como puntos. En una visita independiente, un visitante experimenta la experiencia Dog (Perro) y, aunque el visitante ve menos páginas, la puntuación es 2,10, mayor que la de la otra visita; esto se debe a que el visitante ha visualizado páginas con más valor.
 
 Puede tener en cuenta los costos de adquisición de la cuenta y los ingresos de vínculos afiliados pasando AdBoxes y redirectores, tal como se muestra en el flujo de páginas siguiente. Observe que, en este ejemplo, ambas [!DNL Target] solicitudes de la página de artículo superan una puntuación, posiblemente representando un CPM conocido.
 

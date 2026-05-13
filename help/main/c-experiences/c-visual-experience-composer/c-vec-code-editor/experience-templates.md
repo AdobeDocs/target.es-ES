@@ -4,16 +4,19 @@ description: Aprenda a utilizar las plantillas de experiencia, que son muestras 
 title: ¿Qué plantillas de experiencia están disponibles en Target?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 75%
+source-wordcount: 573
+ht-degree: 60%
 
 ---
 
 # Plantillas de experiencia
 
-Información sobre [!DNL Adobe Target] plantillas de experiencia para usar en código personalizado. [!DNL Target] plantillas de experiencia son muestras precodificadas con entradas configurables que se utilizarán para ejecutar casos de uso habituales para expertos en marketing.
+Información sobre [!DNL Adobe Target] plantillas de experiencia para usar en código personalizado. [!DNL Target] Las plantillas de experiencia son muestras precodificadas con entradas configurables que se utilizan para ejecutar casos de uso habituales para expertos en marketing.
 
 Estas plantillas de experiencia se proporcionan gratuitamente a los desarrolladores y expertos en marketing como punto de partida para la ejecución de casos de uso comunes, ya sea mediante el VEC o el Compositor de experiencias basadas en formularios.
 
@@ -25,13 +28,13 @@ La [plantilla de experiencia Banner de carrusel con miniaturas](https://github.c
 
 ![imagen exp-template-banner-carousel-thumbnails](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Banner de carrusel   {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Banner de carrusel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 La [plantilla de experiencia Banner de carrusel](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) es un carrusel giratorio que normalmente se utiliza en las páginas de inicio y de aterrizaje u otras páginas de entrada de gran volumen. Este carrusel no girará automáticamente a través de las imágenes y se puede interactuar con él directamente haciendo clic en las flechas izquierda y derecha.
 
 ![imagen exp-template-banner-carousel](assets/exp-template-banner-carousel.png)
 
-## Banner de cuenta atrás   {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Banner de cuenta atrás {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 La [plantilla de experiencia Banner de cuenta atrás](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) es un banner grande con una cuenta atrás central que normalmente se utiliza en las páginas de inicio y de aterrizaje u otras páginas de entrada de gran volumen.
 
@@ -43,7 +46,7 @@ La [plantilla de experiencia Botón Generador](https://github.com/Adobe-Marketin
 
 ![imagen exp-template-button-builder](assets/exp-template-button-builder.png)
 
-## Lightbox con cuenta atrás   {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox con cuenta atrás {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 La [plantilla de experiencia Lightbox con cuenta atrás](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) es una ventana emergente de superposición de lightbox que normalmente se utiliza en las páginas de inicio y de aterrizaje u otras páginas de entrada de gran volumen.
 

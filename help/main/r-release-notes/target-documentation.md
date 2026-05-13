@@ -4,10 +4,14 @@ description: Acceda a la documentación y recursos de  [!DNL Adobe Target] , que
 title: ¿Dónde puedo encontrar documentación y recursos para  [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
+TQID: https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 86%
+source-wordcount: 510
+ht-degree: 89%
 
 ---
 
@@ -32,5 +36,5 @@ Las siguientes guías y recursos están disponibles para [!DNL Target]:
 | [Horario del servicio de atención al cliente de Adobe](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. Estas sesiones están diseñadas tanto para informar como para ayudar a los participantes a solucionar problemas, y ofrecen sugerencias y trucos para alcanzar el éxito con las soluciones de [!DNL Adobe Experience Cloud], como [!DNL Target]. |
 | [Serie de seminarios web de fundamentos de Target](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Información de registro y vínculos a sesiones anteriores de la serie de seminarios web sobre fundamentos de [!DNL Target], una serie de seminarios web sobre éxito del cliente que ofrece la comunidad. |
 
-Además de los recursos anteriores, visite la [Comunidad de Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es), donde podrá:
+Además de los recursos anteriores, visite la [Comunidad de Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), donde podrá:
 

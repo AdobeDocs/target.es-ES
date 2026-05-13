@@ -2,13 +2,16 @@
 keywords: diseño de recomendaciones;crear diseño;copiar diseño
 description: Aprenda a crear un diseño  [!DNL Target Recommendations] usando un diseño predeterminado o creando uno personalizado para que se ajuste mejor al diseño de la página.
 title: ¿Cómo se crea un diseño en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 19%
+source-wordcount: 1006
+ht-degree: 22%
 
 ---
 
@@ -48,7 +51,7 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear uno per
 
    Se muestra el cuadro de diálogo [!UICONTROL Create Design].
 
-1. Escriba **[!UICONTROL &#x200B; Name]** y una imagen de vista previa opcional para mostrarla en la tarjeta de diseño.
+1. Escriba **[!UICONTROL  Name]** y una imagen de vista previa opcional para mostrarla en la tarjeta de diseño.
 
    Cuando se usa un diseño predeterminado, el nombre del diseño y &quot;Copiar&quot; aparecen en el campo **[!UICONTROL Content Name]**. Puede editar el nombre. También puede seleccionar una imagen para mostrarla en la tarjeta de diseño.
 
@@ -56,7 +59,7 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear uno per
 
    Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Encontrará información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño con Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Un diseño puede ser HTML o no HTML. De manera predeterminada, los diseños de HTML se encapsulan con una etiqueta `<div>` para permitir el seguimiento de clics en un entorno web. Los diseños que no son de HTML son para entornos que no son de web en los que no es posible realizar un seguimiento de clics. Deslice el conmutador [!UICONTROL HTML Design] a la posición &quot;desactivado&quot; para utilizar código que no sea de HTML.
+   Un diseño puede ser HTML o no HTML. De manera predeterminada, los diseños de HTML se encapsulan con una etiqueta `<div>` para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice el conmutador [!UICONTROL HTML Design] a la posición &quot;desactivado&quot; para utilizar código que no sea de HTML.
 
    >[!NOTE]
    >
@@ -320,4 +323,4 @@ Este vídeo contiene la información siguiente:
 * Crear un diseño personalizado
 * Aprenda a hacer referencia a las variables de visualización en sus diseños
 
->[!VIDEO](https://video.tv.adobe.com/v/35325?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

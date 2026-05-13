@@ -4,10 +4,15 @@ description: Conozca los requisitos de implementación de Analytics para  [!DNL 
 title: ¿Qué debo saber antes de implementar A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 656f728ba890f1f5afc0404e22f6acb1a2565fe6
+TQID: https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0aid: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 24%
+source-wordcount: 1014
+ht-degree: 26%
 
 ---
 
@@ -19,7 +24,7 @@ Antes de decidir utilizar esta integración, revise las siguientes secciones y t
 
 >[!NOTE]
 >
->Este artículo se aplica solo a las implementaciones de at.js. Para obtener información acerca de la implementación de [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vea el registro de [Adobe Analytics for Target (A4T) en Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=es){target=_blank}.
+>Este artículo se aplica solo a las implementaciones de at.js. Para obtener información acerca de la implementación de [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vea el registro de [Adobe Analytics for Target (A4T) en Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Requisitos de implementación {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -79,11 +84,11 @@ Este aumento se ve reflejado en todos los servicios y herramientas de [!DNL Anal
 
 El aumento de la latencia comienza después de implementar el servicio de ID de visitante [!DNL Experience Cloud], aunque no haya implementado correctamente esta integración.
 
-## ID suplementario.  {#section_2C1F745A2B7D41FE9E30915539226E3A}
+## ID suplementario. {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
 Todas las llamadas de [!DNL Target] utilizadas por una actividad de A4T para entregar contenido o registrar la métrica de objetivo deben tener una visita de [!DNL Analytics] correspondiente que comparta el ID suplementario para A4T para funcionar correctamente.
 
-Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) como el parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
+Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) como el parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
 
 * Se ha implementado el servicio de ID de visitante.
 

@@ -4,10 +4,14 @@ description: Obtenga información sobre cuánto tiempo se debe ejecutar una prue
 title: ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
+TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3123'
-ht-degree: 46%
+source-wordcount: 3150
+ht-degree: 47%
 
 ---
 
@@ -127,7 +131,7 @@ La tasa de conversión de línea de base es la tasa de conversión de la oferta 
 
 ### Número de visitantes {#section_19009F165505429E95291E6976E498DD}
 
-Puede resultar difícil equilibrar los costes de oportunidad que conlleva ejecutar una prueba durante mucho tiempo, con el riesgo de falsos positivos y falsos negativos. Obviamente, usted no quiere tomar las decisiones equivocadas, pero estar paralizado por estándares de prueba demasiado estrictos o rígidos tampoco es deseable.
+Puede resultar difícil equilibrar los costes de oportunidad que conlleva ejecutar una prueba durante mucho tiempo, con el riesgo de falsos positivos y falsos negativos. Obviamente, no deseará tomar decisiones equivocadas, pero tampoco resulta deseable quedar paralizado por estándares de pruebas demasiado estrictos o demasiado rígidos.
 
 Como guía general, se recomienda un nivel de confianza del 95 % y una potencia estadística del 80 %.
 
@@ -141,7 +145,7 @@ En este ejemplo, es posible que considere adecuado poder detectar un alza del 5 
 
 Una vez más, se recomienda que el tiempo necesario se redondee siempre a la semana completa más próxima, para evitar cualquier efecto de día de la semana. Por tanto, en este ejemplo, la prueba se realizaría durante dos semanas antes de evaluar los resultados.
 
-### Métrica de ingresos por visita.  {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Métrica de ingresos por visita. {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Al usar Ingresos por visita (RPV) como métrica, se agrega una fuente de variación adicional porque RPV es el producto de ingresos por pedido y tasa de conversión (RPV = Ingresos / #visitors = (Ingresos por pedido &#42; #orders) / # visitantes = Ingresos por pedido &#42; (#visitors &#42; CTR) / #visitors = Ingresos por pedido &#42; CTR), cada uno con su propia variación. La varianza de la tasa de conversión puede estimarse directamente utilizando un modelo matemático, pero la varianza de los ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la variación en los ingresos. La variación se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecido, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
@@ -162,7 +166,7 @@ En general, el uso de RPV como métrica requiere entre un 20 y un 30 % más de t
 
 Cada vez que compara dos ofertas, las posibilidades de obtener un falso positivo (es decir, observar una diferencia con relevancia estadística aunque no haya diferencia en la tasa de conversión) son iguales al nivel de relevancia. Por ejemplo, si hay cinco ofertas, A/B/C/D/E, y A es la oferta control, se realizan las cuatro comparaciones (control frente a B, control frente a C, control frente a D y control frente a E), y la probabilidad de obtener un falso positivo es del 18,5 % aunque el nivel de confianza sea del 95 % porque Pr (al menos un falso positivo) = 1 - Pr (sin falsos positivos) = 1 - 0,95 = 18,5 %. En este contexto, un falso positivo se define como la notificación de que el control es mejor que la alternativa, o que la alternativa es mejor que el control cuando, de hecho, no hay ninguna diferencia entre ellos.
 
-## Conclusión.  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusión. {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Al usar una actividad [!UICONTROL Auto-Allocate], [!DNL Target] identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. [!UICONTROL Auto-Allocate] facilita la consecución de los objetivos de conversión al eliminar el trabajo de conjetura.
 

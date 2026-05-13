@@ -4,9 +4,12 @@ description: Aprenda de los errores de otros para no cometerlos al utilizar Adob
 title: ¿Cuáles son los errores más comunes que se cometen al usar [!DNL Target] y cómo puedo evitarlos?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: 400
 ht-degree: 89%
 
 ---
@@ -32,4 +35,4 @@ Lo bueno de comenzar su programa de optimización y personalización ahora es qu
 | Concluir una actividad antes de que los resultados sean estadísticamente significativos. | Compruebe la duración de la prueba con la [!DNL Adobe Target] [Calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |
 | Recibir resultados negativos o nulos de una actividad de [!DNL Target]. | Confirme que vale la pena probar la actividad. |
 | No codificar la experiencia ganadora. | Utilice los datos de actividad para mostrar el valor y obtener la aprobación para su codificación. |
-| No compartir resultados con otros que no sean del equipo de prueba. | Amplíe la comunicación e incluya almuerzos y formación, elabore un tablero de programas, y programe reuniones con las partes interesadas. |
+| No compartir resultados con otros que no sean del equipo de prueba. | Amplíe la comunicación e incluya almuerzos y formación, elabore un panel de control de programas, y programe reuniones con las partes interesadas. |

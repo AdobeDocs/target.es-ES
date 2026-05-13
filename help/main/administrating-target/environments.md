@@ -5,9 +5,15 @@ title: ¿Qué son los entornos y cómo se utilizan?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+TQID: https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 658
 ht-degree: 46%
 
 ---
@@ -50,7 +56,7 @@ Para establecer el entorno predeterminado en la creación de informes:
 >
 >Los usuarios de [!DNL Recommendations] deben volver a generar la base de datos de comportamiento y la base de datos de producto si los hosts se cambian de grupo de hosts.
 >
->Si especifica un entorno [predeterminado en un [!DNL Adobe Experience Platform] conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es#target){target=_blank}, esta configuración anula la configuración de [!DNL Target].
+>Si especifica un entorno [predeterminado en un [!DNL Adobe Experience Platform] conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, esta configuración anula la configuración de [!DNL Target].
 
 ## Cambiar el nombre de un entorno {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

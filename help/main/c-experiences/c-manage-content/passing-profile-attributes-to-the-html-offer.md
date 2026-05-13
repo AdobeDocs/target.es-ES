@@ -4,10 +4,14 @@ description: Aprenda a pasar datos dinámicos a Ofertas en  [!DNL Adobe Target].
 title: ¿Cómo paso datos dinámicos a las ofertas?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 52%
+source-wordcount: 538
+ht-degree: 55%
 
 ---
 
@@ -73,7 +77,7 @@ Cuando `testAttribute` no existe o está en blanco, &quot;¡Todos los elementos!
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-También puede introducir y extraer valores para mostrar. Si su valor tiene un apóstrofo, por ejemplo, puede aplicar un escape al valor para que no interrumpa el JavaScript en la página. (Las ofertas se escriben en JavaScript, por lo que un solo apóstrofo puede confundirse con una cotización). Por ejemplo:
+También puede introducir y extraer valores para mostrar. Si su valor tiene un apóstrofo, por ejemplo, puede aplicar un escape al valor para que no interrumpa el JavaScript en la página. (Las ofertas de se escriben en JavaScript, por lo que un solo apóstrofo se puede confundir con las comillas). Por ejemplo:
 
 `${user.encodedValue encode="unescape"}`
 

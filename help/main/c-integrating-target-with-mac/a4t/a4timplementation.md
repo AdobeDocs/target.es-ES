@@ -4,9 +4,14 @@ description: Siga los pasos necesarios para implementar Analytics for [!DNL Targ
 title: ¿Cómo implemento Analytics para  [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ddfb06a17a24200b2aa4f01d370cc0e92ff5f180
+TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1168
 ht-degree: 17%
 
 ---
@@ -33,7 +38,7 @@ Cree una configuración de Edge con [!DNL Adobe Experience Platform] mediante la
 
 ### Paso 4: Instalación y configuración de Platform Web SDK
 
-Para empezar a entregar experiencias de [!DNL Target] y aplicar [!DNL Analytics] con fines de seguimiento y análisis, [instale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es) y [configure](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es) Platform Web SDK en las páginas del sitio.
+Para empezar a entregar experiencias de [!DNL Target] y aplicar [!DNL Analytics] con fines de seguimiento y análisis, [instale](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) y [configure](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) Platform Web SDK en las páginas del sitio.
 
 ### Paso 5: Habilitar las opciones para usar A4T
 
@@ -58,15 +63,15 @@ Deben cumplirse los requisitos de cuenta de usuario para poder crear una activid
 
 El servicio de ID de visitante le permite identificar usuarios en [!DNL Adobe Experience Cloud] soluciones. Implementar o migrar a la versión requerida del ID de visitante de Experience Cloud. Para obtener más información, consulte “Requisitos de implementación” en [Antes de la implementación](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulte [Implementar el servicio Experience Cloud ID para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=es) en la documentación de *Servicio Experience Cloud ID de visitante*.
+Consulte [Implementar el servicio Experience Cloud ID para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) en la documentación de *Servicio Experience Cloud ID de visitante*.
 
 ### Paso 4: Actualizar AppMeasurement para JavaScript o s_code
 
 Implemente o migre a la versión requerida de appMeasurement.js. Para obtener más información, consulte “Requisitos de implementación” en [Antes de la implementación](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Para nuevas implementaciones, consulte [Descripción general de la implementación de JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=es) en la *Guía de implementación de Analytics*.
+Para nuevas implementaciones, consulte [Descripción general de la implementación de JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) en la *Guía de implementación de Analytics*.
 
-Para realizar una migración, consulte [Migración a AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=es) en la *Guía de implementación de Analytics*.
+Para realizar una migración, consulte [Migración a AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) en la *Guía de implementación de Analytics*.
 
 ### Paso 5: Descargar y actualizar at.js
 
@@ -116,9 +121,9 @@ Esta configuración tiene un efecto global, lo que significa que cada llamada re
 }
 ```
 
-La carga útil se puede reenviar a Analytics a través de la [API de inserción de datos](https://helpx.adobe.com/es/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para las actividades de Asignación automática y Segmentación automática, también debe reenviar el sessionId. Para obtener más información, consulte [Informes de Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=es){target=_blank} en la guía de *SDK de Adobe Target*.
+La carga útil se puede reenviar a Analytics a través de la [API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Para las actividades de Asignación automática y Segmentación automática, también debe reenviar el sessionId. Para obtener más información, consulte [Informes de Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} en la guía de *SDK de Adobe Target*.
 
-Si no desea una configuración global y prefiere un método bajo demanda, use la función at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=es){target=_blank} pasando **analyticsLogging: &quot;client_side&quot;**. La carga útil de Analytics solo se devuelve para esta llamada y el backend [!DNL Target] no reenvía la carga útil a [!DNL Analytics]. Al llevar a cabo este enfoque, cada solicitud at.js [!DNL Target] devuelve la carga útil de forma predeterminada, pero solo cuando se desea y se especifica.
+Si no desea una configuración global y prefiere un método bajo demanda, use la función at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} pasando **analyticsLogging: &quot;client_side&quot;**. La carga útil de Analytics solo se devuelve para esta llamada y el backend [!DNL Target] no reenvía la carga útil a [!DNL Analytics]. Al llevar a cabo este enfoque, cada solicitud at.js [!DNL Target] devuelve la carga útil de forma predeterminada, pero solo cuando se desea y se especifica.
 
 Por ejemplo:
 
@@ -174,7 +179,7 @@ La respuesta es la siguiente:
 }
 ```
 
-La carga útil se puede reenviar a [!DNL Analytics] mediante la [API de inserción de datos](https://helpx.adobe.com/es/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+La carga útil se puede reenviar a [!DNL Analytics] mediante la [API de inserción de datos](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Paso 8: Validar la implementación {#step8}
 

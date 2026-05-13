@@ -4,16 +4,19 @@ description: Las ventanillas móviles ayudan a ver cómo aparecen las actividade
 title: ¿Cómo utilizo las ventanillas móviles para las experiencias adaptables?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 94%
+source-wordcount: 1361
+ht-degree: 95%
 
 ---
 
 # Ventanillas móviles para las experiencias adaptables
 
-Las ventanillas móviles permiten obtener una vista previa de cómo aparecen las actividades de [!DNL Adobe Target] en pantallas de diversos tamaños. 
+Las ventanillas móviles permiten obtener una vista previa de cómo aparecen las actividades de [!DNL Adobe Target] en pantallas de diversos tamaños.
 
 La función de vista previa de ventanilla móvil está diseñada para sitios adaptables que se renderizan bien en varios dispositivos, ventanas y tamaños de pantalla. Los sitios adaptables se ajustan y adaptan automáticamente a cualquier tamaño de pantalla, incluidos escritorios, portátiles, tabletas o teléfonos móviles.
 
@@ -81,7 +84,7 @@ A continuación tiene las ventanillas móviles y las resoluciones de dispositivo
 | Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
 | Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-Para ofrecer una actividad en un dispositivo concreto, elija la audiencia adecuada para ese dispositivo en el diagrama de la actividad. Use el Compositor web móvil para editar la página en la actividad de dicho dispositivo. Para ejecutar una actividad en toda la experiencia digital y garantizar que tenga el aspecto adecuado en todos los dispositivos, no aplique la segmentación. En su lugar, utilice ventanillas móviles para previsualizar la actividad en cada tamaño de pantalla.
+Para ofrecer una actividad en un dispositivo concreto, elija el público adecuado para ese dispositivo en el diagrama de la actividad. Use el Compositor web móvil para editar la página en la actividad de dicho dispositivo. Para ejecutar una actividad en toda la experiencia digital y garantizar que tenga el aspecto adecuado en todos los dispositivos, no aplique la segmentación. En su lugar, utilice ventanillas móviles para previsualizar la actividad en cada tamaño de pantalla.
 
 Si tiene un sitio adaptable, se suele diseñar para que se abra en una vista diferente cuando accede un dispositivo con un tamaño de pantalla concreto. Los tamaños de pantalla que activan las vistas nuevas se conocen como puntos de interrupción CSS. Los puntos de interrupción CSS son puntos en los que el contenido del sitio web responde en función del ancho del dispositivo para mostrar el diseño óptimo a los visitantes. Los puntos de interrupción CSS también se denominan [consultas de medios](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
@@ -130,7 +133,7 @@ Configure las ventanillas móviles que quiera que estén disponibles cuando cree
 
 >[!NOTE]
 >
->Si intenta eliminar una ventanilla móvil en uso, se muestra el siguiente mensaje: “Actualmente, esta ventanilla está asociada a una o varias actividades. Debe quitar la ventanilla móvil de esas actividades antes de poder eliminarla”. 
+>Si intenta eliminar una ventanilla móvil en uso, se muestra el siguiente mensaje: “Actualmente, esta ventanilla está asociada a una o varias actividades. Debe quitar la ventanilla móvil de esas actividades antes de poder eliminarla”.
 
 ## Crear una experiencia adaptable {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
@@ -174,7 +177,7 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30130?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferencias de cuenta en Adobe Target ![Distintivo Información general](/help/main/assets/overview.png)
 

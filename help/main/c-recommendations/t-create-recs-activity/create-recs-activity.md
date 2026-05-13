@@ -2,12 +2,16 @@
 keywords: crear recomendaciones;actividad de recomendaciones;nuevas recomendaciones;información general de recomendaciones
 description: Aprenda a utilizar el  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una  [!DNL Recommendations] actividad.
 title: ¿Cómo se crea una actividad  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
+TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1218
 ht-degree: 51%
 
 ---
@@ -77,7 +81,7 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
    >[!NOTE]
    >
-   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desactive la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre la opción [!UICONTROL Compatible], según la configuración de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Para obtener más información, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+   >No todos los criterios se ejecutarán correctamente en cada página. La página o el mbox necesitan pasar `entity.id` o `entity.categoryId` para que las recomendaciones de la categoría actual o el elemento actual sean compatibles. En general, se recomienda mostrar solamente criterios compatibles. Sin embargo, si desea que haya disponibles criterios incompatibles para la actividad, desactive la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre la opción [!UICONTROL Compatible], según la configuración de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Para obtener más información, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Cuadro de diálogo Seleccionar criterios](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -178,4 +182,4 @@ Use [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) para crear una a
 
 ## Vídeo de formación: Crear una actividad de Recommendations (7:15) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33946?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

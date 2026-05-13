@@ -4,9 +4,12 @@ description: Aprenda a habilitar contenido mixto en  [!DNL Chrome], [!DNL Firefo
 title: Cómo se habilita el contenido mixto en mi explorador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
+TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: 551
 ht-degree: 87%
 
 ---
@@ -35,7 +38,7 @@ Para obtener más información, consulte [Contenido mixto](https://developer.moz
 
 ## Habilitar contenido mixto en [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Si va a visitar un sitio a través de una conexión, [!DNL Chrome] verificará que el contenido de la página web se haya transmitido correctamente.
+Si va a visitar un sitio a través de una conexión segura, [!DNL Chrome] verificará que el contenido de la página web se haya transmitido correctamente.
 
 Consulte &quot;[Administrar advertencias sobre sitios no seguros](https://support.google.com/chrome/answer/99020?hl=es)&quot; en la Ayuda de Google Chrome.
 

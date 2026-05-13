@@ -5,10 +5,14 @@ title: ¿Qué requisitos de permisos de usuario son necesarios para A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 35%
+source-wordcount: 298
+ht-degree: 32%
 
 ---
 
@@ -28,15 +32,15 @@ Complete las siguientes tareas en [!DNL Adobe Experience Cloud] [Admin Console](
 
 Las cuentas de usuario de [!DNL Analytics] y de [!DNL Target] deben estar vinculadas a su Adobe ID.
 
-Para obtener más información, consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es).
+Para obtener más información, consulte [Organizaciones y vinculación de cuentas](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
-### Configuración de la pertenencia a grupo de Experience Cloud
+### Configuración del abono a grupos de Experience Cloud
 
 Debe ser miembro de uno o más grupos de [!DNL Experience Cloud] que tengan acceso a [!DNL Analytics] y [!DNL Target].
 
-Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+Para obtener más información, consulte [Administrar usuarios y productos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-## Adobe Analytics   {#section_8F404FDE9A634534AB0AA4CB3075582B}
+## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese grupo de informes y conceder acceso al grupo [!DNL Web Services Access].
 

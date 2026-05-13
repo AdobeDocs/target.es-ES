@@ -4,10 +4,13 @@ description: Aprenda a usar el bookmarklet Adobe [!DNL Target] QA para forzar [!
 title: ¿Cómo utilizo el bookmarklet de control de calidad de la actividad?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
+TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: 272
+ht-degree: 12%
 
 ---
 
@@ -19,7 +22,7 @@ Información para ayudarlo a usar el bookmarklet de control de calidad [!DNL Tar
 >
 >El proceso para crear un bookmarklet varía según el tipo y la versión del explorador. Consulte la ayuda del explorador o busque en Internet para obtener instrucciones específicas.
 
-## bookmarklet de control de calidad de la actividad para at.js 1.*x*  
+## bookmarklet de control de calidad de la actividad para at.js 1.*x*
 
 Como el [modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md) es persistente, después de examinar un sitio web en modo de control de calidad, la sesión [!DNL Target] debe caducar o tiene que indicar a [!DNL Target] que lo libere del modo de control de calidad antes de poder ver el sitio como lo vería un visitante. Use el bookmarklet QA [!DNL Target] para sacarse del modo de control de calidad.
 
@@ -48,7 +51,7 @@ Por ejemplo:
 
 `https://www.mysite.com/?at_preview_token=`
 
-## bookmarklet de control de calidad de la actividad para at.js 2.*x*  
+## bookmarklet de control de calidad de la actividad para at.js 2.*x*
 
 A diferencia de at.js 1.*x*, at.js 2.*x* no admite cookies de terceros y el modo de control de calidad solo es adhesivo para el dominio de origen (mediante una cookie de origen establecida por at.js). Por lo tanto, en at.js 2.*x*, la sesión en modo de control de calidad solo se administra en el lado del cliente y no se envían cookies en modo de control de calidad a Target.
 

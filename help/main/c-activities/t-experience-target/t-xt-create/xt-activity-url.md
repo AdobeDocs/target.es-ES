@@ -4,10 +4,13 @@ description: Obtenga información sobre cómo especificar [!UICONTROL Activity U
 title: ¿Qué es [!UICONTROL Activity URL] en una actividad [!UICONTROL Experience Targeting] (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 38%
+source-wordcount: 268
+ht-degree: 37%
 
 ---
 
@@ -23,7 +26,7 @@ ht-degree: 38%
    >
    >De manera predeterminada, el VEC o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) abre la página que se ha especificado en la [configuración del Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md). Puede especificar una página diferente durante la creación de la actividad.
    >
-   >Si especifica una dirección URL para un sitio que no incluye una biblioteca JavaScript [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es){target=_blank}, no podrá seleccionar elementos de página.
+   >Si especifica una dirección URL para un sitio que no incluye una biblioteca JavaScript [[!DNL Target] at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, no podrá seleccionar elementos de página.
 
 1. (Condicional) Para mostrar una página diferente después de que se abra el VEC, haga clic en **[!UICONTROL Configure]**, seleccione **[!UICONTROL Page Delivery]** y, a continuación, especifique la dirección URL en el campo [!UICONTROL URL].
 
