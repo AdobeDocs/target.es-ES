@@ -2,7 +2,7 @@
 keywords: personalización automatizada;oferta;informes;grupo;grupo de informes;ap
 description: Aprenda a utilizar los grupos de informes de ofertas en  [!DNL Adobe Target] [!UICONTROL Automated Personalization] actividades.
 title: ¿Puedo usar los grupos de informes de ofertas en [!UICONTROL Automated Personalization] actividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4

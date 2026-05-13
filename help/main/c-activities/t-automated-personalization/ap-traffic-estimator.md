@@ -2,7 +2,7 @@
 keywords: estimador de tráfico;personalización automatizada;ap;estimar tráfico
 description: Use [!UICONTROL Traffic Estimator] para comprobar si tiene tráfico suficiente para que una actividad [!UICONTROL Automated Personalization] se realice correctamente.
 title: ¿Cuánto tráfico se necesita para una actividad [!UICONTROL Automated Personalization] correcta?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 TQID: https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY

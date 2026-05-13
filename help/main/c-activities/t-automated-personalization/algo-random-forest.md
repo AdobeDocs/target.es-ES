@@ -2,7 +2,7 @@
 keywords: bosque aleatorio;árbol de decisión;ap;Automated Personalization
 description: Descubra cómo  [!DNL Adobe Target] usa el algoritmo de bosque aleatorio en las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target].
 title: ¿Cómo usa  [!DNL Target] el algoritmo de bosque aleatorio?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
