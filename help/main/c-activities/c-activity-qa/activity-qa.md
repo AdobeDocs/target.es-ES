@@ -4,9 +4,23 @@ description: Aprenda a utilizar las URL de control de calidad de Adobe [!DNL Tar
 title: ¿Cómo realizo actividades de control de calidad?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: 1735
 ht-degree: 27%
 
 ---
@@ -18,14 +32,14 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 [!UICONTROL Activity QA] le permite probar completamente sus actividades [!DNL Target] antes de lanzarlas en vivo. La funcionalidad [!UICONTROL Activity QA] incluye:
 
 * Vínculos para compartir con integrantes del equipo que nunca cambian ni requieren regeneración, independientemente de las actualizaciones realizadas en las experiencias o actividades. Esta función le permite probar todas las actividades en todo el recorrido del usuario.
-* Respeto opcional a las condiciones a audiencia, de forma que los expertos en marketing puedan probar o ignorar criterios de segmentación con el fin de evaluar el aspecto de las experiencias sin necesidad de cumplir sus condiciones de audiencia.
+* Respeto opcional a las condiciones a público, de forma que los expertos en marketing puedan probar o ignorar criterios de segmentación con el fin de evaluar el aspecto de las experiencias sin necesidad de cumplir sus condiciones de público.
 * La realización de informes de control de calidad se captura; de este modo, los expertos en marketing pueden confirmar si las métricas aumentan del modo esperado y es posible mantener los datos de informes de control de calidad separados de los informes de producción (para la creación de informes ajenos a A4T).
 * La capacidad de previsualizar una experiencia de forma aislada o con otras actividades activas que satisfagan los criterios de entrega (página/[!DNL Target] solicitud/audiencia).
 * La capacidad para realizar un control de calidad del viaje del usuario completo. Puede acceder a su sitio una vez con el vínculo de control de calidad y, a continuación, examinar el sitio entero durante el control de calidad de la actividad. Permanece en el control de calidad de la actividad hasta que finaliza la sesión o hasta que usa el [bookmarklet QA Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de [!UICONTROL Activity QA]. Esta función es útil si tiene una actividad que abarca varias páginas web.
 
   >[!NOTE]
   >
-  >Esta funcionalidad es verdadera para las implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.implementaciones *x*, esta funcionalidad solo es verdadera si el explorador del visitante no bloquea las cookies de terceros.
+  >Esta funcionalidad es verdadera para implementaciones at.js con versión 2.*x* o posterior. En implementaciones at.js 1.*x*, esta funcionalidad solo se cumple si el explorador del visitante no bloquea las cookies de terceros.
 
 ## Acceso y uso compartido de una URL de control de calidad {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -49,9 +63,9 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 
    Los vínculos de actividad nunca caducan y no es necesario que vuelva a enviarlos si alguien cambia una actividad o experiencia. Sin embargo, si aplica una audiencia diferente de [!UICONTROL Audience Library], en lugar de simplemente editar la actividad, se genera un nuevo vínculo que debe volver a compartir.
 
-   Cada URL de vínculo de actividad (para la Experiencia A, Experiencia B, etc.) le permite iniciar el recorrido del usuario desde la experiencia correspondiente. Haga clic en la dirección URL generada para una experiencia y, a continuación, continúe con la exploración normal del sitio para ver experiencias en varias páginas (si existen varias). Solo se genera una URL por experiencia, aunque la experiencia abarque varias páginas (pruebas de plantilla o pruebas de varias páginas).
+   Cada URL de vínculo de actividad (para la Experiencia A, Experiencia B, etc.) le permite iniciar el recorrido del usuario desde la experiencia correspondiente. Haga clic en la dirección URL generada para una experiencia y, a continuación, continúe con la exploración normal del sitio para ver experiencias en varias páginas (si existen varias). Se genera una única URL por experiencia, aunque esta abarque múltiples páginas (prueba de plantilla o prueba multipágina).
 
-   Puede navegar por el sitio para ver las demás páginas porque el modo [!UICONTROL Activity QA] es fijo. Esta situación es cierta para las implementaciones de at.js con la versión 2.*x* o posterior. Para at.js 1.implementaciones *x*, esta situación es verdadera solamente si el explorador del visitante no bloquea las cookies de terceros.
+   Puede navegar por el sitio para ver las demás páginas porque el modo [!UICONTROL Activity QA] es fijo. Esta situación es cierta en implementaciones de at.js con la versión 2.*x* o posterior. En implementaciones de at.js 1.*x*, esta situación solo es cierta si el explorador del visitante no bloquea las cookies de terceros.
 
 1. Para ver los informes generados a partir de las direcciones URL de los vínculos de actividad, haga clic en la página **[!UICONTROL Reports]** de la actividad, haga clic en el icono **[!UICONTROL Settings]** ( ![imagen icon_gear](assets/icon_gear.png) ) y, a continuación, seleccione **[!UICONTROL QA Mode Traffic]** en la lista desplegable **[!UICONTROL Environment]**.
 
@@ -59,13 +73,13 @@ Use direcciones URL de control de calidad en [!DNL Adobe Target] para realizar s
 
 [!UICONTROL Activity QA] es fijo. Después de examinar un sitio web en [!UICONTROL Activity QA], su sesión de [!DNL Target] debe caducar o debe hacer que [!DNL Target] lo libere de [!UICONTROL Activity QA] para poder ver su sitio como lo vería un visitante.
 
-### at.js 2.*x* 
+### at.js 2.*x*
 
-Si su sitio tiene at.js 2.*x* implementado, use el [bookmarklet de control de calidad de Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de [!UICONTROL Activity QA]. Al cargar una página en su sitio con un valor vacío, tal como se describe en la siguiente viñeta, *no* elimina la cookie de control de calidad del explorador cuando at.js 2.*x* se implementa.
+Si su sitio tiene implementado at.js 2.*x*, use el [bookmarklet de control de calidad de Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) para forzar su salida de [!UICONTROL Activity QA]. Al cargar una página en su sitio con un valor vacío, como se describe en la siguiente viñeta, *no* elimina la cookie de control de calidad del explorador cuando se implementa at.js 2.*x*.
 
-### at.js 1.*x*  
+### at.js 1.*x*
 
-Si su sitio tiene at.js 1.*x* implementado, además de usar el [bookmarklet de control de calidad de Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), también puede forzar la salida manualmente cargando una página en su sitio con el parámetro `at_preview_token` con un valor vacío. Por ejemplo,
+Si su sitio tiene implementado at.js 1.*x*, además de usar el [bookmarklet de control de calidad de Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), también puede forzar la salida manual cargando una página en su sitio con el parámetro `at_preview_token` con un valor vacío. Por ejemplo,
 
 `https://www.mysite.com/?at_preview_token=`
 
@@ -84,7 +98,7 @@ Si el sitio tiene implementado [[!UICONTROL Platform Web SDK]](https://experienc
 * Las actividades importadas en [!DNL Target Standard/Premium] (desde [!DNL Target Classic], por ejemplo) no admiten direcciones URL de control de calidad.
 * En las actividades [!UICONTROL Auto-Allocate] y [!UICONTROL Recommendations], el modelo no se ve afectado por las visitas capturadas en [!UICONTROL Activity QA].
 * Si especificó &quot;la dirección URL es&quot; al crear la actividad [refinamientos en las opciones de Compositor basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o [envío de página en el Compositor de experiencias visuales)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), la dirección URL de control de calidad no funciona porque [!UICONTROL Activity QA] adjunta parámetros de dirección URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
-* Si tiene at.js 1.*x*, el modo [!UICONTROL Activity QA] no es fijo si usa Safari u otro explorador que bloquee cookies de terceros. En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que vaya. Lo mismo ocurre si ha implementado [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=es){target=_blank}.
+* Si tiene at.js 1.*x*, el modo [!UICONTROL Activity QA] no es adhesivo si utiliza Safari u otro explorador que bloquee cookies de terceros. En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que vaya. Lo mismo ocurre si ha implementado [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=es){target=_blank}.
 * Si una actividad utiliza varias audiencias de experiencia (por ejemplo, un sitio con versiones para Reino Unido y Estados Unidos incluidas en la misma actividad), no se generan vínculos de control de calidad para las cuatro combinaciones (experiencia A/sitio EE. UU., experiencia A/sitio RU, experiencia B/sitio EE. UU., experiencia B/sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Una persona con control de calidad del Reino Unido no puede ver el sitio de EE. UU.
 * Todos los parámetros y valores de `at_preview` ya están codificados en la URL. La mayoría de las veces, todo funciona según lo esperado. Sin embargo, algunos clientes deben disponer de equilibradores de carga o servidores Web que intenten codificar de nuevo los parámetros de cadena de consulta.
 
@@ -113,7 +127,7 @@ Si el sitio tiene implementado [[!UICONTROL Platform Web SDK]](https://experienc
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es)
-* [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es)
 
 En la tabla siguiente se enumeran los distintos tipos de actividades y se indica si se admite el modo [!UICONTROL Activity QA] para cada biblioteca:
 

@@ -4,10 +4,22 @@ description: Explorar los problemas comunes que los clientes han encontrado al u
 title: ¿Cómo puedo solucionar problemas de integración de Analytics y  [!DNL Target]  (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 88%
+source-wordcount: 948
+ht-degree: 89%
 
 ---
 
@@ -53,7 +65,7 @@ Si elige una métrica específica de [!DNL Target] en el informe, no se mostrar�
 
 Los detalles de alza y confianza no están disponibles en Analytics. Sin embargo, están disponibles en los informes de Target.
 
-## Las actividades no aparecen en los informes de Analytics.   {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Las actividades no aparecen en los informes de Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Las actividades de A4T requieren que se especifique un servidor de seguimiento. Consulte [Uso de un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para asegurarse de que el servidor de seguimiento de Analytics esté configurado correctamente.
 
@@ -61,7 +73,7 @@ Las actividades de A4T requieren que se especifique un servidor de seguimiento. 
 >
 >No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Tracking Server] en la página [!UICONTROL Goals & Settings].
 
-## Mis segmentos de Analytics no aparecen en Target.   {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Mis segmentos de Analytics no aparecen en Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Asegúrese de tener los permisos adecuados antes de empezar a crear actividades de A4T:
 
@@ -69,7 +81,7 @@ Asegúrese de tener los permisos adecuados antes de empezar a crear actividades 
 * Debe ser miembro de uno o más grupos de Experience Cloud que tengan acceso a Analytics y a Target.
 * Compruebe que Analytics y Target están presentes en la sección Aplicaciones de marketing del menú de navegación izquierdo.
 
-## Las métricas de tasas de salto, saltos y salidas aparecen como positivos en los informes.   {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Las métricas de tasas de salto, saltos y salidas aparecen como positivos en los informes. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Estas métricas que aparecen como positivas en los informes son un problema conocido.
 
@@ -85,7 +97,7 @@ Si sigue sin poder ver el grupo de informes que está buscando, debe comunicarse
 
 ## En los informes no veo tantos datos como esperaba. {#section_75002584FA63456D8D9086172925DD8D}
 
-Revise su implementación, especialmente en las páginas donde los visitantes cumplen los requisitos de las experiencias, y compruebe que los ID de datos suplementarios coincidan en las llamadas de [!DNL Target] y [!DNL Analytics]. 
+Revise su implementación, especialmente en las páginas donde los visitantes cumplen los requisitos de las experiencias, y compruebe que los ID de datos suplementarios coincidan en las llamadas de [!DNL Target] y [!DNL Analytics].
 
 * **at.js 1.x**: en la llamada de [!DNL Target], el ID suplementario se encuentra en el parámetro `mboxMCSDID`. En la llamada de [!DNL Analytics], el ID suplementario se encuentra en el parámetro `sdid`.
 * **at.js 2.x**: en la llamada de [!DNL Target], el ID suplementario se devuelve en el encabezado HTTP como el valor de `experienceCloud.analytics.supplementalDataId`. En la llamada de [!DNL Analytics], el ID suplementario se encuentra en el parámetro `sdid`.

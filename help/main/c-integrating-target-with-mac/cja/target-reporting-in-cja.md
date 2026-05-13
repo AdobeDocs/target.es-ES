@@ -4,10 +4,28 @@ description: Use [!DNL Target] informes en [!DNL Adobe Customer Journey Analytic
 title: ¿Qué está informando [!DNL Target] en [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 40%
+source-wordcount: 1417
+ht-degree: 35%
 
 ---
 
@@ -55,7 +73,7 @@ Tenga en cuenta la siguiente información antes de utilizar la integración de [
 
 Se admiten los siguientes tipos de actividades al usar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} o la biblioteca de JavaScript [at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}:
 
-| Tipos de actividades.  | Compatible? |
+| Tipos de actividades. | Compatible? |
 |--- |--- |
 | [Actividad A/B con división de tráfico manual](/help/main/c-activities/t-test-ab/test-ab.md) | Sí |
 | [Actividad A/B con asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | No |

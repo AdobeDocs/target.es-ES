@@ -4,10 +4,20 @@ description: Aprenda a solucionar problemas que a veces ocurren en  [!DNL Adobe 
 title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 22%
+source-wordcount: 479
+ht-degree: 28%
 
 ---
 
@@ -137,16 +147,16 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
   **Remedy:** Lista de permitidos las direcciones IP enumeradas anteriormente.
 
-* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
+* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
 
   **Solución:** Consulte la siguiente pregunta ([!UICONTROL Enhanced Visual Experience Composer] no se cargará en páginas seguras de mi sitio que usen TLS 1.2).
 
 +++
 
-## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC)   {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Detalles
-Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Enhanced Visual Experience Composer] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos pero el sitio web no admite TLS versión 1.2. [!DNL Target] usa actualmente la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
+Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Enhanced Visual Experience Composer] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
@@ -167,7 +177,7 @@ Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegad
 
 +++
 
-## Veo errores de tiempo de espera o “acceso denegado” al cargar sitios con el proxy habilitado. (Solo EEC)   {#section_60CBB9022DC449F593606C0E6252302D}
+## Veo errores de tiempo de espera o “acceso denegado” al cargar sitios con el proxy habilitado. (Solo EEC) {#section_60CBB9022DC449F593606C0E6252302D}
 
 +++Detalles
 Asegúrese de que las IP del proxy no estén bloqueadas en el entorno.

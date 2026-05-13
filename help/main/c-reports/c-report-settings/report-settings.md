@@ -1,12 +1,22 @@
 ---
-keywords: Target;informes;configuración de informes;ajuste preestablecido;ajuste preestablecido de Target;métrica;audiencia;intervalo de fechas;configuración;descarga;vista de tabla;vista de gráfico;alza promedio;alza;límite de alza;intervalo de confianza;confianza;contribución de ubicación;promedio actual;metodología de recuento
+keywords: Target;informes;configuración de informes;ajuste preestablecido;ajuste preestablecido de Target;métrica;público;intervalo de fechas;configuración;descarga;vista de tabla;vista de gráfico;alza promedio;alza;límite de alza;intervalo de confianza;confianza;contribución de ubicación;promedio actual;metodología de recuento
 description: Obtenga información sobre cómo definir la configuración de informes en Adobe Target, incluidas las métricas, las audiencias, los intervalos de fechas y mucho más.
 title: ¿Cómo configuro la configuración de los informes?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: 1795
 ht-degree: 48%
 
 ---
@@ -24,7 +34,7 @@ Para mostrar un informe:
 
 ## Ajuste preestablecido de Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, audiencias, configuración avanzada, etcétera). Todos los usuarios de [!DNL Target] pueden mostrar, editar y eliminar los distintos ajustes preestablecidos, independientemente de quién los haya creado.
+Puede guardar hasta diez ajustes preestablecidos de un informe de actividad después de configurarlo a su gusto (métricas, intervalos de fechas, públicos, configuración avanzada, etcétera). Todos los usuarios de [!DNL Target] pueden mostrar, editar y eliminar los distintos ajustes preestablecidos, independientemente de quién los haya creado.
 
 También puede configurar un informe de actividad a su gusto y después guardar dicha configuración como su ajuste preestablecido predeterminado/favorito. Esta es la vista que se muestra cuando ve avanzar el informe de la actividad.
 
@@ -149,7 +159,7 @@ Excluir valores extremos
 
 La opción [!UICONTROL Exclude Extreme Values] solo se aplica a las actividades con tipos de métrica de ingresos y participación. Para obtener más información, consulte [Exclusión de pedidos extremos](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
-## Descargar   {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
+## Descargar {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
 Haga clic en el icono **[!UICONTROL Download]** ( ![Icono de descarga](/help/main/assets/icons/Download.svg) ) para descargar datos de informe en formato [!DNL .csv] y poder importarlos rápidamente a Excel, Access o cualquier otro programa de análisis de datos.
 
@@ -169,7 +179,7 @@ Puede ver el informe en varios formatos, según el tipo de actividad. Seleccione
 
 * **Vista de tabla**: haga clic en el icono **[!UICONTROL Table View]** ( ![icono de Vista de tabla](/help/main/assets/icons/Table.svg) ) para ver el informe como una tabla.
 * **Visualización de gráfico**: haga clic en el icono **[!UICONTROL Graph View]** ( ![Icono de Visualización de gráfico](/help/main/assets/icons/GraphTrend.svg) ) para ver el informe como un gráfico.
-* **Segmentos automatizados**:(Disponible solo para las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target] (AT) ).) Haga clic en el icono **[!UICONTROL Automated Segments] (![icono de Segmentos automatizados](/help/main/assets/icons/AutomatedSegment.svg) ) para ver el [informe de Segmentos automatizados](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Segmentos automatizados**:(Disponible solo para las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Auto-Target] (AT) ).) Haga clic en el icono **[!UICONTROL Automated Segments] ( ![icono Segmentos automatizados](/help/main/assets/icons/AutomatedSegment.svg) ) para ver el [informe Segmentos automatizados](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 * **Atributos importantes**: (Disponible solamente para las actividades [!DNL Automated Personalization] (AP) y [!UICONTROL Auto-Target] (AT).) Haga clic en el icono **[!UICONTROL Important Attributes]** ( ![icono de Atributos importantes](/help/main/assets/icons/ViewList.svg) ) para ver el [informe de Atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Alza promedio, límites de alza e intervalo de confianza {#section_0D87615B1D3344B3858BA494EEBC16FB}
@@ -183,7 +193,7 @@ Tenga en cuenta lo siguiente:
 * Solo está disponible cuando se visualizan informes en [!UICONTROL Table View].
 * Esta característica no está disponible para actividades que utilicen [Analytics como fuente de informes (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-## Contribución de ubicación.  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribución de ubicación. {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Haga clic en el icono [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![icono de Contribución de ubicación](/help/main/assets/icons/LocationContribution.svg) ) para que el informe muestre la contribución por ubicación para las actividades de Prueba multivariable (MVT).
 

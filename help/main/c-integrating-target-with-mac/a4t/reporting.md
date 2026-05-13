@@ -4,10 +4,19 @@ description: Aprenda a utilizar Analytics for [!DNL Target] (A4T). A4T proporcio
 title: ¿Cómo se utiliza la creación de informes en A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 39%
+source-wordcount: 1269
+ht-degree: 38%
 
 ---
 
@@ -31,7 +40,7 @@ Cuando se usa la operación [!UICONTROL Select] y se ordenan los *participantes*
 >
 >Los informes con tecnología de [!DNL Target] tienen una latencia de cuatro minutos. En el caso de las actividades con tecnología A4T, tanto en los informes [!DNL Target] como en el [!DNL Analytics], pueden pasar hasta 24 horas desde que se guardó inicialmente la actividad antes de que los datos del informe se puedan desglosar por experiencias. Los datos recopilados en esas primeras 24 horas siguen siendo precisos y se asignan a la experiencia adecuada.
 
-## Informes en Analytics   {#analytics}
+## Informes en Analytics {#analytics}
 
 En [!DNL Analytics], hay varias dimensiones y métricas disponibles después de habilitar la integración de A4T.
 

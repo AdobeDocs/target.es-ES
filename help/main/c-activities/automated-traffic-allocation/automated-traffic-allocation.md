@@ -4,10 +4,21 @@ description: Aprenda a utilizar una actividad [!UICONTROL Auto-Allocate] en  [!D
 title: ¿Qué es una actividad de [!UICONTROL Auto-Allocate]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3502'
-ht-degree: 35%
+source-wordcount: 3572
+ht-degree: 36%
 
 ---
 
@@ -47,7 +58,7 @@ En estas pruebas, la mayoría de los productos, incluido [!DNL Target], usan una
 * Encuentra una experiencia ganadora con relevancia estadística más rápido que una prueba A/B manual
 * Proporciona un alza de la campaña de media superior a la de una prueba A/B manual
 
-## Terminología   {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminología {#section_670F8785BA894745B43B6D4BFF953188}
 
 Los siguientes términos pueden resultar útiles al tratar el tema de [!UICONTROL Auto-Allocate]:
 
@@ -93,7 +104,7 @@ Después de activar una actividad [!UICONTROL Auto-Allocate], no se permiten las
 
 Para obtener más información, vea [La asignación automática puede proporcionar resultados de prueba con mayor rapidez, así como mayores ingresos que una prueba manual](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
-## Advertencias  {#section_5C83F89F85C14FD181930AA420435E1D}
+## Advertencias {#section_5C83F89F85C14FD181930AA420435E1D}
 
 Tenga en cuenta la siguiente información cuando trabaje con [!UICONTROL Auto-Allocate]:
 
@@ -163,7 +174,7 @@ Sí. El método multi-armed bandit garantiza que al menos el 20 % del tráfico 
 
 ### ¿Qué sucede con las actividades con retrasos de conversión largos?
 
-Siempre que todas las experiencias que se vayan a optimizar sufran los mismos retrasos, el comportamiento será igual al de una actividad con un ciclo de conversión más rápido. Sin embargo, se tarda más en alcanzar el umbral de conversión 50 antes de que comience el proceso de asignación de tráfico.
+Siempre y cuando todas las experiencias que se están optimizando hagan frente a retrasos similares, el comportamiento es el mismo que en una actividad con un ciclo de conversión más rápido. Sin embargo, se tarda más en alcanzar el umbral de conversión 50 antes de que comience el proceso de asignación de tráfico.
 
 ### ¿En qué se diferencia [!UICONTROL Auto-Allocate] de [!UICONTROL Automated Personalization]?
 

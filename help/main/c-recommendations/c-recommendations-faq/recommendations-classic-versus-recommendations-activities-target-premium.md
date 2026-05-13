@@ -5,10 +5,21 @@ title: ¿Cuál es la diferencia entre Recommendations Classic y Recommendations 
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 88%
+source-wordcount: 665
+ht-degree: 86%
 
 ---
 
@@ -61,13 +72,13 @@ El flujo de trabajo de [!DNL Recommendations] se ha simplificado. En lugar de te
 1. Seleccione un [diseño](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) preconfigurado.
 1. Obtener una vista previa de las recomendaciones resultantes.
 
-## Vista previa  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Vista previa {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Puede obtener una vista previa de las recomendaciones después de configurarlas y realizar los cambios necesarios sin necesidad de crearlas en la página, publicarlas y probarlas. Las vistas previas están disponibles desde [!DNL Target].
 
 ## Segmentación {#section_93295EA0DBA14210B8518AF4802A459F}
 
-En [!DNL Recommendations Classic] había seis opciones de segmentación. Las actividades de Recommendations emplean la amplia gama de opciones de segmentación de Target. Defina una audiencia mediante [!DNL Target] o cualquier otra audiencia de [!DNL Adobe Experience Cloud] (como [!DNL Audience Manager] y [!DNL Analytics]) y elija el porcentaje de participantes en la actividad que verá cada diseño y el porcentaje que verá el control.
+En [!DNL Recommendations Classic] había seis opciones de segmentación. Las actividades de Recommendations emplean la amplia gama de opciones de segmentación de Target. Defina un público mediante [!DNL Target] o cualquier otro público de [!DNL Adobe Experience Cloud] (como [!DNL Audience Manager] y [!DNL Analytics]) y elija el porcentaje de participantes en la actividad que verá cada diseño y el porcentaje que verá el control.
 
 ![imagen de direccionamiento_general](assets/overview_targeting.png)
 

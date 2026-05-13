@@ -4,10 +4,24 @@ description: Busque sugerencias para solucionar problemas si la página no muest
 title: ¿Cómo se pueden solucionar los problemas en la entrega de contenido?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 89%
+source-wordcount: 1663
+ht-degree: 86%
 
 ---
 
@@ -65,7 +79,7 @@ Están disponibles los siguientes parámetros:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-El resultado muestra información detallada acerca de su contenido. mboxTrace muestra los detalles acerca de su campaña o su actividad y perfil. También ofrece una instantánea del perfil antes de la ejecución y una instantánea de lo que cambió después de la ejecución. También muestra qué campañas o actividades se evaluaron para cada ubicación.
+El resultado muestra información detallada acerca de su contenido. mboxTrace muestra detalles sobre su campaña o actividad y perfil. También proporciona una instantánea del perfil antes de la ejecución y una instantánea de lo que ha cambiado después de la ejecución. También muestra qué campañas o actividades se evaluaron para cada ubicación.
 
 Entre esta información se incluyen los ID de objetivo y los segmentos con coincidencia y sin coincidencia.
 
@@ -99,21 +113,21 @@ Para usar mboxDebug, añada un parámetro de mboxDebug al final de la dirección
 |--- |--- |
 | `mboxDebug=1` | Debugger<br>Si se añade este parámetro a cualquier dirección URL con peticiones de Target definidas, se abrirá una ventana emergente con detalles importantes sobre la depuración. Se detalla la información de cookies y los valores PCid y Session ID. Además, todas las direcciones URL de están visibles. Haga clic en una URL de petición de Target si desea mostrar la respuesta para dicha petición de [!DNL Target]. En [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf) encontrará más información. |
 | `mboxDisable=1` | Deshabilitar los mboxes de la página |
-| `mboxOverride.browserIp=<Insert IP address>` | Pruebe el targeting geográfico<br>Pruebe el targeting geográfico con este parámetro de URL. Escriba una dirección IP como valor para este atributo. El targeting geográfico de Test&amp;Target evalúa esa dirección IP para compararla con cualquier targeting geográfico o conjunto de segmentación definido en una campaña. |
+| `mboxOverride.browserIp=<Insert IP address>` | Pruebe la segmentación geográfica<br>Pruebe la segmentación geográfica con este parámetro de URL. Escriba una dirección IP como valor para este atributo. El targeting geográfico de Test&amp;Target evalúa esa dirección IP para compararla con cualquier targeting geográfico o conjunto de segmentación definido en una campaña. |
 
 >[!NOTE]
 >
 >Asegúrese de que el fragmento de URL está después de los parámetros de cadena de consulta. Todo lo que haya después del primer `#` es un identificador de fragmento y hace que los parámetros de depuración no funcionen correctamente.
 
-## Adobe Experience Cloud Debugger.  {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger. {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Puede ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de consola y desactivar todas las solicitudes de Target. Si se autentica en Experience Cloud, podrá utilizar la potente herramienta MboxTrace para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
+Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Puede ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de consola y desactivar todas las solicitudes de Target. Si se autentica en Experience Cloud, podrá utilizar la potente herramienta MboxTrace para inspeccionar su actividad, las calificaciones de público y el perfil del visitante.
 
 Para obtener más información, consulte los vídeos de formación siguientes:
 
 Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=es){target=_blank}.
 
-## Los principales vendedores no aparecen en Recommendations.  {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Los principales vendedores no aparecen en Recommendations. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 No se puede usar la llamada de *`SiteCatalyst: purchase`* para los datos del tráfico del algoritmo Compra. Utilice la llamada *`orderConfirmPage`* en su lugar.
 
@@ -135,7 +149,7 @@ Si un elemento DOM es parte de una segmentación de personalización de Adobe Ex
 
 A fin de remediar esto, puede deshabilitar la personalización de AEM en las páginas en las que Target se está ejecutando.
 
-## Las ofertas de redirección y remotas no se pueden entregar debido a una dirección URL no válida.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Las ofertas de redirección y remotas no se pueden entregar debido a una dirección URL no válida. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Si la oferta de redirección o remota utiliza una dirección URL no válida, es posible que no se pueda entregar.
 
@@ -161,7 +175,7 @@ Para mostrar una página diferente después de que se abra el VEC, haga clic en 
 
 ![Configuración de la IU de entrega de páginas](assets/configure-page-delivery.png)
 
-Pero ¿qué sucede si la dirección URL contiene parámetros de cadena de consulta? ¿Funcionará y mostrará el contenido personalizado? En este escenario, independientemente de la audiencia de destino, puede incluir reglas de plantilla además de la dirección URL base para definir los parámetros de consulta.
+Pero ¿qué sucede si la dirección URL contiene parámetros de cadena de consulta? ¿Funcionará y mostrará el contenido personalizado? En este escenario, independientemente del público destinatario, puede incluir reglas de plantilla además de la dirección URL base para definir los parámetros de consulta.
 
 Se pueden utilizar las siguientes opciones para incluir reglas de plantilla adicionales:
 

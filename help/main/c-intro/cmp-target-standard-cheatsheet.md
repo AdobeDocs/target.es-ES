@@ -4,10 +4,31 @@ description: Explore una lista de preguntas más frecuentes acerca del uso de la
 title: ¿Dónde puedo encontrar respuestas a mis preguntas sobre optimización y personalización?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: f5fa1d5c1747ed4c1e5e3d35f3c01f49f3f255c3
+TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2724'
-ht-degree: 50%
+source-wordcount: 2806
+ht-degree: 51%
 
 ---
 
@@ -107,7 +128,7 @@ Tenga en cuenta que el requisito de tráfico aumenta con las actividades de MVT.
 
 +++
 
-**¿Puedo ejecutar una actividad que abarque varias páginas donde la estructura de la página sea diferente? ¿Puedo aplicar ofertas en diferentes ubicaciones (por ejemplo, el canal de pago)?**
+**¿Puedo ejecutar una actividad que abarque varias páginas donde la estructura de la página sea diferente? ¿Puedo aplicar ofertas en diferentes ubicaciones (por ejemplo, el funnel de pago y envío)?**
 
 +++Ver detalles
 Pruebe la [característica de actividad de varias páginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que le permite usar varias páginas dentro de las experiencias.
@@ -123,7 +144,7 @@ Por lo tanto, en este caso, puede elegir “Recuento de incrementos, Liberar usu
 
 +++
 
-**He creado múltiples objetivos en mi actividad. ¿Puedo crear una cadena de objetivos como un embudo para fines de informes y análisis? Por ejemplo, quiero considerar el Objetivo B cuando el usuario ha alcanzado el Objetivo A para poder rastrear los números de un embudo en particular.**
+**He creado múltiples objetivos en mi actividad. ¿Puedo crear una cadena de objetivos como un embudo para fines de informes y análisis? Por ejemplo, quiero considerar el Objetivo B cuando el usuario ha alcanzado el Objetivo A para poder realizar un seguimiento de los números de un funnel en particular.**
 
 +++Ver detalles
 [!DNL Target] tiene una forma sólida de lograr esto con nuestra característica [!UICONTROL Metrics Dependency]. Simplemente [agregue dependencias en otras métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Tiene opciones como “Alcanzado” y “No alcanzado”, junto con la capacidad de combinar métricas de múltiples maneras para crear la combinación que desee.
@@ -190,26 +211,26 @@ Existen dos opciones:
 
 +++
 
-## Audiencias {#section_FA6314777ABC46D8B198D6F388051460}
+## Públicos {#section_FA6314777ABC46D8B198D6F388051460}
 
-**¿Puedo crear un segmento de audiencia en una actividad que sea específica para la actividad? No creo que se cree una audiencia de este tipo en [!UICONTROL Audience Library] porque no hay factor de reutilización.**
+**¿Puedo crear un segmento del público en una actividad que sea específica para la actividad? No creo que se cree una audiencia de este tipo en [!UICONTROL Audience Library] porque no hay factor de reutilización.**
 
 +++Ver detalles
-Empiece usando nuestra [función Audiencia solo de actividad](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) para definir audiencias que sean locales para la actividad.
+Empiece usando nuestra [función Público solo de actividad](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) para definir públicos que sean locales para la actividad.
 
 +++
 
 **¿Cómo puedo orientarme a los usuarios según su ubicación?**
 
 +++Ver detalles
-Pruebe [audiencias geográficas](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670). Lea sobre los niveles de precisión de esta característica.
+Pruebe [públicos geográficos](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670). Lea sobre los niveles de precisión de esta característica.
 
 +++
 
 **¿Puedo orientar a los usuarios según algunos de los atributos de la página de la sesión?**
 
 +++Ver detalles
-La mejor manera sería utilizar mboxes y audiencias [personalizadas](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) para ofrecer la experiencia correcta.
+La mejor manera sería utilizar mboxes y públicos [personalizados](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) para ofrecer la experiencia correcta.
 
 +++
 
@@ -232,9 +253,9 @@ Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de 
 +++ Ver detalles
 Eche un vistazo a los siguientes aspectos del producto:
 
-* [Analytics for Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
-* [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
+* [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
 
@@ -381,7 +402,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
-* [Audiencias](/help/main/c-integrating-target-with-mac/mmp.md)
+* [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
 
@@ -396,7 +417,7 @@ Tenga en cuenta que [!DNL Target] recopila los datos a este respecto desde el mo
 
 +++
 
-**No puedo definir audiencias antes de ejecutar la actividad. Considero que este aspecto de informar audiencias en [!DNL Target] actividades es restrictivo. ¿Qué puedo hacer para facilitar este proceso?**
+**No puedo definir públicos antes de ejecutar la actividad. Considero que este aspecto de informar audiencias en [!DNL Target] actividades es restrictivo. ¿Qué puedo hacer para facilitar este proceso?**
 
 +++Ver detalles
 Es allí donde [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) resulta más práctico. Si tiene [!DNL Adobe Analytics], simplemente elija el origen como [!DNL Analytics], lo que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.

@@ -4,9 +4,18 @@ description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en 
 title: ¿Cómo creo una actividad de [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: 401
 ht-degree: 33%
 
 ---
@@ -17,7 +26,7 @@ Use [!UICONTROL Visual Experience Composer] (VEC) para crear una actividad [!UIC
 
 [!UICONTROL Experience Targeting] (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
-[!UICONTROL Experience Targeting], incluido [targeting geográfico](/help/main/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
+[!UICONTROL Experience Targeting], incluido [targeting geográfico](/help/main/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintos públicos.
 
 Para obtener más información sobre [!UICONTROL Experience Targeting], un caso de uso y vídeos de aprendizaje, consulte [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md).
 

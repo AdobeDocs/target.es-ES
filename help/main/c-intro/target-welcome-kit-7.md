@@ -4,10 +4,20 @@ description: Empecemos con su primera actividad en Adobe  [!DNL Target]  para qu
 title: Necesito crear mi primera actividad en Target. ¿Por dónde empiezo?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 76%
+source-wordcount: 1737
+ht-degree: 71%
 
 ---
 
@@ -23,9 +33,9 @@ Puede configurar una [actividad de Prueba A/B](/help/main/c-activities/t-test-ab
 
 Ejemplo: Una compañía de medios prueba su texto actual sobre una oferta de suscripción de regalo en la página principal de su sitio web o móvil para observar qué variación induce a que más visitantes compren una suscripción de regalo. Si selecciona Asignación automática, la actividad desplazará más tráfico hacia la variante ganadora mientras se ejecuta la prueba. Si no es así, esperará a que implemente manualmente la experiencia ganadora una vez finalizada la prueba.
 
-## Ruta 2: Personalización a una audiencia específica
+## Ruta 2: Personalización a un público específico
 
-Puede configurar una actividad [Direccionamiento de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) (XT) de modo que se dirija a una audiencia específica que usted sepa que es valiosa con una oferta o experiencia que sepa que interesará.
+Puede configurar una actividad [Direccionamiento de experiencias](/help/main/c-activities/t-experience-target/experience-target.md) (XT) de modo que se dirija a un público específico que usted sepa que es valiosa con una oferta o experiencia que sepa que interesará.
 
 Ejemplo: Una aerolínea se dirige a sus miembros de nivel platino con una oferta especial que duplica sus puntos en la compra de su próximo vuelo, como forma de recompensarlos y consolidar la lealtad del cliente.
 
@@ -41,10 +51,10 @@ Podría hacer esa prueba básica de cambio de color de botón o de copia, pero �
 
 Estas son solo algunas formas de concebir esas ideas de actividades que son fáciles de implementar, pero que pueden tener un gran impacto empresarial:
 
-* **Use lo que conoce.** Tal vez ya conoce bien a sus clientes y tiene una idea precisa de lo que les interesa. Utilícelo para desarrollar experiencias personalizadas.
-* **Utilice su solución de análisis.** Busque los lugares en el sitio donde los clientes abandonaron un flujo de compra o salieron de una página. Revise las páginas y formule una hipótesis sobre lo que podría estar causando la salida antes de realizar la acción deseada.
+* **Use lo que sabe.** Tal vez ya conoce bien a sus clientes y tiene una idea precisa de lo que les interesa. Utilícelo para desarrollar experiencias personalizadas.
+* **Use su solución de análisis.** Busque los lugares en el sitio donde los clientes abandonaron un flujo de compra o salieron de una página. Revise las páginas y formule una hipótesis sobre lo que podría estar causando la salida antes de realizar la acción deseada.
 * **Use sus poderes de observación.** Examine algunas páginas clave de su sitio web y siga su instinto para identificar los aspectos que deben mejorarse. Tal vez una página de detalles del producto que está demasiado abarrotada y llena de palabras, por lo que debe simplificarla. Tal vez el botón de compra es difícil de encontrar, así que muévalo a un lugar más visible.
-* **Observe a sus competidores.** Una rápida revisión de los sitios web de sus competidores podría revelar diseños, ofertas, textos y otros elementos que usted cree que son muy eficaces para obtener resultados comerciales. Considere la posibilidad de probar esos enfoques en su sitio.
+* **Mira a tus competidores.** Una rápida revisión de los sitios web de sus competidores puede revelar diseños, ofertas, textos y otros elementos que usted cree que son muy efectivos para obtener resultados comerciales. Considere la posibilidad de probar esos enfoques en su sitio.
 * **Aproveche los comentarios de los clientes.** Es posible que sus clientes le hayan aportado ideas para mejorar su experiencia a través de una encuesta en línea o en las llamadas del servicio de atención al cliente. Identifique los puntos problemáticos que hayan sido mencionados por varios clientes e idee una experiencia que pueda eliminarlos.
 
 Cuando se le ocurra una idea que probar, tenga en cuenta que debería poder explicar, idealmente con datos, por qué cree que la idea de prueba que propone puede mejorar la experiencia del cliente y las métricas que importan a la empresa.
@@ -71,9 +81,9 @@ Explique claramente cuál es el problema con la experiencia actual de la página
 
 Marque la casilla del tipo de actividad que desea ejecutar. Puede revisar el tema [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md) o el capítulo [Generalidades de Adobe Target](/help/main/c-intro/target-welcome-kit-2.md) para comprender los diferentes tipos de actividades disponibles.
 
-### ¿Quién es la audiencia objetivo?
+### ¿Quién es el público destinatario?
 
-En una prueba A/B con una experiencia de control y una variante, por ejemplo, puede incluir toda la población de visitantes. De forma predeterminada, [!DNL Target] envía el 50 % al control y el 50 % a la variante. Pero si está personalizando, podría describir la audiencia o audiencias que está personalizando. Al utilizar IA, es posible que tenga en cuenta que está utilizando IA para personalizar al individuo. Tenga en cuenta que la hipótesis debe explicar por qué elige una audiencia específica para una actividad, si elige alguna.
+En una prueba A/B con una experiencia de control y una variante, por ejemplo, puede incluir toda la población de visitantes. De forma predeterminada, [!DNL Target] envía el 50 % al control y el 50 % a la variante. Pero si está personalizando, podría describir el público o públicos que está personalizando. Al utilizar IA, es posible que tenga en cuenta que está utilizando IA para personalizar al individuo. Tenga en cuenta que la hipótesis debe explicar por qué elige un público específico para una actividad, si elige alguna.
 
 ### ¿Cuáles son las métricas principales para medir el impacto de la actividad?
 
@@ -99,7 +109,7 @@ Ninguna organización tiene recursos ilimitados para ejecutar todas las activida
 
 ### ¿Cuáles son los resultados?
 
-Una vez finalizada la actividad, documente los resultados asegurándose de enlazarlos con la hipótesis original, con las audiencias importantes que utilizó en la actividad, y con las métricas de éxito principales y secundarias indicadas anteriormente con las que pretendía evaluar los resultados de la actividad. El capítulo siguiente trata acerca de la comunicación de los resultados de la actividad.
+Una vez finalizada la actividad, documente los resultados asegurándose de enlazarlos con la hipótesis original, con los públicos importantes que utilizó en la actividad, y con las métricas de éxito principales y secundarias indicadas anteriormente con las que pretendía evaluar los resultados de la actividad. El capítulo siguiente trata acerca de la comunicación de los resultados de la actividad.
 
 ### ¿Qué se debe refinar en la actividad/cuáles son los pasos siguientes?
 

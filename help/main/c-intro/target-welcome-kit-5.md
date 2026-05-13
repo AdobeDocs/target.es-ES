@@ -4,9 +4,19 @@ description: ¿Dónde puedo encontrar ideas e inspiración para mis actividades 
 title: ¿Dónde puedo encontrar inspiración para mis esfuerzos de pruebas y personalización?
 feature: Overview
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: 1073
 ht-degree: 100%
 
 ---
@@ -17,11 +27,11 @@ A continuación, se ofrecen diferentes ideas de prueba y personalización, inspi
 
 ## Idea 1: Pruebe la personalización del recorrido del cliente.
 
-Aumente la tasa de conversión y los ingresos creando un recorrido creativo y una experiencia de marca adaptada que resuene con los visitantes del sitio web y que, al mismo tiempo, cumpla los objetivos de la empresa. A continuación, pruebe ese recorrido personalizado comparándolo con experiencias estáticas o experiencias entregadas aleatoriamente. Para llevar la personalización al siguiente nivel, descubra y cree audiencias que personalice para usar datos de segundo nivel y de terceros en [!DNL Adobe Audience Manager].
+Aumente la tasa de conversión y los ingresos creando un recorrido creativo y una experiencia de marca adaptada que resuene con los visitantes del sitio web y que, al mismo tiempo, cumpla los objetivos de la empresa. A continuación, pruebe ese recorrido personalizado comparándolo con experiencias estáticas o experiencias entregadas aleatoriamente. Para llevar la personalización al siguiente nivel, descubra y cree públicos que personalice para usar datos de segundo nivel y de terceros en [!DNL Adobe Audience Manager].
 
-Tras identificar estas audiencias, realice pruebas de experiencia del usuario e investigaciones de mercado para conocer qué es lo que motiva la respuesta y desarrolle las experiencias adaptadas en su recorrido en consecuencia.
+Tras identificar estos públicos, realice pruebas de experiencia del usuario e investigaciones de mercado para conocer qué es lo que motiva la respuesta y desarrolle las experiencias adaptadas en su recorrido en consecuencia.
 
-Por ejemplo, cuando un visitante clasificado en una audiencia &quot;usuario importante&quot; para una compañía de telecomunicaciones visita el sitio web de la compañía, ofrezca una experiencia que incluya copias e imágenes que resuenen con este tipo de usuarios junto con una oferta de conexión a Internet de alta velocidad.
+Por ejemplo, cuando un visitante clasificado en un público &quot;usuario importante&quot; para una compañía de telecomunicaciones visita el sitio web de la compañía, ofrezca una experiencia que incluya copias e imágenes que resuenen con este tipo de usuarios junto con una oferta de conexión a Internet de alta velocidad.
 
 ## Idea 2: Direccione a los visitantes nuevos y a los clientes que regresan de forma diferente.
 

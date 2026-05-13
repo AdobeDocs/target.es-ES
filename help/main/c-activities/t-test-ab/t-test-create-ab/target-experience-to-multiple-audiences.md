@@ -1,17 +1,24 @@
 ---
-keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
+keywords: varios públicos;versiones de experiencias;versiones de experiencias de target
 description: Descubra cómo dirigirse a diferentes segmentos de audiencia con versiones de la misma experiencia en actividades A/B.
 title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/FleyH-u5cWI5vku9E4-RMWeIc95WgPy-VQ-eytxka18
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 52%
+source-wordcount: 602
+ht-degree: 51%
 
 ---
 
-# Varias audiencias de una experiencia en una prueba A/B
+# Varios públicos de una experiencia en una prueba A/B
 
 Puede segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Visual Experience Composer] (VEC) o en el Compositor de experiencias basadas en formularios.
 
@@ -31,19 +38,19 @@ En este caso, lo que necesita son versiones específicas de la experiencia, para
 
 1. [Cree una actividad A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) del modo normal.
 
-   Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes.
+   Al configurar la experiencia que tendrá varias versiones, seleccione el público de cada versión, como vemos en los pasos siguientes.
 
 1. Seleccione la experiencia y haga clic en **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-1. Haga clic en el icono **[!UICONTROL Add Audience]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en el panel [!UICONTROL Experience Audiences] y, a continuación, seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada audiencia.
+1. Haga clic en el icono **[!UICONTROL Add Audience]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en el panel [!UICONTROL Experience Audiences] y, a continuación, seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada público.
 
-   Si la audiencia todavía no existe, haga clic en [Crear audiencia](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrela.
+   Si el público todavía no existe, haga clic en [Crear público](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrelo.
 
-   Si un visitante cumple los requisitos de más de una audiencia, se devuelve el contenido de todas las audiencias, pero en la página se representa la última de la lista.
+   Si un visitante cumple los requisitos de más de un público, se devuelve el contenido de todos los públicos, pero en la página se representa el último de la lista.
 
 1. Continúe configurando la actividad.
 
-## Prácticas recomendadas  
+## Prácticas recomendadas
 
 * Elija audiencias que se excluyan mutuamente. Si la actividad se creó en el VEC y un visitante coincide con más de una audiencia, se devuelve el contenido de cada audiencia y el contenido de la audiencia se muestra por última vez en la página.
 * Las audiencias de participación en la actividad definidas en el diagrama se combinan con las audiencias de experiencia mediante la condición AND. Para participar en la actividad, un visitante debe cumplir los requisitos de la audiencia de la actividad y los requisitos de una de las audiencias de la experiencia.

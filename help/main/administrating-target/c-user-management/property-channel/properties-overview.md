@@ -6,10 +6,30 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 56%
+source-wordcount: 1476
+ht-degree: 55%
 
 ---
 
@@ -26,9 +46,9 @@ La siguiente tabla enumera las tareas que debe realizar para crear propiedades y
 | Tarea | Realizado en |
 |--- |--- |
 | &#x200B;1. Agregar usuarios (opcional) | [!DNL Adobe Admin Console for Enterprise] |
-| &#x200B;2. Crear un espacio de trabajo (perfil de producto) | [!DNL Adobe Admin Console for Enterprise] |
-| &#x200B;3. Crear grupos de usuarios (Opcional) | [!DNL Adobe Admin Console for Enterprise] |
-| &#x200B;4. Crear propiedades | IU de [!DNL Target] |
+| &#x200B;2. Creación de un espacio de trabajo (perfil de producto) | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;3. Crear grupos de usuarios (opcional) | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;4. Creación de propiedades | IU de [!DNL Target] |
 | 5: Actualice la implementación para incluir el parámetro `at_property` | [!DNL Target] interfaz de usuario, funciones de at.js o etiquetas en [!DNL Adobe Experience Platform] |
 | &#x200B;6. Especificar roles y permisos | [!DNL Adobe Admin Console for Enterprise] |
 
@@ -100,7 +120,7 @@ Puede crear grupos de usuarios, como Desarrolladores, Analistas, Especialistas e
 
 ## Paso 4. Creación de propiedades {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Las propiedades se habilitan agregando un par nombre/valor específico como parámetro con cualquier llamada ([!DNL Target] llamada, llamada de API, etc.) a [!DNL Target].
+Las propiedades se habilitan agregando un par nombre/valor específico como parámetro con cualquier llamada ([!DNL Target], llamada de API, etc.) a [!DNL Target].
 
 Las propiedades pertenecen a canales específicos (web, móvil, correo electrónico y API/otros).
 

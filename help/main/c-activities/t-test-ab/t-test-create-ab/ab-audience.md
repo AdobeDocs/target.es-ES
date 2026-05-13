@@ -1,17 +1,24 @@
 ---
-keywords: audiencia;seleccionar audiencia;elegir audiencia;selectores
+keywords: público;seleccionar público;elegir público;selectores
 description: Defina los visitantes del sitio que se unirán a su actividad de Adobe [!DNL Target] según los criterios de audiencia.
 title: ¿Cómo selecciono una audiencia en una actividad  [!DNL Target] A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
+TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 8%
+source-wordcount: 531
+ht-degree: 11%
 
 ---
 
-# Seleccionar la audiencia
+# Seleccionar el público
 
 La audiencia determina qué visitantes calificadores se ingresan en su actividad [!DNL Adobe Target].
 
@@ -64,4 +71,4 @@ Para obtener más información acerca de todas las opciones del diagrama de fluj
 
 Puede editar o copiar una audiencia haciendo clic en el icono [!UICONTROL More Actions] ( ![icono Más acciones](/help/main/assets/icons/More.svg) ) junto a la audiencia deseada en el cuadro de diálogo [!UICONTROL Add Audience] y luego haciendo clic en [!UICONTROL Edit] o [!UICONTROL Copy].
 
-Copiar una audiencia es útil si quiere crear una audiencia similar a otra ya existente. Puede realizar una copia de la audiencia, realizar ediciones y guardarla como una audiencia nueva.
+Copiar una audiencia es útil si quiere crear una audiencia similar a otra ya existente. Puede crear una copia de la audiencia, realizar sus modificaciones y después guardarla como una audiencia nueva.

@@ -1,12 +1,22 @@
 ---
-keywords: configuración de actividad;objetivos y configuración de la segmentación de experiencias;objetivos y configuración de xt;segmentación de experiencias;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;configuración avanzada;objetivo principal;métricas adicionales;objetivo;prioridad;duración;solución de informes;audiencias para informes;qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
+keywords: configuración de actividad;objetivos y configuración de la segmentación de experiencias;objetivos y configuración de xt;segmentación de experiencias;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;configuración avanzada;objetivo principal;métricas adicionales;objetivo;prioridad;duración;solución de informes;públicos para informes;qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
 description: Aprenda a usar la página [!UICONTROL Goals & Settings] en  [!DNL Adobe Target] para especificar información acerca de los objetivos de una actividad [!UICONTROL Experience Targeting] (XT).
 title: ¿Cómo se especifica [!UICONTROL Goals & Settings] en una actividad de [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+TQID: https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: 1152
 ht-degree: 38%
 
 ---
@@ -33,7 +43,7 @@ Escriba un objetivo opcional. El objetivo puede ser cualquier información que l
 
 Según la configuración, la interfaz de usuario de [!DNL Target] y las opciones de [!UICONTROL Priority] varían. Puede usar la configuración heredada de [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High], o bien habilitar prioridades específicas de 0 a 999.
 
-La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se muestra la actividad con la prioridad más alta.
+La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se muestra la actividad con la prioridad más alta.
 
 Si esta opción no está habilitada en [!UICONTROL Administration] (la predeterminada), especifique una prioridad: [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High].
 
@@ -102,7 +112,7 @@ Esta configuración no está disponible si la solución de creación de informes
 
 ### [!UICONTROL Audiences for Reporting]
 
-De manera predeterminada, en los informes se muestran resultados de todos los visitantes cualificados. Puede agregar audiencias de informes para mostrar únicamente información sobre audiencias específicas.
+De manera predeterminada, en los informes se muestran resultados de todos los visitantes cualificados. Puede agregar públicos de informes para mostrar únicamente información sobre públicos específicos.
 
 Esta configuración no está disponible si elige [!DNL Analytics] como solución de sistema de informes. Se aplica la audiencia definida para el grupo de informes [!DNL Analytics].
 

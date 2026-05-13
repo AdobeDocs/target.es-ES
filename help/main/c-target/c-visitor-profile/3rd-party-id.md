@@ -1,21 +1,30 @@
 ---
 keywords: mbox;mbox3rdPartyId;sincronización de perfiles;sinc. de perfiles;PCID
-description: Aprenda a utilizar el mbox3rdPartyId, que es el ID de visitante de su organización, como el ID de pertenencia o el programa de fidelidad de su organización.
+description: Aprenda a utilizar el mbox3rdPartyId, que es el ID de visitante de su organización, como el ID de pertenencia o el programa de lealtad de su organización.
 title: ¿Cómo utilizo la sincronización de perfiles en tiempo real para mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 741
 ht-degree: 80%
 
 ---
 
 # Sincronización de perfiles en tiempo real para mbox3rdPartyId
 
-El `mbox3rdPartyId` en [!DNL Adobe Target] es el ID de visitante de su compañía, como el ID de pertenencia para el programa de fidelidad de su empresa.
+El `mbox3rdPartyId` en [!DNL Adobe Target] es el ID de visitante de su compañía, como el ID de pertenencia para el programa de lealtad de su empresa.
 
-Cuando un visitante inicia sesión en el sitio de una empresa, esta generalmente crea un ID vinculado a la cuenta del visitante, la tarjeta de fidelidad, el número de pertenencia u otros identificadores aplicables para esa empresa.
+Cuando un visitante inicia sesión en el sitio de una empresa, esta generalmente crea un ID vinculado a la cuenta del visitante, la tarjeta de lealtad, el número de pertenencia u otros identificadores aplicables para esa empresa.
 
 Cuando un visitante tiene acceso a una página en la que está habilitado [!DNL Target], se asigna al visitante un PCID de [!DNL Target]. Si el visitante luego inicia sesión, y la implementación pasa el `mbox3rdPartyId` a [!DNL Target], [!DNL Target] conecta el `mbox3rdPartyId` de ese visitante con el PCID de [!DNL Target].
 

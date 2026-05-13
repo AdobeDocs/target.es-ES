@@ -4,9 +4,18 @@ description: 'Obtenga más información sobre los Compositores de experiencias v
 title: ¿Qué Compositores De Experiencias Ofrece  [!DNL Target] ?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 388
 ht-degree: 79%
 
 ---
@@ -15,7 +24,7 @@ ht-degree: 79%
 
 Una experiencia en [!DNL Adobe Target] determina qué contenido se muestra cuando el visitante cumple los criterios de audiencia de una actividad.
 
-Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un ayudante de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
+Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un canal de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
 Una actividad generalmente contiene más de una experiencia. Por ejemplo, los visitantes del área de Salt Lake City podrían ver una oferta para un descuento de 30 dólares en botas de ski, mientras que los visitantes de San Diego ven una oferta para un descuento en trajes de agua. O bien, podría probar una página con diferentes ofertas especiales para los visitantes que regresan. Cada una de estas ofertas se presenta en una experiencia separada.
 

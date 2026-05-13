@@ -5,10 +5,18 @@ title: ¿Cómo se usa [!UICONTROL Feeds] en  [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
+TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2613'
-ht-degree: 34%
+source-wordcount: 2643
+ht-degree: 36%
 
 ---
 
@@ -42,7 +50,7 @@ La página [!UICONTROL Feeds] contiene las siguientes columnas:
 * **Tipo**: los tipos incluyen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) y [Clasificaciones de Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Elementos**: Muestra el número de elementos de la fuente.
 * **Programación**: Muestra la programación de actualización de la fuente: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] o [!UICONTROL Never].
-* **Última actualización**: muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que actualizó la fuente.
+* **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente.
 
 Haga clic en el icono [!UICONTROL Customize Table] ( ![Personalizar icono de tabla](/help/main/assets/icons/ColumnSetting.svg) ) para seleccionar o anular la selección de las columnas que desee mostrar.
 
@@ -223,7 +231,7 @@ La clasificación de producto [!DNL Adobe Analytics] es la única clasificación
 >* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
 >* [!DNL Target] solo admite [!UICONTROL Product Classifications]. La SKU del producto [!DNL Analytics] debe asignarse al mismo nivel que [!DNL Recommendations] `entity.id`. Las clasificaciones personalizadas [!DNL Analytics] se pueden diseñar con [!UICONTROL Adobe Consulting Services]. Póngase en contacto con el Administrador de cuentas si tiene alguna pregunta.
 
-## Crear fuente   {#steps}
+## Crear fuente {#steps}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
@@ -280,7 +288,7 @@ Mientras la indización está en curso, se muestran los encabezados de la fuente
 
 Cuando el estado indica “Correcto”, significa que el archivo se ha encontrado y se ha analizado correctamente. La información no está disponible para su uso en [!DNL Recommendations] hasta que se indexa el archivo. La tarea de indexación puede tardar bastante, en función del tamaño del archivo. Si el proceso falla, significa que no se encontró el archivo. Por ejemplo: ha utilizado una dirección URL incorrecta, la información de FTP era incorrecta o había un error de análisis.
 
-## Estados e indicadores de alimentación   {#concept_E475986720D1400999868B3DFD14A7A0}
+## Estados e indicadores de alimentación {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Información sobre los posibles estados de alimentación y sus indicadores.
 
@@ -297,7 +305,7 @@ Estos son los posibles estados de una fuente:
 | [!UICONTROL Waiting for Download] | [!DNL Target] se está preparando para descargar el archivo de fuente. |
 | [!UICONTROL Downloading Feed File] | [!DNL Target] está descargando el archivo de fuente. |
 | [!UICONTROL Importing Items] | [!DNL Target] está importando elementos del archivo de fuente. |
-| Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo y actualice la página que contenga recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones no se reflejen todavía en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Catalog Search] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
+| Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, vuelva a intentarlo y actualice la página que contiene recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones no se reflejen todavía en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Catalog Search] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
 | Error de importación parcial | Anteriormente, cuando no se cargaban todas las filas, la fuente se marcaba como correcta. Por lo tanto, si se crea la impresión de que todas las filas se han cargado mientras la fuente se muestra correctamente,<P>Este es un escenario de por qué podría encontrar una importación parcial de fuentes:<ul><li>Ha cargado un archivo de fuente para el entorno de producción; por ejemplo, 100 filas.</li><li>Se ejecutó la fuente, se cargaron 80 de esas filas y se perdieron 20 debido a un formato incorrecto, a que el campo superaba los caracteres, etc.</li><li>La fuente se marcó como correcta en la interfaz de usuario, lo que da la impresión de que se han cargado las 100 filas.</li><li>Está esperando algunos de esos 20 productos en el envío de una actividad, pero no está ocurriendo.</li><li> En este punto se siente desconcertado porque ha cargado la fuente que contiene los detalles del producto para los productos en cuestión. No lo ve en el backend de cuando consulta a través de la API de entidad, que le indica que no está en el backend de.</li></ul>Para eliminar esta confusión, se mejora el mensaje para indicar exactamente qué ha pasado con la fuente. En lugar de marcarlo como un éxito, ahora se marca como un error de importación parcial. |
 | [!UICONTROL Failed to Index] | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | [!UICONTROL Server Not Found] | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
@@ -308,7 +316,7 @@ Para actualizar una fuente (por ejemplo, para realizar cambios en la configuraci
 >
 >Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuentes (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
 
-### Indicadores de estado de fuente   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicadores de estado de fuente {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 Los siguientes indicadores de estado de fuente se muestran en la columna [!UICONTROL Status]:
 

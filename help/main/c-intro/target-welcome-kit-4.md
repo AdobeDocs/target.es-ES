@@ -4,10 +4,27 @@ description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adob
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2883'
-ht-degree: 72%
+source-wordcount: 2960
+ht-degree: 73%
 
 ---
 
@@ -29,11 +46,11 @@ Consulte [Métodos para obtener los datos en Target](https://experienceleague.ad
 
 ## Sugerencia 2: Intensifique la personalización mediante la fusión de audiencias de [!DNL Target] con otras audiencias de Adobe Experience Cloud.
 
-La fusión de audiencias que residen en diferentes soluciones de [!DNL Adobe Experience Cloud] puede ofrecerle una perspectiva mucho más amplia de sus clientes, así como mayor capacidad de personalización. Por ejemplo, aunque [!DNL Target] proporciona datos de audiencia en tiempo real, [!DNL Adobe Analytics] ofrece datos de audiencia históricos. La combinación de ambos datos puede ayudarle a identificar cuándo el comportamiento de un cliente es coherente y cuándo puede haber una oportunidad para actuar ante un nuevo comportamiento. Simplemente haga clic en el menú desplegable situado junto a &quot;Todos los visitantes&quot; cuando cree una actividad. A continuación, active las casillas de hasta veinte audiencias, haga clic en &quot;Combinar varias audiencias&quot; y en &quot;Guardar&quot;.
+La fusión de públicos que residen en diferentes soluciones de [!DNL Adobe Experience Cloud] puede ofrecerle una perspectiva mucho más amplia de sus clientes, así como mayor capacidad de personalización. Por ejemplo, aunque [!DNL Target] proporciona datos de público en tiempo real, [!DNL Adobe Analytics] ofrece datos de público históricos. La combinación de ambos datos puede ayudarle a identificar cuándo el comportamiento de un cliente es coherente y cuándo puede haber una oportunidad para actuar ante un nuevo comportamiento. Simplemente haga clic en el menú desplegable situado junto a &quot;Todos los visitantes&quot; cuando cree una actividad. A continuación, active las casillas de hasta veinte audiencias, haga clic en &quot;Combinar varias audiencias&quot; y en &quot;Guardar&quot;.
 
-Consulte [Combinación de varias audiencias](/help/main/c-target/combining-multiple-audiences.md) para obtener instrucciones paso a paso.
+Consulte [Combinación de varios públicos](/help/main/c-target/combining-multiple-audiences.md) para obtener instrucciones paso a paso.
 
-**Datos útiles**: Las audiencias de [!DNL Adobe Audience Manager] están disponibles en [!DNL Target] automáticamente. Sin embargo, el uso compartido de audiencias de [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla &quot;Convertir esto en audiencia de Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, desde [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
+**Datos útiles**: Los públicos de [!DNL Adobe Audience Manager] están disponibles en [!DNL Target] automáticamente. Sin embargo, el uso compartido de públicos de [!DNL Adobe Analytics] requiere un poco de configuración manual. Simplemente marque la casilla &quot;Convertir esto en audiencia de Experience Cloud&quot; durante el proceso de creación de audiencias en [!DNL Analytics]. A continuación, desde [!DNL Target], haga clic en &quot;Importar audiencias de Experience Cloud&quot;.
 
 ## Sugerencia 3: Exporte datos de [!DNL Target] para usarlos con herramientas de terceros.
 
@@ -47,9 +64,9 @@ Consulte [Tokens de respuesta](/help/main/administrating-target/response-tokens.
 
 **Haga esto primero**: asegúrese de que está utilizando la versión 1.1 o posterior de at.js. Si utiliza una versión anterior, verá los tokens de respuesta, pero at.js no podrá utilizarlos.
 
-## Sugerencia 4: Cree audiencias a partir de estas variables clave para aumentar el valor de la actividad.
+## Sugerencia 4: Cree públicos a partir de estas variables clave para aumentar el valor de la actividad.
 
-Cuando cree audiencias para dirigir o probar promociones y ofertas, tenga primero en cuenta las variables siguientes:
+Cuando cree públicos para dirigir o probar promociones y ofertas, tenga primero en cuenta las variables siguientes:
 
 * Comportamiento. Patrones de visita al sitio y patrones de compra.
 * Referente. Sitios de referencia y campañas.
@@ -75,9 +92,9 @@ Consulte [Actividad multipágina](/help/main/c-experiences/c-visual-experience-c
 
 **Sugerencia útil**: Si cambia la dirección URL después de especificar un intervalo de páginas, se restablecerá la experiencia. Esto significa que las variaciones especificadas dejarán de mostrarse. Si necesita cambiar la dirección URL, recuerde que debe redefinir la experiencia.
 
-## Sugerencia 7: Pruebe una oferta con distintas audiencias para descubrir si las audiencias tienen preferencias diferentes.
+## Sugerencia 7: Pruebe una oferta con distintos públicos para descubrir si los públicos tienen preferencias diferentes.
 
-Con las versiones de Experience, puede ejecutar una prueba con variaciones para tantas audiencias como desee. Por ejemplo, puede crear una publicidad tipo titular que ofrezca envío gratuito (con imágenes y variaciones de moneda para clientes de EE.UU., Reino Unido y EE.AA.UU.) sin tener que ejecutar pruebas para tres audiencias diferentes.
+Con las versiones de Experience, puede ejecutar una prueba con variaciones para tantos públicos como desee. Por ejemplo, puede crear una publicidad tipo titular que ofrezca envío gratuito (con imágenes y variaciones de moneda para clientes de EE.UU., Reino Unido y EE.AA.UU.) sin tener que ejecutar pruebas para tres públicos diferentes.
 
 Consulte [Audiencias de experiencias múltiples en una prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) para obtener instrucciones paso a paso.
 
@@ -87,13 +104,13 @@ Cree una variación en una página web, como, por ejemplo, un nuevo color de bot
 
 Consulte [Incluir la misma experiencia en páginas similares](/help/main/c-experiences/c-visual-experience-composer/temtest.md) para obtener instrucciones paso a paso.
 
-## Sugerencia 9: Reduzca el desorden en la biblioteca de audiencias creando audiencias únicas.
+## Sugerencia 9: Reduzca el desorden en la biblioteca de públicos creando públicos únicos.
 
-Si va a segmentar un segmento que sabe que no volverá a segmentar (por ejemplo, clientes afectados por un evento meteorológico inesperado), la creación de una audiencia de un solo uso puede ayudarle a realizar el trabajo sin necesidad de agregar desorden a la biblioteca de audiencias. Esto facilita la búsqueda de audiencias que utiliza una y otra vez.
+Si va a segmentar un segmento que sabe que no volverá a segmentar (por ejemplo, clientes afectados por un evento meteorológico inesperado), la creación de una audiencia de un solo uso puede ayudarle a realizar el trabajo sin necesidad de agregar desorden a la biblioteca de audiencias. Esto facilita la búsqueda de públicos que utiliza una y otra vez.
 
-Consulte [Creación de audiencias solo de actividad](/help/main/c-target/creating-activity-only-audience.md) para obtener instrucciones paso a paso.
+Consulte [Creación de públicos solo de actividad](/help/main/c-target/creating-activity-only-audience.md) para obtener instrucciones paso a paso.
 
-**Capacidad muy solicitada**: Nuestros clientes nos pidieron que fuese posible evitar que las audiencias de un solo uso se guardaran automáticamente en la Biblioteca de audiencias. Ahora, ya no es necesario eliminar audiencias manualmente para mantener las bibliotecas organizadas.
+**Capacidad muy solicitada**: Nuestros clientes nos pidieron que fuese posible evitar que los públicos de un solo uso se guardaran automáticamente en la Biblioteca de públicos. Ahora, ya no es necesario eliminar públicos manualmente para mantener las bibliotecas organizadas.
 
 ## Sugerencia 10: Ejecute pruebas sencillas más rápido al no someterlas al proceso de control de calidad estándar.
 
@@ -103,7 +120,7 @@ Consulte [Control de calidad de actividades](/help/main/c-activities/c-activity-
 
 ## Sugerencia 11: Ejecute pruebas en páginas de tráfico intenso para que alcancen la relevancia estadística con mayor rapidez.
 
-Muchos especialistas en marketing inician programas de optimización de segmentación de audiencia y direccionamiento sin comprobar si los niveles de tráfico y las audiencias representadas proporcionarán resultados significativos dentro del marco temporal de prueba para sus objetivos de optimización y conversión. Para evitar este error común, responda antes a las preguntas siguientes:
+Muchos especialistas en marketing inician programas de optimización de segmentación del público y direccionamiento sin comprobar si los niveles de tráfico y los públicos representados proporcionarán resultados significativos dentro del marco temporal de prueba para sus objetivos de optimización y conversión. Para evitar este error común, responda antes a las preguntas siguientes:
 
 * ¿Cuántos visitantes únicos diarios tiene la página?
 * ¿Cuál es la tasa de conversión de la página?
@@ -133,13 +150,13 @@ Si su hipótesis resultó no ser cierta, piense en formas de mejorar la prueba. 
 
 ## Sugerencia 16: Compare pruebas y actividades de personalización para obtener ideas y mejorar la segmentación.
 
-La comparación del rendimiento de conversión de distintas audiencias de diferentes pruebas en diferentes ubicaciones puede ayudar a enfocar y refinar la estrategia de optimización de una empresa. Utilice comparaciones de prueba para identificar qué audiencias merecen más la pena probar, cuáles deben recibir experiencias segmentadas y qué tipos de experiencias tienen más probabilidades de generar respuestas.
+La comparación del rendimiento de conversión de distintas audiencias de diferentes pruebas en diferentes ubicaciones puede ayudar a enfocar y refinar la estrategia de optimización de una empresa. Utilice comparaciones de prueba para identificar qué públicos merecen más la pena probar, cuáles deben recibir experiencias segmentadas y qué tipos de experiencias tienen más probabilidades de generar respuestas.
 
-Por ejemplo, un cliente de servicios financieros dirigió una campaña promocional para una tarjeta de crédito que incluía incentivos de eventos deportivos profesionales. Mediante pruebas multivariadas factoriales parciales de sus páginas de destino, el cliente pudo encontrar el equilibrio óptimo en el envío de mensajes sobre los beneficios de las tarjetas de crédito con incentivos deportivos para dirigirse a distintas audiencias de su base de clientes. Este método permitió a la compañía aprovechar y maximizar la conversión en un periodo clave durante un importante evento deportivo.
+Por ejemplo, un cliente de servicios financieros dirigió una campaña promocional para una tarjeta de crédito que incluía incentivos de eventos deportivos profesionales. Mediante pruebas multivariadas factoriales parciales de sus páginas objetivo, el cliente pudo encontrar el equilibrio óptimo en el envío de mensajes sobre los beneficios de las tarjetas de crédito con incentivos deportivos para dirigirse a distintos públicos de su base de clientes. Este método permitió a la compañía aprovechar y maximizar la conversión en un periodo clave durante un importante evento deportivo.
 
 ## Sugerencia 17: haga que las pruebas sean útiles al iniciarlas únicamente si sabe que podrá tomar acciones basándose en los datos.
 
-No tiene sentido realizar una prueba si no tiene claro cómo va a actuar con los datos. Esto incluye saber cuál es la métrica de éxito clave, qué debe suceder para impulsar a un ganador, cómo seguirá los resultados de las pruebas y qué hará con la información de la audiencia. Para que la prueba se realice de forma rápida y con éxito, es vital que todos los grupos involucrados en la prueba (desarrolladores, creativos, especialistas en pruebas y otros) conozcan su papel antes de su inicio.
+No tiene sentido realizar una prueba si no tiene claro cómo va a actuar con los datos. Esto incluye saber cuál es la métrica de éxito clave, qué debe suceder para impulsar a un ganador, cómo seguirá los resultados de las pruebas y qué hará con la información del público. Para que la prueba se realice de forma rápida y con éxito, es vital que todos los grupos involucrados en la prueba (desarrolladores, creativos, especialistas en pruebas y otros) conozcan su papel antes de su inicio.
 
 ## Sugerencia 18: Antes de iniciar una prueba, asegúrese de que la empresa impulse al ganador.
 
@@ -162,7 +179,7 @@ Las experiencias de los usuarios de dispositivos de tableta y smartphones deben 
 
 Los usuarios de móviles tienen una intención alta. La mayoría de ellos utilizan las funciones de búsqueda antes de hacer cualquier otra cosa en los sitios de comercio electrónico, lo que hace que la optimización de la búsqueda en sitios móviles sea crucial. Para mejorar la optimización de los motores de búsqueda (SEO) para móviles, utilice indicaciones de navegación explícitas que faciliten la exploración del contenido. Además, implemente funciones de sugerencias y correcciones automáticas en los cuadros de búsqueda para resolver la dificultad que plantea la escritura los en dispositivos móviles. Ofrezca resultados de búsqueda relevantes y convincentes optimizados según el tamaño y la ubicación de la pantalla.
 
-## Sugerencia 22: Llegue mejor a las audiencias móviles gracias al direccionamiento según la hora del día para las campañas móviles de marketing en buscadores.
+## Sugerencia 22: Llegue mejor a los públicos móviles gracias al direccionamiento según la hora del día para las campañas móviles de marketing en buscadores.
 
 Sepa cómo y cuándo llegar a su audiencia, y cómo administrar mejor su gasto en publicidad diaria dividiendo sus campañas móviles en diferentes segmentos a lo largo del día.
 

@@ -4,10 +4,19 @@ description: Obtenga información acerca de las variaciones de datos esperadas e
 title: ¿Cuál es la variación de datos esperada entre Analytics y A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 45%
+source-wordcount: 731
+ht-degree: 42%
 
 ---
 
@@ -31,7 +40,7 @@ Estos son algunos escenarios en los que puede experimentar variaciones de datos 
 
 Es normal encontrar unas variaciones de entre el 15 y el 20%, incluso en conjuntos de datos similares. Los sistemas que realizan recuentos de manera distinta pueden arrojar unas variaciones de datos mucho mayores, de incluso entre el 35 y el 50%. A veces, las variaciones pueden ser aún más altas.
 
-Aunque los datos reales pueden variar de forma muy considerable, las tendencias suelen ser coherentes. Siempre y cuando las diferencias y tendencias sean coherentes, los datos seguirán conservando su valor y utilidad. Si no lo son, puede ser indicativo de que hay algo mal configurado, en cuyo caso deberá ponerse en contacto con el representante de cuentas para obtener ayuda.
+Aunque los datos reales pueden variar de forma muy considerable, las tendencias suelen ser coherentes. Siempre y cuando las diferencias y tendencias sean coherentes, los datos seguirán conservando su valor y utilidad. Si las diferencias y tendencias son incoherentes, podría significar que algo está configurado incorrectamente. En este caso, póngase en contacto con el representante de su cuenta para obtener ayuda.
 
 [!DNL Analytics] emplea un sistema basado en visitas y transacciones, mientras que usa métricas basadas en visitantes. [!DNL Target] Cada vez que un visitante abre una página, se cuenta como una visita en [!DNL Analytics], pero [!DNL Target] no cuenta la visita hasta que se cumplen las condiciones establecidas en la actividad.
 
@@ -39,7 +48,7 @@ Los informes de [!DNL Target] muestran el rendimiento según el mbox de conversi
 
 Las variaciones de datos previstas pueden estar originadas por variaciones de índole tanto técnica como empresarial.
 
-### Ejemplos de variaciones técnicas  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Ejemplos de variaciones técnicas {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 A continuación se indican las situaciones que pueden desembocar en variaciones de datos debido a diferencias técnicas:
 
@@ -49,7 +58,7 @@ A continuación se indican las situaciones que pueden desembocar en variaciones 
 * Consideraciones de zona horaria
 * Diferencias en las que se pueden contar dispositivos
 
-### Ejemplos de variaciones empresariales.  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Ejemplos de variaciones empresariales. {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 A continuación se indican las situaciones que pueden desembocar en variaciones de datos debido a diferencias empresariales:
 

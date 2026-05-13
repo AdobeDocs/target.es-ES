@@ -4,10 +4,18 @@ description: Aprenda a usar un [!UICONTROL Multivariate Test] (MVT) en  [!DNL Ad
 title: ¿Qué es un [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
+TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 47%
+source-wordcount: 1453
+ht-degree: 48%
 
 ---
 
@@ -57,7 +65,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
   Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más elementos, es aconsejable realizar una prueba MVT antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estos son los elementos en los que debería centrarse un especialista en marketing. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es el elemento más importante para lograr sus objetivos. Una vez que haya determinado qué elementos y contenido son más útiles para ayudarle a alcanzar sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados. Por ejemplo, puede probar dos imágenes específicas una contra la otra o comparar las palabras o los colores de un call to action. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
-## Consideraciones   {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
+## Consideraciones {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Utilice una prueba MVT cuando tenga al menos tres elementos que probar. Si tiene menos, ejecute una serie de pruebas A/B.
 * Seleccione los elementos de página que crea que tienen un impacto más significativo en los resultados.
@@ -67,7 +75,7 @@ Las pruebas multivariable (MVT) se pueden utilizar junto con las pruebas A/B par
 
   Por ejemplo, no realice una prueba del diseño y del contenido a la vez.
 
-* Planifique un tiempo adicional de control de calidad debido al aumento en el número de experiencias. También puede utilizar pruebas factoriales parciales para reducir la cantidad de tráfico necesario para una prueba multivariable. Para obtener más información, consulte Pruebas factoriales parciales a continuación:
+* Planifique más tiempo para el control de calidad debido al aumento del número de experiencias. También puede utilizar pruebas factoriales parciales para reducir la cantidad de tráfico necesario para una prueba multivariable. Para obtener más información, consulte Pruebas factoriales parciales a continuación:
 
 ## Pruebas factoriales parciales
 

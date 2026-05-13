@@ -4,9 +4,22 @@ description: Aprenda a solucionar problemas que a veces ocurren en el  [!DNL Tar
 title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Visual Experience Composer] y [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1202
 ht-degree: 32%
 
 ---
@@ -65,14 +78,14 @@ Como solución alternativa, puede agregar una página en la experiencia con la U
 
 +++
 
-## Cuando intento editar una página, lo único que veo es un control de número en lugar de mi página. (VEC y EEC)   {#section_313001039F79446DB28C70D932AF5F58}
+## Cuando intento editar una página, lo único que veo es un control de número en lugar de mi página. (VEC y EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Detalles
 Esta situación puede suceder si la dirección URL contiene el carácter #. Para solucionar el problema, cambie al modo [!UICONTROL Browse] en el VEC o EEC y vuelva al modo [!UICONTROL Compose]. El control de número debería desaparecer y la página debería cargarse.
 
 +++
 
-## Los encabezados de Política de seguridad de contenido (CSP) bloquean las bibliotecas de [!DNL Target] de mi sitio web. (VEC y EEC)   {#section_89A30C7A213D43BFA0822E66B482B803}
+## Los encabezados de Política de seguridad de contenido (CSP) bloquean las bibliotecas de [!DNL Target] de mi sitio web. (VEC y EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 
 +++Detalles
@@ -97,28 +110,28 @@ Para [!DNL Requestly], siempre que sea necesario quitar encabezados, debe realiz
 
 +++
 
-## El VEC o EEC parece roto o no se inicializa cuando se vuelve a editar una actividad guardada. (VEC y EEC)   {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+## El VEC o EEC parece roto o no se inicializa cuando se vuelve a editar una actividad guardada. (VEC y EEC) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
 
 +++Detalles
 Si el sitio web ha cambiado fuera del VEC después de definir la experiencia, no se pueden encontrar los selectores en los que se realizaron acciones anteriormente cuando la actividad se abre para reeditarla. La página parece no funcionar, pero no se muestra ninguna advertencia.
 
 +++
 
-## El VEC o EEC no muestra los banners rotativos y otro contenido que contiene JavaScript. (VEC y EEC)   {#section_8B5BE6EB050B42D6A14A054724C41330}
+## El VEC o EEC no muestra los banners rotativos y otro contenido que contiene JavaScript. (VEC y EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 +++Detalles
 De forma predeterminada, el VEC bloquea los elementos de JavaScript. Puede trabajar con estos elementos si desactiva JavaScript. Según la configuración del sitio, es posible que algunos elementos se sigan mostrando de forma incorrecta o que no estén disponibles.
 
 +++
 
-## Al cambiar un elemento de la página, se cambian varios elementos. (VEC y EEC)   {#section_309188ACF34942989BE473F63C5710AF}
+## Al cambiar un elemento de la página, se cambian varios elementos. (VEC y EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Detalles
 Si se usa el mismo ID de elemento DOM en varios elementos de la página, al cambiar uno de estos elementos se cambiarán todos los elementos con dicho ID. Para evitar este error, los ID solo han de usarse una vez por página. Esta práctica es una práctica recomendada estándar de HTML. Para obtener más información, consulte [Escenarios de modificación de página](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
-## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC)   {#section_9FE266B964314F2EB75604B4D7047200}
+## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Detalles
 Este problema se puede solucionar habilitando [!UICONTROL Enhanced Experience Composer] (EEC). Haga clic en **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** y, a continuación, active la casilla que habilita [!UICONTROL Enhanced Experience Composer]. El EEC usa un proxy administrado por [!DNL Adobe] para cargar la página y editarla. Este proxy permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha agregado código [!DNL Adobe Target]. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del EEC. En este caso, puede desactivar esta opción para cargar el EEC a través de un iFrame.
@@ -129,14 +142,14 @@ Este problema se puede solucionar habilitando [!UICONTROL Enhanced Experience Co
 
 +++
 
-## Deseo configurar pruebas en páginas que aún no tengan la implementación de mbox/[!DNL Target] completada. (VEC y EEC)   {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Deseo configurar pruebas en páginas que aún no tengan la implementación de mbox/[!DNL Target] completada. (VEC y EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Detalles
 Consulte “No puedo modificar experiencias desde un sitio con eliminación de iFrames” (arriba).
 
 +++
 
-## Los estilos de texto en negrita y cursiva con [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] o [!UICONTROL Change Text]/[!DNL Change HTML] no se muestran en mi página. A veces el texto desaparece después de aplicar estos cambios de estilo. (VEC y EEC)   {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Los estilos de texto en negrita y cursiva con [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] o [!UICONTROL Change Text]/[!DNL Change HTML] no se muestran en mi página. A veces el texto desaparece después de aplicar estos cambios de estilo. (VEC y EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Detalles
 Si usa **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** en el VEC para actividades [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting], o **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** para actividades [!UICONTROL Automated Personalization] o [!UICONTROL Multivariate Test] para hacer que el texto aparezca en negrita o en cursiva, es posible que esos estilos no se apliquen en la página o que el texto desaparezca de la página en el VEC. Esto sucede debido a la forma en que el editor de texto enriquecido aplica estos estilos, lo que podría interferir con el marcado del sitio web.
@@ -152,7 +165,7 @@ Si ve este problema, haga lo siguiente:
 
 +++
 
-## Para las actividades de Personalización automatizada, el intercambio de imágenes aparece dañado en el VEC o EEC. (VEC y EEC)   {#section_88AABFDFE6A3420299B0D508B12A3994}
+## Para las actividades de Personalización automatizada, el intercambio de imágenes aparece dañado en el VEC o EEC. (VEC y EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Detalles
 Si agrega una oferta de imagen a una ubicación, en el VEC o EEC se ocupa la dimensión completa del espacio de la imagen original. Cuando se muestra, la imagen no se expande y se muestra tal cual, así que no produce ningún impacto en la publicación.

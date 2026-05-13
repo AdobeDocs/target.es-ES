@@ -5,9 +5,19 @@ title: ¿Cómo baso el [!UICONTROL Recommendation] en un [!UICONTROL Recommendat
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3463'
+source-wordcount: 3510
 ht-degree: 27%
 
 ---
@@ -71,7 +81,7 @@ Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recomme
 
 ### [!UICONTROL People Who Viewed This, Also Bought]
 
-Recomienda artículos que se compran con mayor frecuencia en la misma sesión en la que se visualiza el artículo especificado.
+Recomienda artículos que se compran con mayor frecuencia en la misma sesión en que se ve el artículo especificado.
 
 Esta lógica devuelve otros productos que compraron otras personas después de ver este. El producto especificado no se incluye en el conjunto de resultados.
 
@@ -295,7 +305,7 @@ Si selecciona este algoritmo, puede seleccionar las siguientes claves de filtrad
 
 El tipo de algoritmo [!UICONTROL Custom Criteria] le permite hacer recomendaciones basadas en un archivo personalizado que haya cargado.
 
-La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
+La recomendación está determinada por un elemento almacenado en el perfil de un visitante, que usa los atributos user.*x* o profile.*x*.
 
 Si se selecciona está opción, el valor `entity.id` debe estar presente en el atributo del perfil.
 
@@ -303,7 +313,7 @@ Cuando basa las recomendaciones en atributos personalizados, debe seleccionar el
 
 Puede realizar el filtrado en tiempo real sobre su propia salida de criterios personalizados. Por ejemplo, puede limitar sus artículos recomendados solo a aquellos de la categoría o marca favorita de un visitante. Esto le da la capacidad de combinar cálculos sin conexión con filtrado en tiempo real.
 
-Esta funcionalidad significa que puede usar [!DNL Target] para agregar personalización además de sus recomendaciones calculadas sin conexión o listas personalizadas. Esto combina el poder de sus científicos e investigadores de datos con la entrega probada y comprobada de Adobe, el filtrado en tiempo de ejecución, las pruebas A/B, la orientación, los informes, las integraciones y más.
+Esta funcionalidad significa que puede usar [!DNL Target] para agregar personalización además de sus recomendaciones calculadas sin conexión o listas personalizadas. Esto combina el poder de sus científicos e investigadores de datos con la entrega probada y comprobada de Adobe, el filtrado en tiempo de ejecución, las pruebas A/B, la segmentación, los informes, las integraciones y más.
 
 Con la adición de reglas de inclusión en [!UICONTROL Custom Criteria], convierte las recomendaciones estáticas en recomendaciones dinámicas basadas en los intereses de los visitantes.
 

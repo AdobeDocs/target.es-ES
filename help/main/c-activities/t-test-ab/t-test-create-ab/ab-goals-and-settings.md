@@ -1,13 +1,23 @@
 ---
-keywords: configuración de actividad;objetivos y configuración de A/B;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;audiencias para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
+keywords: configuración de actividad;objetivos y configuración de A/B;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;públicos para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
 description: Descubra cómo utilizar la página [!UICONTROL Goals and Settings] para definir los objetivos de la actividad A/B.
 title: ¿Cómo se especifican los objetivos y la configuración en una actividad  [!DNL Target] A/B?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 29%
+source-wordcount: 1138
+ht-degree: 31%
 
 ---
 
@@ -24,7 +34,7 @@ La sección [!UICONTROL Activity Settings] de la página [!UICONTROL Goals & Set
 | Configuración | Descripción |
 |--- |--- |
 | [!UICONTROL Objective] | Escriba un objetivo opcional. El objetivo puede ser cualquier información que le ayude a usted y a los integrantes del equipo a identificar la actividad. |
-| [!UICONTROL Priority] | Según la configuración, la interfaz de usuario de [!DNL Target] y las opciones de [!UICONTROL Priority] varían. Puede usar la configuración heredada de [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High], o bien habilitar prioridades específicas de 0 a 999.<P>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<P>Si esta opción no está habilitada en [!UICONTROL Administration] (la predeterminada), especifique una prioridad: [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High].<P>Para habilitar [prioridades específicas](/help/main/administrating-target/reporting.md), haga clic en [!UICONTROL Administration] > [!UICONTROL Reporting] y luego coloque la opción [!UICONTROL Enable Fine-Grained Priorities] en la posición &quot;Activado&quot;. <P>Si esta opción está habilitada, especifique un valor de 0 a 999: 0 = [!UICONTROL Low] y 999 = [!UICONTROL High]. <P>Para las actividades creadas en versiones anteriores de [!DNL Target], la prioridad [!UICONTROL Low] se convierte en 0, [!UICONTROL Medium] en 5 y [!UICONTROL High] en 10. Si lo necesita, puede ajustar estos valores.<P>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
+| [!UICONTROL Priority] | Según la configuración, la interfaz de usuario de [!DNL Target] y las opciones de [!UICONTROL Priority] varían. Puede usar la configuración heredada de [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High], o bien habilitar prioridades específicas de 0 a 999.<P>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<P>Si esta opción no está habilitada en [!UICONTROL Administration] (la predeterminada), especifique una prioridad: [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High].<P>Para habilitar [prioridades específicas](/help/main/administrating-target/reporting.md), haga clic en [!UICONTROL Administration] > [!UICONTROL Reporting] y luego coloque la opción [!UICONTROL Enable Fine-Grained Priorities] en la posición &quot;Activado&quot;. <P>Si esta opción está habilitada, especifique un valor de 0 a 999: 0 = [!UICONTROL Low] y 999 = [!UICONTROL High]. <P>Para las actividades creadas en versiones anteriores de [!DNL Target], la prioridad [!UICONTROL Low] se convierte en 0, [!UICONTROL Medium] en 5 y [!UICONTROL High] en 10. Si lo necesita, puede ajustar estos valores.<P>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
 | [!UICONTROL Duration] | La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora utiliza un reloj de 24 horas, siendo 00:00 la medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo. |
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
@@ -38,7 +48,7 @@ La sección [!UICONTROL Reporting Settings] de la página [!UICONTROL Goals & Se
 | [!UICONTROL Additional Metrics] | Cree métricas de éxito adicionales. Esta configuración no está disponible si la solución de creación de informes está establecida en [!DNL Analytics]. En este caso, se aplican las métricas definidas para el grupo de informes [!DNL Analytics]. |
 | [!UICONTROL Audiences for Reporting] | De manera predeterminada, en los informes se muestran resultados de todos los visitantes cualificados. Puede agregar audiencias de informes para mostrar información solo sobre audiencias específicas. Esta configuración no está disponible si elige [!DNL Analytics] como solución de sistema de informes. Se aplica la audiencia definida para el grupo de informes [!DNL Analytics]. |
 
-## Configuración avanzada   {#section_E2FE441AFB324E498793ABB025ED9974}
+## Configuración avanzada {#section_E2FE441AFB324E498793ABB025ED9974}
 
 La sección [!UICONTROL Advanced Settings] de la página [!UICONTROL Goals & Settings] le permite configurar las opciones avanzadas.
 

@@ -1,14 +1,26 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;segmentación automática;permisos;qué es Adobe Target;
-description: Conoce los conceptos básicos de Adobe [!DNL Target] Standard y Adobe [!DNL Target] Premium. [!DNL Target] Premium incluye características avanzadas que no están disponibles en el producto estándar.
+description: Conozca los conceptos básicos de Adobe [!DNL Target] Standard y Adobe [!DNL Target] Premium. [!DNL Target] Premium incluye funciones avanzadas que no están disponibles en el producto estándar.
 landing-page-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 short-description: Personalice la experiencia de sus clientes para maximizar los ingresos en sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales.
 title: ¿Qué es Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
+TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: 963
 ht-degree: 51%
 
 ---
@@ -104,7 +116,7 @@ Cree su propio programa de optimización y personalización en [!DNL Adobe Targe
 
 ## Vídeo de formación: Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
 
-En el siguiente vídeo, se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium] y cómo el flujo de trabajo guiado de tres pasos de [!DNL Target] puede ayudarle a lograr sus objetivos.
+En el siguiente vídeo, se describen los tipos de actividades disponibles en [!DNL Target Standard/Premium] y cómo el flujo de trabajo guiado de tres pasos de [!DNL Target] puede ayudarle a lograr los objetivos de su sitio.
 
 * Describe los tipos de actividades incluidas en [!DNL Adobe Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos

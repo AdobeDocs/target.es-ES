@@ -5,10 +5,19 @@ title: ¿Cómo configuro la configuración de actividades de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
+TQID: https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 43%
+source-wordcount: 598
+ht-degree: 42%
 
 ---
 
@@ -43,7 +52,7 @@ Si especifica un nombre de actividad [!UICONTROL Recommendations] que ya existe 
 
 Ajuste el control deslizante para determinar el nivel de prioridad.
 
-La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
+La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
 ## Duración
 
@@ -51,7 +60,7 @@ Establezca la duración de la actividad.
 
 La actividad se puede iniciar cuando se activa, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora utiliza un reloj de 24 horas, siendo 00:00 la medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes. 
+## Configuración de informes.
 
 * **Source de informes:** Especifique de qué datos de solución se recopilan:
 
@@ -73,7 +82,7 @@ La actividad se puede iniciar cuando se activa, o bien se puede establecer una f
 
 * **Métrica de objetivo:** Asigne un nombre al objetivo y seleccione la métrica de éxito que determina si la actividad tiene éxito.
 * **Métricas adicionales:** Configure métricas de éxito adicionales para usarlas en sus informes.
-* **Audiencias para creación de informes:** Defina las audiencias que se pueden usar cuando filtre los informes.
+* **Públicos para creación de informes:** Defina los públicos que se pueden usar cuando filtre los informes.
 
 ## Otros metadatos
 

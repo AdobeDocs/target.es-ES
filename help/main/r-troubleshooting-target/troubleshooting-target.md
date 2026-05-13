@@ -4,10 +4,28 @@ description: Vea una lista de temas útiles para resolver problemas de Adobe Tar
 title: ¿Cómo puedo solucionar problemas de Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/dW3TS0g9VKJRluwA2PXDr4upXiY1yKzfh5v9WRaOB50
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 96%
+source-wordcount: 556
+ht-degree: 77%
 
 ---
 
@@ -72,10 +90,10 @@ Las secciones siguientes contienen información sobre la resolución de problema
    * [Clasificaciones: Preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [Integración heredada de SiteCatalyst con Test&amp;Target: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
-## Audiencias y segmentación
+## Públicos y segmentación
 
 * [Preguntas más frecuentes sobre la optimización y personalización de Target](/help/main/c-intro/cmp-target-standard-cheatsheet.md)
-* [Preguntas más frecuentes sobre audiencias y segmentación](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+* [Preguntas más frecuentes sobre públicos y segmentación](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Atributos de script de perfil](/help/main/c-target/c-visitor-profile/profile-parameters.md)
 * [Páginas del sitio](/help/main/c-target/c-audiences/c-target-rules/site-pages.md)
 
@@ -120,7 +138,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 * [Preguntas frecuentes sobre at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=es)
 * [Depurar at.js mediante Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=es)
 * [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es)
-* Vídeo “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe. 
+* Vídeo “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe.
 
 ## Aplicaciones móviles
 

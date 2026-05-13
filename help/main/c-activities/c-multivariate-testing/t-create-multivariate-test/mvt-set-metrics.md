@@ -4,9 +4,16 @@ description: Obtenga información sobre cómo especificar métricas en una activ
 title: ¿Cómo configuro las métricas de objetivo en una actividad [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+TQID: https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: 325
 ht-degree: 59%
 
 ---

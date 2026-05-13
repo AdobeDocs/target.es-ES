@@ -4,9 +4,15 @@ description: Encuentre respuestas a preguntas acerca de las definiciones de mét
 title: ¿Dónde puedo encontrar información sobre definiciones de métricas con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 352
 ht-degree: 36%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 36%
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las definiciones de métricas y el uso de [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
 
-## ¿Cuándo caduca la pertenencia a la actividad? ¿Cuánto tiempo tiene que pasar después de que los visitantes entren a la actividad para que sus acciones se contabilicen en ella si no vuelven a verla? {#section_41B4958F33534E4B96DEE0C981227A79}
+## ¿Cuándo caduca el abono a la actividad? ¿Cuánto tiempo tiene que pasar después de que los visitantes entren a la actividad para que sus acciones se contabilicen en ella si no vuelven a verla? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Respuesta
 La caducidad predeterminada para la actividad es de 90 días después de la última interacción de un visitante con la actividad. ClientCare puede ajustar esta configuración si es necesario. Sin embargo, esta configuración es global para todas las actividades, por lo que no se debería cambiar para un caso.
@@ -42,7 +48,7 @@ Las métricas calculadas le permiten crear métricas personalizadas que se deriv
 
 +++
 
-## ¿A4T atribuye conversiones a varias campañas?   {#section_7F15C727206440CD86B3A8CE77087DF9}
+## ¿A4T atribuye conversiones a varias campañas? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
 +++Respuesta
 Sí, con la configuración Asignación completa.

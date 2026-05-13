@@ -4,9 +4,21 @@ description: Obtenga información sobre un proceso de mostrado de seis pasos con
 title: ¿Cómo puedo desarrollar mis ideas de prueba y personalización?
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/jjs7B9nDwYBr7b6TYl2mG3f7wfO1pmgJSfV8NY5-UfU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 723
 ht-degree: 100%
 
 ---
@@ -58,7 +70,7 @@ Cree y ejecute la actividad en [!DNL Target], desarrolle el código que sea nece
 
 Para ello, haga lo siguiente:
 
-* Cree una actividad, aplique audiencias, desarrolle el código necesario y aplique métricas a su actividad.
+* Cree una actividad, aplique públicos, desarrolle el código necesario y aplique métricas a su actividad.
 * Asegúrese de contar con la aprobación de todas las partes interesadas necesarias.
 * Ponga en marcha la actividad y revise las métricas al cabo de una hora, en 24 horas y de manera periódica durante la actividad.
 
@@ -71,7 +83,7 @@ Analice el rendimiento de la actividad y resuma los resultados, las perspectivas
 Para ello, haga lo siguiente:
 
 * Aproveche las funciones de análisis de datos y las prácticas recomendadas para conocer los resultados de la actividad.
-* Analice el rendimiento de la audiencia en busca de segmentos de visitantes valiosos.
+* Analice el rendimiento del público en busca de segmentos de visitantes valiosos.
 * Documente las perspectivas, los resultados y las recomendaciones.
 
 Por ejemplo, es posible que descubra que los visitantes que regresan prefieren una experiencia distinta a la de los nuevos visitantes.

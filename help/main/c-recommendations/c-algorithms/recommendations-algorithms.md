@@ -6,9 +6,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: 2850
 ht-degree: 0%
 
 ---
@@ -73,7 +85,7 @@ Los detalles de estos pasos son los siguientes:
    * **Cálculo de similitud de elementos**: Este es el paso de cálculo central: calcular la similitud de relación de probabilidad de registro entre todos los pares de elementos candidatos y clasificar los pares de elementos por esta puntuación de similitud.
    * **Filtrado sin conexión**: Por último, se aplican los filtros dinámicos que sean aplicables (por ejemplo, exclusiones de categorías dinámicas). Después de este paso, las recomendaciones precalculadas se almacenan en la caché global para que estén disponibles para su servicio.
 
-* **Modelo que sirve**: el contenido de Recommendations se entrega desde la red [!DNL Target]global Edge&quot; de [&#128279;](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Cuando se realizan solicitudes de mbox a [!DNL Target] y se determina que el contenido de las recomendaciones debe entregarse a la página, la solicitud de la [clave de elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) adecuada para el algoritmo de recomendaciones se analiza desde la solicitud o se busca desde el perfil de usuario y, a continuación, se utiliza para recuperar las recomendaciones calculadas en los pasos anteriores. Se aplican más filtros dinámicos en este momento, antes de que se represente el [diseño](/help/main/c-recommendations/c-design-overview/create-design.md) apropiado.
+* **Modelo que sirve**: el contenido de Recommendations se entrega desde la red [global Edge&quot; de [!DNL Target]](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Cuando se realizan solicitudes de mbox a [!DNL Target] y se determina que el contenido de las recomendaciones debe entregarse a la página, la solicitud de la [clave de elemento](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) adecuada para el algoritmo de recomendaciones se analiza desde la solicitud o se busca desde el perfil de usuario y, a continuación, se utiliza para recuperar las recomendaciones calculadas en los pasos anteriores. Se aplican más filtros dinámicos en este momento, antes de que se represente el [diseño](/help/main/c-recommendations/c-design-overview/create-design.md) apropiado.
 
 ## Similitud de contenido
 

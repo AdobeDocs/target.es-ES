@@ -4,10 +4,33 @@ description: Eche un vistazo general a Adobe Target. Obtenga información sobre 
 title: ¿Dónde puedo encontrar una introducción general de Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f599e456-545c-47e5-8e50-b7dfe3579517
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: a94ced60-8199-4549-b453-ede2acb4101e
+  - id: b06652e6-189f-46a9-90c5-677f6d9cc699
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 74%
+source-wordcount: 2558
+ht-degree: 73%
 
 ---
 
@@ -29,7 +52,7 @@ Para obtener más información sobre cuándo y cómo utilizar cada capacidad, co
 | --- | --- |
 | Prueba A/B | Compare dos o más variaciones de sus experiencias u ofertas en su sitio web u otro punto de contacto de cliente digital para ver qué variación mejora más las medidas comerciales clave durante un período de prueba previamente especificado. Las pruebas A/B son ideales para cambios de gran tamaño, como nuevos diseños de página web, distintos enfoques de la navegación en el sitio o el tratamiento totalmente diferente de los elementos individuales de una experiencia digital como copiar, imágenes y botones de llamada a la acción. [Más información](/help/main/c-activities/t-test-ab/test-ab.md). |
 | Asignación automática | Identifique la mejor experiencia entre dos o más experiencias y reasigne automáticamente más tráfico a la opción ganadora para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. Utiliza la inteligencia artificial con tecnología [!DNL Adobe Adobe AI]. [Más información](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Segmentación automática<br>(Premium) | Aproveche la IA de Adobe en [!DNL Target] para determinar y ofrecer a cada visitante la mejor experiencia de varios visitantes en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. La segmentación automática permite la personalización a escala. [Más información](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
+| Segmentación automática<br>(Premium) | Aproveche Adobe AI en [!DNL Target] para determinar y ofrecer a cada visitante la mejor experiencia de varios visitantes en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. La segmentación automática permite la personalización a escala. [Más información](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Utilice algoritmos avanzados de aprendizaje automático y automatización con tecnología [!DNL Adobe Adobe AI] para revisar las diferentes combinaciones de imágenes, copias y otros elementos de una oferta y ofrecer la mejor combinación a cada visitante en función de cuál logra mejor los objetivos comerciales, como más conversiones o ingresos por visitante. [Más información](/help/main/c-activities/t-automated-personalization/automated-personalization.md). |
 | Segmentación de experiencias (XT) | Ofrece contenido a un público específico en función de un conjunto de reglas y criterios definidos por el usuario. **[!UICONTROL Experience Targeting]** es útil para dirigir un contenido o experiencia determinados a una audiencia concreta cuando se comprende que una audiencia es valiosa y se tiene una idea correcta de cuál es la experiencia que más impacto tiene en ella. [Más información](/help/main/c-activities/t-experience-target/experience-target.md). |
 | Multivariate Testing (MVT) | Compare todas las combinaciones posibles de variaciones de elementos en su página o experiencia digital; por ejemplo, tres imágenes de fondo diferentes, dos variaciones de copia y dos colores de botón diferentes. MVT determina qué combinación ofrece el mejor rendimiento para un público específico y qué elementos tienen el mayor impacto en los resultados. [Más información](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md). |
@@ -90,8 +113,8 @@ con [!UICONTROL Enterprise Permissions].
 
 ## Integraciones
 
-[!DNL Target] se puede integrar con muchos sistemas de primeras, segundas y terceras partes. Estas
-integraciones pueden ser útiles para otorgarle acceso a los datos de visitantes y clientes disponibles en esos sistemas para utilizarlos en la creación de públicos para pruebas y personalizaciones. Como parte de [!DNL Adobe Experience Cloud], [!DNL Target] se integra estrechamente con las soluciones de [!DNL Experience Cloud] y sus servicios principales.
+[!DNL Target] se puede integrar con muchos sistemas de primeras, segundas y terceras partes. Estos
+las integraciones pueden ser útiles para otorgarle acceso a los datos de visitantes y clientes disponibles en esos sistemas para utilizarlos en la creación de audiencias para pruebas y personalizaciones. Como parte de [!DNL Adobe Experience Cloud], [!DNL Target] se integra estrechamente con las soluciones de [!DNL Experience Cloud] y sus servicios principales.
 
 | Integración | Detalles |
 | --- | --- |

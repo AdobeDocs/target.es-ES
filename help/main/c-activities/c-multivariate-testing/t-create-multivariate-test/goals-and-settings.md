@@ -4,9 +4,19 @@ description: Aprenda a usar la página [!UICONTROL Goals & Settings] en  [!DNL A
 title: ¿Cómo se especifican los objetivos y la configuración en una actividad [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1170
 ht-degree: 38%
 
 ---
@@ -35,7 +45,7 @@ Escriba un objetivo opcional. El objetivo puede ser cualquier información que l
 
 Según la configuración, la interfaz de usuario de [!DNL Target] y las opciones de [!UICONTROL Priority] varían. Puede usar la configuración heredada de [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High], o bien habilitar prioridades específicas de 0 a 999.
 
-La prioridad se utiliza si se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
+La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
 Si esta opción no está habilitada en [!UICONTROL Administration] > [!UICONTROL Reporting] (la predeterminada), especifique una prioridad: [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High].
 
@@ -56,7 +66,7 @@ Para las actividades creadas en versiones anteriores de [!DNL Target], la priori
 
 La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora utiliza un reloj de 24 horas, siendo 00:00 la medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
-## Configuración de informes.  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Configuración de informes. {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Las configuraciones disponibles son las siguientes:
 
@@ -102,9 +112,9 @@ Esta configuración no está disponible si la solución de creación de informes
 
 ### Audiencias para los informes
 
-De manera predeterminada, en los informes se muestran resultados de todos los visitantes cualificados. Puede agregar audiencias de informes para mostrar únicamente información sobre audiencias específicas.
+De manera predeterminada, en los informes se muestran resultados de todos los visitantes cualificados. Puede agregar públicos de informes para mostrar únicamente información sobre públicos específicos.
 
-### Configuración avanzada   {#section_E2FE441AFB324E498793ABB025ED9974}
+### Configuración avanzada {#section_E2FE441AFB324E498793ABB025ED9974}
 
 La Configuración avanzada está disponible para [!UICONTROL Multivariate Test] métricas de objetivo.
 

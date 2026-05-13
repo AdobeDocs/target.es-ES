@@ -1,19 +1,28 @@
 ---
-keywords: audiencia;inclinación;atributo de perfil;comparar;comparación;crear audiencia;creación de audiencia
+keywords: público;inclinación;atributo de perfil;comparar;comparación;crear público;creación de público
 description: Obtenga información sobre cómo definir una audiencia para comparar dos atributos de perfil.
 title: ¿Puedo comparar dos atributos de perfil para usarlos en audiencias?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 51%
+source-wordcount: 428
+ht-degree: 52%
 
 ---
 
-# Crear una audiencia de comparación de atributos de perfil
+# Crear un público de comparación de atributos de perfil
 
-Defina una audiencia en [!DNL Adobe Target] para comparar dos atributos de perfil para su [biblioteca de audiencias](/help/main/c-target/c-audiences/audiences.md) o en una [audiencia solo de actividad](/help/main/c-target/creating-activity-only-audience.md). Mediante operadores como mayor que, menor que o igual a, defina una audiencia que compare de forma dinámica el valor de dos atributos de perfil diferentes.
+Defina una audiencia en [!DNL Adobe Target] para comparar dos atributos de perfil para su [biblioteca de audiencias](/help/main/c-target/c-audiences/audiences.md) o en una [audiencia solo de actividad](/help/main/c-target/creating-activity-only-audience.md). Mediante operadores como mayor que, menor que o igual a, defina un público que compare de forma dinámica el valor de dos atributos de perfil diferentes.
 
 >[!NOTE]
 >
@@ -21,18 +30,18 @@ Defina una audiencia en [!DNL Adobe Target] para comparar dos atributos de perfi
 
 ## Información general {#section_303CBC78194D49A2A004945D425441E1}
 
-Las audiencias están definidas por reglas que determinan quién se incluye o excluye de una actividad de [!DNL Target]. Una definición de audiencia puede incluir múltiples reglas, cada una de las cuales puede incluir múltiples parámetros. Si una de las reglas que incluye usa la categoría [!UICONTROL Visitor Profile], puede definir una regla basada en el valor específico de un atributo de perfil de visitante o comparar el valor de ese atributo con otro atributo de perfil de visitante.
+Los públicos están definidos por reglas que determinan quién se incluye o excluye de una actividad de [!DNL Target]. Una definición de audiencia puede incluir múltiples reglas, cada una de las cuales puede incluir múltiples parámetros. Si una de las reglas que incluye usa la categoría [!UICONTROL Visitor Profile], puede definir una regla basada en el valor específico de un atributo de perfil de visitante o comparar el valor de ese atributo con otro atributo de perfil de visitante.
 
 Por ejemplo, supongamos que trabaja para una empresa de muebles y ha cargado dos puntuaciones de tendencia de clientes en [!DNL Target]:
 
 * Probabilidad de comprar mobiliario de comedor en los próximos 90 días
 * Probabilidad de comprar mobiliario de salón en los próximos 90 días
 
-Podría crear una audiencia definida como que la inclinación a comprar mobiliario de comedor es mayor que la inclinación a comprar mobiliario de salón. [!DNL Target] compararía dinámicamente las puntuaciones de inclinación de los comedores y las salas de estar de un visitante específico para determinar si ese visitante cumple los requisitos para esta audiencia.
+Podría crear un público definido como que la inclinación a comprar mobiliario de comedor es mayor que la inclinación a comprar mobiliario de salón. [!DNL Target] compararía dinámicamente las puntuaciones de inclinación de los comedores y las salas de estar de un visitante específico para determinar si ese visitante cumple los requisitos para esta audiencia.
 
 Para obtener más información, consulte [Métodos para obtener datos en Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
 
-## Crear una audiencia de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
+## Crear un público de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.

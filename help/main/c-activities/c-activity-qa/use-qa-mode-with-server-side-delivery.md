@@ -4,10 +4,20 @@ description: Aprenda a utilizar las direcciones URL de control de calidad Adobe 
 title: Use ¿Puedo realizar el control de calidad de la actividad con la entrega del lado del servidor?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/zZJmFqpXtAigTiEWMZhRqXBJqvG3ANLussSPE3-NoDA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 59%
+source-wordcount: 408
+ht-degree: 47%
 
 ---
 
@@ -58,10 +68,10 @@ La siguiente tabla explica los detalles de una solicitud del servidor:
 
 | Parámetro | Tipo | Valor predeterminado | Descripción |
 |--- |--- |--- |--- |
-| token | Token cifrado | Ninguna.<br>No puede estar vacío. | Una entidad cifrada que contiene la lista de ID de actividad que se pueden ejecutar en el control de calidad de la actividad.<br>Reglas de validación: debe ser un token cifrado que pertenezca al cliente especificado en la solicitud [!DNL Target]. Todas las actividades especificadas en el token deben pertenecer al cliente. |
+| token | Token cifrado | Ninguno.<br>No puede estar vacío. | Una entidad cifrada que contiene la lista de identificadores de actividad que se pueden ejecutar en el control de calidad de la actividad.<br>Reglas de validación: debe ser un token cifrado que pertenezca al cliente especificado en la solicitud [!DNL Target]. Todas las actividades especificadas en el token deben pertenecer al cliente. |
 | bypassEntryAudience | Booleano | Falso | Especifica si los objetivos de paso de entrada para actividades de control de calidad deben evaluarse o si deben considerarse como coincidentes. |
 | listedActivitiesOnly | Booleano | Falso | Especifica si las actividades de control de calidad deben ejecutarse de forma aislada o si deben evaluarse como actividades activas para el entorno actual. |
 | evaluateAsTrueAudienceIds | Lista de ID | Lista vacía. | Lista de ID de audiencia que siempre deben evaluarse como verdaderos en el ámbito de la solicitud [!DNL Target]. |
 | evaluateAsFalseAudienceIds | Lista de ID | Lista vacía. | Lista de ID de audiencia que siempre deben evaluarse como false en el ámbito de la solicitud [!DNL Target]. |
-| activityIndex | Número entero | Nulo.<br>No puede estar vacío. | Índice de actividad en el token cifrado. Si activityIndex está fuera de los límites de la actividad en el token o si es nulo, se ignorará. El índice empieza con 1.<br>Reglas de validación: deben ser al menos un índice de actividad y deben hacer referencia a una actividad especificada en el token. |
+| activityIndex | Número entero | Nulo.<br>No puede estar vacío. | Índice de actividad en el token cifrado. Si activityIndex está fuera de los límites de la actividad en el token o si es nulo, se ignorará. El índice comienza con 1.<br>Reglas de validación: debe ser al menos un índice de actividad y debe hacer referencia a una actividad especificada en el token. |
 | experienceIndex | Número entero | Nulo. | Cuando se especifica, selecciona una experiencia por índice en la definición de la actividad. Si no se especifica o está fuera de los límites, se recurrirá a la estrategia de selección de experiencia de la actividad. El índice comienza con 1 Reglas de validación: puede ser nulo o debe hacer referencia a una experiencia en la actividad. |

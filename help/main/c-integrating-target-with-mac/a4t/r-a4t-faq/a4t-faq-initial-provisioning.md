@@ -4,9 +4,18 @@ description: Encuentre respuestas a preguntas que se plantean a menudo sobre el 
 title: ¿Dónde puedo encontrar información sobre el aprovisionamiento inicial de A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 474
 ht-degree: 61%
 
 ---
@@ -37,7 +46,7 @@ Si hay problemas de aprovisionamiento, compruebe si A4T se está aprovisionando 
 
 +++
 
-## ¿Por qué no se cargan los grupos de informes?   {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## ¿Por qué no se cargan los grupos de informes? {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 +++Respuesta
 Si se encuentra con uno de estos problemas, haga lo siguiente:
@@ -48,14 +57,14 @@ Si se encuentra con uno de estos problemas, haga lo siguiente:
 
 +++
 
-## ¿Por qué no veo las opciones de Analytics en Target?   {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## ¿Por qué no veo las opciones de Analytics en Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++Respuesta
 Consulte “¿Por qué no se cargan los grupos de informes?” Arriba. La causa raíz de este problema es la misma.
 
 +++
 
-## ¿Por qué no veo los informes de A4T en Analytics?   {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## ¿Por qué no veo los informes de A4T en Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++Respuesta
 Consulte “¿Por qué no se cargan los grupos de informes?” (arriba). La causa raíz de este problema es la misma.

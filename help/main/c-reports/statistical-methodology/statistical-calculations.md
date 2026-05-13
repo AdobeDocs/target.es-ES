@@ -4,9 +4,15 @@ description: Obtenga información acerca de los cálculos estadísticos utilizad
 title: ¿Cómo puedo obtener información sobre los cálculos estadísticos utilizados en las actividades de [!UICONTROL A/B Test]?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
+TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1137
 ht-degree: 2%
 
 ---

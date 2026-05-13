@@ -4,10 +4,32 @@ description: Descubra cómo funciona [!DNL Adobe Target] e incluya información 
 title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 85edad5c3adb3a7b01ee6d1eaf2c30c7596d5f92
+TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 24%
+source-wordcount: 2363
+ht-degree: 25%
 
 ---
 
@@ -39,8 +61,8 @@ Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las 
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
-* Extensión de [[!DNL Adobe Experience Platform Web SDK] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
-* [Implementación [!DNL Target]  mediante  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Extensión [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
+* [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que un visitante solicita una página optimizada para [!DNL Target], se envía una solicitud en tiempo real al sistema de segmentación para determinar el contenido que se va a servir. Esta solicitud se realiza y se completa cada vez que se carga una página, regida por actividades y experiencias controladas por expertos en marketing. El contenido está dirigido a visitantes de sitio individuales, lo que maximiza las tasas de respuesta, las tasas de adquisición y los ingresos. El contenido personalizado ayuda a garantizar que los visitantes respondan, interactúen o realicen compras.
 
@@ -198,7 +220,7 @@ No se realiza ningún cambio en la página si el explorador del visitante no se 
 Para obtener más información, consulte los siguientes recursos de Google:
 
 * [Pruebas en sitios web y Búsqueda de Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos y encubrimiento](https://support.google.com/analytics/answer/12979939?hl)
+* [Experimentos y encubrimientos](https://support.google.com/analytics/answer/12979939?hl)
 
 
 Las directrices se publicaron en una entrada del [blog Google Webmaster Central](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Aunque la publicación data de 2012, sigue siendo la declaración más reciente de [!DNL Google] sobre el tema y las directrices siguen siendo pertinentes.

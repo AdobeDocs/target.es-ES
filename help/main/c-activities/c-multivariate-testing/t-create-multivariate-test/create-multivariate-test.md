@@ -4,9 +4,16 @@ description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en 
 title: ¿Cómo creo un(a) [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 737
 ht-degree: 26%
 
 ---
@@ -113,7 +120,7 @@ El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubic
 
    1. Haga clic en **[!UICONTROL Visitor Percentage]** en el cuadro derecho y, a continuación, elija el porcentaje de visitantes correspondiente que desea que participen de la actividad.
 
-   Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % de la audiencia de California.
+   Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % del público de California.
 
 1. [Revise el resumen de la prueba](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7), realice los cambios que desee y luego haga clic en **[!UICONTROL Next]**.
 

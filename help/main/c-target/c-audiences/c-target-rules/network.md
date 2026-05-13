@@ -4,9 +4,16 @@ description: Aprenda a crear audiencias en  [!DNL Adobe Target] según los detal
 title: ¿Puedo segmentar visitantes en función de las opciones de red?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/x6w2aeBu4enUJGJOFRIMidl2RaXRf-ZEwUErbB95yrY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: 500
 ht-degree: 64%
 
 ---
@@ -58,11 +65,11 @@ La siguiente ilustración muestra una audiencia dirigida a visitantes que utiliz
 
 ![Objetivo de red](assets/target_network.png)
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de formación: Creación de públicos
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
-* Crear audiencias
+* Crear públicos
 * Definir categorías de audiencias
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

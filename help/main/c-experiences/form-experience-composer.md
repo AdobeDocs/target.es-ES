@@ -4,9 +4,17 @@ description: Aprenda a utilizar el Compositor de experiencias basadas en formula
 title: ¿Cómo utilizo el Compositor de experiencias basadas en formularios?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 886
 ht-degree: 33%
 
 ---
@@ -70,7 +78,7 @@ Si está creando una actividad [!UICONTROL Recommendations], no hay experiencias
 
    >[!NOTE]
    >
-   >La creación de una ubicación introducida manualmente durante la creación de la actividad no crea automáticamente una nueva ubicación. El nombre de la ubicación solo se guarda en el contexto de la actividad. La ubicación se crea cuando hay una llamada de envío de contenido. Una vez creada la ubicación, estará disponible para su uso en otras actividades, para crear audiencias, etc. en la lista desplegable de ubicaciones disponibles.
+   >La creación de una ubicación introducida manualmente durante la creación de la actividad no crea automáticamente una nueva ubicación. El nombre de la ubicación solo se guarda en el contexto de la actividad. La ubicación se crea cuando hay una llamada de envío de contenido. Una vez creada la ubicación, estará disponible para su uso en otras actividades, para crear audiencias, etc., en la lista desplegable de ubicaciones disponibles.
 
 1. Haga clic en **[!UICONTROL Add Audience Refinements]**, elija una o más [audiencias](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) para esta actividad y luego haga clic en **[!UICONTROL Done]**.
 

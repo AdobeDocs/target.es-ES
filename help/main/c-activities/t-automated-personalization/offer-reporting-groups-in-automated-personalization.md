@@ -5,9 +5,18 @@ title: ¿Puedo usar los grupos de informes de ofertas en [!UICONTROL Automated P
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: 827
 ht-degree: 15%
 
 ---
@@ -49,7 +58,7 @@ Puede usar la lista [!UICONTROL Location] para filtrar ofertas por ubicación. U
 
 Para obtener información sobre cómo dirigir una oferta a audiencias específicas, consulte [Ofertas de Target [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
-## Advertencias 
+## Advertencias
 
 * Es importante comprender que los grupos de informes afectan la forma en que [!DNL Target] crea sus modelos. Como resultado, [!DNL Adobe] recomienda usar grupos de informes solamente si planea reemplazar o agregar nuevas ofertas mientras una actividad esté activa. Si se introduce una nueva oferta en una actividad activa, poner la nueva oferta en un grupo con ofertas similares existentes permite al equipo utilizar los datos ya recopilados para las demás ofertas de su grupo para conocer la nueva oferta. Nunca debe colocar todas las ofertas en un solo grupo de informes.
 
@@ -65,7 +74,7 @@ Para obtener información sobre cómo dirigir una oferta a audiencias específic
 
 1. Haga clic en **[!UICONTROL Activities]**, en la actividad [!UICONTROL Automated Personalization] que quiera de la lista y luego haga clic en la ficha **[!UICONTROL Reports]** para mostrar el informe [Nivel de oferta](/help/main/c-reports/personalization-reports/reports-ap.md).
 
-   Si tiene muchas actividades, haga clic en el icono [!UICONTROL Show Filters] (canal) y, a continuación, seleccione la casilla de verificación [!UICONTROL Automated Personalization] para filtrar la lista y mostrar solo [!UICONTROL Automated Personalization] actividades.
+   Si tiene muchas actividades, haga clic en el icono [!UICONTROL Show Filters] (funnel) y, a continuación, active la casilla de verificación [!UICONTROL Automated Personalization] para filtrar la lista y mostrar solo [!UICONTROL Automated Personalization] actividades.
 
 1. Haga clic en **[!UICONTROL Control]** o **[!UICONTROL Targeted]** en la tabla para mostrar las ofertas y ofertas desagrupadas dentro de los grupos de informes.
 

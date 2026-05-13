@@ -5,10 +5,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: ¿Cómo se utilizan los atributos de entidad?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
+TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 48%
+source-wordcount: 1122
+ht-degree: 45%
 
 ---
 
@@ -27,11 +38,11 @@ Tenga en cuenta lo siguiente:
 
 La mayoría de los parámetros predefinidos solo aceptan un valor único. Los valores nuevos sobrescriben a los antiguos. El parámetro `categoryId` puede aceptar una lista de valores delimitados por comas para cada categoría que contenga el producto. Los nuevos valores de `categoryId` no sobrescriben los valores existentes, sino que, en cambio, se agregan durante la actualización de entidades (límite de 250 caracteres).
 
-En general, el mbox de información de visualización tiene el siguiente aspecto si utiliza at.js 1.*x* con `mboxCreate`. Todos los atributos de parámetros de entidad distinguen entre mayúsculas y minúsculas.
+En general, el mbox de información de visualización tiene el siguiente aspecto si usa at.js 1.*x* con `mboxCreate`. Todos los atributos de parámetros de entidad distinguen entre mayúsculas y minúsculas.
 
 >[!NOTE]
 >
->Si utiliza at.js 2.*x*, `mboxCreate` (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de producto o contenido a [!DNL Recommendations] mediante at.js 2.*x*, use [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=es){target=_blank}. Para ver un ejemplo, vea [Planificar e implementar Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+>Si usa at.js 2.*x*, `mboxCreate` (como se usa en el ejemplo siguiente) ya no es compatible. Para pasar información de producto o contenido a [!DNL Recommendations] mediante at.js 2.*x*, use [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=es){target=_blank}. Para ver un ejemplo, vea [Planificar e implementar Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -67,7 +78,7 @@ mboxCreate('productPage',
 >
 >Las direcciones URL relativas son preferibles para `pageUrl` y `thumbnailUrl` en lugar de las direcciones URL absolutas, porque las recomendaciones reciben los datos que se han enviado desde todos los entornos del sitio. El uso de direcciones URL relativas evita los vínculos predeterminados de un servidor de ensayo o desarrollo.
 
-Si el mbox está en una página de productos, tiene la opción de incluir el ID del producto y el ID de la categoría. El algoritmo seleccionado determina cuál mostrar. El ID del producto se utiliza para algoritmos de afinidad y el ID de la categoría para algoritmos de categoría.
+Si el mbox está en una página de producto, puede incluir el ID del producto y el ID de la categoría. El algoritmo seleccionado determina qué se muestra. El ID del producto se utiliza para algoritmos de afinidad y el ID de la categoría para algoritmos de categoría.
 
 ## Variables disponibles
 
@@ -183,7 +194,7 @@ Margen de ganancia u otro valor del artículo.
 
 Ejemplo: `'entity.margin=1.00'`
 
-### entidad.*custom*
+### entidad.*personalizada*
 
 Admite varios valores (matriz JSON).
 

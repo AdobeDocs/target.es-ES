@@ -6,9 +6,18 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 380
 ht-degree: 19%
 
 ---
@@ -21,7 +30,7 @@ El uso de esta funcionalidad reduce el número de ofertas que un visitante espec
 
 | | Visitante 1 | Visitante 2 |
 |--- |--- |--- |
-| Calificación de audiencia | Audiencia A | Audiencia B |
+| Calificación del público | Audiencia A | Audiencia B |
 | Puntuación del modelo de personalización de Target de la oferta 1 | 90 | 90 |
 | Puntuación del modelo de personalización de Target de la oferta 2 | 50 | 70 |
 | Puntuación del modelo de personalización de Target de la oferta 3 | 80 | 60 |
@@ -47,7 +56,7 @@ En esta situación, el Visitante 1 ve la Oferta 1 (porque este visitante cumple 
 
    >[!NOTE]
    >
-   >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Haga clic en **[!UICONTROL Done]**.
 

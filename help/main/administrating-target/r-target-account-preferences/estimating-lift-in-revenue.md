@@ -5,9 +5,18 @@ title: ¿Qué calculo para el alza de ingresos?
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/eWWLgz5vRvlFKz5k52nASWHGRx4uzbxbPqcWD8sSzBE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 534
 ht-degree: 85%
 
 ---
@@ -20,7 +29,7 @@ Use [!DNL Adobe Target] para calcular el aumento de ingresos que obtendría si t
 >
 >El alza estimada no está disponible para las actividades [!UICONTROL Experience Targeting] (XT) en este momento.
 
-La característica de alza estimada está desactivada de manera predeterminada. Se puede habilitar en las preferencias de cuenta. Solo los usuarios administradores de Experience Cloud pueden activar o desactivar esta característica. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
+La característica de alza estimada está desactivada de manera predeterminada. Se puede habilitar en las preferencias de cuenta. Solo los usuarios administradores de Experience Cloud pueden habilitar o deshabilitar esta característica. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
 
 >[!IMPORTANT]
 >
@@ -30,7 +39,7 @@ Esto calcula el aumento obtenido por la experiencia ganadora y el número total 
 
 El aumento estimado en los ingresos se calcula en función de los ingresos por visita (RPV) obtenidos de la métrica del objetivo principal.
 
-El alza estimada se calcula con la fórmula siguiente: (&lt;winning experience RPV> - &lt;control experience RPV&lt;)&#42;&lt;total number of visitors in the activity>
+El alza estimada se calcula mediante la fórmula siguiente: (&lt;winning experience RPV> - &lt;control experience RPV&lt;)&#42;&lt;total number of visitors in the activity>
 
 El número resultante se redondea a un decimal, como máximo, si la forma corta tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 000 dólares, 900 dólares, 8500 dólares, 205 000 dólares
 

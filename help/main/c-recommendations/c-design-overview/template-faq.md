@@ -5,10 +5,15 @@ title: ¿Dónde puedo obtener respuestas a las preguntas de diseño de  [!DNL Ta
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 81%
+source-wordcount: 472
+ht-degree: 80%
 
 ---
 
@@ -34,11 +39,11 @@ Hay dos opciones disponibles para resolver este problema:
 
 El ID de categoría no se puede mostrar en el diseño. Dado que es posible almacenar varias categorías, el sistema no sabe qué categoría mostrar.
 
-## ¿Cómo debo cambiar un diseño para obtener una actualización instantánea?   {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## ¿Cómo debo cambiar un diseño para obtener una actualización instantánea? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 La alteración del diseño que se está usando actualmente tarda unos minutos en actualizarse. Para cambiar el diseño de forma instantánea, cree un nuevo diseño, selecciónelo en la actividad y guarde la recomendación.
 
-## ¿Cómo se puede capturar información esencial para mostrarla en el diseño? Ejemplo: si queremos visualizar la categoría del producto principal, ¿se codifica el valor en el diseño Velocity?   {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## ¿Cómo se puede capturar información esencial para mostrarla en el diseño? Ejemplo: si queremos visualizar la categoría del producto principal, ¿se codifica el valor en el diseño Velocity? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 El parámetro `$key. *`valor`*` captura la mayor parte de la información principal del producto para mostrarla dentro del diseño. Por ejemplo, si desea mostrar la miniatura del producto clave, utilice `$key.thumbnailURL`.
 

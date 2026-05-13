@@ -5,10 +5,20 @@ title: ¿Cómo creo [!UICONTROL Criteria] en  [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 47%
+source-wordcount: 2578
+ht-degree: 48%
 
 ---
 
@@ -231,7 +241,7 @@ Para obtener más información, vea [Usar reglas de inclusión dinámicas y est�
 
 Puede agregar varias reglas para &quot;desplazar&quot; el algoritmo basado en información o metadatos importantes acerca del catálogo de contenido, de modo que es más probable que se muestren determinados elementos.
 
-Por ejemplo, puede aplicar una ponderación más alta a los artículos en venta para que aparezcan con más frecuencia en la recomendación. Los artículos que no están en liquidación no quedan completamente excluidos, pero aparecen con menos frecuencia. Se pueden aplicar múltiples atributos ponderados al mismo algoritmo y los atributos ponderados se pueden probar sobre el tráfico dividido en la recomendación.
+Por ejemplo, puede aplicar una ponderación más alta para artículos en venta de modo que aparezcan con más frecuencia en la recomendación. Los artículos que no están en liquidación no quedan completamente excluidos, pero aparecen con menos frecuencia. Se pueden aplicar múltiples atributos ponderados al mismo algoritmo y los atributos ponderados se pueden probar sobre el tráfico dividido en la recomendación.
 
 1. Elija un valor.
 

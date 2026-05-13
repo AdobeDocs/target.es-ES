@@ -6,10 +6,23 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+TQID: https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 59%
+source-wordcount: 623
+ht-degree: 58%
 
 ---
 
@@ -35,7 +48,7 @@ Esta actualización es compatible con los siguientes ejemplos prácticos:
 * Permitir que cada equipo propietario de su espacio de trabajo tenga su propia integración siempre que el equipo esté listo para explorar las API y elija la función correspondiente.
 * Cualquier combinación de los escenarios anteriores.
 
-**Acción necesaria**: Los clientes que actualmente aprovechan las API para operaciones de CRUD en recursos (actividades, audiencias, ofertas e informes) en todos los espacios de trabajo deben conceder su acceso de integración de Adobe I/O a todos los espacios de trabajo con la función deseada según su uso. Para ello, seleccione cada [!DNL Target] [!UICONTROL Product Profile] en [!DNL Adobe Admin Console] y agregue las integraciones en la ficha [!UICONTROL Integration]. Antes de la versión de septiembre, todas las integraciones operaban con el acceso de [!UICONTROL Approver], independientemente de la opción que se realice en la lista desplegable [!UICONTROL Product Role]. Ahora puede elegir la función que desee.
+**Acción necesaria**: Los clientes que actualmente aprovechan las API para operaciones de CRUD en recursos (actividades, públicos, ofertas e informes) en todos los espacios de trabajo deben conceder su acceso de integración de Adobe I/O a todos los espacios de trabajo con la función deseada según su uso. Para ello, seleccione cada [!DNL Target] [!UICONTROL Product Profile] en [!DNL Adobe Admin Console] y agregue las integraciones en la ficha [!UICONTROL Integration]. Antes de la versión de septiembre, todas las integraciones operaban con el acceso de [!UICONTROL Approver], independientemente de la opción que se realice en la lista desplegable [!UICONTROL Product Role]. Ahora puede elegir la función que desee.
 
 >[!NOTE]
 >

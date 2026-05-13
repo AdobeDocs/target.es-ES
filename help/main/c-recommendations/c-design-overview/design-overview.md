@@ -4,10 +4,15 @@ description: Aprenda a utilizar diseños en Adobe [!DNL Target] Recommendations 
 title: ¿Cómo utilizo diseños en Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 19%
+source-wordcount: 201
+ht-degree: 23%
 
 ---
 

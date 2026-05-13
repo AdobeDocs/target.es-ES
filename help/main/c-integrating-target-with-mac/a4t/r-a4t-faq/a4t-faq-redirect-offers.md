@@ -4,10 +4,23 @@ description: Encuentre respuestas a preguntas acerca del uso de ofertas de redir
 title: ¿Dónde puedo encontrar preguntas frecuentes acerca de ofertas de redireccionamiento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 50%
+source-wordcount: 1455
+ht-degree: 51%
 
 ---
 
@@ -81,7 +94,7 @@ Tenga en cuenta lo siguiente:
 
 +++
 
-## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## ¿Por qué las vistas de página a veces se cuentan en la página original y a veces en la página de redirección? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Respuesta
 Al utilizar la versión 1.6.3 o posterior de at.js, el recuento de vistas de página en ambas páginas no supone un problema. Esta condición de carrera solo afecta a los clientes que utilizan versiones más antiguas. El equipo de Target mantiene dos versiones de at.js: la actual y la penúltima. Actualice at.js cuando sea posible para garantizar que dispone de una [versión compatible](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
@@ -117,7 +130,7 @@ Estos parámetros se agregan automáticamente a las direcciones URL de redirecci
 
 +++
 
-## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Mis servidores web eliminan estos parámetros de mis direcciones URL, ¿qué debo hacer? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 +++Respuesta
 Trabaje con su equipo de TI para que estos parámetros ( `adobe_mc_sdid` y `adobe_mc_ref`) se vean incluidos en la lista de permitidos.

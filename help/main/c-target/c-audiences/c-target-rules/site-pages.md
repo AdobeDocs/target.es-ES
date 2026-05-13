@@ -4,10 +4,18 @@ description: Aprenda a segmentar visitantes que usen  [!DNL Adobe Target] que se
 title: ¿Puedo segmentar visitantes según las páginas del sitio?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/ROMKabnbH3yE-W61IQk9CtNpKMg7zA6-qdxu272EVOI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 19%
+source-wordcount: 822
+ht-degree: 20%
 
 ---
 
@@ -19,7 +27,7 @@ Puede segmentar visitantes mediante [!DNL Adobe Target] que tengan acceso a una 
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastre y suelte **[!UICONTROL Site Pages]** en el panel del generador de audiencias.
 
-   ![Audiencia de páginas del sitio](assets/target_site_pages.png)
+   ![Público de páginas del sitio](assets/target_site_pages.png)
 
 1. Haga clic en la lista desplegable **[!UICONTROL Select]**, seleccione una de las siguientes opciones y, a continuación, configure la regla como desee.
 
@@ -112,7 +120,7 @@ Puede segmentar visitantes mediante [!DNL Adobe Target] que tengan acceso a una 
 1. (Opcional) Configure reglas adicionales para la audiencia.
 1. Haga clic en **[!UICONTROL Done]**.
 
-También puede crear audiencias de página del sitio empleando su propio “parámetro de consulta definido por el usuario” o “encabezado definido por el usuario”.
+También puede crear públicos de página del sitio empleando su propio “parámetro de consulta definido por el usuario” o “encabezado definido por el usuario”.
 
 Utilice un:
 
@@ -135,11 +143,11 @@ Utilice un:
    * termina con 0,7,
    * termina con 0,8.
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de formación: Creación de públicos
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
-* Crear audiencias
+* Crear públicos
 * Definir categorías de audiencias
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

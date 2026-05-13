@@ -4,14 +4,27 @@ description: Conozca cuáles son los recursos adicionales para ayudarle a conoce
 title: ¿Dónde puedo encontrar recursos e información de contacto para Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
+TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 81%
+source-wordcount: 1313
+ht-degree: 80%
 
 ---
 
-# Recursos e información de contacto 
+# Recursos e información de contacto
 
 Información sobre recursos adicionales para ayudarle a conocer las funciones de Target y cómo ponerse en contacto con Adobe si necesita ayuda con Target.
 
@@ -62,7 +75,7 @@ Además de las sesiones sobre Target, existen sesiones para otras soluciones de 
 
 Customer Care está preparado para ayudarle a solucionar los problemas que pueda encontrar. Esta página contiene la información que necesita para ponerse en contacto con Customer Care y obtener asistencia.
 
-### Información básica  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### Información básica {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 Si tiene problemas o quiere realizar alguna pregunta sobre el uso de Target tiene varias opciones.
 
@@ -85,7 +98,7 @@ Para agilizar la evaluación de su problema, se recomienda que disponga de la si
 
 Para problemas de entrega de contenido, consulte [Solución de problemas de entrega de contenido](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para obtener información sobre posibles soluciones y datos de resolución de problemas.
 
-### En caso de una interrupción del servicio  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### En caso de una interrupción del servicio {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Si cree que se ha producido una interrupción del servicio, en primer lugar consulte la [página Estado del sistema de Experience Cloud](https://status.adobe.com/es) ([!DNL https://status.adobe.com/es-es]). En esta página se registran todas las interrupciones del servicio, los incidentes y las operaciones de mantenimiento de las Soluciones de Experience Cloud, incluida Target, además de las últimas actualizaciones del equipo de operaciones técnicas. Si sigue necesitando asistencia, asegúrese de que conoce lo siguiente, además de la información indicada anteriormente, cuando contacte con atención al cliente:
 
@@ -98,12 +111,12 @@ Si cree que se ha producido una interrupción del servicio, en primer lugar cons
 
 Información que le ayudará a comunicarse con Adobe y a comprender los aspectos legales relativos al uso de este producto y esta documentación.
 
-### Ayuda y asistencia técnica  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Ayuda y asistencia técnica {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ayudarle y, para ello, le ofrece una serie de opciones de asistencia:
 
 * [Páginas de ayuda de Experience Cloud con consejos, sugerencias y preguntas más frecuentes](https://helpx.adobe.com/es/marketing-cloud.html)
-* [Apertura de tickets para obtener ayuda del servicio de Asistencia](https://experienceleague.adobe.com/es?support-solution=Target&lang=es#support)
+* [Abrir un ticket para obtener ayuda del servicio de asistencia](https://experienceleague.adobe.com/es?support-solution=Target&lang=es#support)
 * [Contacto directo con el equipo del Servicio de atención al cliente](https://helpx.adobe.com/es/marketing-cloud/contact-support.html)
 * [Disponibilidad y estado de las soluciones de Experience Cloud](https://status.adobe.com/es)
 
@@ -115,7 +128,7 @@ Para recibir notificaciones sobre próximas mejoras de productos, regístrese en
 
 Según la configuración de su solución, es posible que algunas de las opciones descritas en esta documentación no estén disponibles para usted. Cada cuenta es única, de modo que debe consultar el contrato para obtener información acerca de los precios, las fechas de vencimiento, los términos y las condiciones. Si desea actualizar o cambiar de nivel de servicios, o si tiene preguntas acerca de su servicio actual, póngase en contacto con el administrador de su cuenta.
 
-### Comentarios  {#section_8154D6D712054220A90D85FA8E92933E}
+### Comentarios {#section_8154D6D712054220A90D85FA8E92933E}
 
 Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a esta solución. Puede agregar sugerencias e ideas de mejora a la [Comunidad de Experience League de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=es). Haga clic en la ficha [!UICONTROL Ideas].
 
@@ -126,7 +139,7 @@ Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a es
 
 [Condiciones de uso](https://www.adobe.com/legal/terms.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Un símbolo de marca (®, ™, etc.) indica una marca comercial de Adobe.
 
 All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_es](https://www.adobe.com/es/products/eula/third_party.html).
 

@@ -1,12 +1,19 @@
 ---
-keywords: crear experiencia;crear;experiencia;prioridad;audiencia;experiencia;compositor de experiencias visuales
+keywords: crear experiencia;crear;experiencia;prioridad;público;experiencia;compositor de experiencias visuales
 description: Aprenda a utilizar el  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) para crear y editar experiencias en su página en una actividad de [!UICONTROL Experience Targeting] (XT).
 title: ¿Cómo puedo crear experiencias en una actividad de [!UICONTROL Experience Targeting]?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: 902
 ht-degree: 23%
 
 ---
@@ -19,7 +26,7 @@ El [!UICONTROL Visual Experience Composer] (VEC) de [!DNL Adobe Target] proporci
 
    Mientras [crea una actividad [!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), el paso uno del flujo de trabajo guiado de tres partes ([!UICONTROL Experiences]) muestra la audiencia [!UICONTROL Experience A] predeterminada con [!UICONTROL All Visitors].
 
-   ![Audiencia de todos los visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
+   ![Público de todos los visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    Los cambios que realice ahora se aplican a [!UICONTROL Experience A]. En un paso inferior, haga clic en **[!UICONTROL Add Experience Targeting]** para crear experiencias adicionales.
 
@@ -33,9 +40,9 @@ El [!UICONTROL Visual Experience Composer] (VEC) de [!DNL Adobe Target] proporci
 
    Se muestra el cuadro de diálogo [!UICONTROL Add Audience]. Para segmentar una experiencia a una audiencia, seleccione la audiencia antes de añadir la experiencia.
 
-   La biblioteca de audiencias contiene las audiencias que se han definido anteriormente, entre las que se incluyen algunas audiencias comunes predefinidas como parte de [!DNL Target]. Puede seleccionar una audiencia de la biblioteca o [crear una audiencia nueva](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   La biblioteca de públicos contiene los públicos que se han definido anteriormente, entre los que se incluyen algunos públicos comunes predefinidos como parte de [!DNL Target]. Puede seleccionar un público de la biblioteca o [crear un público nuevo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
-   Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    Al crear una audiencia, puede seleccionar una ubicación y especificar parámetros para esa ubicación. En [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom]), seleccione la ubicación y especifique los parámetros que desee.
 

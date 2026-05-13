@@ -5,10 +5,16 @@ title: ¿Dónde puedo encontrar preguntas y respuestas acerca de  [!DNL Recommen
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3444'
-ht-degree: 84%
+source-wordcount: 3467
+ht-degree: 82%
 
 ---
 
@@ -48,7 +54,7 @@ Tras importar un archivo de fuente o recibir actualizaciones de entidad mediante
 
   Esta situación se produce porque [!DNL Target] aplica exclusiones tanto en línea como sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento reciente, la exclusión en línea desaparece al instante, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
 
-* Si un elemento se incluyó anteriormente, pero ahora debe excluirse, este se excluye por la línea de tiempo “atributos de elemento actualizados...” analizada anteriormente en función de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
+* Si un elemento se incluyó anteriormente, pero ahora debe excluirse, este se excluye por los &quot;Atributos de elemento actualizados...&quot; la línea de tiempo analizada anteriormente depende de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
 
 Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritmo (en 12-24 horas):
 
@@ -146,7 +152,7 @@ Tenga en cuenta la siguiente información si ve que una colección que era disti
 
 Existen dos formas de ponderación de atributos: la “ponderación de atributos estándar” y la “ponderación de atributos de similitud de contenido”.
 
-La “ponderación de atributos estándar” se aplica a la mayoría de los tipos de criterio, si no a todos (no solo a los de Similitud de contenido). Este tipo de ponderación da más peso a determinados valores de atributo. En el ejemplo siguiente, los productos de Nike reciben un empujón en las recomendaciones generadas.
+La &quot;ponderación de atributos estándar&quot; se aplica a la mayoría de los tipos de criterio, si no a todos (no solo a los de Similitud de contenido). Este tipo de ponderación da más peso a ciertos valores de atributo. En el ejemplo siguiente, los productos de Nike reciben un empujón en las recomendaciones generadas.
 
 ![imagen attribute_weight_example](assets/attribute_weighting_example.png)
 
@@ -192,9 +198,9 @@ Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. Los
 
 Si edita un criterio, promoción o regla de prueba de plantilla existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
 
-## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir una nueva audiencia? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir un nuevo público? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Asegúrese de que la audiencia tiene un nombre único. Si le dio a la audiencia el mismo nombre que una audiencia existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
+Asegúrese de que la audiencia tiene un nombre único. Si le dio al público el mismo nombre que un público existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
 
 ## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente? {#section_20F1AF4839A447B9889B246D6E873538}
 
@@ -214,7 +220,7 @@ La exclusión solo se realiza para la llamada de [!DNL Target] actual; los eleme
 
 Para excluir `entityIds`, añada el token `&excludes=${mbox.excludedIds}` a la dirección URL de contenido de la oferta. Cuando se extrae la dirección URL de contenido, se substituyen los parámetros requeridos mediante parámetros de solicitud de mbox actuales.
 
-De forma predeterminada, esta característica está activada para las recomendaciones de nueva creación. Las recomendaciones existentes deben guardarse para permitir entidades dinámicamente excluidas.
+De forma predeterminada, esta característica está habilitada para las recomendaciones de nueva creación. Las recomendaciones existentes deben guardarse para permitir entidades dinámicamente excluidas.
 
 ## ¿Qué significa la respuesta NO_CONTENT que a veces se devuelve en el seguimiento de contenido de Recommendations?
 

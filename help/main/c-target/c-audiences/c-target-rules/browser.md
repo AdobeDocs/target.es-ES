@@ -4,10 +4,17 @@ description: Aprenda a crear audiencias en  [!DNL Adobe Target]  para segmentar 
 title: ¿Puedo segmentar visitantes según el tipo de explorador?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+TQID: https://experienceleague.adobe.com/D7cLw1OVT61u8SgkjpzEvWylcX1uz14Ia4rf8jAJyXs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 33%
+source-wordcount: 1024
+ht-degree: 34%
 
 ---
 
@@ -69,7 +76,7 @@ Hay dos formar de segmentar según el navegador:
 
 Dirija la actividad a visitantes o exclúyalos en función del tipo, el idioma o la versión de navegador que tengan.
 
-### Tipo  {#section_6ADC758F23F145B3A310151546D83D56}
+### Tipo {#section_6ADC758F23F145B3A310151546D83D56}
 
 Dirija la actividad a un navegador o exclúyalo.
 
@@ -80,7 +87,7 @@ Seleccione **[!UICONTROL Type]** y, a continuación, elija igual a o no es igual
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
-### Idioma  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Idioma {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Dirija la actividad ciertos navegadores que estén configurados en idiomas específicos o exclúyalos.
 
@@ -107,7 +114,7 @@ Los siguientes idiomas de navegador se pueden incluir o excluir de la segmentaci
 * Español
 * Chino tradicional
 
-### Versión  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versión {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Dirija la actividad a ciertas versiones del navegador o exclúyalas.
 
@@ -122,7 +129,7 @@ Seleccione **[!UICONTROL Version]** y luego elija un operador:
 * [!UICONTROL Is less than]
 * [!UICONTROL Is less than or equal to]
 
-Escriba el número de versión. En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Por ejemplo, si especifica la versión 10, también se incluyen los visitantes de la versión 10.1.
+Escriba el nombre de la versión. En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Por ejemplo, si especifica la versión 10, también se incluyen los visitantes de la versión 10.1.
 
 Si hay varias opciones, se conectan con un parámetro O.
 
@@ -130,7 +137,7 @@ Si hay varias opciones, se conectan con un parámetro O.
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
-* Crear audiencias
+* Crear públicos
 * Definir categorías de audiencias
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

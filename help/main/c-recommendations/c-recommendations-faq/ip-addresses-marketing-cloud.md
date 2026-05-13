@@ -5,10 +5,15 @@ title: ¿Qué direcciones IP utilizan los servidores de procesamiento de fuentes
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
+TQID: https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 35%
+source-wordcount: 187
+ht-degree: 33%
 
 ---
 

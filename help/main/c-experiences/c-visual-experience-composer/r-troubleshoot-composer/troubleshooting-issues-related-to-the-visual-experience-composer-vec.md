@@ -4,10 +4,23 @@ description: Obtenga información sobre cómo solucionar problemas en el [!UICON
 title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Visual Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 23%
+source-wordcount: 1042
+ht-degree: 25%
 
 ---
 
@@ -15,7 +28,7 @@ ht-degree: 23%
 
 Los problemas de visualización a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) bajo ciertas condiciones.
 
-## Cuando abro mi sitio web en [!UICONTROL Visual Experience Composer], las bibliotecas de [!DNL Target] no se cargan. (Solo VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Cuando abro mi sitio web en [!UICONTROL Visual Experience Composer], las bibliotecas de [!DNL Target] no se cargan. (Solo VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++Detalles
 [!DNL Target] agrega dos parámetros (`mboxEdit=1` y `mboxDisable=1`) al abrir el sitio web en [!UICONTROL Visual Experience Composer].
@@ -26,7 +39,7 @@ Para evitar este problema, asegúrese de que no recorta ni elimina estos dos par
 
 +++
 
-## Mi página no se abre en el EEC. O bien, la carga de la página es lenta. Las actividades o experiencias ser cargan lentamente en el VEC. (Solo VEC)   {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Mi página no se abre en el EEC. O bien, la carga de la página es lenta. Las actividades o experiencias ser cargan lentamente en el VEC. (Solo VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Detalles
 Varios problemas pueden afectar el rendimiento de la página en los [!UICONTROL Target] compositores de experiencias. Algunos problemas comunes son:
@@ -110,7 +123,7 @@ Después de configurar una extensión, abra [!DNL Target]. Sus páginas debería
 
 +++
 
-## Mi página no se muestra en el VEC (solo VEC)   {#does-not-load}
+## Mi página no se muestra en el VEC (solo VEC) {#does-not-load}
 
 +++Detalles
 * La compatibilidad óptima con el VEC está garantizada por la versión más reciente de la extensión: [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
@@ -145,7 +158,7 @@ Después de configurar una extensión, abra [!DNL Target]. Sus páginas debería
 
 +++
 
-## El VEC parece roto cuando uso el modo [!UICONTROL Browse]. (Solo VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## El VEC parece roto cuando uso el modo [!UICONTROL Browse]. (Solo VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++Detalles
 Al usar el modo [!UICONTROL Browse], si accede a una dirección URL que no tiene implementadas [!DNL Target] bibliotecas ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=es){target=_blank} o [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}) o que contiene un encabezado de eliminación de fotogramas, el VEC parece roto. Debido a problemas de seguridad del explorador, [!DNL Target] no puede acceder correctamente a la dirección URL a la que navegó o la URL del VEC no se actualiza de manera consistente si se carga la página.

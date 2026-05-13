@@ -4,10 +4,21 @@ description: Aprenda a crear audiencias en  [!DNL Adobe Target]  para segmentar 
 title: ¿Puedo segmentar visitantes según las opciones de dispositivos móviles?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 35%
+source-wordcount: 692
+ht-degree: 38%
 
 ---
 
@@ -27,7 +38,7 @@ Para resolver este problema, [!DNL Target] recopila datos adicionales para detec
 
 | Parámetro | Tipo | Descripción |
 |--- |--- |--- |
-| devicePixelRatio | Cadena | Proporción entre píxeles físicos y píxeles independientes del dispositivo (dips) en el explorador. Por ejemplo, &quot;1,5&quot; o &quot;2&quot; |
+| devicePixelRatio | Cadena | Proporción entre píxeles físicos y píxeles independientes del dispositivo (dips) en el navegador. Por ejemplo, &quot;1,5&quot; o &quot;2&quot; |
 | screenOrientation | Cadena | El dispositivo y el motor JavaScript del navegador admiten la orientación del dispositivo. Puede ser horizontal o vertical. |
 | webGLRenderer | Cadena | Procesador del controlador de gráficos del navegador. |
 
@@ -79,11 +90,11 @@ La actualización de iOS 12.2 (o posterior) no afecta a la identificación de lo
 
 Cuando se usan reglas móviles para dispositivos de destino que ejecutan Safari versión 14.0.2 (o posterior) en macOS, debido a un problema conocido que implica a los agentes de usuario de Apple y DeviceAtlas, [!DNL Target] identifica incorrectamente Safari en dispositivos Mac y iPad. Este problema se abordará en el futuro.
 
-## Vídeo de formación: Creación de audiencias
+## Vídeo de formación: Creación de públicos
 
 Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
-* Crear audiencias
+* Crear públicos
 * Definir categorías de audiencias
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
