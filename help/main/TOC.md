@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Descubra cómo personalizar las experiencias de los clientes en sitios web, aplicaciones y canales sociales para aumentar los ingresos.
 feature-set: Target
-source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
+source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 83%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 83%
       + [Cálculo del aumento de ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Configuración de Scene7](administrating-target/scene7-settings.md)
    + [Implementación](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[Ocultamiento previo del contenido](administrating-target/content-pre-hiding.md)
    + [Hosts](administrating-target/hosts.md)
    + [Entornos](/help/main/administrating-target/environments.md)
    + [Tokens de respuesta](administrating-target/response-tokens.md)
