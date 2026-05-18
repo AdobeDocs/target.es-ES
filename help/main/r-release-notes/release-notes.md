@@ -7,21 +7,14 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 43%
+source-wordcount: 504
+ht-degree: 53%
 
 ---
 
@@ -31,57 +24,33 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
+## [!DNL Target Standard/Premium] 26.5.2 (14 de mayo de 2026)
 
-## Últimas actualizaciones: 12 de mayo de 2026
+**Administración**
 
-Servidor MCP **[!DNL Adobe Target] (Beta público)**
++++Ver detalles
+
+* **Validación regex para direcciones URL permitidas.** Se corrigió un problema en el cual se podían introducir expresiones regulares no válidas en el campo **[!UICONTROL Allowed URLs]** sin la validación adecuada. (TGT-55095)
+
++++
+
+**Públicos**
+
++++Ver detalles
+
+* **Botones del cuadro de diálogo [!UICONTROL Edit Audience].** Se corrigió un problema en el cual los botones del cuadro de diálogo **[!UICONTROL Edit Audience]** ya no se representaban correctamente. (TGT-54638)
+
++++
+
+Servidor MCP **[!DNL Adobe Target](Beta público)**
+
++++Ver detalles
 
 [!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP. Con esta integración, los perfiles técnicos y de marketing pueden inspeccionar las pruebas A/B, analizar los informes de rendimiento y explorar audiencias y ofertas, todo ello utilizando indicaciones en lenguaje natural en lugar de navegar por varias pantallas de la interfaz de usuario o escribir consultas en la API de REST [!DNL Adobe Target]. Esta funcionalidad está disponible actualmente en **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**.
 
 Esta capacidad está disponible para todos los clientes en Public Beta.
 
 Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
-
-
-## [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
-
-**Integraciones**
-
-+++Ver detalles
-
-* Administración de **[!DNL Adobe Target]en Experimentation Accelerator.** Se agregó compatibilidad para asignar [!DNL Target] espacios de trabajo a zonas protegidas de Experimentation Accelerator, de modo que los equipos puedan ver los experimentos de [!DNL Adobe Target] en Experimentation Accelerator en un solo lugar. [Más información](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
-**Actividades**
-
-+++Ver detalles
-
-* **[!UICONTROL Graph View]no está sincronizado con la tabla y la descarga.** Se ha corregido un problema en el cual los informes de actividad podían mostrar métricas que faltaban o cero en **[!UICONTROL Graph View]** para algunos intervalos de fechas a pesar de que **[!UICONTROL Table View]** y el informe descargado seguían mostrando los valores correctos. (TGT-54998)
-
-+++
-
-**[!UICONTROL Audiences]**
-
-+++Ver detalles
-
-* **La lista de uso de audiencia no se ha procesado completamente.** Se ha corregido un problema en el cual la sección **[!UICONTROL Usage]** de los detalles de audiencia podía mostrar solo un subconjunto de actividades asignadas incluso cuando se asociaban actividades adicionales a esa audiencia. (TGT-55094)
-
-+++
-
-**[!UICONTROL Administration]**
-
-+++Ver detalles
-
-* **Confirmación más clara para la ofuscación de IP del último octeto.** Cuando cambia **[!UICONTROL Obfuscate Visitor IP addresses]** a **[!UICONTROL Last octet]** en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, el cuadro de diálogo de confirmación ahora explica que [!DNL Target] oculta el último octeto de la dirección IP del visitante. (TGT-44821)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Ver detalles
-
-* **Página en blanco o incompleta con el Compositor de experiencias mejorado (EEC).** Se ha corregido un problema en el cual [!UICONTROL Visual Experience Composer] no podía cargar el sitio en el editor cuando **[!UICONTROL Enhanced Experience Composer]** estaba habilitado. (TGT-54576)
 
 +++
 
