@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Los siguientes ejemplos muestran cómo interactuar con el servidor MCP [!DNL Ado
 | **Información de la actividad** | &quot;Obtenga información para mi prueba de &#39;Banner de venta de verano&#39;. ¿Qué aspecto tiene el rendimiento y si hay alguna anomalía?&quot; |
 | **Gestión de público** | &quot;Enumere todas las audiencias segmentadas por usuarios móviles y muéstreme con qué actividades están asociadas&quot;. |
 | **Control de calidad y vista previa** | &quot;Generar URL de vista previa de control de calidad para los 12345 de actividad para poder revisar todas las variantes antes antes de activarlas&quot;. |
-| **Revisión de recomendaciones** | &quot;Enumerar todos los criterios de Recommendations configurados en esta cuenta y resumir los tipos de algoritmo en uso.&quot; |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **Auditoría de implementación** | &quot;¿Qué versión de at.js está configurada y qué tokens de respuesta están activos actualmente?&quot; |
-| **Auditoría de cambios** | &quot;Mostrarme todos los cambios realizados en los 98765 de actividad en los últimos 30 días y quién los ha realizado&quot;. |
+| **Auditoría de cambios** | &quot;Mostrar todos los cambios realizados en los 98765 de actividad en los últimos 30 días y quién los ha realizado&quot;. |
 
 ## Tutoriales de casos de uso {#mcp-use-case-walkthroughs}
 
