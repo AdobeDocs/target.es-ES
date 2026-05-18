@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 68187
+source-wordcount: 68360
 ht-degree: 50%
 
 ---
@@ -57,6 +57,48 @@ Las notas de la versión se enumeran en orden descendente por mes y año de publ
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2026
+
+## [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
+
+**Integraciones**
+
++++Ver detalles
+
+* Administración de **[!DNL Adobe Target]en Experimentation Accelerator.** Se agregó compatibilidad para asignar [!DNL Target] espacios de trabajo a zonas protegidas de Experimentation Accelerator, de modo que los equipos puedan ver los experimentos de [!DNL Adobe Target] en Experimentation Accelerator en un solo lugar. [Más información](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
+
+**Actividades**
+
++++Ver detalles
+
+* **[!UICONTROL Graph View]no está sincronizado con la tabla y la descarga.** Se ha corregido un problema en el cual los informes de actividad podían mostrar métricas que faltaban o cero en **[!UICONTROL Graph View]** para algunos intervalos de fechas a pesar de que **[!UICONTROL Table View]** y el informe descargado seguían mostrando los valores correctos. (TGT-54998)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++Ver detalles
+
+* **La lista de uso de audiencia no se ha procesado completamente.** Se ha corregido un problema en el cual la sección **[!UICONTROL Usage]** de los detalles de audiencia podía mostrar solo un subconjunto de actividades asignadas incluso cuando se asociaban actividades adicionales a esa audiencia. (TGT-55094)
+
++++
+
+**[!UICONTROL Administration]**
+
++++Ver detalles
+
+* **Confirmación más clara para la ofuscación de IP del último octeto.** Cuando cambia **[!UICONTROL Obfuscate Visitor IP addresses]** a **[!UICONTROL Last octet]** en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**, el cuadro de diálogo de confirmación ahora explica que [!DNL Target] oculta el último octeto de la dirección IP del visitante. (TGT-44821)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Ver detalles
+
+* **Página en blanco o incompleta con el Compositor de experiencias mejorado (EEC).** Se ha corregido un problema en el cual [!UICONTROL Visual Experience Composer] no podía cargar el sitio en el editor cuando **[!UICONTROL Enhanced Experience Composer]** estaba habilitado. (TGT-54576)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.4 (28 de abril de 2026)
 
