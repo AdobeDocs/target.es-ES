@@ -2,24 +2,16 @@
 keywords: resolución de problemas;preguntas más frecuentes;FAQ;personalización automatizada;control;experiencia predeterminada;prácticas recomendadas
 description: Explore una lista de preguntas más frecuentes (FAQ) y respuestas acerca de actividades de [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Adobe Target].
 title: ¿Cómo puedo encontrar preguntas frecuentes acerca de [!UICONTROL Automated Personalization] actividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1967
+source-wordcount: 2032
 ht-degree: 20%
 
 ---
@@ -52,6 +44,7 @@ No existe la opción llave en mano de comparar [!UICONTROL Automated Personaliza
 
 +++Ver detalles
 
+* Limite las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. Configuraciones más grandes pueden provocar una carga o edición lentas en [!UICONTROL Visual Experience Composer].
 * Si desea personalizar una página con poco tráfico o realizar cambios estructurales en la experiencia que está personalizando, considere la posibilidad de utilizar una actividad [!UICONTROL Auto-Target] en lugar de [!UICONTROL Automated Personalization]. Consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Considere completar una actividad [!UICONTROL A/B Test] entre las ofertas y las ubicaciones que planea usar en su actividad [!UICONTROL Automated Personalization] para asegurarse de que la ubicación y las ofertas tengan un impacto en el objetivo de optimización. Si una actividad [!UICONTROL A/B Test] no muestra una diferencia significativa, [!UICONTROL Automated Personalization] probablemente tampoco genere un alza.
 
@@ -91,6 +84,8 @@ No existe la opción llave en mano de comparar [!UICONTROL Automated Personaliza
 [!DNL Target] tiene un límite estricto de 30 000 experiencias, pero funciona mejor cuando se crean menos de 10 000 experiencias.
 
 Este mismo límite se aplica incluso cuando la actividad tiene habilitada la opción [!UICONTROL Disalow Duplicates].
+
+Para obtener un rendimiento óptimo, limite las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. Dado que el número total de experiencias aumenta a partir de la combinación de ubicaciones y ofertas, las configuraciones más grandes pueden provocar una carga o edición lentas en [!UICONTROL Visual Experience Composer].
 
 Para obtener más información sobre los límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Target], vea [Límites](/help/main/r-troubleshooting-target/target-limits.md).
 
