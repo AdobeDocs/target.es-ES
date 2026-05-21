@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Descubra cómo personalizar las experiencias de los clientes en sitios web, aplicaciones y canales sociales para aumentar los ingresos.
 feature-set: Target
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 83%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 83%
    + {hide-from-toc}[Ocultamiento previo del contenido](administrating-target/content-pre-hiding.md)
    + [Hosts](administrating-target/hosts.md)
    + [Entornos](/help/main/administrating-target/environments.md)
+   + [URL INCLUIDAS EN LA LISTA DE PERMITIDOS](administrating-target/allowlisted-urls.md)
    + [Tokens de respuesta](administrating-target/response-tokens.md)
    + Administrar usuarios {#manage-users}
       + [Administración de usuarios](administrating-target/c-user-management/user-management.md)
@@ -347,4 +348,4 @@ ht-degree: 83%
    + [Límites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Información general sobre la API de Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e información de contacto &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e información de contacto ](cmp-resources-and-contact-information.md)

@@ -6,29 +6,20 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 TQID: https://experienceleague.adobe.com/cLBqYpq9TTkS7fPllFUOHP73z482Z5nfoM79UtVBo8E
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 13%
+source-wordcount: 94
+ht-degree: 12%
 
 ---
 
 # Información general sobre la administración de [!DNL Target]
 
-Información para ayudarle a administrar [!DNL Adobe Target], incluidos los ajustes de configuración del Compositor de experiencias visuales (VEC), informes, configuración de Scene7, implementación, hosts, entornos, tokens de respuesta, usuarios y [!DNL Recommendations].
+Información para ayudarle a administrar [!DNL Adobe Target], incluidos los ajustes de configuración del Compositor de experiencias visuales (VEC), informes, configuración de Scene7, implementación, hosts, entornos, direcciones URL incluidas en la lista de permitidos, tokens de respuesta, usuarios y [!DNL Recommendations].
 
 {{permissions-update}}
 
@@ -41,6 +32,7 @@ Para obtener acceso a los elementos de menú [!UICONTROL Administration], haga c
 * [Propiedades](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hosts](/help/main/administrating-target/hosts.md)
 * [Entornos](/help/main/administrating-target/environments.md)
+* [URL INCLUIDAS EN LA LISTA DE PERMITIDOS](/help/main/administrating-target/allowlisted-urls.md)
 * [Tokens de respuesta](/help/main/administrating-target/response-tokens.md)
 * [Usuarios](/help/main/administrating-target/c-user-management/user-management.md)
 * [Recommendations](/help/main/administrating-target/recommendations-settings.md)
