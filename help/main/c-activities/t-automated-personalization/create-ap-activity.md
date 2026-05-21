@@ -17,9 +17,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 23%
 
 ---
@@ -100,7 +100,7 @@ Defina el grupo de variaciones de contenido con las que [!UICONTROL Automated Pe
 
    >[!IMPORTANT]
    >
-   >**Práctica recomendada:** Para obtener un rendimiento óptimo, limite las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. El número total de experiencias crece a partir de la combinación cartesiana de ubicaciones y ofertas. Configuraciones más grandes pueden provocar una carga o edición lentas en [!UICONTROL Visual Experience Composer]. Mantenga el total por debajo de 5000 experiencias para obtener los mejores resultados; el límite estricto es de 30 000 (el mismo límite se aplica cuando la opción [!UICONTROL Disallow Duplicates] está habilitada).
+   >Para obtener un rendimiento óptimo, limite las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. El número total de experiencias crece a partir de la combinación cartesiana de ubicaciones y ofertas. Configuraciones más grandes pueden provocar una carga o edición lentas en [!UICONTROL Visual Experience Composer]. Mantenga el total por debajo de 5000 experiencias para obtener los mejores resultados; el límite estricto es de 30 000 (el mismo límite se aplica cuando la opción [!UICONTROL Disallow Duplicates] está habilitada).
 
 1. (Condicional) Haga clic en **[!UICONTROL Offers]** para seleccionar elementos de contenido y asignarlos a grupos de informes o para permitir que solo determinados visitantes vean determinadas ofertas con segmentación.
 
@@ -111,7 +111,7 @@ Defina el grupo de variaciones de contenido con las que [!UICONTROL Automated Pe
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
