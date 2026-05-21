@@ -21,9 +21,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1882
+source-wordcount: 1920
 ht-degree: 18%
 
 ---
@@ -62,6 +62,7 @@ A diferencia de una actividad A/B en la que la asignación de experiencias para 
 
 Hay algunas consideraciones importantes que se deben tener en cuenta al usar [!UICONTROL Auto-Target]:
 
+* Limite las actividades [!UICONTROL Auto-Target] y [!UICONTROL Automated Personalization] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. Dado que el número total de experiencias aumenta a partir de la combinación de ubicaciones y ofertas, las configuraciones más grandes pueden provocar una carga o edición lentas en [!UICONTROL Visual Experience Composer].
 * No puede cambiar una actividad específica de [!UICONTROL Auto-Target] a [!UICONTROL Automated Personalization], y viceversa.
 * No puede cambiar de la asignación de tráfico [!UICONTROL Manual] (tradicional [!UICONTROL A/B Test]) a [!UICONTROL Auto-Target], y viceversa después de guardar una actividad como borrador.
 * Un modelo se crea para identificar el rendimiento de la estrategia personalizada en comparación con el tráfico servido aleatoriamente en lugar de enviar todo el tráfico a la experiencia ganadora general. Este modelo considera las visitas y conversiones solo en el entorno predeterminado.

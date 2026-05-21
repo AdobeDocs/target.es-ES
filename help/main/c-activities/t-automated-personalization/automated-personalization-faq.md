@@ -17,9 +17,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1967
+source-wordcount: 2032
 ht-degree: 20%
 
 ---
@@ -52,6 +52,7 @@ No existe la opción llave en mano de comparar [!UICONTROL Automated Personaliza
 
 +++Ver detalles
 
+* Limite las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. Configuraciones más grandes pueden provocar una carga o edición lentas en [!UICONTROL Visual Experience Composer].
 * Si desea personalizar una página con poco tráfico o realizar cambios estructurales en la experiencia que está personalizando, considere la posibilidad de utilizar una actividad [!UICONTROL Auto-Target] en lugar de [!UICONTROL Automated Personalization]. Consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Considere completar una actividad [!UICONTROL A/B Test] entre las ofertas y las ubicaciones que planea usar en su actividad [!UICONTROL Automated Personalization] para asegurarse de que la ubicación y las ofertas tengan un impacto en el objetivo de optimización. Si una actividad [!UICONTROL A/B Test] no muestra una diferencia significativa, [!UICONTROL Automated Personalization] probablemente tampoco genere un alza.
 
@@ -91,6 +92,8 @@ No existe la opción llave en mano de comparar [!UICONTROL Automated Personaliza
 [!DNL Target] tiene un límite estricto de 30 000 experiencias, pero funciona mejor cuando se crean menos de 10 000 experiencias.
 
 Este mismo límite se aplica incluso cuando la actividad tiene habilitada la opción [!UICONTROL Disalow Duplicates].
+
+Para obtener un rendimiento óptimo, limite las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Auto-Target] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. Dado que el número total de experiencias aumenta a partir de la combinación de ubicaciones y ofertas, las configuraciones más grandes pueden provocar una carga o edición lentas en [!UICONTROL Visual Experience Composer].
 
 Para obtener más información sobre los límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Target], vea [Límites](/help/main/r-troubleshooting-target/target-limits.md).
 
