@@ -2,19 +2,16 @@
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
 description: Vea una lista de las preguntas más frecuentes y sus respuestas acerca de  [!DNL Target Recommendations] actividades.
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3467
-ht-degree: 82%
+source-wordcount: 3543
+ht-degree: 80%
 
 ---
 
@@ -28,7 +25,7 @@ Sí, los objetos de [!UICONTROL Recommendations] ([!UICONTROL Criteria], [!UICON
 
 ## ¿Puedo administrar [!DNL Target] ofertas visuales creadas por la interfaz de usuario usando las API [!DNL Target]?
 
-No. [!DNL Recommendations] actividades con ofertas visuales creadas en la interfaz de usuario de [!DNL Target] no se pueden administrar mediante las API de [!DNL Target]. Aunque estas actividades se muestran en la lista [!UICONTROL Activities], no puede leerlas ni actualizarlas (mediante GET/PUT).
+No. [!DNL Recommendations] actividades con ofertas visuales creadas en la interfaz de usuario de [!DNL Target] no se pueden administrar mediante las API de [!DNL Target]. Aunque estas actividades se muestran en la lista [!UICONTROL Activities], no se pueden leer ni actualizar (mediante GET/PUT).
 
 ## ¿Por qué [!UICONTROL Catalog Search] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
 
@@ -109,7 +106,7 @@ Si la ubicación en la que aplica los criterios no contiene el Id. de categoría
 
 Si utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
 
-[!DNL Target] tiene una configuración de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para controlar el filtrado inteligente del selector de algoritmo.
+[!DNL Target] tiene una configuración de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para controlar el filtrado inteligente del selector de algoritmo.
 
 >[!NOTE]
 >
@@ -204,7 +201,13 @@ Asegúrese de que la audiencia tiene un nombre único. Si le dio al público el 
 
 ## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente? {#section_20F1AF4839A447B9889B246D6E873538}
 
-No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+
+## ¿Por qué falla mi acción [!UICONTROL Download data] en una actividad [!DNL Recommendations]? {#download-data-error}
+
+Al hacer clic en **[!UICONTROL Download data]** en la página [!UICONTROL Activity Overview] de una actividad [!DNL Recommendations], la interfaz de usuario [!DNL Target] podría mostrar el error `Error while fetching recommendation data file.`
+
+Esto suele ocurrir cuando la actividad tiene un conjunto de resultados muy grande: el CSV generado supera el tamaño de respuesta que se puede devolver a través de la interfaz de usuario en una sola descarga. Los datos de recomendación en sí están intactos, pero solo la ruta de descarga en el explorador no puede entregar un archivo de ese tamaño.
 
 ## ¿Puedo excluir dinámicamente una entidad? {#exclude}
 
