@@ -11,10 +11,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 15%
+source-wordcount: 1462
+ht-degree: 14%
 
 ---
 
@@ -97,6 +97,8 @@ De izquierda a derecha se muestra una lista de los artículos recomendados, en e
 Si un asterisco (*) es el primer valor de una fila, indica [elementos de copia de seguridad](/help/main/c-recommendations/c-algorithms/backup-recs.md). Los elementos de copia de seguridad se muestran si no todas las ranuras de un diseño se pueden rellenar con los elementos recomendados del algoritmo (criterios).
 
 Para otros tipos de algoritmo basados en un valor de clave, como [!UICONTROL People Who Viewed This, Viewed That], los valores de clave (es decir, los elementos &quot;Este&quot;) se muestran en la columna situada más a la izquierda y los elementos recomendados (es decir, los elementos &quot;Ese&quot;) se muestran de izquierda a derecha en las columnas Recommendations_X.
+
+Tenga en cuenta que para las actividades con conjuntos de resultados muy grandes, la opción **[!UICONTROL Download data]** puede fallar con el error `Error while fetching recommendation data file.`. Esto sucede cuando el CSV generado supera el tamaño de respuesta que se puede devolver a través de la interfaz de usuario en una sola descarga.
 
 >[!NOTE]
 >

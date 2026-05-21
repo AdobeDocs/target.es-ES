@@ -5,9 +5,9 @@ title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recomme
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ Después de crear su actividad [!UICONTROL Recommendations], [!UICONTROL A/B Tes
 
 Después de crear una actividad, [!DNL Recommendations] ejecuta un algoritmo para generar recomendaciones. Este algoritmo puede tardar unas horas en ejecutarse.
 
-Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general [!UICONTROL Activity], donde se muestra el estado de los criterios. La siguiente ilustración muestra el estado en el diagrama de actividad en la página [!DNL Recommendations] de una actividad [!UICONTROL Overview]:
+Puede comprobar si el algoritmo ha terminado de ejecutarse en el diagrama de información general [!UICONTROL Activity], donde se muestra el estado de los criterios. La siguiente ilustración muestra el estado en el diagrama de actividad en la página [!UICONTROL Overview] de una actividad [!DNL Recommendations]:
 
 ![Página de información general de la actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
@@ -91,6 +91,8 @@ De izquierda a derecha se muestra una lista de los artículos recomendados, en e
 Si un asterisco (*) es el primer valor de una fila, indica [elementos de copia de seguridad](/help/main/c-recommendations/c-algorithms/backup-recs.md). Los elementos de copia de seguridad se muestran si no todas las ranuras de un diseño se pueden rellenar con los elementos recomendados del algoritmo (criterios).
 
 Para otros tipos de algoritmo basados en un valor de clave, como [!UICONTROL People Who Viewed This, Viewed That], los valores de clave (es decir, los elementos &quot;Este&quot;) se muestran en la columna situada más a la izquierda y los elementos recomendados (es decir, los elementos &quot;Ese&quot;) se muestran de izquierda a derecha en las columnas Recommendations_X.
+
+Tenga en cuenta que para las actividades con conjuntos de resultados muy grandes, la opción **[!UICONTROL Download data]** puede fallar con el error `Error while fetching recommendation data file.`. Esto sucede cuando el CSV generado supera el tamaño de respuesta que se puede devolver a través de la interfaz de usuario en una sola descarga.
 
 >[!NOTE]
 >
