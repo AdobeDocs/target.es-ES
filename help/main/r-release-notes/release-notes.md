@@ -7,21 +7,14 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad59ee31ae91e2f1bdcd5ec409ee9d04595ee2dd
 workflow-type: tm+mt
-source-wordcount: 504
-ht-degree: 53%
+source-wordcount: 446
+ht-degree: 60%
 
 ---
 
@@ -31,42 +24,28 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.5.2 (14 de mayo de 2026)
+## [!DNL Target Standard/Premium] 26.5.3 (21 de mayo de 2026)
 
-**Administración**
-
-+++Ver detalles
-
-* **Validación regex para direcciones URL permitidas.** Se corrigió un problema en el cual se podían introducir expresiones regulares no válidas en el campo **[!UICONTROL Allowed URLs]** sin la validación adecuada. (TGT-55095)
-
-+++
-
-**Públicos**
+**[!UICONTROL What's new]página**
 
 +++Ver detalles
 
-* **Botones del cuadro de diálogo [!UICONTROL Edit Audience].** Se corrigió un problema en el cual los botones del cuadro de diálogo **[!UICONTROL Edit Audience]** ya no se representaban correctamente. (TGT-54638)
+* **Nueva página [!UICONTROL What's new].** Se ha agregado una nueva página de **[!UICONTROL What's new]** en la interfaz de usuario de [!DNL Adobe Target] para ayudarle a descubrir las últimas funciones, mejoras y actualizaciones sin salir del producto. (TGT-55137)
 
 +++
 
-Servidor MCP **[!DNL Adobe Target] (Beta público)**
+**Actividades**
 
 +++Ver detalles
 
-[!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP. Con esta integración, los perfiles técnicos y de marketing pueden inspeccionar las pruebas A/B, analizar los informes de rendimiento y explorar audiencias y ofertas, todo ello utilizando indicaciones en lenguaje natural en lugar de navegar por varias pantallas de la interfaz de usuario o escribir consultas en la API de REST [!DNL Adobe Target]. Esta funcionalidad está disponible actualmente en **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**.
+* **Se seleccionó una experiencia incorrecta al editar la segmentación en [!UICONTROL Automated Personalization] actividades.** Se ha corregido un problema en el cual se podía seleccionar una experiencia incorrecta al editar el paso **[!UICONTROL Targeting]** en una actividad [!UICONTROL Automated Personalization] (AP). (TGT-55176)
 
-Esta capacidad está disponible para todos los clientes en Public Beta.
-
-Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
+* **Fecha anterior al cerrar una actividad programada.** Se ha corregido un problema que impedía seleccionar una fecha anterior para cerrar una actividad programada. (TGT-55163)
 
 +++
-
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-
-
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
