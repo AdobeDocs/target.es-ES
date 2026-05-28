@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
+source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: 68506
+source-wordcount: 68339
 ht-degree: 50%
 
 ---
@@ -89,14 +89,6 @@ Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c
 +++
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
-
-**Integraciones**
-
-+++Ver detalles
-
-* Administración de **[!DNL Adobe Target]en Experimentation Accelerator.** Se agregó compatibilidad para asignar [!DNL Target] espacios de trabajo a zonas protegidas de Experimentation Accelerator, de modo que los equipos puedan ver los experimentos de [!DNL Adobe Target] en Experimentation Accelerator en un solo lugar. [Más información](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
 
 **Actividades**
 
@@ -681,7 +673,7 @@ Anteriormente, el término &quot;Detalles&quot; se traducía incorrectamente com
 
 * **La generación de ofertas ad hoc en actividades de A[!UICONTROL utomated Personalization] causó incoherencias en los informes.** El uso de la característica Generar ofertas ad hoc en actividades [!UICONTROL Automated Personalization] (AP) provocó informes inexactos. Específicamente, los ID de oferta se reutilizaban en todas las ubicaciones, lo que provocaba que los datos de los informes se atribuyeran erróneamente o se sobrescribieran. Las ofertas específicas ahora se generan con identificadores distintos por ubicación, lo que garantiza un seguimiento y unos informes precisos en todas las experiencias configuradas. (TGT-53757)
 * **No se pudieron cargar los informes de actividad debido a un error de JavaScript.** Los clientes encontraron el mensaje &quot;Se produjo un error&quot; al acceder a la ficha [!UICONTROL Reports] para determinadas actividades. El error se debe a una excepción de JavaScript: no se pueden leer las propiedades de undefined (reading &#39;indexOf&#39;), desencadenadas durante la llamada de GraphQL `getAnalyticsReportSummary`. Ahora los informes se cargan correctamente y se ha mejorado el control de errores para evitar errores similares en el flujo de trabajo actualizado de creación de actividades. (TGT-53797)
-* **Los informes se bloquearon después de interactuar con la barra de desplazamiento.** Al hacer clic en la barra de desplazamiento de la ficha [!UICONTROL Reports], la página se bloqueó y se produjo un error de JavaScript:
+* **Los informes se bloquearon después de interactuar con la barra de desplazamiento.** Si hace clic en la barra de desplazamiento de la ficha [!UICONTROL Reports], la página se bloqueó y se produjo un error de JavaScript:
   Los informes de `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` ahora se cargan y se desplazan correctamente sin provocar errores ni bloqueos. (TGT-53828)
 * **Los informes no mostraron la métrica principal.** La métrica principal, configurada como métrica de conversión mediante un mbox, no aparecía en los informes de actividad. La búsqueda por nombre de métrica o de mbox no arrojó resultados, lo que impidió ver los datos clave de rendimiento. Las métricas principales ahora aparecen correctamente en la pestaña [!UICONTROL Reports], lo que garantiza un seguimiento y un análisis precisos del rendimiento de la campaña. (TGT-53773)
 * **La ficha [!UICONTROL Reports] de la interfaz de usuario actualizada se bloqueó al interactuar con la barra de desplazamiento horizontal.** La vista [!UICONTROL Reports] se bloqueó intermitentemente con el error &quot;Se produjo un error&quot; al usar la barra de desplazamiento horizontal para acceder a las métricas fuera de la vista. La barra de desplazamiento ahora funciona de forma fiable, lo que permite a los clientes ver y analizar todas las métricas sin necesidad de soluciones alternativas, como reducir o utilizar la función de desplazamiento con desplazamiento. (TGT-53824)
@@ -1465,7 +1457,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 * Se corrigió un problema en el cual copiar una actividad existente y cambiar el origen de informes a [!DNL Adobe Analytics] (A4T) resultaría en un error de &quot;entrada de usuario no válida&quot;. El error se activó cuando ciertas acciones de métricas incompatibles con los informes de [!DNL Analytics], como `restart_same_experience`, `restart_random_experience` y `restart_new_experience`, se retuvieron de la actividad original. (TGT-52900)
 * Se ha corregido un problema que impedía que los clientes crearan o guardaran una actividad al seleccionar [!DNL Adobe Analytics] (A4T) como fuente de informes en el paso [!UICONTROL Goals & Settings]. El problema se produjo específicamente al seleccionar una métrica de [!UICONTROL Custom Event] (por ejemplo, &quot;Evento personalizado 16&quot;), dando como resultado el siguiente error: &quot;Entrada de usuario no válida&quot;. (TGT-52910)
-* Se ha corregido un problema que causaba que, al hacer clic en el vínculo &quot;[!UICONTROL View in Analytics]&quot;, se redirigiera a los usuarios a la página principal en lugar del panel [!DNL Analytics] deseado. (TGT-53092 y TGT-53093)
+* Se ha corregido un problema que causaba que, al hacer clic en el vínculo &quot;[!UICONTROL View in Analytics]&quot;, se redirigiera a los usuarios a la página principal en lugar del panel [!DNL Analytics] deseado. (TGT-53092 Y TGT-53093)
   <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * Se ha corregido un problema que se producía al ver una actividad [!DNL Recommendations] en la interfaz de usuario [!UICONTROL Overview] actualizada, y que provocaba que la sección [!UICONTROL Goals & Settings] no se cargara cuando se seleccionaba [!DNL Adobe Analytics] (A4T) como origen de informes. Se muestra el siguiente mensaje de error: &quot;Se ha producido un error. No podemos completar su solicitud. Póngase en contacto con el servicio de atención al cliente de Adobe si el problema persiste. (TGT-52999)
 
@@ -3606,7 +3598,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
    <td colname="col2"> <p>“Código personalizado” está ahora disponible en el panel “Agregar modificaciones”, ya no tiene su propia pestaña. También puede agregar más de un código personalizado y, si lo desea, asignarles nombres. (TGT-28504) </p> <p>Consulte <a href="/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local">Modificaciones</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recomendaciones </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>Vea una lista de las actividades que hacen referencia a un criterio seleccionado en su tarjeta Criterios. La tarjeta enumera las actividades activas e inactivas. (TGT-27672) </p> </li> 
@@ -3685,7 +3677,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
    <td colname="col2"> <p>Se ha agregado compatibilidad con Microsoft Edge para la interfaz de usuario de Target y la distribución de contenido. </p> <p>Para obtener más información, consulte . <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es" format="dita" scope="local"> Exploradores compatibles </a> (TGT-14102) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recomendaciones </p> </td> 
    <td colname="col2"> <p>Los criterios de Elementos visualizados recientemente ahora devuelven resultados específicos de un <a href="/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">entorno</a> determinado. Si dos sitios pertenecen a entornos distintos y un visitante alterna entre ellos, cada sitio muestra solo los elementos visualizados recientemente desde el sitio adecuado. Si dos sitios se encuentran en el mismo entorno y un visitante cambia entre los dos, el visitante verá los mismos artículos vistos recientemente en ambos. </p></td> 
   </tr> 
  </tbody> 
@@ -3756,7 +3748,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
      </ul> </p> <p>Para obtener más información, vea <a href="/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local"> parámetros personalizados </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recomendaciones </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Cuando se seleccionan los criterios de Recommendations en el Compositor de experiencias basadas en formularios, ahora existe un vínculo directo a la tarjeta de criterios seleccionada de modo que pueda editarlos de forma rápida y sencilla. (TGT-28483) </p> <p>Para obtener más información, consulte <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositor de experiencias basadas en formularios</a>. </p> </li> 
@@ -4018,7 +4010,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recomendaciones </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_63613AD2D744442AA12CD23F4DAC75B4"> 
       <li id="li_4DD5CF06D93A4083BCB34A4FFA293C89"> <p>Ahora en la IU se muestra el estado de carga de los datos del algoritmo personalizado para recomendaciones. Consulte <a href="/help/main/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local">Cargar criterios personalizados</a>. (TGT-23891) </p> </li> 
@@ -5624,7 +5616,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> Crear y editar scripts de perfil </td> 
-   <td colname="col2"> <p>Los scripts ejecutan “cazadores” de atributos de perfil en cada solicitud de mbox. Cuando se recibe una solicitud de mbox, Target ejecuta todos los scripts de perfil relevantes, determina qué actividad se debe ejecutar y muestra contenido adecuado para la actividad y la experiencia. A continuación, hace un seguimiento del éxito de la actividad. Esto le permite rastrear información sobre la visita como, por ejemplo, la ubicación del visitante, la hora del día, la cantidad de veces que el visitante ha estado en el sitio, si había realizado compras con anterioridad, etc. A continuación, esta información se agrega al perfil del visitante con el objetivo de rastrear mejor su actividad en el sitio. </p> <p>Ver <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> atributos de perfil </a>. 
+   <td colname="col2"> <p>Los scripts ejecutan “cazadores” de atributos de perfil en cada solicitud de mbox. Cuando se recibe una solicitud de mbox, Target ejecuta todos los scripts de perfil relevantes, determina qué actividad se debe ejecutar y muestra contenido adecuado para la actividad y la experiencia. A continuación, hace un seguimiento del éxito de la actividad. Esto le permite rastrear información sobre la visita como, por ejemplo, la ubicación del visitante, la hora del día, la cantidad de veces que el visitante ha estado en el sitio, si había realizado compras con anterioridad, etc. A continuación, esta información se agrega al perfil del visitante con el objetivo de rastrear mejor su actividad en el sitio. </p> <p>Consulte <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">Atributos del perfil</a>. 
      <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
