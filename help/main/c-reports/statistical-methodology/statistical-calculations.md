@@ -5,8 +5,11 @@ title: ¿Cómo puedo obtener información sobre los cálculos estadísticos util
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -120,7 +123,7 @@ Donde *<sub>v</sub>* y *<sub>v0</sub>* son los medios de ** y *<sub>0</sub>* res
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias ** y *<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para ** y *<sub>0</sub>* respectivamente.
+Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias **&#x200B; y *<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para &#x200B;** y *<sub>0</sub>* respectivamente.
 
 Para la prueba T de Welch, el grado de libertad se calcula de la siguiente manera:
 

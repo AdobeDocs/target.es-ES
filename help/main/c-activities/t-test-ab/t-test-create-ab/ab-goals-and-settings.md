@@ -5,9 +5,15 @@ title: ¿Cómo se especifican los objetivos y la configuración en una actividad
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1292
@@ -56,7 +62,7 @@ Las opciones disponibles son las siguientes:
 
 | Configuración | Descripción |
 |--- |--- |
-| [!UICONTROL ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica?] | Utilice esta opción para contar a alguien como alguien que alcanza la métrica de éxito si anteriormente ha alcanzado una métrica de éxito diferente. Por ejemplo, una conversión de actividad podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión. Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente. Defina ambas (o varias) métricas de éxito antes de poder hacer una dependiente de la otra. La opción [!UICONTROL Añadir dependencia] permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza). Para agregar una dependencia:<ul><li>Después de agregar métricas adicionales, haga clic en [!UICONTROL Configuración avanzada].</li><li>Haga clic en la opción [!UICONTROL Añadir dependencia]:</li><li>Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en [!UICONTROL Alcanzado] para alternar el valor entre [!UICONTROL Alcanzado] y [!UICONTROL  No alcanzado].</li><li>Puede editar o eliminar dependencias después de añadirlas.</li></ul> |
+| [!UICONTROL ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica?] | Utilice esta opción para contar a alguien como alguien que alcanza la métrica de éxito si anteriormente ha alcanzado una métrica de éxito diferente. Por ejemplo, una conversión de actividad podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión. Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente. Defina ambas (o varias) métricas de éxito antes de poder hacer una dependiente de la otra. La opción [!UICONTROL Añadir dependencia] permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza). Para agregar una dependencia:<ul><li>Después de agregar métricas adicionales, haga clic en [!UICONTROL Configuración avanzada].</li><li>Haga clic en la opción [!UICONTROL Añadir dependencia]:</li><li>Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en [!UICONTROL Alcanzado] para alternar el valor entre [!UICONTROL Alcanzado] y [!UICONTROL &#x200B; No alcanzado].</li><li>Puede editar o eliminar dependencias después de añadirlas.</li></ul> |
 | [!UICONTROL ¿Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo?] | Existen tres opciones para lo que ocurre después de que un visitante alcance la métrica de objetivo:<ul><li>Seleccione **[!UICONTROL Aumentar recuento y mantener el usuario en la actividad]** para especificar cómo se aumenta el recuento.</li><li>Seleccione **[!UICONTROL Aumentar recuento, liberar usuario y permitir la reentrada]** para especificar la experiencia que el usuario ve si vuelve a entrar a la actividad.</li><li>Seleccione **[!UICONTROL Aumentar recuento, liberar usuario y bloquear su reentrada]** para especificar lo que el usuario verá en lugar del contenido de la actividad.</li></ul> |
 | [!UICONTROL ¿Cómo aumentará el recuento?] | Hay tres opciones para el aumento del recuento:<ul><li>[!UICONTROL Una vez por participante]</li><li>[!UICONTROL En cada impresión (excluidas las actualizaciones de páginas)]</li><li>[!UICONTROL En cada impresión]</li></ul> |
 

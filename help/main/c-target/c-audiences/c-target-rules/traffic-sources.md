@@ -5,9 +5,12 @@ title: ¿Puedo segmentar visitantes según el motor de búsqueda o el sitio de r
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 TQID: https://experienceleague.adobe.com/rRGb2gG1f43Y3lapuZlQMdVYx7cc-fe1IMCjLS2km5I
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 267
@@ -24,7 +27,7 @@ Por ejemplo, puede segmentar según el navegador, el motor de búsqueda o la pá
 Puede combinar varias fuentes de tráfico para crear una regla de segmentación compleja.
 
 1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
-1. 
+1. &#x200B;
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastre y suelte **[!UICONTROL Fuentes de tráfico]** en el panel Generador de audiencias.
 

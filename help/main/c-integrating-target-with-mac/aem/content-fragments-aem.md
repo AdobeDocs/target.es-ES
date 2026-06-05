@@ -5,9 +5,16 @@ title: ¿Cómo Uso  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 775
@@ -39,7 +46,7 @@ Tenga en cuenta lo siguiente al trabajar con AEM [!UICONTROL Fragmentos de conte
 
 * Solo puede consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] actividades usando el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md). Usted *no puede* consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] actividades usando el [!UICONTROL Compositor de experiencias visuales] (VEC).
 
-Para obtener más información sobre [!UICONTROL Fragmentos de contenido] y [!UICONTROL Fragmentos de experiencia] de AEM, consulte [Fragmentos de experiencia[!UICONTROL 6 y [!UICONTROL Fragmentos de contenido] de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
+Para obtener más información sobre [!UICONTROL Fragmentos de contenido] y [!UICONTROL Fragmentos de experiencia] de AEM, consulte [Fragmentos de experiencia[[!UICONTROL 6 y [!UICONTROL Fragmentos de contenido] de AEM]](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
 
 ## Requisitos {#requirements}
 
@@ -59,7 +66,7 @@ Después de realizar las tareas anteriores, [!UICONTROL Fragmento de contenido] 
 
 [!DNL Target] busca [!UICONTROL Fragmentos de contenido] para importar cada diez minutos. El [!UICONTROL fragmento de contenido] importado debería estar disponible en [!DNL Target] en un plazo de diez minutos, pero este lapso de tiempo debería ser menor en adelante.
 
-El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. ]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
+El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. &#x200B;]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
 
 Puede filtrar y buscar por [!UICONTROL XF de HTML], [!UICONTROL XF de JSON] y [!UICONTROL Fragmentos de contenido] para ayudarle a distinguir entre los distintos tipos de ofertas que se exportan a [!DNL Target].
 
@@ -91,6 +98,6 @@ Solo puede consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] activi
 ## Información adicional
 
 * [!DNL Target] busca [!UICONTROL Fragmentos de contenido] para importar cada diez minutos. El [!UICONTROL fragmento de contenido] importado debería estar disponible en [!DNL Target] en un plazo de diez minutos, pero este lapso de tiempo debería ser menor en adelante.
-* El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. ]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
+* El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. &#x200B;]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
 * No puede crear [!UICONTROL Fragmentos de contenido] usando [!DNL Adobe I/O]. Cree [!UICONTROL fragmentos de contenido] mediante AEM, tal como se explicó anteriormente.
 * Si actualiza el [!UICONTROL Fragmento de contenido] en AEM, el [!UICONTROL Fragmento de contenido] debe publicarse y exportarse de nuevo a [!DNL Target] para que [!DNL Target] pueda usar los cambios más recientes.

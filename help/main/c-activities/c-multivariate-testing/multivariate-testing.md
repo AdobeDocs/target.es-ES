@@ -5,9 +5,13 @@ title: ¿Qué es una [!UICONTROL prueba multivariable]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1473
@@ -106,7 +110,7 @@ En este vídeo de información general se explican los tipos de actividades disp
 
 ### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL]Target.
+En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de Target.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable

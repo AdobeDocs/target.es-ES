@@ -5,10 +5,19 @@ title: ¿Cómo realizo actividades de control de calidad?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1815
@@ -62,7 +71,7 @@ El [!UICONTROL control de calidad de la actividad] le permite probar por complet
 
 ## Liberarse del modo de control de calidad
 
-[!UICONTROL El control de calidad de la actividad] es fijo. Después de examinar un sitio web en [!UICONTROL control de calidad de la actividad], tu sesión de [!DNL Target] debe caducar o debes hacer que [!DNL Target] te libere del control de calidad de la actividad [!UICONTROL 5} para poder ver tu sitio como un visitante normal.]
+[!UICONTROL El control de calidad de la actividad] es fijo. Después de examinar un sitio web en [!UICONTROL control de calidad de la actividad], tu sesión de [!DNL Target] debe caducar o debes hacer que [!DNL Target] te libere del control de calidad de la actividad [!UICONTROL 5&rbrace; para poder ver tu sitio como un visitante normal.]
 
 ### at.js 2.*x*
 
@@ -89,7 +98,7 @@ Si el sitio tiene implementado [[!UICONTROL Platform Web SDK]](https://experienc
 * Las actividades importadas en [!DNL Target Standard/Premium] (desde [!DNL Target Classic], por ejemplo) no admiten direcciones URL de control de calidad.
 * En las actividades [!UICONTROL Asignación automática] y [!UICONTROL Recommendations], el modelo no se ve afectado por las visitas capturadas en [!UICONTROL Control de calidad de la actividad].
 * Si especificó &quot;la dirección URL es&quot; al crear la actividad [refinamientos en las opciones de Compositor basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o [envío de página en el Compositor de experiencias visuales)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), la dirección URL de control de calidad no funciona porque [!UICONTROL Control de calidad de la actividad] adjunta parámetros de dirección URL. Para solucionar este problema, haga clic en la URL de control de calidad para ir a su sitio, elimine los parámetros añadidos a la URL y cargue la nueva dirección.
-* Si tiene at.js 1.*x*, el modo de control de calidad de la actividad [!UICONTROL 3} no es fijo si usa Safari u otro explorador que bloquee cookies de terceros. ]En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que vaya. Lo mismo ocurre si ha implementado [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
+* Si tiene at.js 1.*x*, el modo de control de calidad de la actividad [!UICONTROL 3&rbrace; no es fijo si usa Safari u otro explorador que bloquee cookies de terceros. &#x200B;]En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que vaya. Lo mismo ocurre si ha implementado [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Si una actividad utiliza varias audiencias de experiencia (por ejemplo, un sitio con versiones para Reino Unido y Estados Unidos incluidas en la misma actividad), no se generan vínculos de control de calidad para las cuatro combinaciones (experiencia A/sitio EE. UU., experiencia A/sitio RU, experiencia B/sitio EE. UU., experiencia B/sitio RU). Se crean solo dos vínculos de QA (Experiencia A y Experiencia B) y los usuarios deben cumplir las condiciones de audiencia apropiadas para ver la página. Una persona con control de calidad del Reino Unido no puede ver el sitio de EE. UU.
 * Todos los parámetros y valores de `at_preview` ya están codificados en la URL. La mayoría de las veces, todo funciona según lo esperado. Sin embargo, algunos clientes deben disponer de equilibradores de carga o servidores Web que intenten codificar de nuevo los parámetros de cadena de consulta.
 

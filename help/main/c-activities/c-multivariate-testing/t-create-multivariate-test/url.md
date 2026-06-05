@@ -5,8 +5,10 @@ title: ¿Cuál es la dirección URL de actividad en una actividad de [!UICONTROL
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 298
@@ -32,7 +34,7 @@ La dirección URL de actividad determina la página que se usa en la [!UICONTROL
 
    Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Dominio]
    * [!UICONTROL Ruta]
    * [!UICONTROL Fragmento almohadilla (#)]

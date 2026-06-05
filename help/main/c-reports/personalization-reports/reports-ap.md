@@ -6,8 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
 TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 702
@@ -70,7 +75,7 @@ Para obtener más información, consulte [Informe sobre atributos importantes](/
 
 ### ¿Por qué hay diferencias en los datos entre los informes Nivel de actividad y Nivel de oferta?
 
-**[!UICONTROL Informe de nivel de actividad]**: Las visitas registradas en el informe de nivel de actividad [!UICONTROL 4} capturan el número de visitas a las experiencias de control en comparación con el tráfico &quot;segmentado&quot;. ]El tráfico segmentado incluye una combinación de tráfico de exploración y tráfico personalizado.
+**[!UICONTROL Informe de nivel de actividad]**: Las visitas registradas en el informe de nivel de actividad [!UICONTROL 4&rbrace; capturan el número de visitas a las experiencias de control en comparación con el tráfico &quot;segmentado&quot;. &#x200B;]El tráfico segmentado incluye una combinación de tráfico de exploración y tráfico personalizado.
 
 **Informe de nivel de oferta**: Las impresiones registradas en el informe [!UICONTROL Nivel de oferta] capturan el número de impresiones de cada oferta. Por lo tanto, en una actividad con más de una ubicación, el número total de visitas registradas en el informe [!UICONTROL Nivel de oferta] en todos los grupos de informes es igual al múltiplo del número de visitas registradas para tráfico de control o segmentado en el informe [!UICONTROL Nivel de actividad] multiplicado por el número total de ubicaciones en la actividad. Las impresiones de contenido predeterminado que se producen en ubicaciones donde el contenido predeterminado era una opción disponible se registran en el grupo de ofertas &quot;Contenido predeterminado&quot;. Las impresiones de ofertas que no se han asignado a un grupo de informes se registran en el grupo de ofertas &quot;Desagrupadas&quot;.
 

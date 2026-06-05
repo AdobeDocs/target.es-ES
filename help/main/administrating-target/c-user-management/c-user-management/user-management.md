@@ -6,11 +6,22 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 925
@@ -28,7 +39,7 @@ Agregue usuarios y administre sus permisos en [!DNL Adobe Admin Console] para un
 >
 >Puede comprobar si su organización dispone de una licencia de [!UICONTROL Standard] o [!UICONTROL Premium] si hace clic en el vínculo [!UICONTROL Administración] en la parte superior de la interfaz de usuario de [!DNL Target].
 >
->* **[!DNL Target][!UICONTROL Clientes de Standard]**: Si ve la ficha [!UICONTROL Usuarios] ([!UICONTROL Administración > Usuarios]) (y no la ficha **[!UICONTROL Propiedades]**), su organización dispone de una licencia de [!DNL Target] [!UICONTROL Standard]. [!DNL Target] Los clientes de [!UICONTROL Standard] deben seguir las instrucciones de este artículo para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
+>* **[!DNL Target]&#x200B;[!UICONTROL Clientes de Standard]**: Si ve la ficha [!UICONTROL Usuarios] ([!UICONTROL Administración > Usuarios]) (y no la ficha **[!UICONTROL Propiedades]**), su organización dispone de una licencia de [!DNL Target] [!UICONTROL Standard]. [!DNL Target] Los clientes de [!UICONTROL Standard] deben seguir las instrucciones de este artículo para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
 >
 >* **[!DNL Target]clientes Premium**: Si ve la ficha [!UICONTROL Usuarios] y la ficha [!UICONTROL Propiedades] ([!UICONTROL Administración > Propiedades]), su organización dispone de una licencia de [!DNL Target] Premium. [!DNL Target] Los clientes Premium deben seguir las instrucciones de [Permisos de usuario de Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) y [Configurar permisos de Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) para agregar usuarios y asignar permisos en [!DNL Adobe Admin Console].
 >
