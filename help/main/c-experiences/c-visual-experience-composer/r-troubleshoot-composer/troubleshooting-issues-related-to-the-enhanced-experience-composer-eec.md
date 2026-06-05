@@ -1,29 +1,23 @@
 ---
 keywords: Segmentación;eec;compositor de experiencias visuales;resolución de problemas del compositor de experiencias mejorado;resolución de problemas
-description: Aprenda a solucionar problemas que a veces ocurren en  [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) en ciertas condiciones.
+description: Aprenda a solucionar problemas que a veces ocurren en el  [!DNL Adobe Target] [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
 title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 28%
+source-wordcount: 509
+ht-degree: 29%
 
 ---
 
-# Resolución de problemas relacionados con [!UICONTROL Enhanced Experience Composer]
+# Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias mejorado]
 
-Los problemas de visualización a veces ocurren en [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) bajo ciertas condiciones.
+Mostrar problemas que a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
 
 ## El EEC no carga una URL de control de calidad interna que no es accesible desde una IP pública. {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -147,25 +141,25 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
   **Remedy:** Lista de permitidos las direcciones IP enumeradas anteriormente.
 
-* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
+* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-  **Solución:** Consulte la siguiente pregunta ([!UICONTROL Enhanced Visual Experience Composer] no se cargará en páginas seguras de mi sitio que usen TLS 1.2).
+  **Solución:** Consulte la siguiente pregunta (el [!UICONTROL Compositor de experiencias visuales mejorado] no se cargará en páginas seguras de mi sitio que usen TLS 1.2).
 
 +++
 
 ## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Detalles
-Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Enhanced Visual Experience Composer] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
+Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Compositor de experiencias visuales mejorado] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
 1. Abra el sitio web afectado en Firefox.
-1. Haga clic en el icono **[!UICONTROL Show Site Information]** en la barra de direcciones del explorador.
+1. Haga clic en el icono **[!UICONTROL Mostrar información del sitio]** en la barra de direcciones del navegador.
 
    ![imagen firefox_more_info](assets/firefox_more_info.png)
 
-1. Haga clic en **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
+1. Haga clic en **[!UICONTROL Mostrar detalles de conexión]** > **[!UICONTROL Más información]**.
 
    ![imagen de firefox_more_info_2](assets/firefox_more_info_2.png)
 
@@ -173,7 +167,7 @@ Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegad
 
    ![imagen de firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Si descubre que su sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
+1. Si descubre que su sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
 
 +++
 

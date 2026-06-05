@@ -2,19 +2,19 @@
 keywords: colección;Segmentación
 description: Aprenda a utilizar colecciones de productos o elementos en  [!DNL Target Recommendations].
 title: ¿Cómo utilizo las colecciones en las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 41%
+source-wordcount: '897'
+ht-degree: 42%
 
 ---
 
 # Colecciones
 
-Una colección es un conjunto de productos o artículos que cumplen los requisitos para ser mostrados como recomendación. Una colección se define especificando las condiciones que deben cumplir los elementos para formar parte de ella.
+Una colección es un conjunto de productos o artículos que cumplen los criterios para ser mostrados como recomendación. Una colección se define especificando las condiciones que deben cumplir los elementos para formar parte de ella.
 
 Normalmente, una colección es un conjunto de artículos similares o relacionados, como una única colección de productos. Sin embargo, puede agrupar cualquier artículo en una categoría que tenga sentido para su negocio, como los productos de un determinado rango de precios o color o los artículos que pueden ser interesantes en una determinada área geográfica.
 
@@ -28,35 +28,35 @@ Los artículos se pueden agrupar en catálogos y después crear recomendaciones 
 
 Los criterios de inclusión permiten realizar cosas parecidas a las de una colección, pero deben configurarse cada vez que crea una actividad. Las colecciones permiten crear un conjunto de artículos de una sola vez, y luego usarla cada vez que resulte apropiado, sin tener que volver a configurarlas.
 
-Al crear o editar una actividad [!DNL Recommendations], el nombre de la colección aparece junto a la etiqueta [!UICONTROL Criteria] en el diagrama de actividad.
+Al crear o editar una actividad [!DNL Recommendations], el nombre de la colección aparece junto a la etiqueta [!UICONTROL Criterios] en el diagrama de actividades.
 
 >[!NOTE]
 >
->Las colecciones no se aplican al usar la clave de recomendación [!UICONTROL Recently Viewed Items].
+>Las colecciones no se aplican al usar la clave de recomendación [!UICONTROL Artículos vistos recientemente].
 
 ## Crear una colección {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 Cree una colección para organizar los productos o el contenido que desea mostrar en las recomendaciones.
 
-1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** para mostrar la lista de colecciones existentes.
+1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Colecciones]** para mostrar la lista de colecciones existentes.
 
    ![Lista de colecciones](assets/collections_list.png)
 
-   La página [!UICONTROL Collections] muestra una lista de las colecciones existentes. Para crear colecciones nuevas, haga clic en el botón [!UICONTROL Create Collection]. También puede editar, copiar y eliminar colecciones existentes pasando el puntero sobre la colección deseada y haciendo clic en el icono deseado.
+   La página [!UICONTROL Colecciones] muestra una lista de las colecciones existentes. Para crear colecciones nuevas, haga clic en el botón [!UICONTROL Crear colección]. También puede editar, copiar y eliminar colecciones existentes pasando el puntero sobre la colección deseada y haciendo clic en el icono deseado.
 
    ![Iconos de desplazamiento: editar, copiar y eliminar](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista [!UICONTROL Collections] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [2&rbrace; (entorno) configurado como predeterminado en Recommendations. &#x200B;](/help/main/administrating-target/hosts.md) Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+   El &quot;Número de elementos&quot; registrado para cada colección en la vista de lista de [!UICONTROL Colecciones] es el número de productos que coinciden con las reglas para esa colección en el grupo de hosts [configurado como predeterminado en Recommendations](/help/main/administrating-target/hosts.md) (entorno). Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
-1. Haga clic en **[!UICONTROL Create Collection]**.
+1. Haga clic en **[!UICONTROL Crear colección]**.
 
-1. (Condicional) Elija un entorno del filtro **[!UICONTROL Environment]** mientras crea (o actualiza) una colección para obtener una vista previa del contenido de la colección en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
+1. (Condicional) Elija un entorno del filtro **[!UICONTROL Entorno]** al crear (o actualizar) una colección para obtener una vista previa del contenido de la colección en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
 
    ![Crear una colección](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Escriba **[!UICONTROL Name]** para la colección.
+1. Escriba un **[!UICONTROL Nombre]** para la colección.
 
-   También puede escribir un(a) **[!UICONTROL Description]** opcional.
+   También puede escribir una **[!UICONTROL Descripción]** opcional.
 
 1. Defina las reglas que se usarán para compilar la colección.
 
@@ -64,15 +64,15 @@ Cree una colección para organizar los productos o el contenido que desea mostra
 
    Puede añadir reglas para usar varios parámetros para definir una colección. Las reglas múltiples se unen con un operador AND. Todas las reglas especificadas deben coincidir con la colección que se va a aplicar.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Crear una colección utilizando Búsqueda avanzada
 
-También puede crear colecciones utilizando Búsqueda avanzada en la página [Búsqueda en el catálogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+También puede crear colecciones utilizando Búsqueda avanzada en la página [Búsqueda en el catálogo](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Búsqueda en el catálogo] > [!UICONTROL Búsqueda avanzada]).
 
 ![Guardar como cuadro de diálogo](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Después de crear una búsqueda utilizando &quot;id > contiene&quot;, por ejemplo, puede hacer clic en [!UICONTROL Save As] > [!UICONTROL Collection].
+Después de crear una búsqueda usando &quot;id > contiene&quot;, por ejemplo, puedes hacer clic en [!UICONTROL Guardar como] > [!UICONTROL Colección].
 
 >[!IMPORTANT]
 >
@@ -92,13 +92,13 @@ Tenga en cuenta que las colecciones están disponibles en toda la cuenta. Asegú
 
 1. Cree una colección utilizando uno de los métodos mencionados anteriormente.
 
-1. Haga clic en **[!UICONTROL Activities]** y [crear una nueva actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o editar una actividad existente.
+1. Haga clic en **[!UICONTROL Actividades]** y [cree una nueva actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) o edite una actividad existente.
 
-1. Después de seleccionar un criterio y un diseño, se muestra la página [!UICONTROL Options] en la que se selecciona la colección deseada.
+1. Después de seleccionar un criterio y un diseño, se muestra la página [!UICONTROL Opciones] en la que se selecciona la colección deseada.
 
    ![Elegir opción de colección](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
-1. (Condicional) Para cambiar una configuración de colección existente, en la página **[!UICONTROL Experiences]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en una ubicación en la que haya colocado recomendaciones, haga clic en **[!UICONTROL Change Collection]** y, a continuación, seleccione la colección que desee.
+1. (Condicional) Para cambiar una configuración de colección existente, en la página **[!UICONTROL Experiencias]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en una ubicación en la que haya colocado recomendaciones, haga clic en **[!UICONTROL Cambiar colección]** y, a continuación, seleccione la colección que desee.
 
    ![Cambiar opción de colección](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
@@ -109,4 +109,4 @@ Este vídeo contiene la información siguiente:
 * Creación de una colección
 * Creación de una exclusión
 
->[!VIDEO](https://video.tv.adobe.com/v/35463?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

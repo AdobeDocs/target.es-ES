@@ -5,22 +5,14 @@ title: ¿Dónde puedo encontrar preguntas frecuentes acerca de ofertas de redire
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +41,10 @@ Sí, A4T a través de Platform Web SDK admite [ofertas de redireccionamiento](/h
 
 +++
 
-### ¿Son compatibles [!UICONTROL Visual Experience Composer] (VEC) y [!UICONTROL Form-Based Experience Composer]?
+### ¿Son compatibles [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias basadas en formularios]?
 
 +++Respuesta
-Sí, el [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) son compatibles si usa ofertas de redireccionamiento integradas.
+Sí, el [[!UICONTROL Compositor de experiencias visuales]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [[!UICONTROL Compositor de experiencias basadas en formularios]](/help/main/c-experiences/form-experience-composer.md) son compatibles si usa ofertas de redireccionamiento integradas.
 
 +++
 
@@ -79,7 +71,7 @@ Se esperan algunas discrepancias en los datos. Para obtener más información, c
 ## ¿Cómo puedo minimizar las discrepancias en la distribución del tráfico al utilizar ofertas de redireccionamiento en actividades de A4T? {#discrepancies}
 
 +++Respuesta
-Un número limitado de clientes ha informado de grados de variación más altos en la distribución del tráfico al utilizar ofertas de redireccionamiento en actividades configuradas con [!UICONTROL Analytics for Target] (A4T).
+Un número limitado de clientes ha informado de grados de variación más altos en la distribución del tráfico al usar ofertas de redireccionamiento en actividades configuradas con [!UICONTROL Analytics for Target] (A4T).
 
 Tenga en cuenta lo siguiente:
 

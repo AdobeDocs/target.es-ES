@@ -5,16 +5,13 @@ title: ¿Puedo segmentar visitantes en función de las opciones de red?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 TQID: https://experienceleague.adobe.com/x6w2aeBu4enUJGJOFRIMidl2RaXRf-ZEwUErbB95yrY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 64%
+source-wordcount: 507
+ht-degree: 65%
 
 ---
 
@@ -22,10 +19,10 @@ ht-degree: 64%
 
 Puede crear audiencias en [!DNL Adobe Target] basadas en los detalles de la red, como el ISP, el nombre de dominio y la velocidad de conexión.
 
-1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
-1. Arrastre y suelte **[!UICONTROL Network]** en el panel del generador de audiencias.
-1. Haga clic en **[!UICONTROL Select]** y luego seleccione una de las siguientes opciones:
+1. Arrastre y suelte **[!UICONTROL Red]** en el panel del generador de audiencias.
+1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
    * **ISP:** un ISP es una organización que proporciona acceso a Internet a sus suscriptores, generalmente por una tarifa mensual o anual. Muchos ISP proporcionan servicios adicionales, como hospedaje web o correo electrónico. El campo ISP es un ISP comercial (como Comcast o TimeWarner) u otra entidad como una institución comercial o educativa.
 
@@ -59,9 +56,9 @@ Puede crear audiencias en [!DNL Adobe Target] basadas en los detalles de la red,
      Este campo está basado en el tipo de conexión y no en la velocidad real. [!DNL Target] no puede determinar las velocidades exactas de la conexión. El tipo de conexión Banda ancha se usa cuando no existe indicación de otros tipos de conexión, por lo que no se puede elegir un tipo específico.
 
 1. (Opcional) Configure reglas adicionales para la audiencia.
-1. Haga clic en **[!UICONTROL Done]**.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
-La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan AT&amp;T con una velocidad de conexión de [!UICONTROL Mobile].
+La siguiente ilustración muestra una audiencia dirigida a visitantes que utilizan AT&amp;T con una velocidad de conexión de [!UICONTROL Móvil].
 
 ![Objetivo de red](assets/target_network.png)
 

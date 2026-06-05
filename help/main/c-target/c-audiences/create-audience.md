@@ -1,26 +1,23 @@
 ---
 keywords: público;reglas de público;crear público;creación de público
-description: Obtenga información sobre cómo crear audiencias personalizadas y guardarlas en la biblioteca  [!DNL Adobe Target] [!UICONTROL Audiences] para usarlas en actividades.
+description: Aprenda a crear audiencias personalizadas y a guardarlas en la biblioteca  [!DNL Adobe Target] [!UICONTROL Audiencias] para usarlas en las actividades.
 title: ¿Cómo Se Generan Audiencias?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 51%
+source-wordcount: 538
+ht-degree: 50%
 
 ---
 
 # Generar audiencias en [!DNL Target]
 
-Cree audiencias personalizadas y guárdelas en la biblioteca [!DNL Adobe Target] [!UICONTROL Audiences] para usarlas en sus actividades. También puede copiar una audiencia existente y editarla para crear una similar y combinar varias audiencias.
+Cree audiencias personalizadas y guárdelas en la biblioteca [!DNL Adobe Target] [!UICONTROL Audiencias] para usarlas en sus actividades. También puede copiar una audiencia existente y editarla para crear una similar y combinar varias audiencias.
 
 ## Información general de público
 
@@ -42,15 +39,15 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan [!DNL Chrome]
 
 ## Creación de audiencias
 
-1. Haga clic en **[!UICONTROL Audiences]** en la barra de menú superior.
+1. Haga clic en **[!UICONTROL Audiencias]** en la barra de menús superior.
 
    ![imagen audiences_list](assets/audiences_list.png)
 
-1. En la lista [!UICONTROL Audiences], haga clic en **[!UICONTROL Create Audience]**.
+1. En la lista [!UICONTROL Audiencias], haga clic en **[!UICONTROL Crear audiencia]**.
 
    O
 
-   Para copiar una audiencia existente, en la lista [!UICONTROL Audiences], haga clic en el icono **[!UICONTROL More Actions]** ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ) de la audiencia que desee copiar y, a continuación, haga clic en **[!UICONTROL Duplicate]**. Luego puede editar el público para crear otra parecida.
+   Para copiar una audiencia existente, en la lista [!UICONTROL Audiencias], haga clic en el icono **[!UICONTROL Más acciones]** ( ![Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ) de la audiencia que desee copiar y, a continuación, haga clic en **[!UICONTROL Duplicar]**. Luego puede editar el público para crear otra parecida.
 
 1. Escriba un nombre descriptivo y único para la audiencia, así como una descripción opcional.
 
@@ -62,7 +59,7 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan [!DNL Chrome]
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Arrastre y suelte los atributos deseados de la lista **[!UICONTROL Attributes]** de la izquierda al panel generador de audiencias.
+1. Arrastre y suelte los atributos deseados de la lista **[!UICONTROL Atributos]** de la izquierda al panel Generador de audiencias.
 
    ![Arrastrar y soltar atributos](assets/drag-attribute.png)
 
@@ -76,9 +73,9 @@ Por ejemplo, la siguiente regla segmenta a los visitantes que usan [!DNL Chrome]
 
 1. (Condicional) Siga agregando y definiendo los atributos deseados.
 
-   Para crear otro contenedor, haga clic en **[!UICONTROL Add container]** o simplemente arrastre otro atributo al panel Generador de audiencias. A continuación, se puede ajustar el operador (AND u OR) mediante la lista desplegable.
+   Para crear otro contenedor, haga clic en **[!UICONTROL Agregar contenedor]** o simplemente arrastre otro atributo al panel Generador de audiencias. A continuación, se puede ajustar el operador (AND u OR) mediante la lista desplegable.
 
-1. Haga clic en **[!UICONTROL Done]**.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
    Los públicos recién creados aparecen en la lista tras unos segundos de retraso en el procesamiento. Si la audiencia no aparece en la lista inmediatamente, pruebe a buscarla o actualice la lista.
 

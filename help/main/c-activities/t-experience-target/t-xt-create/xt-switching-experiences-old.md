@@ -1,19 +1,19 @@
 ---
-keywords: prioridad;crear experiencia;prioridad;experiencia;audiencia;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
-description: Descubra cómo los visitantes pueden cambiar entre experiencias en una actividad  [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) a medida que evolucionan sus perfiles.
-title: ¿Pueden los visitantes cambiar de experiencia en una actividad de [!UICONTROL Experience Targeting]?
+keywords: prioridad;crear experiencia;prioridad;experiencia;público;experiencia;convertir experiencias;compositor de experiencias visuales;visual experience composer
+description: Descubra cómo los visitantes pueden cambiar entre experiencias en una actividad  [!DNL Adobe Target] [!UICONTROL Segmentación de experiencias] (XT) a medida que evolucionan sus perfiles.
+title: ¿Pueden los visitantes cambiar de experiencia en una actividad de [!UICONTROL segmentación de experiencias]?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 43%
+source-wordcount: '741'
+ht-degree: 40%
 
 ---
 
-# Cambiando experiencias en [!UICONTROL Experience Targeting]
+# Cambiando experiencias en [!UICONTROL segmentación de experiencias]
 
-Con [!UICONTROL Experience Targeting], puede controlar qué experiencia ven los visitantes a medida que evolucionan sus perfiles.
+Con [!UICONTROL Segmentación de experiencias], puede controlar qué experiencia ven los visitantes a medida que evolucionan sus perfiles.
 
 La siguiente lista presenta solo algunos casos en los que los perfiles de los visitantes pueden evolucionar y es posible que desee presentar contenido diferente en función de esos cambios:
 
@@ -24,10 +24,10 @@ La siguiente lista presenta solo algunos casos en los que los perfiles de los vi
 | Afinidad de la categoría | La característica [afinidad de la categoría](/help/main/c-target/c-visitor-profile/category-affinity.md) de [!DNL Target] captura automáticamente las categorías que ven los visitantes y, a continuación, calcula la afinidad de los visitantes por la categoría para fines de segmentación. Por ejemplo, a los visitantes que vieron varios artículos en su sitio web sobre un tema en particular se les presenta contenido relacionado con ese tema. |
 | Día de la semana | Conforme se aproxime el fin de semana, es posible que quiera mostrar a los visitantes contenidos sobre películas, lugares en los que cenar u otras formas de entretenimiento. |
 
-Para usar estas capacidades en [!DNL Target], es importante entender la siguiente información cuando trabaje con actividades [!UICONTROL Experience Targeting]:
+Para usar estas capacidades en [!DNL Target], es importante entender la siguiente información cuando trabaje con actividades de [!UICONTROL Segmentación de experiencias]:
 
-* **La prioridad la controla el orden de las experiencias, de arriba abajo.** Si un visitante cumple los requisitos de más de dos audiencias, ese visitante recibe contenido de la experiencia de mayor prioridad.
-* **Los visitantes cambian de experiencia en una actividad [!UICONTROL Experience Targeting] si empiezan a cumplir los requisitos para recibir una experiencia de prioridad más alta.**
+* **La prioridad está controlada por el orden de las experiencias, de arriba a abajo.** Si un visitante cumple los requisitos de más de dos audiencias, recibirá contenido de la experiencia de prioridad más alta.
+* **Los visitantes cambian de experiencia en una actividad de [!UICONTROL Segmentación de experiencias] si empiezan a cumplir los requisitos para recibir una experiencia de prioridad más alta.**
 
   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Alemania, este visitante cambia a la Experiencia B (visitantes alemanes).
 
@@ -40,21 +40,21 @@ Para usar estas capacidades en [!DNL Target], es importante entender la siguient
 
   ![Prioridad de EE. UU. > Alemania](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **Se puede usar una experiencia segmentada a &quot;Todos los visitantes&quot; como la última experiencia de la actividad [!UICONTROL Experience Targeting] para &quot;captar&quot; a los visitantes que no cumplen los requisitos de ninguna otra experiencia. Si una experiencia segmentada a &quot;Todos los visitantes&quot; no es la última del pedido, se evaluarán otras experiencias segmentadas que aparezcan por debajo de esta experiencia.**
+* **Se puede usar una experiencia segmentada a &quot;Todos los visitantes&quot; como la última experiencia de la actividad de [!UICONTROL Segmentación de experiencias] para &quot;captar&quot; a los visitantes que no cumplen los requisitos de ninguna otra experiencia. Si una experiencia segmentada a &quot;Todos los visitantes&quot; no es la última del pedido, se evaluarán otras experiencias segmentadas que aparezcan por debajo de esta experiencia.**
 
   Por ejemplo, en la siguiente configuración de actividad, un visitante visitó su página web desde los Estados Unidos y viajó a Alemania, desde donde visitó de nuevo su página web. En la primera visita, el visitante cumplía los requisitos para la Experiencia A (visitantes estadounidenses). Tras ver su sitio web desde Alemania, este visitante permanece en la Experiencia A (visitantes estadounidenses).
 
   ![Prioridad de EE. UU. > Todos los visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
-  Si no desea que ocurra esto, puede crear una audiencia nueva que esté definida de forma explícita como audiencia contraria a la de destino, como se muestra en el siguiente ejemplo:
+  Si no desea que ocurra esto, puede crear un público nuevo que esté definido de forma explícita como público contrario al destinatario, como se muestra en el siguiente ejemplo:
 
   ![Prioridad de EE. UU. > No EE. UU.](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
-* **Con una actividad de [!UICONTROL Experience Targeting] de una sola experiencia, los visitantes permanecerán en una experiencia aunque dejen de cumplir los requisitos para la audiencia que les asigne dicha experiencia.**
+* **Con una actividad de [!UICONTROL Segmentación de experiencias] de una sola experiencia, los visitantes permanecen en una experiencia aunque dejen de cumplir los requisitos para la audiencia que los pone en esa experiencia.**
 
-  Si no desea que ocurra esto, podría crear otra experiencia dirigida a la audiencia contraria (por ejemplo, “No Estados Unidos” en oposición a “Estados Unidos”)..
+  Si no desea que ocurra esto, podría crear otra experiencia dirigida al público contrario (por ejemplo, “No Estados Unidos” en oposición a “Estados Unidos”)..
 
-  Como otra opción, puede crear una actividad [!UICONTROL A/B Test] dirigida a la audiencia deseada con una asignación del tráfico del 100 %, como se muestra a continuación:
+  Otra opción es crear una actividad [!UICONTROL Prueba A/B] dirigida a la audiencia deseada con una asignación del tráfico del 100 %, como se muestra a continuación:
 
   ![Experiencia de prioridad 1](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
 

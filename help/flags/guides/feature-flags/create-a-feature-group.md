@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Creación de un grupo de funciones {#create-feature-group}
 
-## Requisitos previos   {#prerequisites}
+## Requisitos previos {#prerequisites}
 
 Antes de crear un grupo de funciones, complete lo siguiente:
 

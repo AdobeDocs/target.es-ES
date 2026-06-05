@@ -1,24 +1,22 @@
 ---
 keywords: prueba multivariable;mvt;planificación de mvt;planificar prueba multivariable
-description: Aprenda a planificar un(a) [!UICONTROL Multivariate Test] en  [!DNL Adobe Target] para que pueda crear una prueba con resultados satisfactorios.
-title: ¿Cómo planifico un [!UICONTROL Multivariate Test]?
+description: Aprenda a planificar una [!UICONTROL prueba multivariable] en [!DNL Adobe Target] para que pueda crear una prueba con resultados satisfactorios.
+title: ¿Cómo planifico una [!UICONTROL prueba multivariable]?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 64%
+source-wordcount: 295
+ht-degree: 63%
 
 ---
 
-# Planificar un [!UICONTROL Multivariate Test]
+# Planificar una [!UICONTROL prueba multivariable]
 
-Las actividades de [!UICONTROL Multivariate Tests] (MVT) en [!DNL Adobe Target] requieren cierta planificación para poder crear una prueba con resultados satisfactorios.
+Las actividades de [!UICONTROL pruebas multivariable] (MVT) en [!DNL Adobe Target] requieren cierta planificación para poder crear una prueba con resultados satisfactorios.
 
 La prueba multivariable requiere tráfico suficiente para generar resultados útiles. Antes de configurar la prueba, debe conocer la cantidad de tráfico que normalmente recibe, incluido el número de impresiones y conversiones. Tener esta información ayuda a reducir la probabilidad de diseñar una prueba con requisitos que superen el tráfico del sitio.
 
@@ -37,4 +35,4 @@ En este vídeo se muestra cómo planificar y crear una prueba multivariable medi
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -5,30 +5,13 @@ title: ¿Cómo funciona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2363
+source-wordcount: 2421
 ht-degree: 25%
 
 ---
@@ -50,19 +33,19 @@ Los puntos clave incluyen:
 
 Target se integra con los sitios web que utilizan [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La biblioteca mbox.js es una implementación heredada para [!DNL Target] y ya no es compatible a partir del 31 de marzo de 2021. Actualice a [!UICONTROL Experience Platform Web SDK] (preferido) o a la última versión de at.js.
 
-Haga referencia a [!UICONTROL Experience Platform Web SDK] o at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
+Haz referencia a [!UICONTROL Experience Platform Web SDK] o a at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
 * [Extensión [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
-* [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que un visitante solicita una página optimizada para [!DNL Target], se envía una solicitud en tiempo real al sistema de segmentación para determinar el contenido que se va a servir. Esta solicitud se realiza y se completa cada vez que se carga una página, regida por actividades y experiencias controladas por expertos en marketing. El contenido está dirigido a visitantes de sitio individuales, lo que maximiza las tasas de respuesta, las tasas de adquisición y los ingresos. El contenido personalizado ayuda a garantizar que los visitantes respondan, interactúen o realicen compras.
 
@@ -70,7 +53,7 @@ En [!DNL Target], cada elemento de la página es parte de una sola experiencia, 
 
 El contenido mostrado depende del tipo de actividad que cree:
 
-### [!UICONTROL A/B Test]
+### [!UICONTROL Prueba A/B]
 
 En una prueba A/B básica, el contenido se elige aleatoriamente entre las experiencias asignadas. Puede establecer porcentajes de asignación de tráfico para cada experiencia. Inicialmente, el tráfico puede distribuirse de forma desigual debido a la división aleatoria, pero se iguala a medida que aumenta el tráfico. Por ejemplo, con dos experiencias, la experiencia de inicio se elige de forma aleatoria. Un tráfico bajo puede inclinar los porcentajes de visitantes hacia una experiencia, pero esta situación se equilibra con un mayor tráfico.
 
@@ -83,31 +66,31 @@ Especifique objetivos de porcentaje para cada experiencia. Se genera un número 
 
 Para obtener más información, consulte [Creación de pruebas A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-### [!UICONTROL Auto-Allocate]
+### [!UICONTROL Asignación automática]
 
-[!UICONTROL Auto-Allocate] identifica la experiencia ganadora entre dos o más opciones. A continuación, reasigna automáticamente más tráfico al ganador, lo que aumenta las conversiones a medida que la prueba sigue ejecutándose y aprendiendo.
+[!UICONTROL Asignación automática] identifica la experiencia ganadora entre dos o más opciones. A continuación, reasigna automáticamente más tráfico al ganador, lo que aumenta las conversiones a medida que la prueba sigue ejecutándose y aprendiendo.
 
-Consulte [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obtener más información.
+Consulte [[!UICONTROL Asignación automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obtener más información.
 
-### [!UICONTROL Auto-Target] (AT)
+### [!UICONTROL Segmentación automática] (AT)
 
-[!UICONTROL Auto-Target] aprovecha el aprendizaje automático avanzado para elegir entre varias experiencias de alto rendimiento definidas por expertos en marketing. [!UICONTROL Auto-Target] ofrece a cada visitante la experiencia más adaptada en función de los perfiles de clientes individuales y del comportamiento de los visitantes anteriores con perfiles similares. Use [!UICONTROL Auto-Target] para personalizar contenido y dirigir conversiones.
+[!UICONTROL Segmentación automática] aprovecha el aprendizaje automático avanzado para elegir entre varias experiencias de alto rendimiento definidas por expertos en marketing. [!UICONTROL Segmentación automática] ofrece la experiencia más adaptada a cada visitante según los perfiles de clientes individuales y el comportamiento de visitantes anteriores con perfiles similares. Use [!UICONTROL Segmentación automática] para personalizar el contenido y dirigir las conversiones.
 
 Para obtener más información, consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 ### [!UICONTROL Automated Personalization] (AP)
 
-[!UICONTROL Automated Personalization] (AP) combina ofertas o mensajes y utiliza aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante. AP personaliza el contenido en función de perfiles de clientes individuales para dirigir el alza.
+[!UICONTROL Automated Personalization] (AP) combina ofertas o mensajes y usa aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante. AP personaliza el contenido en función de perfiles de clientes individuales para dirigir el alza.
 
 Para obtener más información, consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### [!UICONTROL Experience Targeting] (XT)
+### [!UICONTROL Segmentación de experiencias] (XT)
 
-[!UICONTROL Experience Targeting] (XT) ofrece contenido a audiencias específicas en función de reglas y criterios definidos por expertos en marketing. Incluido el targeting geográfico, XT es útil para definir reglas que dirigen experiencias o contenido específicos a audiencias específicas. En una actividad se pueden establecer varias reglas para entregar distintas variaciones de contenido a distintas audiencias. Cuando los visitantes ven el sitio, XT los evalúa para determinar si cumplen con los criterios. Si cumplen los requisitos, entran en la actividad y ven la experiencia diseñada para ellos. Puede crear experiencias para varias audiencias dentro de una misma actividad.
+[!UICONTROL Segmentación de experiencias] (XT) ofrece contenido a audiencias específicas según reglas y criterios definidos por expertos en marketing. Incluido el targeting geográfico, XT es útil para definir reglas que dirigen experiencias o contenido específicos a audiencias específicas. En una actividad se pueden establecer varias reglas para entregar distintas variaciones de contenido a distintas audiencias. Cuando los visitantes ven el sitio, XT los evalúa para determinar si cumplen con los criterios. Si cumplen los requisitos, entran en la actividad y ven la experiencia diseñada para ellos. Puede crear experiencias para varias audiencias dentro de una misma actividad.
 
 Consulte [direccionamiento de experiencias](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obtener más información.
 
-### [!UICONTROL Multivariate Test] (MVT)
+### [!UICONTROL Prueba multivariada] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT) compara combinaciones de ofertas en elementos de página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica. MVT ayuda a identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
@@ -115,7 +98,7 @@ Consulte [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/m
 
 ### [!UICONTROL Recommendations]
 
-Las actividades de [!UICONTROL Recommendations] muestran automáticamente productos o contenido que podría interesar a los clientes en función de su actividad anterior u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no descubran de otra manera.
+Las actividades de [!UICONTROL Recommendations] muestran automáticamente productos o contenido que podría interesar a los clientes según su actividad anterior u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no descubran de otra manera.
 
 Para obtener más información, consulte [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
@@ -194,7 +177,7 @@ El servicio de [!DNL Target Recommendations] está alojado en un centro de datos
 >
 >[!DNL Target] carece actualmente de un clúster de Edge en China, lo que limita el rendimiento del visitante para [!DNL Target] clientes en la región. El cortafuegos y la ausencia de clústeres de Edge pueden afectar a las experiencias del sitio, lo que provoca una lentitud de procesamiento y tiempos de carga de las páginas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la interfaz de usuario de creación de [!DNL Target].
 
-Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -206,14 +189,14 @@ No se realiza ningún cambio en la página si el explorador del visitante no se 
 
 [!DNL Adobe] protege la experiencia del usuario al optimizar y garantizar el rendimiento.
 
-* [!DNL Adobe] garantiza puntos de referencia de rendimiento basados en estándares del sector, garantizados por [!UICONTROL Adobe Service Level Agreement].
+* [!DNL Adobe] garantiza puntos de referencia de rendimiento basados en estándares del sector, garantizados por el [!UICONTROL Contrato de nivel de servicio de Adobe].
 * La red de Edge garantiza que la entrega de datos se realice a tiempo.
 * [!UICONTROL Adobe] emplea un enfoque de varios niveles para proteger sus aplicaciones, proporcionando el nivel más alto de disponibilidad y confiabilidad para sus clientes.
 * Los servicios de asesoramiento de [!DNL Target] ofrecen asistencia para la implementación y soporte continuado para los productos.
 
 ## Pruebas sencillas para la optimización del motor de búsqueda (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
-[!DNL Adobe Target] se adhiere a las directrices de motores de búsqueda en las pruebas. [!DNL Google] promueve las pruebas de usuario y afirma que A/B y [!UICONTROL Multivariate Testing] no perjudican las clasificaciones de los motores de búsqueda orgánica si se siguen determinadas directrices.
+[!DNL Adobe Target] se adhiere a las directrices de motores de búsqueda en las pruebas. [!DNL Google] promueve las pruebas de usuario y afirma que A/B y [!UICONTROL Multivariate Testing] no perjudican las clasificaciones de los motores de búsqueda orgánica si se siguen ciertas directrices.
 
 [!DNL Adobe Target] se adhiere a las directrices de motores de búsqueda en las pruebas.
 
@@ -272,7 +255,7 @@ Para el tráfico de bots conocido, [!DNL Target] no:
 * Crea ni recupera un perfil del visitante
 * Registrar atributos de perfil o ejecutar scripts de perfil
 * Busca segmentos de [!DNL Adobe Audience Manager] (AAM) (si corresponde)
-* Utiliza el tráfico de bots para modelar o ofrecer contenido personalizado para las actividades [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] o [!UICONTROL Auto-Allocate]
+* Utiliza el tráfico de bots para modelar o ofrecer contenido personalizado para las actividades [!UICONTROL Recommendations], [!UICONTROL Segmentación automática], [!UICONTROL Automated Personalization] o [!UICONTROL Asignación automática]
 * Registra una visita de actividad para la creación informes
 * Registra datos que se enviarán a la plataforma de [!DNL Adobe Experience Cloud]
 

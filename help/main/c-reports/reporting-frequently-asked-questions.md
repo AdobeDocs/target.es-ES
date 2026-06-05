@@ -5,23 +5,14 @@ title: ¿Dónde puedo encontrar respuestas a preguntas acerca de la creación de
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 21%
+source-wordcount: 1324
+ht-degree: 24%
 
 ---
 
@@ -75,9 +66,9 @@ Varios visitantes nuevos visitan el sitio y cumplen los requisitos para una acti
 
 Algunos visitantes accedieron a la métrica de conversión, que se configuró como &quot;Aumentar recuento y mantener al usuario en la actividad&quot;. Supongamos que algunos de estos usuarios acceden a la métrica de conversión varias veces y que la métrica de conversión no aumenta. Sin embargo, teniendo en cuenta esa configuración, algunos usuarios pueden acceder a la métrica de conversión y luego navegar de nuevo a la página de inicio, calificando para la actividad de nuevo para registrar una nueva visita.
 
-## ¿Por qué mis informes de [!UICONTROL Experience Targeting] (XT) contienen métricas para las experiencias de control?
+## ¿Por qué mis informes de [!UICONTROL Segmentación de experiencias] (XT) contienen métricas para las experiencias de control?
 
-Las actividades XT siempre deben tener una experiencia de control. Si utiliza una actividad XT de manera similar a una actividad [!UICONTROL A/B Test], que es un escenario bastante común, los datos de experiencia de control le serán útiles. Puede ignorar los datos de experiencia de control si no los considera útiles en sus informes.
+Las actividades XT siempre deben tener una experiencia de control. Si usa una actividad XT de manera similar a una actividad [!UICONTROL Prueba A/B], que es un escenario bastante común, los datos de experiencia de control le serán útiles. Puede ignorar los datos de experiencia de control si no los considera útiles en sus informes.
 
 ## ¿Por qué el número de visitas es menor en [!DNL Target] que en otras [!DNL Adobe Experience Cloud] soluciones? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -101,16 +92,16 @@ Si el contenido de una actividad se entregó correctamente a los usuarios, pero 
 
 Para cambiar el entorno en el informe de una actividad:
 
-1. Haga clic en **[!UICONTROL Activities]**, haga clic en la actividad que desee en la lista y, a continuación, haga clic en la ficha **[!UICONTROL Reports]**.
+1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes]**.
 1. Haga clic en el icono del engranaje para definir la configuración del informe.
 
    ![Cuadro de diálogo Configuración A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. En la lista desplegable **[!UICONTROL Environment]**, seleccione **[!UICONTROL Production]**.
+1. En la lista desplegable **[!UICONTROL Entornos]**, seleccione **[!UICONTROL Producción]**.
 
    Puede que no haya datos de informe disponibles si ha seleccionado un entorno de desarrollo.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 Para obtener más información sobre los entornos, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
@@ -118,16 +109,16 @@ Para obtener más información sobre los entornos, consulte [Hosts](/help/main/a
 
 Si el contenido de una actividad se entregó correctamente a los usuarios, pero el informe no contiene datos, asegúrese de utilizar una experiencia con tráfico como experiencia de control.
 
-1. Haga clic en **[!UICONTROL Activities]**, haga clic en la actividad que desee en la lista y, a continuación, haga clic en la ficha **[!UICONTROL Reports]**.
+1. Haga clic en **[!UICONTROL Actividades]**, en la actividad que quiera de la lista y luego en la ficha **[!UICONTROL Informes]**.
 1. Haga clic en el icono del engranaje para definir la configuración del informe.
 
-1. En la lista desplegable **[!UICONTROL Control]**, seleccione una experiencia que reciba tráfico.
+1. En la lista desplegable **[!UICONTROL Control]**, selecciona una experiencia que reciba tráfico.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo actualizar una actividad [!UICONTROL Automated Personalization] (AP) y cambiar la experiencia de control a una experiencia que recibe tráfico, consulte [Seleccionar el control de la actividad de Automated Personalization o de Segmentación automática](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Para obtener más información sobre cómo actualizar una actividad de [!UICONTROL Automated Personalization] (AP) y cambiar la experiencia de control a una experiencia que recibe tráfico, consulte [Seleccionar el control para la actividad de Automated Personalization o de Segmentación automática](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## ¿Por qué la división del tráfico entre mis experiencias es desigual en mi actividad A/B o MVT? {#uneven}
@@ -135,7 +126,7 @@ Si el contenido de una actividad se entregó correctamente a los usuarios, pero 
 Por ejemplo, he establecido la división de tráfico en 50/50 o 25/25/25/25, pero veo una distribución muy diferente entre las experiencias en los informes. Hay varias razones explicables para recuentos de visitantes desiguales en los informes de [!DNL Target]:
 
 * Cuando se inicia por primera vez una actividad [!DNL Target], la distribución del tráfico puede ser desigual debido a la arquitectura de nodos perimetrales que [!DNL Target] utiliza para optimizar la entrega de experiencias. La práctica recomendada es dar a una actividad un poco de tiempo para recopilar más datos y la distribución se normalizará. Para obtener más información sobre la arquitectura de [!DNL Adobe Target] y los nodos de Edge, consulte [Funcionamiento de Adobe Target](/help/main/c-intro/how-target-works.md).
-* Si se encuentra en [!DNL Target] o [!DNL Analytics] y usa la métrica **[!UICONTROL Visits]**, recuerde que [!DNL Target] es un sistema basado en visitantes y que la distribución del tráfico para una prueba A/B o MVT se asigna en el nivel de visitante. Por lo tanto, si examina los resultados de la actividad con la métrica **[!UICONTROL Visits]**, la distribución del tráfico podría aparecer desigual porque algunos visitantes podrían tener varias visitas. Visitantes es la métrica de normalización estándar al evaluar el rendimiento de la actividad.
+* Si se encuentra en [!DNL Target] o [!DNL Analytics] y usa la métrica **[!UICONTROL Visitas]**, recuerde que [!DNL Target] es un sistema basado en visitantes y que la distribución del tráfico para una prueba A/B o MVT se asigna en el nivel de visitante. Por lo tanto, si examina los resultados de la actividad con la métrica **[!UICONTROL Visitas]**, la distribución del tráfico podría aparecer desigual porque algunos visitantes podrían tener varias visitas. Visitantes es la métrica de normalización estándar al evaluar el rendimiento de la actividad.
 * La práctica recomendada para las pruebas A/B y MVT es mantener las divisiones de tráfico igualadas. Cambiar la distribución del tráfico entre experiencias (por ejemplo, de 90/10 a 50/50) durante una prueba puede generar visitantes desiguales entre experiencias. Es posible que la experiencia de menor tráfico nunca &quot;se ponga al día&quot;.
 * Si está siguiendo las prácticas recomendadas anteriores y la división del tráfico no se normaliza con el tiempo, debe comprobar lo siguiente:
 

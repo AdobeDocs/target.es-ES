@@ -35,7 +35,7 @@ Esta página le explica todo lo que necesita para conectar el servidor MCP de [!
 
 Antes de conectar el servidor MCP [!DNL Adobe Target] a su cliente MCP, asegúrese de lo siguiente:
 
-* Tiene una licencia activa de [!DNL Adobe Target] (suscripción a Adobe Experience Cloud) con una organización de Adobe Experience Platform.
+* Tiene una licencia activa de [!DNL Adobe Target] (suscripción de Adobe Experience Cloud) con una organización de Adobe Experience Platform.
 * Tiene una aplicación compatible con MCP (actualmente Claude Web, Claude Desktop, Claude Code, Cursor o ChatGPT).
 * Tiene [!DNL Adobe Target] permisos configurados en Adobe Admin Console. En Beta público, las 23 herramientas disponibles son de solo lectura. La función **Observer** o superior es suficiente para usar el servidor MCP.
 
@@ -47,7 +47,7 @@ Antes de conectar el servidor MCP [!DNL Adobe Target] a su cliente MCP, asegúre
 
 >[!NOTE]
 >
->El servidor MCP [!DNL Adobe Target] utiliza OAuth 2.0 para la autenticación. La primera vez que utilice una herramienta MCP de Target, se le redirigirá a Adobe Experience Cloud para que inicie sesión, seleccione su organización y conceda los permisos solicitados. No se requieren credenciales estáticas.
+>El servidor MCP [!DNL Adobe Target] utiliza OAuth 2.0 para la autenticación. La primera vez que utilice una herramienta MCP de Target, se le redirigirá a Adobe Experience Cloud para iniciar sesión, seleccionar su organización y conceder los permisos solicitados. No se requieren credenciales estáticas.
 
 **Para conectarse desde Claude Desktop o Claude Web:**
 

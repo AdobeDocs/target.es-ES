@@ -5,20 +5,13 @@ title: ¿Qué son los atributos de perfil?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2481
-ht-degree: 90%
+source-wordcount: 2520
+ht-degree: 88%
 
 ---
 
@@ -32,11 +25,11 @@ Cuando un visitante navega por su sitio web o regresa para otra sesión, los val
 
 Para configurar atributos de perfil:
 
-1. Haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
+1. Haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Scripts de perfil.]**
 
    ![Pestaña Scripts de perfil](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
-1. Haga clic en **[!UICONTROL Create Script]**.
+1. Haga clic en **[!UICONTROL Crear script]**.
 
    ![Cuadro de diálogo Crear script de perfil](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
@@ -44,7 +37,7 @@ Para configurar atributos de perfil:
 
    | Tipo de parámetro | Descripción |
    |--- |--- |
-   | mbox | Se pasan directamente a través del código de la página cuando el mBox se crea. Consulte [Pasar parámetros a un mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=es){target=_blank} en *Target Developer Guide*.<P>**Nota**: [!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método [!UICONTROL Profile Update API]. Para obtener más información, consulte [Actualizar perfiles](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=es){target=_blank} en la *Guía para desarrolladores de Target*. |
+   | mbox | Se pasan directamente a través del código de la página cuando el mBox se crea. Consulte [Pasar parámetros a un mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=es){target=_blank} en *Target Developer Guide*.<P>**Nota**: [!DNL Target] tiene un límite de 50 atributos de perfil únicos por llamada de mbox. Si necesita pasar más de 50 atributos de perfil a [!DNL Target], puede hacerlo por medio del método [!UICONTROL API de actualización de perfil]. Para obtener más información, consulte [Actualizar perfiles](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=es){target=_blank} en la *Guía para desarrolladores de Target*. |
    | Perfil | Definido directamente con un fragmento de código de JavaScript. Estos extractos pueden almacenar totales acumulados, como, por ejemplo, el importe total que un usuario ha gastado, y se ejecutan en cada solicitud de mbox. Consulte *Atributos de script de perfil* a continuación. |
 
 ## Atributos de script de perfil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -57,13 +50,13 @@ Los scripts de perfil no son lo mismo que los parámetros de perfil. Los paráme
 
 ## Creación de scripts de perfil {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-Los scripts de perfil están disponibles en la ficha [!UICONTROL Audiences] de la interfaz [!DNL Target].
+Los scripts de perfil están disponibles en la ficha [!UICONTROL Audiencias] de la interfaz [!DNL Target].
 
-Para agregar un script de perfil, haga clic en la ficha **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]**, y escriba el script.
+Para agregar un script de perfil, haga clic en la ficha **[!UICONTROL Scripts de perfil]**, **[!UICONTROL Crear script]**, y luego escriba el script.
 
 O
 
-Para copiar un script de perfil existente, en la lista [!UICONTROL Profile Scripts], haga clic en el icono de puntos suspensivos del script deseado y, a continuación, haga clic en **[!UICONTROL Duplicate]**.
+Para copiar un script de perfil existente, en la lista [!UICONTROL Scripts de perfil], haga clic en el icono de puntos suspensivos del script deseado y, a continuación, haga clic en **[!UICONTROL Duplicar]**.
 
 Luego puede editar el público para crear otra parecida.
 
@@ -96,21 +89,21 @@ Tenga en cuenta lo siguiente:
 
 Puede ver tarjetas emergentes con información sobre scripts de perfil similares a las tarjetas de información de ofertas. Estas tarjetas le permiten ver la lista de actividades que hacen referencia al script de perfil seleccionado, además de otros metadatos útiles.
 
-Por ejemplo, para obtener acceso a la siguiente tarjeta de información de script de perfil, haga clic en el icono [!UICONTROL Info] del script de perfil deseado de la lista ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
+Por ejemplo, para acceder a la siguiente tarjeta de información de script de perfil, haga clic en el icono [!UICONTROL Información] para el script de perfil deseado de la lista ([!UICONTROL Audiencias] > [!UICONTROL Scripts de perfil]).
 
-La ficha [!UICONTROL Script Info] contiene la siguiente información: Nombre, descripción y código de script.
+La ficha [!UICONTROL Información de script] contiene la siguiente información: Nombre, descripción y código de script.
 
 ![Tarjeta de información de script de perfil](assets/profile_script_info_card.png)
 
-Haga clic en **[!UICONTROL View full details]** para ver las audiencias y actividades que hacen referencia al script de perfil seleccionado.
+Haga clic en **[!UICONTROL Ver detalles completos]** para ver las audiencias y actividades que hacen referencia al script de perfil seleccionado.
 
 ![Tarjeta de información de script de perfil > Pestaña Uso de script](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->La pestaña [!UICONTROL Script Usage] no muestra las actividades que hacen referencia al script de perfil seleccionado en las situaciones siguientes:
+>La ficha [!UICONTROL Uso de scripts] no muestra las actividades que hacen referencia al script de perfil seleccionado en las situaciones siguientes:
 >
-> * La actividad está en estado [!UICONTROL Draft].
+> * La actividad está en estado [!UICONTROL Borrador].
 > * El contenido u oferta utilizado en la actividad emplea variables de script (una oferta en línea dentro de la actividad o una oferta de la biblioteca de ofertas).
 
 ## Target deshabilita los scripts de perfil en determinadas situaciones {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -167,7 +160,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 * **Agregar scripts de perfil como tokens de respuesta para depurar scripts de perfil:**
 
-  En [!DNL Target], haga clic en **[!UICONTROL Administration]**, haga clic en **[!UICONTROL Response Tokens]** y habilite el script de perfil que desee depurar.
+  En [!DNL Target], haga clic en **[!UICONTROL Administración]**, haga clic en **[!UICONTROL Tokens de respuesta]** y, a continuación, habilite el script de perfil que desee depurar.
 
   Cada vez que carga para el sitio una página que incluye [!DNL Target], parte de la respuesta de [!DNL Target] contendrá su valor para el script de perfil dado, como se muestra a continuación:
 
@@ -175,7 +168,7 @@ Se pueden utilizar los métodos siguientes para depurar scripts de perfil:
 
 * **Utilice la herramienta de depuración mboxTrace para depurar scripts de perfil.**
 
-  Este método requiere un token de autorización que puede generarse haciendo clic en **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** en la sección [!UICONTROL Debugger tools].
+  Este método requiere un token de autorización que puede generarse haciendo clic en **[!UICONTROL Target]** > **[!UICONTROL Administración]** > **[!UICONTROL Implementación]** > **[!UICONTROL Generar token de autorización]** en la sección [!UICONTROL Herramientas de depuración].
 
   A continuación, agregue estos dos parámetros a la URL de su página después de “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 

@@ -1,39 +1,36 @@
 ---
 keywords: mvt;prueba multivariable;informe de contribución de ubicación
-description: Aprenda a utilizar el informe Contribución de ubicación para actividades de Adobe [!DNL Target] [!UICONTROL Experience Targeting] que muestran el rendimiento de cada elemento y cada oferta.
-title: ¿Cómo utilizo el informe [!UICONTROL Location Contribution] para actividades [!UICONTROL Multivariate Test]?
+description: Aprenda a utilizar el informe Contribución de ubicación para actividades de Adobe [!DNL Target] [!UICONTROL Segmentación de experiencias] que muestran el rendimiento de cada elemento y cada oferta.
+title: ¿Cómo utilizo el informe de [!UICONTROL contribución de ubicación] para las actividades de [!UICONTROL prueba multivariable]?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 261
-ht-degree: 35%
+source-wordcount: 283
+ht-degree: 32%
 
 ---
 
-# Informe [!UICONTROL Location Contribution] (MVT)
+# Informe [!UICONTROL Contribución de ubicación] (MVT)
 
-El informe [!UICONTROL Location Contribution] muestra el rendimiento de cada elemento y cada oferta.
+El informe [!UICONTROL Contribución de ubicación] muestra el rendimiento de cada elemento y cada oferta.
 
 En la parte superior del informe se muestra la métrica, las fechas de inicio y finalización y el público que se han empleado para elaborar el informe. Puede cambiar cualquiera de estos factores.
 
 >[!NOTE]
 >
->Tenga en cuenta la siguiente información cuando trabaje con el informe [!UICONTROL Location Contribution]:
+>Tenga en cuenta la siguiente información cuando trabaje con el informe [!UICONTROL Contribución de ubicación]:
 >
 >* Los selectores de audiencia y de métricas solo están disponibles si [!DNL Analytics] se usa como fuente de informes (A4T).
 >
->* Los datos del informe [!UICONTROL Location Contribution] se recuperan del servidor [!DNL Target] aunque la actividad esté configurada para usar [!UICONTROL Analytics as the reporting source] (A4T).
+>* Los datos del informe [!UICONTROL Contribución de ubicación] se recuperan del servidor [!DNL Target] aunque la actividad esté configurada para usar [!UICONTROL Analytics como fuente de informes] (A4T).
 >
->* Los datos del informe [!UICONTROL Location Contribution] se buscan para el entorno &quot;Producción&quot; incluso si se define un entorno predeterminado diferente en el nivel de cuenta [!DNL Target].
+>* Los datos del informe [!UICONTROL Contribución de ubicación] se buscan para el entorno &quot;Producción&quot; incluso si se define un entorno predeterminado diferente en el nivel de cuenta [!DNL Target].
 
-El informe [!UICONTROL Location Contribution] incluye dos tablas.
+El informe [!UICONTROL Contribución de ubicación] incluye dos tablas.
 
 La primera tabla muestra la influencia relativa de cada elemento. En esta tabla se muestra cuál de los elementos en los que se han añadido ofertas da como resultado la mayor cantidad de conversiones.
 
@@ -43,4 +40,4 @@ La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de c
 
 En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. El informe Contribución de ubicación se describe a partir del 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

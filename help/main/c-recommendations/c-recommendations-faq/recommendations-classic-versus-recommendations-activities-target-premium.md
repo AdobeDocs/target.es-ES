@@ -2,24 +2,17 @@
 keywords: Recommendations;algoritmos de Recommendations;actividad de Recommendations;Recommendations Classic
 description: Revise la información para comprender las diferencias entre las actividades heredadas de Recommendations Classic y las de Recommendations en  [!DNL Target]  Premium.
 title: ¿Cuál es la diferencia entre Recommendations Classic y Recommendations en  [!DNL Target]  Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 86%
+source-wordcount: 692
+ht-degree: 83%
 
 ---
 
@@ -41,16 +34,16 @@ La actividad de [!DNL Recommendations] en [!DNL Target] mejora con respecto a [!
 
 ## Recomendaciones como oferta
 
-Puede incluir recomendaciones dentro de las actividades [!UICONTROL A/B Test] (incluidas [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target]) y [!UICONTROL Experience Targeting] (XT).
+Puede incluir recomendaciones dentro de la prueba [!UICONTROL Prueba A/B] (incluidas las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]) y [!UICONTROL Segmentación de experiencias] (XT).
 
 Esta funcionalidad revela capacidades completamente nuevas, como:
 
 * Recomendaciones de prueba y segmentación y contenido que no sea de recomendación dentro de la misma actividad.
 * Experimentar fácilmente con la colocación de recomendaciones en la página, incluido el orden de varias recomendaciones.
-* Insertar automáticamente tráfico a la experiencia de recomendaciones de mejor rendimiento usando [!UICONTROL Auto-Allocate].
-* Asignar de forma dinámica a los visitantes a experiencias de recomendaciones adaptadas según su perfil mediante [!UICONTROL Auto-Target].
+* Insertar automáticamente tráfico a la experiencia de recomendaciones de mejor rendimiento usando [!UICONTROL Asignación automática].
+* Asigne de forma dinámica a los visitantes experiencias de recomendaciones adaptadas según su perfil mediante [!UICONTROL Segmentación automática].
 
-Para empezar, cree una actividad [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] con la acción [!UICONTROL Visual Experience Composer] y use la acción [!UICONTROL Insert Before], [!UICONTROL Insert After] o [!UICONTROL Replace With] para agregar recomendaciones a una experiencia.
+Para empezar, cree una actividad [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] con el [!UICONTROL Compositor de experiencias visuales] y use la acción [!UICONTROL Insertar antes], [!UICONTROL Insertar después] o [!UICONTROL Reemplazar con] para agregar recomendaciones a una experiencia.
 
 Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

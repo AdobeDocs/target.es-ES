@@ -1,31 +1,24 @@
 ---
 keywords: oferta json;crear oferta json
-description: Obtenga información sobre cómo crear ofertas JSON para usarlas en [!UICONTROL Form-Based Experience Composer].
+description: Aprenda a crear ofertas JSON para usarlas en [!UICONTROL Compositor de experiencias basadas en formularios].
 title: ¿Cómo creo ofertas JSON?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 TQID: https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 22%
+source-wordcount: 506
+ht-degree: 23%
 
 ---
 
 # Creación de ofertas JSON
 
-Crear ofertas JSON en [!UICONTROL Offer Library] de [!DNL Adobe Target] para usarlas en [!UICONTROL Form-Based Experience Composer].
+Cree ofertas JSON en la [!UICONTROL Biblioteca de ofertas] de [!DNL Adobe Target] para usarlas en el [!UICONTROL Compositor de experiencias basadas en formularios].
 
 Las ofertas JSON se pueden utilizar en actividades basadas en formularios para habilitar casos de uso en los que se requiere la toma de decisiones de [!DNL Target] para enviar una oferta en formato JSON para su consumo en el marco de la SPA o en integraciones del lado del servidor.
 
@@ -33,22 +26,22 @@ Las ofertas JSON se pueden utilizar en actividades basadas en formularios para h
 
 Cuando trabaje con ofertas JSON, tenga en cuenta la información siguiente:
 
-* Actualmente, las ofertas JSON solo están disponibles para las actividades [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Experience Targeting] (XT).
+* Actualmente, las ofertas JSON solo están disponibles para las actividades de [!UICONTROL Prueba A/B], [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación de experiencias] (XT).
 * Las ofertas JSON solo se pueden usar en [actividades basadas en formularios](/help/main/c-experiences/form-experience-composer.md).
-* Las ofertas JSON se pueden recuperar directamente si usa las [API del servidor y los SDK de Node.js para móviles, Java, .NET y Python](https://experienceleague.adobe.com/es/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
-* En el explorador, las ofertas JSON solo se pueden recuperar a través de at.js 1.2.3 (o versiones posteriores) y utilizando [getOffer()](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} filtrando acciones usando la acción `setJson`.
+* Las ofertas JSON se pueden recuperar directamente si usa las [API del servidor y los SDK de Node.js para móviles, Java, .NET y Python](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
+* En el explorador, las ofertas JSON solo se pueden recuperar a través de at.js 1.2.3 (o versiones posteriores) y utilizando [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} filtrando acciones usando la acción `setJson`.
 * Las ofertas JSON se proporcionan como objetos JSON nativos en vez de como cadenas. Los consumidores de estos objetos ya no son necesarios para gestionar objetos como cadenas y convertirlos en objetos JSON.
-* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta mediante [getOffer()](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.
+* Las ofertas JSON no se aplican automáticamente, a diferencia de otras ofertas (como la ofertas HTML), porque las ofertas JSON son ofertas no visuales. Los desarrolladores deben escribir código para obtener explícitamente la oferta mediante [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.
 
 ## Crear una oferta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Haga clic en **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-1. Haga clic en **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
+1. Haga clic en **[!UICONTROL Ofertas]** > **[!UICONTROL Ofertas de código]**.
+1. Haga clic en **[!UICONTROL Crear oferta]** > **[!UICONTROL Oferta JSON]**.
 1. Escriba el nombre de una oferta.
 1. (Condicional) Si tiene una [[!DNL Target] cuenta Premium](/help/main/c-intro/intro.md#premium), elija el [espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace) que desee.
 1. (Condicional) Elija los atributos de perfil que desee.
-1. Escriba o pegue su código JSON en el cuadro **[!UICONTROL Code]**.
-1. Haga clic en **[!UICONTROL Create]**.
+1. Escriba o pegue su código JSON en el recuadro **[!UICONTROL Código]**.
+1. Haga clic en **[!UICONTROL Crear]**.
 
 ## Ejemplo de JSON {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -137,4 +130,4 @@ Para obtener más información, consulte [Compartir atributos de perfil de CDP e
 
 ## Filtrado de ofertas por tipo de oferta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Puede filtrar la biblioteca [!UICONTROL Offers] por el tipo de oferta JSON haciendo clic en el icono **[!UICONTROL Show filters]** ( ![Mostrar icono de filtros](/help/main/assets/icons/Filter.svg) ) y, a continuación, seleccionando la casilla de verificación **[!UICONTROL JSON Offers]**.
+Puede filtrar la biblioteca [!UICONTROL Ofertas] por el tipo de oferta JSON haciendo clic en el icono **[!UICONTROL Mostrar filtros]** ( ![Mostrar filtros](/help/main/assets/icons/Filter.svg) ) y, a continuación, seleccionando la casilla de verificación **[!UICONTROL Ofertas JSON]**.

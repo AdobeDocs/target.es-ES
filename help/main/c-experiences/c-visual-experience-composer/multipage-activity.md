@@ -5,15 +5,12 @@ title: ¿Cómo se crea una actividad de varias páginas?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 TQID: https://experienceleague.adobe.com/ZFqgbNp-sLF-ahG-uXKvWY0XPcxO0oZScGkpNX8hDHY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 55%
+source-wordcount: 353
+ht-degree: 54%
 
 ---
 
@@ -33,13 +30,13 @@ Puede especificar reglas de plantilla para cada página en la prueba de varias p
 
 Para agregar páginas a una prueba:
 
-1. Haga clic en el icono **[!UICONTROL Configure]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ).
-1. Haga clic en **[!UICONTROL Add Additional Pages]**.
+1. Haga clic en el icono **[!UICONTROL Configurar]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ).
+1. Haga clic en **[!UICONTROL Agregar páginas adicionales]**.
 
-   Aparece el panel [!UICONTROL Pages] a la izquierda de la pantalla.
+   Aparece el panel [!UICONTROL Páginas] a la izquierda de la pantalla.
 
 1. Especifique las páginas y establezca la página predeterminada.
 
-   Haga clic en **[!UICONTROL Add Page]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) para agregar una página adicional, especifique el nombre de página y la dirección URL y, a continuación, haga clic en **[!UICONTROL Save]**.
+   Haga clic en **[!UICONTROL Agregar página]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) para agregar una página adicional, especifique el nombre de página y la dirección URL y haga clic en **[!UICONTROL Guardar]**.
 
-1. Use [!UICONTROL Visual Experience Composer] para diseñar el aspecto de la oferta en cada página.
+1. Use [!UICONTROL Compositor de experiencias visuales] para diseñar el aspecto de la oferta en cada página.

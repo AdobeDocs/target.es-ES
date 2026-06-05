@@ -1,14 +1,14 @@
 ---
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente de búsqueda de productos de Google y  [!DNL Analytics] clasificaciones de productos.
-title: ¿Cómo se usa [!UICONTROL Feeds] en  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+title: ¿Cómo utilizo [!UICONTROL Fuentes] en [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 44%
+source-wordcount: '2572'
+ht-degree: 45%
 
 ---
 
@@ -33,22 +33,22 @@ Estos datos sobre cada elemento se pueden utilizar para lo siguiente:
 
 Las descripciones de los elementos se pueden pasar a [!DNL Target] mediante fuentes o mboxes. Si los datos son recopilados tanto por una fuente de entidades como por un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
-La lista [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) proporciona información sobre cualquier fuente que haya creado.
+La lista [!UICONTROL Fuentes] ( **[!UICONTROL Recomendaciones]** > **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
 
 ![Página Fuentes](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
-La página [!UICONTROL Feeds] contiene las siguientes columnas:
+La página [!UICONTROL Fuentes] contiene las siguientes columnas:
 
 * **Nombre**: El nombre de la fuente especificada durante la creación. Para editar el nombre de una fuente, debe editar la propia fuente. Al guardar la fuente con el nuevo nombre, se actualiza.
 * **Tipo**: Los tipos incluyen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Fuente de productos de Google](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) y [Clasificaciones de Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Estado**: [Estado actual de la fuente](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Programación**: Muestra la programación de actualización de la fuente: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] o [!UICONTROL Never].
+* **Programación**: muestra la programación de actualización de la fuente: [!UICONTROL Diario], [!UICONTROL Semanal], [!DNL Every 2 Weeks] o [!UICONTROL Nunca].
 * **Elementos**: Muestra el número de elementos de la fuente.
-* **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente. Si la fuente [!UICONTROL Last Updated] indica &quot;sin definir&quot;, la fuente procede de [!DNL Recommendations Classic] y no se puede cambiar desde [!DNL Target Premium Recommendations].
+* **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente. Si la fuente de [!UICONTROL Última actualización] indica &quot;sin definir&quot;, la fuente procede de [!DNL Recommendations Classic] y no se puede cambiar desde [!DNL Target Premium Recommendations].
 
 Haga clic en el icono Información para mostrar una tarjeta con la última fecha de carga y la dirección URL de la fuente.
 
-Haga clic en el icono de los tres puntos para tener acceso a las siguientes acciones: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] y [!UICONTROL Delete].
+Haga clic en el icono de los tres puntos para acceder a las siguientes acciones: [!UICONTROL Desactivar], [!DNL Edit], [!UICONTROL Copiar] y [!UICONTROL Eliminar].
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >
@@ -221,26 +221,26 @@ La clasificación de producto [!DNL Analytics] es la única clasificación dispo
 > Tenga en cuenta las siguientes advertencias:
 >
 >* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
->* [!DNL Target] solo admite [!UICONTROL Product Classifications]. La SKU del producto [!DNL Analytics] debe asignarse al mismo nivel que [!DNL Recommendations] `entity.id`. Las clasificaciones personalizadas [!DNL Analytics] se pueden diseñar con [!UICONTROL Adobe Consulting Services]. Póngase en contacto con el Administrador de cuentas si tiene alguna pregunta.
+>* [!DNL Target] solo admite [!UICONTROL Clasificaciones de productos]. La SKU del producto [!DNL Analytics] debe asignarse al mismo nivel que [!DNL Recommendations] `entity.id`. Las clasificaciones personalizadas [!DNL Analytics] se pueden diseñar con [!UICONTROL Adobe Consulting Services]. Póngase en contacto con el Administrador de cuentas si tiene alguna pregunta.
 
-## Crear fuente   {#steps}
+## Crear fuente {#steps}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
-1. En la interfaz de Target, haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
+1. En la interfaz de Target, haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Fuentes]** > **[!UICONTROL Crear fuente]**.
 
    ![Cuadro de diálogo Crear fuente](assets/CreateFeed.png)
 
 1. Elija un nombre descriptivo para la fuente.
-1. Seleccione un(a) **[!UICONTROL Source Type]**.
+1. Seleccione un **[!UICONTROL tipo Source]**.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Google Product Feed]
-   * [!UICONTROL Analytics Classifications]
+   * [!UICONTROL Fuente de productos Google]
+   * [!UICONTROL Clasificaciones de Analytics]
 
-   Para obtener información acerca de los tipos de fuentes [!UICONTROL CSV] y [!UICONTROL Google Product Feed], vea [Información general de fuentes](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía de CSV como modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
+   Para obtener información sobre los tipos de fuente [!UICONTROL CSV] y [!UICONTROL Fuente de productos Google], consulte [Información general de fuentes](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía de CSV como modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
 
-1. (Condicional) Si seleccionó **[!UICONTROL CSV]** o **[!UICONTROL Google Product Feed]**, especifique la ubicación donde se puede obtener acceso a la fuente.
+1. (Condicional) Si seleccionó **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede obtener acceso a la fuente.
 
    * **FTP**: Si ha seleccionado la ubicación FTP, indique los datos del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio de FTP. Puede utilizar FTP con SSL (FTPS) para que las cargas sean más seguras.
 
@@ -253,24 +253,24 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
    * **URL**: Si selecciona [!UICONTROL URL], especifique la URL.
 
-1. (Condicional) Si seleccionó **[!UICONTROL Analytics Classifications]**, elija el grupo de informes en la lista desplegable.
+1. (Condicional) Si seleccionó **[!UICONTROL Clasificaciones de Analytics]**, elija el grupo de informes en la lista desplegable.
 
-1. Haga clic en la flecha **[!UICONTROL Next]** para mostrar las opciones de [!UICONTROL Schedule].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
 
    ![Resultado del paso](assets/CreateFeedSchedule.png)
 
 1. Seleccione una opción de actualización:
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 Weeks]
-   * [!UICONTROL Never]: no programar una actualización. Seleccione esta opción si no quiere que se ejecute esta fuente.
+   * [!UICONTROL Diario]
+   * [!UICONTROL Semanalmente]
+   * [!UICONTROL Cada 2 Semanas]
+   * [!UICONTROL Nunca]: No programar una actualización. Seleccione esta opción si no quiere que se ejecute esta fuente.
 
 1. Especifique a qué hora desea que se ejecute la fuente.
 
    Esta opción está basada en la zona horaria establecida en el navegador. Si quiere usar una hora de otra zona horaria, tiene que calcularla según su propia zona horaria.
 
-1. Haga clic en la flecha **[!UICONTROL Next]** para mostrar las opciones de [!UICONTROL Mapping] y, a continuación, especifique cómo desea asignar los datos a las definiciones de [!DNL Target].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Asignación] y, a continuación, especifique cómo desea asignar los datos a las definiciones de [!DNL Target].
 
    ![Resultado del paso](assets/CreatFeedMapping.png)
 
@@ -278,7 +278,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
    De manera predeterminada, la fuente pertenece a todos los grupos de hosts. De este modo se garantiza que los elementos de la fuente estén disponibles en cualquier entorno. Para obtener más información, consulte [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 Después de crear o editar una fuente, esta se ejecuta inmediatamente. A continuación, la fuente se actualiza según los parámetros que haya establecido. La información tarda un poco en estar disponible. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece en [Estado de fuente](/help/main/c-recommendations/c-products/feeds.md#status) en la lista Fuentes. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
 
@@ -286,7 +286,7 @@ Mientras la indización está en curso, se muestran los encabezados de la fuente
 
 Cuando el estado indica “Correcto”, significa que el archivo se ha encontrado y se ha analizado correctamente. La información no está disponible para su uso en [!DNL Recommendations] hasta que se indexa el archivo. La tarea de indexación puede tardar bastante, en función del tamaño del archivo. Si el proceso falla, significa que no se encontró el archivo. Por ejemplo: ha utilizado una dirección URL incorrecta, la información de FTP era incorrecta o había un error de análisis.
 
-## Estados e indicadores de alimentación   {#concept_E475986720D1400999868B3DFD14A7A0}
+## Estados e indicadores de alimentación {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Información sobre los posibles estados de alimentación y sus indicadores.
 
@@ -296,26 +296,26 @@ Estos son los posibles estados de una fuente:
 
 | Estado | Descripción |
 |--- |--- |
-| [!UICONTROL Syncing] | Los detalles de configuración de fuente se están guardando en [!DNL Target]. |
-| [!UICONTROL Sync Failed] | No se pudieron guardar los detalles de configuración de fuente en [!DNL Target]. Inténtelo de nuevo. |
-| [!UICONTROL No Feed Run] | Ha creado una fuente, pero no se ha programado (la frecuencia se establece en Nunca). |
+| [!UICONTROL Sincronizando] | Los detalles de configuración de fuente se están guardando en [!DNL Target]. |
+| [!UICONTROL Error de sincronización] | No se pudieron guardar los detalles de configuración de fuente en [!DNL Target]. Inténtelo de nuevo. |
+| [!UICONTROL Sin ejecución de fuente] | Ha creado una fuente, pero no se ha programado (la frecuencia se establece en Nunca). |
 | Programado para *fecha y hora* | La fuente no se ha ejecutado, pero está programada para ejecutarse en la fecha y la hora establecidas. |
-| [!UICONTROL Waiting for Download] | [!DNL Target] se está preparando para descargar el archivo de fuente. |
-| [!UICONTROL Downloading Feed File] | [!DNL Target] está descargando el archivo de fuente. |
-| [!UICONTROL Importing Items] | [!DNL Target] está importando elementos del archivo de fuente. |
-| Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, inténtelo de nuevo y actualice la página que contenga recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones no se reflejen todavía en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Catalog Search] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
-| [!UICONTROL Failed to Index] | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
-| [!UICONTROL Server Not Found] | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
+| [!UICONTROL Esperando la descarga] | [!DNL Target] se está preparando para descargar el archivo de fuente. |
+| [!UICONTROL Descargando archivo de fuente] | [!DNL Target] está descargando el archivo de fuente. |
+| [!UICONTROL Importando elementos] | [!DNL Target] está importando elementos del archivo de fuente. |
+| Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, vuelva a intentarlo y actualice la página que contiene recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones aún no se reflejen en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Búsqueda en el catálogo] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
+| [!UICONTROL No se pudo indexar] | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
+| [!UICONTROL Servidor No Encontrado] | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
 
-Para actualizar una fuente (por ejemplo, para realizar cambios en la configuración o el archivo de la fuente), ábrala, realice los cambios que desee y haga clic en **[!UICONTROL Save]**.
+Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configuración o el archivo de la fuente), ábrala, aplique los cambios y haga clic en **[!UICONTROL Guardar]**.
 
 >[!IMPORTANT]
 >
 >Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuentes (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
 
-### Indicadores de estado de fuente   {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicadores de estado de fuente {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-Los siguientes indicadores de estado de fuente se muestran en la columna [!UICONTROL Status]:
+En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de estado de fuente:
 
 | Indicador de estado | Descripción |
 |--- |--- |
@@ -351,7 +351,7 @@ Este vídeo contiene la información siguiente:
 * Explicación del objetivo de las fuentes
 * Explicación del valor de las fuentes
 
->[!VIDEO](https://video.tv.adobe.com/v/33945?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crear una fuente (6:44) ![Insignia de tutorial](/help/main/assets/tutorial.png)
 
@@ -360,4 +360,4 @@ Este vídeo contiene la información siguiente:
 * Configuración de una fuente
 * Qué tipo de fuente utilizar
 
->[!VIDEO](https://video.tv.adobe.com/v/33944?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

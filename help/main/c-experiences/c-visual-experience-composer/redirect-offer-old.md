@@ -6,16 +6,16 @@ feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '482'
+ht-degree: 82%
 
 ---
 
 # Redireccionar a una dirección URL
 
-Utilice la opción [!UICONTROL Redirect to URL] en [!DNL Adobe Target] cuando desee enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
+Use la opción [!UICONTROL Redirigir a la dirección URL] en [!DNL Adobe Target] cuando quiera enviar al visitante a una página diferente en lugar de mostrar contenido en la misma página.
 
-Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En este caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redirija a la página B. En el menú Acción de experiencia, que aparece al hacer clic en la etiqueta de carta para la experiencia, elija **[!UICONTROL Redirect to URL]** y especifique la dirección URL de la página B. La oferta está configurada para redirigir al visitante a una página diferente.
+Es posible que tenga dos páginas completamente distintas para probarlas, en lugar de simplemente cambiar partes de contenido dentro de una página. En ese caso, la prueba A/B compara la página A con la B. Configure una campaña de prueba A/B con dos experiencias: una que apunte a la página A predeterminada y otra que redireccione a la página B. En el menú Acción de experiencia, que aparece al hacer clic en la etiqueta de carta para la experiencia, elija **[!UICONTROL Redireccionar a dirección URL]** y especifique la dirección URL de la página B. La oferta se configura para redireccionar al visitante hacia una página diferente.
 
 La oferta de redireccionamiento ejecuta código JavaScript para redirigir el navegador. Utiliza el `window.location.replace();`método de modo que la página desde la cual se redirige al visitante no se almacene en el historial del explorador. Esto permite que el visitante siga usando el botón de retorno del navegador.
 

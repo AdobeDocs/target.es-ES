@@ -8,7 +8,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '624'
 ht-degree: 3%
 
 ---
@@ -29,13 +29,13 @@ Así es como funciona la preocultación de contenido, desde la cuenta predetermi
 
 1. Agregue la biblioteca de ocultamiento previo del contenido a `<head>` de todas las páginas donde ejecute actividades de personalización.
 
-1. [!DNL Target] crea un conjunto de reglas a partir de las actividades activas [!UICONTROL Visual Experience Composer] y [!UICONTROL Enhanced Experience Composer]. El conjunto de reglas enumera selectores y regiones que la entrega puede cambiar.
+1. [!DNL Target] crea un conjunto de reglas a partir de las actividades activas de [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]. El conjunto de reglas enumera selectores y regiones que la entrega puede cambiar.
 
-   Tenga en cuenta que no se admiten [!UICONTROL Form-Based Composer] actividades.
+   Tenga en cuenta que las actividades de [!UICONTROL Compositor basado en formularios] no son compatibles.
 
 1. La biblioteca recupera ese conjunto de reglas de la CDN de Adobe y oculta previamente los elementos coincidentes solo mientras el contenido personalizado aún se está cargando.
 
-1. En **[!UICONTROL Goals & Settings]**, puede deshabilitar **[!UICONTROL Content pre-hiding]** para actividades individuales, pero solo si está habilitado en el nivel de cuenta. [Más información](#content-pre-hiding-activity)
+1. En **[!UICONTROL Objetivos y configuración]**, puede deshabilitar **[!UICONTROL ocultamiento previo de contenido]** para actividades individuales, pero solo si está habilitado en el nivel de cuenta. [Más información](#content-pre-hiding-activity)
 
 ## Habilite la ocultación previa de contenido para su instancia {#content-pre-hiding-enable-account}
 
@@ -43,19 +43,19 @@ Así es como funciona la preocultación de contenido, desde la cuenta predetermi
 >
 >Para habilitar la ocultación previa de contenido para la instancia, debe ser **administrador**.
 
-La preocultación de contenido está desactivada en la instancia hasta que se activa. Use **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** para activar la característica, establecer los valores predeterminados y acceder a la descarga para su equipo de implementación.
+La preocultación de contenido está desactivada en la instancia hasta que se activa. Use **[!UICONTROL Administración]** > **[!UICONTROL Implementación]** para activar la función, establecer valores predeterminados y acceder a la descarga para su equipo de implementación.
 
-1. En [!DNL Target], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. En [!DNL Target], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
-1. En el menú **[!UICONTROL Content pre-hiding]**, habilite la opción Preocultación de contenido.
+1. En el menú **[!UICONTROL Ocultamiento previo del contenido]**, habilite la opción Ocultamiento previo del contenido.
 
    ![](assets/content-pre-hiding-1.png)
 
-1. Si es necesario, actualice **[!UICONTROL Pre-hiding timeout]** en segundos.
+1. Si es necesario, actualice el **[!UICONTROL tiempo de espera de ocultamiento previo]** en segundos.
 
-1. Haga clic en **[!UICONTROL Save]**. Esto aplicará la configuración de administración de parpadeo a la instancia.
+1. Haga clic en **[!UICONTROL Guardar]**. Esto aplicará la configuración de administración de parpadeo a la instancia.
 
-1. Una vez habilitado, haga clic en **[!UICONTROL Download]** y luego agregue el archivo a la página `<head>` para que se cargue antes de [!DNL at.js] o de [!DNL Web SDK]. Para obtener instrucciones de implementación completas, consulte [Contenido preocultado de SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/prehide-sdk).
+1. Una vez habilitado, haga clic en **[!UICONTROL Descargar]** y luego agregue el archivo a la página `<head>` para que se cargue antes de [!DNL at.js] o de [!DNL Web SDK]. Para obtener instrucciones de implementación completas, consulte [Contenido preocultado de SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -63,23 +63,23 @@ La instancia ahora utiliza la configuración de tiempo de espera y ocultamiento 
 
 ## Habilite la ocultación previa de contenido para su actividad {#content-pre-hiding-activity}
 
-Con la preocultación habilitada para su instancia, elija si cada actividad la usa en **[!UICONTROL Goals & Settings]**. Las actividades para las que habilita la preocultación se incluyen en el comportamiento de destino cuando están activas.
+Con la preocultación habilitada para tu instancia, elige si cada actividad la usa en **[!UICONTROL Objetivos y configuración]**. Las actividades para las que habilita la preocultación se incluyen en el comportamiento de destino cuando están activas.
 
-A continuación, [!DNL Target] crea un conjunto de reglas ligeras a partir de actividades activas creadas en [!UICONTROL Visual Experience Composer] (VEC) y [!UICONTROL Form-Based Composer], y describe los selectores y las áreas que puede cambiar la entrega.
+A continuación, [!DNL Target] crea un conjunto de reglas ligeras a partir de actividades activas creadas en [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor basado en formularios], en las que se describen los selectores y las áreas que puede cambiar la entrega.
 
 Cuando crea o edita una actividad:
 
 1. Acceda a la actividad para la que desea activar la opción de ocultamiento previo.
 
-1. Acceda a la lista desplegable **[!UICONTROL Edit activity]** y seleccione **[!UICONTROL Edit Goals & Settings]**.
+1. Acceda a la lista desplegable **[!UICONTROL Editar actividad]** y seleccione **[!UICONTROL Editar objetivos y configuración]**.
 
    ![](assets/content-pre-hiding-3.png)
 
-1. En el menú **[!UICONTROL Content pre-hiding]**, active la opción **[!UICONTROL Enable content pre-hiding]** para activar o desactivar esta actividad de la preocultación.
+1. En el menú **[!UICONTROL Ocultamiento previo del contenido]**, active la opción **[!UICONTROL Habilitar ocultamiento previo del contenido]** para activar o desactivar esta actividad de ocultamiento previo.
 
    ![](assets/content-pre-hiding-4.png)
 
-1. Una vez finalizado, haga clic en **[!UICONTROL Save & Close]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Guardar y cerrar]**.
 
 Después de guardar y como las actividades se activan o desactivan, el conjunto de reglas se actualiza para que la ocultación previa permanezca alineada con lo que realmente se entrega, sin ediciones en el código de página para cada lanzamiento.
 

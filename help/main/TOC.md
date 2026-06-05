@@ -5,7 +5,7 @@ user-guide-description: Descubra cómo personalizar las experiencias de los clie
 feature-set: Target
 source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1317'
 ht-degree: 83%
 
 ---
@@ -347,4 +347,4 @@ ht-degree: 83%
    + [Límites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Información general sobre la API de Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e información de contacto &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e información de contacto ](cmp-resources-and-contact-information.md)

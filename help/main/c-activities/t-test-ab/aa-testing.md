@@ -5,14 +5,11 @@ title: ¿Qué es la prueba A/A?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
 TQID: https://experienceleague.adobe.com/-kLz0mG8LaFqEbB-9M89vJWTFjfypupbcOQ3MjQz-jQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 949
 ht-degree: 1%
 
 ---
@@ -53,7 +50,7 @@ Para evitarlo, y al igual que con una prueba A/B normal, debe decidir con antela
 
 En una prueba A/A, el objetivo sería *no* ver un resultado estadísticamente significativo después de que la prueba haya alcanzado el tamaño de muestra deseado.
 
-[!UICONTROL Adobe Target Sample Size Calculator] es una herramienta importante que le ayudará a determinar el tamaño de muestra que debe tener como objetivo y durante cuánto tiempo debe ejecutar la prueba.
+La calculadora de tamaño de muestra [!UICONTROL Adobe Target] es una herramienta importante que le ayudará a determinar el tamaño de muestra que debe obtener y el tiempo que debe durar la ejecución de la prueba.
 
 * [Calculadora de tamaño de Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 

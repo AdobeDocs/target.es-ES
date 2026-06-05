@@ -5,8 +5,8 @@ hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 2%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 En esta página se describe la secuencia completa de actividades relacionadas con una versión coordinada gestionada por un Administrador de versiones.
 
-## &#x200B;1. Defina indicadores de funcionalidades por aplicación {#define-flags}
+## &#x200B;1. Definición de indicadores de funcionalidades por aplicación {#define-flags}
 
 Cada equipo de productos asigna un **Propietario de la versión del producto** que inicia sesión en la consola Marcas y crea indicadores de características para las aplicaciones que posee. A continuación, el equipo de productos implementa la lógica condicional en su código, colocando las funciones detrás de estos indicadores.
 
-## &#x200B;2. Crear la versión {#create-release}
+## &#x200B;2. Creación de la versión {#create-release}
 
 La creación de una nueva versión requiere una solicitud de soporte; no es completamente automática. Póngase en contacto con la asistencia de Marcas para crear la versión. Proporcione el nombre de la versión, el equipo propietario, el entorno de destino, el objetivo, las aplicaciones participantes y la duración esperada.
 
 Una vez confirmado el lanzamiento, el Release Manager abre la consola y completa la configuración del lanzamiento.
 
-## &#x200B;3. Añada indicadores de funcionalidades a la versión {#add-flags}
+## &#x200B;3. Añadir indicadores de funcionalidades a la versión {#add-flags}
 
 Para cada aplicación añadida a la versión, el propietario de la versión del producto de la aplicación inicia sesión y agrega los indicadores de funciones relevantes a la versión. Estos indicadores representan las funciones que se activarán con la versión.
 

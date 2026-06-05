@@ -5,22 +5,19 @@ title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 TQID: https://experienceleague.adobe.com/FleyH-u5cWI5vku9E4-RMWeIc95WgPy-VQ-eytxka18
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
 
 # Varios públicos de una experiencia en una prueba A/B
 
-Puede segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Visual Experience Composer] (VEC) o en el Compositor de experiencias basadas en formularios.
+Puede segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Compositor de experiencias visuales] (VEC) o en el Compositor de experiencias basadas en formularios.
 
 Los visitantes pueden cambiar entre audiencias de experiencia a medida que cambia su perfil. Los visitantes no están atascados en la misma experiencia durante toda la actividad.
 
@@ -40,9 +37,9 @@ En este caso, lo que necesita son versiones específicas de la experiencia, para
 
    Al configurar la experiencia que tendrá varias versiones, seleccione el público de cada versión, como vemos en los pasos siguientes.
 
-1. Seleccione la experiencia y haga clic en **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
+1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Varias audiencias]**.
 
-1. Haga clic en el icono **[!UICONTROL Add Audience]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en el panel [!UICONTROL Experience Audiences] y, a continuación, seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada público.
+1. Haga clic en el icono **[!UICONTROL Agregar audiencia]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en el panel [!UICONTROL Audiencias de experiencia] y, a continuación, seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada público.
 
    Si el público todavía no existe, haga clic en [Crear público](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrelo.
 

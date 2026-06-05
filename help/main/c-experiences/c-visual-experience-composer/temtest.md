@@ -5,17 +5,13 @@ title: ¿Puedo incluir la misma experiencia en páginas similares?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 24%
+source-wordcount: 564
+ht-degree: 23%
 
 ---
 
@@ -40,33 +36,33 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar las páginas donde aparece la experiencia, en el [!UICONTROL Visual Experience Composer] (VEC), haga clic en el icono [!UICONTROL Configure] ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Page Delivery]**.
+1. Para especificar las páginas en las que aparecerá la experiencia, en el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono [!UICONTROL Configurar] ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
-1. Haga clic en **[!UICONTROL Add Rule]** y, a continuación, especifique los criterios para las páginas en las que quiera agregar la experiencia.
+1. Haga clic en **[!UICONTROL Agregar regla]** y, a continuación, especifique los criterios para las páginas en las que quiera agregar la experiencia.
 
 1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
 
-   * [!UICONTROL URL] (para obtener más información sobre cómo evalúa [!DNL Target] las direcciones URL, consulte [Preguntas más frecuentes sobre objetivos y audiencias](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
-   * [!UICONTROL Domain]
-   * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment] (segmentar la parte de una dirección URL que sigue al símbolo #).
-   * [!UICONTROL Query]
-   * [!UICONTROL Custom]
+   * [!UICONTROL URL] (para obtener más información sobre cómo evalúa [!DNL Target] las URL, consulte [Preguntas frecuentes sobre objetivos y audiencias](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
+   * [!UICONTROL Dominio]
+   * [!UICONTROL Ruta]
+   * [!UICONTROL Fragmento almohadilla (#)] (el destino es la parte de una dirección URL que sigue al símbolo #).
+   * [!UICONTROL Consulta]
+   * [!UICONTROL Personalizado]
 
 1. Seleccione un operador.
 
    El operador especifica cómo se relacionan los elementos que hay a continuación del operador con el intervalo de páginas. Los operadores disponibles incluyen:
 
-   * [!UICONTROL Contains]
-   * [!UICONTROL Does not contain]
-   * [!UICONTROL Is (case sensitive)]
-   * [!UICONTROL Is not]
-   * [!UICONTROL Starts with]
-   * [!UICONTROL Ends with]
+   * [!UICONTROL Contiene]
+   * [!UICONTROL No contiene]
+   * [!UICONTROL distingue entre mayúsculas y minúsculas]
+   * [!UICONTROL No es]
+   * [!UICONTROL Comienza con]
+   * [!UICONTROL Termina con]
 
 1. Escriba las cadenas que establecen dónde se agregará la experiencia, como el dominio o las cadenas contenidas en el nombre de la página.
 
-   Por ejemplo, si selecciona **[!UICONTROL Domain]** y **[!UICONTROL Is (case sensitive)]**, escriba el dominio en el que desea que se agregue la experiencia a todas las páginas.
+   Por ejemplo, si selecciona **[!UICONTROL Dominio]** y **[!UICONTROL Es (distingue mayúsculas de minúsculas)]**, escriba el dominio en el que desea que se agregue la experiencia a todas las páginas.
 
    Puede incluir varios elementos.
 
@@ -74,7 +70,7 @@ Puede especificar páginas que incluyan los elementos modificados o aplicar los 
    >
    >Cuando varios elementos utilizan la lógica OR, lo que significa que cualquier elemento de la lista hace que la condición sea verdadera.
 
-1. Si lo desea, escriba otros criterios adicionales haciendo clic en **[!UICONTROL Add Rule]** y repitiendo el procedimiento de los pasos anteriores.
+1. Si lo desea, escriba otros criterios adicionales haciendo clic en **[!UICONTROL Agregar regla]** y repitiendo el procedimiento de los pasos anteriores.
 
    Cuando hay varios criterios se unen entre sí con la lógica AND. [!DNL Target] agrega la experiencia a todas las páginas que cumplan los criterios especificados.
 
@@ -96,8 +92,8 @@ Puede considerar la posibilidad de utilizar reglas de plantilla para procesar la
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Para especificar el dominio donde aparece la experiencia, en [!UICONTROL Visual Experience Composer] haga clic en el icono [!UICONTROL Configure] ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Page Delivery]**.
+1. Para especificar el dominio donde aparece la experiencia, en el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono [!UICONTROL Configurar] ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
-1. Haga clic en **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
+1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Dominio]**.
 
-1. En la lista desplegable **[!UICONTROL Choose evaluator]**, seleccione **[!UICONTROL Contains]** y luego especifique el dominio.
+1. En la lista desplegable **[!UICONTROL Elegir evaluador]**, seleccione **[!UICONTROL Contiene]** y, a continuación, especifique el dominio.

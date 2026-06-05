@@ -6,8 +6,8 @@ feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 42%
+source-wordcount: '1278'
+ht-degree: 40%
 
 ---
 
@@ -21,13 +21,13 @@ Por ejemplo, puede determinar si una oferta nueva aumenta los ingresos por visit
 
 En [!DNL Target], las métricas de éxito están preconfiguradas con las opciones óptimas tanto para la generación de informes como para el seguimiento.
 
-De manera predeterminada, los eventos de conversión se establecen en &quot;[!UICONTROL Increment count & keep user in activity]&quot;. Las conversiones se cuentan solo una vez, no se cuentan las conversiones repetidas y el visitante siempre ve el contenido de la actividad.
+De manera predeterminada, los eventos de conversión se establecen en &quot;[!UICONTROL Aumentar recuento y mantener al usuario en la actividad]&quot;. Las conversiones se cuentan solo una vez, no se cuentan las conversiones repetidas y el visitante siempre ve el contenido de la actividad.
 
-Las métricas de ingresos establecidas en &quot;[!UICONTROL Increment count & keep user in activity]&quot; registran los detalles de pedido únicamente para el primer pedido realizado por el mismo visitante. Todos los pedidos subsiguientes aumentan el recuento de conversiones, pero no agregarán ingresos a RPV/AOV/Sales y no se incluirán en el informe [!UICONTROL Order Details].
+Las métricas de ingresos establecidas en &quot;[!UICONTROL Aumentar recuento y mantener al usuario en la actividad]&quot; registran los detalles de pedido solo para el primer pedido realizado por el mismo visitante. Todos los pedidos subsiguientes aumentan el recuento de conversiones, pero no agregarán ingresos a RPV/AOV/Sales y no se incluirán en el informe [!UICONTROL Detalles del pedido].
 
 >[!NOTE]
 >
->Para las actividades que usan [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la métrica de objetivo siempre usará la configuración &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; y &quot;[!UICONTROL On Every Impression]&quot;. Se puede configurar *no*.
+>Para las actividades que usan [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la métrica de objetivo siempre usará la configuración &quot;[!UICONTROL Aumentar recuento y mantener al usuario en la actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Se puede configurar *no*.
 
 Están disponibles las siguientes métricas de éxito:
 
@@ -39,31 +39,31 @@ Están disponibles las siguientes métricas de éxito:
 | Puntuación personalizada | Basado en la participación | Puntuación agregada basada en el valor asignado a páginas visitadas del sitio, desde el momento en que el visitante ve por primera vez la primera solicitud [!DNL Target] de visualización de la actividad. |
 | Tiempo en el sitio | Basado en la participación | Tiempo empleado en la visita (en segundos) desde el momento en que el visitante ve la primera solicitud de visualización de la actividad [!DNL Target] hasta la carga de la página final con una solicitud en la sesión. |
 
-En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita si se desea incrementar el recuento. La métrica asociada comienza a aumentar tras la reclasificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no verá resultados inmediatamente durante la prueba; sin embargo, todos los resultados de esa sesión estarán disponibles unos minutos después de que finalice la sesión.
+En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita si se desea incrementar el recuento. La métrica asociada comienza a aumentar tras la recalificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no verá resultados inmediatamente durante la prueba; sin embargo, todos los resultados de esa sesión estarán disponibles unos minutos después de que finalice la sesión.
 
 ## Métricas de éxito personalizadas
 
 También puede crear métricas de éxito personalizadas para adaptarse a sus necesidades comerciales.
 
-Después de seleccionar la métrica de éxito, seleccione la acción realizada por un visitante para alcanzar el objetivo. Por ejemplo, elija una métrica de [!UICONTROL Conversion], configúrela para que se cuente una vez por visitante y, a continuación, establezca si se logra el éxito cuando un visitante ve una determinada página (o conjunto de páginas), visualiza una solicitud de [!DNL Target] específica o hace clic en un vínculo específico.
+Después de seleccionar la métrica de éxito, seleccione la acción realizada por un visitante para alcanzar el objetivo. Por ejemplo, elija una métrica [!UICONTROL Conversión], configúrela para que se cuente una vez por visitante y, a continuación, establezca si se logra el éxito cuando un visitante ve una determinada página (o conjunto de páginas), ve una solicitud [!DNL Target] específica o hace clic en un vínculo específico.
 
-Si está habilitado, el campo [!UICONTROL Estimated Value of one conversion] (no disponible para las métricas [!UICONTROL Page Score]) proporciona un valor para el objetivo, pero no para el resto de métricas. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. Para todas las métricas de ingresos ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales] y [!UICONTROL Orders]), la estimación utiliza [!UICONTROL Revenue per Visitor]. El tipo de datos es moneda. Para obtener más información, consulte [Alza estimada en ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+Si se habilita, el campo [!UICONTROL Valor estimado de una conversión] (no disponible para las métricas [!UICONTROL Puntuación de página]) proporciona un valor para el objetivo, pero no para otras métricas. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. Para todas las métricas de ingresos ([!UICONTROL Ingresos por visitante], [!UICONTROL Valor promedio de pedido], [!UICONTROL Ventas totales] y [!UICONTROL Pedidos]), la estimación usa [!UICONTROL Ingresos por visitante]. El tipo de datos es moneda. Para obtener más información, consulte [Alza estimada en ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
 Las métricas de éxito que elija para la actividad estarán disponibles en la configuración de informes cuando visualice un informe de la actividad.
 
-Algunas métricas, como [!UICONTROL Custom Scoring] y [!UICONTROL Revenue Per Visitor], requieren una implementación personalizada que pase información como totales e ID de pedidos.
+Algunas métricas, como [!UICONTROL Puntuación personalizada] e [!UICONTROL Ingresos por visitante], requieren una implementación personalizada que pase información como totales e ID de pedidos.
 
-## Configuración avanzada   {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
+## Configuración avanzada {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Use la configuración avanzada para administrar la forma de medir la métrica de éxito. Las opciones incluyen añadir dependencias, elegir si se debe mantener al usuario en la actividad o eliminarlo, y si se debe contar la métrica una vez por participante o en cada impresión.
 
-Para tener acceso a las opciones de [!UICONTROL Advanced Settings], haga clic en **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
+Para obtener acceso a las opciones de [!UICONTROL Configuración avanzada], haga clic en los **[!UICONTROL puntos suspensivos verticales]** > **[!UICONTROL Configuración avanzada]**.
 
 ![Menú Configuración avanzada](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 >[!NOTE]
 >
->Si usa [!DNL Adobe Analytics] como fuente de informes, el servidor [!DNL Analytics] es el que administra la configuración. La opción [!UICONTROL Advanced Settings] no estará disponible. Para obtener más información, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Si usa [!DNL Adobe Analytics] como fuente de informes, el servidor [!DNL Analytics] es el que administra la configuración. La opción [!UICONTROL Configuración avanzada] no estará disponible. Para obtener más información, consulte [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ### Agregar dependencia
 
@@ -75,7 +75,7 @@ Por ejemplo, una conversión de prueba podría ser válida únicamente si el vis
 
 La funcionalidad de dependencia *no* es compatible con lo siguiente:
 
-* [!UICONTROL Recommendations] actividades. La funcionalidad admite los demás tipos de actividad.
+* Actividades de [!UICONTROL Recommendations]. La funcionalidad admite los demás tipos de actividad.
 * Si usa [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * El tipo de métrica &quot;Visualizó una página&quot;.
 * El tipo de métrica &quot;Se hizo clic en un elemento&quot; para actividades del Compositor de experiencias visuales (VEC).
@@ -91,19 +91,19 @@ Use la configuración avanzada para determinar qué sucede después de que un us
 
 | Después de que un usuario encuentra la métrica de objetivo | Opciones |
 |--- |--- |
-| [!UICONTROL Increment Count & Keep User in Activity] | Especifique cómo se incrementa el recuento:<ul><li>Una vez por participante (predeterminado)</li><li>En cada impresión, excluidas las actualizaciones de páginas</li><li>En cada impresión</li></ul> |
-| [!UICONTROL Increment Count, Release user, & Allow Reentry] | Seleccione la experiencia que el visitante ve si vuelve a participar en la actividad:<ul><li>Misma experiencia (predeterminado)</li><li>Una experiencia aleatoria</li><li>Una experiencia no vista</li></ul> |
-| [!UICONTROL Increment Count, Release User, & Bar from Reentry] | Determine lo que el usuario ve en lugar del contenido de actividad:<ul><li>Misma experiencia, sin seguimiento (predeterminado)</li><li>Un contenido predeterminado, u otro contenido de actividad</li></ul> |
+| [!UICONTROL Aumentar recuento y mantener el usuario en la actividad] | Especifique cómo se incrementa el recuento:<ul><li>Una vez por participante (predeterminado)</li><li>En cada impresión, excluidas las actualizaciones de páginas</li><li>En cada impresión</li></ul> |
+| [!UICONTROL Aumentar recuento, liberar usuario y permitir la reentrada] | Seleccione la experiencia que el visitante ve si vuelve a participar en la actividad:<ul><li>Misma experiencia (predeterminado)</li><li>Una experiencia aleatoria</li><li>Una experiencia no vista</li></ul> |
+| [!UICONTROL Aumentar recuento, liberar usuario y bloquear su reentrada] | Determine lo que el usuario ve en lugar del contenido de actividad:<ul><li>Misma experiencia, sin seguimiento (predeterminado)</li><li>Un contenido predeterminado, u otro contenido de actividad</li></ul> |
 
 >[!NOTE]
 >
->Si configura una métrica para una de las opciones [!UICONTROL Increment Count] (mencionadas anteriormente), el recuento de métricas aumenta correctamente una vez por visitante solo en el nivel de visitante. El recuento de métricas aumenta una vez por visita en cada nueva sesión a nivel de visita.
+>Si configura una métrica a una de las [!UICONTROL opciones de Recuento de incrementos] (mencionadas anteriormente), el recuento de métricas se incrementa correctamente una vez por participante únicamente en el nivel de visitante. El recuento de métricas aumenta una vez por visita en cada nueva sesión a nivel de visita.
 
 ### ¿Cómo se incrementará el recuento?
 
 Elija el comportamiento deseado:
 
-* Una vez por participante 
+* Una vez por participante
 * En cada impresión (excluidas las actualizaciones de páginas)
 * En cada impresión
 

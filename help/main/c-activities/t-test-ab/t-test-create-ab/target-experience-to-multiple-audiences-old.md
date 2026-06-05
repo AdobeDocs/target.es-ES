@@ -1,19 +1,19 @@
 ---
-keywords: varias audiencias;versiones de experiencias;versiones de experiencias de target
+keywords: varios públicos;versiones de experiencias;versiones de experiencias de target
 description: Aprenda a segmentar versiones de la misma experiencia a distintas audiencias en  [!DNL Adobe Target] actividades A/B.
 title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '608'
+ht-degree: 51%
 
 ---
 
-# Varias audiencias de una experiencia en una prueba A/B
+# Varios públicos de una experiencia en una prueba A/B
 
-Puede segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Visual Experience Composer] (VEC) o en el Compositor de experiencias basadas en formularios.
+Puede segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Compositor de experiencias visuales] (VEC) o en el Compositor de experiencias basadas en formularios.
 
 Los visitantes pueden cambiar entre audiencias de experiencia a medida que cambia su perfil. Los visitantes no están atascados en la misma experiencia durante toda la actividad.
 
@@ -31,23 +31,23 @@ En este caso, lo que necesita son versiones específicas de la experiencia, para
 
 1. [Cree una actividad A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) del modo normal.
 
-   Al configurar la experiencia que tendrá varias versiones, seleccione la audiencia de cada versión, como vemos en los pasos siguientes.
+   Al configurar la experiencia que tendrá varias versiones, seleccione el público de cada versión, como vemos en los pasos siguientes.
 
-1. Seleccione la experiencia y haga clic en **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Seleccione la experiencia y haga clic en **[!UICONTROL Configurar]** > **[!UICONTROL Audiencias]** > **[!UICONTROL Varias audiencias]**.
 
-   ![Opción Varias audiencias](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![Opción Varios públicos](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Haga clic en **[!UICONTROL Add Audience]** y seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada audiencia.
+1. Haga clic en **[!UICONTROL Agregar audiencia]** y luego seleccione la primera audiencia a la que desee dirigirse. Haga lo mismo por cada público.
 
    ![imagen exp-versions](assets/exp-versions.png)
 
-   Si la audiencia todavía no existe, haga clic en [Crear audiencia](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrela.
+   Si el público todavía no existe, haga clic en [Crear público](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) y configúrelo.
 
-   Si un visitante cumple los requisitos de más de una audiencia, se devuelve el contenido de todas las audiencias, pero en la página se representa la última de la lista.
+   Si un visitante cumple los requisitos de más de un público, se devuelve el contenido de todos los públicos, pero en la página se representa el último de la lista.
 
 1. Continúe configurando la actividad.
 
-## Prácticas recomendadas  
+## Prácticas recomendadas
 
 * Elija audiencias que se excluyan mutuamente. Si la actividad se creó en el VEC y un visitante coincide con más de una audiencia, se devuelve el contenido de cada audiencia y el contenido de la audiencia se muestra por última vez en la página.
 * Las audiencias de participación en la actividad definidas en el diagrama se combinan con las audiencias de experiencia mediante la condición AND. Para participar en la actividad, un visitante debe cumplir los requisitos de la audiencia de la actividad y los requisitos de una de las audiencias de la experiencia.

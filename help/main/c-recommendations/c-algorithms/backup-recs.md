@@ -2,21 +2,17 @@
 keywords: recomendación;copia de seguridad;copia;seguridad
 description: Aprenda a utilizar las recomendaciones de copia de seguridad en Adobe [!DNL Target Recommendations].
 title: ¿Cómo se usa una recomendación de copia de seguridad en  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 TQID: https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 69%
+source-wordcount: 533
+ht-degree: 68%
 
 ---
 
@@ -28,7 +24,7 @@ Si no utiliza una recomendación de copia de seguridad, y si una recomendación 
 
 >[!NOTE]
 >
->Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluida una matriz que explica los resultados que observará al usar las opciones [!UICONTROL Partial Design Rendering] y [!UICONTROL Show Backup Recommendations] juntas o por separado.
+>Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluida una matriz que explica los resultados que observará al usar las opciones [!UICONTROL Procesamiento de diseño parcial] y [!UICONTROL Mostrar recomendaciones de copia de seguridad] juntas o por separado.
 
 La función de recomendación de copia de seguridad siempre utiliza los elementos más vistos del sitio para rellenar las ranuras restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
 

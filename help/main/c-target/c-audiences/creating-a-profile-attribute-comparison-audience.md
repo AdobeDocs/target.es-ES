@@ -5,18 +5,13 @@ title: ¿Puedo comparar dos atributos de perfil para usarlos en audiencias?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
@@ -26,11 +21,11 @@ Defina una audiencia en [!DNL Adobe Target] para comparar dos atributos de perfi
 
 >[!NOTE]
 >
->Esta funcionalidad solo está disponible para la categoría [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+>Esta funcionalidad solo está disponible para la categoría [[!UICONTROL Perfil del visitante]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Información general {#section_303CBC78194D49A2A004945D425441E1}
 
-Los públicos están definidos por reglas que determinan quién se incluye o excluye de una actividad de [!DNL Target]. Una definición de audiencia puede incluir múltiples reglas, cada una de las cuales puede incluir múltiples parámetros. Si una de las reglas que incluye usa la categoría [!UICONTROL Visitor Profile], puede definir una regla basada en el valor específico de un atributo de perfil de visitante o comparar el valor de ese atributo con otro atributo de perfil de visitante.
+Los públicos están definidos por reglas que determinan quién se incluye o excluye de una actividad de [!DNL Target]. Una definición de audiencia puede incluir múltiples reglas, cada una de las cuales puede incluir múltiples parámetros. Si una de las reglas que incluye usa la categoría [!UICONTROL Perfil del visitante], puede definir una regla basada en el valor específico de un atributo de perfil de visitante o comparar el valor de ese atributo con otro atributo de perfil de visitante.
 
 Por ejemplo, supongamos que trabaja para una empresa de muebles y ha cargado dos puntuaciones de tendencia de clientes en [!DNL Target]:
 
@@ -43,10 +38,10 @@ Para obtener más información, consulte [Métodos para obtener datos en Target]
 
 ## Crear un público de comparación de atributos de perfil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
-1. Arrastre y suelte **[!UICONTROL Visitor Profile]** en el panel del generador de audiencias.
-1. En la lista desplegable **[!UICONTROL Visitor Profile]**, elija un atributo:
+1. Arrastre y suelte **[!UICONTROL Perfil del visitante]** en el panel del generador de audiencias.
+1. En la lista desplegable **[!UICONTROL Perfil del visitante]**, elija un atributo:
 
    ![Puntuación de propensión 1](assets/propensity_score_1.png)
 
@@ -54,7 +49,7 @@ Para obtener más información, consulte [Métodos para obtener datos en Target]
 
    ![Puntuación de propensión 2](assets/propensity_score_2.png)
 
-1. En la lista desplegable **[!UICONTROL Choose Comparison Type]**, elija **[!UICONTROL Attribute]**.
+1. En la lista desplegable **[!UICONTROL Elegir tipo de comparación]**, seleccione **[!UICONTROL Atributo]**.
 
    El tipo de comparación &quot;valor estático&quot; permite comparar el atributo de perfil del visitante con valores específicos.
 
@@ -68,10 +63,10 @@ Para obtener más información, consulte [Métodos para obtener datos en Target]
 
    ![imagen propensity_score_4](assets/propensity_score_4.png)
 
-1. Haga clic en **[!UICONTROL Done]**.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
 ## Vídeo de formación ![Distintivo de información general](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Vea el siguiente vídeo para obtener más información y ver un caso en el que podría utilizar esta función:
 
->[!VIDEO](https://video.tv.adobe.com/v/328109?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

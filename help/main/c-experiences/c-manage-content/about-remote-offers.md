@@ -5,16 +5,12 @@ title: ¿Cómo Puedo Crear Ofertas Remotas?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 19%
+source-wordcount: 1145
+ht-degree: 24%
 
 ---
 
@@ -22,7 +18,7 @@ ht-degree: 19%
 
 Use ofertas remotas para alojar contenido fuera de [!DNL Adobe Target], lo que permite que [!DNL Target] haga referencia a este contenido y lo envíe a los sitios web de los usuarios. Este contenido puede residir en un sistema de administración de contenido (CMS) u otro sistema por motivos de facilidad de uso o seguridad.
 
-Las ofertas remotas se pueden crear en la página [!UICONTROL Offers] > [!UICONTROL Code Offers] o en el [Compositor de experiencias basadas en Forms](/help/main/c-experiences/form-experience-composer.md). No puede crear ni aplicar ofertas remotas en [!UICONTROL Visual Experience Composer] (VEC). El contenido se inserta en las ubicaciones de solicitud [!DNL Target], por lo que es muy probable que estas ubicaciones no sean apropiadas para una solicitud [!DNL Target] global.
+Las ofertas remotas se pueden crear en la página [!UICONTROL Ofertas] > [!UICONTROL Ofertas de código] o en el [Compositor de experiencias basadas en Forms](/help/main/c-experiences/form-experience-composer.md). No puede crear ni aplicar ofertas remotas en el [!UICONTROL Compositor de experiencias visuales] (VEC). El contenido se inserta en las ubicaciones de solicitud [!DNL Target], por lo que es muy probable que estas ubicaciones no sean apropiadas para una solicitud [!DNL Target] global.
 
 Algunos ejemplos de ofertas remotas son:
 
@@ -50,60 +46,60 @@ Prácticas recomendadas para el uso de ofertas remotas en las actividades:
    * [Funciones Premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Segmentación automática y Recommendations)
    * Multivariate Testing (MVT), debido a la dependencia del VEC, que no admite ofertas remotas.
 
-* Si la oferta reside en el mismo dominio que las solicitudes de [!DNL Target], el uso de la opción [!UICONTROL Cached] le permite utilizar direcciones URL relativas para describir la ubicación de la oferta.
+* Si su oferta reside en el mismo dominio que las solicitudes de [!DNL Target], el uso de la opción [!UICONTROL En caché] le permite utilizar direcciones URL relativas para describir la ubicación de la oferta.
 
   Esto significa que, cuando mueve la actividad de los servidores de ensayo a la producción, el contenido es accesible automáticamente sin tener que cambiar la URL manualmente.
 
-* Si la prueba incluye datos generados dinámicamente por el servidor, la opción [!UICONTROL Dynamic] podría ser la correcta.
-* Si planea probar solamente la apariencia del contenido de oferta remota existente, use [!UICONTROL Visual Experience Composer] para cambiar la apariencia del contenido devuelto desde el sistema de administración de contenido.
+* Si la prueba incluye datos que el servidor haya generado dinámicamente, tal vez [!UICONTROL Dinámica] sea la opción conveniente.
+* Si solo planea comprobar la apariencia que tiene el contenido de la oferta remota existente, utilice el [!UICONTROL Compositor de experiencias visuales] para cambiar el aspecto del contenido que devuelve el sistema de gestión de contenido.
 * Use la [Matriz de selección de ofertas remotas](#reference_B23BEDD29DDD47709A7651AFD27E776B) (abajo) para elegir la oferta más adecuada para su caso específico. Si tiene alguna pregunta, consulte con su representante de cuentas.
 
-## Crear una oferta remota desde la página [!UICONTROL Code Offers]
+## Crear una oferta remota desde la página [!UICONTROL Ofertas de código]
 
-1. Haga clic en **[!UICONTROL Offers]** y luego seleccione la ficha **[!UICONTROL Code Offers]**.
+1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **[!UICONTROL Ofertas de código]**.
 
-1. Haga clic en **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
+1. Haga clic en **[!UICONTROL Crear oferta]** > **[!UICONTROL Oferta remota]**.
 
-1. En el cuadro de diálogo [!UICONTROL Create Remote Offer], proporcione un nombre descriptivo para la oferta.
+1. En el cuadro de diálogo [!UICONTROL Crear oferta remota], proporcione un nombre descriptivo para la oferta.
 
-   Un nombre descriptivo le ayuda a usted y a otros a encontrar rápidamente la oferta en la biblioteca [!UICONTROL Offers].
+   Un nombre descriptivo le ayudará a usted y a otros a encontrar rápidamente la oferta en la biblioteca [!UICONTROL Ofertas].
 
 1. (Condicional) Si tiene una [cuenta de Target Premium](/help/main/c-intro/intro.md#premium), seleccione el [espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) que desee.
 
 1. Especifique el tipo de URL de redireccionamiento.
 
-   Consulte [Tipo de URL de redireccionamiento: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic]](#url-type) a continuación para obtener más información.
+   Consulte [Tipo de URL de redireccionamiento: [!UICONTROL En caché en el sitio] o [!UICONTROL Dinámico en el sitio]](#url-type) a continuación para obtener más información.
 
 1. Especifique la dirección URL remota absoluta para la oferta remota.
 
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Crear]**.
 
-## Crear una oferta remota utilizando [!UICONTROL Form-Based Experience Composer]
+## Crear una oferta remota mediante [!UICONTROL Compositor de experiencias basadas en formularios]
 
-1. Al crear una actividad con [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione la ubicación para mostrar la sección **[!UICONTROL Content]**.
-1. Haga clic en la lista desplegable **[!UICONTROL Content]**, luego en el icono **[!UICONTROL List]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) y, por último, en **[!UICONTROL Change Remote Offer]**.
+1. Al crear una actividad con el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione la ubicación para mostrar la sección **[!UICONTROL Contenido]**.
+1. Haga clic en la lista desplegable **[!UICONTROL Contenido]**, haga clic en el icono **[!UICONTROL Lista]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) y, a continuación, haga clic en **[!UICONTROL Cambiar oferta remota]**.
 
-1. Haga clic en **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
+1. Haga clic en **[!UICONTROL Crear oferta]** > **[!UICONTROL Oferta remota]**.
 
 1. Escriba un nombre descriptivo para la oferta.
 
-   Un nombre descriptivo le ayuda a usted y a otros a encontrar rápidamente la oferta en la biblioteca [!UICONTROL Assets].
+   Un nombre descriptivo permite encontrar la oferta rápidamente en la biblioteca [!UICONTROL Activos].
 
 1. (Condicional) Si tiene una [cuenta de Target Premium](/help/main/c-intro/intro.md#premium), seleccione el [espacio de trabajo](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) que desee.
 
 1. Especifique el tipo de URL de redireccionamiento.
 
-   Consulte [Tipo de URL de redireccionamiento: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic]](#url-type) a continuación para obtener más información.
+   Consulte [Tipo de URL de redireccionamiento: [!UICONTROL En caché en el sitio] o [!UICONTROL Dinámico en el sitio]](#url-type) a continuación para obtener más información.
 
 1. Especifique la dirección URL remota para la oferta remota.
 
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Crear]**.
 
-## Tipo de dirección URL de redireccionamiento: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic] {#url-type}
+## Tipo de URL de redireccionamiento: [!UICONTROL en caché] o [!UICONTROL dinámico en el sitio] {#url-type}
 
 La siguiente información le ayuda a comprender las diferencias entre las dos opciones:
 
-### URL [!UICONTROL Onsite Cached]
+### [!UICONTROL Dirección URL almacenada en caché] in situ
 
 El contenido de una oferta remota en caché se suministra desde [!DNL Target].
 
@@ -113,29 +109,29 @@ Las ofertas remotas en caché proporcionan una seguridad mejorada porque alguien
 
 En una oferta remota en caché, puede especificar una dirección URL absoluta o relativa.
 
-### URL [!UICONTROL Onsite Dynamic]
+### [!UICONTROL Dirección URL dinámica en el sitio]
 
 Una oferta remota dinámica se suministra desde el sistema de administración de contenido o desde otro, no desde [!DNL Target].
 
 Es posible que no quiera que el contenido se almacene en caché periódicamente y que luego [!DNL Target] lo entregue cada vez que los visitantes carguen un sitio con una experiencia que incluya una oferta remota. En su lugar, debe llamar al sistema que aloja el contenido y posiblemente pasar información específica para que la oferta devuelta pueda ser dinámica (o diferente) para cada usuario. Por ejemplo, si un usuario inicia sesión en un sitio web de una tarjeta de crédito que incluye una experiencia con una oferta remota dinámica, podría pasar parámetros en la dirección URL relativos a la información de cuenta del usuario. Después, el sitio web podría dar información sobre el usuario, como el saldo de la cuenta.
 
-Puede hacer clic en **[!UICONTROL Add Parameter]** para agregar una o más [!DNL Target] solicitudes o parámetros de solicitud.
+Puede hacer clic en **[!UICONTROL Agregar parámetro]** para agregar una o más [!DNL Target] solicitudes o parámetros de solicitud.
 
 ## Usar ofertas remotas en actividades
 
-Aplicar ofertas remotas utilizando [!UICONTROL Form-Based Experience Composer]. Actualmente no puede aplicar ofertas remotas usando el [!UICONTROL Visual Experience Composer] (VEC).
+Aplicar ofertas remotas usando [!UICONTROL Compositor de experiencias basadas en formularios]. Actualmente no puede aplicar ofertas remotas usando el [!UICONTROL Compositor de experiencias visuales] (VEC).
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en las actividades [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Recommendations] cuando [!UICONTROL Visual Experience Composer] no está disponible o su uso no es práctico. Por ejemplo, podría usar [!UICONTROL Form-Based Experience Composer] para crear experiencias que usen ofertas remotas.
+[!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en [!UICONTROL pruebas A/B], [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Automated Personalization] (AP) y actividades de [!UICONTROL Recommendations] cuando [!UICONTROL Compositor de experiencias visuales] no está disponible o su uso no es práctico. Por ejemplo, podría usar [!UICONTROL Compositor de experiencias basadas en formularios] para crear experiencias que usen ofertas remotas.
 
-1. Cree o edite una actividad en [!UICONTROL Form-Based Experience Composer].
+1. Cree o edite una actividad en [!UICONTROL Compositor de experiencias basadas en formularios].
 
    Consulte [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) para obtener instrucciones detalladas paso a paso.
 
 1. Especifique la ubicación deseada y añada los refinamientos de audiencia que sean necesarios.
 
-1. Haga clic en la lista desplegable **[!UICONTROL Content]**, luego en el icono **[!UICONTROL List]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) y, por último, en **[!UICONTROL Change Remote Offer]**.
+1. Haga clic en la lista desplegable **[!UICONTROL Contenido]**, haga clic en el icono **[!UICONTROL Lista]** ( ![Lista](/help/main/assets/icons/MoreSmallList.svg) ) y, a continuación, haga clic en **[!UICONTROL Cambiar oferta remota]**.
 
-1. Seleccione la oferta remota que desee en el cuadro de diálogo [!UICONTROL Change Remote Offer] y haga clic en **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
+1. Seleccione la oferta remota que desee en el cuadro de diálogo [!UICONTROL Cambiar oferta remota] y luego haga clic en **[!UICONTROL Crear oferta]** > **[!UICONTROL Oferta remota]**.
 
 1. Termine de configurar la actividad.
 
@@ -159,7 +155,7 @@ La oferta se ejecuta después de que procese la página. Un iFrame invisible rec
 
 ## Matriz de selección de ofertas remotas {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-La matriz de selección de ofertas remotas le ayuda a decidir qué tipo de oferta remota elegir: [!UICONTROL Onsite Cached] o [!UICONTROL Onsite Dynamic].
+La matriz de selección de ofertas remotas le ayuda a decidir qué tipo de oferta remota elegir: [!UICONTROL En caché] o [!UICONTROL Dinámica in situ].
 
 | Función | Almacenamiento en caché in situ | Dinámico in situ |
 |--- |--- |--- |

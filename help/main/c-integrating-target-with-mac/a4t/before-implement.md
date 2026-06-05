@@ -5,26 +5,13 @@ title: ¿Qué debo saber antes de implementar A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 TQID: https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0aid: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1014
+source-wordcount: 1034
 ht-degree: 26%
 
 ---
@@ -37,7 +24,7 @@ Antes de decidir utilizar esta integración, revise las siguientes secciones y t
 
 >[!NOTE]
 >
->Este artículo se aplica solo a las implementaciones de at.js. Para obtener información acerca de la implementación de [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], vea el registro de [Adobe Analytics for Target (A4T) en Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=es){target=_blank}.
+>Este artículo se aplica solo a las implementaciones de at.js. Para obtener información sobre la implementación de [!UICONTROL Analytics for Target] (A4T) con [!DNL Adobe Experience Platform Web SDK], consulte el registro de [Adobe Analytics for Target (A4T) en Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Requisitos de implementación {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -101,7 +88,7 @@ El aumento de la latencia comienza después de implementar el servicio de ID de 
 
 Todas las llamadas de [!DNL Target] utilizadas por una actividad de A4T para entregar contenido o registrar la métrica de objetivo deben tener una visita de [!DNL Analytics] correspondiente que comparta el ID suplementario para A4T para funcionar correctamente.
 
-Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) como el parámetro `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
+Las visitas que contienen datos de [!DNL Analytics] y [!DNL Target] contienen un id. de datos suplementario. Puede ver este identificador en [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) como parámetro de `sdid`. Por ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Este ID se genera cada vez que se cumplen los siguientes criterios:
 
 * Se ha implementado el servicio de ID de visitante.
 
@@ -115,11 +102,11 @@ Hay casos en los que es posible que desee tener más control sobre cuándo y có
 
 ## Audiencias compartidas
 
-Al rellenar el [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenga en cuenta la siguiente información importante acerca de la opción [!UICONTROL Shared Audiences] que aparece en &quot;[!UICONTROL For which capabilities are you requesting provisioning]?&quot;
+Al rellenar el [Formulario de aprovisionamiento de integraciones de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenga en cuenta la siguiente información importante acerca de la opción [!UICONTROL Audiencias compartidas] que se muestra en &quot;[!UICONTROL Para qué capacidades solicita el aprovisionamiento]?&quot;
 
 ![Formulario de solicitud](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Al solicitar [!UICONTROL Shared Audiences], habilita [!UICONTROL Target] y [!UICONTROL Adobe Audience Manager] (AAM) para compartir información, en este caso audiencias.
+Cuando solicita [!UICONTROL audiencias compartidas], habilita a [!UICONTROL Target] y [!UICONTROL Adobe Audience Manager] (AAM) para compartir información, en este caso audiencias.
 
 >[!IMPORTANT]
 >

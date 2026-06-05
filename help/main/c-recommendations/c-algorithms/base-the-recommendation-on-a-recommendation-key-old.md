@@ -7,8 +7,8 @@ mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 33%
+source-wordcount: '4021'
+ht-degree: 32%
 
 ---
 
@@ -20,11 +20,11 @@ Cada tipo de algoritmo proporciona diferentes algoritmos adecuados para su tipo,
 
 | Tipo de algoritmo | Cuándo usar | Algoritmos disponibles |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | Haga recomendaciones basadas en el contenido del carro de compras del usuario. | <ul><li>Los ususarios que vieron estos, vieron aquellos</li><li>Los ususarios que vieron esto, compraron aquello.</li><li>Los ususarios que compraron estos, compraron aquellos</li></ul> |
-| [!UICONTROL Popularity-Based] | Haga recomendaciones basadas en la popularidad general de un elemento en el sitio o en la popularidad de elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario. | <ul><li>Más visitados en todo el sitio</li><li>Más visitados por categoría</li><li>Más visitados por atributo de artículo</li><li>Principales vendedores en todo el sitio</li><li>Principales vendedores por categoría</li><li>Principales vendedores por atributo de artículo</li><li>Superior por métrica de Analytics</li></ul> |
-| [!UICONTROL Item-Based] | Haga recomendaciones basadas en la búsqueda de artículos similares a los que el usuario está viendo en este momento o ha visto recientemente. | <ul><li>Los usuarios que vieron esto, vieron aquello.</li><li>Los usuarios que vieron esto, compraron aquello.</li><li>Los usuarios que compraron esto, compraron aquello.</li><li>Artículos con atributos similares</li></ul> |
-| [!UICONTROL User-Based] | Haga recomendaciones basadas en el comportamiento del usuario. | <ul><li>Artículos vistos recientemente. </li><li>Recomendado para usted</li></ul> |
-| [!UICONTROL Custom Criteria] | Cree recomendaciones basadas en un archivo personalizado que haya cargado. | <ul><li>Algoritmo personalizado</li></ul> |
+| [!UICONTROL Basado en el carro de compras] | Haga recomendaciones basadas en el contenido del carro de compras del usuario. | <ul><li>Los ususarios que vieron estos, vieron aquellos</li><li>Los ususarios que vieron esto, compraron aquello.</li><li>Los ususarios que compraron estos, compraron aquellos</li></ul> |
+| [!UICONTROL Basado en popularidad] | Haga recomendaciones basadas en la popularidad general de un elemento en el sitio o en la popularidad de elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario. | <ul><li>Más visitados en todo el sitio</li><li>Más visitados por categoría</li><li>Más visitados por atributo de artículo</li><li>Principales vendedores en todo el sitio</li><li>Principales vendedores por categoría</li><li>Principales vendedores por atributo de artículo</li><li>Superior por métrica de Analytics</li></ul> |
+| [!UICONTROL Basado en elementos] | Haga recomendaciones basadas en la búsqueda de artículos similares a los que el usuario está viendo en este momento o ha visto recientemente. | <ul><li>Los usuarios que vieron esto, vieron aquello.</li><li>Los usuarios que vieron esto, compraron aquello.</li><li>Los usuarios que compraron esto, compraron aquello.</li><li>Artículos con atributos similares</li></ul> |
+| [!UICONTROL Basado en usuario] | Haga recomendaciones basadas en el comportamiento del usuario. | <ul><li>Artículos vistos recientemente.</li><li>Recomendado para usted</li></ul> |
+| [!UICONTROL Criterios personalizados] | Cree recomendaciones basadas en un archivo personalizado que haya cargado. | <ul><li>Algoritmo personalizado</li></ul> |
 
 Cada criterio está definido en su propia pestaña. El tráfico se divide equitativamente en las distintas pruebas de criterios. Es decir, si tiene dos criterios, el tráfico se divide a partes iguales entre ellos. Si tiene dos criterios y dos diseños, el tráfico se divide equitativamente entre las cuatro combinaciones. También puede especificar el porcentaje de los visitantes del sitio que ven el contenido predeterminado, para su comparación. En ese caso, el porcentaje especificado de visitantes ve el contenido predeterminado y el resto se divide entre los criterios y las combinaciones de diseño.
 
@@ -34,27 +34,27 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en diferentes
 
 ## Basado en el carro {#cart-based}
 
-El tipo de algoritmo [!UICONTROL Cart-Based] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
-La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios &quot;[!UICONTROL Recommended For You]&quot; y a los algoritmos basados en elementos &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; y &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
+La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios de &quot;[!UICONTROL Recomendado para ti]&quot; y a las &quot;[!UICONTROL Personas que vieron esto, compraron aquello]&quot; y &quot;[!UICONTROL Personas que compraron esto, compraron aquello]&quot;.
 
 [!DNL Target] utiliza técnicas de filtrado colaborativas para determinar las similitudes de cada elemento en el carro de compras del visitante y, a continuación, combina estas similitudes de comportamiento en cada elemento para obtener una lista combinada.
 
 [!DNL Target] también ofrece a los especialistas en mercadotecnia la opción de observar el comportamiento de los visitantes en una sola sesión o en varias:
 
-* **[!UICONTROL Single Session]**: según lo que hayan hecho otros visitantes en una sola sesión.
+* **[!UICONTROL Sesión única]**: según lo que hayan hecho otros visitantes en una sola sesión.
 
   Observar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; los unos a los otros en función de un uso, una ocasión o un evento. Por ejemplo, un visitante está comprando una impresora y también podría necesitar tinta y papel. O bien, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
 
-* **[!UICONTROL Across Sessions]**: según lo que hayan hecho otros visitantes en varias sesiones.
+* **[!UICONTROL En varias sesiones]**: según lo que hayan hecho otros visitantes en varias sesiones.
 
   Observar el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos se &quot;acompañan&quot; mutuamente en función de las preferencias o los gustos de los visitantes. Por ejemplo, a un visitante le gusta Star Wars y puede que también le guste Indiana Jones, aunque el visitante no quiera necesariamente ver ambas películas en la misma sesión. O bien, a un visitante le gusta el juego de mesa &quot;Codenames&quot; y también le puede gustar el juego de mesa &quot;Avalon&quot;, incluso si el visitante no puede jugar ambos juegos simultáneamente. 
 
 [!DNL Target] realiza recomendaciones para cada visitante basadas en los elementos de su carro de compras actual, independientemente de si observa el comportamiento de los visitantes en una sola sesión o en varias.
 
-Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL Cart-Based]:
+Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL Basado en el carro de compras]:
 
-### [!UICONTROL People Who Viewed This, Viewed Those]
+### [!UICONTROL Quienes Vieron Esto, Vieron Aquellos]
 
 Recomienda artículos que se visitan con mayor frecuencia en la misma sesión en que se ve el artículo especificado.
 
@@ -99,11 +99,11 @@ Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recomme
 * Último artículo visitado
 * Artículo más visitado
 
-## [!UICONTROL Popularity-Based]
+## [!UICONTROL Basado en popularidad]
 
-El tipo de algoritmo [!UICONTROL Popularity-Based] le permite hacer recomendaciones basadas en la popularidad general de un elemento en su sitio o en la popularidad de elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario.
+El tipo de algoritmo [!UICONTROL Basado en la popularidad] le permite hacer recomendaciones basadas en la popularidad general de un elemento en su sitio o en la popularidad de los elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario.
 
-Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL Popularity-Based]:
+Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL Basado en popularidad]:
 
 ### Más visitados en todo el sitio {#most-viewed}
 
@@ -174,11 +174,11 @@ A continuación, puede seleccionar qué atributos de perfil almacenados en el pe
 
 Muestra la &quot;x superior&quot; donde *x* es una métrica [!DNL Analytics] arbitraria. Al utilizar datos de comportamiento de mboxes, puede utilizar Más vendidos o Más visitados (x = &quot;Vendido&quot; o x = &quot;Visto&quot;). Si está usando datos de comportamiento de [!DNL Adobe Analytics], podría usar x = &quot;Adiciones al carro de compras&quot; o alguna otra métrica de [!DNL Analytics].
 
-## [!UICONTROL Item-Based]
+## [!UICONTROL Basado en elementos]
 
-El tipo de recomendación [!UICONTROL Item-Based] le permite hacer recomendaciones basadas en la búsqueda de artículos similares a un artículo que el usuario está viendo en este momento o que ha visto recientemente.
+El tipo de recomendación [!UICONTROL Basada en elementos] le permite hacer recomendaciones basadas en la búsqueda de artículos similares a un artículo que el usuario está viendo en este momento o que ha visto recientemente.
 
-Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL Item-Based]:
+Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL Basado en elementos]:
 
 ### Los usuarios que vieron esto, vieron aquello. {#viewed-viewed}
 
@@ -242,11 +242,11 @@ Si selecciona este algoritmo, puede seleccionar las siguientes claves de Recomme
 
 Para obtener más información, consulte [Similitud de contenido](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
-## [!UICONTROL User-Based]
+## [!UICONTROL Basado en usuario]
 
 El tipo de algoritmo basado en usuarios le permite hacer recomendaciones basadas en el comportamiento del usuario.
 
-Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL User-Based]:
+Los siguientes algoritmos están disponibles con el tipo de algoritmo [!UICONTROL Basado en el usuario]:
 
 ### Artículos vistos recientemente {#recently-viewed}
 
@@ -256,9 +256,9 @@ El algoritmo de artículos vistos recientemente devuelve el resultado específic
 
 >[!NOTE]
 >
->No puede usar los criterios [!UICONTROL Recently Viewed Items] para recomendaciones de copia de seguridad.
+>No puede usar los criterios de [!UICONTROL Artículos vistos recientemente] para las recomendaciones de copia de seguridad.
 
-[!UICONTROL Recently Viewed Items]/Medios se pueden filtrar para que solo se muestren los elementos con un atributo en particular.
+[!UICONTROL Elementos vistos recientemente]/Medios se pueden filtrar para que solo se muestren los elementos con un atributo en particular.
 
 * Los criterios visualizados recientemente se pueden configurar, como otros criterios en las recomendaciones.
 * Puede usar [colecciones](/help/main/c-recommendations/c-products/collections.md), [exclusiones](/help/main/c-recommendations/c-products/exclusions.md) e [inclusiones](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluidas las reglas especiales para Precio e Inventario) de la misma manera que cualquier otro criterio.
@@ -269,7 +269,7 @@ Utilice este algoritmo en páginas generales, como páginas de inicio o de desti
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] respeta tanto la configuración global de exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará. Por lo tanto, cuando se usan los criterios de [!UICONTROL Recently Viewed Items], se suele usar la configuración &quot;Todas las colecciones&quot;.
+>[!UICONTROL Elementos vistos recientemente] respeta tanto la configuración global de exclusiones como la configuración de colección seleccionada para la actividad. Si un elemento queda excluido por una exclusión global o no está contenido en la colección seleccionada, no se mostrará. Por lo tanto, cuando se usa un criterio de [!UICONTROL Artículos vistos recientemente], se debería usar la configuración &quot;Todas las colecciones&quot;.
 
 ### Recomendado para usted {#recommended-for-you}
 
@@ -295,7 +295,7 @@ Si selecciona este algoritmo, puede seleccionar las siguientes claves de filtrad
 
 El tipo de algoritmo de criterios personalizados permite realizar recomendaciones basadas en un archivo personalizado que se carga.
 
-La recomendación viene determinada por un elemento almacenado en el perfil de un visitante, utilizando los atributos user.*x* o perfil.atributos *x*.
+La recomendación está determinada por un elemento almacenado en el perfil de un visitante, que usa los atributos user.*x* o profile.*x*.
 
 Si se selecciona está opción, el valor `entity.id` debe estar presente en el atributo del perfil.
 
@@ -303,7 +303,7 @@ Cuando basa las recomendaciones en atributos personalizados, debe seleccionar el
 
 Puede realizar el filtrado en tiempo real sobre su propia salida de criterios personalizados. Por ejemplo, puede limitar sus artículos recomendados solo a aquellos de la categoría o marca favorita de un visitante. Esto le da la capacidad de combinar cálculos sin conexión con filtrado en tiempo real.
 
-Esta funcionalidad significa que puede usar [!DNL Target] para agregar personalización además de sus recomendaciones calculadas sin conexión o listas personalizadas. Esto combina el poder de sus científicos e investigadores de datos con la entrega probada y comprobada de Adobe, el filtrado en tiempo de ejecución, las pruebas A/B, la orientación, los informes, las integraciones y más.
+Esta funcionalidad significa que puede usar [!DNL Target] para agregar personalización además de sus recomendaciones calculadas sin conexión o listas personalizadas. Esto combina el poder de sus científicos e investigadores de datos con la entrega probada y comprobada de Adobe, el filtrado en tiempo de ejecución, las pruebas A/B, la segmentación, los informes, las integraciones y más.
 
 Con la adición de reglas de inclusión en Criterios personalizados, convierte las recomendaciones estáticas en recomendaciones dinámicas basadas en los intereses de los visitantes.
 
@@ -318,7 +318,7 @@ Los posibles casos de uso incluyen:
 
 ## Claves de recomendación {#keys}
 
-Las siguientes claves de recomendación están disponibles en la lista desplegable [!UICONTROL Recommendation Key]:
+Las siguientes claves de recomendación están disponibles en la lista desplegable [!UICONTROL Clave de recomendación]:
 
 ### Artículo actual {#current-item}
 
@@ -330,12 +330,12 @@ Si se selecciona está opción, el valor `entity.id` debe pasarse como parámetr
 
 Se puede utilizar con los siguientes algoritmos:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elementos con atributos similares]
+* [!UICONTROL Las Personas Que Vieron Esto, Vieron Aquello]
+* [!UICONTROL Otras Personas Que Vieron Esto, Compraron Aquello]
+* [!UICONTROL Otras Personas Que Compraron Esto, Compraron Aquello]
 
-Usar la clave de recomendaciones [!UICONTROL Current Item] del sitio en:
+Usar la clave de recomendaciones [!UICONTROL Elemento actual] en el sitio en:
 
 * Páginas con un solo elemento, como las páginas de productos.
 * NO lo utilice en páginas de resultados de búsqueda nulos.
@@ -346,12 +346,12 @@ La recomendación está determinada por el último artículo que compró cada vi
 
 Se puede utilizar con los siguientes algoritmos:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elementos con atributos similares]
+* [!UICONTROL Las Personas Que Vieron Esto, Vieron Aquello]
+* [!UICONTROL Otras Personas Que Vieron Esto, Compraron Aquello]
+* [!UICONTROL Otras Personas Que Compraron Esto, Compraron Aquello]
 
-Usar la clave de recomendaciones [!UICONTROL Last Purchased Item] del sitio en:
+Usa la clave de recomendaciones [!UICONTROL Último artículo comprado] en tu sitio en:
 
 * La página inicial, la página Mi cuenta o anuncios externos.
 * NO lo utilice en páginas de productos o en páginas importantes para las compras.
@@ -360,18 +360,18 @@ Usar la clave de recomendaciones [!UICONTROL Last Purchased Item] del sitio en:
 
 Puede basar las recomendaciones en el valor de un atributo de perfil personalizado. Por ejemplo, supongamos que desea mostrar películas recomendadas basadas en la película que agregó un visitante recientemente a su cola.
 
-1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Recommendation Key]** (por ejemplo, &quot;Última visualización agregada a la lista de observación&quot;).
-1. A continuación, seleccione su **[!UICONTROL Recommendation Logic]** (por ejemplo, &quot;Las personas que vieron esto, vieron aquello&quot;).
+1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;Última visualización agregada a la lista de observación&quot;).
+1. A continuación, seleccione su **[!UICONTROL lógica de recomendación]** (por ejemplo, &quot;Las personas que vieron esto, vieron aquello&quot;).
 
    ![Crear nuevo cuadro de diálogo de criterios](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicar cómo [!DNL Recommendations] desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la marca favorita de un visitante.
 
-1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Recommendation Key]** (por ejemplo, &quot;Marca favorita&quot;).
+1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;Marca favorita&quot;).
 
-1. A continuación, seleccione el(la) **[!UICONTROL Recommendation Logic]** que desee utilizar con esta clave (por ejemplo, &quot;Vendedores principales&quot;).
+1. A continuación, seleccione la **[!UICONTROL Lógica de recomendación]** que desee usar con esta clave (por ejemplo, &quot;Principales vendedores&quot;).
 
-   Se muestra la opción [!UICONTROL Group By Unique Value Of].
+   Se muestra la opción [!UICONTROL Agrupar por valor único de].
 
 1. Seleccione el atributo de entidad que coincida con la clave elegida. En este caso, &quot;Marca favorita&quot; coincide con `entity.brand`.
 
@@ -385,12 +385,12 @@ La recomendación está determinada por el último artículo que vio cada visita
 
 Se puede utilizar con los siguientes algoritmos:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elementos con atributos similares]
+* [!UICONTROL Las Personas Que Vieron Esto, Vieron Aquello]
+* [!UICONTROL Otras Personas Que Vieron Esto, Compraron Aquello]
+* [!UICONTROL Otras Personas Que Compraron Esto, Compraron Aquello]
 
-Usar la clave de recomendaciones [!UICONTROL Last Viewed Item] del sitio en:
+Usa la clave de recomendaciones [!UICONTROL Último artículo visto] en tu sitio en:
 
 * La página inicial, la página Mi cuenta o anuncios externos.
 * NO lo utilice en páginas de productos o en páginas importantes para las compras.
@@ -403,10 +403,10 @@ Esta lógica le permite mostrar recomendaciones basadas en los artículos más v
 
 Esta clave de recomendación se puede utilizar con los siguientes algoritmos:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elementos con atributos similares]
+* [!UICONTROL Las Personas Que Vieron Esto, Vieron Aquello]
+* [!UICONTROL Otras Personas Que Vieron Esto, Compraron Aquello]
+* [!UICONTROL Otras Personas Que Compraron Esto, Compraron Aquello]
 
 ### Categoría actual {#current-category}
 
@@ -421,7 +421,7 @@ Esta clave de recomendación se puede utilizar con los siguientes algoritmos:
 * Principales vendedores
 * Más visitados
 
-Usar la clave de recomendaciones [!UICONTROL Current Category] del sitio en:
+Usar la clave de recomendaciones [!UICONTROL Categoría actual] en el sitio en:
 
 * Páginas de una sola categoría.
 * NO lo utilice en páginas de resultados de búsqueda nulos.
@@ -439,7 +439,7 @@ Esta clave de recomendación se puede utilizar con los siguientes algoritmos:
 * Principales vendedores
 * Más visitados
 
-Usar la clave de recomendaciones [!UICONTROL Current Category] del sitio en:
+Usar la clave de recomendaciones [!UICONTROL Categoría actual] en el sitio en:
 
 * Páginas de una sola categoría.
 * NO lo utilice en páginas de resultados de búsqueda nulos.

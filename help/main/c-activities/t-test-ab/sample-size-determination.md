@@ -5,24 +5,19 @@ title: ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 3150
+source-wordcount: 3184
 ht-degree: 47%
 
 ---
 
 # ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 
-Una actividad [!UICONTROL A/B Test] correcta en [!DNL Adobe Target] requiere suficientes visitantes (tamaño de muestra) para mejorar la tasa de conversión. ¿Cómo sabe durante cuánto tiempo se debe ejecutar una prueba A/B? Este artículo contiene información sobre [!UICONTROL Auto-Allocate] actividades y la calculadora de tamaño de muestra [!UICONTROL Adobe Target] para ayudarle a asegurarse de que su actividad tenga suficientes visitantes para lograr sus objetivos.
+Una actividad [!UICONTROL Prueba A/B] correcta en [!DNL Adobe Target] requiere suficientes visitantes (tamaño de muestra) para mejorar la tasa de conversión. ¿Cómo sabe durante cuánto tiempo se debe ejecutar una prueba A/B? Este artículo contiene información sobre las actividades de [!UICONTROL asignación automática] y la calculadora de tamaño de muestra de [!UICONTROL Adobe Target] para ayudarte a asegurarte de que tu actividad tenga suficientes visitantes para lograr tus objetivos.
 
 Es tentador detener una actividad si una de las ofertas tiene un rendimiento mejor o peor que las demás en los primeros días de la actividad. Sin embargo, cuando el número de observaciones es reducido, existe una alta probabilidad de observar un alza positiva o negativa solo por casualidad, puesto que la tasa de conversión se promedia a partir de un número bajo de visitantes. A medida que la actividad recopila más puntos de datos, las tasas de conversión convergen hacia sus verdaderos valores a largo plazo.
 
@@ -34,21 +29,21 @@ Es tentador detener una actividad si una de las ofertas tiene un rendimiento mej
 
 ## Asignación automática {#auto-allocate}
 
-Una actividad [de asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) es un tipo de prueba A/B que identifica un ganador entre dos o más experiencias. Una prueba [!UICONTROL Auto-Allocate] reasigna automáticamente más tráfico al ganador para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
+Una actividad [de asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) es un tipo de prueba A/B que identifica un ganador entre dos o más experiencias. Una prueba de [!UICONTROL Asignación automática] reasigna automáticamente más tráfico al ganador para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
 Las pruebas A/B estándar tienen un coste inherente. Debe invertir tráfico para medir el rendimiento de cada experiencia y utilizar el análisis para determinar la experiencia ganadora. La distribución del tráfico sigue siendo fija incluso después de reconocer que el rendimiento de algunas experiencias supera al de otras. Además, es complicado determinar el tamaño de la muestra, y la actividad debe haber finalizado para poder tomar medidas con la mejor experiencia. Y todavía hay una posibilidad de que el ganador identificado no sea un verdadero ganador.
 
-La solución es [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] reduce el costo y los gastos generales de determinar una experiencia ganadora. [!UICONTROL Auto-Allocate] supervisa el rendimiento de la métrica de objetivos de todas las experiencias y envía proporcionalmente a más visitantes nuevos a las experiencias de alto rendimiento. Se reserva bastante tráfico para explorar el resto de las experiencias. Puede ver los beneficios de la actividad en los resultados, incluso mientras la actividad sigue ejecutándose: la optimización se produce en paralelo con el aprendizaje.
+La solución es [!UICONTROL Asignación automática]. [!UICONTROL Asignación automática] reduce el costo y los gastos generales de determinar una experiencia ganadora. [!UICONTROL Asignación automática] supervisa el rendimiento de la métrica objetivo de todas las experiencias y envía proporcionalmente a más participantes nuevos a las experiencias de alto rendimiento. Se reserva bastante tráfico para explorar el resto de las experiencias. Puede ver los beneficios de la actividad en los resultados, incluso mientras la actividad sigue ejecutándose: la optimización se produce en paralelo con el aprendizaje.
 
-[!UICONTROL Auto-Allocate] mueve a los visitantes hacia experiencias ganadoras de forma gradual, en lugar de requerir que espere hasta que termine una actividad para determinar un ganador. Saca provecho del alza más rápidamente porque a los visitantes de la actividad a los que se ha enviado a experiencias con peor rendimiento se les muestran experiencias que potencialmente son las ganadoras.
+[!UICONTROL Asignación automática] mueve a los visitantes hacia experiencias ganadoras gradualmente, en lugar de requerir que esperes hasta que termine una actividad para determinar un ganador. Saca provecho del alza más rápidamente porque a los visitantes de la actividad a los que se ha enviado a experiencias con peor rendimiento se les muestran experiencias que potencialmente son las ganadoras.
 
-Al usar [!UICONTROL Auto-Allocate], [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando &quot;Ningún ganador aún&quot; hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza. [!DNL Target] declara la experiencia ganadora mostrando un distintivo en la parte superior de la página de la actividad.
+Al usar [!UICONTROL Asignación automática], [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando &quot;Ningún ganador aún&quot; hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza. [!DNL Target] declara la experiencia ganadora mostrando un distintivo en la parte superior de la página de la actividad.
 
 Para obtener más información, vea [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Calculadora de tamaño de muestra de Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Si decide utilizar una actividad [!UICONTROL A/B Test] manual en lugar de [!UICONTROL Auto-Allocate], la calculadora de tamaño de muestra [!DNL Target] le ayudará a determinar el tamaño de muestra necesario para que la prueba se realice correctamente. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. El uso de la calculadora para una actividad [!UICONTROL Auto-Allocate] es opcional porque [!UICONTROL Auto-Allocate] declara un ganador en su lugar. La calculadora le da una estimación aproximada del tamaño de la muestra necesaria. Siga leyendo para obtener más información sobre cómo usar la calculadora.
+Si decide utilizar una actividad [!UICONTROL Prueba A/B] manual en lugar de [!UICONTROL Asignación automática], la calculadora de tamaño de muestra [!DNL Target] le ayudará a determinar el tamaño de muestra necesario para que la prueba se realice correctamente. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. El uso de la calculadora para una actividad de [!UICONTROL asignación automática] es opcional porque [!UICONTROL asignación automática] declara un ganador por usted. La calculadora le da una estimación aproximada del tamaño de la muestra necesaria. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
 Antes de configurar su prueba A/B, acceda a la [!DNL Adobe Target] [Calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es).
 
@@ -154,7 +149,7 @@ Una vez más, se recomienda que el tiempo necesario se redondee siempre a la sem
 
 Al usar Ingresos por visita (RPV) como métrica, se agrega una fuente de variación adicional porque RPV es el producto de ingresos por pedido y tasa de conversión (RPV = Ingresos / #visitors = (Ingresos por pedido &#42; #orders) / # visitantes = Ingresos por pedido &#42; (#visitors &#42; CTR) / #visitors = Ingresos por pedido &#42; CTR), cada uno con su propia variación. La varianza de la tasa de conversión puede estimarse directamente utilizando un modelo matemático, pero la varianza de los ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la variación en los ingresos. La variación se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecido, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
-La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una ficha denominada [!UICONTROL RPV Metric]. Necesitará la siguiente información al usar la versión de RPV de la calculadora:
+La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una ficha denominada [!UICONTROL Métrica RPV]. Necesitará la siguiente información al usar la versión de RPV de la calculadora:
 
 * Número de visitantes a la oferta de control
 * Ingresos totales para la oferta de control
@@ -173,6 +168,6 @@ Cada vez que compara dos ofertas, las posibilidades de obtener un falso positivo
 
 ## Conclusión. {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Al usar una actividad [!UICONTROL Auto-Allocate], [!DNL Target] identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. [!UICONTROL Auto-Allocate] facilita la consecución de los objetivos de conversión al eliminar el trabajo de conjetura.
+Al usar una actividad [!UICONTROL Asignación automática], [!DNL Target] identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. [!UICONTROL Asignación automática] facilita la consecución de los objetivos de conversión al eliminar el trabajo de conjetura.
 
 Al utilizar la calculadora de tamaño de la muestra (vínculo proporcionado arriba) presentada en este artículo y permitir que la prueba se ejecute durante el tiempo sugerido por ella, puede asegurarse de que siempre está haciendo pruebas A/B de alta calidad que se adhieren a las tasas de falsos positivos y falsos negativos que ha decidido que son adecuados para la prueba específica. Esto garantiza que sus pruebas sean coherentes y capaces de detectar el alza que está buscando.

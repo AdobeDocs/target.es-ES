@@ -5,18 +5,10 @@ title: ¿Qué perfiles, variables y parámetros se usan en  [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 TQID: https://experienceleague.adobe.com/YMF4eXnu758kloK--c2mBzP-rwLBNRO2jLoV6s-P5JM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 699
@@ -98,7 +90,7 @@ Esta página contiene una lista de perfiles, variables y parámetros que son út
 | mbox.param(&#39;param_name&#39;) |  |
 | Parámetros que se transfieren automáticamente en todas las peticiones<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |  |
 | Parámetros transferidos con mboxes de pedidos:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |  |
-| mbox3rdPartyId | Un parámetro de mbox para sincronizar un ID de cliente con el mboxPCID de Target. Un ID de cliente es un ID que su empresa usa para rastrear los visitantes, como pueden ser un ID de administración de la relación con los clientes, un ID de pertenencia u otro similar. Este identificador se puede usar para agregar información a través de las API del perfil y los [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es){target=_blank}. |
+| mbox3rdPartyId | Un parámetro de mbox para sincronizar un ID de cliente con el mboxPCID de Target. Un ID de cliente es un ID que su empresa usa para rastrear los visitantes, como pueden ser un ID de administración de la relación con los clientes, un ID de pertenencia u otro similar. Este identificador se puede usar para agregar información a través de las API del perfil y los [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | En cada llamada de mbox, la página se asigna a un valor. |
 | mboxDebug | Solo se utiliza para información de depuración. Se añade a la dirección URL de la página donde at.js lo busca. |
 | mboxOverride.browserIp | Establece una ubicación geográfica diferente a la real para que pueda probar el aspecto que tendría algo en otra ubicación.<br>**Nota:** Si usa parámetros mboxOverride, sólo debe usarse al probar la actividad y no en la producción. El uso de cualquier parámetro mboxOverride puede provocar discrepancias en los informes al usar [Analytics para Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilice el [modo de control de calidad de la actividad](/help/main/c-activities/c-activity-qa/activity-qa.md) durante las pruebas para asegurarse de que la actividad funciona del modo esperado antes de insertarla en su entorno activo. |

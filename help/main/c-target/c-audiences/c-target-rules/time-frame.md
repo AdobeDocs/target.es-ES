@@ -5,32 +5,29 @@ title: ¿Puedo segmentar visitantes que visitan mi sitio en momentos específico
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 TQID: https://experienceleague.adobe.com/EilEXJtLuzmytW8OmhGbhOTfsVxx4WuTKfT6zgmFYdc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 454
 ht-degree: 24%
 
 ---
 
-# [!UICONTROL Time Frame]
+# [!UICONTROL Lapso de tiempo]
 
 Puede agregar fechas y horas de inicio y finalización en [!DNL Adobe Target] para segmentar usuarios que visiten el sitio durante un lapso de tiempo específico. También puede establecer opciones de Partición por semana y día para crear patrones recurrentes en la segmentación de audiencia.
 
 Por ejemplo, con la [función de audiencias combinadas ad hoc](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), puede dirigirse a las personas que gastan poco para mostrarles contenido específico durante los tres días previos al Black Friday y otro contenido después del Black Friday.
 
-1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
-1. Arrastre y suelte **[!UICONTROL Time Frame]** en el panel del generador de audiencias.
+1. Arrastre y suelte **[!UICONTROL Lapso de tiempo]** en el panel del generador de audiencias.
 
    ![imagen target_timeframe_dialog](assets/target_timeframe_dialog.png)
 
-1. Especifique las fechas y horas de [!UICONTROL Start] y [!UICONTROL End] para la audiencia.
+1. Especifique las fechas y horas de [!UICONTROL Inicio] y [!UICONTROL Finalización] para la audiencia.
 
    Deje en blanco la fecha de inicio para empezar a dirigirse a su audiencia siguiendo la programación de la actividad. Deje en blanco la fecha de fin para continuar dirigiéndose a su audiencia hasta la fecha y hora de fin de la actividad.
 
@@ -44,23 +41,23 @@ Por ejemplo, con la [función de audiencias combinadas ad hoc](/help/main/c-targ
    >
    >* Las audiencias de hora [!DNL Target] no tienen en cuenta los cambios del horario de verano (DST). Debe volver a guardar las audiencias manualmente para tener en cuenta los cambios de DST.
 
-1. (Condicional) Haga clic en **[!UICONTROL Set frequency]** para establecer patrones recurrentes, incluidos los días de las semanas y las horas.
+1. (Condicional) Haga clic en **[!UICONTROL Establecer frecuencia]** para establecer patrones recurrentes, incluidos los días de las semanas y las horas.
 
    ![División por semana y día](assets/week_and_day_parting.png)
 
-   Puede usar las opciones de [!UICONTROL Frequency], por ejemplo, para mostrar la opción &quot;Chatear ahora&quot; a los visitantes solo durante los días y las horas laborables de su centro de llamadas.
+   Puede usar las opciones de [!UICONTROL Frecuencia], por ejemplo, para mostrar la opción &quot;Chatear ahora&quot; a los visitantes solo durante los días y las horas laborables de su centro de llamadas.
 
-   Seleccione uno o varios días de la semana y luego defina las horas de inicio y fin. Haga clic en **[!UICONTROL Add frequency]** para especificar otros patrones si lo desea.
+   Seleccione uno o varios días de la semana y luego defina las horas de inicio y fin. Haga clic en **[!UICONTROL Agregar frecuencia]** para especificar patrones adicionales, como desee.
 
    >[!NOTE]
    >
-   >La zona horaria de [!UICONTROL Week and Day Parting] aparece como GMT +/- NN:NN, donde NN:NN es la diferencia con respecto a la zona GMT. Refleja la zona horaria de la cuenta, no la del visitante. Por ejemplo, la zona horaria de California para el horario de verano del Pacífico sería GMT -07:00.
+   >La zona horaria de [!UICONTROL División por semana y día] aparece como GMT +/- NN:NN, donde NN:NN es la diferencia con respecto a la zona GMT. Refleja la zona horaria de la cuenta, no la del visitante. Por ejemplo, la zona horaria de California para el horario de verano del Pacífico sería GMT -07:00.
 
 1. (Opcional) Configure reglas adicionales para la audiencia.
 
    Si lo desea, puede repetir el paso 5 con cada regla.
 
-1. Haga clic en **[!UICONTROL Done]**.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
 ## Vídeo de formación: Creación de audiencias ![Distintivo de información general](/help/main/assets/overview.png)
 

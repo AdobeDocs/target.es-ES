@@ -5,16 +5,12 @@ title: ¿Cómo creo una actividad que utiliza A4T?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 662
 ht-degree: 28%
 
 ---
@@ -29,7 +25,7 @@ Antes de configurar una actividad que usa [!DNL Analytics] como fuente de inform
 
 Crear una actividad [!DNL Target] que use [!DNL Analytics] como origen de informes es similar a configurar una actividad [!DNL Target] normal, con algunas diferencias importantes. Por ejemplo, no puede seleccionar un segmento para la creación de informes mientras crea la actividad, ya que todos los segmentos disponibles en [!DNL Analytics] se pueden aplicar cuando se visualiza un informe.
 
-1. Haga clic en **[!UICONTROL Create Activity]**.
+1. Haga clic en **[!UICONTROL Crear actividad]**.
 
    >[!NOTE]
    >
@@ -39,9 +35,9 @@ Crear una actividad [!DNL Target] que use [!DNL Analytics] como origen de inform
 
 1. Seleccione el tipo de actividad y comience a configurarla.
 
-   Si desea crear una actividad [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], consulte [Compatibilidad de A4T con actividades de asignación automática y segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) para obtener más información.
+   Si desea crear una actividad de [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática], consulte la [compatibilidad de A4T con las actividades de Asignación automática y Segmentación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) para obtener más información.
 
-1. Cuando llegue a la parte **[!UICONTROL Settings]** del flujo de trabajo de creación de la actividad, elija **[!UICONTROL Adobe Analytics]** y especifique su empresa.
+1. Cuando llegue a la parte **[!UICONTROL Configuración]** del flujo de trabajo de creación de actividades, elija **[!UICONTROL Adobe Analytics]** y especifique su compañía.
 1. Seleccione un grupo de informes.
 
    Puede elegir cualquier grupo de informes disponible en [!DNL Analytics]. El grupo de informes define dónde están disponibles los datos recopilados. Los grupos de informes virtuales no se incluyen en la lista de grupos de informes.
@@ -79,7 +75,7 @@ Crear una actividad [!DNL Target] que use [!DNL Analytics] como origen de inform
    >
    >Al configurar una actividad después de configurar [!DNL Analytics] como fuente de informes, no hay ninguna opción para configurar audiencias para los informes. [!DNL Analytics] segmentos están disponibles en el informe [!DNL Target] actividades.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Actividades de A4T y asignación automática y segmentación automática
 

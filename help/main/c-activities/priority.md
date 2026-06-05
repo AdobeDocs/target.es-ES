@@ -5,25 +5,21 @@ title: ¿Cómo  [!DNL Target] asigna prioridad a diferentes actividades?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 36%
+source-wordcount: 987
+ht-degree: 34%
 
 ---
 
 # Prioridad
 
-[!DNL Adobe Target] determina qué actividad (o actividades) se enviará a una página de forma diferente en función de qué interfaz de [!DNL Target] y de qué función de creación de actividades ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md)) esté usando.
+[!DNL Adobe Target] determina qué actividad (o actividades) se enviará a una página de forma diferente en función de qué interfaz de [!DNL Target] y de qué función de creación de actividades ([[!UICONTROL Compositor de experiencias visuales (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md)) esté usando.
 
-## Solo [!UICONTROL Visual Experience Composer] o [!UICONTROL Form-Based Experience Composer] que usa una solicitud global [!DNL Target] solamente {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Compositor de experiencias visuales] solamente o [!UICONTROL Compositor de experiencias basadas en formularios] que usa una solicitud [!DNL Target] global solamente {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si su empresa utiliza el VEC de forma exclusiva, se puede devolver contenido de varias actividades para la misma llamada. Las actividades se ofrecen según el siguiente flujo de decisiones:
 
@@ -31,7 +27,7 @@ Si su empresa utiliza el VEC de forma exclusiva, se puede devolver contenido de 
 1. [!DNL Target] extrae todas las actividades que se ejecutan en esa dirección URL.
 1. [!DNL Target] intenta relacionar al visitante con las actividades.
 
-   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya está en una actividad [!UICONTROL Prueba A/B] o [!UICONTROL Prueba multivariada], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Segmentación de experiencias], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
 
 1. Se devuelve a la página el contenido de todas las actividades y experiencias con las que el visitante se ve relacionado.
 1. Si el contenido de cada actividad hace referencia a [selectores CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) diferentes, se mostrará todo el contenido.
@@ -47,9 +43,9 @@ Si su empresa utiliza el VEC de forma exclusiva, se puede devolver contenido de 
    * Si solo una actividad tiene segmentación de la audiencia, se muestra esa actividad.
    * Si todos o ninguno tiene segmentación, se muestra la actividad que se aprobó primero.
 
-## [!UICONTROL Form-Based Experience Composer] y [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
+## [!UICONTROL Compositor de experiencias basadas en formularios] y [!UICONTROL Compositor de experiencias visuales] {#section_4620253E1CE942DD830724C7822B175F}
 
-Si su empresa usa [!UICONTROL Form-Based Experience Composer] *y* el VEC, se puede entregar contenido de varias actividades [!UICONTROL Form-Based Experience Composer] y VEC. Anteriormente, solo se podía entregar una actividad del flujo de trabajo basado en formularios. Ya no hay límite en el número de actividades basadas en formularios que se pueden entregar.
+Si su empresa usa el [!UICONTROL Compositor de experiencias basadas en formularios] *y* del VEC, puede entregar contenido de varias actividades del [!UICONTROL Compositor de experiencias basadas en formularios] y del VEC. Anteriormente, solo se podía entregar una actividad del flujo de trabajo basado en formularios. Ya no hay límite en el número de actividades basadas en formularios que se pueden entregar.
 
 La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
@@ -57,7 +53,7 @@ La actividad que se ofrece queda determinada según el siguiente flujo de decisi
 1. [!DNL Target] extrae todas las actividades que se ejecutan en esa solicitud [!DNL Target].
 1. [!DNL Target] intenta relacionar al visitante con las actividades.
 
-   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa prueba hasta que realice la conversión. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya está en una actividad [!UICONTROL Prueba A/B] o [!UICONTROL Prueba multivariada], coincidirá con esa prueba hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Segmentación de experiencias], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
 
 1. Si una actividad basada en formularios es la prioridad más alta, ese contenido de actividad se devuelve junto con todo el contenido de actividad coincidente de las actividades VEC.
 1. Si una actividad de VEC es la prioridad más alta, se devuelve el contenido de todas las actividades de VEC coincidentes, pero no se devuelve ningún contenido de actividad basado en formularios.
@@ -70,7 +66,7 @@ Si tiene dos actividades, una que segmenta por la palabra clave de búsqueda por
 
 Si ambas actividades segmentadas tienen la misma prioridad, se muestra la última actividad que se vio. Si el visitante es nuevo en la página, se muestra la última actividad que se activó.
 
-## [!UICONTROL Form-Based Experience Composer] con solicitudes no globales [!DNL Target] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!UICONTROL Compositor de experiencias basadas en formularios] con solicitudes no globales [!DNL Target] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 Si su empresa utiliza [!DNL Target] solicitudes distintas de la solicitud global [!DNL Target] en el compositor basado en formularios, solo se podrá devolver contenido de una actividad por llamada. La actividad que se ofrece queda determinada según el siguiente flujo de decisiones:
 
@@ -78,7 +74,7 @@ Si su empresa utiliza [!DNL Target] solicitudes distintas de la solicitud global
 1. [!DNL Target] extrae todas las actividades que se ejecutan en esa solicitud [!DNL Target].
 1. [!DNL Target] intenta hacer coincidir al visitante en la actividad de mayor prioridad.
 
-   Si el visitante ya se encuentra en una actividad [!UICONTROL A/B Test] o [!UICONTROL Multivariate Test], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Experience Targeting], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
+   Si el visitante ya está en una actividad [!UICONTROL Prueba A/B] o [!UICONTROL Prueba multivariada], coincidirá con esa actividad hasta que se convierta. Si anteriormente estaban en una actividad [!UICONTROL Segmentación de experiencias], deben coincidir de nuevo. Si cumple las reglas del público, entra dentro de esas actividades y en experiencias concretas.
 
 1. Si varias actividades comparten un nivel de prioridad, existen dos desempates:
 
@@ -93,14 +89,14 @@ Si su empresa utiliza [!DNL Target] solicitudes distintas de la solicitud global
 
 Respuesta: offer1
 
-**Dos actividades solo usan ofertas creadas en [!UICONTROL Visual Experience Composer] para selectores diferentes**
+**Dos actividades solo usan ofertas creadas en el [!UICONTROL Compositor de experiencias visuales] para selectores diferentes**
 
 * Actividad 1: target-global-mbox, selector1, visualExpCompOffer1, prioridad baja
 * Actividad 2: target-global-mbox, selector2, visualExpCompOffer2, prioridad alta
 
 Respuesta: visualExpCompOffer1, visualExpCompOffer2
 
-**Dos actividades solo utilizan ofertas creadas en [!UICONTROL Visual Experience Composer] para el mismo selector**
+**Dos actividades solo usan ofertas creadas en el [!UICONTROL Compositor de experiencias visuales] para el mismo selector**
 
 * Actividad 1: target-global-mbox, selector1, visualExpCompOffer1, prioridad baja
 * Actividad 2: target-global-mbox, selector1, visualExpCompOffer2, prioridad alta

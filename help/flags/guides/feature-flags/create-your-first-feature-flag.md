@@ -5,14 +5,14 @@ hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # Creación de la primera marca de funcionalidad {#create-feature-flag}
 
-## Requisitos previos   {#prerequisites}
+## Requisitos previos {#prerequisites}
 
 Antes de crear un indicador de funcionalidad, complete lo siguiente:
 

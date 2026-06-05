@@ -5,14 +5,14 @@ hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
 
 # Solicitar una versión {#request-a-release}
 
-## Requisitos previos   {#prerequisites}
+## Requisitos previos {#prerequisites}
 
 * Tiene el rol **Administrador de versiones**; consulte <!-- broken link[User roles](../teams/user-roles.md) -->
 * Su aplicación está integrada. Consulte [Incorporar su aplicación](../applications/onboard-your-application.md)

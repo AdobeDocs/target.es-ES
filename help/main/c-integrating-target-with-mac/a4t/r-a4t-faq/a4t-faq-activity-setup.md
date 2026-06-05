@@ -5,16 +5,12 @@ title: ¿Dónde puedo encontrar preguntas frecuentes acerca de la configuración
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -42,7 +38,7 @@ Aunque esto se admite cuando se usa [!DNL Target] como origen de informes, no se
 ## Al configurar mis Métricas de objetivo, ¿por qué no puedo acceder a Configuración avanzada?
 
 +++Respuesta
-Para las actividades que usan [!DNL Analytics] como fuente de informes (A4T), la métrica de objetivo usa la configuración &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; y &quot;[!UICONTROL On Every Impression]&quot;. Estas configuraciones *no* se pueden configurar.
+Para las actividades que usan [!DNL Analytics] como fuente de informes (A4T), la métrica de objetivo usa la configuración &quot;[!UICONTROL Aumentar recuento y mantener al usuario en la actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Estas configuraciones *no* se pueden configurar.
 
 Para obtener más información, consulte &quot;Al configurar las métricas de objetivo, ¿por qué no puedo acceder a las opciones de configuración avanzada?&quot; en [Definiciones de métricas: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -59,16 +55,16 @@ Cuando se crea una actividad, [!DNL Target] envía un archivo de clasificación 
 ## ¿Por qué no puedo seleccionar Analytics como fuente de informes al crear una actividad? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Respuesta
-Puede cambiar las opciones de [!UICONTROL Reporting Settings] en [!UICONTROL Administration].
+Puede cambiar las opciones de [!UICONTROL Configuración de informes] en [!UICONTROL Administración].
 
-1. En [!DNL Target], haga clic en **[!UICONTROL Administration]**.
-1. En la lista desplegable **[!UICONTROL Experience Cloud solution used for reporting]**, haga clic en **[!UICONTROL Select per Activity]**.
+1. En [!DNL Target], haga clic en **[!UICONTROL Administración]**.
+1. En la lista desplegable **[!UICONTROL Solución de Experience Cloud utilizada para la creación de informes]**, haga clic en **[!UICONTROL Seleccionar por actividad]**.
 
 ![imagen de selección por actividad](assets/select-per-activity.png)
 
-La lista desplegable **[!UICONTROL Reporting Source]** está habilitada en la pantalla **[!UICONTROL Goal & Settings]** para crear y editar actividades.
+La lista desplegable **[!UICONTROL Fuente de informes]** está habilitada en la pantalla **[!UICONTROL Objetivo y configuración]** para crear y editar actividades.
 
-Para usar siempre [!DNL Analytics] como fuente de informes, seleccione **[!UICONTROL Adobe Analytics]** en la lista desplegable de [!UICONTROL Administration].
+Para usar siempre [!DNL Analytics] como fuente de informes, selecciona **[!UICONTROL Adobe Analytics]** en la lista desplegable de [!UICONTROL Administración].
 
 +++
 
@@ -86,9 +82,9 @@ Si los porcentajes no se ajustan a mitad de la actividad, siempre se envía a un
 
 +++
 
-## ¿Puedo usar una métrica binomial [!DNL Analytics] con un segmento aplicado como objetivo de optimización en una actividad [!UICONTROL Auto-Allocate]? {#binomial}
+## ¿Puedo usar una métrica binomial [!DNL Analytics] con un segmento aplicado como objetivo de optimización en una actividad de [!UICONTROL Asignación automática]? {#binomial}
 
 +++Respuesta
-No puede usar una métrica [!DNL Analytics] con un segmento aplicado como objetivo de optimización en una actividad [!UICONTROL Auto-Allocate]. Como solución alternativa, puede definir un Evento personalizado que logre el mismo objetivo y utilizarlo como métrica de objetivo de optimización.
+No puede usar una métrica [!DNL Analytics] con un segmento aplicado como objetivo de optimización en una actividad [!UICONTROL Asignación automática]. Como solución alternativa, puede definir un Evento personalizado que logre el mismo objetivo y utilizarlo como métrica de objetivo de optimización.
 
 +++

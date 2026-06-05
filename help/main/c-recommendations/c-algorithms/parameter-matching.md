@@ -2,22 +2,20 @@
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de parámetros
 description: Aprenda a filtrar dinámicamente en Adobe [!DNL Target] Recommendations comparando elementos (entidades) con un valor de la solicitud (API o mbox).
 title: ¿Cómo filtro por coincidencia de parámetros en las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 TQID: https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: 350
 ht-degree: 10%
 
 ---
 
-# [!UICONTROL Parameter Matching]
+# [!UICONTROL Coincidencia de parámetros]
 
 Filtre dinámicamente comparando elementos (entidades) con un valor de la solicitud (API o mbox).
 
@@ -37,7 +35,7 @@ Por ejemplo, recomendar solo contenido que coincida con el parámetro de página
 
 ## Ejemplos de coincidencia de parámetros
 
-[!UICONTROL Parameter Matching] le permite recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones de dispositivo o ubicación geográfica, como en el siguiente ejemplo:
+[!UICONTROL Coincidencia de parámetros] le permite recomendar contenido que coincida con los parámetros de página o los parámetros del visitante, como dimensiones de dispositivo o ubicación geográfica, como en el siguiente ejemplo:
 
 [!DNL Recommendations] puede coincidir con los valores de parámetro enviados en la llamada a [!DNL Target]. En este caso, [!DNL Target] detecta que un visitante está usando un dispositivo móvil, basándose en los parámetros de altura y anchura de pantalla enviados en la llamada de [!DNL Target], y recomienda solo los elementos que sean dispositivos móviles.
 

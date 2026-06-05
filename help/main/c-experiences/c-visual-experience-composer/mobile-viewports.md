@@ -5,15 +5,12 @@ title: ¿Cómo utilizo las ventanillas móviles para las experiencias adaptables
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 95%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +100,14 @@ Aunque su sitio no sea adaptable, puede usar el Compositor web móvil para ver u
 
 Configure las ventanillas móviles que quiera que estén disponibles cuando cree sus experiencias.
 
-1. Haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. En la sección **[!UICONTROL Mobile viewports configuration]**, haga clic en **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]**.
+1. En la sección **[!UICONTROL Configuración de ventanillas móviles]**, haga clic en **[!UICONTROL Agregar]**.
 
    ![Agregar ventanilla](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    O
 
-   Para cambiar la configuración de una ventanilla móvil existente, selecciónela y, a continuación, haga clic en el icono [!UICONTROL Edit] (lápiz).
+   Para cambiar la configuración de una ventanilla móvil existente, selecciónela y luego haga clic en el icono [!UICONTROL Editar] (lápiz).
 
 1. Escriba un nombre para la ventanilla móvil.
 
@@ -132,7 +129,7 @@ Configure las ventanillas móviles que quiera que estén disponibles cuando cree
 
    Si usa el [Compositor de experiencias mejorado](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) y elige un sistema operativo, [!DNL Target] imita ese dispositivo cuando visualiza la página. Si, por ejemplo, existe un aspecto diferente para Android y para iOS en su sitio adaptable, [!DNL Target] imita ese comportamiento.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
@@ -143,11 +140,11 @@ Configure las ventanillas móviles que quiera que estén disponibles cuando cree
 Agregue ventanillas móviles a las actividades de [!DNL Target] para crear experiencias adaptables para las pantallas móviles.
 
 1. Cree la variable [actividad deseada](/help/main/c-activities/activities.md).
-1. En [!UICONTROL Visual Experience Composer] (VEC), haga clic en el icono de engranaje de **[!UICONTROL Settings]** y, a continuación, seleccione **[!UICONTROL Add Mobile Viewports]**.
+1. En el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono de engranaje de **[!UICONTROL Configuración]** y, a continuación, seleccione **[!UICONTROL Agregar ventanillas móviles]**.
 
    ![Opción Agregar ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Haga clic en el icono **[!UICONTROL Devices]** y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
+1. Haga clic en el icono **[!UICONTROL Dispositivos]** y, a continuación, active todos los dispositivos que deban tener una ventanilla móvil.
 
    ![Habilitar ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -180,7 +177,7 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30130?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferencias de cuenta en Adobe Target ![Distintivo Información general](/help/main/assets/overview.png)
 

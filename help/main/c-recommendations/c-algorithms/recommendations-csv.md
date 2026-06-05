@@ -2,17 +2,15 @@
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
 description: Aprenda a cargar un archivo CSV para personalizar las recomendaciones en Adobe [!DNL Target] Recommendations.
 title: ¿Cómo se cargan criterios personalizados en  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: 696
 ht-degree: 32%
 
 ---
@@ -21,43 +19,43 @@ ht-degree: 32%
 
 Cargue un archivo CSV para personalizar las recomendaciones en [!DNL Adobe Target].
 
-Existen varias formas de llegar a la pantalla [!UICONTROL Create New Criteria]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
+Existen varias maneras de llegar a la pantalla [!UICONTROL Crear nuevos criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
 
-* En la pantalla de la biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**, haga clic en **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
-* Cuando crea una actividad [!DNL Recommendations] con el [!UICONTROL Visual Experience Composer] (VEC), se le redirige inmediatamente a la pantalla [!UICONTROL Select Criteria] después de seleccionar un elemento en la página y hacer clic en [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] o [!UICONTROL Insert Recommendations After]. Puede seleccionar un criterio disponible o hacer clic en **[!UICONTROL Create Criteria]**. Si crea un nuevo criterio, puede guardarlo para utilizarlo con otras [!DNL Recommendations] actividades. Para obtener más información, consulte [Crear una actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Cuando esté editando una actividad [!DNL Recommendations], haga clic en un cuadro [!UICONTROL Recommendations Location] de la página y seleccione **[!UICONTROL Change Criteria]**. En la pantalla [!UICONTROL Select Criteria], haga clic en **[!UICONTROL Create Criteria]**. Puede guardar los nuevos criterios para usarlos con otras [!DNL Recommendations] actividades.
+* En la pantalla de la biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!DNL Recommendations].
+* Cuando crea una actividad [!DNL Recommendations] con el [!UICONTROL Compositor de experiencias visuales] (VEC), se le redirige inmediatamente a la pantalla [!UICONTROL Seleccionar criterios] después de seleccionar un elemento en su página y hacer clic en [!UICONTROL Reemplazar con Recommendations], [!UICONTROL Insertar Recommendations antes] o [!UICONTROL Insertar Recommendations después]. Puede seleccionar un criterio disponible o hacer clic en **[!UICONTROL Crear criterio]**. Si crea un nuevo criterio, puede guardarlo para utilizarlo con otras [!DNL Recommendations] actividades. Para obtener más información, consulte [Crear una actividad de Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Cuando esté editando una actividad [!DNL Recommendations], haga clic en el cuadro [!UICONTROL Ubicación de Recommendations] de la página y seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear criterios]**. Puede guardar los nuevos criterios para usarlos con otras [!DNL Recommendations] actividades.
 
-Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTROL Create New Criteria] mediante el primer método: la pantalla de biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear nuevos criterios] mediante el primer método: la pantalla de la biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]**.
 
-1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]**.
 
-1. Haga clic en **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
+1. Haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear criterios]**.
 
 1. Rellene la información de la sección [Información básica](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. En la lista desplegable **[!UICONTROL Select Algorithm Type]**, seleccione **[!UICONTROL Custom Criteria]**.
+1. En la lista desplegable **[!UICONTROL Seleccionar tipo de algoritmo]**, seleccione **[!UICONTROL Criterios personalizados]**.
 
-1. En la lista desplegable **[!UICONTROL Algorithm]**, seleccione **[!UICONTROL Custom Algorithm]**.
+1. En la lista desplegable **[!UICONTROL Algoritmo]**, seleccione **[!UICONTROL Algoritmo personalizado]**.
 
    >[!NOTE]
    >
-   >Los pasos anteriores hacen que la sección [!UICONTROL Upload CSV] se muestre en la parte inferior del cuadro de diálogo [!UICONTROL Create Criteria].
+   >Los pasos anteriores hacen que la sección [!UICONTROL Cargar CSV] se muestre en la parte inferior del cuadro de diálogo [!UICONTROL Crear criterios].
 
 1. (Condicional) Rellene la información de la sección [Contenido de copia de seguridad](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. (Condicional) Rellene la información de la sección [Reglas de inclusión](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).
 
-1. En la sección **[!UICONTROL Upload CSV]**, seleccione el **[!UICONTROL Location]** de su archivo CSV.
+1. En la sección **[!UICONTROL Cargar CSV]**, seleccione la **[!UICONTROL ubicación]** de su archivo CSV.
 
-   El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Download the CSV template]** para obtener un archivo CSV con el formato correcto.
+   El archivo CSV debe tener el formato correcto para que se pueda cargar. Haga clic en **[!UICONTROL Descargar plantilla CSV]** para obtener un archivo CSV con el formato correcto.
 
    Tiene dos opciones de ubicación:
 
    * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
 
-   * **URL:** Para cargar el archivo CSV desde una dirección URL, seleccione **[!UICONTROL URL]** y después escriba una dirección URL de fuente.
+   * **URL:** Para cargar el archivo CSV desde una dirección URL, selecciona **[!UICONTROL URL]** y después escribe una dirección URL de fuente.
 
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Crear]**.
 
 ## Consideraciones
 
@@ -69,9 +67,9 @@ Los siguientes pasos dan por sentado que tiene acceso a la pantalla de [!UICONTR
 
 * Los criterios personalizados se actualizan una vez cada 24 horas.
 
-  Puede ver el estado de carga y sincronización de los criterios personalizados cargados para cada criterio en la página [!UICONTROL Recommendations] > [!UICONTROL Criteria]. También puede ver el estado en el cuadro de diálogo [!UICONTROL Edit] al editar criterios personalizados.
+  Puede ver el estado de carga y sincronización de los criterios personalizados cargados para cada criterio en la página [!UICONTROL Recommendations] > [!UICONTROL Criterios]. También puede ver el estado en el cuadro de diálogo [!UICONTROL Editar] al editar criterios personalizados.
 
-* El flujo para una carga sin errores debe ser [!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful].
+* El flujo para una carga sin errores debe ser [!UICONTROL Programada] > [!UICONTROL Descargando archivo de fuente] > [!UICONTROL Importando] > [!UICONTROL Correcta].
 
 * Los siguientes son posibles mensajes de error que podría recibir si [!DNL Target] encuentra un problema con la carga:
 

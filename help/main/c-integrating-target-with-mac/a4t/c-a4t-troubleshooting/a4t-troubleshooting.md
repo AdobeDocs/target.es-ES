@@ -5,20 +5,13 @@ title: ¿Cómo puedo solucionar problemas de integración de Analytics y  [!DNL 
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 965
 ht-degree: 89%
 
 ---
@@ -53,13 +46,13 @@ Si desglosa la fila “sin especificar” por la dimensión “Analytics for Tar
 
 ## Los informes de actividad de A4T incluyen una fila con muchos eventos “sin especificar”. {#added_unspecified_events}
 
-Puede haber una fila de eventos &quot;[!UICONTROL Unspecified]&quot; que se muestra en el informe, según la métrica con la que se usen para mostrar los datos.
+Puede haber una fila de eventos &quot;[!UICONTROL Sin especificar]&quot; que se muestra en el informe, según la métrica con la que se usen para mostrar los datos.
 
-Normalmente, esta fila se muestra si elige una métrica común en el informe que no sea específico de [!DNL Target] (por ejemplo, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], etc.). En este caso, la fila [!UICONTROL "Unspecified"] incluye todas las [!UICONTROL Page Views], [!UICONTROL Visits] y [!UICONTROL Unique Visitors] que no están asociadas a las actividades [!DNL Target].
+Normalmente, esta fila se muestra si elige una métrica común en el informe que no sea específico de [!DNL Target] (por ejemplo, [!UICONTROL Vistas de página], [!UICONTROL Visitas], [!UICONTROL Visitantes únicos], etc.). En este caso, la fila [!UICONTROL &quot;Sin especificar&quot;] incluye todas las [!UICONTROL Vistas de página], [!UICONTROL Visitas] y [!UICONTROL Visitantes únicos] que no están asociados a [!DNL Target] actividades.
 
 Esa fila no tendrá ninguna información asociada con [!DNL Target] (por ejemplo, no tendrá visitantes, visitas ni impresiones). Para obtener más información, consulte [“Sin especificar”, “Ninguno”, “Otro” y “Desconocido” en la creación de informes](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=es) en las *Notas técnicas de Analytics*.
 
-Si elige una métrica específica de [!DNL Target] en el informe, no se mostrará esa fila [!UICONTROL "Unspecified"]. La única manera de evitar que esto ocurra en el informe es establecer una llamada de [!DNL Target] en cada solicitud enviada desde esa página, lo que no es común ni necesario.
+Si elige una métrica específica de [!DNL Target] en el informe, no aparecerá la fila [!UICONTROL &quot;Sin especificar&quot;]. La única manera de evitar que esto ocurra en el informe es establecer una llamada de [!DNL Target] en cada solicitud enviada desde esa página, lo que no es común ni necesario.
 
 ## El alza estimada en la métrica de ingresos no muestra datos correctos. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -71,7 +64,7 @@ Las actividades de A4T requieren que se especifique un servidor de seguimiento. 
 
 >[!NOTE]
 >
->No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Tracking Server] en la página [!UICONTROL Goals & Settings].
+>No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 
 ## Mis segmentos de Analytics no aparecen en Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 

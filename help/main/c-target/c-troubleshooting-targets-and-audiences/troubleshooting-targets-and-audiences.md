@@ -5,18 +5,13 @@ title: ¿Dónde puedo encontrar preguntas y respuestas acerca de objetivos y aud
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 982
-ht-degree: 52%
+source-wordcount: 1004
+ht-degree: 53%
 
 ---
 
@@ -34,7 +29,7 @@ Tenga en cuenta la siguiente URL:
 
 ### Segmentación de URL de audiencia
 
-Para aplicar el direccionamiento de URL de audiencia al crear una actividad, en la página **[!UICONTROL Experiences]** (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono **[!UICONTROL Configure]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ), haga clic en **[!UICONTROL Page Delivery]** y, a continuación, especifique la dirección URL que desee.
+Para aplicar el direccionamiento de URL de audiencia al crear una actividad, en la página **[!UICONTROL Experiencias]** (paso uno del flujo de trabajo guiado de tres pasos), haga clic en el icono **[!UICONTROL Configurar]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ), haga clic en **[!UICONTROL Entrega de páginas]** y, a continuación, especifique la dirección URL que desee.
 
 ![URL de entrega de página](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -46,11 +41,11 @@ El direccionamiento de URL de audiencia busca una coincidencia de URL exacta. Si
 
 Más allá de la segmentación de audiencia en la dirección URL, también puede especificar valores específicos que se pueden incluir en la consulta.
 
-El direccionamiento de URL de audiencia y el direccionamiento de URL agregados mediante [!UICONTROL Template Rules] se evalúan como direccionamiento de URL (consulte Direccionamiento de URL a continuación).
+Los objetivos de URL de audiencia y de URL agregados mediante [!UICONTROL Reglas de plantilla] se evalúan como objetivos de URL (consulte Direccionamiento de URL a continuación).
 
 ### Segmentación de URL {#url-targeting}
 
-Para aplicar el direccionamiento de URL, al crear una audiencia, haga clic en arrastrar **[!UICONTROL Site Pages]** y suéltelo en el panel [!UICONTROL Create Audiences], haga clic en **[!UICONTROL Site Pages]**, seleccione una opción de la primera lista desplegable ([!UICONTROL Current Page], [!UICONTROL Previous Page] o [!UICONTROL Landing Page]), seleccione [!UICONTROL URL] de la segunda lista desplegable, especifique un evaluador y, a continuación, especifique la dirección URL que desee.
+Para aplicar el direccionamiento de URL, al crear una audiencia, haga clic en arrastrar **[!UICONTROL Páginas del sitio]** y suéltela en el panel [!UICONTROL Crear audiencias], haga clic en **[!UICONTROL Páginas del sitio]**, seleccione una opción de la primera lista desplegable ([!UICONTROL Página actual], [!UICONTROL Página anterior] o [!UICONTROL Página de aterrizaje]), seleccione [!UICONTROL URL] de la segunda lista desplegable, especifique un evaluador y luego especifique la URL que desee.
 
 ![Páginas del sitio > Página actual > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -85,9 +80,9 @@ Se recomienda utilizar las audiencias más nuevas porque han mejorado su rendimi
 
 De manera predeterminada, el tráfico se divide a partes iguales entre las experiencias. Sin embargo, puede especificar objetivos de porcentaje para cada experiencia. En este caso, se genera un número aleatorio que se utiliza para elegir la experiencia que se mostrará. Es posible que los porcentajes resultantes no coincidan exactamente con los objetivos especificados, pero con más tráfico resulta necesario dividir las experiencias para aproximarse a los objetivos.
 
-## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varios públicos aptos? {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## ¿Qué experiencia se muestra si un usuario cumple los criterios de una actividad que contiene varias experiencias con varias audiencias aptas? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-El usuario cumple los requisitos para la primera experiencia/audiencia que se muestre en la página [!UICONTROL Target] de la actividad.
+El usuario cumple los criterios de la primera experiencia o audiencia que se muestra en la página de [!UICONTROL Target] de la actividad.
 
 Por ejemplo, supongamos que la experiencia/audiencia incluye Windows como Experiencia A, iOS como Experiencia B y California como Experiencia C. Un usuario de California que utiliza un dispositivo Windows cumple los requisitos para la Experiencia A (audiencia de Windows) y la Experiencia C (audiencia de California). Este usuario vería la Experiencia A porque aparece en la lista anterior por encima de Experiencia C en la página de Target.
 

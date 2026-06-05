@@ -6,28 +6,20 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
 TQID: https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 393
-ht-degree: 85%
+source-wordcount: 402
+ht-degree: 83%
 
 ---
 
 # Configuración de Dynamic Media Classic (anteriormente Scene7)
 
-[!DNL Adobe Target] se puede integrar con [!DNL Adobe Dynamic Media Classic] (anteriormente [!DNL Scene7]) para proporcionar la administración de activos digitales (DAM) en [!UICONTROL Content Library].
+[!DNL Adobe Target] se puede integrar con [!DNL Adobe Dynamic Media Classic] (anteriormente [!DNL Scene7]) para ofrecer la administración de activos digitales (DAM) en la [!UICONTROL biblioteca de contenido].
 
 {{permissions-update}}
 
@@ -43,7 +35,7 @@ Si ya tiene una cuenta de [!DNL Dynamic Media], puede proporcionar sus credencia
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-Si esta opción no está configurada, la opción [!UICONTROL Swap Image offer] del flujo de trabajo de creación de actividades no estará disponible. Una vez configurado este ajuste, la opción de intercambiar/cambiar ofertas de imágenes estará disponible tanto en el [Compositor de experiencias visuales (VEC) como en el Compositor de experiencias basadas en formularios](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). De este modo, puede aprovechar las ofertas de imágenes con imágenes que se han cargado desde [!DNL Adobe Experience Cloud] para usarlas en las actividades de [!DNL Target].
+Si esta opción no está configurada, la opción [!UICONTROL Intercambiar oferta de imagen] dentro del flujo de trabajo de creación de actividades no estará disponible. Una vez configurado este ajuste, la opción de intercambiar/cambiar ofertas de imágenes estará disponible tanto en el [Compositor de experiencias visuales (VEC) como en el Compositor de experiencias basadas en formularios](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). De este modo, puede aprovechar las ofertas de imágenes con imágenes que se han cargado desde [!DNL Adobe Experience Cloud] para usarlas en las actividades de [!DNL Target].
 
 Si desea hacer referencia a una URL de imagen pública directamente en una oferta o un código personalizado durante la creación de la actividad, debe implementar la imagen en sus propios servidores web y usar su propia URL en el código. No hay forma de obtener la URL publicada de una imagen cargada en [!DNL Experience Cloud] para consumirla directamente o fuera de los flujos de trabajo de segmentación con [!DNL Target]. Esta funcionalidad no está permitida según el contrato.
 
@@ -51,7 +43,7 @@ Tenga en cuenta que la URL de almacenamiento y las URL de publicación finales d
 
 Para integrar con [!DNL Dynamic Media Classic] ([!DNL Scene7]), debe especificar la siguiente información.
 
-1. Haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**.
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Configuración de Scene7]**.
 
 1. Especifique la siguiente información de la cuenta de [!DNL Dynamic Media Classic]:
 
@@ -63,4 +55,4 @@ Para integrar con [!DNL Dynamic Media Classic] ([!DNL Scene7]), debe especificar
 
    **Contraseña:** la contraseña usada para iniciar sesión en [!DNL Dynamic Media Classic] ([!DNL Scene7]).
 
-1. Haga clic en **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Enviar]**.
