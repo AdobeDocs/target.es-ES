@@ -44,7 +44,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en diferentes
 
 ## Basado en el carro {#cart-based}
 
-El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios de &quot;[!UICONTROL Recomendado para ti]&quot; y a las &quot;[!UICONTROL Personas que vieron esto, compraron aquello]&quot; y &quot;[!UICONTROL Personas que compraron esto, compraron aquello]&quot;.
 

@@ -2,7 +2,7 @@
 keywords: diseño de recomendaciones;crear diseño;copiar diseño
 description: Aprenda a crear un diseño de Adobe [!DNL Target] Recommendations con un diseño predeterminado o creando uno personalizado para que se ajuste mejor al diseño de la página.
 title: ¿Cómo se crea un diseño en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

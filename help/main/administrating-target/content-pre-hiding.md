@@ -55,7 +55,7 @@ La preocultación de contenido está desactivada en la instancia hasta que se ac
 
 1. Haga clic en **[!UICONTROL Guardar]**. Esto aplicará la configuración de administración de parpadeo a la instancia.
 
-1. Una vez habilitado, haga clic en **[!UICONTROL Descargar]** y luego agregue el archivo a la página `<head>` para que se cargue antes de [!DNL at.js] o de [!DNL Web SDK]. Para obtener instrucciones de implementación completas, consulte [Contenido preocultado de SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
+1. Una vez habilitado, haga clic en **[!UICONTROL Descargar]** y luego agregue el archivo a la página `<head>` para que se cargue antes de [!DNL at.js] o de [!DNL Web SDK]. Para obtener instrucciones de implementación completas, consulte [Contenido preocultado de SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 

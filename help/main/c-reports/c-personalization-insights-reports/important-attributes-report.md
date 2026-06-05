@@ -2,7 +2,7 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;segmentación;automática;informe de segmentación automática;informe;personalización;perspectivas;faq;preguntas frecuentes;atributos importantes
 description: Aprenda a utilizar el informe [!UICONTROL Atributos importantes] que muestra los atributos principales que influyeron en el modelo de personalización y su importancia relativa.
 title: ¿Qué es el informe Atributos importantes?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
@@ -113,7 +113,7 @@ Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus
 
 La API de modelos [!UICONTROL Model], también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de atributos (también denominados características) utilizados en los modelos de aprendizaje automático para las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). Si desea excluir uno o más atributos de la utilización por parte de los modelos para actividades AP o AT, puede utilizar la API de modelos para añadir esos atributos a la &quot;lista de bloqueados&quot;.
 
-Para obtener información detallada, consulte [Resumen de API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} en la *Guía para desarrolladores de Adobe Target*. Para usar la API para bloquear atributos, consulte [API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
+Para obtener información detallada, consulte [Resumen de API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=es){target=_blank} en la *Guía para desarrolladores de Adobe Target*. Para usar la API para bloquear atributos, consulte [API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=es){target=_blank}.
 
 ### ¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga CSV?
 
