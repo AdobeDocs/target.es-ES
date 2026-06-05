@@ -87,4 +87,4 @@ En este vídeo se ve la configuración de actividades dentro del flujo de trabaj
 * Crear una actividad A/B en Adobe Target
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)

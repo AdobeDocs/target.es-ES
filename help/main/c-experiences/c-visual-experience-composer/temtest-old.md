@@ -107,4 +107,4 @@ Puede considerar la posibilidad de utilizar reglas de plantilla para procesar la
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30130?captions=spa)

@@ -178,4 +178,4 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
 ## Vídeo de formación: Crear una actividad de Recommendations (7:15) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33946?captions=spa)

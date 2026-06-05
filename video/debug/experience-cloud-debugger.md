@@ -17,15 +17,15 @@ Depurar [!DNL Adobe Target] con [!DNL Adobe Experience Cloud Debugger].
 
 ## Agregar la extensión
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33688/?captions=spa&quality=12)
 
 ## Depuración básica de [!DNL Target]
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33706/?captions=spa&quality=12)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33707/?captions=spa&quality=12)
 
 ## Recursos adicionales
 
