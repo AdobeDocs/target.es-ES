@@ -1,7 +1,7 @@
 ---
 keywords: Segmentación;compositor de experiencias visuales;lista de direcciones permitidas;lista de direcciones permitidas;lista de permitidos;lista de permitidos;compositor de experiencias visuales mejorado;vec;solución de problemas del compositor de experiencias visuales;solución de problemas;eec;compositor de experiencias mejorado;tls;tls 1.2
-description: Aprenda a solucionar problemas que a veces ocurren en el  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) y el [!UICONTROL Enhanced Experience Composer] (EEC) en ciertas condiciones.
-title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Visual Experience Composer] y [!UICONTROL Enhanced Experience Composer]?
+description: Aprenda a solucionar problemas que a veces ocurren en  [!DNL Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
+title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
@@ -19,14 +19,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
-# Solucionando problemas relacionados con [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] y [!UICONTROL Enhanced Experience Composer]
+# Resolución de problemas relacionados con [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]
 
-Mostrar problemas y otros problemas que a veces ocurren en [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) y [!UICONTROL Enhanced Experience Composer] (EEC) bajo ciertas condiciones.
+Los problemas de visualización y otros problemas a veces ocurren en [!DNL Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
 
 ## ¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC? {#samesite}
 
@@ -60,12 +60,12 @@ Tenga en cuenta los cambios que afectan al VEC y EEC al utilizar las siguientes 
 +++Detalles
 Para determinar qué cookies están bloqueadas debido a las directivas de aplicación de cookies de SameSite, use [!DNL Developer Tools] en [!DNL Chrome].
 
-1. Para acceder a [!DNL Developer Tools], mientras ve el VEC en [!DNL Chrome], haga clic en el icono **[!UICONTROL ellipsis]** en la esquina superior derecha de Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
-1. Haga clic en la ficha **[!UICONTROL Network]** > y luego busque las cookies bloqueadas.
+1. Para obtener acceso a [!DNL Developer Tools] mientras ve el VEC en [!DNL Chrome], haga clic en el icono de **[!UICONTROL puntos suspensivos]** en la esquina superior derecha de Chrome > **[!UICONTROL Más herramientas]** > **[!UICONTROL Herramientas para desarrolladores]**.
+1. Haz clic en la pestaña **[!UICONTROL Red]** > y busca las cookies bloqueadas.
 
    >[!NOTE]
    >
-   >Utilice la casilla de verificación **[!UICONTROL Has blocked cookies]** para facilitar la búsqueda de cookies bloqueadas.
+   >Use la casilla de verificación **[!UICONTROL Ha bloqueado las cookies]** para facilitar la búsqueda de cookies bloqueadas.
 
 +++
 
@@ -81,7 +81,7 @@ Como solución alternativa, puede agregar una página en la experiencia con la U
 ## Cuando intento editar una página, lo único que veo es un control de número en lugar de mi página. (VEC y EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Detalles
-Esta situación puede suceder si la dirección URL contiene el carácter #. Para solucionar el problema, cambie al modo [!UICONTROL Browse] en el VEC o EEC y vuelva al modo [!UICONTROL Compose]. El control de número debería desaparecer y la página debería cargarse.
+Esta situación puede suceder si la dirección URL contiene el carácter #. Para solucionar el problema, cambie al modo [!UICONTROL Examinar] en el VEC o EEC y luego vuelva al modo [!UICONTROL Componer]. El control de número debería desaparecer y la página debería cargarse.
 
 +++
 
@@ -134,7 +134,7 @@ Si se usa el mismo ID de elemento DOM en varios elementos de la página, al camb
 ## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Detalles
-Este problema se puede solucionar habilitando [!UICONTROL Enhanced Experience Composer] (EEC). Haga clic en **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** y, a continuación, active la casilla que habilita [!UICONTROL Enhanced Experience Composer]. El EEC usa un proxy administrado por [!DNL Adobe] para cargar la página y editarla. Este proxy permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha agregado código [!DNL Adobe Target]. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del EEC. En este caso, puede desactivar esta opción para cargar el EEC a través de un iFrame.
+Este problema se puede solucionar habilitando [!UICONTROL Enhanced Experience Composer] (EEC). Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y, a continuación, active la casilla que habilita el [!UICONTROL Compositor de experiencias mejorado]. El EEC usa un proxy administrado por [!DNL Adobe] para cargar la página y editarla. Este proxy permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha agregado código [!DNL Adobe Target]. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del EEC. En este caso, puede desactivar esta opción para cargar el EEC a través de un iFrame.
 
 >[!NOTE]
 >
@@ -149,14 +149,14 @@ Consulte “No puedo modificar experiencias desde un sitio con eliminación de i
 
 +++
 
-## Los estilos de texto en negrita y cursiva con [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] o [!UICONTROL Change Text]/[!DNL Change HTML] no se muestran en mi página. A veces el texto desaparece después de aplicar estos cambios de estilo. (VEC y EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Los estilos de texto en negrita y cursiva con [!UICONTROL Editar texto]/[!UICONTROL Editar HTML] o [!UICONTROL Cambiar texto]/[!DNL Change HTML] no se muestran en mi página. A veces el texto desaparece después de aplicar estos cambios de estilo. (VEC y EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Detalles
-Si usa **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** en el VEC para actividades [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting], o **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** para actividades [!UICONTROL Automated Personalization] o [!UICONTROL Multivariate Test] para hacer que el texto aparezca en negrita o en cursiva, es posible que esos estilos no se apliquen en la página o que el texto desaparezca de la página en el VEC. Esto sucede debido a la forma en que el editor de texto enriquecido aplica estos estilos, lo que podría interferir con el marcado del sitio web.
+Si usa **[!UICONTROL Editar texto]/[!UICONTROL Editar HTML]** en el VEC para actividades de [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] o **[!UICONTROL Cambiar texto]/[!UICONTROL Cambiar HTML]** para actividades de [!UICONTROL Automated Personalization] o [!UICONTROL Prueba multivariable] para hacer que el texto esté en negrita o en cursiva, es posible que esos estilos no se apliquen en la página o que el texto desaparezca de la página en el VEC. Esto sucede debido a la forma en que el editor de texto enriquecido aplica estos estilos, lo que podría interferir con el marcado del sitio web.
 
 Si ve este problema, haga lo siguiente:
 
-1. Haga clic en el botón **[!UICONTROL HTML]** del editor de texto enriquecido para especificar el modo de edición de código fuente.
+1. Haga clic en el botón **[!UICONTROL HTML]** del editor de texto enriquecido para introducir el modo de edición de la fuente.
 1. Busque los elementos de estilo del texto.
 
    * Si quiere texto en negrita, cambie los elementos `<strong>` por `<b>`.

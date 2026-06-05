@@ -1,7 +1,7 @@
 ---
 keywords: personalización automatizada;oferta;informes;grupo;grupo de informes;ap
-description: Aprenda a utilizar los grupos de informes de ofertas en  [!DNL Adobe Target] [!UICONTROL Automated Personalization] actividades.
-title: ¿Puedo usar los grupos de informes de ofertas en [!UICONTROL Automated Personalization] actividades?
+description: Aprenda a utilizar los grupos de informes de ofertas en las actividades de  [!DNL Adobe Target] [!UICONTROL Automated Personalization].
+title: ¿Puedo usar los grupos de informes de ofertas en las actividades de [!UICONTROL Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
@@ -16,8 +16,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 827
-ht-degree: 15%
+source-wordcount: 875
+ht-degree: 20%
 
 ---
 
@@ -42,19 +42,19 @@ Este enfoque funciona bien si los visitantes responden de la misma manera a toda
 
 ## Configuración de grupos de informes
 
-1. En la página **[!UICONTROL Experiences]** de una actividad AP, haga clic en el icono **[!UICONTROL Manage Content]** ( ![icono Administrar contenido](/help/main/assets/icons/Experience.svg) )
-1. Haga clic en la ficha **[!UICONTROL Offers]** en la parte superior del cuadro de diálogo [!UICONTROL Manage Content].
-1. (Condicional) Agregue experiencias específicas a un grupo de informes haciendo clic en el icono [!UICONTROL More Actions] ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) de la oferta deseada y, a continuación, haciendo clic en **[!UICONTROL Reporting Group]**.
+1. En la página **[!UICONTROL Experiencias]** de una actividad AP, haga clic en el icono **[!UICONTROL Administrar contenido]** ( ![Icono Administrar contenido](/help/main/assets/icons/Experience.svg) )
+1. Haga clic en la pestaña **[!UICONTROL Ofertas]** en la parte superior del cuadro de diálogo [!UICONTROL Administrar contenido].
+1. (Condicional) Agregue experiencias específicas a un grupo de informes haciendo clic en el icono [!UICONTROL Más acciones] ( ![Icono de más acciones](/help/main/assets/icons/MoreSmall.svg) ) para la oferta deseada y, a continuación, haciendo clic en **[!UICONTROL Grupo de informes]**.
 
-1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando las casillas de las experiencias relevantes y luego haciendo clic en **[!UICONTROL Reporting Group]** en la parte inferior del cuadro de diálogo.
+1. (Condicional) Incluya experiencias en lote en un grupo de informes seleccionando las casillas de las experiencias relevantes y luego haciendo clic en **[!UICONTROL Grupo de informes]** en la parte inferior del cuadro de diálogo.
 
-1. Para asignar la oferta seleccionada a un grupo de informes existente, seleccione **[!UICONTROL Existing]**, elija el grupo de informes deseado en la lista desplegable y luego haga clic en **[!UICONTROL Confirm]**.
+1. Para asignar la oferta seleccionada a un grupo de informes existente, seleccione **[!UICONTROL Existente]**, seleccione el grupo de informes deseado en la lista desplegable y haga clic en **[!UICONTROL Confirmar]**.
 
    O
 
-   Para crear un grupo de informes al que asignar la oferta seleccionada, seleccione **[!UICONTROL New]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Confirm]**.
+   Para crear un grupo de informes al que asignar la oferta seleccionada, seleccione **[!UICONTROL Nuevo]**, asigne un nombre al nuevo grupo de informes y haga clic en **[!UICONTROL Confirmar]**.
 
-Puede usar la lista [!UICONTROL Location] para filtrar ofertas por ubicación. Utilice la lista [!UICONTROL Report Group] para filtrar ofertas por grupos de informes. También puede usar la lista [!UICONTROL Report Group] para filtrar [!UICONTROL Unassigned Offers] y asignar un grupo de informes a una oferta que no esté actualmente asignada a ningún grupo de informes.
+Puede usar la lista [!UICONTROL Ubicación] para filtrar ofertas por ubicación. Utilice la lista [!UICONTROL Grupo de informes] para filtrar ofertas por grupos de informes. Ahora también puede usar la lista [!UICONTROL Grupo de informes] para filtrar por [!UICONTROL Ofertas no asignadas], de modo que puede asignar un grupo de informes a una oferta que no está actualmente asignada a ningún grupo de informes.
 
 Para obtener información sobre cómo dirigir una oferta a audiencias específicas, consulte [Ofertas de Target [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
@@ -72,12 +72,12 @@ Para obtener información sobre cómo dirigir una oferta a audiencias específic
 
 ## Visualización de ofertas en un grupo de informes
 
-1. Haga clic en **[!UICONTROL Activities]**, en la actividad [!UICONTROL Automated Personalization] que quiera de la lista y luego haga clic en la ficha **[!UICONTROL Reports]** para mostrar el informe [Nivel de oferta](/help/main/c-reports/personalization-reports/reports-ap.md).
+1. Haga clic en **[!UICONTROL Actividades]**, haga clic en la actividad [!UICONTROL Automated Personalization] que quiera de la lista y luego haga clic en la pestaña **[!UICONTROL Informes]** para mostrar el informe [Nivel de oferta](/help/main/c-reports/personalization-reports/reports-ap.md).
 
-   Si tiene muchas actividades, haga clic en el icono [!UICONTROL Show Filters] (funnel) y, a continuación, active la casilla de verificación [!UICONTROL Automated Personalization] para filtrar la lista y mostrar solo [!UICONTROL Automated Personalization] actividades.
+   Si tiene muchas actividades, haga clic en el icono [!UICONTROL Mostrar filtros] (funnel) y, a continuación, seleccione la casilla de verificación [!UICONTROL Automated Personalization] para filtrar la lista y mostrar solo las actividades de [!UICONTROL Automated Personalization].
 
-1. Haga clic en **[!UICONTROL Control]** o **[!UICONTROL Targeted]** en la tabla para mostrar las ofertas y ofertas desagrupadas dentro de los grupos de informes.
+1. Haga clic en **[!UICONTROL Control]** o **[!UICONTROL Segmentado]** en la tabla para mostrar las ofertas y ofertas desagrupadas dentro de los grupos de informes.
 
    ![Grupos de ofertas: Control y segmentado](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-Para obtener información sobre el uso de [!UICONTROL Automated Personalization] informes (incluido el informe [!UICONTROL Offer Level]), consulte [Informes de resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+Para obtener información sobre el uso de los informes de [!UICONTROL Automated Personalization] (incluido el informe de [!UICONTROL Nivel de oferta]), consulte [Informes de resumen de Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).

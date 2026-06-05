@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1043
-ht-degree: 16%
+source-wordcount: 1095
+ht-degree: 21%
 
 ---
 
@@ -41,7 +41,7 @@ De manera predeterminada, [!DNL Target] no limita un host que puede realizar [!D
 
 {{permissions-update}}
 
-Para administrar los hosts, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
+Para administrar los hosts, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Hosts]**.
 
 ## Reconocer hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
@@ -55,48 +55,48 @@ Para reconocer un host y agregarlo a la lista [!UICONTROL Hosts], se deben cumpl
 
 * La página con la solicitud [!DNL Target] debe verse en un explorador
 
-Una vez vista la página, el host se enumera en la lista [!UICONTROL Hosts], lo que le permite administrarlo en un entorno y obtener una vista previa e iniciar actividades y pruebas.
+Una vez vista la página, el host se enumera en la lista [!UICONTROL Hosts], lo que le permite administrarlo en un entorno, y obtener una vista previa e iniciar actividades y pruebas.
 
 >[!NOTE]
 >
 >Esto engloba todos los servidores de desarrollo personal.
 
-Después de agregar un host a la lista [!UICONTROL Host], asegúrese de que se reconoce el host.
+Cuando un host se añada a la lista [!UICONTROL Hosts], compruebe si se reconoce.
 
-1. Haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Hosts]**.
 1. Si no está en la lista, actualice el navegador.
 
-   De manera predeterminada, un host recién reconocido se coloca en el entorno [!UICONTROL Production]. El entorno [!UICONTROL Production] es el más seguro porque no permite que se vean actividades inactivas desde estos hosts.
+   De manera predeterminada, un host recién reconocido se coloca en el entorno [!UICONTROL Production]. El entorno [!UICONTROL Production] es el entorno más seguro porque no permite que se vean actividades inactivas desde estos hosts.
 
-1. (Condicional) Haga clic en el icono **[!UICONTROL Move]** ( ![icono de mover](/help/main/assets/icons/MoveTo.svg) ) para mover el host a [!UICONTROL Development], [!UICONTROL Staging] u otro entorno.
+1. (Condicional) Haga clic en el icono **[!UICONTROL Mover]** ( ![mover icono](/help/main/assets/icons/MoveTo.svg) ) para mover el host al entorno [!UICONTROL Desarrollo], [!UICONTROL Ensayo] u otro.
 
 >[!NOTE]
 >
->El entorno [!UICONTROL Production] no se puede eliminar aunque se le cambie el nombre. Se da por hecho que en este entorno es donde se proporcionan las actividades y pruebas finales y activas. El entorno predeterminado no permite la visualización de campañas inactivas.
+>No se puede eliminar el entorno [!UICONTROL Production] aunque se le cambie el nombre. Se da por hecho que en este entorno es donde se proporcionan las actividades y pruebas finales y activas. El entorno predeterminado no permite la visualización de campañas inactivas.
 
 ## Ordenar o buscar en la lista Hosts {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Para ordenar la lista [!UICONTROL Hosts], haga clic en cualquier encabezado de columna ([!UICONTROL Name], [!UICONTROL Environment] o [!UICONTROL Last Requested]) para ordenar la lista en orden ascendente o descendente.
+Para ordenar la lista [!UICONTROL Hosts], haga clic en el encabezado de cualquier columna ([!UICONTROL Nombre], [!UICONTROL Entorno] o [!UICONTROL Última solicitud]) para ordenar la lista en orden ascendente o descendente.
 
-Para buscar en la lista [!UICONTROL Hosts], escriba un término de búsqueda en el cuadro [!UICONTROL Search Hosts].
+Para buscar en la lista [!UICONTROL Hosts], escriba un término de búsqueda en el cuadro [!UICONTROL Buscar hosts].
 
 ## Cree listas de permitidos que especifiquen hosts con autorización para enviar [!DNL Target] solicitudes a [!DNL Target]. {#allowlist}
 
-Puede crear una lista de permitidos que especifique los hosts (dominios) con autorización para enviar [!DNL Target] solicitudes a [!DNL Target]. Todos los demás hosts que generan solicitudes obtienen una respuesta de error de autorización comentada. De manera predeterminada, cualquier host que contenga una solicitud [!DNL Target] se registra con [!DNL Target] en el entorno [!UICONTROL Production] y tiene acceso a todas las actividades activas y aprobadas. Si no desea este método, puede usar la lista de permitidos para registrar hosts específicos que cumplan los requisitos para realizar [!DNL Target] solicitudes y recibir contenido de [!DNL Target]. Todos los hosts seguirán mostrándose en la lista [!UICONTROL Hosts], y se podrán seguir utilizando entornos para agrupar estos hosts y asignar niveles diferentes a cada uno, por ejemplo, si el host puede ver actividades activas o inactivas.
+Puede crear una lista de permitidos que especifique los hosts (dominios) con autorización para enviar [!DNL Target] solicitudes a [!DNL Target]. Todos los demás hosts que generan solicitudes obtienen una respuesta de error de autorización comentada. De manera predeterminada, cualquier host que contenga una solicitud [!DNL Target] se registra con [!DNL Target] en el entorno [!UICONTROL Production] y tiene acceso a todas las actividades activas y aprobadas. Si no desea este método, puede usar la lista de permitidos para registrar hosts específicos que cumplan los requisitos para realizar [!DNL Target] solicitudes y recibir contenido de [!DNL Target]. Todos los hosts se seguirán mostrando en la lista [!UICONTROL Hosts], y se podrán seguir usando entornos para agrupar estos hosts y asignar niveles diferentes a cada uno, por ejemplo, si el host puede ver actividades activas o inactivas.
 
 Para crear una lista de permitidos:
 
-1. En la lista [!UICONTROL Hosts], haga clic en **[!UICONTROL Authorize Hosts]**.
-1. Habilite la opción **[!UICONTROL Enable Authorized Hosts for content delivery]**.
-1. Agregue los hosts que desee en el cuadro **[!UICONTROL Host contains]**.
+1. En la lista [!UICONTROL Hosts], haga clic en **[!UICONTROL Autorizar hosts]**.
+1. Active la opción **[!UICONTROL Habilitar hosts autorizados para la entrega de contenido]**.
+1. Agregue los hosts que desee en el cuadro **[!UICONTROL El host contiene]**.
 
    Se pueden agregar varios hosts, cada uno en una línea.
 
-1. Agregue los hosts que desee en el cuadro **[!UICONTROL Host does not contains]**.
+1. Agregue los hosts que desee en el cuadro **[!UICONTROL El host no contiene]**.
 
    Se pueden agregar varios hosts, cada uno en una línea.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 Si se realiza una solicitud [!DNL Target] en un host sin autorización, la llamada responde con `/* no display - unauthorized mbox host */`.
 
@@ -108,20 +108,20 @@ Si se realiza una solicitud [!DNL Target] en un host sin autorización, la llama
 
 En ocasiones, aparecen dominios de otros sitios en los entornos. Si el dominio llama a at.js, aparecerá un dominio en la lista. Por ejemplo, si alguien copia una de sus páginas web en su servidor, ese dominio aparecerá en nuestro entorno. También es probable que vea dominios de motores de araña, sitios de traducción de idiomas o unidades de disco locales.
 
-En casos en los que `mboxHost` se pasa en una llamada de API, la conversión se registra para el entorno que se pasa. Si no se pasa ningún entorno, el valor predeterminado del host de la llamada será [!UICONTROL Production].
+En casos en los que `mboxHost` se pasa en una llamada de API, la conversión se registra para el entorno que se pasa. Si no se pasa ningún entorno, el valor predeterminado del host de la llamada será [!UICONTROL Producción].
 
-También puede crear una lista de bloqueados de que especifique los hosts (dominios) que no pueden enviar [!DNL Target] solicitudes a [!DNL Target] agregando los hosts que desee en el cuadro [!UICONTROL Host Does Not Contain].
+También puede crear una lista de bloqueados de que especifique los hosts (dominios) que no pueden enviar [!DNL Target] solicitudes a [!DNL Target] agregando los hosts deseados en el cuadro [!UICONTROL El host no contiene].
 
 >[!NOTE]
 >
->La lista [!UICONTROL Authorized Hosts] se usa tanto para los hosts [!DNL Target] como para los hosts de redirección predeterminados. Agregue todos los dominios existentes aprobados para utilizar [!DNL Adobe Target] JavaScript SDK (at.js) *Y* todos los dominios utilizados en las URL de redireccionamiento predeterminadas de ubox. Añada nuevos dominios similares a la lista de permitidos en el futuro.
+>La lista [!UICONTROL Hosts autorizados] se usa tanto para los hosts de [!DNL Target] como para los hosts de redirección predeterminados. Agregue todos los dominios existentes aprobados para utilizar [!DNL Adobe Target] JavaScript SDK (at.js) *Y* todos los dominios utilizados en las URL de redireccionamiento predeterminadas de ubox. Añada nuevos dominios similares a la lista de permitidos en el futuro.
 
 ## Eliminación de un host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Puede eliminar un host cuando ya no vaya a necesitarlo.
 
-1. En la lista [!UICONTROL Hosts], haga clic en el icono **[!UICONTROL Delete]** ( ![Eliminar icono](/help/main/assets/icons/DeleteOutline.svg) ).
-1. Haga clic en **[!UICONTROL Delete]** para confirmar la eliminación.
+1. En la lista [!UICONTROL Hosts], haga clic en el icono **[!UICONTROL Eliminar]** ( ![Eliminar icono](/help/main/assets/icons/DeleteOutline.svg) ).
+1. Haga clic en **[!UICONTROL Eliminar]** para confirmar la acción.
 
 >[!NOTE]
 >
@@ -133,13 +133,13 @@ Pruebe los siguientes consejos de resolución de problemas si tiene algún probl
 
 **El host no aparece en la lista de su cuenta.**
 
-* Actualice la página [!UICONTROL Hosts] en el explorador.
+* Actualice la página [!UICONTROL Hosts] en el navegador.
 * Confirme que la solicitud [!DNL Target] es correcta, incluida la referencia de at.js.
 * Intente navegar a una de las [!DNL Target] solicitudes en el host. Es posible que nunca se haya procesado ninguna solicitud [!DNL Target] del host en un explorador.
 
-**Los dominios aleatorios o desconocidos aparecen en la lista [!UICONTROL Host].**
+**La lista [!UICONTROL Hosts] contiene dominios aleatorios o desconocidos.**
 
-Aparece un dominio en esta lista si se realiza una solicitud a [!DNL Target] desde el dominio. Con frecuencia, es posible ver dominios de motores de araña, sitios de traducción de idiomas o unidades de disco locales. Si el dominio que aparece en la lista no es uno de los que usa su equipo, puede hacer clic en [!UICONTROL Delete] para quitarlo.
+Aparece un dominio en esta lista si se realiza una solicitud a [!DNL Target] desde el dominio. Con frecuencia, es posible ver dominios de motores de araña, sitios de traducción de idiomas o unidades de disco locales. En caso de que el dominio incluido en la lista no sea uno de los que el equipo usa, puede hacer clic en [!UICONTROL Eliminar] para eliminarlo.
 
 **Mi solicitud [!DNL Target] devuelve /&#42; sin visualización - host de mbox no autorizado &#42;/.**
 

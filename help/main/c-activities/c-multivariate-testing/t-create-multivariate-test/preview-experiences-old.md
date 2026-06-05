@@ -1,21 +1,21 @@
 ---
 keywords: multivariable;mvt;vista previa;experiencias
-description: Obtenga información sobre cómo obtener una vista previa de cada experiencia en una actividad [!UICONTROL Multivariate Test] (MVT) en  [!DNL Adobe Target] mediante el [!UICONTROL Visual Experience Composer] (VEC).
-title: ¿Cómo puedo obtener una vista previa de las experiencias de un(a) [!UICONTROL Multivariate Test] (MVT)?
+description: Obtenga información sobre cómo obtener una vista previa de cada experiencia en una actividad de [!UICONTROL prueba multivariable] (MVT) en [!DNL Adobe Target] usando el [!UICONTROL Compositor de experiencias visuales] (VEC).
+title: ¿Cómo puedo obtener una vista previa de las experiencias para una [!UICONTROL prueba multivariable] (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 25%
+source-wordcount: '202'
+ht-degree: 29%
 
 ---
 
-# Previsualizar experiencias para un(a) [!UICONTROL Multivariate Test]
+# Previsualizar experiencias para una [!UICONTROL prueba multivariable]
 
-Dado que un(a) [!UICONTROL Multivariate Test] de [!DNL Adobe Target] compara varias experiencias en una página, resulta útil obtener una vista previa de la página con cada experiencia.
+Dado que una [!UICONTROL prueba multivariable] en [!DNL Adobe Target] compara varias experiencias en una página, resulta útil obtener una vista previa de la página con cada experiencia.
 
-1. En [!UICONTROL Visual Experience Composer] (VEC), haga clic en **[!UICONTROL Preview]**.
+1. En el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en **[!UICONTROL Vista previa]**.
 
    Se muestra una lista de todas las experiencias.
 
@@ -23,7 +23,7 @@ Dado que un(a) [!UICONTROL Multivariate Test] de [!DNL Adobe Target] compara var
 
 1. Haga clic en una experiencia de la lista para verla.
 
-1. Para excluir una o más experiencias de la prueba multivariable, seleccione las experiencias que desee y haga clic en **[!UICONTROL Exclude]**.
+1. Para excluir una o más experiencias de la prueba multivariable, selecciona las experiencias que desees y haz clic en **[!UICONTROL Excluir]**.
 
    ![Excluir experiencias](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -33,6 +33,6 @@ Dado que un(a) [!UICONTROL Multivariate Test] de [!DNL Adobe Target] compara var
    >
    >Al crear pruebas multivariable, puede excluir más del 10 % de las experiencias de la prueba, siempre y cuando tenga en cuenta la advertencia de utilizar la creación de informes sin conexión para el análisis.
 
-   De manera predeterminada, todas las experiencias se incluyen en la prueba multivariable. Para incluir una experiencia que se ha excluido, seleccione la experiencia excluida y haga clic en **[!UICONTROL Include]**.
+   De manera predeterminada, todas las experiencias se incluyen en la prueba multivariable. Para incluir una experiencia que se había excluido, seleccione la experiencia excluida y haga clic en **[!UICONTROL Incluir]**.
 
-1. Haga clic en **[!UICONTROL Exit Preview Mode]** para volver a [!UICONTROL Visual Experience Composer] y realizar cambios, o haga clic en **[!UICONTROL Continue]** para ir al resumen de la prueba.
+1. Haga clic en **[!UICONTROL Salir del modo de vista previa]** para volver a [!UICONTROL Compositor de experiencias visuales] y realizar cambios, o haga clic en **[!UICONTROL Continuar]** para ir al resumen de la prueba.

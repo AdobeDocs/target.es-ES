@@ -19,8 +19,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 80%
+source-wordcount: 1326
+ht-degree: 79%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 80%
 
 Información sobre recursos adicionales para ayudarle a conocer las funciones de Target y cómo ponerse en contacto con Adobe si necesita ayuda con Target.
 
-## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Foro de la comunidad de Target] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-Descubra [!UICONTROL Adobe Target Community]: su centro para obtener información y colaboración.
+Descubra la [!UICONTROL Comunidad de Adobe Target]: su centro para obtener información y colaboración.
 
-[!UICONTROL Adobe Target Community Forum] es tu destino de referencia para todo [!DNL Adobe Targe]t. Tanto si acaba de empezar como si es un profesional experimentado, la comunidad ofrece valiosas oportunidades para lo siguiente:
+El [!UICONTROL Foro de la comunidad de Adobe Target] es tu destino ideal para todo lo que [!DNL Adobe Targe]t necesita. Tanto si acaba de empezar como si es un profesional experimentado, la comunidad ofrece valiosas oportunidades para lo siguiente:
 
 * **Explorar [!DNL Target] características**: Conozca las prácticas recomendadas y descubra nuevas formas de usar [!DNL Target].
 * **Conéctese y colabore**: Póngase en contacto con compañeros y [!DNL Adobe] expertos para compartir perspectivas y resolver desafíos juntos.
@@ -45,7 +45,7 @@ Visite el [Foro de la comunidad de Target](https://experienceleaguecommunities.a
 ## Serie de seminarios web sobre fundamentos de Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++Ver detalles
-Explore [[Serie de seminarios web sobre fundamentos de Target]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, una iniciativa de éxito del cliente que le ofrece [!UICONTROL Adobe Target Community]. Acceda a los detalles de registro de próximas sesiones y examine las grabaciones de seminarios web anteriores para comprender mejor las características de [!DNL Target], las prácticas recomendadas y los casos de uso reales.
+Explore [[Serie de seminarios web sobre fundamentos de Target]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, una iniciativa de éxito del cliente que le ofrece la [!UICONTROL Comunidad de Adobe Target]. Acceda a los detalles de registro de próximas sesiones y examine las grabaciones de seminarios web anteriores para comprender mejor las características de [!DNL Target], las prácticas recomendadas y los casos de uso reales.
 
 +++
 

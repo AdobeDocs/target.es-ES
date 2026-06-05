@@ -13,12 +13,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1024
-ht-degree: 34%
+source-wordcount: 1116
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Browser]
+# [!UICONTROL Explorador]
 
 Puede segmentar usuarios que usen un navegador específico y opciones del navegador concretas cuando visiten una página.
 
@@ -29,7 +29,7 @@ Se pueden segmentar los siguientes navegadores:
 * [!UICONTROL Safari]
 * [!UICONTROL Internet Explorer]
 * [!UICONTROL Microsoft Edge]
-* [!UICONTROL Opera]
+* [!UICONTROL Ópera]
 * [!DNL iPad]
 * [!DNL iPhone]
 
@@ -39,7 +39,7 @@ Se pueden segmentar los siguientes navegadores:
 >
 >Esta actualización no requiere ninguna acción por parte de los clientes. Las etiquetas de la interfaz de usuario de [!DNL Target] se cambiarán en el futuro y se anunciarán en [[!DNL Target] notas de la versión (actual)](/help/main/r-release-notes/release-notes.md) cuando se realicen estos cambios.
 >
->Para ver la configuración de la solución, consulta [Actualizaciones para [!DNL iPad] y [!DNL iPhone] en [!UICONTROL Browser] atributos de audiencia (30 de abril de 2024)](#updates) a continuación.
+>Para obtener la configuración de la solución, consulta [Actualizaciones para [!DNL iPad] y [!DNL iPhone] en los atributos de audiencia de [!UICONTROL Browser] (30 de abril de 2024)](#updates) a continuación.
 
 Hay dos formar de segmentar según el navegador:
 
@@ -53,20 +53,20 @@ Hay dos formar de segmentar según el navegador:
 
 * **Regla de audiencia de explorador personalizada:** Una audiencia personalizada le permite segmentar varios exploradores o configurar reglas o exclusiones para exploradores, versiones de exploradores o idiomas específicos. Esta funcionalidad proporciona una flexibilidad considerable a la hora de segmentar una actividad según los atributos del explorador.
 
-   1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+   1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
    1. Asigne un nombre a la audiencia y añada una descripción opcional.
    1. Arrastre y suelte **[!UICONTROL Browser]** en el Generador de audiencias.
 
       ![Reglas > Explorador](assets/target_browser.png)
 
-   1. Haga clic en **[!UICONTROL Select]** y luego seleccione una de las siguientes opciones:
+   1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
       * **Tipo:** dirija la actividad a un navegador o exclúyalo. Consulte [Tipo](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Idioma:** Dirija la actividad a ciertos navegadores que están configurados para usar idiomas específicos o exclúyalos. Consulte [Idioma](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Versión:** dirija la actividad a ciertas versiones del navegador o exclúyalas. Consulte [Versión](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
    1. (Opcional) Configure reglas adicionales para la audiencia.
-   1. Haga clic en **[!UICONTROL Done]**.
+   1. Haga clic en **[!UICONTROL Finalizado]**.
 
   El siguiente ejemplo muestra una audiencia que incluye [!DNL Microsoft Edge] usuarios de las versiones 91 o 92:
 
@@ -80,10 +80,10 @@ Dirija la actividad a visitantes o exclúyalos en función del tipo, el idioma o
 
 Dirija la actividad a un navegador o exclúyalo.
 
-Seleccione **[!UICONTROL Type]** y, a continuación, elija igual a o no es igual a.
+Seleccione **[!UICONTROL Tipo]** y, a continuación, elija igual a o no es igual a.
 
-* [!UICONTROL Equals]: seleccione como destino los exploradores seleccionados.
-* [!UICONTROL Does not equal]: excluir los exploradores seleccionados.
+* [!UICONTROL Es igual a]: Oriente los exploradores seleccionados.
+* [!UICONTROL No es igual a]: excluir los exploradores seleccionados.
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
@@ -95,10 +95,10 @@ Por ejemplo, si una oferta solo está disponible en español, puede segmentar ex
 
 La inclusión o exclusión de idiomas de navegador puede proporcionar una segmentación del visitante más precisa que segmentarlos según la ubicación geográfica, al menos en aquellos casos en los que el idioma es más importante que la ubicación. Si, por ejemplo, ofrece un artículo escrito en español, puede dirigirlo a los países de habla hispana o a los navegadores en los que el idioma establecido es el español. Segmentar según el navegador facilita el artículo a los hablantes de español ubicados en países en los que el español no es el principal idioma.
 
-Seleccione **[!UICONTROL Language]** y, a continuación, elija igual a o no es igual a.
+Seleccione **[!UICONTROL Idioma]** y, a continuación, elija igual a o no es igual a.
 
-* [!UICONTROL Equals]: establezca como destino los idiomas de explorador seleccionados.
-* [!UICONTROL Does not equal]: excluir los idiomas de explorador seleccionados.
+* [!UICONTROL Es igual a]: Oriente los idiomas de explorador seleccionados.
+* [!UICONTROL No es igual a]: excluir los idiomas de explorador seleccionados.
 
 Seleccione uno o varios. Si hay varias opciones, se conectan con un parámetro O.
 
@@ -120,14 +120,14 @@ Dirija la actividad a ciertas versiones del navegador o exclúyalas.
 
 Por ejemplo, si la página no aparece correctamente en [!DNL Internet Explorer] versión 11 o anteriores, puede crear una audiencia que excluya esas versiones. En ese caso, debe configurar una regla en la que el tipo de explorador sea igual a [!DNL Internet Explorer] y agregar una segunda regla en la que la versión sea menor o igual que 11.
 
-Seleccione **[!UICONTROL Version]** y luego elija un operador:
+Seleccione **[!UICONTROL Versión]** y, a continuación, elija un operador:
 
-* [!UICONTROL Equals]
-* [!UICONTROL Does not equal]
-* [!UICONTROL Is greater than]
+* [!UICONTROL Es igual a]
+* [!UICONTROL No es igual a]
+* [!UICONTROL Es mayor que]
 * Es mayor que o igual a
-* [!UICONTROL Is less than]
-* [!UICONTROL Is less than or equal to]
+* [!UICONTROL &#x200B; es menor que &#x200B;]
+* [!UICONTROL Es menor o igual que]
 
 Escriba el nombre de la versión. En el campo de texto solo se pueden introducir versiones principales. Es decir, la versión especificada incluye las versiones secundarias de la principal. Por ejemplo, si especifica la versión 10, también se incluyen los visitantes de la versión 10.1.
 
@@ -142,7 +142,7 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Actualizaciones para [!DNL iPad] y [!DNL iPhone] en [!UICONTROL Browser] atributos de audiencia (30 de abril de 2024) {#updates}
+## Actualizaciones para [!DNL iPad] y [!DNL iPhone] en los atributos de audiencia de [!UICONTROL Browser] (30 de abril de 2024) {#updates}
 
 [!DNL Adobe Target] le permite [segmentar cualquiera de los atributos de categoría](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), incluidos los usuarios que usan un explorador específico u opciones del explorador cuando visitan la página.
 
@@ -158,29 +158,29 @@ Las audiencias de JavaScript son audiencias heredadas que utilizan expresiones [
 
 Se pueden utilizar los siguientes ajustes a partir de ahora:
 
-* **Para coincidencias de explorador[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **Para coincidencias de explorador[!DNL Apple]**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL coincide] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* **Para que el explorador coincida con la tableta**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **Para que el explorador coincida con la tableta**: [!UICONTROL Móvil] > [!UICONTROL es una tableta] > [!UICONTROL true]
 
   ![móvil es tableta](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **Para que el explorador coincida con iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] con un contenedor Y con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] es [!DNL true]
+* **Para las coincidencias de explorador con iPad**: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing de dispositivo] [!UICONTROL coincide] [!DNL iPad] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es una tableta] es [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* **Para que el explorador coincida con iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] con un contenedor Y con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] es [!DNL true]
+* **Para las coincidencias de explorador con iPhone**: [!UICONTROL Móvil] > [!UICONTROL Nombre de marketing de dispositivo] [!UICONTROL coincide] [!DNL iPhone] con un contenedor Y con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] es [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Existen muchas otras configuraciones posibles que se pueden utilizar, por ejemplo, cuando se niegan condiciones. Algunos ejemplos de condiciones negadas podrían tener el siguiente aspecto:
 
-* **Para el explorador no coincide con iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] es [!UICONTROL false]
+* **Para el explorador no coincide con iPhone**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es un teléfono móvil] [!UICONTROL falso]
 
   ![No es un teléfono móvil](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **Para el explorador no coincide con iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Mobile] > [!UICONTROL Is Tablet] es [!UICONTROL false].
+* **Para el explorador no coincide con iPad**: [!UICONTROL Móvil] > [!UICONTROL Proveedor de dispositivo] [!UICONTROL no coincide] [!UICONTROL Apple] con un contenedor O con [!UICONTROL Móvil] > [!UICONTROL Es una tableta] que es [!UICONTROL falsa].
 
   ![No es tablet](/help/main/r-release-notes/assets/tablet-false.png)
 

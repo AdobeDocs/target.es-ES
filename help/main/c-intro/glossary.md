@@ -30,7 +30,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2514
+source-wordcount: 2526
 ht-degree: 97%
 
 ---
@@ -171,7 +171,7 @@ Medición del interés de un visitante en un sitio, según el tiempo que ha perm
 
 **compositor de experiencias mejorado**
 
-[!UICONTROL Enhanced Experience Composer] es una extensión de [!UICONTROL Visual Experience Composer] que le ayuda a editar una experiencia para un sitio con eliminación de iframes o páginas que aún no incluyen la implementación de [!DNL Target]. Si tiene problemas para abrir la página en [!UICONTROL Visual Experience Composer], pruebe con [!UICONTROL Enhanced Experience Composer].
+El [!UICONTROL Compositor de experiencias mejorado] es una extensión de [!UICONTROL Compositor de experiencias visuales] que te ayuda a editar una experiencia para un sitio con eliminación de iframes o páginas que aún no incluyen la implementación de [!DNL Target]. Si tiene problemas para abrir la página en el [!UICONTROL Compositor de experiencias visuales], pruebe con el [!UICONTROL Compositor de experiencias mejorado].
 
 **Permisos de usuario de Enterprise**
 

@@ -1,19 +1,19 @@
 ---
 keywords: actividades;actividad;panel de información
-description: '[!UICONTROL Adobe Target Dashboard] le ofrece una vista de alto nivel de cómo su organización utiliza  [!DNL Target] con el paso del tiempo, mostrando la adopción, el volumen de actividad y el uso de la experimentación de un vistazo.'
+description: El [!UICONTROL Tablero de Adobe Target] le ofrece una vista de alto nivel de cómo usa su organización [!DNL Target] con el paso del tiempo, mostrando la adopción, el volumen de actividad y el uso de la experimentación de un vistazo.
 title: Panel de perspectivas de Adobe Target
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
 source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 1%
 
 ---
 
 # Panel de perspectivas de Adobe Target
 
-[!UICONTROL Adobe Target Dashboard] proporciona una vista de alto nivel de cómo su organización utiliza [!DNL Adobe Target] a lo largo del tiempo. De un vistazo, ayuda a los equipos a comprender el uso de la adopción, el volumen de actividad y la experimentación.
+El [!UICONTROL panel de Adobe Target] proporciona una vista de alto nivel de cómo su organización utiliza [!DNL Adobe Target] a lo largo del tiempo. De un vistazo, ayuda a los equipos a comprender el uso de la adopción, el volumen de actividad y la experimentación.
 
 El tablero está diseñado tanto para profesionales como para partes interesadas que deseen una visibilidad rápida del uso de [!DNL Target] sin tener que profundizar en los informes de actividad individuales.
 
@@ -29,7 +29,7 @@ Para obtener resultados detallados, alza o rendimiento estadístico, consulte [i
 
 ## [!UICONTROL Experimentation Accelerator]
 
-El titular del tablero proporciona acceso directo a **[!UICONTROL Experimentation Accelerator]**, un punto de entrada ligero a las herramientas que optimizan los flujos de trabajo de experimentación y simplifican la configuración, el análisis y la toma de decisiones de los experimentos.
+El banner del tablero proporciona acceso directo a **[!UICONTROL Experimentation Accelerator]**, un punto de entrada ligero a las herramientas que optimizan los flujos de trabajo de experimentación y simplifican la configuración, el análisis y la toma de decisiones de los experimentos.
 
 ## Selección de intervalo de tiempo
 
@@ -45,7 +45,7 @@ Tenga en cuenta lo siguiente al interpretar las métricas en el intervalo de tie
 
 * Como resultado, es posible que los totales de todas las métricas no se sumen exactamente. Por ejemplo, se pueden iniciar y finalizar muchas actividades en el mismo lapso de tiempo.
 
-También puede exportar una instantánea del tablero seleccionando **[!UICONTROL Download as PNG]** en el menú avanzado.
+También puede exportar una instantánea del tablero seleccionando **[!UICONTROL Descargar como PNG]** en el menú avanzado.
 
 ![](assets/insights-3.png)
 
@@ -84,13 +84,13 @@ La métrica **Actividades publicadas** detalla la cantidad de actividades que se
 
 ![](assets/insights-5.png)
 
-El gráfico [!UICONTROL Activity Type] muestra la distribución de actividades activas por tipo durante el intervalo de tiempo seleccionado, incluido lo siguiente:
+El gráfico [!UICONTROL Tipo de actividad] muestra la distribución de actividades activas por tipo durante el intervalo de tiempo seleccionado, que incluye:
 
-* [!UICONTROL A/B Test]
-* [!UICONTROL Experience Targeting]
+* [!UICONTROL Prueba A/B]
+* [!UICONTROL Segmentación de experiencias]
 * [!UICONTROL Recommendations]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL Multivariate Test]
+* [!UICONTROL Personalización automatizada]
+* [!UICONTROL Prueba multivariable]
 
 Utilice este gráfico para identificar en qué capacidades de [!DNL Target] se basa más su organización, así como para identificar oportunidades que le permitirán ampliar la combinación de tipos de actividades que ejecuta.
 
@@ -98,11 +98,11 @@ Utilice este gráfico para identificar en qué capacidades de [!DNL Target] se b
 
 ![](assets/insights-6.png){align="center"}
 
-En esta sección se resalta el uso relacionado específicamente con **[!UICONTROL A/B Test]** actividades.
+Esta sección resalta el uso relacionado específicamente con las actividades de **[!UICONTROL Prueba A/B]**.
 
-La métrica **[!UICONTROL Total live A/B Test activities]** muestra el número de **[!UICONTROL A/B Test]** actividades que estuvieron activas en cualquier momento durante el intervalo de tiempo seleccionado.
+La métrica **[!UICONTROL Total de actividades activas de prueba A/B]** muestra el número de actividades de **[!UICONTROL prueba A/B]** que estaban activas en cualquier momento durante el intervalo de tiempo seleccionado.
 
-**[!UICONTROL Total A/B Tests published]** muestra el número de **[!UICONTROL A/B Test]** actividades que se publicaron durante el intervalo de tiempo seleccionado.
+El **[!UICONTROL total de pruebas A/B publicadas]** muestra el número de actividades de **[!UICONTROL prueba A/B]** que se publicaron durante el intervalo de tiempo seleccionado.
 
 Utilice estas métricas para comprender con qué frecuencia se utilizan las pruebas A/B y para rastrear el volumen de experimentación y la adopción a lo largo del tiempo.
 
@@ -110,5 +110,5 @@ Utilice estas métricas para comprender con qué frecuencia se utilizan las prue
 
 ![](assets/insights-7.png){align="center"}
 
-El gráfico **[!UICONTROL Activities Over Time]** registra la cantidad de actividades creadas, modificadas y publicadas en el intervalo de tiempo seleccionado, lo que facilita la detección de tendencias, picos o períodos de silencio en el programa de experimentación.
+El gráfico **[!UICONTROL Actividades a lo largo del tiempo]** registra la cantidad de actividades creadas, modificadas y publicadas en el intervalo de tiempo seleccionado, lo que facilita la detección de tendencias, picos o períodos de inactividad en el programa de experimentación.
 

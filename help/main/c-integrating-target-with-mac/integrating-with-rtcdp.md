@@ -22,8 +22,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 74%
+source-wordcount: 1173
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ Para obtener más información sobre RTCDP, consulte [Información general de Re
 Las funciones clave incluyen las siguientes:
 
 * Integración directa de [!DNL Target] con Real-Time CDP/[!DNL Adobe Experience Platform] en Edge (se elimina la dependencia de [!DNL Audience Core services], AAM)
-* [!UICONTROL Target Edge Destinations Card] con gobernanza y aplicación de políticas
+* [!UICONTROL Tarjeta de destino de Edge de Target] con control y aplicación de políticas
 * Segmentos y atributos de perfil compartidos de Real-Time CDP
 
 ## Situaciones de implementación
@@ -58,7 +58,7 @@ Las secciones siguientes muestran qué tipo de caso de uso de personalización (
 | <ul><li>[!DNL RTCDP] (cualquier SKU) y [!DNL Target]</li></ul> | <ul><li>Personalización de próxima sesión</li><li>Personalización de la misma página mediante Edge</li><li>Gobernanza aplicada al compartir segmentos</li></ul> |
 | <ul><li>[!DNL RTCDP] (cualquier SKU), [!DNL AAM] y [!DNL Target]</li></ul> | <ul><li>Personalización de próxima sesión</li><ul><li>[!DNL AAM] segmentos</li><li>Segmentos de terceros a través de [!DNL AAM]</li></ul><li>Personalización de la misma página mediante Edge</li><ul><li>[!DNL RTCDP] segmentos</li><li>Gobernanza aplicada al compartir segmentos</li></ul> |
 
-### Mezcla de implementación de [!UICONTROL at.js] y [!DNL Platform Web SDK]
+### Combinación de [!UICONTROL at.js] e implementación de [!DNL Platform Web SDK]
 
 | Soluciones | Caso de uso habilitado |
 | --- | --- |
@@ -96,22 +96,22 @@ Los atributos de perfil de Real-Time CDP se pueden compartir con [!DNL Target] p
 
 Tenga en cuenta lo siguiente:
 
-* Los atributos de una oferta determinada deben pertenecer a la misma zona protegida [!UICONTROL Experience Platform]. (En otras palabras, una oferta no puede contener atributos de diferentes zonas protegidas de [!UICONTROL Experience Platform]).
-* Los atributos dentro de una oferta determinada pueden provenir de diferentes fuentes, a saber, el perfil [!DNL Target] y el perfil [!UICONTROL Experience Platform]. (En otras palabras, puede combinar atributos ya provengan de [!DNL Target] o del perfil [!UICONTROL Experience Platform]).
-* Al definir una oferta, puede asignar valores predeterminados para [!UICONTROL Real-Time CDP Profile Attributes], en caso de que el atributo no tenga un valor explícito. Por ejemplo, si un consentimiento o una política de gobernanza bloquean el atributo que se está utilizando en el servicio de personalización, se puede utilizar el valor predeterminado en su lugar.
+* Los atributos de una oferta determinada deben pertenecer a la misma zona protegida de [!UICONTROL Experience Platform]. (En otras palabras, una oferta no puede contener atributos de diferentes zonas protegidas de [!UICONTROL Experience Platform]).
+* Los atributos de una oferta determinada pueden provenir de diferentes fuentes, a saber, el perfil [!DNL Target] y el perfil [!UICONTROL Experience Platform]. (En otras palabras, puede combinar atributos ya provengan de [!DNL Target] o del perfil [!UICONTROL Experience Platform]).
+* Al definir una oferta, puede asignar valores predeterminados para [!UICONTROL Atributos de perfil de Real-Time CDP], en caso de que el atributo no tenga un valor explícito. Por ejemplo, si un consentimiento o una política de gobernanza bloquean el atributo que se está utilizando en el servicio de personalización, se puede utilizar el valor predeterminado en su lugar.
 * [!DNL Target] solo admite el tipo de datos &quot;string&quot; para los atributos de perfil [!DNL Adobe Experience Platform] que se van a usar en las ofertas. Los atributos de tipo &quot;Mapa&quot; y &quot;Matriz&quot; aún no son compatibles.
 
 ### Caso de uso de muestra de JSON
 
-Como experto en marketing en línea, desea que AEP o el perfil unificado compartan valores de atributos con [!DNL Target] para proporcionar personalización en tiempo real. Con [!UICONTROL Real-Time CDP Profile Attributes], puede mostrar el valor del atributo [!UICONTROL Experience Platform] en una oferta [!DNL Target] mediante la sustitución de tokens. Por ejemplo, puede personalizar según el color favorito de un cliente utilizando `${aep.profile.favoriteColor}`, o su nivel de lealtad y valor de punto de lealtad mediante los tókenes `${aep.loyalty.tier}` y `${aep.loyalty.points}`.
+Como experto en marketing en línea, desea que AEP o el perfil unificado compartan valores de atributos con [!DNL Target] para proporcionar personalización en tiempo real. Si usa [!UICONTROL Atributos de perfil de Real-Time CDP], puede mostrar el valor del atributo [!UICONTROL Experience Platform] en una oferta [!DNL Target] mediante el reemplazo de token. Por ejemplo, puede personalizar según el color favorito de un cliente utilizando `${aep.profile.favoriteColor}`, o su nivel de lealtad y valor de punto de lealtad mediante los tókenes `${aep.loyalty.tier}` y `${aep.loyalty.points}`.
 
 Para crear una oferta JSON para compartir atributos de perfil unificado/AEP con [!DNL Target]:
 
-1. Mientras [crea una oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), en la lista **[!UICONTROL Select a source]**, seleccione **[!UICONTROL Adobe Experience Platform]**.
-1. En la lista **[!UICONTROL Select a profile sandbox name]**, seleccione la zona protegida que desee.
-1. En la lista **[!UICONTROL Select a profile attribute]**, seleccione los atributos que desee.
-1. (Opcional) En la lista **[!UICONTROL Insert a default value]**, seleccione los valores que desee.
-1. Haga clic en **[!UICONTROL Add]**.
+1. Mientras [crea una oferta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), en la lista **[!UICONTROL Seleccionar un origen]**, seleccione **[!UICONTROL Adobe Experience Platform]**.
+1. En la lista **[!UICONTROL Seleccionar un nombre de zona protegida de perfil]**, seleccione la zona protegida que desee.
+1. En la lista **[!UICONTROL Seleccionar un atributo de perfil]**, seleccione los atributos que desee.
+1. (Opcional) En la lista **[!UICONTROL Insertar un valor predeterminado]**, seleccione los valores que desee.
+1. Haga clic en **[!UICONTROL Agregar]**.
 
 La siguiente ilustración muestra dos atributos de perfil: `loyalty.tier` y `loyalty.points` se han añadido a la oferta JSON.
 

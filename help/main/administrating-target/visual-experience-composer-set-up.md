@@ -25,16 +25,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 49%
+source-wordcount: 721
+ht-degree: 47%
 
 ---
 
-# Configurar [!UICONTROL Visual Experience Composer]
+# Configurar [!UICONTROL Compositor de experiencias visuales]
 
-Configure [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) especificando su configuración general, la configuración de las ventanillas móviles y los selectores CSS.
+Configure [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) especificando su configuración general, la configuración de las ventanillas móviles y los selectores CSS.
 
-Para obtener acceso a la página de configuración de [!UICONTROL Visual Experience Composer], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+Para obtener acceso a la página de configuración de [!UICONTROL Compositor de experiencias visuales], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales].**
 
 {{permissions-update}}
 
@@ -44,7 +44,7 @@ Para obtener acceso a la página de configuración de [!UICONTROL Visual Experie
 
 ## Ajustes generales
 
-Puede especificar la configuración general de [!UICONTROL Visual Experience Composer].
+Puede especificar la configuración general de [!UICONTROL Compositor de experiencias visuales].
 
 ![Sección de configuración general](/help/main/administrating-target/assets/general-settings.png)
 
@@ -52,11 +52,11 @@ Las configuraciones disponibles son las siguientes:
 
 ### URL predeterminada
 
-Establecer la dirección URL predeterminada utilizada por [!UICONTROL Visual Experience Composer]. Esta es la página predeterminada, como la página principal, que se utiliza siempre que quiere configurar una experiencia para cada nueva actividad. Si no establece una URL predeterminada, tiene que escribir una URL para cada actividad en el momento de la creación.
+La dirección URL predeterminada que utiliza el [!UICONTROL Compositor de experiencias visuales]. Esta es la página predeterminada, como la página principal, que se utiliza siempre que quiere configurar una experiencia para cada nueva actividad. Si no establece una URL predeterminada, tiene que escribir una URL para cada actividad en el momento de la creación.
 
 ### Activar el compositor de experiencias mejorado {#eec}
 
-Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Anule la selección de esta opción para revertir al(a) [!UICONTROL Visual Experience Composer] original. La publicación de actividades en los sitios no se verá afectada por esta opción.
+Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Anule la selección de esta opción para volver al [!UICONTROL Compositor de experiencias visuales] original. La publicación de actividades en los sitios no se verá afectada por esta opción.
 
 Para obtener más información, consulte [Solución de problemas del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -79,14 +79,14 @@ Cuando se habilitan las instantáneas de experiencia, se generan miniaturas de l
 
 >[!NOTE]
 >
->La configuración de [!UICONTROL Mobile Viewport Configuration] es una característica de [Target Premium](/help/main/c-intro/intro.md#premium).
+>La configuración de la [!UICONTROL ventanilla móvil] es una característica de [Target Premium](/help/main/c-intro/intro.md#premium).
 
 
 Puede añadir dispositivos para usarlos al obtener una vista previa de las experiencias. Cada dispositivo tiene una audiencia asociada.
 
 ![Sección de configuración de ventanilla móvil](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Haga clic en **[!UICONTROL Add]**, especifique un nombre descriptivo para la ventanilla móvil, especifique la anchura y la altura, seleccione el sistema operativo deseado y, a continuación, haga clic en [!UICONTROL Save].
+Haga clic en **[!UICONTROL Agregar]**, especifique un nombre descriptivo para la ventanilla móvil, especifique la anchura y la altura, seleccione el sistema operativo que desee y haga clic en [!UICONTROL Guardar].
 
 Si desea información sobre cómo añadir una ventanilla móvil, consulte [Configuración de la ventanilla móvil](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -106,13 +106,13 @@ Desmarque esta opción si se usa el mismo identificador para varios elementos o 
 
 ### Usar clases de elementos
 
-De manera predeterminada, [!DNL Target] solo usa ID de elementos. Sin embargo, si la página está diseñada para usar clases para identificar elementos, como una página creada con [!DNL Adobe Experience Manager], también debería seleccionar [!UICONTROL Use element classes].
+De manera predeterminada, [!DNL Target] solo usa ID de elementos. Sin embargo, si la página está diseñada para usar clases para identificar elementos, como una página creada con [!DNL Adobe Experience Manager], también debería seleccionar [!UICONTROL Usar clases de elementos].
 
 >[!NOTE]
 >
 >Aunque se ha hecho todo lo posible para garantizar la precisión, tenga en cuenta que el uso de clases puede provocar errores. Si no selecciona ninguna opción, también se ve afectada la precisión. El orden de la precisión es ID > clases > ninguna opción. También asegúrese de probar la página para asegurarse de que los selectores sean correctos.
 
-Puede anular esta configuración por actividad (haga clic en el icono de engranaje [!UICONTROL Settings] y, a continuación, seleccione [!UICONTROL CSS Selectors]). Esto resulta especialmente útil si tiene varios sitios que están configurados de forma diferente.
+Puede anular esta configuración por actividad (haga clic en el icono de engranaje [!UICONTROL Settings] y, a continuación, seleccione [!UICONTROL Selectores CSS]). Esto resulta especialmente útil si tiene varios sitios que están configurados de forma diferente.
 
 >[!NOTE]
 >
@@ -126,6 +126,6 @@ Este vídeo incluye información sobre las preferencias de cuenta.
 
 >[!NOTE]
 >
->La interfaz de usuario del menú [!DNL Target] [!UICONTROL Administration] (anteriormente [!UICONTROL Setup]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas características y mejorar la experiencia del usuario en todo el producto. La información que aparece en el siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán próximamente.
+>La interfaz de usuario del menú [!DNL Target] [!UICONTROL Administración] (anteriormente [!UICONTROL Configuración]) se ha rediseñado para proporcionar un rendimiento mejorado, reducir el tiempo de mantenimiento necesario al lanzar nuevas características y mejorar la experiencia del usuario en todo el producto. La información que aparece en el siguiente vídeo es, en general, correcta; sin embargo, las opciones pueden estar en ubicaciones ligeramente diferentes. Los vídeos actualizados se publicarán próximamente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

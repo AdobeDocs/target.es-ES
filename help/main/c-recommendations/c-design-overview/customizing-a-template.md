@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 60%
 
 ---
@@ -215,7 +215,7 @@ El resultado es un diseño como el siguiente, en el que se muestra el artículo 
 
 ![imagen rec_key](assets/rec_key.png)
 
-Al crear su actividad [!DNL Recommendations], si el elemento clave se toma del perfil del visitante como, por ejemplo, &quot;último elemento comprado&quot;, [!DNL Target] muestra un producto aleatorio en [!UICONTROL Visual Experience Composer] (VEC). Se debe a que no hay un perfil disponible mientras diseña la actividad. Cuando los visitantes vean la página, verán el artículo clave previsto.
+Al crear su actividad [!DNL Recommendations], si el elemento clave se toma del perfil del visitante (por ejemplo, &quot;último elemento comprado&quot;), [!DNL Target] muestra un producto aleatorio en [!UICONTROL Compositor de experiencias visuales] (VEC). Se debe a que no hay un perfil disponible mientras diseña la actividad. Cuando los visitantes vean la página, verán el artículo clave previsto.
 
 ## Realización de reemplazos en un valor de cadena {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +245,7 @@ El siguiente código es un ejemplo condicional completo de un precio de venta:
 
 ## Personalización del tamaño de la plantilla y comprobación de valores en blanco {#default}
 
-Utilizando un script [!DNL Velocity] para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de &quot;1 a muchos&quot; para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que la copia de seguridad de recomendaciones no tendría sentido y en los que [!UICONTROL Partial Template Rendering] está habilitado.
+Utilizando un script [!DNL Velocity] para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de &quot;1 a muchos&quot; para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es ideal para los casos en los que las recomendaciones de copia de seguridad no tendrían sentido y en los que [!UICONTROL Procesamiento parcial de plantillas] esté habilitado.
 
 El siguiente fragmento HTML sustituye la parte HTML existente en el diseño predeterminado de 4 x 2 (la CSS no se incluye aquí, en aras de la brevedad):
 

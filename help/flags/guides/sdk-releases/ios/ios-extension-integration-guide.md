@@ -4,8 +4,8 @@ description: Obtenga información sobre cómo integrar la extensión de desplieg
 hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 6%
+source-wordcount: '929'
+ht-degree: 7%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 En esta guía se describe cómo integrar la extensión de despliegue de Experience Cloud con Adobe Experience Platform Mobile SDK en iOS.
 
-## Requisitos previos   {#prerequisites}
+## Requisitos previos {#prerequisites}
 
 Antes de implementar la extensión de despliegue de experiencia, asegúrese de lo siguiente:
 
@@ -433,7 +433,7 @@ NSString *version = [AEPMobileRollout extensionVersion];
 
 ## Resumen de API {#api-summary}
 
-| API | Devuelve |
+| de visitante | Devuelve |
 |---|---|
 | `isFeatureEnabled(featureKey:evaluationContext:completion:)`. `FeatureEvaluationContext` lleva atributos de segmentación para reglas e identidad opcional para analytics. Consulte [isFeatureEnabled](#is-feature-enabled). | Booleano mediante controlador de finalización |
 | `getFeature(featureKey:evaluationContext:completion:)`. Devuelve la carga útil de la función evaluada para el contexto determinado. Ver [getFeature](#get-feature). | ¿FeatureEvaluationResult? mediante controlador de finalización |

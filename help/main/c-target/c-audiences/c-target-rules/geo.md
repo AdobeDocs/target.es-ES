@@ -16,7 +16,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: 1078
 ht-degree: 40%
 
 ---
@@ -29,28 +29,28 @@ Los parámetros de ubicación geográfica permiten segmentar las actividades y e
 
 ## Creación de una audiencia con segmentación geográfica {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. En la interfaz [!DNL Target], haga clic en **[!UICONTROL Audiencias]** > **[!UICONTROL Crear audiencia]**.
 1. Asigne un nombre a la audiencia y añada una descripción opcional.
 1. Arrastre y suelte **[!UICONTROL Geo]** en el panel del generador de audiencias.
 
-1. Haga clic en **[!UICONTROL Select]** y luego seleccione una de las siguientes opciones:
+1. Haga clic en **[!UICONTROL Seleccionar]** y, a continuación, elija una de estas opciones:
 
-   * [!UICONTROL Country/Region]
-   * [!UICONTROL State]
-   * [!UICONTROL City]
-   * [!UICONTROL Zip Code]
-   * [!UICONTROL Longitude]
-   * [!UICONTROL Latitude]
+   * [!UICONTROL País/Región]
+   * [!UICONTROL Estado]
+   * [!UICONTROL Ciudad]
+   * [!UICONTROL Código postal]
+   * [!UICONTROL Longitud]
+   * [!UICONTROL Latitud]
    * [!UICONTROL DMA]
-   * [!UICONTROL Mobile Carrier]
+   * [!UICONTROL Operador de telefonía móvil]
 
    La información geográfica de un visitante se determina a partir de la dirección IP de origen de una solicitud de ubicación [!DNL Target] (solicitud mBox). La resolución de IP a ubicación geográfica está lista para la primera llamada de una nueva sesión. Esto significa que, si la dirección IP de un visitante cambia a mitad de la sesión de una visita, la información geográfica sigue basándose en la dirección IP de la primera llamada.
 
-   Para [!UICONTROL Mobile Carrier], [!DNL Target] utiliza los datos de registro de la dirección IP (a quien pertenece el bloque de direcciones IP) para determinar el operador de telefonía móvil apropiado mediante [códigos de país móviles (MCC, Mobile Country Codes) y códigos de red móviles (MNC, Mobile Network Codes)](https://www.mcc-mnc.com).
+   Para [!UICONTROL Operador de telefonía móvil], [!DNL Target] utiliza los datos de registro de la dirección IP (a quien pertenece el bloque de direcciones IP) para determinar el operador de telefonía móvil apropiado mediante [Códigos de país móviles (MCC) y Códigos de red móviles (MNC)](https://www.mcc-mnc.com).
 
 1. Especifique un operador y el valor adecuado.
 1. (Opcional) Configure reglas adicionales para la audiencia.
-1. Haga clic en **[!UICONTROL Done]**.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
 La siguiente ilustración muestra una audiencia que segmenta usuarios que acceden a la actividad desde una latitud superior a 44° y una longitud inferior a 22°.
 

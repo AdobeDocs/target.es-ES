@@ -15,14 +15,14 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 67%
+source-wordcount: 250
+ht-degree: 66%
 
 ---
 
 # Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
 
-Los problemas de visualización a veces ocurren en [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) y [!UICONTROL Enhanced Experience Composer] (EEC) bajo ciertas condiciones.
+Los problemas de visualización a veces ocurren en [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
 
 El VEC es una de las características principales de [!DNL Adobe Target]. El VEC es un editor que permite que los comerciantes y diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 

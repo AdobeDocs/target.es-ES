@@ -6,8 +6,8 @@ feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 9%
+source-wordcount: '483'
+ht-degree: 8%
 
 ---
 
@@ -63,8 +63,8 @@ Cuando se proporciona un atributo de entidad, un atributo de perfil o un paráme
 
 Los siguientes operadores están disponibles para su uso con atributos de entidad, perfil y mbox de varios valores:
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL está en la lista]
+* [!UICONTROL no está en la lista]
 
 ## Uso de atributos de varios valores en reglas de inclusión
 

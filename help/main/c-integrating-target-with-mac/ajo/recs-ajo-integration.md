@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Estos casos de uso son solo algunos casos de uso posibles para integrar [!DNL Ta
 
   Después de un período especificado, una acción personalizada en [!DNL Journey Optimizer] realiza una llamada a [!DNL Target Recommendations] para determinar qué elementos vio cada visitante, usando el [!DNL Adobe Experience Cloud Identifier] (EDID) de cada visitante, el perfil [!DNL Target] del visitante y un algoritmo [basado en el usuario](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). A continuación, [!DNL Adobe Journey Optimizer] envía a cada miembro de la audiencia cualificada un correo electrónico personalizado con imágenes y vínculos a los artículos vistos de cada visitante para que el visitante regrese y realice una compra.
 
-  En este escenario, se usa el [!UICONTROL Experience Cloud Visitor ID] (ECID) y el contenido del perfil [!DNL Target] de cada visitante para generar la recomendación basada en el algoritmo visualizado recientemente.
+  En este escenario, se usa la [!UICONTROL ID de visitante de Experience Cloud] (ECID) y el contenido del perfil [!DNL Target] de cada visitante para generar la recomendación basada en el algoritmo visualizado recientemente.
 
   Supongamos, por ejemplo, que un visitante visita un sitio web de venta minorista y visualiza varios relojes. El perfil [!DNL Target] de este visitante se ha actualizado con una lista de los relojes visualizados. Usando el ECID y el perfil [!DNL Target] del visitante, [!DNL Target] envía la recomendación a [!DNL Journey Optimizer]. [!DNL Journey Optimizer] envía un correo electrónico con imágenes y vínculos a los relojes que vio el visitante mediante el algoritmo de visualizaciones recientes. Otro visitante recibe un correo electrónico personalizado con imágenes y vínculos a los artículos que vio el visitante. Cada mensaje de correo electrónico está personalizado para cada visitante.
 

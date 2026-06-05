@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 709
 ht-degree: 46%
 
 ---
@@ -32,33 +32,33 @@ Organice sus sitios y entornos de preproducción para facilitar la administraci�
 
 Los hosts se agrupan en entornos para facilitar la administración. Así, se pueden tener decenas de hosts agrupados en dos o tres entornos. Los entornos preestablecidos incluyen [!UICONTROL Production], [!UICONTROL Staging] y [!UICONTROL Development]. Puede añadir entornos nuevos y cambiarles el nombre, si lo desea.
 
-Un entorno, el entorno predeterminado, tiene el nombre previo [!UICONTROL Production]. El entorno predeterminado no se puede eliminar aunque se le cambie el nombre. [!DNL Target] da por hecho que es desde este entorno desde donde se van a suministrar las actividades y pruebas finales y aprobadas.
+Un entorno, el entorno predeterminado, se denomina previamente [!UICONTROL Producción]. El entorno predeterminado no se puede eliminar aunque se le cambie el nombre. [!DNL Target] da por hecho que es desde este entorno desde donde se van a suministrar las actividades y pruebas finales y aprobadas.
 
 Cuando se recibe una solicitud [!DNL Target] de nuevos sitios web o dominios, estos nuevos dominios siempre aparecen en el entorno [!UICONTROL Production]. No se puede cambiar la configuración del entorno [!UICONTROL Production], por lo que se garantiza que los sitios nuevos o desconocidos solo verán el contenido que esté activo y listo. La administración de hosts también permite garantizar la calidad de las nuevas actividades y el contenido en los entornos de prueba, ensayo y desarrollo antes de activar las actividades.
 
 {{permissions-update}}
 
-Para administrar entornos, haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
+Para administrar entornos, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Entornos]**.
 
 ## Añadir un entorno {#section_32097D0993724DF3A202D164D3F18674}
 
-1. En la lista [!UICONTROL Environments], haga clic en **[!UICONTROL Add Environment]**.
+1. En la lista [!UICONTROL Entornos], haga clic en **[!UICONTROL Agregar entorno]**.
 1. Elija un nombre descriptivo para el entorno.
-1. Especifique el modo activo deseado para el entorno: [!UICONTROL Active Activities] o [!UICONTROL Active and Inactive Activities].
+1. Indique el modo activo del entorno: [!UICONTROL Actividades activas] o [!UICONTROL Actividades activas e inactivas].
 
-   Si especifica [!UICONTROL Active and Inactive Activities], los hosts de este entorno también mostrarán actividades inactivas.
+   Si especifica [!UICONTROL Actividades activas e inactivas], los hosts de este entorno también mostrarán actividades inactivas.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Establecer el entorno predeterminado para los informes {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Puede seleccionar el entorno que quiere usar como predeterminado para todos los informes de actividad.
 
-Si usa [!UICONTROL Production] como predeterminado, todos los hosts desconocidos se agregarán automáticamente aquí y los datos del informe de allí se incluirán en la vista de informe predeterminada. Al crear un entorno “limpio”, se asegura de que se incluyan solo los sitios o dominios principales.
+Si usa [!UICONTROL Producción] como valor predeterminado, todos los hosts desconocidos se agregarán automáticamente aquí y los datos del informe de allí se incluirán en la vista de informe predeterminada. Al crear un entorno “limpio”, se asegura de que se incluyan solo los sitios o dominios principales.
 
 Para establecer el entorno predeterminado en la creación de informes:
 
-1. En la lista [!UICONTROL Environments], haga clic en el icono Estrella
+1. En la lista [!UICONTROL Entornos], haga clic en el icono Inicio
 
 >[!NOTE]
 >
@@ -68,16 +68,16 @@ Para establecer el entorno predeterminado en la creación de informes:
 
 ## Cambiar el nombre de un entorno {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. En la lista [!UICONTROL Environment], haga clic en el icono **[!UICONTROL Edit]**.
+1. En la lista [!UICONTROL Entorno], haga clic en el icono **[!UICONTROL Editar]**.
 1. Cambie el nombre del entorno.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Eliminar un entorno {#section_737F8869612047868D03FC755B1223D3}
 
 Puede eliminar un entorno que ya no vaya a necesitar.
 
-1. En la lista [!UICONTROL Environment], haga clic en el icono **[!UICONTROL Delete]**.
-1. Haga clic en **[!UICONTROL Delete]** para confirmar la eliminación.
+1. En la lista [!UICONTROL Entorno], haga clic en el icono **[!UICONTROL Eliminar]**.
+1. Haga clic en **[!UICONTROL Eliminar]** para confirmar la acción.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Puede obtener una vista previa del contenido de las colecciones y exclusiones de
 
 {{premium-note}}
 
-Se puede utilizar un entorno para separar los elementos disponibles en el catálogo para usos diferentes. Por ejemplo, puede utilizar grupos de hosts para entornos de [!UICONTROL Development] y [!UICONTROL Production], marcas diferentes o regiones geográficas diferentes. De forma predeterminada, la vista previa de los resultados en Búsqueda de catálogo, Colecciones y Exclusiones se basa en el grupo de hosts predeterminado. (También puede seleccionar otro grupo de hosts para obtener una vista previa de los resultados mediante el filtro Entorno). De forma predeterminada, los elementos recién añadidos están disponibles en todos los grupos de hosts a menos que se especifique un ID de entorno al crear o actualizar el elemento.
+Se puede utilizar un entorno para separar los elementos disponibles en el catálogo para usos diferentes. Por ejemplo, puede usar grupos de hosts para los entornos [!UICONTROL Development] y [!UICONTROL Production], marcas diferentes o regiones geográficas diferentes. De forma predeterminada, la vista previa de los resultados en Búsqueda de catálogo, Colecciones y Exclusiones se basa en el grupo de hosts predeterminado. (También puede seleccionar otro grupo de hosts para obtener una vista previa de los resultados mediante el filtro Entorno). De forma predeterminada, los elementos recién añadidos están disponibles en todos los grupos de hosts a menos que se especifique un ID de entorno al crear o actualizar el elemento.
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ Si no ve sus productos, asegúrese de que esté usando el grupo de hosts correct
 >[!NOTE]
 >Después de cambiar el entorno seleccionado, debe hacer clic en Buscar para actualizar los resultados devueltos.
 
-El filtro [!UICONTROL Environment] está disponible en los siguientes lugares de la interfaz de usuario de Target:
+El filtro [!UICONTROL Entorno] está disponible en los siguientes lugares de la interfaz de usuario de Target:
 
-* Búsqueda en el catálogo ([!UICONTROL Recommendations > Catalog Search])
-* Cuadro de diálogo Crear colección ([!UICONTROL Recommendations > Collections > Create New])
-* Cuadro de diálogo Actualizar colección ([!UICONTROL Recommendations > Collections > Edit])
-* Cuadro de diálogo Crear exclusión ([!UICONTROL Recommendations > Exclusions > Create New])
-* Cuadro de diálogo Actualizar exclusión ([!UICONTROL Recommendations > Exclusions > Edit])
+* Buscar en el catálogo ([!UICONTROL Recommendations > Buscar en el catálogo])
+* Cuadro de diálogo Crear colección ([!UICONTROL Recommendations > Colecciones > Crear nuevo])
+* Cuadro de diálogo Actualizar colección ([!UICONTROL Recommendations > Colecciones > Editar])
+* Cuadro de diálogo Crear exclusión ([!UICONTROL Recommendations > Exclusiones > Crear nuevo])
+* Cuadro de diálogo Actualizar exclusión ([!UICONTROL Recommendations > Exclusiones > Editar])

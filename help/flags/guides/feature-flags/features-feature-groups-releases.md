@@ -5,7 +5,7 @@ hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Las marcas proporcionan dos artefactos para administrar los despliegues de carac
 
 ## Los dos artefactos {#artifacts}
 
-**Indicador de característica**
+**Indicador de funcionalidad**
 La unidad más atómica. Controla una única función para una única aplicación. Se puede habilitar o deshabilitar para una audiencia definida.
 
 **Grupo de funciones**
@@ -36,7 +36,7 @@ Colección de indicadores de características que pertenecen al mismo equipo. Pe
 
 ## Cuándo usar cada {#when-to-use}
 
-| Escenario | Utilice   |
+| Escenario | Utilice |
 |---|---|
 | Prueba o despliegue de una única función para una aplicación | **Indicador de característica** |
 | Coordinación de varias funciones en el mismo equipo, que se activan al mismo tiempo | **Grupo de funciones** |

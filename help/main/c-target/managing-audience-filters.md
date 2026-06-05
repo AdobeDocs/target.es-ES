@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 59%
 
 ---
@@ -41,7 +41,7 @@ Cuando vaya a utilizar filtros de audiencia en una actividad, tenga en cuenta la
 * **Empiece con dos o cuatro audiencias.** Céntrese en la información básica, como la fuente del tráfico.
 * **Cambie el nombre de las audiencias según sea necesario.** Puede cambiar el nombre de una audiencia sin que los datos se vean afectados, de modo que el nombre de la audiencia represente mejor los resultados que se están recopilando aunque la actividad esté activa.
 * **Introduzca valores precisos.** Los valores de los filtros de audiencia distinguen entre mayúsculas y minúsculas. Por ejemplo, si usa un público que filtra por ciudad, debe usar una condición “O” para que se incluyan variantes de escritura y mayúsculas/minúsculas, como “Vienna”, “Viena”, “viena”, “wien” y “Wien”.
-* **Las audiencias creadas a partir de la lista [!UICONTROL Audiences] se pueden reutilizar.** Las audiencias creadas dentro de una actividad no se pueden reutilizar.
+* **Las audiencias creadas a partir de la lista [!UICONTROL Audiencias] se pueden reutilizar.** Las audiencias creadas dentro de una actividad no se pueden reutilizar.
 
 Las secciones siguientes contienen más información sobre la configuración y la creación de informes sobre audiencias:
 

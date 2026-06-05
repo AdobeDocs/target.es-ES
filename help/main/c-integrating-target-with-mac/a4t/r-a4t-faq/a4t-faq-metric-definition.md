@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 36%
+source-wordcount: 367
+ht-degree: 35%
 
 ---
 
@@ -31,11 +31,11 @@ La caducidad predeterminada para la actividad es de 90 días después de la últ
 ## Al configurar mis métricas de objetivo, ¿por qué no puedo acceder a las opciones de configuración avanzada? {#adv-settings}
 
 +++Respuesta
-Las opciones de [!UICONTROL Advanced Settings] no están disponibles para las actividades que usan [!DNL Analytics] como fuente de informes (A4T).
+Las opciones de [!UICONTROL Configuración avanzada] no están disponibles para las actividades que usan [!DNL Analytics] como fuente de informes (A4T).
 
-Para las actividades que utilizan A4T, la métrica de objetivo siempre utiliza la configuración &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; y &quot;[!UICONTROL On Every Impression]&quot;. Estas configuraciones *no* se pueden configurar.
+Para las actividades que usan A4T, la métrica de objetivo siempre usa la configuración &quot;[!UICONTROL Aumentar recuento y mantener el usuario en la actividad]&quot; y &quot;[!UICONTROL En cada impresión]&quot;. Estas configuraciones *no* se pueden configurar.
 
-Para las actividades que no son de A4T, puede usar las [opciones de configuración avanzada](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) para administrar cómo medir el éxito. Las opciones incluyen añadir dependencias, elegir si se debe mantener al usuario en la actividad o eliminarlo, y si se debe contar la métrica una vez por participante o en cada impresión. Para acceder a las opciones [!UICONTROL Advanced Settings] en una actividad que no es de A4T, haga clic en los puntos suspensivos verticales > [!UICONTROL Advanced Settings], como se muestra a continuación:
+Para las actividades que no son de A4T, puede usar las [opciones de configuración avanzada](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) para administrar cómo medir el éxito. Las opciones incluyen añadir dependencias, elegir si se debe mantener al usuario en la actividad o eliminarlo, y si se debe contar la métrica una vez por participante o en cada impresión. Para obtener acceso a las opciones de [!UICONTROL Configuración avanzada] en una actividad que no sea de A4T, haga clic en los puntos suspensivos verticales > [!UICONTROL Configuración avanzada], como se muestra a continuación:
 
 ![Configuración avanzada](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

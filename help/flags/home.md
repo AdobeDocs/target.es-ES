@@ -23,13 +23,13 @@ Las marcas en Adobe Target permiten a los equipos de productos enviar nuevas fun
 
 **Controlar quién ve las nuevas características.** Versiones de Target para usuarios, organizaciones, regiones o atributos personalizados específicos. Comience con un grupo pequeño, valide la experiencia y expanda, todo desde la consola, sin cambios en el código.
 
-**Ejecutar experimentos A/B.** Sirve diferentes variantes a diferentes segmentos de tu audiencia y mide cuál tiene mejor rendimiento. Utilice los resultados para tomar decisiones informadas sobre el producto antes de una versión completa.
+**Ejecutar experimentos A/B.** Sirva diferentes variantes a diferentes segmentos de su audiencia y mida cuál tiene un mejor rendimiento. Utilice los resultados para tomar decisiones informadas sobre el producto antes de una versión completa.
 
-**Reduzca el riesgo de versión.** Divide los cambios grandes en despliegues controlados más pequeños. Si aparece un error o un problema de rendimiento, deshabilite solo la función afectada; el resto de la aplicación permanecerá estable.
+**Reducir el riesgo de versión.** Divida los cambios grandes en despliegues más pequeños y controlados. Si aparece un error o un problema de rendimiento, deshabilite solo la función afectada; el resto de la aplicación permanecerá estable.
 
-**Coordinar entre aplicaciones.** Los grupos de características le permiten administrar varias marcas de características a la vez, lo que permite compartir una audiencia de despliegue común entre las aplicaciones.
+**Coordinación entre aplicaciones.** Los grupos de funciones permiten administrar varios indicadores de funciones a la vez, lo que permite compartir una audiencia de despliegue común entre aplicaciones.
 
-**Exporte sus datos.** Exportar datos de marcas en su entorno de informes preferido para su análisis y medición junto con el resto de los datos de Adobe.
+**Exporte sus datos.** Exporte datos de marcas a su entorno de informes preferido para su análisis y medición, junto con el resto de los datos de Adobe.
 
 ## Incorpora tu primera bandera
 

@@ -11,18 +11,18 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 884
+source-wordcount: 994
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] cambios
+# [!UICONTROL Cambios en el Compositor de experiencias visuales]
 
-La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (del 17 de febrero de 2015) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones anteriores y actualizadas del VEC.
+La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2015) presenta un [!UICONTROL Compositor de experiencias visuales] (VEC) actualizado. Este artículo explica las diferencias entre las versiones anteriores y actualizadas del VEC.
 
 >[!IMPORTANT]
 >
->El(la) [!UICONTROL Visual Editing Composer] actualizado(a) requiere la extensión [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible(a) en [!DNL Chrome Web Store].
+>El [!UICONTROL Compositor de edición visual] actualizado requiere la extensión [!DNL Adobe Experience Cloud] [[!UICONTROL Ayuda de edición visual]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible en [!DNL Chrome Web Store].
 
 El VEC se muestra cuando crea o edita una actividad existente.
 
@@ -32,87 +32,87 @@ El VEC se muestra cuando crea o edita una actividad existente.
 
 Las siguientes secciones explican los cambios más importantes en el VEC actualizado en comparación con la versión anterior.
 
-### Carril [!UICONTROL Experiences]
+### [!UICONTROL Experiencias] carril
 
-Como en la versión anterior, el carril [!UICONTROL Experiences] permanece en el lado izquierdo del VEC. El carril [!UICONTROL Experiences] no se puede contraer.
+Al igual que en la versión anterior, el carril [!UICONTROL Experiences] permanece en el lado izquierdo del VEC. El carril [!UICONTROL Experiencias] no se puede contraer.
 
 ![Carril de experiencias](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-Puede crear, cambiar el nombre o quitar experiencias mediante el carril [!UICONTROL Experiences]. Haga clic en el icono **[!UICONTROL Add]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) para agregar una nueva experiencia. Haga clic en el icono [!UICONTROL More Actions] ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) para duplicar, eliminar o redirigir una experiencia.
+Puede crear, cambiar el nombre o quitar experiencias con el carril [!UICONTROL Experiencias]. Haga clic en el icono **[!UICONTROL Agregar]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) para agregar una nueva experiencia. Haga clic en el icono [!UICONTROL Más acciones] ( ![Icono de más acciones](/help/main/assets/icons/MoreSmall.svg) ) para duplicar, eliminar o redirigir una experiencia.
 
-### [!UICONTROL Components] carril (nuevo)
+### [!UICONTROL Componentes] carril (nuevo)
 
-Puede agregar varios componentes a la página web y editarlos según sea necesario mediante el nuevo carril [!UICONTROL Components].
+Puede agregar varios componentes a la página web y editarlos según sea necesario mediante el nuevo carril [!UICONTROL Componentes].
 
 ![Carril de componentes](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Para agregar un componente nuevo, seleccione el componente que desee en el carril [!UICONTROL Components], pase el ratón sobre un elemento existente de la página y, a continuación, elija insertar el componente antes de o después del elemento seleccionado.
+Para agregar un componente nuevo, seleccione el componente que desee en el carril [!UICONTROL Componentes], pase el ratón sobre un elemento existente de la página y, a continuación, elija insertar el componente antes de o después del elemento seleccionado.
 
 >[!NOTE]
 >
->Si ve el carril [!UICONTROL Modifications] en esta área en lugar del carril [!UICONTROL Components], haga clic en el icono **[!UICONTROL Show Components]** ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ). El icono [!UICONTROL Show Components] ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ) y el icono [!UICONTROL Show Modifications] ( ![Mostrar carril de modificaciones](/help/main/assets/icons/History.svg) ) actúan como alternadores para mostrar las opciones adecuadas.
+>Si ve el carril [!UICONTROL Modificaciones] en esta área en lugar del carril [!UICONTROL Componentes], haga clic en el icono **[!UICONTROL Mostrar componentes]** ( ![Mostrar componentes](/help/main/assets/icons/Add.svg) ). El icono [!UICONTROL Mostrar componentes] ( ![Mostrar componentes](/help/main/assets/icons/Add.svg) ) y el icono [!UICONTROL Mostrar modificaciones] ( ![Mostrar modificaciones carril](/help/main/assets/icons/History.svg) ) actúan como indicadores para mostrar las opciones adecuadas.
 >
->Para contraer el carril [!UICONTROL Components] y ampliar el lienzo [!UICONTROL Design], mientras el carril [!UICONTROL Components] está abierto, haga clic en el icono ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ).
+>Para contraer el carril [!UICONTROL Componentes] y ampliar el lienzo [!UICONTROL Diseño], mientras el carril [!UICONTROL Componentes] está abierto, haga clic en el icono ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ).
 
-### Carril [!UICONTROL Modifications]
+### [!UICONTROL Modificaciones] carril
 
-Para abrir el carril [!UICONTROL Modifications], haga clic en el icono [!UICONTROL Show Modifications] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ) en el carril [!UICONTROL Components]. El carril [!UICONTROL Modifications] cambió de posición del lado derecho al lado izquierdo del lienzo de edición.
+Para abrir el carril [!UICONTROL Modificaciones], haga clic en el icono [!UICONTROL Mostrar modificaciones] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ) en el carril [!UICONTROL Componentes]. El carril [!UICONTROL Modificaciones] ha cambiado de posición del lado derecho al lado izquierdo del lienzo de edición.
 
 ![Carril de modificaciones](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->El icono [!UICONTROL Show Components] ( ![Mostrar icono de componentes](/help/main/assets/icons/Add.svg) ) y el icono [!UICONTROL Show Modifications] ( ![Mostrar carril de modificaciones](/help/main/assets/icons/History.svg) ) actúan como alternadores para mostrar las opciones adecuadas.
+>El icono [!UICONTROL Mostrar componentes] ( ![Mostrar componentes](/help/main/assets/icons/Add.svg) ) y el icono [!UICONTROL Mostrar modificaciones] ( ![Mostrar modificaciones carril](/help/main/assets/icons/History.svg) ) actúan como indicadores para mostrar las opciones adecuadas.
 >
->Para contraer el carril [!UICONTROL Modifications] y ampliar el lienzo [!UICONTROL Design], mientras el carril [!UICONTROL Modifications] está abierto, haga clic en el icono [!UICONTROL Show Modifications] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ).
+>Para contraer el carril [!UICONTROL Modificaciones] y ampliar el lienzo [!UICONTROL Diseño], mientras el carril [!UICONTROL Modificaciones] está abierto, haga clic en el icono [!UICONTROL Mostrar modificaciones] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ).
 
-El carril [!UICONTROL Modifications] muestra todos los cambios realizados en su página en el VEC y le permite realizar cambios adicionales (como selector de CSS, mbox y código personalizado).
+El carril [!UICONTROL Modificaciones] muestra todos los cambios realizados en su página en el VEC y le permite realizar cambios adicionales (como Selector de CSS, Mbox y Código personalizado).
 
-Haga clic en el icono [!UICONTROL More Options] ( ![icono Más acciones](/help/main/assets/icons/MoreSmall.svg) ) para agregar una modificación, eliminar todas las modificaciones o eliminar todas las modificaciones no válidas. Haga clic en [!UICONTROL Select] para realizar operaciones masivas: [!UICONTROL Apply to All Pages] o [!UICONTROL Delete].
+Haga clic en el icono [!UICONTROL Más opciones] ( ![Icono de más acciones](/help/main/assets/icons/MoreSmall.svg) ) para agregar una modificación, eliminar todas las modificaciones o eliminar todas las modificaciones no válidas. Haga clic en [!UICONTROL Seleccionar] para realizar operaciones masivas: [!UICONTROL Aplicar a todas las páginas] o [!UICONTROL Eliminar].
 
-Para volver a mostrar el carril [!UICONTROL Modifications], haga clic en el icono [!UICONTROL Hide Modifications] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ) en el carril [!UICONTROL Modifications].
+Para volver a mostrar el carril [!UICONTROL Modificaciones], haga clic en el icono [!UICONTROL Ocultar modificaciones] ( ![Mostrar modificaciones](/help/main/assets/icons/History.svg) ) en el carril [!UICONTROL Modificaciones].
 
-### [!UICONTROL Properties] carril (nuevo)
+### [!UICONTROL Propiedades] carril (nuevo)
 
-El carril [!UICONTROL Properties] le permite cambiar las propiedades de los elementos seleccionados en la página, ya sean estos elementos HTML u objetos específicos de [!DNL Target], como recomendaciones u ofertas.
+El carril [!UICONTROL Propiedades] le permite cambiar las propiedades de los elementos seleccionados en la página, ya sean estos elementos HTML u objetos específicos de [!DNL Target], como recomendaciones u ofertas.
 
 ![Carril de propiedades](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-Haga clic en los iconos de la parte superior del carril para editar el código HTML o eliminar, duplicar u ocultar elementos. Los cambios aparecerán en el carril [!UICONTROL Modifications].
+Haga clic en los iconos de la parte superior del carril para editar el código HTML o eliminar, duplicar u ocultar elementos. Los cambios aparecen en el carril [!UICONTROL Modificaciones].
 
 ![Iconos de propiedad](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
 
-El carril [!UICONTROL Properties] se puede contraer en el carril derecho. Haga clic en el icono [!UICONTROL Show/Hide Properties] ( ![icono Propiedades](/help/main/assets/icons/Propertie.svg) ) a la derecha del carril para contraer o mostrar el carril [!UICONTROL Properties].
+El carril [!UICONTROL Propiedades] se puede contraer en el carril derecho. Haga clic en el icono [!UICONTROL Mostrar u ocultar propiedades] ( ![icono Propiedades](/help/main/assets/icons/Propertie.svg) ) a la derecha del carril para contraer o mostrar el carril [!UICONTROL Propiedades].
 
 ### Configuración de actividades
 
-Haga clic en el icono [!UICONTROL Configure] ( ![Icono de configuración](/help/main/assets/icons/Setting.svg) ) que se muestra en la parte superior del lienzo de diseño para mostrar el menú de propiedades de la actividad.
+Haga clic en el icono [!UICONTROL Configurar] ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ) que se muestra en la parte superior del lienzo de diseño para mostrar el menú de propiedades de la actividad.
 
 ![Opciones de configuración de actividades](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-Las distintas opciones permiten asignar propiedades, editar reglas de entrega de páginas, especificar preferencias de sitio, agregar páginas adicionales y habilitar o deshabilitar actividades de audiencia múltiple o de varias páginas. Asignar [!UICONTROL Properties] es una característica de [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium).
+Las distintas opciones permiten asignar propiedades, editar reglas de entrega de páginas, especificar preferencias de sitio, agregar páginas adicionales y habilitar o deshabilitar actividades de audiencia múltiple o de varias páginas. Asignar [!UICONTROL propiedades] es una característica de [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium).
 
 La posición y la funcionalidad son similares a la interfaz de usuario del VEC anterior.
 
-### Modos [!UICONTROL Design]/[!UICONTROL Browse]
+### Modos [!UICONTROL Diseño]/[!UICONTROL Examinar]
 
-Utilice los conmutadores [!UICONTROL Design]/[!UICONTROL Browse] que se muestran en la parte superior del carril [!UICONTROL Properties] para cambiar entre el modo de diseño y el de exploración.
+Use los alternadores [!UICONTROL Diseño]/[!UICONTROL Examinar] que se muestran en la parte superior del carril de [!UICONTROL Propiedades] para cambiar entre el modo de diseño y el de exploración.
 
 ![Alternadores de diseño y exploración](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-Utilice el modo [!UICONTROL Browse] para navegar por el sitio y elegir la vista o la página que desee actualizar. Vuelva al modo [!UICONTROL Design] para agregar o editar los cambios.
+Utilice el modo [!UICONTROL Examinar] para navegar por el sitio y elegir la vista o la página que desee actualizar. Vuelva al modo [!UICONTROL Diseño] para agregar o editar los cambios.
 
-### [!UICONTROL Undo]/[!UICONTROL Redo]
+### [!UICONTROL Deshacer]/[!UICONTROL Rehacer]
 
-Para deshacer los cambios, haga clic en el icono [!UICONTROL Undo] ( ![Deshacer icono](/help/main/assets/icons/Undo.svg) ).
+Puede deshacer los cambios realizados haciendo clic en el icono [!UICONTROL Deshacer] ( ![Deshacer icono](/help/main/assets/icons/Undo.svg) ).
 
 ![Icono Deshacer en VEC](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
 
-Para rehacer una acción, expanda el grupo de botones Deshacer/[!UICONTROL Redo] y elija [!UICONTROL Redo].
+Para rehacer una acción, expande el grupo de botones Deshacer/[!UICONTROL Rehacer] y elige [!UICONTROL Rehacer].
 
-### [!UICONTROL Design] lienzo
+### [!UICONTROL Diseñar] lienzo
 
-El lienzo [!UICONTROL Design] le permite seleccionar ventanillas móviles, incluidas las de ajuste a pantalla, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] y [!UICONTROL Mobile Portrait].
+El lienzo [!UICONTROL Design] le permite seleccionar ventanillas móviles, entre las que se incluyen la pantalla adaptada, [!UICONTROL Escritorio], [!UICONTROL Tableta], [!UICONTROL Horizontal móvil] y [!UICONTROL Vertical móvil].
 
 ![Opciones de ventanilla](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
@@ -128,14 +128,14 @@ La siguiente ilustración muestra los cambios de interfaz de usuario de alto niv
 
 ## Más información sobre la IU actualizada
 
-* [[!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Activities], [!UICONTROL Recommendations] y [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Actividades], [!UICONTROL Recommendations] y [!UICONTROL Compositor de experiencias visuales] (VEC).
 
-* [[!DNL Target Standard/Premium] 25.1.1 (9 de enero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Offers Library].
+* [[!DNL Target Standard/Premium] 25.1.1 (9 de enero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para la [!UICONTROL Biblioteca de ofertas].
 
 * [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md): Proporciona una breve descripción general para ayudarle a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
 
-* [[!UICONTROL Visual Experience Composer] cambios](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2025) presenta un [!UICONTROL Visual Experience Composer] (VEC) actualizado. Este artículo explica las diferencias entre las versiones heredadas y actualizadas del VEC.
+* [[!UICONTROL Cambios del Compositor de experiencias visuales]](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2025) presenta un [!UICONTROL Compositor de experiencias visuales] (VEC) actualizado. Este artículo explica las diferencias entre las versiones heredadas y actualizadas del VEC.
 
-* [[!UICONTROL Visual Experience Composer] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Este artículo explica la interfaz de usuario actualizada del VEC y sus opciones.
+* [[!UICONTROL Compositor de experiencias visuales] opciones](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Este artículo explica la interfaz de usuario de VEC actualizada y sus opciones.
 
-* [[!DNL Target] Preguntas frecuentes sobre la actualización de la interfaz de usuario](/help/main/c-intro/updated-ui-faq.md): estas preguntas frecuentes tratan sobre las nuevas preguntas comunes acerca de la interfaz de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la desaprobación de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
+* [[!DNL Target] Preguntas frecuentes sobre la actualización de la interfaz de usuario](/help/main/c-intro/updated-ui-faq.md): estas preguntas frecuentes tratan sobre las nuevas preguntas comunes acerca de la interfaz de usuario de [!DNL Target] y el [!UICONTROL Compositor de experiencias visuales] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.

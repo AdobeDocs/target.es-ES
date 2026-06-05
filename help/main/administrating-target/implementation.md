@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 181
-ht-degree: 30%
+source-wordcount: 184
+ht-degree: 29%
 
 ---
 
@@ -35,6 +35,6 @@ Para obtener más información, vea los distintos temas en [Implementar Target](
 >
 >Etiquetas en [!DNL Adobe Experience Platform] es el método preferido para implementar [!DNL Target]. Las etiquetas de [!DNL Adobe Experience Platform] son la siguiente generación de funcionalidades de administración de etiquetas de [!DNL Adobe]. Las etiquetas ofrecen a los clientes una forma sencilla de implementar y administrar todas las etiquetas de análisis, marketing y publicidad necesarias para potenciar las importantes experiencias del cliente. Para obtener más información, consulte [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=es){target=_blank}.
 
-1. Para tener acceso a la página [!UICONTROL Implementation], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Para obtener acceso a la página [!UICONTROL Implementación], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**.
 
 1. Para obtener información aplicable a la configuración de esta página, consulte [Implementar Target sin un administrador de etiquetas](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=es){target=_blank}.

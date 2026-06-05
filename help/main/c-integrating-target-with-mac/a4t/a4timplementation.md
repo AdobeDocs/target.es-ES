@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1168
+source-wordcount: 1194
 ht-degree: 17%
 
 ---
@@ -50,9 +50,9 @@ Para empezar a entregar experiencias de [!DNL Target] y aplicar [!DNL Analytics]
 
 ### Paso 5: Habilitar las opciones para usar A4T
 
-En la interfaz de usuario de [!DNL Target], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** y, a continuación, elija **[!UICONTROL Select per activity]** o **[!UICONTROL Adobe Analytics]**.
+En la interfaz de usuario de [!DNL Target], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y, a continuación, elija **[!UICONTROL Seleccionar por actividad]** o **[!UICONTROL Adobe Analytics]**.
 
-* **[!UICONTROL Select per activity]** le permite elegir entre [!DNL Target] y [!DNL Analytics] al crear cada actividad.
+* **[!UICONTROL Seleccionar por actividad]** le permite elegir entre [!DNL Target] y [!DNL Analytics] al crear cada actividad.
 * **[!UICONTROL Adobe Analytics]** establece [!DNL Analytics] como el origen de informes para todas las actividades que cree.
 
 ## ![distintivo de at.js](/help/main/assets/atjs.png) Pasos de implementación para una implementación de at.js{#section_73961BAD5BB4430A95E073DE5C026277}
@@ -71,7 +71,7 @@ Deben cumplirse los requisitos de cuenta de usuario para poder crear una activid
 
 El servicio de ID de visitante le permite identificar usuarios en [!DNL Adobe Experience Cloud] soluciones. Implementar o migrar a la versión requerida del ID de visitante de Experience Cloud. Para obtener más información, consulte “Requisitos de implementación” en [Antes de la implementación](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulte [Implementar el servicio Experience Cloud ID para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=es) en la documentación de *Servicio Experience Cloud ID de visitante*.
+Consulte [Implementación del servicio Experience Cloud ID para Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=es) en la documentación de *Servicio de ID de visitante de Experience Cloud*.
 
 ### Paso 4: Actualizar AppMeasurement para JavaScript o s_code
 
@@ -205,9 +205,9 @@ Adobe recomienda quitar la integración anterior para simplificar la implementac
 
 ### Paso 10: Habilitar las opciones para usar Analytics como fuente de informes para Target
 
-En [!DNL Target], haga clic en **[!UICONTROL Administration > Reporting]** y elija **[!UICONTROL Select per activity]** o **[!UICONTROL Adobe Analytics]** para habilitar las opciones.
+En [!DNL Target], haga clic en **[!UICONTROL Administración > Informes]** y elija **[!UICONTROL Seleccionar por actividad]** o **[!UICONTROL Adobe Analytics]** para habilitar las opciones.
 
-* **[!UICONTROL Select per activity]** le permite elegir entre [!DNL Target] y [!DNL Analytics] al crear cada actividad.
+* **[!UICONTROL Seleccionar por actividad]** le permite elegir entre [!DNL Target] y [!DNL Analytics] al crear cada actividad.
 * **[!UICONTROL Adobe Analytics]** establece [!DNL Analytics] como el origen de informes para todas las actividades que cree.
 
 

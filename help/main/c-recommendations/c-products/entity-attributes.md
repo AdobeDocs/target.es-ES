@@ -18,7 +18,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1122
+source-wordcount: 1125
 ht-degree: 45%
 
 ---
@@ -112,7 +112,7 @@ El valor `categoryId` está limitado a 250 caracteres.
 
 >[!NOTE]
 >
->Para mostrar una recomendación basada en una categoría de una página [!UICONTROL Category], solo se puede pasar un(a) `categoryId` al mbox usado para mostrar esa recomendación en particular. El valor de `categoryId` debe coincidir exactamente con el valor de `entity.categoryId` pasado en la página [!UICONTROL Product Detail].
+>Para mostrar una recomendación basada en una categoría de una página [!UICONTROL Category], solo se puede pasar un `categoryId` al mbox utilizado para mostrar esa recomendación en particular. El valor de `categoryId` debe coincidir exactamente con el valor de `entity.categoryId` pasado en la página [!UICONTROL Detalles del producto].
 
 Ejemplos:
 

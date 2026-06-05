@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Las pruebas A/B en los indicadores se realizan con **grupos de características**. Al configurar más de una variante en un grupo de funciones, puede ofrecer distintas versiones de una función a diferentes subconjuntos de la audiencia y comparar los resultados.
 
-## Requisitos previos   {#prerequisites}
+## Requisitos previos {#prerequisites}
 
 * Tiene acceso a la consola; consulte [Iniciar sesión en la consola](../console/log-in-to-the-console.md)
 * Pertenece a un equipo y la aplicación está integrada

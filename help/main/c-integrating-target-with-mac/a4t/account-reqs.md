@@ -18,8 +18,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 32%
+source-wordcount: 307
+ht-degree: 31%
 
 ---
 
@@ -51,7 +51,7 @@ Para obtener más información, consulte [Administrar usuarios y productos de Ex
 
 Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese grupo de informes y conceder acceso al grupo [!DNL Web Services Access].
 
-1. En **[!UICONTROL Admin Console]**, haga clic en un perfil de producto de [!DNL Analytics] y, a continuación, haga clic en la ficha **[!UICONTROL Permissions]**.
+1. En **[!UICONTROL Admin Console]**, haga clic en un perfil de producto de [!DNL Analytics] y luego haga clic en la ficha **[!UICONTROL Permisos]**.
 
    A continuación, puede ver a qué grupos de informes tiene acceso el perfil.
 
@@ -61,9 +61,9 @@ Para utilizar A4T en un grupo de informes determinado, debe tener acceso a ese g
 
    ![Ficha Permiso de Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. Configure el acceso al grupo [!UICONTROL Web Services Access].
+1. Configure el acceso al grupo [!UICONTROL Acceso a servicios web].
 
-   Se requiere acceso al grupo [!UICONTROL Web Services Access] en [!DNL Analytics] para poder usar [!DNL Analytics] como el origen de informes para [!DNL Target].
+   Se requiere acceso al grupo [!UICONTROL Acceso a servicios web] en [!DNL Analytics] para poder usar [!DNL Analytics] como el origen de informes para [!DNL Target].
 
 
 ## Adobe[!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

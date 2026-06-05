@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Use [!DNL Adobe Target] para calcular el aumento de ingresos que obtendría si t
 
 >[!NOTE]
 >
->El alza estimada no está disponible para las actividades [!UICONTROL Experience Targeting] (XT) en este momento.
+>El alza estimada no está disponible para las [!UICONTROL actividades de segmentación de experiencias] (XT) en este momento.
 
 La característica de alza estimada está desactivada de manera predeterminada. Se puede habilitar en las preferencias de cuenta. Solo los usuarios administradores de Experience Cloud pueden habilitar o deshabilitar esta característica. Si se deshabilita el alza estimada, los campos correspondientes no aparecerán en la interfaz. Deshabilitar esta característica no genera pérdidas de datos, incluidos los datos usados para los cálculos. Los cálculos se basan en datos recopilados, independientemente de si la característica está habilitada o no.
 

@@ -1,6 +1,6 @@
 ---
 keywords: A/B;métricas de actividad;métricas;definir métricas;métrica de objetivo;métrica de éxito;configuración de actividades;conversión;ingresos;participación
-description: Descubra cómo establecer métricas en una actividad A/B para determinar el éxito de la visita, incluidas [!UICONTROL Conversion], [!UICONTROL Revenue] y [!UICONTROL Engagement].
+description: Descubra cómo establecer métricas en una actividad A/B para determinar el éxito de la visita, como [!UICONTROL Conversión], [!UICONTROL Ingresos] y [!UICONTROL Participación].
 title: ¿Cómo configuro las métricas de objetivo en una actividad A/B?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 286
-ht-degree: 58%
+source-wordcount: 305
+ht-degree: 55%
 
 ---
 
@@ -25,13 +25,13 @@ Utilice métricas en una actividad A/B de [!DNL Adobe Target] para determinar si
 
 Para obtener información detallada sobre las métricas de éxito, consulte [Métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. En la sección **[!UICONTROL Reporting Settings]** de la página **[!UICONTROL Goals & Settings]**, seleccione una [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+1. En la sección **[!UICONTROL Configuración de informes]** de la página **[!UICONTROL Objetivos y configuración]**, seleccione una [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-   La opción [!UICONTROL Select Metrics] enumera las métricas de éxito que puede elegir para su actividad. Las métricas de éxito se dividen en las categorías siguientes:
+   La opción [!UICONTROL Seleccionar métricas] enumera las métricas de éxito que puede elegir para su actividad. Las métricas de éxito se dividen en las categorías siguientes:
 
-   * [!UICONTROL Conversion]
-   * [!UICONTROL Revenue]
-   * [!UICONTROL Engagement]
+   * [!UICONTROL Conversión]
+   * [!UICONTROL Ingresos]
+   * [!UICONTROL Participación]
 
    Puede usar cualquiera de las métricas de éxito predeterminadas o bien crear una métrica de éxito personalizada. También puede marcar una métrica de éxito como una métrica principal. Las tarjetas de informes y de Experience Cloud muestran la métrica principal de forma predeterminada, si se configura una.
 
@@ -39,7 +39,7 @@ Para obtener información detallada sobre las métricas de éxito, consulte [Mé
 
    La configuración disponible depende de la métrica de éxito que utilice.
 
-   Si está habilitado, el campo [!UICONTROL Estimated Value of the Conversion] (no disponible para las métricas [!UICONTROL Page Score]) proporciona un valor para el objetivo. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. El tipo de datos es moneda. Este campo se muestra de forma progresiva después de que el usuario indique la acción realizada para alcanzar el objetivo. Para obtener más información, consulte [Alza estimada en ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+   Si se habilita, el campo [!UICONTROL Valor estimado de la conversión] (no disponible para las métricas [!UICONTROL Puntuación de página]) proporciona un valor para el objetivo. Este valor permite a [!DNL Target] calcular un alza estimada de ingresos. Este campo es opcional; sin embargo, los ingresos en aumento de las métricas sin ingresos no se pueden calcular sin él. El tipo de datos es moneda. Este campo se muestra de forma progresiva después de que el usuario indique la acción realizada para alcanzar el objetivo. Para obtener más información, consulte [Alza estimada en ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
    La configuración correcta de las métricas de éxito es crítica para asegurarse de obtener los datos esperados.
 

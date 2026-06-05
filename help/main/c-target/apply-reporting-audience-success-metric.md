@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 36%
+source-wordcount: 406
+ht-degree: 43%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 36%
 
 Elija una métrica de éxito que permita al usuario entrar en la audiencia de informes en [!DNL Adobe Target].
 
-Para todas las actividades, la lista desplegable [!UICONTROL Applied At] le permite aplicar una audiencia a una métrica de éxito para que pueda ver los números de los informes una vez alcanzada la métrica y para las acciones posteriores.
+Para todas las actividades, la lista desplegable [!UICONTROL Aplicado a] le permite aplicar una audiencia a una métrica de éxito, de modo que pueda ver los números del informe una vez que se alcance la métrica y en acciones posteriores.
 
 ![imagen de métrica de éxito](assets/success_metric.png)
 
 Por ejemplo, supongamos que ha creado una actividad para todos los visitantes que entran en su página de inicio y alcanzan la página de conversión, pero que también desea obtener más datos sobre los visitantes que añadieron más de 50 $ al carro antes de la conversión.
 
-La lista desplegable [!UICONTROL Applied At] ofrece potencialmente tres categorías:
+La lista desplegable [!UICONTROL Aplicado en] proporciona potencialmente tres categorías:
 
 * Visitantes de la actividad
 * Solo los visitantes que alcanzan un determinado paso en la actividad
@@ -39,7 +39,7 @@ O, dicho de otro modo, puede especificar que un visitante debe haber alcanzado u
 
 >[!NOTE]
 >
->[Las métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) solo están disponibles si las ha configurado para su actividad. Si no ha definido métricas de éxito, solo verá dos opciones en la lista desplegable: [!UICONTROL Campaign Entry] y [!UICONTROL Conversion].
+>[Las métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) solo están disponibles si las ha configurado para su actividad. Si no ha definido métricas de éxito, solo verá dos opciones en la lista desplegable: [!UICONTROL Entrada de campaña] y [!UICONTROL Conversión].
 
 
 ## Consideraciones
@@ -48,11 +48,11 @@ Tenga en cuenta la siguiente información al aplicar una audiencia de informes a
 
 * Solo las métricas de éxito que comiencen desde la a la que se aplica la audiencia mostrarán los datos de informes segmentados por la audiencia
 * Las métricas de éxito anteriores a aquellas a las que se aplica la audiencia no se segmentarán con la audiencia y mostrarán todos los datos del visitante
-* Las métricas se consideran en función de su orden en la definición de la actividad, siendo [!UICONTROL Primary Goal] el último.
+* Las métricas se consideran basadas en su orden en la definición de la actividad, siendo el [!UICONTROL Objetivo principal] el último.
 
 ## Ver segmentación en informes
 
-Para ver la segmentación en los informes, seleccione la audiencia que desee en la lista desplegable [!UICONTROL Audience] del informe de actividad.
+Para ver la segmentación en los informes, seleccione la audiencia que desee en la lista desplegable [!UICONTROL Audiencia] del informe de la actividad.
 
 ![imagen desplegable de reporting_audience_dropdown](assets/reporting_audience_dropdown.png)
 

@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 ## [!DNL Target Standard/Premium] 26.5.3 (21 de mayo de 2026)
 
-**[!UICONTROL What's new]página**
+**[!UICONTROL Novedades] página**
 
 +++Ver detalles
 
-* **Nueva página [!UICONTROL What's new].** Se ha agregado una nueva página de **[!UICONTROL What's new]** en la interfaz de usuario de [!DNL Adobe Target] para ayudarle a descubrir las últimas funciones, mejoras y actualizaciones sin salir del producto. (TGT-55137)
+* **Nueva [!UICONTROL página &#x200B;]** Se ha agregado una nueva página **[!UICONTROL Novedades]** en la interfaz de usuario de [!DNL Adobe Target] para ayudarle a descubrir las últimas funciones, mejoras y actualizaciones sin tener que abandonar el producto. (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 +++Ver detalles
 
-* **Se seleccionó una experiencia incorrecta al editar la segmentación en [!UICONTROL Automated Personalization] actividades.** Se ha corregido un problema en el cual se podía seleccionar una experiencia incorrecta al editar el paso **[!UICONTROL Targeting]** en una actividad [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **Se seleccionó una experiencia incorrecta al editar la segmentación en las actividades de [!UICONTROL Automated Personalization].** Se ha corregido un problema en el cual se podía seleccionar una experiencia incorrecta al editar el paso **[!UICONTROL Segmentación]** en una actividad [!UICONTROL Automated Personalization] (AP). (TGT-55176)
 
 * **Fecha anterior al cerrar una actividad programada.** Se ha corregido un problema que impedía seleccionar una fecha anterior para cerrar una actividad programada. (TGT-55163)
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 El acceso a los indicadores se administra en el equipo. Para utilizar Indicadores, es necesario que se le añada a un equipo con la función adecuada.
 
-## Requisitos previos   {#prerequisites}
+## Requisitos previos {#prerequisites}
 
 Antes de solicitar el acceso, confirme lo siguiente:
 

@@ -13,7 +13,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3578
 ht-degree: 80%
 
 ---
@@ -24,13 +24,13 @@ Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Adobe Tar
 
 ## ¿Se muestran los objetos de [!DNL Recommendations] creados mediante API en la interfaz de usuario de [!DNL Target]?
 
-Sí, los objetos de [!UICONTROL Recommendations] ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] y [!UICONTROL Exclusions]) creados mediante API están disponibles en la interfaz de usuario y se pueden editar mediante la API o la interfaz de usuario de [!DNL Target].
+Sí, los objetos [!UICONTROL Recommendations] ([!UICONTROL Criterios], [!UICONTROL Diseños], [!UICONTROL Colecciones] y [!UICONTROL Exclusiones]) creados a través de API están disponibles en la interfaz de usuario y se pueden editar a través de la API o la interfaz de usuario [!DNL Target].
 
 ## ¿Puedo administrar [!DNL Target] ofertas visuales creadas por la interfaz de usuario usando las API [!DNL Target]?
 
-No. [!DNL Recommendations] actividades con ofertas visuales creadas en la interfaz de usuario de [!DNL Target] no se pueden administrar mediante las API de [!DNL Target]. Aunque estas actividades se muestran en la lista [!UICONTROL Activities], no se pueden leer ni actualizar (mediante GET/PUT).
+No. [!DNL Recommendations] actividades con ofertas visuales creadas en la interfaz de usuario de [!DNL Target] no se pueden administrar mediante las API de [!DNL Target]. Aunque estas actividades se muestran en la lista [!UICONTROL Actividades], no puede leerlas ni actualizarlas (mediante GET/PUT).
 
-## ¿Por qué [!UICONTROL Catalog Search] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
+## ¿Por qué [!UICONTROL Búsqueda en el catálogo] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
 
 Cuando se realiza una búsqueda en el catálogo de un atributo personalizado con un valor numérico, los resultados tratan al atributo personalizado como un tipo de cadena en lugar de un valor numérico.
 
@@ -68,7 +68,7 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 >
 >Un archivo de fuente se considera importado cuando su estado cambia de “Importación de elementos” a “Preparación de las actualizaciones del índice de búsqueda”. Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario Búsqueda en el catálogo. La Búsqueda en el catálogo está actualizada cuando el estado de la fuente cambia a Actualizaciones completadas. Incluso si la búsqueda en el catálogo aún no está actualizada, su sitio reflejará las actualizaciones en los periodos de tiempo enumerados arriba. El tiempo de actualización del índice de Búsqueda en el catálogo más reciente se muestra en la página Búsqueda en el catálogo.
 
-## ¿Cuánto tiempo se tarda en reflejar en mi sitio un cambio en la configuración de mi actividad [!UICONTROL Recommendations], oferta, promociones o configuración de criterios?
+## ¿Cuánto tiempo se tarda en reflejar en mi sitio un cambio en la configuración de mi actividad, oferta, promociones o configuración de criterios de [!UICONTROL Recommendations]?
 
 * Un cambio en la configuración de la promoción puede tardar hasta cinco horas en reflejarse en el sitio.
 * Es posible que un cambio en la configuración de otros criterios no se refleje hasta que se ejecute el siguiente algoritmo:
@@ -113,17 +113,17 @@ Si utiliza una ubicación en la que el ID de categoría está presente en el mbo
 
 >[!NOTE]
 >
->Esta configuración solo se aplica a las actividades creadas en [!UICONTROL Visual Experience Composer] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
+>Esta configuración se aplica únicamente a las actividades creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
 
-Para obtener acceso a la configuración de [!UICONTROL Filter Incompatible Criteria], haga clic en [!UICONTROL Recommendations] > [!UICONTROL Settings]:
+Para acceder al ajuste [!UICONTROL Filtrar los criterios no compatibles], haga clic en [!UICONTROL Recomendaciones] > [!UICONTROL Configuración]:
 
 ![imagen recs_settings_filter](assets/recs_settings_filter.png)
 
-Si la configuración [!UICONTROL Filter Incompatible Criteria] NO está habilitada, [!DNL Target] no filtra los algoritmos en el Selector de algoritmos y se muestran todos ellos.
+Si el ajuste [!UICONTROL Filtrar los criterios no compatibles] NO está habilitado, [!DNL Target] no filtra los algoritmos en el selector de algoritmos y se muestran todos ellos.
 
-Si la configuración [!UICONTROL Filter Incompatible Criteria] está habilitada, en las actividades VEC [!DNL Target] lee entityId y el Id. de categoría de la ubicación seleccionada y, a continuación, muestra los algoritmos basados en `currentItem|currentCategory` (si los valores respectivos están presentes en esa ubicación). Como resultado, de forma predeterminada solo se muestran en el selector de algoritmos aquellos compatibles con la ubicación seleccionada.
+Si el ajuste [!UICONTROL Filtrar los criterios no compatibles] está habilitado, en las actividades VEC [!DNL Target] lee entityId y el Id. de categoría de la ubicación seleccionada y, a continuación, muestra los algoritmos basados en `currentItem|currentCategory` (si los valores respectivos están presentes en esa ubicación). Como resultado, de forma predeterminada solo se muestran en el selector de algoritmos aquellos compatibles con la ubicación seleccionada.
 
-Si la configuración [!UICONTROL Filter Incompatible Criteria] está habilitada, aún puede ver los algoritmos no compatibles si anula la selección de la casilla de verificación [!UICONTROL Compatible] al seleccionar los criterios.
+Aunque el ajuste [!UICONTROL Filtrar los criterios no compatibles] esté habilitado, puede ver los algoritmos no compatibles anulando la selección de la casilla [!UICONTROL Compatibles] al seleccionar los criterios.
 
 ![imagen compatible_checkbox](assets/compatible_checkbox.png)
 
@@ -206,9 +206,9 @@ Asegúrese de que la audiencia tiene un nombre único. Si le dio al público el 
 
 No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
-## ¿Por qué falla mi acción [!UICONTROL Download data] en una actividad [!DNL Recommendations]? {#download-data-error}
+## ¿Por qué falla mi acción [!UICONTROL Descargar datos] en una actividad [!DNL Recommendations]? {#download-data-error}
 
-Al hacer clic en **[!UICONTROL Download data]** en la página [!UICONTROL Activity Overview] de una actividad [!DNL Recommendations], la interfaz de usuario [!DNL Target] podría mostrar el error `Error while fetching recommendation data file.`
+Al hacer clic en **[!UICONTROL Descargar datos]** en la página [!UICONTROL Información general de actividad] de una actividad [!DNL Recommendations], la interfaz de usuario [!DNL Target] podría mostrar el error `Error while fetching recommendation data file.`
 
 Esto suele ocurrir cuando la actividad tiene un conjunto de resultados muy grande: el CSV generado supera el tamaño de respuesta que se puede devolver a través de la interfaz de usuario en una sola descarga. Los datos de recomendación en sí están intactos, pero solo la ruta de descarga en el explorador no puede entregar un archivo de ese tamaño.
 

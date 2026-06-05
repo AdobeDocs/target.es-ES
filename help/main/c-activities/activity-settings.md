@@ -16,27 +16,27 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 71%
+source-wordcount: 432
+ht-degree: 77%
 
 ---
 
 # Configuración de actividades
 
-Use [!UICONTROL Activity Settings] en [!DNL Adobe Target] para administrar el objetivo, la prioridad y la duración de las actividades.
+Use [!UICONTROL Configuración de actividades] en [!DNL Adobe Target] para administrar el objetivo, la prioridad y la duración de las actividades.
 
 1. Introduzca notas sobre el objetivo de la actividad.
 
-   Escriba la información sobre la actividad que sea útil tener disponible para el equipo. Arrastre para cambiar el tamaño del campo [!UICONTROL Objective].
+   Escriba la información sobre la actividad que sea útil tener disponible para el equipo. Arrastre para modificar el tamaño del campo [!UICONTROL Objetivo].
 1. Establezca la prioridad de actividades.
 
-   La interfaz de usuario y las opciones de [!UICONTROL Priority] varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.
+   La interfaz de usuario y las opciones de [!UICONTROL Prioridad] varían en función de la configuración. Puede usar la configuración heredada de bajo, medio o alto, o habilitar prioridades específicas de 0 a 999.
 
    La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
-   Si esta opción no está habilitada en [!UICONTROL Administration] > [!UICONTROL Reporting] (la predeterminada), indique un nivel de prioridad: bajo, Medium o alto.
+   Si esta opción no está habilitada en [!UICONTROL Administración] > [!UICONTROL Informes] (la predeterminada), especifique una prioridad: Baja, Medium o Alta.
 
-   Para habilitar prioridades específicas, haga clic en [!UICONTROL Administration] > [!UICONTROL Reporting] y luego coloque la opción [!UICONTROL Enable Fine-Grained Priorities] en la posición &quot;Activado&quot;.
+   Para habilitar prioridades específicas, haga clic en [!UICONTROL Administración] > [!UICONTROL Informes] y luego coloque la opción [!UICONTROL Habilitar prioridades específicas] en la posición &quot;Activado&quot;.
 
    Si esta opción está habilitada, indique un valor entre 0 y 999:
 
@@ -57,7 +57,7 @@ Use [!UICONTROL Activity Settings] en [!DNL Adobe Target] para administrar el ob
    >
    >Programar una actividad permite controlar el lapso de tiempo de entrega de la actividad; sin embargo, la actividad debe activarse de forma explícita antes de entregarse de acuerdo con la programación especificada.
 
-La página [!UICONTROL Goal & Settings] incluye configuraciones adicionales que varían según el tipo de actividad que esté creando. Para obtener más información sobre esta configuración, consulte el tipo de actividad:
+La página [!UICONTROL Objetivo y configuración] incluye configuración adicional que varía según el tipo de actividad que está creando. Para obtener más información sobre esta configuración, consulte el tipo de actividad:
 
 * [Prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Personalización automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

@@ -15,8 +15,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1269
-ht-degree: 38%
+source-wordcount: 1316
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ Los informes [!DNL Analytics] y [!DNL Target] miden los participantes (las perso
 
 Cada vez que un visitante ve contenido de actividad en la página, [!DNL Target] realiza una llamada directa de servidor a servidor a [!DNL Analytics], que incluye la actividad y experiencia que vio el visitante. [!DNL Target] también llama a [!DNL Analytics] cada vez que se realiza la conversión. [!DNL Analytics] agrega la conversión como un nuevo evento [!DNL Analytics] específico denominado &quot;Conversión de actividad&quot;, del que se hace seguimiento junto con otros datos recopilados por [!DNL Analytics].
 
-Cuando se usa la operación [!UICONTROL Select] y se ordenan los *participantes*, en los informes solo se muestran las experiencias que recibieron participantes durante el período de tiempo seleccionado.
+Cuando se usa la operación [!UICONTROL Select] y usted ordena *Participantes*, en los informes solo se muestran las experiencias que recibieron participantes durante el período de tiempo seleccionado.
 
 >[!NOTE]
 >
@@ -46,22 +46,22 @@ En [!DNL Analytics], hay varias dimensiones y métricas disponibles después de 
 
 ### Dimensiones
 
-* [!UICONTROL Analytics for Target]: el ID principal que se pasa a través de la integración. El formato de esta dimensión es `Activity ID:Experience ID:3rd ID`. Las dimensiones siguientes son clasificaciones de esta dimensión.
-* [!UICONTROL Target Activities]
-* [!UICONTROL Target Experiences]
-* [!UICONTROL Target Activity] > [!UICONTROL Experience]
+* [!UICONTROL Analytics para Target]: el identificador principal que se pasa a través de la integración. El formato de esta dimensión es `Activity ID:Experience ID:3rd ID`. Las dimensiones siguientes son clasificaciones de esta dimensión.
+* [!UICONTROL Actividades de Target]
+* [!UICONTROL Experiencias de destino]
+* [!UICONTROL Actividad de Target] > [!UICONTROL Experiencia]
 * [!UICONTROL 3rd ID] - se puede ignorar
 
 ### Métricas
 
-* [!UICONTROL Activity Impressions] - Coincide con el número [!UICONTROL Entrants] en el informe [!DNL Target].
-* [!UICONTROL Activity Conversions] - Coincide con el número [!UICONTROL Custom Conversions] en el informe [!DNL Target].
+* [!UICONTROL Impresiones de actividad] - Coincide con el número de [!UICONTROL Participantes] en el informe [!DNL Target].
+* [!UICONTROL Conversiones de actividades] - Coincide con el número de [!UICONTROL Conversiones personalizadas] en el informe [!DNL Target].
 
 En [!DNL Analysis Workspace], use el panel [!UICONTROL Analytics for Target] para analizar con confianza las actividades y experiencias de [!DNL Target]. Para obtener más información, consulte el [Panel Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=es) en la *Guía de herramientas de Analytics*.
 
 >[!IMPORTANT]
 >
->Si el informe [!UICONTROL Target Activities] de [!DNL Analytics] incluye &quot;sin especificar&quot; en lugar de incluir sus actividades, se requiere una actualización de la cuenta aprovisionada. Póngase en contacto con el Servicio de atención al cliente para resolver este problema.
+>Si el informe [!UICONTROL Actividades de Target] de [!DNL Analytics] incluye &quot;sin especificar&quot; en lugar de incluir sus actividades, se requiere una actualización de su cuenta aprovisionada. Póngase en contacto con el Servicio de atención al cliente para resolver este problema.
 
 Para obtener información detallada y ejemplos, abra el tutorial [Analytics &amp; Target: Prácticas recomendadas de análisis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) proporcionado por Adobe Experience League.
 
@@ -69,8 +69,8 @@ Para obtener información detallada y ejemplos, abra el tutorial [Analytics &amp
 
 Cuando se usa [!DNL Analytics] como origen de informes, los informes de [!DNL Target] muestran los datos recopilados de [!DNL Analytics]. El informe difiere un poco de otros [!DNL Target] informes:
 
-* La lista [!UICONTROL Audiences] muestra las audiencias disponibles para el grupo de informes [!DNL Analytics].
-* La lista [!UICONTROL Metric] muestra todas las métricas disponibles mediante [!DNL Analytics].
+* La lista [!UICONTROL Audiencias] muestra las audiencias disponibles para el grupo de informes [!DNL Analytics].
+* La lista [!UICONTROL Métrica] muestra todas las métricas disponibles mediante [!DNL Analytics].
 
   Todas las métricas están disponibles, incluida cualquier métrica personalizada o calculada que esté integrada en [!DNL Analytics].
 
@@ -82,7 +82,7 @@ Haga clic para ver el informe completo de [!DNL Analytics] directamente desde la
 
 ## Creación de actividad {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-Durante la creación de la actividad, debe especificar un objetivo para la actividad en la página [!UICONTROL Settings]. Este objetivo se convierte en la métrica predeterminada para el informe y siempre se enumera como la primera opción en el selector de métricas. No se pueden seleccionar segmentos para informes como lo haría para una actividad normal de Target. Una prueba con [!DNL Analytics] usa [!DNL Adobe Analytics] segmentos en lugar de [!DNL Target] audiencias.
+Durante la creación de la actividad, debe especificar un objetivo para la actividad en la página [!UICONTROL Ajustes]. Este objetivo se convierte en la métrica predeterminada para el informe y siempre se enumera como la primera opción en el selector de métricas. No se pueden seleccionar segmentos para informes como lo haría para una actividad normal de Target. Una prueba con [!DNL Analytics] usa [!DNL Adobe Analytics] segmentos en lugar de [!DNL Target] audiencias.
 
 ## Realización de cálculos sin conexión en Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
@@ -95,8 +95,8 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
 **Para utilizar a este respecto la función de exportación de datos de [!DNL Analytics]:**
 
 1. Iniciar sesión en [!DNL Adobe Analytics].
-1. Haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
-1. En la ficha **[!UICONTROL Data Warehouse Request]**, rellene los campos.
+1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Data Warehouse]**.
+1. En la pestaña **[!UICONTROL Solicitud de Data Warehouse]**, rellene los campos.
 
    Para obtener más información acerca de cada campo, consulte &quot;Descripciones de Data Warehouse&quot; en [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=es).
 
@@ -108,13 +108,13 @@ Por ejemplo, si está optimizando las vistas de página por visitante, exportar�
    | Desgloses | Seleccione las dimensiones que desee: Estándar está listo para usar (OOTB), mientras que Personalizado incluye eVars y props. Se recomienda utilizar &quot;ID de visitante&quot; si se necesita información en este nivel, en lugar de &quot;ID de visitante de Experience Cloud&quot;.<ul><li>El ID de visitante es el ID último utilizado por Analytics. Será AID (en el caso de un cliente heredado) o MID (si el cliente es nuevo o si borró las cookies desde el inicio del servicio ID de visitante de MC).</li><li>El ID de visitante de Experience Cloud solo se establecerá para clientes nuevos o que hayan borrado las cookies desde el inicio del servicio ID de visitante de MC.</li></ul> |
    | Métricas | Seleccione las métricas que desee. Estándar es el valor predeterminado, mientras que Personalizado incluye eventos personalizados. |
    | Vista previa del informe | Revise la configuración antes de programar el informe.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Programar envío | Escriba una dirección de correo electrónico a la que enviar el archivo, asigne un nombre al archivo y seleccione [!UICONTROL Send Immediately].<br>Nota: el archivo se puede enviar a través de FTP en [!UICONTROL Advanced Delivery Options]<br>![Programar envío](/help/main/c-reports/assets/datawarehouse3.png). |
+   | Programar envío | Escriba una dirección de correo electrónico a la que enviar el archivo, asigne un nombre al archivo y seleccione [!UICONTROL Enviar inmediatamente].<br>Nota: el archivo se puede enviar mediante FTP en [!UICONTROL Opciones de envío avanzadas]<br>![Programar envío](/help/main/c-reports/assets/datawarehouse3.png). |
 
-1. Haga clic en **[!UICONTROL Request this Report]**.
+1. Haga clic en **[!UICONTROL Solicitar este informe]**.
 
-   El envío de archivos puede tardar hasta 72 horas, dependiendo de la cantidad de datos solicitados. Puede comprobar el progreso de su solicitud en cualquier momento haciendo clic en [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
+   El envío de archivos puede tardar hasta 72 horas, dependiendo de la cantidad de datos solicitados. Puede comprobar el progreso de la solicitud en cualquier momento haciendo clic en [!UICONTROL Herramientas] > [!UICONTROL Data Warehouse] > [!UICONTROL Solicitar administrador].
 
-   Si desea volver a solicitar datos que ha solicitado anteriormente, puede duplicar una solicitud antigua de [!UICONTROL Request Manager] según sea necesario.
+   Si desea volver a solicitar datos que ha solicitado anteriormente, puede duplicar una solicitud antigua de [!UICONTROL Administrador de solicitudes] según sea necesario.
 
 Para obtener más información sobre el [!DNL Data Warehouse], vea los siguientes vínculos en la documentación de ayuda de [!DNL Analytics]:
 

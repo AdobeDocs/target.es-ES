@@ -1,5 +1,5 @@
 ---
-keywords: servidor de seguimiento de analytics;A4T;depurador de Adobe Experience Cloud;depurador de Adobe Experience Platform;fuente de informes;herramientas para desarrolladores
+keywords: servidor de seguimiento de analytics;A4T;Adobe Experience Cloud Debugger;depurador de Adobe Experience Platform;fuente de informes;herramientas para desarrolladores
 description: Obtenga información sobre cómo especificar un servidor de seguimiento de Analytics para actividades que usan Analytics for [!DNL Target] (A4T) si usa una versión anterior de at.js.
 title: ¿Cómo se utiliza un servidor de seguimiento de Analytics?
 feature: Analytics for Target (A4T)
@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ Si utiliza una versión anterior de at.js, debe especificar un servidor de segui
 
 >[!NOTE]
 >
->No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Tracking Server] en la página [!UICONTROL Goals & Settings].
+>No es necesario que especifique un servidor de seguimiento durante la creación de la actividad si utiliza la versión 0.9.1 (o posterior) de at.js. La biblioteca at.js envía automáticamente los valores del servidor de seguimiento a [!DNL Target]. Durante la creación de la actividad, puede dejar vacío el campo [!UICONTROL Servidor de seguimiento] de la página [!UICONTROL Objetivos y configuración].
 >
 >El equipo [!DNL Target] admite at.js 1.*x* y at.js 2.*x*. Actualice a la actualización más reciente de cualquiera de las versiones principales de at.js para asegurarse de que dispone de una versión compatible. Para obtener más información, consulte [Detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
 
@@ -46,7 +46,7 @@ El depurador debe verse en una página en la que se publique la actividad para g
 
    ![Imagen Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
-   El servidor de seguimiento [!DNL Analytics] se encuentra en la sección [!UICONTROL Hostname] de Debugger.
+   El servidor de seguimiento [!DNL Analytics] se encuentra en la sección [!UICONTROL Nombre de host] de Debugger.
 
    * **Servidor de seguimiento propio**: Si el nombre de host de la solicitud coincide con el dominio en el que se encuentra, se trata de un servidor de seguimiento propio. Por ejemplo, si está en `adobe.com`, `adobe.com` es el servidor de seguimiento propio.
    * **Servidor de seguimiento de terceros**: Un servidor de seguimiento de terceros suele ser `[company].sc.omtrdc.net`, donde la empresa es el nombre de la empresa, pero siempre termina en `sc.omtrdc.net`.
@@ -54,11 +54,11 @@ El depurador debe verse en una página en la que se publique la actividad para g
 
 1. Copie todo el contenido del campo.
 
-1. En la sección **[!UICONTROL Reporting Settings]** de la pantalla **[!UICONTROL Goal & Settings]** de su actividad, pegue la información del servidor de seguimiento en el campo **[!UICONTROL Tracking Server]**.
+1. En la sección **[!UICONTROL Configuración de informes]** de la pantalla **[!UICONTROL Objetivo y configuración]** de su actividad, pegue la información del servidor de seguimiento en el campo **[!UICONTROL Servidor de seguimiento]**.
 
    >[!NOTE]
    >
-   >Seleccione [!UICONTROL Analytics as the Reporting Source] para que la actividad del campo [!UICONTROL Tracking Server] esté disponible.
+   >Seleccione [!UICONTROL Analytics como el Source de informes] de su actividad para que el campo [!UICONTROL Servidor de seguimiento] esté disponible.
 
 ## Obtenga el servidor de seguimiento [!DNL Analytics] con las herramientas para desarrolladores del explorador
 
@@ -68,7 +68,7 @@ Las herramientas para desarrolladores deben verse en una página a la que se env
 
    ![herramientas para desarrolladores de Chrome](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Haga clic en la ficha **[!UICONTROL Network]**.
+1. Haga clic en la ficha **[!UICONTROL Red]**.
 
 1. Filtre para `/ss,` con el fin de mostrar las [!DNL Analytics] solicitudes.
 
@@ -82,8 +82,8 @@ Las herramientas para desarrolladores deben verse en una página a la que se env
 
 1. Copie todo el contenido del campo.
 
-1. En la sección **[!UICONTROL Reporting Settings]** de la pantalla **[!UICONTROL Goal & Settings]** de su actividad, pegue la información del servidor de seguimiento en el campo **[!UICONTROL Tracking Server]**.
+1. En la sección **[!UICONTROL Configuración de informes]** de la pantalla **[!UICONTROL Objetivo y configuración]** de su actividad, pegue la información del servidor de seguimiento en el campo **[!UICONTROL Servidor de seguimiento]**.
 
    >[!NOTE]
    >
-   >Seleccione [!UICONTROL Analytics as the Reporting Source] para que la actividad del campo [!UICONTROL Tracking Server] esté disponible.
+   >Seleccione [!UICONTROL Analytics como el Source de informes] de su actividad para que el campo [!UICONTROL Servidor de seguimiento] esté disponible.

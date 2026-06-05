@@ -13,16 +13,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# Informe [!UICONTROL Experience Performance] (MVT)
+# Informe [!UICONTROL Rendimiento de las experiencias] (MVT)
 
-El informe [!UICONTROL Experience Performance] muestra el rendimiento de cada experiencia en la actividad. Este informe incluye información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
+El informe [!UICONTROL Rendimiento de las experiencias] muestra el rendimiento de cada experiencia en la actividad. Este informe incluye información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
 
-Puede seleccionar una o varias experiencias para compararlas. Haga clic en una experiencia y seleccione **[!UICONTROL Preview]** para abrir la experiencia en una ficha del explorador.
+Puede seleccionar una o varias experiencias para compararlas. Haga clic en una experiencia y seleccione **[!UICONTROL Vista previa]** para abrir la experiencia en una ficha del explorador.
 
 En la parte superior del informe se muestra la métrica, las fechas de inicio y finalización y el público que se han empleado para elaborar el informe. Puede cambiar cualquiera de estos factores.
 

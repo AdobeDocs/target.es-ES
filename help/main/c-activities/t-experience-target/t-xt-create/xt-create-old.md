@@ -1,29 +1,29 @@
 ---
 keywords: Segmentación de experiencias;xt;create
-description: Aprenda a usar el [!UICONTROL Visual Experience Composer] (VEC) en  [!DNL Adobe Target] para crear una actividad de [!UICONTROL Experience Targeting] (XT).
-title: ¿Cómo creo una actividad de [!UICONTROL Experience Targeting]?
+description: Aprenda a usar el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear una actividad de [!UICONTROL Segmentación de experiencias] (XT).
+title: ¿Cómo creo una actividad [!UICONTROL Segmentación de experiencias]?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '441'
+ht-degree: 35%
 
 ---
 
-# Crear una actividad [!UICONTROL Experience Targeting] (XT)
+# Crear una actividad [!UICONTROL segmentación de experiencias] (XT)
 
-Use [!UICONTROL Visual Experience Composer] (VEC) para crear una actividad [!UICONTROL Experience Targeting] (XT) en una página habilitada para [!DNL Target] y para modificar partes de la página en [!DNL Adobe Target].
+Use el [!UICONTROL Compositor de experiencias visuales] (VEC) para crear una actividad de [!UICONTROL Segmentación de experiencias] (XT) en una página habilitada para [!DNL Target] y para modificar partes de la página en [!DNL Adobe Target].
 
-[!UICONTROL Experience Targeting] (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
+[!UICONTROL Segmentación de experiencias] (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
 
-[!UICONTROL Experience Targeting], incluido [targeting geográfico](/help/main/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintas audiencias.
+[!UICONTROL Segmentación de experiencias], incluyendo [targeting geográfico](/help/main/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintos públicos.
 
-Para obtener más información sobre [!UICONTROL Experience Targeting], un caso de uso y vídeos de aprendizaje, consulte [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md).
+Para obtener más información sobre [!UICONTROL Segmentación de experiencias], un caso de uso y vídeos de formación, consulte [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md).
 
-**Para crear una actividad [!UICONTROL Experience Targeting]:**
+**Para crear una actividad de [!UICONTROL Segmentación de experiencias]:**
 
-1. En la lista [!UICONTROL Activities], haga clic en **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
+1. En la lista [!UICONTROL Actividades], haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Segmentación de experiencias]**.
 
    ![Crear actividad > Segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
@@ -33,21 +33,21 @@ Para obtener más información sobre [!UICONTROL Experience Targeting], un caso 
    >
    >Para obtener más información sobre los distintos tipos de actividades disponibles en [!DNL Target] y sus diferencias, consulte [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md) para ayudarle a decidir qué tipo de actividad encaja con sus necesidades.
 
-1. Seleccione **[!UICONTROL Visual (Default)]**, si es necesario.
+1. Seleccione **[!UICONTROL Visual (Predeterminado)]**, si es necesario.
 
-   Si prefiere usar el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione [!UICONTROL Form].
+   Si prefiere usar el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione [!UICONTROL Formulario].
 
    >[!NOTE]
    >
-   >Además del VEC y [!UICONTROL Form-Based Experience Composer], [!DNL Target] ofrece el VEC de aplicación de una sola página. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/main/c-experiences/experiences.md).
+   >Además del VEC y [!UICONTROL Compositor de experiencias basadas en formularios], [!DNL Target] ofrece el VEC de aplicación de una sola página. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/main/c-experiences/experiences.md).
    >
    >Para obtener información de solución de problemas acerca del VEC, consulte [Solución de problemas del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 1. (Condicional) Si es cliente de [!DNL Target Premium], [elija un área de trabajo](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   La opción [!UICONTROL Choose Workplace] es una característica de [Target Premium](/help/main/c-intro/intro.md). Si su organización tiene una licencia de [!DNL Target Standard] si no ve esta opción.
+   La opción [!UICONTROL Elegir lugar de trabajo] es una característica de [Target Premium](/help/main/c-intro/intro.md). Si su organización tiene una licencia de [!DNL Target Standard] si no ve esta opción.
 
-1. Especifique la [URL de actividad](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) y haga clic en **[!UICONTROL Create]**.
+1. Especifique la [URL de actividad](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) y haga clic en **[!UICONTROL Crear]**.
 
    Si la cuenta se [configura con una dirección URL predeterminada](/help/main/administrating-target/visual-experience-composer-set-up.md) esa dirección URL aparece de manera predeterminada. Puede cambiar la dirección URL predeterminada con otra dirección, si es necesario.
 

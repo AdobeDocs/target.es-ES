@@ -13,8 +13,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 87%
+source-wordcount: 566
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ El contenido mixto se produce si la solicitud inicial es segura a través de HTT
 
 Los exploradores modernos pueden bloquear la visualización de una página o mostrar mensajes de advertencia si el contenido seguro se mezcla con contenido no seguro.
 
-Aparece un mensaje de advertencia si el [!UICONTROL Visual Experience Composer] (VEC) de [!DNL Adobe Target] intenta abrir una página con contenido mixto. Este mensaje le informa sobre cómo deshabilitar el bloqueo en su explorador. Deshabilitar el bloqueo le permite abrir un sitio HTTP o un sitio que tenga contenido mixto (HTTPS y HTTP).
+Aparece un mensaje de advertencia si el [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target] intenta abrir una página con contenido mixto. Este mensaje le informa sobre cómo deshabilitar el bloqueo en su explorador. Deshabilitar el bloqueo le permite abrir un sitio HTTP o un sitio que tenga contenido mixto (HTTPS y HTTP).
 
 ![Advertencia de contenido mixto](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -48,11 +48,11 @@ Consulte &quot;[Administrar advertencias sobre sitios no seguros](https://suppor
 
 Si utiliza el VEC con la última versión de [!DNL Chrome] (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
 
-1. Haga clic en el icono de bloqueo (precaución) y luego haga clic en **[!UICONTROL Site settings]**.
+1. Haga clic en el icono de bloqueo (precaución) y, a continuación, haga clic en **[!UICONTROL Configuración del sitio]**.
 
    ![Configuración del sitio](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Desplácese hasta **[!UICONTROL Insecure content]** y, a continuación, utilice la lista desplegable para cambiar &quot;Bloquear (predeterminado)&quot; por &quot;Permitir&quot;.
+1. Desplácese hasta **[!UICONTROL Contenido no seguro]** y, a continuación, utilice la lista desplegable para cambiar &quot;Bloquear (predeterminado)&quot; por &quot;Permitir&quot;.
 
    ![Contenido no seguro](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -85,10 +85,10 @@ Si va a visitar un sitio a través de una conexión segura, [!DNL Edge] verifica
 
 Si utiliza el VEC con la última versión de [!DNL Edge], debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
 
-1. En [!DNL Edge], haga clic en **[!DNL Microsoft Edge]** en la barra de menús, **[!UICONTROL Settings]**, luego haga clic en **Cookies y permisos del sitio**.
+1. En [!DNL Edge], haga clic en **[!DNL Microsoft Edge]** en la barra de menús, **[!UICONTROL Configuración]**, luego haga clic en **Cookies y permisos del sitio**.
 
-1. Desplácese hasta **[!UICONTROL Insecure content]**.
+1. Desplácese hasta **[!UICONTROL Contenido no seguro]**.
 
-1. Haga clic en **[!UICONTROL Insecure content]**, luego haga clic en **[!UICONTROL Add]** junto a **[!UICONTROL Allow]**, agregue el sitio en el que desea permitir contenido no seguro y, a continuación, haga clic en **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Contenido no seguro]** y, a continuación, haga clic en **[!UICONTROL Agregar]** junto a **[!UICONTROL Permitir]**, agregue el sitio en el que desea permitir contenido no seguro y, por último, haga clic en **[!UICONTROL Agregar]**.
 
 1. Vuelva a cargar la página del VEC.

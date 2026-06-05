@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
+source-wordcount: 1772
 ht-degree: 73%
 
 ---
@@ -170,7 +170,7 @@ Límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, 
 
 ### Experiencias por actividad
 
-* **Límite**: 2000 experiencias por actividad de [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) y [!UICONTROL Auto-Target].
+* **Límite**: 2000 experiencias por [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Prueba A/B], [!UICONTROL Prueba multivariada] (MVT) y actividad de [!UICONTROL Segmentación automática].
 
   30 000 experiencias por actividad de Automated Personalization (AP).
 

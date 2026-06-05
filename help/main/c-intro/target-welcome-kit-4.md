@@ -23,7 +23,7 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2960
+source-wordcount: 2891
 ht-degree: 73%
 
 ---
@@ -169,7 +169,7 @@ Por ejemplo, un cliente de servicios de atención médica de Adobe demostró rec
 Una de las ventajas de configurar las actividades para que utilicen parámetros de control de calidad es que puede compartir esos vínculos con todos los miembros de su equipo. De este modo, se asegurará de que más personas estén al tanto de la actividad y de que no supongan que el sitio no funciona correctamente cuando se topen con una variante de prueba.
 
 Una vez finalizadas las pruebas, la comunicación de los lanzamientos de las campañas, los resultados de las pruebas y, en especial, las lecciones aprendidas, le ayudará a sensibilizar a los demás de los resultados de las pruebas y a despertar su interés. Compartir los resultados con todos los miembros de la organización también evita volver a probar hipótesis. Asimismo, muestra a los demás qué es lo que funciona y les ayuda a cuestionar sus propias ideas sobre lo que funciona a partir de lo que haya averiguado. Es aconsejable preparar una plantilla para utilizarla cada vez que desee compartir conclusiones y aprendizajes clave.
-A continuación, considere la posibilidad de crear un libro que se pueda compartir o una presentación de Microsoft PowerPoint que capture todo este conocimiento de manera incremental.
+A continuación, considere la posibilidad de crear un libro compartible o un paquete de Microsoft PowerPoint que capture de forma acumulativa estas lecciones.
 
 ## Sugerencia 20: Aproveche la funcionalidad móvil para crear actividades móviles más innovadoras.
 

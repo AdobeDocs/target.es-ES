@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 75%
+source-wordcount: 903
+ht-degree: 76%
 
 ---
 
@@ -30,36 +30,36 @@ ht-degree: 75%
 
 ## Configuración del rastreo de clics {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Al establecer sus metas en la página [!UICONTROL Goals & Settings] de su actividad, seleccione la métrica de éxito **[!UICONTROL Conversion]**.
-1. Para la acción, seleccione **[!UICONTROL Clicked an element]** y luego haga clic en **[!UICONTROL Select elements]**.
+1. Al establecer los objetivos en la página [!UICONTROL Objetivos y configuración] para su actividad, seleccione la métrica de conversión **[!UICONTROL Conversión]**.
+1. Para la acción, seleccione **[!UICONTROL Se hizo clic en un elemento]** y luego haga clic en **[!UICONTROL Seleccionar elementos]**.
 
-   Su página se abre en [!UICONTROL Visual Experience Composer] (VEC).
+   La página se abre en el [!UICONTROL Compositor de experiencias visuales] (VEC).
 
 1. Seleccione los elementos que desee rastrear.
 
    Consulte la sección *Consideraciones*, a continuación, para ver sugerencias sobre la selección de elementos.
 
-1. Haga clic en **[!UICONTROL Done]** en la parte superior de la pantalla para guardar las selecciones.
+1. Haga clic en **[!UICONTROL Listo]** en la parte superior de la pantalla para guardar las selecciones.
 
 Cuando el participante de una actividad hace clic en un elemento seleccionado, ese clic se cuenta como una conversión.
 
 ## Panel Elementos seleccionados {#selected-elements}
 
-Para las actividades [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Multivariate Test] (MVT), un panel [!UICONTROL Selected Elements] enumera los elementos seleccionados para el rastreo de clics en el lado izquierdo.
+Para las actividades de [!UICONTROL Prueba A/B], [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Prueba multivariable] (MVT), un panel de [!UICONTROL Elementos seleccionados] enumera los elementos seleccionados para el rastreo de clics en el lado izquierdo.
 
 ![Panel Elementos seleccionados](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Existen varias acciones que se pueden aplicar al hacer clic en un elemento del panel [!UICONTROL Tracked Components]. La siguiente tabla describe cada acción que se puede realizar en un elemento:
+Hay varias acciones que se pueden aplicar al hacer clic en un elemento del panel [!UICONTROL Componentes rastreados]. La siguiente tabla describe cada acción que se puede realizar en un elemento:
 
 | Acción | Descripción |
 | --- | --- |
-| [!UICONTROL Tracked actions] | Muestra la acción del elemento. |
-| [!UICONTROL CSS selector] | Permite editar el selector de CSS. |
+| [!UICONTROL Acciones rastreadas] | Muestra la acción del elemento. |
+| [!UICONTROL selector de CSS] | Permite editar el selector de CSS. |
 | [!DNL Delete] | Elimina el elemento. |
 
 ### Agregar elemento
 
-Si ya conoce la ruta DOM al selector, puede agregarla manualmente si hace clic en el icono [!UICONTROL Add Component] en la parte superior del panel.
+Si ya conoce la ruta DOM al selector, puede agregarla manualmente si hace clic en el icono [!UICONTROL Agregar componente] en la parte superior del panel.
 
 ## Consideraciones {#considerations}
 
@@ -75,7 +75,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 * Si selecciona más de un elemento, si un participante hace clic en cualquiera de los elementos elegidos, se cuenta el clic. Para contar cada elemento por separado, configure métricas de éxito individuales para cualquier elemento. Para contar un elemento haciendo clic en varios elementos de una página, edite el selector de elementos CSS para que coincida con varios elementos.
 * Asegúrese de seleccionar el nivel de elemento que desee rastrear. Por ejemplo, al especificar un botón, asegúrese de seleccionar el vínculo y no el texto del botón.
 * Los eventos de clic se envían a [!DNL Target] en la misma página que el clic.
-* Si la métrica de rastreo de clics es la métrica objetivo de una actividad [!UICONTROL Analytics for Target] (A4T), el visitante debe hacer clic en este elemento en un plazo de 60 segundos desde la carga de la página para que la métrica se rastree.
+* Si la métrica de rastreo de clics es la métrica objetivo de una actividad de [!UICONTROL Analytics for Target] (A4T), el visitante debe hacer clic en este elemento en un plazo de 60 segundos desde la carga de la página para que la métrica se rastree.
 * El rastreo de clics no funciona en elementos que incluyen caracteres de escape en los selectores, incluyendo los siguientes:
 
   | Carácter | Descripción |
@@ -116,7 +116,7 @@ Existen varias cuestiones que se deben tener en cuenta al seleccionar elementos:
 Este vídeo contiene información sobre la creación de métricas de éxito del rastreo de clics.
 
 * Qué son las métricas de “objetivo”
-* Comprender y generar las métricas [!UICONTROL Conversion], [!UICONTROL Revenue] y [!UICONTROL Engagement]
+* Comprenda y cree las métricas [!UICONTROL Conversión], [!UICONTROL Ingresos] y [!UICONTROL Participación]
 * Compilar una métrica para el rastreo de clics
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

@@ -1,7 +1,7 @@
 ---
 keywords: Segmentación;audiencias
 description: Aprenda a utilizar las audiencias en  [!DNL Adobe Target]  para segmentar contenido y experiencias diferentes para optimizar los esfuerzos de marketing web.
-title: ¿Cómo puedo usar [!UICONTROL Audiences] para segmentar contenido diferente en segmentos específicos?
+title: ¿Cómo puedo usar [!UICONTROL Audiencias] para segmentar contenido diferente en segmentos específicos?
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 TQID: https://experienceleague.adobe.com/SWnY6R7U3OXq9cVN5CHruKswSDX-z6fX51QSmBIfWDw
@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: 316
 ht-degree: 38%
 
 ---

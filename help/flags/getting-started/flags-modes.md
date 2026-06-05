@@ -5,7 +5,7 @@ hide: true
 exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Utilice el direccionamiento a nivel de usuario cuando desee:
 * Implementar gradualmente una función según el porcentaje de usuarios
 * Ajustar la experiencia en función de atributos de usuario individuales (como dominio de correo electrónico o datos de perfil)
 
-### Limitaciones   {#user-level-limitations}
+### Limitaciones {#user-level-limitations}
 
 La segmentación a nivel de usuario no está diseñada para los siguientes casos:
 
@@ -60,7 +60,7 @@ Utilice la segmentación a nivel de organización cuando desee:
 * Realización de un despliegue regional
 * Funciones de puerta basadas en derechos o nivel de suscripción
 
-### Limitaciones   {#org-level-limitations}
+### Limitaciones {#org-level-limitations}
 
 La segmentación a nivel de organización y entorno no está diseñada para los siguientes escenarios:
 
@@ -80,7 +80,7 @@ La segmentación a nivel de organización y entorno no está diseñada para los 
 
 ## Elección del modo correcto {#choosing}
 
-* Si su pregunta es *&quot;¿Qué usuarios deberían ver esta característica?&quot;* → usar **direccionamiento a nivel de usuario**
-* Si su pregunta es *&quot;¿Qué organizaciones o entornos deben tener esta característica?&quot;* → **segmentación a nivel de entorno y organización**
+* Si su pregunta es *&quot;¿Qué usuarios deben ver esta característica?&quot;* → Usar **direccionamiento a nivel de usuario**
+* Si su pregunta es *&quot;¿Qué organizaciones o entornos deben tener esta característica?&quot;* → Usar **organización y direccionamiento a nivel de entorno**
 
 <!-- -->

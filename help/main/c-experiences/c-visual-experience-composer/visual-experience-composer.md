@@ -14,14 +14,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1138
-ht-degree: 46%
+source-wordcount: 1175
+ht-degree: 47%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] (VEC)
+# [!UICONTROL Compositor de experiencias visuales] (VEC)
 
-El [!UICONTROL Visual Experience Composer] (VEC) de [!DNL Adobe Target] es un editor de WYSIWYG que permite a los clientes crear y probar experiencias personalizadas directamente en sus sitios web o páginas web móviles sin necesidad de editar el código.
+El [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target] es un editor de WYSIWYG que permite a los clientes crear y probar experiencias personalizadas directamente en sus sitios web o páginas web móviles sin necesidad de editar código.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ El VEC permite crear y probar fácilmente experiencias y ofertas personalizadas 
 
 El VEC es una de las características principales de [!DNL Target]. El VEC permite que los expertos en marketing y los diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor.
 
-En la ficha [!DNL Target] **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, puede escribir la dirección URL predeterminada [!UICONTROL Visual Experience Composer].
+En la ficha [!DNL Target] **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]**, puede escribir la dirección URL predeterminada de [!UICONTROL Compositor de experiencias visuales].
 
 Esta dirección URL determina la página de inicio al abrir el VEC. Si no especifica una dirección URL predeterminada, comenzará con una página en blanco cuando abra el editor y, a continuación, podrá especificar una dirección URL.
 
@@ -39,11 +39,11 @@ Esta dirección URL determina la página de inicio al abrir el VEC. Si no especi
 
 >[!NOTE]
 >
->Algunos exploradores, como [!DNL Firefox], pueden bloquear una página y evitar que se muestre en el VEC si esta contiene contenido mixto (por ejemplo, una página no segura en un sitio seguro). Si la página no se muestra, haga clic en el icono situado junto a la dirección URL en la barra de direcciones del explorador y seleccione **[!UICONTROL Disable protection on this page]**. Este problema no afecta a la visualización de las páginas de los visitantes del sitio.
+>Algunos exploradores, como [!DNL Firefox], pueden bloquear una página y evitar que se muestre en el VEC si esta contiene contenido mixto (por ejemplo, una página no segura en un sitio seguro). Si la página no se muestra, haga clic en el icono situado junto a la dirección URL en la barra de direcciones del explorador y seleccione **[!UICONTROL Deshabilitar la protección en esta página]**. Este problema no afecta a la visualización de las páginas de los visitantes del sitio.
 
 El contenido de dentro de un iframe en la página no se puede modificar en el VEC. Para editar contenido dentro de un iframe, asegúrese de que el documento del iframe esté habilitado para [!DNL Target] y luego cargue la dirección URL del iframe en el VEC.
 
-Puede usar las pestañas del carril [!UICONTROL Experiences] para ver la página tal como se mostraría a diferentes audiencias o con diferentes experiencias. Puede proporcionar un nombre para cada experiencia. Por ejemplo, si está probando la ubicación del vínculo a la página de inicio en la barra de navegación, podría asignar un nombre a la experiencia en la que el vínculo a la página de inicio aparece primero. Por ejemplo, &quot;Vínculo a Inicio&quot; para que sea más fácil identificar las experiencias en la lista.
+Puede usar las pestañas del carril [!UICONTROL Experiencias] para ver su página tal como se mostraría a diferentes audiencias o con diferentes experiencias. Puede proporcionar un nombre para cada experiencia. Por ejemplo, si está probando la ubicación del vínculo a la página de inicio en la barra de navegación, podría asignar un nombre a la experiencia en la que el vínculo a la página de inicio aparece primero. Por ejemplo, &quot;Vínculo a Inicio&quot; para que sea más fácil identificar las experiencias en la lista.
 
 >[!NOTE]
 >
@@ -57,13 +57,13 @@ Click the **[!UICONTROL Overlays]** icon to change the way the highlight display
 ![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 -->
 
-Haga clic en un elemento resaltado para acceder al menú de opciones disponibles para dicho tipo de elemento. Por ejemplo, puede hacer clic en una imagen y seleccionar **[!UICONTROL Change Image]** para cambiar la imagen a otra imagen. O bien, haga clic en un botón y cambie el color del texto.
+Haga clic en un elemento resaltado para acceder al menú de opciones disponibles para dicho tipo de elemento. Por ejemplo, puede hacer clic en una imagen y seleccionar **[!UICONTROL Cambiar imagen]** para cambiar la imagen a otra imagen. O bien, haga clic en un botón y cambie el color del texto.
 
-También puede hacer clic en **[!UICONTROL Browse]** y luego navegar a una página que esté disponible desde la página principal, como una página de envío o un carro de compras, y probar los cambios en esa página. También puede acceder a los elementos de la página que están disponibles cuando mueve el cursor por encima, como los menús flotantes y los minicarros. Cuando termine de navegar por la página, haga clic en **[!UICONTROL Design]** para editar la experiencia. Por ejemplo, puede interesarle cambiar el diseño de una lista desplegable de carro de compras o un carrusel de imágenes.
+También puede hacer clic en **[!UICONTROL Examinar]** y navegar a una página que esté disponible como página principal (por ejemplo, la página de envío o el carro de compras) y probar los cambios en esa página. También puede acceder a los elementos de la página que están disponibles cuando mueve el cursor por encima, como los menús flotantes y los minicarros. Cuando termine de examinar la página, haga clic en **[!UICONTROL Diseño]** para editar la experiencia. Por ejemplo, puede interesarle cambiar el diseño de una lista desplegable de carro de compras o un carrusel de imágenes.
 
 >[!NOTE]
 >
->Si un estado de movimiento del cursor por encima depende de JavaScript, asegúrese de que **[!UICONTROL Disable JavaScript]** no esté seleccionado. JavaScript debe estar habilitado para poder editar los elementos JavaScript.
+>Si un estado de movimiento del cursor por encima depende de JavaScript, asegúrese de que la opción **[!UICONTROL Deshabilitar JavaScript]** no esté seleccionada. JavaScript debe estar habilitado para poder editar los elementos JavaScript.
 
 Para obtener información sobre las opciones disponibles en el VEC, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
@@ -82,7 +82,7 @@ Algunas razones por las cuales es posible que desee acceder o editar una página
 * Desea copiar código personalizado existente de una página que ya no es accesible
 * Sabe que una página no se cargará dentro del VEC pero de todas maneras desea realizar ediciones simples
 
-Mientras la página se carga (o después de que no se haya cargado), las opciones [!UICONTROL Experiences], [!UICONTROL Components] y [!UICONTROL Configure] están accesibles.
+Mientras la página se carga (o después de que no se haya cargado), las opciones [!UICONTROL Experiencias], [!UICONTROL Componentes] y [!UICONTROL Configurar] están accesibles.
 
 ## Cancelación de la carga de una página dentro del VEC {#cancel-loading}
 
@@ -95,15 +95,15 @@ Algunas de las razones por las que es posible que desee cancelar la carga de pá
 * Desea insertar o editar código personalizado
 * Introdujo la dirección URL incorrecta para la página
 * Desea habilitar o deshabilitar JavaScript antes de cargar la página en el VEC
-* Desea agregar más reglas de prueba de plantilla a los criterios de [!UICONTROL Page Delivery]
-* Desea anular la opción global [!UICONTROL Enhanced Experience Composer] (EEC) al cargar una página a través de EEC o solo iframe
+* Desea agregar más reglas de prueba de plantilla a los criterios [!UICONTROL Entrega de página]
+* Desea anular la opción global [!UICONTROL Compositor de experiencias mejorado] (EEC) al cargar una página mediante EEC o solo iframe
 
-Si cancela la carga de páginas en el VEC, puede cambiar entre experiencias en la actividad sin esperar a que se cargue la página. Para volver a ver la página dentro del VEC, debe hacer clic en el botón **[!UICONTROL Reload]**.
+Si cancela la carga de páginas en el VEC, puede cambiar entre experiencias en la actividad sin esperar a que se cargue la página. Para volver a ver la página dentro del VEC, debe hacer clic en el botón **[!UICONTROL Recargar]**.
 
 >[!IMPORTANT]
 >
 >Tenga en cuenta que cuando se crea un código personalizado o se realizan modificaciones, al elegir cancelar la carga dentro del VEC, debe asegurarse de que la codificación o los cambios se realicen correctamente. Asegúrese de realizar un control de calidad adecuado para garantizar que el código personalizado y cualquier otra modificación se entregue según lo esperado.
 
-Para cancelar la carga de una página dentro del VEC, haga clic en el botón **[!UICONTROL Cancel Loading]** mientras se carga la página. La página no se cargará en el VEC para esta actividad durante la sesión de edición actual.
+Para cancelar la carga de una página dentro del VEC, haga clic en el botón **[!UICONTROL Cancelar carga]** mientras se carga la página. La página no se cargará en el VEC para esta actividad durante la sesión de edición actual.
 
-Para continuar administrando experiencias en la actividad actual o agregar nuevas modificaciones, debe hacer clic en el botón **[!UICONTROL Reload]**.
+Para seguir administrando experiencias en la actividad actual o agregar nuevas modificaciones, debes hacer clic en el botón **[!UICONTROL Recargar]**.

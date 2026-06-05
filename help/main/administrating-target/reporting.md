@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 795
 ht-degree: 22%
 
 ---
@@ -28,11 +28,11 @@ Configure las opciones generales para usar en los informes de [!DNL Adobe Target
 
 {{permissions-update}}
 
-Para obtener acceso a la página de configuración de [!UICONTROL Reporting], haga clic en **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
+Para obtener acceso a la página de configuración de [!UICONTROL Informes], haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Informes].**
 
 Puede especificar la siguiente configuración en esta página:
 
-* La solución de Adobe Experience Cloud para la creación de informes
+* La solución de Adobe Experience Cloud que se utilizará para la creación de informes
 * Zona horaria que se utilizará para los informes
 * La moneda que se utilizará para los informes
 * Direcciones IP que se excluirán de los informes
@@ -53,26 +53,26 @@ Seleccione el origen de los informes para sus actividades: [!DNL Target], [!DNL 
 
 Tenga en cuenta la siguiente información al elegir su fuente de informes:
 
-* **[!DNL Adobe Target]**: si el origen de informes está establecido en **[!DNL Target]** aquí, no se le permite crear ni activar una actividad que use [!DNL Analytics] o [!DNL Customer Journey Analytics] como origen de informes. Debe cambiar el origen de los informes a **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Analytics]**: si el origen de informes está establecido en **[!DNL Analytics]** aquí, no se le permite crear ni activar una actividad que use [!DNL Target] o [!DNL Customer Journey Analytics] como origen de informes. Debe cambiar el origen de los informes a **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Customer Journey Analytics]**: si el origen de informes está establecido en **[!DNL Customer Journey Analytics]** aquí, no se le permite crear ni activar una actividad que use [!DNL Target] o [!DNL Analytics] como origen de informes. Debe cambiar el origen de los informes a **[!UICONTROL Select per activity]**.
-* **Seleccionar por actividad**: si la fuente de informes está configurada en **[!UICONTROL Select per activity]** aquí, puede crear y activar actividades que son compatibles con la fuente de informes seleccionada.
+* **[!DNL Adobe Target]**: si el origen de informes está establecido en **[!DNL Target]** aquí, no se le permite crear ni activar una actividad que use [!DNL Analytics] o [!DNL Customer Journey Analytics] como origen de informes. Debe cambiar la fuente de informes a **[!UICONTROL Seleccionar por actividad]**.
+* **[!DNL Adobe Analytics]**: si el origen de informes está establecido en **[!DNL Analytics]** aquí, no se le permite crear ni activar una actividad que use [!DNL Target] o [!DNL Customer Journey Analytics] como origen de informes. Debe cambiar la fuente de informes a **[!UICONTROL Seleccionar por actividad]**.
+* **[!DNL Adobe Customer Journey Analytics]**: si el origen de informes está establecido en **[!DNL Customer Journey Analytics]** aquí, no se le permite crear ni activar una actividad que use [!DNL Target] o [!DNL Analytics] como origen de informes. Debe cambiar la fuente de informes a **[!UICONTROL Seleccionar por actividad]**.
+* **Seleccionar por actividad**: si la fuente de informes está configurada en **[!UICONTROL Seleccionar por actividad]** aquí, puede crear y activar actividades que son compatibles con la fuente de informes seleccionada.
 
 Al determinar la fuente de informes, tenga en cuenta la siguiente información:
 
 * **[!DNL Analytics]**: para obtener una matriz de actividades compatibles que usan [!DNL Analytics] como fuente de informes (A4T), consulte [Tipos de actividades compatibles](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) en *Adobe Analytics como fuente de informes para Adobe Target (A4t)*.
 
-  Se permite la creación y activación de la actividad [!UICONTROL Automated Personalization] (AP) independientemente del origen de informes seleccionado. No se admiten las actividades [!UICONTROL Automated Personalization] al elegir [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+  La creación y activación de la actividad [!UICONTROL Automated Personalization] (AP) están permitidas independientemente de la fuente de informes seleccionada. Las actividades de [!UICONTROL Automated Personalization] no se admiten cuando elige [Adobe Analytics como fuente de informes para Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
   Aunque especifique [!DNL Analytics] como fuente de informes, [!DNL Target] se usa como fuente de informes para [!DNL Automated Personalization] actividades.
 
 * **[!DNL Customer Journey Analytics]**: para obtener una matriz de actividades compatibles que usan la creación de informes de [!DNL Target] en [!DNL Customer Journey Analytics], consulte [Tipos de actividades compatibles](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) en la creación de informes de *[!DNL Target]en[!DNL Adobe Customer Journey Analytics]*.
 
-  La creación y activación de actividades de [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target] están permitidas independientemente del origen de informes seleccionado. Estas actividades no son compatibles cuando elige [Adobe Customer Journey Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  La creación y activación de actividades de [!UICONTROL Automated Personalization] (AP), [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] están permitidas independientemente de la fuente de informes seleccionada. Estas actividades no son compatibles cuando elige [Adobe Customer Journey Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
   Aunque especifique [!DNL Customer Journey Analytics] como fuente de informes, [!DNL Target] se usa como fuente de informes para [!DNL Automated Personalization] actividades.
 
-  Si especifica [!DNL Customer Journey Analytics] como fuente de informes para las actividades [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], se puede usar [!DNL Target] o [!DNL Analytics] como fuente de informes.
+  Si especifica [!DNL Customer Journey Analytics] como fuente de informes para las actividades de [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática], se puede usar [!DNL Target] o [!DNL Analytics] como fuente de informes.
 
 ## Zona horaria para informes
 

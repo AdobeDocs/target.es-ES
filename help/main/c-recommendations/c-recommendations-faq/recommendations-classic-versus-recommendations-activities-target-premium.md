@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 86%
+source-wordcount: 692
+ht-degree: 83%
 
 ---
 
@@ -41,16 +41,16 @@ La actividad de [!DNL Recommendations] en [!DNL Target] mejora con respecto a [!
 
 ## Recomendaciones como oferta
 
-Puede incluir recomendaciones dentro de las actividades [!UICONTROL A/B Test] (incluidas [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target]) y [!UICONTROL Experience Targeting] (XT).
+Puede incluir recomendaciones dentro de la prueba [!UICONTROL Prueba A/B] (incluidas las actividades de [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]) y [!UICONTROL Segmentación de experiencias] (XT).
 
 Esta funcionalidad revela capacidades completamente nuevas, como:
 
 * Recomendaciones de prueba y segmentación y contenido que no sea de recomendación dentro de la misma actividad.
 * Experimentar fácilmente con la colocación de recomendaciones en la página, incluido el orden de varias recomendaciones.
-* Insertar automáticamente tráfico a la experiencia de recomendaciones de mejor rendimiento usando [!UICONTROL Auto-Allocate].
-* Asignar de forma dinámica a los visitantes a experiencias de recomendaciones adaptadas según su perfil mediante [!UICONTROL Auto-Target].
+* Insertar automáticamente tráfico a la experiencia de recomendaciones de mejor rendimiento usando [!UICONTROL Asignación automática].
+* Asigne de forma dinámica a los visitantes experiencias de recomendaciones adaptadas según su perfil mediante [!UICONTROL Segmentación automática].
 
-Para empezar, cree una actividad [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] con la acción [!UICONTROL Visual Experience Composer] y use la acción [!UICONTROL Insert Before], [!UICONTROL Insert After] o [!UICONTROL Replace With] para agregar recomendaciones a una experiencia.
+Para empezar, cree una actividad [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] con el [!UICONTROL Compositor de experiencias visuales] y use la acción [!UICONTROL Insertar antes], [!UICONTROL Insertar después] o [!UICONTROL Reemplazar con] para agregar recomendaciones a una experiencia.
 
 Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

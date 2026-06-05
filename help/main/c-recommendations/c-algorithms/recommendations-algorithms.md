@@ -20,7 +20,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2850
+source-wordcount: 2952
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ La formación de modelos es el proceso de generación de recomendaciones mediant
 
 [!DNL Target] incluye los siguientes tipos generales de algoritmos en [!DNL Recommendations]:
 
-* **Algoritmos basados en elementos**: incluye algoritmos que sigan la lógica &quot;Las personas que vieron/compraron este artículo también vieron/compraron estos artículos&quot;. Estos algoritmos se agrupan bajo el término general de filtrado colaborativo elemento-elemento, así como [!UICONTROL Items with Similar Attributes] algoritmos.
+* **Algoritmos basados en elementos**: incluye algoritmos que sigan la lógica &quot;Las personas que vieron/compraron este artículo también vieron/compraron estos artículos&quot;. Estos algoritmos se agrupan bajo el término general de filtrado colaborativo elemento-elemento, así como [!UICONTROL Elementos con algoritmos de Atributos similares].
 
-* **Algoritmos basados en usuarios**: incluya los algoritmos [!UICONTROL Recently Viewed] y [!UICONTROL Recommended for You].
+* **Algoritmos basados en usuarios**: Incluir los algoritmos [!UICONTROL Vistos recientemente] y [!UICONTROL Recomendados para ti].
 
 * **Algoritmos basados en popularidad**: incluye algoritmos que devuelven los artículos más visitados o comprados en el sitio web, o los más visitados o los más comprados por categoría o atributo de artículo.
 
@@ -55,15 +55,15 @@ Las secciones siguientes agrupan los algoritmos de una manera ligeramente difere
 
 Los algoritmos incluyen:
 
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Las Personas Que Vieron Esto, Vieron Aquello]
+* [!UICONTROL Otras Personas Que Vieron Esto, Compraron Aquello]
+* [!UICONTROL Otras Personas Que Compraron Esto, Compraron Aquello]
 
 Los algoritmos de recomendación de filtrado colaborativos elemento-elemento se basan en la idea de que debe utilizar los patrones de comportamiento de muchos usuarios (por lo tanto, colaborativos) para proporcionar recomendaciones útiles para un elemento determinado (por ejemplo, filtrar el catálogo de posibles elementos para recomendar). Aunque hay muchos algoritmos diferentes que caen bajo el paraguas general de [filtrado colaborativo](https://en.wikipedia.org/wiki/Collaborative_filtering), estos algoritmos universalmente usan fuentes de datos de comportamiento como entradas. En [!DNL Target Recommendations], estas entradas son vistas únicas y compras de elementos por parte de los usuarios.
 
 Para el algoritmo &quot;las personas que vieron/compraron este artículo también vieron/compraron estos artículos&quot;, el objetivo es calcular una similitud (A,B) entre todos los pares de artículos. Para un elemento A determinado, las recomendaciones principales se ordenan por su similitud s(A,B).
 
-Un ejemplo de esta similitud es la coocurrencia entre artículos: un recuento simple del número de usuarios que compraron ambos artículos. Aunque intuitiva, esta métrica es ingenua, ya que está sesgada hacia la recomendación de artículos populares. Por ejemplo, si en un retailer de comestibles la mayoría de las personas compran pan, el pan tendrá una alta coocurrencia con todos los artículos, pero no es necesariamente una buena recomendación. [!DNL Target] utiliza en su lugar una métrica de similitud más sofisticada conocida como proporción de probabilidad de registro (LLR). Esta cantidad es grande cuando la probabilidad de que dos artículos, A y B, coocurran es muy diferente a la probabilidad de que no ocurran. Para ser más concretos, considere un caso del algoritmo [!UICONTROL People Who Viewed This, Bought That]. La similitud LLR es grande cuando la probabilidad de que B se haya comprado es *no* independientemente de si alguien vio A.
+Un ejemplo de esta similitud es la coocurrencia entre artículos: un recuento simple del número de usuarios que compraron ambos artículos. Aunque intuitiva, esta métrica es ingenua, ya que está sesgada hacia la recomendación de artículos populares. Por ejemplo, si en un retailer de comestibles la mayoría de las personas compran pan, el pan tendrá una alta coocurrencia con todos los artículos, pero no es necesariamente una buena recomendación. [!DNL Target] utiliza en su lugar una métrica de similitud más sofisticada conocida como proporción de probabilidad de registro (LLR). Esta cantidad es grande cuando la probabilidad de que dos artículos, A y B, coocurran es muy diferente a la probabilidad de que no ocurran. Para ser más concretos, considere un caso de las [!UICONTROL personas que vieron esto y compraron aquello]. La similitud LLR es grande cuando la probabilidad de que B se haya comprado es *no* independientemente de si alguien vio A.
 
 Por ejemplo, si
 
@@ -91,7 +91,7 @@ Los detalles de estos pasos son los siguientes:
 
 Algoritmo incluido:
 
-* [!UICONTROL Items with Similar Attributes]
+* [!UICONTROL Elementos con atributos similares]
 
 En este tipo de algoritmo, dos elementos se consideran relacionados si sus nombres y descripciones textuales son semánticamente similares. A diferencia de la mayoría de los algoritmos de recomendaciones en los que se deben utilizar fuentes de datos de comportamiento, los algoritmos de similitud de contenido utilizan metadatos de catálogos de productos para derivar la similitud entre los elementos. [!DNL Target] puede, por lo tanto, implementar recomendaciones en los llamados escenarios de &quot;inicio en frío&quot;, en los que no se han recopilado datos de comportamiento (por ejemplo, al principio de una actividad [!DNL Target]).
 
@@ -127,9 +127,9 @@ Los detalles de estos pasos son los siguientes:
 Los algoritmos incluyen:
 
 * Recomendaciones basadas en el carro de compras
-* [!UICONTROL Recommended For You]
+* [!UICONTROL Recomendado Para Usted]
 
-Las adiciones más recientes al conjunto de algoritmos de recomendaciones [!DNL Target] son [!UICONTROL Recommended For You] y una serie de algoritmos de recomendaciones basados en el carro de compras. Ambos tipos de algoritmos utilizan técnicas de filtrado colaborativas para formar recomendaciones individuales basadas en elementos. A continuación, en el momento del servicio, se utilizan varios elementos en el historial de exploración del usuario (para [!UICONTROL Recommended For You]) o el carro de compras actual del usuario (para recomendaciones basadas en el carro de compras) para recuperar estas recomendaciones basadas en elementos, que luego se combinan para formar la lista final de recomendaciones. Tenga en cuenta que existen muchos tipos de algoritmos de recomendación personalizados. La elección de un algoritmo de claves múltiples significa que las recomendaciones están disponibles inmediatamente después de que un visitante tenga un historial de navegación y que las recomendaciones se puedan actualizar para responder al comportamiento del visitante más reciente.
+Las adiciones más recientes al conjunto de algoritmos de recomendaciones [!DNL Target] son [!UICONTROL Recomendado para usted] y una serie de algoritmos de recomendaciones basados en el carro de compras. Ambos tipos de algoritmos utilizan técnicas de filtrado colaborativas para formar recomendaciones individuales basadas en elementos. A continuación, en el momento del servicio, se utilizan varios elementos en el historial de exploración del usuario (para [!UICONTROL Recomendado para usted]) o el carro de compras actual del usuario (para las recomendaciones basadas en el carro de compras) para recuperar estas recomendaciones basadas en elementos, que luego se combinan para formar la lista final de recomendaciones. Tenga en cuenta que existen muchos tipos de algoritmos de recomendación personalizados. La elección de un algoritmo de claves múltiples significa que las recomendaciones están disponibles inmediatamente después de que un visitante tenga un historial de navegación y que las recomendaciones se puedan actualizar para responder al comportamiento del visitante más reciente.
 
 Estos algoritmos se basan en las técnicas de filtrado colaborativas básicas descritas en la sección de recomendaciones basadas en elementos, pero también incorporan ajustes de hiperparámetros para determinar la métrica de similitud óptima entre los elementos. El algoritmo realiza una división cronológica de los datos de comportamiento de cada usuario y entrena los modelos de recomendación en los datos anteriores al intentar predecir los elementos que un usuario ve o compra más tarde. A continuación, se elige la métrica de similitud que produce la precisión media óptima de [Mean Average Precision]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval).
 
@@ -139,13 +139,13 @@ La lógica del aprendizaje del modelo y los pasos de puntuación se muestran en 
 
 Los detalles de estos pasos son los siguientes:
 
-* **Datos de entrada**: esto es idéntico a los métodos de filtrado colaborativo (CF) de elementos. Los algoritmos de [!UICONTROL Both Recommended For You] y basados en el carro de compras usan datos de comportamiento en forma de vistas y compras de usuarios recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Datos de entrada**: esto es idéntico a los métodos de filtrado colaborativo (CF) de elementos. [!UICONTROL Se recomienda para usted] y los algoritmos basados en el carro de compras usan datos de comportamiento en forma de vistas y compras de usuarios recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación de modelo**:
 
    * **Limpieza y muestreo de datos**: Esto es igual que para los métodos de filtrado de colaboración, donde la ventana retrospectiva se aplica para filtrar datos de comportamiento a un intervalo de fechas adecuado, seguido de la aplicación de reglas de catálogo y exclusiones globales. Los visitantes que han interactuado con más de 1000 elementos solo tienen en cuenta sus 1000 usos más recientes.
    * **Dividir prueba de entrenamiento**: realice una división cronológica de los usos para cada usuario, asignando el primer 80% de sus usos a los datos de entrenamiento, y el 20% restante a los datos de prueba.
-   * **Aprendizaje del modelo de similitud de elementos**: el cálculo de similitud de elementos principal difiere para [!UICONTROL Recommended For You] y los algoritmos basados en el carro de compras en la forma en que se construyen los vectores de elementos candidatos. Para [!UICONTROL Recommended For You], los vectores de elementos tienen usuarios de dimensión, donde cada entrada representa la suma de las clasificaciones implícitas para ese usuario del elemento; las compras de un elemento tienen un peso del doble que las vistas del elemento. Para las recomendaciones basadas en el carro de compras, los vectores de elementos tienen entradas binarias; si solo se debe considerar el comportamiento dentro de la sesión, hay una nueva entrada para cada sesión. De lo contrario, hay una entrada en este vector de elemento para cada visitante.
+   * **Aprendizaje del modelo de similitud de elementos**: el cálculo de similitud de elementos principal difiere para [!UICONTROL Recomendado para ti] y para los algoritmos basados en el carro de compras en la forma en que se construyen los vectores de elementos candidatos. Para [!UICONTROL Recomendado para usted], los vectores de elementos tienen usuarios de dimensión, donde cada entrada representa la suma de clasificaciones implícitas para ese usuario del elemento: las compras de un elemento tienen un peso del doble que las vistas del elemento. Para las recomendaciones basadas en el carro de compras, los vectores de elementos tienen entradas binarias; si solo se debe considerar el comportamiento dentro de la sesión, hay una nueva entrada para cada sesión. De lo contrario, hay una entrada en este vector de elemento para cada visitante.
 
   El paso de aprendizaje calcula varios tipos de similitudes vectoriales: similitud de LLR ([aquí &#x200B;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), similitud de coseno (definida anteriormente) y una similitud de L2 normalizada, definida como:
 
@@ -155,9 +155,9 @@ Los detalles de estos pasos son los siguientes:
    * **Selección de modelo**: después de la evaluación sin conexión, se selecciona el modelo que tiene la precisión media promedio más alta y se calculan todas las recomendaciones de elementos individuales para él.
    * **Filtrado sin conexión**: la etapa final del aprendizaje del modelo es la aplicación de cualquier filtro dinámico aplicable. Después de este paso, las recomendaciones precalculadas se almacenan en la caché global para que estén disponibles para su servicio.
 
-* **Servicio del modelo**: a diferencia de los algoritmos anteriores en los que las recomendaciones de servicio implican la especificación de una sola clave para la recuperación, seguida de la aplicación de reglas empresariales, los algoritmos de [!UICONTROL Recommended for You] y basados en el carro de compras emplean un proceso de tiempo de ejecución más complejo.
+* **Servicio de modelos**: a diferencia de los algoritmos anteriores en los que las recomendaciones de servicio implican la especificación de una sola clave para la recuperación, seguida de la aplicación de reglas empresariales, los algoritmos de [!UICONTROL Recomendado para usted] y Basado en el carro de compras emplean un proceso de tiempo de ejecución más complejo.
 
-   * **Recuperación y combinación de varias claves**: Para las recomendaciones basadas en el carro de compras, hasta diez elementos que se pasan en el carro de compras se consideran claves para la recuperación y las recomendaciones de cada uno se ponderan de forma equitativa. Para [!UICONTROL Recommended for You], hasta los últimos cinco artículos vistos únicos y los últimos cinco artículos comprados únicos se consideran claves para la recuperación, con recomendaciones que surgen de artículos comprados que tienen un peso el doble que las recomendaciones que surgen de artículos vistos. Al combinar recomendaciones, si un elemento aparece en varias listas individuales de recomendaciones, se añaden sus puntuaciones de similitud ponderadas. La lista final de recomendaciones de esta fase es la lista combinada de recomendaciones ponderadas de nuevo, clasificadas en orden descendente.
+   * **Recuperación y combinación de varias claves**: Para las recomendaciones basadas en el carro de compras, hasta diez elementos que se pasan en el carro de compras se consideran claves para la recuperación y las recomendaciones de cada uno se ponderan de forma equitativa. Para [!UICONTROL Recomendado para ti], hasta los últimos cinco artículos vistos únicos y los últimos cinco artículos comprados únicos se consideran claves para la recuperación, con recomendaciones que surgen de artículos comprados con un peso dos veces mayor que las recomendaciones que surgen de artículos vistos. Al combinar recomendaciones, si un elemento aparece en varias listas individuales de recomendaciones, se añaden sus puntuaciones de similitud ponderadas. La lista final de recomendaciones de esta fase es la lista combinada de recomendaciones ponderadas de nuevo, clasificadas en orden descendente.
    * **Filtrado**: a continuación, se aplican reglas de filtrado como la eliminación de elementos vistos o comprados anteriormente, así como otras reglas comerciales dinámicas.
 
 Estos procesos se ilustran en la siguiente imagen, donde un visitante ha visto el elemento A y ha comprado el elemento B. Las recomendaciones individuales se recuperan con las puntuaciones de similitud sin conexión que se muestran debajo de cada etiqueta de elemento. Después de la recuperación, las recomendaciones se combinan con puntuaciones de similitud ponderadas sumadas. Por último, en un escenario en el que el cliente haya especificado que los artículos vistos y comprados anteriormente deben filtrarse, el paso de filtrado elimina los artículos A y B de la lista de recomendaciones.
@@ -168,12 +168,12 @@ Estos procesos se ilustran en la siguiente imagen, donde un visitante ha visto e
 
 Los algoritmos incluyen:
 
-* [!UICONTROL Most Viewed Across the Site]
-* [!UICONTROL Most Viewed by Category]
-* [!UICONTROL Most Viewed by Item Attribute]
-* [!UICONTROL Top Sellers Across the Site]
-* [!UICONTROL Top Sellers by Category]
-* [!UICONTROL Top Sellers by Item Attribute]
+* [!UICONTROL Más visitados en todo el sitio]
+* [!UICONTROL Más visitados por categoría]
+* [!UICONTROL Más visitados por atributo de artículo]
+* [!UICONTROL Principales vendedores en todo el sitio]
+* [!UICONTROL Principales vendedores por categoría]
+* [!UICONTROL Principales vendedores por atributo de artículo]
 
 [!DNL Target] proporciona algoritmos basados en la popularidad tanto para los artículos más vistos como para los artículos más vendidos en un sitio web o desglosados por atributo o categoría de artículo. Los algoritmos basados en popularidad clasifican los elementos según el número de sesiones en las que se vieron o compraron en un lapso de tiempo determinado.
 
@@ -181,7 +181,7 @@ Todos estos algoritmos combinan datos de comportamiento agregados donde el núme
 
 Los matices de algoritmo individuales son los siguientes:
 
-* [!UICONTROL Most Viewed Across the Site] y [!UICONTROL Top Sellers Across the Site] clasifican los elementos según el recuento acumulado de sesiones en las que se vieron o compraron respectivamente. El resultado es una lista única (sin clave) de elementos recomendados.
+* Los [!UICONTROL más visitados en todo el sitio] y los [!UICONTROL principales vendedores en todo el sitio] clasifican los artículos según el recuento acumulado de sesiones en las que se vieron o compraron respectivamente. El resultado es una lista única (sin clave) de elementos recomendados.
 * Los artículos más visitados/más vendidos por categoría/atributo de artículo son recomendaciones en las que los artículos se ordenan según el recuento acumulado de sesiones en las que se vieron o compraron, pero agrupados por la categoría del artículo o el atributo del artículo específico. Los resultados son listas de elementos recomendados, escritas por valores de categorías o valores de atributos de elementos.
 
 ## Vistos recientemente
@@ -190,4 +190,4 @@ El algoritmo de recomendaciones &quot;vistas recientemente&quot; permite la pers
 
 ## Criterios personalizados
 
-Los criterios personalizados permiten a los clientes [cargar sus propias recomendaciones en [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md), lo que proporciona una flexibilidad importante y permite las capacidades de &quot;traer su propio modelo&quot;. Los criterios personalizados reemplazan la parte &quot;aprendizaje sin conexión&quot; de [!UICONTROL Item-Based] recomendaciones, pero se comportan de manera similar a los algoritmos de recomendación basados en elementos durante la fase de entrega de contenido en línea, en el sentido de que se utiliza una sola clave para la recuperación de recomendaciones y luego se aplican reglas/filtros empresariales.
+Los criterios personalizados permiten a los clientes [cargar sus propias recomendaciones en [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md), lo que proporciona una flexibilidad importante y permite las capacidades de &quot;traer su propio modelo&quot;. Los criterios personalizados reemplazan la parte de &quot;aprendizaje sin conexión&quot; de las recomendaciones [!UICONTROL basadas en elementos], pero se comportan de manera similar a los algoritmos de recomendación basados en elementos durante la fase de entrega de contenido en línea, en el sentido de que se utiliza una sola clave para la recuperación de recomendaciones y luego se aplican reglas/filtros empresariales.

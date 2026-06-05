@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: 701
 ht-degree: 79%
 
 ---
@@ -34,7 +34,7 @@ Hemos compilado una lista organizada de información valiosa para ayudarle a obt
 
 ## Vínculos a recursos
 
-* **Configuración de Adobe Target**: información que le ayudará a administrar [!DNL Adobe Target], incluidos los ajustes de configuración de [!UICONTROL Visual Experience Composer] (VEC), informes, configuración de [!DNL Scene7], implementación, hosts, entornos, tokens de respuesta y usuarios. Consulte [Información general sobre la administración de Target](/help/main/administrating-target/administrating-target.md).
+* **Configuración de Adobe Target**: información que le ayudará a administrar [!DNL Adobe Target], incluidos los ajustes de configuración de [!UICONTROL Compositor de experiencias visuales] (VEC), informes, configuración de [!DNL Scene7], implementación, hosts, entornos, tokens de respuesta y usuarios. Consulte [Información general sobre la administración de Target](/help/main/administrating-target/administrating-target.md).
 * **Documentación del producto Adobe Target**: Todo lo que necesita saber sobre Adobe Target. Consulte la [Documentación del producto Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=es).
 * **Documentación de la API y el SDK de Adobe Target**: Obtenga información sobre cómo implementar [!DNL Target] en aplicaciones del lado del cliente, aplicaciones del lado del servidor, aplicaciones móviles, IoT y mucho más. Además, aprenda a intercambiar sus datos de [!DNL Target] con soluciones de terceros. Consulte [Información general de la API de Adobe Target](/help/main/api/api-overview.md).
 * **Guía de actividades de Adobe Target**: Introducción a las diferentes actividades que puede usar en [!DNL Target]. Consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md).

@@ -5,7 +5,7 @@ hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Habilite una función simultáneamente en varias aplicaciones y equipos para un 
 **Versiones diferidas**
 Implemente el código en producción con antelación y, a continuación, active la función en un momento preciso (por ejemplo, al inicio de un evento de lanzamiento de producto) sin ningún cambio de código de última hora.
 
-**Interruptor inactivo**
+**Interruptor de desactivación**
 Si se descubre un problema después del lanzamiento, desactive la función instantáneamente sin necesidad de una revisión o una nueva implementación.
 
 <!-- -->

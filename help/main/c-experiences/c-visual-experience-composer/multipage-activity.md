@@ -12,8 +12,8 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 55%
+source-wordcount: 353
+ht-degree: 54%
 
 ---
 
@@ -33,13 +33,13 @@ Puede especificar reglas de plantilla para cada página en la prueba de varias p
 
 Para agregar páginas a una prueba:
 
-1. Haga clic en el icono **[!UICONTROL Configure]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ).
-1. Haga clic en **[!UICONTROL Add Additional Pages]**.
+1. Haga clic en el icono **[!UICONTROL Configurar]** ( ![Configurar icono](/help/main/assets/icons/Setting.svg) ).
+1. Haga clic en **[!UICONTROL Agregar páginas adicionales]**.
 
-   Aparece el panel [!UICONTROL Pages] a la izquierda de la pantalla.
+   Aparece el panel [!UICONTROL Páginas] a la izquierda de la pantalla.
 
 1. Especifique las páginas y establezca la página predeterminada.
 
-   Haga clic en **[!UICONTROL Add Page]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) para agregar una página adicional, especifique el nombre de página y la dirección URL y, a continuación, haga clic en **[!UICONTROL Save]**.
+   Haga clic en **[!UICONTROL Agregar página]** ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) para agregar una página adicional, especifique el nombre de página y la dirección URL y haga clic en **[!UICONTROL Guardar]**.
 
-1. Use [!UICONTROL Visual Experience Composer] para diseñar el aspecto de la oferta en cada página.
+1. Use [!UICONTROL Compositor de experiencias visuales] para diseñar el aspecto de la oferta en cada página.

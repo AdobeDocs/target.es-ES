@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 45%
+source-wordcount: '1210'
+ht-degree: 44%
 
 ---
 
@@ -19,7 +19,7 @@ Es posible que tenga dos páginas completamente distintas para probarlas, en lug
 
 >[!NOTE]
 >
-> * Las ofertas de redireccionamiento se pueden crear en la página [!UICONTROL Offers] > [!UICONTROL Code Offers] o en el [Compositor de experiencias basadas en Forms](/help/main/c-experiences/form-experience-composer.md). No puede crear ni aplicar ofertas de redireccionamiento en el Compositor de experiencias visuales (VEC). El contenido se insertará en las ubicaciones de solicitud [!DNL Target], por lo que es muy probable que no sean adecuadas para una solicitud [!DNL Target] global.
+> * Las ofertas de redireccionamiento se pueden crear en la página [!UICONTROL Ofertas] > [!UICONTROL Ofertas de código] o en el [Compositor de experiencias basadas en Forms](/help/main/c-experiences/form-experience-composer.md). No puede crear ni aplicar ofertas de redireccionamiento en el Compositor de experiencias visuales (VEC). El contenido se insertará en las ubicaciones de solicitud [!DNL Target], por lo que es muy probable que no sean adecuadas para una solicitud [!DNL Target] global.
 >
 >* No puede usar ofertas de redireccionamiento en mboxes ajax (`mboxUpdate`).
 >
@@ -35,11 +35,11 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
 ## Cree una oferta de redireccionamiento desde la página Ofertas de código
 
-1. Haga clic en **[!UICONTROL Offers]** y luego seleccione la ficha **[!UICONTROL Code Offers]**.
+1. Haga clic en **[!UICONTROL Ofertas]** y seleccione la pestaña **[!UICONTROL Ofertas de código]**.
 
    ![Ficha Ofertas de código](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Oferta de redireccionamiento]**.
 
    ![Cuadro de diálogo Crear oferta de redireccionamiento](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
@@ -63,7 +63,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
      Si utiliza la configuración de cookies de origen y de terceros, no necesita pasar el ID de sesión de mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
@@ -71,15 +71,15 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
 ## Creación de una oferta de redireccionamiento mediante el Compositor de experiencias basadas en formularios
 
-1. Al crear una actividad con [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione la ubicación para mostrar la sección **[!UICONTROL Content]**.
+1. Al crear una actividad con el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione la ubicación para mostrar la sección **[!UICONTROL Contenido]**.
 
    ![Sección de contenido en el Compositor de experiencias basadas en formularios](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. Haga clic en la lista desplegable **[!UICONTROL Default Content]** y luego haga clic en **[!UICONTROL Change Redirect Offer]**.
+1. Haga clic en la lista desplegable **[!UICONTROL Contenido predeterminado]** y luego haga clic en **[!UICONTROL Cambiar oferta de redirección]**.
 
    ![Cambiar opción de oferta de redireccionamiento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
+1. Haga clic en **[!UICONTROL Crear]** > **[!UICONTROL Oferta de redireccionamiento]**.
 
    ![Cuadro de diálogo Crear oferta de redireccionamiento](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
@@ -103,7 +103,7 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
      Si utiliza la configuración de cookies de origen y de terceros, no necesita pasar el ID de sesión de mbox al cruzar dominios. Este identificador se conserva en la cookie de terceros, por lo que no es necesario en la dirección URL.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
@@ -111,21 +111,21 @@ La oferta de redireccionamiento ejecuta código JavaScript para redirigir el nav
 
 ## Usar ofertas de redireccionamiento en actividades
 
-Debe aplicar ofertas de redireccionamiento usando [!UICONTROL Form-Based Experience Composer]. Actualmente, no puede aplicar ofertas de redireccionamiento utilizando el VEC.
+Debe aplicar ofertas de redireccionamiento usando [!UICONTROL Compositor de experiencias basadas en formularios]. Actualmente, no puede aplicar ofertas de redireccionamiento utilizando el VEC.
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en las actividades [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Recommendations] cuando Visual Experience Composer no está disponible o su uso no es práctico. Por ejemplo, podría usar [!UICONTROL Form-Based Experience Composer] para crear experiencias que usen ofertas de redireccionamiento.
+[!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para utilizarlas en [!UICONTROL pruebas A/B], [!UICONTROL Segmentación de experiencias] (XT), [!UICONTROL Automated Personalization] (AP) y actividades de [!UICONTROL Recommendations] cuando el Compositor de experiencias visuales no está disponible o su uso no es práctico. Por ejemplo, podría usar [!UICONTROL Compositor de experiencias basadas en formularios] para crear experiencias que usen ofertas de redireccionamiento.
 
-1. Cree o edite una actividad en [!UICONTROL Form-Based Experience Composer].
+1. Cree o edite una actividad en [!UICONTROL Compositor de experiencias basadas en formularios].
 
    Consulte [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) para obtener instrucciones detalladas paso a paso.
 
 1. Especifique la ubicación deseada y añada los refinamientos de audiencia que sean necesarios.
 
-1. Haga clic en la lista desplegable de la sección **[!UICONTROL Content]** y, a continuación, haga clic en **[!UICONTROL Change Redirect Offer]**.
+1. Haga clic en la lista desplegable de la sección **[!UICONTROL Contenido]** y, a continuación, haga clic en **[!UICONTROL Cambiar oferta de redirección]**.
 
    ![Cambiar opción de oferta de redireccionamiento](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
-1. Seleccione la oferta de redirección que desee en el cuadro de diálogo [!UICONTROL Select Remote Offer] y haga clic en **[!UICONTROL Done]**.
+1. Seleccione la oferta de redireccionamiento deseada del cuadro de diálogo [!UICONTROL Seleccionar oferta remota] y, a continuación, haga clic en **[!UICONTROL Listo]**.
 
 1. Termine de configurar la actividad.
 

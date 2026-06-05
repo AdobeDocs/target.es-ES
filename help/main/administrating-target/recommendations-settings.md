@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: 133
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Obtenga información sobre cómo establecer la configuración de [!DNL Adobe Tar
 
 {{permissions-update}}
 
-Para obtener acceso a las opciones de configuración de [!DNL Recommendations], abra [!DNL Target] en [!DNL Adobe Experience Cloud] y, a continuación, haga clic en [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Para obtener acceso a las opciones de configuración de [!DNL Recommendations], abra [!DNL Target] en [!DNL Adobe Experience Cloud] y, a continuación, haga clic en [!UICONTROL Administración] > [!UICONTROL Recomendaciones].
 
 Puede configurar las siguientes opciones:
 

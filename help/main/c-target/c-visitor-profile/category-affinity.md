@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +111,15 @@ Las secciones siguientes contienen información para ayudarle a utilizar una aud
 
 ### Crear una audiencia para usar la afinidad de la categoría {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. En la lista **[!UICONTROL Audiences]**, haga clic en **[!UICONTROL Create Audience]**.
+1. En la lista **[!UICONTROL Audiencias]**, haga clic en **[!UICONTROL Crear audiencia]**.
 
    O
 
    Para copiar un público existente, en la lista Públicos, pase el puntero por encima del público que quiera y luego haga clic en el icono Copiar. Luego puede editar el público para crear otra parecida.
 
-1. Escriba un nombre descriptivo para el público.
-1. Haga clic en **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. En la lista desplegable **[!UICONTROL Visitor Profile]**, seleccione **[!UICONTROL Category Affinity]**.
+1. Escriba un nombre descriptivo para la audiencia.
+1. Haga clic en **[!UICONTROL + Agregar regla]** > **[!UICONTROL Perfil del visitante]**.
+1. En la lista desplegable **[!UICONTROL Perfil del visitante]**, seleccione **[!UICONTROL Afinidad de la categoría]**.
 
    ![Perfil del visitante > Afinidad de la categoría](assets/affinity.png)
 
@@ -144,8 +144,8 @@ Las secciones siguientes contienen información para ayudarle a utilizar una aud
    * No contiene (sin distinción de mayúsculas y minúsculas)
    * Es igual a
 
-1. Coloque cada valor nuevo en una línea distinta (por ejemplo, “zapatos”).
-1. Haga clic en **[!UICONTROL Save]**.
+1. Coloque cada valor nuevo en una línea distinta (por ejemplo, &quot;zapatos&quot;).
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ### Uso de la audiencia de afinidad de la categoría en una actividad {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

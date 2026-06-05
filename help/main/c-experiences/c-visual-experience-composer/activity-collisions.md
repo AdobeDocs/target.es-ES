@@ -13,29 +13,29 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 341
-ht-degree: 50%
+source-wordcount: 350
+ht-degree: 49%
 
 ---
 
 # Conflictos de actividades
 
-La ficha [!UICONTROL Collisions] de la página [!UICONTROL Activity Overview] de [!DNL Adobe Target] enumera los conflictos de actividades en el sitio.
+La ficha [!UICONTROL Conflictos] de la página [!UICONTROL Información general de la actividad] de [!DNL Adobe Target] enumera los conflictos de actividades en el sitio.
 
 Un conflicto de actividades ocurre cuando existen varias actividades configuradas para entregar contenido a la misma página. Cuando se produce un conflicto de actividades, es probable que no se vea el contenido esperado en la página.
 
-La pestaña [!UICONTROL Collisions] está disponible en la página de información general de la actividad y puede informarle si su actividad contiene posibles conflictos.
+La ficha [!UICONTROL Conflictos] está disponible en la página de información general de la actividad y puede informarle si su actividad contiene conflictos potenciales.
 
-Para acceder a la pestaña [!UICONTROL Collisions], haga clic en **[!UICONTROL Activities]** > haga clic en la actividad deseada en la lista > y luego haga clic en **[!UICONTROL Collisions]** en el carril izquierdo.
+Para obtener acceso a la ficha [!UICONTROL Conflictos], haga clic en **[!UICONTROL Actividades]** > haga clic en la actividad que desee en la lista > y, a continuación, haga clic en **[!UICONTROL Conflictos]** en el carril izquierdo.
 
 Se muestran todas las actividades de la misma dirección URL, independientemente de si se ha segmentado el público o no en cada actividad. Abra esta pestaña para ver una lista de las actividades que pueden crear conflictos. Si el conflicto altera la experiencia esperada, edite la actividad.
 
-La lista [!UICONTROL Collisions] le ayuda a:
+La lista [!UICONTROL Conflictos] le ayuda a lo siguiente:
 
 * Identificar si ya se está ejecutando una prueba en una página antes de configurar una actividad nueva.
 * Solucionar problemas de una actividad si no se muestra el contenido esperado.
 
-La lista [!UICONTROL Collisions] muestra todos los escenarios [!DNL Target] en los que se usa el mbox y que usan la misma dirección URL. Para cada posible colisión, la lista muestra la URL de la actividad, el nombre del mbox donde podría producirse la colisión y cualquier actividad que coincida con ambos criterios. Si hubiera más de un mbox, se incluirán todos.
+La lista [!UICONTROL Conflictos] muestra cada [!DNL Target] escenario donde se usa el mbox y que usa la misma dirección URL. Para cada posible colisión, la lista muestra la URL de la actividad, el nombre del mbox donde podría producirse la colisión y cualquier actividad que coincida con ambos criterios. Si hubiera más de un mbox, se incluirán todos.
 
 En la lista se muestra el estado y la prioridad de cada posible conflicto, junto con otros datos. Puede usar el estado y la prioridad para determinar la probabilidad de que se produzca un conflicto. Considere dos actividades que podrían chocar. Si una actividad no está activa actualmente, no puede producirse un conflicto. Una colisión solo es posible si la actividad inactiva se activa. Si se produce un conflicto entre dos actividades activas con la misma prioridad y la misma audiencia, se producirá un conflicto. Puede cambiar la prioridad o el estado para impedir el conflicto.
 

@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 27%
+source-wordcount: 336
+ht-degree: 25%
 
 ---
 
@@ -23,26 +23,26 @@ ht-degree: 27%
 
 En este tema encontrará respuestas a preguntas que se plantean a menudo sobre las clasificaciones y el uso de [!DNL Analytics] como fuente de informes para [!DNL Target] (A4T).
 
-## Después de usar [!UICONTROL Classifications Importer] para descargar clasificaciones, ¿cómo relaciono el valor post-tnt-action con el nombre de una actividad? {#section_6045DAC488B248418F430E663C38D001}
+## Después de usar el [!UICONTROL Importador de clasificaciones] para descargar clasificaciones, ¿cómo relaciono el valor post-tnt-action con el nombre de una actividad? {#section_6045DAC488B248418F430E663C38D001}
 
 +++Respuesta
 Puede descargarse la clasificación para la cadena A4T/TNT del [importador de clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=es) de las herramientas de administración. La variable se denomina &quot;TNT&quot; en la lista de exportación. Los datos incluidos incluyen los nombres descriptivos de actividades, experiencias, etc.
 
 Este archivo de búsqueda es útil para los clientes que reciben la fuente de datos del flujo de navegación de [!DNL Adobe]. El archivo proporciona nombres descriptivos para las columnas `post_tnt` y `post_tnt_action`.
 
-Para las actividades estándar [!UICONTROL A/B Test] y [!UICONTROL Experience Targeting] (XT), el formato de la cadena TNT es el siguiente:
+Para las actividades estándar de [!UICONTROL Prueba A/B] y [!UICONTROL Segmentación de experiencias] (XT), el formato de la cadena TNT es el siguiente:
 
 ```
 activityID:experienceID:targettype|event
 ```
 
-Para las actividades [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target], el formato de la cadena TNT es:
+Para las actividades [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática], el formato de la cadena TNT es el siguiente:
 
 ```
 activityId:experienceId:targettype:algorithmId|event
 ```
 
-* `targettype` = `targettype` y `algorithmId` son identificadores internos utilizados por las actividades [!UICONTROL Auto-Allocate] y [!UICONTROL Auto-Target].
+* `targettype` = `targettype` y `algorithmId` son identificadores internos utilizados por las actividades [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
 * Evento = 0 representa una entrada en la experiencia.
 * Evento = 1 representa una visita en la experiencia.
 * Evento = 2 representa una impresión de actividad.

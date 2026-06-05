@@ -19,8 +19,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +49,10 @@ Sí, A4T a través de Platform Web SDK admite [ofertas de redireccionamiento](/h
 
 +++
 
-### ¿Son compatibles [!UICONTROL Visual Experience Composer] (VEC) y [!UICONTROL Form-Based Experience Composer]?
+### ¿Son compatibles [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias basadas en formularios]?
 
 +++Respuesta
-Sí, el [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) son compatibles si usa ofertas de redireccionamiento integradas.
+Sí, el [[!UICONTROL Compositor de experiencias visuales]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [[!UICONTROL Compositor de experiencias basadas en formularios]](/help/main/c-experiences/form-experience-composer.md) son compatibles si usa ofertas de redireccionamiento integradas.
 
 +++
 
@@ -79,7 +79,7 @@ Se esperan algunas discrepancias en los datos. Para obtener más información, c
 ## ¿Cómo puedo minimizar las discrepancias en la distribución del tráfico al utilizar ofertas de redireccionamiento en actividades de A4T? {#discrepancies}
 
 +++Respuesta
-Un número limitado de clientes ha informado de grados de variación más altos en la distribución del tráfico al utilizar ofertas de redireccionamiento en actividades configuradas con [!UICONTROL Analytics for Target] (A4T).
+Un número limitado de clientes ha informado de grados de variación más altos en la distribución del tráfico al usar ofertas de redireccionamiento en actividades configuradas con [!UICONTROL Analytics for Target] (A4T).
 
 Tenga en cuenta lo siguiente:
 

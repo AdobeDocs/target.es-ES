@@ -13,7 +13,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: 234
 ht-degree: 0%
 
 ---
@@ -28,26 +28,26 @@ Su organización debe aceptar primero términos legales adicionales para obtener
 
 Para obtener más información, consulte [Acceso [!DNL AI Assistant] en [!DNL Experience Platform]](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/access){target=_blank} en la documentación de *[!DNL Experience Platform]*.
 
-## Habilitar permisos de usuario para [!UICONTROL AI Assistant]
+## Habilitar permisos de usuario para [!UICONTROL Ayudante de IA]
 
-Para usar la característica [!UICONTROL AI Assistant] en [!UICONTROL Target], los permisos de usuario individuales deben habilitarse explícitamente.
+Para usar la característica [!UICONTROL Ayudante de IA] en [!UICONTROL Target], los permisos de usuario individuales deben habilitarse explícitamente.
 
 {{permissions-update}}
 
-1. Vaya a la ficha **[!UICONTROL Administration]** en [!DNL Target].
-1. En el menú de la izquierda, seleccione **[!UICONTROL Users]**.
+1. Vaya a la ficha **[!UICONTROL Administración]** en [!DNL Target].
+1. En el menú de la izquierda, seleccione **[!UICONTROL Usuarios]**.
 1. Busque el usuario que desea administrar en la lista o utilice la barra de búsqueda para encontrarlo.
-1. Pase el ratón sobre la columna **[!UICONTROL AI Permissions]** para la persona a la que desea conceder acceso a [!UICONTROL Target AI Assistant].
+1. Pase el ratón sobre la columna **[!UICONTROL Permisos de IA]** para la persona a la que quiere dar acceso al [!UICONTROL Asistente de IA de Target].
 
    Se muestra una ventana emergente de permisos.
 
    ![Configuración del Asistente de IA](/help/main/c-intro/assets/ai-pop-up2.png)
 
-1. Utilice la opción para habilitar o deshabilitar el permiso **[!UICONTROL Target AI Assistant]** para ese usuario.
+1. Utilice la opción para habilitar o deshabilitar el permiso **[!UICONTROL Asistente de IA de Target]** para ese usuario.
 
    ![Ventana emergente de permisos del Asistente de IA](/help/main/c-intro/assets/ai-pop-up.png)
 
-   Una vez habilitado, el usuario tiene acceso a [!UICONTROL AI Assistant] en [!DNL Target]. Solo los usuarios con este permiso habilitado pueden ver las características de [!UICONTROL AI Assistant] en su interfaz de [!DNL Target]. Este permiso garantiza que el acceso a las herramientas con tecnología de IA esté controlado y alineado con las políticas de su organización.
+   Una vez habilitado, el usuario tiene acceso a [!UICONTROL Asistente de IA] en [!DNL Target]. Solo los usuarios que tengan este permiso habilitado pueden ver las características de [!UICONTROL AI Assistant] en su interfaz de [!DNL Target]. Este permiso garantiza que el acceso a las herramientas con tecnología de IA esté controlado y alineado con las políticas de su organización.
 
 ## Vídeos de formación
 

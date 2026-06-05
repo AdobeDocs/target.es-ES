@@ -1,15 +1,15 @@
 ---
 keywords: personalización automatizada;ofertas;target;audiencia;reglas de segmentación;segmentación
 description: Aprenda a segmentar ofertas individuales para audiencias específicas mediante una actividad [!UICONTROL Automated Personalization] (AP) en  [!DNL Adobe Target].
-title: ¿Cómo Puedo Segmentar [!UICONTROL Automated Personalization] Ofertas?
+title: ¿Cómo Puedo Segmentar [!UICONTROL Ofertas De Automated Personalization]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 27%
+source-wordcount: '394'
+ht-degree: 26%
 
 ---
 
@@ -21,7 +21,7 @@ El uso de esta funcionalidad reduce el número de ofertas que un visitante espec
 
 | | Visitante 1 | Visitante 2 |
 |--- |--- |--- |
-| Calificación de audiencia | Audiencia A | Audiencia B |
+| Calificación del público | Audiencia A | Audiencia B |
 | Puntuación del modelo de personalización de Target de la oferta 1 | 90 | 90 |
 | Puntuación del modelo de personalización de Target de la oferta 2 | 50 | 70 |
 | Puntuación del modelo de personalización de Target de la oferta 3 | 80 | 60 |
@@ -31,29 +31,29 @@ En esta situación, el Visitante 1 ve la Oferta 1 (porque este visitante cumple 
 ## Configure las reglas de segmentación
 
 1. Cree una [actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) que contenga las ofertas que quiera segmentar.
-1. Después de configurar las ofertas para la actividad en [!UICONTROL Visual Experience Composer], haga clic en **[!UICONTROL Manage Content]**.
+1. Después de configurar las ofertas para la actividad en [!UICONTROL Compositor de experiencias visuales], haga clic en **[!UICONTROL Administrar contenido]**.
 
    ![Administrar contenido](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   Se muestra el cuadro de diálogo [!UICONTROL Manage Content].
+   Se muestra el cuadro de diálogo [!UICONTROL Administrar contenido].
 
-1. Haga clic en la ficha **[!UICONTROL Offers]**.
+1. Haga clic en la ficha **[!UICONTROL Ofertas]**.
 
    ![Página de ofertas](/help/main/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
 1. Seleccione las ofertas que desee y, a continuación, elija las audiencias a las que desee permitir que vean la oferta.
 
-   Para configurar la segmentación de una sola oferta, pase el ratón sobre la oferta que quiera y luego haga clic en el icono **[!UICONTROL Targeting]**.
+   Para configurar la segmentación de una sola oferta, pase el ratón sobre la oferta que quiera y luego haga clic en el icono **[!UICONTROL Segmentación]**.
 
-   Para configurar la segmentación de varias ofertas, seleccione las casillas de verificación de las ofertas que desee y, a continuación, haga clic en el icono **[!UICONTROL Targeting]** que se muestra en la parte superior derecha de la lista.
+   Para configurar la segmentación de varias ofertas, selecciona las casillas de verificación de las ofertas que desees y haz clic en el icono **[!UICONTROL Segmentación]** que aparece en la parte superior derecha de la lista.
 
-1. En el cuadro de diálogo [!UICONTROL Choose Audience], seleccione las audiencias que desee para las ofertas y haga clic en **[!UICONTROL Done]** para volver al cuadro de diálogo [!UICONTROL Manage Content].
+1. En el cuadro de diálogo [!UICONTROL Elegir audiencia], seleccione las audiencias que desee para las ofertas y haga clic en **[!UICONTROL Listo]** para volver al cuadro de diálogo [!UICONTROL Administrar contenido].
 
    >[!NOTE]
    >
-   >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas específicas en lugar de crear una nueva. Para obtener más información, consulte [Combinar varias audiencias](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Además de seleccionar un público existente, puede combinar varios públicos para crear públicos combinados específicos en lugar de crear uno nuevo. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. Haga clic en **[!UICONTROL Done]**.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
 >[!NOTE]
 >
