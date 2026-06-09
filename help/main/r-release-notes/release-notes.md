@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 58%
+source-wordcount: 652
+ht-degree: 41%
 
 ---
 
@@ -31,23 +31,51 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.5.3 (21 de mayo de 2026)
-
-**[!UICONTROL Novedades] página**
-
-+++Ver detalles
-
-* **Nueva [!UICONTROL página &#x200B;]** Se ha agregado una nueva página **[!UICONTROL Novedades]** en la interfaz de usuario de [!DNL Adobe Target] para ayudarle a descubrir las últimas funciones, mejoras y actualizaciones sin tener que abandonar el producto. (TGT-55137)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.1 (4 de junio de 2026)
 
 **Actividades**
 
 +++Ver detalles
 
-* **Se seleccionó una experiencia incorrecta al editar la segmentación en las actividades de [!UICONTROL Automated Personalization].** Se ha corregido un problema en el cual se podía seleccionar una experiencia incorrecta al editar el paso **[!UICONTROL Segmentación]** en una actividad [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **URL de actividad incompleta en [!UICONTROL Información general de actividad].** Se ha corregido un problema en el cual [!UICONTROL Información general de actividad] no mostraba la dirección URL completa de una actividad. (TGT-54029)
 
-* **Fecha anterior al cerrar una actividad programada.** Se ha corregido un problema que impedía seleccionar una fecha anterior para cerrar una actividad programada. (TGT-55163)
+* **Formato de fecha no localizado en los informes de actividad.** Se ha corregido un problema por el cual el formato de fecha no se localizaba en la ficha **[!UICONTROL Informes]** al elegir la opción **Últimos X días** de la lista desplegable **[!UICONTROL Intervalo de fecha preestablecido]**. (TGT-51637)
+
+* **No se puede guardar la actividad basada en formularios con ciertos caracteres GB18030 en [!UICONTROL Ubicación].** Se ha corregido un problema que impedía guardar una actividad basada en formularios cuando el campo **[!UICONTROL Ubicación]** contenía caracteres GB18030 específicos. (TGT-46980)
+
++++
+
+**[!UICONTROL Públicos]**
+
++++Ver detalles
+
+* **Calendario no localizado en el flujo Crear audiencia para chino simplificado y tradicional.** Se corrigió un problema en el cual el calendario de los campos **[!UICONTROL Start]** y **[!UICONTROL End]** de los atributos **[!UICONTROL Time frame]** no se localizaba en las configuraciones regionales del chino simplificado (CHS) y del chino tradicional (CHT) durante el flujo de Crear audiencia. (TGT-50619)
+
++++
+
+**[!UICONTROL Compositor de experiencias visuales] (VEC)**
+
++++Ver detalles
+
+* **Información sobre herramientas no localizada en el generador de actividades actualizado.** Se han corregido problemas de localización en los que la información sobre herramientas de **[!UICONTROL Refinamientos]** y **[!UICONTROL Contenido]** no se había localizado en el generador de actividades actualizado de [!UICONTROL Compositor de experiencias visuales]. (TGT-53721)
+
+* **Todos los visitantes sin localizar en [!UICONTROL Audiencias de experiencia].** Se ha corregido un problema en el cual la cadena **[!UICONTROL Todos los visitantes]** de **[!UICONTROL Audiencias de experiencia]** en el carril izquierdo no estaba localizada en [!UICONTROL Compositor de experiencias visuales]. (TGT-50086)
+
++++
+
+**[!UICONTROL Informes]**
+
++++Ver detalles
+
+* **Formato de fecha no localizado en la ventana [!UICONTROL Crear ajuste preestablecido].** Se ha corregido un problema en el cual el formato de fecha del campo **[!UICONTROL Intervalo de fechas]** de la ventana **[!UICONTROL Crear ajuste preestablecido]** no estaba localizado. (TGT-49239)
+
++++
+
+**Localización**
+
++++Ver detalles
+
+* **GB18030 visualización de caracteres en varias áreas.** Se han corregido problemas en los que algunos caracteres del área de uso privado se mostraban incorrectamente como cartas en la interfaz de usuario de **[!UICONTROL Audience]**, **[!UICONTROL Administration]** > **[!UICONTROL Properties]**, la configuración de la ventanilla móvil y las notificaciones de mensajes emergentes. (TGT-49622, TGT-49623, TGT-49624 y TGT-49625)
 
 +++
 

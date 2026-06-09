@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 70383
+source-wordcount: 70471
 ht-degree: 49%
 
 ---
@@ -87,6 +87,38 @@ Esta capacidad está disponible para todos los clientes en Public Beta.
 Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
 
 +++
+
+## [!DNL Target Standard/Premium] 26.5.3 (21 de mayo de 2026)
+
+**[!UICONTROL Novedades] página**
+
++++Ver detalles
+
+* **Nueva [!UICONTROL página &#x200B;]** Se ha agregado una nueva página **[!UICONTROL Novedades]** en la interfaz de usuario de [!DNL Adobe Target] para ayudarle a descubrir las últimas funciones, mejoras y actualizaciones sin tener que abandonar el producto. (TGT-55137)
+
++++
+
+**Actividades**
+
++++Ver detalles
+
+* **Se seleccionó una experiencia incorrecta al editar la segmentación en las actividades de [!UICONTROL Automated Personalization].** Se ha corregido un problema en el cual se podía seleccionar una experiencia incorrecta al editar el paso **[!UICONTROL Segmentación]** en una actividad [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+
+* **Fecha anterior al cerrar una actividad programada.** Se ha corregido un problema que impedía seleccionar una fecha anterior para cerrar una actividad programada. (TGT-55163)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
 
