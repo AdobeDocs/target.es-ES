@@ -7,21 +7,14 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 41%
+source-wordcount: 467
+ht-degree: 57%
 
 ---
 
@@ -31,51 +24,17 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.6.1 (4 de junio de 2026)
-
-**Actividades**
-
-+++Ver detalles
-
-* **URL de actividad incompleta en [!UICONTROL Información general de actividad].** Se ha corregido un problema en el cual [!UICONTROL Información general de actividad] no mostraba la dirección URL completa de una actividad. (TGT-54029)
-
-* **Formato de fecha no localizado en los informes de actividad.** Se ha corregido un problema por el cual el formato de fecha no se localizaba en la ficha **[!UICONTROL Informes]** al elegir la opción **Últimos X días** de la lista desplegable **[!UICONTROL Intervalo de fecha preestablecido]**. (TGT-51637)
-
-* **No se puede guardar la actividad basada en formularios con ciertos caracteres GB18030 en [!UICONTROL Ubicación].** Se ha corregido un problema que impedía guardar una actividad basada en formularios cuando el campo **[!UICONTROL Ubicación]** contenía caracteres GB18030 específicos. (TGT-46980)
-
-+++
-
-**[!UICONTROL Públicos]**
-
-+++Ver detalles
-
-* **Calendario no localizado en el flujo Crear audiencia para chino simplificado y tradicional.** Se corrigió un problema en el cual el calendario de los campos **[!UICONTROL Start]** y **[!UICONTROL End]** de los atributos **[!UICONTROL Time frame]** no se localizaba en las configuraciones regionales del chino simplificado (CHS) y del chino tradicional (CHT) durante el flujo de Crear audiencia. (TGT-50619)
-
-+++
-
-**[!UICONTROL Compositor de experiencias visuales] (VEC)**
-
-+++Ver detalles
-
-* **Información sobre herramientas no localizada en el generador de actividades actualizado.** Se han corregido problemas de localización en los que la información sobre herramientas de **[!UICONTROL Refinamientos]** y **[!UICONTROL Contenido]** no se había localizado en el generador de actividades actualizado de [!UICONTROL Compositor de experiencias visuales]. (TGT-53721)
-
-* **Todos los visitantes sin localizar en [!UICONTROL Audiencias de experiencia].** Se ha corregido un problema en el cual la cadena **[!UICONTROL Todos los visitantes]** de **[!UICONTROL Audiencias de experiencia]** en el carril izquierdo no estaba localizada en [!UICONTROL Compositor de experiencias visuales]. (TGT-50086)
-
-+++
-
-**[!UICONTROL Informes]**
-
-+++Ver detalles
-
-* **Formato de fecha no localizado en la ventana [!UICONTROL Crear ajuste preestablecido].** Se ha corregido un problema en el cual el formato de fecha del campo **[!UICONTROL Intervalo de fechas]** de la ventana **[!UICONTROL Crear ajuste preestablecido]** no estaba localizado. (TGT-49239)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.3 (11 de junio de 2026)
 
 **Localización**
 
 +++Ver detalles
 
-* **GB18030 visualización de caracteres en varias áreas.** Se han corregido problemas en los que algunos caracteres del área de uso privado se mostraban incorrectamente como cartas en la interfaz de usuario de **[!UICONTROL Audience]**, **[!UICONTROL Administration]** > **[!UICONTROL Properties]**, la configuración de la ventanilla móvil y las notificaciones de mensajes emergentes. (TGT-49622, TGT-49623, TGT-49624 y TGT-49625)
+* **Primer día de la semana no localizado en los modelos de calendario de audiencias durante la creación de la actividad.** Se ha corregido un problema por el cual el primer día de la semana no se localizaba en el calendario en los modelos **[!UICONTROL Crear]**, **[!UICONTROL Editar]** y **[!UICONTROL Duplicar audiencia]** durante la creación de la actividad. (TGT-50510)
+
+* **Formato de porcentaje no localizado en los informes de resumen de la actividad.** Se ha corregido un problema en el cual el formato de porcentaje no se localizaba en una tabla de la ficha **[!UICONTROL Informes]** en la página **[!UICONTROL Información general de actividad]**. (TGT-50094)
+
+* **Formato de número no localizado en el cuadro de diálogo [!UICONTROL Crear criterios].** Se ha corregido un problema en el cual el formato de número no se había localizado en el cuadro de diálogo **[!UICONTROL Crear criterios]** en **[!UICONTROL Recommendations]**. (TGT-52250)
 
 +++
 
