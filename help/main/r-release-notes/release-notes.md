@@ -7,21 +7,14 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 636
+ht-degree: 42%
 
 ---
 
@@ -31,17 +24,35 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.6.3 (11 de junio de 2026)
+## [!DNL Target Standard/Premium] 26.6.4 (16 de junio de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **[!UICONTROL Guardar y cerrar] en la interfaz de usuario de [!DNL Target] actualizada.** Se ha restaurado la opción **[!UICONTROL Guardar y cerrar]** en la interfaz de usuario [!DNL Target] actualizada. (TGT-55152)
+
+* **URL de control de calidad en la interfaz de usuario [!DNL Target] actualizada.** Se ha corregido un problema por el cual las direcciones URL de control de calidad no funcionaban correctamente en la interfaz de usuario [!DNL Target] actualizada. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **Localización**
 
 +++Ver detalles
 
-* **Primer día de la semana no localizado en los modelos de calendario de audiencias durante la creación de la actividad.** Se ha corregido un problema por el cual el primer día de la semana no se localizaba en el calendario en los modelos **[!UICONTROL Crear]**, **[!UICONTROL Editar]** y **[!UICONTROL Duplicar audiencia]** durante la creación de la actividad. (TGT-50510)
+* **Formato de porcentaje no localizado en los informes de gráficos de resumen de la actividad.** Se ha corregido un problema por el cual el formato de porcentaje no se localizaba en el gráfico en **[!UICONTROL Visualización de gráfico]** en la ficha **[!UICONTROL Informes]** de la página **[!UICONTROL Información general de la actividad]**. (TGT-50100)
 
-* **Formato de porcentaje no localizado en los informes de resumen de la actividad.** Se ha corregido un problema en el cual el formato de porcentaje no se localizaba en una tabla de la ficha **[!UICONTROL Informes]** en la página **[!UICONTROL Información general de actividad]**. (TGT-50094)
+* **Caracteres japoneses en la dirección URL de la actividad.** Se ha corregido un problema por el cual los caracteres japoneses de la dirección URL de la actividad aparecían dañados en la página **[!UICONTROL Información general de actividad]** y en la lista de actividades después de guardar una actividad. (TGT-53459)
 
-* **Formato de número no localizado en el cuadro de diálogo [!UICONTROL Crear criterios].** Se ha corregido un problema en el cual el formato de número no se había localizado en el cuadro de diálogo **[!UICONTROL Crear criterios]** en **[!UICONTROL Recommendations]**. (TGT-52250)
+* **Marca de tiempo no localizada en el nombre de actividad predeterminado.** Se ha corregido un problema en el cual la marca de tiempo no se localizaba en el título de la actividad cuando se conservaba el nombre de actividad predeterminado durante la creación de la actividad. (TGT-53273)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Ver detalles
+
+* **Caracteres de bytes múltiples en la dirección URL después de crear fuentes.** Se ha corregido un problema por el cual los caracteres de bytes múltiples aparecían dañados en la dirección URL después de crear fuentes. (TGT-54793)
 
 +++
 
