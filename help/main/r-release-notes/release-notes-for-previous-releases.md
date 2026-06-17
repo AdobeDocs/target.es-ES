@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 70881
 ht-degree: 49%
 
 ---
@@ -57,6 +57,20 @@ Las notas de la versión se enumeran en orden descendente por mes y año de publ
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2026
+
+## [!DNL Target Standard/Premium] 26.6.3 (11 de junio de 2026)
+
+**Localización**
+
++++Ver detalles
+
+* **Primer día de la semana no localizado en los modelos de calendario de audiencias durante la creación de la actividad.** Se ha corregido un problema por el cual el primer día de la semana no se localizaba en el calendario en los modelos **[!UICONTROL Crear]**, **[!UICONTROL Editar]** y **[!UICONTROL Duplicar audiencia]** durante la creación de la actividad. (TGT-50510)
+
+* **Formato de porcentaje no localizado en los informes de resumen de la actividad.** Se ha corregido un problema en el cual el formato de porcentaje no se localizaba en una tabla de la ficha **[!UICONTROL Informes]** en la página **[!UICONTROL Información general de actividad]**. (TGT-50094)
+
+* **Formato de número no localizado en el cuadro de diálogo [!UICONTROL Crear criterios].** Se ha corregido un problema en el cual el formato de número no se había localizado en el cuadro de diálogo **[!UICONTROL Crear criterios]** en **[!UICONTROL Recommendations]**. (TGT-52250)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1 (4 de junio de 2026)
 
