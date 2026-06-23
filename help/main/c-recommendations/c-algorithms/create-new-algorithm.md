@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -79,7 +79,7 @@ Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Atributo de perfil"
->abstract="Puede crear un atributo Profile mediante scripts de perfil."
+>abstract="Puede crear un atributo de perfil mediante scripts de perfil."
 
 1. Seleccione un **[!UICONTROL tipo de algoritmo]** y un **[!UICONTROL algoritmo]**:
 
