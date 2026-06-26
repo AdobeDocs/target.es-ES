@@ -7,21 +7,14 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
 workflow-type: tm+mt
-source-wordcount: 612
-ht-degree: 44%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,33 +24,15 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.6.5 (17 de junio de 2026)
+## [!DNL Target Standard/Premium] 26.6.8 (24 de junio de 2026)
 
 **Actividades**
 
 +++Ver detalles
 
-* **Error cuando una actividad usa audiencias eliminadas en el origen.** Se ha corregido un problema en el cual se podía ver un error que indicaba que una actividad usa una o más audiencias que se eliminaron en el origen. (TGT-55272)
+* **Filtro de Source para recursos creados por API y MCP.** Se corrigió un problema en el cual el filtrado por [!UICONTROL API de Adobe Target] o [!UICONTROL Adobe Target MCP] no funcionaba en las páginas de listado de actividades, audiencias y ofertas. (TGT-55236)
 
-+++
-
-**[!UICONTROL Analytics for Target] (A4T)**
-
-+++Ver detalles
-
-* **Informes de A4T no visibles.** Se ha corregido un problema por el cual no se mostraban los informes de [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (16 de junio de 2026)
-
-**Actividades**
-
-+++Ver detalles
-
-* **[!UICONTROL Guardar y cerrar] en la interfaz de usuario de [!DNL Target] actualizada.** Se ha restaurado la opción **[!UICONTROL Guardar y cerrar]** en la interfaz de usuario [!DNL Target] actualizada. (TGT-55152)
-
-* **URL de control de calidad en la interfaz de usuario [!DNL Target] actualizada.** Se ha corregido un problema por el cual las direcciones URL de control de calidad no funcionaban correctamente en la interfaz de usuario [!DNL Target] actualizada. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+* **Valores del filtro de origen de la actividad.** Se ha corregido un problema en el cual el filtro de origen [!UICONTROL Adobe Target API] o [!UICONTROL Adobe Target MCP] no mostraba audiencias creadas recientemente con API. (TGT-55237)
 
 +++
 
@@ -65,33 +40,15 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 +++Ver detalles
 
-* **Formato de porcentaje no localizado en los informes de gráficos de resumen de la actividad.** Se ha corregido un problema por el cual el formato de porcentaje no se localizaba en el gráfico en **[!UICONTROL Visualización de gráfico]** en la ficha **[!UICONTROL Informes]** de la página **[!UICONTROL Información general de la actividad]**. (TGT-50100)
+* **Cadenas sin localizar en el modal [!UICONTROL Crear oferta JSON].** Se ha corregido un problema en el cual las cadenas en el modal [!UICONTROL Crear oferta JSON], incluidos [!UICONTROL Nombre] y [!UICONTROL Workspace], no se localizaban durante la creación de la actividad. (TGT-50084)
 
-* **Caracteres japoneses en la dirección URL de la actividad.** Se ha corregido un problema por el cual los caracteres japoneses de la dirección URL de la actividad aparecían dañados en la página **[!UICONTROL Información general de actividad]** y en la lista de actividades después de guardar una actividad. (TGT-53459)
+* **Mensaje de mensaje toast no localizado en una actividad de [!UICONTROL Recommendations].** Se ha corregido un problema por el cual aparecía un mensaje de mensaje de aviso no localizado al agregar recomendaciones en una actividad [!UICONTROL Recommendations] basada en formularios. (TGT-50463)
 
-* **Marca de tiempo no localizada en el nombre de actividad predeterminado.** Se ha corregido un problema en el cual la marca de tiempo no se localizaba en el título de la actividad cuando se conservaba el nombre de actividad predeterminado durante la creación de la actividad. (TGT-53273)
+* **Cadena sin localizar en los cuadros de diálogo [!UICONTROL Colecciones] y [!UICONTROL Exclusiones].** Se ha corregido un problema por el cual la cadena &quot;Carga útil de elemento&quot; no se localizaba en los cuadros de diálogo [!UICONTROL Colecciones] y [!UICONTROL Exclusiones] en [!UICONTROL Recommendations]. (TGT-51542)
 
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++Ver detalles
-
-* **Caracteres de bytes múltiples en la dirección URL después de crear fuentes.** Se ha corregido un problema por el cual los caracteres de bytes múltiples aparecían dañados en la dirección URL después de crear fuentes. (TGT-54793)
+* **Cadena de &quot;Aprobador&quot; sin localizar en la ficha [!UICONTROL Audiencias].** Se ha corregido un problema por el cual la cadena &quot;Aprobador&quot; no estaba localizada en la columna [!UICONTROL Workspace] de la página [!UICONTROL Biblioteca de audiencias]. (TGT-51751)
 
 +++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
-
-+++
--->
 
 ## Actualizaciones con distinción de tiempo que debe conocer {#time-sensitive}
 
