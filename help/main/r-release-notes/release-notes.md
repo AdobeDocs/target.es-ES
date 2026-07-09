@@ -7,21 +7,14 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 37%
+source-wordcount: 465
+ht-degree: 58%
 
 ---
 
@@ -31,62 +24,31 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.6.8 (24 de junio de 2026)
+## [!DNL Target Standard/Premium] 26.7.1 (9 de julio de 2026)
 
 **Actividades**
 
 +++Ver detalles
 
-* **Filtro de Source para recursos creados por API y MCP.** Se corrigió un problema en el cual el filtrado por [!UICONTROL API de Adobe Target] o [!UICONTROL Adobe Target MCP] no funcionaba en las páginas de listado de actividades, audiencias y ofertas. (TGT-55236)
+* **Visualización de origen incoherente en [!UICONTROL Actividades], [!UICONTROL Audiencias] y [!UICONTROL Ofertas] páginas.** Se ha corregido un problema por el cual el origen se mostraba de forma incoherente en las páginas de [!UICONTROL Actividades], [!UICONTROL Audiencias] y [!UICONTROL Ofertas]. (TGT-55247)
+
+* **Cambios en el origen de la actividad al editar mediante la interfaz de usuario.** Se ha corregido un problema en el cual al editar una actividad a través de la IU se cambiaba el origen de la actividad original. (TGT-55248)
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**Públicos**
 
 +++Ver detalles
 
-* **Informes de A4T no visibles.** Se ha corregido un problema por el cual no se mostraban los informes de [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
+* **Espacio de trabajo predeterminado incorrecto al editar una audiencia.** Se ha corregido un problema por el que el espacio de trabajo predeterminado era incorrecto después de editar una audiencia. (TGT-55510)
 
 +++
 
-**[!DNL Adobe Target]servidor MCP**
+**Creación de informes**
 
 +++Ver detalles
 
-* **Herramientas de actividad consolidadas.** Las herramientas de actividad del servidor MCP [!DNL Adobe Target] se han consolidado para reducir la sobrecarga de selección de herramientas y ampliar la cobertura de lectura e informes a todos los tipos de actividades. Se han sustituido seis herramientas por tipo por cuatro herramientas unificadas:
-
-   * `get_activity` reemplaza a `get_ab_activity`, `get_xt_activity` y `get_abt_activity`. Recupera detalles completos de la actividad para todos los tipos: prueba A/B, segmentación de experiencias, Automated Personalization, asignación automática, prueba multivariable (MVT) y Recommendations. El tipo de actividad se detecta automáticamente a partir de la ID.
-   * `update_activity` reemplaza a `update_ab_activity`, `update_xt_activity` y `update_abt_activity`. Admite pruebas A/B, segmentación de experiencias y actividades de Automated Personalization; las actividades de asignación automática, MVT y Recommendations son de solo lectura.
-   * `get_activity_performance_report` reemplaza a `get_ab_performance_report` y a `get_xt_performance_report`. Recupera las métricas de conversión, alza y confianza para todos los tipos de actividades.
-   * `get_activity_orders_report` reemplaza a `get_ab_orders_report` y a `get_xt_orders_report`. Recupera las métricas de pedidos e ingresos de todos los tipos de actividades.
-
-  Para obtener más información, vea [[!DNL Adobe Target] Referencia de herramientas del servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (16 de junio de 2026)
-
-**Actividades**
-
-+++Ver detalles
-
-* **[!UICONTROL Guardar y cerrar] en la interfaz de usuario de [!DNL Target] actualizada.** Se ha restaurado la opción **[!UICONTROL Guardar y cerrar]** en la interfaz de usuario [!DNL Target] actualizada. (TGT-55152)
-
-* **URL de control de calidad en la interfaz de usuario [!DNL Target] actualizada.** Se ha corregido un problema por el cual las direcciones URL de control de calidad no funcionaban correctamente en la interfaz de usuario [!DNL Target] actualizada. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**Localización**
-
-+++Ver detalles
-
-* **Cadenas sin localizar en el modal [!UICONTROL Crear oferta JSON].** Se ha corregido un problema en el cual las cadenas en el modal [!UICONTROL Crear oferta JSON], incluidos [!UICONTROL Nombre] y [!UICONTROL Workspace], no se localizaban durante la creación de la actividad. (TGT-50084)
-
-* **Mensaje de mensaje toast no localizado en una actividad de [!UICONTROL Recommendations].** Se ha corregido un problema por el cual aparecía un mensaje de mensaje de aviso no localizado al agregar recomendaciones en una actividad [!UICONTROL Recommendations] basada en formularios. (TGT-50463)
-
-* **Cadena sin localizar en los cuadros de diálogo [!UICONTROL Colecciones] y [!UICONTROL Exclusiones].** Se ha corregido un problema por el cual la cadena &quot;Carga útil de elemento&quot; no se localizaba en los cuadros de diálogo [!UICONTROL Colecciones] y [!UICONTROL Exclusiones] en [!UICONTROL Recommendations]. (TGT-51542)
-
-* **Cadena de &quot;Aprobador&quot; sin localizar en la ficha [!UICONTROL Audiencias].** Se ha corregido un problema por el cual la cadena &quot;Aprobador&quot; no estaba localizada en la columna [!UICONTROL Workspace] de la página [!UICONTROL Biblioteca de audiencias]. (TGT-51751)
+* **Error de descarga de CSV para los informes de mayo.** Se ha corregido un problema por el cual fallaba la descarga de un informe CSV para mayo. (TGT-55524)
 
 +++
 
