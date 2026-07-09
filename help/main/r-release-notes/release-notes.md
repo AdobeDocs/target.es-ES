@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
+source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 719
+ht-degree: 37%
 
 ---
 
@@ -39,7 +39,40 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 * **Filtro de Source para recursos creados por API y MCP.** Se corrigió un problema en el cual el filtrado por [!UICONTROL API de Adobe Target] o [!UICONTROL Adobe Target MCP] no funcionaba en las páginas de listado de actividades, audiencias y ofertas. (TGT-55236)
 
-* **Valores del filtro de origen de la actividad.** Se ha corregido un problema en el cual el filtro de origen [!UICONTROL Adobe Target API] o [!UICONTROL Adobe Target MCP] no mostraba audiencias creadas recientemente con API. (TGT-55237)
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++Ver detalles
+
+* **Informes de A4T no visibles.** Se ha corregido un problema por el cual no se mostraban los informes de [!UICONTROL Analytics for Target] (A4T). (TGT-55432)
+
++++
+
+**[!DNL Adobe Target]servidor MCP**
+
++++Ver detalles
+
+* **Herramientas de actividad consolidadas.** Las herramientas de actividad del servidor MCP [!DNL Adobe Target] se han consolidado para reducir la sobrecarga de selección de herramientas y ampliar la cobertura de lectura e informes a todos los tipos de actividades. Se han sustituido seis herramientas por tipo por cuatro herramientas unificadas:
+
+   * `get_activity` reemplaza a `get_ab_activity`, `get_xt_activity` y `get_abt_activity`. Recupera detalles completos de la actividad para todos los tipos: prueba A/B, segmentación de experiencias, Automated Personalization, asignación automática, prueba multivariable (MVT) y Recommendations. El tipo de actividad se detecta automáticamente a partir de la ID.
+   * `update_activity` reemplaza a `update_ab_activity`, `update_xt_activity` y `update_abt_activity`. Admite pruebas A/B, segmentación de experiencias y actividades de Automated Personalization; las actividades de asignación automática, MVT y Recommendations son de solo lectura.
+   * `get_activity_performance_report` reemplaza a `get_ab_performance_report` y a `get_xt_performance_report`. Recupera las métricas de conversión, alza y confianza para todos los tipos de actividades.
+   * `get_activity_orders_report` reemplaza a `get_ab_orders_report` y a `get_xt_orders_report`. Recupera las métricas de pedidos e ingresos de todos los tipos de actividades.
+
+  Para obtener más información, vea [[!DNL Adobe Target] Referencia de herramientas del servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+
++++
+
+## [!DNL Target Standard/Premium] 26.6.4 (16 de junio de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **[!UICONTROL Guardar y cerrar] en la interfaz de usuario de [!DNL Target] actualizada.** Se ha restaurado la opción **[!UICONTROL Guardar y cerrar]** en la interfaz de usuario [!DNL Target] actualizada. (TGT-55152)
+
+* **URL de control de calidad en la interfaz de usuario [!DNL Target] actualizada.** Se ha corregido un problema por el cual las direcciones URL de control de calidad no funcionaban correctamente en la interfaz de usuario [!DNL Target] actualizada. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
 
 +++
 

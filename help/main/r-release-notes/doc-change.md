@@ -22,9 +22,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: 2566
+source-wordcount: 2647
 ht-degree: 30%
 
 ---
@@ -34,6 +34,13 @@ ht-degree: 30%
 Esta página detalla los cambios más importantes que se han realizado en la documentación del producto [!DNL Adobe Target].
 
 ## Actualizaciones
+
+### [!DNL Target Standard/Premium] 26.6.5 (17 de junio de 2026)
+
+| Fecha | Tema | Cambios |
+|--- |--- |--- |
+| 18 de junio | [[!DNL Adobe Target] Referencia de herramientas del servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | Se ha actualizado para reflejar la consolidación de la herramienta de actividad: se reemplazaron seis herramientas por tipo (`get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`) y cuatro herramientas de informes por tipo con cuatro herramientas unificadas (`get_activity`, `update_activity`, `get_activity_performance_report`, `get_activity_orders_report`). Se actualizaron `list_target_activities` y `update_activity_schedule` para la lista de los seis tipos de actividades compatibles. Se agregó una nota de ámbito que aclara que `update_activity` admite actividades de Prueba A/B, Segmentación de experiencias y Automated Personalization; las actividades de Asignación automática, Prueba multivariable y Recommendations son de solo lectura. |
+|  | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se agregaron notas de la versión para la consolidación de la herramienta de actividad del servidor MCP [!DNL Adobe Target]. |
 
 ### [!DNL Target Standard/Premium] 26.5.1 (7 de mayo de 2026)
 

@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: '3195'
-ht-degree: 13%
+source-wordcount: '3046'
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,21 @@ Para obtener instrucciones de configuración completas, consulte [Introducción]
 
 ## Herramientas de actividad {#tools-activities}
 
+>[!NOTE]
+>
+>Las operaciones de lectura y escritura tienen un ámbito diferente. `get_activity` recupera actividades de todos los tipos (Prueba A/B, Segmentación de experiencias, Automated Personalization, Asignación automática, Prueba multivariable, Recommendations). `update_activity` admite pruebas A/B, segmentación de experiencias y Automated Personalization; las actividades de asignación automática, prueba multivariable y Recommendations son de solo lectura a través del servidor MCP.
+
+| Función | Prueba A/B | Segmentación de experiencias | Automated Personalization | Asignación automática | Prueba multivariable | Recommendations |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
+| Ediciones del ciclo vital (estado, prioridad, nombre, programación) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Ediciones de variables y tráfico | ✓ | ✓ | ✓ | — | — | — |
+| Crear | ✓ | ✓ | — | — | — | — |
+
 +++Enumerar actividades
 
 **Herramienta:** `list_target_activities`
@@ -57,7 +72,7 @@ Recupera una lista paginada de actividades. La API de administración de [!DNL T
 | `offset` | entero | No | Número de actividades que se omitirán para la paginación |
 | `sort_by` | string | No | Campo por el que ordenar. Prefijo con `-` para orden descendente (por ejemplo, `-modifiedAt`). Opciones: `id`, `name`, `state`, `priority`, `startsAt`, `endsAt`, `lifetimeStart`, `lifetimeEnd`, `createdAt`, `createdBy`, `modifiedAt`, `modifiedBy`, `type`, `thirdPartyId` |
 | `state` | string | No | Filtrar por estado de actividad: `approved` (activo/activo), `deactivated` (inactivo), `paused`, `saved` (borrador) |
-| `activity_type` | string | No | Filtrar por tipo: `ab` (prueba A/B), `xt` (segmentación de experiencias), `abt` (Automated Personalization) |
+| `activity_type` | string | No | Filtrar por tipo: `ab` (prueba A/B), `xt` (segmentación de experiencias), `abt` (Automated Personalization), `auto_allocate` (asignación automática), `mvt` (prueba multivariable), `recs` (Recommendations) |
 | `name_contains` | string | No | Filtrar actividades cuyo nombre contenga esta cadena (sin distinción de mayúsculas y minúsculas) |
 | `starts_after` | string | No | Fecha ISO 8601 — actividades que comienzan después de esta fecha |
 | `starts_before` | string | No | Fecha ISO 8601 — Actividades que comienzan antes de esta fecha |
@@ -78,55 +93,21 @@ Recupera una lista paginada de actividades. La API de administración de [!DNL T
 
 +++
 
-+++Obtener una actividad A/B
++++Obtener una actividad
 
-**Herramienta:** `get_ab_activity`
+**Herramienta:** `get_activity`
 
-Obtenga información detallada sobre una actividad A/B.
+Obtenga información detallada sobre una actividad de cualquier tipo.
 
-Recupera la configuración completa de una prueba A/B específica, incluidas experiencias, ubicaciones, métricas y reglas de segmentación.
+Recupera la configuración completa de una actividad específica y detecta automáticamente el tipo de actividad. Admite actividades de Prueba A/B, Segmentación de experiencias, Automated Personalization, Asignación automática, Prueba multivariable y Recommendations.
 
 | Parámetro | Tipo | Requerido | Descripción |
 |---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad A/B |
+| `activity_id` | entero | Sí | El identificador único de la actividad |
 
 **Devuelve:** detalles completos de la actividad, incluidos metadatos (nombre, estado, prioridad, fechas), experiencias, ubicaciones y ofertas, objetivos y métricas, y reglas de segmentación.
 
-**Mensaje de ejemplo:** &quot;Obtener detalles de la actividad A/B 12345.&quot;
-
-+++
-
-+++Obtener una actividad de segmentación de experiencias
-
-**Herramienta:** `get_xt_activity`
-
-Obtenga información detallada sobre una actividad de segmentación de experiencias (XT).
-
-Recupera la configuración completa de una actividad XT específica, incluidas las asignaciones, ubicaciones y métricas de experiencia de audiencia.
-
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad XT |
-
-**Devuelve:** detalles completos de la actividad, incluidos metadatos, experiencias con asignaciones de audiencia, ubicaciones y ofertas, y objetivos y métricas.
-
-**Mensaje de ejemplo:** &quot;Obtenga detalles para la actividad de segmentación de experiencias 12345&quot;.
-
-+++
-
-+++Obtener una actividad de Automated Personalization
-
-**Herramienta:** `get_abt_activity`
-
-Obtenga información detallada sobre una actividad de Automated Personalization (AP).
-
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad AP |
-
-**Devuelve:** detalles completos de la actividad, incluidos metadatos, experiencias, ubicaciones y configuración algorítmica.
-
-**Mensaje de ejemplo:** &quot;Obtener detalles de la 12345 de actividad de Auto-Personalization&quot;.
+**Mensaje de ejemplo:** &quot;Obtener detalles de 12345 de actividad&quot;.
 
 +++
 
@@ -183,13 +164,13 @@ Crea una actividad XT que ofrece diferentes experiencias a diferentes audiencias
 
 +++
 
-+++Actualización de una actividad A/B
++++Actualización de una actividad
 
-**Herramienta:** `update_ab_activity`
+**Herramienta:** `update_activity`
 
-Actualice una actividad A/B existente.
+Actualice una prueba A/B existente, una segmentación de experiencias o una actividad de Automated Personalization.
 
-Utiliza un patrón de lectura-modificación-escritura: recupera el estado actual, combina los cambios, valida y envía la actualización.
+Utiliza un patrón de lectura-modificación-escritura: recupera el estado actual, combina los cambios, valida y envía la actualización. Admite actividades de Prueba A/B, Segmentación de experiencias y Automated Personalization; las actividades de Asignación automática, Prueba multivariable y Recommendations son de solo lectura. Los parámetros estructurados `goal`, `audience_ids` y `additional_metrics` solo son compatibles con la prueba A/B y la segmentación de experiencias; las actividades de Automated Personalization aceptan actualizaciones simples de combinación de campos.
 
 | Parámetro | Tipo | Requerido | Descripción |
 |---|---|---|---|
@@ -199,44 +180,6 @@ Utiliza un patrón de lectura-modificación-escritura: recupera el estado actual
 **Devuelve:** El objeto de actividad actualizado.
 
 **Mensaje de ejemplo:** &quot;Actualice la actividad 12345 para cambiar la asignación de tráfico a 70/30.&quot;
-
-+++
-
-+++Actualizar una actividad de segmentación de experiencias
-
-**Herramienta:** `update_xt_activity`
-
-Actualice una actividad de segmentación de experiencias existente.
-
-Utiliza un patrón de lectura, modificación y escritura.
-
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad XT que se va a actualizar |
-| `activity` | objeto | Sí | Campos que actualizar |
-
-**Devuelve:** El objeto de actividad actualizado.
-
-**Mensaje de ejemplo:** &quot;Actualice la actividad XT 12345 para agregar una nueva experiencia para los visitantes móviles&quot;.
-
-+++
-
-+++Actualización de una actividad de Automated Personalization
-
-**Herramienta:** `update_abt_activity`
-
-Actualice una actividad de Automated Personalization existente.
-
-Utiliza un patrón de lectura, modificación y escritura.
-
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad AP que se va a actualizar |
-| `activity` | objeto | Sí | Campos que actualizar |
-
-**Devuelve:** El objeto de actividad actualizado.
-
-**Mensaje de ejemplo:** &quot;Actualice la actividad de Auto-Personalization 12345 para cambiar el objetivo de optimización&quot;.
 
 +++
 
@@ -251,7 +194,6 @@ Actualiza la programación de una actividad sin modificar otros ajustes.
 | Parámetro | Tipo | Requerido | Descripción |
 |---|---|---|---|
 | `activity_id` | entero | Sí | El identificador único de la actividad |
-| `activity_type` | string | Sí | Tipo de actividad: `ab`, `xt` o `abt` |
 | `starts_at` | string | No | Nueva fecha de inicio (ISO 8601) |
 | `ends_at` | string | No | Nueva fecha de finalización (ISO 8601) |
 
@@ -624,73 +566,41 @@ No se requieren parámetros.
 
 ## Herramientas de informes {#tools-reporting}
 
-+++Obtener un informe de rendimiento A/B
++++Obtener un informe de rendimiento de las actividades
 
-**Herramienta:** `get_ab_performance_report`
+**Herramienta:** `get_activity_performance_report`
 
-Obtenga un informe de rendimiento para una actividad A/B.
+Obtenga un informe de rendimiento para una actividad de cualquier tipo.
 
-Recupera las tasas de conversión, el alza y los niveles de confianza.
+Recupera las tasas de conversión, el alza y los niveles de confianza. Admite actividades de Prueba A/B, Segmentación de experiencias, Automated Personalization, Asignación automática, Prueba multivariable y Recommendations.
 
 | Parámetro | Tipo | Requerido | Descripción |
 |---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad A/B |
+| `activity_id` | entero | Sí | El identificador único de la actividad |
 | `report_interval` | string | No | Período de tiempo del informe (por ejemplo, `last7days`, `last30days` o un intervalo de fecha personalizado) |
 
 **Devuelve:** métricas de nivel de experiencia (visitantes, conversiones, tasa de conversión), cálculos de alza, niveles de confianza estadística y métricas de ingresos (si están configuradas).
 
-**Mensaje de ejemplo:** &quot;Mostrarme el informe de rendimiento para 12345 de prueba A/B durante los últimos 30 días&quot;.
+**Mensaje de ejemplo:** &quot;Mostrarme el informe de rendimiento de la actividad 12345 durante los últimos 30 días&quot;.
 
 +++
 
-+++Obtener un informe de pedidos A/B
++++Obtener un informe de pedidos de actividades
 
-**Herramienta:** `get_ab_orders_report`
+**Herramienta:** `get_activity_orders_report`
 
-Obtenga un informe de pedidos/ingresos de una actividad A/B.
+Obtenga un informe de pedidos/ingresos de una actividad de cualquier tipo.
+
+Admite actividades de Prueba A/B, Segmentación de experiencias, Automated Personalization, Asignación automática, Prueba multivariable y Recommendations.
 
 | Parámetro | Tipo | Requerido | Descripción |
 |---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad A/B |
+| `activity_id` | entero | Sí | El identificador único de la actividad |
 | `report_interval` | string | No | Período de tiempo del informe |
 
 **Devuelve:** recuentos de pedidos, ingresos y valor de pedido promedio por experiencia.
 
 **Mensaje de ejemplo:** &quot;Obtener el informe de pedidos de la actividad 12345&quot;.
-
-+++
-
-+++Obtener un informe de rendimiento de Segmentación de experiencias
-
-**Herramienta:** `get_xt_performance_report`
-
-Obtenga un informe de rendimiento para una actividad de segmentación de experiencias.
-
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad XT |
-| `report_interval` | string | No | Período de tiempo del informe |
-
-**Devuelve:** métricas de rendimiento de nivel de experiencia.
-
-**Mensaje de ejemplo:** &quot;Mostrar rendimiento para mi 54321 de actividad de segmentación de experiencias&quot;.
-
-+++
-
-+++Obtener un informe de pedidos de Segmentación de experiencias
-
-**Herramienta:** `get_xt_orders_report`
-
-Obtenga un informe de pedidos/ingresos de una actividad de segmentación de experiencias.
-
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `activity_id` | entero | Sí | El identificador único de la actividad XT |
-| `report_interval` | string | No | Período de tiempo del informe |
-
-**Devuelve:** métricas de pedidos por experiencia.
-
-**Mensaje de ejemplo:** &quot;Obtener datos de pedidos para 54321 de actividad XT&quot;.
 
 +++
 
@@ -849,17 +759,18 @@ No se requieren parámetros.
 
 | Categoría | Recuento | Herramientas |
 |---|---|---|
-| Actividad | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Actividad | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Oferta | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| Público | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| Audiencia | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Propiedad | 1 | `list_target_properties` |
-| Creación de informes | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| Creación de informes | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Vista previa | 1 | `preview_activity` |
 | Token de respuesta | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revisión | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Plantilla | 1 | `list_target_templates` |
-| **Total** | **41** | |
+| **Total** | **38** | |
 
 ## Recursos relacionados {#tools-related}
 
