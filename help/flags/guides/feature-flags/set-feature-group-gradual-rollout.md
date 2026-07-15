@@ -3,10 +3,10 @@ title: Configuración de un grupo de funciones para su despliegue gradual
 description: Obtenga información sobre cómo configurar un despliegue gradual basado en porcentajes para un grupo de funciones en Banderas.
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '190'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ El porcentaje de despliegue de un grupo de características se ha configurado en
 
 ## Cómo funciona {#how-it-works}
 
-Cuando establece un porcentaje de despliegue (por ejemplo, el 60 %), ese porcentaje de la audiencia definida se expone al grupo de funciones. El 40% restante se coloca en el **grupo de control**, que recibe el comportamiento predeterminado.
+Cuando establece un porcentaje de despliegue (por ejemplo, el 60 %), ese porcentaje de la audiencia definida se expone al grupo de funciones. El porcentaje de despliegue es **obligatorio** y el valor predeterminado es **100%** (el grupo de características se proporciona a toda la audiencia coincidente). Puede ajustarlo en **1% de incrementos**. El porcentaje restante se coloca en el **grupo de control**, que recibe el comportamiento predeterminado.
 
 Si ha configurado varias variantes (para pruebas A/B), el porcentaje de exposición se distribuye equitativamente entre las variantes. Por ejemplo, el 60 % de exposición con tres variantes resulta en un 20 % por variante, con un 40 % en el grupo de control.
 

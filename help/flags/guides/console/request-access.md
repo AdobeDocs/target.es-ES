@@ -3,10 +3,10 @@ title: Solicitar acceso
 description: Obtenga información sobre cómo solicitar acceso a un equipo de Banderas en Adobe Target y las funciones disponibles para los nuevos miembros.
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,14 @@ Recibirá una confirmación una vez que se envíe la solicitud. Puede supervisar
 
 ## Funciones disponibles {#roles}
 
-La función que tiene asignada determina qué acciones puede realizar en la consola. Póngase en contacto con el administrador del equipo si no está seguro de qué función solicitar.
+La función que tiene asignada determina qué acciones puede realizar en la consola. Póngase en contacto con el administrador si no está seguro de qué función solicitar.
+
+| Función | Descripción |
+| --- | --- |
+| **Administrador** | Acceso completo a la consola. Puede administrar aplicaciones y miembros del equipo, y aprobar o rechazar solicitudes de acceso. |
+| **Administrador de características** | Puede aprobar o rechazar solicitudes de acceso y administrar indicadores de características y grupos de características. |
+| **Propietario de la versión del producto** | Puede crear y administrar indicadores de características y grupos de características, así como lanzar características para usuarios externos. |
+| **Desarrollador** | Acceso limitado para pruebas privadas. Pueden exponer las funciones solo a sí mismos añadiendo su propio ID de usuario a una audiencia. No se pueden publicar funciones para usuarios externos. |
 
 ## Después de conceder el acceso {#after-access}
 

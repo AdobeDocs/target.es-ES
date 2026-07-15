@@ -3,10 +3,10 @@ title: Pruebas A/B con indicadores de funcionalidades
 description: Obtenga información sobre cómo ejecutar pruebas A/B mediante grupos de características en Marcas configurando varias variantes para un conjunto de indicadores de características.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -24,10 +24,14 @@ Las pruebas A/B en los indicadores se realizan con **grupos de características*
 ## Paso 1: Crear un grupo de funciones con varias variantes {#create}
 
 1. Vaya a **Prueba de características > Grupos de características** y seleccione **Nuevo grupo de características**.
-2. En **Detalles básicos**, proporcione un título, clave y descripción.
-3. Establezca un **despliegue porcentual** para definir qué parte de su audiencia participa en la prueba.
-4. Establezca **Variants** en un valor mayor que uno (por ejemplo, dos variantes para una prueba A/B clásica).
-5. Ver [Configurar un grupo de características para que se implemente gradualmente](set-feature-group-gradual-rollout.md) para comprender cómo se distribuye el porcentaje de exposición entre las variantes.
+1. En **Detalles básicos**, proporcione un título, clave y descripción.
+1. Establezca un **despliegue porcentual** para definir qué parte de su audiencia participa en la prueba.
+1. Establezca **Variants** en un valor mayor que uno (por ejemplo, dos variantes para una prueba A/B clásica). Puede definir hasta **3 variantes más un grupo de control**.
+1. Ver [Configurar un grupo de características para que se implemente gradualmente](set-feature-group-gradual-rollout.md) para comprender cómo se distribuye el porcentaje de exposición entre las variantes.
+
+>[!NOTE]
+>
+>La exposición se divide **equitativamente** entre variantes; por ejemplo, 50/50 para dos variantes. No se admiten divisiones personalizadas como 60/40. Se puede agregar una sola marca de característica a **más de una variante**. La audiencia se establece **una vez por grupo de características**, no por variante.
 
 ## Paso 2: Configuración de la audiencia {#audience}
 
@@ -53,6 +57,6 @@ Guarde la configuración del grupo de funciones. Cuando esté listo para iniciar
 
 * [Creación de un grupo de funciones](create-a-feature-group.md)
 * [Configuración de un grupo de funciones para su despliegue gradual](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [Informes](analytics.md)
 
 <!-- -->

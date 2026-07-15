@@ -3,9 +3,9 @@ title: Guía de integración de la extensión de Experience Rollout para Android
 description: Obtenga información sobre cómo integrar la extensión de despliegue de experiencias con Adobe Experience Platform Mobile SDK en Android.
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '1127'
 ht-degree: 7%
 
 ---
@@ -53,13 +53,17 @@ Asegúrese de que estas extensiones estén instaladas en la propiedad móvil de 
    | ID de conjunto de datos | ID del conjunto de datos de Adobe Experience Platform para los datos de evento de Analytics |
 
 1. Seleccione **Guardar**.
-1. Siga el [proceso de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
+1. Siga el [proceso de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
 
 ### Obtener el ID del archivo de entorno {#environment-file-id}
 
 1. En su propiedad móvil, vaya a **Entornos**.
 1. Seleccione el icono de cuadro debajo de la columna **Instalar** para su entorno.
 1. En el cuadro de diálogo **Instrucciones de instalación de Mobile**, copie el **Id. de archivo de entorno**.
+
+>[!IMPORTANT]
+>
+>En el entorno **staging**, agregue como prefijo el identificador del archivo de entorno `staging/`, es decir, use `staging/<environmentId>`. En **producción**, use directamente el ID del archivo de entorno.
 
 ## Añadir la extensión de Experience Rollout a la aplicación. {#add-to-app}
 
@@ -236,6 +240,15 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
 | `platform` | Identificador de plataforma | `["ANDROID"]` |
 | `appVersion` | Versión de aplicación | `["3.0.0"]` |
 | `deviceType` | Tipo de dispositivo | `["phone"]`, `["tablet"]` |
+
+## Conceptos clave para la evaluación de funciones {#key-concepts}
+
+Tenga en cuenta lo siguiente al implementar las puertas de funciones en la aplicación:
+
+* **Pasar valores de atributo, no mostrar etiquetas.** Los valores de atributo de contexto **distinguen entre mayúsculas y minúsculas**. Pase el valor sin procesar que envía su aplicación o sitio web (por ejemplo, `"en_US"` o `"ANDROID"`), no la etiqueta que se muestra en la consola.
+* **Evaluar en el nivel de característica (indicador).** Incluso cuando un indicador pertenece a un grupo de características, llame siempre a la API con la clave de característica **individual**. No hay ninguna evaluación a nivel de grupo. La respuesta devuelve la variante en la que se encontraba el usuario.
+* **No es necesario vincular la identidad a un perfil.** La evaluación se produce durante la ejecución. El evento de evaluación se envía a Customer Journey Analytics independientemente de si la identidad está vinculada a un perfil conocido.
+* **Cada nuevo indicador requiere un cambio de código.** Agregue una puerta para cada clave de indicador en el código. Use `isFeatureEnabled()` para comprobar un estado booleano de activación/desactivación o `getFeature()` para recuperar la carga útil de la función completa, incluida la variante.
 
 ## Referencia de API {#api-reference}
 

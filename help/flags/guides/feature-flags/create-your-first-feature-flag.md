@@ -3,10 +3,10 @@ title: Creación de la primera marca de funcionalidad
 description: Obtenga información sobre cómo crear un indicador de funciones en Banderas, establecer una audiencia y probarla antes de distribuirla a los usuarios.
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -25,19 +25,31 @@ Antes de crear un indicador de funcionalidad, complete lo siguiente:
 Para crear un nuevo indicador de funcionalidad, siga estos pasos en la consola:
 
 1. Inicie sesión en la consola Indicadores y vaya a **Características y versiones > Indicadores de características**.
-2. Seleccione su aplicación en la lista desplegable **Aplicación**.
-3. Seleccione **Nueva característica**.
-4. Proporcione un título, clave, descripción y, opcionalmente, una etiqueta.
-5. Si lo desea, puede añadir un criterio de audiencia (consulte el paso 2).
-6. Guarde la configuración de las marcas de características.
+1. Seleccione su aplicación en la lista desplegable **Aplicación**.
+1. Seleccione **Nueva característica**.
+1. Rellene los campos del formulario:
+
+   | Campo | Descripción |
+   | --- | --- |
+   | **Nombre** | Una etiqueta de visualización para el indicador de funcionalidad. No se utiliza en el código. |
+   | **Clave** * | El identificador utilizado en el código para evaluar el indicador. No se puede cambiar después de la creación. |
+   | **Descripción** | Descripción opcional para fines de documentación. |
+   | **Metadatos** | Opcional. Hasta 1.024 caracteres. Utilice este campo para cualquier metadato adicional que se asocie al indicador. |
+   | **Identidad** * | La identidad con la que se evalúa el indicador (por ejemplo, ECID). Identidad que se pasa en la solicitud de funcionalidad. |
+   | **Despliegue de porcentaje** | El porcentaje de la audiencia definida que sirve esta función. El valor predeterminado es 100%. Ver [Establecer una característica para implementarla gradualmente](set-feature-gradual-rollout.md). |
+
+   Los campos marcados con * son obligatorios.
+
+>[!IMPORTANT]
+>
+>La clave **Key** es el identificador usado en tu código y no se puede cambiar después de crearla. Las claves **no pueden contener espacios** y distinguen entre mayúsculas y minúsculas **.****Name** es una etiqueta de presentación solamente y no se usa en el código; los dos son independientes (el nombre no se convierte en la clave). Al escribir un espacio en el campo Clave se produce el error: _&quot;Valor no válido para la clave de característica.&quot;_
+
+1. Si lo desea, puede añadir un criterio de audiencia (consulte el paso 2).
+1. Guarde la configuración de las marcas de características.
 
 ## Paso 2: Añadir un criterio de audiencia {#audience}
 
-Los criterios de audiencia controlan qué usuarios ven la función. Puede agregar criterios basados en lo siguiente:
-
-* Atributos de perfil (como país, dominio de correo electrónico o ID de usuario)
-* Variables de contexto
-* Segmentos de audiencia predefinidos
+Los criterios de audiencia controlan qué usuarios ven la función. Puede segmentar usuarios con **atributos de contexto**: valores que su sitio web o aplicación envía en la solicitud de características (por ejemplo, `locale` o `platform`). Combínelos con **AND**, **OR** y **NOT**. Ver [Usar contexto en reglas de audiencia](../audience/using-context-in-audience-rules.md).
 
 Para agregar criterios de audiencia, vaya a la pestaña **Audiencia** al crear o editar una marca de característica.
 
@@ -55,7 +67,7 @@ Puede programar una marca de características para que se active en una fecha y 
 
 ## Preguntas frecuentes: No puedo agregar un indicador de funcionalidad como desarrollador {#faq}
 
-El rol **Desarrollador** se encuentra en una zona protegida. Los desarrolladores pueden probar las funciones de forma privada añadiendo su ID de usuario a la audiencia. No pueden exponer las funciones a usuarios externos. Utilice el rol **Propietario de la versión del producto** para publicar características para usuarios externos. Póngase en contacto con el administrador del equipo para actualizar su función.
+El rol **Desarrollador** se encuentra en una zona protegida. Los desarrolladores pueden probar las funciones de forma privada añadiendo su ID de usuario a la audiencia. No pueden exponer las funciones a usuarios externos. Utilice el rol **Propietario de la versión del producto** para publicar características para usuarios externos. Póngase en contacto con el administrador para actualizar su función.
 
 ## Consulte también {#see-also}
 

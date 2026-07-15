@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Indicadores
 user-guide-description: Aprenda a utilizar las marcas en Adobe Target para administrar las marcas de características, los despliegues controlados y las versiones de destino en las aplicaciones.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [Despliegue gradual](concepts/gradual-rollout.md)
 + Introducción a la consola {#console}
    + [Iniciar sesión en Banderas](guides/console/log-in-to-the-console.md)
-   + [Seleccione la zona protegida](guides/console/environments-overview.md)
+   + [Resumen de los entornos](guides/console/environments-overview.md)
    + [Solicitar acceso](guides/console/request-access.md)
 + Aplicaciones {#applications}
    + [Administrar aplicaciones](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [Creación de un grupo de funciones](guides/feature-flags/create-a-feature-group.md)
    + [Configuración de un grupo de funciones para su despliegue gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [Pruebas A/B con indicadores de funcionalidades](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [Creación de informes](guides/feature-flags/analytics.md)
 + Criterios de audiencia {#audience}
    + [Audiencia en indicadores y grupos de características](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [Uso del contexto en las reglas de audiencia](guides/audience/using-context-in-audience-rules.md)

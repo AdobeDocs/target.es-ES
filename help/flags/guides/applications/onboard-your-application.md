@@ -3,9 +3,9 @@ title: Incorporar la aplicación
 description: Obtenga información sobre cómo incorporar una nueva aplicación a Flags para poder empezar a crear y administrar indicadores de funcionalidades.
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,11 @@ Debe tener el rol **Administrador** para agregar una aplicación nueva. Póngase
 
 ## Agregar nueva aplicación {#add-application}
 
-1. Inicie sesión en la consola Indicadores y vaya a **Despliegue de experiencia > Aplicaciones**.
+1. Inicie sesión en la consola Indicadores y vaya a **Indicadores > Aplicaciones**.
 
    >[!NOTE]
    >
-   >Si el botón **Nueva aplicación** no está visible, verifique que tiene el rol **Administrador de Floodgate**.
+   >Si el botón **Nueva aplicación** no está visible, compruebe que tiene el rol **Administrador**.
 
 2. Seleccione **Nueva aplicación**.
 
@@ -28,10 +28,13 @@ Debe tener el rol **Administrador** para agregar una aplicación nueva. Póngase
 
 4. Proporcione la siguiente información:
 
+   Los campos marcados con * son obligatorios.
+
    | Campo | Descripción |
-   |---|---|
-   | **ID de aplicación** | Un identificador único que se utiliza al llamar a Flags desde el código. Utilice el ID de cliente de su aplicación. |
-   | **TTL** | Intervalo de sondeo (en segundos) para actualizar la caché por aplicación. Solo se aplica a los SDK del lado del servidor. |
+   | --- | --- |
+   | **Nombre de aplicación** * | Un nombre para mostrar para la aplicación. |
+   | **ID de aplicación*** | Un identificador único que se utiliza al llamar a Flags desde el código. Utilice el ID de cliente de su aplicación. |
+   | **Intervalo de encuesta** | Intervalo de sondeo (en segundos) para actualizar la caché por aplicación. Solo se aplica a los SDK del lado del servidor. |
 
 5. Seleccione **Agregar**. La aplicación ya está registrada y lista para la configuración de indicadores de características.
 

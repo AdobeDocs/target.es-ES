@@ -3,10 +3,10 @@ title: Pasos de integración
 description: Siga los pasos de integración para el tipo de aplicación con el que conectar los indicadores a su servicio web, aplicación web o móvil o aplicación de escritorio mediante los SDK disponibles.
 hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,20 @@ Los servicios back-end se integran con una SDK del lado del servidor. Soporte de
 >
 >La documentación de SDK del lado del servidor se está preparando actualmente y estará disponible próximamente. Póngase en contacto con su representante de Adobe para obtener ayuda sobre el acceso anticipado.
 
-## Aplicaciones web y móviles {#web-mobile}
+## Aplicaciones móviles {#mobile}
 
-Las aplicaciones web y móviles se integran mediante la web de SDK y la SDK móvil respectivamente.
+Las aplicaciones móviles se integran mediante las extensiones de AEP Mobile SDK:
+
+* [Guía de integración de Android extension](../sdk-releases/android/android-extension-integration-guide.md)
+* [Guía de integración de iOS extension](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## Aplicaciones web {#web}
+
+La compatibilidad con la aplicación web estará disponible próximamente.
 
 >[!NOTE]
 >
->La documentación de Web SDK y Mobile SDK se está preparando actualmente y estará disponible próximamente. Póngase en contacto con su representante de Adobe para obtener ayuda sobre el acceso anticipado.
+>La documentación de Web SDK se está preparando actualmente y estará disponible próximamente. Póngase en contacto con su representante de Adobe para obtener ayuda sobre el acceso anticipado.
 
 ## Aplicaciones de escritorio {#desktop}
 
