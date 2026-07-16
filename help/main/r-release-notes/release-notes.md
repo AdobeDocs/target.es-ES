@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 58%
 Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.7.2 (16 de julio de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **Información incorrecta del objetivo en la página [!UICONTROL Información general de actividad].** Se ha corregido un problema en el cual la página [!UICONTROL Información general de actividad] para [!DNL Automated Personalization] actividades mostraba objetivos adicionales en lugar del objetivo de optimización. (TGT-55553)
+
+* **Pantalla que no responde al navegar por las páginas en el modo [!UICONTROL Examinar].** Se ha corregido un problema por el cual la pantalla dejaba de responder al navegar entre páginas en modo [!UICONTROL Examinar]. (TGT-55565)
+
++++
+
+**Página principal**
+
++++Ver detalles
+
+* **Cambio de interfaz de usuario para [!UICONTROL Principales ejecutantes] y [!UICONTROL Guarda].** Se ha actualizado la interfaz de usuario de los principales ejecutantes y se ha guardado la experiencia. (TGT-54975)
+
++++
+
+**Públicos**
+
++++Ver detalles
+
+* **Cadenas sin localizar en el cuadro de diálogo [!UICONTROL Crear script de perfil].** Se corrigió un problema en el cual las cadenas del cuadro de diálogo [!UICONTROL Crear script de perfil] no se localizaban. (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1 (9 de julio de 2026)
 
