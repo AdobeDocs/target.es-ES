@@ -43,7 +43,7 @@ Para crear un nuevo indicador de funcionalidad, siga estos pasos en la consola:
 
 >[!IMPORTANT]
 >
->La clave **Key** es el identificador usado en tu código y no se puede cambiar después de crearla. Las claves **no pueden contener espacios** y distinguen entre mayúsculas y minúsculas **.****Name** es una etiqueta de presentación solamente y no se usa en el código; los dos son independientes (el nombre no se convierte en la clave). Al escribir un espacio en el campo Clave se produce el error: _&quot;Valor no válido para la clave de característica.&quot;_
+>La clave **Key** es el identificador usado en tu código y no se puede cambiar después de crearla. Las claves **no pueden contener espacios** y distinguen entre mayúsculas y minúsculas **.**&#x200B;**Name** es una etiqueta de presentación solamente y no se usa en el código; los dos son independientes (el nombre no se convierte en la clave). Al escribir un espacio en el campo Clave se produce el error: _&quot;Valor no válido para la clave de característica.&quot;_
 
 1. Si lo desea, puede añadir un criterio de audiencia (consulte el paso 2).
 1. Guarde la configuración de las marcas de características.
