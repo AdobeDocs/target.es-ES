@@ -50,7 +50,7 @@ Asegúrese de que estas extensiones estén instaladas en la propiedad móvil de 
    | ID de la aplicación | Un identificador único para su aplicación en Banderas |
 
 1. Seleccione **Guardar**.
-1. Siga el [proceso de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
+1. Siga el [proceso de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
 
 ### Obtener el ID del archivo de entorno {#environment-file-id}
 
