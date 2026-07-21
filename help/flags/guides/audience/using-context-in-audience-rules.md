@@ -1,59 +1,38 @@
 ---
 title: Uso del contexto en las reglas de audiencia
-description: Aprenda a utilizar variables de contexto en reglas de audiencia para indicadores de características y grupos de características en Banderas.
+description: Obtenga información sobre cómo utilizar atributos de contexto en reglas de audiencia para indicadores de características y grupos de características en Marcas.
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # Uso del contexto en las reglas de audiencia {#context-in-audience-rules}
 
-Las variables de contexto son valores proporcionados por la aplicación cliente durante la ejecución. Permiten segmentar usuarios en función de información dinámica a nivel de sesión, como el idioma activo del usuario, el tipo de dispositivo o el estado de la aplicación.
+Los atributos de contexto son valores proporcionados por la aplicación cliente durante la ejecución. Permiten segmentar usuarios en función de información dinámica a nivel de sesión, como el idioma activo del usuario, el tipo de dispositivo o el estado de la aplicación.
 
-Las variables de contexto son relevantes para los clientes web y móviles.
+Los atributos de contexto son relevantes para los clientes web y móviles.
 
-## Funcionamiento de las variables de contexto {#how-context-works}
+## Funcionamiento de los atributos de contexto {#how-context-attributes-work}
 
-La aplicación pasa variables de contexto a Flags al evaluar un indicador de funcionalidad. En la consola se definen reglas que comprueban estos valores, y la plataforma los utiliza en el momento de la evaluación para determinar si el usuario cumple los requisitos.
+La aplicación pasa los atributos de contexto a Marcas al evaluar una marca de característica. En la consola se definen reglas que comprueban estos valores, y la plataforma los utiliza en el momento de la evaluación para determinar si el usuario cumple los requisitos.
 
-## Tipos de variables de contexto {#variable-types}
+## Añadir un atributo de contexto {#adding-context-attribute}
 
-### Tipo predefinido (lista) {#predefined-type}
-
-Una variable de contexto con un conjunto fijo de valores permitidos, como una lista de idiomas o países.
-
-Operadores disponibles: **Is**, **Is not equal to**, **Exists**, **In**
-
-### Tipo entero {#integer-type}
-
-Variable de contexto que contiene un valor numérico.
-
-Operadores disponibles: **Mayor que**, **Mayor o igual que**, **Es**, **Menor que**, **Menor o igual que**
-
-### Tipo de cadena {#string-type}
-
-Variable de contexto que contiene un valor de texto de forma libre.
-
-Operadores disponibles: **Is**, **Is not equal to**
-
-## Añadir una variable de contexto {#adding-context-variable}
-
-Para agregar una variable de contexto a una regla de audiencia:
+Para añadir un atributo de contexto a una regla de audiencia:
 
 1. Abra la marca de características o el grupo de características en la consola.
 2. Vaya a la ficha **Audiencia**.
 3. En **Contexto**, agregue una nueva condición.
-4. Seleccione la variable de contexto, el operador y el valor.
+4. Seleccione el atributo de contexto, el operador y el valor.
 
-Si la variable de contexto que necesita no aparece en la lista, puede crear una nueva de forma automática desde la sección de administración de variables de contexto de la consola.
+Si el atributo de contexto que necesita no aparece en la lista, puede crear uno nuevo. Consulte [Creación de atributos de contexto](creating-your-context-attributes.md).
 
 ## Consulte también {#see-also}
 
 * [Audiencia en indicadores y grupos de características](audience-in-feature-flags-and-feature-groups.md)
-* [Agregar reglas de porcentaje en criterios de audiencia](adding-percentage-rules.md)
 
 <!-- -->

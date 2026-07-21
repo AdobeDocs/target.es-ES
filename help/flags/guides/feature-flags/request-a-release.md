@@ -3,9 +3,9 @@ title: Solicitar una versión
 description: Obtenga información sobre cómo solicitar una nueva versión coordinada en Banderas y qué información proporcionar.
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 ## Requisitos previos {#prerequisites}
 
-* Tiene el rol **Administrador de versiones**; consulte <!-- broken link[User roles](../teams/user-roles.md) -->
+* Tiene el rol **Gestor de versiones**
 * Su aplicación está integrada. Consulte [Incorporar su aplicación](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Antes de solicitar una versión, revise <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Un grupo de funciones entre equipos puede satisfacer sus necesidades con menos sobrecarga, es autoservicio y admite una segmentación de audiencia más rica.
+>Antes de solicitar una versión, considere si un grupo de funciones entre equipos satisface sus necesidades con menos sobrecarga, es autoservicio y admite una segmentación de audiencia más rica.
 
 ## Enviar una solicitud de asistencia {#submit}
 

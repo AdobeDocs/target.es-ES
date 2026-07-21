@@ -3,9 +3,9 @@ title: Resumen de los entornos
 description: Obtenga información sobre cómo seleccionar la zona protegida de Adobe Experience Platform correcta al trabajar en Banderas.
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ Banderas se basa en Adobe Experience Platform. Antes de trabajar con indicadores
 ## Cómo seleccionar una zona protegida {#how-to}
 
 Utilice el conmutador de zona protegida de la barra de navegación superior de la consola Indicadores para seleccionar la zona protegida correcta antes de crear o modificar los indicadores de funcionalidades.
+
+![Conmutador de espacio aislado en la consola Indicadores](assets/sandbox-selection.png)
 
 ## Consulte también {#see-also}
 

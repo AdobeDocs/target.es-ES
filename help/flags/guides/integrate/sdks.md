@@ -3,10 +3,10 @@ title: SDK
 description: Obtenga información acerca de la arquitectura de SDK en Banderas y las extensiones disponibles de AEP Web SDK y AEP Mobile SDK.
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Consulte la [guía de integración de extensiones de iOS](../sdk-releases/ios/io
 ## Consulte también {#see-also}
 
 * [Guía de integración de Android extension](../sdk-releases/android/android-extension-integration-guide.md)
-* [Servicios Web](web-services.md)
-* [Pasos de integración](integration-steps.md)
+* [Guía de integración de iOS extension](../sdk-releases/ios/ios-extension-integration-guide.md)
+* [Guía de integración de extensiones web](../sdk-releases/web/web-extension-integration-guide.md)
 
 <!-- -->

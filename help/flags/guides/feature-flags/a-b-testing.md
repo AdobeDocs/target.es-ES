@@ -3,10 +3,10 @@ title: Pruebas A/B con indicadores de funcionalidades
 description: Obtenga información sobre cómo ejecutar pruebas A/B mediante grupos de características en Marcas configurando varias variantes para un conjunto de indicadores de características.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Las pruebas A/B en los indicadores se realizan con **grupos de características*
 
 * Tiene acceso a la consola; consulte [Iniciar sesión en la consola](../console/log-in-to-the-console.md)
 * Pertenece a un equipo y la aplicación está integrada
-* Tiene la función **Desarrollador** o **Propietario de la versión del producto**
+* Tiene el rol **Propietario de la versión del producto**
 * Ha creado los indicadores de características que desea probar. Consulte [Crear su primer indicador de características](create-your-first-feature-flag.md)
 
 ## Paso 1: Crear un grupo de funciones con varias variantes {#create}
@@ -37,10 +37,6 @@ Las pruebas A/B en los indicadores se realizan con **grupos de características*
 
 En la ficha **Audiencia**, agregue criterios de audiencia y seleccione las aplicaciones que desea incluir. Los grupos de funciones pueden abarcar varias aplicaciones dentro del mismo equipo.
 
->[!NOTE]
->
->Para dirigirse a usuarios externos en una prueba A/B, debe tener el rol **Propietario de la versión del producto**. La función Desarrollador está limitado a pruebas privadas.
-
 ## Paso 3: Añadir funciones por variante {#features}
 
 En la ficha **Características**, cada variante tiene su propia ficha. Agregue los indicadores de características adecuados a cada variante para definir las diferentes experiencias que desee comparar.
@@ -57,6 +53,6 @@ Guarde la configuración del grupo de funciones. Cuando esté listo para iniciar
 
 * [Creación de un grupo de funciones](create-a-feature-group.md)
 * [Configuración de un grupo de funciones para su despliegue gradual](set-feature-group-gradual-rollout.md)
-* [Informes](analytics.md)
+* [Informes](reporting.md)
 
 <!-- -->

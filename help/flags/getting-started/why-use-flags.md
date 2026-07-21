@@ -3,9 +3,9 @@ title: Razones para utilizar los indicadores
 description: Conozca los casos de uso clave de las marcas en Adobe Target, desde las pruebas selectivas de funciones hasta las versiones coordinadas de varias aplicaciones.
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Abra una nueva función progresivamente: 1 %, 10 %, 50 % y, a continuación, 100
 Despliegue gradual a fin de evitar picos de tráfico repentinos en los servicios back-end, en lugar de exponer a todos los usuarios a una nueva función a la vez.
 
 **Versiones coordinadas de varias aplicaciones**
-Habilite una función simultáneamente en varias aplicaciones y equipos para un conjunto específico de usuarios. Los indicadores garantizan la coherencia en toda la superficie de lanzamiento.
+Habilite una función simultáneamente en varias aplicaciones para un conjunto específico de usuarios. Los indicadores garantizan la coherencia en toda la superficie de lanzamiento.
 
 **Versiones diferidas**
 Implemente el código en producción con antelación y, a continuación, active la función en un momento preciso (por ejemplo, al inicio de un evento de lanzamiento de producto) sin ningún cambio de código de última hora.
