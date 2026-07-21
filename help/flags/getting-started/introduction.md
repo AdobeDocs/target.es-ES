@@ -3,9 +3,9 @@ title: Introducción a las marcas
 description: Descubra cómo Marcas en Adobe Target proporciona un sistema de versiones controladas para implementar funciones de forma progresiva en audiencias de destino.
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ Banderas es una plataforma de administración de funciones que proporciona lo si
 
 * **Indicadores de características**: active o desactive cualquier característica en tiempo de ejecución para una audiencia de destino, sin volver a implementar el código.
 
-* **Segmentación de audiencia**: controla quién ve una característica mediante datos de perfil de usuario, reglas basadas en porcentajes, direcciones de correo electrónico, dominios de correo electrónico, direcciones IP o atributos contextuales.
+* **Segmentación de audiencia**: controla quién ve una característica mediante atributos contextuales.
 
 * **Grupos de características**: agrupe varios indicadores de características relacionados en las aplicaciones y adminístrelos como una sola unidad, para que la misma audiencia vea una experiencia coherente.
-
-* **Versiones**: coordine despliegues grandes entre equipos mediante la agrupación de indicadores de características de varios equipos y aplicaciones en un único evento de lanzamiento.
 
 * **Despliegues graduales**: Fase de entrega de funciones incrementalmente para reducir el riesgo, recopilar comentarios y administrar la carga back-end.
 

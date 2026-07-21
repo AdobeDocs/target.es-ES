@@ -3,9 +3,9 @@ title: Importar indicadores de características
 description: Obtenga información sobre cómo importar indicadores de funcionalidades de una zona protegida a otra en Marcas para evitar volver a crear configuraciones de marcas manualmente.
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ Las marcas permiten importar marcas de características de una zona protegida (p
 
 ## Paso 1: Vaya a la zona protegida y a la aplicación de destino {#step-1}
 
-Inicie sesión en la consola de la zona protegida **destination**: la zona protegida en la que desea importar los indicadores *en*. Seleccione la aplicación en la que desea importar indicadores desde la lista desplegable de aplicaciones en la página Indicadores de funcionalidad.
+Inicie sesión en la consola de la zona protegida **destination**: la zona protegida en la que desea importar indicadores. Haga clic en **Importar indicadores de características** y, a continuación, seleccione la aplicación en la que desea importar indicadores en la lista desplegable de aplicaciones.
+
+![Botón Importar indicadores de características en la página Marcas de características](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >

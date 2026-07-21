@@ -4,7 +4,7 @@ description: Aprenda a utilizar Marcas en Adobe Target para ofrecer funciones de
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -39,14 +39,10 @@ La obtención de valor de Banderas comienza con tres pasos:
 
 1. **Crear y publicar una marca** — Siga la guía de [Crear su primera marca de características](guides/feature-flags/create-your-first-feature-flag.md) para definir una marca, establecer su audiencia inicial y publicarla en su entorno.
 
-1. **Integrar con su aplicación**: conecte su aplicación mediante AEP Web SDK o AEP Mobile SDK para que pueda recuperar y aplicar indicadores durante la ejecución. Comience con los [pasos de integración](guides/integrate/integration-steps.md) para su tipo de aplicación.
+1. **Integrar con su aplicación**: conecte su aplicación mediante AEP Web SDK o AEP Mobile SDK para que pueda recuperar y aplicar indicadores durante la ejecución. Comience con la [guía de integración](guides/integrate/sdks.md) para su tipo de aplicación.
 
 Una vez que la primera marca esté activa, puede refinar su audiencia, configurar un despliegue gradual y promocionarla de guardada a despliegue completo.
 
 ## ¿Necesita ayuda?
 
 Si algo no se comporta como se espera, póngase en contacto con su representante de Adobe para obtener ayuda.
-
-<!-- 
-Bob was here. Again.
--->

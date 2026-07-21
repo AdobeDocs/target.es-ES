@@ -3,9 +3,9 @@ title: Creación de un grupo de funciones
 description: Obtenga información sobre cómo crear un grupo de funciones en Marcas para administrar varias marcas de funciones en todas las aplicaciones de su equipo como una sola unidad.
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Antes de crear un grupo de funciones, complete lo siguiente:
 
 * Tiene acceso a la consola Marcas; consulte [Iniciar sesión en la consola](../console/log-in-to-the-console.md)
 * Su aplicación está integrada. Consulte [Incorporar su aplicación](../applications/onboard-your-application.md)
-* Tiene la función **Desarrollador** o **Propietario de la versión del producto**
+* Tiene el rol **Propietario de la versión del producto**
 * Ha creado las marcas de características que desea agregar al grupo. Consulte [Crear su primera marca de características](create-your-first-feature-flag.md)
 
 Para obtener una introducción a los grupos de características, vea [Grupos de características para controlar varias características](../../concepts/feature-groups-to-control-multiple-features.md).
@@ -27,7 +27,7 @@ Para obtener una introducción a los grupos de características, vea [Grupos de 
 
 Abra la consola e inicie un nuevo grupo de funciones:
 
-1. Inicie sesión en la consola Indicadores y vaya a **Prueba de características > Grupos de características**.
+1. Inicie sesión en la consola **Banderas**, vaya al panel izquierdo y seleccione **Grupos de funciones**.
 2. Seleccione **Nuevo grupo de características**.
 
 ## Paso 2: Detalles básicos {#basic-details}
@@ -44,10 +44,6 @@ Defina quién recibirá las funciones de este grupo:
 
 1. En la ficha **Audiencia**, agregue criterios de audiencia para definir qué usuarios recibirán la característica.
 2. En **Aplicaciones**, agregue una o más aplicaciones de su equipo. Los grupos de funciones pueden abarcar varias aplicaciones, siempre que todas pertenezcan al mismo equipo.
-
->[!NOTE]
->
->El rol **Desarrollador** se encuentra en una zona protegida. Agregue su propio ID de usuario en **Audiencia > Perfil > ID de usuario** para realizar pruebas de forma privada. Para dirigirse a usuarios externos, necesita el rol **Propietario de la versión del producto**.
 
 ## Paso 4: Funciones {#features}
 
@@ -66,10 +62,6 @@ Asigne los indicadores de funcionalidad que controlará este grupo:
 >Cuando **quita** una marca de características de un grupo de características, la marca vuelve a un estado **deshabilitado** y su audiencia está **no** restaurada, trátela como una marca nueva. Un marcador **disabled** dentro de un grupo siempre se evalúa como `false`. Al habilitar un grupo de características, **no** habilita sus marcas de miembro; habilita cada marca explícitamente.
 >
 >Los grupos de características son una **capa de administración**. En tiempo de ejecución, siempre realiza la evaluación en el nivel de **característica (indicador)**, nunca en el nivel de grupo; la respuesta incluye la variante en la que se encontró el usuario.
-
-## Paso 5: Programar (opcional) {#schedule}
-
-Puede programar el grupo de características para que se active en una fecha y hora futuras mediante la opción **Programar** en la configuración del grupo de características.
 
 ## Consulte también {#see-also}
 
