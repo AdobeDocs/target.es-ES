@@ -6,19 +6,13 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4405
+ht-degree: 25%
 
 ---
 
@@ -31,7 +25,7 @@ Cada tipo de algoritmo proporciona diferentes algoritmos adecuados para su tipo,
 | Tipo de algoritmo | Cuándo utilizar / Algoritmos disponibles |
 | --- | --- |
 | [!UICONTROL Basado en el carro de compras] | Haga recomendaciones basadas en el contenido del carro de compras del usuario.<ul><li>[!UICONTROL Las Personas Que Vieron Esto, También Vieron]</li><li>[!UICONTROL Otras Personas Que Vieron Esto, También Compraron]</li><li>[!UICONTROL Otras Personas Que Compraron Esto, También Compraron]</li></ul> |
-| [!UICONTROL Basado en popularidad] | Haga recomendaciones basadas en la popularidad general de un elemento en el sitio o en la popularidad de elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario. <ul><li>[!UICONTROL Más visitados en todo el sitio]</li><li>[!UICONTROL Más visitados por categoría]</li><li>[!UICONTROL Más visitados por atributo de artículo]</li><li>[!UICONTROL Principales vendedores en todo el sitio]</li><li>[!UICONTROL Principales vendedores por categoría]</li><li>[!UICONTROL Principales vendedores por atributo de artículo]</li><li>[!UICONTROL Métrica superior por Analytics]</li></ul> |
+| [!UICONTROL Basado en popularidad] | Haga recomendaciones basadas en la popularidad general de un elemento en el sitio o en la popularidad de elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario. <ul><li>[!UICONTROL Más visitados en todo el sitio]</li><li>[!UICONTROL Más visitados por categoría]</li><li>[!UICONTROL Más visitados por atributo de artículo]</li><li>[!UICONTROL Más visitados por atributo de perfil]</li><li>[!UICONTROL Principales vendedores en todo el sitio]</li><li>[!UICONTROL Principales vendedores por categoría]</li><li>[!UICONTROL Principales vendedores por atributo de artículo]</li><li>[!UICONTROL Principales vendedores por atributo de perfil]</li><li>[!UICONTROL Métrica superior por Analytics]</li></ul> |
 | [!UICONTROL Basado en elementos] | Haga recomendaciones basadas en la búsqueda de artículos similares a los que el usuario está viendo en este momento o ha visto recientemente. <ul><li>[!UICONTROL Las Personas Que Vieron Esto, Vieron Aquello]</li><li>[!UICONTROL Otras Personas Que Vieron Esto, Compraron Aquello]</li><li>[!UICONTROL Otras Personas Que Compraron Esto, Compraron Aquello]</li><li>[!UICONTROL Elementos con atributos similares]</li></ul> |
 | [!UICONTROL Basado en usuario] | Haga recomendaciones basadas en el comportamiento del usuario. <ul><li>[!UICONTROL Artículos vistos recientemente]</li><li>[!UICONTROL Recomendado para usted]</li></ul> |
 | [!UICONTROL Criterios personalizados] | Cree recomendaciones basadas en un archivo personalizado que haya cargado. <ul><li>Algoritmo personalizado</li></ul> |
@@ -44,7 +38,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en diferentes
 
 ## Basado en el carro {#cart-based}
 
-El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios de &quot;[!UICONTROL Recomendado para ti]&quot; y a las &quot;[!UICONTROL Personas que vieron esto, compraron aquello]&quot; y &quot;[!UICONTROL Personas que compraron esto, compraron aquello]&quot;.
 
@@ -179,6 +173,38 @@ Recomienda elementos o medios similares a los elementos o medios más comprados 
 Este algoritmo le permite seleccionar en qué atributo de artículo desea basar la recomendación, por ejemplo, &quot;Nombre&quot; o &quot;Marca&quot;.
 
 A continuación, puede seleccionar qué atributos de perfil almacenados en el perfil del visitante coinciden, por ejemplo, &quot;Marca favorita&quot;, &quot;Último elemento añadido al carro de compras&quot; o &quot;Programa más visitado&quot;.
+
+### [!UICONTROL Más visitados por atributo de perfil]
+
+Recomienda los artículos más vistos agrupados por un atributo de perfil de visitante en lugar de por información de artículo, como hacen [!UICONTROL Más vistos por categoría] y [!UICONTROL Más vistos por atributo de artículo]. [!DNL Target] mantiene una lista clasificada separada por valor de atributo y, a la hora de envío, muestra a cada visitante la lista que coincide con su propio valor almacenado.
+
+Este algoritmo depende de un script de perfil para rellenar el atributo, y el nombre del script debe comenzar con el prefijo `recsAttribute` para que [!DNL Target] lo almacene como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso.
+
+Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Por ejemplo, un script denominado `recsAttributeRegion` que basa las recomendaciones en la región del visitante podría tener el siguiente aspecto:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+Una vez que el script se haya creado y activado, la entrada [!UICONTROL Region] correspondiente estará disponible en la lista desplegable de atributos de perfil de la ventana Crear criterios. Tenga en cuenta que el prefijo `recsAttribute` en sí no se muestra en la lista desplegable.
+
+### [!UICONTROL Principales vendedores por atributo de perfil]
+
+Recomienda los artículos más vendidos agrupados por un atributo de perfil de visitante en lugar de por información de artículo, como hacen [!UICONTROL Principales vendedores por categoría] y [!UICONTROL Principales vendedores por atributo de artículo]. [!DNL Target] mantiene una lista de los principales vendedores independiente por valor de atributo y, a la hora de envío, muestra a cada visitante la lista que coincide con su propio valor almacenado.
+
+Al igual que con [!UICONTROL Más visitados por atributo de perfil], este algoritmo depende de un script de perfil para rellenar el atributo y el nombre del script debe comenzar con el prefijo `recsAttribute`, de modo que [!DNL Target] lo almacena como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso. Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Por ejemplo, un script de nombre `recsAttributeLoyaltyTier` que base las recomendaciones en el nivel de fidelidad del visitante podría tener este aspecto:
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+Una vez que el script se haya creado y activado, la entrada [!UICONTROL Nivel de fidelidad] correspondiente estará disponible en el menú desplegable de atributos de perfil de la ventana Crear criterios. Tenga en cuenta que el prefijo `recsAttribute` en sí no se muestra en la lista desplegable.
 
 ### [!UICONTROL Métrica superior por Analytics]
 
