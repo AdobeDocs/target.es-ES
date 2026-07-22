@@ -1,12 +1,13 @@
 ---
 title: Administrar aplicaciones
 description: Obtenga información sobre cómo administrar aplicaciones en Banderas, incluida la adición de nuevas aplicaciones.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '100'
+ht-degree: 3%
 
 ---
 

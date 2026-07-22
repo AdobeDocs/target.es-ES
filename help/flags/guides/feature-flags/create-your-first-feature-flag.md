@@ -1,11 +1,12 @@
 ---
 title: Creación de la primera marca de funcionalidad
 description: Obtenga información sobre cómo crear un indicador de funciones en Banderas, establecer una audiencia y probarla antes de distribuirla a los usuarios.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 2%
 
 ---
@@ -43,7 +44,7 @@ Para crear un nuevo indicador de funcionalidad, siga estos pasos en la consola:
 
 >[!IMPORTANT]
 >
->La clave **Key** es el identificador usado en tu código y no se puede cambiar después de crearla. Las claves **no pueden contener espacios** y distinguen entre mayúsculas y minúsculas **.**&#x200B;**Name** es una etiqueta de presentación solamente y no se usa en el código; los dos son independientes (el nombre no se convierte en la clave). Al escribir un espacio en el campo Clave se produce el error: _&quot;Valor no válido para la clave de característica.&quot;_
+>La clave **Key** es el identificador usado en tu código y no se puede cambiar después de crearla. Las claves **no pueden contener espacios** y distinguen entre mayúsculas y minúsculas **.****Name** es una etiqueta de presentación solamente y no se usa en el código; los dos son independientes (el nombre no se convierte en la clave). Al escribir un espacio en el campo Clave se produce el error: _&quot;Valor no válido para la clave de característica.&quot;_
 
 1. Si lo desea, puede añadir un criterio de audiencia (consulte el paso 2).
 1. Guarde la configuración de las marcas de características.

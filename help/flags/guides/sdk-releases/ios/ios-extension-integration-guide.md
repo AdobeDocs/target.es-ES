@@ -1,10 +1,11 @@
 ---
 title: Extensión de marcas para la guía de integración de iOS
 description: Obtenga información sobre cómo integrar la extensión Flags con Adobe Experience Platform Mobile SDK en iOS.
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1036'
 ht-degree: 5%
 
 ---
@@ -50,7 +51,7 @@ Asegúrese de que estas extensiones estén instaladas en la propiedad móvil de 
    | ID de la aplicación | Un identificador único para su aplicación en Banderas |
 
 1. Seleccione **Guardar**.
-1. Siga el [proceso de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
+1. Siga el [proceso de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
 
 ### Obtener el ID del archivo de entorno {#environment-file-id}
 

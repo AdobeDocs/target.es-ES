@@ -3,9 +3,9 @@ audience: user
 user-guide-title: Indicadores
 user-guide-description: Aprenda a utilizar las marcas en Adobe Target para administrar las marcas de características, los despliegues controlados y las versiones de destino en las aplicaciones.
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [Configuración de un grupo de funciones para su despliegue gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [Pruebas A/B con indicadores de funcionalidades](guides/feature-flags/a-b-testing.md)
   + [Creación de informes](guides/feature-flags/reporting.md)
+  + [Configuración de CJA para informes de indicadores de funcionalidades](guides/feature-flags/set-up-cja-reporting.md)
 + Criterios de audiencia {#audience}
   + [Audiencia en indicadores y grupos de características](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [Uso del contexto en las reglas de audiencia](guides/audience/using-context-in-audience-rules.md)
