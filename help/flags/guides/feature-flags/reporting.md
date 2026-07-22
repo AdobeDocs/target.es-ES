@@ -63,7 +63,7 @@ Ajuste el intervalo de fechas del encabezado del panel para volver a trazar para
 
 ![Panel de experimentación con selectores de experimento, variante de control y métrica](assets/experimentation-selection.png)
 
-Consulte la [documentación del panel Experimentación](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation) para obtener más información sobre cómo se calculan estas métricas.
+Consulte la [documentación del panel Experimentación](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/experimentation) para obtener más información sobre cómo se calculan estas métricas.
 
 ![Resultados de experimentación que muestran el alza, la confianza y la tasa de conversión por variante](assets/experimentation.png)
 
