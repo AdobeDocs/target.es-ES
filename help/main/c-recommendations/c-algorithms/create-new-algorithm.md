@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -88,7 +88,7 @@ Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear
    | Tipo de algoritmo | Cuándo utilizar / Algoritmos disponibles |
    | --- | --- |
    | [!UICONTROL Basado en el carro de compras] | Haga recomendaciones basadas en el contenido del carro de compras del usuario. <ul><li>[!UICONTROL Las Personas Que Vieron Esto, También Vieron] </li><li>[!UICONTROL Otras Personas Que Vieron Esto, También Compraron]</li><li>[!UICONTROL Otras Personas Que Compraron Esto, También Compraron]</li></ul> |
-   | [!UICONTROL Basado en popularidad] | Haga recomendaciones basadas en la popularidad general de un elemento en el sitio o en la popularidad de elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario. <ul><li>[!UICONTROL Más visitados en todo el sitio]</li><li>[!UICONTROL Más visitados por categoría]</li><li>[!UICONTROL Más visitados por atributo de artículo]</li><li>[!UICONTROL Principales vendedores en todo el sitio]</li><li>[!UICONTROL Principales vendedores por categoría]</li><li>[!UICONTROL Principales vendedores por atributo de artículo]</li><li>[!UICONTROL Métrica superior por Analytics]</li></ul> |
+   | [!UICONTROL Basado en popularidad] | Haga recomendaciones basadas en la popularidad general de un elemento en el sitio o en la popularidad de elementos dentro de la categoría, marca, género, etc. favoritos o más vistos de un usuario. <ul><li>[!UICONTROL Más visitados en todo el sitio]</li><li>[!UICONTROL Más visitados por categoría]</li><li>[!UICONTROL Más visitados por atributo de artículo]</li><li>[!UICONTROL Más visitados por atributo de perfil]</li><li>[!UICONTROL Principales vendedores en todo el sitio]</li><li>[!UICONTROL Principales vendedores por categoría]</li><li>[!UICONTROL Principales vendedores por atributo de artículo]</li><li>[!UICONTROL Principales vendedores por atributo de perfil]</li><li>[!UICONTROL Métrica superior por Analytics]</li></ul> |
    | [!UICONTROL Basado en elementos] | Haga recomendaciones basadas en la búsqueda de artículos similares a los que el usuario está viendo en este momento o ha visto recientemente. <ul><li>[!UICONTROL Las Personas Que Vieron Esto, Vieron Aquello]</li><li>[!UICONTROL Otras Personas Que Vieron Esto, Compraron Aquello]</li><li>[!UICONTROL Otras Personas Que Compraron Esto, Compraron Aquello]</li><li>[!UICONTROL Elementos con atributos similares]</li></ul> |
    | [!UICONTROL Basado en usuario] | Haga recomendaciones basadas en el comportamiento del usuario.<ul><li>[!UICONTROL Artículos vistos recientemente]</li><li>[!UICONTROL Recomendado para usted]</li></ul> |
    | [!UICONTROL Criterios personalizados] | Cree recomendaciones basadas en un archivo personalizado que haya cargado.<ul><li>Algoritmo personalizado</li></ul> |
@@ -100,6 +100,8 @@ Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear
 1. Si es necesario, seleccione un **atributo de elemento** y un **atributo de perfil que coincida**, una **clave de recomendación**, **clave de filtrado** o **métrica de Analytics** para configurar el algoritmo.
 
 Las opciones de configuración del algoritmo restante varían según el algoritmo seleccionado. Para finalizar la configuración del algoritmo, seleccione [!UICONTROL Clave de recomendación], [!UICONTROL Clave de filtrado], [!UICONTROL Base de coocurrencia], [!UICONTROL Métrica de Analytics], y/o [!UICONTROL Atributo de elemento] y [!UICONTROL Atributo de perfil que debe coincidir].
+
+Cuando seleccione [!UICONTROL Más visitados por atributo de perfil] o [!UICONTROL Principales vendedores por atributo de perfil], seleccione un **[!UICONTROL atributo de perfil]** por el que agrupar los datos de interacción. Los atributos de perfil provienen de un script de perfil que captura una característica del visitante, como la región o el país, y el nombre del script debe llevar el prefijo `recsAttribute`, por lo que se almacena como `user.recsAttribute<Name>`, por ejemplo, `user.recsAttributeRegion`. En el momento de la entrega, [!DNL Target] indica a cada visitante la lista clasificada que corresponde a su propio valor de ese atributo.
 
 Para obtener más información sobre cómo elegir una [!UICONTROL clave de recomendación], consulte [Basar la recomendación en una clave de recomendación](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 

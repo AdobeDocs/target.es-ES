@@ -1,11 +1,12 @@
 ---
 title: Guía de inicio
 description: Siga estos pasos para integrar su aplicación con Banderas, desde solicitar acceso a crear su primera marca de características.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
+source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -44,9 +45,10 @@ Siga la guía de integración para su tipo de aplicación. Elija la ruta que se 
 
 Si realiza la integración con un enfoque basado en etiquetas (web o móvil), configure la propiedad de etiquetas antes de inicializar SDK:
 
-1. En [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/#/data-collection), abra su propiedad móvil o web.
-1. Instale la extensión **Edge Network** y, a continuación, la extensión **Flags** (en ese orden).
-1. Seleccione su **flujo de datos** (debe incluir el conjunto de datos de Customer Journey Analytics) y su dominio Edge.
+1. En [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/#/data-collection), cree una [propiedad de etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/get-started/quick-start) si todavía no la tiene, o use una propiedad de etiquetas existente.
+1. Abra la propiedad de etiquetas móviles o web y vaya a [Extensiones](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/extensions/overview).
+1. Instale y configure la extensión **Edge Network**. Luego instale la extensión **Flags**.
+1. Seleccione la **secuencia de datos** (debe incluir el conjunto de datos de Customer Journey Analytics) y configure el dominio de Edge.
 1. Publique la configuración mediante **Desarrollo → ensayo → producción**.
 1. Copie el **id. de archivo de entorno** de la ficha **Entornos**; utilizará esto para inicializar SDK.
 

@@ -1,12 +1,13 @@
 ---
 title: Creación de informes
 description: Obtenga información sobre cómo ver los informes de indicadores de funcionalidades en Marcas con Customer Journey Analytics.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +23,7 @@ Marcas entrega informes a través de **Customer Journey Analytics (CJA)**. Hay u
 
 Antes de poder ver los informes, asegúrese de lo siguiente:
 
-1. Los informes están configurados para su aplicación. Consulte [Configurar los informes con Customer Journey Analytics](#setup).
+1. Los informes están configurados para su aplicación. Consulte [Configuración de CJA para informes de indicadores de características](set-up-cja-reporting.md).
 1. El indicador o grupo de características está activo y tiene datos acumulados.
 
 ## Ver un informe {#view-report}
@@ -66,28 +67,9 @@ Consulte la [documentación del panel Experimentación](https://experienceleague
 
 ![Resultados de experimentación que muestran el alza, la confianza y la tasa de conversión por variante](assets/experimentation.png)
 
-### Analizar en CJA (opcional) {#analyze-in-cja}
-
-Una vez que se carga un informe, aparece el botón **Analizar en CJA** en la parte superior derecha de la pestaña Informe. Al seleccionarlo, se abre el mismo informe a página completa en Customer Journey Analytics, en una nueva pestaña del explorador, en la que tiene el conjunto de herramientas completo de CJA para un análisis más profundo y específico.
-
-![Informe de información general de marcas abierto en el espacio de trabajo de Customer Journey Analytics](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->El informe se abre como un proyecto temporal no guardado. Si lo personaliza en CJA (agrega métricas, cambia paneles, ajusta filtros, etc.) y desea conservar esos cambios, guárdelo con **Proyecto > Guardar como plantilla**. De lo contrario, las ediciones se perderán al cerrar el informe.
-
-![Menú de proyecto con Guardar como plantilla resaltada](assets/save-as-template.png)
-
-## Configuración de informes con Customer Journey Analytics {#setup}
-
-Los informes requieren un conjunto de datos de Customer Journey Analytics conectado a la aplicación Flags. Póngase en contacto con el servicio de asistencia técnica de Marcas o con su representante de Adobe para habilitar la creación de informes para su aplicación.
-
->[!NOTE]
->
->La identidad pasada en la solicitud de funcionalidad no necesita estar vinculada a un perfil. La evaluación se produce durante el tiempo de ejecución y el evento se envía a Customer Journey Analytics.
-
 ## Consulte también {#see-also}
 
+* [Configuración de CJA para informes de indicadores de funcionalidades](set-up-cja-reporting.md)
 * [Creación de la primera marca de funcionalidad](create-your-first-feature-flag.md)
 * [Pruebas A/B con indicadores de funcionalidades](a-b-testing.md)
 * [Creación de un grupo de funciones](create-a-feature-group.md)

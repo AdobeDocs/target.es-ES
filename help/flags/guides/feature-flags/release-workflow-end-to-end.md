@@ -1,11 +1,12 @@
 ---
 title: Flujo de trabajo de la versión de extremo a extremo
 description: Conozca el flujo de trabajo completo para administrar una versión coordinada en Banderas, desde la definición de indicadores de funcionalidades hasta la puesta en marcha.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
