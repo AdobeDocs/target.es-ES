@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,26 @@ ht-degree: 29%
 Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.7.5 (30 de julio de 2026)
+
+**Actividades**
+
++++Ver detalles
+
+* **Estadísticas bayesianas para [!DNL A/B Test (Manual)] actividades** [!DNL A/B Test (Manual)] actividades ahora admiten estadísticas bayesianas como alternativa a la prueba T de Welch. Elija la metodología estadística en [!UICONTROL Objetivos y configuración]: el informe de una actividad bayesiana muestra métricas de decisión basadas en la probabilidad, como [!UICONTROL Posibilidad de control de pulsaciones], e intervalos creíbles en lugar del intervalo de confianza de la frecuencia. [Más información](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* Informes de **[!DNL Customer Journey Analytics]para [!DNL Auto-Allocate] actividades.** Ahora, las actividades [!DNL Auto-Allocate] pueden usar [!DNL Customer Journey Analytics] como fuente de informes, además de [!DNL Target] y [!DNL Adobe Analytics] (A4T). [Más información](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL Compositor de experiencias visuales] (VEC)**
+
++++Ver detalles
+
+* **No se pueden seleccionar o modificar ofertas de HTML en la actividad.** Se ha corregido un problema que causaba que, al agregar ciertas ofertas de HTML o de Fragmento de experiencia a una actividad, se bloqueara [!UICONTROL Compositor de experiencias visuales], lo que impedía que se seleccionaran o modificaran ofertas. (TGT-55732)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4 (23 de julio de 2026)
 
