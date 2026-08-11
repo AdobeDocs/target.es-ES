@@ -7,21 +7,14 @@ title: ¿Qué se incluye en la versión actual?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ff60ed8b6fedd553d6df67e122a8a0b6520cce9
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 26%
+source-wordcount: 529
+ht-degree: 50%
 
 ---
 
@@ -31,133 +24,33 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
-## [!DNL Target Standard/Premium] 26.7.5 (30 de julio de 2026)
+## [!DNL Target Standard/Premium] 26.8.2 (11 de agosto de 2026)
 
-**Actividades**
+**Públicos**
 
 +++Ver detalles
 
-* **Estadísticas bayesianas para [!DNL A/B Test (Manual)] actividades** [!DNL A/B Test (Manual)] actividades ahora admiten estadísticas bayesianas como alternativa a la prueba T de Welch. Elija la metodología estadística en [!UICONTROL Objetivos y configuración]: el informe de una actividad bayesiana muestra métricas de decisión basadas en la probabilidad, como [!UICONTROL Posibilidad de control de pulsaciones], e intervalos creíbles en lugar del intervalo de confianza de la frecuencia. [Más información](../c-reports/statistical-methodology/statistical-calculations.md)
-
-* Informes de **[!DNL Customer Journey Analytics]para [!DNL Auto-Allocate] actividades.** Ahora, las actividades [!DNL Auto-Allocate] pueden usar [!DNL Customer Journey Analytics] como fuente de informes, además de [!DNL Target] y [!DNL Adobe Analytics] (A4T). [Más información](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+* **No se puede copiar y guardar una modificación de código personalizado en una actividad mediante una audiencia solo de actividad.** Se ha corregido un problema por el cual al copiar una actividad que utilizaba una audiencia solo de actividad se producía el error &quot;ID de audiencia no válidos&quot; después de agregar una modificación de código personalizado. (TGT-55785)
 
 +++
+
+**Localización**
+
++++Ver detalles
+
+* **Caracteres multibyte dañados en la dirección URL de la actividad.** Se ha corregido un problema por el cual los caracteres de bytes múltiples de la dirección URL de la actividad aparecían dañados en el [!UICONTROL Compositor de experiencias visuales] y en la ficha **[!UICONTROL Conflictos]**. (TGT-55708)
+
+* **Mensaje de error no localizado al abrir un diseño eliminado.** Se ha corregido un problema por el cual no se encontraba el recurso **[!UICONTROL solicitado]** mensaje de error no se localizó cuando intentó abrir un diseño que había sido eliminado por otro usuario. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4 de agosto de 2026)
 
 **[!UICONTROL Compositor de experiencias visuales] (VEC)**
 
 +++Ver detalles
 
-* **No se pueden seleccionar o modificar ofertas de HTML en la actividad.** Se ha corregido un problema que causaba que, al agregar ciertas ofertas de HTML o de Fragmento de experiencia a una actividad, se bloqueara [!UICONTROL Compositor de experiencias visuales], lo que impedía que se seleccionaran o modificaran ofertas. (TGT-55732)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.4 (23 de julio de 2026)
-
-**Creación de informes**
-
-+++Ver detalles
-
-* **El gráfico de tasa de conversión no está disponible para una audiencia móvil específica.** Se corrigió un problema en el cual el gráfico [!UICONTROL Tasa de conversión] no se representaba para ciertas audiencias móviles. (TGT-55611)
-
-* El objetivo de conversión **&quot;Visualizó un mbox&quot; no funciona cuando se selecciona en el menú desplegable.** Se ha corregido un problema por el cual al seleccionar un mbox del menú desplegable en [!UICONTROL Objetivos y configuración] para un objetivo de conversión &quot;Visualizó un mbox&quot; se guardaba el nombre del mbox incorrectamente, lo que impedía que se registraran las conversiones. (TGT-55588)
-
-+++
-
-**Públicos**
-
-+++Ver detalles
-
-* **Problema de diseño en la página Biblioteca de audiencias.** Se ha corregido un problema de diseño que había cuando los filtros estaban habilitados en la página [!UICONTROL Biblioteca de audiencias] mientras la navegación lateral estaba colapsada. (TGT-55502)
-
-+++
-
-**[!UICONTROL Compositor de experiencias visuales] (VEC)**
-
-+++Ver detalles
-
-* **La versión móvil no se carga correctamente.** Se ha corregido un problema en el cual el [!UICONTROL Compositor de experiencias visuales] no ofrecía una forma de actualizar, lo que impedía que la vista móvil se cargara correctamente. (TGT-54408)
-
-* **Las acciones de modificación de edición o eliminación no funcionan.** Se ha corregido un problema que impedía editar o eliminar una modificación de la vista [!UICONTROL Editar experiencia]. (TGT-55250)
-
-* **El modo de exploración no responde después de que se cargue la actividad.** Se ha corregido un problema por el cual el modo [!UICONTROL Examinar] dejaba de responder para las experiencias que contenían una modificación, lo que impedía una mayor navegación y creación. (TGT-55306)
-
-* **No se pueden seleccionar elementos dentro de Salesforce LWC (DOM en la sombra).** Se ha corregido un problema en el cual [!UICONTROL Compositor de experiencias visuales] no podía seleccionar elementos anidados dentro de Salesforce Lightning Web Components mediante Shadow DOM, lo que daba como resultado un error de tipo &quot;selector no encontrado&quot;. (TGT-54956)
-
-* **Aparecieron ofertas duplicadas en el [!UICONTROL Compositor de experiencias visuales].** Se ha corregido un problema en el cual las modificaciones y ofertas aparecían duplicadas de forma intermitente en la IU de creación de actividades. (TGT-55685)
-
-+++
-
-**Administración**
-
-+++Ver detalles
-
-* **Se cambió el nombre del asistente de generación de contenido a [!UICONTROL Generar contenido].** Se cambió el nombre de la capacidad de generación de contenido del &quot;Asistente de IA&quot; a [!UICONTROL Generar contenido] en [!DNL Target] superficies de interfaz de usuario. (TGT-55689)
-
-+++
-
-**Recommendations**
-
-+++Ver detalles
-
-* **Recomendaciones basadas en popularidad que usan atributos de perfil.** [!DNL Target] ahora admite la agrupación dinámica de recomendaciones de popularidad, más visitados y más vendidos, según atributos de perfil del visitante como país, idioma preferido o nivel de pertenencia. (TAPER-7614)
-
-* **La colección de recomendaciones no coincide entre [!UICONTROL Colecciones] y la configuración de la actividad.** Se ha corregido un problema por el cual una colección de [!UICONTROL Recommendations] devolvía entidades adicionales que no cumplían los requisitos al visualizarlas desde la configuración de la actividad en comparación con la vista de [!UICONTROL Recommendations] > [!UICONTROL Colecciones]. (TGT-55554)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.2 (16 de julio de 2026)
-
-**Actividades**
-
-+++Ver detalles
-
-* **Información incorrecta del objetivo en la página [!UICONTROL Información general de actividad].** Se ha corregido un problema en el cual la página [!UICONTROL Información general de actividad] para [!DNL Automated Personalization] actividades mostraba objetivos adicionales en lugar del objetivo de optimización. (TGT-55553)
-
-* **Pantalla que no responde al navegar por las páginas en el modo [!UICONTROL Examinar].** Se ha corregido un problema por el cual la pantalla dejaba de responder al navegar entre páginas en modo [!UICONTROL Examinar]. (TGT-55565)
-
-+++
-
-**Página principal**
-
-+++Ver detalles
-
-* **Cambio de interfaz de usuario para [!UICONTROL Principales ejecutantes] y [!UICONTROL Guarda].** Se ha actualizado la interfaz de usuario de los principales ejecutantes y se ha guardado la experiencia. (TGT-54975)
-
-+++
-
-**Públicos**
-
-+++Ver detalles
-
-* **Cadenas sin localizar en el cuadro de diálogo [!UICONTROL Crear script de perfil].** Se corrigió un problema en el cual las cadenas del cuadro de diálogo [!UICONTROL Crear script de perfil] no se localizaban. (TGT-51527)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.1 (9 de julio de 2026)
-
-**Actividades**
-
-+++Ver detalles
-
-* **Visualización de origen incoherente en [!UICONTROL Actividades], [!UICONTROL Audiencias] y [!UICONTROL Ofertas] páginas.** Se ha corregido un problema por el cual el origen se mostraba de forma incoherente en las páginas de [!UICONTROL Actividades], [!UICONTROL Audiencias] y [!UICONTROL Ofertas]. (TGT-55247)
-
-* **Cambios en el origen de la actividad al editar mediante la interfaz de usuario.** Se ha corregido un problema en el cual al editar una actividad a través de la IU se cambiaba el origen de la actividad original. (TGT-55248)
-
-+++
-
-**Públicos**
-
-+++Ver detalles
-
-* **Espacio de trabajo predeterminado incorrecto al editar una audiencia.** Se ha corregido un problema por el que el espacio de trabajo predeterminado era incorrecto después de editar una audiencia. (TGT-55510)
-
-+++
-
-**Creación de informes**
-
-+++Ver detalles
-
-* **Error de descarga de CSV para los informes de mayo.** Se ha corregido un problema por el cual fallaba la descarga de un informe CSV para mayo. (TGT-55524)
+* **Iconos truncados en el panel [!UICONTROL Audiencias de experiencia].** Se ha corregido un problema por el cual los iconos **[!UICONTROL Agregar]** y expandir/contraer se ocultaban o truncaban en el panel **[!UICONTROL Audiencias de experiencia]** durante la creación de la actividad. (TGT-55372)
 
 +++
 
