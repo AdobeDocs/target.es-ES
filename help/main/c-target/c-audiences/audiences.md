@@ -5,19 +5,13 @@ title: ¿Cómo se utiliza la lista de audiencias?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 TQID: https://experienceleague.adobe.com/nILXQc8jdwte7CL1S0v7NDmyeh72N8yeI-gwBP2wz8g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -46,9 +40,11 @@ Para acceder a la lista [!UICONTROL Audiencias], haga clic en **[!UICONTROL Audi
 
 ![[!UICONTROL Lista de audiencias]](assets/audiences_list.png)
 
-La lista [!UICONTROL Audiencias] contiene las audiencias que puede usar en sus actividades. Utilice la lista [!UICONTROL Audiencias] para crear, editar, duplicar, copiar o combinar audiencias. La lista también muestra la fuente en la que se creó la audiencia:
+La lista [!UICONTROL Audiencias] contiene las audiencias que puede usar en sus actividades. Utilice la lista [!UICONTROL Audiencias] para crear, editar, duplicar, copiar o combinar audiencias. Se puede editar cualquier audiencia, incluidas las creadas mediante la API [!DNL Adobe Target] o el [[!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md). La lista también muestra la fuente en la que se creó la audiencia:
 
 * [!DNL Adobe Target]
+* API [!DNL Adobe Target]
+* Servidor MCP [!DNL Adobe Target]
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
@@ -133,4 +129,4 @@ Este vídeo contiene información sobre el uso de las audiencias.
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
