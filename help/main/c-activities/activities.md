@@ -17,9 +17,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -57,7 +57,7 @@ La siguiente tabla le ayuda a comprender varios elementos de la lista [!UICONTRO
 | [!UICONTROL Prioridad] | La prioridad de la actividad.<P>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<P>La interfaz de usuario [!DNL Target] y las opciones de [!UICONTROL Prioridad] varían en función de tu [configuración](/help/main/administrating-target/reporting.md). Puede usar la configuración heredada de [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High], o bien habilitar prioridades específicas de 0 a 999.<P>Para obtener más información acerca de la configuración de prioridad, consulte [Prioridad](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) en *Configuración de actividades* en *Objetivos y configuración*. |
 | [!UICONTROL Propiedad] | Muestra la [propiedad](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) de la actividad.<P>Los permisos de usuario de Enterprise son una característica de [Target Premium](/help/main/c-intro/intro.md#premium). |
 | [!UICONTROL Alza estimada en los ingresos] | Muestra el aumento previsto en ingresos si el 100 % de la audiencia ve la experiencia ganadora.<P>Se calcula mediante la fórmula siguiente:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>El número se redondea con un decimal como máximo si la forma condensada tiene un solo dígito antes del decimal. Por ejemplo: 1,6 millones de dólares, 60 000 dólares, 900 dólares, 8500 dólares, 205 000 dólares<P>En esta columna se muestra &quot;---&quot; para las actividades que no tienen datos suficientes para convocar un concurso ganador o que no tienen una previsión del coste.<P>Para obtener más información, consulte [Alza estimada en ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
-| [!UICONTROL Source] | Muestra dónde se creó la actividad: [!DNL Adobe Target], [API de Adobe Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=es) o [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
+| [!UICONTROL Source] | Muestra dónde se creó la actividad: [!DNL Adobe Target], [API de Adobe Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/overview), [[!DNL Adobe Target] servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=es) o [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
 | [!UICONTROL Autor] | El nombre de la persona que creó la actividad. |
 | [!UICONTROL Método de toma de decisiones] | El método de toma de decisiones usado en cada actividad: [Del lado del servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=es) o [Del lado del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=es). |
 
@@ -91,7 +91,7 @@ El menú permite filtrar las actividades según los atributos siguientes:
 | [!UICONTROL Compositor de experiencias] | Filtre por qué compositor de experiencias se utilizó durante la creación de la actividad:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): muestra las actividades que se crearon con el [!UICONTROL Compositor de experiencias visuales] (VEC).</li><li>[Basado en formularios](/help/main/c-experiences/form-experience-composer.md): muestra las actividades creadas con [!UICONTROL Compositor de experiencias basadas en formularios].</li></ul> |
 | [!UICONTROL Tipo de métrica] | Filtro por el cual se eligió [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md) durante la creación de la actividad.<ul><li>[!UICONTROL Conversión]</li><li>[!UICONTROL Ingresos]</li><li>[!UICONTROL Participación]</li><li>[!UICONTROL Usar una métrica de Analytics]</lI></ul> |
 | [!UICONTROL Método de toma de decisiones] | Filtre por el método de toma de decisiones utilizado en cada actividad.<ul><li>[Lado del servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=es): muestra las actividades que usan la toma de decisiones del lado del servidor.</li><li>[Lado del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=es): muestra las actividades que usan la toma de decisiones del lado del cliente.</li></ul> |
-| [!UICONTROL Activity Source] | Filtre por el origen de actividad utilizado para crear cada actividad.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=es)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL Activity Source] | Filtre por el origen de actividad utilizado para crear cada actividad.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es)</li><li>[[!DNL Adobe Target] Servidor MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=es)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL Propiedad] | Filtre por la [propiedad](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) en la que se creó la actividad. |
 
 
@@ -111,7 +111,7 @@ Las siguientes acciones están disponibles (según los permisos y el estado de l
 
 | Acción | Descripción |
 | --- | --- |
-| [!UICONTROL Editar] | Cambia la actividad. Todas las actividades se pueden editar.<P>Para obtener más información sobre las distintas formas de editar actividades, consulte [Editar una actividad o guardarla como borrador](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Editar] | Cambia la actividad. Se puede editar cualquier actividad, incluidas las actividades creadas mediante la API [!DNL Adobe Target] o el servidor MCP [!DNL Adobe Target].<P>Para obtener más información sobre las distintas formas de editar actividades, consulte [Editar una actividad o guardarla como borrador](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Desactivar] | Detiene una actividad activa o programada. Una actividad desactivada se puede reactivar o archivar.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en ella antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
 | [!UICONTROL Activar] | Inicie una actividad inactiva o una actividad que esté lista para activarse. |
 | [!UICONTROL Archivar] | Enviar la actividad al archivo. De manera predeterminada, las actividades archivadas ya no aparecen en la lista [!UICONTROL Actividades]. Cambie el filtro de la lista [!UICONTROL Actividades] para incluir actividades archivadas y poder verlas. Puede activar una actividad archivada para volver a usarla.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en esa actividad antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
@@ -127,11 +127,11 @@ Tenga en cuenta los siguientes detalles sobre la lista [!UICONTROL Actividad]:
 * Todos los tipos de actividades que no sean [!UICONTROL Automated Personalization] (AP), [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] le dan la opción de usar [!DNL Target] o [!DNL Adobe Analytics] como fuente de datos. [!UICONTROL Automated Personalization], [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] *siempre* usan datos de [!DNL Target].
 * Las actividades están disponibles en varios canales:
 
-   * Sitios web y móviles
-   * Pantallas y dispositivos conectados a Internet, incluidos los quioscos y cajeros automáticos
-   * Correo electrónico y otros canales de adquisición o sitios de socios
-   * Aplicaciones móviles
-   * Cualquier otro sitio donde se pueda publicar contenido etiquetado
+  * Sitios web y móviles
+  * Pantallas y dispositivos conectados a Internet, incluidos los quioscos y cajeros automáticos
+  * Correo electrónico y otros canales de adquisición o sitios de socios
+  * Aplicaciones móviles
+  * Cualquier otro sitio donde se pueda publicar contenido etiquetado
 
 ## Limitaciones {#section_049D4684403A4E07B998067EB8E9BE56}
 

@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ff60ed8b6fedd553d6df67e122a8a0b6520cce9
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 529
-ht-degree: 50%
+source-wordcount: 564
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,16 @@ ht-degree: 50%
 Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.8.3 (13 de agosto de 2026)
+
+**Actividades y audiencias**
+
++++Ver detalles
+
+* **Edición habilitada para actividades y audiencias creadas por API/MCP.** Las actividades y audiencias creadas mediante la API de administración [!DNL Adobe Target] y el MCP [!DNL Target] ahora se pueden editar en la interfaz de usuario de [!DNL Target].
+
++++
 
 ## [!DNL Target Standard/Premium] 26.8.2 (11 de agosto de 2026)
 
