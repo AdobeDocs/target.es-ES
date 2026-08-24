@@ -142,31 +142,31 @@ Obtenga información sobre cómo personalizar en la siguiente visita con [!DNL R
 
 Para obtener más información, consulte [Personalización de próxima visita con Real-Time CDP y Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=es){target=_blank} en la guía de *Tutoriales de Platform*.
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342976?captions=spa&quality=12&learn=on)
 
 ### Vídeo: Configuración de destino de [!DNL Adobe Target] en [!DNL Real-Time Customer Data Platform]
 
 Obtenga información sobre cómo configurar el destino de [!DNL Adobe Target] en [!DNL Real-Time Customer Data Platform] para empezar a enviar segmentos y atributos de perfil desde [!DNL Real-Time CDP] hasta [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449796/?captions=spa&learn=on)
 
 ### Vídeo: Activar segmentos y atributos de perfil
 
 Obtenga información sobre cómo activar segmentos y atributos de perfil de [!DNL Adobe Real-Time Customer Data Platform] hasta [!DNL Adobe Target] para mostrar contenido personalizado en tiempo real en sus sitios web, aplicaciones móviles y otras propiedades digitales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447358/?captions=spa&learn=on)
 
 ### Vídeo: Usar segmentos de [!DNL Real-Time CDP] en [!DNL Target]
 
 Aprenda a utilizar segmentos de [!DNL Real-Time Customer Data Platform] en [!DNL Adobe Target] para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446830/?captions=spa&learn=on)
 
 ### Vídeo: Uso de atributos de perfil de [!DNL Real-Time CDP] en [!DNL Adobe Target]
 
 Aprenda a utilizar los atributos de perfil de [!DNL Adobe Real-Time Customer Data Platform] en [!DNL Adobe Target] para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451896/?captions=spa&learn=on)
 
 ### Blog y vídeo de [!DNL Adobe Target]: personalización mejorada de la misma página
 
