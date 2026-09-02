@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72205
+source-wordcount: 72534
 ht-degree: 48%
 
 ---
@@ -57,6 +57,66 @@ Las notas de la versión se enumeran en orden descendente por mes y año de publ
 >Consulte [Notas de la versión de Target (actual)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) para obtener información sobre las versiones de Target del mes actual (plataforma y Target Standard/Premium).
 
 ## Notas de la versión - 2026
+
+## [!DNL Target Standard/Premium] 26.8.5 (18 de agosto de 2026)
+
+**Recommendations**
+
++++Ver detalles
+
+* **Filtro de valor nulo para exclusiones y colecciones.** Ahora puede usar los operadores **Value is present** y **Value is not present** al definir reglas de exclusión y filtros de colección en [!DNL Recommendations]. (TGT-55790)
+
++++
+
+**[!UICONTROL Compositor de experiencias visuales] (VEC)**
+
++++Ver detalles
+
+* **Los elementos de las métricas de clic no se muestran en el editor VEC después de guardar la actividad.** Se ha corregido un problema por el cual las métricas de clics configuradas anteriormente no se mostraban al editar los objetivos y las métricas de una actividad en [!UICONTROL Compositor de experiencias visuales], a pesar de que las métricas se seguían rastreando correctamente en los informes de actividad. (TGT-55826)
+
+* **Mensaje intermitente &quot;Sin modificaciones&quot; en el VEC.** Se ha corregido un problema por el cual el panel **[!UICONTROL Modificaciones]** mostraba de forma intermitente &quot;Sin modificaciones&quot; para las modificaciones existentes en las actividades activas de Segmentación de experiencias. (TGT-55842)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3 (13 de agosto de 2026)
+
+**Actividades y audiencias**
+
++++Ver detalles
+
+* **Edición habilitada para actividades y audiencias creadas por API/MCP.** Las actividades y audiencias creadas mediante la API de administración [!DNL Adobe Target] y el MCP [!DNL Target] ahora se pueden editar en la interfaz de usuario de [!DNL Target].
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2 (11 de agosto de 2026)
+
+**Públicos**
+
++++Ver detalles
+
+* **No se puede copiar y guardar una modificación de código personalizado en una actividad mediante una audiencia solo de actividad.** Se ha corregido un problema por el cual al copiar una actividad que utilizaba una audiencia solo de actividad se producía el error &quot;ID de audiencia no válidos&quot; después de agregar una modificación de código personalizado. (TGT-55785)
+
++++
+
+**Localización**
+
++++Ver detalles
+
+* **Caracteres multibyte dañados en la dirección URL de la actividad.** Se ha corregido un problema por el cual los caracteres de bytes múltiples de la dirección URL de la actividad aparecían dañados en el [!UICONTROL Compositor de experiencias visuales] y en la ficha **[!UICONTROL Conflictos]**. (TGT-55708)
+
+* **Mensaje de error no localizado al abrir un diseño eliminado.** Se ha corregido un problema por el cual no se encontraba el recurso **[!UICONTROL solicitado]** mensaje de error no se localizó cuando intentó abrir un diseño que había sido eliminado por otro usuario. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4 de agosto de 2026)
+
+**[!UICONTROL Compositor de experiencias visuales] (VEC)**
+
++++Ver detalles
+
+* **Iconos truncados en el panel [!UICONTROL Audiencias de experiencia].** Se ha corregido un problema por el cual los iconos **[!UICONTROL Agregar]** y expandir/contraer se ocultaban o truncaban en el panel **[!UICONTROL Audiencias de experiencia]** durante la creación de la actividad. (TGT-55372)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5 (30 de julio de 2026)
 
@@ -4499,7 +4559,7 @@ Esta versión incluye las siguientes características y mejoras (los números de
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lote móvil y entrega de recuperación previa </p> </td> 
-   <td colname="col2"> <p><b>Actualizado: 12 de octubre de 2017</b> </p> <p> Puede recuperarse previamente contenido de varios mboxes con una sola llamada y guardarlo localmente en el dispositivo sin importar cómo o cuándo lo verá el usuario final. </p> <p>Esta función requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile. </p> <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=es" format="dita" scope="local"> Recuperación previa del contenido de ofertas </a>. </p> </td> 
+   <td colname="col2"> <p><b>Actualizado: 12 de octubre de 2017</b> </p> <p> Puede recuperarse previamente contenido de varios mboxes con una sola llamada y guardarlo localmente en el dispositivo sin importar cómo o cuándo lo verá el usuario final. </p> <p>Esta función requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile. </p> <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Recuperación previa del contenido de ofertas </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Actividades </p> </td> 
