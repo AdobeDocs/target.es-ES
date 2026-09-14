@@ -8,20 +8,24 @@ exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4434
+source-wordcount: '4434'
 ht-degree: 25%
-
 ---
-
 # Basar la recomendación en una clave de recomendación
 
 Las recomendaciones basadas en algoritmos utilizan el contexto de comportamiento del visitante para mostrar resultados relevantes en [!DNL Adobe Target] actividades [!DNL Recommendations].
@@ -44,7 +48,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en diferentes
 
 ## Basado en el carro {#cart-based}
 
-El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios de &quot;[!UICONTROL Recomendado para ti]&quot; y a las &quot;[!UICONTROL Personas que vieron esto, compraron aquello]&quot; y &quot;[!UICONTROL Personas que compraron esto, compraron aquello]&quot;.
 
@@ -185,13 +189,13 @@ A continuación, puede seleccionar qué atributos de perfil almacenados en el pe
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Atributo de perfil"
->abstract="Puede crear un atributo de perfil mediante Scripts de perfil. Una vez que se crea y activa un script de perfil, su atributo de perfil correspondiente se puede utilizar con este algoritmo."
+>abstract="Puede crear un atributo de perfil mediante los scripts de perfil. Una vez creado y activado un script de perfil, su atributo de perfil correspondiente se puede utilizar con este algoritmo."
 
 Recomienda los artículos más vistos agrupados por un atributo de perfil de visitante en lugar de por información de artículo, como hacen [!UICONTROL Más vistos por categoría] y [!UICONTROL Más vistos por atributo de artículo]. [!DNL Target] mantiene una lista clasificada separada por valor de atributo y, a la hora de envío, muestra a cada visitante la lista que coincide con su propio valor almacenado.
 
 Este algoritmo depende de un script de perfil para rellenar el atributo, y el nombre del script debe comenzar con el prefijo `recsAttribute` para que [!DNL Target] lo almacene como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso.
 
-Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/es/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por ejemplo, un script denominado `recsAttributeRegion` que basa las recomendaciones en la región del visitante podría tener el siguiente aspecto:
 
@@ -206,7 +210,7 @@ Una vez que el script se haya creado y activado, la entrada [!UICONTROL Region] 
 
 Recomienda los artículos más vendidos agrupados por un atributo de perfil de visitante en lugar de por información de artículo, como hacen [!UICONTROL Principales vendedores por categoría] y [!UICONTROL Principales vendedores por atributo de artículo]. [!DNL Target] mantiene una lista de los principales vendedores independiente por valor de atributo y, a la hora de envío, muestra a cada visitante la lista que coincide con su propio valor almacenado.
 
-Al igual que con [!UICONTROL Más visitados por atributo de perfil], este algoritmo depende de un script de perfil para rellenar el atributo y el nombre del script debe comenzar con el prefijo `recsAttribute`, de modo que [!DNL Target] lo almacena como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso. Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/es/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Al igual que con [!UICONTROL Más visitados por atributo de perfil], este algoritmo depende de un script de perfil para rellenar el atributo y el nombre del script debe comenzar con el prefijo `recsAttribute`, de modo que [!DNL Target] lo almacena como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso. Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por ejemplo, un script de nombre `recsAttributeLoyaltyTier` que base las recomendaciones en el nivel de fidelidad del visitante podría tener este aspecto:
 
