@@ -8,20 +8,24 @@ exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4434
+source-wordcount: '4434'
 ht-degree: 25%
-
 ---
-
 # Basar la recomendación en una clave de recomendación
 
 Las recomendaciones basadas en algoritmos utilizan el contexto de comportamiento del visitante para mostrar resultados relevantes en [!DNL Adobe Target] actividades [!DNL Recommendations].
@@ -185,7 +189,7 @@ A continuación, puede seleccionar qué atributos de perfil almacenados en el pe
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Atributo de perfil"
->abstract="Puede crear un atributo de perfil mediante Scripts de perfil. Una vez que se crea y activa un script de perfil, su atributo de perfil correspondiente se puede utilizar con este algoritmo."
+>abstract="Puede crear un atributo de perfil mediante los scripts de perfil. Una vez creado y activado un script de perfil, su atributo de perfil correspondiente se puede utilizar con este algoritmo."
 
 Recomienda los artículos más vistos agrupados por un atributo de perfil de visitante en lugar de por información de artículo, como hacen [!UICONTROL Más vistos por categoría] y [!UICONTROL Más vistos por atributo de artículo]. [!DNL Target] mantiene una lista clasificada separada por valor de atributo y, a la hora de envío, muestra a cada visitante la lista que coincide con su propio valor almacenado.
 

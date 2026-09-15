@@ -1,6 +1,6 @@
 ---
 keywords: criterios;algoritmo;sector vertical;tipo de página;clave de recomendación;lógica de recomendación;intervalo de datos;ventana retrospectiva;fuente de datos de comportamiento;diseño parcial;recomendaciones de copia de seguridad;reglas de inclusión;ponderación de atributos;categoría actual;atributo personalizado;último artículo comprado;último artículo visto;artículo más visto;artículo más visto;categoría favorita;popularidad;artículo visto recientemente;último comprado;último visto;más visto;favorito;visto recientemente
-description: Aprenda a crear criterios que controlen el contenido de sus  [!DNL Recommendations] actividades para mostrar las recomendaciones que sean más apropiadas para su actividad.
+description: Aprenda a crear criterios que controlen el contenido de sus actividades [!DNL Recommendations] para mostrar las recomendaciones que sean más apropiadas para su actividad.
 title: ¿Cómo creo [!UICONTROL criterios] en [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
@@ -8,20 +8,24 @@ exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
 source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2984
+source-wordcount: '2985'
 ht-degree: 44%
-
 ---
-
 # Crear criterios
 
 Los criterios de [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controlan el contenido de sus actividades [!UICONTROL Recommendations]. Cree criterios para mostrar las recomendaciones que más se ajusten a su actividad. Estos criterios utilizan las acciones del visitante para determinar qué contenido o productos mostrar.
@@ -79,7 +83,7 @@ Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Atributo de perfil"
->abstract="Puede crear un atributo de perfil mediante scripts de perfil."
+>abstract="Puede crear un atributo de perfil mediante los scripts de perfil."
 
 1. Seleccione un **[!UICONTROL tipo de algoritmo]** y un **[!UICONTROL algoritmo]**:
 
