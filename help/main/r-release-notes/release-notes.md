@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 965473d15c55d4a728ace2f67a5dd0b16a4ef55b
+source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 47%
+source-wordcount: '635'
+ht-degree: 42%
 ---
 # [!DNL Target] Notas de la versión (actuales)
 
 Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.9.4 (17 de septiembre de 2026)
+
+**[!UICONTROL Compositor de experiencias visuales] (VEC)**
+
++++Ver detalles
+
+* El control **[!UICONTROL Insertar antes] no es accesible para [!DNL Experience Fragments] en el elemento de página superior**. En el Compositor de experiencias visuales, al seleccionar el elemento superior de una página, se desplazó la página hacia arriba, lo que hizo que el control **[!UICONTROL Insertar antes]** se representara por encima de la ventanilla visible donde no se pudo seleccionar. (TGT-55829)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.3 (16 de septiembre de 2026)
 
