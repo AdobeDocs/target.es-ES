@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] Notas de la versión (actuales)
 
@@ -100,6 +100,18 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 +++Ver detalles
 
 * **No se puede guardar una actividad al copiar una audiencia solo de actividad**. Cuando una actividad A/B utiliza una regla de audiencia solo de actividad (con ámbito local) y una modificación de código personalizado, al copiarla y guardarla se produce el error &quot;ID de audiencia no válidos&quot;. (TGT-55785)
+
++++
+
+Servidor MCP **[!DNL Adobe Target]: herramientas de Recommendations (Beta público)**
+
++++Ver detalles
+
+El servidor MCP de [!DNL Adobe Target] ahora expone las herramientas de Recommendations, lo que le permite enumerar, inspeccionar, crear y actualizar criterios, colecciones, diseños, promociones y exclusiones, así como buscar en el catálogo de productos directamente desde su asistente de IA.
+
+Esta capacidad requiere un inquilino habilitado para Recommendations con **Target Premium**; no está disponible en cuentas que no sean Premium.
+
+Para obtener más información, vea [Referencia de herramientas del servidor MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 
