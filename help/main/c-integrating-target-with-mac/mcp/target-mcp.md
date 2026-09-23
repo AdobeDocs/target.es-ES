@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1039'
 ht-degree: 0%
-
 ---
-
 # Servidor MCP [!DNL Adobe Target] {#target-mcp}
 
 La integración de MCP [!DNL Adobe Target] le permite inspeccionar, analizar y administrar pruebas A/B y actividades de personalización directamente desde su asistente de IA. Convierta los datos de experimentación y personalización de [!DNL Target] en flujos de trabajo en un lenguaje sencillo: audite su portafolio de experimentos, revise informes de rendimiento, explore audiencias y ofertas, cree actividades y realice actualizaciones sin navegar por la interfaz de usuario ni escribir llamadas a la API.
@@ -48,10 +46,10 @@ El servidor MCP [!DNL Adobe Target] proporciona acceso de lectura y escritura a 
 * **Explorar actividades**: enumera, inspecciona y analiza actividades A/B y XT.
 * **Crear y actualizar actividades**: cree nuevas actividades A/B y de segmentación de experiencias, actualice configuraciones, administre divisiones de tráfico, agregue o elimine variantes y controle el estado de la actividad (activar, pausar, desactivar).
 * **Explorar y administrar audiencias y ofertas**: enumere, inspeccione, cree y actualice audiencias, ofertas de HTML y ofertas JSON.
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **Administrar recomendaciones**: enumera, inspecciona, crea y actualiza criterios, colecciones, diseños, promociones y exclusiones, y busca en el catálogo de productos. Requiere un derecho de Target Premium.
 * **Implementación de auditoría**: revise la configuración de at.js, los tokens de respuesta y el historial de revisiones por entidad.
 
-El servidor MCP [!DNL Adobe Target] expone 41 herramientas en 10 categorías, desde la creación de actividades y la creación de informes hasta la administración de audiencias y las vistas previas de control de calidad. Para obtener la referencia de parámetro completa, vea [Referencia de herramientas del servidor MCP](target-mcp-tools-reference.md).
+El servidor MCP [!DNL Adobe Target] expone 62 herramientas en 11 categorías, desde la creación de actividades y la generación de informes hasta la administración de audiencias, las vistas previas de control de calidad y la configuración de Recommendations. Para obtener la referencia de parámetro completa, vea [Referencia de herramientas del servidor MCP](target-mcp-tools-reference.md).
 
 Para explorar lo que puede hacer con el servidor MCP [!DNL Adobe Target], incluidos tutoriales paso a paso para solicitar información, vea [Casos de uso y tutoriales](target-mcp-use-cases.md).
 
@@ -66,7 +64,7 @@ El servidor MCP [!DNL Adobe Target] está disponible actualmente para **Claude W
 
 +++¿A qué objetos de [!DNL Adobe Target] puedo acceder a través de MCP?
 
-Puede acceder a actividades (A/B, XT, AP), audiencias, ofertas, propiedades, mboxes, tokens de respuesta, configuración de at.js, informes de A4T e historial de revisiones de entidades y gestionarlas. El servidor MCP expone 41 herramientas que abarcan operaciones de lectura y escritura.
+Puede acceder a actividades (A/B, XT, AP), audiencias, ofertas, propiedades, mboxes, tokens de respuesta, configuración de at.js, informes de A4T, historial de revisiones de entidades y configuración de Recommendations y acceder a ellas (criterios, colecciones, diseños, promociones, exclusiones y búsqueda en catálogos). El servidor MCP expone 62 herramientas que abarcan operaciones de lectura y escritura. Las herramientas de Recommendations requieren una asignación de derechos de Target Premium y no están disponibles en cuentas que no sean Premium.
 +++
 
 +++¿Puede el servidor MCP crear o modificar actividades?
