@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # [!DNL Target] Notas de la versión (actuales)
 
@@ -37,6 +37,27 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21 de septiembre de 2026)
+
+### Función
+
+<table>
+<thead>
+<tr>
+<th><strong>Preocultación de contenido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La preocultación de contenido ayuda a reducir el parpadeo de la página al ocultar solo las secciones que la personalización de Adobe Target está a punto de cambiar, lo que proporciona una experiencia más fluida mientras se carga el contenido. Este método evita ocultar la página completa y ayuda a minimizar los esfuerzos de implementación cuando se inician nuevas actividades.</p>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../administrating-target/content-pre-hiding.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras
 
 **[!UICONTROL Analytics for Target]**
 
