@@ -4,20 +4,12 @@ description: Descubra cómo la preocultación de contenido reduce el parpadeo al
 title: Ocultamiento previo del contenido para experiencias personalizadas
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # Ocultamiento previo del contenido para experiencias personalizadas
-
->[!AVAILABILITY]
->
->La ocultación previa de contenido para contenido personalizado está disponible como capacidad **beta**.
 
 Cuando un visitante carga una página, el contenido predeterminado puede aparecer brevemente y luego reemplazarse por contenido personalizado de [!DNL Adobe Target]. Ese interruptor visible se llama a menudo **parpadeo** y es un problema común de experiencia para los programas de personalización.
 
