@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
+source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 34%
+source-wordcount: '874'
+ht-degree: 32%
 ---
 # [!DNL Target] Notas de la versión (actuales)
 
 Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.9.6 (24 de septiembre de 2026)
+
+**[!UICONTROL Compositor de experiencias visuales] (VEC)**
+
++++Ver detalles
+
+* **Redirección sin fin al obtener acceso a una página autenticada mediante SSO a través del Compositor de experiencias visuales**. Cuando la dirección URL de una página cargada en el Compositor de experiencias visuales pasaba por un flujo de redirección de inicio de sesión único/inicio de sesión, el Compositor de experiencias visuales entraba en un bucle de redirección interminable y nunca llegaba a la página deseada. (TGT-56233)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21 de septiembre de 2026)
 
