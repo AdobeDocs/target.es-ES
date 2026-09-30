@@ -6,13 +6,18 @@ short-description: Personalice la experiencia de sus clientes para maximizar los
 title: ¿Qué es Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
+TQID: 'https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -26,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 33%
+ht-degree: 70%
 ---
 # Introducción a [!DNL Target]
 
@@ -37,17 +42,17 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Tráfico diario"
->abstract="Cuántos usuarios entran en el experimento cada día. Si no conoce su tráfico diario, elija \&quot;Volumen de tráfico\&quot; más arriba y la calculadora lo resolverá usando sus otras entradas."
+>abstract="Cuántos usuarios entran en el experimento cada día. Si no conoce su tráfico diario, elija “Volumen de tráfico” más arriba y la calculadora lo resolverá usando sus otras entradas."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
 >title="Configurar la prueba"
->abstract="Estos campos definen la prueba A/B, lo que espera ver y la confianza que necesita en el resultado. El campo vinculado a lo seleccionado anteriormente se resolverá automáticamente. Rellene el resto con los valores esperados."
+>abstract="Estos campos definen la prueba A/B, lo que espera ver y el nivel de confianza que necesita en el resultado. El campo vinculado a lo seleccionado anteriormente se resolverá automáticamente. Rellene el resto con los valores esperados."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
 >title="Número de experiencias"
->abstract="Número de variantes del experimento, incluido el control. Una prueba A/B consta de dos ramas. Cinco variantes más un control es igual a 6. Más armas requieren proporcionalmente más tráfico para mantener el poder estadístico."
+>abstract="Número de variantes del experimento, incluido el control. Una prueba A/B consta de dos ramas. Cinco variantes más un control equivale a 6. Más ramas requieren proporcionalmente más tráfico para mantener el poder estadístico."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_duration"
@@ -57,7 +62,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_minimum_detectable_effect"
 >title="Efecto mínimo detectable"
->abstract="La mejora más pequeña que vale la pena detectar, el cambio mínimo en la métrica con el que actuaría. Es el tamaño del alza en puntos porcentuales, no el cambio porcentual en relación con la línea de base. Por ejemplo, si la línea de base es del 5% y un alza de 1 punto porcentual es importante, escriba 1."
+>abstract="La mejora más pequeña que vale la pena detectar, el cambio mínimo en la métrica con el que actuaría. Es el tamaño del alza en puntos porcentuales, no el cambio porcentual en relación con la línea de base. Por ejemplo, si la línea de base es del 5 % y un alza de 1 punto porcentual es importante, escriba 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
@@ -67,27 +72,27 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Varianza"
->abstract="La dispersión de los valores de la métrica, no su promedio. Una métrica como una tasa de clics (principalmente 0 y 1) tiene una varianza baja, una métrica como los ingresos por usuario (algunos consumidores altos, muchos bajos) puede tener una varianza mucho mayor. Si no está seguro, deje el valor predeterminado de 1."
+>abstract="La dispersión de los valores de la métrica, no su promedio. Una métrica como una tasa de clics (principalmente 0 y 1) tiene una varianza baja. Una métrica como los ingresos por usuario (con unos pocos usuarios que gastan mucho y muchos que gastan poco) puede tener una varianza mucho mayor. Si no lo tiene claro, deje el valor predeterminado de 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Nivel de confianza"
->abstract="Qué tan seguro debe estar de que un resultado no es solo una casualidad aleatoria antes de llamarlo real, el umbral para la relevancia estadística. Un nivel de confianza del 95 % significa que hay como máximo un 5 % de probabilidades de obtener un falso positivo. Los valores más altos reducen los falsos positivos, pero requieren más datos."
+>abstract="El nivel de seguridad que necesita para confirmar que un resultado no es solo una casualidad aleatoria antes de considerarlo real, es decir, el umbral para la relevancia estadística. Un nivel de confianza del 95 % significa que hay como máximo un 5 % de probabilidades de obtener un falso positivo. Los valores más altos reducen los falsos positivos, pero requieren más datos."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="Potencia estadística"
->abstract="La probabilidad de detectar un efecto si realmente existe, la sensibilidad del experimento. 80% de potencia significa que hay un 80% de probabilidad de detectar un efecto real. Una mayor potencia reduce los falsos negativos, pero requiere más tráfico o un tiempo de ejecución más largo."
+>abstract="La probabilidad de detectar un efecto si realmente existe; la sensibilidad del experimento. Un 80 % de potencia significa que hay un 80 % de probabilidad de detectar un efecto real. Una mayor potencia reduce los falsos negativos, pero requiere más tráfico o un tiempo de ejecución más largo."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_traffic_mode"
 >title="Modo de tráfico"
->abstract="Introducción de usuarios al experimento. Continuo: los usuarios introducen diariamente durante la duración del experimento. El tráfico cambia automáticamente hacia variantes con mejor rendimiento a medida que llegan los resultados."
+>abstract="Cómo entran los usuarios en el experimento. Continuo: los usuarios entran diariamente durante el experimento. El tráfico cambia automáticamente hacia variantes con mejor rendimiento a medida que llegan los resultados."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="Tipo de métrica"
->abstract="Qué tipo de métrica está midiendo. Percentage: utilice esta opción para resultados binarios como clics o conversiones, en los que cada usuario hace o no hace algo. Número: Utilícelo para métricas como ingresos o vistas de página, donde el valor puede variar considerablemente de un usuario a otro."
+>abstract="Qué tipo de métrica está midiendo. Porcentaje: utilice esta opción para resultados binarios como clics o conversiones, donde cada usuario hace o no algo. Número: utilice esta opción para métricas como ingresos o visitas de página, donde el valor puede variar considerablemente de un usuario a otro."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_auto_daily_traffic"
@@ -96,33 +101,33 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
->title="Tasa de métrica prevista"
->abstract="Su rendimiento actual antes de que comience el experimento, el promedio del brazo de control. Siempre es obligatorio. En el caso de las métricas de porcentaje, introduzca como porcentaje: si el 5 % de los visitantes hace clic en Comprar hoy, introduzca 5. Para las métricas de recuento, introduzca el valor decimal sin procesar."
+>title="Tasa de métrica de la línea base"
+>abstract="Su rendimiento actual antes de que comience el experimento; el promedio de la rama de control. Siempre es obligatorio. En el caso de las métricas de porcentaje, se introduce como porcentaje: si el 5 % de los visitantes hace clic en Comprar hoy, introduzca un 5. Para las métricas de recuento, introduzca el valor decimal sin procesar."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
 >title="Métrica principal"
->abstract="La métrica principal se extrae automáticamente de la configuración de creación de informes. Para realizar cambios, modifique la métrica de objetivos en Objetivos y configuración."
+>abstract="La métrica principal se extrae automáticamente de la configuración de creación de informes. Para realizar cambios, modifique la métrica de objetivos en Objetivos y Configuración."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_hypothesis"
 >title="Hipótesis"
->abstract="La hipótesis es una afirmación que usted define que explica el resultado esperado del experimento. Incluya una descripción de lo que se está cambiando y dónde, luego indique qué métrica espera cambiar y cómo."
+>abstract="La hipótesis es una afirmación que usted define que explica el resultado esperado del experimento. Incluya una descripción de lo que se está cambiando y dónde. Posteriormente, indique qué métrica espera cambiar y cómo."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Perspectivas"
->abstract="Los datos de experimento son los aprendizajes que encuentra la IA cuando los datos del experimento han alcanzado relevancia estadística."
+>abstract="Las perspectivas de experimento son las lecciones aprendidas por la IA cuando los datos del experimento han alcanzado una relevancia estadística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Oportunidades"
->abstract="Las oportunidades de experimento son ideas de tratamiento sugeridas por IA basadas en patrones de IA encontrados en las capturas de pantalla y resultados de su experimento."
+>abstract="Las oportunidades de experimento son ideas de tratamiento sugeridas por la IA basadas en patrones de IA encontrados en las capturas de pantalla y resultados del experimento."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="Detalles del tratamiento"
->abstract="Los detalles del tratamiento muestran imágenes de cómo se ve un tratamiento cuando un usuario cumple los requisitos para él. Puede revisar estas imágenes para todos los experimentos. Algunos experimentos pueden pedirle que confirme la imagen o que la sustituya si es necesario."
+>abstract="Los detalles del tratamiento muestran imágenes de cómo es un tratamiento cuando un usuario cumple sus requisitos. Puede revisar estas imágenes para todos los experimentos. Algunos experimentos pueden pedirle que confirme la imagen o que la sustituya si es necesario."
 
 [!DNL Adobe Target], parte de [!DNL Adobe Experience Cloud], ofrece herramientas completas para personalizar las experiencias de los clientes en sitios web, sitios móviles, aplicaciones, medios sociales y otros canales digitales.
 
