@@ -82,7 +82,7 @@ Haga clic en el icono [!UICONTROL Notificaciones] ( ![icono Notificaciones](/hel
 
 El panel contiene fichas para [!UICONTROL Solicitudes], [!UICONTROL Notificaciones] y [!UICONTROL Anuncios].
 
-![ Notificaciones ](assets/notifications.png)
+![&#x200B; Notificaciones &#x200B;](assets/notifications.png)
 
 Las secciones siguientes contienen información sobre cada pestaña y cómo configurar las notificaciones y los anuncios:
 

@@ -81,7 +81,7 @@ Para obtener más información, consulte [Informe sobre atributos importantes](/
 
 ### ¿Por qué hay diferencias en los datos entre los informes Nivel de actividad y Nivel de oferta?
 
-**[!UICONTROL Informe de nivel de actividad]**: Las visitas registradas en el informe de nivel de actividad [!UICONTROL 4} capturan el número de visitas a las experiencias de control en comparación con el tráfico &quot;segmentado&quot;. ]El tráfico segmentado incluye una combinación de tráfico de exploración y tráfico personalizado.
+**[!UICONTROL Informe de nivel de actividad]**: Las visitas registradas en el informe de nivel de actividad [!UICONTROL 4&rbrace; capturan el número de visitas a las experiencias de control en comparación con el tráfico &quot;segmentado&quot;. &#x200B;]El tráfico segmentado incluye una combinación de tráfico de exploración y tráfico personalizado.
 
 **Informe de nivel de oferta**: Las impresiones registradas en el informe [!UICONTROL Nivel de oferta] capturan el número de impresiones de cada oferta. Por lo tanto, en una actividad con más de una ubicación, el número total de visitas registradas en el informe [!UICONTROL Nivel de oferta] en todos los grupos de informes es igual al múltiplo del número de visitas registradas para tráfico de control o segmentado en el informe [!UICONTROL Nivel de actividad] multiplicado por el número total de ubicaciones en la actividad. Las impresiones de contenido predeterminado que se producen en ubicaciones donde el contenido predeterminado era una opción disponible se registran en el grupo de ofertas &quot;Contenido predeterminado&quot;. Las impresiones de ofertas que no se han asignado a un grupo de informes se registran en el grupo de ofertas &quot;Desagrupadas&quot;.
 

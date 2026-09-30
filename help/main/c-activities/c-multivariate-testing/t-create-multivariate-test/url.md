@@ -37,7 +37,7 @@ La dirección URL de actividad determina la página que se usa en la [!UICONTROL
 
    Las reglas adicionales pueden basarse en cualquiera de los siguientes aspectos:
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Dominio]
    * [!UICONTROL Ruta]
    * [!UICONTROL Fragmento almohadilla (#)]

@@ -32,7 +32,7 @@ Una actividad manual de [!UICONTROL Prueba A/B] (a veces denominada prueba A/B..
 
 >[!TIP]
 >
->Además de la actividad [!UICONTROL Prueba A/B] manual] (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. [!UICONTROL Consulte [Tipos de actividades de pruebas A/B](#types) más abajo para obtener más información.
+>Además de la actividad [!UICONTROL Prueba A/B] manual (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. Consulte [Tipos de actividades de pruebas A/B](#types) más abajo para obtener más información.
 
 Las pruebas A/B manuales son útiles cuando tiene una hipótesis clara de formas de mejorar el rendimiento de la página en función de métricas de éxito o de una entrega de contenido alternativo.
 

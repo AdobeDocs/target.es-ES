@@ -42,7 +42,7 @@ ht-degree: 28%
 
 >[!TAB Novedades]
 
-Servidor MCP **[!DNL Adobe Target](Beta público)**
+Servidor MCP **[!DNL Adobe Target] (Beta público)**
 
 [!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra las operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP, incluidas Claude, Cursor y ChatGPT.
 
