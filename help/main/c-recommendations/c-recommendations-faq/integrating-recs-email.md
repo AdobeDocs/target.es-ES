@@ -1,24 +1,32 @@
 ---
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
-description: Aprenda a integrar el correo electrónico con la API de entrega de Adobe [!DNL Target Recommendations], including using the [!DNL Target] , las plantillas de rawbox y las plantillas de solo descarga.
+description: Obtenga información sobre cómo integrar el correo electrónico con Adobe [!DNL Target Recommendations], incluido el uso de la API de entrega [!DNL Target], las plantillas rawbox y las plantillas de solo descarga.
 title: ¿Cómo puedo integrar Recommendations con el correo electrónico?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1768
-ht-degree: 87%
-
+source-wordcount: '1772'
+ht-degree: 86%
 ---
-
 # Integrar [!DNL Recommendations] con el correo electrónico
 
 [!DNL Adobe Target] admite la personalización en tiempo de envío de recomendaciones en correos electrónicos.
@@ -114,9 +122,9 @@ El sistema de correo electrónico que utilice debe ser capaz de gestionar las si
 
 * La aplicación del correo electrónico debe buscar ese texto y poder gestionar el error. El proveedor de correo electrónico tiene varias opciones para solventar este problema:
 
-   * Intente realizar otra llamada del servidor inmediatamente (recomendado, tal vez con un contador de intentos).
-   * Envíe ese correo electrónico en concreto y continúe con el siguiente.
-   * Ponga en cola ese correo electrónico en concreto y vuelva ejecutar los correos electrónicos erróneos como un lote al final de la primera ejecución.
+  * Intente realizar otra llamada del servidor inmediatamente (recomendado, tal vez con un contador de intentos).
+  * Envíe ese correo electrónico en concreto y continúe con el siguiente.
+  * Ponga en cola ese correo electrónico en concreto y vuelva ejecutar los correos electrónicos erróneos como un lote al final de la primera ejecución.
 
 ### URL de solicitud de ejemplo
 

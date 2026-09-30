@@ -1,32 +1,44 @@
 ---
 keywords: límite de caracteres;parámetros de mbox;api de entrega por lotes;parámetros de perfil;límites;perfiles integrados;límite;máximo;restricción;carácter;práctica recomendada;id de pedido;total del pedido;id de terceros de mbox;categoría;id de categoría;solución de problemas
-description: Vea una lista de límites de caracteres y otros límites que afectan a las actividades y otros elementos de  [!DNL Adobe Target].
-title: ¿Cuáles son los distintos límites de caracteres, tamaños y de otro tipo en  [!DNL Adobe Target]?
+description: Vea una lista de límites de caracteres y otros límites que afectan a las actividades y otros elementos de [!DNL Adobe Target].
+title: ¿Cuáles son los diversos límites de caracteres, tamaños y de otro tipo de [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+TQID: 'https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: '1772'
 ht-degree: 73%
-
 ---
-
 # Límites
 
 Límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Adobe Target].
@@ -81,17 +93,17 @@ Límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, 
 
   Si un cliente supera las 100 solicitudes de entrega de contenido de [!DNL Target] concurrentes durante una sesión determinada, se bloquearán todas las solicitudes posteriores durante esa sesión de usuario. Dos o más solicitudes se consideran concurrentes si todas se envían al servidor de [!DNL Target] antes de recibir la respuesta de cualquiera de ellas. [!DNL Target] procesa las solicitudes concurrentes de la misma sesión de forma secuencial.
 
-   * **Comportamiento del error**:
+  * **Comportamiento del error**:
 
-      * API de entrega y Mbox por lotes v2:
-         * Código de error: HTTP 420 Too Many Requests
-         * Mensaje de error: “Demasiadas solicitudes con el mismo ID de sesión”
+    * API de entrega y Mbox por lotes v2:
+      * Código de error: HTTP 420 Too Many Requests
+      * Mensaje de error: “Demasiadas solicitudes con el mismo ID de sesión”
 
-      * API de mbox heredada:
-         * Contenido predeterminado con el comentario “Demasiadas solicitudes con el mismo ID de sesión”
+    * API de mbox heredada:
+      * Contenido predeterminado con el comentario “Demasiadas solicitudes con el mismo ID de sesión”
 
-      * at.js:
-         * Contenido predeterminado mostrado
+    * at.js:
+      * Contenido predeterminado mostrado
 
 * **Límite**: 50 mboxes por [!DNL Target] solicitud de mbox de lote de entrega de contenido.
 
@@ -139,8 +151,8 @@ Límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, 
 
 * **Límite de caracteres**: La longitud máxima de caracteres depende del idioma.
 
-   * 15 000 caracteres (un solo valor, uno y dos bytes)
-   * 500 valores, 100 caracteres por valor (varios valores)
+  * 15 000 caracteres (un solo valor, uno y dos bytes)
+  * 500 valores, 100 caracteres por valor (varios valores)
 
   La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para lenguajes con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de 3 bytes como chino, japonés y coreano).
 
@@ -212,9 +224,9 @@ Límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, 
 
   Para llamadas de mbox estándar:
 
-   * Parámetros de mbox: 500 parámetros por mbox.
-   * Parámetros de perfil: 500 parámetros de perfil por mbox.
-   * Otros parámetros (URL, URL de referencia, etc.): 50 por mbox para cada tipo de parámetro.
+  * Parámetros de mbox: 500 parámetros por mbox.
+  * Parámetros de perfil: 500 parámetros de perfil por mbox.
+  * Otros parámetros (URL, URL de referencia, etc.): 50 por mbox para cada tipo de parámetro.
 
   Estos límites se aplican a menos que la solicitud se acorte debido a limitaciones del navegador.
 
@@ -228,25 +240,25 @@ Límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, 
 
   **Lote de mbox v2**:
 
-   * Parámetros de mbox 100
-   * Longitud máxima del nombre del parámetro de mbox 128
-   * El valor del parámetro de mbox no puede ser nulo
-   * Valor del parámetro de mbox 5000
-   * Parámetros de perfil: 50
-   * Longitud máxima del nombre del parámetro de perfil 128
-   * El valor del parámetro del perfil no puede ser nulo
-   * Longitud máxima del valor del parámetro del perfil 256
+  * Parámetros de mbox 100
+  * Longitud máxima del nombre del parámetro de mbox 128
+  * El valor del parámetro de mbox no puede ser nulo
+  * Valor del parámetro de mbox 5000
+  * Parámetros de perfil: 50
+  * Longitud máxima del nombre del parámetro de perfil 128
+  * El valor del parámetro del perfil no puede ser nulo
+  * Longitud máxima del valor del parámetro del perfil 256
 
   **Extremo de API de envíos**:
 
-   * Parámetros de mbox 100
-   * Longitud máxima del nombre del parámetro de mbox 128
-   * El valor del parámetro de mbox no puede ser nulo
-   * Valor del parámetro de mbox 5000
-   * Parámetros de perfil: 50
-   * Longitud máxima del nombre del parámetro de perfil 128
-   * El valor del parámetro del perfil no puede ser nulo
-   * Longitud máxima del valor del parámetro del perfil 256
+  * Parámetros de mbox 100
+  * Longitud máxima del nombre del parámetro de mbox 128
+  * El valor del parámetro de mbox no puede ser nulo
+  * Valor del parámetro de mbox 5000
+  * Parámetros de perfil: 50
+  * Longitud máxima del nombre del parámetro de perfil 128
+  * El valor del parámetro del perfil no puede ser nulo
+  * Longitud máxima del valor del parámetro del perfil 256
 
 ### Direcciones URL de peticiones de mbox
 

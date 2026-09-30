@@ -1,16 +1,23 @@
 ---
 keywords: varios públicos;versiones de experiencias;versiones de experiencias de target
-description: Aprenda a segmentar versiones de la misma experiencia a distintas audiencias en  [!DNL Adobe Target] actividades A/B.
+description: Aprenda a segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B.
 title: ¿Puedo utilizar varias versiones de una experiencia en una actividad A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '609'
 ht-degree: 51%
-
 ---
-
 # Varios públicos de una experiencia en una prueba A/B
 
 Puede segmentar versiones de la misma experiencia a distintas audiencias en [!DNL Adobe Target] actividades A/B. Puede configurar varias audiencias para una experiencia en el [!UICONTROL Compositor de experiencias visuales] (VEC) o en el Compositor de experiencias basadas en formularios.

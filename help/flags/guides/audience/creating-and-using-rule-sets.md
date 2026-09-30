@@ -3,13 +3,14 @@ title: Creación y uso de conjuntos de reglas
 description: Obtenga información sobre cómo crear un conjunto de reglas reutilizables de criterios de contexto de audiencia en Marcas e importarlas en indicadores de características y grupos de características.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
-
 ---
-
 # Creación y uso de conjuntos de reglas {#creating-and-using-rule-sets}
 
 Un conjunto de reglas es una colección reutilizable de criterios de contexto de audiencia. Cree un conjunto de reglas cuando varios indicadores de características o grupos de características necesiten la misma audiencia. A continuación, puede importar el conjunto de reglas en lugar de volver a crear los criterios de audiencia para cada función.

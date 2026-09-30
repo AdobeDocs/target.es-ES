@@ -1,21 +1,24 @@
 ---
 keywords: control de calidad;vista previa;bookmarklet;vínculos de vista previa
-description: Aprenda a usar el bookmarklet Adobe [!DNL Target] QA para forzar [!DNL Target] a liberarlo del modo de control de calidad.
+description: Aprenda a utilizar el bookmarklet QA [!DNL Target] de Adobe para forzar a [!DNL Target] a liberarlo del modo de control de calidad.
 title: ¿Cómo utilizo el bookmarklet de control de calidad de la actividad?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+TQID: 'https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: '274'
 ht-degree: 12%
-
 ---
-
 # Bookmarklet de control de calidad de la actividad
 
 Información para ayudarlo a usar el bookmarklet de control de calidad [!DNL Target] a fin de obligar a [!DNL Target] a liberarlo del modo de control de calidad.

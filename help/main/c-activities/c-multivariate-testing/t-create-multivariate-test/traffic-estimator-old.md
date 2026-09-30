@@ -1,16 +1,20 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Aprenda a utilizar el estimador de tráfico para saber si cuenta con tráfico suficiente para que la actividad de  [!DNL Adobe Target] [!UICONTROL Prueba multivariada] se realice correctamente.
+description: Aprenda a utilizar el estimador de tráfico para saber si cuenta con tráfico suficiente para que la actividad de [!DNL Adobe Target] [!UICONTROL Prueba multivariable] se realice correctamente.
 title: ¿Cuánto tráfico se necesita para una actividad de [!UICONTROL Prueba multivariable] (MVT)?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 51%
-
 ---
-
 # Calcular el tráfico necesario para una actividad [!UICONTROL Prueba multivariable] correcta
 
 Dado que una prueba multivariable compara varias experiencias, es importante conocer cuánto tráfico se requiere para proporcionar resultados significativos. El estimador de tráfico usa datos estadísticos sobre su página y el número de experiencias que se están probando para calcular la cantidad de tráfico y la duración de la prueba necesarios para que la prueba se realice con éxito.

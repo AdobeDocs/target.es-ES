@@ -8,13 +8,23 @@ role: Admin
 level: Intermediate
 solution: Target
 product: Target
-source-git-commit: 882c91244e5dae0977c8a6a1e5878525f497a720
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
-
 ---
-
 # URL INCLUIDAS EN LA LISTA DE PERMITIDOS
 
 Las direcciones URL incluidas en la lista de permitidos definen patrones de direcciones URL de confianza en los que su organización puede crear y ejecutar experiencias de [!DNL Adobe Target], incluso cuando utiliza ofertas remotas o de redireccionamiento. La lista funciona junto con [administración de hosts](/help/main/administrating-target/hosts.md) y [entornos](/help/main/administrating-target/environments.md), pero se aplica específicamente a los patrones de URL de ofertas remotas permitidas y a las validaciones relacionadas.

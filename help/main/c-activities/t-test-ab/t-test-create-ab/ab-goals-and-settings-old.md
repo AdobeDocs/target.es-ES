@@ -1,16 +1,23 @@
 ---
 keywords: configuración de actividad;objetivos y configuración de A/B;configuración de informes;métricas de objetivo;métricas de éxito;métricas de éxito dependientes;métricas adicionales;configuración avanzada;objetivo principal;objetivo;prioridad;duración;solución de informes;públicos para informes;Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica;Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo;notas
 description: Aprenda a utilizar la página [!UICONTROL Objetivos y configuración] para especificar información acerca de los objetivos de una actividad A/B.
-title: ¿Cómo se especifican los objetivos y la configuración en una actividad  [!DNL Target] A/B?
+title: ¿Cómo se especifican los objetivos y la configuración en una actividad A/B de [!DNL Target]?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # Configuración y objetivos
 
 En la página [!UICONTROL Objetivos y configuración] de [!DNL Adobe Target] se especifica información sobre los objetivos de la actividad.
@@ -25,7 +32,7 @@ La sección [!UICONTROL Configuración de actividad] de la página [!UICONTROL O
 |--- |--- |
 | [!UICONTROL Objetivo] | Escriba un objetivo opcional. El objetivo puede ser cualquier información que le ayude a usted y a los integrantes del equipo a identificar la actividad. |
 | [!UICONTROL Prioridad] | Según la configuración, la interfaz de usuario de [!DNL Target] y las opciones de [!UICONTROL Prioridad] varían. Puede usar la configuración heredada de [!UICONTROL Low], [!UICONTROL Medium] o [!UICONTROL High], o bien habilitar prioridades específicas de 0 a 999.<P>La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.<P>Si esta opción no está habilitada en [!UICONTROL Administración] (la predeterminada), especifique una prioridad: [!UICONTROL Baja], [!UICONTROL Medium] o [!UICONTROL Alta].<P>Para habilitar [prioridades específicas](/help/main/administrating-target/reporting.md), haga clic en [!UICONTROL Administración] > [!UICONTROL Informes] y luego coloque la opción [!UICONTROL Habilitar prioridades específicas] en la posición &quot;Activado&quot;. <P>Si esta opción está habilitada, especifique un valor de 0 a 999: 0 = [!UICONTROL bajo] y 999 = [!UICONTROL alto]. <P>Para las actividades creadas en versiones anteriores de [!DNL Target], la prioridad [!UICONTROL Low] se convierte en 0, [!UICONTROL Medium] se convierte en 5 y [!UICONTROL High] se convierte en 10. Si lo necesita, puede ajustar estos valores.<P>Nota: Para deshabilitar esta opción después de usar las prioridades específicas, hay que volver a fijar todas las prioridades en 0, 5 y 10. |
-| Duración | La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora utiliza un reloj de 24 horas, siendo 00:00 la medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo. |
+| Duración | La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo. |
 
 ## [!UICONTROL Configuración de informes] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -54,7 +61,7 @@ Para especificar la configuración avanzada, haga clic en el icono **[!UICONTROL
 
 | Configuración | Descripción |
 |--- |--- |
-| [!UICONTROL ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica?] | Utilice esta opción para contar a alguien como alguien que alcanza la métrica de éxito si anteriormente ha alcanzado una métrica de éxito diferente. Por ejemplo, una conversión de actividad podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión. Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente. Defina ambas (o varias) métricas de éxito antes de poder hacer una dependiente de la otra. La opción [!UICONTROL Añadir dependencia] permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza). Para agregar una dependencia:<ul><li>Después de agregar métricas adicionales, haga clic en [!UICONTROL Configuración avanzada].</li><li>Haga clic en la opción [!UICONTROL Añadir dependencia]:</li><li>Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en [!UICONTROL Alcanzado] para alternar el valor entre [!UICONTROL Alcanzado] y [!UICONTROL &#x200B; No alcanzado].</li><li>Puede editar o eliminar dependencias después de añadirlas.</li></ul> |
+| [!UICONTROL ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica?] | Utilice esta opción para contar a alguien como alguien que alcanza la métrica de éxito si anteriormente ha alcanzado una métrica de éxito diferente. Por ejemplo, una conversión de actividad podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión. Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente. Defina ambas (o varias) métricas de éxito antes de poder hacer una dependiente de la otra. La opción [!UICONTROL Añadir dependencia] permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza). Para agregar una dependencia:<ul><li>Después de agregar métricas adicionales, haga clic en [!UICONTROL Configuración avanzada].</li><li>Haga clic en la opción [!UICONTROL Añadir dependencia]:</li><li>Arrastre y suelte las métricas deseadas del panel izquierdo al panel derecho y, a continuación, haga clic en [!UICONTROL Alcanzado] para alternar el valor entre [!UICONTROL Alcanzado] y [!UICONTROL  No alcanzado].</li><li>Puede editar o eliminar dependencias después de añadirlas.</li></ul> |
 | [!UICONTROL ¿Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo?] | Existen tres opciones para lo que ocurre después de que un visitante alcance la métrica de objetivo:<ul><li>Seleccione [!UICONTROL Aumentar recuento y mantener el usuario en la actividad] para especificar cómo se aumenta el recuento.</li><li>Seleccione [!UICONTROL Aumentar recuento, liberar usuario y permitir la reentrada] para especificar la experiencia que el usuario ve si vuelve a entrar a la actividad.</li><li>Seleccione [!UICONTROL Aumentar recuento, liberar usuario y bloquear su reentrada] para especificar lo que el usuario verá en lugar del contenido de la actividad.</li></ul> |
 | [!UICONTROL ¿Cómo aumentará el recuento?] | Hay tres opciones para el aumento del recuento:<ul><li>[!UICONTROL Una vez por participante]</li><li>[!UICONTROL En cada impresión (excluidas las actualizaciones de páginas)]</li><li>[!UICONTROL En cada impresión]</li></ul> |
 
@@ -80,11 +87,11 @@ Este vídeo incluye información sobre la configuración de las actividades.
 
 (https://video.tv.adobe.com/v/17381?captions=spa)
 
-### Creando pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
+### Creación de pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se ve la configuración de actividades dentro del flujo de trabajo guiado de tres pasos al crear una actividad. Los objetivos y la configuración se discuten a partir de 5:30.
+En este vídeo se ve la configuración de actividades dentro del flujo de trabajo guiado de tres pasos al crear una actividad. Los objetivos y la configuración se describen a partir del minuto 5:30.
 
 * Crear una actividad A/B en Adobe Target
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

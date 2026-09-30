@@ -1,23 +1,31 @@
 ---
 keywords: Recommendations;oferta;previsualización;inicio;estado;criterios;algoritmo
-description: Obtenga información sobre cómo obtener una vista previa de la actividad de Adobe [!DNL Target] Recommendations para garantizar que los resultados estén disponibles antes de iniciar la actividad.
+description: Obtenga información sobre cómo obtener una vista previa de la actividad de Recommendations de Adobe [!DNL Target] para asegurarse de que los resultados estén disponibles antes de iniciar la actividad.
 title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # Vista previa e inicio de su actividad de Recommendations
 
 Después de crear tu actividad [!UICONTROL Recommendations], [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] (XT) que contiene [ofertas de recomendaciones](/help/main/c-recommendations/recommendations-as-an-offer.md), desearás obtener una vista previa de tus recomendaciones para asegurarte de que los resultados estén disponibles antes de iniciar la actividad. [!DNL Target Recommendations] ofrece varias formas de obtener una vista previa de sus recomendaciones.
@@ -110,13 +118,13 @@ El archivo de descarga CSV refleja de forma coherente los resultados generados t
 
 * **Para los algoritmos basados en popularidad (no basados en claves), el archivo incluye:**
 
-   * Una fila de recomendaciones de copia de seguridad con el prefijo * (un asterisco)
-   * Una fila independiente que enumera recomendaciones basadas en la configuración del algoritmo
+  * Una fila de recomendaciones de copia de seguridad con el prefijo * (un asterisco)
+  * Una fila independiente que enumera recomendaciones basadas en la configuración del algoritmo
 
 * **Para algoritmos basados en claves, el archivo incluye:**
 
-   * Una fila de copia de seguridad similar a los algoritmos basados en popularidad
-   * Varias filas en formato de clave-valor, donde la primera entrada es el ID de producto de la clave, seguido de ID de producto separados por comas que representan candidatos de recomendación
+  * Una fila de copia de seguridad similar a los algoritmos basados en popularidad
+  * Varias filas en formato de clave-valor, donde la primera entrada es el ID de producto de la clave, seguido de ID de producto separados por comas que representan candidatos de recomendación
 
 ## Activación de la actividad de Recommendations
 

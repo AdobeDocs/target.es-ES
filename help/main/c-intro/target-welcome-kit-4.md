@@ -1,33 +1,47 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adobe  [!DNL Target]  en sus tareas de prueba y personalización.
+description: Lea sugerencias de nuestro panel de expertos acerca del uso de Adobe [!DNL Target] en sus tareas de prueba y personalización.
 title: ¿Dónde puedo encontrar sugerencias y trucos sobre el uso de Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+TQID: 'https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Audience segmentation
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 73%
-
+source-wordcount: '2961'
+ht-degree: 72%
 ---
-
 # Capítulo 4: Sugerencias sobre el uso de Target
 
 En base a nuestro trabajo con muchos usuarios de [!DNL Target], hemos observado maneras de obtener más valor de su solución de [!DNL Target]. Las distintas sugerencias que se incluyen en este capítulo ofrecen un resumen de estos recursos. Pese a que es posible que no esté listo para usar todas estas ideas de inmediato, manténgase al tanto de esta lista. Cuanto más experiencia adquiera con la solución y cuanto más madure su programa, más útiles le resultarán estas sugerencias para lograr más resultados con [!DNL Target].
@@ -138,11 +152,11 @@ En lugar de desarrollar una prueba de gran tamaño con múltiples variables y de
 
 ![Ilustración de la división de pruebas complejas](/help/main/c-intro/assets/break-complex-tasks.png)
 
-## Sugerencia 14: Maximice el impacto de la prueba realizando pruebas más cerca del final del canal de conversión.
+## Sugerencia 14: Maximice el impacto de la prueba realizando pruebas más cerca del final del embudo de conversión.
 
-Realizar las pruebas lo más cerca posible de la página en la que los visitantes hagan clic para completar su compra, enviar su solicitud o completar la conversión tiende a ofrecer los resultados más impactantes. Los visitantes que llegan al final del canal están más cualificados, han invertido más tiempo y están preparados para realizar compras, por lo que la prueba de perspectivas sobre sus preferencias y sus acciones puede ayudarle a realizar cambios rentables. Dado que las páginas en la ruta de compra son críticas para las tasas de conversión, las pruebas que se realicen en esas páginas deben socializarse con las partes interesadas clave antes de su implementación.
+Realizar las pruebas lo más cerca posible de la página en la que los visitantes hagan clic para completar su compra, enviar su solicitud o completar la conversión tiende a ofrecer los resultados más impactantes. Los visitantes que llegan al final del embudo están más cualificados, han invertido más tiempo y están preparados para realizar compras, por lo que la prueba de perspectivas sobre sus preferencias y sus acciones puede ayudarle a realizar cambios rentables. Dado que las páginas en la ruta de compra son críticas para las tasas de conversión, las pruebas que se realicen en esas páginas deben socializarse con las partes interesadas clave antes de su implementación.
 
-![Ilustración sobre el canal de conversión](/help/main/c-intro/assets/conversion-funnel.png)
+![Ilustración sobre el embudo de conversión](/help/main/c-intro/assets/conversion-funnel.png)
 
 ## Sugerencia 15: Actualice constantemente las pruebas para realizar mejoras de manera iterativa.
 
@@ -169,7 +183,7 @@ Por ejemplo, un cliente de servicios de atención médica de Adobe demostró rec
 Una de las ventajas de configurar las actividades para que utilicen parámetros de control de calidad es que puede compartir esos vínculos con todos los miembros de su equipo. De este modo, se asegurará de que más personas estén al tanto de la actividad y de que no supongan que el sitio no funciona correctamente cuando se topen con una variante de prueba.
 
 Una vez finalizadas las pruebas, la comunicación de los lanzamientos de las campañas, los resultados de las pruebas y, en especial, las lecciones aprendidas, le ayudará a sensibilizar a los demás de los resultados de las pruebas y a despertar su interés. Compartir los resultados con todos los miembros de la organización también evita volver a probar hipótesis. Asimismo, muestra a los demás qué es lo que funciona y les ayuda a cuestionar sus propias ideas sobre lo que funciona a partir de lo que haya averiguado. Es aconsejable preparar una plantilla para utilizarla cada vez que desee compartir conclusiones y aprendizajes clave.
-A continuación, considere la posibilidad de crear un libro compartible o un paquete de Microsoft PowerPoint que capture de forma acumulativa estas lecciones.
+A continuación, considere la posibilidad de crear un libro que se pueda compartir o una presentación de Microsoft PowerPoint que capture todo este conocimiento de manera incremental.
 
 ## Sugerencia 20: Aproveche la funcionalidad móvil para crear actividades móviles más innovadoras.
 

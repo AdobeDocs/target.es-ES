@@ -2,22 +2,29 @@
 keywords: Automated Personalization;aplicación;previsualización;excluir experiencia
 description: Obtenga información sobre cómo obtener una vista previa de cada experiencia en una actividad de [!UICONTROL Automated Personalization] (AP) con el [!UICONTROL Compositor de experiencias visuales] (VEC).
 title: ¿Cómo puedo obtener una vista previa de las experiencias de [!UICONTROL Automated Personalization] en el VEC?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-TQID: https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ
+TQID: 'https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '231'
 ht-degree: 8%
-
 ---
-
 # Previsualizar experiencias en [!UICONTROL actividades de Automated Personalization] en el [!UICONTROL Compositor de experiencias visuales] (VEC)
 
 Dado que las actividades de [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) comparan varias ofertas en una página, resulta útil obtener una vista previa de la página con cada experiencia.

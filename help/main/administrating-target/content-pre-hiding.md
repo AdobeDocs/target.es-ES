@@ -4,7 +4,16 @@ description: Descubra cómo la preocultación de contenido reduce el parpadeo al
 title: Ocultamiento previo del contenido para experiencias personalizadas
 feature: Administration & Configuration
 role: Admin
-source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -47,7 +56,7 @@ La preocultación de contenido está desactivada en la instancia hasta que se ac
 
 1. Haga clic en **[!UICONTROL Guardar]**. Esto aplicará la configuración de administración de parpadeo a la instancia.
 
-1. Una vez habilitado, haga clic en **[!UICONTROL Descargar]** y luego agregue el archivo a la página `<head>` para que se cargue antes de [!DNL at.js] o de [!DNL Web SDK]. Para obtener instrucciones de implementación completas, consulte [Contenido preocultado de SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/prehide-sdk).
+1. Una vez habilitado, haga clic en **[!UICONTROL Descargar]** y luego agregue el archivo a la página `<head>` para que se cargue antes de [!DNL at.js] o de [!DNL Web SDK]. Para obtener instrucciones de implementación completas, consulte [Contenido preocultado de SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 

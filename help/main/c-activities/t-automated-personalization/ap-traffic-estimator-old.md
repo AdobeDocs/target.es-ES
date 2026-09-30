@@ -1,17 +1,24 @@
 ---
 keywords: estimador de tráfico;personalización automatizada;ap;estimar tráfico
-description: Use el  [!DNL Adobe Target] [!UICONTROL Estimador de tráfico] para determinar si cuenta con tráfico suficiente para que la actividad de [!UICONTROL Automated Personalization] se realice correctamente.
+description: Use el [!DNL Adobe Target] [!UICONTROL Estimador de tráfico] para determinar si cuenta con tráfico suficiente para que la actividad de [!UICONTROL Automated Personalization] se realice correctamente.
 title: ¿Cuánto tráfico es necesario para una actividad [!UICONTROL Automated Personalization] correcta?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 9%
-
 ---
-
 # Calcular el tráfico necesario para realizar una prueba con éxito
 
 El [!DNL Adobe Target] [!UICONTROL estimador de tráfico] proporciona comentarios que le permiten saber si tiene tráfico suficiente para que la actividad de [!UICONTROL Automated Personalization] (AP) se realice correctamente.

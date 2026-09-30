@@ -8,7 +8,23 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '3804'
 ht-degree: 14%
@@ -45,7 +61,7 @@ Para obtener instrucciones de configuración completas, consulte [Introducción]
 >
 >Las operaciones de lectura y escritura tienen un ámbito diferente. `get_activity` recupera actividades de todos los tipos (Prueba A/B, Segmentación de experiencias, Automated Personalization, Asignación automática, Prueba multivariable, Recommendations). `update_activity` admite pruebas A/B, segmentación de experiencias y Automated Personalization; las actividades de asignación automática, prueba multivariable y Recommendations son de solo lectura a través del servidor MCP.
 
-| Función | Prueba A/B | Segmentación de experiencias | Automated Personalization | Asignación automática | Prueba multivariable | Recomendaciones |
+| Función | Prueba A/B | Segmentación de experiencias | Automated Personalization | Asignación automática | Prueba multivariable | Recommendations |
 |---|---|---|---|---|---|---|
 | `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -896,7 +912,7 @@ Herramientas de solo lectura para inspeccionar el catálogo de contenido/product
 |---|---|---|
 | Actividad | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Oferta | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| Audiencia | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
+| Público | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Propiedad | 1 | `list_target_properties` |
 | Creación de informes | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
@@ -905,7 +921,7 @@ Herramientas de solo lectura para inspeccionar el catálogo de contenido/product
 | Revisión | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Plantilla | 1 | `list_target_templates` |
-| Recomendaciones | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| Recommendations | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
 | **Total** | **62** | |
 
 ## Recursos relacionados {#tools-related}

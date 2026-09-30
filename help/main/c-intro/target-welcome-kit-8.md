@@ -1,22 +1,29 @@
 ---
 keywords: kit de bienvenida;kit de bienvenida de target;intro;introducción;introducción a
-description: Utilice la plantilla de resultados de resumen ejecutivo para comunicar los éxitos obtenidos con las actividades de Adobe  [!DNL Target] .
-title: ¿Cómo puedo compartir los resultados de mis actividades de  [!DNL Target]  con mi organización?
+description: Utilice la plantilla de resultados de resumen ejecutivo para comunicar los éxitos obtenidos con las actividades de Adobe [!DNL Target].
+title: ¿Cómo puedo compartir los resultados de mis actividades de [!DNL Target] con mi organización?
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-TQID: https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ
+TQID: 'https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 100%
-
+source-wordcount: '218'
+ht-degree: 87%
 ---
-
 # Capítulo 8: Comunicación de los resultados de las actividades
 
 Si ejecuta una actividad y obtiene resultados sorprendentes, debe compartir estos resultados con la organización. Tal vez acaba de conseguir más clientes, aumentar los ingresos, ahorrar dinero al reducir las llamadas al centro de llamadas o aumentar el valor de pedido promedio. Muestre a las partes interesadas lo que puede lograr para el negocio mediante la optimización y la personalización con [!DNL Target].

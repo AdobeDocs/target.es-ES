@@ -1,25 +1,32 @@
 ---
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
-description: Descubra cómo las fuentes importan entidades en  [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente  [!DNL Google Product Search] y  [!DNL Analytics] clasificaciones de productos.
+description: Descubra cómo las fuentes importan entidades en [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo utilizo [!UICONTROL Fuentes] en [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2725
+source-wordcount: '2734'
 ht-degree: 36%
-
 ---
-
 # Fuentes
 
 Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target] [!DNL Recommendations]. Las entidades se pueden enviar mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Adobe Analytics] clasificaciones de productos.
@@ -220,7 +227,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >
@@ -252,10 +259,10 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
      Configuración del servidor FTP admitida:
 
-      * FTP y FTPS deben estar configurados para utilizar FTP pasivo.
-      * En FTPS, configure el servidor para que acepte conexiones de FTPS explícitas.
-      * SFTP no es compatible.
-      * Puede especificar manualmente un puerto en el que iniciar la conexión (por ejemplo, `ftp://ftp.yoursite.com:2121`). Si no especifica un puerto, se utilizará el puerto FTP o FTPS predeterminado.
+     * FTP y FTPS deben estar configurados para utilizar FTP pasivo.
+     * En FTPS, configure el servidor para que acepte conexiones de FTPS explícitas.
+     * SFTP no es compatible.
+     * Puede especificar manualmente un puerto en el que iniciar la conexión (por ejemplo, `ftp://ftp.yoursite.com:2121`). Si no especifica un puerto, se utilizará el puerto FTP o FTPS predeterminado.
 
    * **URL**: Si selecciona [!UICONTROL URL], especifique la URL.
 
@@ -331,15 +338,15 @@ Veamos los siguientes ejemplos:
 
 **Ejemplo 1:**
 
-* Día uno: procesos de fuente diarios a las 9:00 a.m. PST.
-* Día dos: son las 3:30 p. m. y la fuente no se ha ejecutado desde ayer a las 9:00 a. m.
+* Día uno: procesos diarios de alimentación a las 9:00 a.m. PST.
+* Día dos: son las 15:30 y la fuente no se ha ejecutado desde ayer a las 9:00
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace 6 horas y media. 6,5 horas + 24 es un 127 % del plazo de la fuente.
 
 **Ejemplo 2:**
 
-* 1 de enero: procesos de fuente mensuales a las 9:00 a. m. PST.
-* 3 de febrero: son las 10:00 a.m. y la fuente no se ha ejecutado desde hace un mes, un día y una hora.
+* 1 de enero: procesos mensuales de alimentación a las 9:00 a.m. PST.
+* 3 de febrero: son las 10:00 a.m. y la fuente no ha funcionado durante un mes, un día y una hora atrás.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace un día y una hora. Aunque esto es solo [31 + (1/25)]/30 = 1,03 % de la configuración de frecuencia, se ha superado el retraso máximo de un día.
 
@@ -354,7 +361,7 @@ Este vídeo contiene la información siguiente:
 * Explicación del objetivo de las fuentes
 * Explicación del valor de las fuentes
 
->[!VIDEO](https://video.tv.adobe.com/v/33945?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crear una fuente (6:44) ![Insignia de tutorial](/help/main/assets/tutorial.png)
 
@@ -363,4 +370,4 @@ Este vídeo contiene la información siguiente:
 * Configuración de una fuente
 * Qué tipo de fuente utilizar
 
->[!VIDEO](https://video.tv.adobe.com/v/33944?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

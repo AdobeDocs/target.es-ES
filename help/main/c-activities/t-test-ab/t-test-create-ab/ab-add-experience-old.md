@@ -1,16 +1,23 @@
 ---
 keywords: Segmentación;experiencia;añadir experiencia;adición de experiencia
 description: Aprenda a usar el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target].
-title: ¿Cómo agrego experiencias en una actividad  [!DNL Target] A/B?
+title: ¿Cómo añado experiencias en una actividad A/B de [!DNL Target]?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 41%
-
 ---
-
 # Añadir experiencia
 
 El [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) proporciona una interfaz visual para agregar y editar las experiencias en su página.

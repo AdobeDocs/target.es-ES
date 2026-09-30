@@ -1,22 +1,26 @@
 ---
 keywords: mvt;prueba multivariable;informe de contribución de ubicación
-description: Aprenda a utilizar el informe Contribución de ubicación para actividades de Adobe [!DNL Target] [!UICONTROL Segmentación de experiencias] que muestran el rendimiento de cada elemento y cada oferta.
+description: Aprenda a utilizar el informe Contribución de ubicación para las actividades de [!UICONTROL Segmentación de experiencias] de Adobe [!DNL Target] que muestran el rendimiento de cada elemento y cada oferta.
 title: ¿Cómo utilizo el informe de [!UICONTROL contribución de ubicación] para las actividades de [!UICONTROL prueba multivariable]?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
+TQID: 'https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 32%
-
+source-wordcount: '285'
+ht-degree: 35%
 ---
-
 # Informe [!UICONTROL Contribución de ubicación] (MVT)
 
 El informe [!UICONTROL Contribución de ubicación] muestra el rendimiento de cada elemento y cada oferta.
@@ -41,6 +45,6 @@ La segunda tabla proporciona un informe de nivel de oferta. Muestra la tasa de c
 
 ## Vídeo de formación: Crear una prueba MVT
 
-En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. El informe Contribución de ubicación se describe a partir del 8:45.
+En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. El informe Contribución de ubicación se describe a partir del minuto 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

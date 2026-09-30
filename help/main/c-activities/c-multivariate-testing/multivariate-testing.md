@@ -4,21 +4,25 @@ description: Aprenda a usar una [!UICONTROL prueba multivariable] (MVT) en [!DNL
 title: ¿Qué es una [!UICONTROL prueba multivariable]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1473
-ht-degree: 47%
-
+source-wordcount: '1477'
+ht-degree: 48%
 ---
-
 # Información general sobre [!UICONTROL pruebas multivariable]
 
 Una actividad [!UICONTROL Prueba multivariada] (MVT) en [!DNL Adobe Target] compara combinaciones de ofertas en elementos de una página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica. Una actividad [!UICONTROL Prueba multivariada] también ayuda a identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
@@ -98,21 +102,21 @@ Para obtener más consideraciones y prácticas recomendadas, consulte [Práctica
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Tipos de actividades (9:03) ![distintivo de información general](/help/main/assets/overview.png)
+### Tipos de actividades (9:03) ![Distintivo de información general](/help/main/assets/overview.png)
 
-En este vídeo de información general se explican los tipos de actividades disponibles en [!DNL Target]. Las pruebas multivariable se discuten a partir de 4:20.
+En este vídeo de información general se explican los tipos de actividades disponibles en [!DNL Target]. Las pruebas multivariable se describen a partir del minuto 4:20.
 
 * Describe los tipos de actividades incluidas en [!DNL Adobe Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de Target.
+En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL]Target.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

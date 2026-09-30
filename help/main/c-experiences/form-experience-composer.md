@@ -4,21 +4,28 @@ description: Aprenda a utilizar el Compositor de experiencias basadas en formula
 title: ¿Cómo utilizo el Compositor de experiencias basadas en formularios?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
+TQID: 'https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c3941678-bb9e-4bea-bdba-ce89c7d01eba
+    internal-label: Activity tools
+subfeature_v2:
+  - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
+    internal-label: Form based Experience Composer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 988
+source-wordcount: '989'
 ht-degree: 35%
-
 ---
-
 # Compositor de experiencias basadas en formularios
 
 [!DNL Adobe Target] [!UICONTROL Compositor de experiencias basadas en formularios] es una interfaz no visual y de creación de ofertas que resulta útil para crear experiencias para usarlas en [!UICONTROL pruebas A/B], [!UICONTROL Segmentación de experiencias], [!UICONTROL Automated Personalization] y actividades [!UICONTROL Recommendations] cuando el [!UICONTROL Compositor de experiencias visuales] (VEC) no está disponible o su uso no es práctico. Por ejemplo, puede utilizar el Compositor de experiencias basadas en formularios para crear experiencias y ofertas para su envío en correos electrónicos, kioscos y asistentes de voz.
@@ -43,7 +50,7 @@ Si está creando una actividad [!UICONTROL Recommendations], no hay experiencias
 
    Esta pantalla es diferente si está creando una actividad de [!UICONTROL Recommendations]. Las actividades de [!UICONTROL Recommendations] no incluyen experiencias.
 
-1. &#x200B;
+1. 
    1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:

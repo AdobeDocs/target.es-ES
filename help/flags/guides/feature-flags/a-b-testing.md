@@ -4,13 +4,14 @@ description: Obtenga información sobre cómo ejecutar pruebas A/B mediante grup
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
-
 ---
-
 # Pruebas A/B con indicadores de funcionalidades {#a-b-testing}
 
 Las pruebas A/B en los indicadores se realizan con **grupos de características**. Al configurar más de una variante en un grupo de funciones, puede ofrecer distintas versiones de una función a diferentes subconjuntos de la audiencia y comparar los resultados.

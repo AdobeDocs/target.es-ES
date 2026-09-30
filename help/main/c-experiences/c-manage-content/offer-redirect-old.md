@@ -1,16 +1,23 @@
 ---
 keywords: oferta de redireccionamiento;crear oferta de redireccionamientoa;añadir oferta de html;Pasar los parámetros de URL en el redireccionamiento;Pasar mboxSessionId en el redireccionamiento (solo cuando el redireccionamiento va a un dominio diferente)
-description: Aprenda a crear ofertas de redireccionamiento en Adobe [!DNL Target] para que un explorador redirija a una página nueva.
+description: Obtenga información sobre cómo crear ofertas de redireccionamiento en Adobe [!DNL Target] para que un explorador redirija a una página nueva.
 title: ¿Cómo Se Crean Ofertas De Redireccionamiento?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1211'
 ht-degree: 44%
-
 ---
-
 # Crear ofertas de redireccionamiento
 
 Las ofertas de redireccionamiento en [!DNL Adobe Target] hacen que un explorador redirija a una página nueva.

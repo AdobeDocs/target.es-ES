@@ -4,19 +4,26 @@ description: Organizar y optimizar las ofertas de código e imagen en la bibliot
 title: Explorar la administración de contenido en la biblioteca [!UICONTROL Ofertas]
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+TQID: 'https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 11%
-
 ---
-
 # Trabajar con contenido en la biblioteca [!UICONTROL Asset]
 
 Descubra las tareas que puede realizar en los recursos de [!UICONTROL Adobe Target] [!UICONTROL Biblioteca de contenido]. Las tareas incluyen anotar, copiar, eliminar, descargar, editar, compartir y ver propiedades.
@@ -50,21 +57,21 @@ Al ver la página [!UICONTROL Ofertas de imágenes], puede realizar las siguient
 
 * **Carpetas**: seleccione una o varias carpetas en las que realizar las siguientes acciones:
 
-   * Descargar: Descargue la carpeta y su contenido.
-   * Copiar: copie la carpeta y su contenido.
-   * Mover: haga clic en el icono **[!UICONTROL Mover]**; mantenga el mismo nombre para la carpeta o cambie su nombre; haga clic en **[!UICONTROL Seleccionar destino]** para seleccionar la ubicación a la que desea mover la carpeta y, a continuación, haga clic en **[!UICONTROL Mover]**.
-   * Eliminar (vea [Consideraciones al eliminar elementos](#delete).)
+  * Descargar: Descargue la carpeta y su contenido.
+  * Copiar: copie la carpeta y su contenido.
+  * Mover: haga clic en el icono **[!UICONTROL Mover]**; mantenga el mismo nombre para la carpeta o cambie su nombre; haga clic en **[!UICONTROL Seleccionar destino]** para seleccionar la ubicación a la que desea mover la carpeta y, a continuación, haga clic en **[!UICONTROL Mover]**.
+  * Eliminar (vea [Consideraciones al eliminar elementos](#delete).)
 
 * **Ofertas**: seleccione una o más ofertas de imagen en las que realizar las siguientes acciones:
 
-   * [!UICONTROL Compartir]: Comparta la oferta de imágenes con personas o grupos de su organización.
-   * [!UICONTROL Descargar]: Descargue la oferta de imagen para la carpeta y su contenido.
-   * [!UICONTROL Ver propiedades]: vea las propiedades del elemento. No olvide hacer clic en las fichas [!UICONTROL Básico] y [!UICONTROL Avanzado] para ver toda la información disponible. Puede editar las propiedades y agregar más información. Puede agregar información de metadatos, estado de publicación y datos de licencias.
-   * [!UICONTROL Editar]: edite la carpeta u oferta.
-   * [!UICONTROL Anotar]: agregue una nota al recurso. Haga clic en el recurso y, a continuación, seleccione el área donde quiera realizar una anotación y escriba la nota.
-   * [!UICONTROL Copiar]: copie la oferta. Copiar y luego editar la oferta permite crear fácilmente una oferta nueva similar.
-   * [!UICONTROL Mover]: haga clic en el icono [!UICONTROL Mover], navegue hasta la ubicación a la que desee mover la oferta o carpeta y, a continuación, haga clic en **[!UICONTROL Mover]**. Por ejemplo, puede mover una o más carpetas a otra carpeta para crear subcarpetas.
-   * [!UICONTROL Eliminar]: elimine la oferta. Vea [Consideraciones al eliminar elementos](#delete) a continuación para obtener más información.
+  * [!UICONTROL Compartir]: Comparta la oferta de imágenes con personas o grupos de su organización.
+  * [!UICONTROL Descargar]: Descargue la oferta de imagen para la carpeta y su contenido.
+  * [!UICONTROL Ver propiedades]: vea las propiedades del elemento. No olvide hacer clic en las fichas [!UICONTROL Básico] y [!UICONTROL Avanzado] para ver toda la información disponible. Puede editar las propiedades y agregar más información. Puede agregar información de metadatos, estado de publicación y datos de licencias.
+  * [!UICONTROL Editar]: edite la carpeta u oferta.
+  * [!UICONTROL Anotar]: agregue una nota al recurso. Haga clic en el recurso y, a continuación, seleccione el área donde quiera realizar una anotación y escriba la nota.
+  * [!UICONTROL Copiar]: copie la oferta. Copiar y luego editar la oferta permite crear fácilmente una oferta nueva similar.
+  * [!UICONTROL Mover]: haga clic en el icono [!UICONTROL Mover], navegue hasta la ubicación a la que desee mover la oferta o carpeta y, a continuación, haga clic en **[!UICONTROL Mover]**. Por ejemplo, puede mover una o más carpetas a otra carpeta para crear subcarpetas.
+  * [!UICONTROL Eliminar]: elimine la oferta. Vea [Consideraciones al eliminar elementos](#delete) a continuación para obtener más información.
 
 ## Consideraciones al eliminar elementos {#delete}
 

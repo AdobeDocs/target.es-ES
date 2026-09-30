@@ -4,13 +4,14 @@ description: Obtenga información sobre cómo importar indicadores de funcionali
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # Importar indicadores de características {#import-feature-flags}
 
 Las marcas permiten importar marcas de características de una zona protegida (por ejemplo, la zona protegida 1) en otra zona protegida (por ejemplo, la zona protegida 2). Esto evita tener que volver a crear las configuraciones de indicador manualmente y reduce el riesgo de deriva de la configuración entre zonas protegidas.

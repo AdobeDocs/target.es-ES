@@ -4,24 +4,34 @@ description: Aprenda a usar una actividad [!UICONTROL Asignación automática] e
 title: ¿Qué es una actividad de [!UICONTROL asignación automática]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 34%
-
 ---
-
 # Resumen de [!UICONTROL asignación automática]
 
 Una actividad [!UICONTROL Asignación automática] en [!DNL Adobe Target] identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
@@ -94,7 +104,7 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 >
 >Si una actividad solo tiene dos experiencias, ambas recibirán el mismo tráfico hasta que [!DNL Target] encuentre una experiencia ganadora con un 75 % de confianza. En ese momento, dos tercios del tráfico se asignan al ganador y un tercio al perdedor. Después, cuando una experiencia alcanza el 95 % de confianza, el 90 % del tráfico se asigna al ganador y el 10 % al perdedor. [!DNL Target] siempre envía tráfico a la experiencia de &quot;pérdida&quot; para evitar falsos positivos al final (es decir, mantener cierta exploración).
 
-Después de activar una actividad [!UICONTROL Asignación automática], no se permiten las siguientes operaciones desde la interfaz de usuario de Target:
+Después de activar una actividad [!UICONTROL Asignación automática], no se permiten las siguientes operaciones desde la interfaz de usuario de Tar[!DNL]get:
 
 * Cambiar el modo “Asignación del tráfico” a “Manual”
 * Cambiar el tipo de la métrica de objetivo
@@ -134,9 +144,9 @@ A continuación tiene algunos ejemplos de factores que pueden afectar al rendimi
 
   Por ejemplo:
 
-   * &quot;Menos mal que es viernes&quot; genera más conversiones los viernes.
-   * &quot;Empieza el lunes con energía&quot; obtiene más conversiones los lunes.
-   * &quot;Prepárese para un invierno en la costa este&quot; proporciona una mayor conversión en ubicaciones de la costa este o afectadas por el invierno.
+  * &quot;Menos mal que es viernes&quot; genera más conversiones los viernes.
+  * &quot;Empieza el lunes con energía&quot; obtiene más conversiones los lunes.
+  * &quot;Prepárese para un invierno en la costa este&quot; proporciona una mayor conversión en ubicaciones de la costa este o afectadas por el invierno.
 
   El uso de experiencias con relevancia contextual variable puede distorsionar más los resultados de una prueba [!UICONTROL Asignación automática] que de una prueba A/B, ya que esta analiza los resultados a lo largo de un período más largo.
 
@@ -250,11 +260,11 @@ Este vídeo incluye información sobre cómo configurar la asignación de tráfi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Creando pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
+### Creación de pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de Target. [!UICONTROL Asignación automática] se discute a partir del 4:45.
+En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de Target. [!UICONTROL Asignación automática] se discute a partir del minuto 4:45.
 
 * Crear una actividad A/B en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

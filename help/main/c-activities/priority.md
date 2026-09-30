@@ -1,24 +1,28 @@
 ---
 keywords: configuración;prioridad
-description: Aprenda cómo [!DNL Adobe Target] determina qué actividad (o actividades) se enviará a una página de forma diferente en función de qué [!DNL Target] interfaz y de qué función de creación de actividades esté usando.
-title: ¿Cómo  [!DNL Target] asigna prioridad a diferentes actividades?
+description: Descubra cómo [!DNL Adobe Target] determina qué actividad (o actividades) se enviará a una página de forma diferente en función de qué interfaz de [!DNL Target] y de qué función de creación de actividades esté utilizando.
+title: ¿Cómo asigna prioridad [!DNL Target] a las diferentes actividades?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
+TQID: 'https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '991'
 ht-degree: 34%
-
 ---
-
 # Prioridad
 
 [!DNL Adobe Target] determina qué actividad (o actividades) se enviará a una página de forma diferente en función de qué interfaz de [!DNL Target] y de qué función de creación de actividades ([[!UICONTROL Compositor de experiencias visuales (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md)) esté usando.

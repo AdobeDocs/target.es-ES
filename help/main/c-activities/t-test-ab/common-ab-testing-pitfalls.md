@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;errores;inconvenientes;error;inconvenientes;relevancia;ganador;diferencia estadística;potencia estadística;asignación de tráfico;asignación;asignación
-description: Aprenda a evitar los inconvenientes y errores más comunes que las empresas cometen al realizar pruebas A/B en  [!DNL Adobe Target]  y otras soluciones de pruebas.
+description: Aprenda a evitar los inconvenientes y errores más comunes que las empresas cometen al realizar pruebas A/B en [!DNL Adobe Target] y otras soluciones de pruebas.
 title: ¿Cómo evito errores comunes de pruebas A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # Diez dificultades comunes de las pruebas A/B y cómo evitarlas
 
 Las pruebas A/B en [!DNL Adobe Target] constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. En este artículo se describen diez de los inconvenientes más importantes a los que se enfrentan las empresas al realizar pruebas A/B. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
@@ -104,9 +112,9 @@ Las pruebas unidireccionales se pueden ver cómo llevar a juicio una oferta con 
 
 ## Escollo 5: Monitorizar las pruebas {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Habitualmente, los especialistas en marketing supervisan las pruebas A/B hasta que se obtiene un resultado relevante. Al fin y al cabo, ¿para qué hacer pruebas cuando se ha alcanzado una relevancia estadística?
+Habitualmente, los especialistas en marketing monitorizan las pruebas A/B hasta que se obtiene un resultado relevante. Al fin y al cabo, ¿para qué hacer pruebas cuando se ha alcanzado una relevancia estadística?
 
-Lamentablemente, no es tan sencillo. No queremos complicar las cosas, pero lo cierto es que supervisar los resultados influye negativamente en la relevancia estadística real de la prueba. De hecho, aumenta en gran medida la probabilidad de falsos positivos y disminuye la fiabilidad de los intervalos de confianza.
+Lamentablemente, no es tan sencillo. No queremos complicar las cosas, pero lo cierto es que monitorizar los resultados influye negativamente en la relevancia estadística real de la prueba. De hecho, aumenta en gran medida la probabilidad de falsos positivos y disminuye la fiabilidad de los intervalos de confianza.
 
 Esto puede resultar confuso. Parece que decimos que solo por mirar los resultados a mitad de la prueba, estos pierden su relevancia estadística, pero no es exactamente así. En el ejemplo siguiente vemos por qué.
 
@@ -150,7 +158,7 @@ Si no dejamos que una prueba se ejecute durante el tiempo suficiente, pueden suc
 
 Para averiguar si el rendimiento de la oferta nueva es inferior por el efecto de la novedad o porque en realidad es peor, puede segmentar a los visitantes en visitantes nuevos y visitantes que regresan para después comparar las tasas de conversión. Si solo es el efecto de la novedad, la oferta nueva ganará entre los visitantes nuevos. A la larga, cuando los visitantes que regresan se vayan acostumbrando a los nuevos cambios, la oferta también ganará entre estos.
 
-El efecto de la novedad también puede funcionar a la inversa. Los visitantes suelen reaccionar de forma positiva a un cambio solo porque introduce algo nuevo. Pasado un tiempo, cuando el contenido se queda anticuado o ya no le resulta tan interesante al visitante, la tasa de conversión cae. Este efecto es más difícil de identificar, pero supervisar minuciosamente los cambios en la tasa de conversión es fundamental para detectarlo.
+El efecto de la novedad también puede funcionar a la inversa. Los visitantes suelen reaccionar de forma positiva a un cambio solo porque introduce algo nuevo. Pasado un tiempo, cuando el contenido se queda anticuado o ya no le resulta tan interesante al visitante, la tasa de conversión cae. Este efecto es más difícil de identificar, pero monitorizar minuciosamente los cambios en la tasa de conversión es fundamental para detectarlo.
 
 ## Escollo 9: No tener en cuenta las diferencias en el periodo de consideración {#section_B166731B5BEE4E578816E351ECDEA992}
 
@@ -166,7 +174,7 @@ Si quiere evitar este escollo, debe dejar un tiempo para que los visitantes que 
 
 ## Escollo 10: Usar métricas que no reflejan los objetivos comerciales {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-Los especialistas en marketing pueden sentir la tentación de usar métricas de conversión de tráfico elevado y varianza baja en el canal superior, como la tasa de pulsaciones (CTR), para alcanzar con mayor rapidez un número adecuado de conversiones de prueba. No obstante, debemos pensar muy bien si la CTR es un medio apropiado para el objetivo comercial que deseamos conseguir. Las ofertas con mayores cifras de CTR pueden conducir fácilmente a una caída de los ingresos. Esto puede ocurrir cuando las ofertas atraen a visitantes con menor propensión a comprar o cuando la propia oferta (un descuento, por ejemplo) supone, de por sí, unos ingresos menores.
+Los especialistas en marketing pueden sentir la tentación de usar métricas de conversión de tráfico elevado y varianza baja en el embudo superior, como la tasa de pulsaciones (CTR), para alcanzar con mayor rapidez un número adecuado de conversiones de prueba. No obstante, debemos pensar muy bien si la CTR es un medio apropiado para el objetivo comercial que deseamos conseguir. Las ofertas con mayores cifras de CTR pueden conducir fácilmente a una caída de los ingresos. Esto puede ocurrir cuando las ofertas atraen a visitantes con menor propensión a comprar o cuando la propia oferta (un descuento, por ejemplo) supone, de por sí, unos ingresos menores.
 
 ![imagen pitfalls6](assets/pitfalls6.png)
 

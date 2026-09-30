@@ -1,17 +1,24 @@
 ---
 keywords: Recommendations;oferta;previsualización;inicio;estado;criterios;algoritmo
-description: Obtenga información sobre cómo obtener una vista previa de la actividad de Adobe [!DNL Target] Recommendations para garantizar que los resultados estén disponibles antes de iniciar la actividad.
+description: Obtenga información sobre cómo obtener una vista previa de la actividad de Recommendations de Adobe [!DNL Target] para asegurarse de que los resultados estén disponibles antes de iniciar la actividad.
 title: ¿Cómo puedo obtener una vista previa e iniciar una actividad de Recommendations?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1445'
 ht-degree: 14%
-
 ---
-
 # Vista previa e inicio de su actividad de Recommendations
 
 Después de crear tu actividad [!UICONTROL Recommendations], [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] (XT) que contiene [ofertas de recomendaciones](/help/main/c-recommendations/recommendations-as-an-offer.md), desearás obtener una vista previa de tus recomendaciones para asegurarte de que los resultados estén disponibles antes de iniciar la actividad. [!DNL Target Recommendations] ofrece varias formas de obtener una vista previa de sus recomendaciones.

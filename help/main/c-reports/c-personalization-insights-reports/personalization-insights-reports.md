@@ -2,30 +2,39 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;informes de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes;atributos importantes
 description: 'Aprenda a utilizar los informes especializados para las actividades de Automated Personalization (AP) y Segmentación automática (AT): Segmentos automatizados y Atributos importantes.'
 title: ¿Cómo utilizo los informes de Personalization Insights?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1023
+source-wordcount: '1023'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Informes de Personalization Insights]
 
 Hay disponibles dos informes especializados para los usuarios de las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT): los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes].
@@ -38,23 +47,23 @@ Tenga en cuenta lo siguiente al usar [!UICONTROL Personalization Insights] infor
 
 * Los informes de [!UICONTROL Personalization Insights] solo están disponibles para las actividades AP y AT que están configuradas de la siguiente manera:
 
-   * Informes de [!DNL Target] > [!UICONTROL Conversión]
+  * Informes de [!DNL Target] > [!UICONTROL Conversión]
 
-     Por ejemplo:
+    Por ejemplo:
 
-     ![Informes de Target > Conversión](/help/main/c-reports/assets/conversion.png)
+    ![Informes de Target > Conversión](/help/main/c-reports/assets/conversion.png)
 
-   * Informes de [!DNL Analytics] > [!DNL Conversion]
+  * Informes de [!DNL Analytics] > [!DNL Conversion]
 
-     Por ejemplo:
+    Por ejemplo:
 
-     ![Informes analíticos > Conversión](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![Informes analíticos > Conversión](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
-   * Informes de [!DNL Analytics] > [!UICONTROL Usar una métrica de Analytics] > [!UICONTROL Maximizar tasa de conversión de visitas]
+  * Informes de [!DNL Analytics] > [!UICONTROL Usar una métrica de Analytics] > [!UICONTROL Maximizar tasa de conversión de visitas]
 
-     Por ejemplo:
+    Por ejemplo:
 
-     ![Usar una métrica de Analytics > Maximizar tasa de conversión de visitas](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    ![Usar una métrica de Analytics > Maximizar tasa de conversión de visitas](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * Tampoco se admiten las actividades en las que el objetivo de optimización se cambió a la conversión de ingresos después de que la actividad ya estaba activa.
 
@@ -108,7 +117,7 @@ Los modelos [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentaci
 
 ## Vídeo de formación: Uso de los informes de Personalization Insights ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328108?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Para obtener más información, consulte [Uso de los informes de Personalization Insights en Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

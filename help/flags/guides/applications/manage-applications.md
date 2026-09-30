@@ -4,13 +4,14 @@ description: Obtenga información sobre cómo administrar aplicaciones en Bander
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 3%
-
 ---
-
 # Administrar aplicaciones {#manage-applications}
 
 Una **aplicación** en Flags representa el servicio o producto que desea controlar con indicadores de características. Para poder crear indicadores de características, debe incorporar al menos una aplicación a la consola.

@@ -1,21 +1,27 @@
 ---
 keywords: varios valores;atributos;recomendaciones;varios valores;varios valores;varios valores
-description: Aprenda a trabajar con un campo multivalor en  [!DNL Target Recommendations] usando operadores especiales de varios valores.
+description: Aprenda a trabajar con un campo de varios valores en [!DNL Target Recommendations] mediante operadores especiales de varios valores.
 title: ¿Puedo utilizar atributos de varios valores en Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-TQID: https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE
+TQID: 'https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 470
+source-wordcount: '471'
 ht-degree: 8%
-
 ---
-
 # Trabajo con atributos de varios valores
 
 A veces, es posible que desee trabajar con un campo de varios valores. Veamos los siguientes ejemplos:

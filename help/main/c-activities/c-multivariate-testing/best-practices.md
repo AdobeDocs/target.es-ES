@@ -4,18 +4,21 @@ description: Obtenga información sobre cómo mejorar el rendimiento, evitar pro
 title: ¿Qué prácticas recomendadas para una actividad de [!UICONTROL Prueba multivariable]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 55%
-
 ---
-
 # Prácticas recomendadas de [!UICONTROL Prueba multivariable]
 
 Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas conocidos que podrían producirse al crear y ejecutar actividades de [!UICONTROL Prueba multivariada] (MVT) en [!DNL Adobe Target].
@@ -62,11 +65,11 @@ Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas c
 
   Las acciones específicas que restablecen los nombres y los informes de las experiencias incluyen:
 
-   * Añadir una nueva ubicación
-   * Eliminar una ubicación
-   * Añadir nuevas ofertas o eliminar ofertas de una ubicación existente
-   * Editar ofertas de texto enriquecido
-   * Editar ofertas de color de fondo
+  * Añadir una nueva ubicación
+  * Eliminar una ubicación
+  * Añadir nuevas ofertas o eliminar ofertas de una ubicación existente
+  * Editar ofertas de texto enriquecido
+  * Editar ofertas de color de fondo
 
 * Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 

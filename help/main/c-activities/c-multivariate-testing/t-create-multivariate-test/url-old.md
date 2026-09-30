@@ -1,16 +1,20 @@
 ---
 keywords: Pruebas multivariable;URL de actividad
-description: Aprenda a especificar la dirección URL de la actividad que determina la página que se usa en la prueba y que se abre cuando se diseña la actividad [!UICONTROL Prueba multivariable] con [!DNL Adobe Target].
+description: Aprenda a especificar la dirección URL de la actividad que determina la página que se usa en la prueba y que se abre cuando la actividad [!UICONTROL Prueba multivariable] está diseñada con [!DNL Adobe Target].
 title: ¿Cuál es la dirección URL de actividad en una actividad de [!UICONTROL prueba multivariable] (MVT)?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 45%
-
 ---
-
 # Dirección URL de actividad
 
 La dirección URL de actividad determina la página que se usa en la [!UICONTROL prueba multivariada] (MVT) y que se abre cuando se diseña la prueba en [!DNL Adobe Target].

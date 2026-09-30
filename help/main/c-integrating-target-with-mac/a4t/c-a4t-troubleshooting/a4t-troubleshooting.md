@@ -1,28 +1,35 @@
 ---
 keywords: servidor de seguimiento de analytics;A4T;segmentos de analytics;grupos de informes;datos incorrectos;huérfanos;sdid;VisitorAPI.js;mboxMCSDID;fantasma;sin especificar
-description: Explorar los problemas comunes que los clientes han encontrado al usar Analytics for  [!DNL Target]  (A4T).
-title: ¿Cómo puedo solucionar problemas de integración de Analytics y  [!DNL Target]  (A4T)
+description: Explorar problemas comunes que los clientes han encontrado al usar Analytics para [!DNL Target] (A4T).
+title: ¿Cómo puedo solucionar problemas de integración de Analytics y [!DNL Target] (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+TQID: 'https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 965
-ht-degree: 89%
-
+source-wordcount: '966'
+ht-degree: 87%
 ---
-
 # Solución de problemas de la integración de Analytics y [!DNL Target] (A4T)
 
 Este tema cubre algunos problemas comunes que se han encontrado al usar [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T).
@@ -35,9 +42,9 @@ Existen varias razones por las que los datos se muestran como “sin especificar
 
   Los informes suelen tardar entre 24 y 72 horas en clasificarse después del primer guardado.
 
-* El grupo de informes no contiene datos, pero [!DNL Target] ha intentado clasificar las visitas. [!DNL Target] no puede clasificar los datos hasta que no se efectúa la primera visita.
+* El grupo de informes no contiene datos, pero [!DNL Target] ha intentado clasificar los hits. [!DNL Target] no puede clasificar los datos hasta que no se produce el primer hit.
 
-  Compruebe que el grupo de informes ha recibido al menos una visita.
+  Compruebe que el grupo de informes ha recibido al menos un hit.
 
 * La llamada de clasificación realizada de [!DNL Target] a [!DNL Analytics] ha fallado.
 

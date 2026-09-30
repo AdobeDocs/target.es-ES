@@ -1,16 +1,23 @@
 ---
 keywords: AB;A/B;AB...n;comparar experiencias;Segmentación;comparar contenido;Segmentación automática;Asignación automática
-description: 'Obtenga información acerca de los distintos tipos de actividades de prueba A/B en Adobe [!DNL Target] : manual, asignación automática y segmentación automática. Elija el que sea adecuado para usted.'
+description: 'Obtenga información acerca de los distintos tipos de actividades de prueba A/B en Adobe [!DNL Target]: manual, asignación automática y segmentación automática. Elija el que sea adecuado para usted.'
 title: ¿Qué tipo de actividades A/B hay disponibles en Target?
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
-
 ---
-
 # Información general sobre las pruebas A/B
 
 Una actividad manual [!UICONTROL Prueba A/B] compara dos o más versiones del contenido de tu sitio web para ver cuál mejora más tus conversiones durante un período de prueba previamente establecido.
@@ -66,4 +73,4 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

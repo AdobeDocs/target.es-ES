@@ -4,13 +4,14 @@ description: Obtenga información sobre cómo seleccionar la zona protegida de A
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 7%
-
 ---
-
 # Resumen de los entornos {#environments-overview}
 
 Banderas se basa en Adobe Experience Platform. Antes de trabajar con indicadores de funcionalidades, seleccione la zona protegida que corresponda a su entorno actual, tal como lo haría en cualquier otra aplicación de Adobe Experience Platform.

@@ -1,16 +1,23 @@
 ---
 keywords: biblioteca de contenido;recursos;anotar;copiar;eliminar recurso;descargar recurso;editar contenido;compartir tarjeta;ver propiedades de contenido
-description: Obtenga información sobre cómo administrar ofertas de código e imagen en la biblioteca de ofertas de Adobe [!DNL Target] Ofertas. Obtenga información sobre cómo ver los detalles de una oferta y cómo editar, copiar, mover o eliminar ofertas.
+description: Obtenga información sobre cómo administrar ofertas de código e imagen en la biblioteca de ofertas de Adobe [!DNL Target]. Obtenga información sobre cómo ver los detalles de una oferta y cómo editar, copiar, mover o eliminar ofertas.
 title: ¿Cómo se trabaja con contenido en la biblioteca de ofertas?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # Trabajar con contenido en la biblioteca de recursos
 
 Información sobre las tareas que puede realizar en un recurso de la biblioteca de contenido de [!DNL Adobe Target], incluidas las tareas de anotación, copia, eliminación, descarga, edición, uso compartido y visualización de propiedades.
@@ -55,19 +62,19 @@ La siguiente ilustración muestra los iconos de desplazamiento al ver la [!UICON
 
 * **Seleccionar**: seleccione una o varias carpetas en las que realizar las siguientes acciones:
 
-   * Descargar
-   * Copiar
-   * Mover
-   * Eliminar (vea [Consideraciones al eliminar elementos](#delete).)
+  * Descargar
+  * Copiar
+  * Mover
+  * Eliminar (vea [Consideraciones al eliminar elementos](#delete).)
 
   Seleccione una o varias ofertas de imágenes en las que realizar las siguientes acciones:
 
-   * Compartir
-   * Descargar
-   * Ver propiedades
-   * Editar
-   * Anotar
-   * Mover
+  * Compartir
+  * Descargar
+  * Ver propiedades
+  * Editar
+  * Anotar
+  * Mover
 
 * **Descargar**: Descargue la oferta de imagen para la carpeta y su contenido.
 * **Ver propiedades**: vea las propiedades del elemento. No olvide hacer clic en las fichas [!UICONTROL Básico] y [!UICONTROL Avanzado] para ver toda la información disponible. Haga clic en el icono con forma de lápiz en la página de propiedades para editar las propiedades y agregar más información. Puede agregar información de metadatos, estado de publicación y datos de licencias.
@@ -86,7 +93,7 @@ La siguiente ilustración muestra los iconos de desplazamiento al ver la [!UICON
 
 Este vídeo incluye información sobre la administración de contenido. (4:56)
 
-* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=es) y la biblioteca de contenido de Target
+* Conexión entre la [biblioteca de activos de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) y la biblioteca de contenido de Target
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 

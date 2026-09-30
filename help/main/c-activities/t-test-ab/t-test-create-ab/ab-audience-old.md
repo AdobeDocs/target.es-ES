@@ -1,16 +1,23 @@
 ---
 keywords: público;seleccionar público;elegir público;selectores
-description: La audiencia determina qué visitantes del sitio participan en su actividad de Adobe [!DNL Target] s.
-title: ¿Cómo selecciono una audiencia en una actividad  [!DNL Target] A/B?
+description: La audiencia determina qué visitantes del sitio participan en su actividad de Adobe [!DNL Target].
+title: ¿Cómo selecciono una audiencia en una actividad A/B de [!DNL Target]?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 66%
-
+source-wordcount: '440'
+ht-degree: 65%
 ---
-
 # Seleccionar el público
 
 La audiencia determina qué visitantes del sitio participan en su actividad [!DNL Adobe Target].
@@ -58,7 +65,7 @@ La audiencia determina qué visitantes del sitio participan en su actividad [!DN
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Uso de audiencias en Adobe Target (6:21) ![distintivo de información general](/help/main/assets/overview.png)
+### Uso de audiencias en Adobe Target (6:21) ![Distintivo de información general](/help/main/assets/overview.png)
 
 En este vídeo se describe cómo usar los públicos en [!DNL Target Standard/Premium].
 
@@ -68,7 +75,7 @@ En este vídeo se describe cómo usar los públicos en [!DNL Target Standard/Pre
 * Dirigir una actividad a una audiencia
 * Usar audiencias para la creación pasiva de informes en una actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30132?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### Flujo de trabajo de actividad - Segmentación (2:14) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 

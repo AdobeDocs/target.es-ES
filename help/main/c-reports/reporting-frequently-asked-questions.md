@@ -1,30 +1,39 @@
 ---
 keywords: resolución de problemas;discrepancias entre métricas;preguntas más frecuentes;informes;nuevo visitante;nuevos visitantes;visitante que regresa;visitantes que regresan;visita de retorno;nueva visita
-description: Explore una lista de preguntas frecuentes y sus respuestas acerca de los informes de Adobe [!DNL Target] s.
-title: ¿Dónde puedo encontrar respuestas a preguntas acerca de la creación de informes de  [!DNL Target] ?
+description: Explore una lista de preguntas frecuentes y sus respuestas acerca de los informes de Adobe [!DNL Target].
+title: ¿Dónde puedo encontrar respuestas a preguntas acerca de los informes de [!DNL Target]?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
+TQID: 'https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 24%
-
+source-wordcount: '1393'
+ht-degree: 23%
 ---
-
 # Preguntas más frecuentes sobre la creación de informes
 
 Lista de las preguntas más frecuentes sobre los informes en [!DNL Adobe Target].
@@ -139,6 +148,6 @@ Por ejemplo, he establecido la división de tráfico en 50/50 o 25/25/25/25, per
 * La práctica recomendada para las pruebas A/B y MVT es mantener las divisiones de tráfico igualadas. Cambiar la distribución del tráfico entre experiencias (por ejemplo, de 90/10 a 50/50) durante una prueba puede generar visitantes desiguales entre experiencias. Es posible que la experiencia de menor tráfico nunca &quot;se ponga al día&quot;.
 * Si está siguiendo las prácticas recomendadas anteriores y la división del tráfico no se normaliza con el tiempo, debe comprobar lo siguiente:
 
-   * ¿Está utilizando la biblioteca at.js más reciente? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte [Detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
+  * ¿Está utilizando la biblioteca at.js más reciente? Para obtener más información sobre la versión actual y las notas de la versión asociadas, consulte [Detalles de la versión de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es){target=_blank}.
 
-   * ¿Es una prueba de redirección? La activación incorrecta de etiquetas en la página puede provocar divisiones de tráfico desiguales, especialmente cuando se usa [!DNL Analytics] como origen de datos para una actividad [!DNL Target]. Para obtener más información sobre cómo solucionar la distribución desigual del tráfico en una actividad de redireccionamiento con Analytics for Target (A4T), consulte [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+  * ¿Es una prueba de redirección? La activación incorrecta de etiquetas en la página puede provocar divisiones de tráfico desiguales, especialmente cuando se usa [!DNL Analytics] como origen de datos para una actividad [!DNL Target]. Para obtener más información sobre cómo solucionar la distribución desigual del tráfico en una actividad de redireccionamiento con Analytics for Target (A4T), consulte [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

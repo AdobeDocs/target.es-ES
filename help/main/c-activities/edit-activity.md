@@ -4,20 +4,23 @@ description: Obtenga información sobre las distintas formas de editar una activ
 title: ¿Cómo edito una actividad?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 21%
-
 ---
-
 # Editar una actividad
 
 Obtenga información sobre cómo editar actividades existentes en [!DNL Adobe Target]. Este artículo describe los diferentes métodos disponibles en la interfaz [!DNL Target] para modificar actividades. Ya sea que esté actualizando experiencias, ajustando reglas de segmentación o configurando metas, [!DNL Target] se asegura de que los cambios se guarden de forma segura antes de la activación.
@@ -70,33 +73,33 @@ Tenga en cuenta la siguiente información cuando utilice la funcionalidad de cop
 
 * Si copia una actividad en el mismo espacio de trabajo o desde el espacio de trabajo predeterminado a un espacio de trabajo no predeterminado, se abrirá automáticamente el Asistente para actividades. En las copias entre espacios de trabajo, es posible que solo necesite actualizar las propiedades de la actividad.
 * Cuando se copia una actividad de un espacio de trabajo no predeterminado a otro espacio de trabajo (ya sea predeterminado o no predeterminado), se abre el Asistente de actividad y se requiere alguna entrada manual para completar la configuración:
-   * **[!UICONTROL Propiedades]**: las propiedades pueden diferir entre espacios de trabajo. Esta situación podría generar un déclencheur de advertencia:
+  * **[!UICONTROL Propiedades]**: las propiedades pueden diferir entre espacios de trabajo. Esta situación podría generar un déclencheur de advertencia:
 
-      * En el [!UICONTROL Compositor de experiencias basadas en formularios], las advertencias se muestran directamente en la interfaz de usuario para una visibilidad inmediata.
+    * En el [!UICONTROL Compositor de experiencias basadas en formularios], las advertencias se muestran directamente en la interfaz de usuario para una visibilidad inmediata.
 
-        ![Advertencia de espacio de trabajo basado en formularios](/help/main/c-activities/assets/form-based-warning.png)
+      ![Advertencia de espacio de trabajo basado en formularios](/help/main/c-activities/assets/form-based-warning.png)
 
-      * En el VEC, las advertencias aparecen al hacer clic en [!UICONTROL Configurar] > [!UICONTROL Propiedades].
+    * En el VEC, las advertencias aparecen al hacer clic en [!UICONTROL Configurar] > [!UICONTROL Propiedades].
 
-        ![advertencia de vec](/help/main/c-activities/assets/vec-warning.png)
+      ![advertencia de vec](/help/main/c-activities/assets/vec-warning.png)
 
-        Para resolver este problema, haga clic en [!UICONTROL Agregar/Quitar] de modo que solo se muestren las propiedades disponibles en el área de trabajo de destino para su selección.
+      Para resolver este problema, haga clic en [!UICONTROL Agregar/Quitar] de modo que solo se muestren las propiedades disponibles en el área de trabajo de destino para su selección.
 
-   * **Audiencias y ofertas**: Al copiar una actividad en un área de trabajo nueva, todas las audiencias y ofertas asociadas de [!DNL Target] o ad hoc del área de trabajo original se duplican con el formato: `<Entity Name> Copy <Date>` para audiencias de [!DNL Target] y para ofertas ad hoc `<Entity Name>`.
+  * **Audiencias y ofertas**: Al copiar una actividad en un área de trabajo nueva, todas las audiencias y ofertas asociadas de [!DNL Target] o ad hoc del área de trabajo original se duplican con el formato: `<Entity Name> Copy <Date>` para audiencias de [!DNL Target] y para ofertas ad hoc `<Entity Name>`.
 
-     Detalles del comportamiento:
+    Detalles del comportamiento:
 
-      * Las audiencias y ofertas copiadas no aparecerán en las listas [!UICONTROL Audiencias] y [!UICONTROL Ofertas] hasta que se guarde y se vuelva a abrir la actividad.
-      * Estas entidades no se pueden editar inmediatamente después de copiarlas. Es posible que los clientes vean contenido vacío en el VEC para estos elementos durante la sesión de edición inicial.
-      * Los clientes pueden reemplazar audiencias u ofertas copiadas con otras desde el espacio de trabajo de destino si es necesario.
+    * Las audiencias y ofertas copiadas no aparecerán en las listas [!UICONTROL Audiencias] y [!UICONTROL Ofertas] hasta que se guarde y se vuelva a abrir la actividad.
+    * Estas entidades no se pueden editar inmediatamente después de copiarlas. Es posible que los clientes vean contenido vacío en el VEC para estos elementos durante la sesión de edición inicial.
+    * Los clientes pueden reemplazar audiencias u ofertas copiadas con otras desde el espacio de trabajo de destino si es necesario.
 
-     Este proceso garantiza una duplicación más fluida de las actividades entre espacios de trabajo al tiempo que mantiene la flexibilidad para la personalización.
+    Este proceso garantiza una duplicación más fluida de las actividades entre espacios de trabajo al tiempo que mantiene la flexibilidad para la personalización.
 
-     Al copiar una actividad, las audiencias que no sean de destino y las ofertas que no se guarden en el espacio de trabajo actual o en el predeterminado deben reemplazarse manualmente.
+    Al copiar una actividad, las audiencias que no sean de destino y las ofertas que no se guarden en el espacio de trabajo actual o en el predeterminado deben reemplazarse manualmente.
 
-     Sustituir manualmente estas audiencias y ofertas que no sean de destino garantiza que solo se utilicen entidades válidas y accesibles en la actividad copiada y evita errores durante la edición o el envío.
+    Sustituir manualmente estas audiencias y ofertas que no sean de destino garantiza que solo se utilicen entidades válidas y accesibles en la actividad copiada y evita errores durante la edición o el envío.
 
-     ![Mensaje de advertencia](/help/main/c-activities/assets/copy.png)
+    ![Mensaje de advertencia](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

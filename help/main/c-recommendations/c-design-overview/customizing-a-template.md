@@ -1,22 +1,28 @@
 ---
 keywords: diseño personalizado;personalizar diseño;velocity;decimal;coma
-description: Aprenda a utilizar el lenguaje de diseño de código abierto  [!DNL Velocity] para personalizar diseños de recomendaciones en [!DNL Target] Recommendations.
+description: Aprenda a utilizar el lenguaje de diseño de código abierto [!DNL Velocity] para personalizar diseños de recomendación en [!DNL Target] Recommendations.
 title: ¿Cómo puedo personalizar un diseño con Velocity?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: '1091'
 ht-degree: 60%
-
 ---
-
 # Personalizar un diseño mediante [!DNL Velocity]
 
 Usar el lenguaje de diseño [!DNL Velocity] de código abierto para personalizar diseños de recomendación en [!DNL Adobe Target Recommendations].

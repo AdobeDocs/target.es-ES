@@ -4,26 +4,34 @@ description: Aprenda a solucionar problemas en el [!UICONTROL Compositor de expe
 title: ¿Cómo puedo solucionar problemas relacionados con [!UICONTROL Compositor de experiencias visuales]?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 29%
-
 ---
-
 # Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias visuales]
 
 Los problemas de visualización a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) bajo ciertas condiciones.
@@ -87,16 +95,16 @@ Si ni [!UICONTROL Compositor de experiencias visuales] ni [!UICONTROL Compositor
    * Nombre de la regla
    * Reglas de modificación
 
-      * Cambie de **[!UICONTROL Agregar]** a **[!UICONTROL Eliminar]**.
-      * Cambie de **[!UICONTROL Solicitud]** a **[!UICONTROL Respuesta]**.
-      * Introduzca &quot;X-Frame-Options&quot; como nombre del encabezado.
-      * Repita los pasos anteriores e introduzca “x-frame-options” como nombre del encabezado.
+     * Cambie de **[!UICONTROL Agregar]** a **[!UICONTROL Eliminar]**.
+     * Cambie de **[!UICONTROL Solicitud]** a **[!UICONTROL Respuesta]**.
+     * Introduzca &quot;X-Frame-Options&quot; como nombre del encabezado.
+     * Repita los pasos anteriores e introduzca “x-frame-options” como nombre del encabezado.
 
-        >[!NOTE]
-        >
-        >Los encabezados manipulados a través de [!DNL Requestly] distinguen entre mayúsculas y minúsculas.
+       >[!NOTE]
+       >
+       >Los encabezados manipulados a través de [!DNL Requestly] distinguen entre mayúsculas y minúsculas.
 
-      * Cambie **[!UICONTROL Es igual a]** por **[!UICONTROL Contiene]** como condición para la dirección URL de origen e introduzca la URL de la actividad que está intentando cargar en el VEC.
+     * Cambie **[!UICONTROL Es igual a]** por **[!UICONTROL Contiene]** como condición para la dirección URL de origen e introduzca la URL de la actividad que está intentando cargar en el VEC.
 
      ![imagen chrome_extension](assets/chrome_extension.png)
 
@@ -140,14 +148,14 @@ Después de configurar una extensión, abra [!DNL Target]. Tus páginas debería
 
 * Asegúrese de que el Javascript de la página web no interfiera con las bibliotecas de creación. No utilice ni incluya archivos con los siguientes nombres reservados:
 
-   * `target-vec-helper.js`
-   * `target-vec.js`
-   * `target.js`
-   * `admin.css`
-   * `sizzle.js`
-   * `mixContentCheck.html`
+  * `target-vec-helper.js`
+  * `target-vec.js`
+  * `target.js`
+  * `admin.css`
+  * `sizzle.js`
+  * `mixContentCheck.html`
 
-     Además, la anulación accidental de variables o eventos definidos dentro de estos archivos podría provocar problemas con VEC.
+    Además, la anulación accidental de variables o eventos definidos dentro de estos archivos podría provocar problemas con VEC.
 
 * El navegador bloquea una página no segura en un sitio seguro.
 
