@@ -1,23 +1,30 @@
 ---
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
-description: Vea una lista de las preguntas más frecuentes y sus respuestas acerca de  [!DNL Target Recommendations] actividades.
-title: ¿Dónde puedo encontrar preguntas y respuestas acerca de  [!DNL Recommendations]?
+description: Vea una lista de preguntas frecuentes y sus respuestas acerca de [!DNL Target Recommendations] actividades.
+title: ¿Dónde puedo encontrar preguntas y respuestas acerca de [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 80%
-
 ---
-
 # Preguntas más frecuentes de Recommendations
 
 Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Adobe Target] [!DNL Recommendations].
@@ -73,9 +80,9 @@ Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritm
 * Un cambio en la configuración de la promoción puede tardar hasta cinco horas en reflejarse en el sitio.
 * Es posible que un cambio en la configuración de otros criterios no se refleje hasta que se ejecute el siguiente algoritmo:
 
-   * Algunas configuraciones de criterios (por ejemplo, &quot;adición de una regla de inclusión dinámica&quot;) se reflejan instantáneamente.
-   * Otra configuración de criterios (por ejemplo, &quot;eliminación de una regla de inclusión dinámica&quot;, cambio de ventana retrospectiva, etc.) no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
-   * Los cambios activan las ejecuciones de algoritmos, pero pueden tardar hasta 24 horas en completarse. Los algoritmos también se ejecutan de forma programada cada 12 a 24 horas.
+  * Algunas configuraciones de criterios (por ejemplo, &quot;adición de una regla de inclusión dinámica&quot;) se reflejan instantáneamente.
+  * Otra configuración de criterios (por ejemplo, &quot;eliminación de una regla de inclusión dinámica&quot;, cambio de ventana retrospectiva, etc.) no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
+  * Los cambios activan las ejecuciones de algoritmos, pero pueden tardar hasta 24 horas en completarse. Los algoritmos también se ejecutan de forma programada cada 12 a 24 horas.
 
 ## ¿Cuánto tiempo tarda el comportamiento de un usuario en reflejarse (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones *que recibe* usuario?
 

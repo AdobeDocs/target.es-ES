@@ -1,16 +1,20 @@
 ---
 keywords: multivariable;mvt;vista previa;experiencias
-description: Obtenga información sobre cómo obtener una vista previa de cada experiencia en una actividad de [!UICONTROL prueba multivariable] (MVT) en [!DNL Adobe Target] usando el [!UICONTROL Compositor de experiencias visuales] (VEC).
+description: Obtenga información sobre cómo obtener una vista previa de cada experiencia en una actividad de [!UICONTROL Prueba multivariable] (MVT) en [!DNL Adobe Target] mediante el [!UICONTROL Compositor de experiencias visuales] (VEC).
 title: ¿Cómo puedo obtener una vista previa de las experiencias para una [!UICONTROL prueba multivariable] (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 29%
-
 ---
-
 # Previsualizar experiencias para una [!UICONTROL prueba multivariable]
 
 Dado que una [!UICONTROL prueba multivariable] en [!DNL Adobe Target] compara varias experiencias en una página, resulta útil obtener una vista previa de la página con cada experiencia.

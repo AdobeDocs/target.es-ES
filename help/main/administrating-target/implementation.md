@@ -1,30 +1,37 @@
 ---
 keywords: implementar;implementación
-description: Aprenda a implementar Adobe [!DNL Target] en su sitio. Establezca la configuración global, el método de implementación (AEP Web SDK o at.js) y mucho más.
+description: Obtenga información sobre cómo implementar Adobe [!DNL Target] en el sitio. Establezca la configuración global, el método de implementación (AEP Web SDK o at.js) y mucho más.
 title: ¿Cómo se implementa [!DNL Target] en mi sitio?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-TQID: https://experienceleague.adobe.com/2QbhX9ZAYmeC6szEtqe18-q6bKIkWGwJBsuj2xExn8A
+TQID: 'https://experienceleague.adobe.com/2QbhX9ZAYmeC6szEtqe18-q6bKIkWGwJBsuj2xExn8A'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 184
+source-wordcount: '186'
 ht-degree: 29%
-
 ---
-
 # Implementación
 
 Antes de empezar a usar [!DNL Adobe Target], debe implementarlo en su sitio, comprender algunos conceptos y términos básicos, familiarizarse con el funcionamiento de [!DNL Target] y con su integración con la infraestructura, y comprender cómo el sistema [!DNL Target] realiza el seguimiento de los visitantes.

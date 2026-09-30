@@ -1,23 +1,28 @@
 ---
 keywords: prueba multivariable;mvt;informe de rendimiento de las experiencias
-description: Aprenda a utilizar el informe Rendimiento de las experiencias para actividades de segmentación de experiencias de Adobe [!DNL Target] que muestra el rendimiento de cada experiencia de la actividad.
+description: Aprenda a utilizar el informe Rendimiento de las experiencias para las actividades de segmentación de experiencias de Adobe [!DNL Target] que muestra el rendimiento de cada experiencia de la actividad.
 title: ¿Cómo se usa el informe de rendimiento de las experiencias para las pruebas multivariable?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
+TQID: 'https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 71%
-
+source-wordcount: '333'
+ht-degree: 74%
 ---
-
 # Informe [!UICONTROL Rendimiento de las experiencias] (MVT)
 
 El informe [!UICONTROL Rendimiento de las experiencias] muestra el rendimiento de cada experiencia en la actividad. Este informe incluye información sobre el número de participantes, la tasa de conversión, el alza y la confianza.
@@ -42,6 +47,6 @@ Debajo del gráfico, se muestra una tabla con la cantidad de participantes que v
 
 ## Vídeo de formación: Crear una prueba MVT ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de experiencia se describe a partir del 8:20.
+En este vídeo se explica cómo crear una prueba multivariable siguiendo el flujo de trabajo guiado de tres pasos de Target. El informe Rendimiento de las experiencias se describe a partir del minuto 8:20.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)

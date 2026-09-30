@@ -1,26 +1,34 @@
 ---
 keywords: asistente de ia;asistente de inteligencia artificial;generación de contenido;acelerador de contenido;generación de contenido;generar contenido
-description: Aprenda a generar contenido atractivo con  [!DNL AI Assistant].
-title: ¿Cómo uso  [!DNL AI Assistant] in [!DNL Target]  para generar contenido atractivo?
+description: Aprenda a generar contenido atractivo con [!DNL AI Assistant].
+title: ¿Cómo utilizo [!DNL AI Assistant] en [!DNL Target] para generar contenido atractivo?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las funciones beta en  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#beta newtab=true" tooltip="¿Qué son las características de Beta en [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+TQID: 'https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 825
-ht-degree: 2%
-
+source-wordcount: '835'
+ht-degree: 1%
 ---
-
 # Usar [!DNL AI Assistant] en [!DNL Adobe Target] para la generación de contenido
 
 Mejore la participación y las conversiones en [!DNL Adobe Target] con [!DNL AI Assistant]. Aproveche la IA generativa para crear texto personalizado y de alto impacto que resuene con su audiencia y eleve el contenido de su actividad.

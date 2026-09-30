@@ -1,23 +1,29 @@
 ---
 keywords: crear experiencia;crear;experiencia;prioridad;público;experiencia;compositor de experiencias visuales
-description: Aprenda a usar el  [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) para crear y editar experiencias en su página en una actividad de [!UICONTROL segmentación de experiencias] (XT).
+description: Aprenda a usar el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) para crear y editar experiencias en su página en una actividad de [!UICONTROL segmentación de experiencias] (XT).
 title: ¿Cómo puedo crear experiencias en una actividad de [!UICONTROL segmentación de experiencias]?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+TQID: 'https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '978'
 ht-degree: 21%
-
 ---
-
 # Crear experiencia en [!UICONTROL actividades de segmentación de experiencias] (XT)
 
 El [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target] proporciona una interfaz visual para editar las experiencias en su página en una actividad de [!UICONTROL segmentación de experiencias] (XT).
@@ -107,9 +113,9 @@ En este vídeo se describe cómo llevar las pruebas A/B al siguiente nivel con [
 
 >[!VIDEO](https://video.tv.adobe.com/v/38303?captions=spa)
 
-### Tipos de actividades (9:03)
+### Tipos de actividad (9:03)
 
-En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. [!UICONTROL Segmentación de experiencias] se discute a partir del 5:15.
+En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. [!UICONTROL Segmentación de experiencias] se discute a partir del minuto 5:15.
 
 * Describe los tipos de actividades incluidas en [!DNL Adobe Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos

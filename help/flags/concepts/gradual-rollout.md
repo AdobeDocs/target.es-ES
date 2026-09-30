@@ -4,13 +4,14 @@ description: Descubra cómo los despliegues graduales en Banderas le permiten im
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # Despliegue gradual {#gradual-rollout}
 
 Un despliegue gradual implementa una nueva función en la producción de forma gradual, en lugar de habilitarla para todos los usuarios a la vez. Este método reduce el riesgo, ayuda a administrar la carga del back-end y crea un bucle de retroalimentación estrecho antes del lanzamiento completo.

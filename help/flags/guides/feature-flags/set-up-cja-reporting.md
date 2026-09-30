@@ -4,13 +4,14 @@ description: Configure la secuencia de datos, la conexión y la vista de datos n
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 4%
-
 ---
-
 # Configuración de CJA para informes de indicadores de funcionalidades {#set-up-cja-reporting}
 
 La integración entre Banderas y Adobe Customer Journey Analytics (CJA) permite medir de forma unificada el impacto comercial de las variantes de indicadores de funcionalidades. Aplique métricas de éxito de CJA a los informes de marcas en cualquier momento y aproveche las funciones de Customer Journey Analytics, como [Panel de experimentación](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/experimentation), para evaluar el rendimiento del experimento y comprender cómo influyen las variantes de las funciones en el comportamiento de los clientes.

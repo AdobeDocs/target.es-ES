@@ -4,13 +4,20 @@ description: Aprenda a usar el [!UICONTROL Compositor de experiencias visuales] 
 title: ¿Cómo creo una actividad [!UICONTROL Asignación automática]?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '906'
 ht-degree: 39%
-
 ---
-
 # Crear una actividad [!UICONTROL de asignación automática]
 
 Use el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear su actividad de [!UICONTROL Asignación automática] [!UICONTROL Prueba A/B] directamente en una página habilitada para [!DNL Target] y para modificar partes de la página en [!DNL Target].
@@ -110,7 +117,7 @@ Para crear una actividad [!UICONTROL de asignación automática]:
 
 Después de crear la actividad, la ficha [!UICONTROL Información general] muestra información sobre la actividad, incluido un diagrama de la actividad.
 
-## Vídeo de formación: Creación de pruebas A/B (8:36)
+## Vídeo de formación: Creación de pruebas A/B (8:36).
 
 En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de trabajo guiado de tres pasos de [!DNL Target].
 

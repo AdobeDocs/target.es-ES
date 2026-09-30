@@ -4,23 +4,32 @@ description: Aprenda a usar la página [!UICONTROL Objetivos y configuración] e
 title: ¿Cómo se especifica [!UICONTROL Objetivos y configuración] en una actividad de [!UICONTROL segmentación de experiencias]?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-TQID: https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0
+TQID: 'https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1288'
 ht-degree: 42%
-
 ---
-
 # Configuración y objetivos en [!UICONTROL actividades de segmentación de experiencias] (XT)
 
 En la página [!UICONTROL Objetivos y configuración] es donde se especifica información sobre los objetivos de la prueba:
@@ -62,7 +71,7 @@ Para las actividades creadas en versiones anteriores de [!DNL Target], la priori
 
 ### [!UICONTROL Duración]
 
-La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Del mismo modo, la actividad puede finalizar cuando se desactiva o puede establecer una fecha y una hora para que finalice la actividad. El selector de hora utiliza un reloj de 24 horas, siendo 00:00 la medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
+La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Del mismo modo, la actividad puede finalizar cuando se desactiva o puede establecer una fecha y una hora para que finalice la actividad. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
 ## [!UICONTROL Configuración de informes] {#section_13119392051044FBA6387D9B3B1C43CF}
 

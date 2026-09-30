@@ -5,13 +5,20 @@ title: ¿Cómo utilizo la búsqueda en el catálogo de Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 20%
-
 ---
-
 # Buscar en el catálogo
 
 La página [!UICONTROL Búsqueda en el catálogo] de [!DNL Adobe Recommendations] le ayuda a encontrar los productos o el contenido en su catálogo. La tarea más básica que puede realizar en esta página es buscar un elemento. Además, puede cambiar el entorno, guardar los resultados de búsqueda en colecciones o exclusiones, agregar facetas de filtro, modificar columnas en la tabla, agregar nuevas facetas de búsqueda y mucho más.

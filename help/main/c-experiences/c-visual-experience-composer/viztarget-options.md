@@ -1,25 +1,30 @@
 ---
 keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias visuales;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo del compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de ofertas;intercambiar imagen;intercambio de imágenes;eliminar elemento;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño elemento;cambiar tamaño elemento;elemento;ampliar selección;expandir selección;navegar a este vínculo;navegar vínculo;navegar por vínculo;deshacer;rehacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta
-description: Explore las opciones disponibles en el  [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
+description: Explore las opciones disponibles en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
 title: ¿Cómo utilizo las opciones de [!UICONTROL Compositor de experiencias visuales] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
+TQID: 'https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 7%
-
+source-wordcount: '2271'
+ht-degree: 8%
 ---
-
 # Opciones de [!UICONTROL Compositor de experiencias visuales]
 
 La versión de [!DNL Adobe Target Standard/Premium] 25.2.1 (17 de febrero de 2015) presenta un [!UICONTROL Compositor de experiencias visuales] (VEC) actualizado. Este artículo explica la interfaz de usuario actualizada y sus opciones.
@@ -105,17 +110,17 @@ Para añadir un componente nuevo a una experiencia:
    Los componentes disponibles se agrupan en contenedores lógicos:
 
    * [!UICONTROL Básico]
-      * [!UICONTROL Divisor]
-      * [!UICONTROL HTML]
-      * [!UICONTROL Imagen]
+     * [!UICONTROL Divisor]
+     * [!UICONTROL HTML]
+     * [!UICONTROL Imagen]
    * [!UICONTROL Texto]
-      * [!UICONTROL Encabezado]
-      * [!UICONTROL Párrafo]
-      * [!UICONTROL Vínculo]
+     * [!UICONTROL Encabezado]
+     * [!UICONTROL Párrafo]
+     * [!UICONTROL Vínculo]
    * [!UICONTROL Dinámico]
-      * [[!UICONTROL Recomendación]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL Fragmento de experiencia]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL Oferta de HTML]](/help/main/c-experiences/c-manage-content/manage-content.md)
+     * [[!UICONTROL Recomendación]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+     * [[!UICONTROL Fragmento de experiencia]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+     * [[!UICONTROL Oferta de HTML]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
 1. Arrastre el componente sobre un elemento de página existente en el lienzo [!UICONTROL Diseño].
 1. Seleccione para reemplazar el elemento seleccionado o para insertar el componente antes de o después del elemento seleccionado.

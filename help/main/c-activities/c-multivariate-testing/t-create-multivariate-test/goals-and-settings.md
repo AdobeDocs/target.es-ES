@@ -4,23 +4,29 @@ description: Aprenda a usar la página [!UICONTROL Objetivos y configuración] e
 title: ¿Cómo se especifican los objetivos y la configuración en una actividad de [!UICONTROL prueba multivariable] (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # Configuración y objetivos ([!UICONTROL Prueba multivariable])
 
 En la página [!UICONTROL Objetivos y configuración] de [!DNL Adobe Target] es donde se especifica información sobre los objetivos de las actividades de [!UICONTROL prueba multivariable] (MVT).
@@ -64,7 +70,7 @@ Para las actividades creadas en versiones anteriores de [!DNL Target], la priori
 
 ### Duración
 
-La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora utiliza un reloj de 24 horas, siendo 00:00 la medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
+La actividad se puede iniciar cuando se aprueba, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
 
 ## Configuración de informes. {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -183,7 +189,7 @@ Este vídeo incluye información sobre la configuración de las actividades.
 
 ### Creación de pruebas multivariable (9:25)
 
-En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. Los objetivos y la configuración se discuten a partir de las 7:00.
+En este vídeo se muestra cómo crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL Target]. Los objetivos y la configuración se describen a partir del minuto 7:00.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable

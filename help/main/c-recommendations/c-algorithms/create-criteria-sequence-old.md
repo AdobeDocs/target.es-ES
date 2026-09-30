@@ -1,17 +1,24 @@
 ---
 keywords: secuencia de criterios;varios criterios;algoritmos;criterios;criterios de recomendaciones;secuencia;número límite de elementos devueltos;control de nivel de ranura;ranura
-description: Aprenda a establecer secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de Adobe [!DNL Target] Recommendations.
+description: Aprenda a establecer secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de Recommendations de Adobe [!DNL Target].
 title: ¿Cómo se crean secuencias de criterios en Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '868'
 ht-degree: 30%
-
 ---
-
 # Crear secuencias de criterios
 
 Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de [!UICONTROL Recomendaciones]. También puede limitar el número de elementos devueltos (a veces denominado &quot;control de nivel de ranura&quot;).

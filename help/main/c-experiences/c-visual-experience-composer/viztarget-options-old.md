@@ -1,16 +1,20 @@
 ---
 keywords: opciones del compositor de experiencias visuales;opciones del compositor de experiencias visuales;opciones de experiencia;editar texto;editar html;editar texto/html;editar color de fondo;insertar elemento;editar vínculo;vínculo del compositor de experiencias visuales;editar clase css;clase css;intercambiar oferta;intercambio de ofertas;intercambiar imagen;intercambio de imágenes;eliminar elemento;eliminar elemento;ocultar elemento;ocultar elemento;reorganizar;mover elemento;mover elemento;cambiar tamaño elemento;cambiar tamaño elemento;elemento;ampliar selección;expandir selección;navegar a este vínculo;navegar vínculo;navegar por vínculo;deshacer;rehacer;deshacer/rehacer;eventos personalizados;componentes web;decisión de oferta
-description: Explore las opciones disponibles en el  [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
+description: Explore las opciones disponibles en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
 title: ¿Cómo utilizo las opciones de [!UICONTROL Compositor de experiencias visuales] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # Opciones del Compositor de experiencias visuales
 
 Al hacer clic en un elemento de página en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC), un menú muestra las opciones disponibles para ese tipo de elemento. Además, se muestra una ruta DOM en la parte inferior de la página que permite navegar fácilmente por la estructura de la página.
@@ -74,15 +78,15 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
 
   Cambiar el color de fondo y la imagen.
 
-   * Color (especifique el código de color o use el selector de color)
-   * Imagen (seleccione una imagen del selector de imágenes)
-   * Origen de imagen (especifique una URL externa)
-   * Adjunto
-      * Haga clic en la lista desplegable superior para seleccionar desplazamiento, fijo o local
-      * Haga clic en la lista desplegable inferior para seleccionar repetir, repetir-x, repetir-y, no repetir, espacio o redondo
-   * Clip
-      * Haga clic en la lista desplegable superior para seleccionar el cuadro de borde, el relleno de margen, el cuadro de contenido o el texto
-      * Haga clic en la lista desplegable inferior para seleccionar audio o audio automático
+  * Color (especifique el código de color o use el selector de color)
+  * Imagen (seleccione una imagen del selector de imágenes)
+  * Origen de imagen (especifique una URL externa)
+  * Adjunto
+    * Haga clic en la lista desplegable superior para seleccionar desplazamiento, fijo o local
+    * Haga clic en la lista desplegable inferior para seleccionar repetir, repetir-x, repetir-y, no repetir, espacio o redondo
+  * Clip
+    * Haga clic en la lista desplegable superior para seleccionar el cuadro de borde, el relleno de margen, el cuadro de contenido o el texto
+    * Haga clic en la lista desplegable inferior para seleccionar audio o audio automático
 
 * **[!UICONTROL Tipografía]**
 
@@ -92,13 +96,13 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
 
   Puede editar los siguientes estilos tipográficos:
 
-   * [!UICONTROL Tamaño de fuente]
-   * [!UICONTROL Grosor de fuente]
-   * [!UICONTROL Estilo de fuente]
-   * [!UICONTROL Color] (especifique el código de color o use el selector de color)
-   * [!UICONTROL Espacio entre palabras]
-   * [!UICONTROL Altura de línea]
-   * [!UICONTROL Alineación de texto]
+  * [!UICONTROL Tamaño de fuente]
+  * [!UICONTROL Grosor de fuente]
+  * [!UICONTROL Estilo de fuente]
+  * [!UICONTROL Color] (especifique el código de color o use el selector de color)
+  * [!UICONTROL Espacio entre palabras]
+  * [!UICONTROL Altura de línea]
+  * [!UICONTROL Alineación de texto]
 
 * **[!UICONTROL Margen]**
 
@@ -106,8 +110,8 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
 
   Haga clic en el icono desplegable de cada margen para elegir entre las siguientes opciones:
 
-   * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arrastre el control deslizante para establecer el margen o especificar el número de píxeles para cada margen)
+  * [!UICONTROL Automático]
+  * [!UICONTROL Valor] (arrastre el control deslizante para establecer el margen o especificar el número de píxeles para cada margen)
 
   El margen admite valores positivos y negativos.
 
@@ -129,9 +133,9 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
 
   Puede editar los estilos siguientes para cada borde (superior, derecho, inferior e izquierdo):
 
-   * [!UICONTROL Estilo de borde] (ninguno, oculto, punteado, discontinuo, sólido o doble)
-   * [!UICONTROL Color del borde] (especifique el código de color o use el selector de color)
-   * [!UICONTROL Ancho de borde] (arrastre el control deslizante para seleccionar un ancho de borde o especificar el ancho en píxeles)
+  * [!UICONTROL Estilo de borde] (ninguno, oculto, punteado, discontinuo, sólido o doble)
+  * [!UICONTROL Color del borde] (especifique el código de color o use el selector de color)
+  * [!UICONTROL Ancho de borde] (arrastre el control deslizante para seleccionar un ancho de borde o especificar el ancho en píxeles)
 
   El borde admite escalas de anchura a partir de 0.
 
@@ -143,16 +147,16 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
 
   Haga clic en la lista desplegable [!UICONTROL Estático] para elegir entre las siguientes opciones de posición:
 
-   * [!UICONTROL Estático]
-   * [!UICONTROL Relativo]
-   * [!UICONTROL Absoluto]
-   * [!UICONTROL Adhesivo]
-   * [!UICONTROL Corregido]
+  * [!UICONTROL Estático]
+  * [!UICONTROL Relativo]
+  * [!UICONTROL Absoluto]
+  * [!UICONTROL Adhesivo]
+  * [!UICONTROL Corregido]
 
   Haga clic en el icono desplegable de cada posición para elegir entre las siguientes opciones:
 
-   * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arrastre el control deslizante para colocar el elemento o especificar el número de píxeles que desea mover)
+  * [!UICONTROL Automático]
+  * [!UICONTROL Valor] (arrastre el control deslizante para colocar el elemento o especificar el número de píxeles que desea mover)
 
   La posición admite valores positivos y negativos.
 
@@ -164,22 +168,22 @@ Los puntos azules en el panel principal y junto a cada opción en los distintos 
 
   Haga clic en el icono desplegable al lado de [!UICONTROL Anchura] y [!UICONTROL Altura] para elegir entre las siguientes opciones:
 
-   * [!UICONTROL Automático]
-   * [!UICONTROL Valor] (arrastre el control deslizante para cambiar el tamaño del elemento o especificar el número de píxeles para cada dimensión)
+  * [!UICONTROL Automático]
+  * [!UICONTROL Valor] (arrastre el control deslizante para cambiar el tamaño del elemento o especificar el número de píxeles para cada dimensión)
 
 * **[!UICONTROL Filtro]**
 
   Arrastre el control deslizante para cada opción de filtro o especifique el porcentaje que desee:
 
-   * [!UICONTROL Sepia]
-   * [!UICONTROL Contraste]
-   * [!UICONTROL Brillo]
-   * [!UICONTROL Escala de grises]
-   * [!UICONTROL Desenfocar]
-   * [!UICONTROL Opacidad]
-   * [!UICONTROL Invertir]
-*[!UICONTROL &#x200B; Rotación de tono]
-   * [!UICONTROL Saturar]
+  * [!UICONTROL Sepia]
+  * [!UICONTROL Contraste]
+  * [!UICONTROL Brillo]
+  * [!UICONTROL Escala de grises]
+  * [!UICONTROL Desenfocar]
+  * [!UICONTROL Opacidad]
+  * [!UICONTROL Invertir]
+    *[!UICONTROL &#x200B; Rotación de tono]
+  * [!UICONTROL Saturar]
 
 * **[!UICONTROL Editor CSS]**
 
@@ -388,16 +392,16 @@ La mayoría de las acciones del VEC son compatibles con los eventos personalizad
 Las siguientes acciones no están disponibles en los elementos personalizados:
 
 * [!UICONTROL Editar]
-   * [!UICONTROL Texto/HTML]
-   * [!UICONTROL Vínculo]
-   * [!UICONTROL Editar Source]
+  * [!UICONTROL Texto/HTML]
+  * [!UICONTROL Vínculo]
+  * [!UICONTROL Editar Source]
 
 * [!UICONTROL Reemplazar contenido]
 
 La siguiente acción no está disponible dentro de los elementos personalizados:
 
 * [!UICONTROL Diseño]
-   * [!UICONTROL Reorganizar]
+  * [!UICONTROL Reorganizar]
 
 ## Desplazamiento por elementos utilizando la ruta DOM {#dom-path}
 

@@ -1,38 +1,57 @@
 ---
 keywords: SDK web de Adobe Experience Platform;sdk web de aep;sdk de aep;optimización de los motores de búsqueda;optimización del motor de búsqueda;seo;clústeres edge, clústeres centrales;at.js;mbox.js;
-description: Descubra cómo funciona [!DNL Adobe Target] e incluya información sobre bibliotecas de JavaScript (AEP Web SDK at.js), estrategias de uso de llamadas al servidor, uso, centros de datos de Adobe, pruebas de optimización de los motores de búsqueda y bots.
-title: ¿Cómo funciona  [!DNL Target] ?
+description: Descubra cómo funciona [!DNL Adobe Target], incluida información sobre las bibliotecas de JavaScript (AEP Web SDK at.js), las estrategias de uso de llamadas al servidor, el uso, los centros de datos de Adobe, las pruebas de optimización de los motores de búsqueda y los bots.
+title: ¿Cómo funciona [!DNL Target]?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+TQID: 'https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2421
-ht-degree: 25%
-
+source-wordcount: '2424'
+ht-degree: 24%
 ---
-
 # Cómo funciona [!DNL Adobe Target]
 
 Descubra cómo funciona [!DNL Adobe Target], incluidos los detalles de las bibliotecas de JavaScript ([!DNL Adobe Experience Platform Web SDK] y at.js). Este artículo también describe los distintos tipos de actividades que puede crear, las [!DNL Target] estrategias de recuento de uso, la [!DNL Target] detección de Edge Network, SEO y bots.
@@ -156,7 +175,7 @@ Una &quot;Edge&quot; es una arquitectura de servidores distribuidos geográficam
 
 Para mejorar los tiempos de respuesta, Edge [!DNL Target] almacena solo la lógica de la actividad, los perfiles en caché y la información de las ofertas.
 
-Las bases de datos de actividades y contenido, los datos de [!DNL Analytics], las API y las interfaces de usuario de los especialistas en marketing se hospedan en [!DNL Adobe] clústeres centrales. Las actualizaciones se envían a [!DNL Target] Edges, que se sincronizan automáticamente con los clústeres centrales para actualizar de forma continua los datos de actividades en caché. Todo el modelado de 1:1 también se almacena en cada Edge, lo que permite que las solicitudes complejas se procesen localmente.
+Las bases de datos de actividades y contenido, los datos de [!DNL Analytics], las API y las interfaces de usuario de los especialistas en marketing se hospedan en [!DNL Adobe] clústeres centrales. Las actualizaciones se envían a [!DNL Target] Edges, que se sincronizan automáticamente con los clústeres centrales para actualizar de forma continua los datos de actividades en caché. Todo el modelado 1:1 también se almacena en cada Edge, lo que permite que las solicitudes complejas se procesen localmente.
 
 Cada clúster de Edge contiene toda la información necesaria para responder a las solicitudes de contenido de los visitantes y realizar un seguimiento de los datos de análisis. Las solicitudes de los visitantes se dirigen al clúster de Edge más próximo.
 

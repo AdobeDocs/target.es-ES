@@ -4,13 +4,14 @@ description: Obtenga información sobre cómo ver los informes de indicadores de
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
-
 ---
-
 # Creación de informes {#reporting}
 
 Marcas entrega informes a través de **Customer Journey Analytics (CJA)**. Hay una ficha **Informe** disponible en cada indicador de características y página de detalles de grupo de características. Permite ver un informe de CJA con un ámbito de ese indicador o grupo específico, incrustado directamente en la página.

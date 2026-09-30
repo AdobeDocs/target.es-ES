@@ -1,23 +1,28 @@
 ---
 keywords: contenido mixto;seguro;inseguro;chrome;solución de problemas;vec;compositor de experiencias visuales;no seguro;http;https;firefox;internet explorer
-description: Aprenda a habilitar contenido mixto en  [!DNL Chrome], [!DNL Firefox] y  [!DNL Edge].
+description: Obtenga información sobre cómo habilitar contenido mixto en [!DNL Chrome], [!DNL Firefox] y [!DNL Edge].
 title: Cómo se habilita el contenido mixto en mi explorador
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
+TQID: 'https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Security
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 85%
-
+source-wordcount: '566'
+ht-degree: 84%
 ---
-
 # Habilitación del contenido mixto en el navegador
 
 El contenido mixto se produce si la solicitud inicial es segura a través de HTTPS, pero el contenido HTTPS *y* HTTP se carga para mostrar la página web. El contenido HTTPS es seguro. El contenido HTTP no es seguro.

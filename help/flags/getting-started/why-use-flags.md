@@ -4,13 +4,14 @@ description: Conozca los casos de uso clave de las marcas en Adobe Target, desde
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
-
 ---
-
 # Razones para utilizar los indicadores {#why-use}
 
 Los indicadores son la herramienta adecuada siempre que necesite controlar quién ve una función y cuándo lo hace, ya sea realizando pruebas en desarrollo, validando con un subconjunto de usuarios o coordinando una versión de gran tamaño en varios equipos.

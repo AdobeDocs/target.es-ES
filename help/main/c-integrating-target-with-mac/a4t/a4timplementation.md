@@ -1,29 +1,37 @@
 ---
 keywords: A4T;Adobe Analytics;actividad basada en Analytics;grupo de informes de Analytics;grupo de informes;integración de Analytics Target;configurar grupo de informes;at.js;atjs;sdk web de adobe experience platform;sdk web de aep;sdk web de platform
-description: Siga los pasos necesarios para implementar Analytics for [!DNL Target] (A4T) en sus soluciones de Adobe [!DNL Target]  y Adobe Analytics.
-title: ¿Cómo implemento Analytics para  [!DNL Target] (A4T)?
+description: Siga los pasos necesarios para implementar Analytics para [!DNL Target] (A4T) en sus soluciones de Adobe [!DNL Target] y Adobe Analytics.
+title: ¿Cómo implemento Analytics para [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
+TQID: 'https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: '1195'
 ht-degree: 17%
-
 ---
-
 # Implementación de Analytics for [!DNL Target]
 
 Se requieren varios pasos al implementar [!DNL Adobe Analytics] como origen de informes para [!DNL Adobe Target] (A4T). El proceso varía en función de si implementa A4T con [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) o con at.js.

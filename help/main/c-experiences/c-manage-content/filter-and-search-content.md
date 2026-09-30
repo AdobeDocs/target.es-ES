@@ -4,18 +4,24 @@ description: Descubra cómo buscar ofertas de código e imagen en la biblioteca 
 title: ¿Cómo puedo buscar contenido en la biblioteca de ofertas?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+TQID: 'https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: '281'
 ht-degree: 0%
-
 ---
-
 # Búsqueda y filtrado de contenido
 
 Busque recursos por palabras clave en la biblioteca [!UICONTROL Ofertas] de [!DNL Adobe Target].
@@ -41,10 +47,10 @@ Busque recursos por palabras clave en la biblioteca [!UICONTROL Ofertas] de [!DN
    Puede filtrar por:
 
    * **[!UICONTROL Tipo de archivo]**:
-      * [!UICONTROL Imágenes]
-      * [!UICONTROL Documentos]
-      * [!UICONTROL Multimedia]
-      * [!UICONTROL Archivos]
+     * [!UICONTROL Imágenes]
+     * [!UICONTROL Documentos]
+     * [!UICONTROL Multimedia]
+     * [!UICONTROL Archivos]
    * **[!UICONTROL Tamaño de archivo]**: Use el control deslizante para seleccionar el tamaño de archivo deseado: [!UICONTROL Más pequeño], [!UICONTROL Pequeño], [!UICONTROL Medium], [!UICONTROL Grande] o [!UICONTROL Más grande].
    * **[!UICONTROL Última modificación]**: use el control deslizante para seleccionar el período de tiempo: [!UICONTROL Reciente], [!UICONTROL Hora], [!UICONTROL Día], [!UICONTROL Semana], [!UICONTROL Mes], [!UICONTROL Año] o [!UICONTROL Todo Assets].
    * **[!UICONTROL Estado de aprobación]**: [!UICONTROL Aprobado] o [!UICONTROL Rechazado]

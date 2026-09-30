@@ -4,19 +4,23 @@ description: Explore los posibles desafíos a los que podría enfrentarse al usa
 title: ¿Cómo puedo solucionar problemas de una [!UICONTROL prueba multivariable]?
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
-TQID: https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg
+TQID: 'https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: '174'
 ht-degree: 21%
-
 ---
-
 # Solucionar problemas de [!UICONTROL pruebas multivariable] actividades
 
 Este artículo contiene sugerencias para resolver algunos problemas que podrían producirse al diseñar una [!UICONTROL Prueba multivariada] (MVT) en [!DNL Adobe Target].
@@ -30,6 +34,6 @@ Este artículo contiene sugerencias para resolver algunos problemas que podrían
 
   Las acciones específicas que restablecen los nombres y los informes de las experiencias incluyen:
 
-   * Añadir una nueva ubicación
-   * Eliminar una ubicación
-   * Añadir nuevas ofertas o eliminar ofertas de una ubicación existente
+  * Añadir una nueva ubicación
+  * Eliminar una ubicación
+  * Añadir nuevas ofertas o eliminar ofertas de una ubicación existente

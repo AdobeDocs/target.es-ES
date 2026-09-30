@@ -1,16 +1,20 @@
 ---
 keywords: mvt; prueba multivariable; crear prueba multivariable; creación de prueba multivariable; crear mvt; creación de mvt, procedimiento de mvt; procedimiento de prueba multivariable
-description: Aprenda a usar el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear una [!UICONTROL prueba multivariable] (MVT).
+description: Aprenda a usar el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear una [!UICONTROL Prueba multivariable] (MVT).
 title: ¿Cómo creo una [!UICONTROL prueba multivariable]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 52%
-
 ---
-
 # Crear una prueba multivariable
 
 El [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] facilita la creación de una [!UICONTROL prueba multivariable] y la modificación de partes de la página en [!DNL Target].
