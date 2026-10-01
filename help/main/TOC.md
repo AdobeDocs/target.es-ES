@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Descubra cómo personalizar las experiencias de los clientes en sitios web, aplicaciones y canales sociales para aumentar los ingresos.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [Habilitar el asistente de IA](/help/main/c-intro/enabling-ai-assistant.md)
     + [Utilice el asistente de IA para obtener conocimientos del producto](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[Usar el Asistente de IA para generar contenido](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Aptitudes de compañero para Adobe Target](c-intro/coworker-skills.md)
   + Kit de bienvenida de Adobe Target {#welcome}
     + [Información general sobre el kit de bienvenida de Target](/help/main/c-intro/target-welcome-kit.md)
     + [Capítulo 1: Introducción](/help/main/c-intro/target-welcome-kit-1.md)
@@ -123,6 +124,7 @@ ht-degree: 83%
 + Actividades {#activities}
   + [Información general sobre las actividades](c-activities/activities.md)
   + [Tablero de perspectivas](c-activities/insights-dashboard.md)
+  + [Calculadora de tamaño de muestra](c-activities/sample-size-calculator.md)
   + [Tipos de actividades de Target](c-activities/target-activities-guide.md)
   + Prueba A/B {#abtest}
     + [Información general sobre las pruebas A/B](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +196,7 @@ ht-degree: 83%
     + [Rastreo de clics](c-activities/r-success-metrics/click-tracking.md)
     + [Puntuación de captación](c-activities/r-success-metrics/capture-score.md)
   + [Registro de cambios de actividades](c-activities/change-log.md)
+  + [Información de IA](c-activities/ai-insights.md)
   + Resolución de problemas de actividades {#troubleshoot-activities}
     + [Información general sobre resolución de problemas de las actividades](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [Resolución de problemas de la entrega de contenido](c-activities/c-troubleshooting-activities/content-trouble.md)
