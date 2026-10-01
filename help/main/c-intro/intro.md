@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1627'
 ht-degree: 70%
 ---
 # Introducción a [!DNL Target]
@@ -113,11 +113,6 @@ ht-degree: 70%
 >id="target_ai_insights_hypothesis"
 >title="Hipótesis"
 >abstract="La hipótesis es una afirmación que usted define que explica el resultado esperado del experimento. Incluya una descripción de lo que se está cambiando y dónde. Posteriormente, indique qué métrica espera cambiar y cómo."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Perspectivas"
->abstract="Las perspectivas de experimento son las lecciones aprendidas por la IA cuando los datos del experimento han alcanzado una relevancia estadística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
@@ -224,6 +219,6 @@ En el siguiente vídeo, se describen los tipos de actividades disponibles en [!D
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 
