@@ -102,7 +102,7 @@ Descargue at.js 2.x a través de la IU de Adobe Target ubicada en [!UICONTROL Ad
 
 +++ Implementar la función más reciente de at.js 2.x
 
-Implemente la función [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} más reciente de at.js 2.x en sus sitios.
+Implemente la función [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=es){target=_blank} más reciente de at.js 2.x en sus sitios.
 
 Después de definir las vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función `triggerView()` de at.js 2.x con las vistas pasadas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
 
@@ -393,7 +393,7 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sí |
 | [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Sí |
-| [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sí |
+| [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es){target=_blank} | Sí |
 | [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sí |
 
 ## Funciones compatibles {#supported-features}
@@ -416,7 +416,7 @@ Para acceder a las opciones de [!UICONTROL Entrega de páginas] desde el flujo d
 
 ![Cuadro de diálogo Opciones de Entrega de páginas](/help/main/c-experiences/assets/page-delivery.png)
 
-Por ejemplo, según se define en la configuración de [!UICONTROL Entrega de páginas] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
+Por ejemplo, según se define en la configuración de [!UICONTROL Entrega de páginas] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/es/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
 
 Sin embargo, como los SPA funcionan de manera diferente, la configuración de [!UICONTROL Entrega de páginas] debe estar configurada de manera que permita aplicar todas las acciones a las vistas tal como se define en la actividad del VEC de SPA.
 
