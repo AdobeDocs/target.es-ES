@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # Introducción a [!DNL Target]
 
@@ -104,25 +104,6 @@ ht-degree: 70%
 >title="Tasa de métrica de la línea base"
 >abstract="Su rendimiento actual antes de que comience el experimento; el promedio de la rama de control. Siempre es obligatorio. En el caso de las métricas de porcentaje, se introduce como porcentaje: si el 5 % de los visitantes hace clic en Comprar hoy, introduzca un 5. Para las métricas de recuento, introduzca el valor decimal sin procesar."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Métrica principal"
->abstract="La métrica principal se extrae automáticamente de la configuración de creación de informes. Para realizar cambios, modifique la métrica de objetivos en Objetivos y Configuración."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hipótesis"
->abstract="La hipótesis es una afirmación que usted define que explica el resultado esperado del experimento. Incluya una descripción de lo que se está cambiando y dónde. Posteriormente, indique qué métrica espera cambiar y cómo."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Oportunidades"
->abstract="Las oportunidades de experimento son ideas de tratamiento sugeridas por la IA basadas en patrones de IA encontrados en las capturas de pantalla y resultados del experimento."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Detalles del tratamiento"
->abstract="Los detalles del tratamiento muestran imágenes de cómo es un tratamiento cuando un usuario cumple sus requisitos. Puede revisar estas imágenes para todos los experimentos. Algunos experimentos pueden pedirle que confirme la imagen o que la sustituya si es necesario."
 
 [!DNL Adobe Target], parte de [!DNL Adobe Experience Cloud], ofrece herramientas completas para personalizar las experiencias de los clientes en sitios web, sitios móviles, aplicaciones, medios sociales y otros canales digitales.
 
@@ -219,6 +200,6 @@ En el siguiente vídeo, se describen los tipos de actividades disponibles en [!D
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

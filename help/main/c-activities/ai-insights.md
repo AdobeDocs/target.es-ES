@@ -4,10 +4,10 @@ description: Aprenda a utilizar las perspectivas y oportunidades de optimizació
 title: Información sobre IA en la Información general de actividad
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # Información de IA
 
@@ -40,6 +40,26 @@ El menú **[!UICONTROL Información de IA]** de su **[!UICONTROL Información ge
 >id="target_ai_insights_treatment_details"
 >title="Detalles de la experiencia"
 >abstract="Los detalles de la experiencia muestran imágenes del aspecto de una experiencia cuando un usuario cumple los requisitos para ella. Puede revisar estas imágenes para todos los experimentos. Algunos experimentos pueden pedirle que confirme la imagen o que la sustituya si es necesario."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Métrica principal"
+>abstract="La métrica principal se extrae automáticamente de la configuración de creación de informes. Para realizar cambios, modifique la métrica de objetivos en Objetivos y Configuración."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hipótesis"
+>abstract="La hipótesis es una afirmación que usted define que explica el resultado esperado del experimento. Incluya una descripción de lo que se está cambiando y dónde. Posteriormente, indique qué métrica espera cambiar y cómo."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Oportunidades"
+>abstract="Las oportunidades de experimento son ideas de tratamiento sugeridas por la IA basadas en patrones de IA encontrados en las capturas de pantalla y resultados del experimento."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Detalles del tratamiento"
+>abstract="Los detalles del tratamiento muestran imágenes de cómo es un tratamiento cuando un usuario cumple sus requisitos. Puede revisar estas imágenes para todos los experimentos. Algunos experimentos pueden pedirle que confirme la imagen o que la sustituya si es necesario."
 
 Antes de poder acceder a las perspectivas y oportunidades generadas por la IA, primero debe configurar su actividad confirmando la métrica, la hipótesis y las capturas de pantalla de experiencia principales.
 
