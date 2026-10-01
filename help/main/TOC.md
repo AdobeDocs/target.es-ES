@@ -3,9 +3,9 @@ user-guide-title: Guía para profesionales de Adobe Target Business
 breadcrumb-title: Guía de Target
 user-guide-description: Descubra cómo personalizar las experiencias de los clientes en sitios web, aplicaciones y canales sociales para aumentar los ingresos.
 feature-set: Target
-source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [Habilitar el asistente de IA](/help/main/c-intro/enabling-ai-assistant.md)
     + [Utilice el asistente de IA para obtener conocimientos del producto](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[Usar el Asistente de IA para generar contenido](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Aptitudes de compañero para Adobe Target](c-intro/coworker-skills.md)
   + Kit de bienvenida de Adobe Target {#welcome}
     + [Información general sobre el kit de bienvenida de Target](/help/main/c-intro/target-welcome-kit.md)
     + [Capítulo 1: Introducción](/help/main/c-intro/target-welcome-kit-1.md)
@@ -347,4 +348,4 @@ ht-degree: 83%
   + [Límites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
   + [Información general sobre la API de Adobe Target](/help/main/api/api-overview.md)
-+ [Recursos e información de contacto &#x200B;](cmp-resources-and-contact-information.md)
++ [Recursos e información de contacto ](cmp-resources-and-contact-information.md)
