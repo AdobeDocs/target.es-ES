@@ -25,7 +25,7 @@ Las habilidades de los compañeros ayudan a los profesionales de Adobe Target a 
 [!DNL Adobe Target] herramientas MCP y Coworker están documentadas por separado y proporcionan diferentes capacidades:
 
 * [Target MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) documenta las herramientas individuales expuestas por el servidor MCP directo, incluidos los tipos de actividades, parámetros, permisos y ámbito de lectura y escritura admitidos.
-* [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) proporciona una capa de orquestación en lenguaje natural independiente que puede combinar capacidades y aplicar flujos de trabajo adicionales.
+* [Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) proporciona una capa de orquestación en lenguaje natural independiente que puede combinar capacidades y aplicar flujos de trabajo adicionales.
 
 La siguiente tabla es una comparación de alto nivel de las capacidades relacionadas.
 
