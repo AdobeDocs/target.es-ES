@@ -4,10 +4,10 @@ description: Aprenda a utilizar las perspectivas y oportunidades de optimizació
 title: Información sobre IA en la Información general de actividad
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # Información de IA
 
@@ -24,7 +24,7 @@ El menú **[!UICONTROL Información de IA]** de su **[!UICONTROL Información ge
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Perspectivas"
->abstract="Las perspectivas de experimento son las lecciones aprendidas por la IA cuando los datos del experimento han alcanzado una relevancia estadística."
+>abstract="Las perspectivas son conclusiones generadas por IA que están disponibles cuando el experimento alcanza la relevancia estadística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Una vez completada la configuración, la actividad estará lista para generar op
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Perspectivas"
->abstract="Las perspectivas de experimento son las lecciones aprendidas por la IA cuando los datos del experimento han alcanzado una relevancia estadística."
+>abstract="Las perspectivas del experimento son aprendizajes generados por IA que están disponibles cuando el experimento alcanza la relevancia estadística."
 
 Las perspectivas del experimento son aprendizajes generados por IA derivados de este experimento. Estas perspectivas están disponibles una vez que el experimento alcanza la relevancia estadística y proporcionan un contexto sobre lo que ha contribuido a su éxito. Resaltan los atributos clave presentes en la experiencia ganadora que son distintos del control y que probablemente influyeron en el resultado.
 
