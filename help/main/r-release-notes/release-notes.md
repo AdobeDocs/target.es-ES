@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # [!DNL Target] Notas de la versión (actuales)
 
@@ -41,6 +41,46 @@ Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. E
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
 
 ## [!DNL Target Standard/Premium] 26.9.7 (28 de septiembre de 2026)
+
+### Funciones
+
+<table>
+<thead>
+<tr>
+<th><strong>Calculadora de tamaño de muestra</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La calculadora de tamaño de muestra le ayuda a planificar los experimentos antes del lanzamiento mediante la estimación del tráfico necesario, la duración de la prueba, el número de experiencias o el efecto mínimo que puede detectar de forma fiable. Disponible en el menú Actividades, utiliza las entradas para ayudarle a determinar los recursos y el tiempo de ejecución necesarios para la prueba.</p>
+<p>La función Calculadora de tamaño de muestra está disponible actualmente como función beta.</p>
+<p>Para obtener más información, consulte la <a href="../c-activities/sample-size-calculator.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Insights</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Perspectivas de IA proporciona aprendizajes sobre experimentos generados por IA y oportunidades de optimización para actividades de prueba A/B con asignación de tráfico manual. Una vez que un experimento alcanza la relevancia estadística, las perspectivas resaltan atributos de la experiencia ganadora que probablemente hayan contribuido a su rendimiento. Entre las oportunidades sugeridas se incluyen nuevas ideas de experiencias, hipótesis y directrices de implementación para ayudar a mejorar las tasas de conversión.</p>
+<p>Actualmente, la función de perspectivas de IA está disponible como función beta.</p>
+<p>Para obtener más información, consulte la <a href="../c-activities/ai-insights.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras
+
+
 
 **[!UICONTROL Recommendations]**
 
