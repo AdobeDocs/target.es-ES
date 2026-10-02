@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 23%
 ---
 # Información sobre la IU de [!DNL Target]
@@ -62,11 +62,11 @@ Seleccione la organización que desee en la lista desplegable [!UICONTROL Organi
 
 Proporcione una descripción para sus comentarios, incluya los archivos o capturas de pantalla aplicables y cualquier detalle adicional que sea necesario. Luego, haga clic en **[!UICONTROL Enviar]**.
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-(Condicional) Si su organización le ha concedido derechos para utilizar [!DNL AI Assistant], haga clic en el icono [!DNL AI Assistant].
+(Condicional) Si su organización le ha concedido derechos para utilizar [!DNL Coworker], haga clic en el icono [!DNL Coworker].
 
-Para obtener más información, consulte [Descripción general del Asistente de IA de Adobe Experience Platform](/help/main/c-intro/ai-assistant.md).
+Para obtener más información, consulte [Aptitudes de colaborador para Adobe Target](/help/main/c-intro/coworker-skills.md).
 
 ### Ayuda
 
@@ -186,7 +186,7 @@ La lista **[!UICONTROL Actividades]** es la vista predeterminada al abrir [!DNL 
 
 Consulte [Actividades](/help/main/c-activities/activities.md) para obtener información detallada acerca de los tipos de actividades disponibles en [!DNL Target] y para obtener más información acerca de la interfaz de usuario de la lista [!UICONTROL Actividad].
 
-## Públicos
+## Audiencias
 
 Haga clic en la ficha **[!UICONTROL Audiencias]** para mostrar la lista [!UICONTROL Audiencias], donde podrá crear audiencias y administrar las existentes.
 

@@ -6,7 +6,7 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: cc4c6b77fa6c600723813b939ba1e5323836ebcc
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 2%
@@ -49,166 +49,166 @@ Las siguientes habilidades están disponibles en el complemento **Target**:
 
   Proporciona detección, inspección y recuento de solo lectura de entidades de Target, incluidas actividades, audiencias, ofertas y configuración relacionada.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;Enumerar mis actividades activas&quot;.
-  * &quot;¿Cuántas actividades se están ejecutando actualmente?&quot;
-  * &quot;Mostrarme las audiencias y ofertas utilizadas por esta actividad.&quot;
+* &quot;Enumerar mis actividades activas&quot;.
+* &quot;¿Cuántas actividades se están ejecutando actualmente?&quot;
+* &quot;Mostrarme las audiencias y ofertas utilizadas por esta actividad.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Veredicto de actividad de destino**
 
   Determina si una actividad está lista para enviarse, si debe esperar más datos, si debe detenerse o si necesita una corrección, mediante cálculos de relevancia y comprobaciones de configuración.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;¿Debo enviar esta prueba?&quot;
-  * &quot;¿Está lista esta actividad para detenerse?&quot;
-  * &quot;¿Tiene problemas la configuración de actividad actual?&quot;
+* &quot;¿Debo enviar esta prueba?&quot;
+* &quot;¿Está lista esta actividad para detenerse?&quot;
+* &quot;¿Tiene problemas la configuración de actividad actual?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Diseño de destino**
 
   Crea y configura actividades y ofertas, genera direcciones URL de control de calidad y crea u optimiza el contenido de las ofertas.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;Crear una prueba A/B para la página principal&quot;.
-  * &quot;Cree una oferta para la experiencia del visitante que regresa&quot;.
-  * &quot;Genere una URL de control de calidad para esta actividad&quot;.
+* &quot;Crear una prueba A/B para la página principal&quot;.
+* &quot;Cree una oferta para la experiencia del visitante que regresa&quot;.
+* &quot;Genere una URL de control de calidad para esta actividad&quot;.
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **VEC de Target**
 
   Crea y edita actividades del Compositor de experiencias visuales y sus audiencias de envío de páginas.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;Crear una prueba A/B de VEC para la página principal&quot;.
-  * &quot;Editar el titular a pantalla completa en mi actividad VEC&quot;.
-  * &quot;Crear una audiencia de envío de página para esta actividad del VEC&quot;.
+* &quot;Crear una prueba A/B de VEC para la página principal&quot;.
+* &quot;Editar el titular a pantalla completa en mi actividad VEC&quot;.
+* &quot;Crear una audiencia de envío de página para esta actividad del VEC&quot;.
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Configuración de destino**
 
   Las guías completan la creación de actividades A/B, de segmentación de experiencias o del Compositor de experiencias visuales, incluidos los requisitos previos, la programación, el control de calidad y la activación.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+    *Mensajes de ejemplo:*
+    
+    * &quot;Ayúdame a crear mi primera prueba.&quot;
+    * &quot;¿Qué necesito antes de crear una actividad de segmentación de experiencias?&quot;
+    * &quot;Guíame en la programación, el control de calidad y la activación de esta actividad.&quot;
 
-  * &quot;Ayúdeme a crear mi primera prueba&quot;.
-  * &quot;¿Qué necesito antes de crear una actividad de segmentación de experiencias?&quot;
-  * &quot;Guíeme en la programación, el control de calidad y la activación de esta actividad&quot;.
-
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Inteligencia de destino**
 
   Auditorías Programa Target para detectar riesgos, colisiones, configuraciones erróneas, problemas de higiene y ventajas rápidas.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;Auditar mis actividades de Target&quot;.
-  * &quot;Encuentre conflictos o riesgos de configuración en todas mis actividades&quot;.
-  * &quot;¿Qué ventajas rápidas pueden mejorar la higiene de mi programa Target?&quot;
+* &quot;Auditar mis actividades de Target&quot;.
+* &quot;Encuentre conflictos o riesgos de configuración en todas mis actividades&quot;.
+* &quot;¿Qué ventajas rápidas pueden mejorar la higiene de mi programa Target?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Estratega de Target**
 
   Analiza los datos históricos de Target para detectar patrones ganadores y recomienda pruebas futuras.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;¿Qué debería probar a continuación según los resultados anteriores?&quot;
-  * &quot;¿Qué patrones aparecen en mis pruebas de mayor rendimiento?&quot;
-  * &quot;Recomiende una prueba de seguimiento basada en los resultados de esta actividad&quot;.
+* &quot;¿Qué debería probar a continuación según los resultados anteriores?&quot;
+* &quot;¿Qué patrones aparecen en mis pruebas de mayor rendimiento?&quot;
+* &quot;Recomiende una prueba de seguimiento basada en los resultados de esta actividad&quot;.
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Calculadora de prueba de destino**
 
   Planea el tamaño de muestra A/B/n, la duración y el alza detectable para las métricas de conversión e ingresos, con corrección de Bonferroni para comparaciones múltiples.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;¿Qué tamaño de muestra necesito?&quot;
-  * &quot;¿Durante cuánto tiempo debo ejecutar esta prueba A/B para detectar un alza del 5 %?&quot;
-  * &quot;¿Qué alza detectable puedo medir con este tráfico?&quot;
+* &quot;¿Qué tamaño de muestra necesito?&quot;
+* &quot;¿Durante cuánto tiempo debo ejecutar esta prueba A/B para detectar un alza del 5 %?&quot;
+* &quot;¿Qué alza detectable puedo medir con este tráfico?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Informe de Portfolio de destino**
 
   Proporciona resúmenes de rendimiento de solo lectura para todo el programa y análisis de tendencias e impulso de la actividad.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;¿Cuáles son mis mejores y peores pruebas?&quot;
-  * &quot;Mostrarme las tendencias de rendimiento en todas mis actividades&quot;.
-  * &quot;¿Qué actividades han ganado o perdido impulso recientemente?&quot;
+* &quot;¿Cuáles son mis mejores y peores pruebas?&quot;
+* &quot;Mostrarme las tendencias de rendimiento en todas mis actividades&quot;.
+* &quot;¿Qué actividades han ganado o perdido impulso recientemente?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Compositor de audiencias de destino**
 
   Crea o edita audiencias nativas de Target a partir de descripciones en lenguaje natural o reglas explícitas.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;Cree una audiencia para los visitantes móviles que regresan&quot;.
-  * &quot;Edite esta audiencia para incluir visitantes de búsquedas orgánicas&quot;.
-  * &quot;Cree una audiencia de Target para los visitantes que vieron la página de precios&quot;.
+* &quot;Cree una audiencia para los visitantes móviles que regresan&quot;.
+* &quot;Edite esta audiencia para incluir visitantes de búsquedas orgánicas&quot;.
+* &quot;Cree una audiencia de Target para los visitantes que vieron la página de precios&quot;.
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Recomendaciones de Target**
 
   Administra y trabaja con actividades y configuraciones de Recommendations de Target.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;Crear una actividad de Recommendations&quot;.
-  * &quot;Mostrarme las actividades y configuraciones de Recommendations&quot;.
-  * &quot;Actualice la configuración de esta actividad de Recommendations.&quot;
+* &quot;Crear una actividad de Recommendations&quot;.
+* &quot;Mostrarme las actividades y configuraciones de Recommendations&quot;.
+* &quot;Actualice la configuración de esta actividad de Recommendations.&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Diagnóstico de recomendaciones de Target**
 
   Diagnostica problemas de entrega, configuración, catálogo y fuente de Recommendations.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Mensajes de ejemplo:*
+*Mensajes de ejemplo:*
 
-  * &quot;¿Por qué no aparecen mis recomendaciones?&quot;
-  * &quot;Diagnostique la configuración de fuentes y catálogos para esta actividad de Recommendations.&quot;
-  * &quot;¿Los problemas de entrega o configuración afectan a mis recomendaciones?&quot;
+* &quot;¿Por qué no aparecen mis recomendaciones?&quot;
+* &quot;Diagnostique la configuración de fuentes y catálogos para esta actividad de Recommendations.&quot;
+* &quot;¿Los problemas de entrega o configuración afectan a mis recomendaciones?&quot;
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]

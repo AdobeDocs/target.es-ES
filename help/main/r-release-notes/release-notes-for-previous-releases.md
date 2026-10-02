@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '72534'
+source-wordcount: '72418'
 ht-degree: 48%
 ---
 # Notas de la versión para versiones anteriores
@@ -2085,15 +2085,17 @@ Esta versión de incluye las siguientes correcciones y actualizaciones:
 * Se ha añadido un mensaje de error para avisar a los usuarios cuando un periodo de tiempo de audiencia no es válido. (TGT52522)
 * Se ha actualizado la estructura de la actividad para admitir audiencias duplicadas de diferentes tipos. (TGT-51200)
 
-### [!DNL Adobe Target] [!DNL AI Assistant] versión (16 de mayo de 2025)
+<!--
+### [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
-¡Estamos encantados de anunciar el lanzamiento de [!DNL AI Assistant] en [!DNL Adobe Target]! Esta potente característica de interfaz de usuario se ha diseñado para ayudarle a navegar y comprender los conceptos de [!DNL Target] con facilidad. Disponible en varios productos en [!DNL Adobe Experience Cloud], incluido [!DNL Target], [!DNL AI Assistant] está aquí para revolucionar su experiencia.
+We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
 
-[!DNL AI Assistant] en [!UICONTROL Target] es una herramienta conversacional que puedes usar para acelerar tus flujos de trabajo con [!DNL Experience Platform] aplicaciones y servicios. Use [!DNL AI Assistant] para aumentar su productividad general y ampliar sus conocimientos sobre el producto
+[!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-En [!DNL Target], la primera fase de [!DNL AI Assistant] proporciona un conocimiento inestimable del producto basado en la documentación de [!DNL Experience League]. Ya sea que esté configurando un script de perfil, solucionando errores o considerando una actualización a AEP Web SDK, [!DNL AI Assistant] ya lo ha cubierto.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
-Para obtener más información, consulte [Descripción general del Asistente de IA de Adobe Experience Platform](/help/main/c-intro/ai-assistant.md).
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
+-->
 
 ### [!DNL Target Standard/Premium] 25.5.2 (8 de mayo de 2025)
 

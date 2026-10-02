@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '727'
 ht-degree: 28%
 ---
 # [!DNL Adobe Target] Guía para profesionales de negocios
@@ -62,13 +62,13 @@ Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz
 
 [![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
->[!TAB Ayudante de IA]
+>[!TAB Compañero de trabajo de IA]
 
-**Reunirse con [!DNL AI Assistant] en[!DNL Adobe Experience Platform]**
+**Reunirse con [!DNL Coworker] en[!DNL Adobe Experience Platform]**
 
-[!DNL AI Assistant] es su guía inteligente para navegar por [!DNL Adobe Experience Cloud]. Disponible en productos como [!DNL Target], [!DNL AI Assistant] le ayuda a comprender rápidamente los conceptos y características clave, directamente desde la interfaz.
+[!DNL Coworker] es su guía inteligente para navegar por [!DNL Adobe Experience Cloud]. Disponible en productos como [!DNL Target], [!DNL Coworker] le ayuda a comprender rápidamente los conceptos y características clave, directamente desde la interfaz.
 
-[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
+[![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/coworker-skills.md)
 
 >[!TAB Recursos de destino]
 
@@ -96,7 +96,7 @@ Especialistas en marketing, desarrolladores, administradores, analistas e ingeni
 - [[!DNL Target] notas de la versión](r-release-notes/release-notes.md): contiene información sobre la versión actual, información sobre problemas conocidos que afectan a [!DNL Target], una lista de cambios importantes en esta documentación y un archivo de notas de versiones anteriores.
 - [Introducción a [!DNL Target]](c-intro/intro.md): Explica los conceptos principales de [!DNL Target].
 - [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md): te ayuda a familiarizarte con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
-- [[!UICONTROL Ayudante de IA] información general](/help/main/c-intro/ai-assistant.md): [!DNL AI Assistant] en A[!DNL dobe Experience Platform] es una característica de interfaz de usuario que puede usar para navegar y comprender [!DNL Adobe Target] conceptos.
+- [Aptitudes de colaborador para Adobe Target](/help/main/c-intro/coworker-skills.md): obtenga información acerca de las aptitudes de colaborador para explorar actividades y audiencias, crear pruebas, analizar el rendimiento y solucionar problemas en Recommendations en [!DNL Adobe Target].
 - Integrar [!DNL Target] con [!DNL Adobe Experience Cloud]: explica cómo integrar [!DNL Target] con otras [!DNL Experience Cloud] soluciones, entre ellas [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) y [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Tutoriales](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=es): Proporciona tutoriales y vídeos que le ayudarán a sacar el máximo partido a [!DNL Target].
 - [Solución de problemas [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md): proporciona vínculos a información de solución de problemas contenida en esta guía, incluida información sobre los límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Target].
