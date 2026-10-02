@@ -157,7 +157,7 @@ Calcule las entradas de planificación para una actividad A/B que se basa en dat
 
    * **[!UICONTROL Varianza]**: La dispersión de los valores de las métricas. Una tasa de pulsaciones suele tener una varianza baja, los ingresos por usuario pueden ser mucho más altos. Si no está seguro, deje el valor predeterminado en 1.
 
-     Aprenda a calcular una **[!UICONTROL variación]** en [documentación de Analytics](https://experienceleague.adobe.com/es/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Aprenda a calcular una **[!UICONTROL variación]** en [documentación de Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
