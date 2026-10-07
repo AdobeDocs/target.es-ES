@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3560'
 ht-degree: 80%
 ---
 # Preguntas más frecuentes de Recommendations
@@ -310,5 +310,4 @@ Los siguientes son problemas conocidos de las actividades [!UICONTROL Recommenda
 * Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
 * Las entidades caducadas, después de 60 días de no recibir ninguna actualización a través de la fuente o la API, caducan correctamente; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después de la caducidad. Las entidades eliminadas a través de fuentes o API tampoco se eliminan actualmente del índice de búsqueda en el catálogo. (IRI-857)
 * Las ofertas de recomendaciones en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations. (TGT-33426)
-* Las actividades de Recommendations creadas mediante API se pueden ver en la interfaz de usuario, pero solo se pueden editar mediante API.
 * El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)

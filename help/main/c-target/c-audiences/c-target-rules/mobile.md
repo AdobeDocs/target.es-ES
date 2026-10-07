@@ -1,27 +1,31 @@
 ---
 keywords: segmentación;móvil;segmentar por móvil;deviceatlas;iPhone;modelos de iPhone;device atlas;anchuradepantalla;anchura de pantalla;altura de pantalla;tipo de dispositivo;alturadepantalla;teléfono;tablet;modelo de dispositivo
-description: Aprenda a crear audiencias en  [!DNL Adobe Target]  para segmentar dispositivos móviles.
+description: Aprenda a crear audiencias en [!DNL Adobe Target] para segmentar dispositivos móviles.
 title: ¿Puedo segmentar visitantes según las opciones de dispositivos móviles?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # Móvil
 
 Cree audiencias en [!DNL Adobe Target] para segmentar dispositivos móviles en función de parámetros como dispositivo móvil, tipo de dispositivo, proveedor de dispositivo, dimensiones de pantalla y muchos más.
@@ -89,6 +93,14 @@ La actualización de iOS 12.2 (o posterior) no afecta a la identificación de lo
 ### Segmentación de dispositivos que ejecuten Safari 14.0.2 (o posterior)
 
 Cuando se usan reglas móviles para dispositivos de destino que ejecutan Safari versión 14.0.2 (o posterior) en macOS, debido a un problema conocido que implica a los agentes de usuario de Apple y DeviceAtlas, [!DNL Target] identifica incorrectamente Safari en dispositivos Mac y iPad. Este problema se abordará en el futuro.
+
+### Scripts personalizados que sobrescriben el agente de usuario {#custom-scripts-overwrite-user-agent}
+
+Dado que la segmentación de dispositivos móviles se basa en la cadena del agente de usuario, cualquier script personalizado de la página que modifique `navigator.userAgent` antes de que [!DNL Target] lo lea puede provocar errores en la segmentación de dispositivos.
+
+Si el sitio web tiene un script personalizado que escucha todos los eventos en lugar del evento específico que necesita, podría interceptar accidentalmente un evento [!DNL Web SDK] y sobrescribir `navigator.userAgent`. Como resultado, [!DNL Target] recibe información incorrecta del dispositivo en lugar del dispositivo real del visitante y no se entrega la experiencia esperada.
+
+Si la segmentación de dispositivos móviles no se comporta como se espera, compruebe si algún script personalizado o agente de escucha de eventos de la página modifica `navigator.userAgent` y aplique el ámbito a esos agentes de escucha lo más estrictamente posible para que no intercepten [!DNL Target] o eventos de Web SDK de forma involuntaria.
 
 ## Vídeo de formación: Creación de públicos
 
