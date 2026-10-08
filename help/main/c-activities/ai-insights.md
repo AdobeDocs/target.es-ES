@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # Información de IA
 
@@ -19,12 +19,12 @@ ht-degree: 27%
 
 El menú **[!UICONTROL Información de IA]** de su **[!UICONTROL Información general de actividad]** le proporciona acceso a información y oportunidades de optimización. Utilice esta pestaña para revisar las lecciones aprendidas durante los experimentos, comparar tratamientos e identificar cambios que puedan mejorar las tasas de conversión.
 
-## Configuración de las perspectivas y oportunidades de IA
+## Configuración de los datos y oportunidades de la IA
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
->title="Perspectivas"
->abstract="Las perspectivas son conclusiones generadas por IA que están disponibles cuando el experimento alcanza la relevancia estadística."
+>title="Datos"
+>abstract="Los datos son resultados generados por la IA que están disponibles cuando su experimento alcanza relevancia estadística."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -39,7 +39,7 @@ El menú **[!UICONTROL Información de IA]** de su **[!UICONTROL Información ge
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="Detalles de la experiencia"
->abstract="Los detalles de la experiencia muestran imágenes del aspecto de una experiencia cuando un usuario cumple los requisitos para ella. Puede revisar estas imágenes para todos los experimentos. Algunos experimentos pueden pedirle que confirme la imagen o que la sustituya si es necesario."
+>abstract="Los detalles de la experiencia muestran cómo es una experiencia cuando un usuario cumple sus requisitos. Puede revisar estas imágenes para todos los experimentos. Algunos experimentos pueden pedirle que confirme la imagen o que la sustituya si es necesario."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -94,12 +94,12 @@ La métrica principal se extrae automáticamente de la configuración de creaci�
 
 Una vez completada la configuración, la actividad estará lista para generar oportunidades. Las perspectivas están disponibles después de que el experimento tenga datos suficientes para la validación estadística y de que se hayan confirmado los detalles necesarios del experimento.
 
-## Perspectivas {#insights}
+## Datos {#insights}
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
->title="Perspectivas"
->abstract="Las perspectivas del experimento son aprendizajes generados por IA que están disponibles cuando el experimento alcanza la relevancia estadística."
+>title="Datos"
+>abstract="Los datos del experimento son aprendizajes generados por la IA que están disponibles cuando el experimento alcanza relevancia estadística."
 
 Las perspectivas del experimento son aprendizajes generados por IA derivados de este experimento. Estas perspectivas están disponibles una vez que el experimento alcanza la relevancia estadística y proporcionan un contexto sobre lo que ha contribuido a su éxito. Resaltan los atributos clave presentes en la experiencia ganadora que son distintos del control y que probablemente influyeron en el resultado.
 
@@ -118,7 +118,7 @@ Las perspectivas del experimento son aprendizajes generados por IA derivados de 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Oportunidades"
->abstract="Las oportunidades de experimento son ideas de experiencia sugeridas por IA basadas en patrones de IA encontrados en las capturas de pantalla y resultados de su experimento."
+>abstract="Las oportunidades del experimento son ideas de experiencias sugeridas por la IA basadas en patrones de IA encontrados en capturas de pantalla y resultados del experimento."
 
 El panel **[!UICONTROL Oportunidades]** muestra recomendaciones generadas por IA diseñadas para mejorar el rendimiento de las pruebas y alinearse con objetivos y KPI empresariales más amplios.
 
