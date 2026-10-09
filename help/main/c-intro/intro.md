@@ -66,7 +66,7 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
->title="Mejora esperada"
+>title="Mejora prevista"
 >abstract="La mejora que espera que produzca el experimento."
 
 >[!CONTEXTUALHELP]
@@ -77,7 +77,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Nivel de confianza"
->abstract="El nivel de seguridad que necesita para confirmar que un resultado no es solo una casualidad aleatoria antes de considerarlo real, es decir, el umbral para la relevancia estadística. Un nivel de confianza del 95 % significa que hay como máximo un 5 % de probabilidades de obtener un falso positivo. Los valores más altos reducen los falsos positivos, pero requieren más datos."
+>abstract="El nivel de seguridad que necesita para confirmar que un resultado no es solo una casualidad aleatoria antes de considerarlo real, es decir, el umbral para la relevancia estadística. Un nivel de confianza del 95 % significa que hay como máximo un 5 % de probabilidades de obtener un falso positivo. Los valores más altos reducen los falsos positivos, pero requieren más datos."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
