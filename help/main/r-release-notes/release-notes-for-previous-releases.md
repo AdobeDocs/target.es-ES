@@ -580,7 +580,7 @@ Para obtener más información, vea [Referencia de herramientas del servidor MCP
 
 * **Información sobre herramientas no localizada en el generador de actividades actualizado.** Se han corregido problemas de localización en los que la información sobre herramientas de **[!UICONTROL Refinamientos]** y **[!UICONTROL Contenido]** no se había localizado en el generador de actividades actualizado de [!UICONTROL Compositor de experiencias visuales]. (TGT-53721)
 
-* **Todos los visitantes] sin localizar en [!UICONTROL Audiencias de experiencia].** [!UICONTROL Se ha corregido un problema en el cual la cadena **[!UICONTROL Todos los visitantes]** de **[!UICONTROL Audiencias de experiencia]** en el carril izquierdo no estaba localizada en [!UICONTROL Compositor de experiencias visuales]. (TGT-50086)
+* **Todos los visitantes sin localizar en [!UICONTROL Audiencias de experiencia].** Se ha corregido un problema en el cual la cadena **[!UICONTROL Todos los visitantes]** de **[!UICONTROL Audiencias de experiencia]** en el carril izquierdo no estaba localizada en [!UICONTROL Compositor de experiencias visuales]. (TGT-50086)
 
 +++
 
@@ -618,7 +618,7 @@ Para obtener más información, vea [Referencia de herramientas del servidor MCP
 
 +++
 
-Servidor MCP **[!DNL Adobe Target](Beta público)**
+Servidor MCP **[!DNL Adobe Target] (Beta público)**
 
 +++Ver detalles
 
@@ -636,7 +636,7 @@ Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c
 
 +++Ver detalles
 
-* **Nueva [!UICONTROL página ]** Se ha agregado una nueva página **[!UICONTROL Novedades]** en la interfaz de usuario de [!DNL Adobe Target] para ayudarle a descubrir las últimas funciones, mejoras y actualizaciones sin tener que abandonar el producto. (TGT-55137)
+* **Nueva [!UICONTROL página &#x200B;]** Se ha agregado una nueva página **[!UICONTROL Novedades]** en la interfaz de usuario de [!DNL Adobe Target] para ayudarle a descubrir las últimas funciones, mejoras y actualizaciones sin tener que abandonar el producto. (TGT-55137)
 
 +++
 
@@ -684,7 +684,7 @@ Para obtener más información, consulte [[!DNL Adobe Target] Servidor MCP](../c
 
 +++Ver detalles
 
-* **Confirmación más clara para la ofuscación de IP del último octeto.** Cuando cambia las direcciones IP de los visitantes ofuscados **[!UICONTROL 1} a**[!UICONTROL &#x200B;Último octeto ]**en**[!UICONTROL  Administración ]**>**[!UICONTROL  Implementación ]**, el cuadro de diálogo de confirmación ahora explica que [!DNL Target] oculta el último octeto de la dirección IP del visitante.]**(TGT-44821)
+* **Confirmación más clara para la ofuscación de IP del último octeto.** Cuando cambia las direcciones IP de los visitantes ofuscados **[!UICONTROL 1&rbrace; a**&#x200B;[!UICONTROL &#x200B;Último octeto &#x200B;]&#x200B;**en**&#x200B;[!UICONTROL &#x200B; Administración &#x200B;]&#x200B;**>**&#x200B;[!UICONTROL &#x200B; Implementación &#x200B;]&#x200B;**, el cuadro de diálogo de confirmación ahora explica que [!DNL Target] oculta el último octeto de la dirección IP del visitante.]**(TGT-44821)
 
 +++
 
