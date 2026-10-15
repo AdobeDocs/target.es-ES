@@ -82,7 +82,7 @@ Haga clic en el icono [!UICONTROL Notificaciones] ( ![icono Notificaciones](/hel
 
 El panel contiene fichas para [!UICONTROL Solicitudes], [!UICONTROL Notificaciones] y [!UICONTROL Anuncios].
 
-![&#x200B; Notificaciones &#x200B;](assets/notifications.png)
+![ Notificaciones ](assets/notifications.png)
 
 Las secciones siguientes contienen información sobre cada pestaña y cómo configurar las notificaciones y los anuncios:
 
@@ -198,7 +198,7 @@ Consulte [Crear audiencias](/help/main/c-target/c-audiences/create-audience.md) 
 
 Haga clic en la pestaña **[!UICONTROL Ofertas]** para mostrar la lista [!UICONTROL Ofertas], donde podrá crear experiencias y ofertas y administrar las experiencias y ofertas existentes.
 
-Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un embudo de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
+Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un embudo de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio de atención al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
 Consulte [Ofertas](/help/main/c-experiences/c-manage-content/manage-content.md) para obtener información detallada acerca de los tipos de ofertas en [!DNL Target] y para obtener más información acerca de la interfaz de usuario de la lista [!UICONTROL Oferta].
 

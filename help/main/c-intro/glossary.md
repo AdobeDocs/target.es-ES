@@ -213,7 +213,7 @@ Los hosts se agrupan en entornos para facilitar la administración. Los grupos d
 
 **experiencia**
 
-Oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un embudo de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
+Oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un embudo de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio de atención al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
 **segmentación de experiencias**
 
