@@ -30,7 +30,7 @@ Todos los clientes nuevos de [!DNL Adobe Experience Platform Web SDK] tendrán h
 >
 >Si no puede completar la revisión de la implementación y resolver cualquier problema antes del 3 de febrero de 2025, puede solicitar una extensión única de seis meses. Asegúrese de que su solicitud se haya enviado antes del 31 de enero de 2025. Adobe revisará y decidirá sobre su solicitud.
 
-Para beneficiarse de esta optimización en caso de procesamiento manual de propuestas, revise su [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} para asegurarse de que está enviando notificaciones después de procesar manualmente experiencias o cuando utilice el método `applyPropositions` (o la acción [!DNL Launch] correspondiente como ayudante) para procesar experiencias.
+Para beneficiarse de esta optimización en caso de procesamiento manual de propuestas, revise su [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} para asegurarse de que está enviando notificaciones después de procesar manualmente experiencias o cuando utilice el método `applyPropositions` (o la acción [!DNL Launch] correspondiente como ayudante) para procesar experiencias.
 
 Los escenarios más comunes en los que las experiencias se procesan manualmente incluyen:
 
@@ -38,7 +38,7 @@ Los escenarios más comunes en los que las experiencias se procesan manualmente 
 * Usando un ámbito de decisión personalizado en una actividad creada en [[!UICONTROL Compositor de experiencias basadas en formularios]](/help/main/c-experiences/form-experience-composer.md)
 * No se usa `renderDecisions: true` al recuperar una actividad creada con el [!UICONTROL Compositor de experiencias basadas en formularios] que usa el ámbito global `__view__`
 
-Si las notificaciones no se implementan como se documenta en [Procesar contenido personalizado](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} en la guía de *Recopilación de datos*, es posible que falten datos de informes en [!DNL Target] y en [Informes de Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). En algunos casos, es posible que observe una división de tráfico incorrecta porque no se capturan los datos del sistema de informes. O, en otros casos, informar del mismo evento repetidamente.
+Si las notificaciones no se implementan como se documenta en [Procesar contenido personalizado](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} en la guía de *Recopilación de datos*, es posible que falten datos de informes en [!DNL Target] y en [Informes de Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). En algunos casos, es posible que observe una división de tráfico incorrecta porque no se capturan los datos del sistema de informes. O, en otros casos, informar del mismo evento repetidamente.
 
 Según la implementación, compruebe el impacto de los informes de [!DNL Analytics] y A4T.
 
@@ -55,7 +55,7 @@ Según la implementación, compruebe el impacto de los informes de [!DNL Analyti
 
 * **Dividir llamadas (también conocidas como eventos de principio y final de página).**
 
-  Este tipo de implementación es el nuevo [enfoque de implementación de llamada dividida](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recomendado por [!DNL Adobe]. Con este enfoque, la nueva optimización no afecta a los informes de [!DNL Analytics] ni A4T.
+  Este tipo de implementación es el nuevo [enfoque de implementación de llamada dividida](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recomendado por [!DNL Adobe]. Con este enfoque, la nueva optimización no afecta a los informes de [!DNL Analytics] ni A4T.
 
 Si tiene preguntas, comuníquese con el [Servicio de atención al cliente de Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
@@ -63,16 +63,16 @@ Si tiene preguntas, comuníquese con el [Servicio de atención al cliente de Ado
 
 * Se ha corregido un problema que impedía que [!DNL Target] funcionara correctamente con ofertas de redireccionamiento dentro del [!UICONTROL Compositor de experiencias visuales] (VEC) o [!UICONTROL Compositor de experiencias basadas en formularios].
 
-Para obtener más información sobre las versiones de at.js, consulte [detalles de la versión de at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} en la *Guía para desarrolladores de Adobe Target*.
+Para obtener más información sobre las versiones de at.js, consulte [detalles de la versión de at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} en la *Guía para desarrolladores de Adobe Target*.
 
 ### Informes de [!DNL Target] en [!DNL Adobe Customer Journey Analytics] (8 de mayo de 2024)
 
-La integración entre [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} y [!DNL Target] proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización.
+La integración entre [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/customer-journey-analytics){target=_blank} y [!DNL Target] proporciona potentes herramientas de análisis y ahorro de tiempo para su programa de optimización.
 
 Las principales ventajas de utilizar [!DNL Customer Journey Analytics] como fuente de creación de informes para [!DNL Target] son:
 
 * Los especialistas en marketing pueden aplicar de forma dinámica métricas de éxito de [!DNL Customer Journey Analytics] a informes de actividad de [!DNL Target] en cualquier momento. No es necesario especificarlo todo antes de ejecutar la actividad.
-* Los especialistas en mercadotecnia pueden aprovechar las características de [!DNL Customer Journey Analytics], como el [Panel de experimentación](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, para analizar más a fondo la personalización de su sitio web.
+* Los especialistas en mercadotecnia pueden aprovechar las características de [!DNL Customer Journey Analytics], como el [Panel de experimentación](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, para analizar más a fondo la personalización de su sitio web.
 
 Para obtener más información, consulte Informes de [Target en Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 

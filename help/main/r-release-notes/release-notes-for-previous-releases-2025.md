@@ -275,7 +275,7 @@ En esta versión se incluyen las siguientes correcciones y mejoras:
 
 +++Ver detalles
 
-* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
+* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/es/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
 
 +++
 
@@ -356,7 +356,7 @@ Se ha actualizado la lógica de validación de [!DNL Target] conexiones de desti
 * El mismo ID de flujo de datos solo se puede utilizar para conexiones diferentes si están configuradas en entornos limitados diferentes.
 * Esta regla se aplica a todas las selecciones de flujos de datos, incluso cuando se selecciona &quot;Ninguno&quot;.
 
-Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
+Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
 
 ### [!DNL Target Standard/Premium] 25.9.1 (5 de septiembre de 2025)
 
@@ -1496,7 +1496,7 @@ Esta versión incluye la siguiente actualización:
 
 * Se corrigió el registro de telemetría cuando `localStorage` no está disponible. La telemetría estaba ocasionando un problema a algunos clientes que tenían `localStorage` deshabilitado en sus navegadores.
 
-Para obtener más información sobre esta versión de at.js y las anteriores, consulte [Detalles de la versión de at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
+Para obtener más información sobre esta versión de at.js y las anteriores, consulte [Detalles de la versión de at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
 
 ### Target Standard/Premium 25.2.1 (martes, 17 de febrero de 2025) {#ui-update-2}
 
@@ -1520,7 +1520,7 @@ A medida que continúa el esfuerzo de modernización de la interfaz de usuario d
 En función del último sistema de diseño de [!DNL Adobe Spectrum], la actualización estandariza los patrones de diseño que antes eran incoherentes, a la vez que agrega nuevas mejoras, como las siguientes:
 
 * [Se rediseñó el sistema de informes](/help/main/administrating-target/reporting.md) para obtener mejores datos sobre los resultados de la actividad.
-* [[!UICONTROL Se ha actualizado la página Registro de cambios]](/help/main/c-activities/change-log.md), y ahora se obtiene la información de [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} para obtener información en tiempo real.
+* [[!UICONTROL Se ha actualizado la página Registro de cambios]](/help/main/c-activities/change-log.md), y ahora se obtiene la información de [[!DNL Audit Query API]](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} para obtener información en tiempo real.
 * [Vistas de lista personalizables](/help/main/c-activities/activities.md) para una mejor flexibilidad en las diferentes necesidades del equipo.
 * [Información rápida y pantallas de detalles mejoradas](/help/main/c-activities/activities.md) para obtener acceso a la información con mayor facilidad.
 * [Opciones de filtro y búsqueda persistentes en la sesión](/help/main/c-activities/activities.md).
