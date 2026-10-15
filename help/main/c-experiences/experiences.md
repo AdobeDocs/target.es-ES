@@ -32,7 +32,7 @@ ht-degree: 79%
 
 Una experiencia en [!DNL Adobe Target] determina qué contenido se muestra cuando el visitante cumple los criterios de audiencia de una actividad.
 
-Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un embudo de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
+Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un embudo de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio de atención al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
 
 Una actividad generalmente contiene más de una experiencia. Por ejemplo, los visitantes del área de Salt Lake City podrían ver una oferta para un descuento de 30 dólares en botas de ski, mientras que los visitantes de San Diego ven una oferta para un descuento en trajes de agua. O bien, podría probar una página con diferentes ofertas especiales para los visitantes que regresan. Cada una de estas ofertas se presenta en una experiencia separada.
 
