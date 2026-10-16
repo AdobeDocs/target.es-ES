@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # Informe [!UICONTROL Segmentos automatizados]
 
@@ -139,6 +139,11 @@ Para obtener más información acerca del algoritmo de personalización de bosqu
 **¿Qué decide el orden de los segmentos automatizados?**
 
 Para cada segmento se calcula una puntuación en función de su tamaño y de su desempeño ante el contenido de la actividad. La combinación de estas entradas determina el orden de los segmentos automatizados, de manera que los segmentos más grandes y con diferencias mayores en la respuesta ante los distintos contenidos aparecen más arriba en la lista de segmentos.
+
+**¿Por qué todas las tarjetas en una experiencia AP de varias tarjetas muestran la misma tasa de conversión cuando se usa &quot;Cualquier tarjeta en la que se hizo clic&quot;?**
+
+En [!UICONTROL Automated Personalization], la optimización y la creación de informes se evalúan en el nivel de experiencia, no en el nivel de componente o tarjeta individual. La métrica de éxito [!UICONTROL Cualquier tarjeta en la que se hizo clic] registra una conversión cuando un visitante hace clic al menos en una tarjeta de la experiencia.
+Dado que el clic se atribuye a la experiencia en su conjunto, todas las tarjetas de dicha experiencia pueden mostrar los mismos recuentos de conversión y tasas de conversión en los informes, incluidos los [!UICONTROL segmentos automatizados]. Este comportamiento es esperable y refleja la manera en que [!UICONTROL Automated Personalization] optimiza las combinaciones de contenido en lugar de las tarjetas individuales.
 
 **¿Por qué solo algunas de mis ofertas y experiencias aparecen en el informe Segmentos automatizados?**
 

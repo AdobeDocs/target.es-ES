@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
+source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 21%
+source-wordcount: '1877'
+ht-degree: 20%
 ---
 # Informes de [!DNL Target] en [!DNL Adobe Customer Journey Analytics]
 
@@ -120,6 +120,8 @@ La creación de una actividad de [!DNL Target] que use [!DNL Customer Journey An
 
 1. Para las actividades A/B con división de tráfico manual o [!UICONTROL Asignación automática], selecciona una **[!UICONTROL vista de datos]**. Una vista de datos funciona como un grupo de informes [!DNL Analytics] para los informes [!DNL Customer Journey Analytics]. Solo se muestran las vistas de datos de la zona protegida seleccionada a la que tiene acceso.
 
+   Se requiere la vista de datos para las actividades [!UICONTROL Asignación automática]. Es opcional para actividades A/B con división de tráfico manual.
+
    ➡️ [Obtenga más información acerca de la vista de datos en la documentación de Adobe Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views)
 
 1. Especifique la métrica de objetivo. Elija una de las siguientes opciones:
@@ -127,6 +129,8 @@ La creación de una actividad de [!DNL Target] que use [!DNL Customer Journey An
    * **[!UICONTROL Conversión]**: elige la acción que la audiencia debe realizar para indicar que se ha alcanzado el objetivo. [Más información sobre las métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
    * **[!UICONTROL Usar una métrica de Customer Journey Analytics]**: disponible solo para actividades A/B con división de tráfico manual o [!UICONTROL Asignación automática]. Elija una métrica [!DNL Customer Journey Analytics] o una métrica calculada de la vista de datos seleccionada. Esta métrica sirve como criterio de optimización. El modelo se ejecuta en [!DNL Customer Journey Analytics] datos y actualiza los datos de rendimiento en la misma cadencia usada para los informes de [!DNL Customer Journey Analytics].
+
+     La métrica es necesaria para [!UICONTROL Asignación automática] actividades. Es opcional para actividades A/B con división de tráfico manual. Si elige una métrica, también debe seleccionar una vista de datos.
 
    ![Use una opción de métrica de Customer Journey Analytics en Métrica de meta](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

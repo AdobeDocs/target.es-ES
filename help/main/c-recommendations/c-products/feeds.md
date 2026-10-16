@@ -1,5 +1,5 @@
 ---
-keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
+keywords: fuente de recommendations;fuente;SAINT;ftp;sftp;csv;clasificaciones;clasificaciones de analytics
 description: Descubra cómo las fuentes importan entidades en [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo utilizo [!UICONTROL Fuentes] en [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 36%
+source-wordcount: '2785'
+ht-degree: 31%
 ---
 # Fuentes
 
@@ -128,31 +128,28 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-El tipo de fuente [!DNL Google Product Search] usa el formato [!DNL Google]. Es distinto del formato de carga CSV propiedad de [!DNL Adobe].
-
-Si ya tiene un(a) [!DNL Google Product Feed], puede utilizarlo como archivo de importación.
+El tipo de fuente [!DNL Google Product Search] usa el formato [!DNL Google] en lugar del formato CSV propiedad de [!DNL Adobe]. Puede reutilizar un(a) [!DNL Google Product Feed] existente para importar datos de producto en [!DNL Recommendations].
 
 >[!NOTE]
 >
->No es necesario usar los datos de [!DNL Google]. [!DNL Recommendations] usa el mismo formato que [!DNL Google]. Puede usar este método para cargar los datos que tenga y utilizar las funciones de programación disponibles. Sin embargo, debe conservar los nombres de atributo predefinidos de [!DNL Google] al configurar el archivo.
+>No necesita enviar sus datos a [!DNL Google]. Puede importar sus propios datos y programar actualizaciones, siempre que el archivo utilice los nombres de atributo predefinidos [!DNL Google].
 
-La mayoría de los comerciantes cargan productos en [!DNL Google], por lo que cuando un visitante usa la búsqueda de productos de [!DNL Google], se muestran sus productos. [!DNL Recommendations] sigue exactamente la especificación [!DNL Google] para las fuentes de entidades. Las fuentes de entidad se pueden enviar a [!DNL Recommendations] a través de .xml, .txt o .tsv, y pueden usar los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Los resultados se pueden buscar en [[!DNL Google] páginas de compras](https://www.google.com/prdhp).
+[!DNL Recommendations] acepta archivos .xml, .txt y .tsv que siguen la especificación de fuente [!DNL Google] y utilizan los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Especifique la dirección URL o la ubicación FTP de la fuente para que el servidor [!DNL Recommendations] pueda recuperar el archivo y generar el catálogo.
 
 >[!NOTE]
 >
->Se debe permitir el método POST en el servidor que hospeda el contenido de la fuente [!DNL Google].
+>El servidor que hospeda la fuente [!DNL Google] debe permitir el método POST.
 
-Dado que los usuarios de [!DNL Recommendations] ya configuraron las fuentes .xml o .txt para enviarlas a [!DNL Google] a través de una dirección URL o un FTP, las fuentes de entidades aceptan esos datos de productos y los utilizan para generar el catálogo de recomendaciones. Especifique si la fuente existe y si el servidor de Recommendations recupera los datos.
+Tenga en cuenta los siguientes requisitos y limitaciones:
 
-Si usa [!DNL Google Product Search] para la carga de fuente de entidades, aún debe tener un mbox de página de producto en la página si desea mostrar recomendaciones o rastrear vistas de productos para la entrega de algoritmos basados en vistas.
+* El mbox de una página de producto sigue siendo necesario para mostrar recomendaciones en esa página o rastrear vistas de productos para algoritmos basados en vistas.
+* [!DNL Google] fuentes no admiten varios valores para un atributo personalizado.
 
-[!DNL Google] fuentes no admiten varios valores para un atributo personalizado.
+La fuente se ejecuta cuando la guarda y activa, y luego diariamente una hora más tarde que el tiempo de ejecución inicial.
 
-La fuente se ejecuta en el momento en que la guarda y activa. Se ejecuta en el momento en que se guarda la fuente y, a continuación, todos los días una hora después.
+El ejemplo siguiente muestra una fuente [!DNL Google Product Search] en formato .xml:
 
-El siguiente es un ejemplo de código para un archivo .xml de fuente [!DNL Google Product Search]:
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
 <feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
     <title>Product Feed</title> 
@@ -257,12 +254,28 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
    * **FTP**: Si ha seleccionado la ubicación FTP, indique los datos del servidor FTP, las credenciales de inicio de sesión, el nombre de archivo y el directorio de FTP. Puede utilizar FTP con SSL (FTPS) para que las cargas sean más seguras.
 
-     Configuración del servidor FTP admitida:
+     +++ Configuración de servidor FTP admitida
 
      * FTP y FTPS deben estar configurados para utilizar FTP pasivo.
      * En FTPS, configure el servidor para que acepte conexiones de FTPS explícitas.
-     * SFTP no es compatible.
      * Puede especificar manualmente un puerto en el que iniciar la conexión (por ejemplo, `ftp://ftp.yoursite.com:2121`). Si no especifica un puerto, se utilizará el puerto FTP o FTPS predeterminado.
+
+   +++
+
+   * **SFTP**: Escriba el nombre de host o la dirección IP, el puerto (predeterminado: 22), el nombre de usuario, el directorio y el nombre de archivo del servidor SFTP. Para la autenticación, proporcione una contraseña, una clave privada SSH o ambas.
+
+     +++ Configuración y limitaciones del servidor SFTP admitidas
+
+     * La autenticación utiliza una contraseña, una clave privada SSH o ambas. Se requiere al menos uno.
+     * El cliente genera y posee el par de claves. Instale la clave pública en el archivo `authorized_keys` del usuario SFTP y pegue la clave privada en Target como texto PEM. Los tipos de clave aceptados son RSA, Ed25519 y ECDSA, en formato PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`) u OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`).
+     * No se admiten claves privadas protegidas con frase de contraseña; no se puede guardar una fuente con una.
+     * Target almacena la clave privada cifrada y no la vuelve a mostrar. Para girarla, edite la fuente e introduzca la nueva clave.
+     * Escriba un nombre de host o una dirección IP sin formato, sin un prefijo, puerto o ruta de acceso de `sftp://`. Utilice el campo Port para un puerto no predeterminado.
+     * La clave de host del servidor se acepta en la primera conexión y no se necesita intercambio de huellas digitales con Adobe.
+     * El SFTP está disponible en la interfaz de Target y en la API de Recommendations, pero no en la interfaz de administración heredada de Recommendations Classic. Adobe no aloja un extremo SFTP; utilice un servidor alojado por el cliente.
+     * El servidor SFTP debe ser accesible desde Internet y permitir conexiones entrantes desde las direcciones de descarga de Adobe Target. El departamento de ingeniería debe confirmar la lista de IP de producción antes de publicar esta actualización.
+
+   +++
 
    * **URL**: Si selecciona [!UICONTROL URL], especifique la URL.
 
@@ -289,11 +302,11 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Después de crear o editar una fuente, esta se ejecuta inmediatamente. A continuación, la fuente se actualiza según los parámetros que haya establecido. La información tarda un poco en estar disponible. Primero es necesario sincronizar la fuente, después debe procesarse e indizarse para poder publicarla y ponerla a disposición del público. El estado actual aparece en [Estado de fuente](/help/main/c-recommendations/c-products/feeds.md#status) en la lista [!UICONTROL Fuentes]. Puede cerrar [!DNL Target] antes de que el proceso se haya completado y el proceso seguirá su curso.
+Después de crear o editar una fuente, esta se ejecuta inmediatamente y luego se actualiza según la configuración. La fuente debe sincronizarse, procesarse e indexarse antes de que sus datos estén disponibles. Compruebe el progreso de [Estado de la fuente](/help/main/c-recommendations/c-products/feeds.md#status) en la lista de [!UICONTROL Fuentes]. El procesamiento continúa aunque cierre [!DNL Target].
 
-Mientras la indización está en curso, se muestran los encabezados de la fuente y los productos antes de indizar los valores individuales. Esto le permite buscar y ver productos para poder crear colecciones, exclusiones, diseños y actividades antes de completar la indexación.
+Durante la indexación, los productos y los encabezados de fuente aparecen antes de los valores individuales, por lo que puede buscar productos y crear colecciones, exclusiones, diseños y actividades antes de que finalice la indexación.
 
-Cuando el estado indica “Correcto”, significa que el archivo se ha encontrado y se ha analizado correctamente. La información no está disponible para su uso en [!DNL Recommendations] hasta que se indexa el archivo. La tarea de indexación puede tardar bastante, en función del tamaño del archivo. Si el proceso falla, significa que no se encontró el archivo. Por ejemplo: ha utilizado una dirección URL incorrecta, la información de FTP era incorrecta o había un error de análisis.
+El estado &quot;Correcto&quot; significa que el archivo se encontró y analizó correctamente. Sus datos solo están disponibles en [!DNL Recommendations] después de la indexación, lo que lleva tiempo en función del tamaño del archivo. Los errores pueden deberse a una dirección URL o información de FTP incorrecta, a la falta de un archivo o a un error de análisis.
 
 ## Estados e indicadores de alimentación {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -315,7 +328,7 @@ Estos son los posibles estados de una fuente:
 | Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, vuelva a intentarlo y actualice la página que contiene recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones aún no se reflejen en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Búsqueda en el catálogo] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
 | Error de importación parcial | Anteriormente, cuando no se cargaban todas las filas, la fuente se marcaba como correcta. Por lo tanto, si se crea la impresión de que todas las filas se han cargado mientras la fuente se muestra correctamente,<P>Este es un escenario de por qué podría encontrar una importación parcial de fuentes:<ul><li>Ha cargado un archivo de fuente para el entorno de producción; por ejemplo, 100 filas.</li><li>Se ejecutó la fuente, se cargaron 80 de esas filas y se perdieron 20 debido a un formato incorrecto, a que el campo superaba los caracteres, etc.</li><li>La fuente se marcó como correcta en la interfaz de usuario, lo que da la impresión de que se han cargado las 100 filas.</li><li>Está esperando algunos de esos 20 productos en el envío de una actividad, pero no está ocurriendo.</li><li> En este punto se siente desconcertado porque ha cargado la fuente que contiene los detalles del producto para los productos en cuestión. No lo ve en el backend de cuando consulta a través de la API de entidad, que le indica que no está en el backend de.</li></ul>Para eliminar esta confusión, se mejora el mensaje para indicar exactamente qué ha pasado con la fuente. En lugar de marcarlo como un éxito, ahora se marca como un error de importación parcial. |
 | [!UICONTROL No se pudo indexar] | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
-| [!UICONTROL Servidor No Encontrado] | Las ubicaciones FTP o URL no son válidas o bien no se pueden encontrar. |
+| [!UICONTROL Servidor No Encontrado] | Las ubicaciones de FTP, SFTP o URL no son válidas o no se puede acceder a ellas. |
 
 Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configuración o el archivo de la fuente), ábrala, aplique los cambios y haga clic en **[!UICONTROL Guardar]**.
 

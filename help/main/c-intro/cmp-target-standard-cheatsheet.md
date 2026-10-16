@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
+source-wordcount: '2913'
 ht-degree: 50%
 ---
 # Preguntas más frecuentes sobre la optimización y personalización de Target
@@ -95,6 +95,8 @@ Conéctese con otros [!DNL Target] practicantes en el [Foro de la comunidad de T
 
 +++Ver detalles
 Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+
+[!DNL Safari] es compatible con la interfaz [!DNL Target]. Puede crear actividades basadas en formularios en [!DNL Safari] y usar todas las funciones, excepto [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC), que no son compatibles con [!DNL Safari]. Para editar experiencias en el VEC o EEC, use [!DNL Google Chrome].
 
 +++
 
