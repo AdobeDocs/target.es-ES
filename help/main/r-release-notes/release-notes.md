@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '643'
+ht-degree: 42%
 ---
 # [!DNL Target] Notas de la versión (actuales)
 
 Explore las últimas funciones, mejoras y correcciones de [!DNL Adobe Target]. Estas notas de la versión también tratan sobre las actualizaciones de las API de [!DNL Target], los SDK, [!DNL Adobe Experience Platform Web SDK], at.js y otros componentes de la plataforma, cuando corresponda.
 
 (Los números entre paréntesis son para uso interno de [!DNL Adobe]).
+
+## [!DNL Target Standard/Premium] 26.10.2 (15 de octubre de 2026)
+
+**[!UICONTROL Actividades]**
+
++++Ver detalles
+
+* **Se muestra una configuración de metas incorrecta en la Descripción general de la actividad**. Se ha corregido un problema por el cual la configuración de objetivos mostrada en la página **[!UICONTROL Información general]** de una actividad era incorrecta. Por ejemplo, `https://` se agregó a la dirección URL de la página, y no se mostró la condición **[!UICONTROL URL contiene]**, aunque la configuración real del objetivo era correcta. (TGT-56326)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Ver detalles
+
+* **Se muestran recomendaciones de copia de seguridad después de actualizar una promoción en una actividad activa**. Se ha corregido un problema por el cual al editar una promoción en una actividad de [!DNL Recommendations] activa, [!DNL Target] creaba nuevas promociones y unidades de recomendación aunque no hubiera cambiado nada en su definición. (TGT-56369)
+
++++
+
+**[!UICONTROL Informes]**
+
++++Ver detalles
+
+* **Ajustes preestablecidos de informes eliminados después de dos semanas**. Se ha corregido un problema por el cual los ajustes preestablecidos de informes que los usuarios guardaban para una actividad se eliminaban automáticamente después de aproximadamente dos semanas. (TGT-56374)
+
++++
+
+**[!UICONTROL Compositor de experiencias visuales] (VEC)**
+
++++Ver detalles
+
+* Se agregó compatibilidad con **Safari a[!DNL Adobe Target]**. [!DNL Target] ahora se admite en el explorador [!DNL Safari]. Tenga en cuenta que el Compositor de experiencias visuales y [!DNL Enhanced Experience Composer] no se admiten en [!DNL Safari]. Como resultado, ahora aparece una superposición en [!DNL VEC] para notificar a los usuarios que deben cambiar a [!DNL Chrome] para utilizar el editor. (TGT-55853)
+
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1 (13 de octubre de 2026)
 
