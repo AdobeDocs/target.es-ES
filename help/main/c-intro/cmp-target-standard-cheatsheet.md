@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
+source-wordcount: '2913'
 ht-degree: 50%
 ---
 # Preguntas más frecuentes sobre la optimización y personalización de Target
@@ -94,7 +94,9 @@ Conéctese con otros [!DNL Target] practicantes en el [Foro de la comunidad de T
 **¿Con qué exploradores es compatible [!DNL Target]?**
 
 +++Ver detalles
-Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+
+[!DNL Safari] es compatible con la interfaz [!DNL Target]. Puede crear actividades basadas en formularios en [!DNL Safari] y usar todas las funciones, excepto [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC), que no son compatibles con [!DNL Safari]. Para editar experiencias en el VEC o EEC, use [!DNL Google Chrome].
 
 +++
 
@@ -272,7 +274,7 @@ Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de 
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -419,7 +421,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/main/c-experi
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

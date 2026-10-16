@@ -1,6 +1,6 @@
 ---
 keywords: compositor de experiencias visuales;vec;url predeterminada;compositor de experiencias mejorado;eec;contenido mixto;instantáneas de experiencias;ventanilla móvil;css;selectores css
-description: Aprenda a configurar el  [!DNL Target] Compositor de experiencias visuales (VEC) de Adobe especificando su configuración general, la configuración de la ventanilla móvil y los selectores CSS.
+description: Obtenga información sobre cómo configurar el Compositor de experiencias visuales (VEC) de Adobe [!DNL Target] especificando su configuración general, la configuración de las ventanillas móviles y los selectores CSS.
 title: ¿Cómo configuro el Compositor de experiencias visuales (VEC)?
 feature: Administration & Configuration
 role: Admin
@@ -8,28 +8,38 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '733'
 ht-degree: 47%
-
 ---
-
 # Configurar [!UICONTROL Compositor de experiencias visuales]
 
 Configure [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) especificando su configuración general, la configuración de las ventanillas móviles y los selectores CSS.
@@ -57,6 +67,8 @@ La dirección URL predeterminada que utiliza el [!UICONTROL Compositor de experi
 ### Activar el compositor de experiencias mejorado {#eec}
 
 Permite editar en sitios con eliminación de iFrames y sitios con contenido mixto. Es posible que algunos sitios no sean compatibles con la versión mejorada. Anule la selección de esta opción para volver al [!UICONTROL Compositor de experiencias visuales] original. La publicación de actividades en los sitios no se verá afectada por esta opción.
+
+Tenga en cuenta que [!UICONTROL Enhanced Experience Composer] no es compatible con [!DNL Safari].
 
 Para obtener más información, consulte [Solución de problemas del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
