@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # Interpretar [!UICONTROL informes de asignación automática]
 
@@ -41,6 +41,8 @@ Al usar la característica [!UICONTROL Asignación automática], [!DNL Target] m
 Cuando se declara un claro ganador, [!DNL Target] muestra el distintivo &quot;Ganador: Experiencia *X*&quot;.
 
 ![Insignia del ganador](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+El distintivo de ganador también aparece en la ventana emergente de información de una actividad de la lista [!UICONTROL Actividades], para que pueda ver el estado de una actividad de [!UICONTROL Asignación automática] sin necesidad de abrirla.
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ Alguna de las siguientes razones describe la razón por la que se muestra un 0 
 
 ### ¿Están disponibles los distintivos &quot;Sin ganador&quot;, &quot;Ganador&quot; y &quot;estrella&quot; para las actividades de [!UICONTROL Asignación automática] que usan [!UICONTROL Analytics como fuente de informes] (A4T)?
 
-Los distintivos &quot;Ningún ganador aún&quot; y &quot;Ganador&quot; no están disponibles actualmente en el panel [!UICONTROL A4T] de [!DNL Analysis Workspace]. Estas insignias tampoco están disponibles si se ve el mismo informe en [!DNL Target]. Se debe ignorar un distintivo de &quot;estrella&quot; ganador que se muestra en un informe [!DNL Target] para una actividad de [!UICONTROL Asignación automática] que usa A4T.
+Los distintivos &quot;Ningún ganador aún&quot; y &quot;Ganador&quot; aparecen en la ventana emergente de información de la actividad en la lista [!UICONTROL Actividades]. No aparecen en el panel [!UICONTROL A4T] de [!DNL Analysis Workspace] ni cuando ve el mismo informe en [!DNL Target]. Si un informe de [!DNL Target] de una actividad de A4T [!UICONTROL Asignación automática] muestra un distintivo de &quot;estrella&quot; ganadora, ignórelo.
 
 Para obtener más información sobre esta y otras limitaciones y notas, consulte [Asignación automática](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) en *Compatibilidad de A4T con [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] actividades*.
