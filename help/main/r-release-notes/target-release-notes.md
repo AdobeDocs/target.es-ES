@@ -54,4 +54,4 @@ Este artículo contiene información de versión preliminar para las versiones d
 
 Para recibir notificaciones avanzadas sobre futuras mejoras de productos en [!DNL Target] y otras soluciones de [!DNL Adobe Experience Cloud], regístrese en [!DNL Adobe Priority Product Update]:
 
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
+[https://www.adobe.com/es/subscription/priority-product-update.html](https://www.adobe.com/es/subscription/priority-product-update.html)

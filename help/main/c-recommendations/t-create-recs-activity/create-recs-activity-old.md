@@ -45,7 +45,7 @@ Use el Compositor de experiencias visuales (VEC) de Target para crear una activi
 
    >[!NOTE]
    >
-   >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] y [!DNL `https://wwww.adobe.com`] coinciden.
+   >[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/es`] y [!DNL `https://wwww.adobe.com`] coinciden.
 
    La dirección URL de actividad es la página donde se mostrarán las recomendaciones.
 

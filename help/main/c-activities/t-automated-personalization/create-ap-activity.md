@@ -69,7 +69,7 @@ Defina el grupo de variaciones de contenido con las que [!UICONTROL Automated Pe
 
    Si la cuenta se [configura con una dirección URL predeterminada](/help/main/administrating-target/visual-experience-composer-set-up.md) esa dirección URL aparece de manera predeterminada. Puede cambiar la dirección URL predeterminada por otra dirección si es necesario.
 
-   [!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] y [!DNL `https://wwww.adobe.com`] coinciden.
+   [!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/es`] y [!DNL `https://wwww.adobe.com`] coinciden.
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
