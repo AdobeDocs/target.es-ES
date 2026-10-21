@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 20%
+source-wordcount: '1443'
+ht-degree: 21%
 ---
 # [!UICONTROL Métricas de éxito]
 
@@ -59,7 +59,7 @@ Las siguientes métricas de éxito se pueden configurar en la sección [!UICONTR
 | Métrica de éxito | Método de medición | Definición |
 |--- |--- |--- |
 | [!UICONTROL Conversión] | Basado en la conversión | La conversión se produce cuando un visitante realiza una acción en el sitio que haya definido, como <ul><li>Visualizó una página</li><li>Visualizó un mbox</li><li>Se hizo clic en un elemento</li></ul>Las conversiones se pueden contabilizar una vez por visitante o cada vez que un visitante completa una conversión. |
-| [!UICONTROL Ingresos] | Basado en la conversión | Ingresos generados por la visita. Solo puede elegir una métrica de ingresos:<ul><li>Visualizó un mbox</li></ul>Para obtener más información sobre los cambios en la interfaz de usuario [!DNL Target] actualizada en lo que respecta a las métricas de éxito de ingresos, consulte [Cambios actualizados [!DNL Target] de la interfaz de usuario](#changes) más abajo. |
+| [!UICONTROL Ingresos] | Basado en la conversión | Ingresos generados por la visita. Solo puede elegir una métrica de ingresos:<ul><li>Visualizó un mbox</li></ul>La vista de ingresos (RPV, AOV, Ventas totales o Pedidos) se selecciona en la sección [!UICONTROL Informes] en lugar de durante la configuración de la actividad. Ver [Cambio entre las vistas de informes de ingresos](#revenue-views). |
 | [!UICONTROL Participación] | Basado en la participación | Participación generada por la visita. Puede elegir entre las siguientes métricas de participación:<UL><li>Vistas de página: cada visita única se cuenta como una conversión.</li><li>[!UICONTROL Puntuación personalizada]: puntuación agregada basada en el valor asignado a páginas visitadas del sitio, desde el momento en que el visitante ve por primera vez la primera solicitud [!DNL Target] de visualización de la actividad.</li>[!DNL Time on Site]: tiempo empleado en la visita (en segundos) desde el momento en que el visitante ve la primera solicitud de visualización de la actividad [!DNL Target] hasta la carga de la última página con una solicitud de la sesión.</UL> |
 
 En el caso de las métricas basadas en la participación (al contrario que las basadas en la conversión o en los ingresos), los visitantes deben volver a clasificarse para la actividad en cada visita para incrementar el recuento. La métrica asociada comienza a aumentar tras la recalificación y se detiene al terminar la sesión del visitante. Una sesión termina tras 30 minutos de inactividad. Por lo tanto, no ve los resultados inmediatamente durante la prueba; sin embargo, todos los resultados de esa sesión están disponibles unos minutos después de la finalización de la sesión.
@@ -75,6 +75,25 @@ Si se habilita, el campo [!UICONTROL Valor estimado de una conversión] (no disp
 Las métricas de éxito que elija para su actividad están disponibles en la configuración del informe al ver un informe de la actividad.
 
 Algunas métricas, como [!UICONTROL Puntuación personalizada] e [!UICONTROL Ingresos por visitante], requieren una implementación personalizada que pase información, como totales de pedidos e ID de pedidos.
+
+### Cambiar entre vistas de informes de ingresos {#revenue-views}
+
+Los informes de ingresos se abren en la vista [!UICONTROL Ingresos por visita (RPV)] de manera predeterminada, por lo que no es necesaria ninguna selección durante la configuración de la actividad. Puede cambiar a otra vista en cualquier momento mientras revisa los resultados.
+
+Para cambiar entre las vistas de informes de ingresos:
+
+1. Abra su **[!UICONTROL Actividad]** y vaya a la sección **[!UICONTROL Informes]**.
+
+1. Haga clic en ![](assets/Smock_Gears_18_N.png) y seleccione la vista de métrica requerida:
+
+   * **[!UICONTROL Ingresos por visitante (RPV)]**
+   * **[!UICONTROL Valor de pedido promedio (AOV)]**
+   * **[!UICONTROL Ventas totales]**
+   * **[!UICONTROL Tasa de pedidos]**
+
+   ![](assets/change-view.png)
+
+[!UICONTROL Ingresos por visita (RPV)] permanece como la vista mostrada a menos que se seleccione otra opción. Esta selección solo afecta a la métrica que se muestra en el informe y no afecta a las métricas de envío.
 
 ## Configuración avanzada {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
@@ -135,15 +154,3 @@ Elija el comportamiento deseado:
 * Las métricas de éxito con la opción avanzada “Cómo se incrementará el recuento” establecida en “con cada impresión” o en “con cada impresión (excluyendo actualizaciones)” no se pueden utilizar como métricas de éxito de las que dependa otra métrica.
 
   Cuando una métrica de éxito se establece para que se incremente con cada impresión, [!DNL Target] vuelve a contar el visitante cada vez que visita esa métrica de éxito. [!DNL Target] restablece la métrica de éxito &quot;abono&quot; a 0 para que pueda contar de nuevo la siguiente impresión. Por lo tanto, si otra métrica requiere que esta métrica se haya visto primero, [!DNL Target] nunca reconocerá que el usuario ha visto la métrica primero.
-
-## Se actualizaron [!DNL Target] cambios de IU {#changes}
-
-La versión de [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), lanzada el 17 de febrero de 2015, introdujo las interfaces de usuario de [!DNL Target] y [!UICONTROL Visual Experience Composer] (VEC) actualizadas. Esta sección describe las diferencias clave entre la IU heredada y la actualizada, específicamente en lo que respecta a la configuración y administración de las métricas de éxito.
-
-### Cambios en la interfaz de usuario relacionados con [!UICONTROL Ingresos] métricas de éxito
-
-En la interfaz [!DNL Target] actualizada se ha eliminado la lista desplegable [!UICONTROL Vista predeterminada para los informes]. Este campo era redundante, ya que anteriormente guardaba la vista de informes predeterminada en [!DNL Overview] > [!UICONTROL Informes] en la interfaz de usuario heredada.
-
-Con la interfaz de usuario actualizada, la métrica de informes predeterminada ahora siempre está establecida en [!UICONTROL Ingresos por visitante (RPV)]. Puede seguir personalizando la vista en la sección [!UICONTROL Informes] para mostrar las métricas que sean más relevantes para su análisis.
-
-Este cambio no afecta a las métricas de envío. Este cambio solo afecta al filtro predeterminado que se muestra en la vista del sistema de informes. Dado que RPV es la métrica más utilizada entre los clientes, este valor predeterminado se seleccionó para optimizar los flujos de trabajo de creación de informes. Puede cambiar a otras métricas en cualquier momento dentro de la sección [!UICONTROL Informes].
