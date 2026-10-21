@@ -95,7 +95,7 @@ No. El servidor MCP está diseñado tanto para personalidades técnicas como de 
 
 +++¿Se envían mis datos de [!DNL Adobe Target] al proveedor de cliente de MCP?
 
-Cuando envía una solicitud, el cliente MCP puede enviar contexto relevante (incluidos [!DNL Adobe Target] datos devueltos por el servidor MCP) a su modelo para su procesamiento. Revise las políticas de privacidad y administración de datos de su proveedor de cliente MCP antes de conectarse a los datos de producción. La administración de datos de Adobe se rige por la [Política de privacidad de Adobe](https://www.adobe.com/privacy.html) y los [Términos de protección de datos](https://www.adobe.com/go/dpt-ww).
+Cuando envía una solicitud, el cliente MCP puede enviar contexto relevante (incluidos [!DNL Adobe Target] datos devueltos por el servidor MCP) a su modelo para su procesamiento. Revise las políticas de privacidad y administración de datos de su proveedor de cliente MCP antes de conectarse a los datos de producción. La administración de datos de Adobe se rige por la [Política de privacidad de Adobe](https://www.adobe.com/es/privacy.html) y los [Términos de protección de datos](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++¿Pueden las operaciones de escritura provocar cambios no deseados en las actividades activas?

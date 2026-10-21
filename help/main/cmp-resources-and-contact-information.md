@@ -134,7 +134,7 @@ El cometido del Servicio de atención al cliente de Adobe Experience Cloud es ay
 
 Para recibir notificaciones sobre próximas mejoras de productos, regístrese en Adobe Priority Product Update:
 
-[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe Priority Product Update](https://www.adobe.com/es/subscription/priority-product-update.html)
 
 ### Servicio, funcionalidad y facturación {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -149,7 +149,7 @@ Agradecemos cualquier sugerencia o comentario que desee hacer en referencia a es
 * © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Condiciones de uso](https://www.adobe.com/legal/terms.html)
+[Condiciones de uso](https://www.adobe.com/es/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Un símbolo de marca (®, ™, etc.) indica una marca comercial de Adobe.
 

@@ -250,7 +250,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
 * **Usar rel=&quot;canonical&quot;**: algunas veces, una prueba A/B requiere direcciones URL diferentes para las variaciones. En estos casos, todas las variaciones deben incluir una etiqueta rel=&quot;canonical&quot; que haga referencia a la URL (de control) original. Por ejemplo, si [!DNL Adobe] está probando su página principal con distintas direcciones URL para cada variación, la siguiente etiqueta canónica para la página principal debe colocarse en la etiqueta `<head>` de cada variación:
 
-  `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com/es" />`
 
 * **Usar redirecciones 302 (temporales)**: Cuando se usan direcciones URL distintas para las páginas de variación en una prueba, [!DNL Google] recomienda usar una redirección 302 para redirigir el tráfico a las variaciones de prueba. La redirección 302 informa a los motores de búsqueda de que el redireccionamiento es temporal y está activo solo mientras se ejecuta la prueba.
 

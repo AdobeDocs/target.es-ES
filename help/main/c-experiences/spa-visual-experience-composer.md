@@ -416,7 +416,7 @@ Para acceder a las opciones de [!UICONTROL Entrega de páginas] desde el flujo d
 
 ![Cuadro de diálogo Opciones de Entrega de páginas](/help/main/c-experiences/assets/page-delivery.png)
 
-Por ejemplo, según se define en la configuración de [!UICONTROL Entrega de páginas] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/es/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
+Por ejemplo, según se define en la configuración de [!UICONTROL Entrega de páginas] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com/es` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/es/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
 
 Sin embargo, como los SPA funcionan de manera diferente, la configuración de [!UICONTROL Entrega de páginas] debe estar configurada de manera que permita aplicar todas las acciones a las vistas tal como se define en la actividad del VEC de SPA.
 

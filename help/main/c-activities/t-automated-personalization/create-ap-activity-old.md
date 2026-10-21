@@ -45,7 +45,7 @@ El flujo de trabajo de la actividad [!UICONTROL Automated Personalization] (AP) 
 
    >[!NOTE]
    >
-   >[!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] y [!DNL `https://wwww.adobe.com`] coinciden.
+   >[!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/es`] y [!DNL `https://wwww.adobe.com`] coinciden.
 
    Se abre la página con la dirección URL especificada en el VEC.
 

@@ -26,7 +26,7 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 >[!NOTE]
 >
->[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] y [!DNL `https://www.adobe.com`] coinciden.
+>[!DNL Target] no diferencia entre los protocolos URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/es`] y [!DNL `https://www.adobe.com/es`] coinciden.
 
 ## Especifique una dirección URL diferente
 
