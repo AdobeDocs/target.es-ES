@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Cómo funciona [!DNL Adobe Target]
 
@@ -236,13 +236,7 @@ No se realiza ningún cambio en la página si el explorador del visitante no se 
 
 [!DNL Adobe Target] se adhiere a las directrices de motores de búsqueda en las pruebas.
 
-Para obtener más información, consulte los siguientes recursos de Google:
-
-* [Pruebas en sitios web y Búsqueda de Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimentos y encubrimientos](https://support.google.com/analytics/answer/12979939?hl)
-
-
-Las directrices se publicaron en una entrada del [blog Google Webmaster Central](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Aunque la publicación data de 2012, sigue siendo la declaración más reciente de [!DNL Google] sobre el tema y las directrices siguen siendo pertinentes.
+Para obtener más información, consulte [Documentación de Google](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Sin encubrimiento**: El encubrimiento implica mostrar un conjunto de contenido a los usuarios y otro conjunto diferente a los bots de los motores de búsqueda, para lo cual se identifican específicamente los bots y se les proporciona contenido diferente.
 
@@ -266,13 +260,7 @@ Las directrices se publicaron en una entrada del [blog Google Webmaster Central]
 
   Además, considere la accesibilidad de la página que está probando. Si la página no es accesible para los motores de búsqueda y nunca tuvo la intención de clasificarse en la búsqueda orgánica, estas consideraciones no se aplican. Un ejemplo es una página de destino dedicada para una campaña de correo electrónico.
 
-Desde Google afirman que estas directrices “harán que las pruebas tengan un impacto mínimo o nulo en los resultados de búsqueda del sitio”.
-
-Además de estas directrices, Google también proporciona otra pauta en la documentación de la herramienta Experimentos con contenido:
-
-* “Las páginas de variación deben mantener la esencia del contenido en las páginas originales. Estas variaciones no deben cambiar la percepción general ni el significado de esta que el usuario tiene del contenido original”.
-
-Google pone el ejemplo de que “si la página original de un sitio se carga con palabas clave que no están relacionadas con las combinaciones que se muestran a los usuarios, nos reservamos el derecho a eliminar el sitio de nuestro índice”.
+Google indica que las variaciones de una prueba a menudo tienen poco o ningún impacto en el fragmento de resultados de búsqueda o la clasificación de una página.
 
 [!UICONTROL Adobe] considera que sería difícil cambiar de forma involuntaria el significado del contenido original dentro de las variaciones de prueba. Sin embargo, [!UICONTROL Adobe] recomienda tener en cuenta las temáticas de palabras clave de una página y mantenerlas. Al cambiar el contenido de una página, especialmente añadiendo o eliminando palabras clave importantes, puede variar la clasificación de la URL en la búsqueda orgánica. [!DNL Adobe] recomienda que incluya a su socio de optimización de los motores de búsqueda en el protocolo de prueba.
 
