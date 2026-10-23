@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # Ocultamiento previo del contenido para experiencias personalizadas
@@ -66,7 +66,7 @@ La instancia ahora utiliza la configuración de tiempo de espera y ocultamiento 
 
 Con la preocultación habilitada para tu instancia, elige si cada actividad la usa en **[!UICONTROL Objetivos y configuración]**. Las actividades para las que habilita la preocultación se incluyen en el comportamiento de destino cuando están activas.
 
-A continuación, [!DNL Target] crea un conjunto de reglas ligeras a partir de actividades activas creadas en [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor basado en formularios], en las que se describen los selectores y las áreas que puede cambiar la entrega.
+A continuación, [!DNL Target] crea un conjunto de reglas ligeras a partir de actividades activas creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC), en las que se describen los selectores y las áreas que la entrega puede cambiar.
 
 Cuando crea o edita una actividad:
 
