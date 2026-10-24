@@ -3057,7 +3057,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras. Los números 
 
 ### Python SDK 1.0.0 (16 de junio de 2021)
 
-Ya está disponible el nuevo SDK de Python de [!DNL Adobe Target] con funcionalidades de toma de decisiones en el dispositivo. Esta adición más reciente refuerza el conjunto de [!DNL Target] de SDK del lado del servidor. Estos SDK le ayudan a integrar con [!DNL Target] y aceleran el tiempo de valor, en el idioma de su elección. Las integraciones del lado del servidor se están convirtiendo en una opción popular, dado que el mercado está cambiando a un mundo sin cookies en el que los datos de origen son valiosos. Los SDK de Target están disponibles en los lenguajes de programación más populares del mercado (Python, Java, JavaScript, C# / .Net).
+Ya está disponible el nuevo SDK de Python de [!DNL Adobe Target] con funcionalidades de toma de decisiones en el dispositivo. Esta adición más reciente refuerza el conjunto de [!DNL Target] de SDK del lado del servidor. Estos SDK le ayudan a integrar con [!DNL Target] y aceleran el tiempo de valor, en el idioma de su elección. Las integraciones del lado del servidor se están convirtiendo en una opción popular, dado que el mercado está cambiando a un mundo sin cookies en el que los datos propios son valiosos. Los SDK de Target están disponibles en los lenguajes de programación más populares del mercado (Python, Java, JavaScript, C# / .Net).
 
 Para obtener más información, consulte la [documentación de Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html?lang=es){target=_blank} en la [Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank}.
 
