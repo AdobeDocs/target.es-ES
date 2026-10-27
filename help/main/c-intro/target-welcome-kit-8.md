@@ -19,17 +19,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 87%
+source-wordcount: '221'
+ht-degree: 61%
 ---
 # Capítulo 8: Comunicación de los resultados de las actividades
 
 Si ejecuta una actividad y obtiene resultados sorprendentes, debe compartir estos resultados con la organización. Tal vez acaba de conseguir más clientes, aumentar los ingresos, ahorrar dinero al reducir las llamadas al centro de llamadas o aumentar el valor de pedido promedio. Muestre a las partes interesadas lo que puede lograr para el negocio mediante la optimización y la personalización con [!DNL Target].
 
-Para comunicar estos resultados, le resultará útil abordar la comunicación como si estuviera contando una historia. Haga que la historia resulte interesante y explique claramente qué es lo que se ha probado o personalizado y por qué, así como cuáles fueron los resultados. Utilice un lenguaje y una terminología fáciles de comprender para quienes vayan a revisar los resultados.
+A la hora de comunicar estos resultados, resulta útil abordarlos como si estuvieran contando una historia. Haga que la historia resulte interesante y explique claramente qué es lo que se ha probado o personalizado y por qué, así como cuáles fueron los resultados. Utilice un lenguaje y una terminología fáciles de comprender para quienes vayan a revisar los resultados.
 
-Hemos incluido una [plantilla de resultados de resumen ejecutivo](/help/main/assets/executive-summary.zip) en Microsoft PowerPoint. Modifique la plantilla con el esquema de colores y el logotipo de su organización y úsela para presentar los resultados de su primera actividad de prueba o personalización. Al igual que el planificador de actividades, esta plantilla se incluye con el kit de bienvenida como archivo independiente, aunque también se ha añadido una imagen aquí, junto con un ejemplo del tipo de información que se debe incluir en cada área de la plantilla.
+Hemos incluido una [plantilla de resultados de resumen ejecutivo](/help/main/assets/executive-summary.zip) en Microsoft PowerPoint. Modifique la plantilla con el esquema de colores y el logotipo de su organización y úsela para presentar los resultados de su primera actividad de prueba o personalización. Al igual que el planificador de actividades, se incluye con el kit de bienvenida como archivo independiente, pero también se ha añadido una imagen aquí, junto con un ejemplo del tipo de información que se debe incluir en cada área de la plantilla.
 
 ![Informe de resumen ejecutivo](/help/main/c-intro/assets/executive-summary-report.png)

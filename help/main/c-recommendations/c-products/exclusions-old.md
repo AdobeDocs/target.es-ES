@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 30%
 ---
 # Exclusiones
@@ -44,7 +44,7 @@ A continuación, mostramos algunos ejemplos de uso de exclusiones:
 
    ![imagen exclusions_list](assets/exclusions_list.png)
 
-   El &quot;Número de elementos&quot; registrado para cada exclusión en la vista de lista de [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el grupo de hosts [configurado como predeterminado en Recommendations](/help/main/administrating-target/hosts.md) (entorno). Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
+   El &quot;Número de elementos&quot; registrado para cada exclusión en la vista de lista de [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el grupo de hosts [configurado como predeterminado en Recommendations](/help/main/administrating-target/hosts.md) (entorno). Para cambiar el grupo de hosts predeterminado, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 1. Haga clic en **[!UICONTROL Crear exclusión]**.
 
@@ -89,4 +89,4 @@ Este vídeo contiene la información siguiente:
 * Creación de una colección
 * Creación de una exclusión
 
->[!VIDEO](https://video.tv.adobe.com/v/35463?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

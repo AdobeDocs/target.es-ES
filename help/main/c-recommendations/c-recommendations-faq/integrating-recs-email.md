@@ -2,7 +2,7 @@
 keywords: correo electrónico;ESP;proveedor de servicio de correo electrónico;rawbox;api de envío;plantilla de solo descarga;plantilla de correo electrónico;procesamiento por lotes;hora de creación del correo electrónico
 description: Obtenga información sobre cómo integrar el correo electrónico con Adobe [!DNL Target Recommendations], incluido el uso de la API de entrega [!DNL Target], las plantillas rawbox y las plantillas de solo descarga.
 title: ¿Cómo puedo integrar Recommendations con el correo electrónico?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1774'
+ht-degree: 83%
 ---
 # Integrar [!DNL Recommendations] con el correo electrónico
 
@@ -91,13 +91,13 @@ El elemento `clientcode` es su código de cliente de [!DNL Target]
 
 >[!NOTE]
 >
->Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada de API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil.
+>Asegúrese de proporcionar un valor único para `sessionId` y uno para `tntId` o `thirdPartyId` para cada destinatario de correo electrónico (por ejemplo, para cada llamada API). Si no proporciona valores únicos en estos campos, la respuesta de la API puede ralentizarse o dar error debido al gran número de eventos generados dentro de un solo perfil.
 
 Consulte la [documentación de la API de entrega](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=es){target=_blank} para obtener más información.
 
 ## Método 2: usar una plantilla de correo electrónico de rawbox {#rawbox}
 
-Un rawbox es parecido a una solicitud de mbox, pero para entornos que no son de web, como los proveedores de servicios de correo electrónico (ESP). Dado que no tiene [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js] para utilizarlos en las solicitudes rawbox, debe crear las solicitudes manualmente. Los siguientes ejemplos explican cómo trabajar con las solicitudes rawbox en los correos electrónicos.
+Un rawbox es parecido a una solicitud de mbox, pero para entornos que no son de web, como los proveedores de servicios de correo electrónico (ESP). Dado que no tiene [!DNL Adobe Experience Platform Web SDK] ni [!DNL at.js] para usarlos en las solicitudes rawbox, debe crear las solicitudes manualmente. Los siguientes ejemplos explican cómo trabajar con las solicitudes rawbox en los correos electrónicos.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Un rawbox es parecido a una solicitud de mbox, pero para entornos que no son de 
 
 Este método permite rastrear el rendimiento de las recomendaciones en los mensajes de correo electrónico, probarlos de manera normal con una recomendación y continuar el rastreo en el sitio.
 
-Configure una actividad de [!DNL Recommendations] en [!DNL Target] utilizando la opción del [compositor de experiencias basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para la ubicación, seleccione el nombre del mbox que quiera utilizar en la solicitud rawbox proveniente del ESP. Seleccione un diseño con el aspecto que desee para su correo electrónico. A la hora de crear un correo electrónico, el ESP hace una llamada a los servidores de [!DNL Target] para cada rawbox de los mensajes de correo electrónicos que se generan. Su ESP debe tener algún modo de incluir el HTML devuelto en el correo electrónico cuando este se envía.
+Configure una actividad de [!DNL Recommendations] en [!DNL Target] utilizando la opción del [compositor de experiencias basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Para la ubicación, seleccione el nombre del mbox que ha elegido utilizar en la solicitud rawbox procedente de ESP. Seleccione un diseño con el aspecto que desee para su correo electrónico. A la hora de crear un correo electrónico, el ESP hace una llamada a los servidores de [!DNL Target] para cada rawbox de los mensajes de correo electrónicos que se generan. Su ESP debe tener algún modo de incluir el HTML devuelto en el correo electrónico cuando este se envía.
 
 El sistema de correo electrónico que utilice debe ser capaz de gestionar las siguientes situaciones:
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Respuesta | Descripción |
 |--- |--- |
-| //ERROR: | Generado por el equilibrador de carga cuando no puede devolver contenido. |
+| //ERROR: | Generado por el equilibrador de carga cuando no puede devolver contenido |
 | Correcto | El parámetro `mboxNoRedirect` se establece en “true” y el servidor no devuelve ninguna recomendación (es decir, no hay coincidencia con el mbox o el caché del servidor no se ha iniciado). |
 | bad request | Falta el parámetro `mbox`.<ul><li>No se ha especificado el parámetro `mboxDefault` o el `mboxNoRedirect`.</li><li>Se ha especificado el parámetro de solicitud `mboxTrace` pero no el parámetro `mboxNoRedirect`.</li><li>No se ha especificado el parámetro `mboxTarget` cuando los nombres de mbox terminan con el sufijo `-clicked`.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | No se ha especificado `mboxDefault` cuando no existe coincidencia con la solicitud y el parámetro `mboxNoRedirect` no se ha especificado. |

@@ -2,7 +2,7 @@
 keywords: segmentación automática;segmentación;asignación de tráfico;preguntas más frecuentes;faq;solución de problemas;solucionar problemas
 description: Descubra cómo una actividad de [!UICONTROL Segmentación automática] proporciona la experiencia más adaptada a cada visitante según los perfiles de los clientes y el comportamiento de visitantes similares.
 title: ¿Qué es una actividad de [!UICONTROL Segmentación automática]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: 'https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is'
@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 18%
+source-wordcount: '2160'
+ht-degree: 16%
 ---
 # Información general sobre [!UICONTROL Segmentación automática]
 
@@ -147,7 +147,7 @@ Hay varios escenarios en los que puede preferir usar [!UICONTROL Segmentación a
 
 * El algoritmo predice la tendencia de un visitante a la conversión (o los ingresos estimados procedentes de la conversión) para ofrecer la mejor experiencia.
 * Un visitante es elegible para una nueva experiencia al final de una sesión existente (a menos que el visitante esté en el grupo de control, en cuyo caso la experiencia que se asigna al visitante en la primera visita permanece igual para las visitas posteriores).
-* En una sesión, la predicción no cambia para mantener la coherencia visual.
+* Dentro de una sesión, la predicción no cambia para mantener la coherencia visual.
 
 ### El algoritmo se adapta a los cambios en el comportamiento de los visitantes.
 
@@ -165,7 +165,7 @@ Hay varios escenarios en los que puede preferir usar [!UICONTROL Segmentación a
 
 ### [!DNL Target] utiliza automáticamente todas las [!DNL Adobe Experience Cloud] audiencias compartidas para crear los modelos de personalización.
 
-* No es necesario que haga nada para agregar públicos al modelo. Para obtener información sobre el uso de [!DNL Experience Cloud Audiences] con [!DNL Target], consulte [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
+* No es necesario que haga nada para agregar audiencias al modelo. Para obtener información sobre el uso de [!DNL Experience Cloud Audiences] con [!DNL Target], consulte [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Los especialistas en marketing pueden cargar datos sin conexión, puntuaciones de tendencia u otros datos personalizados para crear modelos de personalización.
 

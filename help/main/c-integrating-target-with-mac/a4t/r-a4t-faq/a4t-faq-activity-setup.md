@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '646'
+ht-degree: 13%
 ---
 # Configuración de actividades: preguntas más frecuentes sobre A4T
 
@@ -53,11 +53,11 @@ Para obtener más información, consulte &quot;Al configurar las métricas de ob
 
 +++
 
-## Acabo de crear una actividad. ¿Por qué no entran datos? {#section_9F8092BE4225442896F926540292F221}
+## Acabo de crear una actividad. ¿Por qué no veo ningún dato que entre? {#section_9F8092BE4225442896F926540292F221}
 
 
 +++Respuesta
-Cuando se crea una actividad, [!DNL Target] envía un archivo de clasificación a [!DNL Analytics]. Aunque [!DNL Analytics] captura y procesa los datos, no muestra eso en los informes hasta que se actualiza el archivo de clasificación. Este proceso puede tardar entre 24 y 72 horas en completarse. Si después de 72 horas no ves tus datos, [comunícate con Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, si sabe que inicia una actividad, puede crearla con unos días de antelación y las clasificaciones se envían cuando se guarda la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos de [!DNL Analytics] tardan entre 45 y 90 minutos en procesarse.
+Cuando se crea una actividad, [!DNL Target] envía un archivo de clasificación a [!DNL Analytics]. Aunque [!DNL Analytics] captura y procesa los datos, no muestra eso en los informes hasta que se actualiza el archivo de clasificación. Este proceso puede tardar entre 24 y 72 horas en completarse. Si después de 72 horas no ve sus datos, [comuníquese con Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Como alternativa, si sabe que inicia una actividad, puede crearla con unos días de antelación y las clasificaciones se envían cuando se guarda la actividad. De este modo, aparecerán datos en el informe en cuanto se inicie la actividad. Tenga en cuenta que los datos de [!DNL Analytics] tardan entre 45 y 90 minutos en procesarse.
 
 +++
 

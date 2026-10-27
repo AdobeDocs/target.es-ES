@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # Preguntas más frecuentes sobre la optimización y personalización de Target
 
@@ -94,7 +94,7 @@ Conéctese con otros [!DNL Target] practicantes en el [Foro de la comunidad de T
 **¿Con qué exploradores es compatible [!DNL Target]?**
 
 +++Ver detalles
-Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
 
 [!DNL Safari] es compatible con la interfaz [!DNL Target]. Puede crear actividades basadas en formularios en [!DNL Safari] y usar todas las funciones, excepto [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC), que no son compatibles con [!DNL Safari]. Para editar experiencias en el VEC o EEC, use [!DNL Google Chrome].
 
@@ -274,7 +274,7 @@ Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de 
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -359,7 +359,7 @@ Una de las formas es utilizar el [Editor de código personalizado](/help/main/c-
 
 +++
 
-**¿Por qué no puedo pasar de la página de inicio de sesión en el [!UICONTROL Compositor de experiencias visuales] (VEC) o a una página oculta para la cual no tengo una dirección URL específica?**
+**¿Por qué no puedo pasar de la página de inicio de sesión en el [!UICONTROL Compositor de experiencias visuales] (VEC) o a una página oculta para la cual no tengo una URL específica?**
 
 +++Ver detalles
 Utilice las funciones de [!UICONTROL composición] y exploración para [!UICONTROL ir] a la página que ha elegido y comenzar a crear su experiencia.
@@ -395,7 +395,7 @@ Contamos con [Redirigir la función de la URL](/help/main/c-experiences/c-manage
 **¿Por qué no se realiza la entrega de contenido en mi proceso de control de calidad?**
 
 +++Ver detalles
-Es posible que su sitio tenga identificadores dinámicos, ID duplicados o clases dinámicas en elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). Consulte [Selectores CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
+Es posible que el sitio tenga ID dinámicos, ID duplicados o clases dinámicas en los elementos. Puede que tenga que evaluar las opciones de preferencia del sitio en el nivel de la cuenta (o en el nivel de actividad si el problema es específico de un dominio o una página). Consulte [Selectores CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
 
 +++
 
@@ -421,7 +421,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/main/c-experi
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -440,7 +440,7 @@ Tenga en cuenta que [!DNL Target] recopila los datos a este respecto desde el mo
 **No puedo definir públicos antes de ejecutar la actividad. Considero que este aspecto de informar audiencias en [!DNL Target] actividades es restrictivo. ¿Qué puedo hacer para facilitar este proceso?**
 
 +++Ver detalles
-Es allí donde [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) resulta más práctico. Si tiene [!DNL Adobe Analytics], simplemente elija el origen como [!DNL Analytics], lo que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier punto y no necesita definir las audiencias de informes por adelantado.
+Es allí donde [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) resulta más práctico. Si tiene [!DNL Adobe Analytics], simplemente elija el origen como [!DNL Analytics], lo que elimina esta restricción. Ahora puede realizar análisis en cualquier audiencia en cualquier momento y no necesita definir las audiencias de informes por adelantado.
 
 +++
 

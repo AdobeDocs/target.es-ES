@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ab2570eb-4844-49aa-8334-e91a345525e5
     internal-label: A/B Tests
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '841'
 ht-degree: 22%
 ---
 # Información general sobre las pruebas A/B
@@ -73,4 +73,4 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

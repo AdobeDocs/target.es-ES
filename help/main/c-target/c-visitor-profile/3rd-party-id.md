@@ -7,19 +7,22 @@ exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 80%
-
+source-wordcount: '742'
+ht-degree: 78%
 ---
-
 # Sincronización de perfiles en tiempo real para mbox3rdPartyId
 
 El `mbox3rdPartyId` en [!DNL Adobe Target] es el ID de visitante de su compañía, como el ID de pertenencia para el programa de lealtad de su empresa.
@@ -55,17 +58,17 @@ Cuando el visitante cierra sesión, se conserva el perfil combinado.
 
 * Puede enviar los ID de cliente de visitantes a [!DNL Target] mediante dos métodos:
 
-   1. Utilice `mbox3rdPartyId`/`thirdPartyId`.
+  1. Utilice `mbox3rdPartyId`/`thirdPartyId`.
 
-      * `mbox3rdPartyId` es el nombre del parámetro cuando se usa `targetPageParams` o `targetPageParamsAll`
-      * `thirdPartyId` es el nombre del parámetro que se establece directamente en la carga útil de la API de entrega.
-      * Solo puede enviar un valor en este parámetro.
+     * `mbox3rdPartyId` es el nombre del parámetro cuando se usa `targetPageParams` o `targetPageParamsAll`
+     * `thirdPartyId` es el nombre del parámetro que se establece directamente en la carga útil de la API de entrega.
+     * Solo puede enviar un valor en este parámetro.
 
-   1. Utilice la función `setCustomerId`/`customerIds` del servicio ECID.
+  1. Utilice la función `setCustomerId`/`customerIds` del servicio ECID.
 
-      * `setCustomerId` es una función que puede utilizar en implementaciones del lado del cliente (explorador) cuando VisitorAPI.js está disponible en la página.
-      * `customerIds` es el nombre del parámetro que se utiliza cuando se establece directamente en la carga útil de la API de entrega y que generalmente se realiza en implementaciones del lado del servidor o IOT (Internet de las cosas).
-      * A diferencia de `mbox3rdPartyId`/`thirdPartyId`, puede enviar varios ID como una lista en este enfoque, pero como [!DNL Target] solo admite un ID de cliente único por ID de TnT, utiliza el primer ID de la lista con un alias conocido (alias configurado en la IU de Atributos del cliente).
+     * `setCustomerId` es una función que puede utilizar en implementaciones del lado del cliente (explorador) cuando VisitorAPI.js está disponible en la página.
+     * `customerIds` es el nombre del parámetro que se utiliza cuando se establece directamente en la carga útil de la API de entrega y que generalmente se realiza en implementaciones del lado del servidor o IOT (Internet de las cosas).
+     * A diferencia de `mbox3rdPartyId`/`thirdPartyId`, puede enviar varios ID como una lista en este enfoque, pero como [!DNL Target] solo admite un ID de cliente único por ID de TnT, utiliza el primer ID de la lista con un alias conocido (alias configurado en la IU de Atributos del cliente).
 
   Puede usar `mbox3rdPartyId`/`thirdPartyId` si [!DNL Target] es la única solución [!DNL Adobe Experience Cloud] y no desea usar los Atributos del cliente. Para todos los demás casos, recomendamos que use `setCustomerId`/`customerIds` para enviar los ID de cliente.
 

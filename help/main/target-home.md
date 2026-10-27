@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 28%
 ---
 # [!DNL Adobe Target] Guía para profesionales de negocios
@@ -42,7 +42,7 @@ ht-degree: 28%
 
 >[!TAB Novedades]
 
-Servidor MCP **[!DNL Adobe Target] (Beta público)**
+Servidor MCP **[!DNL Adobe Target](Beta público)**
 
 [!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra las operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP, incluidas Claude, Cursor y ChatGPT.
 
@@ -58,7 +58,7 @@ La interfaz de usuario está diseñada para una mayor claridad y eficiencia, lo 
 
 *[!DNL *Targe]preguntas más frecuentes sobre la actualización de IU t**
 
-Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y el [!UICONTROL Compositor de experiencias visuales] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la desaprobación de la opción de versión de la IU temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
+Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y el [!UICONTROL Compositor de experiencias visuales] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la desaprobación de la opción de versión de la IU temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a sacar el máximo partido a la IU actualizada.
 
 [![Icono de Más información](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 

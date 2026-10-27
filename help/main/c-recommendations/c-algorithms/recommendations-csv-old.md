@@ -2,7 +2,7 @@
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;cargar csv
 description: Obtenga información sobre cómo cargar un archivo CSV para personalizar las recomendaciones en Adobe [!DNL Target] Recommendations.
 title: ¿Cómo puedo cargar criterios personalizados en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 32%
+source-wordcount: '738'
+ht-degree: 29%
 ---
 # Cargar criterios personalizados
 
@@ -68,7 +68,7 @@ Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear
 
 * Las actualizaciones de criterios personalizados son “acumulativas” de forma predeterminada. Los nuevos pares de clave-valor especificados en el archivo de carga CSV sobrescribirán los pares existentes. Los pares de clave-valor existentes que no tengan claves especificadas en la carga de CSV seguirán estando disponibles para su envío y caducarán en 31 días desde la última vez que se carguen como parte del archivo CSV.
 
-  Póngase en contacto con el servicio de atención al cliente si desea habilitar la configuración que descarta los resultados existentes que no están incluidos en la siguiente carga CSV. Si esta configuración está habilitada, solo están disponibles para su envío las claves presentes en el archivo CSV personalizado. Esta configuración se aplica a todos los criterios personalizados.
+  Póngase en contacto con Atención al cliente si desea activar la configuración que descarta los resultados existentes que no se incluyen en la siguiente carga CSV. Si esta configuración está habilitada, solo están disponibles para su envío las claves presentes en el archivo CSV personalizado. Esta configuración se aplica a todos los criterios personalizados.
 
 * Los criterios personalizados se actualizan una vez cada 24 horas.
 
@@ -95,4 +95,4 @@ Este vídeo contiene la siguiente información (los detalles sobre cómo cargar 
 * Crear secuencias de criterios
 * Cargar criterios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/35326?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

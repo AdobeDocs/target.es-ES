@@ -2,7 +2,7 @@
 keywords: secuencia de criterios;varios criterios;algoritmos;criterios;criterios de recomendaciones;secuencia;número límite de elementos devueltos;control de nivel de ranura;ranura
 description: Aprenda a definir secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de Recommendations.
 title: ¿Cómo se crean secuencias de criterios en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 TQID: 'https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 21%
+source-wordcount: '834'
+ht-degree: 17%
 ---
 # Crear secuencias de criterios
 
@@ -33,7 +33,7 @@ Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre 
 
 Para crear una secuencia de criterios, debe crear primero los criterios que desea incluir en la secuencia. Consulte [Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) para obtener más información.
 
-Si utiliza una secuencia de criterios, puede ofrecer recomendaciones personalizadas adicionales, en lugar de utilizar más recomendaciones secundarias genéricas, cuando un criterio no obtenga suficientes resultados para llenar el diseño. Normalmente, una secuencia de criterios pasa de un objetivo más específico, que podría devolver menos resultados, a un objetivo más general, que generalmente devuelve más resultados.
+Mediante una secuencia de criterios, puede proporcionar recomendaciones de destino adicionales, en lugar de utilizar recomendaciones de copia de seguridad más genéricas, cuando un criterio no devuelve resultados suficientes para llenar el diseño. Normalmente, una secuencia de criterios pasa de un objetivo más específico, que podría devolver menos resultados, a un objetivo más general, que generalmente devuelve más resultados.
 
 Las secuencias de criterios pueden variar en orden según el tipo de página, como se muestra en los ejemplos siguientes:
 

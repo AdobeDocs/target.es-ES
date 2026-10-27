@@ -2,7 +2,7 @@
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
 description: Vea una lista de preguntas frecuentes y sus respuestas acerca de [!DNL Target Recommendations] actividades.
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 80%
+source-wordcount: '3565'
+ht-degree: 77%
 ---
 # Preguntas más frecuentes de Recommendations
 
@@ -59,7 +59,7 @@ Tras importar un archivo de fuente o recibir actualizaciones de entidad mediante
 
 * Si un elemento se ha excluido anteriormente, pero ahora debe incluirse, este se incluirá en la próxima ejecución del algoritmo (de 12 a 24 horas).
 
-  Esta situación se produce porque [!DNL Target] aplica exclusiones tanto en línea como sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento reciente, la exclusión en línea desaparece al instante, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
+  Esta situación se produce porque [!DNL Target] aplica exclusiones tanto en línea como sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento reciente, la exclusión en línea desaparece rápidamente, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
 
 * Si un elemento se incluyó anteriormente, pero ahora debe excluirse, este se excluye por los &quot;Atributos de elemento actualizados...&quot; la línea de tiempo analizada anteriormente depende de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
 
@@ -112,11 +112,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 Los criterios disponibles dependen de la categoría actual. Cuando crea ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el ID de la categoría.
 
-Si la ubicación en la que aplica los criterios no contiene el Id. de categoría, determinados criterios no están disponibles en el selector de algoritmo.
+Si la ubicación en la que aplica estos criterios no contiene el ID de categoría, determinados criterios no están disponibles en el selector de algoritmo.
 
 Si utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
 
-[!DNL Target] tiene una configuración de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para controlar el filtrado inteligente del selector de algoritmo.
+[!DNL Target] tiene una configuración de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} para controlar el filtrado inteligente del selector de algoritmo.
 
 >[!NOTE]
 >
@@ -205,13 +205,13 @@ Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. Los
 
 Si edita un criterio, promoción o regla de prueba de plantilla existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
 
-## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir un nuevo público? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir una nueva audiencia? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Asegúrese de que la audiencia tiene un nombre único. Si le dio al público el mismo nombre que un público existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
 
 ## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente? {#section_20F1AF4839A447B9889B246D6E873538}
 
-No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## ¿Por qué falla mi acción [!UICONTROL Descargar datos] en una actividad [!DNL Recommendations]? {#download-data-error}
 

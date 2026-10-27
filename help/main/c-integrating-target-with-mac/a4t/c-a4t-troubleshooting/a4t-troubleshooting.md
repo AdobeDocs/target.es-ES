@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 87%
+source-wordcount: '972'
+ht-degree: 78%
 ---
 # Solución de problemas de la integración de Analytics y [!DNL Target] (A4T)
 
@@ -38,11 +38,11 @@ Este tema cubre algunos problemas comunes que se han encontrado al usar [!DNL Ad
 
 Existen varias razones por las que los datos se muestran como “sin especificar”:
 
-* La clasificación no se ha procesado del todo en [!DNL Target].
+* La clasificación de [!DNL Target] no se ha procesado completamente.
 
   Los informes suelen tardar entre 24 y 72 horas en clasificarse después del primer guardado.
 
-* El grupo de informes no contiene datos, pero [!DNL Target] ha intentado clasificar los hits. [!DNL Target] no puede clasificar los datos hasta que no se produce el primer hit.
+* El grupo de informes no contiene datos, pero [!DNL Target] ha intentado clasificar las visitas. [!DNL Target] no puede clasificar los datos hasta que no se produce el primer hit.
 
   Compruebe que el grupo de informes ha recibido al menos un hit.
 
@@ -54,7 +54,7 @@ Si desglosa la fila “sin especificar” por la dimensión “Analytics for Tar
 
 >[!NOTE]
 >
->En ocasiones, los datos se muestran correctamente en los informes, pero luego vuelven a aparecer como “sin especificar” porque se ha añadido una actividad nueva que no ha completado la clasificación. Recuerde que generalmente se tarda entre 24 y 72 horas en clasificar los informes después del primer guardado.
+>En ocasiones, los datos se muestran correctamente en los informes, pero luego vuelven a aparecer como &quot;sin especificar&quot; porque se ha añadido una actividad nueva que no ha completado la clasificación. Recuerde que generalmente se tarda entre 24 y 72 horas en clasificar los informes después del primer guardado.
 >
 >No se pierde ningún dato cuando aparece como “sin especificar”. Los datos se asignan correctamente a la actividad o experiencia apropiadas cuando se efectúa la clasificación.
 
@@ -100,7 +100,7 @@ La lista de grupos de informes que aparece en [!DNL Target Standard/Premium] es 
 
 Si utiliza varias fuentes de informes, los grupos de informes deben estar presentes en la fuente de informes predeterminada establecida en [!DNL Target] también. Si los grupos de informes no están en la fuente de informes predeterminada, no se muestran.
 
-Si sigue sin poder ver el grupo de informes que está buscando, debe comunicarse con [Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para habilitarlo.
+Si sigue sin poder ver el grupo de informes que busca, comuníquese con [Atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para habilitarlo.
 
 ## En los informes no veo tantos datos como esperaba. {#section_75002584FA63456D8D9086172925DD8D}
 

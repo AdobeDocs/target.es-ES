@@ -2,7 +2,7 @@
 keywords: Recommendations;Configuración;nombre;objetivo;prioridad;duración;configuración de informes;otros metadatos
 description: Obtenga información sobre cómo configurar los ajustes utilizados para describir y controlar una actividad de Recommendations en Adobe Target.
 title: ¿Cómo configuro la configuración de actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 TQID: 'https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0'
@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '611'
 ht-degree: 46%
 ---
 # Configuración de actividades de Recommendations

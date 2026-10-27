@@ -2,7 +2,7 @@
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de atributos de perfil
 description: Aprenda a filtrar dinámicamente en Adobe [!DNL Target] Recommendations comparando elementos (entidades) con un valor del perfil del usuario.
 title: ¿Cómo filtro por coincidencia de atributos de perfil en actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 product_v2:
@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 6%
 ---
 # Coincidencia de atributos de perfil
@@ -51,7 +51,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Empleos coincidentes con buscadores de empleo
 
-Supongamos que está tratando de hacer coincidir los trabajos con los buscadores de empleo. Desea recomendar solo trabajos que se encuentren en la misma ciudad que el buscador de empleo.
+Supongamos que está intentando vincular los trabajos con los buscadores de empleo. Desea recomendar solo trabajos que se encuentren en la misma ciudad que el buscador de empleo.
 
 Puede utilizar reglas de inclusión para hacer coincidir la ubicación de un solicitante de empleo desde su perfil de visitante a una oferta de empleo, como en el siguiente ejemplo:
 

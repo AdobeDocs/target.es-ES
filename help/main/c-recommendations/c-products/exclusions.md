@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '530'
 ht-degree: 13%
 ---
 # Exclusiones
@@ -36,7 +36,7 @@ A continuación, mostramos algunos ejemplos de uso de exclusiones:
 * El catálogo de otoño e invierno es ahora el único catálogo que debería estar presente en línea. Cualquier artículo del catálogo de verano ya no está disponible para adquirir.
 * Artículos que pueden ser inadecuados para recomendar en la mayoría de las páginas o pantallas (productos para adultos, películas NC-17, etc.).
 * Productos con campos de metadatos incompletos (faltan miniaturas, precios u otros metadatos importantes).
-* Productos que nunca deben recomendarse (puede que exista un SKU en el sistema para algo, pero no es un artículo que se pueda comprar). O tal vez sea un SKU falso para el equipo de control de calidad para simular una compra sin realmente ordenar algo, y así sucesivamente).
+* Productos que nunca se deben recomendar (puede que exista un SKU en el sistema para algo, pero no es un artículo que se pueda comprar). O tal vez sea un SKU falso para el equipo de control de calidad para simular una compra sin realmente ordenar algo, y así sucesivamente).
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,7 @@ A continuación, mostramos algunos ejemplos de uso de exclusiones:
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusiones]** para mostrar la lista de exclusiones existentes.
 
-   El &quot;Número de elementos&quot; registrado para cada exclusión en la vista de lista de [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el grupo de hosts [configurado como predeterminado en Recommendations](/help/main/administrating-target/hosts.md) (entorno). Consulte [Planificar e implementar [!DNL Recommendations]](https://experienceleague.adobe.com/es/docs/target-dev/developer/recommendations){target=_blank} en la *Guía para desarrolladores de Adobe Target* para obtener información sobre cómo cambiar el grupo de hosts predeterminado.
+   El &quot;Número de elementos&quot; registrado para cada exclusión en la vista de lista de [!UICONTROL Exclusiones] es el número de productos que coinciden con las reglas para esa exclusión en el grupo de hosts [configurado como predeterminado en Recommendations](/help/main/administrating-target/hosts.md) (entorno). Consulte [Planificar e implementar [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} en la *Guía para desarrolladores de Adobe Target* para obtener información sobre cómo cambiar el grupo de hosts predeterminado.
 
 1. (Condicional) Haga clic en el icono **[!UICONTROL Mostrar filtros]** ( ![Mostrar filtros](/help/main/assets/icons/Filter.svg) ) y, a continuación, elija el [entorno](/help/main/administrating-target/environments.md) que desee en la lista desplegable **[!UICONTROL Entorno]** al crear (o actualizar) una exclusión para obtener una vista previa del contenido de la exclusión en ese entorno. De forma predeterminada, se muestran los resultados del grupo de hosts predeterminado.
 
@@ -91,4 +91,4 @@ Este vídeo contiene la información siguiente:
 * Creación de una colección
 * Creación de una exclusión
 
->[!VIDEO](https://video.tv.adobe.com/v/35463?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

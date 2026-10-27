@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 19%
+source-wordcount: '1020'
+ht-degree: 17%
 ---
 # Crear una actividad de prueba A/B
 
@@ -36,7 +36,7 @@ Use [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target
 
 >[!NOTE]
 >
->Además de la actividad [!UICONTROL Prueba A/B] manual (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
+>Además de la actividad [!UICONTROL Prueba A/B] manual] (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].[!UICONTROL 
 >
 >Consulte [Tipos de actividades de pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) en *Información general sobre las pruebas A/B*.
 
@@ -94,7 +94,7 @@ Para crear una actividad [!UICONTROL Prueba A/B] manual:
 
 1. Cree nuevas experiencias cambiando los elementos de la página.
 
-   El [!UICONTROL Compositor de experiencias visuales] muestra dos fichas en la parte izquierda después de crear una actividad nueva: Experiencia A, que es la de control, y Experiencia B. Se centra en la pestaña Experiencia B, que puede modificar según desee. La Experiencia B es la experiencia alternativa que puede añadir a su prueba. Para agregar varias experiencias a la prueba, haz clic en el icono [!UICONTROL Agregar] ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en la parte superior del panel [!UICONTROL Experiencias]. También podemos eliminar Experiencia A de la actividad si no queremos incluir una experiencia de sitio predeterminada como opción.
+   El [!UICONTROL Compositor de experiencias visuales] muestra dos fichas en la parte izquierda después de crear una actividad nueva: Experiencia A, que es la de control, y Experiencia B. Se centra en la pestaña Experiencia B, que puede modificar según desee. La Experiencia B es la experiencia alternativa que puede añadir a su prueba. Para agregar varias experiencias a la prueba, haz clic en el icono [!UICONTROL Agregar] ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en la parte superior del panel [!UICONTROL Experiencias]. También puede eliminar la Experiencia A de la actividad si no desea incluir una experiencia de sitio predeterminada como opción.
 
    Para obtener más información sobre cómo agregar y modificar experiencias en [!UICONTROL Compositor de experiencias visuales], consulte [Agregar experiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar Experiencia B, empiece con el paso 2.
 

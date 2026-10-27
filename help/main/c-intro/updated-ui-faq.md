@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2022'
 ht-degree: 1%
 ---
 # Preguntas frecuentes sobre la actualización de IU [!DNL Target]
@@ -57,7 +57,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 * **17 de junio de 2025**: todas las organizaciones de IMS se han habilitado para la interfaz de usuario [!DNL Target] actualizada, ya sea para usuarios específicos o para toda la organización, para comenzar a probar la nueva experiencia.
 
-* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4&rbrace; se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
+* **30 de junio de 2025**: la [interfaz de usuario actualizada [!DNL Target] 4} se convirtió en la experiencia predeterminada para todas las organizaciones de IMS que han habilitado la opción de versión de interfaz de usuario.](/help/main/c-intro/understand-the-target-ui.md)
 
   * Los clientes que actualmente ven la IU heredada de forma predeterminada ahora ven la IU actualizada al iniciar sesión.
   * El conmutador Versión de la interfaz de usuario permanece disponible hasta finales de julio, lo que permite a los usuarios volver si es necesario.
@@ -83,7 +83,7 @@ La siguiente información describe las limitaciones que debe tener en cuenta al 
 
 ### Recursos adicionales para obtener más información sobre la IU actualizada
 
-* [[!DNL Target] Preguntas frecuentes sobre la actualización de la interfaz de usuario](/help/main/c-intro/updated-ui-faq.md): estas preguntas frecuentes tratan sobre las nuevas preguntas comunes acerca de la interfaz de usuario de [!DNL Target] y el [!UICONTROL Compositor de experiencias visuales] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada.
+* [[!DNL Target] Preguntas frecuentes sobre la actualización de la interfaz de usuario](/help/main/c-intro/updated-ui-faq.md): estas preguntas frecuentes tratan sobre las nuevas preguntas comunes acerca de la interfaz de usuario de [!DNL Target] y el [!UICONTROL Compositor de experiencias visuales] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la obsolescencia de la opción de versión de la interfaz de usuario temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a sacar el máximo partido a la IU actualizada.
 * [[!DNL Target Standard/Premium] 25.2.1 (17 de febrero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para [!UICONTROL Actividades], [!UICONTROL Recommendations] y [!UICONTROL Compositor de experiencias visuales] (VEC).
 * [[!DNL Target Standard/Premium] 25.1.1 (9 de enero de 2025) notas de la versión](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Proporciona un resumen de los cambios clave de la interfaz de usuario en [!DNL Target] para la [!UICONTROL Biblioteca de ofertas].
 * [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md): Proporciona una breve descripción general para ayudarle a familiarizarse con [!DNL Target] y proporciona vínculos para obtener información más detallada e instrucciones paso a paso.
@@ -168,7 +168,7 @@ Estas herramientas proporcionan un control preciso sobre las dimensiones de los 
 * Definición del índice Z para la creación de capas
 * Elija un tipo de posicionamiento
 
-El carril [!UICONTROL Propiedades] actualizado también admite estilos en línea personalizados, lo que ofrece flexibilidad cuando las opciones preestablecidas no satisfacen las necesidades de diseño.
+El carril [!UICONTROL Properties] actualizado también admite estilos en línea personalizados, lo que ofrece flexibilidad cuando las opciones preestablecidas no satisfacen las necesidades de diseño.
 
 **[!UICONTROL Ocultar]**: la característica [!UICONTROL Ocultar] se encuentra en el panel [!UICONTROL Propiedades]. Después de seleccionar un elemento, haga clic en [!UICONTROL Ocultar elemento] para quitarlo de la vista sin eliminarlo. Esto resulta útil para administrar la visibilidad durante el diseño o la vista previa.
 
@@ -210,7 +210,7 @@ Con las últimas actualizaciones en la interfaz de usuario, los estados [!UICONT
 ## ¿Cómo sé si una actividad se creó o editó en la interfaz de usuario heredada o en la actualizada?
 
 +++Detalles
-Las actividades creadas o editadas en la interfaz de usuario actualizada siguen el mismo flujo de trabajo guiado de tres pasos y pueden incluir metadatos o formato específicos de la interfaz de usuario que no están presentes en las actividades creadas anteriormente. Aunque no hay etiquetas visibles en la interfaz, las diferencias de diseño, estructura y opciones disponibles (como las funciones mejoradas de segmentación o vista previa) pueden indicar qué interfaz de usuario se ha utilizado. Para obtener una identificación detallada, consulte el historial de cambios de la actividad o sus registros de implementación.
+Las actividades creadas o editadas en la interfaz de usuario actualizada siguen el mismo flujo de trabajo guiado de tres pasos y pueden incluir metadatos o formato específicos de la interfaz de usuario que no están presentes en las actividades creadas anteriormente. Aunque no hay ninguna etiqueta visible en la interfaz, las diferencias de diseño, estructura u opciones disponibles (como las funciones mejoradas de segmentación o vista previa) pueden indicar qué interfaz de usuario se ha utilizado. Para obtener una identificación detallada, consulte el historial de cambios de la actividad o sus registros de implementación.
 
 +++
 

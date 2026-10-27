@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # Resolución de problemas relacionados con [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]
 
@@ -139,7 +139,7 @@ Si se usa el mismo ID de elemento DOM en varios elementos de la página, al camb
 
 +++
 
-## No puedo modificar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC) {#section_9FE266B964314F2EB75604B4D7047200}
+## No puedo editar experiencias desde un sitio con eliminación de iFrames. (VEC y EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Detalles
 Este problema se puede solucionar habilitando [!UICONTROL Enhanced Experience Composer] (EEC). Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]** y, a continuación, active la casilla que habilita el [!UICONTROL Compositor de experiencias mejorado]. El EEC usa un proxy administrado por [!DNL Adobe] para cargar la página y editarla. Este proxy permite realizar modificaciones en sitios con eliminación de iFrames y en sitios y páginas donde aún no ha agregado código [!DNL Adobe Target]. Las actividades no se muestran en el sitio hasta que el código se haya añadido. Es posible que algunos sitios no se carguen a través del EEC. En este caso, puede desactivar esta opción para cargar el EEC a través de un iFrame.
@@ -153,7 +153,7 @@ Este problema se puede solucionar habilitando [!UICONTROL Enhanced Experience Co
 ## Deseo configurar pruebas en páginas que aún no tengan la implementación de mbox/[!DNL Target] completada. (VEC y EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Detalles
-Consulte “No puedo modificar experiencias desde un sitio con eliminación de iFrames” (arriba).
+Consulte &quot;No puedo modificar experiencias desde un sitio con eliminación de iFrames&quot; (arriba).
 
 +++
 

@@ -2,7 +2,7 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;segmentación;automática;informe de segmentación automática;informe;personalización;perspectivas;faq;preguntas frecuentes;atributos importantes
 description: Aprenda a utilizar el informe [!UICONTROL Atributos importantes] que muestra los atributos principales que influyeron en el modelo de personalización y su importancia relativa.
 title: ¿Qué es el informe Atributos importantes?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: 'https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo'
@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 61%
+source-wordcount: '1949'
+ht-degree: 55%
 ---
 # Informe Atributos importantes
 
@@ -73,7 +73,7 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
    >[!IMPORTANT]
    >
-   >El informe [!UICONTROL Atributos importantes] no estará disponible hasta al menos 15 días después de que hayas activado tu actividad. Durante este periodo inicial, no podrá acceder a este informe o hacer clic en el icono [!UICONTROL Atributos importantes]. Transcurridos 15 días, y suponiendo que haya tráfico personalizado suficiente en la actividad, estará disponible el informe [!UICONTROL Atributos importantes].
+   >El informe [!UICONTROL Atributos importantes] no estará disponible hasta al menos 15 días después de que haya activado su actividad. Durante este período inicial, no podrás acceder a este informe ni hacer clic en el icono [!UICONTROL Atributos importantes]. Transcurridos 15 días, y suponiendo que haya tráfico personalizado suficiente en la actividad, estará disponible el informe [!UICONTROL Atributos importantes].
 
 1. Transcurridos 15 días a partir de la activación de la actividad, haga clic en el icono **[!UICONTROL Atributos importantes]** ( ![icono de Atributos importantes](/help/main/assets/icons/ViewList.svg) )icono.
 
@@ -81,7 +81,7 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
    A diferencia del informe [!UICONTROL Resumen] (informes de rendimiento), [!UICONTROL Personalization Insights], incluidos [!UICONTROL Atributos importantes], solo están disponibles para intervalos de fechas fijos: 15 días, 30 días y 60 días.
 
-   Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observe que “Inicio” aparece atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
+   Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observará que &quot;Inicio&quot; está atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
    Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Intervalo de fechas preestablecido].
 
@@ -91,7 +91,7 @@ En las distintas actividades, distintos atributos son más o menos importantes p
 
    >[!NOTE]
    >
-   >El informe de la interfaz de usuario de Perspectivas de personalización contiene información seleccionada. La descarga de CSV para el informe Atributos importantes contiene detalles adicionales. La descarga del informe Atributos importantes incluye la lista completa de los 100 principales atributos, mientras que el informe Interfaz de usuario solo incluye los 10 primeros. Si busca un atributo específico en el informe, pero no aparece, no significa que el atributo no influyera en esta actividad, solo que no estuvo entre los 100 principales.
+   >El informe de la interfaz de usuario de Perspectivas de personalización contiene información seleccionada. La descarga de CSV para el informe Atributos importantes contiene detalles adicionales. La descarga del informe Atributos importantes incluye la lista completa de los 100 principales atributos, mientras que el informe Interfaz de usuario solo incluye los 10 primeros. Si busca un atributo específico en el informe pero no está allí, eso no significa que el atributo no haya influido en la actividad, simplemente no se incluyó en la lista de los 100 atributos principales.
 
 ## Interpretación del informe Atributos importantes
 
@@ -110,7 +110,7 @@ Consulte las siguientes preguntas frecuentes para obtener respuestas a preguntas
 
 Existen varias razones por las que los informes de [!UICONTROL Personalization Insights] podrían no estar aún disponibles para su actividad:
 
-* No han transcurrido 15 días desde que se activó la actividad. Los informes Segmentos automatizados y Atributos importantes no estarán disponibles al menos hasta 15 días después de haberse iniciado la actividad. Durante este periodo inicial no podrá acceder a estos informes ni hacer clic en los iconos de Segmentos automatizados o Atributos importantes.
+* No han transcurrido 15 días desde que se activó la actividad. Los informes Segmentos automatizados y Atributos importantes no estarán disponibles hasta al menos 15 días después de que haya iniciado la actividad. Durante este periodo inicial, no podrá acceder a estos informes ni hacer clic en los iconos Segmentos automatizados y Atributos importantes.
 * La actividad no tuvo suficiente tráfico durante el periodo de tiempo especificado. Transcurridos 15 días, y suponiendo que haya [tráfico personalizado suficiente](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) en la actividad para crear los modelos de personalización, estarán disponibles los informes Segmentos automatizados y Atributos importantes.
 * Su actividad tiene un objetivo de optimización de ingresos. En este momento, [!UICONTROL Perspectivas de personalización] solo está disponible para actividades de optimización de la conversión. En una futura versión añadiremos compatibilidad con las actividades de optimización de los ingresos.
 
@@ -120,11 +120,11 @@ Un atributo es información sobre un visitante o sobre su visita específica que
 
 Para obtener más información sobre qué atributos utiliza [!DNL Target] en sus modelos de personalización, consulte [Recopilación de datos para algoritmos de personalización de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Para obtener más información sobre cómo cargar nuevos atributos en Target para usarlos en modelos de personalización de Target, consulte [Métodos para introducir datos a Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}.
 
-### Veo uno o más atributos que no quiero que el modelo use para el aprendizaje. ¿Puedo quitarlos del modelo de aprendizaje? {#models-api}
+### Veo uno o más atributos que no deseo que el modelo utilice para la formación. ¿Puedo quitarlos del modelo de aprendizaje? {#models-api}
 
 La API de modelos [!UICONTROL Model], también denominada API de Lista de bloqueados, permite a los usuarios ver y administrar la lista de atributos (también denominados características) utilizados en los modelos de aprendizaje automático para las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática] (AT). Si desea excluir uno o más atributos de la utilización por parte de los modelos para actividades AP o AT, puede utilizar la API de modelos para añadir esos atributos a la &quot;lista de bloqueados&quot;.
 
-Para obtener información detallada, consulte [Resumen de API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=es){target=_blank} en la *Guía para desarrolladores de Adobe Target*. Para usar la API para bloquear atributos, consulte [API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=es){target=_blank}.
+Para obtener información detallada, consulte [Resumen de API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} en la *Guía para desarrolladores de Adobe Target*. Para usar la API para bloquear atributos, consulte [API de modelos](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### ¿La información que aparece en los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes] es la misma que la que aparece en la descarga CSV?
 

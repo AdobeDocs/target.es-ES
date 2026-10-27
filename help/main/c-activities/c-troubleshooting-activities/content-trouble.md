@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # Resolución de problemas de la entrega de contenido
 
@@ -134,11 +134,11 @@ Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla 
 
 Para obtener más información, consulte los vídeos de formación siguientes:
 
-Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=es){target=_blank}.
+Para obtener información más detallada, consulte [Depuración de at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Los principales vendedores no aparecen en Recommendations. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-No se puede usar la llamada de *`SiteCatalyst: purchase`* para los datos del tráfico del algoritmo Compra. Utilice la llamada *`orderConfirmPage`* en su lugar.
+No se puede usar la llamada *`SiteCatalyst: purchase`* para los datos del tráfico del algoritmo Compra. Utilice la llamada *`orderConfirmPage`* en su lugar.
 
 ## Comprobación de la prioridad de las actividades {#section_3D0DD07240F0465BAF655D0804100AED}
 
@@ -229,12 +229,12 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 ### Agregar la extensión ![distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33688?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### ![Insignia](/help/main/assets/tutorial.png) del tutorial de depuración básica de Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/33706?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Distintivo del tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33707?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

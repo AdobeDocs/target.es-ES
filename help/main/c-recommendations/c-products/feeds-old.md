@@ -2,7 +2,7 @@
 keywords: fuente de recommendations;fuente;SAINT;ftp;csv;clasificaciones;clasificaciones de analytics
 description: Obtenga información sobre cómo las fuentes importan entidades en [!DNL Adobe Target] [!DNL Recommendations] mediante archivos CSV, el formato de fuente de búsqueda de productos de Google y [!DNL Analytics] clasificaciones de productos.
 title: ¿Cómo utilizo [!UICONTROL Fuentes] en [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 45%
+source-wordcount: '2586'
+ht-degree: 43%
 ---
 # Fuentes
 
@@ -219,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
+La clasificación de producto [!DNL Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
 >[!IMPORTANT]
 >
@@ -327,7 +327,7 @@ En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de esta
 | Indicador de estado | Descripción |
 |--- |--- |
 | Indicador de estado verde | Cuando una fuente termina de indexarse correctamente, aparece un punto de estado verde que indica que la fuente tiene un estado correcto. |
-| Indicador de estado amarillo | Cuando una fuente o índice de fuente tiene un retraso de un 25 % de la frecuencia de la fuente, se muestra un punto de estado amarillo. Por ejemplo, el punto amarillo aparece en una fuente configurada para ejecutarse a diario si el índice aún no se ha completado pasadas seis horas de la hora programada. Nota: Una vez que el estado de la fuente es &quot;Esperando a la cola de índice&quot;, los valores recién actualizados ya están disponibles para su publicación y el procesamiento de criterios. |
+| Indicador de estado amarillo | Cuando una fuente o índice de fuente tiene un retraso de un 25 % de la frecuencia de la fuente, se muestra un punto de estado amarillo. Por ejemplo, el punto amarillo aparece en una fuente configurada para ejecutarse a diario si el índice no se ha completado pasadas seis horas de la hora programada. Nota: Una vez que el estado de la fuente es &quot;Esperando a la cola de índice&quot;, los valores recién actualizados ya están disponibles para su publicación y el procesamiento de criterios. |
 | Indicador de estado blanco | Cuando una fuente no está programada, un punto de estado blanco indica que aún no se ha ejecutado. |
 | Indicador de estado rojo | Si la fuente no puede cargar datos en el servidor, se muestra un indicador de estado rojo. |
 
@@ -336,7 +336,7 @@ Veamos los siguientes ejemplos:
 **Ejemplo 1:**
 
 * Día uno: procesos diarios de alimentación a las 9:00 a.m. PST.
-* Día dos: son las 15:30 y la fuente no se ha ejecutado desde ayer a las 9:00
+* Día dos: son las 3:30 p.m. y la fuente no ha funcionado desde ayer a las 9:00 a.m.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace 6 horas y media. 6,5 horas + 24 es un 127 % del plazo de la fuente.
 
@@ -358,7 +358,7 @@ Este vídeo contiene la información siguiente:
 * Explicación del objetivo de las fuentes
 * Explicación del valor de las fuentes
 
->[!VIDEO](https://video.tv.adobe.com/v/33945?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Crear una fuente (6:44) ![Insignia de tutorial](/help/main/assets/tutorial.png)
 
@@ -367,4 +367,4 @@ Este vídeo contiene la información siguiente:
 * Configuración de una fuente
 * Qué tipo de fuente utilizar
 
->[!VIDEO](https://video.tv.adobe.com/v/33944?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

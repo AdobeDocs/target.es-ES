@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3760'
-ht-degree: 34%
+source-wordcount: '3768'
+ht-degree: 33%
 ---
 # Resumen de [!UICONTROL asignación automática]
 
@@ -40,7 +40,7 @@ Mientras [crea una actividad A/B](/help/main/c-activities/t-test-ab/t-test-creat
 
 ## El reto {#section_85D5A03637204BACA75E19646162ACFF}
 
-Las pruebas A/B estándar tienen un coste inherente. Debe invertir tráfico para medir el rendimiento de cada experiencia y utilizar el análisis para determinar la experiencia ganadora. La distribución del tráfico sigue siendo fija incluso después de reconocer que el rendimiento de algunas experiencias supera al de otras. Además, es complicado determinar el tamaño de la muestra, y la actividad debe haber finalizado para poder tomar medidas con la mejor experiencia. Y, todavía hay una posibilidad de que el ganador identificado no sea un verdadero ganador.
+Las pruebas A/B estándar tienen un coste inherente. Debe invertir tráfico para medir el rendimiento de cada experiencia y utilizar el análisis para determinar la experiencia ganadora. La distribución del tráfico sigue siendo fija incluso después de reconocer que el rendimiento de algunas experiencias supera al de otras. Además, es complicado averiguar el tamaño de la muestra, y la actividad debe ejecutar todo su curso antes de poder actuar sobre un ganador. Y, todavía hay una posibilidad de que el ganador identificado no sea un verdadero ganador.
 
 ## La solución: [!UICONTROL Asignación automática] {#section_98388996F0584E15BF3A99C57EEB7629}
 
@@ -98,13 +98,13 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 | ![Ronda 2](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"} | **Ronda 2**: durante esta ronda, el 80 % del tráfico se asigna a las experiencias A y D (un 40 % a cada una). El 20 % del tráfico se asigna aleatoriamente, de modo que A, B, C y D reciben, respectivamente, un 5 % del tráfico. Durante esta ronda, la experiencia B presenta un buen rendimiento.<ul><li>El algoritmo decide que la experiencia D pasa a la siguiente ronda porque tiene la tasa de conversión más alta (tal y como indica la escala vertical de cada actividad).</li><li>El algoritmo decide que la experiencia B también supera esta segunda prueba porque tiene la cota superior más alta del intervalo de confianza del 95 % de Bernstein en comparación con las demás experiencias.</li></ul>Las experiencias D y B pasan a la siguiente ronda. |
 | ![Ronda 3](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"} | **Ronda 3**: durante esta ronda, el 80 % del tráfico se asigna a las experiencias B y D (un 40 % a cada una). El 20 % del tráfico se asigna aleatoriamente, de modo que A, B, C y D reciben, respectivamente, un 5 % del tráfico. Durante esta ronda, la experiencia D sigue teniendo un buen rendimiento y la experiencia C también logra buenos resultados.<ul><li>El algoritmo decide que la experiencia D pasa a la siguiente ronda porque tiene la tasa de conversión más alta (tal y como indica la escala vertical de cada actividad).</li><li>El algoritmo decide que la experiencia C también pasa a la siguiente ronda porque tiene la cota superior más alta del intervalo de confianza del 95 % de Bernstein de las experiencias restantes.</li></ul>Las experiencias D y C pasan a la siguiente ronda. |
 | ![Ronda 4](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"} | **Ronda 4**: durante esta ronda, el 80 % del tráfico se asigna a las experiencias C y D (un 40 % a cada una). El 20 % del tráfico se asigna aleatoriamente, de modo que A, B, C y D reciben, respectivamente, un 5 % del tráfico. Durante esta ronda, la experiencia C presenta un buen rendimiento.<ul><li>El algoritmo decide que la experiencia C pasa a la siguiente ronda porque tiene la tasa de conversión más alta (tal y como indica la escala vertical de cada actividad).</li><li>El algoritmo decide que la experiencia D también supera esta cuarta prueba porque tiene la cota superior más alta del intervalo de confianza del 95 % de Bernstein en comparación con las demás experiencias.</li></ul>Las experiencias C y D pasan a la siguiente ronda. |
-| ![Ronda n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Ronda *n***: a medida que progresa la actividad, una experiencia de alto rendimiento comienza a emerger y el proceso continúa hasta que haya una experiencia ganadora. Cuando el intervalo de confianza de la experiencia con la tasa de conversión más alta no se superpone con el intervalo de confianza de ninguna otra experiencia, se etiqueta como ganador. Se muestra un distintivo [en la página de la actividad ganadora](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) y en la lista [!UICONTROL Actividad].<ul><li>El algoritmo decide que la experiencia C es la clara ganadora.</li></ul>En este punto, el algoritmo otorga el 80 % del tráfico a la experiencia C, mientras que el 20 % del tráfico se sigue ofreciendo aleatoriamente a todas las experiencias (A, B, C y D). En total, C recibe el 85 % del tráfico. En el improbable caso de que el intervalo de confianza del ganador empiece a superponerse de nuevo, el algoritmo restablece el comportamiento de la ronda 4.<P>**Importante**: Si elige un ganador de forma manual antes de que finalice el proceso, habría sido fácil elegir la experiencia incorrecta. Por ese motivo, lo más recomendable es esperar a que el algoritmo determine cuál es la experiencia ganadora. |
+| ![Ronda n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Ronda *n***: a medida que progresa la actividad, una experiencia de alto rendimiento comienza a emerger y el proceso continúa hasta que haya una experiencia ganadora. Cuando el intervalo de confianza de la experiencia con la tasa de conversión más alta no se superponga con el intervalo de confianza de ninguna otra experiencia, se etiqueta el ganador. Se muestra un distintivo [en la página de la actividad ganadora](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) y en la lista [!UICONTROL Actividad].<ul><li>El algoritmo decide que la experiencia C es la clara ganadora.</li></ul>En este punto, el algoritmo otorga el 80 % del tráfico a la experiencia C, mientras que el 20 % del tráfico se sigue ofreciendo aleatoriamente a todas las experiencias (A, B, C y D). En total, C recibe el 85 % del tráfico. En el improbable caso de que el intervalo de confianza del ganador empiece a superponerse de nuevo, el algoritmo restablece el comportamiento de la ronda 4.<P>**Importante**: Si elige un ganador de forma manual antes de que finalice el proceso, habría sido fácil elegir la experiencia incorrecta. Por ese motivo, lo más recomendable es esperar a que el algoritmo determine cuál es la experiencia ganadora. |
 
 >[!NOTE]
 >
 >Si una actividad solo tiene dos experiencias, ambas recibirán el mismo tráfico hasta que [!DNL Target] encuentre una experiencia ganadora con un 75 % de confianza. En ese momento, dos tercios del tráfico se asignan al ganador y un tercio al perdedor. Después, cuando una experiencia alcanza el 95 % de confianza, el 90 % del tráfico se asigna al ganador y el 10 % al perdedor. [!DNL Target] siempre envía tráfico a la experiencia de &quot;pérdida&quot; para evitar falsos positivos al final (es decir, mantener cierta exploración).
 
-Después de activar una actividad [!UICONTROL Asignación automática], no se permiten las siguientes operaciones desde la interfaz de usuario de Target:
+Después de activar una actividad [!UICONTROL Asignación automática], no se permiten las siguientes operaciones desde la interfaz de usuario de Tar[!DNL]get:
 
 * Cambiar el modo “Asignación del tráfico” a “Manual”
 * Cambiar el tipo de la métrica de objetivo
@@ -130,7 +130,7 @@ Si los visitantes que vuelven se distribuyen de forma aleatoria, es más probabl
 
 ### Diferencia entre los de alto rendimiento, no entre los de bajo rendimiento.
 
-[!UICONTROL Asignación automática] es buena para diferenciar entre experiencias de alto rendimiento (y encontrar un ganador). Puede que en ocasiones no haya suficiente diferencia entre las experiencias con rendimiento bajo.
+[!UICONTROL Asignación automática] es buena para diferenciar entre experiencias de alto rendimiento (y encontrar un ganador). Podría haber ocasiones en las que no tenga la suficiente diferenciación entre las experiencias con bajo rendimiento.
 
 Si desea producir una diferenciación estadísticamente significativa entre todas las experiencias, le recomendamos considerar el uso del modo de asignación de tráfico manual.
 
@@ -152,7 +152,7 @@ A continuación tiene algunos ejemplos de factores que pueden afectar al rendimi
 
 * Experiencias con diferentes retrasos en la conversión, posiblemente debidos a la urgencia del mensaje.
 
-  Por ejemplo, el mensaje “El descuento del 30% acaba hoy” señala al visitante que debe generar hoy la conversión, mientras que “Descuento del 50% en la primera compra” no crea la misma sensación de urgencia.
+  Por ejemplo, el mensaje &quot;El descuento del 30% acaba hoy&quot; señala al visitante que debe generar hoy la conversión, mientras que &quot;Descuento del 50% en la primera compra&quot; no crea la misma sensación de urgencia.
 
 ## Preguntas frecuentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
@@ -267,4 +267,4 @@ En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de traba
 * Crear una actividad A/B en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

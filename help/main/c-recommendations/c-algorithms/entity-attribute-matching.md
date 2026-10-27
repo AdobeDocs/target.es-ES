@@ -2,7 +2,7 @@
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de atributos de entidad
 description: Aprenda a filtrar dinámicamente en [!DNL Target Recommendations] comparando un grupo de elementos potenciales con un elemento específico con el que el usuario ha interactuado.
 title: ¿Cómo filtro por coincidencia de atributos de entidad en las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 TQID: 'https://experienceleague.adobe.com/2cBSfWXS96u7iumehPd7enxPjQcebkQCdSBSHWOUcJg'
@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 2%
 ---
 # Coincidencia de atributos de entidad

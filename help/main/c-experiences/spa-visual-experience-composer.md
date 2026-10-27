@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
 
@@ -102,7 +102,7 @@ Descargue at.js 2.x a través de la IU de Adobe Target ubicada en [!UICONTROL Ad
 
 +++ Implementar la función más reciente de at.js 2.x
 
-Implemente la función [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=es){target=_blank} más reciente de at.js 2.x en sus sitios.
+Implemente la función [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} más reciente de at.js 2.x en sus sitios.
 
 Después de definir las vistas de la SPA donde desea ejecutar una prueba A/B o XT, implemente la función `triggerView()` de at.js 2.x con las vistas pasadas como parámetro. Esto permite a los especialistas en marketing utilizar el VEC para diseñar y ejecutar las pruebas A/B y XT para esas vistas definidas. Si la función de `triggerView()` no está definida para estas vistas, el VEC no detectará las vistas y, por lo tanto, los especialistas en marketing no podrán utilizar el VEC para diseñar y ejecutar pruebas A/B y XT.
 
@@ -243,7 +243,7 @@ La siguiente tabla describe cada acción:
 | --- | --- |
 | Información | Muestra los detalles de esta acción. |
 | Editar | Permite editar las propiedades de esta acción directamente. |
-| Clonar | Clona la acción a una o más vistas que existen en el panel [!UICONTROL Modificaciones] o a una o más vistas a las que ha navegado en el VEC. La acción no tiene que existir necesariamente en el panel [!UICONTROL Modificaciones].<br>**Nota**: después de realizar una operación de clonado, debe navegar a la vista en el VEC a través de [!UICONTROL Examinar] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error. |
+| Clonar | Clona la acción a una o más vistas que existen en el panel [!UICONTROL Modificaciones] o a una o más vistas a las que ha navegado en el VEC. La acción no tiene que existir necesariamente en el panel [!UICONTROL Modificaciones].<br>**Nota**: Después de realizar una operación de clonado, debe navegar a la vista en el VEC a través de [!UICONTROL Examinar] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error. |
 | Mover | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya se encuentre en el panel Modificaciones.<br>[!UICONTROL Evento de carga de página]: cualquier acción que corresponda al evento de carga de página se aplica en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de movimiento, debe navegar a la vista en el VEC a través de Examinar para ver si el movimiento era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error |
 | Eliminar | Elimina la acción. |
 
@@ -383,7 +383,7 @@ Sí, at.js 2.x es compatible con A4T para SPA a través de la función `triggerV
 | [Personalización automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |
 | [Recommendations](/help/main/c-recommendations/recommendations.md) | No |
 
-**Si instalamos at.js 2.x e implementamos `triggerView()` en nuestras páginas, ¿cómo ejecutamos actividades A/B de la segmentación automática si el VEC de SPA no la admite?**
+**Si instalamos at.js 2.x e implementamos `triggerView()` en nuestras páginas, ¿cómo ejecutamos actividades A/B de Segmentación automática si el VEC de SPA no la admite?**
 
 Si desea utilizar actividades A/B de Segmentación automática puede mover todas las acciones que se ejecutan al evento de Carga de página en el VEC. Pase el ratón sobre cada acción y haga clic en el botón [!UICONTROL Mover al evento de carga de página]. Hecho esto, puede seleccionar Segmentación automática para el método de asignación de tráfico.
 
@@ -393,7 +393,7 @@ Si desea utilizar actividades A/B de Segmentación automática puede mover todas
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sí |
 | [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Sí |
-| [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es){target=_blank} | Sí |
+| [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Sí |
 | [Fragmentos de experiencia de AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sí |
 
 ## Funciones compatibles {#supported-features}
@@ -416,7 +416,7 @@ Para acceder a las opciones de [!UICONTROL Entrega de páginas] desde el flujo d
 
 ![Cuadro de diálogo Opciones de Entrega de páginas](/help/main/c-experiences/assets/page-delivery.png)
 
-Por ejemplo, según se define en la configuración de [!UICONTROL Entrega de páginas] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com/es` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/es/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
+Por ejemplo, según se define en la configuración de [!UICONTROL Entrega de páginas] que se muestra arriba, una actividad de Target se califica y se ejecuta cuando un visitante aterriza directamente en `https://www.adobe.com` *o* cuando un visitante aterriza en cualquier dirección URL que contenga `https://www.adobe.com/products`. Esto funciona perfectamente para cualquier aplicación de varias páginas en la que cada interacción con la página invoca una recarga de página, para la cual at.js recupera las actividades que cumplen con la URL a la que va el usuario.
 
 Sin embargo, como los SPA funcionan de manera diferente, la configuración de [!UICONTROL Entrega de páginas] debe estar configurada de manera que permita aplicar todas las acciones a las vistas tal como se define en la actividad del VEC de SPA.
 
@@ -460,7 +460,7 @@ Nota: El usuario que navega a [https://experienceleague.adobe.com/developer/asho
 
 ### Práctica recomendada
 
-Puede ver que la administración del recorrido del usuario puede resultar bastante difícil, ya que los usuarios pueden aterrizar en cualquier URL de su SPA y navegar a cualquier otra página. Por lo tanto, es mejor especificar una regla de publicación de página que incluya la dirección URL base para que incluya todo el SPA. De este modo, no tiene que pensar en todos los recorridos y rutas que un usuario podría seguir para llegar a una página en la que desee mostrar una prueba A/B o una actividad de segmentación de experiencias (XT).
+Puede ver que la administración del recorrido del usuario puede resultar bastante difícil, ya que los usuarios pueden aterrizar en cualquier URL de su SPA y navegar a cualquier otra página. Por lo tanto, es mejor especificar una regla de publicación de página que incluya la dirección URL base para que incluya todo el SPA. De este modo, no tiene que pensar en todos los recorridos y rutas que un usuario podría desarrollar para llegar a una página en la que desee mostrar una prueba A/B o una actividad de segmentación de experiencias (XT).
 
 Por ejemplo, para resolver el problema anterior, podemos especificar la dirección URL base en la configuración de Entrega de páginas de esta forma:
 
@@ -476,7 +476,7 @@ Este mensaje aparece cuando agrega la primera acción a una Vista para cada nuev
 
 ## Vídeo de formación: Uso del VEC para SPA en Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/34794?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 Consulte [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC) en Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) para obtener más información.
 

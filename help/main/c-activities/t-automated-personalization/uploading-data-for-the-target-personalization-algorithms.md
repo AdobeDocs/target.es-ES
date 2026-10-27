@@ -3,7 +3,7 @@ keywords: Automated Personalization;aplicación;cargar datos;datos sin conexión
 description: Aprenda a cargar datos sin conexión al crear modelos de personalización en [!DNL Adobe Target] actividades de [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática].
 title: ¿Cómo puedo cargar datos para algoritmos de Personalization?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '326'
 ht-degree: 12%
 ---
 # Cargar datos para los algoritmos de personalización de [!DNL Target]
@@ -56,6 +56,6 @@ La siguiente lista presenta las prácticas recomendadas para cargar datos para l
 * Cuantos más datos de alta calidad haya disponibles para los algoritmos de personalización de [!DNL Target], mejor será la calidad de los modelos resultantes en las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática].
 * Limite el uso de múltiples scripts de perfil y atributos que tengan el mismo propósito.
 * No pase un ID único, como un ID de sesión, si no es necesario.
-* Revise qué datos [!DNL Target] recopila automáticamente ([Recopilación de datos para los algoritmos de Personalization de Target](/help/main/c-activities/t-automated-personalization/ap-data.md)) para que no envíe información duplicada. Por ejemplo, [!DNL Target] utiliza direcciones IP para determinar el código postal de los visitantes. No es necesario pasar esta información como variable independiente.
+* Revise qué datos [!DNL Target] recopila automáticamente ([Recopilación de datos para los algoritmos Personalization de Target](/help/main/c-activities/t-automated-personalization/ap-data.md)) para que no envíe información duplicada. Por ejemplo, [!DNL Target] utiliza direcciones IP para determinar el código postal de los visitantes. No es necesario pasar esta información como variable independiente.
 * No pase varios valores en el mismo atributo o variable. Si se concatenan varias variables, los algoritmos de personalización de [!DNL Target] tratan cada cadena como un valor único, lo que reduce el valor de la información para la personalización.
 * Use una convención de nombres significativa y fácil de recordar para que sus [informes de Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) sean más comprensibles.

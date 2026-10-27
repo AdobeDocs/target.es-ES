@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 14%
+source-wordcount: '1075'
+ht-degree: 12%
 ---
 # Crear una actividad [!UICONTROL de asignación automática]
 
@@ -90,7 +90,7 @@ Para crear una actividad [!UICONTROL de asignación automática]:
 
 1. Cree nuevas experiencias cambiando los elementos de la página.
 
-   El [!UICONTROL Compositor de experiencias visuales] muestra dos pestañas a la izquierda después de crear una nueva actividad: la [!UICONTROL Experiencia A] y la [!UICONTROL Experiencia B]. La [!UICONTROL Experiencia A] es la experiencia de control. Se centra en la ficha [!UICONTROL Experiencia B], que puede modificar según desee. [!UICONTROL Experiencia B] es la experiencia alternativa que puedes agregar a tu prueba. Para agregar varias experiencias a la prueba, haz clic en el icono [!UICONTROL Agregar] ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en la parte superior del panel [!UICONTROL Experiencias]. También podemos eliminar Experiencia A de la actividad si no queremos incluir una experiencia de sitio predeterminada como opción.
+   El [!UICONTROL Compositor de experiencias visuales] muestra dos pestañas a la izquierda después de crear una nueva actividad: la [!UICONTROL Experiencia A] y la [!UICONTROL Experiencia B]. La [!UICONTROL Experiencia A] es la experiencia de control. Se centra en la ficha [!UICONTROL Experiencia B], que puede modificar según desee. [!UICONTROL Experiencia B] es la experiencia alternativa que puedes agregar a tu prueba. Para agregar varias experiencias a la prueba, haz clic en el icono [!UICONTROL Agregar] ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en la parte superior del panel [!UICONTROL Experiencias]. También puede eliminar la Experiencia A de la actividad si no desea incluir una experiencia de sitio predeterminada como opción.
 
    Para obtener más información sobre cómo agregar y modificar experiencias en [!UICONTROL Compositor de experiencias visuales], consulte [Agregar experiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar [!UICONTROL Experiencia B], comience con el Paso 2.
 

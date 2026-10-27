@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1754'
 ht-degree: 69%
 ---
 # Capítulo 7: Creación y ejecución de la primera actividad de [!DNL Target]
 
-¿Está listo para comenzar con su primera actividad en [!DNL Target]? Excelente. Vamos a diseñar una actividad para tu sitio web, sitio móvil o aplicación móvil que no sea excesivamente compleja, pero que pueda proporcionar un retorno de la inversión rápido y que te entusiasme con el potencial de usar [!DNL Target] para probar y personalizar. En función de su organización y de su enfoque, puede considerar la posibilidad de seguir una de las tres rutas diferentes con esta primera actividad.
+¿Está listo para comenzar con su primera actividad en [!DNL Target]? Excelente. Vamos a diseñar una actividad para su sitio web, sitio móvil o aplicación móvil que no sea excesivamente compleja, pero que pueda proporcionar un retorno de la inversión rápido y que le entusiasme con el potencial de usar [!DNL Target] para probar y personalizar. En función de su organización y de su enfoque, puede considerar la posibilidad de seguir una de las tres rutas diferentes con esta primera actividad.
 
 La clave de su primera actividad, sin embargo, es establecer una línea de base de la métrica empresarial que está intentando mejorar: ingresos, clics, envíos de formularios, registros completados, etc. En una prueba A/B, a menudo puede utilizar la experiencia u oferta actual como un control y medir el impacto de una variante de esa experiencia u oferta frente a ella. Sin embargo, con la mayoría de las actividades de personalización, lo ideal sería determinar el rendimiento de la experiencia actual antes de lanzar una versión personalizada de ella. Esto le permitirá medir el impacto de la personalización.
 

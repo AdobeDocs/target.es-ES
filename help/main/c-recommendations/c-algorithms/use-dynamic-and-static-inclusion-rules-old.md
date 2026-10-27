@@ -2,7 +2,7 @@
 keywords: reglas de inclusión;criterios de inclusión;Recommendations;creación de nuevos criterios;promoción;promociones;filtrado dinámico;dinámico;valores en blanco;ignorar regla de filtrado;filtro estático;filtrar por valor;coincidencia de atributos de entidad;coincidencia de atributos de perfil;coincidencia de parámetros;filtrado por valor;filtro estático
 description: Obtenga información sobre cómo crear reglas de inclusión en Adobe [!DNL Target] Recommendations para criterios y promociones. Para obtener mejores resultados, agregue reglas de filtrado más dinámicas o estáticas.
 title: ¿Cómo utilizo reglas de inclusión dinámicas y estáticas en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 15%
+source-wordcount: '2113'
+ht-degree: 13%
 ---
 # Uso de reglas de inclusión dinámicas y estáticas
 
@@ -107,7 +107,7 @@ Para seleccionar la acción que desee, pase el ratón sobre el icono del engrana
 
 | Acción | Disponible para | Detalles |
 |--- |--- |--- |
-| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros].<br>Esta opción especifica que se ignora la regla. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
+| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros].<br>Esta opción especifica que se ignora la regla. Por ejemplo, si hay tres reglas de filtrado y la tercera regla no pasa ningún valor, en lugar de no devolver ningún resultado, simplemente puede ignorar la tercera regla con los valores vacíos. |
 | [!UICONTROL No mostrar ningún resultado para estos criterios]<br>(Solo criterios) | [!UICONTROL Coincidencia de atributos de entidad], [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>Así es como [!DNL Target] administró los valores en blanco antes de agregar esta opción: no se muestran resultados para estos criterios. |
 | [!UICONTROL No promocionar ningún elemento<br>(solo promociones)] | [!UICONTROL Coincidencia de atributos de entidad], [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<br>Así es como [!DNL Target] administró los valores en blanco antes de agregar esta opción: no se muestran resultados para estos criterios. |
 | [!UICONTROL Usar un valor estático] | [!UICONTROL Coincidencia de atributos de entidad], [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Si un valor está en blanco, puede optar por usar un valor estático. |

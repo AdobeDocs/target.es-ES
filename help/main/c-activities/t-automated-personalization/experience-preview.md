@@ -2,7 +2,7 @@
 keywords: vista previa de experiencias;direcciones URL de experiencia;generar direcciones URL;ver direcciones URL de experiencia
 description: Aprenda a utilizar las URL de vista previa de experiencias para las actividades de Adobe [!DNL Target] Automated Personalization para ver el contenido de las experiencias directamente en el sitio antes de que la actividad esté activa.
 title: ¿Cómo puedo usar las direcciones URL de vista previa de experiencias en actividades de Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 48%
+source-wordcount: '748'
+ht-degree: 41%
 ---
 # Vista previa de actividades de Automated Personalization con URL de vista previa de experiencias
 
@@ -38,11 +38,11 @@ Utilice las URL de vista previa de experiencias para compartir experiencias con 
 1. Revise y/o especifique sus URL.
 
    * Si usa el [!UICONTROL Compositor de experiencias visuales] (VEC), la URL predeterminada que especificó para la actividad se ingresa automáticamente y se genera un vínculo para cada experiencia de su actividad. Puede cambiar esta URL y añadir otras si lo desea.
-   * Si usa el [!UICONTROL Compositor de experiencias basadas en formularios], no se ingresará automáticamente ninguna dirección URL predeterminada. Si aún no has creado las URL de vista previa de la experiencia, haz clic en **Agregar nueva URL**. Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
+   * Si usa el [!UICONTROL Compositor de experiencias basadas en formularios], no se ingresará automáticamente ninguna dirección URL predeterminada. Si no ha creado las URL de vista previa de la experiencia, haga clic en **Agregar nueva URL**. Debe especificar todas las URL que desea visualizar previamente, así como un nombre para cada una.
 
    Puede añadir varias direcciones URL, lo cual es útil cuando ejecuta una prueba de varias páginas o una prueba de plantilla y quiere previsualizar la actividad en más de una página.
 
-   Una ventana modal muestra vínculos a sus experiencias en su sitio para obtener una &quot;auténtica vista previa&quot; de las experiencias fuera del VEC [!DNL Target]. Debe compartir los vínculos del mensaje para compartir la vista previa. Hacer clic en un vínculo y luego copiar la dirección URL resultante desde la página no funcionará porque la dirección URL contiene un parámetro que solo muestra la página correctamente cuando entra a la página desde el vínculo en el mensaje. Copie el texto de la ventana modal y envíelo por correo electrónico en su totalidad a su equipo.
+   Una ventana modal muestra vínculos a sus experiencias en su sitio para obtener una &quot;auténtica vista previa&quot; de las experiencias fuera del VEC [!DNL Target]. Debe compartir los vínculos del mensaje para compartir la vista previa. Hacer clic en un vínculo y copiar la URL resultante de la página no funcionará porque la URL contiene un parámetro que solo muestra la página correctamente cuando se accede a la página desde el vínculo en el mensaje. Copie el texto de la ventana modal y envíelo por correo electrónico en su totalidad a su equipo.
 
 1. Haga clic en **[!UICONTROL Generar todos]** y luego haga clic en cada experiencia para previsualizarla.
 
@@ -76,7 +76,7 @@ Utilice las URL de vista previa de experiencias para compartir experiencias con 
 
 **Visualización de experiencias con URL de vista previa de experiencias**
 
-* La vista previa funciona para todas las actividades guardadas siempre que la página no haya cambiado.
+* Las funciones de previsualización para cualquier actividad guardada, siempre y cuando la página no haya cambiado.
 * La URL de vista previa de la experiencia está disponible tanto si la actividad está activa como si está inactiva.
 * No puede obtener una vista previa de una experiencia que se encuentra en [!UICONTROL Borrador].
 * Los informes no se ven afectados por la visualización de URL de vista previa de experiencias.

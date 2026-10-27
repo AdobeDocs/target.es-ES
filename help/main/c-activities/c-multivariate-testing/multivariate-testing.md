@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 48%
+source-wordcount: '1480'
+ht-degree: 47%
 ---
 # Información general sobre [!UICONTROL pruebas multivariable]
 
@@ -110,13 +110,13 @@ En este vídeo de información general se explican los tipos de actividades disp
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Creación de pruebas multivariable (9:25) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de Target.
+En este vídeo se explica cómo comprender, planificar y crear una prueba multivariable mediante el flujo de trabajo guiado de tres pasos de [!DNL]Target.
 
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

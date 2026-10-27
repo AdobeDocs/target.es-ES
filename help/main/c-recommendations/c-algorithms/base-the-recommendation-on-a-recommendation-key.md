@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # Basar la recomendación en una clave de recomendación
 
@@ -53,7 +53,7 @@ Los distintos algoritmos de recomendaciones se prestan a colocarse en diferentes
 
 ## Basado en el carro {#cart-based}
 
-El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
+El tipo de algoritmo [!UICONTROL Basado en el carro de compras] permite recomendar elementos según el contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan a través del [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en valores separados por comas. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios de &quot;[!UICONTROL Recomendado para ti]&quot; y a las &quot;[!UICONTROL Personas que vieron esto, compraron aquello]&quot; y &quot;[!UICONTROL Personas que compraron esto, compraron aquello]&quot;.
 
@@ -63,11 +63,11 @@ La lógica de recomendación basada en el carro de compras es similar al algorit
 
 * **[!UICONTROL Sesión única]**: según lo que hayan hecho otros visitantes en una sola sesión.
 
-  Observar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos &quot;van con&quot; los unos a los otros en función de un uso, una ocasión o un evento. Por ejemplo, un visitante está comprando una impresora y también podría necesitar tinta y papel. O bien, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
+  Observar el comportamiento dentro de una sola sesión puede tener sentido cuando existe la sensación de que los productos se &quot;acompañan&quot; mutuamente en función de un uso, una ocasión o un evento. Por ejemplo, un visitante está comprando una impresora y también podría necesitar tinta y papel. O bien, un visitante está comprando mantequilla de maní y también podría necesitar pan y gelatina.
 
 * **[!UICONTROL En varias sesiones]**: según lo que hayan hecho otros visitantes en varias sesiones.
 
-  Observar el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos se &quot;acompañan&quot; mutuamente en función de las preferencias o los gustos de los visitantes. Por ejemplo, a un visitante le gusta Star Wars y puede que también le guste Indiana Jones, aunque el visitante no quiera necesariamente ver ambas películas en la misma sesión. O bien, a un visitante le gusta el juego de mesa &quot;Codenames&quot; y también le puede gustar el juego de mesa &quot;Avalon&quot;, incluso si el visitante no puede jugar ambos juegos simultáneamente.
+  Observar el comportamiento en varias sesiones puede tener sentido cuando existe la sensación de que los productos se &quot;acompañan&quot; mutuamente en función de las preferencias o los gustos de los visitantes. Por ejemplo, a un visitante le gusta Star Wars y también le puede gustar Indiana Jones, aunque el visitante no quiera necesariamente ver ambas películas en la misma sesión. O bien, a un visitante le gusta el juego de mesa &quot;Codenames&quot; y también le puede gustar el juego de mesa &quot;Avalon&quot;, incluso si el visitante no puede jugar ambos juegos simultáneamente.
 
 [!DNL Target] realiza recomendaciones para cada visitante basadas en los elementos de su carro de compras actual, independientemente de si observa el comportamiento de los visitantes en una sola sesión o en varias.
 
@@ -200,7 +200,7 @@ Recomienda los artículos más vistos agrupados por un atributo de perfil de vis
 
 Este algoritmo depende de un script de perfil para rellenar el atributo, y el nombre del script debe comenzar con el prefijo `recsAttribute` para que [!DNL Target] lo almacene como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso.
 
-Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/es/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por ejemplo, un script denominado `recsAttributeRegion` que basa las recomendaciones en la región del visitante podría tener el siguiente aspecto:
 
@@ -215,7 +215,7 @@ Una vez que el script se haya creado y activado, la entrada [!UICONTROL Region] 
 
 Recomienda los artículos más vendidos agrupados por un atributo de perfil de visitante en lugar de por información de artículo, como hacen [!UICONTROL Principales vendedores por categoría] y [!UICONTROL Principales vendedores por atributo de artículo]. [!DNL Target] mantiene una lista de los principales vendedores independiente por valor de atributo y, a la hora de envío, muestra a cada visitante la lista que coincide con su propio valor almacenado.
 
-Al igual que con [!UICONTROL Más visitados por atributo de perfil], este algoritmo depende de un script de perfil para rellenar el atributo y el nombre del script debe comenzar con el prefijo `recsAttribute`, de modo que [!DNL Target] lo almacena como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso. Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/es/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Al igual que con [!UICONTROL Más visitados por atributo de perfil], este algoritmo depende de un script de perfil para rellenar el atributo y el nombre del script debe comenzar con el prefijo `recsAttribute`, de modo que [!DNL Target] lo almacena como `user.recsAttribute<Name>`. Puede escribir una secuencia de comandos para cualquier característica del visitante relevante para su caso de uso. Obtenga más información acerca de cómo establecer atributos de perfil mediante scripts de perfil en [esta página](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por ejemplo, un script de nombre `recsAttributeLoyaltyTier` que base las recomendaciones en el nivel de fidelidad del visitante podría tener este aspecto:
 
@@ -337,7 +337,7 @@ Las vistas y las compras se utilizan para determinar los artículos recomendados
 
 Por ejemplo, puede:
 
-* Excluir elementos que no cumplan determinados criterios (productos agotados, artículos publicados hace más de 30 días, películas con clasificación R, etc.).
+* Excluye artículos que no cumplan determinados criterios (productos agotados, artículos publicados hace más de 30 días, películas con clasificación R, etc.).
 * Limitar los elementos incluidos a una sola categoría o a la categoría actual.
 
 Si selecciona este algoritmo, puede seleccionar las siguientes claves de filtrado:
@@ -368,7 +368,7 @@ Con la adición de reglas de inclusión en [!UICONTROL Criterios personalizados]
 
 Los posibles casos de uso incluyen:
 
-* Desea recomendar películas de una lista personalizada, pero solo si el visitante no las ha visto.
+* Desea recomendar películas de una lista personalizada, pero solo si el visitante aún no las ha visto.
 * Desea ejecutar un algoritmo sin conexión y utilizar los resultados para impulsar las recomendaciones, pero debe asegurarse de que nunca se recomienden los artículos sin existencias.
 * Desea incluir solo los elementos que pertenecen a la categoría favorita de este visitante.
 
@@ -419,7 +419,7 @@ Puede basar las recomendaciones en el valor de un atributo de perfil personaliza
 1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;[!UICONTROL Última visualización agregada a la lista de observación]&quot;).
 1. A continuación, seleccione su **[!UICONTROL Lógica de recomendación]** (por ejemplo, &quot;[!UICONTROL Personas que vieron esto, Vieron aquello]&quot;).
 
-Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicar cómo [!DNL Recommendations] desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la marca favorita de un visitante.
+Si el atributo de perfil personalizado no coincide directamente con un ID de entidad único, es necesario explicar a [!DNL Recommendations] cómo desea que se produzca la coincidencia en una entidad. Por ejemplo, supongamos que desea mostrar los artículos más vendidos de la marca favorita de un visitante.
 
 1. Seleccione su atributo de perfil personalizado de la lista desplegable **[!UICONTROL Clave de recomendación]** (por ejemplo, &quot;Marca favorita&quot;).
 

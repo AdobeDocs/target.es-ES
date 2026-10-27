@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 91%
 ---
 # Capítulo 5: Inspiración para pruebas y actividades de personalización.
 
@@ -62,7 +62,7 @@ Considere la posibilidad de proporcionar información contextual adicional direc
 
 Comprenda los objetivos y los KPI de la empresa, que está intentando alcanzar con sus esfuerzos móviles. A continuación, diseñe la experiencia móvil para ofrecer a los clientes el camino más sencillo para lograr esos objetivos. La conversión debe producirse en tres toques, pero el objetivo es reducirla a dos toques si es posible.
 
-## Idea 6: No lleve a los posibles clientes a callejones sin salida.
+## Idea 6: No lleve a los visitantes a callejones sin salida.
 
 Si se redirecciona a los visitantes que llegan desde Google al contenido de artículos obsoletos, o de los que ya no quedan existencias, puede conseguir su participación con recomendaciones, lo que les ofrece otra oportunidad de realizar compras.
 
@@ -80,7 +80,7 @@ Tal vez baste solo con cambiar el orden de las opciones que se muestran para ele
 
 ## Idea 8: Promocione la aplicación móvil en su sitio web.
 
-Si su empresa dedica recursos al desarrollo de aplicaciones móvil para iOS, Android u otros dispositivos, no se quede sentado a la espera de que los usuarios se topen con su aplicación en la tienda de aplicaciones. En su lugar, adopte una estrategia sólida para promoverla. Pruebe diferentes enfoques para fomentar la descarga de aplicaciones y su uso. Si su sitio no móvil incluye un vínculo para descargar la aplicación, pruebe la eficacia de una página de destino intersticial que promueva explícitamente su aplicación cuando los visitantes llegan a la página principal. Configure una prueba de redireccionamiento que filtre la mitad del tráfico móvil a la página del sitio actual y la otra mitad a la página de destino intersticial.
+Si su empresa dedica recursos al desarrollo de aplicaciones móviles para iOS, Android u otros dispositivos, no se quede sentado a la espera de que los usuarios se topen con su aplicación en la tienda de aplicaciones. En su lugar, adopte una estrategia sólida para promoverla. Pruebe diferentes enfoques para fomentar la descarga de aplicaciones y su uso. Si su sitio no móvil incluye un vínculo para descargar la aplicación, pruebe la eficacia de una página de destino intersticial que promueva explícitamente su aplicación cuando los visitantes llegan a la página principal. Configure una prueba de redireccionamiento que filtre la mitad del tráfico móvil a la página del sitio actual y la otra mitad a la página de destino intersticial.
 
 ## Idea 9: Utilice las innovaciones de las aplicaciones móviles.
 

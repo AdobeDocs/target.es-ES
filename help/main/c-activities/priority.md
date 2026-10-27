@@ -18,14 +18,14 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '993'
 ht-degree: 34%
 ---
 # Prioridad
 
-[!DNL Adobe Target] determina qué actividad (o actividades) se enviará a una página de forma diferente en función de qué interfaz de [!DNL Target] y de qué función de creación de actividades ([[!UICONTROL Compositor de experiencias visuales (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md)) esté usando.
+[!DNL Adobe Target] determina qué actividad (o actividades) se enviará a una página de forma diferente en función de qué interfaz de [!DNL Target] y de qué función de creación de actividades ([[!UICONTROL Compositor de experiencias visuales (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md)) esté utilizando.
 
 ## [!UICONTROL Compositor de experiencias visuales] solamente o [!UICONTROL Compositor de experiencias basadas en formularios] que usa una solicitud [!DNL Target] global solamente {#section_4A0A317DFED345649B58B0CB5B410C8B}
 

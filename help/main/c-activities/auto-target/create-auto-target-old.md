@@ -2,7 +2,7 @@
 keywords: Crear segmentación automática;prueba A/B;actividad de segmentación automática;nueva actividad a/b;segmentación automática;segmentación automática para experiencias personalizadas;personalizado;optimización
 description: Aprenda a usar el [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target] para crear una actividad de prueba A/B de [!UICONTROL Segmentación automática].
 title: ¿Cómo creo una actividad de [!UICONTROL Segmentación automática]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 38%
+source-wordcount: '905'
+ht-degree: 36%
 ---
 # Crear una actividad [!UICONTROL de segmentación automática]
 
@@ -70,7 +70,7 @@ Para crear una actividad de [!UICONTROL Segmentación automática]:
 
 1. Cree experiencias cambiando los elementos de la página.
 
-   El [!UICONTROL Compositor de experiencias visuales] muestra dos pestañas a la izquierda después de crear una actividad: Experiencia A y Experiencia B. La Experiencia A es la experiencia de control. Se centra en la pestaña Experiencia B, que puede modificar según desee. La Experiencia B es la experiencia alternativa que puede añadir a su prueba. Se pueden añadir varias experiencias a la prueba. También podemos eliminar Experiencia A de la actividad si no queremos incluir una experiencia de sitio predeterminada como opción.
+   El [!UICONTROL Compositor de experiencias visuales] muestra dos pestañas a la izquierda después de crear una actividad: Experiencia A y Experiencia B. La Experiencia A es la experiencia de control. Se centra en la pestaña Experiencia B, que puede modificar según desee. La Experiencia B es la experiencia alternativa que puede añadir a su prueba. Se pueden añadir varias experiencias a la prueba. También puede eliminar la Experiencia A de la actividad si no desea incluir una experiencia de sitio predeterminada como opción.
 
    Para obtener más información sobre cómo agregar y modificar experiencias en [!UICONTROL Compositor de experiencias visuales], consulte [Agregar experiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Para modificar Experiencia B, empiece con el paso 2.
 
@@ -127,4 +127,4 @@ En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de traba
 * Crear una actividad [!UICONTROL Prueba A/B] en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

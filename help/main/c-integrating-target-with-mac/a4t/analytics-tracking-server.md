@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 17%
 ---
 # Usar un servidor de seguimiento [!DNL Analytics]
@@ -46,7 +46,7 @@ El depurador debe verse en una página en la que se publique la actividad para g
 
 1. En la página en la que esté creando su actividad, abra [!DNL Adobe Experience Platform Debugger].
 
-   Si no ha instalado el depurador, consulte [Información general de Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=es).
+   Si no ha instalado el depurador, consulte [Información general de Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Haga clic en **[!UICONTROL Analytics]** en el menú de navegación de la izquierda.
 

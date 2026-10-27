@@ -2,7 +2,7 @@
 keywords: bosque aleatorio;árbol de decisión;ap;Automated Personalization
 description: Descubra cómo [!DNL Adobe Target] usa el algoritmo de bosque aleatorio en las actividades [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática].
 title: ¿Cómo usa [!DNL Target] el algoritmo de bosque aleatorio?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 40%
+source-wordcount: '1461'
+ht-degree: 38%
 ---
 # Algoritmo de bosque aleatorio
 
@@ -58,7 +58,7 @@ El ejemplo generaría el siguiente árbol:
 
 ## ¿Cómo utiliza el bosque aleatorio los árboles de decisión? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Los árboles de decisión pueden ser una herramienta estadística muy útil. Sin embargo, presenta algunas desventajas. La más importante es que se puede producir un sobreajuste de datos, con lo que un solo árbol difícilmente predeciría datos futuros que no se hubieran utilizado para crear el árbol inicial. En estadística, este problema se conoce como [compensación sesgo-varianza](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Los bosques aleatorios ayudan a superar este desafío excesivo. En su máximo nivel, un bosque aleatorio es un conjunto de árboles de decisión que se ha creado de un modo algo distinto a partir del mismo conjunto de datos que “vota” conjuntamente para producir un modelo mejor que un árbol individual. Los árboles se construyen mediante la selección aleatoria de un subconjunto de registros de visita con reemplazo (conocido como ensacado) y la selección aleatoria de un subconjunto de los atributos, de modo que el bosque consta de árboles de decisión ligeramente diferentes. Con este método se introducen pequeñas variaciones en los árboles que se crean en el bosque aleatorio. Al añadir esta cantidad controlada de varianza, la precisión predictiva del algoritmo mejora.
+Los árboles de decisión pueden ser una herramienta estadística muy útil. Sin embargo, presenta algunas desventajas. Lo más importante es que pueden &quot;sobreajustar&quot; los datos para que un árbol individual no prediga bien los datos futuros que no se utilizaron para construir el árbol inicial. En estadística, este problema se conoce como [compensación sesgo-varianza](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Los bosques aleatorios ayudan a superar este desafío excesivo. En su máximo nivel, un bosque aleatorio es un conjunto de árboles de decisión que se ha creado de un modo algo distinto a partir del mismo conjunto de datos que “vota” conjuntamente para producir un modelo mejor que un árbol individual. Los árboles se construyen mediante la selección aleatoria de un subconjunto de registros de visita con reemplazo (conocido como ensacado) y la selección aleatoria de un subconjunto de los atributos, de modo que el bosque consta de árboles de decisión ligeramente diferentes. Con este método se introducen pequeñas variaciones en los árboles que se crean en el bosque aleatorio. Al añadir esta cantidad controlada de varianza, la precisión predictiva del algoritmo mejora.
 
 ## ¿Cómo utilizan los algoritmos de personalización de [!DNL Target] el bosque aleatorio? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 

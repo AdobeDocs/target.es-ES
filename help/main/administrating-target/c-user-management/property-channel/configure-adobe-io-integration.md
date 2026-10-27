@@ -2,7 +2,7 @@
 keywords: integración; funciones; permisos de usuario; admin console
 description: Obtenga información sobre cómo conceder acceso a integraciones de Adobe I/O existentes a todos los espacios de trabajo con la función deseada en Adobe Target.
 title: ¿Cómo concedo acceso a Adobe I/O a los espacios de trabajo y asigno funciones?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # Conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones
 
@@ -60,7 +60,7 @@ Esta actualización es compatible con los siguientes ejemplos prácticos:
 
 >[!NOTE]
 >
->Si no se realiza esta acción, después de la versión de septiembre de 2019 de [!DNL Target], los controles de acceso se activarán y tendrá acceso solo al espacio de trabajo predeterminado (si es su configuración actual). Se pueden configurar integraciones por adelantado sin problema. Cuanto antes realice este cambio, mejor. En función del número de espacios de trabajo de su organización, este proceso tarda solo unos clics en añadir una integración existente en espacios de trabajo con la función deseada.
+>Si no se realiza esta acción, después de la versión de [!DNL Target] de septiembre de 2019 de, los controles de acceso se activarán y tendrá acceso solo al espacio de trabajo predeterminado (si es su configuración actual). Se pueden configurar integraciones por adelantado sin problema. Cuanto antes realice este cambio, mejor. En función del número de espacios de trabajo de su organización, este proceso tarda solo unos clics en añadir una integración existente en espacios de trabajo con la función deseada.
 
 **Para conceder acceso a las integraciones de Adobe I/O a espacios de trabajo y asignar funciones:**
 

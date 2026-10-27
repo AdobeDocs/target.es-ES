@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias mejorado]
 
 Mostrar problemas que a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
 
-## El EEC no carga una URL de control de calidad interna que no es accesible desde una IP pública. {#section_D29E96911D5C401889B5EACE267F13CF}
+## El EEC no cargará una URL de control de calidad interna que no sea accesible desde una IP pública. {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++Detalles
@@ -153,7 +153,7 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 
   **Remedy:** Lista de permitidos las direcciones IP enumeradas anteriormente.
 
-* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
+* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
   **Solución:** Consulte la siguiente pregunta (el [!UICONTROL Compositor de experiencias visuales mejorado] no se cargará en páginas seguras de mi sitio que usen TLS 1.2).
 
@@ -162,7 +162,7 @@ Lo que sigue son motivos por los que podría ver este mensaje de error y remedio
 ## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Detalles
-Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Compositor de experiencias visuales mejorado] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
+Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Compositor de experiencias visuales mejorado] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
 
@@ -179,7 +179,7 @@ Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegad
 
    ![imagen de firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Si descubre que su sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
+1. Si descubre que su sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
 
 +++
 

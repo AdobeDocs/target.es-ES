@@ -17,14 +17,14 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 ---
 # [!UICONTROL Asignación automática] le proporciona resultados de prueba más rápidos y mayores ingresos que una prueba manual
 
-Con una actividad A/B manual, es posible que pierda conversiones porque no puede ofrecer la experiencia ganadora a toda la audiencia hasta que se complete la actividad. La distribución del tráfico permanece fija incluso después de reconocer que algunas experiencias se comportan mejor que otras y de que la actividad debe ejecutar su curso completo antes de poder actuar sobre un ganador.
+Con una actividad A/B manual, es posible que esté perdiendo conversiones porque no puede ofrecer la experiencia ganadora a toda la audiencia hasta que se complete la actividad. La distribución del tráfico permanece fija incluso después de reconocer que algunas experiencias se comportan mejor que otras y de que la actividad debe ejecutar su curso completo antes de poder actuar sobre un ganador.
 
 ## Asignación automática del tráfico
 

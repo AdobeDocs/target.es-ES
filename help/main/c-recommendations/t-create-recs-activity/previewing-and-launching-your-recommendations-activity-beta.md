@@ -14,14 +14,14 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1448'
 ht-degree: 14%
 ---
 # Vista previa e inicio de su actividad de Recommendations
 
-Después de crear tu actividad [!UICONTROL Recommendations], [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] (XT) que contiene [ofertas de recomendaciones](/help/main/c-recommendations/recommendations-as-an-offer.md), desearás obtener una vista previa de tus recomendaciones para asegurarte de que los resultados estén disponibles antes de iniciar la actividad. [!DNL Target Recommendations] ofrece varias formas de obtener una vista previa de sus recomendaciones.
+Después de crear su actividad [!UICONTROL Recommendations], [!UICONTROL Prueba A/B] o [!UICONTROL Segmentación de experiencias] (XT) que contiene [ofertas de recomendaciones](/help/main/c-recommendations/recommendations-as-an-offer.md), querrá obtener una vista previa de sus recomendaciones para asegurarse de que los resultados estén disponibles antes de iniciar la actividad. [!DNL Target Recommendations] ofrece varias formas de obtener una vista previa de sus recomendaciones.
 
 ## Comprobación del estado del algoritmo de Recommendations
 
@@ -75,7 +75,7 @@ El uso de un vínculo de control de calidad le permite obtener una vista previa 
 
 >[!NOTE]
 >
->* El modo de control de calidad de Target es &quot;adhesivo&quot; y se guarda en una cookie. Si no sale del modo de control de calidad, seguirá viendo los resultados de control de calidad en todo el sitio. Para salir del modo de control de calidad, use [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* El modo de control de calidad de Target es &quot;adhesivo&quot; y se guarda en una cookie. Si no sale del modo de control de calidad, seguirá viendo los resultados de dicho control en todo el sitio. Para salir del modo de control de calidad, use [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
 >* En el modo de control de calidad, examinar el sitio no afectará los [!UICONTROL elementos vistos recientemente] ni los [!UICONTROL elementos comprados recientemente] de su perfil. Este comportamiento se produce por diseño para evitar la contaminación no intencionada de los datos de comportamiento de la producción. Para obtener una vista previa de los resultados de los criterios de [!UICONTROL Elementos vistos recientemente] o [!UICONTROL Recomendaciones basadas en las preferencias del usuario], primero examine el sitio fuera del modo de control de calidad y, a continuación, utilice la misma sesión para abrir un vínculo del modo de control de calidad.
 

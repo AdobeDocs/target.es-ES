@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3185'
-ht-degree: 47%
+source-wordcount: '3188'
+ht-degree: 45%
 ---
 # ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
 
@@ -44,7 +44,7 @@ Es tentador detener una actividad si una de las ofertas tiene un rendimiento mej
 
 Una actividad [de asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) es un tipo de prueba A/B que identifica un ganador entre dos o más experiencias. Una prueba de [!UICONTROL Asignación automática] reasigna automáticamente más tráfico al ganador para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
-Las pruebas A/B estándar tienen un coste inherente. Debe invertir tráfico para medir el rendimiento de cada experiencia y utilizar el análisis para determinar la experiencia ganadora. La distribución del tráfico sigue siendo fija incluso después de reconocer que el rendimiento de algunas experiencias supera al de otras. Además, es complicado determinar el tamaño de la muestra, y la actividad debe haber finalizado para poder tomar medidas con la mejor experiencia. Y todavía hay una posibilidad de que el ganador identificado no sea un verdadero ganador.
+Las pruebas A/B estándar tienen un coste inherente. Debe invertir tráfico para medir el rendimiento de cada experiencia y utilizar el análisis para determinar la experiencia ganadora. La distribución del tráfico sigue siendo fija incluso después de reconocer que el rendimiento de algunas experiencias supera al de otras. Además, es complicado averiguar el tamaño de la muestra, y la actividad debe ejecutar todo su curso antes de poder actuar sobre un ganador. Y todavía hay una posibilidad de que el ganador identificado no sea un verdadero ganador.
 
 La solución es [!UICONTROL Asignación automática]. [!UICONTROL Asignación automática] reduce el costo y los gastos generales de determinar una experiencia ganadora. [!UICONTROL Asignación automática] supervisa el rendimiento de la métrica objetivo de todas las experiencias y envía proporcionalmente a más participantes nuevos a las experiencias de alto rendimiento. Se reserva bastante tráfico para explorar el resto de las experiencias. Puede ver los beneficios de la actividad en los resultados, incluso mientras la actividad sigue ejecutándose: la optimización se produce en paralelo con el aprendizaje.
 
@@ -162,7 +162,7 @@ Una vez más, se recomienda que el tiempo necesario se redondee siempre a la sem
 
 Al usar Ingresos por visita (RPV) como métrica, se agrega una fuente de variación adicional porque RPV es el producto de ingresos por pedido y tasa de conversión (RPV = Ingresos / #visitors = (Ingresos por pedido &#42; #orders) / # visitantes = Ingresos por pedido &#42; (#visitors &#42; CTR) / #visitors = Ingresos por pedido &#42; CTR), cada uno con su propia variación. La varianza de la tasa de conversión puede estimarse directamente utilizando un modelo matemático, pero la varianza de los ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la variación en los ingresos. La variación se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecido, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
-La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una ficha denominada [!UICONTROL Métrica RPV]. Necesitará la siguiente información al usar la versión de RPV de la calculadora:
+La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una ficha denominada [!UICONTROL Métrica RPV]. Necesitará la siguiente información al utilizar la versión de RPV de la calculadora:
 
 * Número de visitantes a la oferta de control
 * Ingresos totales para la oferta de control

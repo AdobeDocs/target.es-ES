@@ -2,7 +2,7 @@
 keywords: recomendaciones;preguntas más frecuentes;FAQ
 description: Preguntas más frecuentes (FAQ) y sus respuestas acerca de [!DNL Target Recommendations] diseños.
 title: ¿Dónde puedo obtener respuestas a preguntas de diseño de [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
@@ -18,18 +18,18 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 79%
+source-wordcount: '476'
+ht-degree: 69%
 ---
 # Preguntas más frecuentes sobre diseño
 
 Lista de preguntas frecuentes (FAQ) acerca de diseños de [!DNL Adobe Target] [!DNL Recommendations].
 
-## El precio del elemento recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
+## El precio del artículo recomendado no muestra ambos valores a la derecha del punto decimal. ¿Cómo puedo mostrarlos?
 
-De forma predeterminada, los valores numéricos (como `entity.value`) que se devuelven en plantillas de diseño no mostrarán ceros finales tras la coma decimal. Por ejemplo, si un elemento es de 35 $, `entity.value` es igual a 35 y solo se muestra 35 en la página, no 35 $.
+De manera predeterminada, los valores numéricos (como `entity.value`) que se devuelven en las plantillas de diseño no mostrarán ceros finales después de la coma decimal. Por ejemplo, si un elemento es de 35 $, `entity.value` es igual a 35 y solo se muestra 35 en la página, no 35 $.
 
 Hay dos opciones disponibles para resolver este problema:
 
@@ -41,7 +41,7 @@ Hay dos opciones disponibles para resolver este problema:
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## ¿Por qué la categoría no se muestra en el diseño? Estoy usando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## ¿Por qué no se muestra la categoría en el diseño? Estoy usando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 El ID de categoría no se puede mostrar en el diseño. Dado que es posible almacenar varias categorías, el sistema no sabe qué categoría mostrar.
 

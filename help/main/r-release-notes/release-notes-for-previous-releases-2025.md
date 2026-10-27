@@ -4,9 +4,9 @@ description: Vea una lista de funciones, mejoras y correcciones incluidas en ver
 title: ¿Qué funciones se incluyen en las versiones anteriores de 2025?
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '25397'
+source-wordcount: '25402'
 ht-degree: 5%
 ---
 # Notas de la versión para versiones anteriores
@@ -110,7 +110,7 @@ Las notas de la versión se enumeran en orden descendente por mes y año de publ
 
 * El problema con el botón **[!UICONTROL Eliminar modificación] impidió la eliminación de las modificaciones de la actividad.** Se ha resuelto un problema en el cual el botón [!UICONTROL Eliminar modificación] de la interfaz de usuario de [!DNL Target] no funcionaba, lo que impedía que los usuarios eliminaran modificaciones dentro de las actividades. Ahora el botón funciona según lo esperado, lo que permite eliminar las modificaciones de forma fiable y sin demora. (TGT-53728)
 * **Los selectores preferidos no se reconocen en la IU actualizada.** Se ha resuelto un problema en la interfaz de usuario actualizada en el cual los selectores preferidos, como `data-target-component-id`, no aparecían en la lista de selectores de CSS dentro del VEC. Los usuarios ahora pueden seleccionar de forma fiable los atributos preferidos en lugar de los nombres de clase generados dinámicamente, lo que garantiza una segmentación estable en las actualizaciones de la página de SPA. (TGT-53908)
-* **La alineación de la ubicación de la actividad no coincide entre las páginas [!UICONTROL Editar] y [!UICONTROL Información general].** Se ha resuelto un problema en el cual la numeración de la ubicación de la actividad en la página [!UICONTROL Información general] no se alineaba con las actualizaciones realizadas en la página [!UICONTROL &#x200B; Editar experiencia]. Las ubicaciones ahora son coherentes en ambas vistas, lo que garantiza una alineación precisa y evita que falten posiciones o no estén numeradas correctamente. (TGT-53960 y TGT-53954)
+* **La alineación de la ubicación de la actividad no coincide entre las páginas [!UICONTROL Editar] y [!UICONTROL Información general].** Se ha resuelto un problema en el cual la numeración de la ubicación de la actividad en la página [!UICONTROL Información general] no se alineaba con las actualizaciones realizadas en la página [!UICONTROL  Editar experiencia]. Las ubicaciones ahora son coherentes en ambas vistas, lo que garantiza una alineación precisa y evita que falten posiciones o no estén numeradas correctamente. (TGT-53960 y TGT-53954)
 * **No se puede volver a cambiar al modo [!UICONTROL Diseño] en el VEC actualizado.** Se ha resuelto un problema en la IU actualizada del VEC en el cual los usuarios no podían volver al modo [!UICONTROL Diseño] después de navegar a una nueva página en modo [!UICONTROL Examinar]. La opción [!UICONTROL Diseño] ahora funciona correctamente, lo que permite que las modificaciones se apliquen sin problemas en todas las páginas. (TGT-53988 y TGT-53993)
 * **El parámetro de consulta no se muestra en la descripción general de la actividad.** Se ha resuelto un problema en la IU actualizada en el cual los parámetros de consulta no se mostraban en la página [!UICONTROL Información general] de las actividades, lo que provocaba discrepancias entre la [!UICONTROL Información general] y las direcciones URL de entrega de la página. Los parámetros de consulta ahora se muestran correctamente, lo que garantiza que las ubicaciones de la actividad estén completamente representadas y sean coherentes en todas las vistas. (TGT-53701)
 
@@ -267,7 +267,7 @@ En esta versión se incluyen las siguientes correcciones y mejoras:
 +++Ver detalles
 
 * **Se ha corregido un problema por el cual las actividades no se podían copiar debido a ID de audiencia no válidos.** Los clientes que intentaban copiar actividades en el proceso actualizado de creación de actividades encontraban un error provocado por ID de audiencia no válidos (por ejemplo, -1752722444307). Este problema de validación de back-end impedía la duplicación de actividades dentro del mismo espacio de trabajo. Este problema se ha resuelto y las actividades ahora se pueden copiar correctamente sin errores relacionados con la audiencia. (TGT-53717)
-* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Administrar contenido].** Los clientes encontraron errores de entrada de datos no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL &#x200B; Administrar contenido] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
+* **Se ha corregido un problema por el que aparecían errores de entrada de usuarios no válidos para audiencias solo de actividad en las actividades [!UICONTROL Automated Personalization] del modal [!UICONTROL Administrar contenido].** Los clientes encontraron errores de entrada de datos no válidos al configurar audiencias solo de actividad en el modal [!UICONTROL  Administrar contenido] para actividades AP. Este problema se producía a pesar de que las audiencias se habían utilizado correctamente anteriormente. Las configuraciones de audiencia combinadas ahora se guardan correctamente sin activar errores de validación. (TGT-53749)
 
 +++
 
@@ -275,7 +275,7 @@ En esta versión se incluyen las siguientes correcciones y mejoras:
 
 +++Ver detalles
 
-* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/es/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
+* **Se han movido páginas de documentación de Web SDK específicas de Target al repositorio de Adobe Target.** Como parte de la reestructuración de la documentación de Web SDK, el contenido específico de [!DNL Target] se ha migrado de los documentos generales de Web SDK a [!DNL Adobe Target] [Guía para desarrolladores](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Este cambio mejora la capacidad de detección de contenido y garantiza que el equipo de productos adecuado mantenga una guía específica de la solución. (TGT-53374)
 
 +++
 
@@ -356,7 +356,7 @@ Se ha actualizado la lógica de validación de [!DNL Target] conexiones de desti
 * El mismo ID de flujo de datos solo se puede utilizar para conexiones diferentes si están configuradas en entornos limitados diferentes.
 * Esta regla se aplica a todas las selecciones de flujos de datos, incluso cuando se selecciona &quot;Ninguno&quot;.
 
-Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
+Esta actualización garantiza una configuración coherente y evita conflictos entre entornos de varias zonas protegidas. Para obtener más información, consulte [Conexión de Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} en la guía *Destinos de Experience Platform*.
 
 ### [!DNL Target Standard/Premium] 25.9.1 (5 de septiembre de 2025)
 
@@ -393,7 +393,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
   * Falta el vínculo de descarga para los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes]
   * Visualización del informe [!UICONTROL Segmentos automatizados] rotos
 
-  Estas correcciones restauran el comportamiento esperado de los informes y mejoran la visibilidad del rendimiento de la segmentación automática [!UICONTROL 1 en la IU actualizada. &#x200B;]&#x200B;(TGT-53484)
+  Estas correcciones restauran el comportamiento esperado de los informes y mejoran la visibilidad del rendimiento de la segmentación automática [!UICONTROL 1 en la IU actualizada. ]&#x200B;(TGT-53484)
 
 +++
 
@@ -525,7 +525,7 @@ Esta versión incluye las siguientes actualizaciones y correcciones:
 +++Ver detalles
 
 * **Se ha corregido un problema en la interfaz de usuario de [!DNL Recommendations] por el que la descarga de CSV con criterios personalizados arrojaba el error 404**: se ha corregido un problema por el que los clientes no podían descargar el CSV con criterios personalizados en el proceso de creación de actividades. El vínculo de descarga ahora funciona correctamente, lo que permite a los clientes exportar criterios personalizados según lo esperado. (TGT-51966)
-* **Se ha corregido una carga incoherente de imágenes en [!UICONTROL Búsqueda en el catálogo]**: se ha corregido un problema por el que las miniaturas y las imágenes de[!UICONTROL &#x200B; Búsqueda en el catálogo] no se cargaban de forma coherente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
+* **Se ha corregido una carga incoherente de imágenes en [!UICONTROL Búsqueda en el catálogo]**: se ha corregido un problema por el que las miniaturas y las imágenes de[!UICONTROL  Búsqueda en el catálogo] no se cargaban de forma coherente en el proceso de creación de actividades. Las imágenes no aparecían a menos que la columna &quot;URL en miniatura&quot; estuviera visible y algunas imágenes de producto se cargaran parcialmente o no se cargaran después de las acciones de navegación o búsqueda. El comportamiento de carga de imágenes se ha estabilizado y las miniaturas ahora se muestran de forma fiable, independientemente de la visibilidad de la columna o las acciones de navegación. (TGT-52778)
 * **Se ha corregido un problema por el cual editar una recomendación en una experiencia duplicada afectaba a la experiencia original**: Los clientes notificaron que modificar una recomendación en una experiencia duplicada alteraba involuntariamente la experiencia original. En concreto, después de duplicar la Experiencia B en el proceso de creación de actividades y editar su diseño o criterios, los mismos cambios se reflejaron en la Experiencia B original, a pesar de ser entidades independientes. Las experiencias duplicadas ahora mantienen configuraciones independientes, lo que garantiza que las ediciones realizadas en una experiencia no afecten a la original. (TGT-53369)
 * **Se ha corregido un problema por el cual los cambios realizados en una experiencia duplicada afectaban involuntariamente a la experiencia original de una actividad**: Los clientes notificaron que, al duplicar una experiencia dentro de una actividad y asignar una nueva audiencia, cualquier cambio realizado en el diseño o los criterios de la experiencia duplicada también se reflejaba en la experiencia original. Este problema se producía aunque no se realizaban ediciones directamente en la versión original, lo que afectaba a la capacidad de crear variaciones independientes dentro de la misma actividad. El proceso de creación de actividades ahora aísla correctamente las experiencias duplicadas, asegurándose de que las ediciones realizadas en una experiencia no afecten a la experiencia original. (TGT-53361)
 * **Se ha corregido un problema por el que el [!UICONTROL Catálogo de recomendaciones] fallaba de forma intermitente a la hora de mostrar datos completos de atributos del producto**: en la interfaz de usuario de [!DNL Recommendations] actualizada, los clientes experimentaban un problema por el que algunos atributos de productos, como el mensaje, no se mostraban de forma coherente en los resultados de [!UICONTROL Búsqueda en el catálogo], aunque los datos existían en la fuente. Este problema requería que los clientes reconfiguraran manualmente la visibilidad de la columna para recuperar los valores que faltaban. [!UICONTROL La búsqueda en el catálogo] ahora muestra de forma fiable todos los atributos configurados, lo que elimina la necesidad de restablecer manualmente las columnas. (TGT-52769)
@@ -991,7 +991,7 @@ Debido a problemas identificados recientemente, relacionados principalmente con 
 
 +++Ver detalles
 
-* Se ha corregido un problema en el cual la dirección URL del control de calidad de la actividad [!UICONTROL 1 incluía un parámetro de consulta innecesario: `at_preview_evaluate_as_true_audience_ids`. &#x200B;]&#x200B;(TGT-52907)
+* Se ha corregido un problema en el cual la dirección URL del control de calidad de la actividad [!UICONTROL 1 incluía un parámetro de consulta innecesario: `at_preview_evaluate_as_true_audience_ids`. ]&#x200B;(TGT-52907)
 * Se ha corregido un problema por el cual las direcciones URL de vista previa incluían incorrectamente audiencias adicionales más allá de la escrita explícitamente por el usuario. Este comportamiento se ha corregido para garantizar que solo se aplique la audiencia especificada al generar un control de calidad o un vínculo de vista previa. (TGT-52912)
 * Se ha corregido un problema que impedía a los usuarios crear actividades de [!UICONTROL Segmentación automática] (AT) si [!UICONTROL Asignación automática] (AA) se seleccionaba primero durante la configuración de la asignación de tráfico. Este problema provocaba un error de validación del back-end e impedía guardar la actividad. (TGT-53096)
 
@@ -1246,7 +1246,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -1496,7 +1496,7 @@ Esta versión incluye la siguiente actualización:
 
 * Se corrigió el registro de telemetría cuando `localStorage` no está disponible. La telemetría estaba ocasionando un problema a algunos clientes que tenían `localStorage` deshabilitado en sus navegadores.
 
-Para obtener más información sobre esta versión de at.js y las anteriores, consulte [Detalles de la versión de at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
+Para obtener más información sobre esta versión de at.js y las anteriores, consulte [Detalles de la versión de at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
 
 ### Target Standard/Premium 25.2.1 (martes, 17 de febrero de 2025) {#ui-update-2}
 
@@ -1520,7 +1520,7 @@ A medida que continúa el esfuerzo de modernización de la interfaz de usuario d
 En función del último sistema de diseño de [!DNL Adobe Spectrum], la actualización estandariza los patrones de diseño que antes eran incoherentes, a la vez que agrega nuevas mejoras, como las siguientes:
 
 * [Se rediseñó el sistema de informes](/help/main/administrating-target/reporting.md) para obtener mejores datos sobre los resultados de la actividad.
-* [[!UICONTROL Se ha actualizado la página Registro de cambios]](/help/main/c-activities/change-log.md), y ahora se obtiene la información de [[!DNL Audit Query API]](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} para obtener información en tiempo real.
+* [[!UICONTROL Se ha actualizado la página Registro de cambios]](/help/main/c-activities/change-log.md), y ahora se obtiene la información de [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} para obtener información en tiempo real.
 * [Vistas de lista personalizables](/help/main/c-activities/activities.md) para una mejor flexibilidad en las diferentes necesidades del equipo.
 * [Información rápida y pantallas de detalles mejoradas](/help/main/c-activities/activities.md) para obtener acceso a la información con mayor facilidad.
 * [Opciones de filtro y búsqueda persistentes en la sesión](/help/main/c-activities/activities.md).

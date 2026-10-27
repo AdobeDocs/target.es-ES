@@ -2,7 +2,7 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes
 description: Descubra cómo los distintos segmentos definidos por los modelos de personalización de Adobe [!DNL Target] responden a las ofertas y experiencias de la actividad mediante el informe Segmentos automatizados.
 title: ¿Qué es el informe Segmentos automatizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 58%
+source-wordcount: '2351'
+ht-degree: 56%
 ---
 # Informe [!UICONTROL Segmentos automatizados]
 
@@ -68,13 +68,13 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
    >[!IMPORTANT]
    >
-   >El informe [!UICONTROL Segmentos automatizados] no estará disponible hasta al menos 15 días después de que haya activado su actividad. Durante este periodo inicial, no podrá acceder a este informe o hacer clic en el icono [!UICONTROL Segmentos automatizados]. Después de que hayan transcurrido 15 días, suponiendo que haya suficiente tráfico personalizado en su actividad, el informe [!UICONTROL Segmentos automatizados] estará disponible.
+   >El informe [!UICONTROL Segmentos automatizados] no estará disponible hasta al menos 15 días después de que haya activado su actividad. Durante este período inicial, no podrás acceder a este informe ni hacer clic en el icono [!UICONTROL Segmentos automatizados]. Después de que hayan transcurrido 15 días, suponiendo que haya suficiente tráfico personalizado en su actividad, el informe [!UICONTROL Segmentos automatizados] estará disponible.
 
 1. Transcurridos 15 días a partir de la activación de la actividad, puede hacer clic en el icono **[!UICONTROL Segmentos automatizados.]**
 
 1. Seleccione el intervalo de fechas deseado.
 
-   A diferencia del informe [!UICONTROL Resumen] (informes de rendimiento), [!UICONTROL Personalization Insights], incluidos [!UICONTROL Segmentos automatizados], solo están disponibles para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Verá que &quot;Inicio&quot; está atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
+   A diferencia del informe [!UICONTROL Resumen] (informes de rendimiento), [!UICONTROL Personalization Insights], incluidos [!UICONTROL Segmentos automatizados], solo están disponibles para intervalos de fechas fijos: 15 días, 30 días y 60 días. Estos intervalos de fechas fijos permiten que [!UICONTROL Perspectivas de personalización] utilice un intervalo de datos lo bastante grande como para reducir la probabilidad de que se obtengan perspectivas a partir de un patrón de actividad breve. Las dos opciones que tiene para el intervalo de fechas son “Fecha de finalización” y “Duración”. Observará que &quot;Inicio&quot; está atenuado. La fecha de inicio cambia automáticamente según las selecciones que realice para la fecha de finalización y la duración.
 
    Puede acceder a los intervalos de fechas fijos disponibles desde la lista desplegable [!UICONTROL Intervalo de fechas preestablecido].
 
@@ -118,7 +118,7 @@ Este segmento automatizado se define mediante dos atributos. Los visitantes incl
 
 Existen varias razones para que los informes de [!UICONTROL Perspectivas de personalización] aún no estén disponibles para su actividad:
 
-* No han transcurrido 15 días desde que activó la actividad. Los informes Segmentos automatizados y Atributos importantes no estarán disponibles al menos hasta 15 días después de haberse iniciado la actividad. Durante este periodo inicial no podrá acceder a estos informes ni hacer clic en los iconos de Segmentos automatizados o Atributos importantes.
+* No han transcurrido 15 días desde que activó la actividad. Los informes Segmentos automatizados y Atributos importantes no estarán disponibles hasta al menos 15 días después de que haya iniciado la actividad. Durante este periodo inicial, no podrá acceder a estos informes ni hacer clic en los iconos Segmentos automatizados y Atributos importantes.
 * La actividad no tuvo suficiente tráfico durante el periodo de tiempo especificado. Transcurridos 15 días, y suponiendo que haya tráfico personalizado suficiente en la actividad para crear los modelos de personalización, estarán disponibles los informes Segmentos automatizados y Atributos importantes.
 * Su actividad tiene un objetivo de optimización de ingresos. En la actualidad, [!UICONTROL Personalization Insights] solo está disponible para las actividades de objetivos de optimización de conversión. Adobe añadirá compatibilidad para las actividades de objetivos de optimización de ingresos en una versión futura.
 

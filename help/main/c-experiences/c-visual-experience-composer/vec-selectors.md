@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # Selectores de elementos utilizados en el Compositor de experiencias visuales
 
@@ -37,7 +37,7 @@ Puede determinar si desea usar ID de elementos o clases de elementos en las pref
 
 >[!NOTE]
 >
->Las clases de elementos están disponibles como selectores en las actividades [!UICONTROL Prueba A/B], [!UICONTROL Automated Personalization] y[!UICONTROL &#x200B; Prueba multivariable].
+>Las clases de elementos están disponibles como selectores en las actividades [!UICONTROL Prueba A/B], [!UICONTROL Automated Personalization] y[!UICONTROL  Prueba multivariable].
 
 Para obtener información sobre cuándo utilizar selectores CSS y cuándo utilizar Ids. únicos, consulte [Prácticas recomendadas y limitaciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
@@ -85,7 +85,7 @@ Para obtener información sobre cuándo utilizar selectores CSS y cuándo utiliz
 
    Selector: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (“ > ” indica el elemento secundario inmediato).
 
-   `eq` indica al índice que existe un elemento que tiene &quot;tagName=UL&quot; y la primera clase es `navigation`. Por lo tanto, `index` es 0. Consulte el artículo [Selectores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) de MDN para obtener más información.
+   `eq` indica al índice que hay un elemento que tiene &quot;tagName=UL&quot; y la primera clase es `navigation`. Por lo tanto, `index` es 0. Consulte el artículo [Selectores](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) de MDN para obtener más información.
 
 1. Si un elemento no contiene una clase, [!DNL Target] usa `tagName` para el elemento y atraviesa el elemento principal hasta encontrar el elemento `<HTML>` o un elemento con un identificador.
 

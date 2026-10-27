@@ -2,7 +2,7 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;informes de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes;atributos importantes
 description: 'Aprenda a utilizar los informes especializados para las actividades de Automated Personalization (AP) y Segmentación automática (AT): Segmentos automatizados y Atributos importantes.'
 title: ¿Cómo utilizo los informes de Personalization Insights?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 29%
+source-wordcount: '1024'
+ht-degree: 28%
 ---
 # [!UICONTROL Informes de Personalization Insights]
 
@@ -117,7 +117,7 @@ Los modelos [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentaci
 
 ## Vídeo de formación: Uso de los informes de Personalization Insights ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328108?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Para obtener más información, consulte [Uso de los informes de Personalization Insights en Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

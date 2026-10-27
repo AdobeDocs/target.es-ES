@@ -2,7 +2,7 @@
 keywords: Crear segmentación automática;prueba A/B;actividad de segmentación automática;nueva actividad a/b;segmentación automática;segmentación automática para experiencias personalizadas;personalizado;optimización
 description: Aprenda a usar el [!UICONTROL Compositor de experiencias visuales] (VEC) para crear una actividad de prueba A/B de [!UICONTROL Segmentación automática].
 title: ¿Cómo creo una actividad de [!UICONTROL Segmentación automática]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 17%
+source-wordcount: '1063'
+ht-degree: 15%
 ---
 # Crear una actividad [!UICONTROL de segmentación automática]
 
@@ -95,7 +95,7 @@ Para crear una actividad de [!UICONTROL Segmentación automática]:
 
 1. Cree nuevas experiencias cambiando los elementos de la página.
 
-   El [!UICONTROL Compositor de experiencias visuales] muestra dos pestañas a la izquierda después de crear una nueva actividad: la [!UICONTROL Experiencia A] y la [!UICONTROL Experiencia B]. La [!UICONTROL Experiencia A] es la experiencia de control. Se centra en la ficha [!UICONTROL Experiencia B], que puede modificar según desee. [!UICONTROL Experiencia B] es la experiencia alternativa que puedes agregar a tu prueba. Para agregar varias experiencias a la prueba, haz clic en el icono [!UICONTROL Agregar] ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en la parte superior del panel [!UICONTROL Experiencias]. También podemos eliminar Experiencia A de la actividad si no queremos incluir una experiencia de sitio predeterminada como opción.
+   El [!UICONTROL Compositor de experiencias visuales] muestra dos pestañas a la izquierda después de crear una nueva actividad: la [!UICONTROL Experiencia A] y la [!UICONTROL Experiencia B]. La [!UICONTROL Experiencia A] es la experiencia de control. Se centra en la ficha [!UICONTROL Experiencia B], que puede modificar según desee. [!UICONTROL Experiencia B] es la experiencia alternativa que puedes agregar a tu prueba. Para agregar varias experiencias a la prueba, haz clic en el icono [!UICONTROL Agregar] ( ![Agregar icono](/help/main/assets/icons/Add.svg) ) en la parte superior del panel [!UICONTROL Experiencias]. También puede eliminar la Experiencia A de la actividad si no desea incluir una experiencia de sitio predeterminada como opción.
 
    Para obtener más información sobre cómo agregar y modificar experiencias en [!UICONTROL Compositor de experiencias visuales], consulte [Agregar experiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Para modificar Experiencia B, empiece con el paso 2.
 

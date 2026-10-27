@@ -6,9 +6,9 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 2%
 ---
 
@@ -25,7 +25,7 @@ Las habilidades de los compañeros ayudan a los profesionales de Adobe Target a 
 [!DNL Adobe Target] herramientas MCP y Coworker están documentadas por separado y proporcionan diferentes capacidades:
 
 * [Target MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) documenta las herramientas individuales expuestas por el servidor MCP directo, incluidos los tipos de actividades, parámetros, permisos y ámbito de lectura y escritura admitidos.
-* [Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) proporciona una capa de orquestación en lenguaje natural independiente que puede combinar capacidades y aplicar flujos de trabajo adicionales.
+* [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) proporciona una capa de orquestación en lenguaje natural independiente que puede combinar capacidades y aplicar flujos de trabajo adicionales.
 
 La siguiente tabla es una comparación de alto nivel de las capacidades relacionadas.
 
@@ -207,7 +207,7 @@ Las siguientes habilidades están disponibles en el complemento **Target**:
 
 *Mensajes de ejemplo:*
 
-* &quot;¿Por qué no aparecen mis recomendaciones?&quot;
+* ¿Por qué no aparecen mis recomendaciones?
 * &quot;Diagnostique la configuración de fuentes y catálogos para esta actividad de Recommendations.&quot;
 * &quot;¿Los problemas de entrega o configuración afectan a mis recomendaciones?&quot;
 

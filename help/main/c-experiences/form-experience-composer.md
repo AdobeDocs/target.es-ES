@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '990'
 ht-degree: 35%
 ---
 # Compositor de experiencias basadas en formularios
@@ -50,7 +50,7 @@ Si está creando una actividad [!UICONTROL Recommendations], no hay experiencias
 
    Esta pantalla es diferente si está creando una actividad de [!UICONTROL Recommendations]. Las actividades de [!UICONTROL Recommendations] no incluyen experiencias.
 
-1. &#x200B;
+1. 
    1. Haga clic en el icono **[!UICONTROL Rename]** ( ![Rename icon](/help/main/assets/icons/MoreSmallListVert.svg) ), haga clic en **[!UICONTROL Rename]**, especifique un nombre para la actividad y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
    El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:

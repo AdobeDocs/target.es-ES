@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
     internal-label: Auto-allocate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 39%
+source-wordcount: '907'
+ht-degree: 36%
 ---
 # Crear una actividad [!UICONTROL de asignación automática]
 
@@ -67,7 +67,7 @@ Para crear una actividad [!UICONTROL de asignación automática]:
 
 1. Cree experiencias cambiando los elementos de la página.
 
-   El [!UICONTROL Compositor de experiencias visuales] muestra dos fichas en la parte izquierda después de crear una actividad nueva: Experiencia A, que es la de control, y Experiencia B. Se centra en la pestaña Experiencia B, que puede modificar según desee. Experiencia B es la experiencia alternativa que se puede añadir a la prueba. Se pueden añadir varias experiencias a la prueba. También podemos eliminar Experiencia A de la actividad si no queremos incluir una experiencia de sitio predeterminada como opción.
+   El [!UICONTROL Compositor de experiencias visuales] muestra dos fichas en la parte izquierda después de crear una actividad nueva: Experiencia A, que es la de control, y Experiencia B. Se centra en la pestaña Experiencia B, que puede modificar según desee. Experiencia B es la experiencia alternativa que se puede añadir a la prueba. Se pueden añadir varias experiencias a la prueba. También puede eliminar la Experiencia A de la actividad si no desea incluir una experiencia de sitio predeterminada como opción.
 
    Para obtener más información sobre cómo agregar y modificar experiencias en [!UICONTROL Compositor de experiencias visuales], consulte [Agregar experiencia](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Para modificar Experiencia B, empiece con el paso 2.
 
@@ -124,4 +124,4 @@ En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de traba
 * Crear una actividad [!UICONTROL Prueba A/B] en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

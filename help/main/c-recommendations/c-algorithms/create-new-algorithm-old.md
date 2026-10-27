@@ -2,7 +2,7 @@
 keywords: criterios;algoritmo;sector vertical;tipo de página;clave de recomendación;lógica de recomendación;intervalo de datos;ventana retrospectiva;fuente de datos de comportamiento;diseño parcial;recomendaciones de copia de seguridad;reglas de inclusión;ponderación de atributos;categoría actual;atributo personalizado;último artículo comprado;último artículo visto;artículo más visto;artículo más visto;categoría favorita;popularidad;artículo visto recientemente;último comprado;último visto;más visto;favorito;visto recientemente
 description: Aprenda a crear criterios que controlen el contenido de sus actividades de Adobe Recommendations para mostrar las recomendaciones más adecuadas para su actividad.
 title: ¿Cómo se crean criterios en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # Crear criterios
 
@@ -47,7 +47,7 @@ Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear
 
 1. Escriba un **[!UICONTROL Nombre de criterio]**.
 
-   Es el nombre “interno” que se usa para describir los criterios. Por ejemplo, quizá use el nombre “Productos con más margen” para los criterios, pero es probable que no quiera que ese título se muestre al público. Consulte el paso siguiente para establecer el título que se presenta al público.
+   Es el nombre “interno” que se usa para describir los criterios. Por ejemplo, es posible que desee llamar a sus criterios &quot;Productos con más margen&quot;, pero no desea que ese título se muestre al público. Consulte el paso siguiente para establecer el título que se presenta al público.
 
    ![Sección de información básica](assets/basic-information.png)
 
@@ -125,7 +125,7 @@ Para obtener más información sobre cómo elegir una [!UICONTROL clave de recom
 
    Si el sitio tiene mucho tráfico y los comportamientos cambian con frecuencia, elija un período de datos más breve. Un periodo más breve permite a [!DNL Recommendations]responder mejor a los cambios del mercado y de su empresa. Por ejemplo, un periodo breve significa que [!DNL Recommendations]detectará cambios en el comportamiento de los visitantes a medida que estos comiencen a realizar compras de temporada, como las compras de vuelta al colegio o las compras navideñas, y recomendará artículos apropiados para esas temporadas.
 
-   Si no dispone de muchos datos o el comportamiento de los visitantes no cambia con frecuencia, puede elegir un período de tiempo más largo. Sin embargo, para muchos sitios, una ventana más corta resulta en recomendaciones de mayor calidad.
+   Si no dispone de muchos datos o el comportamiento de los visitantes no cambia con frecuencia, puede seleccionar una ventana más larga. Sin embargo, para muchos sitios, una ventana más corta resulta en recomendaciones de mayor calidad.
 
    Los intervalos de fechas que hay disponibles son:
 
@@ -282,4 +282,4 @@ Este vídeo contiene la información siguiente:
 * Crear secuencias de criterios
 * Cargar criterios personalizados
 
->[!VIDEO](https://video.tv.adobe.com/v/35326?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
