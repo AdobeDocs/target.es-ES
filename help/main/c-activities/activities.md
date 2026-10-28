@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 24%
+source-wordcount: '2685'
+ht-degree: 23%
 ---
 # Información general sobre las actividades
 
@@ -121,9 +121,9 @@ Las siguientes acciones están disponibles (según los permisos y el estado de l
 | Acción | Descripción |
 | --- | --- |
 | [!UICONTROL Editar] | Cambia la actividad. Se puede editar cualquier actividad, incluidas las actividades creadas mediante la API [!DNL Adobe Target] o el servidor MCP [!DNL Adobe Target]. Después de editar una actividad creada por API en la interfaz de usuario, se trata como modificada por la interfaz de usuario. Las acciones restringidas anteriormente, como [!UICONTROL Copiar] y [!UICONTROL Eliminar], pasan a estar disponibles, en función de sus permisos y del estado de la actividad.<P>Para obtener más información sobre las distintas formas de editar actividades, consulte [Editar una actividad o guardarla como borrador](/help/main/c-activities/edit-activity.md). |
-| [!UICONTROL Desactivar] | Detiene una actividad activa o programada. Una actividad desactivada se puede reactivar o archivar.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en ella antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
+| [!UICONTROL Desactivar] | Detiene una actividad activa o programada. Una actividad desactivada se puede reactivar o archivar.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en ella antes de la desactivación o del archivado. Las métricas de conversión registradas durante el tiempo entre los dos eventos no se atribuirán a esa actividad. |
 | [!UICONTROL Activar] | Inicie una actividad inactiva o una actividad que esté lista para activarse. |
-| [!UICONTROL Archivar] | Enviar la actividad al archivo. De manera predeterminada, las actividades archivadas ya no aparecen en la lista [!UICONTROL Actividades]. Cambie el filtro de la lista [!UICONTROL Actividades] para incluir actividades archivadas y poder verlas. Puede activar una actividad archivada para volver a usarla.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en esa actividad antes de la desactivación o del archivado. No se atribuirá a esa actividad ninguna métrica de conversión registrada durante el tiempo entre los dos eventos. |
+| [!UICONTROL Archivar] | Enviar la actividad al archivo. De manera predeterminada, las actividades archivadas ya no aparecen en la lista [!UICONTROL Actividades]. Cambie el filtro de la lista [!UICONTROL Actividades] para incluir actividades archivadas y poder verlas. Puede activar una actividad archivada para volver a usarla.<P>Si desactiva o archiva una actividad y luego la reactiva más tarde, un visitante seguirá formando parte de esa actividad después de la reactivación si estaba en esa actividad antes de la desactivación o del archivado. Las métricas de conversión registradas durante el tiempo entre los dos eventos no se atribuirán a esa actividad. |
 | [!UICONTROL Copiar] | Copia una actividad. Se pueden copiar todas las actividades. Al copiar una actividad, se crea una nueva actividad con el mismo nombre y se anexa el texto “copia”. Por ejemplo, una prueba llamada “Ofertas de navegador” se copiará en “Ofertas de navegador copia”.<P>Las ofertas visuales se copian con la actividad. Puede editar las ofertas de forma segura en la copia sin que la actividad original se vea afectada. La única excepción son las imágenes y las ofertas guardadas en la carpeta Contenido/Recursos. |
 | [!UICONTROL Eliminar] | Eliminar un borrador o una actividad.<P>**NOTA**: las actividades eliminadas no se pueden recuperar. A menos que esté seguro de que nunca necesitará esta actividad, use la acción [!UICONTROL Archivar]. A continuación, puede reactivar la actividad si es necesario. |
 

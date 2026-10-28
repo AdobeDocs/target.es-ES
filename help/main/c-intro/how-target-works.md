@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2289'
 ht-degree: 20%
 ---
 # Cómo funciona [!DNL Adobe Target]
@@ -258,7 +258,7 @@ Para obtener más información, consulte [Documentación de Google](https://deve
 
   Considere lo que la prueba ha cambiado. Las actualizaciones menores, como los colores de los botones, no afectan a las clasificaciones orgánicas. Sin embargo, los cambios de texto deben estar codificados.
 
-  Además, considere la accesibilidad de la página que está probando. Si la página no es accesible para los motores de búsqueda y nunca tuvo la intención de clasificarse en la búsqueda orgánica, estas consideraciones no se aplican. Un ejemplo es una página de destino dedicada para una campaña de correo electrónico.
+  Tenga en cuenta también la accesibilidad de la página que está probando. Si la página no es accesible para los motores de búsqueda y nunca tuvo la intención de clasificarse en la búsqueda orgánica, estas consideraciones no se aplican. Un ejemplo es una página de destino dedicada para una campaña de correo electrónico.
 
 Google indica que las variaciones de una prueba a menudo tienen poco o ningún impacto en el fragmento de resultados de búsqueda o la clasificación de una página.
 

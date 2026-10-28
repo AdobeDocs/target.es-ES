@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 70%
+source-wordcount: '154'
+ht-degree: 66%
 ---
 # Crear carruseles que funcionen en el Compositor de experiencias visuales
 
@@ -37,7 +37,7 @@ Cuando se siguen los pasos descritos a continuación, [!DNL Target] siempre sabe
 
 1. Añada CSS para diseñar el aspecto.
 
-   No utilice JavaScript aquí.
+   No use JavaScript para esto.
 
    >[!NOTE]
    >

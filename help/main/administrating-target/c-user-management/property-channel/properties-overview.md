@@ -9,30 +9,42 @@ exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 55%
-
+source-wordcount: '1513'
+ht-degree: 53%
 ---
-
 # Configuración de permisos de Enterprise
 
 Información sobre las tareas necesarias para agregar usuarios a la implementación de [!DNL Target]; crear espacios de trabajo, grupos de usuarios y propiedades; actualizar la implementación de [!DNL Target] para incluir el parámetro `at_property`; y especificar funciones y permisos.
@@ -92,8 +104,8 @@ Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso 
 
    * **Nuevos espacios de trabajo (perfiles de producto):** puede comenzar a sacar provecho de la nueva funcionalidad de permisos haciendo lo siguiente:
 
-      * Creación de nuevos espacios de trabajo en [!DNL Admin Console for Enterprise].
-      * Asignar propiedades de Target a los espacios de trabajo.
+     * Creación de nuevos espacios de trabajo en [!DNL Admin Console for Enterprise].
+     * Asignar propiedades de Target a los espacios de trabajo.
 
    Puede utilizar estos espacios de trabajo para acceder a los diferentes equipos por región, unidad de negocio, sección del sitio o mediante cualquier otro método a su elección. Los usuarios pueden formar parte de varios espacios de trabajo y pueden tener diferentes funciones en cada uno de ellos.
 
@@ -104,7 +116,7 @@ Los usuarios pueden formar parte de varios espacios de trabajo y pueden incluso 
 
 ### Obtenga su ID de espacio de trabajo {#workspace-id}
 
-Tendrá que pasar el ID de espacio de trabajo para aprovechar los permisos de Enterprise en [las API de Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank}.
+Deberá pasar el ID del área de trabajo para aprovechar los permisos de Enterprise en [las API de Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank}.
 
 1. En [Adobe Admin Console](https://adminconsole.adobe.com), haga clic en la ficha [!UICONTROL Productos] y, a continuación, haga clic en el producto en el menú de la izquierda para mostrar la lista PLC (espacio de trabajo).
 1. Haga clic en el PLC (espacio de trabajo) deseado y luego busque el ID de «perfiles» en la URL, como se muestra a continuación.
@@ -225,21 +237,21 @@ Este vídeo explica cómo se crean espacios de trabajo.
 * Acceso a Adobe Admin Console desde la interfaz de Adobe Target (3 métodos)
 * Configuración de un espacio de trabajo en Adobe Admin Console
 
-   * Agregación de usuarios a espacios de trabajo
-   * Agregación de propiedades a espacios de trabajo
+  * Agregación de usuarios a espacios de trabajo
+  * Agregación de propiedades a espacios de trabajo
 
 * Explicación de los espacios de trabajo predeterminados
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421730?captions=spa)
 
-### Crear propiedades en Adobe Target (3:05) ![distintivo de tutorial](/help/main/assets/tutorial.png)
+### Cómo crear propiedades en Adobe Target (3:05) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
 * Cómo crear una propiedad en la interfaz de.[!DNL Adobe Target]
 * Cómo se genera un token de propiedad para incluirlo en su implementación de propiedad
 * Familiarícese con los tres métodos de implementación:
 
-   * Web
-   * Aplicación móvil
-   * Correo electrónico, cuadro superior o llamadas de API
+  * Web
+  * Aplicación móvil
+  * Correo electrónico, cuadro superior o llamadas de API
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

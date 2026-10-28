@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 30%
+source-wordcount: '869'
+ht-degree: 26%
 ---
 # Crear secuencias de criterios
 
@@ -29,7 +29,7 @@ Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre 
 
 Para crear una secuencia de criterios, debe crear primero los criterios que desea incluir en la secuencia. Consulte [Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) para obtener más información.
 
-Si utiliza una secuencia de criterios, puede ofrecer recomendaciones personalizadas adicionales, en lugar de utilizar más recomendaciones secundarias genéricas, cuando un criterio no obtenga suficientes resultados para llenar el diseño. Normalmente, una secuencia de criterios pasa de un objetivo más específico, que puede devolver menos resultados, a un objetivo más general, que generalmente devuelve más resultados.
+Mediante una secuencia de criterios, puede proporcionar recomendaciones de destino adicionales, en lugar de utilizar recomendaciones de copia de seguridad más genéricas, cuando un criterio no devuelve resultados suficientes para llenar el diseño. Normalmente, una secuencia de criterios pasa de un objetivo más específico, que puede devolver menos resultados, a un objetivo más general, que generalmente devuelve más resultados.
 
 Las secuencias de criterios pueden variar en orden según el tipo de página, como se muestra en los ejemplos siguientes:
 

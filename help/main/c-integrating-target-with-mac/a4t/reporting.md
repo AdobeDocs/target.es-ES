@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: '1320'
+ht-degree: 40%
 ---
 # Informes de A4T
 
@@ -81,7 +81,7 @@ Cuando se usa [!DNL Analytics] como origen de informes, los informes de [!DNL Ta
 
   Los números que aumentan se muestran como positivos en el informe, incluso cuando no se desea un aumento. Por ejemplo, aunque desee una tasa de salto más baja, la tasa de salto más alta se mostrará como ganadora con el alza más alta. Tenga en cuenta estas métricas y las similares, y si prefiere disminuir o incrementar los números, a la hora de tomar decisiones basadas en los informes.
 
-Puede aplicar la métrica o la audiencia al informe en [!DNL Target] después de que se haya iniciado la actividad, o incluso después de que la prueba haya finalizado. No tiene por qué saber exactamente lo que quiere medir de antemano.
+Puede aplicar la métrica o la audiencia al informe en [!DNL Target] después de que se haya iniciado la actividad, o incluso después de que la prueba haya finalizado. No tiene que saber exactamente lo que desea medir de antemano.
 
 Haga clic para ver el informe completo de [!DNL Analytics] directamente desde la página del informe de actividad.
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias visuales]
 
@@ -47,14 +47,14 @@ Para evitar este problema, asegúrese de que no recorta ni elimina estos dos par
 
 +++
 
-## Mi página no se abre en el EEC. O bien, la carga de la página es lenta. Las actividades o experiencias ser cargan lentamente en el VEC. (Solo VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Mi página no se abrirá en el EEC o se cargará lentamente. Las actividades o experiencias ser cargan lentamente en el VEC. (Solo VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Detalles
 Varios problemas pueden afectar el rendimiento de la página en los compositores de experiencias de [!UICONTROL Target]. Algunos problemas comunes son:
 
 * Usted no tiene un mbox en la página.
 * El sitio usa bloqueo de proxy, lo que no permite que la página se abra en ningún compositor de experiencias.
-* El sitio no permite ser abierto en un iFrame.
+* El sitio no permite que se abra en un iFrame.
 
 Si hay problemas en [!UICONTROL Enhanced Experience Composer], prueba a desactivar [!UICONTROL Enhanced Experience Composer] y usa [!UICONTROL Visual Experience Composer] en su lugar.
 

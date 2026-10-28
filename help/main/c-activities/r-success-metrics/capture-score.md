@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 44%
 ---
 # Puntuación de captación
@@ -68,6 +68,6 @@ La práctica recomendada es asignar valores en la solicitud [!DNL Target]. Esto 
 
 Puede combinar ambos métodos, pero esto dará como resultado una puntuación mayor de la esperada. Por ejemplo, si asigna un valor de 10 a cada una de las tres solicitudes [!DNL Target] y no asigna ninguna puntuación a una cuarta solicitud, al pasar el parámetro de dirección URL `?mboxPageValue=5`, la puntuación de la página será de 50: 30 por las tres solicitudes con valores asignados y 5 por cada una de las cuatro solicitudes de la página.
 
-El contador comienza con la primera solicitud de visualización, no con la solicitud de entrada. Por ejemplo, si introduce la actividad en la página de inicio que no tiene una solicitud de visualización y, a continuación, vincula a la página de catálogo que contiene una solicitud de visualización, el contador comienza cuando se desplaza a la página de catálogo.
+El contador comienza con la primera solicitud de visualización, no con la solicitud de entrada. Por ejemplo, si introduce la actividad en la página de inicio que no tiene una solicitud de visualización y, a continuación, vincula a la página del catálogo que contiene una solicitud de visualización, el contador se iniciará al desplazarse a la página del catálogo.
 
 También puede pasar valores negativos en determinadas páginas que le cuesten dinero o que no sean adecuadas para que las vea un visitante. Los valores negativos también afectan a la puntuación global. Esta técnica se puede usar en una página a la que los visitantes accedan desde un anuncio, para que pueda conocer cuánto era el CPC. O bien, por ejemplo, los puede usar para una página de asistencia o de contacto, donde sabe que los visitantes pueden llamar o solicitar asistencia desde esta página.

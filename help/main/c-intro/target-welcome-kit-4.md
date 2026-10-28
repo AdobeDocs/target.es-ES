@@ -37,14 +37,14 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2961'
-ht-degree: 72%
+source-wordcount: '2987'
+ht-degree: 71%
 ---
 # Capítulo 4: Sugerencias sobre el uso de Target
 
-En base a nuestro trabajo con muchos usuarios de [!DNL Target], hemos observado maneras de obtener más valor de su solución de [!DNL Target]. Las distintas sugerencias que se incluyen en este capítulo ofrecen un resumen de estos recursos. Pese a que es posible que no esté listo para usar todas estas ideas de inmediato, manténgase al tanto de esta lista. Cuanto más experiencia adquiera con la solución y cuanto más madure su programa, más útiles le resultarán estas sugerencias para lograr más resultados con [!DNL Target].
+En base a nuestro trabajo con muchos usuarios de [!DNL Target], hemos observado maneras de obtener más valor de su solución de [!DNL Target]. Las distintas sugerencias que se incluyen en este capítulo ofrecen un resumen de estos recursos. Pese a que es posible que no esté listo para usar todas estas ideas de inmediato, manténgase al tanto de esta lista. Cuanto más experiencia adquiera con la solución y cuanto más madure su programa, más útiles le resultarán estas sugerencias para lograr más con [!DNL Target].
 
 ## Sugerencia 1: Intensifique la personalización ofreciendo datos adicionales en el perfil del visitante.
 
@@ -144,7 +144,7 @@ Muchos especialistas en marketing inician programas de optimización de segmenta
 
 ## Sugerencia 12: Diseñe pruebas más sencillas para asegurarse de que puede crearlas e implementarlas.
 
-Tras considerar todos los aspectos relacionados con el diseño de pruebas, el plan puede llegar a ser muy complejo. Determine si la prueba es demasiado ambiciosa en función de dónde se encuentre su negocio con las pruebas y de la capacidad de su grupo para diseñar, codificar, ejecutar y analizar los resultados. En caso de que sí lo sea, deberá reducir su alcance y su complejidad. Es mejor comenzar con una prueba pequeña que no realizar ninguna prueba. No puede proporcionar un alza impactante si nunca inicia la prueba. Es importante equilibrar las aspiraciones del equipo con la realidad de sus recursos y habilidades.
+Tras considerar todos los aspectos relacionados con el diseño de pruebas, el plan puede llegar a ser muy complejo. Determine si la prueba es demasiado ambiciosa en función de dónde se encuentre su negocio con las pruebas y de la capacidad de su grupo para diseñar, codificar, ejecutar y analizar los resultados. En caso de que sí lo sea, deberá reducir su alcance y su complejidad. Es mejor comenzar con una prueba pequeña que no realizar ninguna prueba. No puede proporcionar un alza impactante si nunca inicia la prueba. Es importante equilibrar las aspiraciones del equipo con la realidad de sus recursos y capacidades.
 
 ## Sugerencia 13: Divida las pruebas complejas en actividades de prueba más pequeñas para que sean alcanzables.
 

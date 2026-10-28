@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T
 
@@ -145,7 +145,7 @@ Trabaje con su equipo de TI para que estos parámetros ( `adobe_mc_sdid` y `adob
 
 +++
 
-## ¿Qué sucede si yo no utilizo A4T en mi actividad de redireccionamiento y no quiero que se agreguen estos parámetros adicionales a mis direcciones URL? {#section_9E608D75FF9349FE96C65FEDD7539F45}
+## ¿Qué sucede si no utilizo A4T en mi actividad de redireccionamiento y no quiero que se agreguen estos parámetros adicionales a mis direcciones URL? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 +++Respuesta
 Utilice una redirección con código personalizado si:
@@ -163,7 +163,7 @@ En cualquier caso, se recomienda mantener el parámetro `adobe_mc_ref` en la dir
 +++Respuesta
 Si utiliza A4T y ofertas de redireccionamiento, Target añade los parámetros `adobe_mc_ref` y `adobe_mc_sdid` a la dirección URL. Estos valores ya están codificados en la dirección URL. La mayoría de las veces, todo funciona según lo esperado, pero algunos clientes podrían disponer de equilibradores de carga o servidores WEB que traten de codificar una vez más los parámetros de la cadena de consulta.
 
-Debido a esta doble codificación, cuando la API de visitante intenta descodificar el valor `adobe_mc_sdid`, no consigue extraer el valor SDID y genera un SDID nuevo. Este proceso lleva a que se envíen valores SDID incorrectos a Target y Analytics, y que se vean divisiones de redireccionamiento desiguales en los informes de Analytics.
+Debido a esta doble codificación, cuando la API de visitante intenta descodificar el valor `adobe_mc_sdid`, no puede extraer el valor SDID y genera un SDID nuevo. Este proceso lleva a que se envíen valores SDID incorrectos a Target y Analytics, y que se vean divisiones de redireccionamiento desiguales en los informes de Analytics.
 
 Adobe recomienda que hable con su equipo de TI para asegurarse de que `adobe_mc_ref` y `adobe_mc_sdid` estén incluidos en la lista de permitidos de modo que estos valores no se transformen en modo alguno.
 
@@ -183,7 +183,7 @@ Con [!DNL at.js] versión 0.9.6 (o posterior) y [!DNL AppMeasurement.js] 2.1 (o 
 ## ¿Puedo utilizar ofertas de redireccionamiento personalizadas/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Respuesta
-No, debe utilizar una oferta de redireccionamiento integrada para las actividades que empleen [!DNL Analytics] como fuente de informes (A4T). Desde la perspectiva de [!DNL Target], las ofertas HTML son opacas: [!DNL Target] no tiene forma de saber si un fragmento particular de HTML contiene código JavaScript que crea una instancia de redireccionamiento.
+No, debe utilizar una oferta de redireccionamiento integrada para las actividades que empleen [!DNL Analytics] como fuente de informes (A4T). Desde la perspectiva de [!DNL Target], las ofertas de HTML son opacas: [!DNL Target] no puede saber que un fragmento particular de HTML contiene JavaScript que crea una instancia de redireccionamiento.
 
 +++
 

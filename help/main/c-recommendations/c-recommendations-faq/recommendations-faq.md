@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 80%
+source-wordcount: '3565'
+ht-degree: 77%
 ---
 # Preguntas más frecuentes de Recommendations
 
@@ -59,7 +59,7 @@ Tras importar un archivo de fuente o recibir actualizaciones de entidad mediante
 
 * Si un elemento se ha excluido anteriormente, pero ahora debe incluirse, este se incluirá en la próxima ejecución del algoritmo (de 12 a 24 horas).
 
-  Esta situación se produce porque [!DNL Target] aplica exclusiones tanto en línea como sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento reciente, la exclusión en línea desaparece al instante, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
+  Esta situación se produce porque [!DNL Target] aplica exclusiones tanto en línea como sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento reciente, la exclusión en línea desaparece rápidamente, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
 
 * Si un elemento se incluyó anteriormente, pero ahora debe excluirse, este se excluye por los &quot;Atributos de elemento actualizados...&quot; la línea de tiempo analizada anteriormente depende de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
 
@@ -112,7 +112,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 Los criterios disponibles dependen de la categoría actual. Cuando crea ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el ID de la categoría.
 
-Si la ubicación en la que aplica los criterios no contiene el Id. de categoría, determinados criterios no están disponibles en el selector de algoritmo.
+Si la ubicación en la que aplica estos criterios no contiene el ID de categoría, determinados criterios no están disponibles en el selector de algoritmo.
 
 Si utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
 
@@ -205,7 +205,7 @@ Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. Los
 
 Si edita un criterio, promoción o regla de prueba de plantilla existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
 
-## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir un nuevo público? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir una nueva audiencia? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Asegúrese de que la audiencia tiene un nombre único. Si le dio al público el mismo nombre que un público existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
 

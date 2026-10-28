@@ -1,24 +1,26 @@
 ---
 keywords: público;reglas de público;crear público;creación de público;solo actividad;específica
-description: Aprenda a crear audiencias solo de actividad en Adobe [!DNL Target] que se puedan usar una sola vez.
+description: Aprenda a crear audiencias solo de actividad en Adobe [!DNL Target] para uso único.
 title: ¿Puedo crear una audiencia para usarla una sola vez?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 30%
-
 ---
-
 # Crear un público solo de actividad
 
 Cree audiencias solo de actividad dentro del flujo de trabajo guiado de tres pasos de [!DNL Adobe Target] al crear una actividad. Estas audiencias ad-hoc pueden usarse en otros lugares dentro de la misma actividad, pero no se almacenan en la [!UICONTROL Biblioteca de audiencias] para su uso en otras actividades.
@@ -59,5 +61,5 @@ Tenga en cuenta lo siguiente al trabajar con audiencias solo de actividad:
 
   Puede utilizar las siguientes alternativas para utilizar reglas de exclusión:
 
-   * [Cree y use una audiencia de biblioteca](/help/main/c-target/c-audiences/create-audience.md) en lugar de una audiencia solo de actividad.
-   * [Combine varias &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) audiencias de biblioteca (hasta 20) en una audiencia solo de actividad. Al combinar audiencias, se pueden utilizar reglas de inclusión y exclusión en audiencias de biblioteca individuales incluso cuando la audiencia combinada se guarda como una audiencia solo de actividad.
+  * [Cree y use una audiencia de biblioteca](/help/main/c-target/c-audiences/create-audience.md) en lugar de una audiencia solo de actividad.
+  * [Combine varias &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) audiencias de biblioteca (hasta 20) en una audiencia solo de actividad. Al combinar audiencias, se pueden utilizar reglas de inclusión y exclusión en audiencias de biblioteca individuales incluso cuando la audiencia combinada se guarda como una audiencia solo de actividad.

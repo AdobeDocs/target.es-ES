@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 60%
+source-wordcount: '1095'
+ht-degree: 56%
 ---
 # Personalizar un diseño mediante [!DNL Velocity]
 
@@ -251,13 +251,13 @@ El siguiente código es un ejemplo condicional completo de un precio de venta:
 
 ## Personalización del tamaño de la plantilla y comprobación de valores en blanco {#default}
 
-Utilizando un script [!DNL Velocity] para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de &quot;1 a muchos&quot; para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es ideal para los casos en los que las recomendaciones de copia de seguridad no tendrían sentido y en los que [!UICONTROL Procesamiento parcial de plantillas] esté habilitado.
+Si utiliza un script [!DNL Velocity] para controlar el tamaño dinámico de la visualización de la entidad, la siguiente plantilla admite un resultado de &quot;1 a muchos&quot; para evitar la creación de elementos HTML vacíos cuando no hay suficientes entidades coincidentes devueltas de [!DNL Recommendations]. Este script es mejor para los casos en los que las recomendaciones de copia de seguridad no tendrían sentido y en los que [!UICONTROL Procesamiento parcial de plantillas] está habilitado.
 
 El siguiente fragmento HTML sustituye la parte HTML existente en el diseño predeterminado de 4 x 2 (la CSS no se incluye aquí, en aras de la brevedad):
 
 * Si existe una quinta entidad, la secuencia de comandos inserta un div de cierre y abre una nueva fila con `<div class="at-table-row">`.
 * Con 4 x 2, los resultados máximos mostrados serán ocho, pero esto puede personalizarse para listas más pequeñas o grandes si modifica `$count <=8`.
-* Tenga en cuenta que la lógica no equilibrará las entidades en varias filas. Por ejemplo, si hay cinco o seis entidades que mostrar, no se convertirán en tres en la parte superior y dos en la parte inferior (o dos en la parte superior y tres en la parte inferior). La fila superior mostrará cuatro elementos antes de iniciar una segunda fila.
+* Tenga en cuenta que la lógica no equilibrará las entidades en varias filas. Por ejemplo, si hay cinco o seis entidades que mostrar, no se convertirán en tres en la parte superior y dos en la parte inferior (o tres en la parte superior y tres en la parte inferior). La fila superior mostrará cuatro elementos antes de iniciar una segunda fila.
 
 ```
 <div class="at-table">

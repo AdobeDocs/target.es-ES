@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2259'
-ht-degree: 14%
+source-wordcount: '2260'
+ht-degree: 13%
 ---
 # Uso de reglas de inclusión dinámicas y estáticas
 
@@ -122,7 +122,7 @@ Para seleccionar la acción que desee, pase el ratón sobre el icono del engrana
 
 | Acción | Disponible para | Detalles |
 |--- |--- |--- |
-| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL coincidencia de atributos de perfil] y [!UICONTROL coincidencia de parámetros].<P>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera no pasa ningún valor, en vez de no devolver resultado alguno, puede simplemente ignorar la tercera regla con valores en blanco. |
+| [!UICONTROL Ignorar esta regla de filtrado] | [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL coincidencia de atributos de perfil] y [!UICONTROL coincidencia de parámetros].<P>Esta opción especifica que la regla se ignora. Por ejemplo, si hay tres reglas de filtrado y la tercera regla no pasa ningún valor, en lugar de no devolver ningún resultado, simplemente puede ignorar la tercera regla con los valores vacíos. |
 | [!UICONTROL No mostrar ningún resultado para estos criterios]<P>(Solo criterios) | [!UICONTROL Coincidencia de atributos de entidad], [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<P>Esta acción es el modo en que [!DNL Target] gestiona los valores vacíos antes de la adición de esta opción: no se muestran resultados para este criterio. |
 | [!UICONTROL No promocionar ningún elemento<P>(Solo promociones)] | [!UICONTROL Coincidencia de atributos de entidad], [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Esta acción es la predeterminada para [!UICONTROL Coincidencia de atributos de entidad].<P>Esta acción es el modo en que [!DNL Target] gestiona los valores vacíos antes de la adición de esta opción: no se muestran resultados para este criterio. |
 | [!UICONTROL Usar un valor estático] | [!UICONTROL Coincidencia de atributos de entidad], [!UICONTROL Coincidencia de atributos de perfil] y [!UICONTROL Coincidencia de parámetros] | Si un valor está en blanco, puede optar por usar un valor estático. |

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # Usando datos de [!DNL Adobe Analytics]
 
@@ -47,6 +47,6 @@ Al configurar una actividad después de configurar [!DNL Analytics] como fuente 
 
 Debe seleccionar una métrica de éxito para utilizarla como objetivo para cada actividad. El objetivo de actividad es la actividad de conversión que indica que una actividad ha tenido éxito. Se recomienda no ejecutar nunca una prueba sin tener como objetivo mejorarla de alguna manera específica. Puede elegir cualquier métrica [!DNL Analytics] disponible en el selector de métricas [!DNL Analytics].
 
-El hecho de definir un objetivo no significa que no se pueda utilizar otra métrica al evaluar los resultados de la prueba. Por el contrario, el objetivo es un recordatorio del aspecto que se desea mejorar con la prueba.
+Establecer un objetivo no significa que no pueda usar otra métrica para evaluar los resultados de las pruebas. Por el contrario, el objetivo es un recordatorio del aspecto que se desea mejorar con la prueba.
 
 Una vez que un visitante completa su objetivo, ese visitante ya no se incluye en la actividad. Si el visitante vuelve a entrar en su actividad después de completar una actividad de, ese visitante se cuenta como un visitante nuevo.

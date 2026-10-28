@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # Prácticas recomendadas de [!UICONTROL Prueba multivariable]
 
@@ -34,7 +34,7 @@ Sugerencias para mejorar el rendimiento, evitar problemas y corregir problemas c
 
 ## Crear {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* No incluya en la prueba más combinaciones de las necesarias.
+* No incluya más combinaciones de las necesarias para la prueba.
 
   Cada combinación que incluya en la prueba aumenta considerablemente la cantidad de tráfico y el tiempo necesario para obtener resultados aceptables. Por ejemplo, si tiene tres ubicaciones con tres ofertas cada una, hay 27 combinaciones posibles (3x3x3). Tres ubicaciones, de los cuales dos contienen tres ofertas posibles y una tiene dos ofertas, generan 18 opciones (3x3x2). Los números aumentan considerablemente con cada ubicación y oferta que se añaden.
 

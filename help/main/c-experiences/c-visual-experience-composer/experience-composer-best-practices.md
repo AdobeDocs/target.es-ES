@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 45%
 ---
 # Prácticas recomendadas y limitaciones de [!UICONTROL Compositor de experiencias visuales]
 
@@ -61,7 +61,7 @@ Para habilitar [!UICONTROL Enhanced Experience Composer] en el nivel de activida
 +++Ver detalles
 Los problemas al cargar [!UICONTROL Enhanced Experience Composer] se pueden resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para [!DNL Adobe] servidores usados para el proxy [!UICONTROL Enhanced Experience Composer]. Solo se requieren para edición de actividades. Los visitantes del sitio no necesitan estas direcciones IP incluidas en la lista de permitidos.
 
-Para obtener más información, consulte [El EEC no cargará una dirección URL de control de calidad interna a la que no se puede acceder desde una dirección IP pública](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) en *Resolución de problemas relacionados con el Compositor de experiencias mejorado*.
+Para obtener más información, vea [El EEC no cargará una dirección URL de control de calidad interna a la que no se puede obtener acceso desde una dirección IP pública](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) en *Resolución de problemas relacionados con el Compositor de experiencias mejorado*.
 
 +++
 
@@ -79,7 +79,7 @@ Cualquier cosa que haya dentro del elemento del cuerpo debe tener un ID único. 
 +++Detalles
 Al editar clases CSS en [!DNL Visual Experience Composer], resulta útil facilitar la identificación de las clases mediante nombres de clase descriptivos. Esto le permite tener la certeza de que está modificando las clases CSS correctas y de que las páginas se mostrarán correctamente.
 
-No utilice la propiedad `!important` de CSS al ocultar o eliminar elementos.
+No utilice la propiedad CSS `!important` al ocultar o quitar elementos.
 
 Si la propiedad CSS `!important` está presente, las reglas CSS del sitio anulan los cambios realizados por `target.js` durante la entrega.
 
@@ -124,7 +124,7 @@ Los elementos de nivel de bloque no deben utilizarse dentro de elementos en lín
 
 +++
 
-### No use la etiqueta de base en su sitio web para resolver la dirección URL y los vínculos.
+### No utilice la etiqueta de base en el sitio web para resolver direcciones URL y vínculos.
 
 +++Detalles
 El VEC manipula el sitio web entre bastidores, utilizando un servidor proxy que actualiza los vínculos. Si añade una etiqueta de base, el navegador resolverá de nuevo las direcciones URL usadas por el servidor proxy y aparecerán dañadas.
@@ -141,7 +141,7 @@ Por ejemplo, si ha realizado dos acciones:
 
 Cada cambio crea un nuevo elemento en el VEC. Como la segunda acción modifica al Elemento 1, si elimina el Elemento 1, la segunda acción ya no tiene nada para modificar. Por lo tanto, el cambio ya no funciona.
 
-Es decir, si agrega un elemento con texto y luego en una acción separada edita ese elemento con otro texto, el editor de código muestra ambas acciones como elementos separados. Cuando editó el elemento, creó un nuevo elemento que modifica al original que usted creó, y que contiene el texto editado. Si luego elimina el elemento original, el texto editado no podrá encontrar el elemento editado y no se mostrará. El segundo elemento permanece en la lista de elementos, pero no afecta a la página porque el elemento al que cambia ya no existe.
+Es decir, si agrega un elemento con texto y luego en una acción separada edita ese elemento con otro texto, el editor de código muestra ambas acciones como elementos separados. Cuando editó el elemento, creó un nuevo elemento que modifica al original que usted creó, y que contiene el texto editado. Si elimina el elemento original, el texto editado no podrá encontrar el elemento editado y no se mostrará. El segundo elemento permanece en la lista de elementos, pero no afecta a la página porque el elemento al que cambia ya no existe.
 
 Consulte [Selectores de elementos utilizados en el [!UICONTROL Compositor de experiencias visuales]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
@@ -171,7 +171,7 @@ Como `mboxCreate` usa `document.write`, no se recomienda incluir `mboxCreate` en
 
 +++
 
-### No actualice ningún fragmento de HTML usando [!DNL Target] si requiere código de JavaScript para la inicialización.
+### No actualice ningún fragmento de HTML usando [!DNL Target] si requiere código JavaScript para la inicialización.
 
 
 +++Detalles
@@ -188,7 +188,7 @@ Pruebe la página varias veces para asegurarse de que la entrega funciona bien.
 
 +++
 
-### No use una etiqueta de base en el sitio web para resolver la dirección URL y los vínculos.
+### No utilice una etiqueta de base en el sitio web para resolver las direcciones URL y los vínculos.
 
 +++Detalles
 Cuando usa el [!UICONTROL Compositor de experiencias mejorado], un servidor proxy manipula el sitio web y actualiza todas las direcciones URL de los vínculos para que funcionen en el proxy. Si agrega una etiqueta base, el explorador resuelve todas estas direcciones URL, por lo que parecen rotas.

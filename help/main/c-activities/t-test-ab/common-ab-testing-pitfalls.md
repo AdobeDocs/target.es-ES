@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3984'
-ht-degree: 99%
+source-wordcount: '4003'
+ht-degree: 87%
 ---
 # Diez dificultades comunes de las pruebas A/B y cómo evitarlas
 
@@ -32,9 +32,9 @@ Las pruebas A/B en [!DNL Adobe Target] constituyen el pilar de la mayoría de lo
 
 ## Escollo 1: Ignorar los efectos del nivel de relevancia {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
-¿Cuánta probabilidad hay de que una prueba arroje una diferencia relevante en la tasa de conversión entre dos ofertas cuando, en realidad, no existe ninguna diferencia? El *nivel de relevancia* de una prueba es lo que ayuda a averiguar esto. A menudo, estos resultados erróneos se denominan falsos positivos y, en el mundo de la estadística, se denominan errores de Tipo I (cuando se rechaza incorrectamente la hipótesis null que es verdadera).
+¿Cuánta probabilidad hay de que una prueba arroje una diferencia relevante en la tasa de conversión entre dos ofertas cuando, en realidad, no existe ninguna diferencia? Esto es lo que ayuda a determinar el *nivel de relevancia* de una prueba. A menudo, estos resultados erróneos se denominan falsos positivos y, en el mundo de la estadística, se denominan errores de Tipo I (cuando se rechaza incorrectamente la hipótesis null que es verdadera).
 
-Al especificar el nivel de relevancia de una prueba A/B, está buscando un término medio entre su tolerancia para aceptar que esa experiencia es mejor que la otra cuando en realidad no es así (error de Tipo I o “falso positivo”) frente a no ver ninguna diferencia estadística entre las experiencias cuando en realidad sí la hay (error de Tipo II o “falso negativo”). El *nivel de confianza* se determina antes de ejecutar una prueba.
+Al especificar el nivel de relevancia de una prueba A/B, está buscando un término medio entre su tolerancia para aceptar que una experiencia es mejor que la otra cuando en realidad no es así (error de Tipo I o &quot;falso positivo&quot;) frente a no ver ninguna diferencia estadística entre las experiencias cuando en realidad sí la hay (error de Tipo II o &quot;falso negativo&quot;). El *nivel de confianza* se determina antes de ejecutar una prueba.
 
 El *intervalo de confianza*, que se determina una vez finalizada una prueba, se ve afectado por tres factores clave:
 
@@ -42,7 +42,7 @@ El *intervalo de confianza*, que se determina una vez finalizada una prueba, se 
 * Nivel de relevancia
 * Desviación estándar de la población
 
-Como el experto en marketing ha seleccionado el nivel de relevancia antes de que se diseñara la prueba y el estándar de población no puede verse afectado, el único factor “controlable” es el tamaño de la muestra. El tamaño de la muestra requerido para un intervalo de confianza con el que se sienta cómodo y el tiempo resultante que se necesita para conseguir ese tamaño de la muestra son decisiones clave que un experto en marketing debe tomar durante el diseño de la prueba.
+Como el experto en marketing ha seleccionado el nivel de relevancia antes de que se diseñara la prueba y el estándar de población no puede verse afectado, el único factor &quot;controlable&quot; es el tamaño de la muestra. El tamaño de la muestra requerido para un intervalo de confianza con el que se sienta cómodo y el tiempo resultante que se necesita para conseguir ese tamaño de la muestra son decisiones clave que un experto en marketing debe tomar durante el diseño de la prueba.
 
 Otro término directamente relacionado, *nivel de confianza*, se encarga de ver el vaso medio lleno. En lugar de expresar la probabilidad de obtener un falso positivo, como hace el nivel de relevancia, el nivel de confianza representa la probabilidad de que en la prueba no se produzca este error.
 
@@ -50,7 +50,7 @@ El nivel de confianza y el de relevancia están directamente relacionados porque
 
 100 % - nivel de confianza = nivel de relevancia
 
-En las pruebas A/B, los especialistas en marketing usan niveles de confianza del 95 %. A partir de la ecuación anterior, esto supone un nivel de relevancia del 5 %. Realizar pruebas con un nivel de confianza del 95 % significa que existe un 5 % de posibilidad de detectar un alza estadísticamente relevante aunque, en realidad, no haya ninguna diferencia entre las ofertas.
+En las pruebas A/B, los especialistas en marketing usan niveles de confianza del 95 %. A partir de la ecuación anterior, esto supone un nivel de relevancia del 5 %. Realizar pruebas con un nivel de confianza del 95 % significa que tiene una probabilidad del 5 % de detectar un alza estadísticamente significativa, incluso cuando, en realidad, no hay diferencia entre las ofertas.
 
 Como se ve en el gráfico siguiente, cuantas más pruebas se efectúen, más probabilidades existen de que al menos una de ellas arroje un falso positivo. Por ejemplo, si ejecuta 10 pruebas usando un nivel de confianza del 95 %, habrá aproximadamente un 40 % de probabilidad de que se detecten uno o varios falsos positivos [siempre que no haya un alza real: Pr(al menos un falso positivo) = 1 - Pr(ningún falso positivo) = 1 - 0,95^10 = 40 %].
 
@@ -66,11 +66,11 @@ Sin embargo, existen dos situaciones en las que hay que prestar especial atenci�
 
   Cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En esencia, cada segmento posterior a la prueba representa una prueba separada, que aumenta la probabilidad de un falso positivo. Este aumento puede ser incluso más significativo si los segmentos están correlacionados.
 
-  ¿Entonces hay que prescindir de la segmentación posterior a las pruebas? No, los segmentos posteriores a las pruebas son útiles. Para evitar el problema de acumulación de falsos positivos en la segmentación posterior a las pruebas, después de identificar un segmento de este tipo se puede probar en una prueba nueva. Otra opción es aplicar la corrección de Bonferroni, que explicamos más adelante.
+  ¿Entonces hay que prescindir de la segmentación posterior a las pruebas? No, los segmentos posteriores a las pruebas son útiles. En su lugar, para evitar este problema acumulado de falsos positivos con la segmentación posterior a la prueba, después de haber identificado un segmento posterior a la prueba, considere la posibilidad de probarlo en una nueva prueba. Otra opción es aplicar la corrección de Bonferroni, que explicamos más adelante.
 
-* **Realización de pruebas con varias ofertas:** a menudo, los especialistas en marketing prueban más de dos ofertas (o experiencias) para compararlas. Por este motivo, a veces las soluciones de pruebas A/B se llaman pruebas “A/B/n”, donde “n” es el número de ofertas que se prueban simultáneamente.
+* **Realización de pruebas con varias ofertas:** a menudo, los especialistas en marketing prueban más de dos ofertas (o experiencias) para compararlas. Por este motivo, a veces las soluciones de prueba A/B se llaman pruebas A/B/n, donde n es el número de ofertas que se prueban simultáneamente.
 
-  Cabe destacar que *cada una* de las ofertas sometidas a prueba tiene una tasa de falsos positivos equivalente al nivel de relevancia, como hemos explicado arriba. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %.
+  Es importante tener en cuenta que *cada* oferta probada tiene una tasa de falsos positivos igual al nivel de relevancia, tal como se ha descrito anteriormente. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %.
 
   Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Por medio de esta corrección, el nivel de relevancia se divide entre el número de comparaciones para obtener el nivel de relevancia necesario para lograr un nivel de confianza del 95 %.
 
@@ -86,7 +86,7 @@ Las ofertas A y B tienen la mayor alza observada durante la prueba y es poco pro
 
 La conclusión es que ambas ofertas, la A y la B, se deben considerar ganadoras de la prueba.
 
-Por lo general, no es viable ejecutar la prueba durante el tiempo suficiente para identificar el rendimiento relativo verdadero de las alternativas y, con frecuencia, sucede que la diferencia en rendimiento de las alternativas es demasiado pequeña para tener una repercusión sustancial en la tasa de conversión. En estos casos, el resultado se puede interpretar como una asociación y se pueden considerar otros factores, como la estrategia o la alineación con otros elementos de la página, para determinar qué oferta debemos implementar. Al realizar varias pruebas, hay que estar abierto a la posibilidad de que haya más de un ganador, lo cual, en algunos casos, amplía las posibilidades de desarrollo en el sitio web.
+Por lo general, no es factible ejecutar la prueba el tiempo suficiente para identificar el verdadero rendimiento relativo de las alternativas y, a menudo, la diferencia de rendimiento entre las alternativas es demasiado pequeña para afectar sustancialmente a la tasa de conversión. En estos casos, el resultado se puede interpretar como una asociación y se pueden considerar otros factores, como la estrategia o la alineación con otros elementos de la página, para determinar qué oferta debemos implementar. Al realizar varias pruebas, hay que estar abierto a la posibilidad de que haya más de un ganador, lo cual, en algunos casos, amplía las posibilidades de desarrollo en el sitio web.
 
 Recuerde que, si lo que desea es identificar la oferta con la mayor tasa de conversión, debe comparar todas las ofertas entre sí. En el ejemplo anterior, hay n = 5 ofertas, por lo que hay que realizar n(n-1)/2 o 5 &#42; (5-1)/2 = 10 comparaciones. En este caso, la corrección de Bonferroni exige que el nivel de relevancia de la prueba sea de 5 %/10 = 0,5 %, lo que corresponde a un nivel de confianza del 99,5 %. No obstante, este nivel de confianza puede requerir que la prueba se ejecute durante un periodo de tiempo demasiado prolongado.
 
@@ -94,7 +94,7 @@ Recuerde que, si lo que desea es identificar la oferta con la mayor tasa de conv
 
 La potencia estadística es la probabilidad de que una prueba detecte una diferencia real en la tasa de conversión de distintas ofertas. Debido a la naturaleza aleatoria o, como la denominan los estadistas, estocástica de los eventos de conversión, es posible que una prueba no muestre una diferencia con relevancia estadística, aunque haya una diferencia real entre las tasas de conversión de dos ofertas al final. Podemos considerarlo mala suerte o casualidad. La imposibilidad de detectar una diferencia verdadera en la tasa de conversión se llama “falso negativo” o “error de tipo II”.
 
-Hay dos factores clave que determinan la efectividad de una prueba. En primer lugar, el tamaño de la muestra, es decir, el número de visitantes incluidos en la prueba. Y, en segundo lugar, la magnitud de la diferencia en la tasa de conversión que quiere que detecte la prueba. Tal vez esto sea intuitivo, pero si está interesado en detectar solo grandes diferencias en la tasa de conversión, existe una mayor probabilidad de que la prueba detecte diferencias tan grandes. De forma similar, cuanto menor sea la diferencia que quiera detectar, mayor deberá ser el tamaño de la muestra y, por lo tanto, el tiempo para obtener ese tamaño de la muestra requerido.
+Hay dos factores clave que determinan la efectividad de una prueba. En primer lugar, el tamaño de la muestra, es decir, el número de visitantes incluidos en la prueba. Y, en segundo lugar, la magnitud de la diferencia en la tasa de conversión que quiere que detecte la prueba. Tal vez sea intuitivo, pero si solo le interesa detectar grandes diferencias en la tasa de conversión, existe una mayor probabilidad de que la prueba detecte realmente dichas diferencias. De forma similar, cuanto menor sea la diferencia que quiera detectar, mayor deberá ser el tamaño de la muestra y, por lo tanto, el tiempo para obtener ese tamaño de la muestra requerido.
 
 Hoy en día, los especialistas en marketing emplean una potencia estadística insuficiente en gran cantidad de pruebas. En otras palabras, el tamaño de muestra que utilizan es demasiado pequeño. Esto quiere decir que tienen escasas posibilidades de detectar verdaderos positivos aunque exista una diferencia notable en la tasa de conversión. Es más: si se ejecutan continuamente pruebas con una potencia estadística insuficiente, el número de falsos positivos puede ser equiparable al de verdaderos positivos e, incluso, lo puede sobrepasar. A menudo, esto desemboca en la implementación de cambios neutros en un sitio (una pérdida de tiempo) o cambios que, paradójicamente, reducen las tasas de conversión.
 
@@ -104,25 +104,25 @@ Para evitar que esto ocurra, hay que tener en cuenta que el estándar típico pa
 
 ## Inconveniente 4: uso de pruebas unilaterales {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
-Las pruebas unidireccionales requieren una diferencia observada más reducida en las tasas de conversión entre las ofertas para declarar un ganador con un cierto nivel de relevancia. Esto parece interesante porque los ganadores se pueden declarar antes y con más frecuencia que cuando se usan pruebas bidireccionales. Sin embargo, sabemos que todo tiene su precio y las pruebas unidireccionales no podían ser menos.
+Las pruebas unidireccionales requieren una diferencia observada más reducida en las tasas de conversión entre las ofertas para declarar un ganador con un cierto nivel de relevancia. Esto parece interesante porque los ganadores se pueden declarar antes y con más frecuencia que cuando se usan pruebas bidireccionales. Pero de acuerdo con el dicho, &quot;No hay almuerzo gratis&quot;, las pruebas unilaterales tienen un costo.
 
 En una prueba unidireccional, probamos si la oferta B es mejor que la oferta A. El sentido de la prueba se debe establecer antes de que esta comience o, en términos estadísticos, “a priori”. Es decir, hay que decidir si lo que queremos probar es si la prueba B es mejor que la A o si la A es mejor que la B, y esto se debe hacer *antes* de iniciar la prueba. No obstante, si miramos los resultados de la prueba A/B, observamos que la B tiene mejor rendimiento que la A y *luego* decidimos llevar a cabo una prueba unidireccional para ver si la diferencia es estadísticamente relevante, estaríamos infringiendo las presuposiciones de la prueba estadística. Infringir las presuposiciones de la prueba significa que los intervalos de confianza no son fiables y que la prueba tiene una tasa de falsos positivos superior a la esperada.
 
-Las pruebas unidireccionales se pueden ver cómo llevar a juicio una oferta con un juez que ya tiene el veredicto. En una prueba unidireccional, decidimos de antemano la oferta ganadora y lo que queremos es demostrarlo. Las ofertas no tienen igualdad de oportunidades para erigirse en ganadoras. Este tipo de prueba solo debería usarse en las infrecuentes situaciones en que queramos saber si una oferta es mejor que la otra y no al revés. Para evitar el inconveniente de las pruebas unidireccionales, debemos recurrir a una solución de pruebas A/B que siempre utilice pruebas bidireccionales, como [!DNL Adobe Target].
+Las pruebas unidireccionales se pueden ver cómo llevar a juicio una oferta con un juez que ya tiene el veredicto. En una prueba unidireccional, ya ha decidido cuál es la oferta ganadora y desea probarla, en lugar de proporcionar a cada experiencia la misma oportunidad de demostrar que es la ganadora. Este tipo de prueba solo debería usarse en las infrecuentes situaciones en que queramos saber si una oferta es mejor que la otra y no al revés. Para evitar el inconveniente de las pruebas unidireccionales, debemos recurrir a una solución de pruebas A/B que siempre utilice pruebas bidireccionales, como [!DNL Adobe Target].
 
 ## Escollo 5: Monitorizar las pruebas {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Habitualmente, los especialistas en marketing monitorizan las pruebas A/B hasta que se obtiene un resultado relevante. Al fin y al cabo, ¿para qué hacer pruebas cuando se ha alcanzado una relevancia estadística?
+Habitualmente, los especialistas en marketing monitorizan las pruebas A/B hasta que se obtiene un resultado relevante. Después de todo, ¿por qué probar después de haber alcanzado la relevancia estadística?
 
-Lamentablemente, no es tan sencillo. No queremos complicar las cosas, pero lo cierto es que monitorizar los resultados influye negativamente en la relevancia estadística real de la prueba. De hecho, aumenta en gran medida la probabilidad de falsos positivos y disminuye la fiabilidad de los intervalos de confianza.
+Desafortunadamente, no es tan simple. No queremos complicar las cosas, pero lo cierto es que monitorizar los resultados influye negativamente en la relevancia estadística real de la prueba. De hecho, aumenta en gran medida la probabilidad de falsos positivos y disminuye la fiabilidad de los intervalos de confianza.
 
-Esto puede resultar confuso. Parece que decimos que solo por mirar los resultados a mitad de la prueba, estos pierden su relevancia estadística, pero no es exactamente así. En el ejemplo siguiente vemos por qué.
+Esto puede resultar confuso. Parece que decimos que solo por mirar los resultados a mitad de la prueba, estos pierden su relevancia estadística, Eso no es exactamente lo que está pasando. En el ejemplo siguiente vemos por qué.
 
 Imagine que simulamos 10 000 eventos de conversión de dos ofertas y que las dos tienen una tasa de conversión del 10 %. Como las tasas de conversión son iguales, no se debería detectar ninguna diferencia en el alza de conversión al comparar las dos pruebas. Con un intervalo de confianza del 95 %, la prueba genera la tasa de falsos positivos esperada del 5 % cuando se evalúa después de recopilar las 10 000 observaciones. De modo que, si ejecutamos 100 de estas pruebas, obtendremos de media cinco falsos positivos (en realidad, todos los positivos son falsos en este ejemplo, ya que no hay diferencia en la tasa de conversión de ambas ofertas). Sin embargo, si evaluamos la prueba diez veces durante el proceso (cada 1000 observaciones), resulta que la tasa de falsos positivos sube al 16 %. Al monitorizar la prueba, el riesgo de falsos positivos es más del triple ¿Cómo puede ser?
 
 Para entender por qué sucede esto, hay que tener en cuenta las distintas acciones adoptadas cuando se detecta un resultado relevante y cuando no se detecta. Cuando se detecta un resultado estadísticamente relevante, la prueba se detiene y se declara un ganador. No obstante, si el resultado no tiene relevancia estadística, permitiremos que la prueba continúe. Esta situación favorece enormemente un resultado positivo y, por tanto, distorsiona el nivel de relevancia estadística de la prueba.
 
-Para evitar este problema, debe determinar el tiempo que durará la ejecución de la prueba antes de iniciarla. Está bien consultar los resultados de la prueba durante su desarrollo para asegurarse de que la hemos implementado correctamente, pero no hay que sacar conclusiones ni detenerla antes de alcanzar el número requerido de visitantes. En otras palabras, ¡nada de echar un vistazo!
+Para evitar este problema, debe determinar el tiempo que durará la ejecución de la prueba antes de iniciarla. Aunque puede comprobar los resultados de la prueba para asegurarse de que la ha implementado correctamente, no saque conclusiones ni la detenga antes de alcanzar el número de visitantes necesario. En otras palabras, ¡nada de echar un vistazo!
 
 ## Escollo 6: Detener las pruebas de forma prematura {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
@@ -154,9 +154,9 @@ Otro ejemplo: si la asignación de tráfico de la prueba A/B se divide en 50/50 
 
 ## Escollo 8: No tener en cuenta los efectos de la novedad {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Si no dejamos que una prueba se ejecute durante el tiempo suficiente, pueden suceder otras cosas inesperadas. En este caso, no se trata de un problema estadístico, sino de la reacción de los visitantes al cambio. Si cambia una parte consolidada de su sitio web, es posible que los visitantes que regresan interactúen menos con la oferta nueva al principio por los cambios efectuados en el flujo de trabajo habitual. Esto puede hacer que, temporalmente, una nueva oferta superior tenga un rendimiento inferior hasta que los visitantes que regresan se acostumbren a ella: un pequeño precio que hay que pagar teniendo en cuenta las ganancias a largo plazo que reportará la oferta superior.
+Pueden producirse otros eventos inesperados si no se concede el tiempo suficiente para realizar una prueba. Esta vez, el problema no es un problema de estadísticas; es simplemente una reacción al cambio por parte de los visitantes. Si cambia una parte consolidada de su sitio web, es posible que los visitantes que regresan interactúen menos con la oferta nueva al principio por los cambios efectuados en el flujo de trabajo habitual. Esto puede hacer que, temporalmente, una nueva oferta superior tenga un rendimiento inferior hasta que los visitantes que regresan se acostumbren a ella: un pequeño precio que hay que pagar teniendo en cuenta las ganancias a largo plazo que reportará la oferta superior.
 
-Para averiguar si el rendimiento de la oferta nueva es inferior por el efecto de la novedad o porque en realidad es peor, puede segmentar a los visitantes en visitantes nuevos y visitantes que regresan para después comparar las tasas de conversión. Si solo es el efecto de la novedad, la oferta nueva ganará entre los visitantes nuevos. A la larga, cuando los visitantes que regresan se vayan acostumbrando a los nuevos cambios, la oferta también ganará entre estos.
+Para determinar si la nueva oferta presenta un rendimiento inferior debido a un efecto de novedad o si es realmente inferior, puede segmentar los visitantes en visitantes nuevos y recurrentes y comparar las tasas de conversión. Si se trata solo del efecto de novedad, la nueva oferta gana con los nuevos visitantes. A la larga, cuando los visitantes que regresan se vayan acostumbrando a los nuevos cambios, la oferta también ganará entre estos.
 
 El efecto de la novedad también puede funcionar a la inversa. Los visitantes suelen reaccionar de forma positiva a un cambio solo porque introduce algo nuevo. Pasado un tiempo, cuando el contenido se queda anticuado o ya no le resulta tan interesante al visitante, la tasa de conversión cae. Este efecto es más difícil de identificar, pero monitorizar minuciosamente los cambios en la tasa de conversión es fundamental para detectarlo.
 

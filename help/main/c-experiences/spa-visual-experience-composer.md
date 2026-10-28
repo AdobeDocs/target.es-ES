@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # Compositor de experiencias visuales para aplicaciones de una sola página (SPA)
 
@@ -243,7 +243,7 @@ La siguiente tabla describe cada acción:
 | --- | --- |
 | Información | Muestra los detalles de esta acción. |
 | Editar | Permite editar las propiedades de esta acción directamente. |
-| Clonar | Clona la acción a una o más vistas que existen en el panel [!UICONTROL Modificaciones] o a una o más vistas a las que ha navegado en el VEC. La acción no tiene que existir necesariamente en el panel [!UICONTROL Modificaciones].<br>**Nota**: después de realizar una operación de clonado, debe navegar a la vista en el VEC a través de [!UICONTROL Examinar] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error. |
+| Clonar | Clona la acción a una o más vistas que existen en el panel [!UICONTROL Modificaciones] o a una o más vistas a las que ha navegado en el VEC. La acción no tiene que existir necesariamente en el panel [!UICONTROL Modificaciones].<br>**Nota**: Después de realizar una operación de clonado, debe navegar a la vista en el VEC a través de [!UICONTROL Examinar] para ver si la acción clonada era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error. |
 | Mover | Mueve la acción a un Evento de carga de página o a cualquier otra Vista que ya se encuentre en el panel Modificaciones.<br>[!UICONTROL Evento de carga de página]: cualquier acción que corresponda al evento de carga de página se aplica en la carga inicial de la página web.<br>**Nota** Después de realizar una operación de movimiento, debe navegar a la vista en el VEC a través de Examinar para ver si el movimiento era una operación válida. Si la acción no se puede aplicar a la vista, aparecerá un error |
 | Eliminar | Elimina la acción. |
 
@@ -383,7 +383,7 @@ Sí, at.js 2.x es compatible con A4T para SPA a través de la función `triggerV
 | [Personalización automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | No |
 | [Recommendations](/help/main/c-recommendations/recommendations.md) | No |
 
-**Si instalamos at.js 2.x e implementamos `triggerView()` en nuestras páginas, ¿cómo ejecutamos actividades A/B de la segmentación automática si el VEC de SPA no la admite?**
+**Si instalamos at.js 2.x e implementamos `triggerView()` en nuestras páginas, ¿cómo ejecutamos actividades A/B de Segmentación automática si el VEC de SPA no la admite?**
 
 Si desea utilizar actividades A/B de Segmentación automática puede mover todas las acciones que se ejecutan al evento de Carga de página en el VEC. Pase el ratón sobre cada acción y haga clic en el botón [!UICONTROL Mover al evento de carga de página]. Hecho esto, puede seleccionar Segmentación automática para el método de asignación de tráfico.
 
@@ -460,7 +460,7 @@ Nota: El usuario que navega a [https://experienceleague.adobe.com/developer/asho
 
 ### Práctica recomendada
 
-Puede ver que la administración del recorrido del usuario puede resultar bastante difícil, ya que los usuarios pueden aterrizar en cualquier URL de su SPA y navegar a cualquier otra página. Por lo tanto, es mejor especificar una regla de publicación de página que incluya la dirección URL base para que incluya todo el SPA. De este modo, no tiene que pensar en todos los recorridos y rutas que un usuario podría seguir para llegar a una página en la que desee mostrar una prueba A/B o una actividad de segmentación de experiencias (XT).
+Puede ver que la administración del recorrido del usuario puede resultar bastante difícil, ya que los usuarios pueden aterrizar en cualquier URL de su SPA y navegar a cualquier otra página. Por lo tanto, es mejor especificar una regla de publicación de página que incluya la dirección URL base para que incluya todo el SPA. De este modo, no tiene que pensar en todos los recorridos y rutas que un usuario podría desarrollar para llegar a una página en la que desee mostrar una prueba A/B o una actividad de segmentación de experiencias (XT).
 
 Por ejemplo, para resolver el problema anterior, podemos especificar la dirección URL base en la configuración de Entrega de páginas de esta forma:
 

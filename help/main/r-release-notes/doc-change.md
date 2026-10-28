@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c358f8940302be125c1f7ddab4f695846c46580b
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2624'
 ht-degree: 29%
 ---
 # Cambios de la documentación
@@ -164,7 +164,7 @@ Esta página detalla los cambios más importantes que se han realizado en la doc
 |  | [Cookies de Adobe Target](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/target){target=_blank} | Se ha actualizado el texto para agregar que `sessionId` no puede incluir llaves ( {} ).<P>El texto ahora dice: El ID de sesión puede ser cualquier cadena imprimible excepto un espacio, un signo de interrogación ( ? ), llaves ( { } ) o una barra diagonal ( / ). Debe tener entre 1 y 128 caracteres de longitud. |
 |  | [API de envío de Adobe Target](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | Se ha actualizado el texto para agregar que `sessionId` no puede incluir llaves ( {} ).<P> El texto ahora dice: El ID de sesión puede ser cualquier cadena imprimible excepto un espacio, un signo de interrogación ( ? ), llaves ( { } ) o una barra diagonal ( / ). Debe tener entre 1 y 128 caracteres de longitud. |
 | 12 de junio | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.6.2 de [!DNL Target Standard/Premium]. |
-|  | [[!DNL Target] Preguntas frecuentes sobre la actualización de IU](/help/main/c-intro/updated-ui-faq.md) | Nuevo artículo.<P>Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y el [!UICONTROL Compositor de experiencias visuales] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la desaprobación de la opción de versión de la IU temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a aprovechar al máximo la IU actualizada. |
+|  | [[!DNL Target] Preguntas frecuentes sobre la actualización de IU](/help/main/c-intro/updated-ui-faq.md) | Nuevo artículo.<P>Estas preguntas frecuentes responden a preguntas comunes sobre la nueva interfaz de usuario de [!DNL Target] y el [!UICONTROL Compositor de experiencias visuales] (VEC), incluidos los cambios de navegación, las ubicaciones de las características y la desaprobación de la opción de versión de la IU temporal. Tanto si es un experto en marketing, desarrollador o administrador, estas preguntas frecuentes le ayudan a realizar la transición sin problemas y a sacar el máximo partido a la IU actualizada. |
 | 6 de junio | [[!DNL Target] Notas de la versión (actuales)](/help/main/r-release-notes/release-notes.md) | Se han añadido notas de la versión 25.6.1 de [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 de mayo de 2025)

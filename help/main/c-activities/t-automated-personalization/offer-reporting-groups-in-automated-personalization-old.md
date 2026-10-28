@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: e8a43148-398f-56c7-9433-6564f96999c2
     internal-label: Reports
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 25%
 ---
 # Grupos de informes de ofertas en [!UICONTROL Automated Personalization]
@@ -27,7 +27,7 @@ Los grupos de informes realizan dos funciones clave:
 
 Cuando usa grupos de informes, [!DNL Target] crea un modelo de personalización para cada grupo de informes usando los datos de todas las ofertas de ese grupo. Sin grupos de informes, [!DNL Target] crea un modelo de personalización para cada oferta en su actividad AP.
 
-Si la configuración de su actividad no tiene datos suficientes para crear un modelo de personalización para cada oferta, los grupos de informes ayudan a reducir los requisitos de datos para usar [!UICONTROL Automated Personalization]. Los grupos de informes también pueden ayudar a resolver el problema de “inicio en frío” de las nuevas ofertas. Lo hacen agrupando ofertas similares, de modo que cada modelo disponga de más datos con los que trabajar. Los grupos de modelado también se pueden utilizar para actividades en las que las nuevas ofertas se introducen regularmente en la actividad de AP.
+Si la configuración de su actividad no tiene datos suficientes para crear un modelo de personalización para cada oferta, los grupos de informes ayudarán a reducir los requisitos de datos para usar [!UICONTROL Automated Personalization]. Los grupos de informes también pueden ayudar a resolver el problema de “inicio en frío” de las nuevas ofertas. Lo hacen agrupando ofertas similares, de modo que cada modelo disponga de más datos con los que trabajar. Los grupos de modelado también se pueden utilizar para actividades en las que las nuevas ofertas se introducen regularmente en la actividad de AP.
 
 Este enfoque funciona bien si los visitantes responden de la misma manera a todas las ofertas de un grupo. Una práctica recomendada es agrupar aquellas ofertas a las que grupos de visitantes similares responden de forma similar. En otras palabras, agrupe las ofertas con tasas de conversión similares. Nunca debe colocar todas las ofertas en un solo grupo de informes. Agrupar todas las ofertas u ofertas con diferentes tasas de conversión probablemente reduzca la eficacia de los modelos de personalización de [!DNL Target].
 

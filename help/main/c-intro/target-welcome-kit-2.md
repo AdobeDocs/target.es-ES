@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # Capítulo 2: Generalidades de Adobe [!DNL Target]
@@ -162,6 +162,6 @@ Considere las siguientes ideas antes de pasar al siguiente capítulo: Desarrollo
 ### Las suposiciones también pueden afectar negativamente a los resultados.
 
 * Suposiciones que pueden afectar negativamente a su eficacia. Mentalidad de rebaño (así es como lo hace la competencia). Por ejemplo, todos nuestros competidores utilizan banners principales con imágenes rotativas, por lo que nosotros también deberíamos hacerlo.
-* Suponiendo que sepamos por qué algo funciona o no funciona. Asumiendo que no necesitamos probar algo. Por ejemplo, las habitaciones de hotel siempre aparecen en orden de precio de mayor a menor de manera predeterminada.
-* ¿Está actuando en función de las suposiciones? No es necesario probarlo, ya que hemos comprobado los análisis. (Sí, pero puede haber más variables de lo que revela el análisis).
+* Suponiendo que sepamos por qué algo funciona o no funciona. Suponiendo que no necesitamos probar algo. Por ejemplo, las habitaciones de hotel siempre aparecen en orden de precio de mayor a menor de manera predeterminada.
+* ¿Está actuando en función de las suposiciones? No es necesario probarlo, pues hemos comprobado los análisis. (Sí, pero puede haber más variables de lo que revela el análisis).
 * ¿O tiene mentalidad de optimización? Lo probamos todo.

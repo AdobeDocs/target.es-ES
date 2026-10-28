@@ -6,9 +6,9 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 2%
 ---
 
@@ -207,7 +207,7 @@ Las siguientes habilidades están disponibles en el complemento **Target**:
 
 *Mensajes de ejemplo:*
 
-* &quot;¿Por qué no aparecen mis recomendaciones?&quot;
+* ¿Por qué no aparecen mis recomendaciones?
 * &quot;Diagnostique la configuración de fuentes y catálogos para esta actividad de Recommendations.&quot;
 * &quot;¿Los problemas de entrega o configuración afectan a mis recomendaciones?&quot;
 

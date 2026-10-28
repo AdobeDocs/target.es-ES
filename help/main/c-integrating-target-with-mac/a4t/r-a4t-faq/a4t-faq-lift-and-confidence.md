@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 21%
 ---
 # Alza y confianza: preguntas más frecuentes sobre A4T
 
@@ -69,7 +69,7 @@ Algunos ejemplos de métricas o casos de uso no admitidos son:
 
 +++
 
-## ¿El alza y la confianza funcionan en las soluciones Ad Hoc y Report Builder? Si no es una opción ya integrada, ¿puedo usar esas soluciones para hacerlo yo? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## ¿El alza y la confianza funcionan en las soluciones Ad Hoc y Report Builder? Si no es nativo, ¿puedo hacerlo yo mismo? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Respuesta
 El alza y la confianza no funcionan en Ad Hoc ni en Report Builder, y no las puedes calcular para las variables continuas. Es posible calcularlas manualmente en el caso de las métricas binarias.

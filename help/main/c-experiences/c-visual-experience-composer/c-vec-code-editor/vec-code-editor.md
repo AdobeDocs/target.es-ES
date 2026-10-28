@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 81%
+source-wordcount: '2266'
+ht-degree: 79%
 ---
 # Modificaciones
 
@@ -205,7 +205,7 @@ Si ya no necesita el código personalizado, simplemente deje vacío este contene
 
 **No use el ID de elemento “CDQID” para modificaciones de la página realizadas en el Editor de código.**
 
-Target aplica un nuevo ID de elemento con el valor “CDQID” a cualquier elemento en la página que Target haya modificado. Como este ID es aplicado por Target, no debería usarse para modificaciones o ajustes futuros en el Editor de código.
+Target aplica un nuevo ID de elemento con el valor &quot;CDQID&quot; a cualquier elemento de la página que Target haya modificado. Como este ID es aplicado por Target, no debería usarse para modificaciones o ajustes futuros en el Editor de código.
 
 **No realice acciones document.write en scripts de código personalizado.**
 
@@ -242,7 +242,7 @@ Por ejemplo, si ha realizado dos acciones:
 
 Cada cambio crea un nuevo elemento en el panel Modificaciones. Como la segunda acción modifica al Elemento 1, si elimina el Elemento 1, la segunda acción ya no tiene nada para modificar. Por lo tanto, el cambio ya no funciona.
 
-En otras palabras, si agrega un elemento con texto y luego, en una acción aparte, edita dicho elemento con un texto diferente, el panel Modificaciones muestra ambas acciones como elementos separados. Cuando editó el elemento, creó un nuevo elemento que modifica al original que usted creó, y que contiene el texto editado. Si luego elimina el elemento original, el texto editado no podrá encontrar el elemento editado y no se mostrará. El segundo elemento permanece en la lista de elementos, pero no afecta a la página porque el elemento al que cambia ya no existe.
+En otras palabras, si agrega un elemento con texto y luego, en una acción aparte, edita dicho elemento con un texto diferente, el panel Modificaciones muestra ambas acciones como elementos separados. Cuando editó el elemento, creó un nuevo elemento que modifica al original que usted creó, y que contiene el texto editado. Si elimina el elemento original, el texto editado no podrá encontrar el elemento editado y no se mostrará. El segundo elemento permanece en la lista de elementos, pero no afecta a la página porque el elemento al que cambia ya no existe.
 
 ***Un elemento que creé con `document.write` en un script no aparece donde espero que lo haga.***
 

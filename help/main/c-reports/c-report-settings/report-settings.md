@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 44%
 ---
 # Configuración de informes
 
@@ -266,8 +266,8 @@ Si pasa el cursor sobre cualquiera de las experiencias en gris, en el gráfico s
 
 En el gráfico se representan las líneas de las 16 primeras experiencias (algunas se solapan, por lo que parece que hay menos de 16 líneas). El punto de color del panel Experiencias, situado la izquierda junto a cada nombre de experiencia, indica que la línea de diagrama de la experiencia se muestra en su color correspondiente.
 
-Si se desplaza hacia abajo en el panel Experiencias, verá que los nombres de los puestos 17.º a 26.º aparecen atenuados, como se ven en esta ilustración:
+Si se desplaza hacia abajo por el panel Experiencias, verá que los nombres de las experiencias 17 a 26 aparecen atenuados, como se muestra en la siguiente ilustración:
 
 Si pasa el cursor sobre una de las experiencias en gris, en el gráfico se muestra temporalmente su correspondiente nueva línea de diagrama gris.
 
-Suponga que quiere mostrar la línea de diagrama de la Experiencia R pero no quiere ver la de la Experiencia P. Puede hacer clic en el nombre de la Experiencia P para anular su selección y, a continuación, hacer clic en el nombre de la Experiencia R para seleccionarla, como se muestra a continuación:
+Supongamos que desea mostrar la línea de trazado para la Experiencia R y que no desea ver la línea para la Experiencia P. Puede hacer clic en el nombre de Experience P para anular la selección y, a continuación, hacer clic en el nombre de Experience R para seleccionarlo, como se muestra a continuación:

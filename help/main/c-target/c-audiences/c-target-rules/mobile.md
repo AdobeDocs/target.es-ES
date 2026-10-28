@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # Móvil
 
@@ -36,7 +36,7 @@ El destino para móviles se ofrece a través de [DeviceAtlas](https://deviceatla
 
 La detección de dispositivos se efectúa analizando las cadenas User-Agent. Algunos fabricantes de dispositivos, como Apple, proporcionan poca información en las UA para deshabilitar esta funcionalidad.
 
-Por ejemplo, los dispositivos Apple no comparten en las UA tokens específicos sobre el modelo de dispositivo. El resultado es que no es posible detectar modelos de iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, etc.) mediante un método simple basado en palabras clave.
+Por ejemplo, los dispositivos Apple no comparten tokens específicos de modelos de dispositivos en el UA. El resultado es que no es posible detectar modelos de iPhone (como iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, etc.) mediante un método simple basado en palabras clave.
 
 Para resolver este problema, [!DNL Target] recopila datos adicionales para detectar con precisión los iPhone y otros dispositivos Apple mediante los siguientes parámetros:
 

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 21%
 ---
 # Hosts
@@ -119,7 +119,7 @@ Si se realiza una solicitud [!DNL Target] en un host sin autorización, la llama
 
 En ocasiones, aparecen dominios de otros sitios en los entornos. Si el dominio llama a at.js, aparecerá un dominio en la lista. Por ejemplo, si alguien copia una de sus páginas web en su servidor, ese dominio aparecerá en nuestro entorno. También es probable que vea dominios de motores de araña, sitios de traducción de idiomas o unidades de disco locales.
 
-En casos en los que `mboxHost` se pasa en una llamada de API, la conversión se registra para el entorno que se pasa. Si no se pasa ningún entorno, el valor predeterminado del host de la llamada será [!UICONTROL Producción].
+En casos en los que `mboxHost` se pasa en una llamada API, la conversión se registra para el entorno que se pasa. Si no se pasa ningún entorno, el valor predeterminado del host de la llamada será [!UICONTROL Producción].
 
 También puede crear una lista de bloqueados de que especifique los hosts (dominios) que no pueden enviar [!DNL Target] solicitudes a [!DNL Target] agregando los hosts deseados en el cuadro [!UICONTROL El host no contiene].
 

@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias mejorado]
 
 Mostrar problemas que a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
 
-## El EEC no carga una URL de control de calidad interna que no es accesible desde una IP pública. {#section_D29E96911D5C401889B5EACE267F13CF}
+## El EEC no cargará una URL de control de calidad interna que no sea accesible desde una IP pública. {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++Detalles

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 28%
+source-wordcount: '666'
+ht-degree: 24%
 ---
 # Creación de una actividad que use Analytics como fuente de informes
 
@@ -75,7 +75,7 @@ Crear una actividad [!DNL Target] que use [!DNL Analytics] como origen de inform
    >
    >Puede enviar una métrica personalizada basada en Target a [!DNL Analytics], en lugar de depender solamente de los datos de [!DNL Analytics]. Por ejemplo, puede supervisar que se haga clic en una página, algo que [!DNL Analytics] no suele rastrear. Esta métrica personalizada se envía a [!DNL Analytics] automáticamente desde el servidor [!DNL Target] y aparece como la métrica &quot;[!DNL Target] Conversión&quot; en el selector de métricas de [!DNL Analytics]. La métrica de conversión [!DNL Target] está vacía si elige usar las métricas [!DNL Analytics].
 
-   El hecho de definir un objetivo no significa que no se pueda utilizar otra métrica al evaluar los resultados de la prueba. Sin embargo, el objetivo es establecer un recordatorio de lo que se quiere mejorar con la actividad.
+   Establecer un objetivo no significa que no pueda usar otra métrica para evaluar los resultados de las pruebas. Sin embargo, el objetivo es establecer un recordatorio de lo que se quiere mejorar con la actividad.
 
    El visitante permanece en la actividad después de alcanzar el objetivo. El visitante sigue viendo contenido de la actividad pero no se cuenta como una nueva participación en la actividad.
 

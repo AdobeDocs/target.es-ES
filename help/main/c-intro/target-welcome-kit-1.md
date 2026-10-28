@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 88%
+source-wordcount: '387'
+ht-degree: 71%
 ---
 # Capítulo 1: Introducción
 
@@ -38,7 +38,7 @@ Por ejemplo:
 
 Para interactuar con sus clientes de esta manera, es necesario contar con una solución que se pueda usar prácticamente en cualquier punto de contacto y que utilice casi cualquier fuente de datos para entenderlos. [!DNL Adobe Target], parte de [!DNL Adobe Experience Cloud], es esa solución. [!DNL Target] le ofrece las funciones de optimización y personalización que necesita para ofrecer a sus clientes las experiencias más relevantes y oportunas que generan más ingresos y conversiones.
 
-Si está revisando este kit de bienvenida, ya ha decidido crear su programa de optimización y personalización en [!DNL Adobe Target]. Nos alegra que lo hiciera.
+Si está revisando este kit de bienvenida, ya ha decidido crear su programa de optimización y personalización en [!DNL Adobe Target]. Nos alegra que lo hicieras.
 
 Ahora queremos asegurarnos de que empiece a usarlo de la manera correcta, de inmediato.
 

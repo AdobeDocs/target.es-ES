@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 88%
 ---
 # Capítulo 3: Desarrollo de las ideas de prueba y personalización
 
@@ -73,7 +73,7 @@ Para ello, haga lo siguiente:
 * Finalice y apruebe los diseños finales de las experiencias de actividades.
 * Documente los requisitos para la actividad de [!DNL Target], incluidos los criterios de entrada de prueba, las métricas de informes y los cambios de experiencia.
 
-Utilice el Planificador de actividades, que se incluye más adelante en el kit de bienvenida, para documentar los detalles de la actividad, incluidas las métricas que se usarán para evaluar el rendimiento de la actividad, como, por ejemplo, los clics en botones de llamada a la acción, los inicios de vídeo o los ingresos generados. Asegúrese de incluir capturas de pantalla o imágenes de los diseños de experiencia que desea probar o personalizar.
+Utilice el Planificador de actividades, que se incluye más adelante en el kit de bienvenida, para documentar los detalles de la actividad, incluidas las métricas que se utilizarán para medir el rendimiento de la actividad, como, por ejemplo, los clics en botones de call to action, los inicios de vídeo o los ingresos generados. Asegúrese de incluir capturas de pantalla o imágenes de los diseños de experiencia que desea probar o personalizar.
 
 ## Paso 4: Generación y ejecución
 

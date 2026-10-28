@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 84%
+source-wordcount: '569'
+ht-degree: 73%
 ---
 # Habilitación del contenido mixto en el navegador
 
@@ -35,7 +35,7 @@ Aparece un mensaje de advertencia si el [!UICONTROL Compositor de experiencias v
 
 Anteriormente, cuando el contenido mixto no estaba permitido, al crear actividades se podían realizar algunas acciones en el paso 1 del flujo de trabajo guiado de tres pasos. [!DNL Target] Ahora, bloquea las acciones en el paso 1. Cuando se muestra este mensaje, debe habilitar el contenido mixto antes de seguir creando la actividad.
 
-La configuración de seguridad del navegador podría bloquear el contenido mixto o no seguro (HTTP) que se carga en una página o marco seguro (HTTPS), como VEC. Si no desea deshabilitar la configuración de seguridad del navegador, debe disponer de un sitio web HTTPS.
+La configuración de seguridad del navegador podría bloquear el contenido mixto o no seguro (HTTP) que se carga en una página o marco seguro (HTTPS), como VEC. Si no desea deshabilitar la configuración de seguridad del explorador, debe tener un sitio web HTTPS.
 
 Si su sitio web se ejecuta en un dominio no seguro (HTTP), debe permitir que el VEC cargue el contenido mixto activo.
 
@@ -47,7 +47,7 @@ Para obtener más información, consulte [Contenido mixto](https://developer.moz
 
 ## Habilitar contenido mixto en [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Si va a visitar un sitio a través de una conexión segura, [!DNL Chrome] verificará que el contenido de la página web se haya transmitido correctamente.
+Si va a visitar un sitio a través de una conexión segura, [!DNL Chrome] comprueba que el contenido de la página web se haya transmitido correctamente.
 
 Consulte &quot;[Administrar advertencias sobre sitios no seguros](https://support.google.com/chrome/answer/99020?hl=es)&quot; en la Ayuda de Google Chrome.
 
@@ -86,7 +86,7 @@ De manera predeterminada, [!DNL Firebox] bloquea las páginas con contenido segu
 
 ## Habilitar contenido mixto en [!DNL Microsoft Edge]
 
-Si va a visitar un sitio a través de una conexión segura, [!DNL Edge] verificará que el contenido de la página web se haya transmitido correctamente.
+Si va a visitar un sitio a través de una conexión segura, [!DNL Edge] comprueba que el contenido de la página web se haya transmitido correctamente.
 
 Si utiliza el VEC con la última versión de [!DNL Edge], debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
 

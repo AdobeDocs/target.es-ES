@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # Preguntas frecuentes y solución de problemas de [!UICONTROL Segmentación automática]
 
@@ -45,7 +45,7 @@ Consulte las siguientes preguntas frecuentes y respuestas mientras trabaja con l
 * Decida si el valor comercial de una métrica de éxito de [!UICONTROL Ingresos por visita] (RPV) vale la pena por los requisitos de tráfico adicionales. Por lo general, RPV necesita al menos 1000 conversiones por experiencia para que una actividad funcione frente a la conversión.
 * Decida la asignación entre el control y las experiencias personalizadas antes de comenzar la actividad en función de sus objetivos.
 * Determine si tiene tráfico suficiente en la página donde se ejecuta su actividad [!UICONTROL Segmentación automática] para que los modelos de personalización se creen en un período de tiempo razonable.
-* Si está probando el algoritmo de personalización, no debe cambiar experiencias ni agregar ni eliminar atributos de perfil mientras la actividad está activa.
+* Si está probando el algoritmo de personalización, no debe cambiar experiencias ni añadir ni eliminar atributos de perfil mientras la actividad está activa.
 * Considere completar una actividad A/B entre las ofertas y las ubicaciones que planea usar en su actividad [!UICONTROL Segmentación automática] para garantizar que las ubicaciones y las ofertas tengan un impacto en el objetivo de optimización. Si una actividad A/B no demuestra una diferencia significativa, es probable que [!UICONTROL Segmentación automática] tampoco genere un alza.
 
   Si una prueba A/B no muestra diferencias estadísticamente significativas entre las experiencias, es probable que las ofertas que está considerando no sean suficientemente diferentes entre sí, las ubicaciones que seleccionó no influyen en la métrica de éxito o el objetivo de optimización está demasiado lejos en el embudo de conversión como para verse afectado por las ofertas elegidas.
@@ -66,7 +66,7 @@ Una práctica recomendada es mantener la división de asignación de tráfico du
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++

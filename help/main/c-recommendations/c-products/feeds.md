@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 29%
 ---
 # Fuentes
 
@@ -326,7 +326,7 @@ Estos son los posibles estados de una fuente:
 | [!UICONTROL Descargando archivo de fuente] | [!DNL Target] está descargando el archivo de fuente. |
 | [!UICONTROL Importando elementos] | [!DNL Target] está importando elementos del archivo de fuente. |
 | Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, vuelva a intentarlo y actualice la página que contiene recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones aún no se reflejen en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Búsqueda en el catálogo] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
-| Error de importación parcial | Anteriormente, cuando no se cargaban todas las filas, la fuente se marcaba como correcta. Por lo tanto, si se crea la impresión de que todas las filas se han cargado mientras la fuente se muestra correctamente,<P>Este es un escenario de por qué podría encontrar una importación parcial de fuentes:<ul><li>Ha cargado un archivo de fuente para el entorno de producción; por ejemplo, 100 filas.</li><li>Se ejecutó la fuente, se cargaron 80 de esas filas y se perdieron 20 debido a un formato incorrecto, a que el campo superaba los caracteres, etc.</li><li>La fuente se marcó como correcta en la interfaz de usuario, lo que da la impresión de que se han cargado las 100 filas.</li><li>Está esperando algunos de esos 20 productos en el envío de una actividad, pero no está ocurriendo.</li><li> En este punto se siente desconcertado porque ha cargado la fuente que contiene los detalles del producto para los productos en cuestión. No lo ve en el backend de cuando consulta a través de la API de entidad, que le indica que no está en el backend de.</li></ul>Para eliminar esta confusión, se mejora el mensaje para indicar exactamente qué ha pasado con la fuente. En lugar de marcarlo como un éxito, ahora se marca como un error de importación parcial. |
+| Error de importación parcial | Anteriormente, cuando no se cargaban todas las filas, la fuente se marcaba como correcta. Por lo tanto, si se crea la impresión de que todas las filas se han cargado mientras la fuente se muestra correctamente,<P>Este es un escenario de por qué podría encontrar una importación parcial de fuentes:<ul><li>Ha cargado un archivo de fuente para el entorno de producción; por ejemplo, 100 filas.</li><li>Se ejecutó la fuente, se cargaron 80 de esas filas y se perdieron 20 debido a un formato incorrecto, a que el campo superaba los caracteres, etc.</li><li>La fuente se marcó como correcta en la interfaz de usuario, lo que da la impresión de que se han cargado las 100 filas.</li><li>Está esperando algunos de esos 20 productos en el envío de una actividad, pero no está ocurriendo.</li><li> En este punto se siente desconcertado porque ha cargado la fuente que contiene los detalles del producto para los productos en cuestión. No lo ve en el servidor cuando realiza una consulta a través de la API de entidad, que le indica que no está en el servidor.</li></ul>Para eliminar esta confusión, se mejora el mensaje para indicar exactamente qué ha pasado con la fuente. En lugar de marcarlo como un éxito, ahora se marca como un error de importación parcial. |
 | [!UICONTROL No se pudo indexar] | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
 | [!UICONTROL Servidor No Encontrado] | Las ubicaciones de FTP, SFTP o URL no son válidas o no se puede acceder a ellas. |
 
@@ -343,7 +343,7 @@ En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de esta
 | Indicador de estado | Descripción |
 |--- |--- |
 | Indicador de estado verde | Cuando una fuente termina de indexarse correctamente, aparece un punto de estado verde que indica que la fuente tiene un estado correcto. |
-| Indicador de estado amarillo | Cuando una fuente o índice de fuente tiene un retraso de un 25 % de la frecuencia de la fuente, se muestra un punto de estado amarillo. Por ejemplo, el punto amarillo aparece en una fuente configurada para ejecutarse a diario si el índice aún no se ha completado pasadas seis horas de la hora programada. Nota: Una vez que el estado de la fuente es &quot;Esperando a la cola de índice&quot;, los valores recién actualizados ya están disponibles para su publicación y el procesamiento de criterios. |
+| Indicador de estado amarillo | Cuando una fuente o índice de fuente tiene un retraso de un 25 % de la frecuencia de la fuente, se muestra un punto de estado amarillo. Por ejemplo, el punto amarillo aparece en una fuente configurada para ejecutarse a diario si el índice no se ha completado pasadas seis horas de la hora programada. Nota: Una vez que el estado de la fuente es &quot;Esperando a la cola de índice&quot;, los valores recién actualizados ya están disponibles para su publicación y el procesamiento de criterios. |
 | Indicador de estado blanco | Cuando una fuente no está programada, un punto de estado blanco indica que aún no se ha ejecutado. |
 | Indicador de estado rojo | Si la fuente no puede cargar datos en el servidor, se muestra un indicador de estado rojo. |
 
@@ -352,7 +352,7 @@ Veamos los siguientes ejemplos:
 **Ejemplo 1:**
 
 * Día uno: procesos diarios de alimentación a las 9:00 a.m. PST.
-* Día dos: son las 15:30 y la fuente no se ha ejecutado desde ayer a las 9:00
+* Día dos: son las 3:30 p.m. y la fuente no ha funcionado desde ayer a las 9:00 a.m.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace 6 horas y media. 6,5 horas + 24 es un 127 % del plazo de la fuente.
 

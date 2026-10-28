@@ -9,33 +9,48 @@ exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+    internal-label: Reporting
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 3233
-ht-degree: 47%
-
+source-wordcount: '3255'
+ht-degree: 48%
 ---
-
 # Permisos de usuario de Enterprise
 
 Los permisos de usuario de Enterprise son un medio para administrar formalmente el acceso de usuarios de nivel Enterprise a [!DNL Adobe Target]. Agregue usuarios a [!DNL Target], asigne permisos según sus funciones y cree espacios de trabajo para equipos en función de diferentes departamentos, ubicaciones globales, canales y otras agrupaciones lógicas. Puede asignar a los usuarios las funciones de [!UICONTROL Observador], [!UICONTROL Editor], [!UICONTROL Aprobador] o [!UICONTROL Publicador].
@@ -171,7 +186,7 @@ En los siguientes casos de uso, trataremos de explicar cómo lograr los objetivo
 ### Organización multinacional
 
 Si forma parte de una organización multinacional, puede tener un espacio de trabajo para sus páginas web, propiedades o sitios europeos y otro para sus páginas web, propiedades o sitios estadounidenses.
-Después de una reorganización, utilizando los personajes de las ilustraciones anteriores, puede configurar espacios de trabajo y permisos similares a los siguientes:
+Usando los personajes de las ilustraciones anteriores, tras una reorganización, podría configurar los espacios de trabajo y permisos de este modo:
 
 * **Jan:** Jan es la jefa de optimización del Centro de excelencia para las páginas web, las propiedades y los sitios estadounidenses de la organización. Es muy probable que tenga derechos de administración del sistema en Adobe Experience Cloud.
 
@@ -231,40 +246,40 @@ Tenga en cuenta lo siguiente al utilizar o configurar propiedades y permisos en 
 * **Importante**: No elimine espacios de trabajo con actividades. Si elimina un espacio de trabajo con actividades, trabaje con Atención al cliente para recuperar esas actividades.
 * Al utilizar la vista Todos mis espacios de trabajo:
 
-   * Puede ver las actividades, audiencias y ofertas de todos los espacios de trabajo para los que tenga el rol adecuado y permiso de acceso.
-   * Al seleccionar la vista [!UICONTROL Todos mis espacios de trabajo], se agrega una nueva columna a la página Actividades, Audiencias y Ofertas. En esta columna se muestra el espacio de trabajo del elemento y los permisos de usuario asociados a dicho elemento (Observador, Editor o Aprobador).
-   * Al crear una actividad, público u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se creará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
-   * Al copiar una actividad, público u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se copiará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
+  * Puede ver las actividades, audiencias y ofertas de todos los espacios de trabajo para los que tenga el rol adecuado y permiso de acceso.
+  * Al seleccionar la vista [!UICONTROL Todos mis espacios de trabajo], se agrega una nueva columna a la página Actividades, Audiencias y Ofertas. En esta columna se muestra el espacio de trabajo del elemento y los permisos de usuario asociados a dicho elemento (Observador, Editor o Aprobador).
+  * Al crear una actividad, público u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se creará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
+  * Al copiar una actividad, público u oferta en la vista Todos mis espacios de trabajo, debe seleccionar el espacio de trabajo donde se copiará el elemento. Solo podrá seleccionar los espacios de trabajo para los que disponga del permiso Editor o Aprobador.
 
 * Cualquier configuración en las siguientes páginas de [!UICONTROL Administración] puede ser controlada por cualquier [!UICONTROL Aprobador] en cualquier espacio de trabajo:
 
-   * Compositor de experiencias visuales
-   * Creación de informes
-   * Configuración de Scene7
-   * Implementación
-   * Propiedades
-   * Hosts
-   * Entornos
-   * Tokens de respuesta
-   * Usuarios
+  * Compositor de experiencias visuales
+  * Creación de informes
+  * Configuración de Scene7
+  * Implementación
+  * Propiedades
+  * Hosts
+  * Entornos
+  * Tokens de respuesta
+  * Usuarios
 
 * Los usuarios no pueden mover recursos de un espacio de trabajo (perfil de producto) a otro. Sin embargo, sí se permite la copia.
 * Si visualiza los públicos desde la página [!DNL Audiences], la página carga más lento de lo esperado. Si interactúa con la barra de búsqueda de cualquier forma, las audiencias se muestran más rápido. Este problema se conoce y se solucionará en una actualización próxima. Este problema no afecta a la selección de audiencias durante el flujo de trabajo de creación de actividades.
 * Los siguientes recursos son parte del nuevo modelo de permisos de Enterprise:
 
-   * Las actividades, audiencias y ofertas de código creadas en [!DNL Target Standard/Premium] están disponibles para su uso una vez que el cliente haya habilitado los permisos. (Nota: los clientes deben tener derecho a [!DNL Target Premium].)
-   * Las propiedades se pueden añadir a las actividades existentes en la Workspace predeterminada; sin embargo, este método está sujeto a cambios.
-   * Solo los nuevos recursos (como actividades, ofertas de código y audiencias) creados en Target Premium (una vez habilitados los permisos de Enterprise) se pueden restringir mediante permisos.
-   * Los recursos externos solo están disponibles para los usuarios en el espacio de trabajo predeterminado. El rol de un usuario en el espacio de trabajo predeterminado se aplica globalmente (a todas las solicitudes y recursos de Target).
+  * Las actividades, audiencias y ofertas de código creadas en [!DNL Target Standard/Premium] están disponibles para su uso una vez que el cliente haya habilitado los permisos. (Nota: los clientes deben tener derecho a [!DNL Target Premium].)
+  * Las propiedades se pueden añadir a las actividades existentes en la Workspace predeterminada; sin embargo, este método está sujeto a cambios.
+  * Solo los nuevos recursos (como actividades, ofertas de código y audiencias) creados en Target Premium (una vez habilitados los permisos de Enterprise) se pueden restringir mediante permisos.
+  * Los recursos externos solo están disponibles para los usuarios en el espacio de trabajo predeterminado. La función de un usuario en el espacio de trabajo predeterminado se aplica globalmente (a todas las solicitudes y recursos de Target).
 
 * Los siguientes recursos *no* son parte del nuevo modelo de permisos de Enterprise:
 
-   * Ofertas de imágenes
-   * Todos los recursos de Recommendations, incluidos la Biblioteca de criterios, Biblioteca de diseños, Catálogo, Configuración de Recommendations.
-   * Los recursos existentes (como actividades, ofertas de código y audiencias) creados en Target Premium antes de habilitar los permisos de Enterprise se pueden copiar, pero no se pueden mover a otros espacios de trabajo.
-   * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte de la Workspace predeterminada: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, públicos, ofertas de código y ofertas de imagen).
-   * Actualmente, las ofertas de imagen (recursos almacenados en `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) no se pueden controlar mediante el modelo de permisos de Enterprise.
-   * clickTracking y las redirecciones funcionan cuando el vínculo de destino o la página de destino son parte de una propiedad incluida en la actividad. Además, es posible que clickTracking no funcione al utilizar la función `targetPageParams()`. La función recomendada es `targetPageParamsAll()`.
+  * Ofertas de imágenes
+  * Todos los recursos de Recommendations, incluidos la Biblioteca de criterios, Biblioteca de diseños, Catálogo, Configuración de Recommendations.
+  * Los recursos existentes (como actividades, ofertas de código y audiencias) creados en Target Premium antes de habilitar los permisos de Enterprise se pueden copiar, pero no se pueden mover a otros espacios de trabajo.
+  * Las actividades, audiencias, ofertas de código, ofertas de imágenes o cualquier otro recurso creado con las siguientes soluciones o métodos no se pueden controlar mediante el modelo de permisos de Enterprise, pero forman parte de la Workspace predeterminada: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services y recursos creados mediante API. Recursos creados mediante API (incluidas actividades, públicos, ofertas de código y ofertas de imagen).
+  * Actualmente, las ofertas de imagen (recursos almacenados en `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) no se pueden controlar mediante el modelo de permisos de Enterprise.
+  * clickTracking y las redirecciones funcionan cuando el vínculo de destino o la página de destino son parte de una propiedad incluida en la actividad. Además, es posible que clickTracking no funcione al utilizar la función `targetPageParams()`. La función recomendada es `targetPageParamsAll()`.
 
   [!DNL Target] requiere actualmente un token `at_property` en cualquier página donde se realice un seguimiento. Si el token (1) no está presente, (2) no se detecta a la hora de configurar la actividad (en el VEC) o (3) no se pasa a la llamada de Target de rastreo de clics a través de la función `targetPageParamsAll()`, la métrica no se incrementa y aparece como &quot;0&quot;.
 
@@ -330,7 +345,7 @@ Los siguientes vídeos contienen más información sobre los conceptos mencionad
 
 Objetivos de aprendizaje:
 
-* Los tres roles que pueden tener los usuarios de Adobe Target
+* Los tres funciones que pueden tener los usuarios de Adobe Target
 * Los conceptos de propiedad y espacio de trabajo, y cómo operan estos límites y agrupamientos para permitir controlar el nivel de acceso de los usuarios
 * Diferentes ejemplos de propiedades para la consideración de su organización
 

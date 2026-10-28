@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 45%
+source-wordcount: '2586'
+ht-degree: 43%
 ---
 # Fuentes
 
@@ -327,7 +327,7 @@ En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de esta
 | Indicador de estado | Descripción |
 |--- |--- |
 | Indicador de estado verde | Cuando una fuente termina de indexarse correctamente, aparece un punto de estado verde que indica que la fuente tiene un estado correcto. |
-| Indicador de estado amarillo | Cuando una fuente o índice de fuente tiene un retraso de un 25 % de la frecuencia de la fuente, se muestra un punto de estado amarillo. Por ejemplo, el punto amarillo aparece en una fuente configurada para ejecutarse a diario si el índice aún no se ha completado pasadas seis horas de la hora programada. Nota: Una vez que el estado de la fuente es &quot;Esperando a la cola de índice&quot;, los valores recién actualizados ya están disponibles para su publicación y el procesamiento de criterios. |
+| Indicador de estado amarillo | Cuando una fuente o índice de fuente tiene un retraso de un 25 % de la frecuencia de la fuente, se muestra un punto de estado amarillo. Por ejemplo, el punto amarillo aparece en una fuente configurada para ejecutarse a diario si el índice no se ha completado pasadas seis horas de la hora programada. Nota: Una vez que el estado de la fuente es &quot;Esperando a la cola de índice&quot;, los valores recién actualizados ya están disponibles para su publicación y el procesamiento de criterios. |
 | Indicador de estado blanco | Cuando una fuente no está programada, un punto de estado blanco indica que aún no se ha ejecutado. |
 | Indicador de estado rojo | Si la fuente no puede cargar datos en el servidor, se muestra un indicador de estado rojo. |
 
@@ -336,7 +336,7 @@ Veamos los siguientes ejemplos:
 **Ejemplo 1:**
 
 * Día uno: procesos diarios de alimentación a las 9:00 a.m. PST.
-* Día dos: son las 15:30 y la fuente no se ha ejecutado desde ayer a las 9:00
+* Día dos: son las 3:30 p.m. y la fuente no ha funcionado desde ayer a las 9:00 a.m.
 
 El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutado, más o menos, hace 6 horas y media. 6,5 horas + 24 es un 127 % del plazo de la fuente.
 

@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # Compositor de experiencias visuales (VEC)
 
@@ -33,7 +33,7 @@ Esta dirección URL determina la página de inicio al abrir el VEC. Si no establ
 >
 >Algunos navegadores, como Firefox, pueden bloquear una página y evitar que se muestre en el VEC si esta contiene contenido mixto (por ejemplo, una página no segura en un sitio seguro). Si la página no se muestra, haga clic en el icono situado junto a la dirección URL en la barra de direcciones del explorador y seleccione **[!UICONTROL Deshabilitar la protección en esta página]**. Este problema no afecta a la visualización de las páginas de los visitantes del sitio.
 
-El contenido de dentro de un iframe en la página no se puede modificar en el VEC. Para editar el contenido de dentro de un iframe, asegúrese de que el documento del iframe tenga habilitada la segmentación y luego cargue la dirección URL del iframe en el VEC.
+El contenido dentro de un iframe en la página no se puede modificar en el VEC. Para editar el contenido de dentro de un iframe, asegúrese de que el documento del iframe tenga habilitada la segmentación y luego cargue la dirección URL del iframe en el VEC.
 
 Puede usar los menús desplegables de la parte superior de la página para ver su página tal como se mostrará a diferentes audiencias o con diferentes experiencias. Puede asignar un nombre a cada experiencia en la segunda lista desplegable. Por ejemplo, si está probando la ubicación del vínculo a la página de inicio en la barra de navegación, sería interesante poner a la experiencia en la que aparece primero el vínculo a la página de inicio un nombre como “Vínculo a Inicio”, para que sea más fácil identificar las experiencias de la lista.
 

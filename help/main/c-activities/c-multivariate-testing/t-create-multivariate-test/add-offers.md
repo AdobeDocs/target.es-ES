@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 55%
+source-wordcount: '500'
+ht-degree: 53%
 ---
 # Crear combinaciones
 
@@ -59,7 +59,7 @@ Cada oferta de HTML se convierte en una experiencia independiente en esa ubicaci
 
 ## Prácticas recomendadas {#section_2E98C23D2F1A460FA732A31799CE6291}
 
-* No incluya en la prueba más ubicaciones de las necesarias. Cada experiencia que incluya en la prueba aumenta considerablemente la cantidad de tráfico y el tiempo necesario para obtener resultados aceptables. Por ejemplo, si tiene elementos de página con tres ofertas cada uno, hay nueve combinaciones posibles (3x3). Cuando hay tres elementos, de los cuales dos contienen tres ofertas posibles y uno tiene dos ofertas, se generan 18 opciones (3x3x2). Los números aumentan considerablemente con cada elemento y oferta adicional.
+* No incluya más ubicaciones de las necesarias para la prueba. Cada experiencia que incluya en la prueba aumenta considerablemente la cantidad de tráfico y el tiempo necesario para obtener resultados aceptables. Por ejemplo, si tiene elementos de página con tres ofertas cada uno, hay nueve combinaciones posibles (3x3). Cuando hay tres elementos, de los cuales dos contienen tres ofertas posibles y uno tiene dos ofertas, se generan 18 opciones (3x3x2). Los números aumentan considerablemente con cada elemento y oferta adicional.
 * Al crear pruebas multivariable, puede excluir más del 10 % de las experiencias de la prueba, siempre y cuando tenga en cuenta la advertencia de utilizar la creación de informes sin conexión para el análisis.
 * Aproveche las características de vista previa para evitar combinaciones de contenido no deseadas. Por ejemplo, es posible que tenga dos imágenes que ofrezcan descuentos distintos en el mismo artículo o servicio. Mostrar las dos imágenes en la misma página no sería lógico y es probable que genere confusión.
 * Utilice el [Estimador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) para asegurarse de que la prueba está diseñada para la cantidad de tráfico que recibe su página. Asegúrese de que el Estimador de tráfico dé luz verde a la configuración de la prueba para que pueda obtener los resultados que desea.

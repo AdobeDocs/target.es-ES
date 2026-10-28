@@ -3,10 +3,10 @@ keywords: Notas de la versión;notas de la versión preliminar;mejoras futuras;c
 description: Vea una lista de funciones, mejoras y correcciones incluidas en versiones anteriores de Adobe Target.
 title: ¿Qué funciones se incluyen en versiones anteriores?
 feature: Release Notes
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '72456'
-ht-degree: 48%
+source-wordcount: '72491'
+ht-degree: 47%
 ---
 # Notas de la versión para versiones anteriores
 
@@ -2022,7 +2022,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -2997,7 +2997,7 @@ Esta versión incluye las siguientes nuevas funciones:
 | Actualización de la interfaz de usuario de [!UICONTROL Audiences] | Como parte del esfuerzo continuo del equipo [!DNL Adobe Target] por mejorar la experiencia del usuario para los usuarios de [!DNL Target], esta versión actualiza las páginas de [!UICONTROL Audiencias] y [!UICONTROL Scripts de perfil] en la interfaz de usuario de [!DNL Target]. Esta actualización unifica y estandariza los patrones de diseño que anteriormente eran incoherentes, a la vez que añade nuevas mejoras, como las siguientes:<ul><li>La capacidad de seleccionar y eliminar varios públicos simultáneamente</li><li>Un [diseño del generador de públicos](/help/main/c-target/c-audiences/create-audience.md) actualizado</li><li>Compatibilidad con reglas de exclusión en el generador de reglas de biblioteca de [!UICONTROL Audience]</li><li>El nuevo filtro &quot;Audience Source&quot; que permite una detección de audiencias más rápida</li><li>Opciones de filtro y búsqueda persistentes de sesión</li></ul>Para obtener más información, consulte [Públicos](/help/main/c-target/target.md). |
 | Actualización de la interfaz de usuario de [!UICONTROL Scripts de perfil] | La biblioteca [!UICONTROL Scripts de perfil] también se ha actualizado e incluye una interfaz actualizada y varias actualizaciones de productividad:<ul><li>La capacidad de seleccionar y eliminar varios scripts del perfil simultáneamente</li><li>Un nuevo editor de código para scripts de perfil</li><li>Resaltado de sintaxis y comprobación de errores dentro del editor de código</li><li>Completar automáticamente los parámetros de tokens (mbox o perfil) mediante métodos abreviados del teclado</li></ul>Para obtener más información, consulte [Perfiles de los visitantes](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
 | [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."} Creación y edición de criterios de Recommendations | El flujo de trabajo de creación y edición de [!UICONTROL Criterios de Recommendations] se ha optimizado para simplificar la selección del algoritmo y la configuración de recomendaciones adecuadas para lograr sus objetivos.<br>Para obtener más información, consulte [Creación de criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| Mejoras en la ventana retrospectiva y la velocidad de actualización del algoritmo de Recommendations con ![Distintivo Premium](/help/main/assets/premium.png) | Ahora puede ejecutar los algoritmos “Más visitados” y “Principales vendedores” con una ventana retrospectiva de seis horas para capturar el contenido que es más reciente en la tendencia. Cuando se selecciona la ventana retrospectiva de seis horas, los resultados de las recomendaciones se actualizan de cada tres a seis horas a lo largo del día.<br>Para obtener más información, consulte [Fuente de datos](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) en *Creación de criterios*. |
+| Mejoras en la ventana retrospectiva y la velocidad de actualización del algoritmo de Recommendations con ![Distintivo Premium](/help/main/assets/premium.png) | Ahora puede ejecutar los algoritmos &quot;Más visitados&quot; y &quot;Principales vendedores&quot; con una ventana retrospectiva de seis horas para capturar el contenido que es más reciente en la tendencia. Cuando se selecciona la ventana retrospectiva de seis horas, los resultados de las recomendaciones se actualizan de cada tres a seis horas a lo largo del día.<br>Para obtener más información, consulte [Fuente de datos](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) en *Creación de criterios*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 de septiembre de 2021)
 
@@ -3624,7 +3624,7 @@ Esta versión incorpora las siguientes funciones, cambios y mejoras:
 
 | Función/Mejora | Descripción |
 | --- | --- |
-| Compositor de experiencias visuales | El Compositor de experiencias visuales (VEC) incluye las siguientes mejoras para que su funcionamiento sea más rápido y eficiente:<ul><li>Ahora puede cancelar la carga de un sitio web en el VEC para desbloquear la edición de una actividad. Esta mejora es útil si, por ejemplo, necesita hacer un pequeño cambio en una actividad, revisar su configuración o añadir código personalizado y no quiere esperar a que se cargue el sitio web. (TGT -31288)<br>Consulte [Cancelar carga de una página dentro del VEC](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Puede realizar muchas acciones antes de que la página se cargue en VEC o incluso si la página no se carga completamente (por ejemplo, si el código personalizado ya no funciona). Las acciones que no se pueden editar antes de que el sitio web cargue no aparecerán en la IU de Target. (TGT-31288, TGT-31611 y TGT-32602)<br>Consulte [Editar una página mientras se carga o después de que la página no se haya cargado](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>El VEC muestra la ruta DOM para que pueda seleccionar fácilmente el elemento que necesite durante la creación o edición de experiencias. (TGT -13422)<br>Consulte [Navegación por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
+| Compositor de experiencias visuales | El Compositor de experiencias visuales (VEC) incluye las siguientes mejoras para que su funcionamiento sea más rápido y eficiente:<ul><li>Ahora puede cancelar la carga de un sitio web en el VEC para desbloquear la edición de una actividad. Esta mejora es útil si, por ejemplo, desea realizar una pequeña edición en la actividad, revisar su configuración o añadir código personalizado y no desea esperar a que se cargue el sitio. (TGT -31288)<br>Consulte [Cancelar carga de una página dentro del VEC](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Puede realizar muchas acciones antes de que la página se cargue en VEC o incluso si la página no se carga completamente (por ejemplo, si el código personalizado ya no funciona). Las acciones que no se pueden editar antes de que el sitio web cargue no aparecerán en la IU de Target. (TGT-31288, TGT-31611 y TGT-32602)<br>Consulte [Editar una página mientras se carga o después de que la página no se haya cargado](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>El VEC muestra la ruta DOM para que pueda seleccionar fácilmente el elemento que necesite durante la creación o edición de experiencias. (TGT -13422)<br>Consulte [Navegación por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
 
 ### Versión 2.0.1 de at.js (19 de marzo de 2019) {#atjs201}
 
@@ -3716,7 +3716,7 @@ Esta versión incorpora las siguientes funciones, cambios y mejoras:
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Los selectores eluden el CSS si contienen ID o clases de CSS que comiencen con un dígito, dos guiones o un guion seguido por un dígito (por ejemplo, n.º 123). (TNT-31061) </p> </li> 
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Se ha corregido un problema introducido con at.js 1.6.2 en el que las ofertas del Compositor de experiencias visuales (VEC) de diferentes actividades y aplicables al mismo selector de CSS no respetaban la prioridad de la actividad. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Se ha corregido un problema con el tiempo de espera de una promesa en entornos en los que no había compatibilidad nativa con las promesas. (TNT-30974) </p> </li> 
-      <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Los problemas se registran y comunican correctamente mediante el evento fallido de representación de contenido. Es posible que anteriormente JavaScript haya informado que se ejecutó correctamente, incluso si no era así. (TNT-30599) </p> </li> 
+      <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Los problemas se registran y comunican correctamente mediante el evento fallido de representación de contenido. Es posible que anteriormente JavaScript se haya informado que se ejecutó correctamente, aunque no fuera así. (TNT-30599) </p> </li> 
      </ul> </p> <p>Para obtener más información, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es" format="dita" scope="local">Detalles de la versión de at.js</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -3978,7 +3978,7 @@ En esta versión de [!DNL Target] se incluyen las siguientes mejoras, correccion
       <li id="li_2852878862724BB2BD475C8FC7BF20DA"> <p>Se solucionó un problema que provocaba que <span class="codeph">window.targetGlobalSettings.enabled</span> fallara con una excepción de tiempo de ejecución si se establecía en Falso. (TNT-29829) </p> </li> 
       <li id="li_96E5E409B36444F1B0E3E2606DC03996"> <p>Se solucionó un problema que provocaba que la página fallara al cargarse en el Compositor de experiencias visuales (VEC) si se incluía código personalizado en una solicitud mbox global y se utilizaba ocultación de texto. (TNT-29795) </p> </li> 
       <li id="li_818AA4EDDAC04D8B9BB4BA708D6BEF99"> <p>Se añadió compatibilidad con <span class="codeph">screenOrientation</span>, <span class="codeph">devicePixelRatio</span> y <span class="codeph">webGLRenderer</span>. Estos nuevos parámetros de solicitud de Target se utilizan para la detección de iPhone X y otros dispositivos modernos. Para obtener más información, consulte <a href="/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local">Móvil</a>. (TNT-29781) </p> </li> 
-      <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Se solucionó un problema por el cual no siempre se enviaba la sugerencia de ubicación de Adobe Audience Manager (AAM). (TNT-29695) </p> </li> 
+      <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Se ha corregido un problema por el cual no siempre se enviaba la sugerencia de ubicación de Adobe Audience Manager (AAM). (TNT-29695) </p> </li> 
       <li id="li_E9E5A5035AC24F54ADEF5447E3F15D3B"> <p>En los navegadores compatibles, at.js 1.5.0 cambia a MutationObserver para el sondeo de selectores. Las versiones anteriores a at.js 1.0.0 utilizaban un polyfill MutationObserver que resultó problemático. Para evitar problemas de polyfill, la versión 1.5.0 utiliza el siguiente pseudocódigo a fin de decidir el mecanismo de programación que debe utilizarse: </p> <p> 
         <code>
           if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
@@ -4272,7 +4272,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Se ha cambiado el nombre de Adobe Marketing Cloud y ahora se conoce como Adobe Experience Cloud. </p> </td> 
-   <td colname="col2"> <p>Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una intuitiva interfaz que le permite acceder rápidamente a sus soluciones y servicios principales en la nube. </p> <p>Cambio de marca y cambios de IU: Adobe Marketing Cloud ha cambiado de marca y ahora se llama Adobe Experience Cloud. Además, verá modificaciones de la IU en la interfaz de Target y en la aplicación de cambio de solución. </p></td> 
+   <td colname="col2"> <p>Experience Cloud es la familia integrada de soluciones y servicios de marketing digital de Adobe. También es una interfaz intuitiva que le permite acceder rápidamente a sus soluciones y servicios principales en la nube. </p> <p>Cambio de marca y cambios de IU: Adobe Marketing Cloud ha cambiado de marca y ahora se llama Adobe Experience Cloud. Además, verá modificaciones de la IU en la interfaz de Target y en la aplicación de cambio de solución. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -4657,8 +4657,8 @@ Esta versión de [!DNL Target] incluye las siguientes mejoras, correcciones y ca
    <td colname="col2"> <p><b>3 de agosto de 2017</b> </p> <p> Ya está disponible la versión 1.1 de <span class="filepath">at.js</span>. Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=es" format="dita" scope="local">Descargar at.js</a>. </p> <p>En la versión 1.1 de <span class="filepath">at.js</span> se incluyen las siguientes mejoras y correcciones: </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>Se ha añadido la gestión de tokens de respuesta. Para obtener más información, consulte <a href="/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">Tokens de respuesta</a>. </p> </li> 
-      <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Se ha resuelto un problema para que <span class="codeph">document.currentScript polyfill</span> no interfiera con Angular 1.X. </p> </li> 
-      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Se han realizado cambios para asegurar que el rastreo de clics no interfiera con la propiedad Visibilidad. Los elementos de rastreo de clics se marcan con la clase CSS <span class="codeph">at-element-click-tracking</span> en vez de con <span class="codeph">at-element-marker</span>. </p> </li> 
+      <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Se ha resuelto un problema para que <span class="codeph"> document.currentScript polyfill </span> no interfiera con Angular 1.X. </p> </li> 
+      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Se han realizado cambios para garantizar que el rastreo de clics no interfiera con la propiedad de visibilidad. Los elementos de rastreo de clics se marcan con la clase CSS <span class="codeph">at-element-click-tracking</span> en vez de con <span class="codeph">at-element-marker</span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -5148,7 +5148,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
      <ul id="ul_E4D300700390433E9EF8D5C9D3AA7669"> 
       <li id="li_E916EB3A77ED4CFF90CF6B4D30F188B1"> <p>Garantiza que las llamadas de mbox se realicen en Microsoft Internet Explorer 11 si los navegadores heredados están desactivados en la configuración de <span class="codeph">at.js</span>. </p> </li> 
       <li id="li_1130509832CE429DB6DE636404CC54E1"> <p>Garantiza que se procese el contenido predeterminado si una oferta remota dinámica falla (por ejemplo, si la URL es incorrecta y devuelve un error 404). </p> </li> 
-      <li id="li_21B5225D894B43CB863A775C937F66F4"> <p>Garantiza que los elementos se revelen rápidamente si los selectores de rastreo de clics de VEC no se encuentran en DOM. </p> </li> 
+      <li id="li_21B5225D894B43CB863A775C937F66F4"> <p>Garantiza que los elementos se revelen rápidamente cuando los selectores de rastreo de clics de VEC no se encuentren en el DOM. </p> </li> 
      </ul> </p> <p>Para obtener más información, consulte <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es" format="dita" scope="local">Detalles de la versión de at.js</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -5412,7 +5412,7 @@ Esta versión incluye las siguientes correcciones:
 
 Se han informado los siguientes problemas conocidos:
 
-* Cuando se selecciona “Desactivar JavaScript” para una página A en la actividad de múltiples páginas, se desactiva JavaScript en todas partes, incluso si no se ha seleccionado “Desactivar JavaScript” en las demás páginas.
+* Cuando se selecciona &quot;Deshabilitar JavaScript&quot; para una página A en una actividad de varias páginas, se desactiva JavaScript en todas partes, aunque no se haya seleccionado &quot;Deshabilitar JavaScript&quot; en otras páginas.
 * Un problema con las direcciones URL de vista previa en las experiencias con un redireccionamiento. Para solucionarlo, en el Compositor de experiencias haga clic en **[!UICONTROL Configurar]**, elija **[!UICONTROL Varias audiencias]** y añada **[!UICONTROL Todos los visitantes]** como única audiencia. Guarde la actividad. Esto hace que funcione la vista previa, pero no cambia la entrega de la actividad. Esto se arreglará en la versión de Adobe Target que se publicará en julio.
 
 * La documentación muestra el comportamiento esperado para la casilla de verificación Dirección URL de redireccionamiento. Sin embargo, debido a un error, esta casilla no aparece seleccionada de forma predeterminada. Este defecto se arreglará pronto.
@@ -5495,7 +5495,7 @@ Se ha mejorado el proceso de aprovisionamiento de A4T.
 
 Se han informado los siguientes problemas conocidos:
 
-* Cuando se selecciona “Desactivar JavaScript” para una página A en la actividad de múltiples páginas, se desactiva JavaScript en todas partes, incluso si no se ha seleccionado “Desactivar JavaScript” en las demás páginas.
+* Cuando se selecciona &quot;Deshabilitar JavaScript&quot; para una página A en una actividad de varias páginas, se desactiva JavaScript en todas partes, aunque no se haya seleccionado &quot;Deshabilitar JavaScript&quot; en otras páginas.
 * Un problema con las direcciones URL de vista previa en las experiencias con un redireccionamiento. Para solucionarlo, en el Compositor de experiencias haga clic en **[!UICONTROL Configurar]**, elija **[!UICONTROL Varias audiencias]** y añada **[!UICONTROL Todos los visitantes]** como única audiencia. Guarde la actividad. Esto hace que funcione la vista previa, pero no cambia la entrega de la actividad. Esto se arreglará en la versión de Adobe Target que se publicará en julio.
 
 ### Biblioteca de implementación de [!DNL Target] nueva, at.js 0.8.0 (5 de mayo de 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
@@ -5597,7 +5597,7 @@ Esta versión incluye las siguientes correcciones:
 
 Se han informado los siguientes problemas conocidos:
 
-* Cuando se selecciona “Desactivar JavaScript” para una página A en la actividad de múltiples páginas, se desactiva JavaScript en todas partes, incluso si no se ha seleccionado “Desactivar JavaScript” en las demás páginas.
+* Cuando se selecciona &quot;Deshabilitar JavaScript&quot; para una página A en una actividad de varias páginas, se desactiva JavaScript en todas partes, aunque no se haya seleccionado &quot;Deshabilitar JavaScript&quot; en otras páginas.
 
 ### Adobe [!DNL Target] Standard/Premium 16.3.1 (15 de marzo de 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
@@ -5641,7 +5641,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
 
 Se han informado los siguientes problemas conocidos:
 
-* Cuando se selecciona “Desactivar JavaScript” para una página A en la actividad de múltiples páginas, se desactiva JavaScript en todas partes, incluso si no se ha seleccionado “Desactivar JavaScript” en las demás páginas.
+* Cuando se selecciona &quot;Deshabilitar JavaScript&quot; para una página A en una actividad de varias páginas, se desactiva JavaScript en todas partes, aunque no se haya seleccionado &quot;Deshabilitar JavaScript&quot; en otras páginas.
 * Es posible que haya ciertos problemas con la interfaz en Internet Explorer 10, como parpadeos de la pantalla y lentitud.
 * La actualización de la versión 48 de Chrome introdujo un problema que ocasionaba un funcionamiento incorrecto del Compositor de experiencias visuales en Chrome. Google está trabajando en una solución. Para obtener información, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para encontrar una solución alternativa a este problema:
 
@@ -5663,7 +5663,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
 
 Se han informado los siguientes problemas conocidos:
 
-* Cuando se selecciona “Desactivar JavaScript” para una página A en la actividad de múltiples páginas, se desactiva JavaScript en todas partes, incluso si no se ha seleccionado “Desactivar JavaScript” en las demás páginas.
+* Cuando se selecciona &quot;Deshabilitar JavaScript&quot; para una página A en una actividad de varias páginas, se desactiva JavaScript en todas partes, aunque no se haya seleccionado &quot;Deshabilitar JavaScript&quot; en otras páginas.
 * Es posible que haya ciertos problemas con la interfaz en Internet Explorer 10, como parpadeos de la pantalla y lentitud.
 * La actualización de la versión 48 de Chrome introdujo un problema que ocasionaba un funcionamiento incorrecto del Compositor de experiencias visuales en Chrome. Google está trabajando en una solución. Para obtener información, consulte [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). Para encontrar una solución alternativa a este problema:
 
@@ -5784,7 +5784,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hay varias empresas disponibles al seleccionar Analytics como fuente de informes para Target. </p> </td> 
-   <td colname="col2"> <p>Si selecciona Analytics como fuente de informes para Target, debe seleccionar también un grupo de informes de Analytics en el que recibir los datos de la actividad en Target. Para ello, elija primero una de las empresas de Analytics a la que esté asociada su cuenta y, a continuación, seleccione el grupo de informes adecuado para la actividad. Solo se podrán seleccionar los grupos de informes que estén aprovisionados para conectarse a Adobe Target. Si no ve los grupos de informes previstos, cierre la sesión y vuelva a iniciarla en Adobe Experience Cloud para probar de nuevo. Si aún no aparece el grupo de informes en la lista, póngase en contacto con el Servicio de atención al cliente. </p> </td> 
+   <td colname="col2"> <p>Si selecciona Analytics como fuente de informes para Target, debe seleccionar también un grupo de informes de Analytics en el que recibir los datos de la actividad en Target. Para ello, elija primero una de las empresas de Analytics a la que esté asociada su cuenta y, a continuación, seleccione el grupo de informes adecuado para la actividad. Solo se podrán seleccionar los grupos de informes que estén aprovisionados para conectarse a Adobe Target. Si no ve los grupos de informes que espera, primero cierre la sesión y vuelva a iniciarla en Adobe Experience Cloud para intentarlo de nuevo. Si aún no aparece el grupo de informes en la lista, póngase en contacto con el Servicio de atención al cliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nuevas opciones integradas para la creación de audiencias </p> </td> 
@@ -5910,7 +5910,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> Mejora: las direcciones URL de experiencias incluidas en actividades ya no usan cookie en el sitio </td> 
-   <td colname="col2"> <p> Las direcciones URL de la experiencia de previsualización que hay disponibles por actividad ahora son más fiables. Copie fácilmente las direcciones URL y compártalas con otros integrantes del equipo, aunque no usen Adobe Target. </p> <p> <p>Nota: Las direcciones URL actualizadas de la experiencia solo funcionan en las actividades creadas después del 30 de julio de 2015. En las anteriores se siguen usando funciones de previsualización basadas en cookies. </p> </p> </td> 
+   <td colname="col2"> <p> Las direcciones URL de la experiencia de previsualización que hay disponibles por actividad ahora son más fiables. Copie fácilmente las direcciones URL y compártalas con otros integrantes del equipo, incluso si no utilizan Adobe Target. </p> <p> <p>Nota: Las direcciones URL actualizadas de la experiencia solo funcionan en las actividades creadas después del 30 de julio de 2015. En las anteriores se siguen usando funciones de previsualización basadas en cookies. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Mejora en los informes con Analytics como fuente de informes para Target </p> </td> 
@@ -6024,7 +6024,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1"> Creación de actividad basada en formularios </td> 
-   <td colname="col2"> <p>Cree una actividad sin usar el Compositor de experiencias visuales. En cambio, elija ubicaciones y ofertas a través de un formulario. Con esto, las actividades de Target Standard se pueden entregar en correos electrónicos, aplicaciones móviles, kioscos y otros lugares que no trabajan con el Compositor de experiencias visuales. </p> <p>Consulte <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositor de experiencias basadas en formularios</a>. </p> </td> 
+   <td colname="col2"> <p>Cree una actividad sin usar el Compositor de experiencias visuales. En cambio, elija ubicaciones y ofertas a través de un formulario. Con esto, las actividades de Target Standard se pueden entregar en correos electrónicos, aplicaciones móviles, quioscos y otros lugares que no trabajan con un Compositor de experiencias visuales. </p> <p>Consulte <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositor de experiencias basadas en formularios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Métricas de éxito configurables </td> 
@@ -6044,7 +6044,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Automated Personalization: seguimiento de métricas después del objetivo </td> 
-   <td colname="col2"> <p> Anteriormente, Target reiniciaba una experiencia cuando el visitante llegaba al objetivo de modelado. Ahora, los usuarios pueden continuar en la actividad con fines de seguimiento después de alcanzar el objetivo de modelado. </p> <p> Por ejemplo, a menudo se usa una actividad de Automated Personalization para mejorar las tasas de clics, y eso se establece en el objetivo de modelado. Sin embargo, es importante ver cómo las tasas de clics incrementadas llevan a conversión final, por lo que resulta esencial el seguimiento a través de la conversión final. </p> Consulte <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a>. </td> 
+   <td colname="col2"> <p> Anteriormente, Target reiniciaba una experiencia cuando el visitante llegaba al objetivo de modelado. Ahora, los usuarios pueden continuar en la actividad con fines de seguimiento después de alcanzar el objetivo de modelado. </p> <p> Por ejemplo, a menudo se usa una actividad de Automated Personalization para mejorar las tasas de clics, y eso se establece en el objetivo de modelado. Sin embargo, es importante ver cómo el aumento de las tasas de clics conduce a la conversión final, por lo que el seguimiento a través de la conversión final es esencial. </p> Consulte <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -6308,7 +6308,7 @@ Esta versión incorpora las siguientes funciones y mejoras:
  <tbody> 
   <tr> 
    <td colname="col1"> Nuevo tipo de actividad: prueba multivariable </td> 
-   <td colname="col2"> <p> Una prueba multivariable factorial completa compara todas las combinaciones posibles de ofertas en las áreas de contenido para ayudarle a decidir cuál es la mejor combinación de contenido. Las pruebas multivariable también muestran qué contenido de qué áreas contribuye en mayor medida al éxito de la campaña. Un uso habitual de las pruebas multivariable es el que tiene como finalidad optimizar una página entera después de haber usado una prueba A/B para determinar un diseño óptimo. Con este tipo de prueba, puede optimizar los activos concretos de la página (por ejemplo, la imagen principal, titulares o contenido promocional). </p> <p>Para ver un vídeo introductorio, visite <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>. </p> </td> 
+   <td colname="col2"> <p> Una prueba multivariable factorial completa compara todas las combinaciones posibles de ofertas en las áreas de contenido para ayudarle a decidir cuál es la mejor combinación de contenido. Las pruebas multivariable también muestran qué contenido de qué áreas contribuye en mayor medida al éxito de la campaña. Un uso habitual de las pruebas multivariadas es el que tiene como finalidad optimizar una página entera después de haber usado una prueba A/B para determinar un diseño óptimo. Con este tipo de prueba, puede optimizar los activos concretos de la página (por ejemplo, la imagen principal, titulares o contenido promocional). </p> <p>Para ver un vídeo introductorio, visite <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Examinar las páginas y los elementos dentro de las páginas en el Compositor de experiencias visuales </td> 
@@ -6551,7 +6551,7 @@ Esta versión incluye las siguientes funciones nuevas:
  <tbody> 
   <tr> 
    <td colname="col1"> Conflictos de actividades </td> 
-   <td colname="col2"> <p> Target Standard proporciona una lista de conflictos de actividades. Un conflicto de actividades ocurre cuando existen varias actividades configuradas para entregar contenido a la misma página. Si ocurre un conflicto de actividades, posiblemente no vea el contenido previsto en su página porque especificó una actividad diferente. </p> <p> Se muestran todas las actividades de la misma dirección URL, independientemente de si se ha segmentado el público o no en cada actividad. </p> <p> Si su actividad contiene conflictos, se muestra la pestaña <span class="wintitle">Conflictos</span> en la página de información general de la actividad. Abra esta pestaña para ver una lista de las actividades que están en conflicto. Haga clic en una actividad de la lista para ver la página de información general para dicha actividad. </p> <p>Ver <a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> conflictos de actividades </a>. </p> </td> 
+   <td colname="col2"> <p> Target Standard proporciona una lista de conflictos de actividades. Un conflicto de actividades ocurre cuando existen varias actividades configuradas para entregar contenido a la misma página. Si se produce un conflicto de actividades, es posible que no vea el contenido esperado en la página porque ha introducido una actividad diferente. </p> <p> Se muestran todas las actividades de la misma dirección URL, independientemente de si se ha segmentado el público o no en cada actividad. </p> <p> Si su actividad contiene conflictos, se muestra la pestaña <span class="wintitle">Conflictos</span> en la página de información general de la actividad. Abra esta pestaña para ver una lista de las actividades que están en conflicto. Haga clic en una actividad de la lista para ver la página de información general para dicha actividad. </p> <p>Ver <a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> conflictos de actividades </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nuevas opciones de segmentación: Perfil, Usuario </td> 

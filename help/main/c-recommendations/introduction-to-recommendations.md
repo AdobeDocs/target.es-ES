@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 82%
+source-wordcount: '2121'
+ht-degree: 79%
 ---
 # Introducción a Recommendations
 
@@ -128,7 +128,7 @@ A continuación, debe agregar etiquetas o aprovechar la implementación existent
 
 ![Ilustración que muestra cómo capturar el comportamiento del usuario](/help/main/c-recommendations/assets/intro-9.png)
 
-Compruebe que [!DNL Target] tenga en cuenta los artículos que los usuarios están viendo y comprando. Si la compra no es relevante para su contexto, es posible que desee rastrear un tipo diferente de evento de conversión, por ejemplo, descargar un PDF, completar una encuesta, suscribirse a una newsletter, ver un vídeo, etc.
+Compruebe que [!DNL Target] tenga en cuenta los artículos que los usuarios están viendo y comprando. Si la compra no es relevante para su contexto, es posible que desee rastrear un tipo diferente de evento de conversión, por ejemplo, descargar una PDF, completar una encuesta, suscribirse a una newsletter, ver un vídeo, etc.
 
 Si ya está utilizando [!DNL Target] para ejecutar actividades A/B en su sitio, es posible que ya haya completado este paso. O si ya utiliza [!DNL Adobe Analytics] para informar sobre las visitas del sitio y el comportamiento de conversión, puede utilizar [!DNL Analytics] como fuente de datos de comportamiento. Si no es así, es más fácil configurarlo con un administrador de etiquetas como las etiquetas en [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=es){target=_blank}. También es posible enviar interacciones sin conexión o dentro de la aplicación a [!DNL Target] mediante una API en tiempo real.
 
@@ -174,7 +174,7 @@ Los filtros estáticos son reglas aplicables ampliamente relacionadas con atribu
 
 Por ejemplo, en un contexto de contenido, es posible que desee incluir todas las películas en recomendaciones, pero excluir películas no recomendadas para menores de 17 años. En un contexto minorista, puede tener varias marcas en diferentes partes del mundo, pero quizá solo quiera recomendar productos disponibles en Estados Unidos. También es posible que desee excluir productos de una marca privada regional.
 
-Estos son todos atributos de catálogo que son aplicables en gran medida y que es posible que desee utilizar en varias recomendaciones y no se espera que cambien con frecuencia.
+Estos son todos atributos de catálogo que son aplicables en gran medida y que es posible que desee utilizar en varias recomendaciones y no espera que cambien con frecuencia.
 
 ### Algoritmo (lógica y clave de recomendación)
 

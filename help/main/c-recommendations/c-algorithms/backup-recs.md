@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 68%
+source-wordcount: '536'
+ht-degree: 64%
 ---
 # Usar una recomendación de copia de seguridad
 
@@ -37,7 +37,7 @@ Si no utiliza una recomendación de copia de seguridad, y si una recomendación 
 >
 >Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluida una matriz que explica los resultados que observará al usar las opciones [!UICONTROL Procesamiento de diseño parcial] y [!UICONTROL Mostrar recomendaciones de copia de seguridad] juntas o por separado.
 
-La función de recomendación de copia de seguridad siempre utiliza los elementos más vistos del sitio para rellenar las ranuras restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco artículos recomendados y usted usa el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
+La función de recomendación de copia de seguridad siempre utiliza los elementos más vistos del sitio para rellenar las ranuras restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco elementos recomendados y está usando el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
 
 Las recomendaciones de copia de seguridad se eligen al azar entre los 500 productos más vistos del sitio. El período de tiempo de los datos para las recomendaciones de copia de seguridad es de una semana.
 

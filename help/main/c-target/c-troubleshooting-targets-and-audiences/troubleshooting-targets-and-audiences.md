@@ -1,25 +1,28 @@
 ---
 keywords: resolución de problemas;preguntas más frecuentes;FAQ;FAQs;objetivos;públicos
-description: Vea las preguntas más frecuentes (FAQ) acerca de la segmentación de experiencias y las audiencias utilizadas en las actividades de Adobe [!DNL Target] .
+description: Vea las preguntas más frecuentes (FAQ) sobre audiencias y segmentación de experiencias utilizadas en actividades de Adobe [!DNL Target].
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de objetivos y audiencias?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 53%
-
+source-wordcount: '1007'
+ht-degree: 49%
 ---
-
 # Preguntas más frecuentes sobre públicos y segmentación
 
 Lista de preguntas más frecuentes sobre públicos y segmentación de experiencias.
@@ -97,7 +100,7 @@ Los nombres de los públicos en [!DNL Target] son únicos; sin embargo, en [!DNL
 
 Por ejemplo, es posible que vea las siguientes públicos: “Usuarios en PC” (en [!DNL AAM]) y “Usuarios en PC #1” (en [!DNL Target]).
 
-## ¿Por qué no puedo cambiar el nombre de un audiencia? {#section_54E420556F534D20836E261E253D8B97}
+## ¿Por qué no puedo cambiar el nombre de una audiencia? {#section_54E420556F534D20836E261E253D8B97}
 
 Algunos públicos destinatarios están predefinidos, como “Nuevos visitantes” y “Visitantes que repiten”. Los usuarios no pueden cambiar el nombre de estas audiencias predefinidas.
 
@@ -107,7 +110,7 @@ Algunos públicos destinatarios están predefinidos, como “Nuevos visitantes�
 
 ## ¿Por qué los visitantes ven experiencias para una actividad AP que no deberían ver? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-Las actividades de personalización automatizada se evalúan una vez por sesión. Si hubo sesiones activas que se han calificado para una experiencia en particular y ahora se han agregado nuevas ofertas, los usuarios verán el nuevo contenido junto con las ofertas que se mostraron anteriormente. Debido a que anteriormente se han calificado para esas experiencias, todavía las verían durante la sesión. Si desea evaluar esto en cada visita a una página, debe cambiar al tipo de actividad de segmentación de experiencias (XT).
+Las actividades de personalización automatizada se evalúan una vez por sesión. Si hubo sesiones activas que se han calificado para una experiencia en particular y ahora se han agregado nuevas ofertas, los usuarios verán el nuevo contenido junto con las ofertas que se mostraron anteriormente. Debido a que anteriormente se han calificado para esas experiencias, todavía las verían durante la sesión. Si desea evaluar esto en cada visita de página, debe cambiar al tipo de actividad de segmentación de experiencias (XT).
 
 ## ¿Por qué los cambios realizados en las audiencias creadas mediante API no se reflejan en la interfaz de usuario de [!DNL Target]? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

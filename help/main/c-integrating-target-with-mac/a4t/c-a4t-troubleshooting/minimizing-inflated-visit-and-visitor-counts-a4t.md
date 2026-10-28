@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # Minimización de los recuentos inflados de visitas y visitantes en A4T
 
@@ -73,7 +73,7 @@ La siguiente información, relacionada con este cambio, incluye instrucciones qu
 
 En la mayoría de los casos, un hit de [!DNL Target] se vincula con un hit de [!DNL Analytics] en cada página web. La vinculación se realiza si aparece un SDID consistente en ambas llamadas de [!DNL Target] y [!DNL Analytics] y si hay un [!DNL Experience Cloud ID] (MCID) en la llamada de [!DNL Analytics] en la misma página. Normalmente, [!DNL Target] también tiene el MCID, pero si la llamada a [!DNL Target] se realiza antes de que regrese el ID del visitante, el hit se vinculará debido al SDID. Además, el usuario debe permanecer en la página el tiempo suficiente para que se active una llamada de [!DNL Analytics] después de que se active una llamada de [!DNL Target]. Este escenario es ideal.
 
-**Hits de datos parciales:** a veces los usuarios no permanecen en una página el tiempo suficiente para que se envíe una llamada de [!DNL Analytics], pero [!DNL Target] tiene el MCID adecuado. Esto provoca la aparición de hits de datos parciales (hits sin visualizaciones de página de [!DNL Analytics]). Si estos usuarios vuelven al sitio y ven una página que contenga código de [!DNL Analytics], se contarán debidamente como visitantes que repiten. Estos son hits que se habrían perdido si solo existiera código de [!DNL Analytics] en la página. Algunos clientes no quieren datos para estos hits porque inflan algunas métricas (visitas) y desinflan otras (visualizaciones de la página por visita, tiempo por visita, etc.). También verá visitas que no tengan ninguna visualización de página. Sin embargo, existen varios motivos para conservar estos datos.
+**Visitas de datos parciales:** Los usuarios a veces no permanecen en una página el tiempo suficiente para enviar una llamada de [!DNL Analytics], pero [!DNL Target] tiene un MCID apropiado. Esto provoca la aparición de hits de datos parciales (hits sin visualizaciones de página de [!DNL Analytics]). Si estos usuarios vuelven al sitio y ven una página que contenga código de [!DNL Analytics], se contarán debidamente como visitantes que repiten. Estos son hits que se habrían perdido si solo existiera código de [!DNL Analytics] en la página. Algunos clientes no quieren datos para estas visitas porque inflan ciertas métricas (visitas) y desinflan otras (vistas de página por visita, tiempo por visita, etc.). También verá visitas que no tengan ninguna visualización de página. Sin embargo, existen varios motivos para conservar estos datos.
 
 Para minimizar los hits de datos parciales, puede hacer que su página se cargue más rápido, actualizar las bibliotecas a la versión más reciente o crear un [grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=es) que excluya esos hits. Puede consultar las instrucciones paso a paso en [Creación de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=es), en la *Guía de componentes de Analytics*.
 
@@ -94,7 +94,7 @@ Cuando cree un grupo de informes virtuales, especifique la siguiente configuraci
 * Y
 * Instancias de vínculos de salida: no existe
 
-**Hits huérfanos:** con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y, además, Target no tiene un MCID apropiado. Estos hits son lo que Adobe define como hits “huérfanos”. Estos hits representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
+**Visitas huérfanas:** Con menor frecuencia, los usuarios no permanecen en la página el tiempo suficiente para que se realice la llamada de Analytics y Target no tiene el MCID apropiado. Estos hits son lo que Adobe define como hits “huérfanos”. Estos hits representan a los clientes que raramente regresan e inflan indebidamente los recuentos de visitas y visitantes.
 
 Para minimizar estos hits &quot;huérfanos&quot;, puede crear un [grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=es) que los excluya, tal y como hemos explicado.
 

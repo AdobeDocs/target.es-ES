@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 49%
+source-wordcount: '351'
+ht-degree: 43%
 ---
 # Conflictos de actividades
 
@@ -42,4 +42,4 @@ La lista [!UICONTROL Conflictos] muestra cada [!DNL Target] escenario donde se u
 
 En la lista se muestra el estado y la prioridad de cada posible conflicto, junto con otros datos. Puede usar el estado y la prioridad para determinar la probabilidad de que se produzca un conflicto. Considere dos actividades que podrían chocar. Si una actividad no está activa actualmente, no puede producirse un conflicto. Una colisión solo es posible si la actividad inactiva se activa. Si se produce un conflicto entre dos actividades activas con la misma prioridad y la misma audiencia, se producirá un conflicto. Puede cambiar la prioridad o el estado para impedir el conflicto.
 
-Aunque las audiencias sean distintas, sigue habiendo cierta posibilidad de conflicto puesto que es posible que un visitante concreto pertenezca a varias audiencias.
+Si las audiencias son diferentes, sigue habiendo un conflicto potencial porque es posible que un visitante en particular pertenezca a varias audiencias.
