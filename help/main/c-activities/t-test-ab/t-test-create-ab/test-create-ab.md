@@ -36,7 +36,7 @@ Use [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target
 
 >[!NOTE]
 >
->Además de la actividad [!UICONTROL Prueba A/B] manual] (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].[!UICONTROL 
+>Además de la actividad [!UICONTROL Prueba A/B] manual (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
 >
 >Consulte [Tipos de actividades de pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) en *Información general sobre las pruebas A/B*.
 
