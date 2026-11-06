@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 20%
@@ -36,7 +36,7 @@ Use [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target
 
 >[!NOTE]
 >
->Además de la actividad [!UICONTROL Prueba A/B] manual (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
+>Además de la actividad [!UICONTROL Prueba A/B] manual] (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].[!UICONTROL 
 >
 >Consulte [Tipos de actividades de pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) en *Información general sobre las pruebas A/B*.
 
@@ -112,7 +112,7 @@ Para crear una actividad [!UICONTROL Prueba A/B] manual:
 
    +++ Pasos para seleccionar una audiencia diferente
 
-   {{audience-selection-steps}}
+   {{$include /help/_includes/audience-selection-steps.md}}
 
    +++
 
