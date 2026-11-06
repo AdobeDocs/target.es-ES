@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 17%
+source-wordcount: '867'
+ht-degree: 20%
 ---
 # Crear una actividad de prueba A/B
 
@@ -36,7 +36,7 @@ Use [!UICONTROL Compositor de experiencias visuales] (VEC) en [!DNL Adobe Target
 
 >[!NOTE]
 >
->Además de la actividad [!UICONTROL Prueba A/B] manual (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
+>Además de la actividad [!UICONTROL Prueba A/B] manual] (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].[!UICONTROL 
 >
 >Consulte [Tipos de actividades de pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) en *Información general sobre las pruebas A/B*.
 
@@ -108,23 +108,13 @@ Para crear una actividad [!UICONTROL Prueba A/B] manual:
 
 1. (Condicional) Haga clic en el control **[!UICONTROL Todos los visitantes]** para seleccionar otra audiencia para la actividad.
 
-   La audiencia [!UICONTROL Todos los visitantes] está establecida como predeterminada. Si selecciona otra audiencia, su nombre se muestra en el control situado más a la izquierda.
+   La audiencia [!UICONTROL Todos los visitantes] está establecida como predeterminada. Si selecciona otra audiencia, su nombre se muestra en el control situado más a la izquierda. Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % del público de California.
 
-   Se muestra el marco derecho, que le permite añadir o eliminar una audiencia y asignar el porcentaje de visitante para la actividad.
+   +++ Pasos para seleccionar una audiencia diferente
 
-   1. Para cambiar la audiencia, haga clic en el icono **[!UICONTROL Reemplazar]** ( ![Reemplazar icono](/help/main/assets/icons/Retweet.svg) ) en el marco derecho.
-   1. En el cuadro de diálogo [!UICONTROL Agregar audiencia], [seleccione la audiencia que desee](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) y luego haga clic en **[!UICONTROL Asignar audiencia]**.
+   {{audience-selection-steps}}
 
-      Puede hacer clic en **Combinar audiencias** para [crear una audiencia que combine varias audiencias](/help/main/c-target/combining-multiple-audiences.md).
-
-      Si necesita crear una audiencia nueva que no esté ya en la [!UICONTROL Biblioteca de audiencias], haga clic en **Crear audiencia**. Durante el [flujo de trabajo create-audience](/help/main/c-target/c-audiences/audiences.md), puede elegir entre las siguientes opciones:
-
-      * **[!UICONTROL Biblioteca de audiencias]**: cree una audiencia bajo demanda que se guarde en la [!UICONTROL Biblioteca de audiencias] y que pueda reutilizarse en otras actividades.
-      * **[!UICONTROL Solo esta actividad]**: crea una [audiencia específica de la actividad](/help/main/c-target/creating-activity-only-audience.md) que no se guardó en la [!UICONTROL Biblioteca de audiencias] y que solo se puede usar en la actividad actual.
-
-   1. Haga clic en **[!UICONTROL Porcentaje de visitantes]** en el cuadro derecho y, a continuación, elija el porcentaje de visitantes correspondiente que quiere que participen de la actividad.
-
-   Por ejemplo, podría limitar las entradas al 50 % de todos los visitantes o al 45 % del público de California.
+   +++
 
 1. Haga clic en el control **[!UICONTROL Asignación de tráfico]** y, a continuación, elija el método de asignación de tráfico que desee en el panel derecho, como se muestra a continuación:
 
