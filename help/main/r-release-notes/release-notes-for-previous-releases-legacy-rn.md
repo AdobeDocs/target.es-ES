@@ -4523,7 +4523,7 @@ Esta versión incluye las siguientes características y mejoras (los números de
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lote móvil y entrega de recuperación previa </p> </td> 
-   <td colname="col2"> <p><b>Actualizado: 12 de octubre de 2017</b> </p> <p> Puede recuperarse previamente contenido de varios mboxes con una sola llamada y guardarlo localmente en el dispositivo sin importar cómo o cuándo lo verá el usuario final. </p> <p>Esta función requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile. </p> <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Recuperación previa del contenido de ofertas </a>. </p> </td> 
+   <td colname="col2"> <p><b>Actualizado: 12 de octubre de 2017</b> </p> <p> Puede recuperarse previamente contenido de varios mboxes con una sola llamada y guardarlo localmente en el dispositivo sin importar cómo o cuándo lo verá el usuario final. </p> <p>Esta función requiere que descargue e instale la versión apropiada (4.14 o posterior) del SDK de Adobe Mobile. </p> <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=es" format="dita" scope="local"> Recuperación previa del contenido de ofertas </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Actividades </p> </td> 
