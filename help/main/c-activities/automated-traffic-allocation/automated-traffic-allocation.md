@@ -258,7 +258,7 @@ Este vídeo incluye información sobre cómo configurar la asignación de tráfi
 * Seleccionar el método de asignación de tráfico
 * Asignar tráfico entre distintas experiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507592?captions=spa)
 
 ### Creación de pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 

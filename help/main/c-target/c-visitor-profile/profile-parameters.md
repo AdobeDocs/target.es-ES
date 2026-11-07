@@ -301,4 +301,4 @@ En este vídeo se explica cómo usar y crear scripts de perfil.
 * Usar el menú Token disponible para acceder a las opciones disponibles
 * Habilitar y deshabilitar scripts de perfil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507910?captions=spa)

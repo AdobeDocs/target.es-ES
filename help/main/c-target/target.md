@@ -48,4 +48,4 @@ Este vídeo incluye información sobre cómo configurar la segmentación y las a
 * Seleccionar el método de asignación de tráfico
 * Asignar tráfico entre distintas experiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507592?captions=spa)
