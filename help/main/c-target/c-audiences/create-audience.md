@@ -92,4 +92,4 @@ Este vídeo contiene información sobre la creación de audiencias.
 * Crear públicos
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507773?captions=spa)

@@ -154,4 +154,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear públicos
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507773?captions=spa)

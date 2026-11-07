@@ -50,4 +50,4 @@ Este vídeo incluye información sobre la administración de contenido.
 * Ofertas HTML personalizadas
 * Oferta HTML personalizada en el Compositor de experiencias visuales
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507955?captions=spa)

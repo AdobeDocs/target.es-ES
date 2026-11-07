@@ -68,4 +68,4 @@ Este vídeo contiene información sobre cómo trabajar con métricas de éxito.
 * Comprenda y cree las métricas [!UICONTROL Conversión], [!UICONTROL Ingresos] y [!UICONTROL Participación]
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507818?captions=spa)

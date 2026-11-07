@@ -184,4 +184,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507946?captions=spa)

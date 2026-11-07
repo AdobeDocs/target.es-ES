@@ -171,4 +171,4 @@ Este vídeo proporciona una demostración del compositor basado en formularios, 
 * Entender cuándo usar el Compositor de experiencias basadas en formularios o el Compositor de experiencias visuales
 * Usar refinamientos para segmentar una ubicación
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507883?captions=spa)

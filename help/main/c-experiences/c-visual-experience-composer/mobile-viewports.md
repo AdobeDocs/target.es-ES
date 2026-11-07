@@ -190,4 +190,4 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 
 En este vídeo se explica cómo configurar las ventanillas móviles a partir del minuto 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507628?captions=spa)

@@ -128,4 +128,4 @@ Este vídeo muestra cómo se utilizan las métricas de actividad.
 * Qué son y cómo compilar las métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507818?captions=spa)

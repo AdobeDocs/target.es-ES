@@ -86,6 +86,6 @@ Este vídeo incluye información sobre cómo configurar las audiencias.
 * Seleccionar el método de asignación de tráfico
 * Asignar tráfico entre distintas experiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507592?captions=spa)
 
 Para obtener información detallada, consulte [Públicos](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
