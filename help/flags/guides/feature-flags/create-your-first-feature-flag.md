@@ -7,10 +7,10 @@ exl-id: ae115120-8da9-465e-a556-c17591ea7054
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 4%
+source-wordcount: '468'
+ht-degree: 3%
 ---
 # Creación de la primera marca de funcionalidad {#create-feature-flag}
 
@@ -33,8 +33,8 @@ Para crear un nuevo indicador de funcionalidad, siga estos pasos en la consola:
 
    | Campo | Descripción |
    | --- | --- |
-   | **Nombre** | Una etiqueta de visualización para el indicador de funcionalidad. No se utiliza en el código. |
-   | **Clave** * | El identificador utilizado en el código para evaluar el indicador. No se puede cambiar después de la creación. |
+   | **Nombre** | Una etiqueta de visualización para el indicador de funcionalidad. No se utiliza en el código. **Name** es una etiqueta de presentación solamente y no se usa en el código; los dos son independientes (el nombre no se convierte en la clave). |
+   | **Clave** * | El identificador utilizado en el código para evaluar el indicador. No se puede cambiar después de la creación. La clave **Key** es el identificador usado en tu código y no se puede cambiar después de crearla. Las claves **no pueden contener espacios** y distinguen entre mayúsculas y minúsculas **, por lo que al escribir un espacio en el campo Clave se produce el siguiente error: _&quot;Valor no válido para la clave de característica.&quot;_** |
    | **Descripción** | Descripción opcional para fines de documentación. |
    | **Metadatos** | Opcional. Hasta 1.024 caracteres. Utilice este campo para cualquier metadato adicional que se asocie al indicador. |
    | **Etiquetas** | Etiquetas opcionales para fines de documentación. |
@@ -45,7 +45,9 @@ Para crear un nuevo indicador de funcionalidad, siga estos pasos en la consola:
 
 >[!IMPORTANT]
 >
->La clave **Key** es el identificador usado en tu código y no se puede cambiar después de crearla. Las claves **no pueden contener espacios** y distinguen entre mayúsculas y minúsculas **.**&#x200B;**Name** es una etiqueta de presentación solamente y no se usa en el código; los dos son independientes (el nombre no se convierte en la clave). Al escribir un espacio en el campo Clave se produce el error: _&quot;Valor no válido para la clave de característica.&quot;_
+>La identidad que seleccione aquí debe coincidir con la identidad que su aplicación pase a SDK cuando recupere indicadores de funcionalidades. Si ambos no coinciden, SDK no encuentra la identidad esperada y vuelve a un ID temporal y aleatorio para asignar una variante. La evaluación de marcas sigue funcionando, no se muestra ningún error y los usuarios siguen recibiendo una variante.
+>
+>Sin embargo, con un ID temporal, un usuario puede recibir una variante diferente cada vez que se reinicia la aplicación y no se garantiza que la misma persona tenga una variante coherente en todos los dispositivos.
 
 1. Si lo desea, puede añadir un criterio de audiencia (consulte el paso 2).
 1. Guarde la configuración de las marcas de características.
