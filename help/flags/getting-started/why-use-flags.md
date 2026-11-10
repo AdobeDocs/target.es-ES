@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Razones para utilizar los indicadores {#why-use}
@@ -37,6 +37,6 @@ Habilite una función simultáneamente en varias aplicaciones para un conjunto e
 Implemente el código en producción con antelación y, a continuación, active la función en un momento preciso (por ejemplo, al inicio de un evento de lanzamiento de producto) sin ningún cambio de código de última hora.
 
 **Interruptor de desactivación**
-Si se descubre un problema después del lanzamiento, desactive la función instantáneamente sin necesidad de una revisión o una nueva implementación.
+Si se detecta un problema después del lanzamiento, desactive la función sin necesidad de una revisión o una nueva implementación. Los cambios se aplicarán en la siguiente actualización de indicador (cada 5 minutos de forma predeterminada).
 
 <!-- -->
