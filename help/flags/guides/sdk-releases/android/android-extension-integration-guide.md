@@ -84,7 +84,7 @@ Asegúrese de que estas extensiones estén instaladas en la propiedad móvil de 
 >La extensión Banderas no forma parte de la LDM de SDK móvil. Reemplazar `<latest-version>` por la última versión de Maven Central. Sin una versión, Gradle no puede resolver la dependencia.
 >
 ></br>
-&gt;Para aplicaciones de producción, Adobe recomienda utilizar números de versión explícitos en lugar de versiones dinámicas como 3.+. Consulte [Administración de dependencias de Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) para obtener más información.
+>&gt;Para aplicaciones de producción, Adobe recomienda utilizar números de versión explícitos en lugar de versiones dinámicas como 3.+. Consulte [Administración de dependencias de Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) para obtener más información.
 
 Agregue las siguientes dependencias al archivo `build.gradle.kts` (Kotlin) o `build.gradle` (Groovy) de su aplicación:
 
