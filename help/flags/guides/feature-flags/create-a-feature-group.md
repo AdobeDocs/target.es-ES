@@ -7,9 +7,9 @@ exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e4be1b7a5198b667b0d398cb1287c920a0a81471
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # Creación de un grupo de funciones {#create-feature-group}
@@ -57,11 +57,11 @@ Asigne los indicadores de funcionalidad que controlará este grupo:
 
 >[!IMPORTANT]
 >
->Una marca de características solo se puede proporcionar mediante un método: directamente como marca de característica, a través de un grupo de características o a través de una versión. Al agregar una marca de característica a un grupo de características, se elimina cualquier despliegue de audiencia o porcentaje establecido en la marca. Los indicadores de características ya asignados a otra versión o grupo de características no aparecerán en la lista.
+>Una marca de características solo se puede proporcionar mediante un método, ya sea directamente como marca de característica o a través de un grupo de características. Al agregar una marca de característica a un grupo de características, se elimina cualquier despliegue de audiencia o porcentaje establecido en la marca. Los indicadores de características ya asignados a un grupo de características no aparecerán en la lista.
 
 >[!IMPORTANT]
 >
->Cuando **quita** una marca de características de un grupo de características, la marca vuelve a un estado **deshabilitado** y su audiencia está **no** restaurada, trátela como una marca nueva. Un marcador **disabled** dentro de un grupo siempre se evalúa como `false`. Al habilitar un grupo de características, **no** habilita sus marcas de miembro; habilita cada marca explícitamente.
+>Cuando **quita** una marca de características de un grupo de características, la marca vuelve a un estado **deshabilitado** y su audiencia está **no** restaurada, trátela como una marca nueva. Los usuarios se volverán a asignar aleatoriamente cuando se vuelva a desplegar el indicador. Un marcador **disabled** dentro de un grupo siempre se evalúa como `false`. Al habilitar un grupo de características, **no** habilita sus marcas de miembro; habilita cada marca explícitamente.
 >
 >Los grupos de características son una **capa de administración**. En tiempo de ejecución, siempre realiza la evaluación en el nivel de **característica (indicador)**, nunca en el nivel de grupo; la respuesta incluye la variante en la que se encontró el usuario.
 
