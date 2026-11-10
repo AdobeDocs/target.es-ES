@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # Extensión de marcas para la web {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Asegúrese de que esta extensión esté instalada en la propiedad web de recopil
 
    ![](../assets/extension-install.png)
 
-1. Configure las opciones de extensión:
+#### Configuración de la extensión {#configure-extension-settings}
 
-* ID de cliente: un identificador único para su aplicación en Banderas.
+Al instalar la extensión Banderas, se le redirige a la página de configuración. Configure los siguientes ajustes:
 
-1. Seleccione **[!UICONTROL Guardar]**.
+| Configuración | Descripción | Requerido |
+|---|---|---|
+| ID del cliente | Un identificador único para su aplicación en Banderas. | Sí |
 
-1. Siga el [proceso de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
+#### Publicación de la extensión {#publish-extension}
 
-   1. Añada la extensión a una biblioteca.
+Siga el [proceso de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
 
-   1. Compile en su entorno de desarrollo.
+1. Añada la extensión a una biblioteca.
 
-   1. Validar con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es).
+1. Compile en su entorno de desarrollo.
 
-   1. Enviar a ensayo y producción.
+1. Validar con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+
+1. Enviar a ensayo y producción.
 
 ## Añadir el código incrustado de etiquetas en el sitio web {#embed-code}
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Campo | Tipo | Descripción |
 |---|---|---|
 | `id` | entero | Identificador de función numérica. `-1` para centinela de control a nivel de funcionalidad. |
-| `key` | string \| null | Tecla de función. `null` para centinela de control a nivel de funcionalidad. |
-| `featureGroupKey` | string \| null | Tecla de grupo de funciones cuando esté disponible |
-| `meta` | string \| null | Metadatos de funciones cuando están disponibles |
-| `analyticsParam` | AnalyticsParam \| null | Detalles de Analytics para la función evaluada |
+| `key` | `string \| null` | Tecla de función. `null` para centinela de control a nivel de funcionalidad. |
+| `featureGroupKey` | `string \| null` | Tecla de grupo de funciones cuando esté disponible |
+| `meta` | `string \| null` | Metadatos de funciones cuando están disponibles |
+| `analyticsParam` | `AnalyticsParam \| null` | Detalles de Analytics para la función evaluada |
 
 *Parámetro de análisis*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | entero | Identificador del grupo de funciones numéricas |
 | `featureId` | entero | Identificador de función numérica |
-| `variantId` | number \| null | Identificador de variante (`0` si el usuario está en el grupo de control) |
+| `variantId` | `number \| null` | Identificador de variante (`0` si el usuario está en el grupo de control) |
 
 **Comportamiento del grupo de control**
 
