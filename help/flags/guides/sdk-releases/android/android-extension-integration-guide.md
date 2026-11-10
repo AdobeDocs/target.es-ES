@@ -61,7 +61,7 @@ Asegúrese de que estas extensiones estén instaladas en la propiedad móvil de 
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-1. Siga el [proceso de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
+1. Siga el [proceso de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
 
 ### Obtener el ID del archivo de entorno {#environment-file-id}
 

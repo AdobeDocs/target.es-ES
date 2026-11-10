@@ -61,13 +61,13 @@ Asegúrese de que esta extensión esté instalada en la propiedad web de recopil
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
-1. Siga el [proceso de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
+1. Siga el [proceso de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
 
    1. Añada la extensión a una biblioteca.
 
    1. Compile en su entorno de desarrollo.
 
-   1. Validar con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+   1. Validar con [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es).
 
    1. Enviar a ensayo y producción.
 
