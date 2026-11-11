@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 25f5877bbdb513b3a57efbbd207b13312322b9e1
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 28%
@@ -36,13 +36,13 @@ ht-degree: 28%
 
 [!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles.
 
-**Última actualización: 12 de mayo de 2026 ( [vea los cambios](r-release-notes/doc-change.md) )**
+**Última actualización: 17 de junio de 2026 ( [vea los cambios](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
 >[!TAB Novedades]
 
-Servidor MCP **[!DNL Adobe Target] (Beta público)**
+Servidor MCP **[!DNL Adobe Target](Beta público)**
 
 [!DNL Adobe Target] ahora proporciona un servidor MCP (Model Context Protocol) que muestra las operaciones de experimentación, personalización y generación de informes directamente dentro de cualquier aplicación compatible con MCP, incluidas Claude, Cursor y ChatGPT.
 
