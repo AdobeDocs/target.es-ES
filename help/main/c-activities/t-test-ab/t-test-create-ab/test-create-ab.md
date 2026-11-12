@@ -42,7 +42,7 @@ Use **[!UICONTROL Compositor de experiencias visuales]** (VEC) en [!DNL Adobe Ta
 
 >[!NOTE]
 >
->Además de la actividad **[!UICONTROL Prueba A/B]** manual ]**(predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de**[!UICONTROL  Prueba A/B ]**:**[!UICONTROL  Asignación automática ]**y**[!UICONTROL  Segmentación automática ]**.**[!UICONTROL 
+>Además de la actividad **[!UICONTROL Prueba A/B]** manual **(predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de**&#x200B;[!UICONTROL &#x200B; Prueba A/B &#x200B;]&#x200B;**:**&#x200B;[!UICONTROL &#x200B; Asignación automática &#x200B;]&#x200B;**y**&#x200B;[!UICONTROL &#x200B; Segmentación automática &#x200B;]&#x200B;**.**
 >
 >Consulte [Tipos de actividades de pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) en *Información general sobre las pruebas A/B*.
 
@@ -143,7 +143,7 @@ El diagrama de flujo le guía a través de la asignación de una audiencia y su 
    | Método | Qué hace |
    |---|---|
    | **[!UICONTROL Manual (predeterminado)]** | Especifique el porcentaje de visitantes que quiere que vean cada experiencia. Puede dividir los porcentajes de manera uniforme entre todas las experiencias, o especificar porcentajes superiores o inferiores para cada experiencia. El total de todas las experiencias debe ser igual al 100%. |
-   | **[!UICONTROL Asignación automática a la mejor experiencia]** | La mayoría de los participantes en la actividad se dirigen automáticamente a experiencias de mejor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Para obtener más información, consulte [**[!UICONTROL Información general sobre la asignación automática ]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
+   | **[!UICONTROL Asignación automática a la mejor experiencia]** | La mayoría de los participantes en la actividad se dirigen automáticamente a experiencias de mejor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Para obtener más información, consulte [**[!UICONTROL Información general sobre la asignación automática &#x200B;]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
    | **[!UICONTROL Segmentación automática para experiencias personalizadas]** | [!DNL Target] utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones al identificar varias experiencias de alto rendimiento definidas por expertos en marketing; a continuación, ofrece a los visitantes la experiencia más adaptada en función de sus perfiles de cliente y del comportamiento pasado de visitantes similares. Para obtener más información, consulte [Información general sobre la segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++

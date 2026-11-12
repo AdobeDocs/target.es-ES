@@ -47,7 +47,7 @@ Descargue un PDF interactivo con descripciones de los diferentes tipos de activi
 >
 >Para lograr la mejor experiencia y compartir contenido con otros usuarios, descargue el archivo [PDF Guía de actividades de Adobe Target](/help/main/assets/activities_guide_82817.pdf).
 >
->Este artículo no contiene información sobre [**[!UICONTROL Recommendations ]**actividades](/help/main/c-recommendations/recommendations.md). Sin embargo, puede incluir recomendaciones dentro de las actividades de**[!UICONTROL  Prueba A/B ]**,**[!UICONTROL  Asignación automática ]**,**[!UICONTROL  Segmentación automática ]**y**[!UICONTROL  Segmentación de experiencias ]**(XT). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium).
+>Este artículo no contiene información sobre [**[!UICONTROL Recommendations &#x200B;]**&#x200B;actividades](/help/main/c-recommendations/recommendations.md). Sin embargo, puede incluir recomendaciones dentro de las actividades de&#x200B;**[!UICONTROL &#x200B; Prueba A/B &#x200B;]**,**[!UICONTROL &#x200B; Asignación automática &#x200B;]**,**[!UICONTROL &#x200B; Segmentación automática &#x200B;]**&#x200B;y&#x200B;**[!UICONTROL &#x200B; Segmentación de experiencias &#x200B;]**(XT). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium).
 
 ## ¿Qué hace? {#section_4ECAACC68723402EB3649033190E1BBC}
 

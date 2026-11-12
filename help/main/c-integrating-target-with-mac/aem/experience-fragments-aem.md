@@ -51,7 +51,7 @@ Tenga en cuenta lo siguiente al trabajar con AEM [!UICONTROL Fragmentos de exper
 
 * Puede consumir [!UICONTROL Fragmentos de experiencias] en [!DNL Target] actividades usando el [Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) y el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md).
 
-Para obtener más información sobre los [!UICONTROL fragmentos de experiencias] y [!UICONTROL fragmentos de contenido] de AEM, consulte [Fragmentos de experiencias[!UICONTROL 6 de AEM y la descripción general de los fragmentos de contenido](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
+Para obtener más información sobre los [!UICONTROL fragmentos de experiencias] y [!UICONTROL fragmentos de contenido] de AEM, consulte [Fragmentos de experiencias[[!UICONTROL 6 de AEM y la descripción general de los fragmentos de contenido]](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
 
 ## Requisitos {#requirements}
 
