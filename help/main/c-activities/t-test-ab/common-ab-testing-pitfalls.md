@@ -21,16 +21,37 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 87%
+source-wordcount: '4347'
+ht-degree: 81%
 ---
-# Diez dificultades comunes de las pruebas A/B y cómo evitarlas
+# Diez dificultades comunes de las pruebas A/B y cómo evitarlas {#common-ab-testing-pitfalls}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conozca los diez escollos más significativos de las pruebas A/B, como ignorar el nivel de relevancia, monitorizar las pruebas o detenerlas antes de tiempo, y cómo evitar cada uno de ellos.
+
+>[!ENDSHADEBOX]
 
 Las pruebas A/B en [!DNL Adobe Target] constituyen el pilar de la mayoría de los programas de optimización de marketing digital. Los especialistas en marketing las utilizan para ofrecer experiencias optimizadas y segmentadas a los visitantes y clientes. En este artículo se describen diez de los inconvenientes más importantes a los que se enfrentan las empresas al realizar pruebas A/B. También se explican las formas de evitarlos para que las empresas puedan obtener un ROI más elevado a través de los procesos de prueba y confiar más en los resultados que arrojan las pruebas A/B.
 
+Los inconvenientes son:
+
+* [Escollo 1: Ignorar los efectos del nivel de relevancia](#section_55F5577A13C6470BA1417C2B735C6B1D)
+* [Escollo 2: Declarar ganadores en pruebas de varias ofertas sin una diferencia con relevancia estadística](#section_FA83977C71DB4F69B3D438AF850EF3B6)
+* [Inconveniente 3: Ignorar los efectos de la potencia estadística](#section_0D517079B7D547CCAA75F80981CBE12A)
+* [Inconveniente 4: uso de pruebas unilaterales](#section_8BB136D1DD6341FA9772F4C31E9AA37C)
+* [Escollo 5: Monitorizar las pruebas](#section_EA42F8D5967B439284D863C46706A1BA)
+* [Escollo 6: Detener las pruebas de forma prematura](#section_DF01A97275E44CA5859D825E0DE2F49F)
+* [Escollo 7: Modificar la asignación de tráfico durante el periodo de prueba](#allocation)
+* [Escollo 8: No tener en cuenta los efectos de la novedad](#section_90F0D24C40294A8F801B1A6D6DEF9003)
+* [Escollo 9: No tener en cuenta las diferencias en el periodo de consideración](#section_B166731B5BEE4E578816E351ECDEA992)
+* [Escollo 10: Usar métricas que no reflejan los objetivos comerciales](#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE)
+
 ## Escollo 1: Ignorar los efectos del nivel de relevancia {#section_55F5577A13C6470BA1417C2B735C6B1D}
+
+### Nivel de relevancia y nivel de confianza
 
 ¿Cuánta probabilidad hay de que una prueba arroje una diferencia relevante en la tasa de conversión entre dos ofertas cuando, en realidad, no existe ninguna diferencia? Esto es lo que ayuda a determinar el *nivel de relevancia* de una prueba. A menudo, estos resultados erróneos se denominan falsos positivos y, en el mundo de la estadística, se denominan errores de Tipo I (cuando se rechaza incorrectamente la hipótesis null que es verdadera).
 
@@ -54,33 +75,39 @@ En las pruebas A/B, los especialistas en marketing usan niveles de confianza del
 
 Como se ve en el gráfico siguiente, cuantas más pruebas se efectúen, más probabilidades existen de que al menos una de ellas arroje un falso positivo. Por ejemplo, si ejecuta 10 pruebas usando un nivel de confianza del 95 %, habrá aproximadamente un 40 % de probabilidad de que se detecten uno o varios falsos positivos [siempre que no haya un alza real: Pr(al menos un falso positivo) = 1 - Pr(ningún falso positivo) = 1 - 0,95^10 = 40 %].
 
-![imagen pitfalls1](assets/pitfalls1.png)
+![Gráfico de barras de la probabilidad de al menos un falso positivo: 5% para 1 prueba, aproximadamente 40% para 10 pruebas y aproximadamente 64% para 20 pruebas, con un nivel de confianza del 95%](assets/pitfalls1.png)
 
 En una organización de marketing, normalmente, el 95 % constituye un término medio razonable entre el riesgo de un falso positivo y un falso negativo.
 
+### Cuándo prestar mucha atención
+
 Sin embargo, existen dos situaciones en las que hay que prestar especial atención al nivel de relevancia y sus implicaciones en los resultados de las pruebas: la segmentación posterior a las pruebas y la realización de pruebas con varias ofertas.
 
-* **Segmentación posterior a las pruebas:** normalmente, los especialistas en marketing diseccionan los resultados de una prueba a partir de los segmentos del visitante al finalizar una prueba A/B. Entre los segmentos más comunes encontramos los de tipo de navegador, tipo de dispositivo, zona geográfica, hora del día y visitantes nuevos frente a visitantes que regresan. Esta práctica, conocida como “segmentación posterior a las pruebas”, ofrece información muy valiosa sobre los segmentos del visitantes. A su vez, los especialistas en marketing pueden usar esta información para crear contenido diferenciado, más relevante y mejor segmentado.
+#### Segmentación posterior a la prueba
 
-  Si no hay una diferencia real en la tasa de conversión, cada vez que se pruebe un segmento, la probabilidad de un falso positivo es igual al nivel de relevancia. Y, como ya hemos señalado, cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En definitiva, cada segmento posterior a una prueba representa una prueba independiente. Con un nivel de relevancia del 5 %, en 20 segmentos posteriores a una prueba existe, de media, un falso positivo. El gráfico anterior muestra cómo aumenta esa probabilidad.
+Los especialistas en marketing suelen cortar y fragmentar los resultados de una prueba en función de los segmentos del visitante una vez finalizada la prueba A/B. Entre los segmentos más comunes encontramos los de tipo de navegador, tipo de dispositivo, zona geográfica, hora del día y visitantes nuevos frente a visitantes que regresan. Esta práctica, conocida como “segmentación posterior a las pruebas”, ofrece información muy valiosa sobre los segmentos del visitantes. A su vez, los especialistas en marketing pueden usar esta información para crear contenido diferenciado, más relevante y mejor segmentado.
 
-  Cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En esencia, cada segmento posterior a la prueba representa una prueba separada, que aumenta la probabilidad de un falso positivo. Este aumento puede ser incluso más significativo si los segmentos están correlacionados.
+Si no hay una diferencia real en la tasa de conversión, cada vez que se pruebe un segmento, la probabilidad de un falso positivo es igual al nivel de relevancia. Y, como ya hemos señalado, cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En definitiva, cada segmento posterior a una prueba representa una prueba independiente. Con un nivel de relevancia del 5 %, en 20 segmentos posteriores a una prueba existe, de media, un falso positivo. El gráfico anterior muestra cómo aumenta esa probabilidad.
 
-  ¿Entonces hay que prescindir de la segmentación posterior a las pruebas? No, los segmentos posteriores a las pruebas son útiles. En su lugar, para evitar este problema acumulado de falsos positivos con la segmentación posterior a la prueba, después de haber identificado un segmento posterior a la prueba, considere la posibilidad de probarlo en una nueva prueba. Otra opción es aplicar la corrección de Bonferroni, que explicamos más adelante.
+Cuantas más pruebas se ejecuten, más probabilidad habrá de obtener, al menos, un falso positivo en alguna de ellas. En esencia, cada segmento posterior a la prueba representa una prueba separada, que aumenta la probabilidad de un falso positivo. Este aumento puede ser incluso más significativo si los segmentos están correlacionados.
 
-* **Realización de pruebas con varias ofertas:** a menudo, los especialistas en marketing prueban más de dos ofertas (o experiencias) para compararlas. Por este motivo, a veces las soluciones de prueba A/B se llaman pruebas A/B/n, donde n es el número de ofertas que se prueban simultáneamente.
+¿Entonces hay que prescindir de la segmentación posterior a las pruebas? No, los segmentos posteriores a las pruebas son útiles. En su lugar, para evitar este problema acumulado de falsos positivos con la segmentación posterior a la prueba, después de haber identificado un segmento posterior a la prueba, considere la posibilidad de probarlo en una nueva prueba. Otra opción es aplicar la corrección de Bonferroni, que explicamos más adelante.
 
-  Es importante tener en cuenta que *cada* oferta probada tiene una tasa de falsos positivos igual al nivel de relevancia, tal como se ha descrito anteriormente. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %.
+#### Prueba de varias ofertas
 
-  Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Por medio de esta corrección, el nivel de relevancia se divide entre el número de comparaciones para obtener el nivel de relevancia necesario para lograr un nivel de confianza del 95 %.
+Los especialistas en marketing suelen probar más de dos ofertas (o experiencias) entre sí. Por este motivo, a veces las soluciones de prueba A/B se llaman pruebas A/B/n, donde n es el número de ofertas que se prueban simultáneamente.
 
-  Aplicando la corrección de Bonferroni en el ejemplo anterior, se usaría un nivel de relevancia de 5 %/4 = 1,25 %, que es lo mismo que un nivel de confianza del 98,75 % en una prueba individual (100 % - 1,25 % = 98,75 %). Este ajuste mantiene el nivel de confianza real en el 95 % cuando se realizan cuatro pruebas, como en el ejemplo descrito.
+Es importante tener en cuenta que *cada* oferta probada tiene una tasa de falsos positivos igual al nivel de relevancia, tal como se ha descrito anteriormente. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %.
+
+Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Por medio de esta corrección, el nivel de relevancia se divide entre el número de comparaciones para obtener el nivel de relevancia necesario para lograr un nivel de confianza del 95 %.
+
+Aplicando la corrección de Bonferroni en el ejemplo anterior, se usaría un nivel de relevancia de 5 %/4 = 1,25 %, que es lo mismo que un nivel de confianza del 98,75 % en una prueba individual (100 % - 1,25 % = 98,75 %). Este ajuste mantiene el nivel de confianza real en el 95 % cuando se realizan cuatro pruebas, como en el ejemplo descrito.
 
 ## Escollo 2: Declarar ganadores en pruebas de varias ofertas sin una diferencia con relevancia estadística {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Al realizar pruebas con varias ofertas, los especialistas en marketing suelen declarar como ganadora de la prueba la oferta con la mayor alza aunque no exista una diferencia estadísticamente relevante entre el ganador y el segundo finalista. Esta situación se da cuando la diferencia entre las alternativas es inferior a la diferencia entre las alternativas y el control. La imagen siguiente ilustra este concepto. Las barras negras de error representan los intervalos de confianza del alza del 95 %. El alza verdadera de cada oferta en relación con la oferta de control tiene un 95 % de probabilidad de incluirse en el intervalo de confianza (el rango señalado por las barras de error).
 
-![imagen pitfalls2](assets/pitfalls2.png)
+![Gráfico de barras del alza de ofertas A, B y C con intervalos de confianza: los intervalos de A y B se superponen, el intervalo de C no](assets/pitfalls2.png)
 
 Las ofertas A y B tienen la mayor alza observada durante la prueba y es poco probable que la oferta C supere en rendimiento a estas ofertas en una próxima prueba, ya que el intervalo de confianza de C ni siquiera se superpone con los intervalos de confianza de A y B. Sin embargo, aunque la oferta A tiene la mayor alza observada durante la prueba, hay muchas posibilidades de que la oferta B ofrezca un mejor rendimiento en una próxima prueba debido a la superposición de los intervalos de confianza.
 
@@ -98,7 +125,7 @@ Hay dos factores clave que determinan la efectividad de una prueba. En primer lu
 
 Hoy en día, los especialistas en marketing emplean una potencia estadística insuficiente en gran cantidad de pruebas. En otras palabras, el tamaño de muestra que utilizan es demasiado pequeño. Esto quiere decir que tienen escasas posibilidades de detectar verdaderos positivos aunque exista una diferencia notable en la tasa de conversión. Es más: si se ejecutan continuamente pruebas con una potencia estadística insuficiente, el número de falsos positivos puede ser equiparable al de verdaderos positivos e, incluso, lo puede sobrepasar. A menudo, esto desemboca en la implementación de cambios neutros en un sitio (una pérdida de tiempo) o cambios que, paradójicamente, reducen las tasas de conversión.
 
-![imagen pitfalls3](assets/pitfalls3.png)
+![Tabla de los cuatro resultados posibles de una prueba: verdadero positivo, falso positivo (controlado por el nivel de relevancia), falso negativo (controlado por el nivel de potencia) y verdadero negativo](assets/pitfalls3.png)
 
 Para evitar que esto ocurra, hay que tener en cuenta que el estándar típico para que una prueba arroje resultados fiables es un nivel de confianza del 95 % y una potencia estadística del 80 %. Estos porcentajes indican que la prueba ofrece un 95 % de probabilidad de evitar un falso positivo y un 80 % de evitar un falso negativo.
 
@@ -130,7 +157,7 @@ Es tentador detener una prueba si una de las ofertas muestra un rendimiento mejo
 
 En la ilustración siguiente vemos cinco ofertas que tienen la misma tasa de conversión a largo plazo. La oferta B tuvo una tasa de conversión deficiente durante los primeros 2000 visitantes y la tasa de conversión estimada tarda mucho en volver a la tasa verdadera a largo plazo.
 
-![imagen pitfalls4](assets/pitfalls4.png)
+![Gráfico de líneas de la diferencia en la tasa de conversión entre cinco ofertas alternativas y el control: las diferencias son grandes para los primeros miles de visitantes, por ejemplo menos 8 a menos 9 por ciento para la Oferta B, y convergen hacia cero a medida que aumenta el número de visitantes](assets/pitfalls4.png)
 
 Este fenómeno se conoce como &quot;regresión a la media&quot; y puede llevar a decepciones cuando una oferta que mostró un buen rendimiento durante los días iniciales de una prueba no es capaz de mantener el mismo rendimiento al final. También puede suponer la pérdida de ingresos cuando una buena oferta no se implementa debido a un mal rendimiento en los primeros días de una prueba solo por casualidad.
 
@@ -168,7 +195,7 @@ Las ofertas de este tipo animan a los visitantes a realizar la conversión antes
 
 En la ilustración siguiente observamos dos ofertas que dos visitantes distintos ven a la vez un domingo por la tarde. El periodo de consideración de la oferta A es breve y el visitante realiza la conversión más tarde ese mismo día. Sin embargo, el periodo de consideración de la oferta B es más extenso y el visitante que la vio piensa en ella un tiempo y acaba efectuando la conversión el lunes por la mañana. Si detiene la prueba el domingo por la noche, la conversión asociada a la oferta A se cuenta en la métrica de conversión de dicha oferta, mientras que la conversión asociada a la oferta B no se contabilizará en la métrica correspondiente de esta oferta. Esto pone en una situación de gran desventaja a la oferta B.
 
-![imagen pitfalls5](assets/pitfalls5.png)
+![Cronología de domingo a lunes: la oferta A tiene un período de consideración corto y el visitante se convierte en domingo; la oferta B tiene un período de consideración más largo y el visitante se convierte en lunes](assets/pitfalls5.png)
 
 Si quiere evitar este escollo, debe dejar un tiempo para que los visitantes que estuvieron expuestos a las ofertas de la prueba generen la conversión después de haberse detenido una nueva entrada de la prueba. Con esto, podría ver una comparación justa de las ofertas.
 
@@ -176,11 +203,11 @@ Si quiere evitar este escollo, debe dejar un tiempo para que los visitantes que 
 
 Los especialistas en marketing pueden sentir la tentación de usar métricas de conversión de tráfico elevado y varianza baja en el embudo superior, como la tasa de pulsaciones (CTR), para alcanzar con mayor rapidez un número adecuado de conversiones de prueba. No obstante, debemos pensar muy bien si la CTR es un medio apropiado para el objetivo comercial que deseamos conseguir. Las ofertas con mayores cifras de CTR pueden conducir fácilmente a una caída de los ingresos. Esto puede ocurrir cuando las ofertas atraen a visitantes con menor propensión a comprar o cuando la propia oferta (un descuento, por ejemplo) supone, de por sí, unos ingresos menores.
 
-![imagen pitfalls6](assets/pitfalls6.png)
+![Funnel y métricas de CTR en la parte superior para ganancias de por vida en la parte inferior: mayor tráfico y menos variación en la parte superior, más cerca de los objetivos comerciales en la parte inferior](assets/pitfalls6.png)
 
 Vamos a fijarnos en la oferta para esquiar que hay abajo. Genera una CTR mayor que la oferta de ciclismo, pero, como los visitantes gastan más dinero de media cuando eligen la oferta de ciclismo, los ingresos esperados de exponer dicha oferta a un visitante determinado son más elevados. Por lo tanto, una prueba A/B cuya métrica fuera la CTR elegiría una oferta que no maximizara los ingresos, lo cual podría ser el objetivo esencial del negocio.
 
-![imagen pitfalls7](assets/pitfalls7.png)
+![Oferta de esquí con un CTR del 20% y un ingreso promedio de $50, así que se esperan ingresos de $10, en comparación con una oferta de ciclismo con un CTR del 10% y un ingreso promedio de $250, así que se esperan ingresos de $25](assets/pitfalls7.png)
 
 Para evitar este problema, monitorice atentamente las métricas de la empresa a fin de identificar el impacto comercial de las ofertas o, mejor aún, use una métrica que se aproxime más a la meta comercial (si es posible).
 

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ La lista siguiente describe algunas de las situaciones que pueden provocar que u
 
 ## [!UICONTROL Métrica de informes] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Haga clic en la lista desplegable **[!UICONTROL Métrica del informe]** para seleccionar una [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) diferente o varias métricas que se mostrarán en el gráfico.
+Haga clic en la lista desplegable **[!UICONTROL Métrica del informe]** para seleccionar una [métrica de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) diferente o varias métricas que se mostrarán en el gráfico.
 
 De manera predeterminada, la métrica principal se determina al configurar las métricas de éxito al crear la actividad. Si cambia la configuración y vuelve a guardar la actividad, se actualizará la métrica principal para informes.
 

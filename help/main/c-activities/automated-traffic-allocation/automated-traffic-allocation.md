@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 33%
@@ -59,7 +59,7 @@ En estas pruebas, la mayoría de los productos, incluido [!DNL Target], usan una
 ## Cuándo usar [!UICONTROL Asignación automática] en comparación con [!UICONTROL Prueba A/B] o [!UICONTROL Automated Personalization] actividades {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilice la **[!UICONTROL asignación automática]** cuando quiera optimizar la actividad desde el principio e identificar las experiencias ganadoras lo antes posible. Al ofrecer experiencias de alto rendimiento con mayor frecuencia, se aumenta el rendimiento general de la actividad.
-* Use una **[Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio. Una prueba A/B le ayuda a clasificar todas sus experiencias, mientras que [!UICONTROL Asignación automática] encuentra los mejores ejecutantes, pero no garantiza la diferenciación entre los de menor rendimiento.
+* Use una **[Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio. Una prueba A/B le ayuda a clasificar todas sus experiencias, mientras que [!UICONTROL Asignación automática] encuentra los mejores ejecutantes, pero no garantiza la diferenciación entre los de menor rendimiento.
 * Use [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) cuando quiera algoritmos de optimización de la mayor complejidad, como modelos de aprendizaje automático que generen predicciones basadas en atributos de perfil individuales. [!UICONTROL Asignación automática] observa el comportamiento agregado de las experiencias (como las pruebas A/B estándar) y no diferencia entre visitantes.
 
 ## Ventajas principales de [!UICONTROL Asignación automática] {#section_0913BF06F73C4794862561388BBDDFF0}

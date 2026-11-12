@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 43%
@@ -46,7 +46,7 @@ O, dicho de otro modo, puede especificar que un visitante debe haber alcanzado u
 
 >[!NOTE]
 >
->[Las métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) solo están disponibles si las ha configurado para su actividad. Si no ha definido métricas de éxito, solo verá dos opciones en la lista desplegable: [!UICONTROL Entrada de campaña] y [!UICONTROL Conversión].
+>[Las métricas de éxito](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) solo están disponibles si las ha configurado para su actividad. Si no ha definido métricas de éxito, solo verá dos opciones en la lista desplegable: [!UICONTROL Entrada de campaña] y [!UICONTROL Conversión].
 
 
 ## Consideraciones

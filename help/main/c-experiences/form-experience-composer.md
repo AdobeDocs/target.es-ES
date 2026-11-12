@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -147,7 +147,7 @@ Si está creando una actividad [!UICONTROL Recommendations], no hay experiencias
 1. Haga clic en **[!UICONTROL Siguiente]** y complete los pasos de creación de actividad como de costumbre para su tipo de actividad.
 
 * [Crear una prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
 * [Crear una actividad de Recomendaciones](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Vídeo de formación: Compositor basado en formularios ![Distintivo de tutorial](/help/main/assets/tutorial.png)

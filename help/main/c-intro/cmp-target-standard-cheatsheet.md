@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -105,7 +105,7 @@ Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/t
 **¿Puedo realizar una actividad estadísticamente rigurosa para encontrar una experiencia ganadora y perdedora al usar una experiencia de control?**
 
 +++Ver detalles
-[Pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (opción de segmentación manual) junto con la [calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) para obtener mejores resultados.
+[Pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab) (opción de segmentación manual) junto con la [calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para obtener mejores resultados.
 
 +++
 

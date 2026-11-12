@@ -21,55 +21,53 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '667'
 ht-degree: 19%
 ---
-# Información general sobre las pruebas A/B
+# Información general sobre las pruebas A/B {#test-ab}
 
-Una actividad manual de [!UICONTROL Prueba A/B] (a veces denominada prueba A/B...N) compara dos o más versiones del contenido del sitio web para ver qué versión mejora las conversiones, las ventas u otras métricas que identifique. Utilice una prueba A/B para comparar los cambios en las páginas con respecto al diseño de página predeterminado, para determinar qué experiencias generan los mejores resultados.
+>[!BEGINSHADEBOX]
 
->[!TIP]
->
->Además de la actividad [!UICONTROL Prueba A/B] manual (predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]. Consulte [Tipos de actividades de pruebas A/B](#types) más abajo para obtener más información.
+**En esta página:** Descubra qué es una prueba A/B manual, cuándo utilizarla en lugar de una prueba multivariable y cómo se relaciona con los tipos de actividad de asignación automática y segmentación automática.
 
-Las pruebas A/B manuales son útiles cuando tiene una hipótesis clara de formas de mejorar el rendimiento de la página en función de métricas de éxito o de una entrega de contenido alternativo.
+>[!ENDSHADEBOX]
 
-Las pruebas A/B manuales son adecuadas para cambios grandes que pueden implicar nuevos diseños o tratamientos drásticamente diferentes de los elementos. Si el diseño de la prueba no se desglosa fácilmente en elementos de página individuales, debe ejecutar una prueba A/B antes de ejecutar una [prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+Una actividad manual de **[!UICONTROL Prueba A/B]** (a veces denominada prueba A/B...N) compara dos o más versiones del contenido del sitio web para ver qué versión mejora las conversiones, las ventas u otras métricas que identifique. Utilice una prueba A/B para comparar los cambios en las páginas con respecto al diseño de página predeterminado, para determinar qué experiencias generan los mejores resultados.
 
-Al configurar la prueba A/B, puede determinar el porcentaje de visitantes que ven cada experiencia. Por ejemplo, puede dividir el tráfico de forma uniforme entre el control y una segunda experiencia, o puede probar una experiencia nueva y más arriesgada mostrándola solo al 5 % de la audiencia.
+## Cuándo se debe utilizar una prueba A/B manual {#when-to-use}
 
->[!NOTE]
->
->Para obtener información detallada sobre cómo determinar el tamaño de muestra óptimo para una prueba A/B, consulte [Planificación de la prueba A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md).
+Utilice una prueba A/B manual cuando:
 
-Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más ubicaciones, es aconsejable realizar una [prueba MVT](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) antes de ejecutar las pruebas A/B. La prueba multivariable muestra qué áreas de la página tienen más posibilidad de mejorar la conversión. Estas áreas son las ubicaciones en las que el experto en marketing debe centrarse. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es la ubicación más importante para lograr sus objetivos. Después de determinar qué ubicaciones y contenido son más útiles para alcanzar sus objetivos, puede ejecutar una prueba A/B para refinar aún más los resultados. Por ejemplo, para probar dos imágenes específicas entre sí o para comparar las palabras o los colores de un call to action. Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
+* Tiene una hipótesis clara de las formas de mejorar el rendimiento de su página, en función de las métricas de éxito o de la entrega de contenido alternativo.
+* Desea probar cambios grandes, como nuevos diseños o tratamientos drásticamente diferentes de los elementos. Si el diseño de la prueba no se desglosa fácilmente en elementos de página individuales, debe ejecutar una prueba A/B antes de ejecutar una [prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+* Desea decidir el porcentaje de visitantes que ven cada experiencia. Por ejemplo, puede dividir el tráfico de forma uniforme entre el control y una segunda experiencia, o puede probar una experiencia nueva y más arriesgada mostrándola solo al 5 % de la audiencia.
+
+Para obtener información detallada sobre cómo determinar el tamaño de muestra óptimo para una prueba A/B, consulte [Planificación de la prueba A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md).
+
+### Combinar una prueba multivariable y pruebas A/B
+
+Cuando el número de experiencias diferentes es superior a cinco y abarca dos o más ubicaciones, es aconsejable realizar una [prueba MVT](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) antes de ejecutar las pruebas A/B:
+
+1. **Ejecute una prueba multivariable** para ver qué áreas de la página tienen más probabilidades de mejorar la conversión. Estas áreas son las ubicaciones en las que el experto en marketing debe centrarse. Por ejemplo, la prueba MVT podría mostrar que la llamada a la acción es la ubicación más importante para lograr sus objetivos.
+
+1. **Ejecute una o más pruebas A/B** en esas ubicaciones para restringir aún más los resultados. Por ejemplo, para probar dos imágenes específicas entre sí o para comparar las palabras o los colores de un call to action.
+
+Si después de una prueba MVT se realizan una o varias pruebas A/B, puede determinar el mejor contenido posible para los resultados que desea obtener.
 
 ## Tipos de actividades de prueba A/B {#types}
 
-Además de la actividad manual [!UICONTROL Prueba A/B], [!DNL Target] proporciona dos tipos adicionales de actividades de [!UICONTROL Prueba A/B]: [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
+Además de la actividad manual **[!UICONTROL Prueba A/B]**, [!DNL Target] proporciona dos tipos adicionales de actividades de **[!UICONTROL Prueba A/B]**: **[!UICONTROL Asignación automática]** y **[!UICONTROL Segmentación automática]**.
 
 | Tipo de actividad | Descripción |
 | --- | --- |
-| [!UICONTROL Prueba A/B manual] | Compara dos o más experiencias para ver cuál mejora más las conversiones durante un periodo de prueba previamente establecido.<P>En esta sección se describe cómo configurar una actividad [!UICONTROL Prueba A/B] manual, pero los pasos para los demás tipos de actividades [!UICONTROL Prueba A/B] son similares. |
-| [!UICONTROL Asignación automática] | Identifica un ganador entre dos o más experiencias y luego redirige el tráfico hacia el ganador para aumentar las conversiones mientras la prueba se ejecuta y aprende.<P>Para obtener más información sobre las ventajas de usar una actividad [!UICONTROL Asignación automática], consulta [Asignación automática](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) en *Cuánto tiempo debes ejecutar una prueba A/B* y [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| ![Distintivo Premium](/help/main/assets/premium.png) [!UICONTROL Segmentación automática] | Utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing. A continuación, se ofrece a los visitantes la experiencia más adaptada en función de sus perfiles de cliente individuales y de los comportamientos anteriores de visitantes similares.<P>Para obtener más información, consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
+| **[!UICONTROL Prueba A/B manual]** | Compara dos o más experiencias para ver cuál mejora más las conversiones durante un periodo de prueba previamente establecido.<P>En esta sección se describe cómo configurar una actividad **[!UICONTROL Prueba A/B]** manual, pero los pasos para los demás tipos de actividades **[!UICONTROL Prueba A/B]** son similares. |
+| **[!UICONTROL Asignación automática]** | Identifica un ganador entre dos o más experiencias y luego redirige el tráfico hacia el ganador para aumentar las conversiones mientras la prueba se ejecuta y aprende.<P>Para obtener más información sobre las ventajas de usar una actividad **[!UICONTROL Asignación automática]**, consulta [Asignación automática](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) en *Cuánto tiempo debes ejecutar una prueba A/B* y [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
+| ![Distintivo Premium](/help/main/assets/premium.png) **[!UICONTROL Segmentación automática]** | Utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones identificando múltiples experiencias de alto rendimiento definidas por expertos en marketing. A continuación, se ofrece a los visitantes la experiencia más adaptada en función de sus perfiles de cliente individuales y de los comportamientos anteriores de visitantes similares.<P>Para obtener más información, consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
-Para obtener más información sobre cuál de estas [!UICONTROL pruebas A/B] es la adecuada para usted, consulte la [Guía de actividades de Adobe Target interactiva en PDF](/help/main/c-activities/target-activities-guide.md).
+Para obtener más información sobre cuál de estas **[!UICONTROL pruebas A/B]** es la adecuada para usted, consulte la [Guía de actividades de Adobe Target interactiva en PDF](/help/main/c-activities/target-activities-guide.md).
 
-Los pasos para crear los tres tipos de actividades [!UICONTROL Prueba A/B] son similares. Para crear una actividad de [!UICONTROL Asignación automática] o [!UICONTROL Segmentación automática]:
-
-1. Comience por [crear una actividad de prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
-1. Cuando llegue a la página [!UICONTROL Segmentación], haga clic en el control [!UICONTROL Asignación del tráfico] y, a continuación, elija el método de asignación de tráfico que desee en el panel derecho, como se muestra a continuación:
-
-   * [!UICONTROL Asignación automática a la mejor experiencia]
-   * [!UICONTROL Segmentación automática para experiencia personalizada]
-
-   ![Configuración del método de asignación de tráfico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
-
-## Incluir recomendaciones dentro de actividades A/B
-
-Puede incluir recomendaciones dentro de las actividades [!UICONTROL Prueba A/B], [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática] (así como las actividades [!UICONTROL Segmentación de experiencias] (XT) ). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
-
-Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium).
+>[!NOTE]
+>
+>Puede incluir recomendaciones dentro de las actividades **[!UICONTROL Prueba A/B]**, **[!UICONTROL Asignación automática]** y **[!UICONTROL Segmentación automática]** (así como las actividades **[!UICONTROL Segmentación de experiencias]** (XT) ). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). Para esta funcionalidad, es necesaria una [licencia de Target Premium](/help/main/c-intro/intro.md#premium).

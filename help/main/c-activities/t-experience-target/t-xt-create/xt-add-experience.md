@@ -19,22 +19,32 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 21%
+source-wordcount: '900'
+ht-degree: 16%
 ---
-# Crear experiencia en [!UICONTROL actividades de segmentación de experiencias] (XT)
+# Crear experiencia en [!UICONTROL actividades de segmentación de experiencias] (XT) {#xt-add-experience}
 
-El [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target] proporciona una interfaz visual para editar las experiencias en su página en una actividad de [!UICONTROL segmentación de experiencias] (XT).
+>[!BEGINSHADEBOX]
 
-1. Seleccione los elementos que desee cambiar y realice los cambios necesarios.
+**En esta página:** Obtenga información sobre cómo crear experiencias y segmentarlas para audiencias en una actividad de segmentación de experiencias, cómo ponerlas en orden, y cómo cambiarles el nombre, editarlos, duplicarlos o eliminarlos.
 
-   Mientras [crea una actividad [!UICONTROL de segmentación de experiencias]](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), el paso uno del flujo de trabajo guiado de tres partes ([!UICONTROL Experiencias]) muestra la [!UICONTROL experiencia A] predeterminada con una audiencia de [!UICONTROL Todos los visitantes].
+>[!ENDSHADEBOX]
 
-   ![Público de todos los visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
+El **[!UICONTROL Compositor de experiencias visuales]** (VEC) de [!DNL Adobe Target] proporciona una interfaz visual para editar las experiencias en su página en una actividad de **[!UICONTROL segmentación de experiencias]** (XT).
 
-   Los cambios que realice ahora se aplican a la [!UICONTROL experiencia A]. En un paso inferior, haga clic en **[!UICONTROL Agregar segmentación de experiencias]** para crear experiencias adicionales.
+* [Crear experiencias segmentadas](#create-experiences)
+* [Reordenar experiencias](#reorder-experiences)
+* [Cambiar el nombre, editar, duplicar o eliminar una experiencia](#manage-experiences)
+
+## Crear experiencias segmentadas {#create-experiences}
+
+Mientras [crea una actividad **[!UICONTROL de segmentación de experiencias]**](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), el paso uno del flujo de trabajo guiado de tres partes (**[!UICONTROL Experiencias]**) muestra la **[!UICONTROL experiencia A]** predeterminada con una audiencia de **[!UICONTROL Todos los visitantes]**.
+
+![Público de todos los visitantes](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
+
+1. Seleccione los elementos que desee cambiar y realice los cambios necesarios. Los cambios que realice ahora se aplican a la **[!UICONTROL experiencia A]**.
 
    Al pasar el ratón por encima de los elementos de la página, estos se resaltan. Los elementos resaltados se pueden modificar con el VEC. Para obtener una lista de las acciones que se pueden realizar en un elemento para cambiar la experiencia, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -44,23 +54,25 @@ El [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target]
 
 1. Para crear experiencias adicionales, haga clic en **[!UICONTROL Agregar]** ( ![Agregar botón](/help/main/assets/icons/Add.svg) ).
 
-   Se muestra el cuadro de diálogo [!UICONTROL Agregar audiencia]. Para segmentar una experiencia a una audiencia, seleccione la audiencia antes de añadir la experiencia.
+   Se muestra el cuadro de diálogo **[!UICONTROL Agregar audiencia]**. Para segmentar una experiencia a una audiencia, seleccione la audiencia antes de añadir la experiencia.
+
+   +++ Más información sobre las audiencias
 
    La biblioteca de públicos contiene los públicos que se han definido anteriormente, entre los que se incluyen algunos públicos comunes predefinidos como parte de [!DNL Target]. Puede seleccionar un público de la biblioteca o [crear un público nuevo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Al crear una audiencia, puede seleccionar una ubicación y especificar parámetros para esa ubicación. En [!UICONTROL Personalizado] ([!UICONTROL Crear audiencia] > [!UICONTROL Personalizado]), seleccione la ubicación y, a continuación, especifique los parámetros que desee.
+   Al crear una audiencia, puede seleccionar una ubicación y especificar parámetros para esa ubicación. En **[!UICONTROL Personalizado]** (**[!UICONTROL Crear audiencia]** > **[!UICONTROL Personalizado]**), seleccione la ubicación y, a continuación, especifique los parámetros que desee.
 
-   >[!NOTE]
-   >
-   >Las audiencias se importan automáticamente en segundo plano cuando abre la lista de audiencias y las audiencias importadas tienen más de diez minutos de antigüedad.
+   Las audiencias se importan automáticamente en segundo plano cuando abre la lista de audiencias y las audiencias importadas tienen más de diez minutos de antigüedad.
+
+   +++
 
 1. Seleccione una o más audiencias para segmentar con la experiencia y luego haga clic en **[!UICONTROL Asignar audiencia]**.
 
-   La experiencia B ahora aparece en la ilustración anterior y está dirigida a la audiencia adecuada.
+   **[!UICONTROL La experiencia B]** ahora se muestra en la ilustración anterior y esta experiencia está dirigida a la audiencia apropiada.
 
-1. Seleccione los elementos que desee cambiar para esta experiencia y realice los cambios necesarios, tal como se explica en el paso 1 anterior.
+1. Seleccione los elementos que desee cambiar para esta experiencia y realice los cambios necesarios, tal como se explica en el paso 1.
 
 1. Repita los pasos anteriores para crear más experiencias segmentadas, según sea necesario.
 
@@ -70,62 +82,42 @@ El [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target]
 
    ![Diagrama de segmentación de XT](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
 
-   >[!NOTE]
-   >
-   >Puede enviar una imagen desde un origen distinto a la página principal (por ejemplo, una imagen alojada en `akamai.net` y entregada el `adobe.com`). Las imágenes alojadas en otra parte no se muestran en la miniatura de la página mostrada en el diagrama de flujo.
+>[!NOTE]
+>
+>Puede enviar una imagen desde un origen distinto a la página principal (por ejemplo, una imagen alojada en `akamai.net` y entregada el `adobe.com`). Las imágenes alojadas en otra parte no se muestran en la miniatura de la página mostrada en el diagrama de flujo.
 
-1. (Condicional) Arrastre y suelte pares de audiencia y experiencia al crear o editar actividades de [!UICONTROL Segmentación de experiencias] para colocar los pares en el orden deseado.
+## Reordenar experiencias {#reorder-experiences}
 
-   Haga clic en el icono Reordenar ( ![Icono Reordenar](/help/main/assets/icons/Reorder.svg) ) para mostrar la columna [!UICONTROL Experiencias] a la derecha y, a continuación, reorganice las experiencias como desee.
+Al crear o editar una actividad **[!UICONTROL Segmentación de experiencias]**, puede arrastrar y soltar pares de audiencia y experiencia para organizarlos en el orden deseado. Las experiencias de los visitantes se evalúan en orden, de arriba abajo. **[!UICONTROL Segmentación de experiencias]** supone que ese orden importa. Si un visitante entra en el primer par de audiencia y experiencia, se ofrece la primera experiencia.
 
-   Las experiencias de los visitantes se evalúan en orden, de arriba abajo.
+Para reordenar los pares, haga clic en el icono Reordenar ( ![Icono Reordenar](/help/main/assets/icons/Reorder.svg) ) para mostrar la columna **[!UICONTROL Experiencias]** a la derecha y, a continuación, reorganice las experiencias como desee.
 
-   [!UICONTROL Segmentación de experiencias] supone que ese orden importa. Si un visitante entra en el primer par de audiencia y experiencia, se ofrece la primera experiencia.
++++ Ejemplo: audiencias que no se excluyen mutuamente
 
-   Por ejemplo, suponga que no sabía que el orden importaba al crear una actividad de [!UICONTROL Segmentación de experiencias]. Más tarde, durante la prueba, se dará cuenta de que los visitantes que cree que deberían cumplir los requisitos para las experiencias B o C cumplen los requisitos para la experiencia A. Esta situación podría deberse a que las audiencias no se excluyen mutuamente y no están en el orden adecuado (por ejemplo, experiencia A = Estados Unidos, experiencia B = San Francisco y experiencia C = California). En este escenario, todos los usuarios de Estados Unidos cumplen los requisitos para la experiencia A, incluso si están en San Francisco o en otro lugar de California. Puede reordenar los pares de audiencia y experiencia de más restrictivo a menos restrictivo (San Francisco > California > Estados Unidos) sin volver a crear toda la actividad.
+Supongamos que no sabe que el orden importa al crear una actividad de **[!UICONTROL Segmentación de experiencias]**. Más tarde, durante la prueba, se dará cuenta de que los visitantes que cree que deberían cumplir los requisitos para las experiencias B o C cumplen los requisitos para la experiencia A. Esta situación podría deberse a que las audiencias no se excluyen mutuamente y no están en el orden adecuado (por ejemplo, experiencia A = Estados Unidos, experiencia B = San Francisco y experiencia C = California).
 
-   Si tiene una audiencia de [!UICONTROL Todos los visitantes], asegúrese de que no sea la primera audiencia en el diagrama. Se puede usar una experiencia segmentada a &quot;[!UICONTROL Todos los visitantes]&quot; como la última experiencia de la actividad de [!UICONTROL Segmentación de experiencias] para &quot;captar&quot; a los visitantes que no han participado de otras experiencias.
+En este escenario, todos los usuarios de Estados Unidos cumplen los requisitos para la experiencia A, incluso si están en San Francisco o en otro lugar de California. Puede reordenar los pares de audiencia y experiencia de más restrictivo a menos restrictivo (San Francisco > California > Estados Unidos) sin volver a crear toda la actividad.
 
-## Cambiar el nombre, editar, duplicar o eliminar una experiencia
++++
 
-Haga clic en una experiencia en el diagrama de una actividad [!UICONTROL Segmentación de experiencias] para mostrar la columna [!UICONTROL Experiencias] a la derecha.
+Si tiene una audiencia de **[!UICONTROL Todos los visitantes]**, asegúrese de que no sea la primera audiencia en el diagrama. Se puede usar una experiencia segmentada a &quot;**[!UICONTROL Todos los visitantes]**&quot; como la última experiencia de la actividad de **[!UICONTROL Segmentación de experiencias]** para &quot;captar&quot; a los visitantes que no han participado de otras experiencias.
+
+## Cambiar el nombre, editar, duplicar o eliminar una experiencia {#manage-experiences}
+
+Haga clic en una experiencia en el diagrama de una actividad **[!UICONTROL Segmentación de experiencias]** para mostrar la columna **[!UICONTROL Experiencias]** a la derecha.
 
 ![Opciones de Cambiar nombre y editar](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png)
 
 Elija entre las siguientes opciones, según sea necesario:
 
-* **[!UICONTROL Cambiar nombre]**: escriba el nombre deseado en el campo [!UICONTROL Nombre].
+* **[!UICONTROL Cambiar nombre]**: escriba el nombre deseado en el campo **[!UICONTROL Nombre]**.
 * **[!UICONTROL Editar]**: Haga clic en el icono Editar ( ![Editar icono](/help/main/assets/icons/Edit.svg) ) y realice los cambios que desee.
-* **[!UICONTROL Duplicar]**: copia una experiencia en una actividad de [!UICONTROL segmentación de experiencias] para que puedas hacer cambios menores sin tener que volver a crear toda la experiencia. Haga clic en el icono [!UICONTROL Duplicar] ( ![Icono Duplicar](/help/main/assets/icons/Duplicate.svg) ) y, a continuación, edite la experiencia según sea necesario.
-* **[!UICONTROL Eliminar]**: Haz clic en el icono [!UICONTROL Eliminar] (![Eliminar icono](/help/main/assets/icons/Delete.svg) ) y confirma la eliminación.
+* **[!UICONTROL Duplicar]**: copia una experiencia en una actividad de **[!UICONTROL segmentación de experiencias]** para que puedas hacer cambios menores sin tener que volver a crear toda la experiencia. Haga clic en el icono **[!UICONTROL Duplicar]** ( ![Icono Duplicar](/help/main/assets/icons/Duplicate.svg) ) y, a continuación, edite la experiencia según sea necesario.
+* **[!UICONTROL Eliminar]**: Haz clic en el icono **[!UICONTROL Eliminar]** (![Eliminar icono](/help/main/assets/icons/Delete.svg) ) y confirma la eliminación.
 
-## Vídeos de formación:
+## Vídeo de formación: Uso del Compositor de experiencias visuales
 
-Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
-
-### De pruebas A/B a [!UICONTROL Segmentación de experiencias]
-
-En este vídeo se describe cómo llevar las pruebas A/B al siguiente nivel con [!UICONTROL Segmentación de experiencias] (XT).
-
-* Describa el flujo de trabajo guiado de tres pasos para configurar una actividad de [!UICONTROL segmentación de experiencias]
-* Describa cómo distribuir contenido específico de una ubicación a audiencias de diferentes áreas geográficas
-* Describe cómo se reordenan las experiencias para asegurar que cada contenido se envíe a la audiencia correcta
-
->[!VIDEO](https://video.tv.adobe.com/v/38303?captions=spa)
-
-### Tipos de actividad (9:03)
-
-En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. [!UICONTROL Segmentación de experiencias] se discute a partir del minuto 5:15.
-
-* Describe los tipos de actividades incluidas en [!DNL Adobe Target]
-* Seleccionar el tipo de actividad adecuado para lograr los objetivos
-* Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
-
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
-
-### Usando [!UICONTROL Compositor de experiencias visuales]
-
-Este vídeo proporciona información sobre cómo usar las opciones de [!UICONTROL Segmentación de experiencias] (VEC).
+Este vídeo proporciona información sobre cómo usar las opciones de **[!UICONTROL Segmentación de experiencias]** (VEC).
 
 * Cambiar el contenido de una página
 * Cambiar el diseño de una página

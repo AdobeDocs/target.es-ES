@@ -30,27 +30,29 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '238'
+ht-degree: 5%
 ---
 # Información general sobre la administración de [!DNL Target]
 
-Información para ayudarle a administrar [!DNL Adobe Target], incluidos los ajustes de configuración del Compositor de experiencias visuales (VEC), informes, configuración de Scene7, implementación, hosts, entornos, direcciones URL incluidas en la lista de permitidos, tokens de respuesta, usuarios y [!DNL Recommendations].
+Use **[!UICONTROL Administración]** para configurar los valores predeterminados de toda la cuenta para [!UICONTROL Compositor de experiencias visuales] (VEC), informes, infraestructura de entrega, control de acceso y [!DNL Recommendations].
 
-{{permissions-update}}
+Si está configurando [!DNL Target] por primera vez, comience con [Primeros pasos del administrador](/help/main/administrating-target/start-target.md). Para obtener ayuda para encontrar **[!UICONTROL Administration]** en la interfaz actualizada, consulta [Comprender la [!DNL Target] IU](/help/main/c-intro/understand-the-target-ui.md).
 
-Para obtener acceso a los elementos de menú [!UICONTROL Administration], haga clic en **[!UICONTROL Administration]** en la barra de menú superior y, a continuación, haga clic en la ficha que desee en el lado izquierdo:
+Para abrir una página de administración, haga clic en **[!UICONTROL Administración]** en la barra de menús superior y, a continuación, haga clic en la ficha que desee en el lado izquierdo:
 
-* [Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md)
-* [Creación de informes](/help/main/administrating-target/reporting.md)
-* [Configuración de Scene7](/help/main/administrating-target/scene7-settings.md)
-* [Implementación](/help/main/c-implementing-target/implementing-target.md)
-* [Propiedades](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
-* [Hosts](/help/main/administrating-target/hosts.md)
-* [Entornos](/help/main/administrating-target/environments.md)
-* [URL INCLUIDAS EN LA LISTA DE PERMITIDOS](/help/main/administrating-target/allowlisted-urls.md)
-* [Tokens de respuesta](/help/main/administrating-target/response-tokens.md)
-* [Usuarios](/help/main/administrating-target/c-user-management/user-management.md)
-* [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+| Pestaña Administración | Descripción |
+| --- | --- |
+| [Compositor de experiencias visuales](/help/main/administrating-target/visual-experience-composer-set-up.md) | Establezca la dirección URL de la página predeterminada y las opciones utilizadas al crear experiencias en el VEC. |
+| [Creación de informes](/help/main/administrating-target/reporting.md) | Elija la solución de creación de informes, la zona horaria, la moneda y otros valores predeterminados de creación de informes para su organización. Consulte también [Cálculo del aumento de ingresos](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
+| [Configuración de Scene7](/help/main/administrating-target/scene7-settings.md) | Conecte [!DNL Dynamic Media] (Scene7) para la entrega de imágenes en ofertas y experiencias. |
+| [Implementación](/help/main/administrating-target/implementation.md) | Revise la configuración de la implementación global en la página **[!UICONTROL Administración]**. Para obtener instrucciones de implementación completas, consulte [Implementar Target](/help/main/c-implementing-target/implementing-target.md). |
+| [Hosts](/help/main/administrating-target/hosts.md) | Organice los sitios y entornos de preproducción donde [!DNL Target] recibe las solicitudes. |
+| [Entornos](/help/main/administrating-target/environments.md) | Agrupe hosts en entornos como producción, ensayo y desarrollo. |
+| [URL Incluidas en la lista de permitidos](/help/main/administrating-target/allowlisted-urls.md) | Administre patrones de URL de confianza para ofertas remotas y validaciones relacionadas. |
+| [Tokens de respuesta](/help/main/administrating-target/response-tokens.md) | Incluir datos de perfil y actividad en [!DNL Target] respuestas para depuración e integraciones. |
+| [Propiedades](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Cree espacios de trabajo y asigne roles de empresa (solo [Target Premium](/help/main/c-intro/intro.md#premium)). |
+| [Usuarios](/help/main/administrating-target/c-user-management/user-management.md) | Agregue usuarios y asigne funciones y permisos de [!DNL Target]. |
+| [Recommendations](/help/main/administrating-target/recommendations-settings.md) | Configure las opciones predeterminadas para las actividades [!DNL Recommendations]. |
