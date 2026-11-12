@@ -2,7 +2,7 @@
 keywords: vista previa de experiencias;direcciones URL de experiencia;generar direcciones URL;ver direcciones URL de experiencia
 description: Aprenda a utilizar las URL de vista previa de experiencias para las actividades de Adobe [!DNL Target] Automated Personalization para ver el contenido de las experiencias directamente en el sitio antes de que la actividad esté activa.
 title: ¿Cómo puedo usar las direcciones URL de vista previa de experiencias en actividades de Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 41%
@@ -29,7 +29,7 @@ Se pueden generar URL de vista previa de experiencias para actividades de [!DNL 
 
 Utilice las URL de vista previa de experiencias para compartir experiencias con los integrantes del equipo y realizar controles de calidad de experiencias en exploradores y entornos, sin crear una actividad de control de calidad independiente. Esta característica resulta especialmente útil en sitios complejos o si las políticas de seguridad no permiten que el sitio se vea en un simulador.
 
-1. Cree una [actividad de Personalización automatizada](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) o haga clic en la actividad para abrirla.
+1. Cree una [actividad de Personalización automatizada](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) o haga clic en la actividad para abrirla.
 
    No es necesario que la actividad esté activa para poder consultar la vista previa de una experiencia.
 

@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -94,7 +94,7 @@ Conéctese con otros [!DNL Target] practicantes en el [Foro de la comunidad de T
 **¿Con qué exploradores es compatible [!DNL Target]?**
 
 +++Ver detalles
-Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
 
 [!DNL Safari] es compatible con la interfaz [!DNL Target]. Puede crear actividades basadas en formularios en [!DNL Safari] y usar todas las funciones, excepto [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC), que no son compatibles con [!DNL Safari]. Para editar experiencias en el VEC o EEC, use [!DNL Google Chrome].
 
@@ -105,7 +105,7 @@ Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/t
 **¿Puedo realizar una actividad estadísticamente rigurosa para encontrar una experiencia ganadora y perdedora al usar una experiencia de control?**
 
 +++Ver detalles
-[Pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (opción de segmentación manual) junto con la [calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) para obtener mejores resultados.
+[Pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab) (opción de segmentación manual) junto con la [calculadora de tamaño de muestra](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) para obtener mejores resultados.
 
 +++
 
@@ -274,7 +274,7 @@ Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de 
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -421,7 +421,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/main/c-experi
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

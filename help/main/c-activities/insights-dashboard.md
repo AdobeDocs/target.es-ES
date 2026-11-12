@@ -10,14 +10,20 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '858'
 ht-degree: 1%
 ---
-# Panel de perspectivas de Adobe Target
+# Panel de perspectivas de Adobe Target {#insights-dashboard}
 
-El [!UICONTROL panel de Adobe Target] proporciona una vista de alto nivel de cómo su organización utiliza [!DNL Adobe Target] a lo largo del tiempo. De un vistazo, ayuda a los equipos a comprender el uso de la adopción, el volumen de actividad y la experimentación.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a leer el **[!UICONTROL Tablero de Adobe Target]**: cómo seleccionar un intervalo de tiempo y qué muestran los KPI, el desglose de tipo de actividad, las métricas de prueba A/B y las actividades a lo largo del tiempo.
+
+>[!ENDSHADEBOX]
+
+El **[!UICONTROL panel de Adobe Target]** proporciona una vista de alto nivel de cómo su organización utiliza [!DNL Adobe Target] a lo largo del tiempo. De un vistazo, ayuda a los equipos a comprender el uso de la adopción, el volumen de actividad y la experimentación.
 
 El tablero está diseñado tanto para profesionales como para partes interesadas que deseen una visibilidad rápida del uso de [!DNL Target] sin tener que profundizar en los informes de actividad individuales.
 
@@ -63,23 +69,23 @@ Las tarjetas de KPI en la parte superior de la página resumen los recuentos de 
 
 ![](assets/insights-4.png)
 
-La métrica **Total de actividades activas** detalla la cantidad de actividades que estuvieron activas en cualquier momento durante el intervalo de tiempo seleccionado. Una actividad se considera activa si estaba sirviendo tráfico de forma activa, incluso si se inició antes o terminó después del período seleccionado. Utilice esta métrica para lo siguiente:
+La métrica **[!UICONTROL Total de actividades activas]** detalla la cantidad de actividades que estuvieron activas en cualquier momento durante el intervalo de tiempo seleccionado. Una actividad se considera activa si estaba sirviendo tráfico de forma activa, incluso si se inició antes o terminó después del período seleccionado. Utilice esta métrica para lo siguiente:
 
 * Comprenda de qué manera se utilizó [!DNL Target] activamente durante el período de tiempo.
 * Mida la escala general de sus esfuerzos de personalización y prueba.
 
-La métrica **Actividades activas o modificadas** representa la cantidad total de actividades en su organización que se activaron, crearon o modificaron dentro del lapso de tiempo seleccionado. Utilice esta métrica para lo siguiente:
+La métrica **[!UICONTROL Actividades activas o modificadas]** representa la cantidad total de actividades en su organización que se activaron, crearon o modificaron dentro del lapso de tiempo seleccionado. Utilice esta métrica para lo siguiente:
 
 * Comprenda el tamaño general de la biblioteca de actividades [!DNL Target] y cuántas actividades se están utilizando.
 
 * Realice un seguimiento del crecimiento a largo plazo de sus programas de experimentación y personalización.
 
-La métrica **Actividades finalizadas** representa el número de actividades que alcanzaron una fecha de finalización o detención durante el intervalo de tiempo seleccionado. Utilice esta métrica para lo siguiente:
+La métrica **[!UICONTROL Actividades finalizadas]** representa el número de actividades que alcanzaron una fecha de finalización o detención durante el intervalo de tiempo seleccionado. Utilice esta métrica para lo siguiente:
 
 * Comprenda cuántas actividades finalizaron durante el período de tiempo.
 * Rastrear el volumen de finalización con el tiempo.
 
-La métrica **Actividades publicadas** detalla la cantidad de actividades que se publicaron durante el intervalo de tiempo seleccionado. Una actividad se considera publicada cuando se activa por primera vez. Si una actividad se activa, se detiene y luego se vuelve a activar, solo se cuenta la primera incidencia en esta métrica. Utilice esta métrica para lo siguiente:
+La métrica **[!UICONTROL Actividades publicadas]** detalla la cantidad de actividades que se publicaron durante el intervalo de tiempo seleccionado. Una actividad se considera publicada cuando se activa por primera vez. Si una actividad se activa, se detiene y luego se vuelve a activar, solo se cuenta la primera incidencia en esta métrica. Utilice esta métrica para lo siguiente:
 
 * Mida cuántas actividades nuevas se lanzaron.
 * Comprenda la creación de actividades y la velocidad de publicación.
@@ -88,13 +94,13 @@ La métrica **Actividades publicadas** detalla la cantidad de actividades que se
 
 ![](assets/insights-5.png)
 
-El gráfico [!UICONTROL Tipo de actividad] muestra la distribución de actividades activas por tipo durante el intervalo de tiempo seleccionado, que incluye:
+El gráfico **[!UICONTROL Tipo de actividad]** muestra la distribución de actividades activas por tipo durante el intervalo de tiempo seleccionado, que incluye:
 
-* [!UICONTROL Prueba A/B]
-* [!UICONTROL Segmentación de experiencias]
-* [!UICONTROL Recommendations]
-* [!UICONTROL Personalización automatizada]
-* [!UICONTROL Prueba multivariable]
+* **[!UICONTROL Prueba A/B]**
+* **[!UICONTROL Segmentación de experiencias]**
+* **[!UICONTROL Recommendations]**
+* **[!UICONTROL Personalización automatizada]**
+* **[!UICONTROL Prueba multivariable]**
 
 Utilice este gráfico para identificar en qué capacidades de [!DNL Target] se basa más su organización, así como para identificar oportunidades que le permitirán ampliar la combinación de tipos de actividades que ejecuta.
 
@@ -110,7 +116,7 @@ El **[!UICONTROL total de pruebas A/B publicadas]** muestra el número de activi
 
 Utilice estas métricas para comprender con qué frecuencia se utilizan las pruebas A/B y para rastrear el volumen de experimentación y la adopción a lo largo del tiempo.
 
-### Actividades a lo largo del tiempo
+### Actividades con el tiempo {#activities-over-time}
 
 ![](assets/insights-7.png){align="center"}
 

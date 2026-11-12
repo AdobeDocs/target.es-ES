@@ -23,42 +23,44 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e43265e56e7add690f33a4cd19990bed55a82123
 workflow-type: tm+mt
-source-wordcount: '3188'
-ht-degree: 45%
+source-wordcount: '3146'
+ht-degree: 43%
 ---
-# ¿Durante cuánto tiempo se debe ejecutar una prueba A/B?
+# ¿Durante cuánto tiempo se debe ejecutar una prueba A/B? {#sample-size-determination}
 
-Una actividad [!UICONTROL Prueba A/B] correcta en [!DNL Adobe Target] requiere suficientes visitantes (tamaño de muestra) para mejorar la tasa de conversión. ¿Cómo sabe durante cuánto tiempo se debe ejecutar una prueba A/B? Este artículo contiene información sobre las actividades de [!UICONTROL asignación automática] y la calculadora de tamaño de muestra de [!UICONTROL Adobe Target] para ayudarte a asegurarte de que tu actividad tenga suficientes visitantes para lograr tus objetivos.
+>[!BEGINSHADEBOX]
 
-Es tentador detener una actividad si una de las ofertas tiene un rendimiento mejor o peor que las demás en los primeros días de la actividad. Sin embargo, cuando el número de observaciones es reducido, existe una alta probabilidad de observar un alza positiva o negativa solo por casualidad, puesto que la tasa de conversión se promedia a partir de un número bajo de visitantes. A medida que la actividad recopila más puntos de datos, las tasas de conversión convergen hacia sus verdaderos valores a largo plazo.
+**En esta página:** Aprenda a decidir cuánto tiempo se debe ejecutar una prueba A/B: por qué no debe detener una actividad de forma anticipada, cómo ayuda la asignación automática y cómo funcionan juntos los cinco parámetros de la calculadora de tamaño de muestra.
+
+>[!ENDSHADEBOX]
+
+Una actividad **[!UICONTROL Prueba A/B]** correcta en [!DNL Adobe Target] requiere suficientes visitantes (tamaño de muestra) para mejorar la tasa de conversión. ¿Cómo sabe durante cuánto tiempo se debe ejecutar una prueba A/B? Este artículo contiene información sobre las actividades de **[!UICONTROL asignación automática]** y la calculadora de tamaño de muestra de **[!UICONTROL Adobe Target]** para ayudarte a asegurarte de que tu actividad tenga suficientes visitantes para lograr tus objetivos.
+
+## ¿Por qué no detener una actividad antes de tiempo? {#stop-early}
 
 >[!IMPORTANT]
 >
->Detener una actividad de forma prematura es uno de los diez escollos importantes a los que podría verse expuesto al realizar pruebas A/B. Para obtener más información, consulte [Diez dificultades comunes de las pruebas A/B y cómo evitarlas](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>Detener una actividad de forma prematura es uno de los diez escollos importantes a los que podría verse expuesto al realizar pruebas A/B. Para obtener más información, consulte [Diez dificultades comunes de las pruebas A/B y cómo evitarlas](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F).
 
-[!DNL Adobe Target] proporciona herramientas para garantizar que su actividad tenga un tamaño de muestra lo suficientemente grande como para lograr sus objetivos de conversión: Asignación automática.
+Es tentador detener una actividad si una de las ofertas tiene un rendimiento mejor o peor que las demás en los primeros días de la actividad. Sin embargo, cuando el número de observaciones es reducido, existe una alta probabilidad de observar un alza positiva o negativa solo por casualidad, puesto que la tasa de conversión se promedia a partir de un número bajo de visitantes. A medida que la actividad recopila más puntos de datos, las tasas de conversión convergen hacia sus verdaderos valores a largo plazo.
+
+[!DNL Adobe Target] proporciona herramientas para garantizar que su actividad tenga un tamaño de muestra lo suficientemente grande como para lograr sus objetivos de conversión: [Asignación automática](#auto-allocate) y [Calculadora de tamaño de muestra](#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Asignación automática {#auto-allocate}
 
-Una actividad [de asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) es un tipo de prueba A/B que identifica un ganador entre dos o más experiencias. Una prueba de [!UICONTROL Asignación automática] reasigna automáticamente más tráfico al ganador para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
+Una actividad [de asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) es un tipo de prueba A/B que identifica un ganador entre dos o más experiencias. Una prueba de **[!UICONTROL Asignación automática]** reasigna automáticamente más tráfico al ganador para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo.
 
-Las pruebas A/B estándar tienen un coste inherente. Debe invertir tráfico para medir el rendimiento de cada experiencia y utilizar el análisis para determinar la experiencia ganadora. La distribución del tráfico sigue siendo fija incluso después de reconocer que el rendimiento de algunas experiencias supera al de otras. Además, es complicado averiguar el tamaño de la muestra, y la actividad debe ejecutar todo su curso antes de poder actuar sobre un ganador. Y todavía hay una posibilidad de que el ganador identificado no sea un verdadero ganador.
+A diferencia de una prueba A/B estándar, donde la distribución del tráfico permanece fija y la actividad debe ejecutar todo su curso antes de poder actuar sobre un ganador, **[!UICONTROL Asignación automática]** supervisa el rendimiento de la métrica de objetivos de todas las experiencias y envía a más visitantes nuevos a las experiencias de alto rendimiento de forma proporcional. Se reserva bastante tráfico para explorar el resto de las experiencias. Para obtener la explicación completa, consulte [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-La solución es [!UICONTROL Asignación automática]. [!UICONTROL Asignación automática] reduce el costo y los gastos generales de determinar una experiencia ganadora. [!UICONTROL Asignación automática] supervisa el rendimiento de la métrica objetivo de todas las experiencias y envía proporcionalmente a más participantes nuevos a las experiencias de alto rendimiento. Se reserva bastante tráfico para explorar el resto de las experiencias. Puede ver los beneficios de la actividad en los resultados, incluso mientras la actividad sigue ejecutándose: la optimización se produce en paralelo con el aprendizaje.
-
-[!UICONTROL Asignación automática] mueve a los visitantes hacia experiencias ganadoras gradualmente, en lugar de requerir que esperes hasta que termine una actividad para determinar un ganador. Saca provecho del alza más rápidamente porque a los visitantes de la actividad a los que se ha enviado a experiencias con peor rendimiento se les muestran experiencias que potencialmente son las ganadoras.
-
-Al usar [!UICONTROL Asignación automática], [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando &quot;Ningún ganador aún&quot; hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza. [!DNL Target] declara la experiencia ganadora mostrando un distintivo en la parte superior de la página de la actividad.
-
-Para obtener más información, vea [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Al usar **[!UICONTROL Asignación automática]**, [!DNL Target] muestra un distintivo en la parte superior de la página de la actividad indicando &quot;Ningún ganador aún&quot; hasta que la actividad alcance el número mínimo de conversiones con suficiente confianza. [!DNL Target] declara la experiencia ganadora mostrando un distintivo en la parte superior de la página de la actividad.
 
 ## Calculadora de tamaño de muestra de Adobe [!DNL Target] {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Si decide utilizar una actividad [!UICONTROL Prueba A/B] manual en lugar de [!UICONTROL Asignación automática], la calculadora de tamaño de muestra [!DNL Target] le ayudará a determinar el tamaño de muestra necesario para que la prueba se realice correctamente. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. El uso de la calculadora para una actividad de [!UICONTROL asignación automática] es opcional porque [!UICONTROL asignación automática] declara un ganador por usted. La calculadora le da una estimación aproximada del tamaño de la muestra necesaria. Siga leyendo para obtener más información sobre cómo usar la calculadora.
+Si decide utilizar una actividad **[!UICONTROL Prueba A/B]** manual en lugar de **[!UICONTROL Asignación automática]**, la calculadora de tamaño de muestra [!DNL Target] le ayudará a determinar el tamaño de muestra necesario para que la prueba se realice correctamente. Una prueba A/B manual es una prueba de horizonte fijo, por lo que la calculadora resulta útil. El uso de la calculadora para una actividad de **[!UICONTROL asignación automática]** es opcional porque **[!UICONTROL asignación automática]** declara un ganador por usted. La calculadora le da una estimación aproximada del tamaño de la muestra necesaria. Siga leyendo para obtener más información sobre cómo usar la calculadora.
 
-Antes de configurar su prueba A/B, acceda a la [!DNL Adobe Target] [Calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es).
+Antes de configurar su prueba A/B, acceda a la [!DNL Adobe Target] [Calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es). También puede usar la [Calculadora de tamaño de muestra](/help/main/c-activities/sample-size-calculator.md) en la interfaz de usuario de [!DNL Target].
 
 ![Calculadora de tamaño de muestra de Adobe Target.](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -66,27 +68,30 @@ Es importante determinar un tamaño de muestra adecuado (número de visitantes) 
 
 Este procedimiento puede dar como resultado muchos falsos positivos, lo que conduce a la implementación de ofertas que no entregan el alza predicha al final. El alza deficiente en sí es un resultado insatisfactorio, pero una consecuencia aún más grave es que, con el tiempo, la incapacidad para predecir con precisión el alza erosiona la confianza de la organización en las pruebas como práctica.
 
+
 Este artículo analiza los factores que deben equilibrarse cuando se determina un tamaño de muestra e introduce una calculadora para estimar un tamaño de muestra adecuado. El cálculo del tamaño de la muestra mediante la calculadora de tamaño de muestra (vínculo proporcionado anteriormente) antes de que comience cualquier prueba A/B ayuda a garantizar que siempre se ejecuten pruebas A/B de alta calidad que cumplan con los estándares estadísticos.
 
 Hay cinco parámetros definidos por el usuario que definen una prueba A/B. Estos parámetros están interconectados, así que cuatro de ellos están establecidos y el quinto se puede calcular:
 
-* Relevancia estadística
-* Potencia estadística
-* Alza mínima fiable detectable
-* Tasa de conversión de línea de base
-* Número de visitantes
+| Parámetro | Qué controla | Valor típico |
+|--- |--- |--- |
+| [Relevancia estadística](#section_8230FB9C6D1241D8B1786B72B379C3CD) | Cuánta tolerancia hay para los falsos positivos. | 5 % (un nivel de confianza del 95 %) |
+| [Potencia estadística](#section_1169C27F8E4643719D38FB9D6EBEB535) | La probabilidad de detectar una diferencia real en la tasa de conversión. | 80% |
+| [Alza mínima detectable de forma fiable](#section_6101367EE9634C298410BBC2148E33A9) | La menor diferencia en tasa de conversión que la prueba detecta de forma fiable. | Determinado por los requisitos de su empresa |
+| [Tasa de conversión de línea base](#section_39380C9CA3C649B6BE6E1F8A06178B05) | La tasa de conversión de la oferta de control (oferta A). | En función de la experiencia, o en un día o así de los datos de prueba |
+| [Cantidad de visitantes](#section_19009F165505429E95291E6976E498DD) | El tamaño de muestra que necesita la prueba. | Calculado a partir de los otros cuatro |
 
 >[!IMPORTANT]
 >
 >Para obtener resultados precisos, debe volver a cargar la página antes de cambiar los números de parámetro. Repita este proceso cada vez que cambie los números de parámetros.
 
-Para una prueba A/B, el analista fija la relevancia estadística, la eficacia estadística, el alza mínima fiable detectable y la tasa de conversión de línea de base, y el número de visitantes se calcula a partir de estos valores. Este artículo analiza estos elementos y proporciona directrices para determinar estas métricas para una prueba específica.
+Para una prueba A/B, el analista fija la relevancia estadística, la eficacia estadística, el alza mínima fiable detectable y la tasa de conversión de línea de base, y el número de visitantes se calcula a partir de estos valores.
 
-![imagen de tamaño de muestra](assets/samplesize.png)
+![Diagrama: la relevancia estadística, la potencia estadística, el alza mínima y la tasa de conversión de línea de base determinan el número de visitantes](assets/samplesize.png)
 
 En la siguiente imagen se muestran los cuatro resultados posibles de una prueba A/B:
 
-![imagen de resultados](assets/outcomes.png)
+![Tabla de los cuatro resultados posibles de una prueba A/B: verdadero positivo, falso positivo (controlado por el nivel de relevancia), falso negativo (controlado por el nivel de potencia) y verdadero negativo](assets/outcomes.png)
 
 Es deseable no obtener falsos positivos ni falsos negativos. Sin embargo, la obtención de cero falsos positivos nunca puede garantizarse mediante una prueba estadística. Siempre es posible que las tendencias observadas no sean representativas de las tasas de conversión subyacentes. Por ejemplo, en una prueba para ver si las cabezas o colas en un giro de moneda era más probable, incluso con una moneda justa, se podían obtener diez cabezas en diez lanzamientos por casualidad. La relevancia y la potencia estadísticas nos permiten cuantificar las tasas de falsos positivos y falsos negativos, y mantenerlos en niveles razonables para una determinada prueba.
 
@@ -108,7 +113,7 @@ Las interpretaciones típicas del nivel de confianza se resumen en la siguiente 
 | 99-99,9 % | Hay una fuerte evidencia de que haya diferencia entre las tasas de conversión. |
 | +99,9 % | Hay una evidencia muy fuerte de que haya una diferencia entre las tasas de conversión. |
 
-Se recomienda usar siempre un nivel de confianza del 95 % o superior.
+Se recomienda utilizar siempre un nivel de confianza del 95 % o superior.
 
 Es deseable utilizar el nivel de confianza más alto posible, de modo que la prueba arroje pocos falsos positivos. Sin embargo, un nivel de confianza mayor requiere un gran número de visitantes, lo que aumenta el tiempo necesario para realizar la prueba. Además, un aumento en el nivel de confianza ocasiona una reducción en la potencia estadística.
 
@@ -126,17 +131,21 @@ Un valor usado comúnmente para la potencia estadística es el 80 %, lo que supo
 
 La mayoría de las organizaciones desean medir la menor diferencia posible en la tasa de conversión, porque merece la pena implementar incluso un alza pequeña. Sin embargo, si desea que la prueba A/B tenga una alta probabilidad de detectar un pequeño alza, el número de visitantes que debe incluirse en la prueba sería prohibitivamente grande. El motivo es que, si la diferencia en la tasa de conversión es pequeña, ambas tasas de conversión deben estimarse con alta precisión para identificar la diferencia, lo que requiere muchos visitantes. Por tanto, el alza mínima fiable detectable deberá determinarse según los requisitos de la empresa, teniendo en cuenta el equilibrio que hay que mantener entre detectar las alzas pequeñas y ejecutar la prueba durante largos períodos de tiempo.
 
++++ Ejemplo: 100 visitantes frente a 5000 visitantes
+
 Por ejemplo, supongamos que dos ofertas (A y B) tienen tasas de conversión verdaderas del 10 y el 15 % respectivamente. Si estas ofertas se muestran a 100 visitantes cada una, hay un 95 % de probabilidades de observar tasas de conversión de entre 4 y 16 % para la oferta A, y de entre 8 y 22 % para la oferta B, debido a la naturaleza estocástica de las conversiones. En estadística, estos rangos se conocen como intervalos de confianza. Representan la confianza en la precisión de las tasas de conversión estimadas. Cuando mayor sea el tamaño de la muestra (más visitantes), tendrá mayor certeza de que las estimaciones de las tasas de conversión serán precisas.
 
 En la siguiente imagen se muestran estas distribuciones de probabilidad.
 
-![imagen probability_distributions](assets/probability_distributions.png)
+![Distribuciones de probabilidad de las tasas de conversión observadas de las ofertas A y B con 100 visitantes cada una: las curvas se superponen con fuerza](assets/probability_distributions.png)
 
 Debido al gran solapamiento entre los dos rangos, la prueba no puede determinar si las tasas de conversión son diferentes. Por tanto, esta prueba con 100 visitantes no puede distinguir entre las dos ofertas. Sin embargo, si [!DNL Target] expone las ofertas a 5000 visitantes cada una, existe una probabilidad del 95 % de que las tasas de conversión observadas caigan en los intervalos del 9 % al 11 % y del 14 % al 16 %, respectivamente.
 
-![imagen probability_distributions2](assets/probability_distributions2.png)
+![Distribuciones de probabilidad de las tasas de conversión observadas de las ofertas A y B con 5000 visitantes cada una: las curvas no se superponen](assets/probability_distributions2.png)
 
 En este caso, es poco probable que la prueba llegue a una conclusión incorrecta, por lo que la prueba con 5000 visitantes puede distinguir entre las dos ofertas. La prueba con 5000 visitantes tiene un intervalo de confianza de +/-1 %. Esto significa que la prueba puede detectar diferencias de alrededor del 1 %. Por tanto, se necesitarían incluso más visitantes si las tasas de conversión reales de las ofertas fueran, por ejemplo, del 10 % y el 10,5 %, en lugar del 10 % y el 15 %.
+
++++
 
 ### Tasa de conversión de línea de base {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
@@ -152,17 +161,21 @@ En la calculadora de tamaño de la muestra (encontrará el vínculo más arriba)
 
 Existe un equilibrio entre el alza mínima que la prueba puede detectar de manera fiable y el número de visitantes necesario. En la imagen de abajo, que es válida para una tasa de conversión de línea de base (control) del 5 %, se muestra una fuerte reducción de los valores devueltos conforme aumenta el número de visitantes. El alza mínima que se puede detectar de manera fiable mejora considerablemente cuando se agregan algunos de los primeros visitantes a la prueba, pero toma un número de visitantes cada vez mayor para mejorar la prueba. La imagen ayuda a encontrar un equilibrio adecuado entre el tiempo necesario para realizar la prueba (según viene determinado por el número de visitantes necesario y el tráfico del sitio) y el alza mínima que la prueba puede detectar de manera fiable.
 
-![imagen samplesizecontrol](assets/samplesizecontrol.png)
+![Curva de tamaño de muestra para una tasa de conversión de control del 5%: el alza del 15% necesita visitantes de 12 000, del 10% de 26 000 y del 5% de 100 000](assets/samplesizecontrol.png)
+
++++ Ejemplo: calcular el tiempo para ejecutar la prueba
 
 En este ejemplo, es posible que considere adecuado poder detectar un alza del 5 % (correspondiente a una tasa de conversión de la oferta alternativa (100 % + 5 %)&#42;5 % = 5,25 %) en 80 de 100 pruebas, por lo que necesitará un tamaño de muestra de 100 000 visitantes para cada oferta. Si el sitio tiene 20 000 visitantes al día y realiza la prueba de dos ofertas, la prueba debería permitir ejecutar 2&#42;100 000/20 000 = 10 días antes de poder determinar si la oferta alternativa tiene una relevancia estadística superior a la de la oferta de control.
 
 Una vez más, se recomienda que el tiempo necesario se redondee siempre a la semana completa más próxima, para evitar cualquier efecto de día de la semana. Por tanto, en este ejemplo, la prueba se realizaría durante dos semanas antes de evaluar los resultados.
 
++++
+
 ### Métrica de ingresos por visita. {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Al usar Ingresos por visita (RPV) como métrica, se agrega una fuente de variación adicional porque RPV es el producto de ingresos por pedido y tasa de conversión (RPV = Ingresos / #visitors = (Ingresos por pedido &#42; #orders) / # visitantes = Ingresos por pedido &#42; (#visitors &#42; CTR) / #visitors = Ingresos por pedido &#42; CTR), cada uno con su propia variación. La varianza de la tasa de conversión puede estimarse directamente utilizando un modelo matemático, pero la varianza de los ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la variación en los ingresos. La variación se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecido, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
+Cuando se utilizan los ingresos por visita (RPV) como métrica, se agrega una fuente de variación adicional porque RPV es el producto de los ingresos por pedido y la tasa de conversión `(RPV = Revenue / #visitors = (Revenue per order &#42; #orders) / # visitors = Revenue per order &#42; (#visitors &#42; CTR) / #visitors = Revenue per Order &#42; CTR)`, cada uno con su propia variación. La varianza de la tasa de conversión puede estimarse directamente utilizando un modelo matemático, pero la varianza de los ingresos por pedido es específica de la actividad. Por lo tanto, utilice el conocimiento de esta variación de actividades anteriores o ejecute la prueba A/B durante unos días para estimar la variación en los ingresos. La variación se calcula a partir de los valores de Suma de ventas, Suma de ventas al cuadrado y Número de visitantes que se encuentran en el archivo de descarga CSV. Una vez establecido, utilice la hoja de cálculo para calcular el tiempo necesario para completar la prueba.
 
-La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una ficha denominada [!UICONTROL Métrica RPV]. Necesitará la siguiente información al utilizar la versión de RPV de la calculadora:
+La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ayudarle a configurar la métrica de RPV. Cuando abra la calculadora, verá una ficha denominada **[!UICONTROL Métrica RPV]**. Necesitará la siguiente información al utilizar la versión de RPV de la calculadora:
 
 * Número de visitantes a la oferta de control
 * Ingresos totales para la oferta de control
@@ -175,12 +188,7 @@ La calculadora de tamaño de la muestra (vínculo proporcionado arriba) puede ay
 
 En general, el uso de RPV como métrica requiere entre un 20 y un 30 % más de tiempo para lograr el mismo nivel de confianza estadística para el mismo nivel de alza medida. Esto se debe a que RPV tiene la variación añadida de diferentes tamaños de pedidos por conversión. Esto debería tenerse en cuenta a la hora de elegir entre la tasa de conversión directa y RPV como métrica en la que basar la decisión comercial final.
 
+
 ## Corrección para comparar varias ofertas {#section_1474113764224D0B85472D8B023CCA15}
 
-Cada vez que compara dos ofertas, las posibilidades de obtener un falso positivo (es decir, observar una diferencia con relevancia estadística aunque no haya diferencia en la tasa de conversión) son iguales al nivel de relevancia. Por ejemplo, si hay cinco ofertas, A/B/C/D/E, y A es la oferta control, se realizan las cuatro comparaciones (control frente a B, control frente a C, control frente a D y control frente a E), y la probabilidad de obtener un falso positivo es del 18,5 % aunque el nivel de confianza sea del 95 % porque Pr (al menos un falso positivo) = 1 - Pr (sin falsos positivos) = 1 - 0,95 = 18,5 %. En este contexto, un falso positivo se define como la notificación de que el control es mejor que la alternativa, o que la alternativa es mejor que el control cuando, de hecho, no hay ninguna diferencia entre ellos.
-
-## Conclusión. {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
-
-Al usar una actividad [!UICONTROL Asignación automática], [!DNL Target] identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico para aumentar las conversiones mientras la prueba sigue ejecutándose y aprendiendo. [!UICONTROL Asignación automática] facilita la consecución de los objetivos de conversión al eliminar el trabajo de conjetura.
-
-Al utilizar la calculadora de tamaño de la muestra (vínculo proporcionado arriba) presentada en este artículo y permitir que la prueba se ejecute durante el tiempo sugerido por ella, puede asegurarse de que siempre está haciendo pruebas A/B de alta calidad que se adhieren a las tasas de falsos positivos y falsos negativos que ha decidido que son adecuados para la prueba específica. Esto garantiza que sus pruebas sean coherentes y capaces de detectar el alza que está buscando.
+Cada vez que compara dos ofertas, las posibilidades de obtener un falso positivo (es decir, observar una diferencia con relevancia estadística aunque no haya diferencia en la tasa de conversión) son iguales al nivel de relevancia. Por ejemplo, si hay cinco ofertas, A/B/C/D/E, y A es la oferta control, se realizan las cuatro comparaciones (control frente a B, control frente a C, control frente a D y control frente a E), y la probabilidad de obtener un falso positivo es del 18,5 % aunque el nivel de confianza sea del 95 % porque Pr (al menos un falso positivo) = 1 - Pr (sin falsos positivos) = 1 - 0,95<sup>4</sup> = 18,5 %. En este contexto, un falso positivo se define como la notificación de que el control es mejor que la alternativa, o que la alternativa es mejor que el control cuando, de hecho, no hay ninguna diferencia entre ellos.

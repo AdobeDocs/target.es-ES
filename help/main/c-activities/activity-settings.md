@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
@@ -65,10 +65,10 @@ Use [!UICONTROL Configuración de actividades] en [!DNL Adobe Target] para admin
 
 La página [!UICONTROL Objetivo y configuración] incluye configuración adicional que varía según el tipo de actividad que está creando. Para obtener más información sobre esta configuración, consulte el tipo de actividad:
 
-* [Prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Prueba A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Personalización automatizada](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [Segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Segmentación de experiencias](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
+* [Prueba multivariable](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## Vídeo de formación: Configuración de actividades ![Insignia de tutorial](/help/main/assets/tutorial.png)
@@ -81,4 +81,4 @@ Este vídeo incluye información sobre la configuración de las actividades.
 * Añadir audiencias para los informes a fin de crear filtros de informes
 * Escribir notas en las actividades
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3507946?captions=spa)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

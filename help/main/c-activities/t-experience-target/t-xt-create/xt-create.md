@@ -23,79 +23,58 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 30%
+source-wordcount: '388'
+ht-degree: 32%
 ---
-# Crear una actividad [!UICONTROL segmentación de experiencias] (XT)
+# Crear una actividad [!UICONTROL segmentación de experiencias] (XT) {#create-xt-activity}
 
-Use el [!UICONTROL Compositor de experiencias visuales] (VEC) para crear una actividad de [!UICONTROL Segmentación de experiencias] (XT) en una página habilitada para [!DNL Target] y para modificar partes de la página en [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-[!UICONTROL Segmentación de experiencias] (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing.
+**En esta página:** Aprenda a crear una actividad de **[!UICONTROL Segmentación de experiencias]** (XT) en el **[!UICONTROL Compositor de experiencias visuales]** (VEC). La actividad se crea, se añaden experiencias segmentadas a distintas audiencias y se configuran los objetivos y las opciones.
 
-[!UICONTROL Segmentación de experiencias], incluyendo [targeting geográfico](/help/main/c-target/c-audiences/c-target-rules/geo.md), sirve para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta. En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintos públicos.
+>[!ENDSHADEBOX]
 
-Para obtener más información sobre [!UICONTROL Segmentación de experiencias], un caso de uso y vídeos de formación, consulte [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md).
+Use el **[!UICONTROL Compositor de experiencias visuales]** (VEC) para crear una actividad de **[!UICONTROL Segmentación de experiencias]** (XT) en una página habilitada para [!DNL Target] y para modificar partes de la página en [!DNL Adobe Target].
 
-**Para crear una actividad de [!UICONTROL Segmentación de experiencias]:**
+**[!UICONTROL Segmentación de experiencias]** (XT) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing. Es útil para definir reglas que dirigen un contenido o experiencia determinados a una audiencia concreta, como [targeting geográfico](/help/main/c-target/c-audiences/c-target-rules/geo.md). En una actividad se pueden definir varias reglas para entregar diversas variaciones de contenido a distintos públicos.
 
-1. En la lista [!UICONTROL Actividades], haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Segmentación de experiencias]**.
+Para obtener más información sobre **[!UICONTROL Segmentación de experiencias]**, un caso de uso y vídeos de formación, consulte [Segmentación de experiencias](/help/main/c-activities/t-experience-target/experience-target.md).
+
+1. En la lista **[!UICONTROL Actividades]**, haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Segmentación de experiencias]**.
 
    >[!NOTE]
    >
-   >Nota: los tipos de actividades disponibles dependen de su cuenta de [!DNL Target]. Algunos tipos de actividades podrían no aparecer en su lista. Por ejemplo, [!UICONTROL Automated Personalization] es una [característica de Target Premium](/help/main/c-intro/intro.md#premium).
+   >Nota: los tipos de actividades disponibles dependen de su cuenta de [!DNL Target]. Algunos tipos de actividades podrían no aparecer en su lista. Por ejemplo, **[!UICONTROL Automated Personalization]** es una [característica de Target Premium](/help/main/c-intro/intro.md#premium).
    >
    >Para obtener más información sobre los distintos tipos de actividades disponibles en [!DNL Target] y sus diferencias, consulte [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md) para ayudarle a decidir qué tipo de actividad encaja con sus necesidades.
 
-1. Seleccione **[!UICONTROL Visual]**, si es necesario.
+   ![](../../assets/create-xt-1.png)
 
-   Si prefiere usar el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md), seleccione [!UICONTROL Formulario].
+1. En el cuadro de diálogo **[!UICONTROL Crear actividad de segmentación de experiencias]**, elija un Compositor de experiencias:
+
+   * **[!UICONTROL Visual]**.
+   * **[!UICONTROL Compositor de experiencias basadas en formularios]**, consulte [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) para obtener más información.
 
    >[!NOTE]
    >
-   >Además del VEC y [!UICONTROL Compositor de experiencias basadas en formularios], [!DNL Target] ofrece el VEC de aplicación de una sola página. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/main/c-experiences/experiences.md).
+   >Además del VEC y **[!UICONTROL Compositor de experiencias basadas en formularios]**, [!DNL Target] ofrece el VEC de aplicación de una sola página. Para obtener más información sobre los distintos compositores, consulte [Experiencias y ofertas](/help/main/c-experiences/experiences.md).
    >
    >Para obtener información de solución de problemas acerca del VEC, consulte [Solución de problemas del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 1. (Condicional) Si es cliente de [!DNL Target Premium], [elija un área de trabajo](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   La opción [!UICONTROL Elegir lugar de trabajo] es una característica de [Target Premium](/help/main/c-intro/intro.md). Si su organización tiene una licencia de [!DNL Target Standard] si no ve esta opción.
-
-1. Especifique la [URL de actividad](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) y haga clic en **[!UICONTROL Crear]**.
+1. Especifique la [URL de actividad](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url) y haga clic en **[!UICONTROL Crear]**. Se abre el VEC y muestra la página especificada en la dirección URL.
 
    Si la cuenta se [configura con una dirección URL predeterminada](/help/main/administrating-target/visual-experience-composer-set-up.md) esa dirección URL aparece de manera predeterminada. Puede cambiar la dirección URL predeterminada con otra dirección, si es necesario.
 
-   Se abre el VEC y muestra la página especificada en la dirección URL.
+1. Para asignar un nombre a la actividad, haz clic en el icono **[!UICONTROL Editar]** ( ![Editar icono](/help/main/assets/icons/Edit.svg) ), especifica un nombre descriptivo para la actividad y luego haz clic en **[!UICONTROL Guardar]**.
 
-1. Para asignar un nombre a la actividad, haz clic en el icono **[!UICONTROL Editar]** ( ![Editar icono](/help/main/assets/icons/Edit.svg) ) junto a &quot;[!UICONTROL Actividad sin título]&quot;, especifica un nombre descriptivo para la actividad y haz clic en **[!UICONTROL Guardar]**.
+   {{activity-name-rules}}
 
-   El nombre de la actividad no puede comenzar con ninguno de los siguientes caracteres:
+   ![](../../assets/create-xt-2.png)
 
-   | Carácter | Descripción |
-   |--- |--- |
-   | `=` | Igual a |
-   | `+` | Más |
-   | `-` | Menos |
-   | `@` | Arroba |
+1. Cree nuevas experiencias dirigidas a diferentes audiencias. Para obtener instrucciones paso a paso, consulte [Añadir experiencia](/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#xt-add-experience).
 
-   El nombre de la actividad no puede contener ninguna de estas secuencias de caracteres:
-
-   | Secuencia de caracteres | Descripción |
-   |--- |--- |
-   | ;= | Punto y coma, igual a |
-   | ;+ | Punto y coma, más |
-   | ;- | Punto y coma, menos |
-   | ;@ | Punto y coma, signo de arroba |
-   | ,= | Coma, igual a |
-   | ,+ | Coma, más |
-   | ,- | Coma, menos |
-   | ,@ | Coma, Signo de arroba |
-   | `[`&quot; | Corchete de apertura, comillas dobles |
-   | &quot;`]` | Comillas tipográficas dobles, cerrar corchete |
-
-1. Cree nuevas experiencias dirigidas a diferentes audiencias.
-
-   Para obtener instrucciones paso a paso, consulte [Añadir experiencia](/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
-
-1. Especifique los [objetivos y la configuración](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) para la actividad.
+1. Especifique los [objetivos y la configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings) para la actividad.

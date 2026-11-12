@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Este artículo documenta los cálculos estadísticos detallados utilizados en las pruebas A/Bn manuales en [!DNL Adobe Target]. Se proporcionan definiciones para **[!UICONTROL tasa de conversión]**, **[!UICONTROL intervalo de confianza de la tasa de conversión]**, **[!UICONTROL alza]**, **[!UICONTROL intervalo de confianza para la elevación]**, **[!UICONTROL confianza]** y **[!UICONTROL bayesiana]** métricas de decisión.
 
-Una actividad **[!UICONTROL Prueba A/B]** (manual) admite dos metodologías estadísticas, seleccionadas por actividad en [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF):
+Una actividad **[!UICONTROL Prueba A/B]** (manual) admite dos metodologías estadísticas, seleccionadas por actividad en [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology):
 
 * [Prueba t de Welch](#welchs-t-test): una metodología frecuentista que informa un porcentaje e intervalo de confianza de **[!UICONTROL Confianza]**, basado en una prueba de hipótesis de tamaño de muestra fijo. Se usa para actividades con un objetivo principal **[!UICONTROL Ingresos]** o **[!UICONTROL Participación]**.
 
@@ -131,7 +131,7 @@ Donde *<sub>v</sub>* y *<sub>v0</sub>* son los medios de ** y *<sub>0</sub>* res
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias **&#x200B; y *<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para &#x200B;** y *<sub>0</sub>* respectivamente.
+Donde *<sup>2</sup><sub>v</sub>* y *<sup>2</sup><sub>v<sub>0</sub></sub>* son las variaciones de dos experiencias ** y *<sub>0</sub>* respectivamente, y *N<sub>v</sub>* y *N<sub>v<sub>0</sub></sub>* son tamaños de muestra para ** y *<sub>0</sub>* respectivamente.
 
 Para la prueba T de Welch, el grado de libertad se calcula de la siguiente manera:
 
@@ -157,7 +157,7 @@ En lugar de calcular un valor p a partir de una distribución aproximada, el inf
 
 La metodología **[!UICONTROL Bayesiana]** también permite a los especialistas en mercadotecnia alimentarse de una hipótesis basada en su experimentación anterior y en los resultados de la variante de control.
 
-La metodología **[!UICONTROL Bayesiana]** solo está disponible para actividades cuya métrica de objetivo principal es **[!UICONTROL Conversión]**, las actividades con un objetivo principal de **[!UICONTROL Ingresos]** o **[!UICONTROL Participación]** siempre usan la prueba T de **[!UICONTROL Welch]**. Para obtener más información acerca de cómo seleccionar una metodología, vea [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+La metodología **[!UICONTROL Bayesiana]** solo está disponible para actividades cuya métrica de objetivo principal es **[!UICONTROL Conversión]**, las actividades con un objetivo principal de **[!UICONTROL Ingresos]** o **[!UICONTROL Participación]** siempre usan la prueba T de **[!UICONTROL Welch]**. Para obtener más información acerca de cómo seleccionar una metodología, vea [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology).
 
 ### Alza promedio e intervalo creíble
 

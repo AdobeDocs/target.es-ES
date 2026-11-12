@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 33%
@@ -59,7 +59,7 @@ En estas pruebas, la mayoría de los productos, incluido [!DNL Target], usan una
 ## Cuándo usar [!UICONTROL Asignación automática] en comparación con [!UICONTROL Prueba A/B] o [!UICONTROL Automated Personalization] actividades {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilice la **[!UICONTROL asignación automática]** cuando quiera optimizar la actividad desde el principio e identificar las experiencias ganadoras lo antes posible. Al ofrecer experiencias de alto rendimiento con mayor frecuencia, se aumenta el rendimiento general de la actividad.
-* Use una **[Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio. Una prueba A/B le ayuda a clasificar todas sus experiencias, mientras que [!UICONTROL Asignación automática] encuentra los mejores ejecutantes, pero no garantiza la diferenciación entre los de menor rendimiento.
+* Use una **[Prueba A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)** estándar cuando quiera caracterizar el rendimiento de todas las experiencias antes de optimizar el sitio. Una prueba A/B le ayuda a clasificar todas sus experiencias, mientras que [!UICONTROL Asignación automática] encuentra los mejores ejecutantes, pero no garantiza la diferenciación entre los de menor rendimiento.
 * Use [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) cuando quiera algoritmos de optimización de la mayor complejidad, como modelos de aprendizaje automático que generen predicciones basadas en atributos de perfil individuales. [!UICONTROL Asignación automática] observa el comportamiento agregado de las experiencias (como las pruebas A/B estándar) y no diferencia entre visitantes.
 
 ## Ventajas principales de [!UICONTROL Asignación automática] {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -104,7 +104,7 @@ La ilustración muestra cómo progresa el tráfico asignado a cada experiencia d
 >
 >Si una actividad solo tiene dos experiencias, ambas recibirán el mismo tráfico hasta que [!DNL Target] encuentre una experiencia ganadora con un 75 % de confianza. En ese momento, dos tercios del tráfico se asignan al ganador y un tercio al perdedor. Después, cuando una experiencia alcanza el 95 % de confianza, el 90 % del tráfico se asigna al ganador y el 10 % al perdedor. [!DNL Target] siempre envía tráfico a la experiencia de &quot;pérdida&quot; para evitar falsos positivos al final (es decir, mantener cierta exploración).
 
-Después de activar una actividad [!UICONTROL Asignación automática], no se permiten las siguientes operaciones desde la interfaz de usuario de Target:
+Después de activar una actividad [!UICONTROL Asignación automática], no se permiten las siguientes operaciones desde la interfaz de usuario de Tar[!DNL]get:
 
 * Cambiar el modo “Asignación del tráfico” a “Manual”
 * Cambiar el tipo de la métrica de objetivo
@@ -258,7 +258,7 @@ Este vídeo incluye información sobre cómo configurar la asignación de tráfi
 * Seleccionar el método de asignación de tráfico
 * Asignar tráfico entre distintas experiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/3507592?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### Creación de pruebas A/B (8:36) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ En este vídeo se explica cómo crear una prueba A/B siguiendo el flujo de traba
 * Crear una actividad A/B en [!DNL Adobe Target]
 * Asignar tráfico usando una división manual o una asignación automática
 
->[!VIDEO](https://video.tv.adobe.com/v/30133?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -1,6 +1,6 @@
 ---
 keywords: Segmentación;filtro de audiencia;audiencias;filtro
-description: Aprenda a utilizar los filtros de audiencia en  [!DNL Adobe Target]  para ver los datos de los visitantes que comparten características.
+description: Aprenda a utilizar los filtros de audiencia en [!DNL Adobe Target] para ver los datos de los visitantes que comparten características.
 title: ¿Puedo usar filtros de audiencia para informes?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '479'
 ht-degree: 59%
-
 ---
-
 # Filtros de público para la creación de informes
 
 Los filtros de audiencia (o audiencias) de [!DNL Adobe Target] son grupos de visitantes que comparten una característica o un conjunto de características específicos.
@@ -60,5 +58,5 @@ Las secciones siguientes contienen más información sobre la configuración y l
 | Crear la actividad o prueba apropiadas. | [Actividades y pruebas](/help/main/c-intro/target-key-concepts.md) |
 | Crear audiencias en caso necesario. | [Crear un público](/help/main/c-target/c-audiences/create-audience.md) |
 | Combinar varios públicos en caso necesario. | [Combinación de varios públicos](/help/main/c-target/combining-multiple-audiences.md) |
-| Aplicar públicos en la página Objetivos y configuración de la actividad. | Prueba A/B: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Segmentación de experiencias: [Objetivos y configuración](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Prueba multivariable: [Objetivos y configuración](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Configuración de actividades de Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Configuración de actividades: [Configuración de actividades](/help/main/c-activities/activity-settings.md) |
+| Aplicar públicos en la página Objetivos y configuración de la actividad. | Prueba A/B: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Segmentación de experiencias: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Prueba multivariable: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommendations: [Configuración de actividades de Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Configuración de actividades: [Configuración de actividades](/help/main/c-activities/activity-settings.md) |
 | Ver informes con datos sobre los filtros de público. | [Configuración de informes](/help/main/c-reports/c-report-settings/report-settings.md) |
