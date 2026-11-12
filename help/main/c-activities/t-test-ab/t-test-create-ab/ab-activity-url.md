@@ -39,9 +39,9 @@ Cuando se le pida durante la creación de la actividad, indique la dirección UR
 
 >[!NOTE]
 >
->[!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com`] y [!DNL `https://www.adobe.com`] coinciden.
+>[!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]). Como resultado, [!DNL `http://www.adobe.com/es`] y [!DNL `https://www.adobe.com/es`] coinciden.
 
-Si especifica una dirección URL para un sitio que no incluye la biblioteca JavaScript [!DNL Target] [at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, no podrá seleccionar elementos de página.
+Si especifica una dirección URL para un sitio que no incluye la biblioteca JavaScript [!DNL Target] [at.js o  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es){target=_blank}, no podrá seleccionar elementos de página.
 
 ## Mostrar una página diferente {#different-page}
 
