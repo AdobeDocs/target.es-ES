@@ -2,7 +2,7 @@
 keywords: Segmentación;informes de AP;informes de personalización automatizada;segmentación automática;informe de segmentación automática;personalización;perspectivas;segmentos automatizados;faq;preguntas más frecuentes
 description: Descubra cómo los distintos segmentos definidos por los modelos de personalización de Adobe [!DNL Target] responden a las ofertas y experiencias de la actividad mediante el informe Segmentos automatizados.
 title: ¿Qué es el informe Segmentos automatizados?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 56%
@@ -58,7 +58,7 @@ Los distintos visitantes responden de forma diferente a las ofertas y experienci
 
 ## Acceso al informe Segmentos automatizados {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Haga clic en **[!UICONTROL Actividades]** y luego haga clic en la actividad [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) que quiera de la lista.
+1. Haga clic en **[!UICONTROL Actividades]** y luego haga clic en la actividad [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) que quiera de la lista.
 
    Si tiene muchas actividades, haga clic en el icono Filtro (![Icono de filtro](/help/main/assets/icons/Filter.svg) ) para filtrar la lista seleccionando opciones en las listas desplegables [!UICONTROL Tipo], [!UICONTROL Estado], [!UICONTROL Source de informes], [!UICONTROL Compositor de experiencias], [!UICONTROL Tipo de métricas] y [!UICONTROL Source de actividades].
 

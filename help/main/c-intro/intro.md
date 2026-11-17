@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -125,7 +125,7 @@ Las prácticas recomendadas del sector están integradas en [!DNL Target Standar
 
 ### [!UICONTROL Personalización automatizada]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) usa algoritmos avanzados de aprendizaje automático para ofrecer experiencias personalizadas y mejorar las tasas de conversión para las interacciones digitales.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) usa algoritmos avanzados de aprendizaje automático para ofrecer experiencias personalizadas y mejorar las tasas de conversión para las interacciones digitales.
 
 La API registra la actividad de los visitantes y crea perfiles para dirigir el contenido a visitantes similares. La API realiza un seguimiento de las respuestas al contenido de las personas y la población, utilizando un modelado sofisticado para dirigirse automáticamente a cada visitante en función de todo lo que se sepa sobre ellos.
 
@@ -200,6 +200,6 @@ En el siguiente vídeo, se describen los tipos de actividades disponibles en [!D
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

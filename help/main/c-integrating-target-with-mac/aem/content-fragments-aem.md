@@ -1,7 +1,7 @@
 ---
 keywords: experiencia;json;aem;adobe experience manager;exportar a adobe target;fragmentos de contenido;fragmentos;CF;cf;sin encabezado;personalización;experimentación
-description: Aprenda a usar [!DNL Adobe Experience Manager] [!UICONTROL Fragmentos de contenido] en [!DNL Adobe Target] actividades.
-title: ¿Cómo Uso  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos De Contenido]?
+description: Aprenda a utilizar [!DNL Adobe Experience Manager] [!UICONTROL fragmentos de contenido] en [!DNL Adobe Target] actividades.
+title: ¿Cómo Uso [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragmentos De Contenido]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '777'
 ht-degree: 20%
-
 ---
-
 # [!UICONTROL Fragmentos de contenido] de AEM
 
 Use [!UICONTROL Fragmentos de contenido] (CF) creados en [!DNL Adobe Experience Manager] (AEM) en [!DNL Target] actividades para ayudar en la personalización y experimentación sin encabezado.
@@ -40,20 +38,20 @@ Tenga en cuenta lo siguiente al trabajar con AEM [!UICONTROL Fragmentos de conte
 * Esta función requiere que sea cliente de [!DNL Adobe Experience Manager as a Cloud Service]. Para obtener más información, consulte [Requisitos](#section_AE6F0971E1574B3AA324003599B96E5A) más adelante.
 * [!UICONTROL Fragmentos de experiencias] y [!UICONTROL Fragmentos de contenido] están disponibles para los siguientes tipos de actividades:
 
-   * [[!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL Asignación automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Segmentación automática]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Segmentación de experiencias] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL Prueba A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL Asignación automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Segmentación automática]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL Segmentación de experiencias] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL Fragmentos de experiencias] y [!UICONTROL Fragmentos de contenido] no están disponibles para los siguientes tipos de actividades:
 
-   * [[!UICONTROL Prueba multivariada] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL Prueba multivariada] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
 * Solo puede consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] actividades usando el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md). Usted *no puede* consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] actividades usando el [!UICONTROL Compositor de experiencias visuales] (VEC).
 
-Para obtener más información sobre [!UICONTROL Fragmentos de contenido] y [!UICONTROL Fragmentos de experiencia] de AEM, consulte [Fragmentos de experiencia[[!UICONTROL 6 y [!UICONTROL Fragmentos de contenido] de AEM]](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
+Para obtener más información sobre [!UICONTROL Fragmentos de contenido] y [!UICONTROL Fragmentos de experiencia] de AEM, consulte [Fragmentos de experiencia[!UICONTROL 6 y [!UICONTROL Fragmentos de contenido] de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
 
 ## Requisitos {#requirements}
 
@@ -73,7 +71,7 @@ Después de realizar las tareas anteriores, [!UICONTROL Fragmento de contenido] 
 
 [!DNL Target] busca [!UICONTROL Fragmentos de contenido] para importar cada diez minutos. El [!UICONTROL fragmento de contenido] importado debería estar disponible en [!DNL Target] en un plazo de diez minutos, pero este lapso de tiempo debería ser menor en adelante.
 
-El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. &#x200B;]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
+El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. ]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
 
 Puede filtrar y buscar por [!UICONTROL XF de HTML], [!UICONTROL XF de JSON] y [!UICONTROL Fragmentos de contenido] para ayudarle a distinguir entre los distintos tipos de ofertas que se exportan a [!DNL Target].
 
@@ -87,7 +85,7 @@ Solo puede consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] activi
 >
 >Use inteligencia artificial, aprendizaje automático y recomendaciones con [!UICONTROL fragmentos de contenido]:
 >
->* Para usar completamente la funcionalidad de inteligencia artificial y aprendizaje automático [!DNL Target], puedes seleccionar [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) al crear una actividad de [!UICONTROL Prueba A/B].
+>* Para usar completamente la funcionalidad de inteligencia artificial y aprendizaje automático [!DNL Target], puedes seleccionar [Asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) al crear una actividad de [!UICONTROL Prueba A/B].
 >
 >* [!UICONTROL Los fragmentos de contenido] no son compatibles con las actividades [!DNL Recommendations]. Sin embargo, para usar [!UICONTROL Fragmentos de contenido] para Recommendations, puede crear una actividad de [!UICONTROL Prueba A/B] (que incluye [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática]) o una actividad de [!UICONTROL Segmentación de experiencias] (XT) e [incluir recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
@@ -105,6 +103,6 @@ Solo puede consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] activi
 ## Información adicional
 
 * [!DNL Target] busca [!UICONTROL Fragmentos de contenido] para importar cada diez minutos. El [!UICONTROL fragmento de contenido] importado debería estar disponible en [!DNL Target] en un plazo de diez minutos, pero este lapso de tiempo debería ser menor en adelante.
-* El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. &#x200B;]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
+* El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. ]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
 * No puede crear [!UICONTROL Fragmentos de contenido] usando [!DNL Adobe I/O]. Cree [!UICONTROL fragmentos de contenido] mediante AEM, tal como se explicó anteriormente.
 * Si actualiza el [!UICONTROL Fragmento de contenido] en AEM, el [!UICONTROL Fragmento de contenido] debe publicarse y exportarse de nuevo a [!DNL Target] para que [!DNL Target] pueda usar los cambios más recientes.
