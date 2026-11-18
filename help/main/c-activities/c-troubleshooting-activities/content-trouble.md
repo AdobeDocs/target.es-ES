@@ -134,7 +134,7 @@ Tenga en cuenta que algunos parámetros de mboxDebug están disponibles con o si
 
 Adobe Experience Cloud Debugger le ayuda a comprender su implementación de [!DNL Target]. Puede ver la configuración de la biblioteca, comprobar que los parámetros personalizados se han pasado correctamente, activar el registro de consola y desactivar todas las [!DNL Target] solicitudes. Después de autenticarse en Experience Cloud, puede usar mboxTrace para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
 
-Para obtener más información, consulte los [vídeos de formación](#training-videos) al final de esta página y [Depurar at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Para obtener más información, consulte los [vídeos de formación](#training-videos) al final de esta página y [Depurar at.js con Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=es){target=_blank}.
 
 ## Problemas comunes {#common-problems}
 
