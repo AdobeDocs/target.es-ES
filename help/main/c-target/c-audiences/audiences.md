@@ -1,6 +1,6 @@
 ---
 keywords: público;reglas de público;crear público;creación de público;segmentación del público;informe de público;público de informe;segmento;parámetros de perfil personalizados;definición de público;lista de públicos
-description: Aprenda a utilizar las audiencias en  [!DNL Adobe Target].
+description: Aprenda a utilizar las audiencias en [!DNL Adobe Target].
 title: ¿Cómo se utiliza la lista de audiencias?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# Crear públicos
+# Introducción a la creación de audiencias
 
 Las audiencias de [!DNL Adobe Target] determinan quién ve el contenido y las experiencias en una actividad segmentada.
 

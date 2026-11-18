@@ -25,49 +25,61 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 18%
+source-wordcount: '494'
+ht-degree: 8%
 ---
-# Ofertas de Target [!UICONTROL Automated Personalization]
+# Ofertas de Target [!UICONTROL Automated Personalization] {#target-ap-offers}
 
-En una actividad [!DNL Adobe Target] [!DNL Automated Personalization] (AP), puede segmentar ofertas para audiencias específicas.
+>[!BEGINSHADEBOX]
 
-El uso de esta funcionalidad reduce el número de ofertas que un visitante específico puede ver. Por ejemplo, considere una actividad [!UICONTROL Automated Personalization] con tres ofertas. La oferta 1 tiene una regla de segmentación que limita su exposición a la audiencia A. Dos visitantes vieron esta actividad.
+**En esta página:** Aprenda a segmentar ofertas individuales para audiencias específicas en una actividad de **[!UICONTROL Automated Personalization]**.
+
+>[!ENDSHADEBOX]
+
+En una actividad [!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP) , las reglas de segmentación le permiten limitar una oferta a audiencias específicas, de modo que solo los visitantes que pertenezcan a esas audiencias puedan verla. Utilice las reglas de segmentación con moderación y solo cuando las necesite una empresa, ya que reducen el número de ofertas que un visitante puede ver y pueden reducir la eficacia de los modelos de personalización de [!DNL Target].
+
+Por ejemplo, considere una actividad de AP con tres ofertas. La oferta 1 tiene una regla de segmentación que limita su exposición a la audiencia A. Dos visitantes ven esta actividad.
 
 | | Visitante 1 | Visitante 2 |
 |--- |--- |--- |
 | Calificación del público | Audiencia A | Audiencia B |
-| Puntuación del modelo de personalización de Target de la oferta 1 | 90 | 90 |
-| Puntuación del modelo de personalización de Target de la oferta 2 | 50 | 70 |
-| Puntuación del modelo de personalización de Target de la oferta 3 | 80 | 60 |
+| Puntuación del modelo de personalización de la oferta 1 [!DNL Target] | 90 | 90 |
+| Puntuación del modelo de personalización de la oferta 2 [!DNL Target] | 50 | 70 |
+| Puntuación del modelo de personalización de la oferta 3 [!DNL Target] | 80 | 60 |
 
-En esta situación, el Visitante 1 ve la Oferta 1 (porque este visitante cumple los requisitos para formar parte de la Audiencia A), que tiene la puntuación más alta para ese visitante. Sin embargo, el Visitante 2 ve la Oferta 2 aunque la puntuación más alta sea para la Oferta 1, ya que el Visitante 2 no forma parte de la Audiencia A. Este ejemplo demuestra por qué las reglas de segmentación deben utilizarse con moderación para satisfacer las necesidades comerciales. Agregar estas reglas puede reducir la eficacia de [!DNL Target] modelos de personalización.
+El visitante 1 se califica como parte de la Audiencia A, por lo que este visitante ve la Oferta 1, que tiene la puntuación más alta. El visitante 2 no forma parte de la Audiencia A, por lo que ve la Oferta 2, aunque la puntuación más alta sea para la Oferta 1.
 
-## Configure las reglas de segmentación
+## Configure las reglas de segmentación {#set-up-targeting-rules}
 
-1. Cree o edite una [actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) que contenga las ofertas que quiera segmentar.
-1. Después de configurar las ofertas para la actividad en [!UICONTROL Compositor de experiencias visuales], haga clic en el icono **[!UICONTROL Administrar contenido]** ( ![Icono Administrar contenido](/help/main/assets/icons/Experience.svg) ).
+<a id="task_F207ED7A41B84FD39BB6FCBFABF4B23E"></a>
 
-   Se muestra el cuadro de diálogo [!UICONTROL Administrar contenido].
+Las reglas de segmentación de audiencia controlan qué visitantes pueden ver cada oferta, lo que le permite satisfacer una necesidad comercial específica, como reservar una oferta para un segmento de clientes. Cada regla restringe las opciones del modelo de personalización, por lo que las reglas se aplican únicamente a las ofertas que las requieran.
+
+1. Cree o edite una [actividad de Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) que contenga las ofertas que quiera segmentar.
+
+   Puede configurar 50 ubicaciones y hasta 250 ofertas por ubicación.
+
+1. Después de configurar las ofertas para la actividad en **[!UICONTROL Compositor de experiencias visuales]**, haga clic en el icono **[!UICONTROL Administrar contenido]** ( ![Icono Administrar contenido](/help/main/assets/icons/Experience.svg) ). Se muestra el cuadro de diálogo **[!UICONTROL Administrar contenido]**.
+
+   ![Icono Administrar contenido](../assets/ap-offers-1.png)
 
 1. Haga clic en la ficha **[!UICONTROL Ofertas]**.
 
-1. Seleccione las ofertas que desee y, a continuación, elija las audiencias a las que desee permitir que vean la oferta.
+1. Elija las ofertas que desea segmentar y, a continuación, elija las audiencias que cumplen los requisitos para verlas.
 
-   Para configurar la segmentación de una sola oferta, haga clic en el icono Más información ( ![icono Más información](/help/main/assets/icons/MoreSmallList.svg) ) junto a la oferta deseada y, a continuación, haga clic en **[!UICONTROL Audiencia de destino]** para mostrar el cuadro de diálogo [!UICONTROL Agregar audiencias].
+   * Para configurar la segmentación de una sola oferta, haga clic en el icono Más información ( ![icono Más información](/help/main/assets/icons/MoreSmallList.svg) ) junto a la oferta y, a continuación, haga clic en **[!UICONTROL Audiencia de destino]** para mostrar el cuadro de diálogo **[!UICONTROL Agregar audiencias]**.
+   * Para configurar la segmentación de varias ofertas, seleccione las casillas de verificación de las ofertas y haga clic en el vínculo **[!UICONTROL Audiencia de destino]** que aparece al final de la lista.
 
-   Para configurar la segmentación de varias ofertas, seleccione las casillas de verificación de las ofertas que desee y, a continuación, haga clic en el vínculo **[!UICONTROL Audiencia de destino]** que aparece en la parte inferior de la lista.
+   ![Icono Administrar contenido](../assets/ap-offers-2.png)
 
-1. En el cuadro de diálogo [!UICONTROL Agregar audiencias], seleccione las audiencias que desee para las ofertas y haga clic en **[!UICONTROL Asignar audiencia]** para volver al cuadro de diálogo [!UICONTROL Administrar contenido].
+1. En el cuadro de diálogo **[!UICONTROL Agregar audiencias]**, seleccione las audiencias de las ofertas y haga clic en **[!UICONTROL Asignar audiencia]** para volver al cuadro de diálogo **[!UICONTROL Administrar contenido]**.
 
    >[!NOTE]
    >
-   >Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >En lugar de crear una audiencia nueva, puede combinar varias audiencias con las existentes para crear audiencias combinadas bajo demanda. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
->[!NOTE]
->
->Puede configurar 50 ubicaciones y hasta 250 ofertas por ubicación.
+Las reglas de segmentación ahora se aplican a las ofertas seleccionadas, por lo que solo los visitantes que pertenecen a las audiencias asignadas pueden verlas.

@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 24%
 ---
-# Informes
+# Introducción a los informes
 
 Los informes proporcionan información sobre el progreso y los resultados de las actividades [!DNL Adobe Target] que le ayudan a tomar decisiones basadas en los datos. Los datos del informe pueden ayudarle a decidir cuándo finalizar una actividad, mostrar qué experiencia u oferta es la ganadora y proporcionar las perspectivas o los datos que necesite para determinar las acciones siguientes.
 

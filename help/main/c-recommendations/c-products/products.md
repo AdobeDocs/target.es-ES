@@ -18,12 +18,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 63%
+source-wordcount: '126'
+ht-degree: 61%
 ---
-# Entidades
+# Introducción a las entidades
 
 Las entidades se refieren a los elementos que desea recomendar. Puede tratarse de productos, contenido (p. ej., artículos, pases de diapositivas, imágenes, películas y programas de TV), ofertas de empleo, restaurantes, etcétera.
 

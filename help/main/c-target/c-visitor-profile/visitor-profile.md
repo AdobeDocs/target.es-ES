@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# Perfiles de los visitantes
+# Introducción a los perfiles de visitante
 
 Los perfiles de visitantes en [!DNL Adobe Target] contienen información sobre cómo los visitantes utilizan las páginas y otras ubicaciones de contenido optimizado.
 

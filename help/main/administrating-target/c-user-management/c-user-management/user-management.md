@@ -1,7 +1,7 @@
 ---
 keywords: agregar usuario;administrar usuario;permisos de usuario
-description: Aprenda a utilizar  [!DNL Adobe Admin Console]  para administrar usuarios y sus permisos y derechos en  [!DNL Adobe Target Standard].
-title: ¿Cómo se agregan usuarios y se administran permisos para una cuenta  [!DNL Target Standard] ?
+description: Obtenga información sobre cómo usar [!DNL Adobe Admin Console] para administrar usuarios y sus permisos y derechos en [!DNL Adobe Target Standard].
+title: ¿Cómo puedo agregar usuarios y administrar permisos para una cuenta de [!DNL Target Standard]?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 60%
-
+source-wordcount: '930'
+ht-degree: 57%
 ---
-
-# Usuarios
+# Introducción a los usuarios
 
 Agregue usuarios y administre sus permisos en [!DNL Adobe Admin Console] para una cuenta [!DNL Target Standard].
 
@@ -133,8 +131,8 @@ Objetivos de aprendizaje:
 
 * Acceso a Adobe Admin Console desde la interfaz de Adobe Target (tres métodos)
 * Configuración de un espacio de trabajo en Adobe Admin Console
-   * Agregación de usuarios a espacios de trabajo
-   * Agregación de propiedades a espacios de trabajo
+  * Agregación de usuarios a espacios de trabajo
+  * Agregación de propiedades a espacios de trabajo
 * Explicación de los espacios de trabajo predeterminados
 
 >[!NOTE]

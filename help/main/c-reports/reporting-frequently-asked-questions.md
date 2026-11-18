@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1392'
 ht-degree: 23%
 ---
 # Preguntas más frecuentes sobre la creación de informes
@@ -136,7 +136,7 @@ Si el contenido de una actividad se entregó correctamente a los usuarios, pero 
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo actualizar una actividad de [!UICONTROL Automated Personalization] (AP) y cambiar la experiencia de control a una experiencia que recibe tráfico, consulte [Seleccionar el control para la actividad de Automated Personalization o de Segmentación automática](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Para obtener más información sobre cómo actualizar una actividad de [!UICONTROL Automated Personalization] (AP) y cambiar la experiencia de control a una experiencia que recibe tráfico, consulte [Seleccionar la experiencia de control](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## ¿Por qué la división del tráfico entre mis experiencias es desigual en mi actividad A/B o MVT? {#uneven}

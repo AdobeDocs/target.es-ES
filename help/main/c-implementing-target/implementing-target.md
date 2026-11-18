@@ -1,9 +1,9 @@
 ---
 keywords: implementar;implementación
-description: Comprenda los conceptos básicos, familiarícese con el funcionamiento de  [!DNL Target] y cómo se integra con su infraestructura, y comprenda cómo se realiza el seguimiento de los visitantes.
+description: Comprenda los conceptos básicos, familiarícese con el funcionamiento de [!DNL Target], cómo se integra con su infraestructura y cómo se realiza el seguimiento de los visitantes.
 landing-page-description: Antes de empezar a usar Adobe Target, debe implementarlo en el sitio.
 short-description: Antes de empezar a usar Adobe Target, debe implementarlo en el sitio.
-title: ¿Cómo Se Implementa  [!DNL Target]?
+title: ¿Cómo Implemento [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# Implementación de Target
+# Introducción a la implementación de [!DNL Target]
 
 Antes de empezar a usar [!DNL Adobe Target], debe implementarlo en el sitio.
 

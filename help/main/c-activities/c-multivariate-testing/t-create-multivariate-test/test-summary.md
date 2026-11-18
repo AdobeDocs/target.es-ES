@@ -16,23 +16,29 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 9%
 ---
-# Resumen de la prueba ([!UICONTROL Prueba multivariable])
+# Resumen de la prueba ([!UICONTROL Prueba multivariable]) {#mvt-test-summary}
 
-La página [!UICONTROL Segmentación] proporciona información general visual sobre su [!DNL Adobe Target] [!UICONTROL prueba multivariable].
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra lo que muestra el resumen de prueba de una **[!UICONTROL prueba multivariable]**, para que pueda revisar la configuración antes de continuar.
+
+>[!ENDSHADEBOX]
+
+La página **[!UICONTROL Segmentación]** proporciona información general visual sobre su [!DNL Adobe Target] **[!UICONTROL prueba multivariable]**. Revisar este resumen le permite confirmar la configuración de la prueba antes de establecer los objetivos y la configuración.
 
 ![Cuadro de diálogo de resumen de la prueba](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 En el resumen de la prueba se muestra:
 
-* Nombre de la prueba
-* Dirección URL
-* Audiencia: haga clic en la audiencia para seleccionar una audiencia diferente de la lista de audiencias disponibles.
-* Algoritmo: el único algoritmo disponible es [!UICONTROL Factorial completo]. El nombre del algoritmo se proporciona a efectos informativos, para que conozca qué algoritmo se está usando.
+* El nombre de la prueba.
+* La dirección URL.
+* La audiencia. Haga clic en la audiencia para seleccionar una audiencia diferente de la lista de audiencias disponibles.
+* El algoritmo. El único algoritmo disponible es **[!UICONTROL Factorial completo]**. El nombre del algoritmo se proporciona con fines informativos, para que pueda saber qué algoritmo se está utilizando.
 * La cantidad de experiencias incluidas y excluidas.
 
-Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la configuración de la prueba. Se abre la página [!UICONTROL Objetivos y configuración].
+Haga clic en **[!UICONTROL Siguiente]** cuando esté satisfecho con la configuración de la prueba. Se abre la página **[!UICONTROL Objetivos y configuración]**.

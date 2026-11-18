@@ -38,76 +38,56 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 27%
+source-wordcount: '908'
+ht-degree: 15%
 ---
-# [!UICONTROL Automated Personalization] (AP)
+# Introducción a [!UICONTROL Automated Personalization] {#automated-personalization-overview}
 
-Las actividades de [!UICONTROL Automated Personalization] (AP) en [!DNL Adobe Target] combinan ofertas o mensajes, y usa aprendizaje automático avanzado para asignar diferentes variaciones de ofertas a cada visitante en función de su perfil de cliente para personalizar el contenido y dirigir las conversiones.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo una actividad de **[!UICONTROL Automated Personalization]** coincide con las variaciones de ofertas para cada visitante, y qué considerar al usarla.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/main/c-intro/intro.md#premium).
+>**[!UICONTROL Automated Personalization]** está disponible como parte de la solución [!DNL Target Premium]. Esta característica no está disponible en [!DNL Target Standard] sin una licencia de [!DNL Target Premium]. Para obtener más información sobre las funciones avanzadas que proporciona esta licencia, consulte [Target Premium](/help/main/c-intro/intro.md#premium).
 
-De manera similar a [!UICONTROL Segmentación automática], [!UICONTROL Automated Personalization] usa un [algoritmo de bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), un método puntero de ensamblado de la ciencia de datos, como su principal algoritmo de personalización para determinar la mejor experiencia para mostrar a un visitante. [!UICONTROL Automated Personalization] puede ser útil en la fase de detección de las pruebas. También es útil para permitir que el aprendizaje de la máquina pueda determinar el contenido más eficaz al segmentar varios visitantes. Con el tiempo, el algoritmo aprende a predecir el contenido más eficaz y muestra el que más probabilidades tiene de ayudarle a lograr sus objetivos.
+Las actividades de **[!UICONTROL Automated Personalization]** (AP) en [!DNL Adobe Target] combinan ofertas o mensajes, y utilizan aprendizaje automático avanzado para asignar diferentes variaciones de ofertas a cada visitante en función de su perfil de cliente, para personalizar el contenido y dirigir las conversiones.
 
-Para obtener más información sobre las diferencias entre [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática], consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB).
+Los especialistas en marketing implementan un archivo en su sitio, que les permite apuntar y hacer clic en cualquier contenido y, a continuación, crear opciones de contenido adicionales para esa área utilizando el **[!UICONTROL Compositor de experiencias visuales]** (VEC). A continuación, el algoritmo determina automáticamente qué parte del contenido se ofrece a cada visitante en función de todos los datos de comportamiento que tiene el sistema del visitante.
 
-Los especialistas en marketing implementan un archivo en su sitio, que les permite apuntar y hacer clic en cualquier contenido y, a continuación, crear y seleccionar opciones de contenido adicionales para esa área utilizando el [!UICONTROL Compositor de experiencias visuales] (VEC). A continuación, el algoritmo determina automáticamente qué parte del contenido se ofrece a cada visitante en función de todos los datos de comportamiento que tiene el sistema del visitante, proporcionando una experiencia personalizada. Dado que [!UICONTROL Automated Personalization] se puede adaptar a los cambios en el comportamiento de los visitantes, se puede ejecutar sin una fecha de fin establecida para proporcionar un alza y una personalización continuas. Este modo a veces se denomina &quot;siempre-activo&quot;. El experto en marketing no necesita ejecutar una prueba, analizar los resultados y proporcionar un ganador antes de conocer el alza encontrada en la optimización, es decir, un pedido estándar de operaciones para implementar el resultado de una actividad A/B estándar.
+**[!UICONTROL Automated Personalization]** se adapta a los cambios en el comportamiento de los visitantes, por lo que puede ejecutarse sin una fecha de fin establecida para proporcionar un alza y una personalización continuas. Este modo a veces se denomina &quot;siempre-activo&quot;. El experto en marketing no necesita ejecutar una prueba, analizar los resultados y proporcionar un ganador antes de conocer el alza. **[!UICONTROL Automated Personalization]** también es útil en la fase de detección de las pruebas y cuando se dirigen a visitantes diversos. Para obtener más información sobre las diferencias con la segmentación automática **1, consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB).**
 
-Los siguientes términos pueden resultar útiles al tratar el tema de [!UICONTROL Automated Personalization]:
+Los siguientes términos pueden resultar útiles al tratar el tema de **[!UICONTROL Automated Personalization]**:
 
 | Término | Definición |
 |---|---|
 | Multi-armed bandit | Un método multi-armed bandit en la optimización equilibra el aprendizaje de exploración y la explotación de dicho aprendizaje. |
 | Bosque aleatorio | Un enfoque líder de aprendizaje automático. En términos de ciencia de datos, se trata de un método de clasificación o regresión por conjuntos que funciona mediante la construcción de muchos árboles de decisión basados en los atributos del visitante y la visita. |
-| Muestreo Thompson | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (sin personalizar), al mismo tiempo que se minimiza el &quot;coste&quot; de encontrar esa experiencia. El muestreo Thompson siempre selecciona un ganador, aunque no haya diferencias estadísticas entre las dos experiencias. Para obtener más información, consulte [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Muestreo Thompson | El objetivo del muestreo Thompson es determinar qué experiencia es la mejor globalmente (sin personalizar), al mismo tiempo que se minimiza el &quot;coste&quot; de encontrar esa experiencia. El muestreo Thompson siempre elige un ganador, incluso si no hay diferencia estadística entre dos experiencias. Para obtener más información, consulte [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
-Tenga en cuenta los siguientes detalles al usar [!UICONTROL Automated Personalization]:
+## Funcionamiento del modelo de personalización {#how-ap-works}
 
-## [!UICONTROL Automated Personalization] usa un algoritmo de bosque aleatorio para personalizar
+**[!UICONTROL Automated Personalization]** usa un algoritmo de bosque aleatorio para personalizar. El bosque aleatorio es un enfoque de aprendizaje automático líder. En términos de ciencia de datos, se trata de un método de clasificación o regresión por conjuntos que funciona mediante la construcción de muchos árboles de decisión basados en los atributos del visitante y la visita. En [!DNL Target], el bosque aleatorio se usa para determinar qué experiencia se espera que tenga la mayor probabilidad de conversión (o los mayores ingresos por visita) para cada visitante específico.
 
-El bosque aleatorio es un enfoque de aprendizaje automático líder. En términos de ciencia de datos, se trata de un método de clasificación o regresión por conjuntos que funciona mediante la construcción de muchos árboles de decisión basados en los atributos del visitante y la visita. En [!DNL Target], el bosque aleatorio se usa para determinar qué experiencia se espera que tenga la mayor probabilidad de conversión (o los mayores ingresos por visita) para cada visitante específico. Por ejemplo, es probable que los visitantes que utilizan Chrome, son miembros de fidelidad de oro y acceden a su sitio los martes conviertan con la Experiencia A. Es más probable que los visitantes de Nueva York conviertan con la Experiencia B. Para obtener más información acerca del bosque aleatorio en [!DNL Target], vea [Algoritmo de bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
+Por ejemplo, es probable que los visitantes que utilizan Chrome, son miembros de fidelidad de oro y acceden a su sitio los martes conviertan con la Experiencia A. Es más probable que los visitantes de Nueva York conviertan con la Experiencia B.
 
-## El modelo de personalización se optimiza para cada visita
+Para obtener más información acerca del bosque aleatorio en [!DNL Target], vea [Algoritmo de bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
-* El algoritmo predice la probabilidad de conversión de un visitante (o los ingresos estimados por conversión) para ofrecer la mejor experiencia.
-* Un visitante es elegible para una nueva experiencia al final de una sesión existente, a menos que ese visitante esté en el grupo de control. Si el visitante está en el grupo de control, la experiencia que ve en la primera visita es la misma que en las visitas posteriores.
-* La experiencia presentada no cambia dentro de una sesión para mantener la coherencia visual.
+| Aspecto | Cómo funciona |
+|---|---|
+| **Optimización para cada visita** | El algoritmo predice la probabilidad de que un visitante realice una conversión (o los ingresos estimados procedentes de la conversión) para ofrecer la mejor experiencia. Un visitante puede disfrutar de una nueva experiencia al final de una sesión existente, a menos que esté en el grupo de control. Un visitante del grupo de control ve la misma experiencia que en la primera visita. La experiencia no cambia dentro de una sesión para mantener la coherencia visual. |
+| **Adaptación a cambios en el comportamiento de visitantes** | El bandido multi-armado siempre gasta una pequeña fracción de tráfico para continuar aprendiendo durante toda la vida de la actividad y para evitar la sobreexplotación de las tendencias previamente aprendidas. Los modelos subyacentes se reconstruyen cada 24 horas utilizando los datos de comportamiento del visitante más recientes. Si el algoritmo no puede determinar experiencias ganadoras para visitantes individuales, mostrará la experiencia con mejor rendimiento general, que se encuentra usando [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling), mientras que seguirá buscando ganadores personalizados. |
+| **Métrica de objetivo** | El modelo se optimiza continuamente para lograr una única métrica de objetivos, que puede basarse en conversiones o en ingresos (o, mejor dicho, en **[!UICONTROL ingresos por visita]**). |
+| **Datos y audiencias** | [!DNL Target] recopila automáticamente información sobre los visitantes para crear los modelos de personalización. Para obtener más información sobre los atributos utilizados en **[!UICONTROL Segmentación automática]** y **[!UICONTROL Automated Personalization]**, consulte [Recopilación de datos de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md). [!DNL Target] también usa automáticamente todas las audiencias compartidas de [!DNL Adobe Experience Cloud], por lo que no es necesario que haga nada para agregar audiencias al modelo. Para obtener más información, consulte [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md). |
+| **Datos personalizados** | Los especialistas en marketing pueden cargar datos sin conexión, como información de CRM, puntuaciones de tendencia de cancelación por parte del cliente u otros datos personalizados para crear modelos de personalización. Los datos se pueden introducir con [parámetros de mbox](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}, [parámetros de perfil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank} o [API del lado del servidor para actualizar perfiles](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}. |
 
-## El modelo de personalización se adapta a los cambios en el comportamiento del visitante
+## Vídeo de formación: Tipos de actividades {#training-video}
 
-* El método multi-armed bandit garantiza que el modelo siempre &quot;gasta&quot; una pequeña fracción del tráfico para continuar aprendiendo a lo largo de la vida de la actividad y evitar la sobreexplotación de las tendencias aprendidas anteriormente.
-* Los modelos subyacentes se reconstruyen cada 24 horas utilizando los datos de comportamiento del visitante más recientes para garantizar que [!DNL Target] siempre esté usando preferencias de visitante cambiantes.
-* Si el algoritmo no es capaz de determinar experiencias ganadoras para visitantes individuales, pasa automáticamente a mostrar la experiencia con mejor rendimiento general, sin dejar por ello de buscar ganadores personalizados. La experiencia con mejor rendimiento se determina empleando el [Muestreo Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
-
-## El modelo se optimiza continuamente para lograr una única métrica de objetivos
-
-* Esta métrica puede estar basada en conversiones o en ingresos (o más específicamente, [!UICONTROL Ingresos por visitante]).
-
-## [!DNL Target] recopila automáticamente información sobre los visitantes para crear los modelos de personalización
-
-* Para obtener más información sobre los atributos utilizados en [!UICONTROL Segmentación automática] y [!UICONTROL Automated Personalization], consulte [Recopilación de datos de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
-
-## [!DNL Target] utiliza automáticamente todas las [!DNL Adobe Experience Cloud] audiencias compartidas para crear los modelos de personalización
-
-* No es necesario que haga nada para agregar audiencias al modelo. Para obtener información sobre el uso de [!DNL Experience Cloud Audiences] con [!DNL Target], consulte [Audiencias de Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
-
-## Los especialistas en marketing pueden cargar datos sin conexión, puntuaciones de tendencia u otros datos personalizados para crear modelos de personalización
-
-Los datos sin conexión, como información de CRM o puntuaciones de inclinación de cancelación por parte del cliente, pueden ser muy valiosos al crear modelos de personalización. Hay varias formas de introducir datos en los algoritmos de personalización [!UICONTROL Automated Personalization] (AP) y [!UICONTROL Segmentación automática].
-
-* [Parámetros de mbox](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}
-* [Parámetros de perfil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}
-* [API del lado cliente para actualizar perfiles](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=es){target=_blank}
-
-Para obtener información sobre los datos que los algoritmos de personalización [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] recopilan y usan automáticamente, consulte [Recopilación de datos de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
-
-## Vídeo de formación: Tipos de actividades
-
-En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. [!UICONTROL Automated Personalization] se discute a partir de las 5:55.
+En este vídeo se describen los tipos de actividades disponibles en [!DNL Target]. **[!UICONTROL Automated Personalization]** se discute a partir de las 5:55.
 
 * Describe los tipos de actividades incluidas en [!DNL Adobe Target]
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos

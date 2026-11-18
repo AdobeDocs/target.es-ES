@@ -20,12 +20,12 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 66%
+source-wordcount: '253'
+ht-degree: 61%
 ---
-# Solución de problemas del Compositor de experiencias visuales y el Compositor de experiencias mejorado
+# Introducción a la solución de problemas de [!UICONTROL Compositor de experiencias visuales] y [!UICONTROL Compositor de experiencias mejorado]
 
 Los problemas de visualización a veces ocurren en [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
 

@@ -16,28 +16,34 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 8%
+source-wordcount: '280'
+ht-degree: 6%
 ---
-# Previsualizar experiencias para una [!UICONTROL prueba multivariable]
+# Previsualizar experiencias para una [!UICONTROL prueba multivariable] {#preview-mvt-experiences}
 
-Dado que una [!UICONTROL prueba multivariable] en [!DNL Adobe Target] compara varias experiencias en una página, resulta útil obtener una vista previa de la página con cada experiencia.
+>[!BEGINSHADEBOX]
 
-1. Haga clic en **[!UICONTROL Vista previa]** y, a continuación, haga clic en el icono **[!UICONTROL Mostrar experiencias]** ( ![icono Mostrar experiencias](/help/main/assets/icons/WebPages.svg) ) para mostrar la lista de todas las experiencias en el cuadro izquierdo.
+**En esta página:** Obtenga información sobre cómo obtener una vista previa de cada experiencia de una **[!UICONTROL prueba multivariable]** en el **[!UICONTROL Compositor de experiencias visuales]**, y cómo excluir o incluir experiencias.
+
+>[!ENDSHADEBOX]
+
+Una **[!UICONTROL prueba multivariada]** (MVT) en [!DNL Adobe Target] compara varias experiencias en una página, por lo que resulta útil previsualizar la página con cada experiencia. La vista previa muestra cómo se combinan las ofertas en cada experiencia, para que pueda decidir si excluye una experiencia antes de que la prueba se active.
+
+1. En el **[!UICONTROL Compositor de experiencias visuales]** (VEC), haga clic en **[!UICONTROL Vista previa]** y, a continuación, haga clic en el icono **[!UICONTROL Mostrar experiencias]** ( ![icono Mostrar experiencias](/help/main/assets/icons/WebPages.svg) ) para mostrar la lista de todas las experiencias en el cuadro izquierdo.
+
+   ![Cambiar menú de oferta de imagen](../assets/multivariate-5.png)
 
 1. Haga clic en una experiencia específica en la lista para verla.
 
-1. (Condicional) Para excluir una o más experiencias de la actividad, haga clic en el icono **[!UICONTROL Administrar contenido]** ( ![Icono Administrar contenido](/help/main/assets/icons/Experience.svg) ) para mostrar el cuadro de diálogo [!UICONTROL Administrar contenido].
+1. (Opcional) Para excluir o incluir experiencias, haga clic en el icono **[!UICONTROL Administrar contenido]** ( ![Icono Administrar contenido](/help/main/assets/icons/Experience.svg) ) para mostrar el cuadro de diálogo **[!UICONTROL Administrar contenido]**.
 
-1. (Condicional) En el cuadro de diálogo [!UICONTROL Administrar contenido], haga clic en el icono **[!UICONTROL Más acciones]** ( ![Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) junto a la experiencia que desea excluir y, a continuación, haga clic en **[!UICONTROL Excluir]**.
+1. Puede elegir excluir una experiencia que muestre variaciones que entran en conflicto o una experiencia que no esté equilibrada desde el punto de vista estético. A continuación, realice una de las siguientes acciones:
 
-   Puede elegir excluir una experiencia que muestre variaciones que entran en conflicto o una experiencia que no esté equilibrada desde el punto de vista estético.
-
-1. (Condicional) Para excluir varias experiencias, selecciona las casillas de verificación de las experiencias que desees y haz clic en **[!UICONTROL Excluir]**.
-
-1. (Condicional) Para incluir varias experiencias que se han excluido, selecciona las casillas de las experiencias que desees y haz clic en **[!UICONTROL Incluir]**.
+   * Para excluir una experiencia, haga clic en el icono **[!UICONTROL Más acciones]** ( ![Icono de más acciones](/help/main/assets/icons/MoreSmallList.svg) ) junto a la experiencia y, a continuación, haga clic en **[!UICONTROL Excluir]**.
+   * Para excluir varias experiencias, selecciona las casillas de verificación de las experiencias y haz clic en **[!UICONTROL Excluir]**.
+   * Para incluir varias experiencias que se excluyeron, selecciona las casillas de verificación de las experiencias y haz clic en **[!UICONTROL Incluir]**.
 
 >[!NOTE]
 >

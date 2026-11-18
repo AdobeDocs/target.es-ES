@@ -26,21 +26,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 90943644c64269a8f34b79cf1b6dac35ffd57bb2
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 12%
+source-wordcount: '247'
+ht-degree: 5%
 ---
-# Informes y [!UICONTROL segmentación automática]
+# Informes y [!UICONTROL segmentación automática] {#reporting-and-auto-target}
 
-Información sobre cómo interpretar los informes [!UICONTROL Resumen de segmentación automática] en [!DNL Adobe Target], incluidos los informes [!UICONTROL Segmentos automatizados] y [!UICONTROL Atributos importantes].
+>[!BEGINSHADEBOX]
 
-Para obtener más información sobre cada informe, consulte los temas siguientes:
+**En esta página:** Conozca qué informes le ayudan a interpretar los resultados de una actividad de **[!UICONTROL Segmentación automática]**.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] proporciona tres informes para interpretar los resultados de una actividad de **[!UICONTROL Segmentación automática]**: el informe de **[!UICONTROL Resumen de segmentación automática]**, el informe de **[!UICONTROL Segmentos automatizados]** y el informe de **[!UICONTROL Atributos importantes]**. Para obtener más información sobre cada informe, consulte los temas siguientes:
 
 | Informe | Detalles |
 | --- | --- |
-| [Informe Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | El informe [!UICONTROL Resumen de segmentación automática] le permite ver las métricas de informes en una vista de tabla o en una vista de gráfico.<P>Este informe le permite ver las métricas de [!UICONTROL Visitas], [!UICONTROL Tasa de conversión], [!UICONTROL Intervalo promedio de alza y confianza] y [!UICONTROL Confianza]. |
-| [Informe Segmentos automatizados](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | El informe [!UICONTROL Segmentos automatizados] muestra de qué manera los distintos visitantes responden de manera diferente a las ofertas y experiencias de su actividad de [!UICONTROL Segmentación automática]. Este informe muestra cómo los distintos segmentos automatizados definidos por los modelos de personalización de [!DNL Target] respondieron a las ofertas y experiencias de la actividad. |
-| [Informe sobre atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | El informe [!UICONTROL Atributos importantes] muestra cómo, en diferentes actividades, distintos atributos son más (o menos) importantes para el modo en que el modelo decide realizar la personalización. Este informe muestra los atributos que más influyeron en el modelo y su importancia relativa. |
+| [Informe Resumen de segmentación automática](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | El informe **[!UICONTROL Resumen de segmentación automática]** le permite ver las métricas de informes en una vista de tabla o en una vista de gráfico.<P>Este informe le permite ver las métricas de **[!UICONTROL Visitas]**, **[!UICONTROL Tasa de conversión]**, **[!UICONTROL Intervalo promedio de alza y confianza]** y **[!UICONTROL Confianza]**. |
+| [Informe Segmentos automatizados](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | El informe **[!UICONTROL Segmentos automatizados]** muestra de qué manera los distintos visitantes responden de manera diferente a las ofertas y experiencias de su actividad de **[!UICONTROL Segmentación automática]**. Muestra cómo los segmentos automatizados definidos por los modelos de personalización de [!DNL Target] respondieron a las ofertas y experiencias de la actividad. |
+| [Informe sobre atributos importantes](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | El informe **[!UICONTROL Atributos importantes]** muestra cómo, en diferentes actividades, distintos atributos son más (o menos) importantes para el modo en que el modelo decide realizar la personalización. Muestra los principales atributos que influyeron en el modelo y su importancia relativa. |
 
 Para obtener información general sobre los informes, consulte [Informes](/help/main/c-reports/reports.md).

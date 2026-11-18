@@ -30,12 +30,12 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 5%
 ---
-# Información general sobre la administración de [!DNL Target]
+# Introducción a la administración de [!DNL Target]
 
 Use **[!UICONTROL Administración]** para configurar los valores predeterminados de toda la cuenta para [!UICONTROL Compositor de experiencias visuales] (VEC), informes, infraestructura de entrega, control de acceso y [!DNL Recommendations].
 
