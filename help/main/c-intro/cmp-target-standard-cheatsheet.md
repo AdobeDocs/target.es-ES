@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -94,7 +94,7 @@ Conéctese con otros [!DNL Target] practicantes en el [Foro de la comunidad de T
 **¿Con qué exploradores es compatible [!DNL Target]?**
 
 +++Ver detalles
-Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
 
 [!DNL Safari] es compatible con la interfaz [!DNL Target]. Puede crear actividades basadas en formularios en [!DNL Safari] y usar todas las funciones, excepto [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC), que no son compatibles con [!DNL Safari]. Para editar experiencias en el VEC o EEC, use [!DNL Google Chrome].
 
@@ -119,7 +119,7 @@ Detener las actividades antes de tiempo puede dar lugar a conclusiones erróneas
 **¿Cómo puedo realizar una actividad si la ventana de tiempo es pequeña y puedo optimizarla para mi objetivo mientras la pruebo?**
 
 +++Ver detalles
-Ver [informes para determinar la experiencia ganadora](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+Ver [informes para determinar la experiencia ganadora](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports).
 
 +++
 
@@ -142,7 +142,7 @@ Asegúrese de tener en cuenta las [actividades de Recommendations](/help/main/c-
 **¿Cómo puedo descubrir qué combinaciones de elementos contribuyen al éxito de mi página y hasta qué punto ayuda cada elemento?**
 
 +++Ver detalles
-Consulte nuestras [actividades multivariables factoriales completas (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) con análisis de contribución de elementos para ver si satisfacen sus necesidades.
+Consulte nuestras [actividades multivariables factoriales completas (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) con análisis de contribución de elementos para ver si satisfacen sus necesidades.
 
 Tenga en cuenta que el requisito de tráfico aumenta con las actividades de MVT.
 
@@ -264,7 +264,7 @@ Pruebe la [función Scripts de perfil](/help/main/c-target/c-visitor-profile/pro
 **¿Puedo comenzar una actividad con menos visitantes?**
 
 +++Ver detalles
-Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de trabajo guiado de tres partes de Target (página de segmentación)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) para decidir cómo desea configurar la actividad.
+Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de trabajo guiado de tres partes de Target (página de segmentación)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience) para decidir cómo desea configurar la actividad.
 
 +++
 
@@ -274,7 +274,7 @@ Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de 
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -339,7 +339,7 @@ Póngase en contacto con Adobe para [asegurarse de que su cuenta está configura
 **Quiero probar entre dos experiencias diferentes, por ejemplo, descuento plano frente a descuento porcentual, pero quiero enfocar adecuadamente las experiencias (mostrar diferentes configuraciones locales o monedas diferentes para personas que vienen de diferentes países). ¿Cómo puedo hacer esto?**
 
 +++Ver detalles
-Puede conseguirlo fácilmente con nuestra [función Varias versiones de experiencias](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Tenga en cuenta los matices en torno a la entrega en estas pruebas.
+Puede conseguirlo fácilmente con nuestra [función Varias versiones de experiencias](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case). Tenga en cuenta los matices en torno a la entrega en estas pruebas.
 
 +++
 
@@ -421,7 +421,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/main/c-experi
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

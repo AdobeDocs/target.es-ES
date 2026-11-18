@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 77%
@@ -65,7 +65,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 
 ### Asignación automática
 
-* [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Información general sobre la asignación automática](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#faq)
 
 ### Segmentación automática
 
@@ -82,7 +82,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 ### Prueba multivariable (MVT)
 
 * [Prácticas recomendadas de pruebas multivariable](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [Resolución de problemas de las pruebas multivariable](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [Resolución de problemas de las pruebas multivariable](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [Calcular el tráfico necesario para una prueba de éxito](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### Recomendaciones
@@ -129,7 +129,7 @@ Las secciones siguientes contienen información sobre la resolución de problema
 
 ## Mbox global
 
-* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=es)
+* [Mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Hosts/Entornos
 
@@ -141,23 +141,23 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ### Implementación general
 
-* [Navegadores admitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es)
-* [Uso de instancias basadas en la nube con Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=es)
+* [Navegadores admitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Uso de instancias basadas en la nube con Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxes globales
 
-* [Preguntas frecuentes sobre mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=es)
+* [Preguntas frecuentes sobre mbox global](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
 * [Preguntas frecuentes sobre at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=es)
-* [Depurar at.js mediante Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=es)
+* [Depurar at.js mediante Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [Detalles de las versiones de at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=es)
 * Vídeo “Horario de oficina”, una iniciativa liderada por el equipo del Servicio de atención al cliente de Adobe.
 
 ## Aplicaciones móviles
 
-* [Preguntas frecuentes sobre Target para aplicaciones móviles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=es)
+* [Preguntas frecuentes sobre Target para aplicaciones móviles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Creación de informes
 
@@ -166,7 +166,7 @@ Las secciones siguientes contienen información acerca de la resolución de prob
 
 ## Optimización del motor de búsqueda (SEO)
 
-* [Pruebas sencillas para la optimización del motor de búsqueda (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es)
+* [Pruebas sencillas para la optimización del motor de búsqueda (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Seguridad
 

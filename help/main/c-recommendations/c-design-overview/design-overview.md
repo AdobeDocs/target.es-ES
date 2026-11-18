@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 23%
+source-wordcount: '204'
+ht-degree: 22%
 ---
-# Información general de diseño
+# Introducción a los diseños
 
 Los diseños de [!DNL Adobe Target Recommendations] definen cómo aparecen las recomendaciones en una página. Los diseños definen el diseño y el formato de las recomendaciones para mejorar la participación, la conversión y los ingresos de los visitantes.
 

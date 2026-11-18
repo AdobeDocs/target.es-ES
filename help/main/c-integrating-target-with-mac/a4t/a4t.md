@@ -33,12 +33,12 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 76%
+source-wordcount: '1129'
+ht-degree: 75%
 ---
-# [!DNL Adobe Analytics] como fuente de informes para [!DNL Adobe Target] (A4T)
+# Introducción a A4T
 
 [!DNL Adobe Analytics for Target] (A4T) es una integración de soluciones cruzadas que le permite crear actividades basadas en las métricas de conversión y los segmentos de público de [!DNL Analytics] Esta integración de A4T le permite utilizar informes de [!DNL Analytics] para examinar sus resultados. Si usa [!DNL Analytics] como fuente de informes de una actividad, todos los informes y la segmentación de dicha actividad se basarán en la recopilación de datos de [!DNL Analytics].
 
@@ -75,7 +75,7 @@ Tenga en cuenta los siguientes puntos cuando vaya a utilizar A4T:
 
 ## Implementación de A4T
 
-Para obtener información sobre la implementación de A4T con at.js y [!DNL Adobe Experience Platform Web SDK], consulte [&#x200B; Implementación de Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Para obtener información sobre la implementación de A4T con at.js y [!DNL Adobe Experience Platform Web SDK], consulte [ Implementación de Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Tipos de actividades compatibles {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -134,7 +134,7 @@ Este vídeo explica cómo utilizar [!DNL Analytics] como una fuente de informes 
 * Explicar cómo funciona A4T
 * Entender los requisitos necesarios antes de utilizar A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/3421724?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Integración de Analytics/Adobe Target (A4T) (40:33) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
@@ -149,7 +149,7 @@ Este vídeo es una grabación de “[Horario de oficina](/help/main/cmp-resource
 
 >[!MORELIKETHIS]
 >
->* [Implementación de Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Contiene información de implementación para at.js y el SDK web de Platform.
+>* [Implementación de Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Contiene información de implementación para at.js y el SDK web de Platform.
 >* [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [¿Qué es el SDK web de Adobe Experience Platform?](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es): Contiene información general sobre el SDK web de Platform.
 >* [Información general de Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=es): Contiene información específica de [!DNL Target] y [!DNL Platform Web SDK].

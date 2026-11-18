@@ -2,7 +2,7 @@
 keywords: experiencia;control;Automated Personalization;segmentación automática
 description: Aprenda a seleccionar una experiencia para utilizarla como control mientras crea una actividad de [!UICONTROL Automated Personalization] (AP) o [!UICONTROL Segmentación automática] en [!DNL Adobe Target].
 title: ¿Cómo puedo usar una experiencia específica como control en una actividad de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
@@ -29,54 +29,70 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 31%
+source-wordcount: '801'
+ht-degree: 3%
 ---
-# Seleccione el control de su actividad [!UICONTROL Automated Personalization] o [!UICONTROL Segmentación automática]
+# Selección de la experiencia de control {#experience-as-control}
 
-Puede seleccionar una experiencia servida aleatoriamente o una experiencia específica para utilizarla como control al crear una actividad [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o [[!UICONTROL Segmentación automática]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+>[!BEGINSHADEBOX]
 
-Esta funcionalidad le permite dirigir el tráfico de control a una experiencia relevante, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control a ese control.
+**En esta página:** Aprenda a elegir el control de una actividad de **[!UICONTROL Automated Personalization]** o **[!UICONTROL Segmentación automática]**, y qué debe tener en cuenta al usar una experiencia específica como control.
 
-Las opciones para configurar un control en las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] son un poco diferentes de otros tipos de actividades. En una [!UICONTROL prueba A/B] manual, puede cambiar qué controles se muestran en los informes. El alza se calcula según la tasa de conversión de esa experiencia de control. Puede cambiarlo fácilmente ya que el tráfico se sirve aleatoriamente a cada una de las experiencias incluidas en la actividad, independientemente de la configuración que se establezca en el control. En otras palabras, seleccionar el control no afecta al modo en que se sirve el tráfico. En las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática], su decisión sobre qué elegir como control influye en el modo en que se sirve el tráfico de visitantes. Como resultado, debe pensar más cuidadosamente acerca de su decisión.
+>[!ENDSHADEBOX]
 
-Hay dos opciones disponibles para el control en las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática]:
+Puede seleccionar una experiencia servida aleatoriamente o una experiencia específica para utilizarla como control al crear una actividad [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) o [**[!UICONTROL Segmentación automática]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT). El tráfico de control se enruta a las experiencias relevantes en función del porcentaje de asignación de tráfico configurado en la actividad, de modo que se puedan evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control.
 
-* **Servido de forma aleatoria**: Para un control aleatorio, el porcentaje de control de tráfico proporciona todas las experiencias de la actividad sin tener en cuenta el perfil del visitante. Puede considerar el control como ayuda para responder a la pregunta: &quot;Si solo ofrezco aleatoriamente una experiencia (u oferta) a los visitantes y no considero sus perfiles, ¿cuál es la tasa de conversión de dicha experiencia (u oferta)?&quot; El control es como una [!UICONTROL prueba A/B] dentro de su actividad de IA. Tener esta información de la tasa de conversión no personalizada para cada experiencia u oferta puede resultar útil para saber cuándo analizar los resultados de la actividad.
+En una prueba manual **[!UICONTROL A/B Test]**, puede cambiar lo que el informe muestra como control y el alza se calcula a partir de esa experiencia, ya que el tráfico se sirve aleatoriamente a todas las experiencias, independientemente del control. En las actividades **[!UICONTROL Automated Personalization]** y **[!UICONTROL Segmentación automática]**, el control afecta al modo en que se sirve el tráfico de visitantes, por lo que debe elegirlo con cuidado.
 
-* **Experiencia específica**: Un control de experiencia específico permite comparar el tráfico proporcionado por [!DNL Target] modelos de personalización con una experiencia específica definida por el especialista en marketing (por ejemplo, su página principal predeterminada). Con esta opción, el porcentaje de control de tráfico proporciona tráfico de forma aleatoria solo para esa experiencia.
+Hay dos opciones disponibles para el control:
 
-## Especificar una experiencia determinada como control
+* **Servido de forma aleatoria:** El porcentaje de control de tráfico proporciona todas las experiencias de la actividad sin tener en cuenta el perfil del visitante. Funciona como una **[!UICONTROL Prueba A/B]** dentro de tu actividad y muestra la tasa de conversión no personalizada de cada experiencia u oferta, lo que te ayuda a analizar los resultados.
 
-1. Al crear o editar una actividad [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) o una actividad [[!UICONTROL Segmentación automática]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure las experiencias como desee.
-1. En la página [!UICONTROL Segmentación] (paso 2 del flujo de trabajo guiado de tres partes), haga clic en la experiencia de control para mostrar las opciones de [!UICONTROL Control] en el panel derecho.
+* **Experiencia específica:** El porcentaje de control de tráfico proporciona solo una experiencia de forma aleatoria. Esta opción le permite comparar el tráfico servido por los modelos de personalización de [!DNL Target] con una experiencia específica que usted define, por ejemplo, su página principal predeterminada.
+
+## Consideraciones {#considerations}
+
+Tenga en cuenta los siguientes puntos al utilizar una experiencia específica como control:
+
+* No se recomienda cambiar la experiencia de control en una actividad ya activa. La última experiencia de control seleccionada se nombra en los informes, incluso si los informes anteriores se basan en otra experiencia.
+
+* No se recomienda eliminar la experiencia de control.
+
+* No se recomienda añadir muchas ofertas o experiencias nuevas a una actividad en directo con una experiencia específica como control.
+
+* En **[!UICONTROL Automated Personalization]** actividades no se recomienda incluir la segmentación en la experiencia de control que podría restringir aún más a los usuarios que ven esa experiencia.
+
+* En las actividades de **[!UICONTROL Automated Personalization]**, la información de crecimiento y de confianza está *no* disponible en el informe de nivel de oferta si se selecciona una experiencia específica. Esto se debe a que la comparación de la tasa de conversión de una experiencia específica con la tasa de conversión de una oferta no es lógica debido a la diferencia en las unidades. La información de crecimiento y de confianza está disponible en el nivel de tráfico &quot;segmentado&quot; y &quot;de control&quot; para la actividad, y en todos los niveles si se selecciona &quot;aleatorio&quot; como control. La información disponible en una actividad **[!UICONTROL Segmentación automática]** es la misma, independientemente del tipo de control seleccionado.
+
+* Al seleccionar una experiencia específica como control, todo el tráfico de control se dirige a una única experiencia o conjunto de ofertas. Con un control aleatorio, el tráfico de control se divide sobre la cantidad de experiencias u ofertas de la actividad. Como resultado, generalmente no necesita tanta cantidad de tráfico para fluir al control con una experiencia específica. 10% es una buena cifra para empezar.
+
+* Si realiza una de las siguientes acciones en una actividad en directo con una experiencia específica como control, el control se restablece automáticamente a experiencias servidas aleatoriamente (en lugar de a la experiencia específica seleccionada anteriormente):
+
+  * Eliminar una experiencia.
+  * Quitar una ubicación u oferta (**[!UICONTROL Automated Personalization]** solamente).
+  * Excluir una experiencia manualmente, eliminando ofertas duplicadas o mediante un grupo de exclusión (**[!UICONTROL Automated Personalization]** solamente).
+
+
+## Especificar una experiencia determinada como control {#specify-control}
+
+Especificar una experiencia específica como control proporciona al tráfico personalizado una experiencia conocida con la que comparar, como la experiencia predeterminada actual, en los informes de la actividad.
+
+1. Al crear o editar una actividad [**[!UICONTROL Automated Personalization ]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) o una actividad [**[!UICONTROL Segmentación automática]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configure las experiencias como desee.
+
+1. En la página **[!UICONTROL Segmentación]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en la experiencia de control para mostrar las opciones de **[!UICONTROL Control]** en el panel derecho.
 
    ![Panel de control](/help/main/c-activities/t-automated-personalization/assets/control.png)
 
-1. En la lista desplegable [!UICONTROL Control], seleccione [!UICONTROL Experiencia aleatoria] o la experiencia que desee usar para el control.
+1. En la lista desplegable **[!UICONTROL Control]**, seleccione **[!UICONTROL Experiencia aleatoria]** o la experiencia que desee usar como control.
 
-1. Haga clic en el control [!UICONTROL Asignación del tráfico] y, a continuación, especifique la asignación de tráfico que desee para la experiencia de control y las demás experiencias.
+1. Haga clic en el control **[!UICONTROL Asignación del tráfico]** y, a continuación, especifique la asignación del tráfico para la experiencia de control y las demás experiencias.
 
    ![Carril de asignación de tráfico](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Para un control de experiencia específico, se recomienda el 10% y el 30%.
 
-1. Continúe con la página [!UICONTROL Objetivos y configuración].
+1. Continúe con la página **[!UICONTROL Objetivos y configuración]**.
 
-## Limitaciones y consideraciones conocidas
-
-Tenga en cuenta los siguientes puntos al utilizar una experiencia específica como control:
-
-* No se recomienda cambiar la experiencia de control en una actividad ya activa. La última experiencia de control seleccionada se nombra en los informes (incluso si los informes anteriores se basan en otra experiencia).
-* No se recomienda eliminar la experiencia de control.
-* No se recomienda añadir muchas ofertas o experiencias nuevas a una actividad en directo con una experiencia específica como control.
-* En [!UICONTROL Automated Personalization] actividades no se recomienda incluir la segmentación en la experiencia de control que podría restringir aún más a los usuarios que ven esa experiencia.
-* En las actividades de [!UICONTROL Automated Personalization], la información de crecimiento y de confianza está *NO* disponible en el informe de nivel de oferta si se selecciona una experiencia específica. La información de alza y confianza está disponible en el nivel de tráfico &quot;segmentado&quot; y &quot;de control&quot; para la actividad [!UICONTROL Automated Personalization]. La información de crecimiento y de confianza está disponible si se selecciona &quot;aleatorio&quot; como control. Esto se debe a que la comparación de una tasa de conversión de una experiencia específica con la tasa de conversión de una oferta no es lógica debido a la diferencia en las unidades. La información disponible en una actividad [!UICONTROL Segmentación automática] es la misma, independientemente del tipo de control seleccionado.
-* Debido a que todo el tráfico de control va a una única experiencia o grupo de ofertas cuando se selecciona la experiencia como control (en comparación con aleatorio, donde la cantidad de tráfico de control se divide sobre el número de experiencias u ofertas de la actividad), generalmente no necesita tanta cantidad de tráfico para fluir al control. 10% es una buena cifra para empezar.
-* Si realiza una de las siguientes acciones en una actividad en directo con una experiencia específica como control, el control se restablece automáticamente a experiencias servidas aleatoriamente (en lugar de a la experiencia específica seleccionada anteriormente):
-
-  * Eliminar una experiencia
-  * Eliminar una ubicación u oferta ([!UICONTROL Automated Personalization] solamente)
-  * Excluir una experiencia manualmente eliminando ofertas duplicadas o mediante un grupo de exclusión ([!UICONTROL Automated Personalization] solamente)
+Una vez que la actividad está activa, sus informes comparan el tráfico personalizado con la experiencia de control seleccionada. Revise las [consideraciones](#considerations) antes de cambiar una actividad en directo, ya que algunos cambios restablecen automáticamente el control a las experiencias servidas aleatoriamente.

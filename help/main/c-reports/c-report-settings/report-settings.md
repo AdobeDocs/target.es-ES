@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1937'
 ht-degree: 44%
 ---
-# Configuración de informes
+# Introducción a la configuración de informes
 
 Información para configurar los elementos que desea que aparezcan en el informe en [!DNL Adobe Target]. Las opciones de configuración de los informes se pueden guardar para usarlas posteriormente.
 
@@ -151,7 +151,7 @@ Seleccione el entorno (grupo de hosts) que se utilizará para el informe. Para o
 
 >[!NOTE]
 >
->Si su organización utiliza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target=_blank} (AEP) para enviar datos de métricas a [!DNL Target], el entorno de la secuencia de datos de AEP debe coincidir con el entorno en la configuración del informe [!DNL Target].
+>Si su organización utiliza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) para enviar datos de métricas a [!DNL Target], el entorno de la secuencia de datos de AEP debe coincidir con el entorno en la configuración del informe [!DNL Target].
 
 ### Restablecer datos del informe
 

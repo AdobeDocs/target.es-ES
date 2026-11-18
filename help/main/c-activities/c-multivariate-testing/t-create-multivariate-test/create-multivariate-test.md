@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 16%
 ---
 # Crear una prueba multivariable {#create-mvt}
@@ -34,6 +34,8 @@ El **[!UICONTROL Compositor de experiencias visuales]** (VEC) en [!DNL Adobe Tar
 El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubicación y agregar varias ofertas.
 
 La **[!UICONTROL prueba multivariada]** (MVT) toma un informe centrado en una página. Es decir, la prueba se ejecuta en una determinada dirección URL, con las experiencias que diseño para esa página.
+
+Antes de crear la prueba, revisa las [recomendaciones de planificación](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan) para comprobar el tráfico, elegir los elementos que deseas probar y preparar el contenido.
 
 Siga los pasos a continuación para crear una **[!UICONTROL prueba multivariable]** (MVT):
 
@@ -70,7 +72,7 @@ Elija el tipo de actividad y el tipo de entrega, especifique la página que dese
 
 Añada ofertas a cada ubicación, previsualice las experiencias resultantes y compruebe que el plan de prueba es viable.
 
-1. [Cree las ofertas en cada ubicación](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [Cree las ofertas en cada ubicación](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations).
 
    Puede añadir los siguientes tipos de oferta:
 
@@ -82,7 +84,7 @@ Añada ofertas a cada ubicación, previsualice las experiencias resultantes y co
 
 1. Haga clic en el icono **[!UICONTROL Mostrar experiencias]** ( ![icono Mostrar experiencias](/help/main/assets/icons/WebPages.svg) ) para mostrar la lista de todas las experiencias en el cuadro izquierdo y, a continuación, haga clic en una experiencia específica de la lista para ver esa experiencia.
 
-1. [Utilice el estimador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para probar la viabilidad de su plan de prueba.
+1. [Utilice el estimador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator) para probar la viabilidad de su plan de prueba.
 
 ### Excluir experiencias (opcional) {#exclude-experiences}
 
@@ -124,7 +126,7 @@ Elija los visitantes que entran en la prueba y revise el resumen de la prueba.
 
    +++
 
-1. [Revise el resumen de la prueba](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7), realice los cambios que desee y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
+1. [Revise el resumen de la prueba](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary), realice los cambios que desee y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
 
 ## Configurar objetivos y opciones {#configure-goals-and-settings}
 
@@ -150,4 +152,4 @@ En este vídeo se muestra cómo planificar y crear una prueba multivariable medi
 * Definir y diseñar una prueba multivariable
 * Crear una prueba multivariable
 
->[!VIDEO](https://video.tv.adobe.com/v/29713?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

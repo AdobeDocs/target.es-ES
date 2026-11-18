@@ -2,7 +2,7 @@
 keywords: resolución de problemas;preguntas más frecuentes;FAQ;personalización automatizada;control;experiencia predeterminada;prácticas recomendadas
 description: Explore una lista de preguntas frecuentes (FAQ) y respuestas acerca de las actividades de [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Adobe Target].
 title: ¿Cómo puedo encontrar preguntas frecuentes sobre las actividades de [!UICONTROL Automated Personalization]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
@@ -30,205 +30,177 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 17%
+source-wordcount: '2088'
+ht-degree: 6%
 ---
-# Preguntas frecuentes sobre Automated Personalization
+# Preguntas frecuentes sobre Automated Personalization {#ap-faq}
 
-Consulte las siguientes preguntas frecuentes y respuestas mientras trabaja con actividades de [!UICONTROL Automated Personalization] en [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-## ¿Puedo especificar una experiencia específica para usarla como control en una actividad [!UICONTROL Automated Personalization]?
+**En esta página:** Encuentre respuestas a las preguntas más frecuentes acerca de las actividades de **[!UICONTROL Automated Personalization]**.
 
-+++Ver detalles
+>[!ENDSHADEBOX]
 
-Puede seleccionar una experiencia para utilizarla como control mientras crea una actividad de [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) o [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Las siguientes preguntas y respuestas tratan sobre cómo configurar las actividades de **[!UICONTROL Automated Personalization]** en [!DNL Adobe Target], cómo se crean los modelos de personalización, cómo se asigna el tráfico y cómo leer los resultados.
 
-Esta función le permite dirigir todo el tráfico de control a una experiencia específica, según el porcentaje de asignación de tráfico configurado en la actividad. Luego puede evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control a esa experiencia.
+## Configuración de una actividad {#set-up-an-activity}
 
-Para obtener más información, consulte [Uso de una experiencia específica como control](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
++++ ¿Cuáles son las prácticas recomendadas para configurar una actividad [!UICONTROL Automated Personalization]?
 
-+++
+* Preste mucha atención a la *forma de actividad* (número de ubicaciones × número de ofertas), no solo al recuento total de experiencias. Las combinaciones cartesianas de ubicaciones y ofertas afectan el rendimiento en tiempo de creación más que el número sin procesar de experiencias. Para obtener un rendimiento y una capacidad de administración óptimos, limite las actividades de **[!UICONTROL Automated Personalization]** y **[!UICONTROL Segmentación automática]** a 4-6 ubicaciones con 4-6 ofertas por ubicación, tal como se describe en la pregunta &quot;¿Cuáles son algunos límites en Automated Personalization?&quot; en esta sección. No se recomiendan configuraciones más grandes que pueden llevar a una carga o edición lentas en **[!UICONTROL Compositor de experiencias visuales]**.
+* Para personalizar una página con poco tráfico o realizar cambios estructurales en la experiencia que está personalizando, considere la posibilidad de usar una [**[!UICONTROL actividad de segmentación automática ]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) en lugar de**[!UICONTROL  Automated Personalization ]**.
+* Considere la posibilidad de ejecutar una actividad **[!UICONTROL Prueba A/B]** entre las ofertas y las ubicaciones que planea usar en su actividad **[!UICONTROL Automated Personalization]** para confirmar que las ubicaciones y las ofertas tengan un impacto en el objetivo de optimización. Si la actividad **[!UICONTROL Prueba A/B]** no muestra una diferencia significativa, es probable que **[!UICONTROL Automated Personalization]** tampoco genere un alza.
 
-## ¿Cómo puedo comparar [!UICONTROL Automated Personalization] con una experiencia predeterminada? {#section_46C1A620A2384C2C8392D6716DD18495}
+  Si una prueba A/B...N no muestra diferencias estadísticamente significativas entre experiencias, es probable que una o más de las siguientes situaciones sean responsables:
 
-+++Ver detalles
+  * Es probable que las ofertas no sean lo suficientemente diferentes entre sí.
+  * Las ubicaciones que ha seleccionado no afectan a la métrica de éxito.
+  * El objetivo de optimización está demasiado lejos en la funnel de conversión como para verse afectado por las ofertas seleccionadas.
 
-No existe la opción llave en mano de comparar [!UICONTROL Automated Personalization] con una experiencia predeterminada. Sin embargo, como solución alternativa, si existe una oferta o experiencia predeterminada como parte de la actividad general, para comprender su rendimiento inicial, haga clic en el segmento &quot;[!UICONTROL Control]&quot; de los informes y busque esa oferta concreta en el informe a nivel de oferta resultante. La tasa de conversión registrada para esta oferta se puede utilizar para compararla con la tasa de conversión del segmento completo &quot;Bosque aleatorio&quot;. Esto ayuda a comparar cómo funciona la máquina en comparación la oferta predeterminada.
+* Use el [Estimador de tráfico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) para tener una idea de cuánto tiempo tardan los modelos de personalización en desarrollar su actividad de **[!UICONTROL Automated Personalization]**.
+* Decida la asignación entre el control y el tráfico objetivo antes de comenzar la actividad, según sus objetivos. En la tabla siguiente se enumeran los tres escenarios que se deben tener en cuenta en función del objetivo de la actividad y el tipo de control seleccionado.
 
-+++
+  | Objetivo de control y actividad | Asignación recomendada al control | Detalles |
+  | --- | --- | --- |
+  | **[!UICONTROL Experiencias aleatorias]** como control y el objetivo es probar la eficacia del algoritmo de personalización | 50% | Este objetivo requiere una imagen más precisa del alza. Es muy probable que también quiera comparar la tasa de conversión de sus experiencias u ofertas con la tasa que daría una simple **[!UICONTROL prueba A/B]** (un control servido de forma aleatoria). |
+  | **[!UICONTROL Experiencias aleatorias]** como control y el objetivo es maximizar el tráfico personalizado | 10% a 30% | Utilice esta opción si se siente cómodo con el algoritmo y desea personalizar la máxima cantidad de tráfico. La compensación es la precisión de la información de crecimiento: los intervalos de confianza del tráfico de control son más grandes, a medida que menos tráfico fluye hacia ellos. |
+  | **[!UICONTROL Experiencia específica]** como control, con cualquiera de los dos objetivos | 10% a 30% | Utilice esta opción para comparar una experiencia específica basada en especialistas en marketing con los modelos de personalización. Cuando se selecciona una sola experiencia como control, ese tráfico no se propaga en todas las ofertas o experiencias de la actividad. |
 
-## ¿Cuáles son las prácticas recomendadas para configurar una actividad [!UICONTROL Automated Personalization]? {#section_E155B26282BE49B58EA2683413D11DE6}
+* Utilice reglas de segmentación con la mayor moderación posible, ya que pueden interferir con la capacidad del modelo para optimizar. Para obtener más información, consulte [ofertas de Automated Personalization de Target](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
+* Los grupos de informes pueden limitar el éxito de su actividad **[!UICONTROL Automated Personalization]**, así que utilícelos únicamente bajo condiciones específicas. Para obtener más información, consulte [Grupos de informes de ofertas en Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
-+++Ver detalles
+  * Use grupos de informes solo si se cumplen todas las condiciones siguientes:
 
-* Preste mucha atención a la *forma de actividad* (número de ubicaciones × número de ofertas), no solo al recuento total de experiencias. Las combinaciones cartesianas de ubicaciones y ofertas impulsan el rendimiento en tiempo de creación más que el número sin procesar de experiencias.
-* Para obtener un rendimiento y una capacidad de administración óptimos, limite las actividades de [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. No se recomiendan configuraciones más grandes, ya que pueden provocar una carga o edición lentas en el [!UICONTROL Compositor de experiencias visuales], y pueden restringirse en la interfaz de usuario de [!DNL Target]. En la interfaz de usuario actual, [!DNL Target] muestra advertencias en línea o impide guardar la actividad cuando la configuración supera los umbrales admitidos.
-* Si desea personalizar una página con poco tráfico o realizar cambios estructurales en la experiencia que está personalizando, considere la posibilidad de usar una actividad de [!UICONTROL Segmentación automática] en lugar de [!UICONTROL Automated Personalization]. Consulte [Segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
-* Considere completar una actividad [!UICONTROL Prueba A/B] entre las ofertas y las ubicaciones que planea usar en su actividad [!UICONTROL Automated Personalization] para asegurarse de que la ubicación y las ofertas tengan un impacto en el objetivo de optimización. Si una actividad [!UICONTROL Prueba A/B] no demuestra una diferencia significativa, [!UICONTROL Automated Personalization] probablemente tampoco genere un alza.
-
-  * Si una prueba A/B...N no muestra diferencias estadísticamente significativas entre experiencias, es probable que una o más de las siguientes situaciones sean responsables:
-
-    * Es probable que las ofertas no sean lo suficientemente diferentes entre sí.
-    * Las ubicaciones que ha seleccionado no afectan a la métrica de éxito.
-    * El objetivo de optimización está demasiado lejos en la funnel de conversión como para verse afectado por las ofertas seleccionadas.
-
-* Asegúrese de usar el [Estimador de tráfico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para que pueda tener una idea de cuánto tiempo tardan los modelos de personalización en desarrollar su actividad de [!UICONTROL Automated Personalization].
-* Decida la asignación entre el control y el objetivo antes de comenzar la actividad en función de sus objetivos.
-
-  Hay tres situaciones que se deben tener en cuenta en función del objetivo de la actividad y el tipo de control seleccionado:
-
-  * **Experiencias aleatorias como control y el objetivo de la actividad es probar la eficacia del algoritmo de personalización**: Si su objetivo es evaluar el algoritmo de personalización, desea tener una imagen más precisa del alza. Es probable que también quieras comparar cuál es la tasa de conversión de tus experiencias u ofertas si simplemente hiciste una [!UICONTROL Prueba A/B] (un control servido de forma aleatoria). En ese caso, se recomienda utilizar una asignación del 50% a un control de experiencias servidas aleatoriamente.
-  * **&quot;Experiencias aleatorias&quot; como control y el objetivo de la actividad es maximizar el tráfico personalizado**: Si se siente cómodo con el algoritmo y desea tener la máxima cantidad de tráfico personalizado, se recomienda una asignación de 10% a 30% para el control. La compensación aquí es la precisión que ve en la información de crecimiento. Los intervalos de confianza del tráfico de control son más grandes porque hay menos tráfico fluido hacia ellos.
-  * **Experiencia específica como control, con cualquier tipo de objetivo**: Si desea comparar una experiencia específica basada en especialistas en marketing en los modelos de personalización, se recomienda una asignación de 10% a 30% para el control. Al seleccionar solo una experiencia como control, ese tráfico no se propaga en todas las ofertas o experiencias de la actividad.
-
-* Las reglas de orientación deben usarse con la menor cantidad posible porque pueden interferir con la capacidad del modelo para optimizar.
-* Los grupos de informes pueden limitar el éxito de su actividad [!UICONTROL Automated Personalization]. Utilice los grupos de informes solo bajo condiciones específicas:
-
-  * Use grupos de informes solo si se cumplen las siguientes condiciones:
-
-    * Planea reemplazar o agregar nuevas ofertas mientras se ejecuta la actividad.
+    * Planea reemplazar o agregar ofertas mientras la actividad se está ejecutando.
     * Las ofertas del grupo de informes atraen a los mismos visitantes.
-    * Las ofertas de ese grupo de informes tienen aproximadamente la misma tasa de respuesta general.
+    * Las ofertas del grupo de informes tienen aproximadamente la misma tasa de respuesta general.
 
   * No hay personalización entre ofertas en un grupo de informes. El modelo de personalización trata todas las ofertas como lo mismo.
   * No coloque todas las ofertas en una actividad en un solo grupo de informes. De este modo, todas las ofertas se atenderán de forma aleatoria y uniforme a todos los visitantes de la actividad.
 
 +++
 
-## ¿Cuáles son los límites de [!UICONTROL Automated Personalization]? {#section_08BA09ED51B547299963C94FE6417CFA}
++++ ¿Cuáles son los límites de [!UICONTROL Automated Personalization]?
 
-+++Ver detalles
+[!DNL Target] tiene un límite estricto de 30 000 experiencias, pero funciona mejor cuando se crean menos de 10 000 experiencias. El mismo límite se aplica cuando la actividad tiene habilitada la opción **[!UICONTROL No permitir duplicados]**.
 
-[!DNL Target] tiene un límite estricto de 30 000 experiencias, pero funciona mejor cuando se crean menos de 10 000 experiencias.
+Aunque las actividades de **[!UICONTROL Automated Personalization]** y **[!UICONTROL Segmentación automática]** admiten un gran número de experiencias, el rendimiento de la creación depende en gran medida de la *forma de la actividad* (número de ubicaciones × número de ofertas). Ciertas configuraciones crean grandes combinaciones cartesianas que pueden afectar significativamente al rendimiento de carga y edición, incluso por debajo de los límites de experiencia documentados.
 
-Este mismo límite se aplica incluso cuando la actividad ha habilitado la opción [!UICONTROL No permitir duplicados].
+Para obtener un rendimiento y una capacidad de administración óptimos, limite las actividades de **[!UICONTROL Automated Personalization]** y **[!UICONTROL Segmentación automática]** a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. No se recomiendan configuraciones más grandes que podrían restringirse en la interfaz de usuario de [!DNL Target].
 
-Aunque las actividades de [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] admiten un gran número de experiencias, el rendimiento de la creación depende en gran medida de la *forma de la actividad* (número de ubicaciones × número de ofertas). Ciertas configuraciones crean grandes combinaciones cartesianas que pueden afectar significativamente al rendimiento de carga y edición, incluso por debajo de los límites de experiencia documentados.
-
-Para obtener un rendimiento y una capacidad de administración óptimos, limite las actividades de [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] a entre 4 y 6 ubicaciones con entre 4 y 6 ofertas por ubicación. No se recomiendan configuraciones más grandes que podrían restringirse en la interfaz de usuario de [!DNL Target].
-
-En la IU actual de [!DNL Target], las actividades [!UICONTROL Automated Personalization] y [!UICONTROL Segmentación automática] están configuradas directamente en el paso [!UICONTROL Experiencias]. [!DNL Target] puede mostrar advertencias en línea o evitar que se guarden actividades cuando las configuraciones superan los umbrales admitidos, y vuelve a validar la forma de actividad en [!UICONTROL Siguiente], [!UICONTROL Guardar] y [!UICONTROL Publicar].
+En la IU actual de [!DNL Target], las actividades **[!UICONTROL Automated Personalization]** y **[!UICONTROL Segmentación automática]** están configuradas directamente en el paso **[!UICONTROL Experiencias]**. [!DNL Target] puede mostrar advertencias dentro de la línea o evitar que guarde una actividad cuando la configuración supere los umbrales admitidos, y vuelve a validar la forma de la actividad en **[!UICONTROL Siguiente]**, **[!UICONTROL Guardar]** y **[!UICONTROL Publicar]**.
 
 Para obtener más información sobre los límites de caracteres y de otro tipo (tamaño de oferta, audiencias, perfiles, valores, parámetros, etc.) que afectan a las actividades y otros elementos de [!DNL Target], vea [Límites](/help/main/r-troubleshooting-target/target-limits.md).
 
 +++
 
-## ¿Cómo se implementa la segmentación a nivel de oferta? {#section_9D7A86EA93D74E9B8C81072A681263A4}
++++ ¿Puedo especificar una experiencia específica para usarla como control en una actividad [!UICONTROL Automated Personalization]?
 
-+++Ver detalles
+Puede seleccionar una experiencia específica para utilizarla como control mientras crea una actividad de [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) o [**[!UICONTROL Segmentación automática]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
-Cuando llega cada visitante, el conjunto de posibles ofertas que el visitante puede ver que está determinado por las reglas de orientación de nivel de oferta. A continuación, el algoritmo elige la oferta que el modelo predice que tiene los mejores ingresos esperados o posibilidades de conversión entre esas ofertas. La segmentación de ofertas afecta a la eficacia de [!DNL Target] algoritmos de aprendizaje automático y, como resultado, debe utilizarse con la mayor moderación posible.
+Esta función le permite dirigir todo el tráfico de control a esa experiencia, según el porcentaje de asignación de tráfico configurado en la actividad. A continuación, puede evaluar los informes de rendimiento del tráfico personalizado respecto al tráfico de control a esa experiencia.
 
-+++
-
-## ¿Por qué no se muestra el alza en mi actividad [!UICONTROL Automated Personalization]? {#section_BFA07C8C258F45318F73A461B8F32737}
-
-+++Ver detalles
-
-Hay cuatro factores necesarios para que una actividad [!UICONTROL Automated Personalization] genere un alza:
-
-* Las ofertas de cada ubicación deben ser lo suficientemente diferentes como para influir en los visitantes.
-* Las ubicaciones deben estar en algún lugar que marque la diferencia en el objetivo de optimización.
-* Debe haber suficiente tráfico y poder estadístico en la actividad para detectar el aumento.
-* El algoritmo de personalización debe funcionar bien.
-
-El mejor curso de acción es asegurarte de que el contenido y las ubicaciones que componen las experiencias de actividad marquen realmente una diferencia en las tasas de respuesta generales mediante una actividad [!UICONTROL Prueba A/B] simple no personalizada. Asegúrese de calcular los tamaños de muestra antes de tiempo para asegurarse de que haya suficiente energía para ver un levantamiento razonable y ejecutar la prueba A/B durante un tiempo determinado sin detenerlo ni realizar ningún cambio. Si los resultados de las pruebas A/B muestran un alza estadísticamente significativa en una o más experiencias, es probable que una actividad personalizada tenga éxito. Personalization puede funcionar incluso si no hay diferencias en las tasas de respuesta generales de las experiencias. Normalmente, el problema se debe a que las ofertas o ubicaciones no tienen un impacto lo suficientemente grande en el objetivo de optimización como para ser detectadas con relevancia estadística.
-
-Para obtener más información, [Solucionar problemas de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Para obtener más información, consulte [Seleccionar la experiencia de control](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 +++
 
-## ¿Cómo está [!UICONTROL Automated Personalization] asignando el tráfico de mi actividad? {#section_4369364F77804E0D9B78BEE551DA5659}
++++ ¿Cómo se implementa la segmentación a nivel de oferta?
 
-+++Ver detalles
-
-[!UICONTROL Automated Personalization] dirige a los visitantes a la experiencia que tiene la mayor métrica de éxito prevista en función de los [modelos de bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) creados más recientemente para cada modelo. Este pronóstico se basa en la información específica del visitante y el contexto de la visita.
-
-Por ejemplo, supongamos que una actividad [!UICONTROL Automated Personalization] tiene dos ubicaciones con dos ofertas cada una. En la primera ubicación, la Oferta A tiene una tasa de conversión pronosticada del 3 % para un visitante específico y la Oferta B tiene una tasa de conversión pronosticada del 1 %. En la segunda ubicación, la Oferta C tiene una tasa de conversión pronosticada del 2 % para el mismo visitante y la Oferta D tiene una tasa de conversión pronosticada del 5 %. Por lo tanto, [!UICONTROL Automated Personalization] le sirve a este visitante una experiencia con la Oferta A y la Oferta D.
+Cuando llega cada visitante, las reglas de segmentación a nivel de oferta determinan el conjunto de ofertas que el visitante puede ver. A continuación, el algoritmo elige, entre esas ofertas, la oferta que el modelo predice que tiene los mejores ingresos esperados o posibilidades de conversión. La segmentación de ofertas afecta a la eficacia de los algoritmos de aprendizaje automático de [!DNL Target], por lo que debe utilizarse con la mayor moderación posible. Para obtener más información, consulte [ofertas de Automated Personalization de Target](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
 
 +++
 
-## ¿Cuándo debería detener mi actividad [!UICONTROL Automated Personalization]? {#section_C51F3DAB8887463BB147373F6FE06B93}
+## Creación de modelos y asignación de tráfico {#models-and-traffic}
 
-+++Ver detalles
++++ ¿Cómo está [!UICONTROL Automated Personalization] asignando el tráfico de mi actividad?
 
-[!UICONTROL Automated Personalization] se puede usar como una personalización &quot;siempre activada&quot; que se optimiza constantemente. Especialmente para contenido permanente, no es necesario detener tu actividad de [!UICONTROL Automated Personalization]. Si desea realizar cambios sustanciales en el contenido que no sean similares a las ofertas que se encuentran actualmente en su actividad [!UICONTROL Automated Personalization], se recomienda comenzar una nueva actividad. El inicio de una nueva actividad ayuda a otros usuarios a revisar los informes a no confundir ni relacionar resultados pasados con contenido diferente.
+**[!UICONTROL Automated Personalization]** dirige a los visitantes a la experiencia que tiene la mayor métrica de éxito prevista, según los modelos de [bosque aleatorio](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) más recientes. Esta previsión se basa en la información específica y el contexto de visita del visitante.
 
-+++
-
-## ¿Cuánto tiempo debo esperar para que los modelos se creen? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
-
-+++Ver detalles
-
-El tiempo que tardan los modelos en desarrollar su actividad depende típicamente del tráfico a las ubicaciones de la actividad seleccionada y la métrica de éxito de la actividad. Use [Estimador de tráfico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) para determinar la cantidad de tiempo esperada que los modelos tardan en desarrollar su actividad.
+Por ejemplo, supongamos que una actividad **[!UICONTROL Automated Personalization]** tiene dos ubicaciones con dos ofertas cada una. En la primera ubicación, la Oferta A tiene una tasa de conversión pronosticada del 3 % para un visitante específico y la Oferta B tiene una tasa de conversión pronosticada del 1 %. En la segunda ubicación, la Oferta C tiene una tasa de conversión pronosticada del 2 % para el mismo visitante y la Oferta D tiene una tasa de conversión pronosticada del 5 %. Por lo tanto, **[!UICONTROL Automated Personalization]** le sirve a este visitante una experiencia con la Oferta A y la Oferta D.
 
 +++
 
-## Se ha creado un modelo en mi actividad [!UICONTROL Automated Personalization]. ¿Las visitas a esa experiencia están personalizadas? {#section_51EA953C6D1D4A3185FC9DD290D66621}
-
-+++Ver detalles
-
-No, debe haber al menos dos modelos integrados dentro de su actividad para que comience la personalización.
-
-+++
-
-## ¿Cuándo puedo ver los resultados de mi actividad [!UICONTROL Automated Personalization]? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
-
-+++Ver detalles
-
-Puede comenzar a observar los resultados de su actividad [!UICONTROL Automated Personalization] después de que tenga al menos dos experiencias con los modelos creados (marca de verificación verde) para la experiencia que tiene los modelos generados.
-
-+++
-
-## ¿Cómo puedo reducir el tiempo necesario para que los modelos se creen en mi actividad [!UICONTROL Automated Personalization]? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
-
-+++Ver detalles
-
-Revise la configuración de la actividad y compruebe si hay algún cambio que esté dispuesto a realizar para mejorar la velocidad a la que se crean los modelos.
-
-* ¿Su métrica de éxito está muy por debajo del embudo de ventas de sus experiencias de actividad? Una tasa de conversión de actividad más baja aumenta los requisitos de tráfico necesarios para que los modelos se creen, ya que se requiere un número mínimo de conversiones.
-* Si su métrica de éxito está configurada en RPV, ¿puede cambiar a conversión? Las actividades de conversión tienden a requerir menos tráfico para construir modelos.
-* ¿Hay algunas experiencias que puede retirar de su actividad? Reducir el número de experiencias en una actividad acelera el tiempo para crear modelos.
-* ¿Hay una página de mayor tráfico en la que esta actividad tendría más éxito? Cuantos más tráfico y conversiones haya en las ubicaciones de las actividades, más rápidos se crearán los modelos.
-
-+++
-
-## ¿Por qué los visitantes ven experiencias para una actividad de [!UICONTROL Automated Personalization] que no deberían ver? {#section_41CECEAE0881446A8D9F3B016857914B}
-
-+++Ver detalles
-
-Las actividades de [!UICONTROL Automated Personalization] se evalúan una vez por sesión. Si hay sesiones activas que se han clasificado para una experiencia en particular y ahora se le han agregado nuevas ofertas, los visitantes verán el nuevo contenido junto con las ofertas mostradas anteriormente. Debido a que estos visitantes se clasificaban anteriormente para esas experiencias, siguen viendo esas experiencias durante la sesión. Para evaluar esto en cada visita a la página, debe cambiar al tipo de actividad [!UICONTROL Segmentación de experiencias] (XT).
-
-+++
-
-## ¿Puedo cambiar la métrica de objetivos a mitad de camino a través de una actividad [!UICONTROL Automated Personalization]? {#change-metric}
-
-+++Ver detalles
-
-[!DNL Adobe] no recomienda cambiar la métrica de objetivo a mitad de una actividad. Aunque es posible cambiar la métrica de objetivo durante una actividad mediante la IU de [!DNL Target], siempre debe iniciar una nueva actividad. [!DNL Adobe] no garantiza lo que suceda si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
-
-Esta recomendación se aplica a las actividades de [!UICONTROL Asignación automática], [!UICONTROL Segmentación automática] y [!UICONTROL Automated Personalization] que usan [!DNL Target] o [!DNL Analytics] (A4T) como fuente de informes.
-
-+++
-
-## ¿Puedo usar la opción [!UICONTROL Restablecer los datos del informe] al ejecutar una actividad de [!UICONTROL Automated Personalization]?
-
-+++Ver detalles
-
-[!DNL Adobe] no recomienda usar la opción [!UICONTROL Restablecer datos del informe] para las actividades [!UICONTROL Automated Personalization]. Aunque quita los datos de informes visibles, esta opción no quita todos los registros de aprendizaje del modelo [!UICONTROL Automated Personalization]. En lugar de usar la opción [!UICONTROL Restablecer los datos del informe] para las actividades de [!UICONTROL Automated Personalization], cree una nueva actividad y desactive la actividad original. Esta guía también se aplica a las actividades [!UICONTROL Asignación automática] y [!UICONTROL Segmentación automática].
-
-+++
-
-## ¿Cómo crea [!UICONTROL Automated Personalization] modelos con respecto a los entornos?
-
-+++Ver detalles
++++ ¿Cómo crea [!UICONTROL Automated Personalization] modelos con respecto a los entornos?
 
 Un modelo se crea para identificar el rendimiento de la estrategia personalizada en comparación con el tráfico servido aleatoriamente en lugar de enviar todo el tráfico a la experiencia ganadora general. Este modelo considera las visitas y conversiones solo en el entorno predeterminado.
 
-El tráfico de un segundo conjunto de modelos se genera para cada grupo de modelado ([!UICONTROL Automated Personalization]) o experiencia ([!UICONTROL Segmentación automática]). Para cada uno de estos modelos, se tienen en cuenta las visitas y conversiones en todos los entornos.
+Se ha creado un segundo conjunto de modelos para cada grupo de informes (**[!UICONTROL Automated Personalization]**) o experiencia (**[!UICONTROL Segmentación automática]**). Para cada uno de estos modelos, se tienen en cuenta las visitas y conversiones en todos los entornos.
 
 Por lo tanto, las solicitudes se proporcionan con el mismo modelo, independientemente del entorno. Sin embargo, la pluralidad del tráfico debería proceder del entorno predeterminado para garantizar que la experiencia ganadora general identificada sea coherente con el comportamiento en el mundo real.
+
++++
+
++++ ¿Cuánto tiempo debo esperar para que los modelos se creen?
+
+El tiempo que tardan los modelos en desarrollar su actividad depende típicamente del tráfico a las ubicaciones de la actividad seleccionada y de la métrica de éxito de la actividad. Use [Estimador de tráfico](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#use-traffic-estimator) para determinar la cantidad de tiempo esperada que los modelos tardan en desarrollar su actividad.
+
++++
+
++++ ¿Cómo puedo reducir el tiempo necesario para que los modelos se creen en mi actividad [!UICONTROL Automated Personalization]?
+
+Revise la configuración de la actividad para ver si hay cambios que mejoren la velocidad con la que se crean los modelos. Por ejemplo, cambie una métrica de éxito de RPV a conversión, elija una métrica de éxito que esté más cerca de sus experiencias de actividad en el funnel de ventas, suelte algunas experiencias de la actividad o utilice una página de tráfico más alto. Para obtener más información, consulte [Solucionar problemas de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md).
+
++++
+
++++ Se ha creado un modelo en mi actividad [!UICONTROL Automated Personalization]. ¿Las visitas a esa experiencia están personalizadas?
+
+No. Deben crearse al menos dos modelos dentro de la actividad para que comience la personalización.
+
++++
+
+## Resultados y alza {#results-and-lift}
+
++++ ¿Cuándo puedo ver los resultados de mi actividad [!UICONTROL Automated Personalization]?
+
+Puede comenzar a observar los resultados de su actividad **[!UICONTROL Automated Personalization]** después de que al menos dos experiencias tengan modelos creados (indicados por una marca de verificación verde).
+
++++
+
++++ ¿Por qué no se muestra el alza en mi actividad [!UICONTROL Automated Personalization]?
+
+Se requieren cuatro factores para que una actividad **[!UICONTROL Automated Personalization]** genere un alza:
+
+* Las ofertas de cada ubicación deben ser lo suficientemente diferentes como para influir en los visitantes.
+* Las ubicaciones deben estar en algún lugar que marque la diferencia con el objetivo de optimización.
+* Debe haber suficiente tráfico y poder estadístico en la actividad para detectar el aumento.
+* El algoritmo de personalización debe funcionar bien.
+
+El mejor curso de acción es asegurarnos primero de que, mediante una actividad **[!UICONTROL Prueba A/B]** simple y no personalizada, el contenido y las ubicaciones que componen las experiencias de actividad marquen realmente una diferencia en las tasas de respuesta generales. Para ver el procedimiento completo, consulte [Solucionar problemas de Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md).
+
++++
+
++++ ¿Cómo puedo comparar [!UICONTROL Automated Personalization] con una experiencia predeterminada?
+
+No hay ninguna opción llave en mano para comparar **[!UICONTROL Automated Personalization]** con una experiencia predeterminada. Como solución alternativa, si existe una oferta o experiencia predeterminada como parte de la actividad, haga clic en el segmento **[!UICONTROL Control]** de los informes y busque esa oferta en el informe a nivel de oferta resultante. La tasa de conversión registrada para esta oferta se puede comparar con la tasa de conversión de todo el segmento &quot;Bosque aleatorio&quot;. Esta comparación muestra el rendimiento del modelo en comparación con la oferta predeterminada.
+
++++
+
+## Administración de una actividad activa {#manage-live-activity}
+
++++ ¿Cuándo debería detener mi actividad [!UICONTROL Automated Personalization]?
+
+**[!UICONTROL Automated Personalization]** se puede usar como una personalización &quot;siempre activada&quot; que se optimiza constantemente. Especialmente para contenido permanente, no es necesario detener tu actividad de **[!UICONTROL Automated Personalization]**. Si desea realizar cambios sustanciales en el contenido que no sean similares a las ofertas que hay actualmente en su actividad, la práctica recomendada es comenzar una nueva actividad. El inicio de una nueva actividad ayuda a otros usuarios que revisan los informes a evitar confundir o relacionar resultados pasados con contenido diferente.
+
++++
+
++++ ¿Puedo cambiar la métrica de objetivos a mitad de camino a través de una actividad [!UICONTROL Automated Personalization]?
+
+[!DNL Adobe] no recomienda cambiar la métrica de objetivo a mitad de una actividad. Aunque es posible cambiar la métrica de objetivo durante una actividad mediante la interfaz de usuario de [!DNL Target], inicie siempre una nueva actividad en su lugar. [!DNL Adobe] no garantiza lo que sucederá si cambia la métrica de objetivo en una actividad después de que se esté ejecutando.
+
+Esta recomendación se aplica a las actividades de **[!UICONTROL Asignación automática]**, **[!UICONTROL Segmentación automática]** y **[!UICONTROL Automated Personalization]** que usan [!DNL Target] o [!DNL Analytics] (A4T) como fuente de informes.
+
++++
+
++++ ¿Puedo usar la opción [!UICONTROL Restablecer los datos del informe] al ejecutar una actividad de [!UICONTROL Automated Personalization]?
+
+[!DNL Adobe] no recomienda usar la opción **[!UICONTROL Restablecer datos del informe]** para las actividades **[!UICONTROL Automated Personalization]**. Aunque quita los datos de informes visibles, esta opción no quita todos los registros de aprendizaje del modelo **[!UICONTROL Automated Personalization]**. En lugar de usar la opción **[!UICONTROL Restablecer los datos del informe]**, cree una nueva actividad y desactive la actividad original. Esta guía también se aplica a las actividades **[!UICONTROL Asignación automática]** y **[!UICONTROL Segmentación automática]**.
+
++++
+
++++ ¿Por qué los visitantes ven experiencias para una actividad de [!UICONTROL Automated Personalization] que no deberían ver?
+
+Las actividades de **[!UICONTROL Automated Personalization]** se evalúan una vez por sesión. Si hay sesiones activas que se han clasificado para una experiencia en particular y desde entonces se han añadido nuevas ofertas, los visitantes ven el nuevo contenido junto con las ofertas mostradas anteriormente. Anteriormente, estos visitantes cumplían los requisitos para recibir esas experiencias, por lo que siguen viéndolas durante la sesión. Para evaluar la actividad en cada visita a la página, cambie al tipo de actividad **[!UICONTROL Segmentación de experiencias]** (XT).
 
 +++

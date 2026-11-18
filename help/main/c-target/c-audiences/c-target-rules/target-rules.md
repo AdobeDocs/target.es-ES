@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# Categorías para públicos
+# Introducción a las categorías para audiencias
 
 Puede segmentar cualquiera de los distintos atributos de categoría mediante [!DNL Adobe Target]. Para crear reglas de segmentación (o grupos) para cada atributo, arrastre y suelte los atributos deseados en el panel Generador de audiencias.
 
@@ -48,4 +46,4 @@ Este vídeo contiene información sobre el uso de las categorías de audiencias.
 * Crear públicos
 * Definir categorías de audiencias
 
->[!VIDEO](https://video.tv.adobe.com/v/3507773?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

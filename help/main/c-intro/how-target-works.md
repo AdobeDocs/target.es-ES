@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -69,19 +69,19 @@ Los puntos clave incluyen:
 
 Target se integra con los sitios web que utilizan [!DNL Experience Platform Web SDK] o at.js:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
-* **[at.js](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Esta biblioteca JavaScript del lado del cliente permite que [!DNL Adobe Experience Cloud] clientes interactúen con varios servicios a través de [!DNL Experience Platform Edge Network]. [!DNL Adobe] recomienda que los nuevos clientes de [!DNL Target] implementen [!DNL Experience Platform Web SDK].
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: esta biblioteca de implementación para [!DNL Target] mejora los tiempos de carga de página en implementaciones web y ofrece mejores opciones en aplicaciones de una sola página. Actualizado con frecuencia con nuevas funcionalidades, [!DNL Adobe] recomienda que todos los usuarios de [at.js actualicen a la última versión](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La biblioteca mbox.js es una implementación heredada para [!DNL Target] y ya no es compatible a partir del 31 de marzo de 2021. Actualice a [!UICONTROL Experience Platform Web SDK] (preferido) o a la última versión de at.js.
 
-Haz referencia a [!UICONTROL Experience Platform Web SDK] o a at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
+Haz referencia a [!UICONTROL Experience Platform Web SDK] o a at.js en todas las páginas del sitio. Por ejemplo, añada una de estas bibliotecas al encabezado global. También puede usar [tags en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} para implementar [!DNL Target].
 
 Los siguientes recursos contienen información detallada para ayudarle a implementar el [!DNL Experience Platform Web SDK] o at.js:
 
 * [Extensión [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=es){target=_blank}
-* [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/es/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementar [!DNL Target] usando [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Cada vez que un visitante solicita una página optimizada para [!DNL Target], se envía una solicitud en tiempo real al sistema de segmentación para determinar el contenido que se va a servir. Esta solicitud se realiza y se completa cada vez que se carga una página, regida por actividades y experiencias controladas por expertos en marketing. El contenido está dirigido a visitantes de sitio individuales, lo que maximiza las tasas de respuesta, las tasas de adquisición y los ingresos. El contenido personalizado ayuda a garantizar que los visitantes respondan, interactúen o realicen compras.
 
@@ -106,7 +106,7 @@ Para obtener más información, consulte [Creación de pruebas A/B](/help/main/c
 
 [!UICONTROL Asignación automática] identifica la experiencia ganadora entre dos o más opciones. A continuación, reasigna automáticamente más tráfico al ganador, lo que aumenta las conversiones a medida que la prueba sigue ejecutándose y aprendiendo.
 
-Consulte [[!UICONTROL Asignación automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) para obtener más información.
+Consulte [[!UICONTROL Asignación automática]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview) para obtener más información.
 
 ### [!UICONTROL Segmentación automática] (AT)
 
@@ -118,19 +118,19 @@ Para obtener más información, consulte [Segmentación automática](/help/main/
 
 [!UICONTROL Automated Personalization] (AP) combina ofertas o mensajes y usa aprendizaje automático avanzado para asignar diferentes variaciones a cada visitante. AP personaliza el contenido en función de perfiles de clientes individuales para dirigir el alza.
 
-Para obtener más información, consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
+Para obtener más información, consulte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview).
 
 ### [!UICONTROL Segmentación de experiencias] (XT)
 
 [!UICONTROL Segmentación de experiencias] (XT) ofrece contenido a audiencias específicas según reglas y criterios definidos por expertos en marketing. Incluido el targeting geográfico, XT es útil para definir reglas que dirigen experiencias o contenido específicos a audiencias específicas. En una actividad se pueden establecer varias reglas para entregar distintas variaciones de contenido a distintas audiencias. Cuando los visitantes ven el sitio, XT los evalúa para determinar si cumplen con los criterios. Si cumplen los requisitos, entran en la actividad y ven la experiencia diseñada para ellos. Puede crear experiencias para varias audiencias dentro de una misma actividad.
 
-Consulte [direccionamiento de experiencias](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) para obtener más información.
+Consulte [direccionamiento de experiencias](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt) para obtener más información.
 
 ### [!UICONTROL Prueba multivariada] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT) compara combinaciones de ofertas en elementos de página para determinar qué combinación ofrece el mejor rendimiento para una audiencia específica. MVT ayuda a identificar qué elemento tiene el mayor impacto en el éxito de la actividad.
 
-Consulte [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) para obtener más información.
+Consulte [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) para obtener más información.
 
 ### [!UICONTROL Recommendations]
 
@@ -213,7 +213,7 @@ El servicio de [!DNL Target Recommendations] está alojado en un centro de datos
 >
 >[!DNL Target] carece actualmente de un clúster de Edge en China, lo que limita el rendimiento del visitante para [!DNL Target] clientes en la región. El cortafuegos y la ausencia de clústeres de Edge pueden afectar a las experiencias del sitio, lo que provoca una lentitud de procesamiento y tiempos de carga de las páginas. Además, los especialistas en marketing pueden experimentar latencia al utilizar la interfaz de usuario de creación de [!DNL Target].
 
-Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Si lo desea, puede incluir en las listas de permitidos los clústeres de Edge de [!DNL Target]. Para obtener más información, consulte cómo [incluir en la lista de permitidos los nodos de Edge de Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Experiencia del usuario protegida {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -244,7 +244,7 @@ Para obtener más información, consulte [Documentación de Google](https://deve
 
 * **Usar rel=&quot;canonical&quot;**: algunas veces, una prueba A/B requiere direcciones URL diferentes para las variaciones. En estos casos, todas las variaciones deben incluir una etiqueta rel=&quot;canonical&quot; que haga referencia a la URL (de control) original. Por ejemplo, si [!DNL Adobe] está probando su página principal con distintas direcciones URL para cada variación, la siguiente etiqueta canónica para la página principal debe colocarse en la etiqueta `<head>` de cada variación:
 
-  `<link rel="canonical" href="https://www.adobe.com/es" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **Usar redirecciones 302 (temporales)**: Cuando se usan direcciones URL distintas para las páginas de variación en una prueba, [!DNL Google] recomienda usar una redirección 302 para redirigir el tráfico a las variaciones de prueba. La redirección 302 informa a los motores de búsqueda de que el redireccionamiento es temporal y está activo solo mientras se ejecuta la prueba.
 
