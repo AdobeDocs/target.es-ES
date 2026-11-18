@@ -54,6 +54,6 @@ Una actividad [!UICONTROL Segmentación de experiencias] le permite segmentar es
 * Ofrezca contenido específico de la ubicación a audiencias en diferentes áreas geográficas, creando experiencias dirigidas a ambos estados y una tercera experiencia dirigida a los aficionados del ciclismo.
 * Reordene las tres experiencias para asegurarse de que el contenido correcto se entrega a la audiencia correcta.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38303?captions=spa)
 
 Después de ver el vídeo, continúa con [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
