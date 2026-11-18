@@ -27,7 +27,7 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra cómo funciona una prueba multivariada **[!UICONTROL 3}, qué términos usa [!DNL Target], cuándo utilizarla en lugar de una prueba A/B y cómo las pruebas factoriales parciales reducen los requisitos de tráfico.]**
+**En esta página:** Descubra cómo funciona una prueba multivariada **[!UICONTROL 3&rbrace;, qué términos usa [!DNL Target], cuándo utilizarla en lugar de una prueba A/B y cómo las pruebas factoriales parciales reducen los requisitos de tráfico.]**
 
 >[!ENDSHADEBOX]
 

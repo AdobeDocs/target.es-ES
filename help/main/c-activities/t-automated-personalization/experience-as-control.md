@@ -79,7 +79,7 @@ Tenga en cuenta los siguientes puntos al utilizar una experiencia específica co
 
 Especificar una experiencia específica como control proporciona al tráfico personalizado una experiencia conocida con la que comparar, como la experiencia predeterminada actual, en los informes de la actividad.
 
-1. Al crear o editar una actividad [**[!UICONTROL Automated Personalization ]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) o una actividad [**[!UICONTROL Segmentación automática]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configure las experiencias como desee.
+1. Al crear o editar una actividad [**[!UICONTROL Automated Personalization &#x200B;]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) o una actividad [**[!UICONTROL Segmentación automática]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configure las experiencias como desee.
 
 1. En la página **[!UICONTROL Segmentación]** (paso 2 del flujo de trabajo guiado de tres partes), haga clic en la experiencia de control para mostrar las opciones de **[!UICONTROL Control]** en el panel derecho.
 
