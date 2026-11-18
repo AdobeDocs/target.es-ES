@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ El [!UICONTROL control de calidad de la actividad] le permite probar por complet
 
      Si el ajuste está desactivado, tenga en cuenta lo siguiente:
 
-     * Si hay conflictos entre la actividad que está probando y otras actividades activas, se aplican [reglas de prioridad normales](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F). Debido a los conflictos, es posible que no pueda ver la actividad que desea realizar el control de calidad.
+     * Si hay conflictos entre la actividad que está probando y otras actividades activas, se aplican [reglas de prioridad normales](/help/main/c-activities/priority.md#priority). Debido a los conflictos, es posible que no pueda ver la actividad que desea realizar el control de calidad.
      * Las métricas aumentan para las actividades vistas, pero solo en el entorno de realización de informes de control de calidad.
 
 1. Haga clic en **[!UICONTROL Hecho]** para guardar los cambios.

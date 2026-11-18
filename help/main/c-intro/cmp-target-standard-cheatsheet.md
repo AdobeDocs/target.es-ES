@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -194,14 +194,14 @@ Recuerde activar la actividad. Solo las actividades en vivo cumplen con la progr
 **¿Puedo hacer un cambio solo en el paso [!UICONTROL Segmentación] y no pasar por todo el flujo de trabajo guiado de tres pasos para editar?**
 
 +++Ver detalles
-Puede hacerlo fácilmente si [escribe directamente el paso deseado de su elección desde la página de [!UICONTROL Información general de la actividad]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) y luego sale de ese paso usando la opción [!UICONTROL Guardar y cerrar].
+Puede hacerlo fácilmente si [escribe directamente el paso deseado de su elección desde la página de [!UICONTROL Información general de la actividad]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) y luego sale de ese paso usando la opción [!UICONTROL Guardar y cerrar].
 
 +++
 
 **¿Puedo permanecer en un paso en particular, seguir modificando la actividad (ofrecer texto o código personalizado, por ejemplo) y luego realizar un control de calidad en otra pestaña?**
 
 +++Ver detalles
-Esto es posible. Simplemente [use la opción [!UICONTROL Guardar] disponible para hacer cambios incrementales sin salir del paso](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Esto es posible. Simplemente [use la opción [!UICONTROL Guardar] disponible para hacer cambios incrementales sin salir del paso](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -378,7 +378,7 @@ Use el [enfoque basado en formularios](/help/main/c-experiences/form-experience-
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
 +++Ver detalles
-Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -402,7 +402,7 @@ Es posible que el sitio tenga ID dinámicos, ID duplicados o clases dinámicas e
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
 +++Ver detalles
-Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 

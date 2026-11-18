@@ -18,28 +18,35 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 10%
 ---
-# Registro de cambios de actividades
+# Registro de cambios de actividades {#change-log}
 
-El [!DNL Adobe Target] [!UICONTROL Registro de cambios] registra las acciones de actividad, incluidos los cambios, quién los realizó y cuándo se produjeron. La página [!UICONTROL Registro de cambios] se ha rellenado para obtener información en tiempo real.
+>[!BEGINSHADEBOX]
 
-Para acceder a la página [!UICONTROL Registro de cambios]:
+**En esta página:** Aprenda a ver las acciones realizadas en una actividad, quién las realizó y cuándo.
 
-1. Haga clic en **[!UICONTROL Actividades]** > y seleccione una actividad de la lista.
+>[!ENDSHADEBOX]
+
+El [!DNL Adobe Target] **[!UICONTROL Registro de cambios]** registra las acciones realizadas en una actividad, incluidos los cambios, quién realizó los cambios y cuándo se produjeron. Proporciona un historial claro de la actividad y la página **[!UICONTROL Registro de cambios]** se rellena para obtener información en tiempo real.
+
+Para acceder a la página **[!UICONTROL Registro de cambios]**:
+
+1. Haga clic en **[!UICONTROL Actividades]** y luego haga clic en la actividad en la lista.
 1. Haga clic en **[!UICONTROL Registro de cambios]** en el carril izquierdo.
 
-La acción realizada, la fecha en que se realizó la acción y el usuario que realizó la acción se enumeran cada vez que se crea, actualiza, activa o desactiva una actividad. Asimismo, también se enumeran los cambios en los objetivos personalizados y en las ofertas utilizadas en la actividad.
+   La página enumera la acción realizada, la fecha de la acción y el usuario que la realizó cada vez que se crea, actualiza, activa o desactiva una actividad. Asimismo, también se enumeran los cambios en los objetivos personalizados y en las ofertas utilizadas en la actividad.
 
-Actualice la página para ver los cambios de estado. También puede enumerar las acciones realizadas en orden ascendente o descendente si hace clic en el encabezado de columna [!UICONTROL Date].
+   ![Menú de registro de cambios](assets/change_logs.png)
+
+1. Para enumerar las acciones en orden ascendente o descendente, haga clic en el encabezado de columna **[!UICONTROL Date]**.
+
+1. Actualice la página para ver los cambios de estado.
 
 ## API de registro de auditoría de Target
 
 * [Revisiones: obtenga el registro de auditoría por el último nombre del autor y una marca de tiempo posterior a la modificación](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [Enumerar registro de cambios de actividad](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-

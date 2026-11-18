@@ -1,8 +1,8 @@
 ---
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 7%
+source-wordcount: '323'
+ht-degree: 6%
 ---
 # Fragmentos
 
@@ -40,3 +40,6 @@ ht-degree: 7%
 
 El nombre de la actividad no puede empezar por `=`, `+`, `-` ni `@`. El nombre de la actividad tampoco puede contener ninguna de las siguientes secuencias de caracteres: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` o `"]`.
 
+## Coincidencia de visitantes en las actividades {#visitor-matching}
+
+Un visitante que ya está en una actividad de **[!UICONTROL prueba A/B]** o **[!UICONTROL prueba multivariada]** coincide con esa actividad hasta que se convierta. Un visitante que anteriormente estaba en una actividad de **[!UICONTROL Segmentación de experiencias]** debe coincidir de nuevo con ella. Si el visitante cumple las reglas de la audiencia, entra dentro de esas actividades y en experiencias específicas.
