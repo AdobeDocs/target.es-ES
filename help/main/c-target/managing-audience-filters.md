@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 59%
@@ -58,5 +58,5 @@ Las secciones siguientes contienen más información sobre la configuración y l
 | Crear la actividad o prueba apropiadas. | [Actividades y pruebas](/help/main/c-intro/target-key-concepts.md) |
 | Crear audiencias en caso necesario. | [Crear un público](/help/main/c-target/c-audiences/create-audience.md) |
 | Combinar varios públicos en caso necesario. | [Combinación de varios públicos](/help/main/c-target/combining-multiple-audiences.md) |
-| Aplicar públicos en la página Objetivos y configuración de la actividad. | Prueba A/B: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Segmentación de experiencias: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Prueba multivariable: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommendations: [Configuración de actividades de Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Configuración de actividades: [Configuración de actividades](/help/main/c-activities/activity-settings.md) |
+| Aplicar públicos en la página Objetivos y configuración de la actividad. | Prueba A/B: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Segmentación de experiencias: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Prueba multivariable: [Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommendations: [Configuración de actividades de Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Configuración de actividades: [Configuración de actividades](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | Ver informes con datos sobre los filtros de público. | [Configuración de informes](/help/main/c-reports/c-report-settings/report-settings.md) |

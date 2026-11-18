@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -94,7 +94,7 @@ Conéctese con otros [!DNL Target] practicantes en el [Foro de la comunidad de T
 **¿Con qué exploradores es compatible [!DNL Target]?**
 
 +++Ver detalles
-Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=es){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
+Lea nuestros [exploradores permitidos](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} admitidos para obtener más información. Tenga en cuenta que hay dos aspectos: la compatibilidad con la interfaz [!DNL Target Standard/Premium] y la compatibilidad con el explorador del usuario final en el escritorio o los dispositivos.
 
 [!DNL Safari] es compatible con la interfaz [!DNL Target]. Puede crear actividades basadas en formularios en [!DNL Safari] y usar todas las funciones, excepto [!UICONTROL Compositor de experiencias visuales] (VEC) y [!UICONTROL Compositor de experiencias mejorado] (EEC), que no son compatibles con [!DNL Safari]. Para editar experiencias en el VEC o EEC, use [!DNL Google Chrome].
 
@@ -194,14 +194,14 @@ Recuerde activar la actividad. Solo las actividades en vivo cumplen con la progr
 **¿Puedo hacer un cambio solo en el paso [!UICONTROL Segmentación] y no pasar por todo el flujo de trabajo guiado de tres pasos para editar?**
 
 +++Ver detalles
-Puede hacerlo fácilmente si [escribe directamente el paso deseado de su elección desde la página de [!UICONTROL Información general de la actividad]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) y luego sale de ese paso usando la opción [!UICONTROL Guardar y cerrar].
+Puede hacerlo fácilmente si [escribe directamente el paso deseado de su elección desde la página de [!UICONTROL Información general de la actividad]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) y luego sale de ese paso usando la opción [!UICONTROL Guardar y cerrar].
 
 +++
 
 **¿Puedo permanecer en un paso en particular, seguir modificando la actividad (ofrecer texto o código personalizado, por ejemplo) y luego realizar un control de calidad en otra pestaña?**
 
 +++Ver detalles
-Esto es posible. Simplemente [use la opción [!UICONTROL Guardar] disponible para hacer cambios incrementales sin salir del paso](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Esto es posible. Simplemente [use la opción [!UICONTROL Guardar] disponible para hacer cambios incrementales sin salir del paso](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -274,7 +274,7 @@ Use los controles de asignación porcentual disponibles en [Paso 2 del flujo de 
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -378,7 +378,7 @@ Use el [enfoque basado en formularios](/help/main/c-experiences/form-experience-
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
 +++Ver detalles
-Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -402,7 +402,7 @@ Es posible que el sitio tenga ID dinámicos, ID duplicados o clases dinámicas e
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
 +++Ver detalles
-Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -421,7 +421,7 @@ Utilice el poder de [las actividades basadas en formularios](/help/main/c-experi
 Eche un vistazo a los siguientes aspectos del producto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=es)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Públicos](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
