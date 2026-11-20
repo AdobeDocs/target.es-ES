@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 24%
+source-wordcount: '1732'
+ht-degree: 18%
 ---
 # Configuración y objetivos {#ab-goals-and-settings}
 
@@ -103,7 +103,7 @@ Especifique de qué datos de solución se recopilan:
 
   Para especificar una fuente de informes, primero elija una de las [!DNL Analytics] empresas a las que esté asociada su cuenta y luego seleccione el grupo de informes apropiado para la actividad. Solo los grupos de informes que se hayan aprovisionado para conectarse a [!DNL Adobe Target] están disponibles para su selección. Si no ve los grupos de informes que espera, primero cierre la sesión y vuelva a iniciarla en [!DNL Adobe Experience Cloud] para intentarlo de nuevo. Si el grupo de informes sigue sin aparecer en la lista, póngase en contacto con el Servicio de atención al cliente.
 
-  [!DNL Analytics for Target] (A4T) requiere un servidor de seguimiento para informar correctamente sobre los resultados. Aparece un servidor de seguimiento predeterminado en el campo **[!UICONTROL Servidor de seguimiento]**. Si utiliza más de un servidor de seguimiento, asegúrese de incluir el servidor de seguimiento correcto en este campo. Consulte [Uso de un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obtener más información.
+  [!DNL Analytics for Target] (A4T) requiere un servidor de seguimiento para informar correctamente sobre los resultados. Aparece un servidor de seguimiento predeterminado en el campo **[!UICONTROL Servidor de seguimiento]**. Si utiliza más de un servidor de seguimiento, asegúrese de incluir el servidor de seguimiento correcto en este campo. Consulte [Uso de un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) para obtener más información.
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
@@ -152,7 +152,7 @@ Tenga en cuenta que esta configuración no está disponible si elige [!DNL Analy
 
 ## Configuración avanzada {#section_E2FE441AFB324E498793ABB025ED9974}
 
-La sección **[!UICONTROL Configuración avanzada]** de la página **[!UICONTROL Objetivos y configuración]** le permite configurar las opciones avanzadas.
+La sección **[!UICONTROL Configuración avanzada]** de la página **[!UICONTROL Objetivos y configuración]** le permite refinar cómo se cuenta cada métrica de éxito: si depende de otra métrica, qué le sucede a un visitante después de alcanzar la meta y cómo se incrementa el recuento.
 
 Para especificar la configuración avanzada, haga clic en el icono **[!UICONTROL Más]** ( ![Icono de más](/help/main/assets/icons/MoreSmallList.svg) ) en la sección **[!UICONTROL Mi objetivo principal]** y, a continuación, haga clic en **[!UICONTROL Configuración avanzada]**.
 
@@ -162,37 +162,37 @@ Para especificar la configuración avanzada, haga clic en el icono **[!UICONTROL
 >
 >Si usa [!DNL Adobe Analytics] como fuente de informes, el servidor [!DNL Analytics] es el que administra la configuración. La opción de configuración avanzada no está disponible.
 
-### ¿Qué métrica de éxito debe alcanzarse antes de incrementar esta métrica? {#dependencies}
+### Dependencias {#dependencies}
 
-Utilice esta opción para contar a alguien como alguien que alcanza la métrica de éxito si anteriormente ha alcanzado una métrica de éxito diferente. Por ejemplo, una conversión de actividad podría ser válida únicamente si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión.
+Utilice esta opción para contar un visitante como que alcanza una métrica de éxito solo si el visitante ha alcanzado anteriormente una métrica de éxito diferente. Por ejemplo, una conversión de actividad podría ser válida solo si el visitante hace clic en la oferta, o alcanza una página concreta antes de la conversión.
 
-Dispone de dependencia respecto a varias métricas y tiene la posibilidad de elegir si una métrica debe alcanzarse o no para que su contador aumente. Defina ambas (o varias) métricas de éxito antes de poder hacer una dependiente de la otra. La opción **[!UICONTROL Añadir dependencia]** permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza).
+Puede hacer que una métrica dependa de varias métricas y elegir, para cada una de ellas, si debe alcanzarse o no para que aumente el recuento. Defina todas las métricas de éxito antes de hacer una dependiente de la otra. La opción **[!UICONTROL Agregar dependencia]** permite que la métrica de éxito aumente si se alcanza otra métrica de éxito (o todo lo contrario, si no se alcanza).
 
 Para agregar una dependencia:
 
-1. Después de agregar métricas adicionales, haga clic en **[!UICONTROL Configuración avanzada]**.
+1. Después de agregar las métricas adicionales, haz clic en **[!UICONTROL Configuración avanzada]**.
 
 1. Haga clic en la opción **[!UICONTROL Añadir dependencia.]**
 
-1. Arrastre y suelte las métricas que desee y, a continuación, haga clic en **[!UICONTROL Alcanzado]** para alternar el valor entre **[!UICONTROL Alcanzado]** y **[!UICONTROL No alcanzado]**.
+1. Arrastre y suelte las métricas de las que depende la métrica de éxito. A continuación, haga clic en **[!UICONTROL Alcanzado]** para alternar el valor entre **[!UICONTROL Alcanzado]** y **[!UICONTROL No alcanzado]**.
 
-Puede editar o eliminar dependencias después de añadirlas.
+Puede editar o eliminar dependencias después de añadirlas. Para los casos en los que no se admiten dependencias, consulte [Agregar dependencia](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency).
 
-### ¿Qué ocurrirá después de que un usuario encuentre esta métrica de objetivo? {#after-goal}
+### Una vez que un visitante alcanza la meta {#after-goal}
 
-Después de alcanzar el objetivo de la actividad, un visitante continúa viendo el contenido de esta, a menos que cumpla los requisitos de una actividad de prioridad más alta. Si alcanza el objetivo nuevamente, se cuenta como otra conversión. Es distinto del comportamiento predeterminado en [!DNL Target Classic], que contaba los visitantes como nuevos si vuelven a ver la actividad.
+Después de alcanzar el objetivo de la actividad, un visitante continúa viendo el contenido de esta, a menos que cumpla los requisitos de una actividad de prioridad más alta. Si alcanza el objetivo nuevamente, se cuenta como otra conversión. Esto difiere del comportamiento predeterminado en [!DNL Target Classic], que contabilizó los visitantes como nuevos cuando volvieron a ver la actividad.
 
 Existen tres opciones para lo que ocurre después de que un visitante alcance la métrica de objetivo:
 
-* **[!UICONTROL Aumentar recuento y mantener el usuario en la actividad]** para especificar cómo se incrementa el recuento.
-* **[!UICONTROL Aumentar recuento, liberar usuario y permitir la reentrada]** para especificar la experiencia que el usuario verá si vuelve a entrar a la actividad.
-* **[!UICONTROL Aumentar recuento, liberar usuario y bloquear su reentrada]** para especificar lo que el usuario ve en lugar del contenido de la actividad.
+* **[!UICONTROL Aumentar recuento y mantener el usuario en la actividad]:** Especifique cómo se incrementa el recuento, tal como se describe en la siguiente sección.
+* **[!UICONTROL Aumentar recuento, liberar usuario y permitir la reentrada]:** Especifique la experiencia que el visitante ve si vuelve a entrar a la actividad: la misma experiencia (predeterminada), una experiencia aleatoria o una experiencia no vista.
+* **[!UICONTROL Aumentar recuento, liberar usuario y bloquear su reentrada]:** Especifique lo que el visitante verá en lugar del contenido de la actividad: la misma experiencia sin seguimiento (predeterminado), o contenido predeterminado u otro contenido de actividad.
 
-### ¿Cómo aumentará el recuento? {#count-increment}
+### Incremento de recuento {#count-increment}
 
-Hay tres opciones para el aumento del recuento:
+Cuando selecciona **[!UICONTROL Aumentar recuento y mantener el usuario en la actividad]**, existen tres opciones para el aumento del recuento:
 
-* **[!UICONTROL Una vez por participante]**
+* **[!UICONTROL Una vez por participante]** (predeterminado)
 * **[!UICONTROL En cada impresión (excluidas las actualizaciones de páginas)]**
 * **[!UICONTROL En cada impresión]**
 

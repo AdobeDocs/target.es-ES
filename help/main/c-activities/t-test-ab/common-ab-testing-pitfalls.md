@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '4347'
-ht-degree: 81%
+source-wordcount: '4341'
+ht-degree: 75%
 ---
 # Diez dificultades comunes de las pruebas A/B y cómo evitarlas {#common-ab-testing-pitfalls}
 
@@ -63,7 +63,7 @@ El *intervalo de confianza*, que se determina una vez finalizada una prueba, se 
 * Nivel de relevancia
 * Desviación estándar de la población
 
-Como el experto en marketing ha seleccionado el nivel de relevancia antes de que se diseñara la prueba y el estándar de población no puede verse afectado, el único factor &quot;controlable&quot; es el tamaño de la muestra. El tamaño de la muestra requerido para un intervalo de confianza con el que se sienta cómodo y el tiempo resultante que se necesita para conseguir ese tamaño de la muestra son decisiones clave que un experto en marketing debe tomar durante el diseño de la prueba.
+El experto en marketing selecciona el nivel de relevancia antes de que se diseñe la prueba y el estándar de población no puede verse afectado, por lo que el único factor &quot;controlable&quot; es el tamaño de la muestra. El tamaño de la muestra requerido para un intervalo de confianza con el que se sienta cómodo y el tiempo resultante que se necesita para conseguir ese tamaño de la muestra son decisiones clave que un experto en marketing debe tomar durante el diseño de la prueba.
 
 Otro término directamente relacionado, *nivel de confianza*, se encarga de ver el vaso medio lleno. En lugar de expresar la probabilidad de obtener un falso positivo, como hace el nivel de relevancia, el nivel de confianza representa la probabilidad de que en la prueba no se produzca este error.
 
@@ -99,7 +99,7 @@ Los especialistas en marketing suelen probar más de dos ofertas (o experiencias
 
 Es importante tener en cuenta que *cada* oferta probada tiene una tasa de falsos positivos igual al nivel de relevancia, tal como se ha descrito anteriormente. Al cotejar varias ofertas en un mismo entorno de pruebas, estará ejecutando varias pruebas de una forma eficaz. Por ejemplo, si compara cinco ofertas en una prueba A/B/C/D/E, se establecen cuatro comparaciones: control con B, control con C, control con D y control con E. Con un nivel de confianza del 95 %, la probabilidad de un falso positivo es del 18,5 % en lugar del 5 %.
 
-Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Por medio de esta corrección, el nivel de relevancia se divide entre el número de comparaciones para obtener el nivel de relevancia necesario para lograr un nivel de confianza del 95 %.
+Para mantener el nivel de confianza general en el 95 % y evitar este problema, se debe aplicar lo que se conoce como “corrección de Bonferroni”. Con esta corrección, se divide el nivel de relevancia entre el número de comparaciones para llegar al nivel de relevancia que debe alcanzar un nivel de confianza del 95 %.
 
 Aplicando la corrección de Bonferroni en el ejemplo anterior, se usaría un nivel de relevancia de 5 %/4 = 1,25 %, que es lo mismo que un nivel de confianza del 98,75 % en una prueba individual (100 % - 1,25 % = 98,75 %). Este ajuste mantiene el nivel de confianza real en el 95 % cuando se realizan cuatro pruebas, como en el ejemplo descrito.
 
@@ -119,7 +119,7 @@ Recuerde que, si lo que desea es identificar la oferta con la mayor tasa de conv
 
 ## Inconveniente 3: Ignorar los efectos de la potencia estadística {#section_0D517079B7D547CCAA75F80981CBE12A}
 
-La potencia estadística es la probabilidad de que una prueba detecte una diferencia real en la tasa de conversión de distintas ofertas. Debido a la naturaleza aleatoria o, como la denominan los estadistas, estocástica de los eventos de conversión, es posible que una prueba no muestre una diferencia con relevancia estadística, aunque haya una diferencia real entre las tasas de conversión de dos ofertas al final. Podemos considerarlo mala suerte o casualidad. La imposibilidad de detectar una diferencia verdadera en la tasa de conversión se llama “falso negativo” o “error de tipo II”.
+La potencia estadística es la probabilidad de que una prueba detecte una diferencia real en la tasa de conversión de distintas ofertas. Una prueba podría no mostrar una diferencia estadísticamente significativa, incluso cuando existe una diferencia real en la tasa de conversión entre dos ofertas al final, debido a la naturaleza aleatoria, o como a los estadísticos les gusta llamarla, &quot;estocástica&quot;, de los eventos de conversión. Podemos considerarlo mala suerte o casualidad. La imposibilidad de detectar una diferencia verdadera en la tasa de conversión se llama “falso negativo” o “error de tipo II”.
 
 Hay dos factores clave que determinan la efectividad de una prueba. En primer lugar, el tamaño de la muestra, es decir, el número de visitantes incluidos en la prueba. Y, en segundo lugar, la magnitud de la diferencia en la tasa de conversión que quiere que detecte la prueba. Tal vez sea intuitivo, pero si solo le interesa detectar grandes diferencias en la tasa de conversión, existe una mayor probabilidad de que la prueba detecte realmente dichas diferencias. De forma similar, cuanto menor sea la diferencia que quiera detectar, mayor deberá ser el tamaño de la muestra y, por lo tanto, el tiempo para obtener ese tamaño de la muestra requerido.
 
@@ -143,9 +143,9 @@ Habitualmente, los especialistas en marketing monitorizan las pruebas A/B hasta 
 
 Desafortunadamente, no es tan simple. No queremos complicar las cosas, pero lo cierto es que monitorizar los resultados influye negativamente en la relevancia estadística real de la prueba. De hecho, aumenta en gran medida la probabilidad de falsos positivos y disminuye la fiabilidad de los intervalos de confianza.
 
-Esto puede resultar confuso. Parece que decimos que solo por mirar los resultados a mitad de la prueba, estos pierden su relevancia estadística, Eso no es exactamente lo que está pasando. En el ejemplo siguiente vemos por qué.
+Esto puede resultar confuso. Parece como si dijéramos que si vemos los resultados a mitad de la prueba, podemos hacer que pierdan su relevancia estadística. Eso no es exactamente lo que está pasando. En el ejemplo siguiente vemos por qué.
 
-Imagine que simulamos 10 000 eventos de conversión de dos ofertas y que las dos tienen una tasa de conversión del 10 %. Como las tasas de conversión son iguales, no se debería detectar ninguna diferencia en el alza de conversión al comparar las dos pruebas. Con un intervalo de confianza del 95 %, la prueba genera la tasa de falsos positivos esperada del 5 % cuando se evalúa después de recopilar las 10 000 observaciones. De modo que, si ejecutamos 100 de estas pruebas, obtendremos de media cinco falsos positivos (en realidad, todos los positivos son falsos en este ejemplo, ya que no hay diferencia en la tasa de conversión de ambas ofertas). Sin embargo, si evaluamos la prueba diez veces durante el proceso (cada 1000 observaciones), resulta que la tasa de falsos positivos sube al 16 %. Al monitorizar la prueba, el riesgo de falsos positivos es más del triple ¿Cómo puede ser?
+Supongamos que simula 10 000 eventos de conversión de dos ofertas, y que ambas ofertas tienen tasas de conversión del 10 %. Las tasas de conversión son las mismas, por lo que no debe detectar ninguna diferencia en el alza de conversión al probar las dos ofertas entre sí. Con un intervalo de confianza del 95 %, la prueba genera la tasa de falsos positivos esperada del 5 % cuando se evalúa después de recopilar las 10 000 observaciones. De modo que, si ejecutamos 100 de estas pruebas, obtendremos de media cinco falsos positivos (en realidad, todos los positivos son falsos en este ejemplo, ya que no hay diferencia en la tasa de conversión de ambas ofertas). Sin embargo, si evaluamos la prueba diez veces durante el proceso (cada 1000 observaciones), resulta que la tasa de falsos positivos sube al 16 %. Al monitorizar la prueba, el riesgo de falsos positivos es más del triple ¿Cómo puede ser?
 
 Para entender por qué sucede esto, hay que tener en cuenta las distintas acciones adoptadas cuando se detecta un resultado relevante y cuando no se detecta. Cuando se detecta un resultado estadísticamente relevante, la prueba se detiene y se declara un ganador. No obstante, si el resultado no tiene relevancia estadística, permitiremos que la prueba continúe. Esta situación favorece enormemente un resultado positivo y, por tanto, distorsiona el nivel de relevancia estadística de la prueba.
 
@@ -153,13 +153,13 @@ Para evitar este problema, debe determinar el tiempo que durará la ejecución d
 
 ## Escollo 6: Detener las pruebas de forma prematura {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
-Es tentador detener una prueba si una de las ofertas muestra un rendimiento mejor o peor que las otras en los primeros días de la prueba. Sin embargo, cuando el número de observaciones es reducido, existe una alta probabilidad de observar un alza positiva o negativa solo por casualidad, puesto que la tasa de conversión se promedia a partir de un número bajo de visitantes. A medida que la prueba recopila más puntos de datos, las tasas de conversión convergen hacia sus verdaderos valores a largo plazo.
+Es tentador detener una prueba si una de las ofertas muestra un rendimiento mejor o peor que las otras en los primeros días de la prueba. Sin embargo, cuando el número de observaciones es bajo, existe una alta probabilidad de que se observe un alza positiva o negativa por casualidad, ya que la tasa de conversión se promedia en un número bajo de visitantes. A medida que la prueba recopila más puntos de datos, las tasas de conversión convergen hacia sus verdaderos valores a largo plazo.
 
 En la ilustración siguiente vemos cinco ofertas que tienen la misma tasa de conversión a largo plazo. La oferta B tuvo una tasa de conversión deficiente durante los primeros 2000 visitantes y la tasa de conversión estimada tarda mucho en volver a la tasa verdadera a largo plazo.
 
 ![Gráfico de líneas de la diferencia en la tasa de conversión entre cinco ofertas alternativas y el control: las diferencias son grandes para los primeros miles de visitantes, por ejemplo menos 8 a menos 9 por ciento para la Oferta B, y convergen hacia cero a medida que aumenta el número de visitantes](assets/pitfalls4.png)
 
-Este fenómeno se conoce como &quot;regresión a la media&quot; y puede llevar a decepciones cuando una oferta que mostró un buen rendimiento durante los días iniciales de una prueba no es capaz de mantener el mismo rendimiento al final. También puede suponer la pérdida de ingresos cuando una buena oferta no se implementa debido a un mal rendimiento en los primeros días de una prueba solo por casualidad.
+Este fenómeno se conoce como &quot;regresión a la media&quot; y puede llevar a decepciones cuando una oferta que mostró un buen rendimiento durante los días iniciales de una prueba no es capaz de mantener el mismo rendimiento al final. También puede causar una pérdida de ingresos cuando una buena oferta no se implementa porque, por casualidad, su rendimiento era insuficiente en los primeros días de una prueba.
 
 Al igual que sucede con la monitorización de la prueba, la mejor forma de evitar estos problemas consiste en determinar un número adecuado de visitantes antes de ejecutar la prueba y, una vez iniciada, dejar que siga su curso hasta que este número de visitantes se haya expuesto a las ofertas.
 
@@ -181,11 +181,11 @@ Otro ejemplo: si la asignación de tráfico de la prueba A/B se divide en 50/50 
 
 ## Escollo 8: No tener en cuenta los efectos de la novedad {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Pueden producirse otros eventos inesperados si no se concede el tiempo suficiente para realizar una prueba. Esta vez, el problema no es un problema de estadísticas; es simplemente una reacción al cambio por parte de los visitantes. Si cambia una parte consolidada de su sitio web, es posible que los visitantes que regresan interactúen menos con la oferta nueva al principio por los cambios efectuados en el flujo de trabajo habitual. Esto puede hacer que, temporalmente, una nueva oferta superior tenga un rendimiento inferior hasta que los visitantes que regresan se acostumbren a ella: un pequeño precio que hay que pagar teniendo en cuenta las ganancias a largo plazo que reportará la oferta superior.
+Pueden producirse otros eventos inesperados si no se concede el tiempo suficiente para realizar una prueba. Esta vez el problema no es un problema de estadísticas, sino una reacción al cambio por parte de los visitantes. Si cambia una parte consolidada de su sitio web, es posible que los visitantes que regresan interactúen menos con la oferta nueva al principio por los cambios efectuados en el flujo de trabajo habitual. Esto puede hacer que, temporalmente, una nueva oferta superior tenga un rendimiento inferior hasta que los visitantes que regresan se acostumbren a ella: un pequeño precio que hay que pagar teniendo en cuenta las ganancias a largo plazo que reportará la oferta superior.
 
-Para determinar si la nueva oferta presenta un rendimiento inferior debido a un efecto de novedad o si es realmente inferior, puede segmentar los visitantes en visitantes nuevos y recurrentes y comparar las tasas de conversión. Si se trata solo del efecto de novedad, la nueva oferta gana con los nuevos visitantes. A la larga, cuando los visitantes que regresan se vayan acostumbrando a los nuevos cambios, la oferta también ganará entre estos.
+Para determinar si la nueva oferta presenta un rendimiento inferior debido a un efecto de novedad o si es realmente inferior, puede segmentar los visitantes en visitantes nuevos y recurrentes y comparar las tasas de conversión. Si la única causa es el efecto de novedad, la nueva oferta gana con los nuevos visitantes. A la larga, cuando los visitantes que regresan se vayan acostumbrando a los nuevos cambios, la oferta también ganará entre estos.
 
-El efecto de la novedad también puede funcionar a la inversa. Los visitantes suelen reaccionar de forma positiva a un cambio solo porque introduce algo nuevo. Pasado un tiempo, cuando el contenido se queda anticuado o ya no le resulta tan interesante al visitante, la tasa de conversión cae. Este efecto es más difícil de identificar, pero monitorizar minuciosamente los cambios en la tasa de conversión es fundamental para detectarlo.
+El efecto de la novedad también puede funcionar a la inversa. Los visitantes a menudo reaccionan positivamente a un cambio solo porque introduce algo nuevo. Pasado un tiempo, cuando el contenido se queda anticuado o ya no le resulta tan interesante al visitante, la tasa de conversión cae. Este efecto es más difícil de identificar, pero monitorizar minuciosamente los cambios en la tasa de conversión es fundamental para detectarlo.
 
 ## Escollo 9: No tener en cuenta las diferencias en el periodo de consideración {#section_B166731B5BEE4E578816E351ECDEA992}
 
@@ -201,7 +201,7 @@ Si quiere evitar este escollo, debe dejar un tiempo para que los visitantes que 
 
 ## Escollo 10: Usar métricas que no reflejan los objetivos comerciales {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-Los especialistas en marketing pueden sentir la tentación de usar métricas de conversión de tráfico elevado y varianza baja en el embudo superior, como la tasa de pulsaciones (CTR), para alcanzar con mayor rapidez un número adecuado de conversiones de prueba. No obstante, debemos pensar muy bien si la CTR es un medio apropiado para el objetivo comercial que deseamos conseguir. Las ofertas con mayores cifras de CTR pueden conducir fácilmente a una caída de los ingresos. Esto puede ocurrir cuando las ofertas atraen a visitantes con menor propensión a comprar o cuando la propia oferta (un descuento, por ejemplo) supone, de por sí, unos ingresos menores.
+Los especialistas en marketing pueden sentir la tentación de usar métricas de conversión de tráfico elevado y varianza baja en el embudo superior, como la tasa de pulsaciones (CTR), para alcanzar con mayor rapidez un número adecuado de conversiones de prueba. No obstante, debemos pensar muy bien si la CTR es un medio apropiado para el objetivo comercial que deseamos conseguir. Las ofertas con CTR más altos pueden conllevar menores ingresos. Esto puede ocurrir cuando las ofertas atraen visitantes con una tendencia menor a comprar, o cuando la propia oferta, por ejemplo, una oferta de descuento, conduce a menores ingresos.
 
 ![Funnel y métricas de CTR en la parte superior para ganancias de por vida en la parte inferior: mayor tráfico y menos variación en la parte superior, más cerca de los objetivos comerciales en la parte inferior](assets/pitfalls6.png)
 

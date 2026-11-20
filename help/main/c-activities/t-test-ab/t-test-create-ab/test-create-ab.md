@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Crear una actividad de prueba A/B {#create-ab-activity}
@@ -134,7 +134,7 @@ El diagrama de flujo le guía a través de la asignación de una audiencia y su 
 
    +++
 
-1. Haga clic en el control **[!UICONTROL Asignación del tráfico]** y, a continuación, elija un método de asignación del tráfico en el panel derecho. Consulte [Métodos de asignación de tráfico](#traffic-allocation-methods).
+1. Haga clic en el control **[!UICONTROL Asignación del tráfico]** y, a continuación, elija un método de asignación del tráfico en el panel derecho. Los métodos disponibles se enumeran en la tabla siguiente.
 
    ![Configuración del método de asignación de tráfico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -156,7 +156,7 @@ El diagrama de flujo le guía a través de la asignación de una audiencia y su 
 
 En la página **[!UICONTROL Objetivos y configuración]**, le dices a [!DNL Target] cómo medir la actividad. La configuración disponible depende de si usa [!DNL Target] o [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-1. Revise las secciones de la página y configure lo que necesite. Ver [Lo que configuraste en la página Objetivos y configuración](#goals-settings-overview).
+1. Revise las secciones de la página y configure lo que necesite. Ver [Lo que configuraste en la página Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Sección | Lo que ha configurado |
    |---|---|

@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 16%
 ---
 # Crear una prueba multivariable {#create-mvt}
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-El **[!UICONTROL Compositor de experiencias visuales]** (VEC) en [!DNL Adobe Target] facilita la creación de una **[!UICONTROL prueba multivariable]** y la modificación de partes de la página en [!DNL Target].
+El **[!UICONTROL Compositor de experiencias visuales]** (VEC) en [!DNL Adobe Target] le permite crear una **[!UICONTROL prueba multivariable]** y modificar partes de la página en [!DNL Target].
 
 El editor de apuntar y hacer clic [!DNL Target] le permite elegir cualquier ubicación y agregar varias ofertas.
 
@@ -50,7 +50,7 @@ Elija el tipo de actividad y el tipo de entrega, especifique la página que dese
 
 1. Haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Prueba multivariable]**.
 
-   Para obtener más información sobre los distintos tipos de actividades disponibles en [!DNL Target] y sus diferencias, consulte [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md) para ayudarle a decidir qué tipo de actividad encaja con sus necesidades.
+   Para obtener más información sobre los distintos tipos de actividades disponibles en [!DNL Target] y sus diferencias, consulte [Actividades](/help/main/c-activities/activities.md#types). Consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md) para ayudarle a decidir qué tipo de actividad encaja con sus necesidades.
 
    ![](../../assets/create-mvt-1.png)
 
@@ -132,7 +132,7 @@ Elija los visitantes que entran en la prueba y revise el resumen de la prueba.
 
 En la página **[!UICONTROL Objetivos y configuración]**, indica a [!DNL Target] cómo medir la prueba. La configuración disponible depende de si usa [!DNL Target] o [!DNL Analytics] como fuente de informes.
 
-1. Revise las secciones de la página y configure lo que necesite. Ver [Lo que configuraste en la página Objetivos y configuración](#goals-settings-overview).
+1. Revise las secciones de la página y configure lo que necesite. Ver [Lo que configuraste en la página Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 
    | Sección | Lo que ha configurado |

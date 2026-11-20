@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # Algoritmo de bosque aleatorio {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ El árbol plantea la pregunta: &quot;¿Cuál es la variable más predictiva?&quo
 
 ## ¿Cómo utiliza el bosque aleatorio los árboles de decisión? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Los árboles de decisión pueden ser una herramienta estadística muy útil. Sin embargo, presenta algunas desventajas. Lo más importante es que pueden &quot;sobreajustar&quot; los datos, de modo que un árbol individual no prediga bien los datos futuros que no se utilizaron para construir el árbol inicial. En estadística, este problema se conoce como [compensación sesgo-varianza](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
+Los árboles de decisión son una herramienta estadística útil. Sin embargo, presenta algunas desventajas. Lo más importante es que pueden &quot;sobreajustar&quot; los datos, de modo que un árbol individual no prediga bien los datos futuros que no se utilizaron para construir el árbol inicial. En estadística, este problema se conoce como [compensación sesgo-varianza](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
 
 Los bosques aleatorios ayudan a superar este desafío. Un bosque aleatorio es una colección de cientos de árboles de decisión que se construyen de manera ligeramente diferente en el mismo conjunto de datos y que &quot;votan&quot; juntos para producir un modelo mejor que un árbol individual. Los árboles se construyen mediante la selección aleatoria de un subconjunto de registros de visita con reemplazo (conocido como ensacado) y la selección aleatoria de un subconjunto de los atributos, de modo que el bosque consta de árboles de decisión ligeramente diferentes. Este método introduce pequeñas variaciones en los árboles. Agregar esta cantidad controlada de varianza ayuda a mejorar la precisión predictiva del algoritmo.
 

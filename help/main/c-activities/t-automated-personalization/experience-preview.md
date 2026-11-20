@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 41%
+source-wordcount: '774'
+ht-degree: 39%
 ---
-# Vista previa de actividades de Automated Personalization con URL de vista previa de experiencias
+# Vista previa de actividades de Automated Personalization con URL de vista previa de experiencias {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a generar URL de vista previa de experiencias para las actividades de **[!UICONTROL Automated Personalization]** para ver las experiencias en su sitio antes de que la actividad esté activa.
+
+>[!ENDSHADEBOX]
 
 Se pueden generar URL de vista previa de experiencias para actividades de [!DNL Target] [!UICONTROL Automated Personalization] a fin de ver el contenido de las experiencias directamente en el sitio antes de que la actividad esté activa para fines de vista previa y control de calidad. Las URL de vista previa de experiencias omiten la segmentación para forzar la visualización de una experiencia concreta.
 
 >[!NOTE]
 >
->Puede crear direcciones URL de vista previa de experiencias para otros tipos de actividades [!DNL Target]. Sin embargo, el proceso es ligeramente diferente. Para obtener más información, consulte [Control de calidad de las actividades.](/help/main/c-activities/c-activity-qa/activity-qa.md#preview)
+>Puede crear direcciones URL de vista previa de experiencias para otros tipos de actividades [!DNL Target]. Sin embargo, el proceso es ligeramente diferente. Para obtener más información, consulte [Control de calidad de las actividades.](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547)
 
 Utilice las URL de vista previa de experiencias para compartir experiencias con los integrantes del equipo y realizar controles de calidad de experiencias en exploradores y entornos, sin crear una actividad de control de calidad independiente. Esta característica resulta especialmente útil en sitios complejos o si las políticas de seguridad no permiten que el sitio se vea en un simulador.
 

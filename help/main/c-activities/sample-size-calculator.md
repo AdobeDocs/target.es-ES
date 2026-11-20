@@ -4,12 +4,18 @@ description: Utilice la calculadora de tamaño de muestra de Adobe Target para e
 title: Calculadora de tamaño de muestra
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 35%
+source-wordcount: '1632'
+ht-degree: 34%
 ---
-# Calculadora de tamaño de muestra
+# Calculadora de tamaño de muestra {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar la calculadora de tamaño de muestra [!DNL Adobe Target] para calcular el tráfico, la duración, el número de experiencias o el efecto mínimo detectable de una prueba A/B.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

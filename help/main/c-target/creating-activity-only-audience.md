@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 30%
@@ -30,7 +30,7 @@ Los públicos solo de actividad proporcionan las siguientes ventajas:
 * Puede usar audiencias solo de actividad para crear una audiencia que quiera usar una sola vez y que no quiera almacenar en la [!UICONTROL Biblioteca de audiencias]. Las audiencias solo de actividad ayudan a evitar que [!UICONTROL Biblioteca de audiencias] se llene de elementos que no desea volver a usar.
 * Las audiencias solo de actividad no son visibles en la [!UICONTROL Biblioteca de audiencias]. Como estas audiencias no son visibles en la biblioteca, están protegidas contra cambios no deseados por parte de otros miembros de la organización.
 
-1. Al crear una [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Segmentación]**, haga clic en los tres puntos verticales y luego haga clic en **[!UICONTROL Reemplazar audiencia]**.
+1. Al crear una [actividad](/help/main/c-activities/activities.md), en la página **[!UICONTROL Segmentación]**, haga clic en los tres puntos verticales y luego haga clic en **[!UICONTROL Reemplazar audiencia]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 

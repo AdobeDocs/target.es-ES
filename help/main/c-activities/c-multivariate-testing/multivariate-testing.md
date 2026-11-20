@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 25%
@@ -44,7 +44,7 @@ En [!DNL Target], cada combinación es una experiencia. La **[!UICONTROL prueba 
 
 ![Combinaciones de pruebas multivariable](assets/multivariate.png)
 
-Dado el número de combinaciones que se pueden generar, una **[!UICONTROL prueba multivariable]** requiere más tiempo y tráfico que una prueba A/B. La página debe recibir tráfico suficiente para generar resultados relevantes estadísticamente para cada experiencia. Para obtener resultados útiles, comprenda la cantidad de tráfico que recibe su página y pruebe la cantidad óptima de combinaciones durante el tiempo adecuado.
+Una **[!UICONTROL prueba multivariable]** requiere más tiempo y tráfico que una prueba A/B debido al número de combinaciones que se pueden generar. La página debe recibir tráfico suficiente para generar resultados relevantes estadísticamente para cada experiencia. Para obtener resultados útiles, comprenda la cantidad de tráfico que recibe su página y pruebe la cantidad óptima de combinaciones durante el tiempo adecuado.
 
 El [estimador de tráfico](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator) puede ayudarte a diseñar una prueba que funcione con tu tráfico. Antes de usarlo, debe tener buenas estadísticas que muestren la cantidad de impresiones y conversiones que normalmente recibe su sitio, y considerar sus niveles de tráfico por día. Cuantas más experiencias tenga una actividad, más tráfico deberá incluir la actividad o más tiempo deberá ejecutarse. Si la cantidad de tráfico no es alta, pruebe algunas combinaciones. De lo contrario, la cantidad de tiempo necesaria para producir resultados de prueba significativos podría ser demasiado larga para ser útil.
 

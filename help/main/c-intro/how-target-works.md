@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -136,7 +136,7 @@ Consulte [Prueba multivariable](/help/main/c-activities/c-multivariate-testing/m
 
 Las actividades de [!UICONTROL Recommendations] muestran automáticamente productos o contenido que podría interesar a los clientes según su actividad anterior u otros algoritmos. Recommendations le ayuda a dirigir a los clientes hacia artículos relevantes que es posible que no descubran de otra manera.
 
-Para obtener más información, consulte [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Para obtener más información, consulte [Recommendations](/help/main/c-recommendations/recommendations.md).
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}

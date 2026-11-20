@@ -19,14 +19,20 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 81%
+source-wordcount: '1347'
+ht-degree: 55%
 ---
-# Atributos de entidad personalizados
+# Atributos de entidad personalizados {#custom-entity-attributes}
 
-Use atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los elementos del catálogo.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a definir, enviar y utilizar atributos de entidad personalizados de uno o varios valores que describan los elementos del catálogo [!DNL Adobe Target Recommendations].
+
+>[!ENDSHADEBOX]
+
+Use atributos de entidad personalizados de uno o varios valores en [!DNL Adobe Target Recommendations] para definir información adicional sobre los elementos del catálogo. Esta información se puede utilizar en reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión, y se puede mostrar en diseños de.
 
 ## Límites {#limits}
 
@@ -34,7 +40,7 @@ Puede incluir hasta 100 atributos de entidad personalizados para definir informa
 
 La longitud máxima de los atributos personalizados de entidad de un solo valor es de 15 000 caracteres (para idiomas con codificación UTF-8 de uno y dos bytes, como inglés y otros alfabetos latinos) o 10 000 caracteres (para lenguajes con codificación UTF-8 de tres bytes, como chino, japonés y coreano).
 
-Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (véase arriba).
+Los atributos personalizados de entidad de varios valores no pueden contener más de 500 valores. Cada valor individual está limitado a 100 caracteres. El número total de caracteres en todos los valores debe cumplir las limitaciones de la longitud máxima de atributos personalizados de entidad de un solo valor (ver arriba).
 
 ## Valores de atributo de entidad personalizados {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -67,7 +73,7 @@ Cuando un atributo personalizado se envía como matriz de JSON válida, se trata
 
 **Restricciones**:
 
-* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados. (Consulte [Atributos de entidad](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)).
+* No se pueden usar nombres de atributos de entidad predefinidos para atributos de entidad personalizados. (Consulte [Atributos de entidad](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)).
 * El atributo `entity.environment` se reserva para el sistema y no se puede usar en atributos de entidad personalizados. Se hará caso omiso de los intentos de pasar `entity.environment` usando `targetPageParams`, fuentes o API.
 * Las matrices deben contener un solo tipo de valor. Las matrices con valores mezclados (`["AB",1,true]`) no se admiten.
 * Un atributo de varios valores que incluye una matriz de JSON anidada (`[10,12,[1,2,3]]`) se trata como un atributo de un valor.
@@ -78,11 +84,9 @@ Los atributos de entidad personalizados de varios valores se admiten al usar fue
 
 Las comillas dobles se deben escapar. Por ejemplo, `"[""test"", ""value""]"` es una matriz JSON válida que se pueden usar en CSV.
 
-Puede incluir hasta 500 valores en un atributo multivalor.
-
 ### Uso de targetPageParams
 
-El siguiente ejemplo muestra cómo usar `targetPageParams`
+El siguiente ejemplo muestra cómo usar `targetPageParams`:
 
 ```javascript
 function targetPageParams() { 
@@ -91,10 +95,10 @@ function targetPageParams() {
     'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
     'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
     'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
+    'excludedIds':                  '[123, 3232, 2323, 4344]', 
+    'orderId':                      '123456', 
+    'orderTotal':                   '195.32', 
+    'productPurchaseId':            '[001,002,003]' 
   }; 
 }
 ```
@@ -151,113 +155,35 @@ En el ejemplo siguiente, la regla es `message contains abc`.
 
 En el caso de los operadores negativos, todos los valores de atributo deben cumplir el criterio (booleano *AND*). Por ejemplo, si el operador es `notEquals`, el resultado será *false* si algún valor coincide.
 
-Consulte las secciones siguientes para ver el comportamiento del operador en las reglas de inclusión de algoritmos, reglas de catálogo y reglas de exclusión.
+En la tabla siguiente se resume el comportamiento de cada operador y se proporcionan los casos de cada regla de ejemplo.
 
-### Es igual a
-
-Si algún valor de atributo es igual al valor de entrada, el resultado es true.
-
-Ejemplo: `genre equals abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor es igual a `abc`.
-* Caso 2: `entity.genre = ["abc", "de", "ef"]`. El resultado es true porque un valor es igual a `abc`.
-* Caso 3: `entity.genre = ["abcde", "de", "ef"]`. El resultado es “false” porque `abc` no es igual a ningún elemento de la lista.
-
-### No es igual a
-
-Si ningún valor de atributo es igual al valor de entrada, el resultado es true.
-
-Ejemplo: `genre not equals abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es true porque ningún valor es igual a `abc`.
-* Caso 2: `entity.genre = ["abc", "de", "ef"]`. El resultado es false porque un valor es igual a `abc`.
-* Caso 3: `entity.genre = ["abcde", "de", "ef"]`. El resultado es “true” porque `abc` no es igual a ningún elemento de la lista.
-
-### Contiene
-
-Si algún valor del atributo contiene el valor de entrada, el resultado es true.
-
-Ejemplo: `genre contains abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor contiene `abc`.
-* Caso 2: `entity.genre = ["abcde", "de", "ef"]`. El resultado es true porque un valor contiene `abc`.
-
-### No contiene
-
-Si ningún valor del atributo contiene en valor de entrada, el resultado es true.
-
-Ejemplo: `genre does not contain abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es true porque ningún valor contiene `abc`.
-* Caso 2: `entity.genre = ["abcde", "de", "ef"]`. El resultado de la regla será false porque un valor contiene`abc`.
-
-### Comienza con
-
-Si algún valor del atributo empieza por el valor de entrada, el resultado es true.
-
-Ejemplo: `genre starts with abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor empieza por `abc`.
-* Caso 2: `entity.genre = ["abcde", "de", "ef"]`. El resultado es true porque un valor empieza por `abc`.
-* Caso 3: `entity.genre = ["ab", "de", "abc"]`. El resultado es “true” porque un valor comienza por `abc` (no necesariamente el primer elemento de la lista).
-
-### Finaliza con
-
-Si algún valor del atributo termina en el valor de entrada, el resultado es true.
-
-Ejemplo: `genre ends with abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor termina en `abc`.
-* Caso 2: `entity.genre = ["deabc", "de", "ef"]`. El resultado es true porque un valor termina en `abc`.
-
-### Es mayor o igual que (solo valores numéricos)
-
-El valor de atributo se convierte en el doble. Los atributos que no se pueden convertir se pasan por alto al ejecutar la regla.
-
-Después del procesamiento, cualquier valor de atributo mayor o igual que el valor de entrada da el resultado true.
-
-Ejemplo: `price greater than or equal to 100`
-
-* Caso 1: `entity.price = ["10", "20", "45"]`. El resultado es false porque ningún valor es mayor o igual a 100. El valor `de` se pasa por alto porque no se puede convertir en el doble.
-* Caso 2: `entity.price = ["100", "101", "90", "80"]`. El resultado es true porque hay dos valores mayores o iguales a 100.
-
-### Es menor o igual que (solo valores numéricos)
-
-El valor de atributo se convierte en el doble. Los atributos que no se pueden convertir se pasan por alto al ejecutar la regla.
-
-Después del procesamiento, cualquier valor de atributo menor o igual que el valor de entrada da el resultado true.
-
-Ejemplo: `price less than or equal to 100`
-
-* Caso 1: `entity.price = ["101", "200", "141"]`. El resultado es false porque ningún valor es menor o igual que 100. El valor `de` se pasa por alto porque no se puede convertir en el doble.
-* Caso 2: `entity.price = ["100", "101", "90", "80"]`. El resultado es true porque hay dos valores menores o iguales a 100.
-
-### Coincide dinámicamente (solo disponible en algoritmos de artículos)
-
-Si algún valor de atributo coincide con el valor de entrada, el resultado es true.
-
-Ejemplo: `genre matches abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es false porque ningún valor coincide con `abc`.
-* Caso 2: `entity.genre = ["abc", "de", "ef"]`. El resultado es true porque un valor coincide con `abc`.
-
-### No coincide dinámicamente (solo disponible en algoritmos de artículos)
-
-Si algún valor de atributo coincide con el valor de entrada, el resultado es false.
-
-Ejemplo: `genre does not match abc`
-
-* Caso 1: `entity.genre = ["ab", "bc", "de"]`. El resultado es true porque ningún valor coincide con `abc`.
-* Caso 2: `entity.genre = ["abc", "de", "ef"]`. El resultado de la regla será false porque un valor coincide con `abc`.
-
-### Se incluye dinámicamente en el rango (solo disponible en algoritmos de artículos y solo valores numéricos)
-
-Si algún valor de atributo se encuentra en el rango especificado, el resultado es true.
-
-Ejemplo: `price dynamically ranges in 80% to 120% of 100`
-
-* Caso 1: `entity.price = ["101", "200", "125"]`. El resultado es “true” porque `101` está en el rango del 80 % al 120 % de 100. El valor `de` se pasa por alto porque no se puede convertir en el doble.
-* Caso 2: `entity.price = ["130", "191", "60", "75"]`. El resultado es false porque ningún valor está en el rango del 80 % al 120 % de 100.
+| Operador | El resultado es verdadero cuando | Regla de ejemplo | Valor de atributo | Resultado | Motivo |
+|---|---|---|---|---|---|
+| Es igual a | Cualquier valor de atributo es igual al valor de entrada. | `genre equals abc` | `["ab", "bc", "de"]` | Falso | Ningún valor es igual a `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | True | Un valor es igual a `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | Falso | `abc` no es igual a ningún elemento de la lista. |
+| No es igual a | Ningún valor de atributo es igual al valor de entrada. | `genre not equals abc` | `["ab", "bc", "de"]` | True | Ningún valor es igual a `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | Falso | Un valor es igual a `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | True | `abc` no es igual a ningún elemento de la lista. |
+| Contiene | Cualquier valor de atributo contiene el valor de entrada. | `genre contains abc` | `["ab", "bc", "de"]` | Falso | Ningún valor contiene `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | True | Un valor contiene `abc`. |
+| No contiene | Ningún valor de atributo contiene el valor de entrada. | `genre does not contain abc` | `["ab", "bc", "de"]` | True | Ningún valor contiene `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | Falso | Un valor contiene `abc`. |
+| Comienza con | Cualquier valor de atributo comienza con el valor de entrada. | `genre starts with abc` | `["ab", "bc", "de"]` | Falso | Ningún valor comienza con `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | True | Un valor comienza con `abc`. |
+|  |  |  | `["ab", "de", "abc"]` | True | Un valor comienza por `abc` (no necesariamente el primer elemento de la lista). |
+| Finaliza con | Cualquier valor de atributo termina con el valor de entrada. | `genre ends with abc` | `["ab", "bc", "de"]` | Falso | Ningún valor termina en `abc`. |
+|  |  |  | `["deabc", "de", "ef"]` | True | Un valor termina con `abc`. |
+| Es mayor o igual que (solo valores numéricos) | Cualquier valor de atributo es mayor o igual que el valor de entrada. Cada valor se convierte en el doble y los valores que no se pueden convertir se omiten mientras se ejecuta la regla. | `price greater than or equal to 100` | `["10", "20", "45", "de"]` | Falso | Ningún valor es mayor o igual que 100. El valor `de` se pasa por alto porque no se puede convertir en el doble. |
+|  |  |  | `["100", "101", "90", "80"]` | True | Dos valores son mayores o iguales que 100. |
+| Es menor o igual que (solo valores numéricos) | Cualquier valor de atributo es menor o igual que el valor de entrada. Cada valor se convierte en el doble y los valores que no se pueden convertir se omiten mientras se ejecuta la regla. | `price less than or equal to 100` | `["101", "200", "141", "de"]` | Falso | Ningún valor es menor o igual que 100. El valor `de` se pasa por alto porque no se puede convertir en el doble. |
+|  |  |  | `["100", "101", "90", "80"]` | True | Dos valores son menores o iguales a 100. |
+| Coincide dinámicamente (solo disponible en algoritmos de artículos) | Cualquier valor de atributo coincide con el valor de entrada. | `genre matches abc` | `["ab", "bc", "de"]` | Falso | Ningún valor coincide con `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | True | Un valor coincide con `abc`. |
+| No coincide dinámicamente (solo disponible en algoritmos de artículos) | Ningún valor de atributo coincide con el valor de entrada. El resultado es false si algún valor de atributo coincide. | `genre does not match abc` | `["ab", "bc", "de"]` | True | Ningún valor coincide con `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | Falso | Un valor coincide con `abc`. |
+| Se incluye dinámicamente en el rango (solo disponible en algoritmos de artículos y solo valores numéricos) | Cualquier valor de atributo numérico se encuentra dentro del rango especificado. | `price dynamically ranges in 80% to 120% of 100` | `["101", "200", "125", "de"]` | True | `101` está en el rango del 80% al 120% de 100. El valor `de` se pasa por alto porque no se puede convertir en el doble. |
+|  |  |  | `["130", "191", "60", "75"]` | Falso | Ningún valor está en el rango del 80 % al 120 % de 100. |
 
 >[!NOTE]
 >
@@ -271,6 +197,6 @@ Ejemplo:
 
 Cuando se hace referencia a `entity.genre=["genre1","genre2"]` en un diseño como `$entity<N>.genre`, el resultado es `genre1, genre2`.
 
-## Temas relacionados:
+## Temas relacionados
 
-* [Atributos de entidad](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Atributos de entidad](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)

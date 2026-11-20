@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 8%
@@ -78,7 +78,7 @@ Las reglas de segmentación de audiencia controlan qué visitantes pueden ver ca
 
    >[!NOTE]
    >
-   >En lugar de crear una audiencia nueva, puede combinar varias audiencias con las existentes para crear audiencias combinadas bajo demanda. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >En lugar de crear una audiencia nueva, puede combinar varias audiencias con las existentes para crear audiencias combinadas bajo demanda. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md).
 
 1. Haga clic en **[!UICONTROL Finalizado]**.
 

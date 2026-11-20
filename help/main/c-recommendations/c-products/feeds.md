@@ -22,20 +22,24 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22eb14463a76adc797e57420cac0f646be3d3f00
 workflow-type: tm+mt
-source-wordcount: '2792'
-ht-degree: 29%
+source-wordcount: '2810'
+ht-degree: 25%
 ---
-# Fuentes
+# Fuentes {#feeds}
 
-Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target] [!DNL Recommendations]. Las entidades se pueden enviar mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Adobe Analytics] clasificaciones de productos.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo las fuentes importan entidades en [!DNL Adobe Target Recommendations], qué tipos de origen están disponibles y cómo crear y supervisar una fuente.
+
+>[!ENDSHADEBOX]
+
+Utilice fuentes para obtener entidades importadas en [!DNL Adobe Target Recommendations]. Las entidades se pueden enviar mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Adobe Analytics] clasificaciones de productos.
 
 ## Resumen de fuentes {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Las fuentes le permiten pasar [Entidades](/help/main/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que no está disponible en la página o que no es seguro enviar directamente desde la página. Por ejemplo, margen, Coste de productos vendidos (COGS), etc.
-
-Las fuentes también le permiten pasar información detallada del elemento a [!DNL Recommendations], como el ID del producto, la categoría, el nombre, el mensaje y otros atributos.
+Las fuentes le permiten pasar [entidades](/help/main/c-recommendations/c-products/products.md) o ampliar los datos de mbox con información que, o bien no está disponible en la página, o bien no es seguro enviar directamente desde la página. Por ejemplo, margen, Coste de productos vendidos (COGS), etc. Las fuentes también le permiten pasar información detallada del elemento a [!DNL Recommendations], como el ID del producto, la categoría, el nombre, el mensaje y otros atributos.
 
 Puede seleccionar las columnas de su archivo de clasificaciones de productos [!DNL Target] o del archivo [!DNL Google Product Search] que desea enviar al servidor [!DNL Recommendations].
 
@@ -48,33 +52,34 @@ Estos datos sobre cada elemento se pueden utilizar para lo siguiente:
 
 Las descripciones de los elementos se pueden pasar a [!DNL Target] mediante fuentes o mboxes. Si [!DNL Target] recopila datos mediante una fuente de entidades y un mbox, prevalecerán los datos más recientes. Normalmente, los datos más recientes proceden de un mbox, ya que su visualización es más frecuente. En el caso improbable de que los datos de una fuente de entidades y los datos de un mbox se visiten al mismo tiempo, se utilizarán los datos del mbox.
 
-La lista [!UICONTROL Fuentes] ( **[!UICONTROL Recomendaciones]** > **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado.
+Las entidades y atributos de entidad cargados caducan al cabo de 61 días. Esto implica lo siguiente:
 
-La página [!UICONTROL Fuentes] contiene las siguientes columnas:
+* La fuente debe ejecutarse al menos una vez al mes para garantizar que el contenido del catálogo no caduque.
 
-* **Nombre**: El nombre de la fuente especificada durante la creación. Para editar el nombre de una fuente, debe editar la propia fuente. Al guardar la fuente con el nuevo nombre, se actualiza.
-* **Estado**: [Estado actual de la fuente](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Tipo**: los tipos incluyen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) y [Clasificaciones de Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Elementos**: Muestra el número de elementos de la fuente.
-* **Programación**: muestra la programación de actualización de la fuente: [!UICONTROL Diario], [!UICONTROL Semanal], [!DNL Every 2 Weeks] o [!UICONTROL Nunca].
-* **Última actualización**: Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente.
+* Al eliminar un elemento del archivo de fuentes, no se elimina del catálogo. Para quitar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de [!DNL Target]. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo se excluye de la consideración.
 
-Haga clic en el icono [!UICONTROL Personalizar tabla] ( ![Personalizar tabla](/help/main/assets/icons/ColumnSetting.svg) ) para seleccionar o anular la selección de las columnas que desee mostrar.
+* Cargue el archivo de fuentes al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuentes (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
 
-Haga clic en el icono [!UICONTROL Información] ( ![Icono de información](/help/main/assets/icons/InfoOutline.svg) ) para mostrar una tarjeta con la última fecha de carga y la dirección URL de la fuente.
+### Lista de fuentes
 
-Haga clic en el icono [!UICONTROL Más acciones] ( ![Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) para obtener acceso a las siguientes acciones: [!UICONTROL Desactivar], [!DNL Edit], [!UICONTROL Copiar] y [!UICONTROL Eliminar].
+La lista [!UICONTROL Fuentes] (**[!UICONTROL Recomendaciones]** > **[!UICONTROL Fuentes]**) proporciona información sobre cualquier fuente que haya creado. Contiene las siguientes columnas:
 
->[!IMPORTANT]
->
->Las entidades y atributos de entidad cargados caducan al cabo de 61 días. Esto implica lo siguiente:
->
->* La fuente debe ejecutarse al menos una vez al mes para garantizar que el contenido del catálogo no caduque.
->* Al eliminar un elemento del archivo de fuentes, no se elimina del catálogo. Para quitar el elemento del catálogo, elimínelo manualmente mediante la interfaz de usuario o la API de [!DNL Target]. O bien, modifique los atributos del artículo (como el inventario) para asegurarse de que el artículo se excluye de la consideración.
+| Columna | Descripción |
+|---|---|
+| **Nombre** | Nombre de la fuente especificada durante la creación. Para editar el nombre de una fuente, debe editar la propia fuente. Al guardar la fuente con el nuevo nombre, se actualiza. |
+| **Estado** | [estado](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) actual de la fuente. |
+| **Tipo** | Los tipos incluyen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) y [Clasificaciones de Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A). |
+| **Elementos** | Muestra el número de elementos que hay en la fuente. |
+| **Programación** | Muestra la programación de actualización de la fuente: **[!UICONTROL Diario]**, **[!UICONTROL Semanal]**, **[!DNL Every 2 Weeks]** o **[!UICONTROL Nunca]**. |
+| **Última actualización** | Muestra la fecha y la hora en que la fuente se actualizó por última vez y el nombre de la persona que ha actualizado la fuente. |
 
-## Tipos de Source
+* Haga clic en el icono **[!UICONTROL Personalizar tabla]** ( ![Personalizar tabla](/help/main/assets/icons/ColumnSetting.svg) ) para seleccionar o anular la selección de las columnas que desee mostrar.
+* Haga clic en el icono **[!UICONTROL Información]** ( ![Icono de información](/help/main/assets/icons/InfoOutline.svg) ) para mostrar una tarjeta con la última fecha de carga y la dirección URL de la fuente.
+* Haga clic en el icono **[!UICONTROL Más acciones]** ( ![Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) para obtener acceso a las siguientes acciones: **[!UICONTROL Desactivar]**, **[!DNL Edit]**, **[!UICONTROL Copiar]** y **[!UICONTROL Eliminar]**.
 
-Las entidades se pueden enviar mediante archivos CSV, el formato de fuente [!DNL Google Product Search] y [!DNL Adobe Analytics] clasificaciones de productos.
+## Tipos de Source {#source-types}
+
+En las siguientes secciones se describen los tipos de origen que se pueden utilizar para enviar entidades.
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -106,13 +111,11 @@ La sintaxis correcta sería esta:
 "Apples ""Bananas"" Grapes""",
 ```
 
->[!NOTE]
->
->No se puede sobrescribir un valor existente con un valor en blanco. Pase otro valor en su lugar para sobrescribir el valor existente. En el caso de un precio de venta, una solución común es pasar un &quot;NULL&quot; real o algún otro mensaje. A continuación, puede escribir una regla de plantilla para excluir los artículos con el valor en cuestión.
+Tenga en cuenta que no puede sobrescribir un valor existente con un valor en blanco. Pase otro valor en su lugar para sobrescribir el valor existente. En el caso de un precio de venta, una solución común es pasar un &quot;NULL&quot; real o algún otro mensaje. A continuación, puede escribir una regla de plantilla para excluir los artículos con el valor en cuestión.
 
 El producto está disponible en la interfaz de administración de aproximadamente dos horas después de cargar su entidad correctamente.
 
-El siguiente es un código de muestra de un archivo .csv:
++++ Archivo .csv de muestra
 
 ```
 ## RECSRecommendations Upload File 
@@ -126,19 +129,19 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
++++
 
-El tipo de fuente [!DNL Google Product Search] usa el formato [!DNL Google] en lugar del formato CSV propiedad de [!DNL Adobe]. Puede reutilizar un(a) [!DNL Google Product Feed] existente para importar datos de producto en [!DNL Recommendations].
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 >[!NOTE]
 >
 >No necesita enviar sus datos a [!DNL Google]. Puede importar sus propios datos y programar actualizaciones, siempre que el archivo utilice los nombres de atributo predefinidos [!DNL Google].
 
+El tipo de fuente [!DNL Google Product Search] usa el formato [!DNL Google] en lugar del formato CSV propiedad de [!DNL Adobe]. Puede reutilizar un(a) [!DNL Google Product Feed] existente para importar datos de producto en [!DNL Recommendations].
+
 [!DNL Recommendations] acepta archivos .xml, .txt y .tsv que siguen la especificación de fuente [!DNL Google] y utilizan los [atributos definidos por Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Especifique la dirección URL o la ubicación FTP de la fuente para que el servidor [!DNL Recommendations] pueda recuperar el archivo y generar el catálogo.
 
->[!NOTE]
->
->El servidor que hospeda la fuente [!DNL Google] debe permitir el método POST.
+Tenga en cuenta que el servidor que aloja la fuente [!DNL Google] debe permitir el método POST.
 
 Tenga en cuenta los siguientes requisitos y limitaciones:
 
@@ -147,7 +150,7 @@ Tenga en cuenta los siguientes requisitos y limitaciones:
 
 La fuente se ejecuta cuando la guarda y activa, y luego diariamente una hora más tarde que el tiempo de ejecución inicial.
 
-El ejemplo siguiente muestra una fuente [!DNL Google Product Search] en formato .xml:
++++ Muestra de fuente [!DNL Google Product Search] en formato .xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -214,7 +217,9 @@ El ejemplo siguiente muestra una fuente [!DNL Google Product Search] en formato 
 </feed> 
 ```
 
-El siguiente es un ejemplo de código para un archivo .tsv de fuente [!DNL Google Product Search]:
++++
+
++++ Muestra de fuente [!DNL Google Product Search] en formato .tsv
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -222,7 +227,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Clasificaciones de productos de [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
++++
+
+### [!DNL Analytics] clasificaciones de productos {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 La clasificación de producto [!DNL Adobe Analytics] es la única clasificación disponible para Recommendations. Para obtener más información acerca de este archivo de clasificación, consulte [Acerca de las clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la guía de *Componentes de Analytics*. Es posible que su implementación actual de no incluya toda la información que necesita en Recommendations. Por lo tanto, si desea agregar información a su archivo de clasificaciones, consulte esta guía del usuario.
 
@@ -233,22 +240,29 @@ La clasificación de producto [!DNL Adobe Analytics] es la única clasificación
 > Tenga en cuenta las siguientes advertencias:
 >
 >* Las actualizaciones de los atributos de la entidad incurren en un retraso adicional de hasta 24 horas.
->* [!DNL Target] solo admite [!UICONTROL Clasificaciones de productos]. La SKU del producto [!DNL Analytics] debe asignarse al mismo nivel que [!DNL Recommendations] `entity.id`. Las clasificaciones personalizadas [!DNL Analytics] se pueden diseñar con [!UICONTROL Adobe Consulting Services]. Póngase en contacto con el Administrador de cuentas si tiene alguna pregunta.
+>* [!DNL Target] solo admite **[!UICONTROL Clasificaciones de productos]**. La SKU del producto [!DNL Analytics] debe asignarse al mismo nivel que [!DNL Recommendations] `entity.id`. Las clasificaciones personalizadas [!DNL Analytics] se pueden diseñar con **[!UICONTROL Adobe Consulting Services]**. Póngase en contacto con el Administrador de cuentas si tiene alguna pregunta.
 
-## Crear fuente {#steps}
+## Crear una fuente {#steps}
 
 Cree una fuente para incluir información sobre sus productos o servicios en [!DNL Recommendations].
 
+El origen determina dónde [!DNL Recommendations] recupera los datos de entidad que crea el catálogo.
+
 1. Desde la interfaz de [!DNL Target], haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Fuentes]** > **[!UICONTROL Crear fuente]**.
 
+   ![Crear página de fuente](../assets/feeds_1.png)
+
 1. Elija un nombre descriptivo para la fuente.
+
 1. Seleccione un **[!UICONTROL tipo Source]**.
 
-   * [!UICONTROL CSV]
-   * [!UICONTROL Fuente de productos Google]
-   * [!UICONTROL Clasificaciones de Analytics]
+   * **[!UICONTROL CSV]**
+   * **[!UICONTROL Fuente de productos Google]**
+   * **[!UICONTROL Clasificaciones de Analytics]**
 
-   Para obtener información sobre los tipos de fuente [!UICONTROL CSV] y [!UICONTROL Fuente de productos Google], consulte [Información general de fuentes](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). También puede [descargar una guía de CSV como modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
+   Para obtener información sobre los tipos de fuente **[!UICONTROL CSV]** y **[!UICONTROL Fuente de productos Google]**, consulte [tipos de Source](#source-types). También puede [descargar una guía de CSV como modelo](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) para ayudarle a dar formato a la fuente correctamente.
+
+   ![Crear página de fuente](../assets/feeds_2.png)
 
 1. (Condicional) Si seleccionó **[!UICONTROL CSV]** o **[!UICONTROL Fuente de productos de Google]**, especifique la ubicación donde se puede obtener acceso a la fuente.
 
@@ -260,7 +274,7 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
      * En FTPS, configure el servidor para que acepte conexiones de FTPS explícitas.
      * Puede especificar manualmente un puerto en el que iniciar la conexión (por ejemplo, `ftp://ftp.yoursite.com:2121`). Si no especifica un puerto, se utilizará el puerto FTP o FTPS predeterminado.
 
-   +++
+     +++
 
    * **SFTP**: Escriba el nombre de host o la dirección IP, el puerto (predeterminado: 22), el nombre de usuario, el directorio y el nombre de archivo del servidor SFTP. Para la autenticación, proporcione una contraseña, una clave privada SSH o ambas.
 
@@ -273,28 +287,30 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
      * Escriba un nombre de host o una dirección IP sin formato, sin un prefijo, puerto o ruta de acceso de `sftp://`. Utilice el campo Port para un puerto no predeterminado.
      * La clave de host del servidor se acepta en la primera conexión y no se necesita intercambio de huellas digitales con Adobe.
      * El SFTP está disponible en la interfaz de Target y en la API de Recommendations, pero no en la interfaz de administración heredada de Recommendations Classic. Adobe no aloja un extremo SFTP; utilice un servidor alojado por el cliente.
-     * El servidor SFTP debe ser accesible desde Internet y permitir conexiones entrantes desde las direcciones de descarga de Adobe Target. El departamento de ingeniería debe confirmar la lista de IP de producción antes de publicar esta actualización.
+     * El servidor SFTP debe ser accesible desde Internet y permitir conexiones entrantes desde las direcciones de descarga de Adobe Target.
 
-   +++
+     +++
 
-   * **URL**: Si selecciona [!UICONTROL URL], especifique la URL.
+   * **URL**: Si selecciona **[!UICONTROL URL]**, especifique la URL.
 
 1. (Condicional) Si seleccionó **[!UICONTROL Clasificaciones de Analytics]**, elija el grupo de informes en la lista desplegable.
 
-1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Programar].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de **[!UICONTROL Programar]** y seleccione una opción de actualización:
 
-1. Seleccione una opción de actualización:
+   * **[!UICONTROL Diario]**
+   * **[!UICONTROL Semanalmente]**
+   * **[!UICONTROL Cada 2 Semanas]**
+   * **[!UICONTROL Nunca]**: No programar una actualización. Seleccione esta opción si no quiere que se ejecute esta fuente.
 
-   * [!UICONTROL Diario]
-   * [!UICONTROL Semanalmente]
-   * [!UICONTROL Cada 2 Semanas]
-   * [!UICONTROL Nunca]: No programar una actualización. Seleccione esta opción si no quiere que se ejecute esta fuente.
+   ![Crear página de fuente](../assets/feeds_3.png)
 
 1. Especifique a qué hora desea que se ejecute la fuente.
 
    Esta opción está basada en la zona horaria establecida en el navegador. Si quiere usar una hora de otra zona horaria, tiene que calcularla según su propia zona horaria.
 
-1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de [!UICONTROL Asignación] y, a continuación, especifique cómo desea asignar los datos a las definiciones de [!DNL Target].
+1. Haga clic en la flecha **[!UICONTROL Siguiente]** para mostrar las opciones de **[!UICONTROL Asignación]** y, a continuación, especifique cómo desea asignar los datos a las definiciones de [!DNL Target].
+
+   ![Crear página de fuente](../assets/feeds_4.png)
 
 1. (Opcional) Si quiere que la fuente pertenezca a un entorno (grupo de hosts), seleccione el grupo de hosts.
 
@@ -302,43 +318,51 @@ Cree una fuente para incluir información sobre sus productos o servicios en [!D
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Después de crear o editar una fuente, esta se ejecuta inmediatamente y luego se actualiza según la configuración. La fuente debe sincronizarse, procesarse e indexarse antes de que sus datos estén disponibles. Compruebe el progreso de [Estado de la fuente](/help/main/c-recommendations/c-products/feeds.md#status) en la lista de [!UICONTROL Fuentes]. El procesamiento continúa aunque cierre [!DNL Target].
+Después de crear o editar una fuente, esta se ejecuta inmediatamente y luego se actualiza según la configuración. La fuente debe sincronizarse, procesarse e indexarse antes de que sus datos estén disponibles. El procesamiento continúa aunque cierre [!DNL Target] y puede seguir el progreso de la lista **[!UICONTROL Fuentes]** con el [estado de la fuente](/help/main/c-recommendations/c-products/feeds.md#status).
 
-Durante la indexación, los productos y los encabezados de fuente aparecen antes de los valores individuales, por lo que puede buscar productos y crear colecciones, exclusiones, diseños y actividades antes de que finalice la indexación.
+Durante la indexación, los productos y los encabezados de fuente aparecen antes de los valores individuales, por lo que ya puede buscar productos y crear colecciones, exclusiones, diseños y actividades.
 
-El estado &quot;Correcto&quot; significa que el archivo se encontró y analizó correctamente. Sus datos solo están disponibles en [!DNL Recommendations] después de la indexación, lo que lleva tiempo en función del tamaño del archivo. Los errores pueden deberse a una dirección URL o información de FTP incorrecta, a la falta de un archivo o a un error de análisis.
+El estado &quot;Correcto&quot; significa que el archivo se encontró y analizó correctamente. Sus datos solo están disponibles después de la indexación, lo que tarda más en archivos más grandes. Un error puede deberse a una dirección URL o información de FTP incorrecta, a la falta de un archivo o a un error de análisis.
 
-## Estados e indicadores de alimentación {#concept_E475986720D1400999868B3DFD14A7A0}
+## Estados e indicadores de fuente {#concept_E475986720D1400999868B3DFD14A7A0}
 
-Información sobre los posibles estados de alimentación y sus indicadores.
+En esta sección se describen los posibles estados de las fuentes y sus indicadores.
 
-### Estados de las fuentes {#status}
+### Estados de fuente {#status}
 
 Estos son los posibles estados de una fuente:
 
 | Estado | Descripción |
 |--- |--- |
-| [!UICONTROL Sincronizando] | Los detalles de configuración de fuente se están guardando en [!DNL Target]. |
-| [!UICONTROL Error de sincronización] | No se pudieron guardar los detalles de configuración de fuente en [!DNL Target]. Inténtelo de nuevo. |
-| [!UICONTROL Sin ejecución de fuente] | Ha creado una fuente, pero no se ha programado (la frecuencia se establece en Nunca). |
+| **[!UICONTROL Sincronizando]** | Los detalles de configuración de fuente se están guardando en [!DNL Target]. |
+| **[!UICONTROL Error de sincronización]** | No se pudieron guardar los detalles de configuración de fuente en [!DNL Target]. Inténtelo de nuevo. |
+| **[!UICONTROL Sin ejecución de fuente]** | Ha creado una fuente, pero no se ha programado (la frecuencia se establece en Nunca). |
 | Programado para *fecha y hora* | La fuente no se ha ejecutado, pero está programada para ejecutarse en la fecha y la hora establecidas. |
-| [!UICONTROL Esperando la descarga] | [!DNL Target] se está preparando para descargar el archivo de fuente. |
-| [!UICONTROL Descargando archivo de fuente] | [!DNL Target] está descargando el archivo de fuente. |
-| [!UICONTROL Importando elementos] | [!DNL Target] está importando elementos del archivo de fuente. |
-| Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, vuelva a intentarlo y actualice la página que contiene recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones aún no se reflejen en la interfaz de usuario de [!UICONTROL Catalog Search]. Aparece un estado separado en [!UICONTROL Búsqueda en el catálogo] que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
-| Error de importación parcial | Anteriormente, cuando no se cargaban todas las filas, la fuente se marcaba como correcta. Por lo tanto, si se crea la impresión de que todas las filas se han cargado mientras la fuente se muestra correctamente,<P>Este es un escenario de por qué podría encontrar una importación parcial de fuentes:<ul><li>Ha cargado un archivo de fuente para el entorno de producción; por ejemplo, 100 filas.</li><li>Se ejecutó la fuente, se cargaron 80 de esas filas y se perdieron 20 debido a un formato incorrecto, a que el campo superaba los caracteres, etc.</li><li>La fuente se marcó como correcta en la interfaz de usuario, lo que da la impresión de que se han cargado las 100 filas.</li><li>Está esperando algunos de esos 20 productos en el envío de una actividad, pero no está ocurriendo.</li><li> En este punto se siente desconcertado porque ha cargado la fuente que contiene los detalles del producto para los productos en cuestión. No lo ve en el servidor cuando realiza una consulta a través de la API de entidad, que le indica que no está en el servidor.</li></ul>Para eliminar esta confusión, se mejora el mensaje para indicar exactamente qué ha pasado con la fuente. En lugar de marcarlo como un éxito, ahora se marca como un error de importación parcial. |
-| [!UICONTROL No se pudo indexar] | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
-| [!UICONTROL Servidor No Encontrado] | Las ubicaciones de FTP, SFTP o URL no son válidas o no se puede acceder a ellas. |
+| **[!UICONTROL Esperando la descarga]** | [!DNL Target] se está preparando para descargar el archivo de fuente. |
+| **[!UICONTROL Descargando archivo de fuente]** | [!DNL Target] está descargando el archivo de fuente. |
+| **[!UICONTROL Importando elementos]** | [!DNL Target] está importando elementos del archivo de fuente. |
+| Fuente importada correctamente a las *horas* | [!DNL Target] ha importado el archivo de fuente en su sistema de entrega de contenido. Se han realizado cambios en los atributos del elemento en el sistema de entrega de contenido, y estos se reflejarán próximamente en las recomendaciones enviadas. Si no ve los cambios esperados, vuelva a intentarlo y actualice la página que contiene recomendaciones.<br>Notas:<ul><li>Si los cambios realizados en los atributos de un elemento resultan en la exclusión de un elemento de las recomendaciones, la exclusión se refleja inmediatamente. Si se agrega un elemento nuevo o los cambios en los atributos hacen que el elemento *ya no se excluya* de las recomendaciones, esto no se reflejará hasta la siguiente actualización del algoritmo, que se producirá en un plazo de 24 horas.</li><li>Cuando se muestra este estado, es posible que las actualizaciones aún no se reflejen en la interfaz de usuario de **[!UICONTROL Catalog Search]**. Aparece un estado separado en **[!UICONTROL Búsqueda en el catálogo]** que indica la última vez que se actualizó el catálogo en el que se puede buscar.</li></ul> |
+| Error de importación parcial | No se han cargado todas las filas del archivo de fuente. Ver [Error de importación parcial](#partial-import-failed). |
+| **[!UICONTROL No se pudo indexar]** | Se ha producido un error en la operación de indexación. Inténtelo de nuevo. |
+| **[!UICONTROL Servidor No Encontrado]** | Las ubicaciones de FTP, SFTP o URL no son válidas o no se puede acceder a ellas. |
 
-Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configuración o el archivo de la fuente), ábrala, aplique los cambios y haga clic en **[!UICONTROL Guardar]**.
+#### Error de importación parcial {#partial-import-failed}
 
->[!IMPORTANT]
->
->Las entidades cargadas caducan al cabo de 61 días. Esto significa que el archivo de fuentes debe cargarse al menos cada 60 días para evitar interrupciones en las actividades de Recommendations. Si un elemento no se incluye en un archivo de fuentes (u otro método de actualización de entidad) al menos una vez cada 60 días, [!DNL Target] deduce que el elemento ya no es relevante y lo elimina del catálogo.
+Anteriormente, cuando no se cargaban todas las filas, la fuente se marcaba como correcta. Esto daba la falsa impresión de que todas las filas se habían cargado. El mensaje ahora indica lo que ha sucedido: la fuente se marca como importación parcial fallida en lugar de correcta.
+
+El siguiente escenario muestra por qué se puede producir una importación parcial de fuentes:
+
+* Ha cargado un archivo de fuente para el entorno de producción; por ejemplo, 100 filas.
+* Se ejecutó la fuente, se cargaron 80 de esas filas y se perdieron 20 debido a un formato incorrecto, a que el campo superaba los caracteres, etc.
+* La fuente se marcó como correcta en la interfaz de usuario, lo que da la impresión de que se han cargado las 100 filas.
+* Está esperando algunos de esos 20 productos en el envío de una actividad, pero no está ocurriendo.
+* La fuente que ha cargado contiene los detalles del producto para los productos en cuestión, pero no los ve en el back-end cuando realiza una consulta a través de la API de entidad, lo que muestra que no están en el back-end.
+
+Para actualizar una fuente (por ejemplo, si quiere hacer cambios en la configuración o el archivo de la fuente), ábrala, aplique los cambios y haga clic en **[!UICONTROL Guardar]**. Las entidades cargadas caducan al cabo de 61 días. Consulte la nota en [Resumen de fuentes](#concept_D1E9C7347C5D4583AA69B02E79607890) para ver la frecuencia de carga.
 
 ### Indicadores de estado de fuente {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-En la columna [!UICONTROL Estado] se muestran los siguientes indicadores de estado de fuente:
+En la columna **[!UICONTROL Estado]** se muestran los siguientes indicadores de estado de fuente:
 
 | Indicador de estado | Descripción |
 |--- |--- |
@@ -367,7 +391,7 @@ El estado tendría que ser amarillo, ya que el índice se debe de haber ejecutad
 
 Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
 
-### Explicación de las fuentes en Recommendations (3:01) ![distintivo de información general](/help/main/assets/overview.png)
++++ Explicación de las fuentes en Recommendations
 
 Este vídeo contiene la información siguiente:
 
@@ -376,7 +400,9 @@ Este vídeo contiene la información siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33945?captions=spa)
 
-### Crear una fuente (6:44) ![Insignia de tutorial](/help/main/assets/tutorial.png)
++++
+
++++ Crear una fuente
 
 Este vídeo contiene la información siguiente:
 
@@ -384,3 +410,5 @@ Este vídeo contiene la información siguiente:
 * Qué tipo de fuente utilizar
 
 >[!VIDEO](https://video.tv.adobe.com/v/33944?captions=spa)
+
++++

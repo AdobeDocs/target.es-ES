@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 3%
@@ -50,7 +50,7 @@ El distintivo de ganador también aparece en la ventana emergente de informació
 
 >[!NOTE]
 >
->Las actividades de **[!UICONTROL Asignación automática]** se han diseñado para encontrar la mejor experiencia entre todas las opciones, no solo para hacer comparaciones por pares con el control.
+>Las actividades de **[!UICONTROL Asignación automática]** están diseñadas para encontrar la mejor experiencia entre todas las opciones, no solo para hacer comparaciones por pares con el control.
 
 ## Garantías estadísticas de [!UICONTROL asignación automática] {#statistical-guarantees}
 

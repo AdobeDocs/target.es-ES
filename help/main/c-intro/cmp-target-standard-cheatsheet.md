@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -133,9 +133,9 @@ Consulte el tipo de actividad [Segmentación automática](/help/main/c-activitie
 **¿Cómo puedo saber qué tipo de actividad se ajusta mejor a mis necesidades?**
 
 +++Ver detalles
-Lea la [Guía de actividades de Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) para entender los escenarios donde cada una de las opciones proporcionadas por [!DNL Target] tiene sentido.
+Lea la [Guía de actividades de Target](/help/main/c-activities/target-activities-guide.md) para entender los escenarios donde cada una de las opciones proporcionadas por [!DNL Target] tiene sentido.
 
-Asegúrese de tener en cuenta las [actividades de Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Asegúrese de tener en cuenta las [actividades de Recommendations](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -174,7 +174,7 @@ Por lo tanto, en este caso, puede elegir “Recuento de incrementos, Liberar usu
 **¿Cómo puedo tener claro cómo configurar una actividad para lograr mis objetivos?**
 
 +++Ver detalles
-Aquí es donde llegan los [objetivos](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
+Aquí es donde llegan los [objetivos](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 Debería comenzar por saber qué quiere optimizar. ¿Son [!UICONTROL Ingresos], [!UICONTROL Conversión] o [!UICONTROL Participación]? Cada una de estas opciones está disponible en la sección de objetivos. Y para cada uno de estos, puede definir qué acción tomará un usuario en su sitio para calificar que se ha alcanzado el objetivo.
 

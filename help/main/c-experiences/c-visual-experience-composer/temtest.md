@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 23%
@@ -45,7 +45,7 @@ Por ejemplo, puede utilizar esta característica para una de las operaciones sig
 
 Puede especificar páginas que incluyan los elementos modificados o aplicar los cambios a todo el sitio o dominio.
 
-1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md).
 
 1. Para especificar las páginas en las que aparecerá la experiencia, en el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono [!UICONTROL Configurar] ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
@@ -101,7 +101,7 @@ Puede considerar la posibilidad de utilizar reglas de plantilla para procesar la
 * Para incluir un banner global (por ejemplo, anuncios de COVID-19)
 * Para incluir una promoción de envío gratuito global
 
-1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md).
 
 1. Para especificar el dominio donde aparece la experiencia, en el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono [!UICONTROL Configurar] ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 

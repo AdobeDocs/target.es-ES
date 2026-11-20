@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # Pruebas A/A {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Una prueba A/A divide el tráfico entre dos experiencias idénticas. Dado que las experiencias no difieren, la prueba es una forma de comprobar que la actividad, la implementación y los informes funcionan según lo esperado. Aun así, las experiencias idénticas a veces pueden mostrar una diferencia en el alza. Explicación de por qué le ayuda a ejecutar la prueba e interpretar sus resultados correctamente.
+Una prueba A/A divide el tráfico entre dos experiencias idénticas, por lo que la prueba es una forma de comprobar que la actividad, la implementación y los informes funcionan según lo esperado. Aun así, las experiencias idénticas a veces pueden mostrar una diferencia en el alza. Explicación de por qué le ayuda a ejecutar la prueba e interpretar sus resultados correctamente.
 
 ## ¿Qué es la prueba A/A? {#what-is-aa}
 
