@@ -5,7 +5,6 @@ title: Información general del servidor MCP de Adobe Target
 description: Descubra qué es el servidor MCP de Adobe Target, sus funciones clave y cómo se conecta a su asistente de IA.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 product_v2:
@@ -24,9 +23,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8fd1b8e05c92c3e0b49f61b17fbf5fba522a8410
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1029'
 ht-degree: 0%
 ---
 # Servidor MCP [!DNL Adobe Target] {#target-mcp}
@@ -35,7 +34,7 @@ La integración de MCP [!DNL Adobe Target] le permite inspeccionar, analizar y a
 
 >[!AVAILABILITY]
 >
->El servidor MCP [!DNL Adobe Target] está disponible para todos los clientes en **Public Beta**. Actualmente es compatible con **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**. En futuras versiones se agregará compatibilidad con aplicaciones compatibles con MCP adicionales.
+>El servidor MCP [!DNL Adobe Target] es compatible actualmente con **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** y **ChatGPT**. En futuras versiones se agregará compatibilidad con aplicaciones compatibles con MCP adicionales.
 
 
 ## ¿Qué es el protocolo de contexto del modelo? {#mcp-overview}
