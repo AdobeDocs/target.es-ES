@@ -154,7 +154,7 @@ Si ha especificado &quot;la dirección URL es&quot; al crear la actividad en [re
 
 +++ Exploradores que bloquean cookies de terceros (at.js 1.*x*)
 
-Si tiene at.js 1.*x*, el modo **[!UICONTROL Control de calidad de la actividad]** no persiste en todas las páginas si utiliza Safari u otro explorador que bloquee cookies de terceros. En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que vaya. Lo mismo ocurre si ha implementado [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
+Si tiene at.js 1.*x*, el modo **[!UICONTROL Control de calidad de la actividad]** no persiste en todas las páginas si utiliza Safari u otro explorador que bloquee cookies de terceros. En estos casos, debe agregar los parámetros de vista previa a cada dirección URL a la que vaya. Lo mismo ocurre si ha implementado [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=es){target=_blank}.
 
 +++
 
@@ -204,8 +204,8 @@ En la tabla siguiente se enumeran los parámetros que se pueden ver incluidos en
 
 [!DNL Target] admite las siguientes bibliotecas de JavaScript:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=es)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es)
 
 En la tabla siguiente se enumeran los distintos tipos de actividades y se indica si se admite el modo **[!UICONTROL Control de calidad de la actividad]** para cada biblioteca:

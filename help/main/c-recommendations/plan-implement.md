@@ -2,7 +2,7 @@
 keywords: Recommendations;configuración;preferencias;sector;filtro de criterios incompatibles;grupo de hosts predeterminado;URL de base en miniatura;token de api de recomendaciones
 description: Obtenga información sobre cómo implementar actividades de Recommendations en Adobe Target.
 title: ¿Cómo Implemento Actividades De Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 TQID: 'https://experienceleague.adobe.com/MyhZmCNB7xHmJ38T7EiQ1YplcxBNi-0f-iz-h6sEXK8'
@@ -35,4 +35,4 @@ ht-degree: 18%
 
 Deben completarse varios pasos en el sitio antes de comenzar a usar [!DNL Adobe Target Recommendations]. La [Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank} describe cómo implementar [!DNL Recommendations] en el sitio, así como cómo implementar [!DNL Target].
 
-Para obtener más información e instrucciones paso a paso, consulte [Planificar e implementar Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} en el portal *Adobe Target Developer Guide*.
+Para obtener más información e instrucciones paso a paso, consulte [Planificar e implementar Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} en el portal *Adobe Target Developer Guide*.
