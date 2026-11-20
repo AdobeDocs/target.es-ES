@@ -2,7 +2,7 @@
 keywords: crear criterios personalizados;algoritmos;criterios;criterios de recomendaciones;csv;ftp;sftp;cargar csv
 description: Obtenga información sobre cómo cargar un archivo CSV para personalizar las recomendaciones en Adobe [!DNL Target] Recommendations.
 title: ¿Cómo puedo cargar criterios personalizados en [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 24%
@@ -61,7 +61,7 @@ Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear
 
    * **FTP:** Para cargar el archivo CSV desde un servidor FTP, seleccione **[!UICONTROL FTP]** y escriba la información requerida. Puede utilizar SSL, que utiliza el protocolo FTPS para transferir el archivo CSV de forma segura.
 
-   * **SFTP:** Para cargar el archivo CSV desde un servidor SFTP, seleccione **[!UICONTROL SFTP]** y, a continuación, introduzca el nombre de host o la dirección IP, el puerto (predeterminado 22), el nombre de usuario, una contraseña o una clave privada SSH, el directorio y el nombre de archivo. Para obtener más información, consulte [Configuración del servidor SFTP admitida](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+   * **SFTP:** Para cargar el archivo CSV desde un servidor SFTP, seleccione **[!UICONTROL SFTP]** y, a continuación, introduzca el nombre de host o la dirección IP, el puerto (predeterminado 22), el nombre de usuario, una contraseña o una clave privada SSH, el directorio y el nombre de archivo. Para obtener más información, consulte [Configuración del servidor SFTP admitida](/help/main/c-recommendations/c-products/feeds.md#steps).
 
      SFTP no cambia el formato CSV de criterios personalizados. Utilice el formato `# Key,Recommendation_1,...`; si utiliza un formato de tipo de fuente diferente, la importación fallará.
 
