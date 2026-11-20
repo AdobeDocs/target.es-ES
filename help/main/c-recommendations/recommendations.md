@@ -2,7 +2,7 @@
 keywords: Recommendations;criterios de Recommendations;algoritmos de Recommendations;actividad de Recommendations;criterios;direccionamiento en Recommendations;recommendations
 description: Obtenga información acerca de las actividades de Recommendations en Adobe [!DNL Target] que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos.
 title: ¿Qué es [!DNL Target] Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
@@ -26,29 +26,33 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: b31c0a47b82e0b96fa061075f1b8d388b6c0b567
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 88%
+source-wordcount: '861'
+ht-degree: 66%
 ---
-# Introducción a Recommendations
+# Introducción a Recommendations {#recommendations}
 
-Las actividades de [!DNL Adobe Target Recommendations] muestran automáticamente productos, servicios o contenido que podría interesar a sus visitantes en función de la actividad anterior del usuario, sus preferencias u otros criterios. [!DNL Target Recommendations] le ayuda a dirigir a los visitantes hacia artículos relevantes que es posible que no conozcan de otra manera. [!DNL Recommendations] le permite proporcionar a los visitantes contenido relevante en el momento y en el lugar adecuados.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conozca qué hace [!DNL Adobe Target Recommendations], cómo funciona una recomendación y los términos utilizados en esta sección.
+
+>[!ENDSHADEBOX]
+
+Las actividades de [!DNL Adobe Target Recommendations] muestran automáticamente productos, servicios o contenido que podría interesar a sus visitantes en función de la actividad anterior del usuario, sus preferencias u otros criterios. [!DNL Recommendations] dirige a los visitantes a elementos relevantes que es posible que no conozcan de otra manera y proporciona contenido relevante en el momento y en el lugar adecuados.
 
 >[!NOTE]
 >
 >Las actividades de [!DNL Recommendations] están disponibles como parte de la [solución Target Premium](/help/main/c-intro/intro.md#premium). No están disponibles en [!DNL Target Standard] sin una licencia de [!DNL Target Premium].
 >
->Si tiene [!DNL Recommendations Classic], para obtener más información acerca de las dos soluciones, consulte [Recommendations Classic comparado con Recommendations Activities en Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5).
+>Si tiene [!DNL Recommendations Classic], para obtener más información acerca de las dos soluciones, consulte [Recommendations Classic comparado con Recommendations Activities en Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-[!DNL Recommendations] le ayuda a optimizar y personalizar sugerencias en tiempo real en una variedad de canales, aplicaciones, páginas, mensajes de correo electrónico y otras opciones de entrega con el fin de aumentar la participación y la conversión, así como de reducir los esfuerzos de administración.
+[!DNL Recommendations] optimiza y personaliza las sugerencias en tiempo real en varios canales, aplicaciones, páginas, mensajes de correo electrónico y otras opciones de envío para aumentar la participación y la conversión, al tiempo que reduce el esfuerzo de administración. Con [!DNL Recommendations], puede:
 
-[!DNL Recommendations] ayuda a:
-
-* Crear criterios (reglas) sofisticados para automatizar las recomendaciones
-* Mostrar automáticamente las recomendaciones mediante algunos fragmentos de código JavaScript
-* Probar y optimizar los criterios de recomendaciones y los diseños que se muestran en las recomendaciones
-* Crear informes con los resultados de las actividades de Recommendations
+* Cree criterios sofisticados (reglas) para automatizar las recomendaciones.
+* Muestre las recomendaciones automáticamente utilizando algunos fragmentos de código de JavaScript.
+* Pruebe y optimice los criterios y los diseños que muestran las recomendaciones.
+* Crear informes con los resultados de las actividades de Recommendations.
 
 La siguiente ilustración muestra recomendaciones en una página web:
 
@@ -66,11 +70,11 @@ Para obtener más información sobre estos y otros criterios de [!DNL Recommenda
 
 ## Términos
 
-Antes de empezar a usar [!DNL Recommendations], es útil familiarizarse con algunos de los términos utilizados en esta sección. No se preocupe si todavía no comprende estos términos, se familiarizará con ellos al configurar sus actividades de [!DNL Recommendations].
+Antes de usar [!DNL Recommendations], familiarícese con los términos utilizados en esta sección. Estos términos se vuelven más claros a medida que configura sus actividades [!DNL Recommendations].
 
 | Término | Definición |
 | --- | --- |
-| Actividad | Las actividades de [!DNL Target] le permiten personalizar el contenido para públicos específicos y probar los diseños de página. [!DNL Recommendations] es solo uno de los muchos tipos de actividades disponibles en [!DNL Target]. Para obtener más información, consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md). |
+| Actividad | Las actividades de [!DNL Target] le permiten personalizar el contenido para públicos específicos y probar los diseños de página. [!DNL Recommendations] es uno de los tipos de actividades disponibles en [!DNL Target]. Para obtener más información, consulte [Tipos de actividades de Target](/help/main/c-activities/target-activities-guide.md). |
 | Entidades | Las entidades se refieren a los elementos que desea recomendar. Las entidades pueden ser productos, contenido (p. ej., artículos, presentaciones de diapositivas, imágenes, películas y programas de TV), ofertas de empleo, restaurantes, etcétera. Para obtener más información, consulte [Entidades](/help/main/c-recommendations/c-products/products.md). |
 | Fuentes | Las fuentes se utilizan para obtener entidades importadas en [!DNL Recommendations]. Las entidades se pueden enviar con archivos CSV, el formato de fuente de Google Product Search y las clasificaciones de productos de Adobe Analytics. Para obtener más información, consulte [Fuentes](/help/main/c-recommendations/c-products/feeds.md). |
 | Catálogo | Los catálogos hacen referencia a todo el conjunto de productos (entidades). El catálogo puede contener muchas colecciones, una forma de organizar los productos en bloques lógicos. |
@@ -78,7 +82,7 @@ Antes de empezar a usar [!DNL Recommendations], es útil familiarizarse con algu
 | Criterios | Los criterios son reglas que determinan qué productos se recomiendan en función de un conjunto predeterminado de comportamientos del visitante.<br>Algunos ejemplos de criterios son: <ul><li>Los usuarios que compraron esto, compraron aquello.</li><li>Los usuarios que vieron esto, vieron aquello.</li><li>Elementos con atributos similares.</li><li>Último artículo comprado</li><li>Categoría favorita</li></ul>  Para obtener más información, consulte [Criterios](/help/main/c-recommendations/c-algorithms/algorithms.md). |
 | Diseños | Los diseños definen el aspecto de las recomendaciones en una actividad de [!DNL Recommendations], como una fila, columna, tabla o cuadrícula. La ilustración de la parte superior de este artículo muestra un diseño de 4 x 1. Para obtener más información, consulte [Crear un diseño](/help/main/c-recommendations/c-design-overview/create-design.md). |
 | Ubicaciones | Las ubicaciones hacen referencia a un área de contenido específica de una página web, una aplicación móvil o un correo electrónico en la que ejecuta una actividad con fines de personalización y optimización. |
-| Públicos | Los públicos son grupos de participantes con características similares en una actividad a los se les mostrará una actividad segmentada. Un público es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La funcionalidad Público le permite segmentar contenido y experiencias diferentes para optimizar el marketing web mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Para obtener más información, consulte [Públicos](/help/main/c-target/target.md). |
+| Públicos | Las audiencias son grupos de participantes con características similares en una actividad a los se les muestra una actividad segmentada. Una audiencia es un grupo de personas con las mismas características, como un visitante nuevo, un visitante habitual o un visitante habitual de la zona oeste. La función Audiencia le permite segmentar contenido y experiencias diferentes hacia audiencias específicas para optimizar el marketing digital mostrando los mensajes adecuados para la persona adecuada y en el momento adecuado. Para obtener más información, consulte [Públicos](/help/main/c-target/target.md). |
 | Recomendaciones como oferta | Una funcionalidad que le permite incluir recomendaciones dentro de la prueba A/B (incluidas Asignación automática y Segmentación automática) y las actividades de direccionamiento de experiencias (XT). Para obtener más información, consulte [Recomendaciones como oferta](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Vídeo de aprendizaje: Tipos de actividades ![distintivo de Información general](/help/main/assets/overview.png)
@@ -89,7 +93,7 @@ En este vídeo se describen los tipos de actividades disponibles en [!DNL Target
 * Seleccionar el tipo de actividad adecuado para lograr los objetivos
 * Describir el flujo de trabajo guiado de tres pasos que sirve para todos los tipos de actividad
 
->[!VIDEO](https://video.tv.adobe.com/v/30103?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

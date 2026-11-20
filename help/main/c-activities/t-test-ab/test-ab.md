@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 19%
 ---
 # Introducción a las pruebas A/B {#test-ab}
@@ -41,7 +41,7 @@ Una actividad manual de **[!UICONTROL Prueba A/B]** (a veces denominada prueba A
 Utilice una prueba A/B manual cuando:
 
 * Tiene una hipótesis clara de las formas de mejorar el rendimiento de su página, en función de las métricas de éxito o de la entrega de contenido alternativo.
-* Desea probar cambios grandes, como nuevos diseños o tratamientos drásticamente diferentes de los elementos. Si el diseño de la prueba no se desglosa fácilmente en elementos de página individuales, debe ejecutar una prueba A/B antes de ejecutar una [prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+* Desea probar cambios grandes, como nuevos diseños o tratamientos drásticamente diferentes de los elementos. Si el diseño de la prueba no se puede dividir en elementos de página individuales, debe ejecutar una prueba A/B antes de ejecutar una [prueba multivariable](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
 * Desea decidir el porcentaje de visitantes que ven cada experiencia. Por ejemplo, puede dividir el tráfico de forma uniforme entre el control y una segunda experiencia, o puede probar una experiencia nueva y más arriesgada mostrándola solo al 5 % de la audiencia.
 
 Para obtener información detallada sobre cómo determinar el tamaño de muestra óptimo para una prueba A/B, consulte [Planificación de la prueba A/B](/help/main/c-activities/t-test-ab/sample-size-determination.md).

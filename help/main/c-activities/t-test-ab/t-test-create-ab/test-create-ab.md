@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Crear una actividad de prueba A/B {#create-ab-activity}
@@ -42,7 +42,7 @@ Use **[!UICONTROL Compositor de experiencias visuales]** (VEC) en [!DNL Adobe Ta
 
 >[!NOTE]
 >
->Además de la actividad **[!UICONTROL Prueba A/B]** manual **(predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de**&#x200B;[!UICONTROL &#x200B; Prueba A/B &#x200B;]&#x200B;**:**&#x200B;[!UICONTROL &#x200B; Asignación automática &#x200B;]&#x200B;**y**&#x200B;[!UICONTROL &#x200B; Segmentación automática &#x200B;]&#x200B;**.**
+>Además de la actividad **[!UICONTROL Prueba A/B]** manual ]**(predeterminada) (que se describe en este artículo), [!DNL Target] proporciona dos tipos adicionales de actividades de**[!UICONTROL  Prueba A/B ]**:**[!UICONTROL  Asignación automática ]**y**[!UICONTROL  Segmentación automática ]**.**[!UICONTROL 
 >
 >Consulte [Tipos de actividades de pruebas A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) en *Información general sobre las pruebas A/B*.
 
@@ -134,7 +134,7 @@ El diagrama de flujo le guía a través de la asignación de una audiencia y su 
 
    +++
 
-1. Haga clic en el control **[!UICONTROL Asignación del tráfico]** y, a continuación, elija un método de asignación del tráfico en el panel derecho. Consulte [Métodos de asignación de tráfico](#traffic-allocation-methods).
+1. Haga clic en el control **[!UICONTROL Asignación del tráfico]** y, a continuación, elija un método de asignación del tráfico en el panel derecho. Los métodos disponibles se enumeran en la tabla siguiente.
 
    ![Configuración del método de asignación de tráfico](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -143,7 +143,7 @@ El diagrama de flujo le guía a través de la asignación de una audiencia y su 
    | Método | Qué hace |
    |---|---|
    | **[!UICONTROL Manual (predeterminado)]** | Especifique el porcentaje de visitantes que quiere que vean cada experiencia. Puede dividir los porcentajes de manera uniforme entre todas las experiencias, o especificar porcentajes superiores o inferiores para cada experiencia. El total de todas las experiencias debe ser igual al 100%. |
-   | **[!UICONTROL Asignación automática a la mejor experiencia]** | La mayoría de los participantes en la actividad se dirigen automáticamente a experiencias de mejor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Para obtener más información, consulte [**[!UICONTROL Información general sobre la asignación automática &#x200B;]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
+   | **[!UICONTROL Asignación automática a la mejor experiencia]** | La mayoría de los participantes en la actividad se dirigen automáticamente a experiencias de mejor rendimiento. Algunos visitantes se asignan a todas las experiencias para mantener la exploración de las experiencias y para detectar cambios en las tendencias de rendimiento. Para obtener más información, consulte [**[!UICONTROL Información general sobre la asignación automática ]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
    | **[!UICONTROL Segmentación automática para experiencias personalizadas]** | [!DNL Target] utiliza aprendizaje automático avanzado para personalizar el contenido y dirigir las conversiones al identificar varias experiencias de alto rendimiento definidas por expertos en marketing; a continuación, ofrece a los visitantes la experiencia más adaptada en función de sus perfiles de cliente y del comportamiento pasado de visitantes similares. Para obtener más información, consulte [Información general sobre la segmentación automática](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++
@@ -156,7 +156,7 @@ El diagrama de flujo le guía a través de la asignación de una audiencia y su 
 
 En la página **[!UICONTROL Objetivos y configuración]**, le dices a [!DNL Target] cómo medir la actividad. La configuración disponible depende de si usa [!DNL Target] o [Analytics como fuente de informes](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-1. Revise las secciones de la página y configure lo que necesite. Ver [Lo que configuraste en la página Objetivos y configuración](#goals-settings-overview).
+1. Revise las secciones de la página y configure lo que necesite. Ver [Lo que configuraste en la página Objetivos y configuración](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Sección | Lo que ha configurado |
    |---|---|

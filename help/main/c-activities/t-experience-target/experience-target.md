@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # Introducción a [!UICONTROL Segmentación de experiencias] {#get-started-xt}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Cuando los visitantes ven el sitio, [!UICONTROL Segmentación de experiencias] evalúa a esos visitantes para determinar si cumplen con los criterios establecidos. Si cumplen los criterios, entran en la actividad y se muestra la experiencia diseñada para la audiencia correspondiente.
 
-[!UICONTROL Segmentación de experiencias] es un primer paso en el mundo de la personalización y a menudo comienza con las pruebas A/B. Un especialista en marketing realiza una prueba A/B y, al usar las audiencias de informes, detecta que cada experiencia estimula a una audiencia diferente. [!UICONTROL Segmentación de experiencias] permite que el especialista en mercadotecnia utilice fácilmente esa detección y cambie a la segmentación de contenido a largo plazo para esos distintos segmentos de audiencia.
+[!UICONTROL Segmentación de experiencias] es un primer paso en el mundo de la personalización y a menudo comienza con las pruebas A/B. Un especialista en marketing realiza una prueba A/B y, al usar las audiencias de informes, detecta que cada experiencia estimula a una audiencia diferente. [!UICONTROL Segmentación de experiencias] permite al especialista en mercadotecnia usar esa detección y cambiar a la segmentación de contenido a largo plazo para los distintos segmentos de audiencia.
 
 ## Escenario: de pruebas A/B a segmentación de experiencias {#xt-scenario}
 
@@ -54,6 +54,6 @@ Una actividad [!UICONTROL Segmentación de experiencias] le permite segmentar es
 * Ofrezca contenido específico de la ubicación a audiencias en diferentes áreas geográficas, creando experiencias dirigidas a ambos estados y una tercera experiencia dirigida a los aficionados del ciclismo.
 * Reordene las tres experiencias para asegurarse de que el contenido correcto se entrega a la audiencia correcta.
 
->[!VIDEO](https://video.tv.adobe.com/v/38303?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 Después de ver el vídeo, continúa con [Crear una actividad de segmentación de experiencias](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).

@@ -19,7 +19,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 16%
@@ -58,9 +58,9 @@ Mientras [crea una actividad **[!UICONTROL de segmentación de experiencias]**](
 
    +++ Más información sobre las audiencias
 
-   La biblioteca de públicos contiene los públicos que se han definido anteriormente, entre los que se incluyen algunos públicos comunes predefinidos como parte de [!DNL Target]. Puede seleccionar un público de la biblioteca o [crear un público nuevo](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   La biblioteca de públicos contiene los públicos que se han definido anteriormente, entre los que se incluyen algunos públicos comunes predefinidos como parte de [!DNL Target]. Puede seleccionar un público de la biblioteca o [crear un público nuevo](/help/main/c-target/c-audiences/audiences.md).
 
-   Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Además de seleccionar una audiencia existente, puede combinar varias audiencias para crear audiencias combinadas bajo demanda en lugar de crear una nueva. Para obtener más información, consulte [Combinar varios públicos](/help/main/c-target/combining-multiple-audiences.md).
 
    Al crear una audiencia, puede seleccionar una ubicación y especificar parámetros para esa ubicación. En **[!UICONTROL Personalizado]** (**[!UICONTROL Crear audiencia]** > **[!UICONTROL Personalizado]**), seleccione la ubicación y, a continuación, especifique los parámetros que desee.
 

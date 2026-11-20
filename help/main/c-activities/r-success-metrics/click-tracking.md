@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 50%
@@ -98,7 +98,7 @@ Si ya conoce la ruta DOM al selector, puede agregarla manualmente si hace clic e
 
   Para obtener más información, consulte [Desplazamiento por elementos utilizando la ruta DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) en *Opciones del Compositor de experiencias visuales*.
 
-* Puede buscar una página diferente para rastrear clics en una página donde podría no estar modificando contenido. Se debe incluir esta página diferente en la actividad que usa la [característica multipágina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) y se debe implementar [!DNL at.js] en ella.
+* Puede buscar una página diferente para rastrear clics en una página donde podría no estar modificando contenido. Se debe incluir esta página diferente en la actividad que usa la [característica multipágina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) y se debe implementar [!DNL at.js] en ella.
 * Asegúrese de seleccionar el nivel de elemento que desee rastrear. Por ejemplo, al especificar un botón, asegúrese de seleccionar el vínculo y no el texto del botón.
 * Si selecciona más de un elemento, si un participante hace clic en cualquiera de los elementos elegidos, se cuenta el clic. Para contar cada elemento por separado, configure métricas de éxito individuales para cualquier elemento. Para contar un elemento haciendo clic en varios elementos de una página, edite el selector de elementos CSS para que coincida con varios elementos.
 * Para las actividades de **[!UICONTROL Automated Personalization]** (AP) y Segmentación automática en aplicaciones de una sola página (SPA), puede seleccionar elementos para el rastreo de clics que pertenezcan a una vista [!DNL Target] específica. Para obtener más información acerca de las vistas, vea [Vistas de Adobe Target y Aplicaciones de una sola página](/help/main/c-experiences/spa-visual-experience-composer.md).
@@ -150,4 +150,4 @@ Este vídeo contiene información sobre la creación de métricas de éxito del 
 * Comprenda y cree las métricas **[!UICONTROL Conversión]**, **[!UICONTROL Ingresos]** y **[!UICONTROL Participación]**
 * Compilar una métrica para el rastreo de clics
 
->[!VIDEO](https://video.tv.adobe.com/v/3507818?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

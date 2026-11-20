@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e43265e56e7add690f33a4cd19990bed55a82123
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '3146'
-ht-degree: 43%
+source-wordcount: '3140'
+ht-degree: 42%
 ---
 # ¿Durante cuánto tiempo se debe ejecutar una prueba A/B? {#sample-size-determination}
 
@@ -64,7 +64,7 @@ Antes de configurar su prueba A/B, acceda a la [!DNL Adobe Target] [Calculadora 
 
 ![Calculadora de tamaño de muestra de Adobe Target.](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-Es importante determinar un tamaño de muestra adecuado (número de visitantes) antes de realizar cualquier prueba A/B para establecer el tiempo que la actividad debe ejecutarse antes de evaluar los resultados. El simple seguimiento de la actividad hasta que se alcance la relevancia estadística provoca que el intervalo de confianza se subestime enormemente, lo que hace que la prueba no sea fiable. La intuición detrás de este resultado es que, en caso de que se detecte un resultado estadísticamente significativo, se detenga la prueba y se declare un ganador. Sin embargo, si el resultado no es estadísticamente significativo, la prueba puede continuar. Este procedimiento favorece enormemente un resultado positivo, que aumenta la tasa de falsos positivos y, por tanto, distorsiona el nivel de relevancia estadística de la prueba.
+Es importante determinar un tamaño de muestra adecuado (número de visitantes) antes de realizar cualquier prueba A/B para establecer el tiempo que la actividad debe ejecutarse antes de evaluar los resultados. La monitorización de la actividad hasta que se alcance la relevancia estadística provoca que el intervalo de confianza se subestime enormemente, lo que hace que la prueba no sea fiable. La intuición detrás de este resultado es que, en caso de que se detecte un resultado estadísticamente significativo, se detenga la prueba y se declare un ganador. Sin embargo, si el resultado no es estadísticamente significativo, la prueba puede continuar. Este procedimiento favorece enormemente un resultado positivo, que aumenta la tasa de falsos positivos y, por tanto, distorsiona el nivel de relevancia estadística de la prueba.
 
 Este procedimiento puede dar como resultado muchos falsos positivos, lo que conduce a la implementación de ofertas que no entregan el alza predicha al final. El alza deficiente en sí es un resultado insatisfactorio, pero una consecuencia aún más grave es que, con el tiempo, la incapacidad para predecir con precisión el alza erosiona la confianza de la organización en las pruebas como práctica.
 
@@ -119,7 +119,7 @@ Es deseable utilizar el nivel de confianza más alto posible, de modo que la pru
 
 ### Potencia estadística {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-La potencia estadística de una prueba A/B es la probabilidad de detectar una diferencia real en la tasa de conversión de una determinada magnitud. Debido a la naturaleza aleatoria (estocástica) de los eventos de conversión, es posible que no se observe una diferencia estadísticamente significativa, solo por casualidad, aunque haya una diferencia real en la tasa de conversión entre las dos ofertas. Este escenario se denomina &quot;falso negativo&quot; o &quot;error de tipo II&quot;.
+La potencia estadística de una prueba A/B es la probabilidad de detectar una diferencia real en la tasa de conversión de una determinada magnitud. Es posible que no se observe una diferencia estadísticamente significativa, por casualidad, aunque exista una diferencia real en la tasa de conversión entre las dos ofertas, debido a la naturaleza aleatoria (estocástica) de los eventos de conversión. Este escenario se denomina &quot;falso negativo&quot; o &quot;error de tipo II&quot;.
 
 La potencia estadística a menudo se ignora porque en una prueba A/B no es necesario determinarla, al contrario de lo que ocurre con la relevancia estadística. Sin embargo, si se ignora la potencia estadística, existe una probabilidad sustancial de que la prueba no detecte las diferencias reales entre las tasas de conversión de distintas ofertas porque el tamaño de la muestra es demasiado pequeño. Esta situación hace que las pruebas estén dominadas por falsos positivos.
 
@@ -139,7 +139,7 @@ En la siguiente imagen se muestran estas distribuciones de probabilidad.
 
 ![Distribuciones de probabilidad de las tasas de conversión observadas de las ofertas A y B con 100 visitantes cada una: las curvas se superponen con fuerza](assets/probability_distributions.png)
 
-Debido al gran solapamiento entre los dos rangos, la prueba no puede determinar si las tasas de conversión son diferentes. Por tanto, esta prueba con 100 visitantes no puede distinguir entre las dos ofertas. Sin embargo, si [!DNL Target] expone las ofertas a 5000 visitantes cada una, existe una probabilidad del 95 % de que las tasas de conversión observadas caigan en los intervalos del 9 % al 11 % y del 14 % al 16 %, respectivamente.
+Los dos intervalos se superponen en gran medida, por lo que la prueba no puede determinar si las tasas de conversión son diferentes. Por tanto, esta prueba con 100 visitantes no puede distinguir entre las dos ofertas. Sin embargo, si [!DNL Target] expone las ofertas a 5000 visitantes cada una, existe una probabilidad del 95 % de que las tasas de conversión observadas caigan en los intervalos del 9 % al 11 % y del 14 % al 16 %, respectivamente.
 
 ![Distribuciones de probabilidad de las tasas de conversión observadas de las ofertas A y B con 5000 visitantes cada una: las curvas no se superponen](assets/probability_distributions2.png)
 

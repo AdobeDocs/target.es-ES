@@ -4,12 +4,18 @@ description: Aprenda a utilizar las perspectivas y oportunidades de optimizació
 title: Información sobre IA en la Información general de actividad
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# Información de IA
+# Información de IA {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar el menú de **[!UICONTROL perspectivas de IA]** de [!DNL Adobe Target] **[!UICONTROL Información general de la actividad]** para revisar las lecciones aprendidas durante los experimentos, comparar tratamientos e identificar oportunidades de optimización.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -1,6 +1,6 @@
 ---
 keywords: público;reglas de público;combinar públicos;combinación de públicos;exclusión;añadir exclusión;excluir;público específico
-description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experience Cloud y  [!DNL Target] audiencias) sobre la marcha para crear audiencias específicas.
+description: Aprenda a combinar varias audiencias (incluidas las de Adobe Experience Cloud y las de [!DNL Target]) sobre la marcha para crear audiencias específicas.
 title: ¿Puedo combinar varias audiencias para crear una nueva audiencia?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
@@ -16,20 +16,18 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '965'
 ht-degree: 58%
-
 ---
-
 # Combinación de varios públicos
 
 Combine varias audiencias (incluidas las audiencias [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] y [!DNL Target]) sobre la marcha para crear audiencias específicas. También puede crear reglas de exclusión y excluir audiencias de una regla.
 
 >[!NOTE]
 >
->El origen de [!DNL Adobe Experience Platform] está disponible para todos los clientes de [!DNL Target] que usan [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=es){target=_blank}. Las audiencias disponibles de [!DNL Adobe Experience Platform] se pueden usar tal cual o combinadas con audiencias existentes, como se explica en este tema.
+>El origen de [!DNL Adobe Experience Platform] está disponible para todos los clientes de [!DNL Target] que usan [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Las audiencias disponibles de [!DNL Adobe Experience Platform] se pueden usar tal cual o combinadas con audiencias existentes, como se explica en este tema.
 >
 >Para obtener más información, consulte [Usar audiencias de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -45,7 +43,7 @@ Puede crear y usar públicos combinados en varios lugares de la interfaz de usua
 
 Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] de la actividad durante el flujo de trabajo guiado de tres pasos.
 
-1. Al crear una [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Segmentación]**, haga clic en los tres puntos verticales y luego haga clic en **[!UICONTROL Reemplazar audiencia]**.
+1. Al crear una [actividad](/help/main/c-activities/activities.md), en la página **[!UICONTROL Segmentación]**, haga clic en los tres puntos verticales y luego haga clic en **[!UICONTROL Reemplazar audiencia]**.
 
    ![Resultado del paso](assets/edit_audience.png)
 
@@ -95,7 +93,7 @@ Puede crear una audiencia combinada ad hoc en la página de [!UICONTROL Target] 
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en la segmentación de métrica. Por ejemplo, para crear una segmentación según la conversión empleando una audiencia combinada:
 
-1. Al editar o crear una [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]**, seleccione **[!UICONTROL Conversión]** para la métrica de éxito y, a continuación, seleccione **[!UICONTROL Visualizó un Mbox]** como acción.
+1. Al editar o crear una [actividad](/help/main/c-activities/activities.md), en la página **[!UICONTROL Objetivos y configuración]**, seleccione **[!UICONTROL Conversión]** para la métrica de éxito y, a continuación, seleccione **[!UICONTROL Visualizó un Mbox]** como acción.
 1. Elija el mbox que quiera en el campo **[!UICONTROL Buscar mbox]**.
 
    ![combinar_múltiples_audiencias4 imagen](assets/combine_multiple_audiences4.png)
@@ -111,7 +109,7 @@ Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y
 
 Puede crear una audiencia combinada ad-hoc en la página [!UICONTROL Objetivos y configuración] de la actividad para usarla en los informes.
 
-1. Al editar o crear una [actividad](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), en la página **[!UICONTROL Objetivos y configuración]**, haga clic en el icono **[!UICONTROL Agregar audiencia]** debajo de [!UICONTROL Audiencias para informes] para mostrar la página [!UICONTROL Elegir audiencia].
+1. Al editar o crear una [actividad](/help/main/c-activities/activities.md), en la página **[!UICONTROL Objetivos y configuración]**, haga clic en el icono **[!UICONTROL Agregar audiencia]** debajo de [!UICONTROL Audiencias para informes] para mostrar la página [!UICONTROL Elegir audiencia].
 
    ![combinar_múltiples_audiencias6 imagen](assets/combine_multiple_audiences6.png)
 

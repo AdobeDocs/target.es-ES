@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ Utilice estas métricas para comprender con qué frecuencia se utilizan las prue
 
 ![](assets/insights-7.png){align="center"}
 
-El gráfico **[!UICONTROL Actividades a lo largo del tiempo]** registra la cantidad de actividades creadas, modificadas y publicadas en el intervalo de tiempo seleccionado, lo que facilita la detección de tendencias, picos o períodos de inactividad en el programa de experimentación.
+El gráfico **[!UICONTROL Actividades a lo largo del tiempo]** registra la cantidad de actividades creadas, modificadas y publicadas en el intervalo de tiempo seleccionado, de modo que pueda identificar tendencias, picos o períodos de inactividad en su programa de experimentación.
 

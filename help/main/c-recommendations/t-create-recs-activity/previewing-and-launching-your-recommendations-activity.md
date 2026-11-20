@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 13%
@@ -82,7 +82,7 @@ El uso de un vínculo de control de calidad le permite obtener una vista previa 
 
 >[!NOTE]
 >
->* El modo de control de calidad de Target es &quot;adhesivo&quot; y se guarda en una cookie. Si no sale del modo de control de calidad, seguirá viendo los resultados de dicho control en todo el sitio. Para salir del modo de control de calidad, use [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* El modo de control de calidad [!DNL Target] se guardó en una cookie y persiste entre páginas. Si no sale del modo de control de calidad, seguirá viendo los resultados de dicho control en todo el sitio. Para salir del modo de control de calidad, use [bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
 >* En el modo de control de calidad, examinar el sitio no afectará los [!UICONTROL elementos vistos recientemente] ni los [!UICONTROL elementos comprados recientemente] de su perfil. Este comportamiento se produce por diseño para evitar la contaminación no intencionada de los datos de comportamiento de la producción. Para obtener una vista previa de los resultados de los criterios de [!UICONTROL Elementos vistos recientemente] o [!UICONTROL Recomendaciones basadas en las preferencias del usuario], primero examine el sitio fuera del modo de control de calidad y, a continuación, utilice la misma sesión para abrir un vínculo del modo de control de calidad.
 

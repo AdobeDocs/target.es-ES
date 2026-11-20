@@ -2,7 +2,7 @@
 keywords: Recommendations;introducción;seminario web;demostración
 description: Obtenga información acerca de las actividades de Recommendations en Adobe [!DNL Target] que muestran automáticamente contenido que podría interesar a sus clientes en función de la actividad previa del usuario u otros algoritmos.
 title: ¿Qué son las actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 TQID: 'https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks'
@@ -32,190 +32,118 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 79%
+source-wordcount: '1633'
+ht-degree: 9%
 ---
-# Introducción a Recommendations
+# Introducción a Recommendations {#introduction-to-recommendations}
 
-El texto de este artículo se obtiene del seminario web *Introducción a Recommendations*, que puede ver íntegramente a continuación.
+>[!BEGINSHADEBOX]
 
-El seminario web *Introducción a Recommendations* incluye una exploración exhaustiva de cómo aprovechar el valor de [!DNL Adobe Target Recommendations]. Descubra cómo esta actividad [!DNL Target] muestra automáticamente los productos o el contenido que pueda interesar a sus clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. Además, sumérjase en la interfaz de usuario de [!DNL Target] para obtener información general paso a paso sobre cómo generar una actividad de [!DNL Recommendations].
+**En esta página:** aprenda cómo las actividades de [!DNL Recommendations] en [!DNL Adobe Target] muestran productos o contenido relevantes a los visitantes, y cómo planificar y generar una implementación y actividad de [!DNL Recommendations].
+
+>[!ENDSHADEBOX]
+
+Esta página se basa en el seminario web *Introducción a Recommendations*. Una actividad de [!DNL Recommendations] muestra automáticamente productos o contenido que podría interesar a los clientes optimizando las sugerencias en tiempo real en función de las visitas anteriores. La página también describe cómo generar una actividad [!DNL Recommendations] en la interfaz de usuario de [!DNL Target].
 
 ## Primeros pasos
 
-Todos conocemos los tipos de recomendaciones que vemos en el comercio minorista. Los clientes esperan cada vez más este tipo de recomendaciones y las utilizan como punto de partida para explorar otras opciones disponibles. Si piensa en sus propios comportamientos al ir a la compra, este tipo de recomendaciones funcionan bien. Casi todos hemos comprado un producto que vimos primero en una recomendación en algún lugar, ya sea en una tienda o en una propiedad digital.
+Los clientes esperan cada vez más recomendaciones y las utilizan como punto de partida para explorar otras opciones disponibles. Casi todos han comprado un producto que vieron por primera vez en una recomendación, ya sea en una tienda o en una propiedad digital.
 
-La siguiente ilustración muestra una recomendación con accesorios que comúnmente se compran con un nuevo teléfono, incluidas estaciones de carga, carcasas y auriculares.
+![Recomendación que muestra accesorios que comúnmente se compran con un nuevo teléfono, incluidas estaciones de carga, estuches y auriculares.](/help/main/c-recommendations/assets/intro-1.png)
 
-![Recomendación que muestra accesorios que otros usuarios compraron junto a un nuevo teléfono.](/help/main/c-recommendations/assets/intro-1.png)
+La forma en que la gente consume medios y contenido está cada vez más impulsada por recomendaciones personalizadas, y marcas digitales como Netflix, Spotify y YouTube inician la experiencia del cliente con recomendaciones. Dado que hay más alternativas que nunca, es fundamental identificar el contenido más relevante para un cliente en el momento de la interacción.
 
-Pero lo que no siempre pensamos es cómo las marcas digitales aumentan las expectativas de los clientes. Cada vez más, la forma en la que consumimos medios y contenido depende de recomendaciones personalizadas. Piense en lo primero que ve al abrir Netflix, Spotify o YouTube. Estas marcas inician la experiencia del cliente con recomendaciones. En un mundo en el que hay más alternativas que nunca, es fundamental que identifique el contenido más relevante para su cliente en el momento de la interacción.
+Los especialistas en marketing utilizan [!DNL Adobe Target] para impulsar experiencias personalizadas en una amplia variedad de industrias, tipos de clientes y canales. En la tabla siguiente se muestran algunos ejemplos de cómo los clientes utilizan [!DNL Target] para ofrecer recomendaciones personalizadas.
 
-![Recomendación que muestra marcas digitales](/help/main/c-recommendations/assets/intro-2.png)
+| Caso de uso | Ejemplo |
+|---|---|
+| Publicación | Los editores web utilizan [!DNL Target Recommendations] para recomendar artículos a los visitantes del sitio y aumentar la participación. |
+| Tutoriales en vídeo | [!DNL Adobe Creative Cloud] usa [!DNL Target] para recomendar tutoriales de vídeo a usuarios de Photoshop en la aplicación de Photoshop. |
+| Juegos | Las empresas de juegos usan [!DNL Target] para recomendar juegos y contenido a los usuarios de sus consolas. |
+| Ventas B2B | Las empresas entre empresas utilizan [!DNL Target] para recomendar vídeos, documentos técnicos y anuncios de blogs a posibles clientes B2B, entregar descargas y proporcionar ayuda a los clientes existentes. |
+| Viajes | Un vendedor de viajes alemán usa [!DNL Target] para recomendar hoteles (entre otras cosas) a los viajeros. Para obtener más información, consulte [Adobe Summit session](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608){target=_blank}. |
+| Comercial | Un retailer líder B2B usa [!DNL Target] para recomendar categorías y productos principales para los visitantes de retorno en el explorador y en su aplicación móvil. |
 
-Los especialistas en marketing utilizan [!DNL Adobe Target] para impulsar experiencias personalizadas en una amplia variedad de industrias, tipos de clientes y canales.
+## Elementos de buenas recomendaciones
 
-[!DNL Adobe Target] ofrece contenido personalizado en todas partes.
+Las mejores recomendaciones son relevantes y personalizadas. Tres elementos impulsan la relevancia y la personalización:
 
-![Ilustración que muestra cómo Target entrega recomendaciones en varios lugares](/help/main/c-recommendations/assets/intro-3.png)
-
-* **Publicación**: Los editores web utilizan [!DNL Target Recommendations] para recomendar artículos a los visitantes del sitio y aumentar la participación.
-* **Tutoriales de vídeo**: [!DNL Adobe Creative Cloud] Utiliza [!DNL Target] para recomendar tutoriales de vídeo a usuarios de Photoshop en la aplicación Photoshop.
-* **Juegos**: Las empresas de juegos utilizan [!DNL Target] para recomendar juegos y contenido a los usuarios de sus consolas.
-* **Ventas B2B**: Las empresas B2B utilizan Target para recomendar vídeos, documentos técnicos y anuncios de blogs a posibles clientes B2B; proporcionar descargas y ayudar a los clientes existentes.
-
-* **Viajes**: [Un vendedor de viajes alemán usa Target para recomendar hoteles (entre otras cosas) a los viajeros](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
-
-* **Comercio minorista**: un retailer líder B2B usa [!DNL Target] para recomendar categorías y productos principales para los visitantes de retorno en el explorador y en su aplicación móvil.
-
-Estas son solo algunas de las formas en que los clientes utilizan Target para ofrecer recomendaciones personalizadas.
-
-¿Cuál es el secreto de una buena recomendación?
-
-![Ilustración que muestra los tres elementos clave de las recomendaciones](/help/main/c-recommendations/assets/intro-4.png)
-
-Las mejores recomendaciones son relevantes y personalizadas. Esto significa que necesita tres cosas para potenciar la relevancia y la personalización:
-
-* **Controles de experto en marketing** para ayudar a aumentar la relevancia de los artículos recomendados. Como experto en marketing, proporciona un contexto valioso y sabe qué atributos de los productos o del contenido son relevantes para considerar en un modelo de recomendaciones. Si está ejecutando un sitio de vídeo, sabe que los usuarios pueden estar interesados en ver películas del mismo director, pero probablemente no les importe ver películas producidas por el mismo estudio. [!DNL Target] le otorga los controles que le permiten mejorar los algoritmos con este conocimiento del dominio.
-* **Modelos sofisticados** para dar sentido a los millones de artículos en los eventos de catálogo y de interacción. [!DNL Target] tiene funcionalidades sofisticadas de aprendizaje automático creadas durante más una década de experiencia. Gestionamos miles de millones de recomendaciones al año.
-* **Contexto del usuario** para garantizar que las recomendaciones sean oportunas y relevantes para el mismo. No desea recomendar el vídeo que alguien acaba de ver o la camiseta que alguien acaba de agregar al carro de compras. El perfil de usuario enriquecido de Target se puede utilizar en las recomendaciones para garantizar la personalización.
+* **Controles de experto en marketing** para aumentar la relevancia de los elementos recomendados. Los especialistas en marketing saben qué atributos de sus productos o contenido debe tener en cuenta un modelo de recomendaciones. Por ejemplo, en un sitio de vídeo, los usuarios pueden estar interesados en películas del mismo director, pero probablemente no en películas del mismo estudio. [!DNL Target] proporciona controles para mejorar los algoritmos con este conocimiento del dominio.
+* **Modelos sofisticados** para dar sentido a los millones de elementos de catálogo y a los eventos de interacción. [!DNL Target] tiene capacidades de aprendizaje automático creadas durante más de una década de experiencia y administra miles de millones de recomendaciones por año.
+* **Contexto de usuario** para garantizar que las recomendaciones sean oportunas y relevantes. Por ejemplo, las recomendaciones no deben incluir el vídeo que alguien acaba de ver ni la camiseta que alguien acaba de agregar al carro de compras. El perfil de usuario [!DNL Target] se puede usar en las recomendaciones para garantizar la personalización.
 
 ## Implementación de Recommendations de [!DNL Target]
 
-Comience con una estrategia.
+Comience con una estrategia que defina los siguientes puntos:
 
-![Ilustración que muestra la estrategia de recomendaciones](/help/main/c-recommendations/assets/intro-5.png)
+* **Elementos para recomendar**: Productos, vídeos o contenido.
+* **Ubicaciones para recomendaciones**: Los canales (web, móvil, en tienda, un quiosco, etc.), las partes del recorrido del cliente y las páginas del sitio que contienen recomendaciones.
+* **Medición de éxito**: Cómo determinar si las recomendaciones son exitosas, por ejemplo, comparando una experiencia sin recomendaciones con una experiencia con recomendaciones, o comparando dos tipos diferentes de recomendaciones. Algunas métricas, como el impacto en el valor de duración del cliente, son difíciles de medir directamente, por lo que una métrica más concreta suele ser más fácil de usar, como los ingresos por visita, el valor de pedido promedio o el número de clics. En algunos casos, el objetivo es minimizar una métrica, por ejemplo, el número de llamadas de asistencia.
 
-* **¿Qué elementos desea recomendar?** Primero, piense en qué artículos desea recomendar. Pueden ser productos, vídeos o contenido.
-* **¿Dónde desea mostrar las recomendaciones?** A continuación, piense en dónde desea hacer recomendaciones. En decir, piensé qué canales le convienen más (web, móvil, en la tienda, un quiosco, etc.). ¿Qué partes del recorrido del cliente contendrán recomendaciones? ¿Qué páginas del sitio contendrán recomendaciones?
-* **¿Cómo determinará si las recomendaciones son exitosas?** Supongamos que tiene una experiencia sin recomendaciones y otra con recomendaciones, o que tiene dos tipos diferentes de recomendaciones. ¿Cómo determina qué experiencia ofrece el mejor servicio a sus clientes? Algunas métricas podrían ser más difíciles de medir que otras. Por ejemplo, el impacto de las recomendaciones en el valor de duración del cliente suele ser difícil de obtener directamente. Por lo tanto, a menudo resulta más fácil obtener una métrica menos abstracta y más específica, por ejemplo, ingresos por visita, valor de pedido promedio o cantidad de clics. En algunos casos, es posible que busque minimizar una métrica, por ejemplo, la cantidad de llamadas de asistencia.
+Una vez definida la estrategia, la implementación de [!DNL Target Recommendations] implica tres pasos amplios:
 
-Una vez que haya pensado su estrategia, todo está listo para iniciar la implementación de [!DNL Target Recommendations].
+![Ilustración que muestra los tres pasos de una implementación de recomendaciones: enseñe a Target sobre su contenido o productos, capture el comportamiento del usuario y obtenga recomendaciones con el contexto correcto.](assets/intro-6.png)
 
-Existen tres pasos amplios para la creación de la implementación de las recomendaciones:
+### Enseñe a [!DNL Target] sobre su contenido o productos
 
-![Ilustración que muestra los pasos para crear la implementación de las recomendaciones](/help/main/c-recommendations/assets/intro-6.png)
+Al comenzar con [!DNL Recommendations], pasa información sobre todos los elementos que desea recomendar.
 
-1. Enseñe a [!DNL Target] sobre su contexto o productos.
-1. Capture el comportamiento del usuario.
-1. Obtenga recomendaciones con el contexto adecuado.
+![Ilustración que muestra cómo enseñar a Target sobre su contenido o productos: fuentes en formato CSV o fuente de Google, la capa de datos con Target, la API y la integración de Analytics.](assets/intro-7.png)
 
-### Enseñe a [!DNL Target] sobre su contexto o productos
+El método más sencillo y usado es enviar un archivo CSV diaria o semanalmente desde un sistema de administración de la información de productos o desde un sistema de administración de contenido. Otras opciones son pasar información sobre la capa de datos desde la página mediante la biblioteca de JavaScript [!DNL Adobe Target], usar las API para pasar información directamente desde el sistema de origen o usar la integración [!DNL Adobe Analytics] si ya está pasando datos del catálogo a [!DNL Analytics]. Puede utilizar varias opciones juntas, por ejemplo, al pasar la mayoría de los datos diariamente a través de un archivo CSV y las actualizaciones de inventario con más frecuencia a través de una API. El departamento de TI suele participar en la configuración de este paso.
 
-Al comenzar con [!DNL Recommendations], pase información sobre cada artículo que desee recomendar. [!DNL Target] ofrece varias opciones de integración para crear su catálogo.
+Sea el que sea el método que elija, incluya metadatos sobre cada elemento en tres categorías:
 
-![Ilustración que muestra cómo enseñar a Target sobre su contexto o productos](/help/main/c-recommendations/assets/intro-7.png)
-
-El método más sencillo y usado es enviar un archivo CSV diaria o semanalmente desde el sistema de administración de la información de productos o desde el de administración de contenido. Pero también puede pasar información sobre la capa de datos desde la página con la biblioteca [!DNL Adobe Target] Javascript, aprovechar nuestras API para pasar información directamente desde el sistema de origen o utilizar nuestra integración [!DNL Adobe Analytics] si ya está pasando datos del catálogo a [!DNL Analytics].
-
-En ocasiones, es posible que desee utilizar varias opciones juntas, por ejemplo, al pasar la mayoría de los datos diariamente a través de un archivo CSV y las actualizaciones de inventario con más frecuencia a través de una API.
-
-El departamento de TI suele estar implicado en la configuración de este paso.
-
-Sea el que sea el método que elija, debe incluir metadatos sobre cada elemento en tres categorías:
-
-![Ilustración que muestra información de metadatos del catálogo](/help/main/c-recommendations/assets/intro-8.png)
-
-* Datos que desea mostrar al usuario que recibe la recomendación. Por ejemplo, el nombre de la película y una URL de imagen de miniatura.
-* Datos que son útiles para aplicar controles de marketing y comercialización. Por ejemplo, la clasificación de la película, para que no recomiende las de mayores de 17 años.
-* Datos que son útiles para determinar la similitud de unos elementos a otros. Por ejemplo, el género de la película o los actores que salen en ella.
+* **Datos que desea mostrar al usuario que recibe la recomendación.** Por ejemplo, el nombre de la película y una URL de imagen de miniatura.
+* **Datos que son útiles para aplicar controles de mercadotecnia y comercialización.** Por ejemplo, la clasificación de la película, para que no recomiende las de mayores de 17 años.
+* **Datos que son útiles para determinar la similitud de elementos con otros elementos.** Por ejemplo, el género de la película o los actores que salen en ella.
 
 ### Capturar el comportamiento del usuario
 
-A continuación, debe agregar etiquetas o aprovechar la implementación existente de [!DNL Analytics] para hacer un seguimiento de los eventos de conversión (tales como vistas y compras) que controlan los algoritmos de [!DNL Target].
+![Ilustración que muestra cómo capturar el comportamiento del usuario: las vistas y los clics conducen a compras, conversiones, descargas, suscripciones y reproducciones, seguidos con Target, Analytics o la API.](assets/intro-9.png)
 
-![Ilustración que muestra cómo capturar el comportamiento del usuario](/help/main/c-recommendations/assets/intro-9.png)
+Agregue etiquetas o use la implementación de [!DNL Analytics] existente para que [!DNL Target] tenga en cuenta los elementos que los usuarios ven y compran. Si la compra no es relevante para su contexto, realice un seguimiento de un tipo diferente de evento de conversión, por ejemplo, descargar un PDF, completar una encuesta, suscribirse a una newsletter o ver un vídeo.
 
-Compruebe que [!DNL Target] tenga en cuenta los artículos que los usuarios están viendo y comprando. Si la compra no es relevante para su contexto, es posible que desee rastrear un tipo diferente de evento de conversión, por ejemplo, descargar una PDF, completar una encuesta, suscribirse a una newsletter, ver un vídeo, etc.
-
-Si ya está utilizando [!DNL Target] para ejecutar actividades A/B en su sitio, es posible que ya haya completado este paso. O si ya utiliza [!DNL Adobe Analytics] para informar sobre las visitas del sitio y el comportamiento de conversión, puede utilizar [!DNL Analytics] como fuente de datos de comportamiento. Si no es así, es más fácil configurarlo con un administrador de etiquetas como las etiquetas en [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=es){target=_blank}. También es posible enviar interacciones sin conexión o dentro de la aplicación a [!DNL Target] mediante una API en tiempo real.
+Si ya usa [!DNL Target] para ejecutar actividades de prueba A/B en el sitio, es posible que ya haya completado este paso. Si ya usa [!DNL Adobe Analytics] para informar sobre las visitas al sitio y el comportamiento de conversión, puede usar [!DNL Analytics] como fuente de datos de comportamiento. De lo contrario, la opción más sencilla es configurarlo con un administrador de etiquetas como las etiquetas en [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=es){target=_blank}. Las interacciones sin conexión o en la aplicación también se pueden enviar a [!DNL Target] mediante la API en tiempo real.
 
 ### Obtener recomendaciones con el contexto correcto
 
-Pase información sobre el usuario y el contexto en el punto de interacción a [!DNL Target] para devolver recomendaciones relevantes y personalizadas.
+![Ilustración que muestra cómo obtener recomendaciones con el contexto correcto: se pasan a Target el producto visualizado actual, la categoría del producto actual, la categoría favorita del usuario, la marca favorita del usuario y el nivel de lealtad del usuario.](assets/intro-10.png)
 
-![Ilustración que muestra cómo obtener recomendaciones con el contexto correcto](/help/main/c-recommendations/assets/intro-10.png)
-
-Además del comportamiento del usuario en suma, debe pasar [!DNL Target] en el contexto específico donde se muestran las recomendaciones. Esto incluye información sobre la página y perfil de usuario. [!DNL Target] utiliza esta información para realizar recomendaciones personalizadas. Por ejemplo, en un sitio web de venta minorista, debe conocer los productos y la categoría de productos que el visitante está viendo en este momento. También desea conocer información sobre ese usuario (marca favorita, categoría de producto favorita, nivel de lealtad, etc.). Esta información es importante para que [!DNL Target] pueda filtrar elementos y mejorar la personalización de las recomendaciones.
+Además del comportamiento del usuario en suma, [!DNL Target] necesita el contexto específico donde se muestran las recomendaciones, que incluye información sobre la página y perfil de usuario. [!DNL Target] utiliza esta información para filtrar elementos y mejorar la personalización de las recomendaciones.
 
 ## Cree su primera actividad de Recommendations
 
-¿Qué es una actividad de [!DNL Recommendations]?
+Una actividad de [!DNL Recommendations] combina una audiencia, criterios y un diseño. [!DNL Target] incluye 14 audiencias integradas, 42 criterios integrados y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos.
 
-![Ilustración que muestra las partes que ayudan a mejorar una actividad de recomendaciones](/help/main/c-recommendations/assets/intro-11.png)
+![Ilustración que muestra las partes que constituyen una buena actividad de recomendaciones: la audiencia (que debería ver estas recomendaciones), los criterios (qué artículos se deberían recomendar) y el diseño (cómo se muestran los artículos recomendados).](assets/intro-11.png)
 
-Una actividad de [!DNL Recommendations] consta de los siguientes componentes:
+[!DNL Target] utiliza el concepto de la tarjeta de criterios, que es como una fórmula de personalización. Elegir o crear los criterios adecuados es importante para lograr los resultados de personalización deseados. Una tarjeta de criterios funciona como una funnel que le lleva a través de todo el catálogo hasta el conjunto final de recomendaciones.
 
-* **Público**: ¿Quién debe ver estas recomendaciones?
-* **Criterios**: ¿Qué artículos se deben recomendar?
-* **Diseño**: ¿Cómo se deben mostrar los artículos recomendados?
+![Ilustración del criterio funnel: contenido del catálogo, filtros estáticos (colecciones y exclusiones), algoritmo (lógica y clave de recomendación), reglas de negocio en línea (filtrado dinámico y ponderación de atributos) y recomendaciones finales, junto a una tarjeta de criterios de ejemplo.](assets/intro-14.png)
 
-![Ilustración que muestra los elementos que constituyen una actividad de recomendaciones: Públicos, criterios y diseños](/help/main/c-recommendations/assets/intro-12.png)
-
-De serie, [!DNL Target] incluye 14 públicos, 42 criterios y 10 plantillas de diseño integradas. Puede personalizar cada uno de estos elementos o agregarlos.
-
-[!DNL Target] utiliza el concepto de la tarjeta de criterios. Una tarjeta de criterios es como una fórmula para personalizar.
-
-![Ilustración de la tarjeta de criterios](/help/main/c-recommendations/assets/intro-13.png)
-
-Es importante elegir o crear los criterios adecuados para conseguir los resultados de personalización que desea. Los criterios son como un embudo que le lleva a través del catálogo hasta el conjunto final de recomendaciones.
-
-![Ilustración de embudo](/help/main/c-recommendations/assets/intro-14.png)
-
-Las secciones siguientes describen las distintas partes de este embudo y cómo funcionan en [!DNL Target]:
+Las secciones siguientes describen las partes de este funnel y cómo funcionan en [!DNL Target].
 
 ### Filtros estáticos (colecciones y exclusiones)
 
-Los filtros estáticos son reglas aplicables ampliamente relacionadas con atributos de catálogo que no espera cambiar con frecuencia.
+Los filtros estáticos son reglas aplicables ampliamente relacionadas con atributos de catálogo que no espera cambiar con frecuencia, por lo que puede utilizarlos en varias recomendaciones.
 
-![Ilustración de colecciones y exclusiones](/help/main/c-recommendations/assets/intro-16.png)
-
-Por ejemplo, en un contexto de contenido, es posible que desee incluir todas las películas en recomendaciones, pero excluir películas no recomendadas para menores de 17 años. En un contexto minorista, puede tener varias marcas en diferentes partes del mundo, pero quizá solo quiera recomendar productos disponibles en Estados Unidos. También es posible que desee excluir productos de una marca privada regional.
-
-Estos son todos atributos de catálogo que son aplicables en gran medida y que es posible que desee utilizar en varias recomendaciones y no espera que cambien con frecuencia.
+![Ilustración de filtros estáticos. Contenido: incluya todas las películas y excluya las películas clasificadas como NC-17 de las recomendaciones. Productos: incluye todos los productos disponibles en Estados Unidos y excluye los productos de una etiqueta privada regional.](assets/intro-16.png)
 
 ### Algoritmo (lógica y clave de recomendación)
 
-El siguiente paso es elegir una lógica y clave de recomendación. Aquí es donde decide cuál es la base de la recomendación.
+El siguiente paso es elegir una lógica y clave de recomendación, que son la base de la recomendación. La clave de recomendación es lo que está “buscando” para elegir la recomendación.
 
-![Ilustración de algoritmo](/help/main/c-recommendations/assets/intro-17.png)
+![Ilustración del paso de algoritmo. Clave de recomendación: artículo visualizado actualmente, categoría visualizada actualmente, último artículo comprado o atributo personalizado. Lógica de recomendación: artículos con atributos similares, artículos más vistos en la categoría, clientes que compraron este artículo también compraron estos artículos o algoritmo personalizado.](assets/intro-17.png)
 
-Lo primero que debe elegir es la clave de recomendación. La clave de recomendación es lo que está “buscando” para elegir la recomendación. Esto es en lo que basa la recomendación.
+[!DNL Target] incluye un catálogo de algoritmos.
 
-Puede basar su recomendación en:
-
-* El artículo que el visitante está viendo en este momento
-* La categoría que el visitante está viendo en este momento
-* El artículo que el visitante compró o agregó por última vez al carro de compras
-* Un atributo personalizado relacionado con un visitante o un artículo
-
-Según estas claves, elija la lógica de recomendación que desee:
-
-* Elementos con atributos similares.
-* Los elementos más vistos de una categoría en particular
-* Los clientes que compraron este artículo también compraron estos otros
-* Un atributo personalizado
-
-De serie, [!DNL Target] incluye un portafolio de algoritmos.
-
-![Ilustración de portafolio de algoritmos](/help/main/c-recommendations/assets/intro-15.png)
-
-* **Los algoritmos basados en popularidad** incluyen Más visitantes y Más vendidos.
-* **Los algoritmos basados en contenido** incluyen Similitud de contenido.
-* **Los algoritmos de filtrado colaborativos basados en elementos** incluyen Visto/Visto, Visto/Comprado y Comprado/Comprado. Tenga en cuenta que “comprado” puede ser cualquier conversión.
-* **Los algoritmos personalizados** incluyen filtros de colaboración de perfil mejorado, Vistos recientemente y Afinidad del sitio.
-* **Los algoritmos propios** le permiten utilizar sus propios algoritmos personalizados.
+![Ilustración del portafolio de algoritmos: basados en popularidad (más visitados, más vendidos), basados en contenido (similitud de contenido), filtrados de colaboración basados en elementos (visualizados/visualizados, vistos/comprados, comprados/comprados, donde comprar puede ser cualquier conversión), personalizados (visualizados recientemente, afinidad del sitio, colaboración con perfil mejorado. Filtrado) y traiga los suyos propios (algoritmos personalizados).](assets/intro-15.png)
 
 ### Reglas empresariales en línea
 
-El último paso es aplicar reglas empresariales en línea. Aquí es donde puede potenciar los algoritmos con conocimientos de dominio y contexto actual según lo que haga el visitante en su propiedad digital.
+El último paso es la aplicación de reglas empresariales en línea, que mejoran los algoritmos con conocimiento del dominio y contexto actual, en función de lo que el visitante esté haciendo en su propiedad digital.
 
-![Ilustración de reglas empresariales en línea](/help/main/c-recommendations/assets/intro-18.png)
-
-Por ejemplo, en el contexto de contenido, es posible que quiera excluir películas que el visitante haya visto anteriormente, recomendar películas por el mismo director o impulsar películas en el mismo género. En el contexto de los comercios minoristas, es posible que quiera excluir productos de los que no tiene existencias, mostrar artículos en un rango de precios de 5 a 500 dólares o aumentar el número de elementos de la misma marca.
-
-## Demostración
-
-Después de completar las tareas ilustradas en el embudo de recomendaciones descrito arriba, se le deja con la recomendación final. Para ver una demostración del producto dentro de [!DNL Target], la demostración comienza a las 21:00 en el *Seminario web de conceptos básicos de Adobe Target*, y tiene el vínculo a continuación.
+![Ilustración de reglas comerciales en línea. Contenido: excluir las películas vistas anteriormente, mostrar películas del mismo director y aumentar las películas con el mismo género. Productos: excluir productos sin existencias, mostrar artículos con un precio de 5 a 500 dólares y aumentar el número de artículos de la misma marca.](/help/main/c-recommendations/assets/intro-18.png)
