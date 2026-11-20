@@ -48,7 +48,7 @@ El **[!UICONTROL control de calidad de la actividad]** le permite probar por com
 * **Segmentación de audiencia opcional:** Pruebe los criterios de segmentación o ignórelos para comprobar el aspecto de las experiencias sin tener que cumplir las condiciones de audiencia.
 * **Informes de control de calidad por separado:** Confirme que las métricas aumentan según lo esperado. Los datos del informe de control de calidad se mantienen separados de los informes de producción (para los informes que no son de A4T).
 * **Vista previa con otras actividades:** Vista previa de una experiencia de forma aislada o con otras actividades activas que cumplan los criterios de entrega (página/[!DNL Target] solicitud/audiencia).
-* **recorrido completo del usuario:** Acceda a su sitio una vez con el vínculo de control de calidad y, a continuación, explore todo el sitio en **[!UICONTROL control de calidad de la actividad]**. Permanece en el control de calidad de la actividad **[!UICONTROL hasta que finaliza la sesión o hasta que usa el bookmarklet [QA Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) para forzar su salida.]** Esta función es útil si tiene una actividad que abarca varias páginas web.
+* **recorrido completo del usuario:** Acceda a su sitio una vez con el vínculo de control de calidad y, a continuación, explore todo el sitio en **[!UICONTROL control de calidad de la actividad]**. Permanece en el control de calidad de la actividad **hasta que finaliza la sesión o hasta que usa el bookmarklet [QA Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) para forzar su salida.** Esta función es útil si tiene una actividad que abarca varias páginas web.
 
   >[!NOTE]
   >

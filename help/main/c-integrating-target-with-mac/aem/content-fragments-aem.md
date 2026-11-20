@@ -51,7 +51,7 @@ Tenga en cuenta lo siguiente al trabajar con AEM [!UICONTROL Fragmentos de conte
 
 * Solo puede consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] actividades usando el [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md). Usted *no puede* consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] actividades usando el [!UICONTROL Compositor de experiencias visuales] (VEC).
 
-Para obtener más información sobre [!UICONTROL Fragmentos de contenido] y [!UICONTROL Fragmentos de experiencia] de AEM, consulte [Fragmentos de experiencia[!UICONTROL 6 y [!UICONTROL Fragmentos de contenido] de AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
+Para obtener más información sobre [!UICONTROL Fragmentos de contenido] y [!UICONTROL Fragmentos de experiencia] de AEM, consulte [Fragmentos de experiencia[[!UICONTROL 6 y [!UICONTROL Fragmentos de contenido] de AEM]](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).]
 
 ## Requisitos {#requirements}
 
@@ -71,7 +71,7 @@ Después de realizar las tareas anteriores, [!UICONTROL Fragmento de contenido] 
 
 [!DNL Target] busca [!UICONTROL Fragmentos de contenido] para importar cada diez minutos. El [!UICONTROL fragmento de contenido] importado debería estar disponible en [!DNL Target] en un plazo de diez minutos, pero este lapso de tiempo debería ser menor en adelante.
 
-El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. ]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
+El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. &#x200B;]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
 
 Puede filtrar y buscar por [!UICONTROL XF de HTML], [!UICONTROL XF de JSON] y [!UICONTROL Fragmentos de contenido] para ayudarle a distinguir entre los distintos tipos de ofertas que se exportan a [!DNL Target].
 
@@ -103,6 +103,6 @@ Solo puede consumir [!UICONTROL fragmentos de contenido] en [!DNL Target] activi
 ## Información adicional
 
 * [!DNL Target] busca [!UICONTROL Fragmentos de contenido] para importar cada diez minutos. El [!UICONTROL fragmento de contenido] importado debería estar disponible en [!DNL Target] en un plazo de diez minutos, pero este lapso de tiempo debería ser menor en adelante.
-* El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. ]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
+* El [!UICONTROL fragmento de contenido] se ha importado a [!DNL Target] como una oferta JSON. La versión &quot;principal&quot; del fragmento de contenido [!UICONTROL 1 permanece en [!DNL AEM]. &#x200B;]No puede editar el [!UICONTROL Fragmento de contenido] en [!DNL Target].
 * No puede crear [!UICONTROL Fragmentos de contenido] usando [!DNL Adobe I/O]. Cree [!UICONTROL fragmentos de contenido] mediante AEM, tal como se explicó anteriormente.
 * Si actualiza el [!UICONTROL Fragmento de contenido] en AEM, el [!UICONTROL Fragmento de contenido] debe publicarse y exportarse de nuevo a [!DNL Target] para que [!DNL Target] pueda usar los cambios más recientes.
