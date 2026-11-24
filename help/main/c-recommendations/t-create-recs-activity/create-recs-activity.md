@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 53%
@@ -108,7 +108,7 @@ Use [!DNL Target] [!UICONTROL Compositor de experiencias visuales] (VEC) para cr
 1. Haga clic en **[!UICONTROL Siguiente]**.
 1. Seleccionar un [diseño](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   Un diseño es una plantilla que determina el aspecto de las ubicaciones en la página. [!DNL Target] incluye varios diseños preconfigurados. También puede crear sus propios diseños personalizados. Para obtener más información, vea [Crear un diseño](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) y [Personalizar un diseño](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Un diseño es una plantilla que determina el aspecto de las ubicaciones en la página. [!DNL Target] incluye varios diseños preconfigurados. También puede crear sus propios diseños personalizados. Para obtener más información, vea [Crear un diseño](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) y [Personalizar un diseño](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
 
    ![Cuadro de diálogo Seleccionar diseño](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ Use [!DNL Target] [!UICONTROL Compositor de experiencias visuales] (VEC) para cr
 
      Si ha seleccionado varios criterios, solo puede seleccionar un diseño.
 
-   * Para crear un diseño personalizado, haga clic en **[!UICONTROL Crear diseño]** y rellene el nombre y el código para el nuevo diseño. Haga clic en **[!UICONTROL Siguiente]**, seleccione o actualice una imagen y haga clic en **[!UICONTROL Hecho]** > **[!UICONTROL Hecho]**. Para obtener más información sobre cómo crear un diseño nuevo, consulte [Creación de diseños](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Para crear un diseño personalizado, haga clic en **[!UICONTROL Crear diseño]** y rellene el nombre y el código para el nuevo diseño. Haga clic en **[!UICONTROL Siguiente]**, seleccione o actualice una imagen y haga clic en **[!UICONTROL Hecho]** > **[!UICONTROL Hecho]**. Para obtener más información sobre cómo crear un diseño nuevo, consulte [Creación de diseños](/help/main/c-recommendations/c-design-overview/create-design.md#create-design).
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 

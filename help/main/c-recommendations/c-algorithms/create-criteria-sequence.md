@@ -18,24 +18,30 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 17%
+source-wordcount: '862'
+ht-degree: 8%
 ---
-# Crear secuencias de criterios
+# Crear secuencias de criterios {#create-criteria-sequence}
 
-Utilice secuencias de hasta cinco criterios para ejercer un mayor control sobre los elementos que aparecen en las actividades de [!DNL Adobe Target] [!UICONTROL Recommendations]. También puede limitar el número de elementos devueltos (a veces denominado &quot;control de nivel de ranura&quot;).
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear secuencias de criterios para controlar los elementos que aparecen en las actividades de [!DNL Adobe Target Recommendations].
+
+>[!ENDSHADEBOX]
+
+Las secuencias de hasta cinco criterios proporcionan un mayor control sobre los elementos que aparecen en las actividades [!DNL Adobe Target] **[!UICONTROL Recommendations]**. El número de elementos devueltos también puede ser limitado (a veces denominado &quot;control de nivel de ranura&quot;).
+
+Cuando un criterio no devuelve resultados suficientes para rellenar el diseño, una secuencia de criterios proporciona recomendaciones de objetivo adicionales en lugar de recomendaciones de copia de seguridad más genéricas. Normalmente, una secuencia de criterios pasa de un objetivo más específico, que podría devolver menos resultados, a un objetivo más general, que generalmente devuelve más resultados.
 
 >[!NOTE]
 >
->Las secuencias de criterios no se pueden usar con las actividades [!UICONTROL Recommendations] creadas antes de la versión de octubre de 2016 de [!DNL Target Premium].
+>Las secuencias de criterios no se pueden usar con las actividades **[!UICONTROL Recommendations]** creadas antes de la versión de octubre de 2016 de [!DNL Target Premium].
 
-Para crear una secuencia de criterios, debe crear primero los criterios que desea incluir en la secuencia. Consulte [Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) para obtener más información.
+Para crear una secuencia de criterios, primero cree los criterios que desea incluir en la secuencia. Consulte [Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) para obtener más información.
 
-Mediante una secuencia de criterios, puede proporcionar recomendaciones de destino adicionales, en lugar de utilizar recomendaciones de copia de seguridad más genéricas, cuando un criterio no devuelve resultados suficientes para llenar el diseño. Normalmente, una secuencia de criterios pasa de un objetivo más específico, que podría devolver menos resultados, a un objetivo más general, que generalmente devuelve más resultados.
-
-Las secuencias de criterios pueden variar en orden según el tipo de página, como se muestra en los ejemplos siguientes:
+El orden de una secuencia de criterios puede variar según el tipo de página, como se muestra en los ejemplos siguientes:
 
 | Tipo de página | Orden de secuencia posible |
 | --- | --- |
@@ -44,48 +50,56 @@ Las secuencias de criterios pueden variar en orden según el tipo de página, co
 
 ## Crear una secuencia de criterios
 
-Puede crear secuencias de criterios desde la pantalla [!UICONTROL Crear secuencia de criterios].
+Las secuencias de criterios se crean desde la pantalla **[!UICONTROL Crear secuencia de criterios]**. Hay varias formas de llegar a esta pantalla. Algunas opciones de pantalla varían según la forma en que se alcance la pantalla.
 
-Existen varias maneras de llegar a la pantalla [!UICONTROL Crear secuencia de criterios]. Algunas opciones de pantalla dependen de cómo llega a la pantalla.
+* En la pantalla de la biblioteca **[!UICONTROL Recomendaciones]** > **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterio]** > **[!UICONTROL Crear secuencia de criterios]**. Los criterios creados aquí quedan disponibles automáticamente para todas las actividades de **[!UICONTROL Recommendations]**.
+* Al crear una actividad **[!UICONTROL Recommendations]**, en la pantalla **[!UICONTROL Seleccionar criterios]**, haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Crear secuencia de criterios]**. La nueva secuencia de criterios se puede guardar para usarla con otras actividades de **[!UICONTROL Recommendations]**.
+* Al editar una actividad de **[!UICONTROL Recommendations]**, haga clic en un cuadro de **[!UICONTROL Ubicación de Recommendations]** de la página y, a continuación, seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla **[!UICONTROL Seleccionar criterios]**, haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Crear secuencia de criterios]**. Los nuevos criterios se pueden guardar para usarlos con otras actividades de **[!UICONTROL Recommendations]**.
 
-* En la pantalla de la biblioteca **[!UICONTROL Recomendaciones]** > **[!UICONTROL Criterios]**, haga clic en **[!UICONTROL Crear criterio]** > **[!UICONTROL Crear secuencia de criterios]**. Los criterios que crea aquí quedan disponibles automáticamente para todas las actividades de [!UICONTROL Recomendaciones].
-* Cuando esté creando una actividad [!UICONTROL Recommendations], en la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Crear secuencia de criterios]**. Tiene la opción de guardar la nueva secuencia de criterios para usarla con otras actividades de [!UICONTROL Recommendations].
-* Cuando esté editando una actividad de [!UICONTROL Recommendations], haga clic en un cuadro de [!UICONTROL Ubicación de Recommendations] de la página y, a continuación, seleccione **[!UICONTROL Cambiar criterios]**. En la pantalla [!UICONTROL Seleccionar criterios], haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Crear secuencia de criterios]**. Tiene la opción de guardar los nuevos criterios para usarlos con otras actividades de [!UICONTROL Recommendations].
-
-Los siguientes pasos dan por hecho que se accede a la pantalla [!UICONTROL Crear secuencia de criterios] mediante el primer método: la pantalla de la biblioteca **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]**.
+Los siguientes pasos suponen que se accede a la pantalla **[!UICONTROL Crear secuencia de criterios]** desde el menú **[!UICONTROL Criterios]**.
 
 1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Criterios]**.
 
 1. Haga clic en **[!UICONTROL Crear criterios]** > **[!UICONTROL Crear secuencia de criterios]**.
 
+   ![Página de criterios con la opción Crear secuencia de criterios seleccionada en el menú Crear criterios](../assets/criteria_create_6.png)
+
 1. Rellene la información de la sección [Información básica](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
 1. En la sección **[!UICONTROL Secuencia de criterios]**, haga clic en el signo Más ( + ) para agregar una o más secuencias de criterios.
 
-   El orden de secuencia define el orden en el que se rellena un diseño. Si Criterios 1 no tiene suficientes recomendaciones para llenar su diseño, las ranuras restantes se llenan con Criterios 2, y así sucesivamente.
+   El orden de secuencia define el orden en el que se rellena un diseño. Si el criterio 1 no tiene suficientes recomendaciones para rellenar el diseño, las ranuras restantes se rellenan con el criterio 2, y así sucesivamente.
 
-1. En la pantalla [!UICONTROL Seleccionar criterios], seleccione un criterio y haga clic en **[!UICONTROL Guardar]**.
+   ![Sección Secuencia de criterios del cuadro de diálogo Crear secuencia de criterios con cinco campos de criterios y el signo más de Criterios 1 seleccionado](../assets/criteria_create_7.png)
 
-   Puede usar el cuadro [!UICONTROL Buscar] y la opción de filtro para encontrar los criterios deseados.
+1. En la pantalla **[!UICONTROL Seleccionar criterios]**, seleccione un criterio y haga clic en **[!UICONTROL Guardar]**.
 
-1. (Opcional) Deslice el botón **[!UICONTROL Limitar el número de elementos devueltos]** a la posición &quot;Activado&quot; y, a continuación, especifique el número de elementos (entre 1 y 50).
+   El cuadro **[!UICONTROL Buscar]** y la opción de filtro se pueden usar para encontrar los criterios deseados.
 
-   Para ayudarle a comprender el valor de la opción [!UICONTROL Limitar el número de elementos devueltos] (a veces denominada &quot;control de nivel de ranura&quot;), considere los siguientes casos de uso:
+1. (Opcional) Habilite **[!UICONTROL Limitar el número de elementos devueltos]** y después especifique el número de elementos (entre 1 y 50).
 
-   * **Caso de uso 1**: desea tener una combinación de diferentes tipos de elementos en una sola bandeja de recomendaciones. Por ejemplo, desea mostrar una mezcla de ropa exterior (chaquetas) y tops (camisas, camisetas). Para conseguirlo, utilice una colección para la actividad que incluya todos los tipos de productos potenciales que desee en cualquier ranura del diseño. A continuación, configure el primer criterio con un filtro estático que limite los criterios para incluir solo ropa exterior y configure el segundo criterio con un filtro estático que limite los criterios para incluir solo tops. Finalmente, agregue ambos criterios a una secuencia de criterios y limite los primeros criterios a 2 ranuras.
+   ![Sección de secuencia de criterios con Recomendado para usted como criterio 1 y la opción Limitar el número de elementos devueltos activada](../assets/criteria_create_8.png)
 
-     La bandeja de recomendaciones puede tener este aspecto en el sitio:
+   Los siguientes casos de uso ilustran el valor de la opción **[!UICONTROL Limit the number of items returned]** (a veces denominada &quot;control de nivel de ranura&quot;).
 
-     ![Bandeja de recomendaciones de productos destacados](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
+   +++ Casos de uso para limitar el número de elementos devueltos
 
-   * **Caso de uso 2**: desea una combinación de elementos alternativos y complementarios. Defina un criterio para utilizar un algoritmo de visualizado/visualizado y un filtro dinámico que limite los elementos recomendados a la categoría del elemento actual. Configure el segundo criterio para utilizar un algoritmo de artículos vistos o comprados y utilice un filtro dinámico que incluya solo artículos recomendados que no coincidan con la categoría del artículo actual. Finalmente, agregue ambos criterios a una secuencia y limite los primeros criterios a 2 ranuras.
+   * **Caso de uso 1**: Una mezcla de diferentes tipos de artículos en una sola bandeja de recomendaciones, por ejemplo, una mezcla de ropa exterior (chaquetas) y tops (camisas, camisetas). Para conseguirlo, utilice una colección para la actividad que incluya todos los tipos de productos que pueden aparecer en cualquier ranura del diseño. A continuación, configure el primer criterio con un filtro estático que incluya solo ropa de abrigo y el segundo criterio con un filtro estático que incluya solo tops. Finalmente, agregue ambos criterios a una secuencia de criterios y limite los primeros criterios a 2 ranuras.
 
-1. Siga agregando criterios adicionales a la secuencia. Puede agregar hasta cinco criterios en una secuencia.
+     La bandeja de recomendaciones puede tener este aspecto en un sitio:
+
+     ![Bandeja de recomendaciones de productos destacados](assets/featured-products.png)
+
+   * **Caso de uso 2**: una combinación de elementos alternativos y complementarios. Configure un criterio para utilizar un algoritmo visualizado/visualizado y un filtro dinámico que limite los elementos recomendados a la categoría del elemento actual. Configure el segundo criterio para utilizar un algoritmo visto/comprado y un filtro dinámico que incluya solo los artículos recomendados que no coincidan con la categoría del artículo actual. Finalmente, agregue ambos criterios a una secuencia y limite los primeros criterios a 2 ranuras.
+
+   +++
+
+1. Siga agregando criterios a la secuencia. Se pueden añadir hasta cinco criterios a una secuencia.
 
 1. Habilitar [opciones de contenido de copia de seguridad](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-   La secuencia de criterios se muestra en la lista [!UICONTROL Criterios].
+La secuencia de criterios se muestra en la lista **[!UICONTROL Criterios]**.
 
-   Para obtener más información sobre opciones de lógica de recomendación, consulte [Criterios](/help/main/c-recommendations/c-algorithms/algorithms.md).
+Para obtener más información acerca de las opciones de lógica de recomendación, vea [Introducción a los criterios](/help/main/c-recommendations/c-algorithms/algorithms.md).
