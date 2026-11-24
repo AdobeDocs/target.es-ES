@@ -2,7 +2,7 @@
 keywords: fuente de datos de comportamiento;analytics;recommendations;criterios;variables de producto
 description: Aprenda a usar [!DNL Adobe Analytics] como origen de datos de comportamiento en [!DNL Target Recommendations].
 title: Uso de Adobe Analytics con Recommendations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
@@ -64,7 +64,7 @@ Implementar variables de producto en [!DNL Analytics] con los atributos necesari
 >
 >Si es un sitio de contenido, las partes de contenido respectivas deben tratarse como &quot;productos&quot; y los atributos asociados de ese contenido deben pasarse como atributos. Estos atributos pueden incluir el nombre del autor, la fecha de publicación, el título del contenido, el mes de lanzamiento, etc. La empresa debe decidir la granularidad del nivel de categoría o los tipos de categoría, según los requisitos del caso de uso.
 
-Para obtener más información sobre cómo configurar variables de producto, consulte [productos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) en la guía *Implementar Adobe Analytics*. Algunas de las notas de esa documentación, por ejemplo sobre Categoría, requieren el criterio del equipo que la implementa. Se recomienda consultar [!DNL Adobe] antes de esta actividad.
+Para obtener más información sobre cómo configurar variables de producto, consulte [productos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=es) en la guía *Implementar Adobe Analytics*. Algunas de las notas de esa documentación, por ejemplo sobre Categoría, requieren el criterio del equipo que la implementa. Se recomienda consultar [!DNL Adobe] antes de esta actividad.
 
 ### Consideraciones {#considerations}
 

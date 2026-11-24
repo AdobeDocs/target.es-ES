@@ -2,7 +2,7 @@
 keywords: algoritmos de recomendaciones;formación sobre modelos;servicio de modelos;entrega de contenido;basado en elementos;basado en usuarios;basado en popularidad;basado en el carro de compras;criterios personalizados
 description: Obtenga información acerca de los algoritmos utilizados en [!DNL Target Recommendations], incluidos la formación y el servicio de modelos.
 title: La ciencia detrás de los algoritmos de recomendaciones de Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -92,7 +92,7 @@ El siguiente diagrama esquemático muestra el flujo lógico de la implementació
 
 Los pasos son los siguientes:
 
-* **Datos de entrada**: Datos de comportamiento en forma de compras y vistas de visitantes, recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Datos de entrada**: Datos de comportamiento en forma de compras y vistas de visitantes, recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -116,7 +116,7 @@ Los algoritmos de servicio de modelos y de entrega de contenido para similitud d
 
 Los pasos son los siguientes:
 
-* **Datos de entrada**: este algoritmo solo usa datos de catálogo, ingeridos en [!DNL Target] a través de una fuente de catálogo [la API de entidades o actualizaciones en la página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Datos de entrada**: este algoritmo solo usa datos de catálogo, ingeridos en [!DNL Target] a través de una fuente de catálogo [la API de entidades o actualizaciones en la página](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
 
 * **Formación de modelo**:
 
@@ -154,7 +154,7 @@ El diagrama siguiente muestra la lógica de los pasos de formación y puntuació
 
 Los pasos son los siguientes:
 
-* **Datos de entrada**: idénticos a los métodos de filtrado colaborativo (CF) de elementos. Los algoritmos de **[!UICONTROL Recomendado para ti]** y basados en el carro de compras usan datos de comportamiento en forma de compras y vistas de usuarios, recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Datos de entrada**: idénticos a los métodos de filtrado colaborativo (CF) de elementos. Los algoritmos de **[!UICONTROL Recomendado para ti]** y basados en el carro de compras usan datos de comportamiento en forma de compras y vistas de usuarios, recopilados al [implementar Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} o desde [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formación de modelo**:
 
