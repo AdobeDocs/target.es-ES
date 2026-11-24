@@ -1,8 +1,8 @@
 ---
 keywords: recomendación;copia de seguridad;copia;seguridad
 description: Aprenda a utilizar las recomendaciones de copia de seguridad en Adobe [!DNL Target Recommendations].
-title: ¿Cómo se usa una recomendación de copia de seguridad en [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+title: Usar una recomendación de copia de seguridad
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 TQID: 'https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0'
@@ -22,46 +22,43 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 64%
+source-wordcount: '497'
+ht-degree: 18%
 ---
-# Usar una recomendación de copia de seguridad
+# Usar una recomendación de copia de seguridad {#backup-recommendations}
 
-Si usa la característica de recomendación de copia de seguridad de [!DNL Adobe Target], las recomendaciones que no tengan suficientes artículos recomendados no mostrarán el contenido predeterminado. En vez de eso, las recomendaciones mostrarán los resultados del algoritmo de copia de seguridad.
+>[!BEGINSHADEBOX]
 
-Si no utiliza una recomendación de copia de seguridad, y si una recomendación no contiene suficientes artículos para llenar la presentación, el sistema mostrará al usuario contenido predeterminado.
+**En esta página:** Descubra cómo las recomendaciones de copia de seguridad llenan las ranuras restantes de un diseño en [!DNL Adobe Target Recommendations].
+
+>[!ENDSHADEBOX]
+
+Cuando una recomendación no tiene suficientes artículos recomendados para rellenar el diseño, la característica de recomendación de copia de seguridad de [!DNL Adobe Target] muestra los resultados del algoritmo de copia de seguridad en lugar del contenido predeterminado. Sin una recomendación de copia de seguridad, el sistema muestra el contenido predeterminado al usuario.
 
 >[!NOTE]
 >
->Se incluye información adicional en la sección [Contenido del tema Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), incluida una matriz que explica los resultados que observará al usar las opciones [!UICONTROL Procesamiento de diseño parcial] y [!UICONTROL Mostrar recomendaciones de copia de seguridad] juntas o por separado.
+>Para obtener más información, incluida una matriz que explica los resultados de usar las opciones **[!UICONTROL Procesamiento parcial del diseño]** y **[!UICONTROL Mostrar contenido de copia de seguridad]** juntas o por separado, consulte la sección [Contenido de copia de seguridad de Crear criterios](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-La función de recomendación de copia de seguridad siempre utiliza los elementos más vistos del sitio para rellenar las ranuras restantes después de utilizar los datos del algoritmo. Por ejemplo, la plantilla está configurada para mostrar cinco elementos recomendados y está usando el algoritmo *Afinidades de compra*. Sin embargo, solamente tendrá suficientes datos para llenar dos de los cinco espacios, de modo que la función de recomendación de copia de seguridad llena los otros tres espacios con los artículos más vistos.
+La función de recomendación de copia de seguridad siempre utiliza los elementos más vistos del sitio para rellenar las ranuras restantes después de utilizar los datos del algoritmo. Por ejemplo, un diseño está configurado para mostrar cinco elementos recomendados, pero el algoritmo tiene datos suficientes para rellenar solo dos de las cinco ranuras. A continuación, la función de recomendación de copia de seguridad rellena las otras tres ranuras con los artículos más vistos.
 
 Las recomendaciones de copia de seguridad se eligen al azar entre los 500 productos más vistos del sitio. El período de tiempo de los datos para las recomendaciones de copia de seguridad es de una semana.
 
-Los 500 resultados más vistos se ordenan secuencialmente y luego se dividen en grupos de 20. Los segmentos se publican en orden, pero los resultados dentro de cada segmento se asignan aleatoriamente y se devuelven a la página. Si los usuarios actualizan la página, se les presentan resultados nuevos y aleatorios. Si el conjunto de resultados de la unión de la colección y las reglas de filtrado es menor que 20, selecciona aleatoriamente de la colección.
+Los 500 resultados más vistos se ordenan secuencialmente y luego se dividen en bloques de 20. Los contenedores se proporcionan en orden, pero los resultados dentro de cada contenedor se aleatorizan y se devuelven a la página, por lo que los usuarios que actualizan la página reciben resultados nuevos y aleatorios. Si el conjunto de resultados de la unión de la colección y las reglas de filtrado es menor que 20, los elementos se seleccionan aleatoriamente de la colección.
 
 Este proceso de agrupamiento significa que las recomendaciones de respaldo se muestran en el siguiente orden:
 
-1. Muestra los 20 elementos más vistos, aleatorios, después
-1. Muestra los siguientes 20 elementos más vistos, aleatorios, después
-1. Muestra los siguientes 20 elementos más vistos, aleatorios,
-1. etcétera
+1. Los 20 artículos más vistos, aleatorios.
+1. Los siguientes 20 artículos más vistos, aleatorios.
+1. Los siguientes 20 artículos más vistos, aleatorios, etc.
 
-Sin la acumulación de recomendaciones de copia de seguridad, habría sido posible mostrar el 499º artículo más visto, seguido del 200º más visto, seguido del 380º más visto, y así sucesivamente. El proceso de ordenamiento asegura que los artículos más vistos se recomiendan primero.
+Sin agrupar, se podría mostrar el artículo 499.º más visto, seguido del artículo 200.º más visto, seguido del artículo 380.º más visto, etc. La agrupación garantiza que primero se recomienden los artículos más vistos.
 
->[!NOTE]
->
->Si agrupa los artículos en catálogos, las recomendaciones de copia de seguridad generadas para cada algoritmo dentro de la recomendación también usan el catálogo, por lo que únicamente los artículos del catálogo se incluirán en la recomendación de copia de seguridad.
+Si los artículos se agrupan en colecciones, las recomendaciones de copia de seguridad generadas para cada criterio también utilizan la colección, por lo que solo los artículos de la colección se incluyen en la recomendación de copia de seguridad. Cualquier artículo excluido por las reglas de exclusión globales no se presenta como recomendación de copia de seguridad. Los duplicados se eliminan de los lotes de recomendaciones.
 
-Cualquier artículo excluido por las reglas de exclusión globales no se presenta como recomendación de copia de seguridad.
+Las recomendaciones de copia de seguridad están habilitadas de forma predeterminada y rellenan las ranuras adicionales de un diseño con una selección aleatoria de los elementos más populares del sitio.
 
-Las recomendaciones de copia de seguridad están activadas de forma predeterminada y rellenan los espacios extra de una plantilla con una selección aleatoria de los artículos más populares del sitio.
+El uso de recomendaciones de copia de seguridad suele formar parte de la conversación con el equipo de implementación durante la configuración inicial. Para cambiar la configuración de la recomendación de copia de seguridad después de la implementación, póngase en contacto con el administrador de cuentas.
 
-Los duplicados se eliminan de los lotes de recomendaciones.
-
-Por lo general, el uso de recomendaciones de copia de seguridad forma parte de un análisis hecho con el equipo de implementación durante su configuración inicial. Si desea cambiar la configuración de las recomendaciones de copia de seguridad después de la implementación, póngase en contacto con el administrador de su cuenta.
-
-Si Habilitar procesamiento parcial de diseño (consulte [Configuración de contenido](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) no está habilitado y la plantilla no se muestra, se mostrará la recomendación de copia de seguridad o el contenido predeterminado en su lugar.
+Cuando **[!UICONTROL Procesamiento parcial del diseño]** (consulte [Contenido de copia de seguridad](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) no está habilitado y no se puede llenar el diseño, se muestran las recomendaciones de copia de seguridad (cuando están habilitadas) o el contenido predeterminado en su lugar.

@@ -1,8 +1,8 @@
 ---
 keywords: reglas de inclusión;criterios de inclusión;recomendaciones;promoción;promociones;filtrado dinámico;dinámico;coincidencia de atributos de perfil
 description: Aprenda a filtrar dinámicamente en [!DNL Target Recommendations] comparando elementos (entidades) con un valor del perfil del usuario.
-title: ¿Cómo filtro por coincidencia de atributos de perfil en actividades de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+title: Coincidencia de atributos de perfil
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 TQID: 'https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk'
@@ -18,33 +18,33 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 0%
+source-wordcount: '503'
+ht-degree: 5%
 ---
-# Coincidencia de atributos de perfil
+# Coincidencia de atributos de perfil {#profile-attribute-matching}
 
-Filtre dinámicamente en [!DNL Adobe Target Recommendations] comparando elementos (entidades) con un valor del perfil del usuario.
+>[!BEGINSHADEBOX]
 
-Use [!UICONTROL Coincidencia de atributos de perfil] cuando quiera mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita.
+**En esta página:** Aprenda a filtrar recomendaciones dinámicamente en [!DNL Adobe Target Recommendations] comparando elementos (entidades) con un valor del perfil del visitante.
 
->[!NOTE]
->
->El [proceso para crear y usar reglas de inclusión](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) para criterios y promociones es similar, al igual que los ejemplos y casos de uso.
+>[!ENDSHADEBOX]
 
-Los siguientes escenarios muestran cómo usar [!UICONTROL Coincidencia de atributos de perfil]:
+Use **[!UICONTROL Coincidencia de atributos de perfil]** para mostrar recomendaciones que coincidan con un valor almacenado en el perfil del visitante, como tamaño o marca favorita. El proceso de creación y uso de reglas de inclusión para criterios y promociones es similar, al igual que los casos de uso y los ejemplos. Para obtener más información, vea [Usar reglas de inclusión dinámicas y estáticas](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-* Una empresa que vende gafas almacena el color de marco favorito de un visitante como &quot;nogal&quot;. Para ese visitante específico, las recomendaciones están configuradas para devolver solo marcos de gafas que coincidan con &quot;nogal&quot; en color.
-* Se puede definir un parámetro de perfil para el tamaño de la ropa (por ejemplo, pequeña, Medium o grande) de un visitante que navega por el sitio web de la empresa. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva productos específicos solo del tamaño de ropa preferido del usuario.
+Los siguientes escenarios muestran cómo se puede usar **[!UICONTROL Coincidencia de atributos de perfil]**:
 
-## Ejemplos de coincidencia de atributos de perfil {#section_9873E2F22E094E479569D05AD5BB1D40}
+* Una empresa que vende gafas almacena el color de marco favorito de un visitante como &quot;nogal&quot;. Para ese visitante, las recomendaciones están configuradas para devolver solo marcos de gafas que coincidan con &quot;nogal&quot; en color.
+* Se puede definir un parámetro de perfil para el tamaño de la ropa (por ejemplo, pequeña, Medium o grande) de un visitante a medida que este navega por el sitio web de la compañía. Se puede configurar una recomendación para que coincida con ese parámetro de perfil y devuelva solo los productos con la talla de ropa preferida del visitante.
 
-[!UICONTROL Coincidencia de atributos de perfil] le permite recomendar solamente los elementos que coinciden con un atributo del perfil del visitante, como en los ejemplos siguientes.
+## Ejemplos de coincidencia de atributos de perfil
+
+**[!UICONTROL Coincidencia de atributos de perfil]** solo recomienda los elementos que coincidan con un atributo del perfil del visitante, como en los ejemplos siguientes.
 
 ### Recomendar artículos de la marca favorita del usuario
 
-Por ejemplo, puede usar la opción [!UICONTROL Coincidencia de atributos de perfil] para crear una regla que recomiende solo elementos cuya marca sea igual al valor o texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca en particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita del usuario (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
+La opción **[!UICONTROL Coincidencia de atributos de perfil]** puede crear una regla que recomiende solo elementos cuya marca sea igual al valor o texto almacenado en `profile.favoritebrand`. Con una regla así, si un visitante está buscando pantalones de deporte cortos de una marca en particular, solo se mostrarán las recomendaciones que coincidan con la marca favorita de ese visitante (el valor almacenado en `profile.favoritebrand` en el perfil del visitante).
 
 ![Marca favorita](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
@@ -55,9 +55,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Empleos coincidentes con buscadores de empleo
 
-Supongamos que está intentando vincular los trabajos con los buscadores de empleo. Desea recomendar solo trabajos que se encuentren en la misma ciudad que el buscador de empleo.
-
-Puede utilizar reglas de inclusión para hacer coincidir la ubicación de un buscador de empleo desde el perfil del visitante a una lista de trabajos, como en el siguiente ejemplo:
+Para relacionar los trabajos con los buscadores de empleo, solo se recomiendan los trabajos que están en la misma ciudad que el buscador de empleo. Las reglas de inclusión pueden coincidir con la ubicación de un buscador de trabajos desde el perfil del visitante a una lista de trabajos, como en el siguiente ejemplo:
 
 ![Ciudad del usuario](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
@@ -68,13 +66,11 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ### Recomendación de artículos en función del tamaño
 
-Para ver un ejemplo visual de cómo la coincidencia de atributos de perfil afecta a las recomendaciones, consulte un sitio web que vende ventiladores eléctricos.
+El siguiente ejemplo muestra cómo la coincidencia de atributos de perfil afecta a las recomendaciones de un sitio web que vende ventiladores eléctricos.
 
-Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del parámetro `entity.size` en función de si el tamaño del seguidor en la imagen es pequeño o grande.
+Cuando un visitante hace clic en varias imágenes de seguidores en este sitio web, cada página establece el valor del parámetro `entity.size` en función de si el tamaño del seguidor en la imagen es pequeño o grande. Un script de perfil realiza un seguimiento y cuenta el número de veces que el valor de `entity.size` se establece en pequeño en comparación con el grande.
 
-Supongamos que ha creado un script de perfil para realizar el seguimiento y contar la cantidad de veces que el valor de `entity.size` se ha establecido en pequeño frente a grande.
-
-Si el visitante vuelve a la página principal, verá recomendaciones filtradas basadas en si se hizo clic en seguidores más pequeños o más grandes.
+Si el visitante vuelve a la página principal, se muestran recomendaciones filtradas basadas en si se hizo clic en seguidores más pequeños o más grandes.
 
 Recomendaciones basadas en la visualización de seguidores más pequeños en el sitio web:
 

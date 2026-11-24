@@ -2,7 +2,7 @@
 keywords: Recommendations;algoritmos de Recommendations;actividad de Recommendations;Recommendations Classic
 description: Revise la información para comprender las diferencias entre las actividades heredadas de Recommendations Classic y las de Recommendations en [!DNL Target] Premium.
 title: ¿Cuál es la diferencia entre Recommendations Classic y Recommendations en [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: 'https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM'
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -79,7 +79,7 @@ Para obtener más información sobre el uso y la creación de criterios, consult
 El flujo de trabajo de [!DNL Recommendations] se ha simplificado. En lugar de tener que rellenar complicados formularios, solo tiene que seguir un flujo de trabajo visual para:
 
 1. Seleccionar el criterio.
-1. Seleccione un [diseño](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) preconfigurado.
+1. Seleccione un [diseño](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) preconfigurado.
 1. Obtener una vista previa de las recomendaciones resultantes.
 
 ## Vista previa {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

@@ -1,8 +1,8 @@
 ---
 keywords: diseño de recomendaciones;crear diseño;copiar diseño
-description: Aprenda a crear un diseño de [!DNL Target Recommendations] con un diseño predeterminado o creando uno personalizado para que se ajuste mejor al diseño de la página.
-title: ¿Cómo se crea un diseño en Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+description: Aprenda a crear un diseño de [!DNL Target Recommendations] con un diseño predeterminado o creando uno personalizado para que se ajuste mejor al diseño de una página.
+title: Crear un diseño
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
@@ -18,56 +18,47 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d5030abcda38bbc6d33b88ce3bb5d64f69e4e492
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 24%
+source-wordcount: '912'
+ht-degree: 11%
 ---
-# Crear un diseño
+# Crear un diseño {#create-design}
 
-Un diseño define el modo en que las recomendaciones aparecen en una página.
+>[!BEGINSHADEBOX]
 
-Puede crear un diseño de [!UICONTROL Recomendaciones] usando un diseño predeterminado o creando uno personalizado. La pantalla **[!UICONTROL Recomendaciones > Diseños]** muestra tanto las tarjetas de diseño predeterminadas como cualquier diseño que se haya creado en su cuenta.
+**En esta página:** Aprenda a crear, editar, copiar y eliminar diseños en [!DNL Adobe Target Recommendations], y a devolver recomendaciones como JSON.
 
-Tenga en cuenta la siguiente información cuando trabaje con diseños:
+>[!ENDSHADEBOX]
 
-* Puede crear un diseño de Recommendations utilizando un diseño predeterminado o puede crear uno personalizado.
-* No se puede editar ni eliminar un diseño predeterminado.
-* Puede editar, copiar o eliminar un diseño personalizado.
-* Para crear un diseño basado en un diseño predeterminado, primero debe copiar el diseño y, a continuación, editar la copia.
+Un diseño define el modo en que las recomendaciones aparecen en una página. Un diseño se puede basar en un diseño predeterminado o crearse como un diseño personalizado. La pantalla **[!UICONTROL Recommendations]** > **[!UICONTROL Diseños]** muestra tanto las tarjetas de diseño predeterminadas como los diseños que se han creado en la cuenta.
 
-Esta ilustración muestra el diseño predeterminado 1 x 4:
+* Un diseño predeterminado no se puede editar ni eliminar.
+* Un diseño personalizado se puede editar, copiar o eliminar.
+* Para crear un diseño basado en un diseño predeterminado, copie primero el diseño y, a continuación, edite la copia.
 
-![1 x 4 diseño predeterminado](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+Se puede crear un diseño durante el proceso de creación de actividades desde el **[!UICONTROL Compositor de experiencias visuales]** (VEC), o desde la biblioteca de diseños fuera de la creación de actividades. Los siguientes pasos suponen que el diseño se crea a partir de la biblioteca, pero los pasos son similares.
 
-Esta ilustración muestra un diseño personalizado:
+## Crear un diseño a partir de la biblioteca {#steps}
 
-![Diseño personalizado](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Diseños]** para mostrar la biblioteca **[!UICONTROL Diseños]**.
 
-Puede crear un diseño durante el proceso de creación de actividades desde el [!UICONTROL Compositor de experiencias visuales] (VEC) o desde la biblioteca de diseños fuera de la creación de actividades. En las secciones siguientes se da por hecho que está creando diseños a partir de la biblioteca, pero los pasos son similares.
+1. Inicie el diseño de una de las siguientes maneras:
 
-## Creación de diseños
+   * Para basar el diseño en uno predeterminado o en uno existente, haga clic en el icono Más acciones ( ![icono Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) para ese diseño y, a continuación, haga clic en **[!UICONTROL Copiar]**. Se muestra el cuadro de diálogo **[!UICONTROL Crear diseño]**. La copia editada se convierte en un nuevo diseño personalizado.
+   * Para crear un diseño personalizado desde cero, haga clic en **[!UICONTROL Crear diseño]**.
 
-Puede crear un diseño basado en un diseño predeterminado o puede crear uno personalizado.
+     ![Biblioteca de diseños con el botón Crear diseño resaltado](../assets/design_1.png)
 
-### Crear un diseño basado en un diseño predeterminado
+1. Escriba un **[!UICONTROL Nombre]** y seleccione una imagen de vista previa opcional para mostrarla en la tarjeta de diseño.
 
-1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Diseños]** para mostrar la biblioteca [!UICONTROL Diseños].
-
-
-1. Haga clic en el icono Más acciones ( ![icono Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) del diseño que desea crear y, a continuación, haga clic en **[!UICONTROL Copiar]**.
-
-   Se muestra el cuadro de diálogo [!UICONTROL Crear diseño].
-
-1. Escriba un **[!UICONTROL Nombre]** y una imagen de vista previa opcional para mostrarla en la tarjeta de diseño.
-
-   Cuando se usa un diseño predeterminado, el nombre del diseño y &quot;Copiar&quot; aparecen en el campo **[!UICONTROL Nombre del contenido]**. Puede editar el nombre. También puede seleccionar una imagen para mostrarla en la tarjeta de diseño.
+   Cuando se usa un diseño predeterminado, el nombre del diseño seguido de &quot;Copiar&quot; aparece en el campo **[!UICONTROL Nombre del contenido]**. El nombre se puede editar.
 
 1. (Condicional) Edite el diseño **[!UICONTROL Code]** según desee.
 
-   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Encontrará información sobre Velocity en [https://velocity.apache.org](https://velocity.apache.org) y en [Personalizar un diseño con Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Los diseños de Recommendations utilizan el lenguaje de diseño Velocity de código abierto. Para obtener información acerca de Velocity, consulte [https://velocity.apache.org](https://velocity.apache.org) y [Personalizar un diseño con Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Un diseño puede ser HTML o no HTML. De manera predeterminada, los diseños de HTML se encapsulan con una etiqueta `<div>` para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice el botón de alternancia [!UICONTROL HTML Design] a la posición &quot;desactivado&quot; para utilizar código que no sea de HTML.
+   Un diseño puede ser HTML o no HTML. De manera predeterminada, los diseños de HTML se encapsulan con una etiqueta `<div>` para permitir el seguimiento de clics en un entorno web. Los diseños que no son HTML son para entornos que no son de web donde los clics no se pueden rastrear. Deslice el botón de alternancia **[!UICONTROL HTML Design]** a la posición &quot;desactivado&quot; para utilizar código que no sea de HTML.
 
    >[!NOTE]
    >
@@ -75,43 +66,25 @@ Puede crear un diseño basado en un diseño predeterminado o puede crear uno per
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Crear un diseño personalizado
+1. Haga clic en el icono Más acciones ( ![icono Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) para que el diseño edite, copie o elimine y, a continuación, haga clic en la opción adecuada: **[!UICONTROL Editar]**, **[!UICONTROL Copiar]** o **[!UICONTROL Eliminar]**.
 
-1. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Diseños]** para mostrar la biblioteca [!UICONTROL Diseños].
+   ![Biblioteca de diseños con el menú Más acciones abierto, que muestra Editar, Copiar y Eliminar](../assets/design_2.png)
 
-1. Haga clic en **[!UICONTROL Crear diseño]**.
+Los diseños están disponibles en toda la cuenta. El uso en todas las cuentas debe tenerse en cuenta antes de eliminar un diseño. Los diseños eliminados no se pueden recuperar.
 
-   Si desea basar el nuevo diseño personalizado en un diseño existente, haga clic en el icono [!UICONTROL Más acciones] ( ![Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) del diseño que desea crear y, a continuación, haga clic en [!UICONTROL Copiar]. A continuación, puede editar la copia para crear un nuevo diseño personalizado.
+## Ejemplo de JSON {#json-example}
 
-1. Agregue **[!UICONTROL Name]** y una imagen de vista previa opcional.
+El siguiente ejemplo muestra cómo se pueden devolver las respuestas JSON cuando se configura una actividad con el [editor basado en formularios](/help/main/c-experiences/form-experience-composer.md).
 
-1. (Condicional) Edite el diseño **[!UICONTROL Code]** según desee.
+1. Cree un diseño desde la **[!UICONTROL biblioteca de diseños]** o desde el flujo de trabajo basado en formularios. Un diseño que se crea dentro del flujo de trabajo del **[!UICONTROL Compositor de experiencias visuales]** (VEC) solo puede ser un diseño de HTML, que está dentro de un `<div>` con fines de seguimiento de clics.
 
-   Consulte la información del paso 4 anterior para obtener más información.
+1. Asegúrese de que la opción **[!UICONTROL HTML Design]** esté desactivada:
 
-1. Haga clic en **[!UICONTROL Crear]**.
+   ![HTML Design cambia a la posición desactivada](/help/main/c-recommendations/c-design-overview/assets/html_design_toggle.png)
 
-## Editar, copiar o eliminar un diseño
+1. Pegue un código como el siguiente ejemplo en el diseño:
 
-Recuerde que no puede editar ni copiar un diseño predeterminado; sólo puede copiar diseños predeterminados.
-
-Haga clic en el icono [!UICONTROL Más acciones] ( ![Más acciones](/help/main/assets/icons/MoreSmallList.svg) ) del diseño que desee editar o eliminar y, a continuación, haga clic en el icono correspondiente: [!UICONTROL Editar], [!UICONTROL Copiar] o [!UICONTROL Eliminar].
-
-Puede copiar un diseño existente para crear un diseño duplicado que luego pueda modificar. Este proceso permite crear un diseño similar con menos esfuerzo.
-
-Tenga en cuenta que los diseños están disponibles en toda la cuenta. Asegúrese de tener en cuenta el uso en todas las cuentas antes de eliminar un diseño. Los diseños eliminados no se pueden recuperar.
-
-## Ejemplo de JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
-
-El siguiente ejemplo muestra cómo se pueden devolver respuestas JSON al configurar una actividad a través de [editor basado en formularios](/help/main/c-experiences/form-experience-composer.md).
-
-1. Cree un diseño desde la [!UICONTROL biblioteca de diseños] o desde el flujo de trabajo basado en formularios. Si intenta crear un diseño dentro del flujo de trabajo de [!UICONTROL Compositor de experiencias visuales] (VEC), no podrá crear nada más que un diseño de HTML, que está dentro de un `<div>` para fines de seguimiento de clics.
-
-1. Compruebe que la opción “Diseño HTML” esté desactivada:
-
-   ![imagen html_design_toggle](assets/html_design_toggle.png)
-
-1. El siguiente código es un ejemplo de lo que puede pegar en el diseño:
+   +++ Código de diseño de muestra que devuelve una lista de ID de entidad.
 
    ```javascript
        #* 
@@ -140,22 +113,28 @@ El siguiente ejemplo muestra cómo se pueden devolver respuestas JSON al configu
        }  
    ```
 
+   +++
+
 1. Configure una actividad [!DNL Recommendations] basada en formularios que use este diseño.
+
+   +++ Obtenga información sobre cómo configurar una actividad [!DNL Recommendations] basada en formularios 
 
    1. Vaya a la página **[!UICONTROL Actividades]**.
    1. Haga clic en **[!UICONTROL Crear actividad]** > **[!UICONTROL Recommendations]**.
    1. En **[!UICONTROL Elegir Compositor de experiencias]**, seleccione **[!UICONTROL Formulario]** y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
-   1. En Ubicación, introduzca el texto: &quot;Sample_Recs_Response&quot;
+   1. En Ubicación, introduzca el texto &quot;Sample_Recs_Response&quot;.
    1. En **[!UICONTROL Contenido predeterminado]**, haga clic en la flecha hacia abajo y, a continuación, haga clic en **[!UICONTROL Añadir recomendación]**.
    1. Elija un tipo de página. Esto determina el filtrado inicial de la siguiente pantalla.
    1. Seleccione una tarjeta Criterios y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
-   1. Seleccione el diseño que creó en el paso anterior y luego haga clic en **[!UICONTROL Siguiente]**.
+   1. Seleccione el diseño que se creó en el paso anterior y luego haga clic en **[!UICONTROL Siguiente]**.
    1. Complete el proceso de configuración.
    1. Haga clic en la flecha derecha situada junto a **[!UICONTROL Inactivo]** y, a continuación, seleccione **[!UICONTROL Activar]**.
 
-1. Una vez configurada y activada la actividad, puede configurar una solicitud de muestra para recuperar la respuesta JSON limpia.
+   +++
 
-   Desde el momento en que guarda la actividad, [!DNL Target] necesita generar un modelo para admitir la configuración de criterios seleccionada. Dependiendo de una serie de factores, este proceso podría llevar algún tiempo. Los resultados aparecen una vez creado el modelo.
+1. Una vez configurada y activada la actividad, se puede configurar una solicitud de muestra para recuperar la respuesta JSON limpia.
+
+   Desde el momento en que se guarda la actividad, [!DNL Target] necesita generar un modelo para admitir la configuración de criterios seleccionada. Según varios factores, este proceso puede tardar algún tiempo. Los resultados aparecen una vez que se ha creado el modelo.
 
    Por ejemplo:
 
@@ -167,168 +146,164 @@ El siguiente ejemplo muestra cómo se pueden devolver respuestas JSON al configu
 
    | Parámetro | Valor |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Código de cliente de Target (disponible en /help/target/products.html#recsSettings > Token de la API de Recommendations > Código de cliente). |
-   | `[YOUR_MBOX_NAME]` | El nombre que ha seleccionado en la sección &quot;ubicaciones&quot; de Recommendations basadas en formularios, en este caso Sample_Recs_Response. |
-   | `[ENTITY_ID` | El `entity.id` de un artículo del catálogo. |
-   | `[AT_PROPERTY_TOKEN]` | (Opcional) Añada si ha seleccionado una propiedad (parte de los permisos de Enterprise) durante la configuración de la actividad. |
+   | `[YOUR_CLIENT_CODE]` | El código de cliente [!DNL Target] (disponible en /help/target/products.html#recsSettings > Token de la API de Recommendations > Código de cliente). |
+   | `[YOUR_MBOX_NAME]` | El nombre seleccionado en la sección &quot;ubicaciones&quot; de la actividad de Recommendations basada en formularios, en este caso Sample_Recs_Response. |
+   | `[ENTITY_ID]` | `entity.id` de un elemento del catálogo. |
+   | `[AT_PROPERTY_TOKEN]` | (Opcional) Se agregó cuando se seleccionó una propiedad (parte de los permisos de Enterprise) durante la configuración de la actividad. |
 
-Cuando se haya ejecutado el algoritmo y tenga los resultados, su respuesta tendría que parecerse a esta:
+Una vez que el algoritmo se ha ejecutado y los resultados están disponibles, la respuesta tiene un aspecto similar al siguiente:
 
-![imagen json_recommendation](assets/json_recommendation.png){width="575px"}
+![Respuesta JSON con los elementos recomendados](/help/main/c-recommendations/c-design-overview/assets/json_recommendation.png){width="575px"}
 
-## Trucos y consejos adicionales sobre objetos JSON {#section_C305673C68944749969DB239E3221DC2}
+## Sugerencias adicionales sobre objetos JSON {#json-tips}
 
-También puede enviar una lista de elementos simple delimitada por comas configurando un diseño con la siguiente sintaxis:
+También se puede devolver una lista de elementos simple delimitada por comas configurando un diseño con la siguiente sintaxis:
 
 ```
-entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
+$entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Alternativamente, también puede enviar información adicional en la respuesta. El siguiente archivo de código es un ejemplo más complejo que devuelve mucho más que los identificadores de la entidad con sus espacios asociados (solicitud). Este ejemplo de diseño también devuelve detalles de la actividad, detalles de [!UICONTROL perfil de Target] (según corresponda) y otros `entity.attributes` asociados con los elementos devueltos.
+También se puede enviar información adicional en la respuesta. El siguiente código es un ejemplo más complejo que devuelve mucho más que los ID de entidad con sus espacios asociados (pedidos). Este ejemplo de diseño también devuelve detalles de la actividad, detalles de **[!UICONTROL perfil de Target]** (según corresponda) y otros `entity.attributes` asociados con los elementos devueltos.
+
++++ Código de diseño de muestra que devuelve detalles de actividad, perfil y entidad.
 
 ```javascript
-    {   
-     "adobeRecommendations": {   
-      "notes": {   
-       "purpose": "Return a list of entity ids with their associated entity.attributes",   
-       "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
-       "version": "01"   
-      },   
-      "recommendedItems": {   
-       "slot-01": "$entity1.id",   
-       "slot-02": "$entity2.id",   
-       "slot-03": "$entity3.id",   
-       "slot-04": "$entity4.id",   
-       "slot-05": "$entity5.id",   
-       "slot-06": "$entity6.id",   
-       "slot-07": "$entity7.id",   
-       "slot-08": "$entity8.id",   
-       "slot-09": "$entity9.id",   
-       "slot-10": "$entity10.id"   
-      },   
-      "activityDetails": {   
-       "mbox.name": "email-mbox",   
-       "campaign.name": "\${campaign.name}",   
-       "campaign.id": "\${campaign.id}",   
-       "campaign.recipe.name": "\${campaign.recipe.name}",   
-       "campaign.recipe.id": "\${campaign.recipe.id}",   
-       "offer.name": "\${offer.name}",   
-       "offer.id": "\${offer.id}",   
-       "criteria.title": "$criteria.title",   
-       "algorithm.name": "$algorithm.name",   
-       "algorithm.dayCount": "$algorithm.dayCount"   
-      },   
-      "visitorProfile": {   
-       "profile.favorite-category": "\${profile.favorite-category}",   
-       "profile.test": "\${profile.test}",   
-       "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
-       "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
-       "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
-       "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
-       "profile.geolocation.city": "\${profile.geolocation.city}",   
-       "profile.geolocation.dma": "\${profile.geolocation.dma}",   
-       "profile.geolocation.state": "\${profile.geolocation.state}",   
-       "profile.geolocation.country": "\${profile.geolocation.country}",   
-       "profile.sessionCount": "\${profile.sessionCount}",   
-       "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
-       "profile.browserTime": "\${profile.browserTime}",   
-       "user.activeActivities": "\${user.activeActivities}",   
-       "user.pcId": "\${user.pcId}",   
-       "user.isFirstSession": "\${user.isFirstSession}",   
-       "user.isNewSession": "\${user.isNewSession}",   
-       "user.header": "\${user.header}",   
-       "user.parameter": "\${user.parameter}"   
-      },   
-      "recKey": {   
-       "recKeyDetails": {   
-        "id": "$key.id",   
-        "name": "$key.name",   
-        "category": "$key.category",   
-        "pageUrl": "$key.pageUrl",   
-        "thumbnailUrl": "$key.thumbnailUrl"   
-       }   
-      },   
-      "recDetailedResults": {   
-       "recEntity1Details": {   
-        "id": "$entity1.id",   
-        "name": "$entity1.name",   
-        "category": "$entity1.category",   
-        "pageUrl": "$entity1.pageUrl",   
-        "thumbnailUrl": "$entity1.thumbnailUrl"   
-       },   
-       "recEntity2Details": {   
-        "id": "$entity2.id",   
-        "name": "$entity2.name",   
-        "category": "$entity2.category",   
-        "pageUrl": "$entity2.pageUrl",   
-        "thumbnailUrl": "$entity2.thumbnailUrl"   
-       },   
-       "recEntity3Details": {   
-        "id": "$entity3.id",   
-        "name": "$entity3.name",   
-        "category": "$entity3.category",   
-        "pageUrl": "$entity3.pageUrl",   
-        "thumbnailUrl": "$entity3.thumbnailUrl"   
-       },   
-       "recEntity4Details": {   
-        "id": "$entity4.id",   
-        "name": "$entity4.name",   
-        "category": "$entity4.category",   
-        "pageUrl": "$entity4.pageUrl",   
-        "thumbnailUrl": "$entity4.thumbnailUrl"   
-       },   
-       "recEntity5Details": {   
-        "id": "$entity5.id",   
-        "name": "$entity5.name",   
-        "category": "$entity5.category",   
-        "pageUrl": "$entity5.pageUrl",   
-        "thumbnailUrl": "$entity5.thumbnailUrl"   
-       },   
-       "recEntity6Details": {   
-        "id": "$entity6.id",   
-        "name": "$entity6.name",   
-        "category": "$entity6.category",   
-        "pageUrl": "$entity6.pageUrl",   
-        "thumbnailUrl": "$entity6.thumbnailUrl"   
-       },   
-       "recEntity7Details": {   
-        "id": "$entity7.id",   
-        "name": "$entity7.name",   
-        "category": "$entity7.category",   
-        "pageUrl": "$entity7.pageUrl",   
-        "thumbnailUrl": "$entity7.thumbnailUrl"   
-       },   
-       "recEntity8Details": {   
-        "id": "$entity8.id",   
-        "name": "$entity8.name",   
-        "category": "$entity8.category",   
-        "pageUrl": "$entity8.pageUrl",   
-        "thumbnailUrl": "$entity8.thumbnailUrl"   
-       },   
-       "recEntity9Details": {   
-        "id": "$entity9.id",   
-        "name": "$entity9.name",   
-        "category": "$entity9.category",   
-        "pageUrl": "$entity9.pageUrl",   
-        "thumbnailUrl": "$entity9.thumbnailUrl"   
-       },   
-       "recEntity10Details": {   
-        "id": "$entity10.id",   
-        "name": "$entity10.name",   
-        "category": "$entity10.category",   
-        "pageUrl": "$entity10.pageUrl",   
-        "thumbnailUrl": "$entity10.thumbnailUrl"   
-       }   
-      }   
+  {   
+   "adobeRecommendations": {   
+    "notes": {   
+     "purpose": "Return a list of entity ids with their associated entity.attributes",   
+     "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
+     "version": "01"   
+    },   
+    "recommendedItems": {   
+     "slot-01": "$entity1.id",   
+     "slot-02": "$entity2.id",   
+     "slot-03": "$entity3.id",   
+     "slot-04": "$entity4.id",   
+     "slot-05": "$entity5.id",   
+     "slot-06": "$entity6.id",   
+     "slot-07": "$entity7.id",   
+     "slot-08": "$entity8.id",   
+     "slot-09": "$entity9.id",   
+     "slot-10": "$entity10.id"   
+    },   
+    "activityDetails": {   
+     "mbox.name": "email-mbox",   
+     "campaign.name": "\${campaign.name}",   
+     "campaign.id": "\${campaign.id}",   
+     "campaign.recipe.name": "\${campaign.recipe.name}",   
+     "campaign.recipe.id": "\${campaign.recipe.id}",   
+     "offer.name": "\${offer.name}",   
+     "offer.id": "\${offer.id}",   
+     "criteria.title": "$criteria.title",   
+     "algorithm.name": "$algorithm.name",   
+     "algorithm.dayCount": "$algorithm.dayCount"   
+    },   
+    "visitorProfile": {   
+     "profile.favorite-category": "\${profile.favorite-category}",   
+     "profile.test": "\${profile.test}",   
+     "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
+     "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
+     "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
+     "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
+     "profile.geolocation.city": "\${profile.geolocation.city}",   
+     "profile.geolocation.dma": "\${profile.geolocation.dma}",   
+     "profile.geolocation.state": "\${profile.geolocation.state}",   
+     "profile.geolocation.country": "\${profile.geolocation.country}",   
+     "profile.sessionCount": "\${profile.sessionCount}",   
+     "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
+     "profile.browserTime": "\${profile.browserTime}",   
+     "user.activeActivities": "\${user.activeActivities}",   
+     "user.pcId": "\${user.pcId}",   
+     "user.isFirstSession": "\${user.isFirstSession}",   
+     "user.isNewSession": "\${user.isNewSession}",   
+     "user.header": "\${user.header}",   
+     "user.parameter": "\${user.parameter}"   
+    },   
+    "recKey": {   
+     "recKeyDetails": {   
+      "id": "$key.id",   
+      "name": "$key.name",   
+      "category": "$key.category",   
+      "pageUrl": "$key.pageUrl",   
+      "thumbnailUrl": "$key.thumbnailUrl"   
      }   
-    }  
+    },   
+    "recDetailedResults": {   
+     "recEntity1Details": {   
+      "id": "$entity1.id",   
+      "name": "$entity1.name",   
+      "category": "$entity1.category",   
+      "pageUrl": "$entity1.pageUrl",   
+      "thumbnailUrl": "$entity1.thumbnailUrl"   
+     },   
+     "recEntity2Details": {   
+      "id": "$entity2.id",   
+      "name": "$entity2.name",   
+      "category": "$entity2.category",   
+      "pageUrl": "$entity2.pageUrl",   
+      "thumbnailUrl": "$entity2.thumbnailUrl"   
+     },   
+     "recEntity3Details": {   
+      "id": "$entity3.id",   
+      "name": "$entity3.name",   
+      "category": "$entity3.category",   
+      "pageUrl": "$entity3.pageUrl",   
+      "thumbnailUrl": "$entity3.thumbnailUrl"   
+     },   
+     "recEntity4Details": {   
+      "id": "$entity4.id",   
+      "name": "$entity4.name",   
+      "category": "$entity4.category",   
+      "pageUrl": "$entity4.pageUrl",   
+      "thumbnailUrl": "$entity4.thumbnailUrl"   
+     },   
+     "recEntity5Details": {   
+      "id": "$entity5.id",   
+      "name": "$entity5.name",   
+      "category": "$entity5.category",   
+      "pageUrl": "$entity5.pageUrl",   
+      "thumbnailUrl": "$entity5.thumbnailUrl"   
+     },   
+     "recEntity6Details": {   
+      "id": "$entity6.id",   
+      "name": "$entity6.name",   
+      "category": "$entity6.category",   
+      "pageUrl": "$entity6.pageUrl",   
+      "thumbnailUrl": "$entity6.thumbnailUrl"   
+     },   
+     "recEntity7Details": {   
+      "id": "$entity7.id",   
+      "name": "$entity7.name",   
+      "category": "$entity7.category",   
+      "pageUrl": "$entity7.pageUrl",   
+      "thumbnailUrl": "$entity7.thumbnailUrl"   
+     },   
+     "recEntity8Details": {   
+      "id": "$entity8.id",   
+      "name": "$entity8.name",   
+      "category": "$entity8.category",   
+      "pageUrl": "$entity8.pageUrl",   
+      "thumbnailUrl": "$entity8.thumbnailUrl"   
+     },   
+     "recEntity9Details": {   
+      "id": "$entity9.id",   
+      "name": "$entity9.name",   
+      "category": "$entity9.category",   
+      "pageUrl": "$entity9.pageUrl",   
+      "thumbnailUrl": "$entity9.thumbnailUrl"   
+     },   
+     "recEntity10Details": {   
+      "id": "$entity10.id",   
+      "name": "$entity10.name",   
+      "category": "$entity10.category",   
+      "pageUrl": "$entity10.pageUrl",   
+      "thumbnailUrl": "$entity10.thumbnailUrl"   
+     }   
+    }   
+   }   
+  }  
 ```
 
-## Vídeo de formación: Crear diseños personalizados en Recommendations (3:20) ![Distintivo de información general](/help/main/assets/overview.png)
++++
 
-Este vídeo contiene la información siguiente:
-
-* Crear un diseño personalizado
-* Aprenda a hacer referencia a las variables de visualización en sus diseños
-
->[!VIDEO](https://video.tv.adobe.com/v/35325?captions=spa)
