@@ -49,7 +49,7 @@ Los distintos algoritmos se adaptan a diferentes tipos de páginas. Las seccione
 
 ## Basado en el carro {#cart-based}
 
-El tipo de algoritmo **[!UICONTROL Basado en el carro de compras]** recomienda artículos en función del contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan como valores separados por comas en el [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}. Solo se tienen en cuenta los 10 primeros valores.
+El tipo de algoritmo **[!UICONTROL Basado en el carro de compras]** recomienda artículos en función del contenido del carro de compras actual del visitante. Las claves de recomendación se proporcionan como valores separados por comas en el [parámetro de mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}. Solo se tienen en cuenta los 10 primeros valores.
 
 La lógica de recomendación basada en el carro de compras es similar al algoritmo basado en usuarios de &quot;**[!UICONTROL Recomendado para ti]**&quot; y a las &quot;**[!UICONTROL Personas que vieron esto, compraron aquello]**&quot; y &quot;**[!UICONTROL Personas que compraron esto, compraron aquello]**&quot;.
 
@@ -121,7 +121,7 @@ Por ejemplo, ver la categoría A y luego la categoría B en una sesión resulta 
 >title="Atributo del perfil"
 >abstract="Puede crear un atributo de perfil mediante los scripts de perfil. Una vez creado y activado un script de perfil, su atributo de perfil correspondiente se puede utilizar con este algoritmo."
 
-**[!UICONTROL Los más visitados por atributo de perfil]** y **[!UICONTROL los más vendidos por atributo de perfil]** dependen de un script de perfil para rellenar el atributo. El nombre del script debe comenzar con el prefijo `recsAttribute` para que [!DNL Target] lo almacene como `user.recsAttribute<Name>`. Se puede escribir una secuencia de comandos para cualquier característica del visitante que sea relevante para el caso de uso. Para obtener más información acerca de cómo establecer atributos de perfil con scripts de perfil, vea [Parámetros de perfil](https://experienceleague.adobe.com/es/docs/target/using/audiences/visitor-profiles/profile-parameters).
+**[!UICONTROL Los más visitados por atributo de perfil]** y **[!UICONTROL los más vendidos por atributo de perfil]** dependen de un script de perfil para rellenar el atributo. El nombre del script debe comenzar con el prefijo `recsAttribute` para que [!DNL Target] lo almacene como `user.recsAttribute<Name>`. Se puede escribir una secuencia de comandos para cualquier característica del visitante que sea relevante para el caso de uso. Para obtener más información acerca de cómo establecer atributos de perfil con scripts de perfil, vea [Parámetros de perfil](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Por ejemplo, el siguiente script, denominado `recsAttributeRegion`, basa las recomendaciones en la región del visitante:
 
