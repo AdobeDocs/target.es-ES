@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Si selecciona varios criterios, el tráfico se distribuye uniformemente entre lo
 
 **Para seleccionar criterios:**
 
-1. Mientras [crea una nueva recomendación](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), en el cuadro de diálogo **[!UICONTROL Seleccionar criterios]**, busque y seleccione uno o más criterios.
+1. Mientras [crea una nueva recomendación](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity), en el cuadro de diálogo **[!UICONTROL Seleccionar criterios]**, busque y seleccione uno o más criterios.
 
    Puede usar el filtro [!UICONTROL Tipo de sector], el filtro [!UICONTROL Tipo de página] y la casilla de verificación [!UICONTROL Compatible] para filtrar la lista de criterios. Estas opciones le ayudan a encontrar los criterios deseados.
 

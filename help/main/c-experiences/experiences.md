@@ -23,23 +23,29 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 5eb9c52c66c309a3db66cf01e01f6a3f09dc2ac5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 69%
+source-wordcount: '396'
+ht-degree: 28%
 ---
-# Introducción a experiencias y ofertas
+# Introducción a experiencias y ofertas {#experiences-overview}
 
-Una experiencia en [!DNL Adobe Target] determina qué contenido se muestra cuando el visitante cumple los criterios de audiencia de una actividad.
+>[!BEGINSHADEBOX]
 
-Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un embudo de compras o cualquier otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio de atención al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se prueban o personalizan en actividades de [!DNL Target].
+**En esta página:** Descubra qué es una experiencia en [!DNL Adobe Target] y qué compositores de experiencias están disponibles para crear experiencias.
 
-Una actividad generalmente contiene más de una experiencia. Por ejemplo, los visitantes del área de Salt Lake City podrían ver una oferta para un descuento de 30 dólares en botas de ski, mientras que los visitantes de San Diego ven una oferta para un descuento en trajes de agua. O bien, podría probar una página con diferentes ofertas especiales para los visitantes que regresan. Cada una de estas ofertas se presenta en una experiencia separada.
+>[!ENDSHADEBOX]
 
-Target proporciona los siguientes compositores de experiencias:
+Una experiencia en [!DNL Adobe Target] determina qué contenido se muestra cuando un visitante cumple los criterios de audiencia de una actividad.
+
+Una experiencia puede ser una oferta, imagen, texto, botón, vídeo, una combinación de estos elementos en una página, una página web completa o un conjunto de páginas que quizás forman un funnel de compra u otra secuencia lógica de páginas. También puede ser la respuesta de un asistente de voz, un script de servicio de atención al cliente o incluso un sabor personalizado de una máquina de bebidas. Las experiencias se han probado o personalizado en [!DNL Target] actividades.
+
+Una actividad generalmente contiene más de una experiencia. Por ejemplo, los visitantes del área de Salt Lake City podrían ver una oferta para un descuento de 30 dólares en botas de ski, mientras que los visitantes de San Diego ven una oferta para un descuento en trajes de agua. También se puede probar una página con diferentes ofertas especiales para los visitantes que regresan. Cada una de estas ofertas se presenta en una experiencia separada.
+
+[!DNL Target] proporciona los siguientes compositores de experiencias:
 
 | Tipo | Detalles |
 | --- | --- |
-| [Compositor de experiencias visuales (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | El VEC es una de las características principales de Adobe Target. El VEC es un editor que permite que los expertos en marketing y los diseñadores creen y cambien contenido por medio de una interfaz visual. Se pueden elegir muchas opciones de diseño sin tener que editar directamente el código. Editar HTML y JavaScript también es posible con las opciones de edición que se encuentran disponibles en el compositor. |
-| [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual. Esta función permite que las pruebas A/B de Target Standard y las actividades de segmentación de experiencias, Automated Personalization y Recommendations se entreguen en correos electrónicos, kioscos y otros lugares que no trabajan con un Compositor de experiencias visuales. |
-| [Compositor de experiencias visuales (VEC) de una aplicación de una sola página (SPA)](/help/main/c-experiences/spa-visual-experience-composer.md) | El VEC para aplicaciones de una sola página (SPA) permite que los comerciantes creen pruebas y personalicen el contenido de las SPA de forma independiente sin tener que depender de un desarrollo continuo. El VEC se puede utilizar para crear pruebas A/B y actividades de segmentación de experiencias (XT) en marcos populares, como React y Angular. |
+| [Compositor de experiencias visuales (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | El VEC es una de las características principales de [!DNL Adobe Target]. Es un editor que permite a los especialistas en marketing y a los diseñadores crear y cambiar contenido mediante una interfaz visual. Se pueden realizar muchas opciones de diseño sin editar directamente el código. HTML y JavaScript también se pueden editar mediante las opciones de edición disponibles en el compositor. |
+| [Compositor de experiencias basadas en formularios](/help/main/c-experiences/form-experience-composer.md) | El Compositor de experiencias basadas en formularios proporciona una creación de experiencias no visual. Permite que las pruebas A/B [!DNL Target Standard], la segmentación de experiencias, Automated Personalization y las actividades [!DNL Recommendations] se entreguen en correos electrónicos, kioscos y otros lugares que no trabajan con un Compositor de experiencias visuales. |
+| [Compositor de experiencias visuales (VEC) de una aplicación de una sola página (SPA)](/help/main/c-experiences/spa-visual-experience-composer.md) | El VEC para SPA permite a los especialistas en marketing crear pruebas y personalizar el contenido de las SPA de forma independiente, sin dependencias de desarrollo continuo. Se puede utilizar para crear pruebas A/B y actividades de segmentación de experiencias (XT) en marcos populares, como React y Angular. |

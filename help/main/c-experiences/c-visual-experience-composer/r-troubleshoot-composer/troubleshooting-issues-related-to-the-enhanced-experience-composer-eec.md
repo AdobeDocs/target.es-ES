@@ -22,25 +22,28 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '581'
+ht-degree: 5%
 ---
-# Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias mejorado]
+# Resolución de problemas relacionados con [!UICONTROL Compositor de experiencias mejorado] {#eec-issues}
 
-Mostrar problemas que a veces ocurren en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias mejorado] (EEC) en ciertas condiciones.
+>[!BEGINSHADEBOX]
 
-## El EEC no cargará una URL de control de calidad interna que no sea accesible desde una IP pública. {#section_D29E96911D5C401889B5EACE267F13CF}
+**En esta página:** Aprenda a resolver los problemas que afectan solamente al **[!UICONTROL Compositor de experiencias mejorado]** (EEC), como páginas que no se cargan porque las direcciones IP del proxy EEC están bloqueadas.
 
+>[!ENDSHADEBOX]
 
-+++Detalles
-Este problema se puede resolver mediante la inclusión en la lista de permitidos de las siguientes direcciones IP. Estas direcciones IP son para el servidor [!DNL Adobe] utilizado para el proxy EEC. Estas direcciones IP solo son necesarias para la edición de actividades. Los visitantes del sitio no necesitan estas direcciones IP incluidas en la lista de permitidos.
+Mostrar problemas que a veces ocurren en el [!DNL Adobe Target] **[!UICONTROL Compositor de experiencias mejorado]** (EEC) en ciertas condiciones. Los siguientes elementos describen los problemas que afectan únicamente al EEC y cómo resolverlos.
 
-Solicite a su equipo de TI que realice la lista de permitidos de las siguientes direcciones IP:
+## Lista de permitidos de las direcciones IP del proxy EEC {#eec-ip-addresses}
+
+El EEC no carga una URL de control de calidad interna que no es accesible desde una dirección IP pública. La inclusión en la lista de permitidos de las direcciones IP del servidor [!DNL Adobe] utilizado para el proxy EEC resuelve este problema. Estas direcciones IP solo son necesarias para la edición de actividades y los visitantes del sitio no las necesitan incluidas en la lista de permitidos. Pida al equipo de TI que realice una lista de permitidos de las siguientes direcciones IP.
 
 ### EE. UU. (va7)
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -64,9 +67,11 @@ Solicite a su equipo de TI que realice la lista de permitidos de las siguientes 
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA (nld2)
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -89,9 +94,11 @@ Solicite a su equipo de TI que realice la lista de permitidos de las siguientes 
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC (aus)
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -117,11 +124,13 @@ Solicite a su equipo de TI que realice la lista de permitidos de las siguientes 
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### Direcciones IP heredadas
 
 Las siguientes direcciones IP heredadas deben seguir incluidas en la lista de permitidos hasta nuevo aviso.
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -140,52 +149,48 @@ Las siguientes direcciones IP heredadas deben seguir incluidas en la lista de pe
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-Puede ver el siguiente mensaje de error en [!DNL Target]:
++++ El EEC muestra un mensaje de error que indica que el dominio del sitio web lo está bloqueando
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+El siguiente mensaje de error se puede mostrar en [!DNL Target]:
 
-![imagen EEC_error](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-Lo que sigue son motivos por los que podría ver este mensaje de error y remedios para la situación:
+![Compositor de experiencias con el mensaje de error que indica que el dominio del sitio web (ISP) está bloqueando el Compositor de experiencias mejorado, con una sugerencia de lista de permitidos de las direcciones IP o de desactivar el compositor en el menú Configurar envío de páginas](assets/EEC_error.png)
 
-* **Problema:** El dominio del sitio web (ISP) está bloqueando [!UICONTROL Enhanced Experience Composer].
+Este mensaje de error tiene dos causas posibles:
 
-  **Remedy:** Lista de permitidos las direcciones IP enumeradas anteriormente.
-
-* **Problema:** Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
-
-  **Solución:** Consulte la siguiente pregunta (el [!UICONTROL Compositor de experiencias visuales mejorado] no se cargará en páginas seguras de mi sitio que usen TLS 1.2).
+* El dominio del sitio web (ISP) bloquea el EEC. Para resolver el problema, lista de permitidos las direcciones IP enumeradas en [Lista de permitidos de las direcciones IP del proxy EEC](#eec-ip-addresses).
+* Las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS 1.2. Para resolver el problema, consulte el siguiente elemento.
 
 +++
 
-## El EEC no se carga en páginas seguras de mi sitio que utilizan TLS 1.0. (Solo EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ El EEC no se carga en páginas seguras de un sitio que utiliza TLS 1.0
 
-+++Detalles
-Podría ver el mensaje de error descrito en &quot;El [!UICONTROL Compositor de experiencias visuales mejorado] no se cargará en las páginas seguras de mi sitio&quot;. si las direcciones IP anteriores están incluidas en la lista de permitidos, pero el sitio web no admite TLS versión 1.2. [!DNL Target] actualmente usa la configuración predeterminada de 1.2. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
+El mensaje de error descrito en el elemento anterior se puede mostrar cuando las direcciones IP están incluidas en la lista de permitidos, pero el sitio web no admite TLS 1.2. [!DNL Target] actualmente usa la versión 1.2 como configuración predeterminada. Antes de [!DNL Target] 18.4.1 (25 de abril de 2018), la configuración predeterminada admitía TLS 1.0. Para obtener más información, consulte [Cambios de cifrado de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank}.
 
-Para consultar la versión TLS en su sitio web utilizando Firefox (otros navegadores tienen pasos similares):
+Para comprobar la versión TLS de un sitio web en Firefox (otros navegadores tienen pasos similares):
 
 1. Abra el sitio web afectado en Firefox.
-1. Haga clic en el icono **[!UICONTROL Mostrar información del sitio]** en la barra de direcciones del navegador.
+1. Haga clic en el icono **[!UICONTROL Mostrar información del sitio]** en la barra de direcciones del explorador.
 
-   ![imagen firefox_more_info](assets/firefox_more_info.png)
+   ![Barra de direcciones de Firefox con el icono Mostrar información del sitio resaltado a la izquierda de la dirección URL](assets/firefox_more_info.png)
 
 1. Haga clic en **[!UICONTROL Mostrar detalles de conexión]** > **[!UICONTROL Más información]**.
 
-   ![imagen de firefox_more_info_2](assets/firefox_more_info_2.png)
+   ![Panel de información del sitio Firefox con la flecha Mostrar detalles de conexión resaltada junto a Conexión segura](assets/firefox_more_info_2.png)
 
-1. Examine la información de versión TLS en Detalles técnicos:
+1. Examine la información de versión TLS en **[!UICONTROL Detalles técnicos]**.
 
-   ![imagen de firefox_more_info_3](assets/firefox_more_info_3.png)
+   ![Ventana de información de página de Firefox, ficha Seguridad, con la versión TLS resaltada en Detalles técnicos](assets/firefox_more_info_3.png)
 
-1. Si descubre que su sitio web está mostrando TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de Target. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018){target=_blank}, póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar su versión TLS y el dominio.
+1. Si el sitio web muestra TLS 1.0, consulte [Cambios en el cifrado de TLS (Seguridad de capa de transporte)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=es){target=_blank} para obtener información acerca de la directiva de compatibilidad con TLS de [!DNL Target]. Para solucionar la situación por el momento (válido hasta el 12 de septiembre de 2018), póngase en contacto con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) para configurar con la versión TLS y el dominio.
 
 +++
 
-## Veo errores de tiempo de espera o “acceso denegado” al cargar sitios con el proxy habilitado. (Solo EEC) {#section_60CBB9022DC449F593606C0E6252302D}
++++ Los errores de tiempo de espera o &quot;acceso denegado&quot; se muestran cuando los sitios se cargan con el proxy habilitado
 
-+++Detalles
-Asegúrese de que las IP del proxy no estén bloqueadas en el entorno.
+Asegúrese de que las direcciones IP del proxy no estén bloqueadas en el entorno. Las direcciones se enumeran en [Lista de permitidos de las direcciones IP del proxy EEC](#eec-ip-addresses).
 
 +++

@@ -18,82 +18,77 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 73%
+source-wordcount: '624'
+ht-degree: 11%
 ---
-# Habilitación del contenido mixto en el navegador
+# Habilitar contenido mixto en el explorador {#mixed-content}
 
-El contenido mixto se produce si la solicitud inicial es segura a través de HTTPS, pero el contenido HTTPS *y* HTTP se carga para mostrar la página web. El contenido HTTPS es seguro. El contenido HTTP no es seguro.
+>[!BEGINSHADEBOX]
 
-Los exploradores modernos pueden bloquear la visualización de una página o mostrar mensajes de advertencia si el contenido seguro se mezcla con contenido no seguro.
+**En esta página:** Aprenda a habilitar el contenido mixto en [!DNL Google Chrome], [!DNL Mozilla Firefox] y [!DNL Microsoft Edge] para que el **[!UICONTROL Compositor de experiencias visuales]** (VEC) pueda abrir sitios HTTP y sitios que contengan contenido mixto.
 
-Aparece un mensaje de advertencia si el [!UICONTROL Compositor de experiencias visuales] (VEC) de [!DNL Adobe Target] intenta abrir una página con contenido mixto. Este mensaje le informa sobre cómo deshabilitar el bloqueo en su explorador. Deshabilitar el bloqueo le permite abrir un sitio HTTP o un sitio que tenga contenido mixto (HTTPS y HTTP).
+>[!ENDSHADEBOX]
 
-![Advertencia de contenido mixto](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+Una página contiene contenido mixto cuando se solicita de forma segura a través de HTTPS, pero carga contenido HTTPS y HTTP. El contenido HTTPS es seguro, mientras que el contenido HTTP no lo es, por lo que los exploradores modernos pueden bloquear una página de este tipo o mostrar un mensaje de advertencia.
 
-Anteriormente, cuando el contenido mixto no estaba permitido, al crear actividades se podían realizar algunas acciones en el paso 1 del flujo de trabajo guiado de tres pasos. [!DNL Target] Ahora, bloquea las acciones en el paso 1. Cuando se muestra este mensaje, debe habilitar el contenido mixto antes de seguir creando la actividad.
+Cuando el **[!UICONTROL Compositor de experiencias visuales]** (VEC) de [!DNL Adobe Target] intenta abrir una página con contenido mixto, aparece un mensaje de advertencia con instrucciones para deshabilitar el bloqueo en el explorador. Deshabilitar el bloqueo permite abrir un sitio HTTP o un sitio con contenido mixto (HTTPS y HTTP).
 
-La configuración de seguridad del navegador podría bloquear el contenido mixto o no seguro (HTTP) que se carga en una página o marco seguro (HTTPS), como VEC. Si no desea deshabilitar la configuración de seguridad del explorador, debe tener un sitio web HTTPS.
+![Página de creación de actividad con el mensaje que indica que se debe permitir la carga de scripts de explorador para crear actividades, junto a una ilustración del mensaje de recarga del explorador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
-Si su sitio web se ejecuta en un dominio no seguro (HTTP), debe permitir que el VEC cargue el contenido mixto activo.
+Anteriormente, algunas acciones del paso 1 del flujo de trabajo guiado de tres pasos permanecían disponibles cuando no se permitía el contenido mixto. [!DNL Target] ahora bloquea todas las acciones del paso 1, por lo que el contenido mixto debe habilitarse para que la creación de la actividad pueda continuar.
+
+La configuración de seguridad del explorador puede bloquear el contenido no seguro (HTTP) que se carga en una página o marco seguro (HTTPS), como el VEC. La alternativa a cambiar esta configuración es un sitio web HTTPS. Si el sitio web se ejecuta en un dominio no seguro (HTTP), se debe permitir al VEC cargar contenido mixto activo.
 
 >[!IMPORTANT]
 >
->Permitir el contenido mixto afecta únicamente al VEC y no al sitio web publicado.
+>Permitir el contenido mixto afecta únicamente al VEC y no al sitio web activo.
 
 Para obtener más información, consulte [Contenido mixto](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) en el sitio web *Mozilla Developer Network* (MDN).
 
-## Habilitar contenido mixto en [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Habilitar contenido mixto en [!DNL Google Chrome]
 
-Si va a visitar un sitio a través de una conexión segura, [!DNL Chrome] comprueba que el contenido de la página web se haya transmitido correctamente.
+[!DNL Chrome] comprueba que el contenido de una página solicitada a través de una conexión segura se haya transmitido correctamente. Consulte &quot;[Administrar advertencias sobre sitios no seguros](https://support.google.com/chrome/answer/99020?hl=es)&quot; en la Ayuda de Google Chrome.
 
-Consulte &quot;[Administrar advertencias sobre sitios no seguros](https://support.google.com/chrome/answer/99020?hl=es)&quot; en la Ayuda de Google Chrome.
-
-Si utiliza el VEC con la última versión de [!DNL Chrome] (versión 79.0.3945.117 o posterior), debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
+Para usar el VEC con la última versión de [!DNL Chrome] (versión 79.0.3945.117 o posterior), actualice la configuración del sitio de la siguiente manera. Los visitantes del sitio no necesitan completar estos pasos.
 
 1. Haga clic en el icono de bloqueo (precaución) y, a continuación, haga clic en **[!UICONTROL Configuración del sitio]**.
 
-   ![Configuración del sitio](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+   ![Barra de direcciones de Chrome con el menú de conexión abierto y la configuración del sitio resaltada](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Desplácese hasta **[!UICONTROL Contenido no seguro]** y, a continuación, utilice la lista desplegable para cambiar &quot;Bloquear (predeterminado)&quot; por &quot;Permitir&quot;.
+1. En **[!UICONTROL Contenido no seguro]**, cambie &quot;Bloquear (predeterminado)&quot; a &quot;Permitir&quot; en la lista desplegable.
 
-   ![Contenido no seguro](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+   ![Configuración del sitio de Chrome con la lista desplegable de Contenido no seguro abierta y Permitir seleccionados](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Vuelva a cargar la página del VEC.
 
-## Habilitar contenido mixto en [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Habilitar contenido mixto en [!DNL Mozilla Firefox]
 
-De manera predeterminada, [!DNL Firebox] bloquea las páginas con contenido seguro y no seguro. Debe cambiar esta opción de forma permanente para usar [!DNL Target]. Los visitantes del sitio no necesitan completar estos pasos.
+De manera predeterminada, [!DNL Firefox] bloquea las páginas que mezclan contenido seguro con contenido no seguro, por lo que esta configuración debe cambiarse permanentemente para usar [!DNL Target]. Los visitantes del sitio no necesitan completar estos pasos.
 
-1. En Firefox, escriba `about:config` en la barra de direcciones.
+1. En [!DNL Firefox], escriba `about:config` en la barra de direcciones.
 1. Reconozca el mensaje de advertencia que muestra [!DNL Firefox].
 
-   ![Advertencia de Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
+   ![Firefox Continúe con la página de advertencia de precaución para aproximadamente:config con el botón Aceptar el riesgo y continuar](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
 1. En la barra de búsqueda, escriba `block_active`.
 
-   ![Configuración de Firefox block_active](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox about:config busca block_active mostrando security.mixed_content.block_active_content establecido en true](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
-1. Haga doble clic en ` **[!UICONTROL security.mixed_content.block_active_content]**`.
+1. Haga doble clic en `security.mixed_content.block_active_content`.
 
-   El valor cambiará de “Verdadero” a “Falso”. Cuando el valor cambie a “Falso”, habrá terminado.
+   El valor cambiará de &quot;Verdadero&quot; a &quot;Falso&quot;. Cuando el valor muestra &quot;False&quot;, el cambio se completa.
 
-   ![Seguridad de Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
+   ![Firefox sobre:config muestra security.mixed_content.block_active_content establecido en false](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
 1. Reinicie el equipo después de cambiar esta configuración.
 
 ## Habilitar contenido mixto en [!DNL Microsoft Edge]
 
-Si va a visitar un sitio a través de una conexión segura, [!DNL Edge] comprueba que el contenido de la página web se haya transmitido correctamente.
+[!DNL Edge] comprueba que el contenido de una página solicitada a través de una conexión segura se haya transmitido correctamente. Para usar el VEC con la última versión de [!DNL Edge], actualice la configuración del sitio de la siguiente manera. Los visitantes del sitio no necesitan completar estos pasos.
 
-Si utiliza el VEC con la última versión de [!DNL Edge], debe actualizar la configuración del sitio. Los visitantes del sitio no necesitan completar estos pasos.
-
-1. En [!DNL Edge], haga clic en **[!DNL Microsoft Edge]** en la barra de menús, **[!UICONTROL Configuración]**, luego haga clic en **Cookies y permisos del sitio**.
-
-1. Desplácese hasta **[!UICONTROL Contenido no seguro]**.
-
-1. Haga clic en **[!UICONTROL Contenido no seguro]** y, a continuación, haga clic en **[!UICONTROL Agregar]** junto a **[!UICONTROL Permitir]**, agregue el sitio en el que desea permitir contenido no seguro y, por último, haga clic en **[!UICONTROL Agregar]**.
-
+1. En [!DNL Edge], haga clic en **[!DNL Microsoft Edge]** en la barra de menús, haga clic en **[!UICONTROL Configuración]** y, a continuación, haga clic en **Cookies y permisos del sitio**.
+1. Desplácese hasta **[!UICONTROL Contenido no seguro]** y haga clic en él.
+1. Junto a **[!UICONTROL Permitir]**, haz clic en **[!UICONTROL Agregar]**, ingresa el sitio en el que deseas permitir contenido no seguro y luego haz clic en **[!UICONTROL Agregar]**.
 1. Vuelva a cargar la página del VEC.

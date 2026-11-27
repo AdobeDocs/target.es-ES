@@ -20,80 +20,194 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '3565'
-ht-degree: 77%
+source-wordcount: '3560'
+ht-degree: 10%
 ---
-# Preguntas más frecuentes de Recommendations
+# Preguntas más frecuentes de Recommendations {#recommendations-faq}
 
-Lista de las preguntas frecuentes (FAQ) acerca de actividades de [!DNL Adobe Target] [!DNL Recommendations].
+>[!BEGINSHADEBOX]
 
-## ¿Se muestran los objetos de [!DNL Recommendations] creados mediante API en la interfaz de usuario de [!DNL Target]?
+**En esta página:** Encuentre respuestas a las preguntas más frecuentes acerca de [!DNL Adobe Target] [!DNL Recommendations] actividades.
 
-Sí, los objetos [!UICONTROL Recommendations] ([!UICONTROL Criterios], [!UICONTROL Diseños], [!UICONTROL Colecciones] y [!UICONTROL Exclusiones]) creados a través de API están disponibles en la interfaz de usuario y se pueden editar a través de la API o la interfaz de usuario [!DNL Target].
+>[!ENDSHADEBOX]
 
-## ¿Puedo administrar [!DNL Target] ofertas visuales creadas por la interfaz de usuario usando las API [!DNL Target]?
+## Datos y API {#data-and-apis}
 
-No. [!DNL Recommendations] actividades con ofertas visuales creadas en la interfaz de usuario de [!DNL Target] no se pueden administrar mediante las API de [!DNL Target]. Aunque estas actividades se muestran en la lista [!UICONTROL Actividades], no puede leerlas ni actualizarlas (mediante GET/PUT).
++++ ¿Se muestran los objetos de [!DNL Recommendations] creados mediante la API en la interfaz de usuario de [!DNL Target]?
 
-## ¿Por qué [!UICONTROL Búsqueda en el catálogo] no muestra los resultados correctos cuando busco en un atributo personalizado con un valor numérico?
+Sí. Los objetos de [!UICONTROL Recommendations] (**[!UICONTROL Criterios]**, **[!UICONTROL Diseños]**, **[!UICONTROL Colecciones]** y **[!UICONTROL Exclusiones]**) creados mediante la API están disponibles en la interfaz de usuario y se pueden editar mediante la API o la interfaz de usuario de [!DNL Target].
 
-Cuando se realiza una búsqueda en el catálogo de un atributo personalizado con un valor numérico, los resultados tratan al atributo personalizado como un tipo de cadena en lugar de un valor numérico.
++++
 
-Actualmente, no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos cuyo tipo necesitan que cambie de cadena a numérico.
++++ ¿Pueden administrarse las ofertas visuales creadas en la interfaz de usuario de [!DNL Target] con las API [!DNL Target]?
 
-## ¿Cuánto tiempo llevará ver las actualizaciones de los elementos del catálogo en mi sitio?
+No. Las actividades [!DNL Recommendations] con ofertas visuales creadas en la interfaz de usuario [!DNL Target] no se pueden administrar con las API [!DNL Target]. Estas actividades se muestran en la lista **[!UICONTROL Actividades]**, pero no se pueden leer ni actualizar (con GET o PUT).
+
++++
+
++++ ¿Cuál es el límite de tamaño de una llamada API para insertar o actualizar productos? ¿Se pueden actualizar 50 000 productos en una llamada en lugar de una fuente?
+
+[!DNL Target] impone a las publicaciones un límite de 50 MB en el nivel de aplicación, pero solo cuando se pasa el encabezado de tipo de contenido `application/x-www-form-urlencoded`.
+
+Se puede intentar realizar una sola llamada con 50 000 productos. Si la llamada falla, se puede dividir en lotes. Adobe recomienda lotes de 5000 o 10 000 productos para reducir la probabilidad de tiempo de espera agotado debido a la carga del sistema.
+
++++
+
++++ ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente?
+
+No hay un límite estricto en el número de filas o en el tamaño del archivo para la carga de un archivo CSV de fuente. Como práctica recomendada, Adobe recomienda limitar el archivo CSV a 1 GB para evitar errores durante la carga. Lo ideal es que un archivo que supere 1 GB se divida en varios archivos de fuentes.
+
+El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] &#x200B;](/help/main/r-troubleshooting-target/target-limits.md).
+
++++
+
++++ ¿Por qué **[!UICONTROL Búsqueda en el catálogo]** no muestra los resultados correctos al buscar en un atributo personalizado con un valor numérico?
+
+Cuando se realiza una búsqueda en el catálogo de un atributo personalizado con un valor numérico, los resultados tratan el atributo como una cadena en lugar de como un valor numérico.
+
+Actualmente no hay ninguna funcionalidad disponible que permita a los clientes cambiar el tipo de un atributo. Para realizar un cambio, [abra un problema con el cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) que haga referencia a los atributos cuyo tipo debe cambiar de cadena a numérico.
+
++++
+
+## Actualización del tiempo {#update-timing}
+
++++ ¿Cuánto tiempo tardan las actualizaciones de los elementos del catálogo en reflejarse en el sitio?
 
 El lapso de tiempo y los resultados varían en función de cómo se actualicen los elementos.
 
-| Fuente | Detalles |
-| --- | --- |
-| Atributos de elemento actualizados mediante mbox o API | <ul><li>Las recomendaciones se actualizan en 15 minutos.</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (de 3 a 8 horas).</li></ul> |
-| Atributos de elemento actualizados a través de la fuente | <ul><li>Las recomendaciones se actualizan después de la ingesta de fuentes (de 2 a 8 horas).</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (de 2 a 8 horas) y después del siguiente índice de catálogo (de 3 a 8 horas). La búsqueda en el catálogo se actualiza en un total de 5 a 16 horas.</li></ul> |
-| Elemento eliminado del catálogo a través de la IU o API de [!DNL Target] | <ul><li>Las recomendaciones se actualizan en 15 minutos.</li><li>Las recomendaciones existentes y los atributos de artículos se muestran hasta que haya actualizaciones disponibles.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (de 3 a 8 horas).</li></ul> |
-| Elemento añadido al catálogo mediante mbox o API | <ul><li>Las recomendaciones se actualizan después de ejecutar el algoritmo. Las ejecuciones de algoritmos se programan cada 12 horas para algoritmos de 1 a 2 días, y cada 24 horas para algoritmos de más de 7 días.</li><li>Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.</li><li>Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.</li><li>La búsqueda en el catálogo se actualiza después del índice del catálogo (de 3 a 8 horas).</li></ul> |
-| Elemento añadido al catálogo mediante fuente | <ul><li>Las recomendaciones se actualizan después de ingerir la fuente (de 2 a 8 horas). Las ejecuciones de algoritmos posteriores se programan cada 12 horas para algoritmos de 1 a 2 días, y cada 24 horas para algoritmos de más de 7 días. Las recomendaciones se actualizan en un plazo total de 2 a 32 horas.</li><li>Las recomendaciones existentes se muestran hasta que haya actualizaciones disponibles si el elemento añadido no es una clave solicitada.</li><li>Las recomendaciones de copia de seguridad se muestran hasta que haya actualizaciones disponibles si el elemento añadido es una clave solicitada.</li><li>La búsqueda en el catálogo se actualiza después de la ingesta de fuentes (de 2 a 8 horas) y después del índice del catálogo (de 3 a 8 horas). La búsqueda en el catálogo se actualiza en un total de 5 a 16 horas.</li></ul> |
+| Actualizar | Recommendations | Buscar en el catálogo |
+| --- | --- | --- |
+| Atributos de elemento actualizados a través de un mbox o la API | En 15 minutos | Después del índice del catálogo (de 3 a 8 horas) |
+| Atributos de elemento actualizados mediante una fuente | Después de la ingesta de fuente (2-8 horas) | Después de la ingesta de fuentes (de 2 a 8 horas) y el siguiente índice de catálogo (de 3 a 8 horas), en un plazo total de 5 a 16 horas |
+| Elemento eliminado del catálogo a través de la interfaz de usuario o la API de [!DNL Target] | En 15 minutos | Después del índice del catálogo (de 3 a 8 horas) |
+| Elemento añadido al catálogo mediante un mbox o la API | Después de que se ejecute el siguiente algoritmo. Las ejecuciones de algoritmos se programan cada 12 horas para algoritmos de 1 a 2 días, y cada 24 horas para algoritmos de más de 7 días | Después del índice del catálogo (de 3 a 8 horas) |
+| Elemento añadido al catálogo mediante una fuente | Después de la ingesta de fuentes (de 2 a 8 horas) y de que se ejecute el algoritmo siguiente, que se programan cada 12 horas para algoritmos de 1 a 2 días, y cada 24 horas para algoritmos de más de 7 días, en un plazo total de 2 a 32 horas | Después de la ingesta de fuentes (de 2 a 8 horas) y del índice del catálogo (de 3 a 8 horas), en un plazo total de 5 a 16 horas |
 
-Tras importar un archivo de fuente o recibir actualizaciones de entidad mediante API o mbox, los cambios siguientes se reflejarán en menos de 60 minutos:
+Hasta que las actualizaciones estén disponibles, se mostrará el siguiente contenido:
 
-* Si un elemento se ha excluido anteriormente, pero ahora debe incluirse, este se incluirá en la próxima ejecución del algoritmo (de 12 a 24 horas).
+* Para artículos actualizados o eliminados, se muestran las recomendaciones y los atributos de artículos existentes.
+* Para un elemento añadido, las recomendaciones existentes se muestran si el elemento añadido no es una clave solicitada. Las recomendaciones de copia de seguridad se muestran si el elemento agregado es una clave solicitada.
+
+Tras importar un archivo de fuentes o recibir actualizaciones de entidad mediante la API o un mbox, los cambios siguientes se reflejarán en menos de 60 minutos:
+
+* Si un elemento se ha excluido anteriormente, pero ahora debe incluirse, este se incluye en la siguiente ejecución del algoritmo (de 12 a 24 horas).
 
   Esta situación se produce porque [!DNL Target] aplica exclusiones tanto en línea como sin conexión. Cuando se excluye un elemento recientemente, la exclusión en línea se aplica rápidamente. Cuando se incluye un elemento reciente, la exclusión en línea desaparece rápidamente, pero la exclusión sin conexión no desaparece hasta que se ejecuta el siguiente algoritmo.
 
-* Si un elemento se incluyó anteriormente, pero ahora debe excluirse, este se excluye por los &quot;Atributos de elemento actualizados...&quot; la línea de tiempo analizada anteriormente depende de la fuente (15 minutos a través de mbox/API o de 12 a 24 horas a través de la fuente).
+* Si un elemento se incluyó anteriormente, pero ahora debe excluirse, este se excluye según las líneas de tiempo de la tabla, según la fuente: 15 minutos a través de un mbox o la API, o de 12 a 24 horas a través de una fuente.
 
 Los siguientes cambios no se reflejan hasta que se ejecute el siguiente algoritmo (en 12-24 horas):
 
-* Atributos de elemento utilizados en las reglas de recopilación usadas para la actividad.
-* Atributos de elemento utilizados en una promoción en función de un atributo o una colección asociada con la actividad.
-* Categoría del elemento en la que este aparece para una “Categoría actual” o “Categoría favorita” en los algoritmos Principales vendedores o Más visitados.
-* “Clasificación de los elementos recomendados cuando el atributo ha cambiado” es un atributo personalizado que se usa como clave personalizada para un algoritmo.
-* Clasificación de los artículos recomendados en función de uno o más atributos modificados cuando la lógica de recomendación es “Elementos con atributos similares”, cuando se utilizan factores de ponderación de “Similitud de contenido” o cuando se utilizan factores de “Ponderación de atributos”.
+* Atributos de elemento utilizados en las reglas de recopilación de la actividad.
+* Atributos de elemento utilizados en una promoción basada en un atributo o en una colección asociada con la actividad.
+* Categoría del elemento en la que aparece para una &quot;Categoría actual&quot; o &quot;Categoría favorita&quot; en los algoritmos **[!UICONTROL Principales vendedores]** o **[!UICONTROL Más visitados]**.
+* La clasificación de los elementos recomendados, cuando el atributo modificado es un atributo personalizado que se utiliza como clave personalizada para un algoritmo.
+* La clasificación de los artículos recomendados en función de uno o más atributos modificados, cuando la lógica de recomendación es &quot;Elementos con atributos similares&quot; o cuando se utilizan factores de &quot;Similitud de contenido&quot; o &quot;Ponderación de atributos&quot;.
 
 >[!NOTE]
 >
->Un archivo de fuente se considera importado cuando su estado cambia de “Importación de elementos” a “Preparación de las actualizaciones del índice de búsqueda”. Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario Búsqueda en el catálogo. La Búsqueda en el catálogo está actualizada cuando el estado de la fuente cambia a Actualizaciones completadas. Incluso si la búsqueda en el catálogo aún no está actualizada, su sitio reflejará las actualizaciones en los periodos de tiempo enumerados arriba. El tiempo de actualización del índice de Búsqueda en el catálogo más reciente se muestra en la página Búsqueda en el catálogo.
+>Un archivo de fuente se considera importado cuando su estado cambia de “Importación de elementos” a “Preparación de las actualizaciones del índice de búsqueda”. Las actualizaciones pueden tardar más de 60 minutos en reflejarse en la interfaz de usuario **[!UICONTROL Búsqueda en el catálogo]**. **[!UICONTROL Búsqueda en el catálogo]** está actualizada cuando el estado de la fuente cambia a &quot;Actualizaciones completadas&quot;. Aunque **[!UICONTROL Búsqueda en el catálogo]** aún no esté actualizada, el sitio reflejará las actualizaciones dentro de los lapsos de tiempo enumerados arriba. El tiempo de actualización del índice de **[!UICONTROL Búsqueda en el catálogo]** más reciente se muestra en la página **[!UICONTROL Búsqueda en el catálogo]**.
 
-## ¿Cuánto tiempo se tarda en reflejar en mi sitio un cambio en la configuración de mi actividad, oferta, promociones o configuración de criterios de [!UICONTROL Recommendations]?
++++
+
++++ ¿Cuánto tiempo se tarda en reflejar en el sitio un cambio en la configuración de una actividad, oferta, promociones o configuración de criterios de [!UICONTROL Recommendations]?
 
 * Un cambio en la configuración de la promoción puede tardar hasta cinco horas en reflejarse en el sitio.
 * Es posible que un cambio en la configuración de otros criterios no se refleje hasta que se ejecute el siguiente algoritmo:
 
-  * Algunas configuraciones de criterios (por ejemplo, &quot;adición de una regla de inclusión dinámica&quot;) se reflejan instantáneamente.
-  * Otra configuración de criterios (por ejemplo, &quot;eliminación de una regla de inclusión dinámica&quot;, cambio de ventana retrospectiva, etc.) no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
-  * Los cambios activan las ejecuciones de algoritmos, pero pueden tardar hasta 24 horas en completarse. Los algoritmos también se ejecutan de forma programada cada 12 a 24 horas.
+  * Algunas configuraciones de criterios, como la adición de una regla de inclusión dinámica, se reflejan instantáneamente.
+  * Otras configuraciones de criterios, por ejemplo la eliminación de una regla de inclusión dinámica o un cambio en la ventana retrospectiva, no se pueden incorporar hasta que se ejecute el siguiente algoritmo.
+  * Estos cambios almacenan en déclencheur la ejecución de un algoritmo, que puede tardar hasta 24 horas en completarse. Los algoritmos también se ejecutan en una programación, cada 12 a 24 horas.
 
-## ¿Cuánto tiempo tarda el comportamiento de un usuario en reflejarse (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones *que recibe* usuario?
++++
 
-* El producto/contenido que se está viendo/comprando influye en las recomendaciones que el usuario recibe en la misma vista de página/solicitud de contenido de [!DNL Target].
-* El comportamiento histórico del usuario, como &quot;último producto visualizado&quot;, &quot;producto más visualizado&quot; y el historial general de visualización/compra se actualiza con esa solicitud, lo que influye en las recomendaciones que el usuario recibe en la siguiente solicitud de contenido de vista de página/[!DNL Target]. Por ejemplo, los algoritmos de &quot;Artículos vistos recientemente&quot; y &quot;Recomendados para ti&quot; se actualizan con cada vista/compra de producto y se reflejan en la solicitud de contenido posterior.
++++ ¿Cuánto tiempo tarda el comportamiento de un usuario en reflejarse (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones que recibe el mismo usuario?
 
-## ¿Cuánto tiempo tarda un usuario en mostrar su comportamiento (por ejemplo, haciendo clic en el producto A y comprando el producto B) en las recomendaciones que reciben *otros* usuarios?
+* El producto o contenido que se está viendo o comprando influye en las recomendaciones que el usuario recibe en la misma vista de página o en la solicitud de contenido de [!DNL Target].
+* El comportamiento histórico del usuario, como &quot;último producto visualizado&quot;, &quot;producto más visualizado&quot; y el historial general de visualización y compra, se actualiza con esa solicitud. Influye en las recomendaciones que el usuario recibe en la siguiente vista de página o solicitud de contenido. Por ejemplo, los algoritmos de **[!UICONTROL Artículos vistos recientemente]** y **[!UICONTROL Recomendados para ti]** se actualizan con cada vista o compra de producto, y la actualización se refleja en la solicitud de contenido posterior.
 
-El comportamiento de los usuarios en conjunto se incorpora al procesamiento de algoritmos sin conexión, con cada algoritmo ejecutado cada 12 a 24 horas.
++++
 
-## ¿Qué debo hacer si hay caracteres especiales que rompen la matriz? {#section_D27214116EE443638A60887C7D1C534E}
++++ ¿Cuánto tiempo tarda el comportamiento de un usuario en reflejarse en las recomendaciones que reciben otros usuarios?
+
+El comportamiento de los usuarios en conjunto se incorpora al procesamiento del algoritmo sin conexión. Este procesamiento se produce con cada algoritmo ejecutado, cada 12 a 24 horas.
+
++++
+
++++ ¿Persisten las recomendaciones basadas en artículos vistos recientemente en varios dispositivos para un único visitante?
+
+Cuando un visitante inicia una sesión, el ID de sesión está vinculado a un solo equipo Edge y se almacena una caché de perfiles temporal en este equipo. Las solicitudes posteriores de la misma sesión leen esta caché de perfil, incluidos los artículos vistos recientemente.
+
+Cuando finaliza la sesión (por lo general, cuando caduca tras 30 minutos sin actividad), el estado de la sesión, incluidos los artículos vistos recientemente, persiste en un almacenamiento de perfiles más permanente en el mismo perímetro geográfico. Las sesiones posteriores de distintos dispositivos pueden acceder a estos elementos visualizados recientemente, siempre que la nueva sesión esté vinculada al perfil del cliente mediante el mismo Marketing Cloud ID (MCID), Experience Cloud ID (ECID) o CustomerID o `mbox3rdPartyId`.
+
+Si un visitante tiene dos sesiones activas a la vez, los elementos visualizados recientemente en un dispositivo no actualizan los elementos visualizados recientemente en el otro dispositivo, a menos que los dispositivos se vean obligados a compartir el ID de sesión. Existe una solución alternativa, pero [!DNL Target] no admite directamente el uso compartido de un ID de sesión entre varios dispositivos. El cliente debe administrar este uso compartido de ID.
+
+Este comportamiento también se produce cuando un visitante está activo en un dispositivo y se activa en el otro dispositivo unos minutos después. La sesión del primer dispositivo no caduca durante 30 minutos y pueden producirse hasta cinco minutos de retraso antes de que el estado del perfil se escriba en el estado permanente y se procese. Al probar este comportamiento, espere 35 minutos para que la sesión caduque y el perfil se almacene.
+
+Si el visitante no tiene dos sesiones activas a la vez, los artículos vistos recientemente en un dispositivo actualizarán los vistos recientemente en el otro dispositivo, siempre y cuando la sesión haya finalizado. Al probar este comportamiento, espere 35 minutos para que la sesión caduque.
+
++++
+
+## Criterios, diseños y promociones {#criteria-designs-promotions}
+
++++ ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de [!DNL Recommendations]?
+
+Los criterios disponibles dependen de la categoría actual. Cuando se crean ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el ID de categoría. Si la ubicación donde se aplican los criterios no contiene el ID de categoría, determinados criterios no están disponibles en el selector de algoritmo. Si se utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterios contendrá todos los criterios aplicables.
+
+[!DNL Target] tiene un valor de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} que controla el filtrado inteligente del selector de algoritmo. Para obtener acceso al valor **[!UICONTROL Filtrar los criterios no compatibles]**, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Recommendations]**.
+
+![Página de configuración de Recommendations con la opción Filtrar los criterios no compatibles resaltada](assets/recs_settings_filter.png)
+
+* Si el ajuste **[!UICONTROL Filtrar los criterios no compatibles]** no está habilitado, [!DNL Target] no filtra los algoritmos en el selector de algoritmos y se muestran todos ellos.
+* Si la configuración está habilitada, en las actividades [!UICONTROL Compositor de experiencias visuales] (VEC), [!DNL Target] lee entityId y el ID de categoría de la ubicación seleccionada. A continuación, muestra algoritmos basados en `currentItem|currentCategory`, si los valores respectivos están presentes en esa ubicación. Como resultado, solo los algoritmos compatibles con la ubicación seleccionada se muestran en el selector de algoritmos de forma predeterminada. Los algoritmos no compatibles se pueden seguir viendo desactivando la casilla de verificación **[!UICONTROL Compatible]** al seleccionar los criterios.
+
+  ![Seleccione la pantalla Criterios con la casilla Compatible resaltada](assets/compatible_checkbox.png)
+
+[!DNL Target] no muestra la casilla de verificación **[!UICONTROL Compatible]** en los siguientes casos especiales:
+
+* Tanto entityId como el ID de categoría están presentes en la ubicación, por lo que no se filtra nada.
+* Se utiliza [!DNL mbox.js] versión 55 o anterior.
+* No se activó ninguna llamada de mbox desde la página (`!config.isAutoCreateGlobalMbox && !config.isRegionalMbox`).
+* Los parámetros de [!DNL Target] no están definidos.
+
+>[!NOTE]
+>
+>El ajuste **[!UICONTROL Filtrar los criterios no compatibles]** se aplica solo a las actividades creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC). Esta configuración no se aplica a las actividades creadas en **[!UICONTROL Compositor de experiencias basadas en formularios]**, porque [!DNL Target] no tiene contexto de ubicación.
+
++++
+
++++ ¿Cuál es la diferencia entre la ponderación de atributos general y la específica para similitudes de contenido?
+
+Existen dos formas de ponderación de atributos: la &quot;ponderación de atributos estándar&quot; y la &quot;ponderación de atributos de similitud de contenido&quot;.
+
+* La &quot;ponderación de atributos estándar&quot; se aplica a la mayoría de los tipos de criterio, no solo a **[!UICONTROL Similitud de contenido]**. Este tipo de ponderación da más peso a ciertos valores de atributo. En el ejemplo siguiente, los productos de Nike reciben un empujón en las recomendaciones generadas.
+
+  ![La sección Ponderación de atributo con el atributo de marca establecido para comenzar con Nike y el control deslizante al 25%](assets/attribute_weighting_example.png)
+
+* La &quot;ponderación de atributos de similitud de contenido&quot; se aplica únicamente a los criterios **[!UICONTROL Similitud de contenido]**. Este tipo de ponderación es más dinámico y se basa en la &quot;clave de recomendación&quot; actual (el elemento que se está viendo en ese momento). En el siguiente ejemplo (marca x 16), es más probable que un visitante que ve zapatillas Nike se recomiende otros productos Nike (no necesariamente solo zapatillas) que las zapatillas de la competencia. Es más probable que un visitante que vea zapatillas de Adidas reciba la recomendación de productos de Adidas.
+
+  ![Sección de similitud de contenido con el atributo de marca y el control deslizante de ponderación a 16x](assets/content_similarity_example.png)
+
++++
+
++++ ¿Se debe especificar el nombre del mbox al crear [!DNL Recommendations] criterios, promociones o reglas de prueba de plantilla?
+
+Cuando se crea un criterio, promoción o regla de prueba de plantilla [!DNL Recommendations] basada en un parámetro de mbox, `mboxParameter` ya no solicita `mboxName`. El nombre del mbox es ahora opcional. Este cambio permite el uso de parámetros de varios mboxes o una referencia a un parámetro que aún no se haya registrado en el perímetro.
+
+Para seleccionar el parámetro deseado, utilice uno de los siguientes métodos:
+
+* Al crear un criterio, una promoción o una regla de prueba de plantilla, seleccione un nombre de parámetro en la lista. Empiece a escribir los primeros caracteres del nombre del parámetro o escriba el nombre completo.
+* Si el nombre del mbox es conocido pero el nombre del parámetro no, utilice la casilla de verificación para filtrar por un mbox conocido que pase el parámetro deseado.
+
+Con cualquiera de los métodos, no hay ningún vínculo entre el mbox y el parámetro. Los criterios, las promociones y las reglas de prueba de plantilla funcionarán según el parámetro en todos los mboxes que pasen dicho parámetro.
+
+Cuando se edita un criterio, promoción o regla de prueba de plantilla existente, el filtrado muestra el nombre de mbox que se suministró durante la creación.
+
++++
+
++++ ¿Qué se puede hacer cuando los caracteres especiales rompen una matriz?
 
 Utilice valores escapados en JavaScript. Las comillas ( &quot; ) pueden romper la matriz. El siguiente fragmento de código es un ejemplo de valores escapados:
 
@@ -108,74 +222,73 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## ¿Por qué no están disponibles para su selección todos los criterios, incluidos los personalizados, al crear una actividad de Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
++++
 
-Los criterios disponibles dependen de la categoría actual. Cuando crea ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el ID de la categoría.
++++ ¿Se puede excluir dinámicamente una entidad?
 
-Si la ubicación en la que aplica estos criterios no contiene el ID de categoría, determinados criterios no están disponibles en el selector de algoritmo.
+Sí. Los ID de entidad de las entidades que se excluirán de las recomendaciones se pueden pasar en la cadena de consulta. Por ejemplo, se pueden excluir los artículos que ya están en el carro de compras.
 
-Si utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterio contendrá todos los criterios aplicables.
+Para habilitar la funcionalidad de exclusión, utilice el parámetro mbox `excludedIds`. Este parámetro apunta a una lista de identificadores de entidad separados por comas, por ejemplo `mboxCreate(..., "excludedIds=1,2,3,4,5")`. El valor se envía cuando se solicitan las recomendaciones.
 
-[!DNL Target] tiene una configuración de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} para controlar el filtrado inteligente del selector de algoritmo.
+La exclusión solo se realiza para la llamada actual [!DNL Target]. Los elementos no se excluyen en llamadas a [!DNL Target] subsiguientes a menos que se vuelva a pasar el valor `excludedIds`. Para excluir los elementos del carro de compras de las recomendaciones de cada página, siga pasando el valor `excludedIds` en cada página.
+
+Para excluir `entityIds`, añada el token `&excludes=${mbox.excludedIds}` a la dirección URL de contenido de la oferta. Cuando se extrae la dirección URL de contenido, los parámetros requeridos se sustituyen por los parámetros de solicitud de mbox actuales.
+
+De forma predeterminada, esta característica está habilitada para las recomendaciones de nueva creación. Las recomendaciones existentes deben guardarse para admitir entidades excluidas dinámicamente.
 
 >[!NOTE]
 >
->Esta configuración se aplica únicamente a las actividades creadas en el [!UICONTROL Compositor de experiencias visuales] (VEC). Esta configuración no se aplica a las actividades creadas en el Compositor de experiencias basadas en formularios ([!DNL Target] carece de contexto de ubicación).
+>Si se excluyen demasiadas entidades, las recomendaciones se comportan como si no hubiera suficientes entidades para rellenar la plantilla de recomendaciones.
 
-Para acceder al ajuste [!UICONTROL Filtrar los criterios no compatibles], haga clic en [!UICONTROL Recomendaciones] > [!UICONTROL Configuración]:
++++
 
-![imagen recs_settings_filter](assets/recs_settings_filter.png)
++++ ¿Por qué no se puede guardar una actividad [!DNL Recommendations] heredada después de definir una nueva audiencia?
 
-Si el ajuste [!UICONTROL Filtrar los criterios no compatibles] NO está habilitado, [!DNL Target] no filtra los algoritmos en el selector de algoritmos y se muestran todos ellos.
+Asegúrese de que la audiencia tiene un nombre único. Si la audiencia tiene el mismo nombre que una audiencia existente, la actividad [!DNL Recommendations] heredada (una actividad [!DNL Recommendations] creada antes de octubre de 2016) no se puede guardar.
 
-Si el ajuste [!UICONTROL Filtrar los criterios no compatibles] está habilitado, en las actividades VEC [!DNL Target] lee entityId y el Id. de categoría de la ubicación seleccionada y, a continuación, muestra los algoritmos basados en `currentItem|currentCategory` (si los valores respectivos están presentes en esa ubicación). Como resultado, de forma predeterminada solo se muestran en el selector de algoritmos aquellos compatibles con la ubicación seleccionada.
++++
 
-Aunque el ajuste [!UICONTROL Filtrar los criterios no compatibles] esté habilitado, puede ver los algoritmos no compatibles anulando la selección de la casilla [!UICONTROL Compatibles] al seleccionar los criterios.
++++ ¿Se puede usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?
 
-![imagen compatible_checkbox](assets/compatible_checkbox.png)
+Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. El algoritmo heredado podría utilizarse en [!DNL Target Premium], pero puede crear problemas de sincronización cuando la actividad se desactiva o elimina en la interfaz de usuario de [!DNL Target Premium]. Para obtener más información sobre las diferencias entre las dos soluciones, vea [[!DNL Recommendations Classic] frente a [!DNL Recommendations] actividades en [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-La siguiente lista contiene casos especiales en los que [!DNL Target] no muestra la casilla de verificación [!UICONTROL Compatible]:
++++
 
-* Tanto entityId como el Id. de categoría están presentes en la ubicación, por lo que no se filtra ningún resultado.
-* Utiliza la versión 55 o anterior de [!DNL mbox.js].
-* No se activa ninguna llamada a mbox desde la página (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* Los parámetros de [!DNL Target] no están definidos.
++++ ¿Cómo se pueden recomendar solo nuevos artículos o vídeos?
 
-## ¿Qué debería hacer si una colección en Recommendations resulta en cero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+Los clientes de medios y publicaciones a menudo desean que los artículos recomendados incluyan solo los artículos o vídeos más recientes. Por ejemplo, un cliente de [!DNL Target] utilizó el siguiente método para recomendar artículos con menos de 60 días de antigüedad:
 
-Tenga en cuenta la siguiente información si ve que una colección que era distinta de cero resulta en cero:
+1. Pase la fecha de publicación del artículo, en formato AAAAMMDD, como atributo de entidad personalizado. Por ejemplo:
 
-* Puede volver a guardar la colección para comprobar si el número se actualiza. Al volver a guardar, la colección vuelve a ejecutar todos los algoritmos que utilizan esa colección.
-* ¿Está viendo el entorno correcto? Vaya a [!DNL /target/products.html#recsSettings] para asegurarse (como se muestra a continuación).
+   | Atributo de la entidad | Ejemplo |
+   | --- | --- |
+   | issueDate | 2021218 |
+   | lastViewDate | 2021701 |
+   | parentCategory | comentario |
+   | publishDate | 20210113 |
+   | publishDateDisplay | 13 de enero de 2021 |
 
-  ![imagen product_catalog](assets/product_catalog.png)
+1. Cree un script de perfil que devuelva la fecha de hoy menos 60 días, también en formato AAAAMMDD.
 
-* ¿Está actualizado el índice? Vaya a [!DNL /target/products.html#productSearch] y compruebe cuántas horas hace que se actualizó el índice (por ejemplo, &quot;Indexado hace 3 horas&quot;). Puede actualizar el índice si lo desea.
-* ¿Ha cambiado algo en la fuente o en la capa de datos que resulte en que sus entidades ya no cumplan las reglas de la colección? Compruebe que las mayúsculas y minúsculas concuerden.
-* ¿Se ejecutó correctamente la fuente? ¿Ha cambiado alguien el directorio FTP, la contraseña, etc.?
-* [!DNL Target] intenta que las actualizaciones del envío (en la página/aplicación del cliente) se produzcan lo más rápido posible. No obstante, [!DNL Target] también debe proporcionar determinada representación en la IU para el experto en marketing. [!DNL Target] no retrasa las actualizaciones de entrega hasta que las actualizaciones de la IU se sincronizan con ellas. Puede utilizar [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para comprobar el contenido del sistema en el momento de recibirse una solicitud.
+   ![Script de perfil denominado previousDate60, descrito como la fecha de hoy menos 60 días en formato AAAAMMDD, con el script que calcula la fecha](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
-## ¿Cuál es la diferencia entre la ponderación de atributos general y la específica para similitud de contenido? {#section_FCD96598CBB44B16A4C6C084649928FF}
+1. Usar una regla de inclusión dinámica en los criterios para `publish date > today's date minus 60 days`.
 
-Existen dos formas de ponderación de atributos: la “ponderación de atributos estándar” y la “ponderación de atributos de similitud de contenido”.
+   ![Sección de reglas de inclusión con una regla de coincidencia de atributos de perfil que compara publishDate con el valor almacenado en user.previousDate60](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
-La &quot;ponderación de atributos estándar&quot; se aplica a la mayoría de los tipos de criterio, si no a todos (no solo a los de Similitud de contenido). Este tipo de ponderación da más peso a ciertos valores de atributo. En el ejemplo siguiente, los productos de Nike reciben un empujón en las recomendaciones generadas.
+Este ejemplo también se puede realizar con la coincidencia de parámetros, pasando el valor `priorDate60` como parámetro de mbox.
 
-![imagen attribute_weight_example](assets/attribute_weighting_example.png)
++++
 
-La &quot;ponderación de atributos de similitud de contenido&quot; se aplica únicamente a los criterios de Similitud de contenido.
+## Resolución de problemas {#troubleshooting}
 
-Este tipo de ponderación es más dinámico y se basa en la &quot;clave de recomendación&quot; actual (el elemento que se está viendo en ese momento). En el siguiente ejemplo (marca x 16), si un visitante estuviera viendo zapatillas de Nike, es más probable que se recomienden a ese visitante otros productos de Nike (no necesariamente solo zapatillas) en lugar de zapatillas de la competencia. Si un visitante estuviera viendo zapatillas de Adidas, tendría más probabilidades de recibir la recomendación de otros productos de Adidas.
-
-![imagen content_similarity_example](assets/content_similarity_example.png)
-
-## ¿Por qué, a veces, [!DNL Target] no puede mostrar recomendaciones? {#section_DB3F40673AED42228E407C05437D99E9}
++++ ¿Por qué, a veces, [!DNL Target] no puede mostrar recomendaciones?
 
 [!DNL Target] a veces no puede mostrar recomendaciones debido al bajo número de recomendaciones disponibles.
 
-La cantidad de valores generados por criterio es tres veces el número de entidades especificadas en el diseño. El filtrado en tiempo de ejecución (por ejemplo, el inventario, la coincidencia de atributos de mbox) se aplica después de que se generen los valores de 3x, por lo que es posible terminar con menos de 3 valores en el momento de la entrega. Para mitigar esta situación, aumente el número de entidades en el diseño ocultando entidades adicionales.
+El número de valores generados para cada criterio es tres veces el número de entidades especificadas en el diseño. El filtrado en tiempo de ejecución (por ejemplo, la coincidencia de atributos de mbox o inventario) se aplica después de que se generen los valores 3x, por lo que menos de 3 valores pueden permanecer en el momento de la entrega. Para mitigar esta situación, aumente el número de entidades en el diseño ocultando entidades adicionales.
 
-Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el número de entidades solicitadas. En este ejemplo, el recuento de entidades solicitadas sería 30 (3 x 10).
+Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el número de entidades solicitadas. En este ejemplo, el recuento de entidades solicitadas es 30 (3 x 10).
 
 ```
 #foreach($entity in $entities) 
@@ -186,128 +299,59 @@ Puede usar el siguiente JavaScript al comienzo del diseño para incrementar el n
 #end 
 ```
 
-## ¿Cuál es el límite de tamaño de una llamada API para insertar/actualizar productos? ¿Puedo actualizar 50 000 productos en una llamada usando la API en vez de una fuente? {#section_434FE1F187B7436AA39B7C14C7895168}
++++
 
-[!DNL Target] impone a las publicaciones un límite de 50 MB en el nivel de aplicación. Sin embargo, eso ocurre solamente cuando pasa el encabezado de tipo de contenido `application/x-www-form-urlencoded`.
++++ ¿Qué significa la respuesta NO_CONTENT que a veces se devuelve en el seguimiento de contenido de [!DNL Recommendations]?
 
-Bien podría probar enviar 50 000 productos en una sola llamada. Si da error, debería dividir ese número en lotes. Adobe suele recomendar que los clientes dividan sus llamadas en lotes de 5000 o 10 000 productos para reducir la probabilidad de tiempo de espera agotado debido a la carga del sistema.
-
-## ¿Es necesario especificar el nombre del mbox al crear en criterios, promociones o reglas de prueba de plantillas de Recommendations? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
-
-Cuando se crean criterios, promociones o reglas de prueba de plantilla basadas en un parámetro de mbox de Recommendations, `mboxParameter` ya no le solicita `mboxName`. El nombre del mbox es ahora opcional. Este cambio le permite usar parámetros de varios mboxes o hacer referencia a un parámetro que aún no se haya registrado en el perímetro.
-
-Para seleccionar el parámetro deseado:
-
-* Al crear un criterio, una promoción o una regla de prueba de plantilla, seleccione un nombre de parámetro en la lista. Comience a escribir los primeros caracteres del nombre de parámetro deseado o escriba el nombre completo del parámetro deseado.
-* Si recuerda el nombre del mbox pero no el del parámetro, utilice la casilla de verificación para filtrar en función de un mbox conocido que pase el parámetro deseado.
-
-Con ninguno de estos métodos existe vínculo entre el mbox y el parámetro. Los criterios, las promociones y las reglas de prueba de plantilla funcionarán sobre la base del parámetro en todos los mboxes que pasen dicho parámetro.
-
-Si edita un criterio, promoción o regla de prueba de plantilla existente, el criterio de filtrado se muestra con el nombre de mbox que se suministró durante la creación.
-
-## ¿Por qué no puedo guardar la actividad de Recommendations heredada después de definir una nueva audiencia? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
-
-Asegúrese de que la audiencia tiene un nombre único. Si le dio al público el mismo nombre que un público existente, no puede guardar su actividad de Recommendations heredada (una actividad de Recommendations creada antes de octubre de 2016).
-
-## ¿Cuál es el tamaño máximo de un archivo CSV para una carga de fuente? {#section_20F1AF4839A447B9889B246D6E873538}
-
-No hay un límite estricto en el número de filas o el tamaño del archivo para la carga del archivo CSV de una fuente. Sin embargo, como práctica recomendada, Adobe recomienda limitar el tamaño del archivo CSV a 1 GB para evitar errores durante el proceso de carga del archivo. Si el tamaño del archivo excede 1 GB, lo ideal es que se divida en varios archivos de fuentes. El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
-
-## ¿Por qué falla mi acción [!UICONTROL Descargar datos] en una actividad [!DNL Recommendations]? {#download-data-error}
-
-Al hacer clic en **[!UICONTROL Descargar datos]** en la página [!UICONTROL Información general de actividad] de una actividad [!DNL Recommendations], la interfaz de usuario [!DNL Target] podría mostrar el error `Error while fetching recommendation data file.`
-
-Esto suele ocurrir cuando la actividad tiene un conjunto de resultados muy grande: el CSV generado supera el tamaño de respuesta que se puede devolver a través de la interfaz de usuario en una sola descarga. Los datos de recomendación en sí están intactos, pero solo la ruta de descarga en el explorador no puede entregar un archivo de ese tamaño.
-
-## ¿Puedo excluir dinámicamente una entidad? {#exclude}
-
-En la cadena de consulta, puede pasar los ID de entidad de las entidades que desee excluir de las recomendaciones. Por ejemplo, quizás desee excluir artículos que ya se encuentren en el carro de compras.
-
-Para habilitar la funcionalidad de exclusión, utilice el parámetro mbox `excludedIds`. Este parámetro apunta a una lista de ID de entidad separados por comas. Por ejemplo, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. El valor se envía al solicitar recomendaciones.
-
-La exclusión solo se realiza para la llamada de [!DNL Target] actual; los elementos no se excluyen en llamadas de [!DNL Target] subsiguientes a menos que se vuelva a pasar el valor `excludedIds`. Para excluir artículos del carro de compras de las recomendaciones de cada página, siga pasando el valor `excludedIds` en cada página.
-
->[!NOTE]
->
->Si se excluyen demasiadas entidades, las recomendaciones se comportan como si no hubiera suficientes entidades para rellenar la plantilla de recomendaciones.
-
-Para excluir `entityIds`, añada el token `&excludes=${mbox.excludedIds}` a la dirección URL de contenido de la oferta. Cuando se extrae la dirección URL de contenido, se substituyen los parámetros requeridos mediante parámetros de solicitud de mbox actuales.
-
-De forma predeterminada, esta característica está habilitada para las recomendaciones de nueva creación. Las recomendaciones existentes deben guardarse para permitir entidades dinámicamente excluidas.
-
-## ¿Qué significa la respuesta NO_CONTENT que a veces se devuelve en el seguimiento de contenido de Recommendations?
-
-NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la combinación de algoritmo y clave solicitada. En términos generales, esta situación se produce cuando las copias de seguridad están desactivadas para el algoritmo y una o más de las siguientes situaciones también son ciertas:
+NO_CONTENT se devuelve cuando las recomendaciones no están disponibles para la combinación de algoritmo y clave solicitada. Esta situación suele ocurrir cuando las copias de seguridad están desactivadas para el algoritmo y una o más de las siguientes condiciones también son verdaderas:
 
 * Los resultados aún no están listos.
 
-  Esta situación suele producirse al guardar por primera vez una actividad recién creada o después de realizar cambios de configuración en la colección, los criterios o las promociones utilizados en la actividad.
+  Esta situación suele ocurrir cuando se guarda por primera vez una actividad recién creada, o después de realizar cambios de configuración en la colección, los criterios o las promociones utilizados en la actividad.
 
-* Los resultados están listos, pero aún no se han almacenado en caché en el servidor Edge más cercano, para la combinación de algoritmo y clave solicitada.
+* Los resultados están listos, pero aún no se han almacenado en caché en el servidor Edge más cercano para la combinación de algoritmo y clave solicitada.
 
-  La solicitud inicia una operación de almacenamiento en caché, por lo que este problema debe resolverse después de que se vuelva a cargar la página o transcurran unos minutos.
+  La solicitud inicia una operación de almacenamiento en caché, por lo que este problema se resuelve después de que se vuelva a cargar la página o después de unos minutos.
 
 * Los resultados están listos, pero no están disponibles para el valor de clave proporcionado.
 
-  Esta situación suele ocurrir cuando se solicitan recomendaciones para un artículo que se añadió al catálogo después de que se ejecute el algoritmo más reciente y se resuelve después de que se ejecute el siguiente.
+  Esta situación suele ocurrir cuando se solicitan recomendaciones para un artículo que se añadió al catálogo después de que se ejecute el algoritmo más reciente. Se resuelve después de que se ejecute el siguiente algoritmo.
 
 * El procesamiento parcial de la plantilla está deshabilitado y no hay suficientes resultados disponibles para rellenarla.
 
-  Esta situación suele ocurrir cuando se tiene una regla de inclusión dinámica, que filtra de forma agresiva muchos elementos de los posibles resultados. Para evitar situaciones, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios en secuencia con criterios filtrados de manera menos agresiva.
+  Esta situación suele ocurrir con una regla de inclusión dinámica que filtra de forma agresiva muchos elementos de los posibles resultados. Para evitar esta situación, habilite las copias de seguridad y no aplique la regla de inclusión a las copias de seguridad, o utilice los criterios en secuencia con criterios filtrados de forma menos agresiva.
 
-## ¿Persisten las recomendaciones basadas en artículos vistos recientemente en varios dispositivos para un único visitante? {#persist-across-devices}
++++
 
-Cuando un visitante inicia una sesión, el ID de sesión está vinculado a un solo equipo Edge y se almacena una caché de perfiles temporal en este equipo Edge. Las solicitudes posteriores de la misma sesión leen esta caché de perfil, incluidos los artículos vistos recientemente.
++++ ¿Qué se debe hacer cuando una colección de [!DNL Recommendations] pasa a cero (0)?
 
-Cuando finaliza la sesión (por lo general, cuando caduca tras 30 minutos sin actividad), el estado de la sesión, incluidos los artículos vistos recientemente, persiste en un almacenamiento de perfiles más permanente en el mismo perímetro geográfico.
+Tenga en cuenta lo siguiente cuando una colección que anteriormente no estaba en cero pase a cero:
 
-Las sesiones posteriores de distintos dispositivos pueden acceder a estos elementos vistos recientemente, siempre que la nueva sesión esté vinculada al perfil del cliente mediante el mismo ID de Marketing Cloud (MCID), ID de Experience Cloud (ECID) o CustomerID/mbox3rdPartyId.
+* Vuelva a guardar la colección y compruebe si el número se actualiza. Al volver a guardar, se vuelven a ejecutar todos los algoritmos que utilizan esa colección.
+* Compruebe que se muestra el entorno correcto. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Recomendaciones]** y, a continuación, compruebe la configuración de **[!UICONTROL Grupo de hosts predeterminado]** en la sección **[!UICONTROL Catálogo de productos]**.
 
-Si un visitante tiene dos sesiones activas a la vez, los elementos visualizados recientemente en un dispositivo no actualizan los elementos visualizados recientemente en el otro dispositivo, a menos que los dispositivos se vean obligados a compartir el ID de sesión. Existe una solución alternativa para el problema, pero [!DNL Target] no admite directamente el uso compartido de un ID de sesión entre varios dispositivos. El cliente debe administrar por sí mismo este uso compartido de ID.
+  ![Página de recomendaciones de la ficha Administración con la lista desplegable Grupo de hosts predeterminado resaltada en la sección Catálogo de productos](../assets/reco_faq_1.png)
 
-Este comportamiento sigue ocurriendo si un visitante está activo en un dispositivo y luego se activa en el otro dispositivo unos minutos después. La primera sesión del dispositivo no caduca durante 30 minutos y puede haber hasta cinco minutos de retraso antes de que el estado del perfil se escriba en el estado permanente y se procese. Espere 35 minutos para que la sesión caduque y el perfil se almacene al probar este comportamiento.
+* Compruebe que el índice esté actualizado. Haga clic en **[!UICONTROL Recommendations]** > **[!UICONTROL Búsqueda en el catálogo]** y compruebe cuántas horas hace que se actualizó el índice (por ejemplo, &quot;Indexado hace 3 horas&quot;). El índice se puede actualizar según sea necesario.
+* Compruebe si ha habido algún cambio en la fuente o en la capa de datos que haga que las entidades dejen de coincidir con las reglas de recopilación. Asegúrese de que las mayúsculas y minúsculas coincidan (las reglas distinguen entre mayúsculas y minúsculas).
+* Compruebe si la fuente se ha ejecutado correctamente o si alguien ha cambiado el directorio FTP, la contraseña, etc.
+* [!DNL Target] actualiza el envío (en la página o aplicación del cliente) lo más rápido posible y también debe proporcionar una representación en la interfaz de usuario para el experto en marketing. [!DNL Target] no retrasa las actualizaciones de entrega hasta que las actualizaciones de la IU se sincronizan con ellas. Use [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) para ver qué hay en el sistema en el momento en que ingresa una solicitud.
 
-Si el visitante no tiene dos sesiones activas a la vez, los artículos vistos recientemente en un dispositivo actualizarán los vistos recientemente en el otro dispositivo siempre y cuando la sesión haya finalizado. Espere 35 minutos para que la sesión caduque al probar este comportamiento.
++++
 
-## ¿Puedo usar un algoritmo creado en [!DNL Adobe Recommendations Classic] en [!DNL Recommendations Premium]?
++++ ¿Por qué la acción **[!UICONTROL Descargar datos]** falla en una actividad [!DNL Recommendations]?
 
-Un algoritmo creado en [!DNL Recommendations Classic] no es compatible con [!DNL Recommendations Premium]. Puede utilizar el algoritmo heredado en [!DNL Target Premium]; sin embargo, el algoritmo puede crear problemas de sincronización al desactivar o eliminar la actividad en la IU de [!DNL Target Premium]. Para obtener más información sobre las diferencias entre las dos soluciones, vea [[!DNL Recommendations Classic] frente a [!DNL Recommendations] actividades en [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Cuando se hace clic en **[!UICONTROL Descargar datos]** en la página **[!UICONTROL Información general de la actividad]** de una actividad [!DNL Recommendations], la interfaz de usuario [!DNL Target] puede mostrar el error `Error while fetching recommendation data file.`
 
-## ¿Cómo puedo recomendar solo nuevos artículos o vídeos? {#recommend-new-articles}
+Este error suele producirse cuando la actividad tiene un conjunto de resultados muy grande. El CSV generado supera el tamaño de respuesta que se puede devolver a través de la interfaz de usuario en una sola descarga. Los datos de recomendación en sí están intactos. Solo la ruta de descarga en el explorador no puede entregar un archivo de ese tamaño.
 
-Algunos clientes de medios y publicaciones desean asegurarse de que los artículos recomendados incluyan solo los artículos o vídeos más recientes. Por ejemplo, un cliente de [!DNL Target] utilizó el siguiente método para recomendar artículos con menos de 60 días de antigüedad:
++++
 
-1. Pase la fecha de publicación del artículo, en formato AAMMDD, como atributo de entidad personalizado.
-1. Cree un script de perfil que sea la fecha actual menos 60 días, también en formato AAAAMMDD.
-1. Utilice un filtro de inclusión dinámica en los criterios para que `publish date > today's date minus 60 days`.
-
-### Transfiera la fecha de publicación como un atributo de entidad personalizado:
-
-| Atributo de la entidad | Ejemplo |
-| --- | --- |
-| issueDate | 2021218 |
-| lastViewDate | 2021701 |
-| parentCategory | comentario |
-| publishDate | 20210113 |
-| publishDateDisplay | 13 de enero de 2021 |
-
-### Configure el script de perfil:
-
-![Ejemplo de script de perfil](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
-
-### Configure la regla de inclusión:
-
-![Regla de inclusión de muestra](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
->[!NOTE]
->
->Este ejemplo también se puede realizar utilizando la coincidencia de parámetros y pasando el valor `priorDate60` como parámetro de mbox.
-
-### ¿Cuáles son algunos problemas conocidos al usar [!DNL Recommendations] actividades?
+## Problemas conocidos {#known-issues}
 
 Los siguientes son problemas conocidos de las actividades [!UICONTROL Recommendations]:
 
-* Cuando [!DNL Target] devuelve una oferta JSON con getOffer(), se devuelve con el tipo de JSON. Sin embargo, si devuelve un diseño JSON de Recommendations, devuelve con un tipo de HTML.
-* Las entidades caducadas, después de 60 días de no recibir ninguna actualización a través de la fuente o la API, caducan correctamente; sin embargo, las entidades caducadas no se eliminan del índice de búsqueda en el catálogo después de la caducidad. Las entidades eliminadas a través de fuentes o API tampoco se eliminan actualmente del índice de búsqueda en el catálogo. (IRI-857)
-* Las ofertas de recomendaciones en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja de Recommendations. (TGT-33426)
+* Cuando [!DNL Target] devuelve una oferta JSON con `getOffer()`, devuelve un tipo de JSON. Sin embargo, un diseño JSON [!DNL Recommendations] devuelve un tipo de HTML.
+* Las entidades caducadas caducan correctamente después de 60 días de no recibir actualizaciones a través de una fuente o la API. Sin embargo, las entidades caducadas no se quitan del índice **[!UICONTROL Búsqueda en el catálogo]** después de la caducidad. Las entidades eliminadas a través de una fuente o la API tampoco se eliminan actualmente del índice **[!UICONTROL Búsqueda en el catálogo]**. (IRI-857)
+* Las ofertas [!DNL Recommendations] en las actividades A/B y de segmentación de experiencias no muestran una previsualización concreta de la bandeja [!DNL Recommendations]. (TGT-33426)
 * El estado de la fuente de criterios personalizados que se muestra en la lista de criterios (tarjeta) se actualiza cada diez minutos, y es posible que pasen más de diez minutos de la fecha en circunstancias excepcionales. El estado que se muestra en la vista de edición de criterios personalizados se obtiene en tiempo real y siempre está actualizado. (TGT-35896, TGT-36173)

@@ -29,76 +29,81 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 52%
+source-wordcount: '829'
+ht-degree: 4%
 ---
-# Extensión [!UICONTROL Ayuda de edición visual]
+# Extensión [!UICONTROL Ayuda de edición visual] {#visual-editing-helper}
 
-La extensión de explorador [!DNL Adobe Experience Cloud] [!UICONTROL Ayuda de edición visual] para [!DNL Google Chrome] le permite cargar sitios web de forma fiable dentro del [!UICONTROL Compositor de experiencias visuales] de [!UICONTROL Adobe Target] (VEC) para crear y realizar controles de calidad de experiencias rápidamente.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda cómo la extensión de explorador **[!UICONTROL Ayuda de edición visual]** carga los sitios web de forma fiable en el **[!UICONTROL Compositor de experiencias visuales]** (VEC), y cómo instalarlos y utilizarlos.
+
+>[!ENDSHADEBOX]
+
+La extensión de explorador [!DNL Adobe Experience Cloud] **[!UICONTROL Ayuda de edición visual]** para [!DNL Google Chrome] carga los sitios web de forma fiable en el [!DNL Adobe Target] **[!UICONTROL Compositor de experiencias visuales]** (VEC), lo que hace que sea más rápido crear y comprobar experiencias web.
 
 >[!IMPORTANT]
 >
->* Esta nueva extensión sustituye a la [extensión de explorador de VEC Helper de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) anterior. Consulte la nota importante que aparece al principio de ese artículo. Debido a las mejoras de seguridad en Manifest v3, [!DNL Adobe] requiere la descarga de esta nueva extensión para continuar creando de forma visual sus sitios web en [!DNL Target].
+>Esta extensión reemplaza la extensión de explorador [Target VEC Helper anterior](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), tal como se describe en la nota importante de la parte superior de ese artículo. Manifiesto V3 introduce mejoras de seguridad, por lo que [!DNL Adobe] requiere la descarga de esta nueva extensión para seguir creando sitios web de forma visual en [!DNL Target].
 
-## Cambios en la extensión [!UICONTROL Ayuda de edición visual] (17 de enero de 2026)
+## Por qué algunos sitios web no se abren de forma fiable en el VEC
 
-### **Se ha corregido un problema al agregar la nueva característica experimental de limpieza de cookies de inicio en el VEC Helper.**
-
-* Se ha corregido un problema al añadir una nueva función experimental de limpieza de cookies de inicio en el VEC Helper.
-* Esta mejora mejora mejora el rendimiento y la fiabilidad al limpiar las cookies no particionadas una vez por pestaña cuando comienza la creación en lugar de continuamente.
-* La función realiza un seguimiento del historial de pestañas para evitar limpiezas redundantes y borra el historial de cierre de pestañas para que la limpieza se comporte correctamente cuando se vuelva a abrir una pestaña.
-* Se han añadido pruebas unitarias completas para garantizar un comportamiento coherente.
-
-![Nuevas opciones de VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
-
-## Razones por las que algunos sitios web podrían no abrirse de forma fiable en el VEC
+Es posible que un sitio web no se abra de forma fiable en el VEC por los siguientes motivos:
 
 * El sitio web tiene normas estrictas de seguridad.
 * El sitio web se encuentra en un iframe.
-* El control de calidad o la fase del cliente no están disponibles para el mundo exterior (el sitio es interno).
+* El control de calidad o el sitio de ensayo del cliente son internos y no están disponibles fuera de la red.
 
-La extensión de explorador [!DNL Adobe Experience Cloud] [!UICONTROL Ayuda de edición visual] para resuelve los problemas de carga de sitios para los que los clientes ahora dependen del [!DNL Target] [Compositor de experiencias mejorado](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) o de extensiones de terceros, como Requestly.
+La extensión soluciona estos problemas de carga de sitios, para los que los clientes dependen del [Compositor de experiencias mejorado](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) o de extensiones de terceros como Requestly.
 
-## Ventajas de usar la extensión [!UICONTROL Ayuda de edición visual]
+## Ventajas de la extensión
 
-* Todos los encabezados de eliminación de iframes, como `X-Frame-Options` y `Content-Security-Policy`, se eliminan implícitamente del sitio web. No hay necesidad de crear reglas Requestly complicadas.
-* Si una página web todavía no contiene la biblioteca at.js de [!DNL Target], puede utilizar la extensión para insertar la biblioteca y así poder crear experiencias para el sitio web. A continuación, puede crear actividades y realizar controles de calidad mediante vínculos de vista previa.
+* **Encabezados de eliminación de iframes eliminados:** la extensión elimina implícitamente encabezados como `X-Frame-Options` y `Content-Security-Policy` del sitio web, por lo que no se necesitan reglas Requestly complicadas.
+* **inyección de at.js:** cuando una página web aún no contiene la biblioteca de at.js [!DNL Target], la extensión puede insertarla. A continuación, se pueden crear experiencias para el sitio web y las actividades se pueden crear y comprobar con vínculos de vista previa. Con el [Compositor de experiencias mejorado](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) (EEC), la extensión no inserta at.js, pero la funcionalidad de la cookie SameSite permanece. Para insertar at.js en la página web, desactive el EEC.
+* **Ventanillas móviles:** [Las ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) son compatibles incluso sin el **[!UICONTROL Compositor de experiencias mejorado]** (EEC).
+* **Nuevos clientes de [!DNL Target]:** la extensión permite experimentar con [!DNL Target] incluso cuando los desarrolladores de TI aún no han implementado [!DNL Target] en el sitio web.
+* **Socios:** socios que brindan servicios a los sitios web y a las cuentas de [!DNL Target] de varios clientes obtienen un mecanismo para admitir la carga de VEC, en lugar de múltiples reglas en herramientas de terceros.
 
-  Al usar el [Compositor de experiencias mejorado](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), la extensión no inserta at.js, pero la funcionalidad de cookie SameSite sigue presente. Para insertar at.js en el sitio web, desactive el EEC.
+## Obtención e instalación de la extensión
 
-* Las [ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) son compatibles incluso sin el [!UICONTROL Compositor de experiencias mejorado] (EEC).
-* Los clientes nuevos de [!DNL Target] pueden utilizar la extensión para experimentar con [!DNL Target] incluso si los desarrolladores de TI todavía no han implementado [!DNL Target] en sus sitios web.
-* Los socios que brindan servicios de múltiples páginas web de clientes y cuentas de [!DNL Target] ahora tienen un mecanismo sencillo para admitir la carga de VEC, en lugar de administrar varias reglas en herramientas de terceros.
+La instalación de la extensión en [!DNL Chrome] permite cargar sitios web de forma fiable en el VEC, incluidos sitios web que bloquean iframes o que aún no tienen at.js implementado.
 
-## Obtenga e instale la extensión de explorador [!UICONTROL Ayuda de edición visual]
-
-1. Vaya a la extensión de explorador [[!DNL Adobe Experience Cloud] [!UICONTROL Ayuda de edición visual] en Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. Vaya a la extensión de explorador [[!DNL Adobe Experience Cloud] **[!UICONTROL Ayuda de edición visual &#x200B;]**&#x200B;en Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Haga clic en **[!UICONTROL Agregar a Chrome]** > **[!UICONTROL Agregar extensión]**.
 1. Abra el VEC en [!DNL Target].
-1. Para usar la extensión, haga clic en el icono de la extensión del explorador [!UICONTROL Ayuda de edición visual] ( ![icono de Extensión de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) en la barra de herramientas del explorador Chrome mientras está en VEC o en modo control de calidad.
+1. En el VEC o en modo control de calidad, haga clic en el icono de la extensión del explorador **[!UICONTROL Ayuda de edición visual]** ( ![icono de Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) en la barra de herramientas de [!DNL Chrome].
 
-   [!UICONTROL Ayuda de edición visual] se habilita automáticamente cuando se abre un sitio web en el VEC de [!UICONTROL Target] para la creación de contenido. La extensión no tiene ninguna configuración condicional. La extensión gestiona todas las configuraciones automáticamente, incluida la configuración de cookies de SameSite.
+   La extensión se habilita automáticamente cuando se abre un sitio web en el VEC [!DNL Target] para la creación de contenido. No tiene configuración condicional y administra todas las configuraciones automáticamente, incluida la configuración de la cookie SameSite. Para obtener más información sobre la corrección del atributo del explorador `SameSite=None`, consulte [Políticas de cookies de Google Chrome SameSite](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   Para obtener más información sobre la `SameSite=None` corrección del atributo de explorador, consulte “¿Cómo afectan las políticas de aplicación de cookies de Google Chrome SameSite a los VEC y EEC?” en [Resolución de problemas relacionados con el Compositor de experiencias visuales y el Compositor de experiencias mejorado](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+## Notas de uso
 
-## Notas
+* La extensión carga la última versión de at.js disponible en la interfaz de usuario de [!DNL Target] en **[!UICONTROL Administración]** > **[!UICONTROL Implementación]**, y at.js descarga las bibliotecas de creación.
+* Para usar la extensión para insertar at.js en [Modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md), debe estar abierta otra pestaña de Chrome. Esta ficha debe estar autenticada en la misma organización [!DNL Adobe Experience Cloud] en la que se creó la actividad.
+* El VEC muestra mensajes que sugieren la instalación de la extensión en los siguientes casos:
 
-* Para [!DNL Target], la extensión carga la última versión de at.js disponible en la interfaz de usuario de [!DNL Target] en [!UICONTROL Administración] > [!UICONTROL Implementación] y at.js descarga las bibliotecas de creación.
-* Cuando utilice la extensión para insertar at.js mientras está en [modo de control de calidad](/help/main/c-activities/c-activity-qa/activity-qa.md), debe tener otra pestaña de Chrome abierta. Esta pestaña de Chrome debe estar autenticada en la misma organización de [!DNL Adobe Experience Cloud] en la que creó la actividad.
-* Los mensajes siguientes ayudan a mantenerle informado:
+  * Un sitio web no se puede cargar en el VEC.
+  * at.js o alloy.js aún no se ha implementado en el sitio web.
 
-  * Si intenta cargar un sitio web usando el VEC que falla al cargar, aparece un mensaje sugiriendo que instale la extensión de explorador [!UICONTROL Ayuda de edición visual].
-  * Si at.js o alloy.js aún no se ha implementado en el sitio web, aparece un mensaje en el VEC sugiriendo que instale la extensión.
-* Si intenta utilizar la nueva extensión y después vuelve a la [extensión antigua](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) y [!DNL Target] no se puede cargar el sitio web, borre todos los datos del explorador y desactive la nueva extensión.
+* Si se intentó usar la nueva extensión y se vuelve a usar la [extensión antigua](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), pero [!DNL Target] no pudo cargar el sitio web, borre todos los datos del explorador y deshabilite la nueva extensión.
 
-## Preguntas frecuentes
+## Últimos cambios en la extensión de (17 de enero de 2026)
 
-### ¿La extensión, cuando está activa, hace algo cuando se usa fuera de [!DNL Adobe Target] o [!UICONTROL Adobe Journey Optimizer] (AJO)?
+La extensión agrega una función experimental de limpieza de cookies de inicio al VEC Helper. La función limpia las cookies sin particiones una vez por pestaña cuando comienza la creación, en lugar de hacerlo de forma continua, lo que mejora el rendimiento y la fiabilidad. Realiza un seguimiento del historial de cada ficha para evitar una limpieza redundante y borra ese historial cuando se cierra la ficha, de modo que la limpieza se comporta correctamente cuando se vuelve a abrir la ficha. Las pruebas unitarias garantizan un comportamiento coherente.
 
-La extensión solo se activa cuando el sitio web en cuestión se carga dentro de un iFrame en productos de [!DNL Adobe] ([!DNL Target], [!DNL AJO]). Fuera de este flujo, la extensión no intenta añadir, quitar ni modificar ningún encabezado, ni intenta insertar ningún código dentro del sitio web.
+![Opciones de la extensión VEC Helper, incluidos los modos de procesamiento de cookies, la opción de registro avanzado y las características experimentales Retrasar la carga de la página web, Limpiar cookies y Limpiar cookies de inicio](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
-### ¿Qué hace la extensión cuando está activa en el VEC de [!DNL Adobe Target]?
+## Preguntas más frecuentes
 
-Cuando un sitio web se carga dentro de un iFrame en productos de [!DNL Adobe] ([!DNL Target], [!DNL AJO]), la extensión inserta código (empaquetado con la extensión) en el sitio web y descarga los archivos de ayuda desde el CDN de [!DNL Adobe] para habilitar la creación visual.
++++ ¿Hace algo la extensión cuando se usa fuera de [!DNL Adobe Target] o [!UICONTROL Adobe Journey Optimizer] (AJO)?
+
+La extensión solo se activa cuando el sitio web se carga dentro de un iFrame en [!DNL Adobe] productos ([!DNL Target], [!DNL AJO]). Fuera de este flujo, la extensión no intenta agregar, quitar ni modificar encabezados y no intenta insertar ningún código dentro del sitio web.
+
++++
+
++++ ¿Qué hace la extensión cuando está activa en el VEC de [!DNL Adobe Target]?
+
+Cuando se carga un sitio web dentro de un iFrame en [!DNL Adobe] productos ([!DNL Target], [!DNL AJO]), la extensión inserta código que está empaquetado con la extensión en el sitio web y descarga archivos de ayuda de la CDN [!DNL Adobe] para habilitar la creación visual.
+
++++

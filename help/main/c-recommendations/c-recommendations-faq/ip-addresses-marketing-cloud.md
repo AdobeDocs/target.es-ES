@@ -18,20 +18,24 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 19%
 ---
-# Direcciones IP que usaron [!DNL Recommendations] servidores de procesamiento de fuentes
+# Direcciones IP que usaron [!DNL Recommendations] servidores de procesamiento de fuentes {#recs-ip-addresses}
 
-Lista de direcciones IP que se usaron en [!DNL Adobe Target] [!DNL Recommendations] servidores de procesamiento de fuentes para configurar el firewall de modo que admita las direcciones IP procedentes de [!DNL Adobe] servidores.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Busque las direcciones IP que usan los servidores de procesamiento de fuentes [!DNL Adobe Target] [!DNL Recommendations] para configurar un firewall que permita las direcciones IP procedentes de [!DNL Adobe] servidores.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->El equipo [!DNL Target] está actualizando actualmente las direcciones de puerta de enlace NAT para descargar fuentes de [!DNL Recommendations]. Si implementa la inclusión en la lista de permitidos de IP, asegúrese de realizar la lista de permitidos de los siguientes hosts nuevos de AWS. Los hosts existentes están programados para su retirada el 30 de junio de 2024. Para garantizar una transición sin problemas, realice la lista de permitidos de las nueve direcciones. No es urgente eliminar las direcciones existentes.
+>El equipo [!DNL Target] está actualizando actualmente las direcciones de puerta de enlace NAT para descargar fuentes de [!DNL Recommendations]. Cuando se implemente la inclusión en la lista de permitidos de IP, realice la lista de permitidos de los siguientes hosts nuevos de AWS. Los hosts existentes están programados para su retirada el 30 de junio de 2024. Para garantizar una transición sin problemas, realice la lista de permitidos de las nueve direcciones. No es urgente eliminar las direcciones existentes.
 
-Las actividades de [!DNL Target] [!UICONTROL Recommendations] utilizan los siguientes hosts de AWS al acceder a los servidores FTP de los clientes:
+Las actividades de [!DNL Target] [!UICONTROL Recommendations] utilizan los siguientes hosts de AWS al acceder a los servidores FTP de los clientes.
 
 **Nuevos hosts**:
 
@@ -52,4 +56,4 @@ Las actividades de [!DNL Target] [!UICONTROL Recommendations] utilizan los sigui
 | Oregón | `44.232.167.82` |
 | Oregón | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Las API de Recommendations] también usan los mismos hosts de AWS.
+Las API [!DNL Target] [!UICONTROL Recommendations] también usan los mismos hosts de AWS.

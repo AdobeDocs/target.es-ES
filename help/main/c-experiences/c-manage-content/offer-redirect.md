@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 24%
@@ -44,7 +44,7 @@ Es posible que tenga dos páginas completamente distintas para probarlas, en lug
 >
 >* Para redireccionar ofertas en actividades que usan [[!UICONTROL Analytics como fuente de informes]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), su implementación debe cumplir con ciertos requisitos mínimos. Además, hay información importante que debe conocer. Ver [Ofertas de redireccionamiento: preguntas más frecuentes sobre A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
->* Para obtener información sobre la configuración de una experiencia de redireccionamiento, consulte [Redireccionar a una URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
+>* Para obtener información sobre la configuración de una experiencia de redireccionamiento, consulte [Redireccionar a una URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#redirect-to-url).
 
 La oferta de redireccionamiento ejecuta código JavaScript para redirigir el navegador. Utiliza el método `window.location.replace();`, de modo que la página desde la cual se redirige al visitante no se almacene en el historial del explorador. Este proceso permite a los visitantes utilizar el botón Atrás en sus navegadores.
 

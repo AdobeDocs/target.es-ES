@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -151,7 +151,7 @@ Tenga en cuenta que el requisito de tráfico aumenta con las actividades de MVT.
 **¿Puedo ejecutar una actividad que abarque varias páginas donde la estructura de la página sea diferente? ¿Puedo aplicar ofertas en diferentes ubicaciones (por ejemplo, el funnel de pago y envío)?**
 
 +++Ver detalles
-Pruebe la [característica de actividad de varias páginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) que le permite usar varias páginas dentro de las experiencias.
+Pruebe la [característica de actividad de varias páginas](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) que le permite usar varias páginas dentro de las experiencias.
 
 +++
 
@@ -284,7 +284,7 @@ Eche un vistazo a los siguientes aspectos del producto:
 **¿Puedo ejecutar una actividad en varias páginas donde la estructura de la página sea común?**
 
 +++Ver detalles
-Revise las [reglas de plantilla](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) para incluir muchas páginas estructuradas similares a la actividad mientras se sigue creando la experiencia en la única URL provista.
+Revise las [reglas de plantilla](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) para incluir muchas páginas estructuradas similares a la actividad mientras se sigue creando la experiencia en la única URL provista.
 
 +++
 
@@ -293,39 +293,39 @@ Revise las [reglas de plantilla](/help/main/c-experiences/c-visual-experience-co
 +++Ver detalles
 Esto se debe a que el sitio tiene contenido mixto: es un sitio que recupera recursos HTTP y HTTPS. Solicite que su equipo de TI se mueva completamente a HTTPS.
 
-Hasta que esto suceda, siga las instrucciones de [Habilitar contenido mixto en su explorador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) para permitir que su explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
+Hasta que esto suceda, siga las instrucciones de [Habilitar contenido mixto en su explorador](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content) para permitir que su explorador cargue contenido mixto. Esta es una característica de seguridad de la mayoría de los navegadores modernos.
 
 +++
 
 **¿Puedo probar el [!UICONTROL Compositor de experiencias visuales] (VEC) en mi sitio aunque la biblioteca at.js [!DNL Target] aún no se haya implementado?**
 
 +++Ver detalles
-Intente cargar la página con el [Compositor de experiencia mejorada](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
+Intente cargar la página con el [Compositor de experiencia mejorada](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec).
 
 +++
 
 **¿Por qué no se carga mi sitio dentro del [!UICONTROL Compositor de experiencias visuales] (VEC)?**
 
 +++Ver detalles
-Pruebe la [información de solución de problemas](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) descrita en la página de ayuda. Póngase en contacto con [soporte de Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) si ninguno de estas opciones funciona.
+Pruebe la [información de solución de problemas](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer) descrita en la página de ayuda. Póngase en contacto con [soporte de Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) si ninguno de estas opciones funciona.
 
 También tenemos un [método basado en formularios](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) que puede desbloquearlo.
 
-Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D). Es posible que también deba comunicarse con su departamento de TI para [lista de permitidos de los servidores proxy de Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lea también cuándo y por qué puede ser útil el [Compositor de experiencia mejorada](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec). Es posible que también deba comunicarse con su departamento de TI para [lista de permitidos de los servidores proxy de Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
 +++
 
 **Tengo un sitio adaptable. Al crear una actividad, ¿cómo puedo estar seguro de que estoy considerando dispositivos clave?**
 
 +++Ver detalles
-Pruebe la función [Ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Tenga en cuenta que solo funciona cuando [!UICONTROL Enhanced Experience Composer] está habilitado.
+Pruebe la función [Ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports). Tenga en cuenta que solo funciona cuando [!UICONTROL Enhanced Experience Composer] está habilitado.
 
 +++
 
 **Tengo varios dominios. Uno de los dominios necesita el [!UICONTROL Compositor de experiencias mejorado] habilitado, mientras que otros necesitan que esté deshabilitado. ¿Cómo puedo hacer esto?**
 
 +++Ver detalles
-Siempre puede usar la opción [Compositor de experiencias mejorado en el nivel de actividad](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) para anular la configuración predeterminada ([!UICONTROL Administración] > [!UICONTROL Compositor de experiencias visuales]).
+Siempre puede usar la opción [Compositor de experiencias mejorado en el nivel de actividad](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) para anular la configuración predeterminada ([!UICONTROL Administración] > [!UICONTROL Compositor de experiencias visuales]).
 
 +++
 
@@ -346,7 +346,7 @@ Puede conseguirlo fácilmente con nuestra [función Varias versiones de experien
 **¿Cómo puedo ver qué modificaciones hice en [!UICONTROL Compositor de experiencias visuales] (VEC)?**
 
 +++Ver detalles
-Siempre mostramos sus cambios en el [Editor de código](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). La pestaña [!UICONTROL Modificaciones] muestra el selector de CSS o el mbox que aplicó a su oferta.
+Siempre mostramos sus cambios en el [Editor de código](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). La pestaña [!UICONTROL Modificaciones] muestra el selector de CSS o el mbox que aplicó a su oferta.
 
 Tenga en cuenta que el selector de CSS es un Selector de Sizzle. Puede usar esta sección para hacer modificaciones menores o eliminar ciertas ofertas rápidamente.
 
@@ -355,7 +355,7 @@ Tenga en cuenta que el selector de CSS es un Selector de Sizzle. Puede usar esta
 **Deseo entregar JavaScript como parte del experimento/actividad para realizar modificaciones sobre la marcha de algunos elementos dinámicos o simplemente para enviar una llamada a una solución de terceros. ¿Cómo puedo hacer esto?**
 
 +++Ver detalles
-Una de las formas es utilizar el [Editor de código personalizado](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Coloque su JavaScript en la sección para que se entregue. Tiene la opción de entregarlo en el encabezado o en la parte superior del cuerpo, según sus necesidades.
+Una de las formas es utilizar el [Editor de código personalizado](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). Coloque su JavaScript en la sección para que se entregue. Tiene la opción de entregarlo en el encabezado o en la parte superior del cuerpo, según sus necesidades.
 
 +++
 
@@ -378,7 +378,7 @@ Use el [enfoque basado en formularios](/help/main/c-experiences/form-experience-
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
 +++Ver detalles
-Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
@@ -402,7 +402,7 @@ Es posible que el sitio tenga ID dinámicos, ID duplicados o clases dinámicas e
 **¿Por qué no veo la oferta/experiencia deseada y, en cambio, estoy viendo alguna otra actividad?**
 
 +++Ver detalles
-Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Use nuestro [depurador](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) y compruebe [conflictos de actividades](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 

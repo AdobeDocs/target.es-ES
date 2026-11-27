@@ -24,33 +24,28 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 46%
+source-wordcount: '488'
+ht-degree: 13%
 ---
-# Configuración de actividades de Recommendations
+# Configuración de actividades de Recommendations {#recs-activity-settings}
 
-Información sobre la configuración que puede usar para describir y controlar una actividad de [!UICONTROL Recommendations] en [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-Las secciones siguientes describen la configuración disponible para una actividad de [!UICONTROL Recommendations].
+**En esta página:** Obtenga información acerca de la configuración que describe y controla una actividad de [!DNL Recommendations] en [!DNL Adobe Target].
+
+>[!ENDSHADEBOX]
+
+La configuración de actividad identifica una actividad [!DNL Recommendations], controla cuándo y dónde se muestra y define cómo se generan los informes de sus resultados.
 
 ## Nombre
 
-Haga clic en el icono Más acciones ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ) y, a continuación, haga clic en **[!UICONTROL Cambiar nombre]** para proporcionar un nombre descriptivo que le ayudará a usted y a su equipo a identificar la actividad.
+Haga clic en el icono Más acciones ( ![icono Más acciones](/help/main/assets/icons/MoreSmallListVert.svg) ) y, a continuación, haga clic en **[!UICONTROL Cambiar nombre]** para asignar a la actividad un nombre descriptivo que ayude a identificarla.
 
-No se permite usar los caracteres siguientes en el nombre de una actividad:
+No se permiten los siguientes caracteres en el nombre de una actividad: `/`, `?`, `#`, `:`, `=`, `+`, `-` y `@`.
 
-`/`
-`?`
-`#`
-`:`
-`=`
-`+`
-`-`
-`@`
-
-Si especifica el nombre de una actividad de [!UICONTROL Recomendaciones] que ya existe para otra actividad de [!UICONTROL Recommendations Classic], la nueva actividad se vuelve a sincronizar con otro nombre nuevo. Este es el nombre original, al que se le agrega una marca de tiempo para que sea único. Este nuevo nombre se muestra en [!DNL Target Standard/Premium] y en [!UICONTROL Recommendations Classic].
+Si el nombre de una actividad [!DNL Recommendations] ya existe para otra actividad en [!UICONTROL Recommendations Classic], la nueva actividad se vuelve a sincronizar con un nombre nuevo. El nuevo nombre es el nombre original con una marca de tiempo adjunta, para que sea único. Se muestra en [!DNL Target Standard/Premium] y en [!UICONTROL Recommendations Classic].
 
 ## Objetivo
 
@@ -58,52 +53,46 @@ Si especifica el nombre de una actividad de [!UICONTROL Recomendaciones] que ya 
 
 ## Prioridad
 
-Ajuste el control deslizante para determinar el nivel de prioridad.
+Ajuste el control deslizante para establecer el nivel de prioridad.
 
-La prioridad se utiliza si se asignan varias actividades a la misma ubicación con el mismo público. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
+La prioridad se utiliza cuando se asignan varias actividades a la misma ubicación con la misma audiencia. Si se asignan dos o más actividades a una ubicación, se mostrará la actividad con la prioridad más alta.
 
 ## Duración
 
 Establezca la duración de la actividad.
 
-La actividad se puede iniciar cuando se activa, o bien se puede establecer una fecha y hora específicas. Igualmente, la actividad puede finalizar cuando está desactivada o se puede establecer una fecha y hora. El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria se establece según la zona horaria configurada en el navegador. Para usar una zona horaria distinta, configure el navegador para otra zona horaria y reinícielo.
+La actividad se puede iniciar cuando se activa o en una fecha y hora específicas. Del mismo modo, puede finalizar cuando se desactiva o en una fecha y hora específicas.
+
+El selector de hora usa un reloj de 24 horas, donde 00:00 equivale a medianoche. La zona horaria es la configurada en el explorador. Para utilizar una zona horaria diferente, establezca el explorador en esa zona horaria y reinicie el explorador.
 
 ## Configuración de informes.
 
-* **Source de informes:** Especifique de qué datos de solución se recopilan:
+La siguiente configuración define cómo se informan los resultados de la actividad.
 
-  * [!DNL Adobe Target]
-  * [!DNL Adobe Analytics]
-  * [!DNL Adobe Customer Journey Analytics]
+* **[!UICONTROL Source de informes]:** Especifica la solución de la que se recopilan los datos: [!DNL Adobe Target], [!DNL Adobe Analytics] o [!DNL Adobe Customer Journey Analytics].
 
-  Si especifica una solución de informes en la [configuración de la cuenta](/help/main/administrating-target/reporting.md), se utilizará la solución especificada y este ajuste no será visible.
+  Si se especifica una solución de generación de informes en [configuración de la cuenta](/help/main/administrating-target/reporting.md), se usa esa solución y esta configuración no es visible. La fuente de informes no se puede cambiar una vez publicada la actividad. Esto permite mantener la coherencia en los informes.
 
-  La fuente de informes no se puede cambiar una vez publicada la actividad. Esto permite mantener la coherencia en los informes.
-
-  **[!DNL Adobe Analytics]**: vea [[!DNL Adobe Analytics] como fuente de informes de [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) para conocer las diferencias entre las soluciones de informes y las ventajas de cada una.
-
-  Al seleccionar [!DNL Analytics] como fuente de informes para [!DNL Target] (A4T), selecciona un grupo de informes [!DNL Analytics] para recibir [!DNL Target] datos de actividad. Para ello, elija primero una de las [!DNL Analytics] empresas a la que esté asociada su cuenta y, a continuación, seleccione el grupo de informes adecuado para la actividad. Solo los grupos de informes que se hayan aprovisionado para conectarse a [!DNL Target] están disponibles para su selección. Si no ve el grupo de informes que espera, primero cierre la sesión y vuelva a iniciarla en [!DNL Adobe Experience Cloud] para intentarlo de nuevo. Si el grupo de informes aún no aparece en la lista, comuníquese con el [Servicio de atención al cliente](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
-
-  [!DNL Analytics for Target] (A4T) requiere un servidor de seguimiento para informar correctamente sobre los resultados. Aparece un servidor de seguimiento predeterminado en el campo [!UICONTROL Servidor de seguimiento]. Si utiliza más de un servidor de seguimiento, asegúrese de incluir el servidor de seguimiento correcto en este campo. Consulte [Uso de un servidor de seguimiento de Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) para obtener más información.
+  **[!DNL Adobe Analytics]**: vea [[!DNL Adobe Analytics] como fuente de informes de [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) para ver las diferencias entre las soluciones de informes y las ventajas de cada una. Para seleccionar el grupo de informes [!DNL Analytics] y el servidor de seguimiento, consulte [Informes de Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source).
 
   **[!DNL Adobe Customer Journey Analytics]**: vea [[!DNL Target] creación de informes en [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) para obtener más información sobre la integración entre [!DNL Adobe Customer Journey Analytics] y [!DNL Target].
 
-* **Métrica de objetivo:** Asigne un nombre al objetivo y seleccione la métrica de éxito que determina si la actividad tiene éxito.
-* **Métricas adicionales:** Configure métricas de éxito adicionales para usarlas en sus informes.
-* **Públicos para creación de informes:** Defina los públicos que se pueden usar cuando filtre los informes.
+* **[!UICONTROL Métrica de objetivo]:** Selecciona la métrica de éxito que determina si la actividad es exitosa.
+* **[!UICONTROL Métricas adicionales]:** Configura métricas de éxito adicionales para los informes.
+* **[!UICONTROL Audiencias para informes]:** Define audiencias que se pueden usar para filtrar los informes.
 
 ## Otros metadatos
 
-Escriba notas sobre la actividad.
+Introduzca notas sobre la actividad.
 
 ## Vídeo de formación: Configuración de actividades (3:02) ![Distintivo de tutorial](/help/main/assets/tutorial.png)
 
-Este vídeo incluye información sobre la configuración de las actividades.
+Este vídeo trata sobre la siguiente configuración de la actividad:
 
-* Establecer un objetivo para la actividad
-* Fijar el nivel de prioridad de las actividades
-* Programar las horas de inicio y fin de las actividades
-* Añadir audiencias para los informes a fin de crear filtros de informes
-* Escribir notas en las actividades
+* Introduzca un objetivo para la actividad.
+* Defina el nivel de prioridad de la actividad.
+* Programar las horas de inicio y finalización.
+* Añada audiencias para los informes con el fin de crear filtros de informes.
+* Introduzca notas para la actividad.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507946?captions=spa)
