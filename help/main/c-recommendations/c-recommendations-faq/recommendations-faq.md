@@ -59,7 +59,7 @@ Se puede intentar realizar una sola llamada con 50 000 productos. Si la llamada 
 
 No hay un límite estricto en el número de filas o en el tamaño del archivo para la carga de un archivo CSV de fuente. Como práctica recomendada, Adobe recomienda limitar el archivo CSV a 1 GB para evitar errores durante la carga. Lo ideal es que un archivo que supere 1 GB se divida en varios archivos de fuentes.
 
-El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] ](/help/main/r-troubleshooting-target/target-limits.md).
+El número máximo de columnas de atributos personalizados es 100 y los atributos personalizados están limitados a 4096 caracteres. Hay otros límites en la longitud de las columnas requeridas disponibles en la página Limitaciones de [[!DNL Target] &#x200B;](/help/main/r-troubleshooting-target/target-limits.md).
 
 +++
 

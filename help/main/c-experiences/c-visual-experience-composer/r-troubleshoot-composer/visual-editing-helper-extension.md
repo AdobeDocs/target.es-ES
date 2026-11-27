@@ -70,7 +70,7 @@ La extensión soluciona estos problemas de carga de sitios, para los que los cli
 
 La instalación de la extensión en [!DNL Chrome] permite cargar sitios web de forma fiable en el VEC, incluidos sitios web que bloquean iframes o que aún no tienen at.js implementado.
 
-1. Vaya a la extensión de explorador [[!DNL Adobe Experience Cloud] **[!UICONTROL Ayuda de edición visual ]**en Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. Vaya a la extensión de explorador [[!DNL Adobe Experience Cloud] **[!UICONTROL Ayuda de edición visual &#x200B;]**&#x200B;en Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Haga clic en **[!UICONTROL Agregar a Chrome]** > **[!UICONTROL Agregar extensión]**.
 1. Abra el VEC en [!DNL Target].
 1. En el VEC o en modo control de calidad, haga clic en el icono de la extensión del explorador **[!UICONTROL Ayuda de edición visual]** ( ![icono de Ayuda de edición visual](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) en la barra de herramientas de [!DNL Chrome].
