@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# Crear carruseles que funcionen en el Compositor de experiencias visuales
+# Creando carruseles que funcionen en [!UICONTROL Compositor de experiencias visuales] {#vec-carousels}
 
-Este tema muestra cómo crear un carrusel que se pueda editar en el [!DNL Adobe Target] [!UICONTROL Compositor de experiencias visuales] (VEC).
+>[!BEGINSHADEBOX]
 
-Cuando se siguen los pasos descritos a continuación, [!DNL Target] siempre sabe que la diapositiva seleccionada tendrá el “selector” de la diapositiva correcta aunque, pasados unos segundos, se cambie en el Compositor de experiencias visuales.
+**En esta página:** Aprenda a crear un carrusel que se pueda editar en el **[!UICONTROL Compositor de experiencias visuales]** (VEC).
 
-1. Cree marcadores de posición de HTML estáticos.
+>[!ENDSHADEBOX]
+
+Un carrusel creado con la siguiente estructura se puede editar en el [!DNL Adobe Target] **[!UICONTROL Compositor de experiencias visuales]** (VEC). La estructura mantiene válido el selector de cada diapositiva, por lo que [!DNL Target] siempre identifica la diapositiva correcta, incluso cuando la diapositiva mostrada cambia unos segundos después de que la página se cargue en el VEC.
+
+1. Cree las diapositivas como marcadores de posición estáticos de HTML, con una diapositiva visible y las otras diapositivas ocultas por clase.
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ Cuando se siguen los pasos descritos a continuación, [!DNL Target] siempre sabe
    </ul>
    ```
 
-1. Añada CSS para diseñar el aspecto.
-
-   No use JavaScript para esto.
+1. Diseñe el aspecto solo con CSS. No use JavaScript para esto.
 
    >[!NOTE]
    >
-   >Actualmente, la opción [!UICONTROL Representar usando JavaScript] no se puede usar cuando existe código personalizado en el Compositor de experiencias visuales.
+   >La opción **[!UICONTROL Procesar usando JavaScript]** no se admite actualmente si se usa junto con código personalizado en **[!UICONTROL Compositor de experiencias visuales]**.
 
-1. Actualice los classNames solo para ocultar otros y mostrar los siguientes con temporizador/animación.
-
-   Nunca utilice JavaScript para actualizar la estructura del DOM.
+1. Mostrar la siguiente diapositiva actualizando sólo los nombres de clase: ocultar las otras diapositivas y mostrar la siguiente con un temporizador o una animación. Nunca actualice la estructura del DOM con JavaScript.

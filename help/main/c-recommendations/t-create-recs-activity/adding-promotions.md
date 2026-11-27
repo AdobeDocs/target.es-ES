@@ -2,7 +2,7 @@
 keywords: promociones;promociones principales;promociones secundarias;tipo de promociones;lista de elementos;promocionar por atributo;promocionar una colección
 description: Aprenda a agregar elementos promocionados y controlar su ubicación en sus diseños de Recommendations de Adobe [!DNL Target]. Puede añadir promociones estáticas y dinámicas.
 title: ¿Cómo puedo añadir promociones en diseños de Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 TQID: 'https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E'
@@ -18,77 +18,72 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 34%
+source-wordcount: '695'
+ht-degree: 3%
 ---
-# Agregar promociones
+# Agregar promociones {#add-promotions}
 
-Agregue elementos promocionados y controle su ubicación en sus diseños de [!DNL Adobe Target Recommendations]. Puede añadir promociones estáticas y dinámicas.
+>[!BEGINSHADEBOX]
 
->[!IMPORTANT]
->
->Las reglas de exclusión estáticas y dinámicas son funciones potentes que pueden ayudarle en sus estrategias de marketing. Para obtener información detallada, ejemplos y casos de uso, consulte [Usar reglas de inclusión dinámicas y estáticas](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
+**En esta página:** Aprenda a agregar elementos promocionados a un diseño de [!DNL Recommendations] y a determinar su criterio de ordenación.
 
-Al crear una actividad de [!DNL Recommendations], tiene la opción de incluir elementos promocionados en el diseño de [!DNL Recommendations]. Las promociones se ubican en los espacios libres del diseño y tienen prioridad sobre los resultados de criterios y las recomendaciones de copia de seguridad. Por ejemplo, si su diseño tiene seis espacios y utiliza dos para las promociones, quedarán cuatro espacios disponibles para los elementos recomendados a partir de los criterios.
+>[!ENDSHADEBOX]
 
-Las promociones se eliminan de la duplicación de elementos recomendados por los criterios de la actividad, por lo que un elemento determinado no aparecerá dos veces en una sola bandeja de recomendaciones.
+Las promociones colocan elementos específicos en un diseño de [!DNL Recommendations], además de los elementos recomendados según los criterios. Utilizan espacios disponibles en el diseño y tienen prioridad sobre los resultados de criterios y las recomendaciones de copia de seguridad. Por ejemplo, si un diseño tiene seis espacios y dos de ellos se utilizan para promociones, quedan cuatro espacios para los artículos recomendados en función de criterios.
 
-Puede promocionar elementos concretos del modo habitual o de forma dinámica, así como elementos basados en atributos o colecciones.
+Las promociones se eliminan de la duplicación de elementos recomendados por los criterios de la actividad, por lo que un elemento determinado no aparece dos veces en una sola bandeja de recomendaciones.
 
-![[!UICONTROL Opciones de promoción principal] y [!UICONTROL promoción secundaria] en la interfaz de usuario de [!DNL Target]](assets/add_promotion_toggles.png)
+![Cambiar cuadro de diálogo de promoción con las opciones Promoción principal y Promoción secundaria desactivadas](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
->Si utiliza promociones, se cambiarán la estructura y los resultados del CSV. Estos cambios no afectan a ningún proceso externo que utilice el CSV, como el correo electrónico.
+>El uso de promociones cambia la estructura y la salida CSV. Estos cambios pueden afectar a cualquier proceso externo que incluya CSV, como el correo electrónico.
+
+## Añadir una promoción {#add-promotion}
+
+Una promoción define qué elementos se promocionan, cuántos espacios de diseño utilizan y el periodo durante el cual se muestran.
 
 1. En la página **[!UICONTROL Opciones]**, haga clic en la opción **[!UICONTROL Promoción principal]** o **[!UICONTROL Promoción secundaria]**.
 
-   La siguiente ilustración muestra la opción [!UICONTROL Promoción principal] en la posición &quot;Activada&quot;.
+   La siguiente ilustración muestra la opción **[!UICONTROL Promoción principal]** en la posición &quot;Activada&quot;. Las promociones se pueden insertar antes y después de los resultados de criterios.
 
-   ![Agregar opciones de promoción principal](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
+   ![Cambiar cuadro de diálogo de promoción con la opción Promoción principal activada, que muestra el número de espacios de diseño, la programación y las opciones de tipo de promoción](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
-   Puede introducir promociones antes *o* después de los resultados de criterios.
+1. Establezca el **[!UICONTROL número de espacios de diseño]** que se utilizarán para los elementos promocionados.
 
-1. Defina el número de espacios del diseño que se utilizarán para los elementos promocionados.
+   Se pueden usar hasta 20 espacios, según el diseño de [!DNL Recommendations]. Cada ranura utilizada no está disponible para las recomendaciones devueltas según los criterios.
 
-   Puede utilizar hasta 20 espacios en función de su diseño de [!DNL Recommendations]. Todos los espacios que utilice dejarán de estar disponibles para las recomendaciones ofrecidas a partir de sus criterios.
+1. Establezca una fecha de **inicio** y una fecha de **fin** para los elementos promocionados.
 
-1. Defina una fecha de inicio y una fecha de finalización para los elementos promocionados.
+   Si no se establece ninguna fecha de inicio, la promoción se inicia inmediatamente. Si no se establece ninguna fecha de finalización, la promoción se ejecuta indefinidamente.
 
-   Si no define una fecha de inicio, la promoción se inicia inmediatamente. Si no define una fecha de finalización, la promoción se ejecuta indefinidamente.
+1. Seleccionar un **[!UICONTROL tipo de promoción]**:
 
-1. Seleccione un **[!UICONTROL tipo de promoción]**.
+   * **[!UICONTROL Lista de elementos]**: escriba los valores `entity.id` de los elementos que desea promocionar, separados por comas.
+   * **[!UICONTROL Promocionar por atributo]**: agregue reglas para definir los atributos de los elementos que se promocionarán. Esta opción permite coincidencias dinámicas mediante reglas de inclusión estáticas y dinámicas. Para obtener información detallada, ejemplos y casos de uso, consulte [Usar reglas de inclusión dinámicas y estáticas](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
+   * **[!UICONTROL Promocionar una colección]**: elija la colección de elementos que desea promocionar. Se pueden crear nuevas colecciones para las promociones. Ver [Crear una colección](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08).
 
-   * Seleccione **[!UICONTROL Lista de elementos]** e introduzca los valores de `entity.id`, separados por comas, de los elementos específicos que desea promocionar.
+   El tipo de promoción también determina el orden de los elementos promocionados. Consulte [Tipos de promociones y criterio de ordenación](#promotion-sort-order).
 
-   * Seleccione **[!UICONTROL Promocionar por atributo]** y agregue reglas para definir los atributos de los elementos que desea promocionar.
-
-     Si selecciona [!UICONTROL Promocionar por atributo], puede crear coincidencias dinámicas. Para obtener más información, vea [Usar reglas de inclusión dinámicas y estáticas](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
-
-   * Seleccione **[!UICONTROL Promocionar una colección]** y elija la colección de elementos que desea promocionar.
-
-     Puede crear nuevas colecciones para utilizarlas en las promociones. Consulte [Crear una colección](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) para obtener más información.
-
-   Si elige **[!UICONTROL Lista de elementos]** como **[!UICONTROL Tipo de promoción]**, puede activar la casilla de verificación **[!UICONTROL Ordenar elementos de forma aleatoria]**, si lo desea.
-
-   El criterio de ordenación predeterminado de [!UICONTROL Lista de elementos] se basa en el orden especificado en la interfaz de usuario o la API de [!DNL Target]. Si la lista incluye más elementos que el número de espacios establecido para las promociones, la opción [!UICONTROL Ordenar elementos de forma aleatoria] asignará al azar los elementos promocionados que se muestran en el diseño. Elegir esta opción hace que [!DNL Target] seleccione aleatoriamente los elementos habilitados para las promociones en la plantilla de todo el conjunto de promociones en cada visita.
-
-   Si las entidades no tienen un atributo `entity.value` (por ejemplo, no vende productos), puede pasar un valor numérico al atributo `entity.value`, como la fecha de publicación. En este caso, los elementos promocionados se pueden promocionar en función de la fecha de publicación más reciente, en orden descendente. El atributo `entity.value` es de tipo double; no acepta cadenas.
-
-   Si seleccionó la opción **[!UICONTROL Promocionar por atributo]** o **[!UICONTROL Promocionar una colección]**, la opción para asignar aleatoriamente el pedido no es aplicable.
-
-   Al promocionar elementos específicos mediante las opciones [!UICONTROL Promocionar por atributo] o [!UICONTROL Promocionar una colección], el orden predeterminado en que se presentan los elementos se basa en el atributo `entity.value`, en orden numérico descendente.
-
-   La siguiente tabla ilustra las diferencias entre estas opciones:
-
-   | Tipo de promoción | Orden predeterminado | Orden de copia | Opción de filtrado dinámico |
-   | --- | --- | --- | --- |
-   | [!UICONTROL Lista de elementos] | Pedido introducido en la IU/API de Target | Aleatorio (cuando se selecciona mediante la interfaz de usuario/API) | No |
-   | [!UICONTROL Promocionar por atributo] | `entity.value` (orden descendente) | Sin aleatorización | Sí |
-   | [!UICONTROL Promocionar una colección] | `entity.value` (orden descendente) | Sin aleatorización | No |
+   ![Cambiar cuadro de diálogo de promoción con las opciones Tipo de promoción resaltadas: Lista de elementos, Promocionar por atributo y Promocionar una colección](/help/main/c-recommendations/t-create-recs-activity/assets/promotion_type.png)
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Las promociones se aplican a todas las experiencias de la actividad.
+
+## Tipos de promociones y criterio de ordenación {#promotion-sort-order}
+
+El orden de los elementos promocionados depende del tipo de promoción, como se muestra en la tabla siguiente.
+
+| Tipo de promoción | Orden predeterminado | Orden de copia | Opción de filtrado dinámico |
+| --- | --- | --- | --- |
+| **[!UICONTROL Lista de elementos]** | Orden ingresado en la interfaz de usuario o API de [!DNL Target] | Aleatorio (cuando se selecciona mediante la interfaz de usuario o la API) | No |
+| **[!UICONTROL Promocionar por atributo]** | `entity.value` (orden descendente) | Sin aleatorización | Sí |
+| **[!UICONTROL Promocionar una colección]** | `entity.value` (orden descendente) | Sin aleatorización | No |
+
+* **[!UICONTROL Lista de elementos]**: el criterio de ordenación predeterminado es el orden introducido en la interfaz de usuario o la API de [!DNL Target]. La casilla de verificación **[!UICONTROL Ordenar elementos de forma aleatoria]** está disponible para este tipo. Cuando la lista incluye más elementos que el número de espacios definido para las promociones, esta opción aleatoriza qué elementos promocionados se muestran en el diseño. En cada visita, [!DNL Target] selecciona aleatoriamente los elementos habilitados para las promociones en la plantilla de todo el conjunto de promociones.
+* **[!UICONTROL Promocionar por atributo]** y **[!UICONTROL Promocionar una colección]**: El orden predeterminado se basa en el atributo `entity.value`, en orden numérico descendente. No es aplicable el orden aleatorio.
+
+Si las entidades no tienen un atributo `entity.value` (por ejemplo, la empresa no vende productos), se puede pasar un valor numérico como la fecha de publicación al atributo `entity.value`. A continuación, los elementos promocionados se ordenan por la fecha de publicación más reciente, en orden descendente. El atributo `entity.value` es del tipo double y no acepta cadenas.

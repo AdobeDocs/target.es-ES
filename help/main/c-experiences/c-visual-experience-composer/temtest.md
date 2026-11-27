@@ -21,14 +21,20 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 23%
+source-wordcount: '569'
+ht-degree: 17%
 ---
-# Incluir la misma experiencia en páginas similares
+# Incluir la misma experiencia en páginas similares {#similar-pages}
 
-Use una plantilla de página en [!DNL Adobe Target] para dar estructura a las páginas, o si las páginas contienen elementos similares, para probar variaciones en elementos de página de estructura similar o en todo el dominio.
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar las reglas de entrega de páginas en el [!UICONTROL Compositor de experiencias visuales] (VEC) para incluir la misma experiencia en páginas que tienen una estructura similar.
+
+>[!ENDSHADEBOX]
+
+Una plantilla de página de [!DNL Adobe Target] proporciona estructura a las páginas. Cuando las páginas contienen elementos similares, las variaciones en esos elementos de página de estructura similar se pueden probar en varias páginas o en un dominio completo.
 
 Para funcionar correctamente, esta función debe utilizarse en páginas que tengan una estructura similar o que contengan elementos de plantilla que estén estructurados igual en todas las páginas.
 
@@ -36,66 +42,54 @@ Para funcionar correctamente, esta función debe utilizarse en páginas que teng
 >
 >El uso de esta función para cambiar elementos en páginas que no son similares probablemente cause resultados inesperados.
 
-Por ejemplo, puede utilizar esta característica para una de las operaciones siguientes:
+Esta función se puede utilizar, por ejemplo, para realizar una de las siguientes acciones:
 
 * Probar una barra de navegación global reorganizando o quitando elementos.
 * Quitar un elemento de todas las páginas de productos que usen una plantilla de página en particular.
 * Añadir un banner a todas las páginas de productos.
 * Cambiar el diseño de la plantilla de artículo
 
-Puede especificar páginas que incluyan los elementos modificados o aplicar los cambios a todo el sitio o dominio.
+## Especificar las páginas para una experiencia {#specify-pages}
+
+Las páginas en las que aparece una experiencia se especifican mediante reglas de entrega de páginas. Las reglas pueden incluir páginas específicas o aplicar los cambios en el sitio o dominio.
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md).
 
-1. Para especificar las páginas en las que aparecerá la experiencia, en el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono [!UICONTROL Configurar] ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
+1. En el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono **[!UICONTROL Configurar]** ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
-1. Haga clic en **[!UICONTROL Agregar regla]** y, a continuación, especifique los criterios para las páginas en las que quiera agregar la experiencia.
+   ![Actividades](assets/vec_edit_1.png)
 
-1. Especifique el intervalo de páginas. El intervalo de páginas puede ser uno de los siguientes:
+1. Haga clic en **[!UICONTROL Agregar regla]** y, a continuación, especifique los criterios para que las páginas agreguen la experiencia.
 
-   * [!UICONTROL URL] (para obtener más información sobre cómo evalúa [!DNL Target] las URL, consulte [Preguntas frecuentes sobre objetivos y audiencias](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)).
-   * [!UICONTROL Dominio]
-   * [!UICONTROL Ruta]
-   * [!UICONTROL Fragmento almohadilla (#)] (el destino es la parte de una dirección URL que sigue al símbolo #).
-   * [!UICONTROL Consulta]
-   * [!UICONTROL Personalizado]
+1. Especifique el intervalo de páginas: **[!UICONTROL URL]**, **[!UICONTROL Dominio]**, **[!UICONTROL Ruta]**, **[!UICONTROL Fragmento almohadilla (#)]** (la parte de una dirección URL que sigue al símbolo #), **[!UICONTROL Consulta]** o **[!UICONTROL Personalizado]**.
 
-1. Seleccione un operador.
+   Para obtener más información sobre cómo evalúa [!DNL Target] las direcciones URL, consulte [Preguntas frecuentes sobre objetivos y audiencias](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
 
-   El operador especifica cómo se relacionan los elementos que hay a continuación del operador con el intervalo de páginas. Los operadores disponibles incluyen:
+   ![Actividades](assets/vec_edit_2.png)
 
-   * [!UICONTROL Contiene]
-   * [!UICONTROL No contiene]
-   * [!UICONTROL distingue entre mayúsculas y minúsculas]
-   * [!UICONTROL No es]
-   * [!UICONTROL Comienza con]
-   * [!UICONTROL Termina con]
+1. Seleccione un operador. El operador especifica cómo se relacionan los elementos que hay a continuación del operador con el intervalo de páginas.
 
 1. Escriba las cadenas que establecen dónde se agregará la experiencia, como el dominio o las cadenas contenidas en el nombre de la página.
 
-   Por ejemplo, si selecciona **[!UICONTROL Dominio]** y **[!UICONTROL Es (distingue mayúsculas de minúsculas)]**, escriba el dominio en el que desea que se agregue la experiencia a todas las páginas.
+   Por ejemplo, si se seleccionan **[!UICONTROL Dominio]** y **[!UICONTROL Es (distingue mayúsculas de minúsculas)]**, escriba el dominio en el que se agregará la experiencia a todas las páginas.
 
-   Puede incluir varios elementos.
+   Se pueden incluir varios elementos. Cuando varios elementos utilizan la lógica OR, lo que significa que cualquier elemento de la lista hace que la condición sea verdadera.
 
-   >[!IMPORTANT]
-   >
-   >Cuando varios elementos utilizan la lógica OR, lo que significa que cualquier elemento de la lista hace que la condición sea verdadera.
-
-1. Si lo desea, escriba otros criterios adicionales haciendo clic en **[!UICONTROL Agregar regla]** y repitiendo el procedimiento de los pasos anteriores.
+1. (Opcional) Haga clic en **[!UICONTROL Agregar regla]** y repita los pasos del 3 al 6 para escribir criterios adicionales.
 
    Cuando hay varios criterios se unen entre sí con la lógica AND. [!DNL Target] agrega la experiencia a todas las páginas que cumplan los criterios especificados.
 
 >[!IMPORTANT]
 >
-> [!DNL Target] no puede comprobar las páginas para asegurarse de que se muestran según lo esperado, por lo que siempre que se utiliza esta característica es recomendable probar las páginas afectadas antes de hacerlas públicas.
+>[!DNL Target] no puede comprobar las páginas para asegurarse de que se muestran según lo esperado, por lo que siempre que se utiliza esta característica es recomendable probar las páginas afectadas antes de hacerlas públicas.
 
-## Casos de uso
+## Casos de uso {#use-cases}
 
-Revise los siguientes casos de uso para ver las formas de utilizar las reglas de plantilla en su sitio:
+Las reglas de plantilla se pueden utilizar en un sitio de diferentes maneras, como se muestra en el siguiente caso de uso.
 
-### Procesar la misma actividad en todo el dominio
+### Procesar la misma actividad en todo el dominio {#entire-domain}
 
-Puede considerar la posibilidad de utilizar reglas de plantilla para procesar la misma actividad en todo el dominio en los siguientes casos de uso:
+Las reglas de plantilla pueden procesar la misma actividad en todo el dominio, por ejemplo:
 
 * Para incluir un encabezado o pie de página global
 * Para incluir un banner global (por ejemplo, anuncios de COVID-19)
@@ -103,8 +97,10 @@ Puede considerar la posibilidad de utilizar reglas de plantilla para procesar la
 
 1. Cree o edite una actividad como se describe en [Actividades](/help/main/c-activities/activities.md).
 
-1. Para especificar el dominio donde aparece la experiencia, en el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono [!UICONTROL Configurar] ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
+1. Para especificar el dominio donde aparece la experiencia, en el [!UICONTROL Compositor de experiencias visuales], haga clic en el icono **[!UICONTROL Configurar]** ( ![Icono Configurar](/help/main/assets/icons/Setting.svg) ) y, a continuación, seleccione **[!UICONTROL Entrega de páginas]**.
 
 1. Haga clic en **[!UICONTROL Agregar regla]** > **[!UICONTROL Dominio]**.
 
 1. En la lista desplegable **[!UICONTROL Elegir evaluador]**, seleccione **[!UICONTROL Contiene]** y, a continuación, especifique el dominio.
+
+   ![Actividades](assets/vec_edit_3.png)

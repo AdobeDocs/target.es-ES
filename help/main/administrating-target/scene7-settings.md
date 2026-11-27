@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Para ver cómo encaja esta ficha con otras tareas de administración, consulte [
 
 ## Qué habilita la integración {#what-it-enables}
 
-Cuando la **[!UICONTROL configuración de Scene7]** está configurada, los autores pueden utilizar imágenes cargadas en la carpeta de recursos [!DNL Adobe Experience Cloud] en [!DNL Target] actividades. La opción **[!UICONTROL Intercambiar oferta de imagen]** aparece en el flujo de trabajo de la actividad, incluidos [Compositor de experiencias visuales y Compositor de experiencias basadas en formularios](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Para ver el comportamiento de intercambio en el VEC, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Cuando la **[!UICONTROL configuración de Scene7]** está configurada, los autores pueden utilizar imágenes cargadas en la carpeta de recursos [!DNL Adobe Experience Cloud] en [!DNL Target] actividades. La opción **[!UICONTROL Intercambiar oferta de imagen]** aparece en el flujo de trabajo de la actividad, incluidos [Compositor de experiencias visuales y Compositor de experiencias basadas en formularios](/help/main/c-experiences/experiences.md#experiences-overview). Para ver el comportamiento de intercambio en el VEC, consulte [Opciones del Compositor de experiencias visuales](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 Si esta opción no está configurada, **[!UICONTROL Intercambiar oferta de imagen]** no estará disponible durante la creación de la actividad.
 

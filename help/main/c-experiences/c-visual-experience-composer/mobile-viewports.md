@@ -16,96 +16,79 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 89%
+source-wordcount: '1126'
+ht-degree: 19%
 ---
-# Ventanillas móviles para las experiencias adaptables
+# Ventanillas móviles para las experiencias adaptables {#mobile-viewports}
 
-Las ventanillas móviles permiten obtener una vista previa de cómo aparecen las actividades de [!DNL Adobe Target] en pantallas de diversos tamaños.
+>[!BEGINSHADEBOX]
 
-La función de vista previa de ventanilla móvil está diseñada para sitios adaptables que se renderizan bien en varios dispositivos, ventanas y tamaños de pantalla. Los sitios adaptables se ajustan y adaptan automáticamente a cualquier tamaño de pantalla, incluidos escritorios, portátiles, tabletas o teléfonos móviles.
+**En esta página:** Aprenda a configurar las ventanillas móviles y a utilizarlas para obtener una vista previa y crear experiencias para pantallas de diversos tamaños.
+
+>[!ENDSHADEBOX]
+
+Las ventanillas móviles muestran [!DNL Adobe Target] actividades en los tamaños de pantalla de varios dispositivos. Están diseñadas para sitios adaptables, que se adaptan automáticamente a equipos de escritorio, portátiles, tabletas y teléfonos móviles, y permiten comprobar que una experiencia se procesa bien en cada uno de ellos.
 
 >[!NOTE]
 >
-> * Use ventanillas móviles si su sitio se adapta y si en la página móvil se usan los mismos elementos que en su página de escritorio, con otra configuración. Si tiene un sitio móvil independiente con otra estructura como, por ejemplo, `m.mysite.com`, utilice una [actividad multipágina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
+> * Utilice ventanillas móviles cuando el sitio sea adaptable y la página móvil vuelva a utilizar los elementos de la página de escritorio con un diseño diferente. Cuando el sitio móvil sea independiente y tenga su propia estructura, como `m.mysite.com`, use una [actividad multipágina](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) en su lugar.
 >
->* Las ventanillas móviles no están disponibles si quedan superpuestas por una superposición de oferta de redireccionamiento.
+>* Las ventanillas móviles no están disponibles cuando una superposición de oferta de redireccionamiento se superpone con ellas.
 
-Una ventanilla móvil está definida por el tamaño del rectángulo que se rellena con una página web en la pantalla. La ventanilla es el tamaño de la ventana del explorador, menos las barras de desplazamiento y las barras de herramientas. Los navegadores usan “píxeles de CSS”. Para muchos dispositivos, como los que tienen pantallas de retina, la ventanilla móvil es menor que la resolución anunciada para el dispositivo.
+## Ventanillas y puntos de interrupción CSS
 
-A continuación tiene las ventanillas móviles y las resoluciones de dispositivos populares. No se olvide de usar el tamaño de la ventanilla móvil en [!DNL Target].
+Una ventanilla móvil es el área de la pantalla que rellena una página web: el tamaño de la ventana del explorador, menos las barras de desplazamiento y las barras de herramientas. Los navegadores lo miden en píxeles CSS, por lo que en muchos dispositivos, como los que tienen pantallas de retina, la ventanilla es más pequeña que la resolución del dispositivo anunciada. Utilice siempre el tamaño de ventanilla móvil en [!DNL Target]. La siguiente tabla enumera ambos valores para dispositivos populares.
+
++++ Ventanillas y resoluciones de dispositivos populares
 
 >[!NOTE]
 >
 >Diversos sitios web enumeran los tamaños de las ventanillas para dispositivos populares. Por ejemplo, consulte `https://viewportsizer.com/devices/`. Consulte el sitio web del fabricante del dispositivo para obtener la información más precisa y actualizada.
+>
+>Tamaños de las ventanillas marcadas como &quot;est&quot;. son estimaciones.
 
 | Dispositivo | Tamaño de la ventanilla (anchura x altura) | Resolución del dispositivo (ancho x alto) |
 |---|---|---|
-| iPhone 12 | 390 x 844 | 1170 x 2532 |
-| iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
-| iPhone 12 Pro | 390 x 844 | 1170 x 2532 |
-| iPhone 12 Pro Max | 428 x 926 | 1248 x 2778 |
-| iPhone SE | 214 x 379 | 640 x 1136 |
-| iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
-| iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
-| iPhone 11 | 414 x 896 | 828 x 1792 |
-| iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
-| iPhone 11 X | 375 x 812 | 1125 x 2436 |
-| iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
-| iPhone X | 375 x 812 | 1125 x 2436 |
-| iPhone 8 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 8 | 375 x 667 | 750 x 1334 |
-| iPhone 7 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 7 | 375 x 667 | 750 x 1334 |
-| iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 6s | 375 x 667 | 750 x 1334 |
-| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 6 | 375 x 667 | 750 x 1334 |
-| iPad Pro | 1024 x 1366 | 2048 x 2732 |
-| iPad de tercera y cuarta generación | 768 x 1024 | 1536 x 2048 |
-| iPad Air 1 y 2 | 768 x 1024 | 1536 x 2048 |
-| iPad Mini | 768 x 1024 | 768 x 1024 |
-| iPad Mini 2 y 3 | 768 x 1024 | 1536 x 2048 |
-| Nexus 6P | 411 x 731 | 1440 x 2560 |
-| Nexus 5X | 411 x 731 | 1080 x 1920 |
-| Google Pixel | 411 x 731 | 1080 x 1920 |
-| Google Pixel XL | 411 x 731 | 1440 x 2560 |
-| Google Pixel 2 | 411 x 731 | 1080 x 1920 |
-| Google Pixel 2 XL | 411 x 823 | 1440 x 2880 |
-| Samsung Galaxy Note 5 | 480 x 853 | 1440 x 2560 |
-| LG G5 | 360 x 640 | 1440 x 2560 |
-| LG G4 | 360 x 640 | 1440 x 2560 |
-| LG G3 | 360 x 640 | 1440 x 2560 |
-| One Plus 3 | 480 x 853 | 1080 x 1920 |
-| Samsung Galaxy S9 | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S9+ | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S8 | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S8+ | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S7 | 360 x 640 | 1440 x 2560 |
-| Samsung Galaxy S7 Edge | 360 x 640 | 1440 x 2560 |
-| Nexus 7 (2013) | 600 x 960 | 1200 x 1920 |
-| Nexus 9 | 768 x 1024 | 1536 x 2048 |
-| Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
-| Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
+| iPhone 18 Pro Max | 440 x 956 | 1320 x 2868 |
+| iPhone 18 Pro | 402 x 874 | 1206 x 2622 |
+| iPhone 17 Pro Max | 440 x 956 | 1320 x 2868 |
+| iPhone 17 Pro | 402 x 874 | 1206 x 2622 |
+| iPhone Air | 420 x 912 | 1260 x 2736 |
+| iPhone 17 | 402 x 874 | 1206 x 2622 |
+| iPhone 16e | 390 x 844 | 1170 x 2532 |
+| iPad (A16) | 820 x 1180 | 1640 x 2360 |
+| iPad mini (A17 Pro) | 744 x 1133 | 1488 x 2266 |
+| iPad Air 11″ (M3/M4) | 820 x 1180 | 1640 x 2360 |
+| iPad Pro 11″ (M5) | 834 x 1210 | 1668 x 2420 |
+| Google Pixel 11 | 412 x 924 (est.) | 1080 x 2424 |
+| Google Pixel 11 Pro | 410 x 914 (est.) | 1280 x 2856 |
+| Google Pixel 11 Pro XL | 448 x 997 (est.) | 1344 x 2992 |
+| Google Pixel 10 | 412 x 924 | 1080 x 2424 |
+| Google Pixel 10 Pro | 410 x 914 (est.) | 1280 x 2856 |
+| Google Pixel 10 Pro XL | 448 x 997 (est.) | 1344 x 2992 |
+| Samsung Galaxy S26 | 360 x 780 | 1080 x 2340 |
+| Samsung Galaxy S26 Ultra | 412 x 891 | 1440 x 3120 |
+| iPhone Duo (desplegado) | 890 x 626 (est.) | 2670 x 1878 |
+| iPhone Duo (plegado) | 466 x 678 (est.) | 1398 x 2034 |
+| Samsung Galaxy Z Fold 7 (plegado) | 412 x 960 (est.) | 1080 x 2520 |
+| Samsung Galaxy Z Flip 8 | 360 x 840 (est.) | 1080 x 2520 |
+| Google Pixel 11 Pro Fold (desplegado) | 791 x 820 (est.) | 2076 x 2152 |
 
-Para ofrecer una actividad en un dispositivo concreto, elija el público adecuado para ese dispositivo en el diagrama de la actividad. Use el Compositor web móvil para editar la página en la actividad de dicho dispositivo. Para ejecutar una actividad en toda la experiencia digital y garantizar que tenga el aspecto adecuado en todos los dispositivos, no aplique la segmentación. En su lugar, utilice ventanillas móviles para previsualizar la actividad en cada tamaño de pantalla.
++++
 
-Si tiene un sitio adaptable, se suele diseñar para que se abra en una vista diferente cuando accede un dispositivo con un tamaño de pantalla concreto. Los tamaños de pantalla que activan las vistas nuevas se conocen como puntos de interrupción CSS. Los puntos de interrupción CSS son puntos en los que el contenido del sitio web responde en función del ancho del dispositivo para mostrar el diseño óptimo a los visitantes. Los puntos de interrupción CSS también se denominan [consultas de medios](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
+Un sitio adaptable cambia a un diseño diferente en tamaños de pantalla específicos. Estos tamaños se denominan puntos de interrupción CSS o [consultas de medios](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). Guardar los puntos de interrupción CSS del sitio en [!DNL Target] permite obtener una vista previa de cada vista, y al hacer clic en una ventanilla a lo largo de la parte superior de la pantalla se abre la vista para ese tamaño de pantalla.
 
-Guarde los puntos de interrupción CSS en [!DNL Target] para poder previsualizar las experiencias de cada vista que defina. Cada una de estas experiencias se muestra en una ventanilla móvil en la interfaz de [!DNL Target]. En la parte superior de la pantalla, haga clic en la ventanilla móvil correspondiente para abrir la vista de cada tamaño de pantalla.
-
-Aunque su sitio no sea adaptable, puede usar el Compositor web móvil para ver un sitio si la actividad está dirigida a un dispositivo concreto.
+Para enviar una actividad a un dispositivo concreto, seleccione la audiencia de dicho dispositivo en el diagrama de actividad y, a continuación, edite la página de dicho dispositivo en el Compositor web móvil. La misma herramienta se utiliza para ver un sitio que no responde cuando la actividad se dirige a un dispositivo específico. Para ejecutar una actividad en todos los dispositivos, no aplique ningún objetivo y previsualice la actividad en cada tamaño de pantalla con ventanillas móviles.
 
 >[!IMPORTANT]
 >
->Puede editar una experiencia desde las ventanillas móviles. Sin embargo, estos cambios se aplican a todas las ventanillas móviles y dispositivos, no solo a la ventanilla móvil en la que está trabajando. De modo similar, si edita una experiencia en la vista de escritorio normal, se cambia la página en todos los tamaños de pantalla, no solo en la vista de escritorio. Actualmente, [!DNL Target] no admite cambios de página específicos de ventanilla móvil.
+>Las experiencias se pueden editar desde las ventanillas móviles, pero los cambios se aplican a todas las ventanillas y todos los dispositivos, no solo a la ventanilla móvil en uso. Del mismo modo, si edita una experiencia en la vista de escritorio, se cambia la página en todos los tamaños de pantalla. [!DNL Target] no admite actualmente cambios de página específicos de ventanilla móvil.
 
 ## Configuración de las ventanillas móviles {#task_B4B161499DC0470584ED922A4D20FCAB}
 
-Configure las ventanillas móviles que quiera que estén disponibles cuando cree sus experiencias.
+Defina las ventanillas móviles que están disponibles al crear experiencias.
 
 1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Compositor de experiencias visuales]**.
 1. En la sección **[!UICONTROL Configuración de ventanillas móviles]**, haga clic en **[!UICONTROL Agregar]**.
@@ -114,16 +97,10 @@ Configure las ventanillas móviles que quiera que estén disponibles cuando cree
 
    O
 
-   Para cambiar la configuración de una ventanilla móvil existente, selecciónela y luego haga clic en el icono [!UICONTROL Editar] (lápiz).
+   Para cambiar la configuración de una ventanilla móvil existente, selecciónela y luego haga clic en el icono **[!UICONTROL Editar]** (lápiz).
 
-1. Escriba un nombre para la ventanilla móvil.
-
-   Póngale un nombre descriptivo para que sea fácil reconocerla. El nombre puede tener hasta 36 caracteres.
-
-1. Especifique el tamaño de pantalla del dispositivo móvil, tanto la anchura como la altura.
-
-   La anchura puede ser de 150 a 968 píxeles. La altura puede ser de 150 a 1280 píxeles.
-
+1. Escriba un nombre descriptivo para la ventanilla móvil. El nombre puede tener hasta 36 caracteres.
+1. Introduzca el tamaño de pantalla del dispositivo móvil. La anchura puede ser de 150 a 968 píxeles y la altura puede ser de 150 a 1280 píxeles.
 1. (Opcional) Seleccione el sistema operativo del dispositivo.
 
    Opciones:
@@ -134,20 +111,20 @@ Configure las ventanillas móviles que quiera que estén disponibles cuando cree
    * Symbian
    * BlackBerry
 
-   Si usa el [Compositor de experiencias mejorado](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) y elige un sistema operativo, [!DNL Target] imita ese dispositivo cuando visualiza la página. Si, por ejemplo, existe un aspecto diferente para Android y para iOS en su sitio adaptable, [!DNL Target] imita ese comportamiento.
+   Si el [Compositor de experiencias mejorado](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) está habilitado y se selecciona un sistema operativo, [!DNL Target] emula ese dispositivo cuando se visualiza la página. Por ejemplo, si el sitio adaptable tiene un aspecto diferente para Android y para iOS, [!DNL Target] imita ese comportamiento.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Si intenta eliminar una ventanilla móvil en uso, se muestra el siguiente mensaje: “Actualmente, esta ventanilla está asociada a una o varias actividades. Debe quitar la ventanilla móvil de esas actividades antes de poder eliminarla”.
+>Al intentar eliminar una ventanilla móvil en uso, se muestra el siguiente mensaje: &quot;Actualmente, esta ventanilla está asociada a una o varias actividades. Debe quitar la ventanilla móvil de esas actividades antes de poder eliminarla”.
 
 ## Crear una experiencia adaptable {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Agregue ventanillas móviles a las actividades de [!DNL Target] para crear experiencias adaptables para las pantallas móviles.
+Agregue ventanillas móviles a las actividades [!DNL Target] para crear experiencias adaptables para las pantallas móviles.
 
 1. Cree la variable [actividad deseada](/help/main/c-activities/activities.md).
-1. En el [!UICONTROL Compositor de experiencias visuales] (VEC), haga clic en el icono de engranaje de **[!UICONTROL Configuración]** y, a continuación, seleccione **[!UICONTROL Agregar ventanillas móviles]**.
+1. En el **[!UICONTROL Compositor de experiencias visuales]** (VEC), haga clic en el icono de engranaje de **[!UICONTROL Configuración]** y, a continuación, seleccione **[!UICONTROL Agregar ventanillas móviles]**.
 
    ![Opción Agregar ventanillas móviles](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -157,25 +134,21 @@ Agregue ventanillas móviles a las actividades de [!DNL Target] para crear exper
 
    Las ventanillas móviles se muestran de la más grande a la más pequeña en anchura.
 
-1. Edite las ventanillas móviles según quiera.
-
-   Los cambios que realice en la experiencia se aplicarán a la experiencia en todos los dispositivos. Por ejemplo, puede cambiar el texto de un encabezado.
-
-   Pase el cursor por encima del nombre de una ventanilla móvil para ver su tamaño.
+1. Edite la experiencia en las ventanillas móviles según sea necesario. Cualquier cambio se aplica a la experiencia en todos los dispositivos, por ejemplo un cambio en el texto de un encabezado. Pase el ratón sobre el nombre de una ventanilla móvil para ver su tamaño.
 
    ![Experiencia adaptable de iPhone 11 Pro Max](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
 
-1. Si quiere, haga clic en el icono de orientación para cambiar entre los modos horizontal y vertical.
+1. (Opcional) Haga clic en el icono de orientación para cambiar entre los modos horizontal y vertical.
 
    ![Opciones de orientación](/help/main/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
 ## Vídeos de formación
 
-Los siguientes vídeos contienen más información sobre los conceptos mencionados en este artículo.
+Los siguientes vídeos contienen más información sobre las ventanillas móviles.
 
 ### Compositor de experiencias visuales (2 de 2) (7:29) ![Distintivo de información general](/help/main/assets/overview.png)
 
-El siguiente vídeo de demostración incluye información sobre cómo usar el Compositor de experiencias visuales para trabajar con ventanillas móviles:
+El siguiente vídeo de demostración incluye información sobre el uso del Compositor de experiencias visuales para trabajar con ventanillas móviles:
 
 * Cambiar el nombre de una experiencia y duplicarla
 * Crear una experiencia de redirección
@@ -184,10 +157,10 @@ El siguiente vídeo de demostración incluye información sobre cómo usar el Co
 * Obtener una vista previa y generar experiencia para sitios web adaptables
 * Usar superposiciones para destacar tipos de elementos
 
->[!VIDEO](https://video.tv.adobe.com/v/30130?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Preferencias de cuenta en Adobe Target ![Distintivo Información general](/help/main/assets/overview.png)
 
 En este vídeo se explica cómo configurar las ventanillas móviles a partir del minuto 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507628?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)
