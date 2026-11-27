@@ -2,7 +2,7 @@
 keywords: solución de problemas;preguntas más frecuentes;FAQ;recomendaciones;caracteres especiales;ponderación de atributos;similitud de contenido
 description: Vea una lista de preguntas frecuentes y sus respuestas acerca de [!DNL Target Recommendations] actividades.
 title: ¿Dónde puedo encontrar preguntas y respuestas acerca de [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ Si el visitante no tiene dos sesiones activas a la vez, los artículos vistos re
 
 Los criterios disponibles dependen de la categoría actual. Cuando se crean ofertas de recomendaciones, el selector de algoritmo muestra criterios basados en el ID de categoría. Si la ubicación donde se aplican los criterios no contiene el ID de categoría, determinados criterios no están disponibles en el selector de algoritmo. Si se utiliza una ubicación en la que el ID de categoría está presente en el mbox, el selector de criterios contendrá todos los criterios aplicables.
 
-[!DNL Target] tiene un valor de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} que controla el filtrado inteligente del selector de algoritmo. Para obtener acceso al valor **[!UICONTROL Filtrar los criterios no compatibles]**, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Recommendations]**.
+[!DNL Target] tiene un valor de [Filtrar los criterios no compatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank} que controla el filtrado inteligente del selector de algoritmo. Para obtener acceso al valor **[!UICONTROL Filtrar los criterios no compatibles]**, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Recommendations]**.
 
 ![Página de configuración de Recommendations con la opción Filtrar los criterios no compatibles resaltada](assets/recs_settings_filter.png)
 

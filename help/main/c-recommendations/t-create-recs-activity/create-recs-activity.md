@@ -2,7 +2,7 @@
 keywords: crear recomendaciones;actividad de recomendaciones;nuevas recomendaciones;información general de recomendaciones
 description: Aprenda a usar el [!DNL Target] [!UICONTROL Compositor de experiencias visuales] (VEC) para crear una actividad de [!DNL Recommendations].
 title: Crear una actividad [!DNL Recommendations]
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ La dirección URL de actividad y la ubicación definen la página y el área de 
 
 1. Especifique la URL de la actividad y haga clic en **[!UICONTROL Crear]**.
 
-   La dirección URL de actividad es la página donde se muestran las recomendaciones. [!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]), por lo que `http://www.adobe.com` y `https://www.adobe.com` coinciden.
+   La dirección URL de actividad es la página donde se muestran las recomendaciones. [!DNL Target] no diferencia entre los protocolos de URL ([!DNL https] y [!DNL http]), por lo que `http://www.adobe.com/es` y `https://www.adobe.com/es` coinciden.
 
    El VEC se abre y muestra la página.
 
@@ -101,7 +101,7 @@ Los criterios determinan qué artículos se recomiendan y cómo se eligen para c
 
    >[!NOTE]
    >
-   >No todos los criterios se ejecutan correctamente en cada página. Para que las recomendaciones de artículo o categoría actual sean compatibles, la página o el mbox deben pasar `entity.id` o `entity.categoryId`. Es mejor mostrar solo criterios compatibles. Para que haya criterios incompatibles disponibles para la actividad, desactive la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre esta casilla de verificación, según la configuración de **[!UICONTROL Administración]** > **[!UICONTROL Recomendaciones]** > **[!UICONTROL Filtrar criterios no compatibles]**. Para obtener más información, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >No todos los criterios se ejecutan correctamente en cada página. Para que las recomendaciones de artículo o categoría actual sean compatibles, la página o el mbox deben pasar `entity.id` o `entity.categoryId`. Es mejor mostrar solo criterios compatibles. Para que haya criterios incompatibles disponibles para la actividad, desactive la casilla de verificación **[!UICONTROL Compatible]**. Es posible que no se muestre esta casilla de verificación, según la configuración de **[!UICONTROL Administración]** > **[!UICONTROL Recomendaciones]** > **[!UICONTROL Filtrar criterios no compatibles]**. Para obtener más información, consulte [Configuración](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=es){target=_blank}.
 
 1. Opcionalmente, busque o cree criterios:
 
